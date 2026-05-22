@@ -8,5 +8,5 @@
   "ai_base_url": "ai-assist/",
   "ai_source": "slideseek-ai-assist",
   "api_base_url": "https://rosai-review-api-ai-assist-gkm46r7lpa-uc.a.run.app",
-  "require_passcode": false
+  "require_passcode": true
 }

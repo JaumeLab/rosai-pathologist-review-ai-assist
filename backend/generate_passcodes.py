@@ -20,7 +20,7 @@ def main() -> int:
     env_path.write_text(f'REVIEWER_PASSCODES="{env_value}"\n', encoding="utf-8")
 
     lines = [
-        "RosAI pathologist review — reviewer passcodes",
+        "RosAI AI-assist pathologist review — reviewer passcodes",
         "Keep private. Re-deploy with: ./deploy.sh",
         "",
     ]

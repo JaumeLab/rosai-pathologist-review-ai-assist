@@ -10,7 +10,15 @@ Distinct from the blinded study without AI assist: [rosai-pathologist-review](ht
 
 Pathologists use their personal link: `?reviewer=reviewer_1` … `reviewer_5`.
 
-No password required for this study.
+Each pathologist signs in with a personal link plus a **reviewer password** (same gate as the no-AI study).
+
+Generate reviewer passwords once (creates `backend/reviewer_passcodes.env`, gitignored):
+
+```bash
+cd backend
+python3 generate_passcodes.py
+./deploy.sh
+```
 
 ## Case pool
 
