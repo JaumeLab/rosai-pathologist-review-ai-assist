@@ -15,7 +15,7 @@ No password required for this study.
 ## Case pool
 
 - **61 cases** (SlideSeek exact top-1 match on the RosAI 100 benchmark)
-- **~12 cases per reviewer** (seed 42 shuffle)
+- **All 61 cases for every reviewer** (same pool; reviewer links only track who saved responses)
 
 ## Reviewer links
 

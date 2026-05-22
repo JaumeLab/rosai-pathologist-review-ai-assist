@@ -5,7 +5,6 @@ from __future__ import annotations
 
 import argparse
 import json
-import random
 import shutil
 from datetime import datetime, timezone
 from pathlib import Path
@@ -39,22 +38,16 @@ def load_correct_case_ids(cases_jsonl: Path) -> list[str]:
     return sorted(correct)
 
 
-def build_assignments(case_ids: list[str], *, seed: int, reviewers: int) -> dict:
-    shuffled = list(case_ids)
-    rng = random.Random(seed)
-    rng.shuffle(shuffled)
+def build_assignments(case_ids: list[str], *, reviewers: int) -> dict:
+    """Every reviewer gets the full exact-top-1 pool (same case list)."""
     reviewer_ids = [f"reviewer_{i}" for i in range(1, reviewers + 1)]
-    assignments = {rid: [] for rid in reviewer_ids}
-    for i, case_id in enumerate(shuffled):
-        assignments[reviewer_ids[i % reviewers]].append(case_id)
-    for rid in reviewer_ids:
-        assignments[rid].sort()
-    per = [len(assignments[rid]) for rid in reviewer_ids]
+    pool = list(case_ids)
+    assignments = {rid: pool for rid in reviewer_ids}
     return {
         "study_id": "rosai-ai-assist-correct-v1",
         "generated_at": datetime.now(timezone.utc).isoformat(),
-        "seed": seed,
-        "cases_per_reviewer": max(per),
+        "assignment_mode": "full_pool_per_reviewer",
+        "cases_per_reviewer": len(pool),
         "total_cases_in_pool": len(case_ids),
         "filter": "slideseek_exact_top1",
         "reviewers": [
@@ -94,7 +87,6 @@ def copy_ai_assist(case_ids: list[str], out_dir: Path) -> None:
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--cases-jsonl", type=Path, default=CASES_JSONL)
-    parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--reviewers", type=int, default=5)
     args = parser.parse_args()
 
@@ -107,7 +99,7 @@ def main() -> int:
     if not case_ids:
         raise SystemExit("No exact-top-1 cases found")
 
-    assignments = build_assignments(case_ids, seed=args.seed, reviewers=args.reviewers)
+    assignments = build_assignments(case_ids, reviewers=args.reviewers)
     (ROOT / "assignments.json").write_text(
         json.dumps(assignments, indent=2, ensure_ascii=False) + "\n",
         encoding="utf-8",
