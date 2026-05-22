@@ -1411,7 +1411,9 @@
     async function bootstrap() {
       try {
         config = await fetchJson(`config.json?v=${Date.now()}`);
-        assignments = await fetchJson(config.assignments_url || "assignments.json");
+        const assignmentsUrl = config.assignments_url || "assignments.json";
+        const assignmentsSep = assignmentsUrl.includes("?") ? "&" : "?";
+        assignments = await fetchJson(`${assignmentsUrl}${assignmentsSep}v=${Date.now()}`);
         manifest = await fetchJson(config.manifest_url || "manifest.json");
         try {
           const n = await loadAiIndex();

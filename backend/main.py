@@ -75,16 +75,9 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-_assignments_cache: dict[str, Any] | None = None
-
-
 def load_assignments() -> dict[str, Any]:
-    global _assignments_cache
-    if _assignments_cache is not None:
-        return _assignments_cache
     with urllib.request.urlopen(ASSIGNMENTS_URL, timeout=20) as resp:
-        _assignments_cache = json.load(resp)
-    return _assignments_cache
+        return json.load(resp)
 
 
 def validate_reviewer(reviewer_id: str) -> dict[str, str]:

@@ -6,7 +6,7 @@ PROJECT="${GCP_PROJECT:-jaumelab}"
 REGION="${GCP_REGION:-us-central1}"
 SERVICE="${SERVICE_NAME:-rosai-review-api-ai-assist}"
 IMAGE="gcr.io/${PROJECT}/${SERVICE}"
-ASSIGNMENTS_URL="https://raw.githubusercontent.com/JaumeLab/rosai-pathologist-review-ai-assist/main/assignments.json"
+ASSIGNMENTS_URL="https://raw.githubusercontent.com/JaumeLab/rosai-pathologist-review-ai-assist/main/assignments.json?v=full_pool61"
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 cd "$SCRIPT_DIR"
