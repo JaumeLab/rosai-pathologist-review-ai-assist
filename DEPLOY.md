@@ -10,9 +10,7 @@ cd rosai-pathologist-review-ai-assist
 git push -u origin main
 ```
 
-## 2. GitHub Pages
-
-Settings → Pages → **Deploy from branch** → `main` → `/ (root)` → Save.
+## 2. GitHub Pages (done)
 
 Live URL: **https://jaumelab.github.io/rosai-pathologist-review-ai-assist/**
 
@@ -25,15 +23,7 @@ URL: `https://rosai-review-api-ai-assist-gkm46r7lpa-uc.a.run.app`
 
 - Study ID: `rosai-ai-assist-correct-v1`
 - No passcodes (`require_passcode: false` in `config.json`)
-- Assignments served from GCS until GitHub raw URL is preferred
-
-Optional — switch API to GitHub assignments after push:
-
-```bash
-gcloud run services update rosai-review-api-ai-assist \
-  --project jaumelab --region us-central1 \
-  --update-env-vars "^@^ASSIGNMENTS_URL=https://raw.githubusercontent.com/JaumeLab/rosai-pathologist-review-ai-assist/main/assignments.json"
-```
+- Assignments served from GitHub (`assignments.json` on `main`)
 
 ## 4. Rebuild study (when AI bundles change)
 
