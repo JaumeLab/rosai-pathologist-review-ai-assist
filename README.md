@@ -42,7 +42,7 @@ python3 scripts/build_study.py
 git add -A && git commit -m "..." && ./publish.sh
 ```
 
-Enable GitHub Pages: Settings → Pages → branch `main`, folder `/`.
+Enable GitHub Pages once: [Settings → Pages](https://github.com/JaumeLab/rosai-pathologist-review-ai-assist/settings/pages) → branch **`main`**, folder **`/`** → Save.
 
 ### Review API (Cloud Run)
 
