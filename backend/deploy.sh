@@ -11,7 +11,7 @@ ASSIGNMENTS_URL="https://raw.githubusercontent.com/JaumeLab/rosai-pathologist-re
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 cd "$SCRIPT_DIR"
 
-ENV_VARS="^@^REVIEW_DB_BACKEND=firestore@STUDY_ID=rosai-ai-assist-correct-v1@ASSIGNMENTS_URL=${ASSIGNMENTS_URL}@CORS_ORIGINS=https://jaumelab.github.io|http://127.0.0.1:8772|http://localhost:8772@REVIEWER_PASSCODES="
+ENV_VARS="^@^REVIEW_DB_BACKEND=firestore@STUDY_ID=rosai-ai-assist-correct-v1@ASSIGNMENTS_URL=https://storage.googleapis.com/rosai-100/review/rosai-ai-assist-correct-v1/assignments.json@CORS_ORIGINS=https://jaumelab.github.io|http://127.0.0.1:8772|http://localhost:8772@REVIEWER_PASSCODES="
 
 echo "Building ${IMAGE}…"
 gcloud builds submit --tag "$IMAGE" --project "$PROJECT"
