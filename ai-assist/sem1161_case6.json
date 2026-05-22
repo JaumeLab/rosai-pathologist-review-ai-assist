@@ -1,0 +1,622 @@
+{
+  "case_id": "sem1161_case6",
+  "source": "slideseek-ai-assist",
+  "model": "gpt-5.4",
+  "generated_at": "2026-05-22T09:21:49.171490+00:00",
+  "organ": "Gynecologic",
+  "primary_dx": "Adult Granulosa Cell Tumor With Focal High-Grade/Small-Cell Change",
+  "differential_dx": [
+    "Small Cell Carcinoma Of The Ovary, Hypercalcemic Type",
+    "High-Grade Neuroendocrine Carcinoma, Primary Ovarian Or Metastatic"
+  ],
+  "microscopic_findings": [
+    {
+      "text": "Tumor shows **nests and cords** of relatively uniform cells in **fibrous/hyalinized stroma** with focal **nuclear grooves**.",
+      "roi_ids": [
+        "slide_A_x20992_y14848_mag20",
+        "slide_A_x9216_y14848_mag20"
+      ]
+    },
+    {
+      "text": "Other fields show a **microfollicular/sex cord-like pattern** within nodules divided by **fibrous septa**, supporting stromal lineage.",
+      "roi_ids": [
+        "slide_A_x20480_y14336_mag5",
+        "slide_A_x33280_y14848_mag20"
+      ]
+    },
+    {
+      "text": "Focal areas are composed of **small hyperchromatic cells** in sheets and nests with **scant cytoplasm** and high N:C ratios.",
+      "roi_ids": [
+        "slide_A_x35840_y12288_mag20",
+        "slide_A_x39424_y13312_mag20"
+      ]
+    },
+    {
+      "text": "High-grade foci show **apoptosis/necrosis**, **delicate vasculature**, and focal **perivascular pseudorosette-like accentuation**.",
+      "roi_ids": [
+        "slide_A_x29696_y35840_mag20",
+        "slide_A_x39936_y13312_mag20"
+      ]
+    }
+  ],
+  "interpretation": "The combination of **sex cord-like nests/cords**, **fibrous-hyalinized stroma**, and suggested **nuclear grooves** favors **adult granulosa cell tumor**. A substantial component shows **high-grade small-cell change** with necrosis and perivascular accentuation, indicating focal transformation or variant morphology. These high-grade areas warrant consideration of **SCCOHT** and **high-grade neuroendocrine carcinoma**, but the accompanying granulosa-pattern component argues against a purely alternative small-cell neoplasm.",
+  "num_rois": 36,
+  "tiles": [
+    {
+      "roi_id": "slide_A_x16384_y16384_mag1",
+      "tile_id": "slide_A_x16384_y16384_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 16384,
+      "y": 16384,
+      "level0": {
+        "x": 16384,
+        "y": 16384,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The tissue shows a diffuse infiltrate of small lymphoid cells with scattered larger cells and prominent blood vessels. The architecture is effaced.\n\nThe most likely diagnosis is a low-grade B-cell lymphoma, such as follicular lymphoma.\n\nDifferential diagnoses include other small B-cell lymphomas like marginal zone lymphoma or mantle cell lymphoma, which can have overlapping features.",
+      "rationale": "Overall low-power survey of main tissue region 0 for architecture and focal lesions."
+    },
+    {
+      "roi_id": "slide_A_x28672_y32768_mag2",
+      "tile_id": "slide_A_x28672_y32768_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 28672,
+      "y": 32768,
+      "level0": {
+        "x": 28672,
+        "y": 32768,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The tissue shows a highly cellular neoplasm with a diffuse growth pattern and areas of necrosis. The cells are small with scant cytoplasm and hyperchromatic nuclei.\n\nThe most likely diagnosis is a high-grade small cell carcinoma, such as small cell carcinoma of the ovary, hypercalcemic type.\n\nDifferential diagnoses include other small cell neoplasms like small cell carcinoma of the lung metastatic to the ovary, or lymphoma. Immunohistochemistry would be essential for definitive classification.",
+      "rationale": "Low-power orientation of Region 1 small fragment."
+    },
+    {
+      "roi_id": "slide_A_x40960_y16384_mag1",
+      "tile_id": "slide_A_x40960_y16384_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 40960,
+      "y": 16384,
+      "level0": {
+        "x": 40960,
+        "y": 16384,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a low power view of a gynecologic tissue with a diffuse proliferation of small, round cells with scant cytoplasm and hyperchromatic nuclei, effacing the normal architecture. There are areas of necrosis and hemorrhage.\n\nThe most likely diagnosis is a small cell carcinoma of the ovary, hypercalcemic type.\n\nDifferential diagnoses include other small cell neoplasms such as small cell carcinoma of the lung metastatic to the ovary, lymphoma, or other high-grade neuroendocrine tumors. Immunohistochemistry and clinical correlation are essential for definitive diagnosis.",
+      "rationale": "Region 2 overview: assess capsule/surface and any exophytic/papillary areas."
+    },
+    {
+      "roi_id": "slide_A_x8192_y16384_mag1",
+      "tile_id": "slide_A_x8192_y16384_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 8192,
+      "y": 16384,
+      "level0": {
+        "x": 8192,
+        "y": 16384,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The tissue shows a diffuse infiltrate of small lymphoid cells with scattered larger cells and areas of fibrosis. The infiltrate effaces the normal architecture.\n\nThe most likely diagnosis is a low-grade B-cell lymphoma, such as extranodal marginal zone lymphoma (MALT lymphoma).\n\nDifferential diagnoses include other low-grade B-cell lymphomas like follicular lymphoma or small lymphocytic lymphoma, and reactive lymphoid hyperplasia.",
+      "rationale": "Low-power look at left side of region 0 for cystic spaces, nodules, hemorrhage."
+    },
+    {
+      "roi_id": "slide_A_x27648_y35840_mag10",
+      "tile_id": "slide_A_x27648_y35840_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 27648,
+      "y": 35840,
+      "level0": {
+        "x": 27648,
+        "y": 35840,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with prominent dilated blood vessels and areas of hyalinization. The cells have elongated nuclei and scant cytoplasm.\n\nThe most likely diagnosis is a sex cord-stromal tumor, such as a thecoma or fibroma.\n\nDifferential diagnoses include leiomyoma, which typically shows intersecting fascicles of smooth muscle cells with blunt-ended nuclei, and cellular fibroma, which is usually less cellular and lacks the prominent hyalinization and dilated vessels seen here.",
+      "rationale": "Scan left portion for lining/architecture."
+    },
+    {
+      "roi_id": "slide_A_x36864_y12288_mag2",
+      "tile_id": "slide_A_x36864_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 36864,
+      "y": 12288,
+      "level0": {
+        "x": 36864,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a highly cellular neoplasm with a diffuse growth pattern and areas of necrosis. The cells are relatively uniform with scant cytoplasm and hyperchromatic nuclei.\n\nThe most likely diagnosis is a high-grade small cell carcinoma of the ovary, hypercalcemic type.\n\nDifferential diagnoses include other small cell carcinomas (e.g., pulmonary type) and lymphoma. Distinguishing features would include immunohistochemical staining for markers such as WT1, inhibin, and CD45.",
+      "rationale": "Region 2 left aspect near attachment to main mass; check for interface/capsule disruption."
+    },
+    {
+      "roi_id": "slide_A_x29696_y35840_mag10",
+      "tile_id": "slide_A_x29696_y35840_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 29696,
+      "y": 35840,
+      "level0": {
+        "x": 29696,
+        "y": 35840,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a highly cellular neoplasm composed of small cells with scant cytoplasm and hyperchromatic nuclei, arranged in sheets and nests with prominent vascularity. Areas of necrosis and hemorrhage are also present.\n\nThe most likely diagnosis is a small cell carcinoma of the ovary, hypercalcemic type.\n\nDifferential diagnoses include other small cell neoplasms such as small cell carcinoma of the ovary, pulmonary type, and metastatic small cell carcinoma from other sites. Immunohistochemistry and clinical correlation are essential for definitive diagnosis.",
+      "rationale": "Scan right portion for epithelium/stroma patterns."
+    },
+    {
+      "roi_id": "slide_A_x40960_y12288_mag2",
+      "tile_id": "slide_A_x40960_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 40960,
+      "y": 12288,
+      "level0": {
+        "x": 40960,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The tissue shows a highly cellular neoplasm with a diffuse growth pattern and areas of necrosis. The cells are relatively uniform with scant cytoplasm and hyperchromatic nuclei.\n\nThe most likely diagnosis is a high-grade neuroendocrine carcinoma, such as small cell carcinoma.\n\nDifferential diagnoses include other high-grade carcinomas like high-grade serous carcinoma or poorly differentiated carcinoma, which can also present with high cellularity and necrosis. Immunohistochemistry for neuroendocrine markers (e.g., synaptophysin, chromogranin) would be helpful to confirm the diagnosis.",
+      "rationale": "Region 2 rightmost edge for surface involvement/excrescences."
+    },
+    {
+      "roi_id": "slide_A_x32768_y16384_mag1",
+      "tile_id": "slide_A_x32768_y16384_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 32768,
+      "y": 16384,
+      "level0": {
+        "x": 32768,
+        "y": 16384,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The low power view shows a cellular neoplasm with a vaguely nodular pattern and prominent fibrous septa. The cellular areas are composed of small, round cells with scant cytoplasm and hyperchromatic nuclei.\n\nThe most likely diagnosis is a small cell carcinoma of the ovary, hypercalcemic type. This diagnosis is supported by the patient's age, the presence of a large ovarian mass, and the characteristic morphology of small, round cells with scant cytoplasm and hyperchromatic nuclei arranged in a vaguely nodular pattern with prominent fibrous septa.\n\nDifferential diagnoses include other small blue cell tumors of the ovary such as lymphoma, Ewing sarcoma/PNET, and neuroendocrine tumors. Lymphoma would typically show a diffuse growth pattern and lack the prominent fibrous septa. Ewing sarcoma/PNET would show a more uniform population of small round cells with scant cytoplasm and would require molecular testing for confirmation. Neuroendocrine tumors would typically show a nested or trabecular growth pattern and would require immunohistochemical staining for neuroendocrine markers.",
+      "rationale": "Low-power look at right side of region 0 near region 2 boundary for distinctive areas/hemorrhage."
+    },
+    {
+      "roi_id": "slide_A_x28672_y33792_mag10",
+      "tile_id": "slide_A_x28672_y33792_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 28672,
+      "y": 33792,
+      "level0": {
+        "x": 28672,
+        "y": 33792,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a biphasic neoplasm with a cellular component of small cells in nests and cords and a spindle cell component with fascicles and whorls. Prominent blood vessels are also present.\n\nThe most likely diagnosis is a sex cord-stromal tumor, specifically a granulosa cell tumor.\n\nDifferential diagnoses include other sex cord-stromal tumors like Sertoli-Leydig cell tumor or a stromal tumor like fibroma/thecoma, which can be distinguished by the specific cellular patterns and presence of Call-Exner bodies in granulosa cell tumors.",
+      "rationale": "Scan superior portion for surface/capsule or papillae."
+    },
+    {
+      "roi_id": "slide_A_x38912_y12288_mag5",
+      "tile_id": "slide_A_x38912_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 38912,
+      "y": 12288,
+      "level0": {
+        "x": 38912,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The tissue shows a highly cellular neoplasm with a diffuse growth pattern and areas of necrosis. The cells are relatively uniform with scant cytoplasm and hyperchromatic nuclei.\n\nThe most likely diagnosis is a high-grade neuroendocrine carcinoma, such as small cell carcinoma.\n\nDifferential diagnoses include other high-grade carcinomas like high-grade serous carcinoma or poorly differentiated carcinoma, which can also present with high cellularity and necrosis. Immunohistochemistry for neuroendocrine markers (e.g., synaptophysin, chromogranin) would be helpful to confirm the diagnosis.",
+      "rationale": "Medium power to look for papillary structures/lining epithelium vs solid sheets; evaluate capsule."
+    },
+    {
+      "roi_id": "slide_A_x20480_y14336_mag5",
+      "tile_id": "slide_A_x20480_y14336_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 20480,
+      "y": 14336,
+      "level0": {
+        "x": 20480,
+        "y": 14336,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular neoplasm with a nodular pattern separated by fibrous stroma. The nodules are composed of small cells with scant cytoplasm and hyperchromatic nuclei, with some areas showing a microfollicular pattern.\n\nThe most likely diagnosis is a sex cord-stromal tumor, specifically a granulosa cell tumor.\n\nDifferential diagnoses include other sex cord-stromal tumors like Sertoli-Leydig cell tumor or a poorly differentiated carcinoma.",
+      "rationale": "Intermediate power in central region to assess dominant tumor architecture (glands/follicles/sheets) and stroma."
+    },
+    {
+      "roi_id": "slide_A_x40960_y12288_mag5",
+      "tile_id": "slide_A_x40960_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 40960,
+      "y": 12288,
+      "level0": {
+        "x": 40960,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The tissue shows a highly cellular neoplasm with a diffuse growth pattern and areas of necrosis. The cells are relatively uniform with scant cytoplasm and hyperchromatic nuclei.\n\nThe most likely diagnosis is a high-grade neuroendocrine carcinoma, such as small cell carcinoma.\n\nDifferential diagnoses include other high-grade carcinomas like high-grade serous carcinoma or poorly differentiated carcinoma, which can also present with high cellularity and necrosis. Immunohistochemistry for neuroendocrine markers (e.g., synaptophysin, chromogranin) would be helpful to confirm the diagnosis.",
+      "rationale": "Medium power at extreme edge for surface involvement/exophytic growth."
+    },
+    {
+      "roi_id": "slide_A_x29696_y35840_mag20",
+      "tile_id": "slide_A_x29696_y35840_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 29696,
+      "y": 35840,
+      "level0": {
+        "x": 29696,
+        "y": 35840,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a highly cellular neoplasm composed of small cells with scant cytoplasm and hyperchromatic nuclei, arranged in sheets and nests with prominent perivascular pseudorosettes. The cells have a high nuclear-to-cytoplasmic ratio.\n\nThe most likely diagnosis is a small cell carcinoma of the ovary, hypercalcemic type.\n\nDifferential diagnoses include other small cell neoplasms such as small cell carcinoma of the ovary, pulmonary type, and metastatic small cell carcinoma from other sites. Immunohistochemistry and clinical correlation are essential for definitive diagnosis.",
+      "rationale": "High power of small blue cell component to assess cytology, mitoses, necrosis."
+    },
+    {
+      "roi_id": "slide_A_x8192_y14336_mag5",
+      "tile_id": "slide_A_x8192_y14336_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 8192,
+      "y": 14336,
+      "level0": {
+        "x": 8192,
+        "y": 14336,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular neoplasm with a prominent fascicular and whorled growth pattern. The cells are spindle to ovoid with scant cytoplasm and hyperchromatic nuclei, separated by a fibrous stroma.\n\nThe most likely diagnosis is a sex cord-stromal tumor, specifically a granulosa cell tumor. The fascicular and whorled pattern, along with the cell morphology, is characteristic of this entity.\n\nDifferential diagnoses include other spindle cell neoplasms of the ovary such as fibroma/thecoma, which typically have more abundant collagen and less cellularity, and metastatic spindle cell tumors, which would require clinical correlation and potentially immunohistochemistry for confirmation.",
+      "rationale": "Intermediate power left region to evaluate pattern; look for sex cord vs epithelial features."
+    },
+    {
+      "roi_id": "slide_A_x39936_y13312_mag10",
+      "tile_id": "slide_A_x39936_y13312_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 39936,
+      "y": 13312,
+      "level0": {
+        "x": 39936,
+        "y": 13312,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a highly cellular neoplasm composed of small cells with scant cytoplasm and hyperchromatic nuclei, arranged in sheets and nests with prominent vascularity. The morphology is consistent with a small cell carcinoma.\n\nThe most likely diagnosis is small cell carcinoma of the ovary, hypercalcemic type.\n\nDifferential diagnoses include other small cell carcinomas (e.g., pulmonary type) and high-grade neuroendocrine carcinoma. Immunohistochemistry for markers such as WT1, inhibin, and neuroendocrine markers would be helpful in distinguishing these entities.",
+      "rationale": "Higher power of representative tumor in region 2 to assess cytology/architecture."
+    },
+    {
+      "roi_id": "slide_A_x28672_y33792_mag20",
+      "tile_id": "slide_A_x28672_y33792_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 28672,
+      "y": 33792,
+      "level0": {
+        "x": 28672,
+        "y": 33792,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle to ovoid cells with scant cytoplasm and hyperchromatic nuclei, arranged in fascicles and whorls. Prominent thin-walled blood vessels are also present.\n\nThe most likely diagnosis is a sex cord-stromal tumor, such as a granulosa cell tumor.\n\nDifferential diagnoses include other spindle cell neoplasms of the ovary, such as fibroma/thecoma or leiomyoma, which typically show different architectural patterns and cellular features.",
+      "rationale": "High power of biphasic/nested area to look for granulosa features (nuclear grooves, Call-Exner)."
+    },
+    {
+      "roi_id": "slide_A_x32768_y14336_mag5",
+      "tile_id": "slide_A_x32768_y14336_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 32768,
+      "y": 14336,
+      "level0": {
+        "x": 32768,
+        "y": 14336,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular neoplasm with a nodular growth pattern separated by fibrous septa. The tumor cells are small with scant cytoplasm and hyperchromatic nuclei, arranged in nests and cords.\n\nThe most likely diagnosis is a sex cord-stromal tumor, specifically a granulosa cell tumor. The nodular architecture, fibrous septa, and small cells with scant cytoplasm and hyperchromatic nuclei are characteristic features. Differential diagnoses include other sex cord-stromal tumors like Sertoli-Leydig cell tumor or a poorly differentiated carcinoma, which would typically show different cellular morphology and growth patterns.",
+      "rationale": "Intermediate power right region where septa noted; evaluate for small cell/neuroendocrine vs lymphoma vs other."
+    },
+    {
+      "roi_id": "slide_A_x38912_y12288_mag10",
+      "tile_id": "slide_A_x38912_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 38912,
+      "y": 12288,
+      "level0": {
+        "x": 38912,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a highly cellular neoplasm composed of small cells with scant cytoplasm and hyperchromatic nuclei, arranged in sheets and nests with prominent vascularity. The morphology is consistent with a high-grade neuroendocrine carcinoma.\n\nMost likely diagnosis: Small cell carcinoma of the ovary, hypercalcemic type.\n\nDifferential diagnoses include:\n- Metastatic small cell carcinoma (e.g., from lung): Clinical history and immunohistochemistry are crucial for differentiation.\n- High-grade serous carcinoma: Typically shows more pleomorphism and papillary architecture.\n- Lymphoma: Usually shows a diffuse infiltrate of discohesive cells and lacks the nesting pattern.",
+      "rationale": "Higher power near apparent pale/necrotic focus to confirm necrosis/hemorrhage."
+    },
+    {
+      "roi_id": "slide_A_x27648_y35840_mag20",
+      "tile_id": "slide_A_x27648_y35840_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 27648,
+      "y": 35840,
+      "level0": {
+        "x": 27648,
+        "y": 35840,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a biphasic pattern with cellular areas of small cells and stromal areas of spindle cells. Prominent, irregular vascular spaces are also present.\n\nThe most likely diagnosis is a sex cord-stromal tumor, specifically a granulosa cell tumor.\n\nDifferential diagnoses include other sex cord-stromal tumors like Sertoli-Leydig cell tumor or fibroma, and metastatic carcinoma, which can be excluded based on the characteristic biphasic pattern and cellular morphology.",
+      "rationale": "High power of spindle fascicular area: fibroma/thecoma vs smooth muscle; look for collagen, luteinization."
+    },
+    {
+      "roi_id": "slide_A_x28160_y34816_mag20",
+      "tile_id": "slide_A_x28160_y34816_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 28160,
+      "y": 34816,
+      "level0": {
+        "x": 28160,
+        "y": 34816,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a biphasic neoplasm with epithelial cells forming nests and cords and a spindle cell component arranged in fascicles. The epithelial cells have round to oval nuclei with visible nucleoli, and the spindle cells have elongated nuclei.\n\nThe most likely diagnosis is a sex cord-stromal tumor, specifically a Sertoli-Leydig cell tumor. The biphasic pattern with epithelial-like nests and cords and a spindle cell component is characteristic. The epithelial cells resemble Sertoli cells, while the spindle cells resemble Leydig cells.\n\nDifferential diagnoses include other sex cord-stromal tumors such as granulosa cell tumor, which typically shows Call-Exner bodies and coffee bean nuclei, and fibroma/thecoma, which is predominantly spindle cell with less prominent epithelial components.",
+      "rationale": "Sample interface/other area to see if cyst lining or surface epithelium present."
+    },
+    {
+      "roi_id": "slide_A_x40448_y13312_mag20",
+      "tile_id": "slide_A_x40448_y13312_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 40448,
+      "y": 13312,
+      "level0": {
+        "x": 40448,
+        "y": 13312,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a highly cellular neoplasm composed of small cells with scant cytoplasm and hyperchromatic nuclei, arranged in sheets and nests with prominent vascularity. The cells have a high nuclear-to-cytoplasmic ratio and some nuclear molding is present.\n\nThe most likely diagnosis is a small cell carcinoma of the ovary, hypercalcemic type.\n\nDifferential diagnoses include other small cell neoplasms such as small cell carcinoma of the ovary, pulmonary type, and metastatic small cell carcinoma from other sites. Immunohistochemistry and clinical correlation are essential for definitive diagnosis.",
+      "rationale": "High power at peripheral edge to assess for surface epithelium involvement, capsule, and cytologic details."
+    },
+    {
+      "roi_id": "slide_A_x20992_y14848_mag20",
+      "tile_id": "slide_A_x20992_y14848_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20992,
+      "y": 14848,
+      "level0": {
+        "x": 20992,
+        "y": 14848,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a biphasic pattern with cellular areas of small cells and less cellular areas of spindle cells. The cellular areas contain small cells with scant cytoplasm and round to oval nuclei, arranged in nests and cords, with some cells showing nuclear grooves.\n\nThe most likely diagnosis is a sex cord-stromal tumor, specifically a granulosa cell tumor. The biphasic pattern with cellular areas resembling granulosa cells and less cellular areas resembling stromal cells is characteristic. The presence of nuclear grooves in the cellular component further supports this diagnosis.\n\nDifferential diagnoses include other sex cord-stromal tumors such as Sertoli-Leydig cell tumor, which typically shows tubular or cord-like structures and Leydig cells, and stromal tumors like fibroma or thecoma, which lack the cellular component with nuclear grooves.",
+      "rationale": "High power of central microfollicular area to look for Call-Exner bodies, nuclear grooves, mitoses."
+    },
+    {
+      "roi_id": "slide_A_x39936_y13312_mag20",
+      "tile_id": "slide_A_x39936_y13312_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 39936,
+      "y": 13312,
+      "level0": {
+        "x": 39936,
+        "y": 13312,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a highly cellular neoplasm composed of small to medium-sized cells with scant cytoplasm and hyperchromatic nuclei, arranged in sheets and nests with a prominent vascular network. The morphology is consistent with a sex cord-stromal tumor.\n\nMost likely diagnosis: Granulosa cell tumor, adult type.\n\nDifferential diagnoses include:\n- Thecoma: Typically shows larger cells with abundant eosinophilic cytoplasm and less nuclear atypia.\n- Sertoli-Leydig cell tumor: May show tubular or cord-like patterns and Leydig cells with eosinophilic cytoplasm and Reinke crystals.",
+      "rationale": "High power representative tumor for nuclear features, mitotic activity, necrosis/apoptosis."
+    },
+    {
+      "roi_id": "slide_A_x9216_y14848_mag20",
+      "tile_id": "slide_A_x9216_y14848_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 9216,
+      "y": 14848,
+      "level0": {
+        "x": 9216,
+        "y": 14848,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of cells with round to oval nuclei and scant cytoplasm, arranged in nests and cords separated by prominent fibrous stroma. The stroma is dense and hyalinized in areas.\n\nThe most likely diagnosis is a sex cord-stromal tumor, specifically a granulosa cell tumor. The characteristic features include the cellular arrangement in nests and cords, the morphology of the tumor cells, and the prominent fibrous stroma. \n\nDifferential diagnoses include other sex cord-stromal tumors such as Sertoli-Leydig cell tumor, which typically shows tubular or cord-like structures with Sertoli cells and Leydig cells, and metastatic carcinoma, which would show different cellular morphology and growth patterns.",
+      "rationale": "High power of spindle/whorled area to assess granulosa vs thecoma/fibroma; look for grooved nuclei and cytoplasm."
+    },
+    {
+      "roi_id": "slide_A_x39424_y12800_mag20",
+      "tile_id": "slide_A_x39424_y12800_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 39424,
+      "y": 12800,
+      "level0": {
+        "x": 39424,
+        "y": 12800,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a highly cellular neoplasm composed of small cells with scant cytoplasm and hyperchromatic nuclei, arranged in sheets and nests with prominent vascularity. The cells exhibit a high nuclear-to-cytoplasmic ratio and some nuclear molding.\n\nThe most likely diagnosis is a small cell carcinoma of the ovary, hypercalcemic type.\n\nDifferential diagnoses include other small cell neoplasms such as small cell carcinoma of the lung metastatic to the ovary, lymphoma, or other high-grade neuroendocrine tumors. Immunohistochemistry for markers like WT1, inhibin, and neuroendocrine markers would be helpful in distinguishing these entities.",
+      "rationale": "High power near interface with possible fibrous tissue to look for capsule breach/serosal involvement."
+    },
+    {
+      "roi_id": "slide_A_x33280_y14848_mag20",
+      "tile_id": "slide_A_x33280_y14848_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 33280,
+      "y": 14848,
+      "level0": {
+        "x": 33280,
+        "y": 14848,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords within a fibrous stroma. The cells have round to oval nuclei with prominent nucleoli and moderate eosinophilic cytoplasm, with some areas showing a more spindle cell morphology.\n\nThe most likely diagnosis is a sex cord-stromal tumor, such as a granulosa cell tumor. The differential diagnosis includes other sex cord-stromal tumors like Sertoli-Leydig cell tumor, and potentially metastatic carcinoma, although the morphology is less typical for carcinoma.",
+      "rationale": "High power of nested/cord area on right to assess for sex cord pattern vs neuroendocrine/small cell carcinoma."
+    },
+    {
+      "roi_id": "slide_A_x35840_y12288_mag10",
+      "tile_id": "slide_A_x35840_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 35840,
+      "y": 12288,
+      "level0": {
+        "x": 35840,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a highly cellular neoplasm composed of small cells with scant cytoplasm and hyperchromatic nuclei, arranged in sheets and nests with prominent thin-walled blood vessels. The stroma is scant.\n\nThe most likely diagnosis is a small cell carcinoma of the ovary, hypercalcemic type.\n\nDifferential diagnoses include other small cell neoplasms such as small cell carcinoma of the ovary, pulmonary type, and metastatic small cell carcinoma from other sites. Immunohistochemistry and clinical correlation are essential for definitive diagnosis.",
+      "rationale": "Sample near far right with apparent hemorrhage/necrosis on thumbnail."
+    },
+    {
+      "roi_id": "slide_A_x37888_y12288_mag10",
+      "tile_id": "slide_A_x37888_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 37888,
+      "y": 12288,
+      "level0": {
+        "x": 37888,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a highly cellular neoplasm composed of small cells with scant cytoplasm and hyperchromatic nuclei, arranged in sheets and nests with prominent vascularity. The morphology is consistent with a high-grade neuroendocrine carcinoma.\n\nMost likely diagnosis: Small Cell Carcinoma of the Ovary.\n\nDifferential diagnoses include:\n- High-grade serous carcinoma: Typically shows more pleomorphism, papillary architecture, and psammoma bodies.\n- Lymphoma: Usually presents as a diffuse infiltrate of lymphoid cells, often with a different immunophenotype.",
+      "rationale": "Search for outer surface/mesothelial lining at extreme periphery (upper edge)."
+    },
+    {
+      "roi_id": "slide_A_x37888_y14336_mag10",
+      "tile_id": "slide_A_x37888_y14336_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 37888,
+      "y": 14336,
+      "level0": {
+        "x": 37888,
+        "y": 14336,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular neoplasm with a solid growth pattern and areas of necrosis. The cells are relatively uniform with scant cytoplasm and hyperchromatic nuclei, arranged in sheets and nests.\n\nThe most likely diagnosis is a sex cord-stromal tumor, such as a granulosa cell tumor. Differential diagnoses include other sex cord-stromal tumors like Sertoli-Leydig cell tumor or a poorly differentiated carcinoma.",
+      "rationale": "Search for capsule/surface at lower peripheral edge of fragment."
+    },
+    {
+      "roi_id": "slide_A_x35840_y12288_mag20",
+      "tile_id": "slide_A_x35840_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 35840,
+      "y": 12288,
+      "level0": {
+        "x": 35840,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a highly cellular proliferation of small to medium-sized cells with scant cytoplasm and hyperchromatic nuclei, arranged in sheets and nests with prominent thin-walled blood vessels. The cells have a high nuclear-to-cytoplasmic ratio and some nuclear molding is present.\n\nThe most likely diagnosis is a high-grade small cell carcinoma of the ovary, hypercalcemic type.\n\nDifferential diagnoses include other small cell carcinomas (e.g., pulmonary type), lymphoma, and poorly differentiated carcinoma. Immunohistochemistry for markers such as WT1, inhibin, and neuroendocrine markers would be helpful in distinguishing these entities.",
+      "rationale": "High power in far-right highly cellular small-cell area to resolve lineage: granulosa vs small cell carcinoma vs lymphoma; assess nuclear grooves, chromatin, mitoses, necrosis."
+    },
+    {
+      "roi_id": "slide_A_x37888_y11264_mag10",
+      "tile_id": "slide_A_x37888_y11264_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 37888,
+      "y": 11264,
+      "level0": {
+        "x": 37888,
+        "y": 11264,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a highly cellular neoplasm composed of small cells with scant cytoplasm and hyperchromatic nuclei, arranged in sheets and nests with prominent vascularity. The morphology is consistent with a sex cord-stromal tumor.\n\nMost likely diagnosis: Granulosa cell tumor, adult type.\n\nDifferential diagnoses:\n- Thecoma: Typically composed of larger cells with abundant eosinophilic cytoplasm and less prominent vascularity.\n- Sertoli-Leydig cell tumor: May show tubular or cord-like patterns and can have Leydig cells with eosinophilic cytoplasm and Reinke crystals.",
+      "rationale": "Look for cyst lining/papillary structures within region 2."
+    },
+    {
+      "roi_id": "slide_A_x36864_y12800_mag20",
+      "tile_id": "slide_A_x36864_y12800_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 36864,
+      "y": 12800,
+      "level0": {
+        "x": 36864,
+        "y": 12800,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a highly cellular neoplasm composed of small cells with scant cytoplasm and hyperchromatic nuclei, arranged in sheets and nests with prominent thin-walled blood vessels. The cells exhibit a high nuclear-to-cytoplasmic ratio and some nuclear molding.\n\nThe most likely diagnosis is a small cell carcinoma of the ovary, hypercalcemic type.\n\nDifferential diagnoses include other small cell neoplasms such as small cell carcinoma of the ovary, pulmonary type, and metastatic small cell carcinoma from other sites. Immunohistochemistry and clinical correlation are essential for definitive diagnosis.",
+      "rationale": "Adjacent high power to look for necrosis/hemorrhage and any follicle-like spaces/Call-Exner bodies."
+    },
+    {
+      "roi_id": "slide_A_x39424_y13312_mag20",
+      "tile_id": "slide_A_x39424_y13312_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 39424,
+      "y": 13312,
+      "level0": {
+        "x": 39424,
+        "y": 13312,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a highly cellular neoplasm composed of small cells with scant cytoplasm and hyperchromatic nuclei, arranged in sheets and nests with prominent vascularity. The cells exhibit a high nuclear-to-cytoplasmic ratio and some nuclear molding.\n\nThe most likely diagnosis is a small cell carcinoma of the ovary, hypercalcemic type.\n\nDifferential diagnoses include other small cell neoplasms such as small cell carcinoma of the ovary, pulmonary type, and metastatic small cell carcinoma from other sites. Immunohistochemistry and clinical correlation are essential for definitive diagnosis.",
+      "rationale": "Detail tumor cytology and architecture; assess for Call-Exner bodies/grooves vs neuroendocrine features."
+    },
+    {
+      "roi_id": "slide_A_x40448_y12800_mag20",
+      "tile_id": "slide_A_x40448_y12800_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 40448,
+      "y": 12800,
+      "level0": {
+        "x": 40448,
+        "y": 12800,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a highly cellular neoplasm composed of small cells with scant cytoplasm and hyperchromatic nuclei, arranged in sheets and nests with a prominent perivascular pattern. The surface is irregular with associated hemorrhage.\n\nThe most likely diagnosis is a small cell carcinoma of the ovary, hypercalcemic type.\n\nDifferential diagnoses include other small cell neoplasms such as small cell carcinoma of the ovary, pulmonary type, and metastatic small cell carcinoma from other sites. Distinguishing features would include immunohistochemical staining patterns and clinical correlation.",
+      "rationale": "Peripheral edge at high power to look for surface mesothelium/capsular fibrous tissue and tumor involvement."
+    },
+    {
+      "roi_id": "slide_A_x38912_y12288_mag20",
+      "tile_id": "slide_A_x38912_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 38912,
+      "y": 12288,
+      "level0": {
+        "x": 38912,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a highly cellular neoplasm composed of small cells with scant cytoplasm and hyperchromatic nuclei, arranged in sheets and nests with areas of discohesion. A prominent vascular network is also present.\n\nThe most likely diagnosis is a small cell carcinoma of the ovary, hypercalcemic type.\n\nDifferential diagnoses include other small cell neoplasms such as small cell carcinoma of the ovary, pulmonary type, and metastatic small cell carcinoma from other sites. Distinguishing features would include immunohistochemical staining patterns and clinical correlation.",
+      "rationale": "Evaluate necrosis/hemorrhage area for true tumor necrosis, apoptosis, crush artifact."
+    }
+  ]
+}

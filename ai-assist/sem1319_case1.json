@@ -1,0 +1,750 @@
+{
+  "case_id": "sem1319_case1",
+  "source": "slideseek-ai-assist",
+  "model": "gpt-5.4",
+  "generated_at": "2026-05-22T09:22:49.561514+00:00",
+  "organ": "Bone-Soft Tissue",
+  "primary_dx": "Juxta-/Intra-Articular Myxoma Of Knee Soft Tissue",
+  "differential_dx": [
+    "Low-Grade Myxofibrosarcoma",
+    "Myxoid Liposarcoma"
+  ],
+  "microscopic_findings": [
+    {
+      "text": "Abundant **hypocellular myxoid matrix** contains scattered **bland spindle-stellate cells** with inconspicuous nuclei.",
+      "roi_ids": [
+        "slide_A_x29696_y11264_mag10",
+        "slide_A_x12288_y20480_mag20"
+      ]
+    },
+    {
+      "text": "Cells are sparse and lie singly or in short **cords/strands** within mucin, without significant **cytologic atypia** or mitotic activity.",
+      "roi_ids": [
+        "slide_A_x32256_y17408_mag20",
+        "slide_A_x38912_y12288_mag10"
+      ]
+    },
+    {
+      "text": "The lesion shows scattered **thin-walled vessels** but lacks a **plexiform chicken-wire capillary** network.",
+      "roi_ids": [
+        "slide_A_x27136_y15360_mag20",
+        "slide_A_x11776_y14848_mag20"
+      ]
+    },
+    {
+      "text": "There are foci of **hemorrhage** with mild **chronic inflammation** and fibrinous debris, without necrosis or abscess formation.",
+      "roi_ids": [
+        "slide_A_x39936_y12288_mag20",
+        "slide_A_x18432_y20480_mag20"
+      ]
+    }
+  ],
+  "interpretation": "The specimen shows a **hypocellular myxoid lesion** composed of bland spindle to stellate cells in abundant mucinous matrix, supporting **juxta-/intra-articular myxoma** in this periarticular knee setting. The absence of **significant atypia**, mitotic activity, and necrosis argues against a sarcoma. Lack of a **plexiform chicken-wire vasculature** and lipoblasts makes myxoid liposarcoma unlikely. No hypercellular pleomorphic foci are identified to support myxofibrosarcoma in the sampled tissue.",
+  "num_rois": 44,
+  "tiles": [
+    {
+      "roi_id": "slide_A_x24576_y16384_mag1",
+      "tile_id": "slide_A_x24576_y16384_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 24576,
+      "y": 16384,
+      "level0": {
+        "x": 24576,
+        "y": 16384,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows abundant myxoid matrix with scattered spindle cells and prominent curvilinear vessels. There are also areas of hemorrhage and necrosis.\n\nThe most likely diagnosis is myxoma. Differential diagnoses include myxoid liposarcoma, which typically shows lipoblasts and a more prominent plexiform vascular pattern, and myxofibrosarcoma, which often exhibits more cellular pleomorphism and curvilinear vessels.",
+      "rationale": "Low-power overview of central Region 0 to assess global architecture and distribution of myxoid material/hemorrhage."
+    },
+    {
+      "roi_id": "slide_A_x12288_y20480_mag2",
+      "tile_id": "slide_A_x12288_y20480_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 20480,
+      "level0": {
+        "x": 12288,
+        "y": 20480,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows abundant myxoid matrix with scattered spindle cells and prominent hemorrhage. The myxoid material appears to dissect surrounding tissue.\n\nThe most likely diagnosis is a myxoid neoplasm, such as myxoma. Differential diagnoses include myxoid liposarcoma and myxofibrosarcoma, which would typically show more cellularity, pleomorphism, and lipoblasts or curvilinear vessels, respectively.",
+      "rationale": "Low-power survey of center of Region 1 to identify dominant tissue patterns and candidates for ROIs."
+    },
+    {
+      "roi_id": "slide_A_x38912_y12288_mag10",
+      "tile_id": "slide_A_x38912_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 38912,
+      "y": 12288,
+      "level0": {
+        "x": 38912,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a hypocellular lesion with scattered cells embedded in an abundant myxoid matrix. The cells have small, dark nuclei and scant cytoplasm, with some larger cells having more abundant cytoplasm.\n\nThe most likely diagnosis is a myxoma. Differential diagnoses include myxoid liposarcoma, which would show lipoblasts and a more cellular background, and myxoid chondrosarcoma, which would have chondrocytes in lacunae and a more chondroid matrix.",
+      "rationale": "Region 2 overview at 10x for architecture/cellularity and any focal atypia."
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag1",
+      "tile_id": "slide_A_x8192_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows fragmented tissue with abundant myxoid matrix containing scattered spindle cells and areas of hemorrhage. The morphology is consistent with a myxoid lesion.\n\nThe most likely diagnosis is a myxoma. Differential diagnoses include myxoid liposarcoma, which would show lipoblasts, and myxoid chondrosarcoma, which would have chondrocytes in lacunae.",
+      "rationale": "Low-power overview of superior-left portion of Region 0 to look for synovium/villonodular change or cyst wall."
+    },
+    {
+      "roi_id": "slide_A_x39936_y12288_mag20",
+      "tile_id": "slide_A_x39936_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 39936,
+      "y": 12288,
+      "level0": {
+        "x": 39936,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows abundant myxoid matrix with scattered spindle and stellate cells, along with a mixed inflammatory infiltrate and areas of hemorrhage. The overall pattern is consistent with a myxoid lesion.\n\nThe most likely diagnosis is a myxoma. Differential diagnoses include myxoid liposarcoma, which would show lipoblasts and a more prominent plexiform capillary network, and myxoid chondrosarcoma, which would have chondrocytes within lacunae.",
+      "rationale": "Center of Region 2 at 20x to evaluate cells, vessels, atypia, organisms."
+    },
+    {
+      "roi_id": "slide_A_x4096_y12288_mag2",
+      "tile_id": "slide_A_x4096_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 4096,
+      "y": 12288,
+      "level0": {
+        "x": 4096,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows abundant amorphous, pale pink to purple myxoid material with scattered spindle cells and inflammatory cells. The myxoid material is present in large pools and nodules.\n\nThe most likely diagnosis is a myxoid lesion, such as a myxoma or myxoid degeneration.\n\nDifferential diagnoses include myxoid liposarcoma, which would show lipoblasts and a more cellular background, and myxoid chondrosarcoma, which would have chondrocytes within lacunae.",
+      "rationale": "Low-power survey of superior/left portion of Region 1 for different tissue types (possible cyst wall/synovium)."
+    },
+    {
+      "roi_id": "slide_A_x40960_y24576_mag1",
+      "tile_id": "slide_A_x40960_y24576_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 40960,
+      "y": 24576,
+      "level0": {
+        "x": 40960,
+        "y": 24576,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a low-power view of a soft tissue specimen with a prominent myxoid background containing scattered spindle cells and areas of increased cellularity. The tissue is fragmented and irregular.\n\nThe most likely diagnosis is a myxoid neoplasm, such as a myxoma. Differential diagnoses include myxoid liposarcoma and myxofibrosarcoma, which would typically show more cellular atypia and lipoblasts, respectively.",
+      "rationale": "Low-power overview of inferior-right of Region 0 to look for more cellular/solid areas or necrosis."
+    },
+    {
+      "roi_id": "slide_A_x39424_y11776_mag20",
+      "tile_id": "slide_A_x39424_y11776_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 39424,
+      "y": 11776,
+      "level0": {
+        "x": 39424,
+        "y": 11776,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows abundant myxoid matrix with scattered spindle and stellate cells, along with inflammatory cells and red blood cells. The myxoid material appears to dissect the surrounding tissue.\n\nThe most likely diagnosis is a myxoid neoplasm, such as a myxoma. Differential diagnoses include myxoid liposarcoma and myxofibrosarcoma, which would typically show lipoblasts or more pleomorphic cells, respectively.",
+      "rationale": "Upper-left of Region 2 at 20x to screen for any high-grade focus."
+    },
+    {
+      "roi_id": "slide_A_x4096_y28672_mag2",
+      "tile_id": "slide_A_x4096_y28672_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 4096,
+      "y": 28672,
+      "level0": {
+        "x": 4096,
+        "y": 28672,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a paucicellular lesion with abundant myxoid matrix and scattered spindle cells. The cells are bland with no significant atypia or mitotic activity.\n\nThe most likely diagnosis is a myxoma. Differential diagnoses include myxoid liposarcoma, which would show lipoblasts and a more prominent plexiform capillary network, and myxofibrosarcoma, which would exhibit more cellularity, pleomorphism, and curvilinear vessels.",
+      "rationale": "Low-power survey of inferior/left portion of Region 1 for fibrous tissue, calcification, or bone fragments."
+    },
+    {
+      "roi_id": "slide_A_x40448_y12800_mag20",
+      "tile_id": "slide_A_x40448_y12800_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 40448,
+      "y": 12800,
+      "level0": {
+        "x": 40448,
+        "y": 12800,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows abundant amorphous eosinophilic material with scattered spindle and stellate cells. There is also a mixed inflammatory infiltrate and areas of hemorrhage.\n\nThe most likely diagnosis is a ganglion cyst. Differential diagnoses include myxoma and myxoid liposarcoma, which can be distinguished by the presence of lipoblasts and a more cellular, infiltrative growth pattern in myxoid liposarcoma.",
+      "rationale": "Lower-right of Region 2 at 20x to screen for lining epithelium/synovium, organisms, atypia."
+    },
+    {
+      "roi_id": "slide_A_x20480_y28672_mag2",
+      "tile_id": "slide_A_x20480_y28672_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 20480,
+      "y": 28672,
+      "level0": {
+        "x": 20480,
+        "y": 28672,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows abundant myxoid matrix with scattered spindle cells and areas of hemorrhage. The myxoid material appears to dissect surrounding tissue.\n\nThe most likely diagnosis is a myxoma, specifically a juxta-articular myxoma given the location and clinical presentation.\n\nDifferential diagnoses include myxoid liposarcoma, which typically shows lipoblasts and a more prominent plexiform vascular pattern, and myxoid chondrosarcoma, which would have chondrocytes within lacunae.",
+      "rationale": "Low-power survey of inferior/right portion of Region 1 for any more cellular foci or lining structures."
+    },
+    {
+      "roi_id": "slide_A_x24576_y14336_mag5",
+      "tile_id": "slide_A_x24576_y14336_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 24576,
+      "y": 14336,
+      "level0": {
+        "x": 24576,
+        "y": 14336,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation of spindle cells within a prominent myxoid matrix, with areas of increased cellularity and scattered blood vessels. The morphology is consistent with a myxoid mesenchymal neoplasm.\n\nThe most likely diagnosis is myxofibrosarcoma. Differential diagnoses include myxoma, which typically shows lower cellularity and lacks the pleomorphism and curvilinear vessels seen here, and myxoid liposarcoma, which would require identification of lipoblasts.",
+      "rationale": "Intermediate power in central region to confirm myxoid matrix, vascular pattern, and cellularity."
+    },
+    {
+      "roi_id": "slide_A_x29696_y11264_mag10",
+      "tile_id": "slide_A_x29696_y11264_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 29696,
+      "y": 11264,
+      "level0": {
+        "x": 29696,
+        "y": 11264,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a hypocellular lesion with scattered spindle and stellate cells embedded in an abundant myxoid matrix. The cells have small, dark nuclei and scant cytoplasm, with some arranged in cords or small clusters.\n\nThe most likely diagnosis is a myxoma. Differential diagnoses include myxoid liposarcoma, which would show lipoblasts and a more prominent plexiform capillary network, and myxofibrosarcoma, which would exhibit more cellular pleomorphism and curvilinear vessels.",
+      "rationale": "Scan an area with apparent hemorrhage/denser tissue for synovial lining, inflammation, or atypical spindle cells."
+    },
+    {
+      "roi_id": "slide_A_x4096_y12288_mag10",
+      "tile_id": "slide_A_x4096_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 4096,
+      "y": 12288,
+      "level0": {
+        "x": 4096,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a hypocellular lesion with abundant myxoid matrix and scattered spindle cells. There are also areas of hemorrhage and inflammatory cells.\n\nThe most likely diagnosis is a myxoma. Differential diagnoses include myxoid liposarcoma, which would show lipoblasts, and myxoid chondrosarcoma, which would have chondrocytes in lacunae.",
+      "rationale": "Evaluate architecture and look for cyst/synovial lining, fibrin, granulation or inflammation within myxoid pools."
+    },
+    {
+      "roi_id": "slide_A_x38912_y13312_mag20",
+      "tile_id": "slide_A_x38912_y13312_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 38912,
+      "y": 13312,
+      "level0": {
+        "x": 38912,
+        "y": 13312,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a hypocellular lesion with scattered cells embedded in an abundant myxoid matrix. The cells have small, dark nuclei and scant cytoplasm, with some larger cells having clear cytoplasm.\n\nThe most likely diagnosis is a myxoma. Differential diagnoses include myxoid liposarcoma, which would show lipoblasts and a more cellular background, and myxoid chondrosarcoma, which would have chondrocytes in lacunae.",
+      "rationale": "Sweep inferior portion of Region 2 for atypical hypercellular focus or necrosis."
+    },
+    {
+      "roi_id": "slide_A_x18432_y20480_mag10",
+      "tile_id": "slide_A_x18432_y20480_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 18432,
+      "y": 20480,
+      "level0": {
+        "x": 18432,
+        "y": 20480,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows abundant myxoid matrix with scattered spindle cells and a mixed inflammatory infiltrate. There are also areas of hemorrhage and fibrin.\n\nThe most likely diagnosis is a myxoid lesion, such as a myxoma or myxoid cyst. Differential diagnoses include myxoid liposarcoma, which would show lipoblasts, and myxofibrosarcoma, which would have more pleomorphic spindle cells and curvilinear vessels.",
+      "rationale": "Intermediate power in peripheral paler myxoid area to look for cyst wall/degenerative change vs neoplasm."
+    },
+    {
+      "roi_id": "slide_A_x40448_y12288_mag20",
+      "tile_id": "slide_A_x40448_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 40448,
+      "y": 12288,
+      "level0": {
+        "x": 40448,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows abundant myxoid matrix with scattered spindle and stellate cells. There is also a mixed inflammatory infiltrate and areas of hemorrhage.\n\nThe most likely diagnosis is a myxoid lesion, such as a myxoma or myxoid degeneration.\n\nDifferential diagnoses include myxoid liposarcoma, which would show lipoblasts, and myxofibrosarcoma, which would have more pleomorphic cells and curvilinear vessels.",
+      "rationale": "Sweep superior-right portion of Region 2; check for lining cells/synovial tissue or vascular pattern."
+    },
+    {
+      "roi_id": "slide_A_x12288_y20480_mag10",
+      "tile_id": "slide_A_x12288_y20480_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 12288,
+      "y": 20480,
+      "level0": {
+        "x": 12288,
+        "y": 20480,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a hypocellular lesion with scattered spindle and stellate cells embedded in an abundant myxoid matrix. The cells have small, dark nuclei and are often arranged in a reticular pattern.\n\nThe most likely diagnosis is a myxoma. Differential diagnoses include myxoid liposarcoma, which typically shows lipoblasts and a more prominent plexiform capillary network, and myxoid chondrosarcoma, which would have chondrocytes within lacunae.",
+      "rationale": "Assess hemorrhagic/myxoid areas for vascular pattern, cellularity, and any sarcomatous features."
+    },
+    {
+      "roi_id": "slide_A_x39936_y14336_mag10",
+      "tile_id": "slide_A_x39936_y14336_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 39936,
+      "y": 14336,
+      "level0": {
+        "x": 39936,
+        "y": 14336,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a hypocellular lesion with scattered spindle and stellate cells embedded in an abundant myxoid matrix. There is also a dense inflammatory infiltrate composed of lymphocytes and plasma cells.\n\nThe most likely diagnosis is a myxoma. Differential diagnoses include myxoid liposarcoma, which would show lipoblasts and a plexiform capillary pattern, and myxoid chondrosarcoma, which would have chondrocytes in lacunae.",
+      "rationale": "Examine right-sided small tissue focus near region 2 interface for higher cellularity, possible lining, or granulomatous reaction."
+    },
+    {
+      "roi_id": "slide_A_x39936_y13824_mag20",
+      "tile_id": "slide_A_x39936_y13824_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 39936,
+      "y": 13824,
+      "level0": {
+        "x": 39936,
+        "y": 13824,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a hypocellular lesion with scattered spindle and stellate cells embedded in an abundant myxoid matrix. The cells have small, dark nuclei and scant cytoplasm, with some larger cells having more abundant cytoplasm.\n\nThe most likely diagnosis is a myxoma. The differential diagnosis includes myxoid liposarcoma, which would show lipoblasts and a more prominent plexiform capillary network, and myxoid chondrosarcoma, which would have chondrocytes within lacunae and a more chondroid matrix.",
+      "rationale": "Posterior/inferior-central portion of Region 2; look for organisms, granulomas, amyloid-like material."
+    },
+    {
+      "roi_id": "slide_A_x19456_y28672_mag10",
+      "tile_id": "slide_A_x19456_y28672_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 19456,
+      "y": 28672,
+      "level0": {
+        "x": 19456,
+        "y": 28672,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows abundant myxoid matrix with scattered spindle and stellate cells, along with a mixed inflammatory infiltrate. The myxoid material appears to dissect surrounding tissue.\n\nThe most likely diagnosis is a myxoma, specifically a juxta-articular myxoma given the location and clinical presentation.\n\nDifferential diagnoses include myxoid liposarcoma, which would show lipoblasts and a more prominent plexiform capillary network, and myxoid chondrosarcoma, which would have chondrocytes within lacunae and a more chondroid matrix.",
+      "rationale": "Check dissecting myxoid material at periphery for entrapped tendon/collagen, foreign body reaction, or lining."
+    },
+    {
+      "roi_id": "slide_A_x38912_y13312_mag10",
+      "tile_id": "slide_A_x38912_y13312_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 38912,
+      "y": 13312,
+      "level0": {
+        "x": 38912,
+        "y": 13312,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a hypocellular lesion with abundant myxoid matrix and scattered spindle to stellate cells. There are also areas of hemorrhage and inflammation.\n\nThe most likely diagnosis is a myxoma. Differential diagnoses include myxoid liposarcoma and myxofibrosarcoma, which typically show more cellularity, pleomorphism, and lipoblasts or curvilinear vessels, respectively.",
+      "rationale": "Re-check whole small region at 10x for any focal hypercellularity to target at 20x."
+    },
+    {
+      "roi_id": "slide_A_x7168_y25600_mag10",
+      "tile_id": "slide_A_x7168_y25600_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 7168,
+      "y": 25600,
+      "level0": {
+        "x": 7168,
+        "y": 25600,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows abundant amorphous, eosinophilic material with scattered spindle cells and inflammatory cells. The material appears somewhat fibrillar and wavy in areas.\n\nThe most likely diagnosis is a ganglion cyst, characterized by the presence of abundant myxoid material and scattered fibroblasts and inflammatory cells.\n\nDifferential diagnoses include myxoma, which typically shows more prominent spindle cells and less inflammatory infiltrate, and myxoid liposarcoma, which would contain lipoblasts and a more prominent plexiform capillary network.",
+      "rationale": "Look for calcifications/crystals, necrosis, or more cellular foci in inferior left area."
+    },
+    {
+      "roi_id": "slide_A_x24576_y14336_mag20",
+      "tile_id": "slide_A_x24576_y14336_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 24576,
+      "y": 14336,
+      "level0": {
+        "x": 24576,
+        "y": 14336,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle to stellate cells within a prominent myxoid matrix. The cells have elongated, hyperchromatic nuclei and are arranged in a loose, reticular pattern.\n\nThe most likely diagnosis is myxoma. Differential diagnoses include myxoid liposarcoma, which typically shows lipoblasts and a more prominent plexiform capillary network, and myxofibrosarcoma, which often exhibits more significant nuclear pleomorphism and curvilinear vessels.",
+      "rationale": "High power of central more cellular area to assess atypia/mitoses/necrosis and vessel pattern; exclude myxofibrosarcoma."
+    },
+    {
+      "roi_id": "slide_A_x7168_y25600_mag20",
+      "tile_id": "slide_A_x7168_y25600_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 7168,
+      "y": 25600,
+      "level0": {
+        "x": 7168,
+        "y": 25600,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows abundant amorphous, eosinophilic material with scattered spindle-shaped cells and inflammatory cells. The material appears fibrillar and somewhat layered in areas.\n\nThe most likely diagnosis is a ganglion cyst, characterized by the presence of abundant myxoid material and scattered fibroblasts and inflammatory cells.\n\nDifferential diagnoses include myxoma, which typically shows more prominent spindle cells and less inflammatory infiltrate, and myxoid liposarcoma, which would contain lipoblasts and a more prominent plexiform capillary network.",
+      "rationale": "High power of eosinophilic/fibrillar wavy material for lining cells, fibrin, amyloid-like deposits, crystals."
+    },
+    {
+      "roi_id": "slide_A_x18432_y20480_mag20",
+      "tile_id": "slide_A_x18432_y20480_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 18432,
+      "y": 20480,
+      "level0": {
+        "x": 18432,
+        "y": 20480,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a myxoid background with scattered spindle cells and a mixed inflammatory infiltrate. A prominent feature is the presence of a large, irregular, eosinophilic structure.\n\nThe most likely diagnosis is a ganglion cyst. The myxoid background, scattered spindle cells, and the presence of a large, irregular, eosinophilic structure are characteristic features. The clinical presentation of a large, diffuse, mucoid mass around the joint and tendons is also consistent with a ganglion cyst.\n\nDifferential diagnoses include myxoma and myxoid liposarcoma. Myxoma typically shows a more uniform myxoid background with bland spindle cells and lacks the large, irregular eosinophilic structures seen here. Myxoid liposarcoma would show lipoblasts and a characteristic plexiform capillary pattern, which are not present in this image.",
+      "rationale": "High power of inflammatory/fibrinous area to look for organisms/biofilm, palisading granulomas, synovial-type lining."
+    },
+    {
+      "roi_id": "slide_A_x12288_y20480_mag20",
+      "tile_id": "slide_A_x12288_y20480_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 12288,
+      "y": 20480,
+      "level0": {
+        "x": 12288,
+        "y": 20480,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a hypocellular lesion with scattered spindle and stellate cells embedded in an abundant myxoid matrix. The cells have small, dark nuclei and scant cytoplasm, with some larger cells having more abundant cytoplasm.\n\nThe most likely diagnosis is a myxoma. Differential diagnoses include myxoid liposarcoma, which would show lipoblasts and a more prominent plexiform capillary network, and myxoid chondrosarcoma, which would have chondrocytes within lacunae and a more chondroid matrix.",
+      "rationale": "High power of classic myxoid hypocellular area to assess cytologic atypia/mitoses, vascular pattern."
+    },
+    {
+      "roi_id": "slide_A_x39936_y14336_mag20",
+      "tile_id": "slide_A_x39936_y14336_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 39936,
+      "y": 14336,
+      "level0": {
+        "x": 39936,
+        "y": 14336,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a hypocellular lesion with scattered spindle and stellate cells embedded in an abundant myxoid matrix. The cells have small, dark nuclei and scant cytoplasm, with some exhibiting cytoplasmic vacuolation.\n\nThe most likely diagnosis is a myxoma. Differential diagnoses include myxoid liposarcoma, which would show lipoblasts and a more prominent plexiform capillary network, and myxoid chondrosarcoma, which would have chondrocytes within lacunae and a more chondroid matrix.",
+      "rationale": "High power of right-sided inflammatory infiltrate to characterize inflammation and search for organisms."
+    },
+    {
+      "roi_id": "slide_A_x19456_y28672_mag20",
+      "tile_id": "slide_A_x19456_y28672_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 19456,
+      "y": 28672,
+      "level0": {
+        "x": 19456,
+        "y": 28672,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows abundant myxoid matrix with scattered spindle and stellate cells, along with a mixed inflammatory infiltrate. The myxoid material appears to dissect surrounding tissue.\n\nThe most likely diagnosis is a myxoma, specifically a juxta-articular myxoma given the location and clinical presentation. Differential diagnoses include myxoid liposarcoma and myxofibrosarcoma, which would typically show more cellular atypia and lipoblasts, respectively.",
+      "rationale": "High power at interface/dissecting myxoid material to look for entrapped tendon/collagen, foreign body reaction, inflammation."
+    },
+    {
+      "roi_id": "slide_A_x29696_y11264_mag20",
+      "tile_id": "slide_A_x29696_y11264_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 29696,
+      "y": 11264,
+      "level0": {
+        "x": 29696,
+        "y": 11264,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a hypocellular lesion with scattered spindle and stellate cells embedded in an abundant myxoid matrix. A prominent feature is the presence of numerous thin-walled blood vessels.\n\nThe most likely diagnosis is a myxoma. Differential diagnoses include myxoid liposarcoma, which typically shows lipoblasts and a more prominent plexiform vascular pattern, and myxoid chondrosarcoma, which would have chondrocytes within lacunae.",
+      "rationale": "High power of hypocellular myxoid area to look for lipoblasts, chondrocytes, epithelial/synovial lining, amyloid-like material."
+    },
+    {
+      "roi_id": "slide_A_x4096_y12288_mag20",
+      "tile_id": "slide_A_x4096_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 4096,
+      "y": 12288,
+      "level0": {
+        "x": 4096,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows abundant myxoid matrix with scattered spindle cells and numerous red blood cells. The myxoid material appears fibrillar and amorphous.\n\nThe most likely diagnosis is a myxoid lesion, such as a myxoma or myxoid degeneration.\n\nDifferential diagnoses include myxoid liposarcoma, which would show lipoblasts, and myxoid chondrosarcoma, which would show chondrocytes within lacunae.",
+      "rationale": "High power in upper left myxoid pool to search for lining/synovial features and inflammatory pattern."
+    },
+    {
+      "roi_id": "slide_A_x25600_y16384_mag10",
+      "tile_id": "slide_A_x25600_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 25600,
+      "y": 16384,
+      "level0": {
+        "x": 25600,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells within a myxoid matrix, accompanied by a prominent inflammatory infiltrate and numerous blood vessels. The spindle cells have elongated nuclei and are arranged in short fascicles and haphazardly.\n\nThe most likely diagnosis is myxoinflammatory fibroblastic sarcoma.\n\nDifferential diagnoses include myxofibrosarcoma, which typically shows more pleomorphism and curvilinear vessels, and inflammatory myofibroblastic tumor, which usually has a more uniform spindle cell population and lacks the prominent myxoid change and inflammatory infiltrate seen here.",
+      "rationale": "Sample additional central streaky/hemorrhagic area for synovial lining or organizing granulation tissue."
+    },
+    {
+      "roi_id": "slide_A_x2048_y16384_mag5",
+      "tile_id": "slide_A_x2048_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 2048,
+      "y": 16384,
+      "level0": {
+        "x": 2048,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows abundant myxoid matrix with scattered spindle cells and areas of hemorrhage. The myxoid material appears to dissect the surrounding tissue.\n\nThe most likely diagnosis is a myxoid neoplasm, such as myxoma. Differential diagnoses include myxoid liposarcoma and myxofibrosarcoma, which would typically show more cellularity, pleomorphism, and lipoblasts or curvilinear vessels, respectively.",
+      "rationale": "Sample additional peripheral tissue in Region 1 (more fibrous appearing area) for possible cyst wall/tendon interface not yet reviewed."
+    },
+    {
+      "roi_id": "slide_A_x32768_y17408_mag10",
+      "tile_id": "slide_A_x32768_y17408_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 32768,
+      "y": 17408,
+      "level0": {
+        "x": 32768,
+        "y": 17408,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a transition from a cellular area with spindle cells in a fibrillary matrix to a hypocellular area with abundant myxoid matrix and scattered cells. A prominent blood vessel is also present.\n\nThe most likely diagnosis is a myxoid neoplasm, such as a myxoma.\n\nDifferential diagnoses include myxoid liposarcoma, which would show lipoblasts, and myxofibrosarcoma, which would show more pleomorphism and curvilinear vessels.",
+      "rationale": "Sample mid-right area away from prior ROIs for vascular pattern (plexiform vs curvilinear) and cellularity."
+    },
+    {
+      "roi_id": "slide_A_x1536_y15872_mag20",
+      "tile_id": "slide_A_x1536_y15872_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 1536,
+      "y": 15872,
+      "level0": {
+        "x": 1536,
+        "y": 15872,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows abundant myxoid matrix with scattered spindle and stellate cells. There are also areas of hemorrhage and inflammatory cells.\n\nThe most likely diagnosis is a myxoma. Differential diagnoses include myxoid liposarcoma and myxofibrosarcoma, which typically show more cellularity, pleomorphism, and lipoblasts.",
+      "rationale": "High power of same peripheral area to look for lining, granulation tissue, foreign body reaction, organisms."
+    },
+    {
+      "roi_id": "slide_A_x12288_y14336_mag10",
+      "tile_id": "slide_A_x12288_y14336_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 12288,
+      "y": 14336,
+      "level0": {
+        "x": 12288,
+        "y": 14336,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a hypocellular lesion with scattered spindle and stellate cells embedded in an abundant myxoid matrix. The cells have small, bland nuclei and are often arranged in cords or strands.\n\nThe most likely diagnosis is a juxta-articular myxoma.\n\nDifferential diagnoses include intramuscular myxoma, which typically occurs in skeletal muscle and is less likely to be juxta-articular, and myxoid liposarcoma, which would show lipoblasts and a more prominent plexiform capillary network.",
+      "rationale": "Sample left-central tissue fragment for possible cyst wall/fibrous tissue, palisading granulomas, or pigmented synovium."
+    },
+    {
+      "roi_id": "slide_A_x16384_y12288_mag5",
+      "tile_id": "slide_A_x16384_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 16384,
+      "y": 12288,
+      "level0": {
+        "x": 16384,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a hypocellular lesion with abundant myxoid matrix and scattered spindle cells. There are also areas of hemorrhage and inflammation.\n\nThe most likely diagnosis is a myxoma. Differential diagnoses include myxoid liposarcoma and myxofibrosarcoma, which typically show more cellularity, pleomorphism, and lipoblasts.",
+      "rationale": "Sample another region in upper right of Region 1 for any synovial-like tissue or increased cellularity."
+    },
+    {
+      "roi_id": "slide_A_x16896_y11776_mag20",
+      "tile_id": "slide_A_x16896_y11776_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 16896,
+      "y": 11776,
+      "level0": {
+        "x": 16896,
+        "y": 11776,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a hypocellular lesion with scattered spindle and stellate cells embedded in an abundant myxoid matrix. There is also a focus of hemorrhage and inflammation.\n\nThe most likely diagnosis is a myxoma. Differential diagnoses include myxoid liposarcoma, which would show lipoblasts and a more prominent plexiform capillary network, and myxoid chondrosarcoma, which would have chondrocytes within lacunae.",
+      "rationale": "High power to assess for synovial lining, inflammatory features, atypia."
+    },
+    {
+      "roi_id": "slide_A_x26112_y16384_mag20",
+      "tile_id": "slide_A_x26112_y16384_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 26112,
+      "y": 16384,
+      "level0": {
+        "x": 26112,
+        "y": 16384,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells within a myxoid stroma, accompanied by a prominent inflammatory infiltrate and numerous congested blood vessels. The spindle cells have elongated nuclei and are arranged in short fascicles and haphazardly.\n\nThe most likely diagnosis is myxoinflammatory fibroblastic sarcoma.\n\nDifferential diagnoses include myxofibrosarcoma, which typically shows more pleomorphism and curvilinear vessels, and inflammatory myofibroblastic tumor, which usually has a more uniform spindle cell population and lacks the prominent myxoid stroma and inflammatory infiltrate seen here.",
+      "rationale": "High power follow-up of central streaky area to evaluate atypia/mitoses/necrosis and look for neutrophils/organisms."
+    },
+    {
+      "roi_id": "slide_A_x11776_y14848_mag20",
+      "tile_id": "slide_A_x11776_y14848_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 11776,
+      "y": 14848,
+      "level0": {
+        "x": 11776,
+        "y": 14848,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a hypocellular lesion with scattered spindle and stellate cells embedded in an abundant myxoid matrix. There are also numerous small blood vessels and extravasated red blood cells.\n\nThe most likely diagnosis is a juxta-articular myxoma. This diagnosis is supported by the hypocellularity, myxoid stroma, and bland spindle/stellate cells. The clinical presentation of a large, diffuse myxoid mass around the joint is also characteristic.\n\nDifferential diagnoses include intramuscular myxoma, which is typically more cellular and may show more prominent vasculature, and myxoid liposarcoma, which would show lipoblasts and a more prominent plexiform vascular pattern.",
+      "rationale": "High power in left-central fragment for inflammation, palisading granulomas, organisms/biofilm, or synovial-type lining."
+    },
+    {
+      "roi_id": "slide_A_x27136_y15360_mag20",
+      "tile_id": "slide_A_x27136_y15360_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 27136,
+      "y": 15360,
+      "level0": {
+        "x": 27136,
+        "y": 15360,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a loose, myxoid stroma with scattered spindle and stellate cells, prominent thin-walled blood vessels, and areas of hemorrhage. The stroma is edematous and contains clear spaces.\n\nThe most likely diagnosis is a juxta-articular myxoma. This diagnosis is supported by the myxoid stroma, scattered spindle and stellate cells, and prominent vasculature. The clinical presentation of a large, diffuse myxoid mass around the joint is also characteristic.\n\nDifferential diagnoses include intramuscular myxoma, which typically occurs within skeletal muscle and may have a more circumscribed appearance, and myxoid liposarcoma, which would show lipoblasts and a more prominent plexiform vascular pattern.",
+      "rationale": "Target one of the more cellular/vascular central foci to look for atypia/mitoses/necrosis and assess for sarcoma-like features."
+    },
+    {
+      "roi_id": "slide_A_x32256_y17408_mag20",
+      "tile_id": "slide_A_x32256_y17408_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 32256,
+      "y": 17408,
+      "level0": {
+        "x": 32256,
+        "y": 17408,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a hypocellular proliferation of spindle and stellate cells within an abundant myxoid matrix. The cells have small, dark nuclei and are arranged in a loose, reticular pattern.\n\nThe most likely diagnosis is a myxoma. Differential diagnoses include myxoid liposarcoma, which would show lipoblasts and a more prominent plexiform capillary network, and myxoid chondrosarcoma, which would have chondrocytes in lacunae and a more chondroid matrix.",
+      "rationale": "High power in transition zone (cellular to myxoid) to check for curvilinear vessels, pleomorphism, and lipoblasts."
+    },
+    {
+      "roi_id": "slide_A_x38912_y24576_mag20",
+      "tile_id": "slide_A_x38912_y24576_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 38912,
+      "y": 24576,
+      "level0": {
+        "x": 38912,
+        "y": 24576,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a hypocellular lesion with scattered cells embedded in an abundant myxoid matrix. The cells have small, dark nuclei and scant cytoplasm, with some exhibiting vacuolation.\n\nThe most likely diagnosis is a myxoma. Differential diagnoses include myxoid liposarcoma, which would show lipoblasts and a more cellular pattern, and myxoid chondrosarcoma, which would have chondrocytes in lacunae and a more chondroid matrix.",
+      "rationale": "High power in far right/inferior portion to look for necrosis, acute inflammation, organisms/biofilm."
+    },
+    {
+      "roi_id": "slide_A_x20992_y10752_mag20",
+      "tile_id": "slide_A_x20992_y10752_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20992,
+      "y": 10752,
+      "level0": {
+        "x": 20992,
+        "y": 10752,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells within a myxoid background, accompanied by prominent vascularity and a mixed inflammatory infiltrate.",
+      "rationale": "High power in upper-central paler area to evaluate for synovial-type lining, palisading granulomas, or amyloid-like deposits."
+    }
+  ]
+}

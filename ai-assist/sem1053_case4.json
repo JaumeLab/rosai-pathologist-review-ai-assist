@@ -1,0 +1,958 @@
+{
+  "case_id": "sem1053_case4",
+  "source": "slideseek-ai-assist",
+  "model": "gpt-5.4",
+  "generated_at": "2026-05-22T09:19:15.941761+00:00",
+  "organ": "GI Tract",
+  "primary_dx": "Gastric Gastrointestinal Stromal Tumor, Spindle-Cell Type, With Geographic Tumor Necrosis",
+  "differential_dx": [
+    "Gastric Smooth Muscle Tumor (Leiomyoma/Leiomyosarcoma)",
+    "Gastric Schwannoma"
+  ],
+  "microscopic_findings": [
+    {
+      "text": "Spindle-cell neoplasm forms intersecting **fascicles** and **whorls** with variable cellularity in an intramural pattern.",
+      "roi_ids": [
+        "slide_A_x20480_y8192_mag10",
+        "slide_A_x30720_y22528_mag10"
+      ]
+    },
+    {
+      "text": "Tumor cells show elongated to mildly **wavy nuclei** and pale eosinophilic cytoplasm with only **mild atypia**.",
+      "roi_ids": [
+        "slide_A_x20480_y8192_mag20",
+        "slide_A_x10240_y22528_mag20"
+      ]
+    },
+    {
+      "text": "There is prominent central **geographic necrosis** with associated **hemorrhage**, contrasting with viable peripheral tumor.",
+      "roi_ids": [
+        "slide_A_x20480_y16384_mag10",
+        "slide_A_x16384_y20480_mag2"
+      ]
+    },
+    {
+      "text": "Foci of stromal **hyalinization** and **myxoid change** are present without Verocay bodies or a peripheral lymphoid cuff.",
+      "roi_ids": [
+        "slide_A_x18432_y16384_mag5",
+        "slide_A_x10240_y22528_mag10"
+      ]
+    }
+  ],
+  "interpretation": "The gastric intramural spindle-cell neoplasm with **intersecting fascicles/whorls**, bland eosinophilic spindle cytology, and **geographic necrosis** is most consistent with **spindle-cell GIST**. The reviewed sections lack **Verocay bodies** and a peripheral lymphoid cuff to support schwannoma, and they do not show the more distinctly smooth-muscle cytology expected for leiomyomatous tumors. Risk assessment requires formal tumor size and mitotic count in hotspot areas.",
+  "num_rois": 57,
+  "tiles": [
+    {
+      "roi_id": "slide_A_x20480_y16384_mag5",
+      "tile_id": "slide_A_x20480_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 20480,
+      "y": 16384,
+      "level0": {
+        "x": 20480,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a spindle cell proliferation with areas of necrosis and a prominent whorled pattern. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a gastrointestinal stromal tumor (GIST).\n\nDifferential diagnoses include leiomyoma and schwannoma. Leiomyomas typically lack necrosis and have blunt-ended nuclei, while schwannomas often show nuclear palisading and Verocay bodies.",
+      "rationale": "Central tumor to assess viable vs necrotic areas"
+    },
+    {
+      "roi_id": "slide_A_x16384_y16384_mag1",
+      "tile_id": "slide_A_x16384_y16384_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 16384,
+      "y": 16384,
+      "level0": {
+        "x": 16384,
+        "y": 16384,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a spindle cell proliferation with intersecting fascicles and prominent areas of necrosis. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a gastrointestinal stromal tumor (GIST).\n\nDifferential diagnoses include leiomyoma and schwannoma. Leiomyomas typically lack necrosis and have more uniform spindle cells with blunt-ended nuclei. Schwannomas often show nuclear palisading and Verocay bodies.",
+      "rationale": "Global low-power survey for circumscription, ulceration, necrosis"
+    },
+    {
+      "roi_id": "slide_A_x20480_y8192_mag5",
+      "tile_id": "slide_A_x20480_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 20480,
+      "y": 8192,
+      "level0": {
+        "x": 20480,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a spindle cell proliferation arranged in intersecting fascicles and whorls, with areas of varying cellularity and hyalinization. The cells have elongated, wavy nuclei.\n\nThe most likely diagnosis is a gastrointestinal stromal tumor (GIST).\n\nDifferential diagnoses include leiomyoma and schwannoma. Leiomyomas typically show more uniform cellularity and blunt-ended nuclei, while schwannomas often have nuclear palisading and Verocay bodies.",
+      "rationale": "Superior portion near mucosa/ulceration interface"
+    },
+    {
+      "roi_id": "slide_A_x20480_y4096_mag2",
+      "tile_id": "slide_A_x20480_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 20480,
+      "y": 4096,
+      "level0": {
+        "x": 20480,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a well-circumscribed spindle cell neoplasm with variable cellularity and areas of necrosis. The cells are arranged in fascicles and whorls.\n\nThe most likely diagnosis is a gastrointestinal stromal tumor (GIST).\n\nDifferential diagnoses include leiomyoma and schwannoma. Leiomyomas typically have more uniform spindle cells with blunt-ended nuclei and lack necrosis. Schwannomas often show nuclear palisading and Verocay bodies.",
+      "rationale": "Survey presumed luminal/mucosal aspect near top edge for mucosa and ulceration."
+    },
+    {
+      "roi_id": "slide_A_x20480_y18432_mag5",
+      "tile_id": "slide_A_x20480_y18432_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 20480,
+      "y": 18432,
+      "level0": {
+        "x": 20480,
+        "y": 18432,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a spindle cell proliferation with variable cellularity, arranged in fascicles and whorls, with areas of necrosis and hyalinization. The cells have elongated, wavy nuclei.\n\nThe most likely diagnosis is a gastrointestinal stromal tumor (GIST).\n\nDifferential diagnoses include leiomyoma and schwannoma. Leiomyomas typically have more uniform spindle cells with blunt-ended nuclei and lack necrosis. Schwannomas often show nuclear palisading and Verocay bodies.",
+      "rationale": "Mid-tumor to assess overall pattern and necrosis border"
+    },
+    {
+      "roi_id": "slide_A_x10240_y22528_mag5",
+      "tile_id": "slide_A_x10240_y22528_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 10240,
+      "y": 22528,
+      "level0": {
+        "x": 10240,
+        "y": 22528,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a spindle cell proliferation arranged in intersecting fascicles and whorls, with areas of varying cellularity and scattered small blood vessels. The cells have elongated, wavy nuclei.\n\nThe most likely diagnosis is a gastrointestinal stromal tumor (GIST).\n\nDifferential diagnoses include leiomyoma and schwannoma. Leiomyomas typically show more uniform cellularity and blunt-ended nuclei, while schwannomas often have nuclear palisading and Verocay bodies.",
+      "rationale": "Left tumor periphery to sample viable rim"
+    },
+    {
+      "roi_id": "slide_A_x20480_y28672_mag2",
+      "tile_id": "slide_A_x20480_y28672_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 20480,
+      "y": 28672,
+      "level0": {
+        "x": 20480,
+        "y": 28672,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a spindle cell proliferation arranged in intersecting fascicles and whorls with variable cellularity and areas of hyalinization. The cells have elongated, wavy nuclei.\n\nThe most likely diagnosis is a gastrointestinal stromal tumor (GIST).\n\nDifferential diagnoses include leiomyoma and schwannoma. Leiomyomas typically have more uniform cellularity and blunt-ended nuclei, while schwannomas often show nuclear palisading and Verocay bodies.",
+      "rationale": "Survey deep aspect near bottom edge for muscularis/serosa relationship."
+    },
+    {
+      "roi_id": "slide_A_x12288_y12288_mag5",
+      "tile_id": "slide_A_x12288_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 12288,
+      "y": 12288,
+      "level0": {
+        "x": 12288,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a spindle cell proliferation with variable cellularity, arranged in fascicles and whorls, with areas of necrosis and hemorrhage. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a gastrointestinal stromal tumor (GIST).\n\nDifferential diagnoses include leiomyoma and schwannoma. Leiomyomas typically have more uniform cellularity and lack necrosis, while schwannomas often show nuclear palisading and Verocay bodies.",
+      "rationale": "Peripheral tumor to look for lymphoid cuff/interface"
+    },
+    {
+      "roi_id": "slide_A_x30720_y22528_mag5",
+      "tile_id": "slide_A_x30720_y22528_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 30720,
+      "y": 22528,
+      "level0": {
+        "x": 30720,
+        "y": 22528,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a spindle cell proliferation arranged in intersecting fascicles and whorls. The cells have elongated nuclei and eosinophilic cytoplasm, with areas of hyalinization and necrosis.\n\nThe most likely diagnosis is a gastrointestinal stromal tumor (GIST).\n\nDifferential diagnoses include leiomyoma and schwannoma. Leiomyomas typically show more uniform spindle cells with blunt-ended nuclei and lack necrosis. Schwannomas often have nuclear palisading and Verocay bodies.",
+      "rationale": "Another peripheral quadrant to sample architecture"
+    },
+    {
+      "roi_id": "slide_A_x18432_y16384_mag5",
+      "tile_id": "slide_A_x18432_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 18432,
+      "y": 16384,
+      "level0": {
+        "x": 18432,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a spindle cell proliferation with variable cellularity, featuring areas of dense fascicles and areas of hypocellularity with myxoid change. The cells have elongated, wavy nuclei.\n\nThe most likely diagnosis is a gastrointestinal stromal tumor (GIST).\n\nDifferential diagnoses include leiomyoma and schwannoma. Leiomyomas typically have more uniform spindle cells with blunt-ended nuclei and lack the variable cellularity and myxoid change seen here. Schwannomas often show nuclear palisading and Verocay bodies, which are not present.",
+      "rationale": "Examine tumor center for architecture and necrosis/hemorrhage."
+    },
+    {
+      "roi_id": "slide_A_x32768_y20480_mag5",
+      "tile_id": "slide_A_x32768_y20480_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 32768,
+      "y": 20480,
+      "level0": {
+        "x": 32768,
+        "y": 20480,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a spindle cell proliferation arranged in intersecting fascicles and whorls. The cells have elongated, wavy nuclei and eosinophilic cytoplasm, with areas of hyalinization and necrosis.\n\nThe most likely diagnosis is a gastrointestinal stromal tumor (GIST).\n\nDifferential diagnoses include leiomyoma and schwannoma. Leiomyomas typically have more uniform, blunt-ended nuclei and lack the prominent whorling pattern. Schwannomas often show nuclear palisading and Verocay bodies.",
+      "rationale": "Examine right peripheral interface for circumscription/invasion."
+    },
+    {
+      "roi_id": "slide_A_x20480_y8192_mag10",
+      "tile_id": "slide_A_x20480_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 20480,
+      "y": 8192,
+      "level0": {
+        "x": 20480,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a spindle cell neoplasm with variable cellularity, arranged in intersecting fascicles and whorls. The cells have elongated, wavy nuclei and eosinophilic cytoplasm, with areas of hyalinization and necrosis.\n\nThe most likely diagnosis is a gastrointestinal stromal tumor (GIST).\n\nDifferential diagnoses include leiomyoma and schwannoma. Leiomyomas typically have more uniform spindle cells with blunt-ended nuclei and lack the variable cellularity and necrosis seen here. Schwannomas often show nuclear palisading and Verocay bodies, which are not present.",
+      "rationale": "Viable tumor near mucosal/ulceration area—assess pattern and cell type at 10x"
+    },
+    {
+      "roi_id": "slide_A_x9216_y22528_mag10",
+      "tile_id": "slide_A_x9216_y22528_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 9216,
+      "y": 22528,
+      "level0": {
+        "x": 9216,
+        "y": 22528,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a spindle cell neoplasm with variable cellularity, arranged in intersecting fascicles and whorls. The cells have elongated, wavy nuclei and scant cytoplasm, with areas of hyalinization and necrosis.\n\nThe most likely diagnosis is a gastrointestinal stromal tumor (GIST).\n\nDifferential diagnoses include leiomyoma and schwannoma. Leiomyomas typically have more uniform, blunt-ended nuclei and lack significant necrosis. Schwannomas often show nuclear palisading and Verocay bodies.",
+      "rationale": "Left/inferior tumor to assess fascicular pattern vs palisading; look for lymphoid cuff at periphery"
+    },
+    {
+      "roi_id": "slide_A_x10240_y22528_mag10",
+      "tile_id": "slide_A_x10240_y22528_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 10240,
+      "y": 22528,
+      "level0": {
+        "x": 10240,
+        "y": 22528,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a spindle cell neoplasm with variable cellularity, featuring areas of dense fascicles and areas of lower cellularity with a myxoid background. The cells have elongated, wavy nuclei.\n\nThe most likely diagnosis is a gastrointestinal stromal tumor (GIST).\n\nDifferential diagnoses include leiomyoma and schwannoma. Leiomyomas typically have more uniform cellularity and blunt-ended nuclei, while schwannomas often show nuclear palisading and Verocay bodies.",
+      "rationale": "Peripheral viable tumor—evaluate fascicular architecture and stroma"
+    },
+    {
+      "roi_id": "slide_A_x24576_y4096_mag5",
+      "tile_id": "slide_A_x24576_y4096_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 24576,
+      "y": 4096,
+      "level0": {
+        "x": 24576,
+        "y": 4096,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a spindle cell proliferation with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles and whorls. There is also a large area of amorphous eosinophilic material consistent with necrosis.\n\nThe most likely diagnosis is a gastrointestinal stromal tumor (GIST).\n\nDifferential diagnoses include leiomyoma and schwannoma. Leiomyomas typically show more uniform spindle cells with blunt-ended nuclei and lack necrosis. Schwannomas often have nuclear palisading and Verocay bodies.",
+      "rationale": "Look for gastric mucosa and ulcer crater at luminal surface; assess mucosal involvement/ulceration."
+    },
+    {
+      "roi_id": "slide_A_x31744_y22528_mag10",
+      "tile_id": "slide_A_x31744_y22528_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 31744,
+      "y": 22528,
+      "level0": {
+        "x": 31744,
+        "y": 22528,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a spindle cell proliferation with variable cellularity, arranged in intersecting fascicles and whorls. The cells have elongated, wavy nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a gastrointestinal stromal tumor (GIST).\n\nDifferential diagnoses include leiomyoma and schwannoma. Leiomyomas typically have more uniform cellularity and blunt-ended nuclei, while schwannomas often show nuclear palisading and Verocay bodies.",
+      "rationale": "Right tumor area to evaluate vascular pattern/perivascular hyalinization and any epithelioid change"
+    },
+    {
+      "roi_id": "slide_A_x30720_y22528_mag10",
+      "tile_id": "slide_A_x30720_y22528_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 30720,
+      "y": 22528,
+      "level0": {
+        "x": 30720,
+        "y": 22528,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a spindle cell proliferation arranged in intersecting fascicles with elongated, wavy nuclei and eosinophilic cytoplasm. There is variable cellularity and areas of hyalinization.\n\nThe most likely diagnosis is a gastrointestinal stromal tumor (GIST).\n\nDifferential diagnoses include leiomyoma and schwannoma. Leiomyomas typically have blunt-ended nuclei and lack the wavy appearance. Schwannomas often show nuclear palisading and Verocay bodies.",
+      "rationale": "Opposite peripheral viable area—check for heterogeneity/epithelioid change"
+    },
+    {
+      "roi_id": "slide_A_x26624_y12288_mag5",
+      "tile_id": "slide_A_x26624_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 26624,
+      "y": 12288,
+      "level0": {
+        "x": 26624,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a spindle cell neoplasm with intersecting fascicles and whorls, featuring elongated cells with wavy nuclei and eosinophilic cytoplasm. Areas of hyalinization and necrosis are also present.\n\nThe most likely diagnosis is a gastrointestinal stromal tumor (GIST).\n\nDifferential diagnoses include leiomyoma and schwannoma. Leiomyomas typically show more uniform spindle cells with blunt-ended nuclei and lack the prominent whorling pattern. Schwannomas often exhibit nuclear palisading and Verocay bodies, which are not seen here.",
+      "rationale": "Evaluate transition from ulcer bed to underlying tumor; relationship to submucosa/muscularis."
+    },
+    {
+      "roi_id": "slide_A_x20480_y15360_mag10",
+      "tile_id": "slide_A_x20480_y15360_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 20480,
+      "y": 15360,
+      "level0": {
+        "x": 20480,
+        "y": 15360,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a spindle cell proliferation with variable cellularity, arranged in fascicles and whorls, with areas of necrosis and hyalinization. The cells have elongated, wavy nuclei.\n\nThe most likely diagnosis is a gastrointestinal stromal tumor (GIST).\n\nDifferential diagnoses include leiomyoma and schwannoma. Leiomyomas typically have more uniform spindle cells with blunt-ended nuclei and lack necrosis. Schwannomas often show nuclear palisading and Verocay bodies.",
+      "rationale": "Upper central area near possible mucosal ulcer to look for inflammatory component/IFP-like changes"
+    },
+    {
+      "roi_id": "slide_A_x20480_y16384_mag10",
+      "tile_id": "slide_A_x20480_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 20480,
+      "y": 16384,
+      "level0": {
+        "x": 20480,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a spindle cell proliferation with variable cellularity, featuring areas of dense cellularity with fascicles and areas of hypocellularity with hyalinization and necrosis. The cells have elongated, wavy nuclei.\n\nThe most likely diagnosis is a gastrointestinal stromal tumor (GIST).\n\nDifferential diagnoses include leiomyoma and schwannoma. Leiomyomas typically have more uniform spindle cells with blunt-ended nuclei and lack the variable cellularity and necrosis seen here. Schwannomas often show nuclear palisading and Verocay bodies, which are not present.",
+      "rationale": "Tumor adjacent to necrosis—assess cellularity and any palisading/skeinoid fibers"
+    },
+    {
+      "roi_id": "slide_A_x28672_y30720_mag5",
+      "tile_id": "slide_A_x28672_y30720_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 28672,
+      "y": 30720,
+      "level0": {
+        "x": 28672,
+        "y": 30720,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a well-circumscribed spindle cell neoplasm with variable cellularity, featuring areas of dense cellularity with fascicles and whorls, and less cellular areas with myxoid change and hyalinization. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a gastrointestinal stromal tumor (GIST).\n\nDifferential diagnoses include leiomyoma, which typically shows more uniform spindle cells with blunt-ended nuclei and less variable cellularity, and schwannoma, which often exhibits Antoni A and B areas and Verocay bodies.",
+      "rationale": "Deep aspect: assess relationship to muscularis propria/serosa and whether pushing border or infiltration."
+    },
+    {
+      "roi_id": "slide_A_x20480_y19456_mag10",
+      "tile_id": "slide_A_x20480_y19456_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 20480,
+      "y": 19456,
+      "level0": {
+        "x": 20480,
+        "y": 19456,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a spindle cell proliferation with variable cellularity, arranged in fascicles and whorls, with areas of necrosis and hemorrhage. The cells have elongated, wavy nuclei.\n\nThe most likely diagnosis is a gastrointestinal stromal tumor (GIST).\n\nDifferential diagnoses include leiomyoma and schwannoma. Leiomyomas typically have more uniform spindle cells with blunt-ended nuclei and lack necrosis. Schwannomas often show nuclear palisading and Verocay bodies.",
+      "rationale": "Central necrosis border to evaluate viable tumor pattern"
+    },
+    {
+      "roi_id": "slide_A_x16384_y16384_mag2",
+      "tile_id": "slide_A_x16384_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 16384,
+      "y": 16384,
+      "level0": {
+        "x": 16384,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a spindle cell proliferation with variable cellularity, arranged in fascicles and whorls, and areas of necrosis. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a gastrointestinal stromal tumor (GIST).\n\nDifferential diagnoses include leiomyoma and schwannoma. Leiomyomas typically have more uniform cellularity and lack necrosis, while schwannomas often show nuclear palisading and Verocay bodies.",
+      "rationale": "Map central hemorrhagic/necrotic zone and its extent."
+    },
+    {
+      "roi_id": "slide_A_x14336_y28672_mag10",
+      "tile_id": "slide_A_x14336_y28672_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 14336,
+      "y": 28672,
+      "level0": {
+        "x": 14336,
+        "y": 28672,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a spindle cell proliferation arranged in intersecting fascicles with elongated, wavy nuclei and eosinophilic cytoplasm. There is a suggestion of a whorled pattern.\n\nThe most likely diagnosis is a gastrointestinal stromal tumor (GIST).\n\nDifferential diagnoses include leiomyoma and schwannoma. Leiomyomas typically have blunt-ended nuclei and lack the whorled pattern. Schwannomas often show nuclear palisading and Verocay bodies.",
+      "rationale": "Inferior peripheral edge to check for lymphoid cuff (schwannoma) and interface"
+    },
+    {
+      "roi_id": "slide_A_x34816_y26624_mag5",
+      "tile_id": "slide_A_x34816_y26624_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 34816,
+      "y": 26624,
+      "level0": {
+        "x": 34816,
+        "y": 26624,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a spindle cell proliferation with elongated nuclei arranged in fascicles, exhibiting areas of hyalinization and necrosis. The cells have eosinophilic cytoplasm and are associated with a prominent inflammatory infiltrate.\n\nThe most likely diagnosis is a gastrointestinal stromal tumor (GIST).\n\nDifferential diagnoses include leiomyoma/leiomyosarcoma, schwannoma, and inflammatory myofibroblastic tumor. GISTs are typically positive for CD117 and DOG1, while leiomyomas/leiomyosarcomas are positive for smooth muscle actin and desmin. Schwannomas are positive for S100, and inflammatory myofibroblastic tumors are positive for ALK.",
+      "rationale": "Right lower periphery: check for lymphoid cuff/peritumoral inflammation and capsule."
+    },
+    {
+      "roi_id": "slide_A_x20480_y8192_mag20",
+      "tile_id": "slide_A_x20480_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20480,
+      "y": 8192,
+      "level0": {
+        "x": 20480,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a spindle cell proliferation arranged in intersecting fascicles with elongated, wavy nuclei and eosinophilic cytoplasm. There is variable cellularity and areas of hyalinization.\n\nThe most likely diagnosis is a gastrointestinal stromal tumor (GIST).\n\nDifferential diagnoses include leiomyoma and schwannoma. Leiomyomas typically have more uniform, blunt-ended nuclei and lack the wavy appearance. Schwannomas often show nuclear palisading and Verocay bodies.",
+      "rationale": "High power in viable tumor—nuclear features, mitoses, perinuclear vacuoles"
+    },
+    {
+      "roi_id": "slide_A_x34816_y28672_mag10",
+      "tile_id": "slide_A_x34816_y28672_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 34816,
+      "y": 28672,
+      "level0": {
+        "x": 34816,
+        "y": 28672,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of spindle cells arranged in intersecting fascicles with elongated, wavy nuclei and eosinophilic cytoplasm. The background stroma is collagenous with areas of hyalinization.\n\nThe most likely diagnosis is a gastrointestinal stromal tumor (GIST).\n\nDifferential diagnoses include leiomyoma, which typically shows more uniform spindle cells with blunt-ended nuclei and less prominent wavy nuclei, and schwannoma, which often exhibits nuclear palisading and Verocay bodies.",
+      "rationale": "Right-lower peripheral zone to look for perivascular hyalinization/glomus-like vasculature"
+    },
+    {
+      "roi_id": "slide_A_x10240_y22528_mag20",
+      "tile_id": "slide_A_x10240_y22528_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 10240,
+      "y": 22528,
+      "level0": {
+        "x": 10240,
+        "y": 22528,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a spindle cell proliferation arranged in intersecting fascicles with elongated, wavy nuclei and eosinophilic cytoplasm. There is variable cellularity and areas of hyalinization.\n\nThe most likely diagnosis is a gastrointestinal stromal tumor (GIST).\n\nDifferential diagnoses include leiomyoma and schwannoma. Leiomyomas typically have blunt-ended nuclei and lack the wavy appearance. Schwannomas often show nuclear palisading and Verocay bodies.",
+      "rationale": "High power in myxoid/hypocellular area—look for skeinoid fibers, atypia"
+    },
+    {
+      "roi_id": "slide_A_x25600_y11264_mag10",
+      "tile_id": "slide_A_x25600_y11264_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 25600,
+      "y": 11264,
+      "level0": {
+        "x": 25600,
+        "y": 11264,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a spindle cell neoplasm with intersecting fascicles and whorls, featuring elongated cells with wavy nuclei and eosinophilic cytoplasm. There is variable cellularity and areas of hyalinization.\n\nThe most likely diagnosis is a gastrointestinal stromal tumor (GIST).\n\nDifferential diagnoses include leiomyoma and schwannoma. Leiomyomas typically have more uniform spindle cells with blunt-ended nuclei and lack the prominent whorling pattern. Schwannomas often show nuclear palisading and Verocay bodies, which are not seen here.",
+      "rationale": "Upper-right near mucosa for ulcer/inflammation and exclude IFP features"
+    },
+    {
+      "roi_id": "slide_A_x20480_y16384_mag20",
+      "tile_id": "slide_A_x20480_y16384_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20480,
+      "y": 16384,
+      "level0": {
+        "x": 20480,
+        "y": 16384,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a spindle cell proliferation with elongated cells arranged in fascicles and whorls, featuring wavy nuclei and eosinophilic cytoplasm. Scattered small blood vessels are also present.\n\nThe most likely diagnosis is a gastrointestinal stromal tumor (GIST).\n\nDifferential diagnoses include leiomyoma, which typically shows more uniform spindle cells with blunt-ended nuclei, and schwannoma, which often exhibits nuclear palisading and Verocay bodies.",
+      "rationale": "High power near necrosis interface—mitotic activity, tumor necrosis border"
+    },
+    {
+      "roi_id": "slide_A_x30720_y22528_mag20",
+      "tile_id": "slide_A_x30720_y22528_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 30720,
+      "y": 22528,
+      "level0": {
+        "x": 30720,
+        "y": 22528,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a spindle cell proliferation arranged in intersecting fascicles with elongated, wavy nuclei and eosinophilic cytoplasm. There is variable cellularity and areas of stromal hyalinization.\n\nThe most likely diagnosis is a gastrointestinal stromal tumor (GIST).\n\nDifferential diagnoses include leiomyoma and schwannoma. Leiomyomas typically have blunt-ended nuclei and lack the wavy appearance. Schwannomas often show nuclear palisading and Verocay bodies.",
+      "rationale": "High power in opposite periphery—confirm uniform spindle phenotype vs epithelioid foci"
+    },
+    {
+      "roi_id": "slide_A_x18432_y17408_mag20",
+      "tile_id": "slide_A_x18432_y17408_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 18432,
+      "y": 17408,
+      "level0": {
+        "x": 18432,
+        "y": 17408,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a spindle cell proliferation with variable cellularity, arranged in intersecting fascicles and whorls. The cells have elongated, wavy nuclei and eosinophilic cytoplasm, with areas of hyalinization and myxoid change.\n\nThe most likely diagnosis is a gastrointestinal stromal tumor (GIST).\n\nDifferential diagnoses include leiomyoma, which typically shows more uniform spindle cells with blunt-ended nuclei and less variable cellularity, and schwannoma, which often exhibits nuclear palisading and Verocay bodies.",
+      "rationale": "High power in viable tumor for cytology, palisading/Verocay, mitoses"
+    },
+    {
+      "roi_id": "slide_A_x36864_y16384_mag2",
+      "tile_id": "slide_A_x36864_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 36864,
+      "y": 16384,
+      "level0": {
+        "x": 36864,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a densely cellular spindle cell neoplasm with a fascicular growth pattern and areas of necrosis. The cells have elongated nuclei and scant cytoplasm.\n\nThe most likely diagnosis is a gastrointestinal stromal tumor (GIST).\n\nDifferential diagnoses include leiomyoma and schwannoma. Leiomyomas typically show more eosinophilic cytoplasm and blunt-ended nuclei, while schwannomas often have nuclear palisading and Verocay bodies.",
+      "rationale": "Assess interface on right side toward gastric wall; look for infiltrative tongues vs pushing border and any submucosal location."
+    },
+    {
+      "roi_id": "slide_A_x20992_y20480_mag20",
+      "tile_id": "slide_A_x20992_y20480_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20992,
+      "y": 20480,
+      "level0": {
+        "x": 20992,
+        "y": 20480,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a spindle cell proliferation with elongated, wavy nuclei arranged in fascicles, along with areas of hemorrhage and necrosis. The cells have eosinophilic cytoplasm and indistinct cell borders.\n\nThe most likely diagnosis is a gastrointestinal stromal tumor (GIST).\n\nDifferential diagnoses include leiomyoma and schwannoma. Leiomyomas typically have blunt-ended nuclei and lack the wavy appearance. Schwannomas often show nuclear palisading and Verocay bodies.",
+      "rationale": "High power near necrosis border for mitotic activity and necrosis type"
+    },
+    {
+      "roi_id": "slide_A_x4096_y16384_mag2",
+      "tile_id": "slide_A_x4096_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 4096,
+      "y": 16384,
+      "level0": {
+        "x": 4096,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a spindle cell proliferation with variable cellularity, arranged in intersecting fascicles and whorls. The cells have elongated, wavy nuclei and scant cytoplasm.\n\nThe most likely diagnosis is a gastrointestinal stromal tumor (GIST).\n\nDifferential diagnoses include leiomyoma and schwannoma. Leiomyomas typically show more uniform cellularity and blunt-ended nuclei, while schwannomas often have nuclear palisading and Verocay bodies.",
+      "rationale": "Assess left side interface for capsule/pseudocapsule and relationship to muscularis."
+    },
+    {
+      "roi_id": "slide_A_x30720_y8192_mag5",
+      "tile_id": "slide_A_x30720_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 30720,
+      "y": 8192,
+      "level0": {
+        "x": 30720,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a fragment of gastric mucosa with a dense cellular infiltrate. The cells are small with hyperchromatic nuclei and scant cytoplasm, arranged in sheets and nests.\n\nThe most likely diagnosis is a well-differentiated neuroendocrine tumor (carcinoid). The small cell size, hyperchromatic nuclei, and scant cytoplasm are characteristic features. The arrangement in sheets and nests is also typical.\n\nDifferential diagnoses include lymphoma, which can also present as a dense infiltrate of small cells, and poorly differentiated carcinoma, which may have a similar appearance but typically shows more pleomorphism and mitotic activity.",
+      "rationale": "More detailed luminal surface: look specifically for intact mucosa vs ulceration/erosion overlying tumor."
+    },
+    {
+      "roi_id": "slide_A_x28672_y10240_mag10",
+      "tile_id": "slide_A_x28672_y10240_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 28672,
+      "y": 10240,
+      "level0": {
+        "x": 28672,
+        "y": 10240,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a spindle cell proliferation arranged in intersecting fascicles and whorls, with areas of varying cellularity and hyalinization. The cells have elongated, wavy nuclei and scant cytoplasm.\n\nThe most likely diagnosis is a gastrointestinal stromal tumor (GIST).\n\nDifferential diagnoses include leiomyoma and schwannoma. Leiomyomas typically have more eosinophilic cytoplasm and blunt-ended nuclei, while schwannomas often show nuclear palisading and Verocay bodies.",
+      "rationale": "Confirm presence of mucosa/ulcer bed at slightly higher power to document relationship."
+    },
+    {
+      "roi_id": "slide_A_x25088_y25600_mag20",
+      "tile_id": "slide_A_x25088_y25600_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 25088,
+      "y": 25600,
+      "level0": {
+        "x": 25088,
+        "y": 25600,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of spindle cells arranged in intersecting fascicles with elongated, wavy nuclei and eosinophilic cytoplasm. There is a prominent whorled pattern and areas of stromal hyalinization.\n\nThe most likely diagnosis is a gastrointestinal stromal tumor (GIST).\n\nDifferential diagnoses include leiomyoma and schwannoma. Leiomyomas typically have blunt-ended nuclei and lack the prominent whorling and hyalinization seen here. Schwannomas often show nuclear palisading and Verocay bodies, which are not present.",
+      "rationale": "High power in right-mid tumor away from necrosis to look for perivascular hyalinization, glomus-like round cells, or epithelioid nests"
+    },
+    {
+      "roi_id": "slide_A_x16384_y20480_mag2",
+      "tile_id": "slide_A_x16384_y20480_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 16384,
+      "y": 20480,
+      "level0": {
+        "x": 16384,
+        "y": 20480,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a spindle cell proliferation with variable cellularity, arranged in fascicles and whorls, with areas of necrosis and hemorrhage. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a gastrointestinal stromal tumor (GIST).\n\nDifferential diagnoses include leiomyoma and schwannoma. Leiomyomas typically have more uniform cellularity and lack necrosis, while schwannomas often show nuclear palisading and Verocay bodies.",
+      "rationale": "Survey central necrotic/hemorrhagic area boundaries and whether geographic necrosis present."
+    },
+    {
+      "roi_id": "slide_A_x14336_y28672_mag20",
+      "tile_id": "slide_A_x14336_y28672_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 14336,
+      "y": 28672,
+      "level0": {
+        "x": 14336,
+        "y": 28672,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a spindle cell proliferation arranged in intersecting fascicles with elongated, wavy nuclei and eosinophilic cytoplasm. The cells are uniform with minimal pleomorphism and no significant mitotic activity.\n\nThe most likely diagnosis is a gastrointestinal stromal tumor (GIST).\n\nDifferential diagnoses include leiomyoma, which typically shows more abundant eosinophilic cytoplasm and blunt-ended nuclei, and schwannoma, which often exhibits nuclear palisading and Verocay bodies.",
+      "rationale": "High power at periphery to assess for lymphoid cuff and cytologic features (schwannoma) and mitoses"
+    },
+    {
+      "roi_id": "slide_A_x11776_y11776_mag20",
+      "tile_id": "slide_A_x11776_y11776_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 11776,
+      "y": 11776,
+      "level0": {
+        "x": 11776,
+        "y": 11776,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a spindle cell proliferation arranged in intersecting fascicles with elongated, wavy nuclei and eosinophilic cytoplasm. There is variable cellularity and areas of hyalinization.\n\nThe most likely diagnosis is a gastrointestinal stromal tumor (GIST).\n\nDifferential diagnoses include leiomyoma and schwannoma. Leiomyomas typically have more uniform, blunt-ended nuclei and lack the wavy appearance. Schwannomas often show nuclear palisading and Verocay bodies.",
+      "rationale": "High power in left/upper area for nuclear palisading/Verocay bodies, collagen, and inflammation"
+    },
+    {
+      "roi_id": "slide_A_x32768_y30208_mag20",
+      "tile_id": "slide_A_x32768_y30208_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 32768,
+      "y": 30208,
+      "level0": {
+        "x": 32768,
+        "y": 30208,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a spindle cell proliferation with elongated cells and wavy nuclei arranged in fascicles. There is a prominent pink fibrillary matrix and areas of hyalinization.\n\nThe most likely diagnosis is a gastrointestinal stromal tumor (GIST).\n\nDifferential diagnoses include leiomyoma, which typically shows more eosinophilic cytoplasm and blunt-ended nuclei, and schwannoma, which often exhibits nuclear palisading and Verocay bodies.",
+      "rationale": "High power in lower-right peripheral region to evaluate vascular pattern and any onion-skin perivascular inflammation (IFP)"
+    },
+    {
+      "roi_id": "slide_A_x16384_y12288_mag2",
+      "tile_id": "slide_A_x16384_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 16384,
+      "y": 12288,
+      "level0": {
+        "x": 16384,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a spindle cell proliferation with variable cellularity, arranged in fascicles and whorls, and areas of necrosis. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a gastrointestinal stromal tumor (GIST).\n\nDifferential diagnoses include leiomyoma and schwannoma. Leiomyomas typically have more uniform cellularity and lack necrosis, while schwannomas often show nuclear palisading and Verocay bodies.",
+      "rationale": "Target central red zone to better characterize hemorrhage vs necrosis distribution."
+    },
+    {
+      "roi_id": "slide_A_x14336_y14336_mag5",
+      "tile_id": "slide_A_x14336_y14336_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 14336,
+      "y": 14336,
+      "level0": {
+        "x": 14336,
+        "y": 14336,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a spindle cell proliferation with variable cellularity, arranged in fascicles and whorls, with areas of necrosis and hemorrhage. The cells have elongated, wavy nuclei.\n\nThe most likely diagnosis is a gastrointestinal stromal tumor (GIST).\n\nDifferential diagnoses include leiomyoma and schwannoma. Leiomyomas typically have more uniform spindle cells with blunt-ended nuclei and lack necrosis. Schwannomas often show nuclear palisading and Verocay bodies.",
+      "rationale": "Edge of necrosis to see if geographic coagulative necrosis and if abrupt interface."
+    },
+    {
+      "roi_id": "slide_A_x34816_y30720_mag10",
+      "tile_id": "slide_A_x34816_y30720_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 34816,
+      "y": 30720,
+      "level0": {
+        "x": 34816,
+        "y": 30720,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cystic structure lined by flattened cells with a thick, eosinophilic, hyalinized wall. The lumen contains amorphous material and cellular debris.\n\nThe most likely diagnosis is a Gastrointestinal Stromal Tumor (GIST), specifically a cystic variant. The thick, hyalinized wall and cystic nature are characteristic features of this variant. Differential diagnoses include a leiomyoma or a schwannoma, which can also present as a well-circumscribed mass in the GI tract, but typically lack the prominent cystic change and hyalinized wall seen here.",
+      "rationale": "Far right-lower edge near serosa to check for lymphoid cuff or peripheral inflammation"
+    },
+    {
+      "roi_id": "slide_A_x32768_y28672_mag2",
+      "tile_id": "slide_A_x32768_y28672_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 32768,
+      "y": 28672,
+      "level0": {
+        "x": 32768,
+        "y": 28672,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a spindle cell proliferation with elongated nuclei arranged in fascicles, associated with areas of hemorrhage and necrosis. The tumor appears to infiltrate the surrounding tissue.\n\nThe most likely diagnosis is a gastrointestinal stromal tumor (GIST).\n\nDifferential diagnoses include leiomyoma/leiomyosarcoma, schwannoma, and inflammatory myofibroblastic tumor. GISTs are typically positive for CD117 and DOG1, while leiomyomas/leiomyosarcomas are positive for smooth muscle actin and desmin. Schwannomas are positive for S100, and inflammatory myofibroblastic tumors are positive for ALK.",
+      "rationale": "Peritumoral inflammatory cuff suspected on prior 5x; check if lymphoid cuff pattern."
+    },
+    {
+      "roi_id": "slide_A_x34816_y12288_mag10",
+      "tile_id": "slide_A_x34816_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 34816,
+      "y": 12288,
+      "level0": {
+        "x": 34816,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a spindle cell proliferation with elongated nuclei and eosinophilic cytoplasm arranged in fascicles, with areas of hyalinization and necrosis.\n\nThe most likely diagnosis is a gastrointestinal stromal tumor (GIST).\n\nDifferential diagnoses include leiomyoma and schwannoma. Leiomyomas typically have more uniform spindle cells with blunt-ended nuclei and lack necrosis. Schwannomas often show nuclear palisading and Verocay bodies.",
+      "rationale": "Upper-right area to look for mucosa/ulcer and any polypoid/inflammatory fibroid features"
+    },
+    {
+      "roi_id": "slide_A_x32768_y25600_mag10",
+      "tile_id": "slide_A_x32768_y25600_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 32768,
+      "y": 25600,
+      "level0": {
+        "x": 32768,
+        "y": 25600,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a spindle cell proliferation with elongated nuclei arranged in fascicles, exhibiting a whorled pattern. There is a prominent linear cleft artifact.\n\nThe most likely diagnosis is a gastrointestinal stromal tumor (GIST).\n\nDifferential diagnoses include leiomyoma and schwannoma. Leiomyomas typically show more eosinophilic cytoplasm and blunt-ended nuclei, while schwannomas often have Verocay bodies and hyalinized vessels.",
+      "rationale": "Higher power low-architectural check of inflammatory infiltrate distribution (lymphoid cuff vs scattered)."
+    },
+    {
+      "roi_id": "slide_A_x7168_y25600_mag10",
+      "tile_id": "slide_A_x7168_y25600_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 7168,
+      "y": 25600,
+      "level0": {
+        "x": 7168,
+        "y": 25600,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a spindle cell proliferation arranged in intersecting fascicles with elongated, wavy nuclei and eosinophilic cytoplasm. There is a transition to a less cellular area with myxoid change and scattered inflammatory cells.\n\nThe most likely diagnosis is a gastrointestinal stromal tumor (GIST).\n\nDifferential diagnoses include leiomyoma and schwannoma. Leiomyomas typically have more uniform, blunt-ended nuclei and lack the myxoid change seen here. Schwannomas often show nuclear palisading and Verocay bodies, which are not present.",
+      "rationale": "Far left area to ensure no different morphology; check for peripheral lymphoid cuff"
+    },
+    {
+      "roi_id": "slide_A_x24576_y8192_mag2",
+      "tile_id": "slide_A_x24576_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 24576,
+      "y": 8192,
+      "level0": {
+        "x": 24576,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a spindle cell proliferation arranged in intersecting fascicles and whorls, with areas of hyalinization and necrosis. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a gastrointestinal stromal tumor (GIST).\n\nDifferential diagnoses include leiomyoma and schwannoma. Leiomyomas typically show more uniform spindle cells with blunt-ended nuclei and lack necrosis. Schwannomas often have nuclear palisading and Verocay bodies.",
+      "rationale": "Check luminal surface for ulceration/erosion extent over tumor."
+    },
+    {
+      "roi_id": "slide_A_x36352_y31232_mag20",
+      "tile_id": "slide_A_x36352_y31232_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 36352,
+      "y": 31232,
+      "level0": {
+        "x": 36352,
+        "y": 31232,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of spindle cells arranged in intersecting fascicles with elongated, wavy nuclei and eosinophilic cytoplasm. The background stroma is fibrillary and eosinophilic.\n\nThe most likely diagnosis is a gastrointestinal stromal tumor (GIST).\n\nDifferential diagnoses include leiomyoma, which typically shows more uniform spindle cells with blunt-ended nuclei and less prominent fascicular growth, and schwannoma, which often exhibits nuclear palisading and Verocay bodies.",
+      "rationale": "High power at right-lower edge: look for lymphoid cuff, perivascular hyalinization, glomus-like round cells"
+    },
+    {
+      "roi_id": "slide_A_x34816_y11776_mag20",
+      "tile_id": "slide_A_x34816_y11776_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 34816,
+      "y": 11776,
+      "level0": {
+        "x": 34816,
+        "y": 11776,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a spindle cell proliferation with elongated, wavy nuclei and eosinophilic cytoplasm arranged in fascicles. The background stroma is fibrillary and eosinophilic.\n\nThe most likely diagnosis is a gastrointestinal stromal tumor (GIST).\n\nDifferential diagnoses include leiomyoma, which typically shows more uniform spindle cells with blunt-ended nuclei and less prominent wavy nuclei, and schwannoma, which often exhibits nuclear palisading and Verocay bodies.",
+      "rationale": "High power near mucosa/ulcer: assess inflammation/eosinophils/onion-skin perivascular pattern"
+    },
+    {
+      "roi_id": "slide_A_x6144_y9216_mag10",
+      "tile_id": "slide_A_x6144_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 6144,
+      "y": 9216,
+      "level0": {
+        "x": 6144,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a spindle cell proliferation arranged in intersecting fascicles with elongated, wavy nuclei and eosinophilic cytoplasm. There is a prominent artifactual cleft.\n\nThe most likely diagnosis is a gastrointestinal stromal tumor (GIST).\n\nDifferential diagnoses include leiomyoma and schwannoma. Leiomyomas typically have blunt-ended nuclei and lack the wavy appearance. Schwannomas often show nuclear palisading and Verocay bodies.",
+      "rationale": "Unexplored upper-left periphery to confirm no lymphoid cuff/schwannoma features"
+    },
+    {
+      "roi_id": "slide_A_x6144_y9216_mag20",
+      "tile_id": "slide_A_x6144_y9216_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 6144,
+      "y": 9216,
+      "level0": {
+        "x": 6144,
+        "y": 9216,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a spindle cell proliferation arranged in intersecting fascicles with elongated, wavy nuclei and eosinophilic cytoplasm. There is a suggestion of a storiform pattern in some areas.\n\nThe most likely diagnosis is a gastrointestinal stromal tumor (GIST).\n\nDifferential diagnoses include leiomyoma, which typically shows more uniform spindle cells with blunt-ended nuclei and less prominent wavy nuclei, and schwannoma, which often exhibits nuclear palisading and Verocay bodies.",
+      "rationale": "High power in same area for Verocay bodies/palisading and inflammation"
+    },
+    {
+      "roi_id": "slide_A_x22528_y7168_mag10",
+      "tile_id": "slide_A_x22528_y7168_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 22528,
+      "y": 7168,
+      "level0": {
+        "x": 22528,
+        "y": 7168,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a spindle cell proliferation arranged in intersecting fascicles with elongated, wavy nuclei and eosinophilic cytoplasm. There is a prominent whorled pattern and areas of hyalinization.\n\nThe most likely diagnosis is a gastrointestinal stromal tumor (GIST).\n\nDifferential diagnoses include leiomyoma, which typically shows more uniform spindle cells with blunt-ended nuclei and less prominent whorling, and schwannoma, which often exhibits nuclear palisading and Verocay bodies.",
+      "rationale": "Upper central/mucosal surface region to check for ulceration and eosinophil-rich IFP changes"
+    },
+    {
+      "roi_id": "slide_A_x23040_y7168_mag20",
+      "tile_id": "slide_A_x23040_y7168_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 23040,
+      "y": 7168,
+      "level0": {
+        "x": 23040,
+        "y": 7168,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a spindle cell proliferation arranged in intersecting fascicles with elongated, wavy nuclei and eosinophilic cytoplasm. The cells are uniform with minimal pleomorphism and low mitotic activity.\n\nThe most likely diagnosis is a gastrointestinal stromal tumor (GIST).\n\nDifferential diagnoses include leiomyoma and schwannoma. Leiomyomas typically have blunt-ended nuclei and are positive for smooth muscle markers. Schwannomas often show nuclear palisading and Verocay bodies and are positive for S100.",
+      "rationale": "High power mucosal/interface for onion-skin perivascular pattern/eosinophils"
+    },
+    {
+      "roi_id": "slide_A_x9216_y17408_mag10",
+      "tile_id": "slide_A_x9216_y17408_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 9216,
+      "y": 17408,
+      "level0": {
+        "x": 9216,
+        "y": 17408,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a spindle cell proliferation arranged in intersecting fascicles with elongated, wavy nuclei and eosinophilic cytoplasm. There is variable cellularity and areas of hyalinization.\n\nThe most likely diagnosis is a gastrointestinal stromal tumor (GIST).\n\nDifferential diagnoses include leiomyoma and schwannoma. Leiomyomas typically have blunt-ended nuclei and lack the wavy appearance. Schwannomas often show nuclear palisading and Verocay bodies.",
+      "rationale": "Left-mid region to sample vessels/stroma; look for perivascular hyalinization"
+    }
+  ]
+}

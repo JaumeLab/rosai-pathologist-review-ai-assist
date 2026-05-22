@@ -1,0 +1,1005 @@
+{
+  "case_id": "sem1457_case3",
+  "source": "slideseek-ai-assist",
+  "model": "gpt-5.4",
+  "generated_at": "2026-05-22T09:27:16.125948+00:00",
+  "organ": "Gynecologic",
+  "primary_dx": "Adult-Type Granulosa Cell Tumor Of The Ovary",
+  "differential_dx": [
+    "Steroid Cell Tumor, NOS / Leydig Cell Tumor",
+    "Ovarian Well-Differentiated Neuroendocrine Tumor"
+  ],
+  "microscopic_findings": [
+    {
+      "text": "Tumor shows **microfollicular spaces** containing **eosinophilic material**, forming classic **Call-Exner-like bodies**.",
+      "roi_ids": [
+        "slide_A_x40448_y7168_mag20",
+        "slide_A_x38912_y6144_mag20"
+      ]
+    },
+    {
+      "text": "Neoplastic cells are relatively **uniform** with round-oval nuclei, **fine chromatin**, and scant to moderate eosinophilic cytoplasm.",
+      "roi_ids": [
+        "slide_A_x25088_y7680_mag20"
+      ]
+    },
+    {
+      "text": "Cells grow in **nests, cords, and trabeculae** separated by delicate **fibrovascular septa**.",
+      "roi_ids": [
+        "slide_A_x40960_y8192_mag10",
+        "slide_A_x38912_y8192_mag5"
+      ]
+    },
+    {
+      "text": "No **diffuse lipidized/vacuolated cytoplasm**, **Reinke crystals**, or brisk mitotic activity is identified in examined fields.",
+      "roi_ids": [
+        "slide_A_x28672_y12288_mag5",
+        "slide_A_x30208_y7168_mag20"
+      ]
+    }
+  ],
+  "interpretation": "The combination of **microfollicular/Call-Exner-like structures**, uniform grooved-to-oval nuclei, and sex cord-stromal nesting/trabecular growth supports **adult-type granulosa cell tumor**. The examined tumor lacks the **diffuse lipidized cytoplasm** and Reinke crystals expected in steroid/Leydig cell tumor. It also lacks a convincing neuroendocrine organoid pattern, while the presence of **Call-Exner-like microfollicles** argues against **ovarian well-differentiated neuroendocrine tumor**.",
+  "num_rois": 60,
+  "tiles": [
+    {
+      "roi_id": "slide_A_x24576_y8192_mag1",
+      "tile_id": "slide_A_x24576_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 24576,
+      "y": 8192,
+      "level0": {
+        "x": 24576,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a well-circumscribed tumor composed of nests and cords of cells with eosinophilic cytoplasm and round nuclei, separated by fibrous stroma. The tumor is sharply demarcated from the surrounding ovarian stroma.\n\nThe most likely diagnosis is a steroid cell tumor, NOS. This diagnosis is supported by the well-circumscribed nature of the tumor, the arrangement of cells in nests and cords, and the eosinophilic cytoplasm of the tumor cells, which are characteristic features of steroid cell tumors. The clinical presentation of vaginal spotting and heavy bleeding in a postmenopausal woman is also consistent with this diagnosis.\n\nDifferential diagnoses to consider include a metastatic adrenal cortical carcinoma, which can have a similar appearance but would typically show more nuclear pleomorphism and mitotic activity. Another possibility is a granulosa cell tumor, which can also present as a well-circumscribed ovarian mass, but the cells would typically have scant cytoplasm and grooved nuclei, and the tumor would often show Call-Exner bodies.",
+      "rationale": "Low-power scan of central tissue to localize circumscribed tumor nodule and preservation."
+    },
+    {
+      "roi_id": "slide_A_x32768_y8192_mag2",
+      "tile_id": "slide_A_x32768_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 32768,
+      "y": 8192,
+      "level0": {
+        "x": 32768,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a well-circumscribed tumor composed of nests and cords of cells with scant cytoplasm and hyperchromatic nuclei, separated by prominent fibrous stroma. The tumor is sharply demarcated from the surrounding tissue.\n\nThe most likely diagnosis is a granulosa cell tumor, adult type. The differential diagnosis includes a metastatic neuroendocrine tumor, which can have a similar nested pattern but typically shows more abundant cytoplasm and different nuclear features.",
+      "rationale": "Central parenchyma to see if tumor is here and assess architecture"
+    },
+    {
+      "roi_id": "slide_A_x36864_y8192_mag2",
+      "tile_id": "slide_A_x36864_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 36864,
+      "y": 8192,
+      "level0": {
+        "x": 36864,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a well-circumscribed tumor composed of nests and cords of cells with scant cytoplasm and hyperchromatic nuclei, separated by prominent fibrous septa. The tumor is sharply demarcated from the surrounding tissue.\n\nThe most likely diagnosis is a granulosa cell tumor, adult type. The differential diagnosis includes a metastatic neuroendocrine tumor, which can also present as a well-circumscribed tumor with nested architecture, but typically shows more abundant cytoplasm and a different nuclear morphology.",
+      "rationale": "Survey central portion for circumscribed yellow tumor correlates; assess architecture/capsule."
+    },
+    {
+      "roi_id": "slide_A_x40960_y8192_mag1",
+      "tile_id": "slide_A_x40960_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 40960,
+      "y": 8192,
+      "level0": {
+        "x": 40960,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a sharply circumscribed tumor composed of nests and cords of cells with eosinophilic cytoplasm and round nuclei, separated by fibrous stroma. The tumor is well-demarcated from the surrounding ovarian stroma.\n\nThe most likely diagnosis is a steroid cell tumor, NOS. This diagnosis is supported by the sharply circumscribed nature of the tumor, the cellular morphology with eosinophilic cytoplasm, and the arrangement in nests and cords. The presence of fibrous stroma is also consistent with this entity.\n\nDifferential diagnoses include a metastatic carcinoma, which would typically show more infiltrative growth and cytologic atypia, and a granulosa cell tumor, which would exhibit different architectural patterns such as microfollicles or Call-Exner bodies.",
+      "rationale": "Low-power scan of right half where tumor likely occupies bulk; identify solid yellow-tumor correlate."
+    },
+    {
+      "roi_id": "slide_A_x16384_y8192_mag2",
+      "tile_id": "slide_A_x16384_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 16384,
+      "y": 8192,
+      "level0": {
+        "x": 16384,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with scattered blood vessels and areas of hyalinization. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a stromal tumor of the ovary, such as a fibroma or thecoma. The differential diagnosis includes other spindle cell lesions like leiomyoma or smooth muscle tumor of uncertain malignant potential (STUMP). Distinguishing features would include the presence of smooth muscle differentiation (e.g., intersecting fascicles, cigar-shaped nuclei) and the absence of significant nuclear atypia or mitotic activity.",
+      "rationale": "Survey left/central portion where tumor may interface with stroma; look for hilus."
+    },
+    {
+      "roi_id": "slide_A_x16384_y8192_mag1",
+      "tile_id": "slide_A_x16384_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 16384,
+      "y": 8192,
+      "level0": {
+        "x": 16384,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a sharply circumscribed, cellular nodule with a dense lymphoid infiltrate and areas of necrosis. The surrounding tissue includes ovarian stroma and corpora albicantia.\n\nThe most likely diagnosis is a steroid cell tumor, NOS. This diagnosis is supported by the sharply circumscribed nature of the tumor, the presence of a dense lymphoid infiltrate, and the clinical presentation of a bright yellow mass resembling an adrenal cortical adenoma.\n\nDifferential diagnoses include a metastatic adrenal cortical carcinoma, which would typically show more significant cytologic atypia and mitotic activity, and a lymphoma, which would lack the characteristic steroid cell morphology and necrosis.",
+      "rationale": "Low-power scan of left half to compare with residual ovarian stroma/corpora albicantia and find tumor edge."
+    },
+    {
+      "roi_id": "slide_A_x16384_y4096_mag2",
+      "tile_id": "slide_A_x16384_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 16384,
+      "y": 4096,
+      "level0": {
+        "x": 16384,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a well-circumscribed lesion composed of nests and cords of cells with eosinophilic cytoplasm and round nuclei, separated by fibrous stroma. The lesion is sharply demarcated from the surrounding ovarian stroma.\n\nThe most likely diagnosis is a steroid cell tumor, NOS. This diagnosis is supported by the well-circumscribed nature of the lesion, the presence of cells with abundant eosinophilic cytoplasm, and the arrangement in nests and cords. The clinical presentation of vaginal spotting and heavy bleeding in a postmenopausal woman is also consistent with a functional steroid cell tumor.\n\nDifferential diagnoses include a corpus luteum cyst, which can also present as a well-circumscribed lesion with luteinized cells, but typically has a more prominent vascular network and lacks the distinct nesting pattern seen here. Another consideration is a metastatic carcinoma, particularly from the breast or kidney, which can have similar eosinophilic cytoplasm and nesting patterns, but would typically show more nuclear atypia and mitotic activity.",
+      "rationale": "Left portion to look for tumor nodule/capsule and adjacent stroma"
+    },
+    {
+      "roi_id": "slide_A_x45056_y12288_mag2",
+      "tile_id": "slide_A_x45056_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 45056,
+      "y": 12288,
+      "level0": {
+        "x": 45056,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a well-circumscribed tumor composed of nests and cords of cells with eosinophilic cytoplasm and round nuclei, separated by fibrous stroma. The tumor is sharply demarcated from the surrounding ovarian stroma.\n\nThe most likely diagnosis is a steroid cell tumor, NOS. This diagnosis is supported by the well-circumscribed nature of the tumor, the arrangement of cells in nests and cords, and the presence of cells with eosinophilic cytoplasm and round nuclei, which are characteristic features of steroid cell tumors. The clinical presentation of vaginal spotting and heavy bleeding in a postmenopausal woman is also consistent with this diagnosis.\n\nDifferential diagnoses to consider include a granulosa cell tumor, which typically shows Call-Exner bodies and nuclear grooves, and a metastatic carcinoma, which would show features of malignancy and lack the characteristic steroid cell morphology.",
+      "rationale": "Right portion to check for additional tissues or edge/capsule and hemorrhage"
+    },
+    {
+      "roi_id": "slide_A_x32768_y16384_mag1",
+      "tile_id": "slide_A_x32768_y16384_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 32768,
+      "y": 16384,
+      "level0": {
+        "x": 32768,
+        "y": 16384,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a well-circumscribed tumor composed of nests and cords of cells with eosinophilic cytoplasm and round nuclei, separated by fibrous stroma. The tumor is sharply demarcated from the surrounding ovarian stroma.\n\nThe most likely diagnosis is a steroid cell tumor, NOS. This diagnosis is supported by the well-circumscribed nature of the tumor, the arrangement of cells in nests and cords, and the presence of cells with eosinophilic cytoplasm and round nuclei. The differential diagnosis includes a Leydig cell tumor, which can have similar features but typically shows Reinke crystals, and a Sertoli cell tumor, which usually has a more tubular or cord-like pattern.",
+      "rationale": "Low-power scan of inferior portion for better-preserved cellular areas vs hemorrhage/necrosis."
+    },
+    {
+      "roi_id": "slide_A_x24576_y8192_mag10",
+      "tile_id": "slide_A_x24576_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 24576,
+      "y": 8192,
+      "level0": {
+        "x": 24576,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords with uniform cells and round nuclei, separated by a fibrous stroma. Adjacent to this is a large area of dense, hyalinized fibrous tissue.\n\nThe most likely diagnosis is a sex cord-stromal tumor, such as a granulosa cell tumor. The cellular proliferation with nests and cords of uniform cells is characteristic of this category. The adjacent dense fibrous tissue could represent a fibroma or a component of the tumor.\n\nDifferential diagnoses include other sex cord-stromal tumors like Sertoli-Leydig cell tumor or a fibroma. The presence of uniform cells in nests and cords favors a granulosa cell tumor over a fibroma, which would typically show spindle cells.",
+      "rationale": "10x assessment of representative tumor for architecture and stroma."
+    },
+    {
+      "roi_id": "slide_A_x35840_y9216_mag10",
+      "tile_id": "slide_A_x35840_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 35840,
+      "y": 9216,
+      "level0": {
+        "x": 35840,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords separated by fibrous stroma. The cells have round to oval nuclei with finely granular chromatin and scant cytoplasm. Prominent vascular spaces are also present.\n\nThe most likely diagnosis is a sex cord-stromal tumor, specifically a granulosa cell tumor. The characteristic features include the nested and cord-like architecture, the uniform cells with round to oval nuclei and scant cytoplasm, and the presence of fibrous stroma and prominent vascular spaces. \n\nDifferential diagnoses include other sex cord-stromal tumors such as Sertoli-Leydig cell tumor, which can have a similar nested pattern but often shows more tubular differentiation and may have Leydig cells. Another consideration is a metastatic neuroendocrine tumor, which can also present with nested architecture and uniform cells, but typically shows more prominent nucleoli and may have a different immunohistochemical profile.",
+      "rationale": "Assess tumor architecture for microfollicles/Call-Exner vs nests/cords; look for hyalinized stroma."
+    },
+    {
+      "roi_id": "slide_A_x24576_y8192_mag5",
+      "tile_id": "slide_A_x24576_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 24576,
+      "y": 8192,
+      "level0": {
+        "x": 24576,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a well-circumscribed cellular proliferation arranged in nests and cords with a prominent hyalinized stroma. The cells have uniform, round to oval nuclei and scant cytoplasm.\n\nThe most likely diagnosis is a sex cord-stromal tumor, specifically a granulosa cell tumor.\n\nDifferential diagnoses include a metastatic neuroendocrine tumor, which can also present as a well-circumscribed tumor with nested architecture, and a metastatic adrenal cortical tumor, given the gross resemblance to an adrenal cortical adenoma.",
+      "rationale": "Assess dominant tumor architecture (nested/trabecular) and stroma at low power"
+    },
+    {
+      "roi_id": "slide_A_x45056_y12288_mag10",
+      "tile_id": "slide_A_x45056_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 45056,
+      "y": 12288,
+      "level0": {
+        "x": 45056,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with numerous small blood vessels. The cells have elongated, wavy nuclei and scant cytoplasm.\n\nThe most likely diagnosis is a cellular fibroma. Differential diagnoses include leiomyoma, which typically shows more eosinophilic cytoplasm and blunt-ended nuclei, and solitary fibrous tumor, which often has a more haphazard pattern and prominent staghorn vessels.",
+      "rationale": "Second intratumoral area to confirm pattern; check for delicate vasculature (RCC-like) or clear cell carcinoma tubules."
+    },
+    {
+      "roi_id": "slide_A_x32768_y8192_mag5",
+      "tile_id": "slide_A_x32768_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 32768,
+      "y": 8192,
+      "level0": {
+        "x": 32768,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular neoplasm arranged in nests and cords separated by fibrous stroma. The cells have uniform, round to oval nuclei and moderate eosinophilic cytoplasm. The tumor is sharply circumscribed.\n\nThe most likely diagnosis is a sex cord-stromal tumor, specifically a granulosa cell tumor. The differential diagnosis includes a metastatic neuroendocrine tumor, which can have a similar nested pattern but typically shows more nuclear pleomorphism and may have a different immunoprofile.",
+      "rationale": "Look for heterogeneity, hemorrhage/necrosis within tumor"
+    },
+    {
+      "roi_id": "slide_A_x40960_y8192_mag10",
+      "tile_id": "slide_A_x40960_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 40960,
+      "y": 8192,
+      "level0": {
+        "x": 40960,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords separated by thin fibrovascular septa. The cells are uniform with round to oval nuclei and scant cytoplasm, with some areas showing a more solid growth pattern.\n\nThe most likely diagnosis is a granulosa cell tumor, adult type. The characteristic features include the nested and cord-like architecture, uniform cells with scant cytoplasm, and the presence of thin fibrovascular septa. The solid areas may represent Call-Exner bodies or microfollicles.\n\nDifferential diagnoses include a Sertoli-Leydig cell tumor, which can also show a nested pattern but typically has more abundant cytoplasm and may show Leydig cells. Another consideration is a metastatic carcinoma, which would typically show more nuclear pleomorphism and mitotic activity.",
+      "rationale": "10x in right-sided tumor for pattern and preservation."
+    },
+    {
+      "roi_id": "slide_A_x16384_y8192_mag10",
+      "tile_id": "slide_A_x16384_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 16384,
+      "y": 8192,
+      "level0": {
+        "x": 16384,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with areas of hyalinization and numerous blood vessels. The cells have elongated, wavy nuclei and scant cytoplasm.\n\nThe most likely diagnosis is a benign stromal tumor, such as a fibroma or thecoma. The differential diagnosis includes leiomyoma, which typically shows more eosinophilic cytoplasm and blunt-ended nuclei, and cellular fibroma, which is more cellular but lacks the prominent hyalinization seen here.",
+      "rationale": "10x at left tumor edge/adjacent stroma; check interface and any lymphoid infiltrate."
+    },
+    {
+      "roi_id": "slide_A_x38912_y8192_mag5",
+      "tile_id": "slide_A_x38912_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 38912,
+      "y": 8192,
+      "level0": {
+        "x": 38912,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular neoplasm with a prominent nested and cord-like growth pattern separated by fibrous septa. The cells are relatively uniform with round to oval nuclei and scant cytoplasm.\n\nThe most likely diagnosis is a sex cord-stromal tumor, specifically a granulosa cell tumor. The nested and cord-like architecture with fibrous septa is characteristic. Differential diagnoses include other sex cord-stromal tumors like Sertoli-Leydig cell tumor or a metastatic carcinoma, which would typically show different cellular morphology or growth patterns.",
+      "rationale": "Evaluate for any cystic change/necrosis near upper tumor edge"
+    },
+    {
+      "roi_id": "slide_A_x29696_y7168_mag10",
+      "tile_id": "slide_A_x29696_y7168_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 29696,
+      "y": 7168,
+      "level0": {
+        "x": 29696,
+        "y": 7168,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords separated by fibrous stroma. The cells have uniform, round to oval nuclei with finely granular chromatin and moderate eosinophilic cytoplasm.\n\nThe most likely diagnosis is a neuroendocrine tumor, such as a carcinoid tumor. The uniform cells with finely granular chromatin and the nested/corded architecture are characteristic features. Differential diagnoses include other sex cord-stromal tumors like granulosa cell tumor, which can have similar patterns but typically show Call-Exner bodies and different nuclear features.",
+      "rationale": "Interface area—look for capsule, residual ovarian stroma, hilar elements/Leydig cell location."
+    },
+    {
+      "roi_id": "slide_A_x17408_y8192_mag10",
+      "tile_id": "slide_A_x17408_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 17408,
+      "y": 8192,
+      "level0": {
+        "x": 17408,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with numerous blood vessels, some exhibiting thickened walls. The stroma is collagenous with areas of hyalinization.\n\nThe most likely diagnosis is a stromal tumor of the ovary, such as a fibroma or thecoma. Differential diagnoses include leiomyoma, which typically shows intersecting fascicles of smooth muscle cells with blunt-ended nuclei, and cellular fibroma, which is more cellular than a typical fibroma.",
+      "rationale": "Spindle cell area seen at 2.5x—determine if fibroma/thecoma component or capsule/stroma."
+    },
+    {
+      "roi_id": "slide_A_x32768_y16384_mag10",
+      "tile_id": "slide_A_x32768_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 32768,
+      "y": 16384,
+      "level0": {
+        "x": 32768,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with areas of hyalinization and prominent blood vessels. The cells have elongated, wavy nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a benign mesenchymal tumor, such as a leiomyoma or fibroma.\n\nDifferential diagnoses include leiomyoma, which typically shows intersecting fascicles of smooth muscle cells with blunt-ended nuclei, and fibroma, which is composed of spindle cells with wavy nuclei and collagenous stroma. The presence of hyalinization and prominent vessels can be seen in both.",
+      "rationale": "10x inferior area for possible degeneration/necrosis and mitotic activity hot spots."
+    },
+    {
+      "roi_id": "slide_A_x14336_y4096_mag5",
+      "tile_id": "slide_A_x14336_y4096_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 14336,
+      "y": 4096,
+      "level0": {
+        "x": 14336,
+        "y": 4096,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a well-circumscribed cellular nodule composed of spindle cells arranged in fascicles and whorls, with areas of hyalinization and prominent blood vessels. The surrounding tissue is less cellular and more fibrous.\n\nThe most likely diagnosis is a stromal tumor of the ovary, such as a fibroma or thecoma. The well-circumscribed nature, spindle cell morphology, and presence of hyalinization and prominent vessels are characteristic features. Differential diagnoses include other sex cord-stromal tumors like a granulosa cell tumor, which typically shows different architectural patterns (e.g., microfollicular, trabecular) and nuclear features, and a leiomyoma, which is composed of smooth muscle cells with blunt-ended nuclei.",
+      "rationale": "Left side of tumor for cords/nests and any adjacent corpora albicantia/ovarian stroma"
+    },
+    {
+      "roi_id": "slide_A_x25088_y7680_mag20",
+      "tile_id": "slide_A_x25088_y7680_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 25088,
+      "y": 7680,
+      "level0": {
+        "x": 25088,
+        "y": 7680,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords separated by fibrovascular stroma. The cells have round to oval nuclei with finely granular chromatin and moderate eosinophilic cytoplasm.\n\nThe most likely diagnosis is a sex cord-stromal tumor, specifically a granulosa cell tumor. The differential diagnosis includes other sex cord-stromal tumors such as Sertoli-Leydig cell tumor, and potentially metastatic carcinoma, although the morphology is less typical for the latter.",
+      "rationale": "High power in cellular nests/cords to evaluate cytoplasm, atypia, mitoses."
+    },
+    {
+      "roi_id": "slide_A_x33792_y8192_mag20",
+      "tile_id": "slide_A_x33792_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 33792,
+      "y": 8192,
+      "level0": {
+        "x": 33792,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords separated by delicate fibrovascular stroma. The cells have uniform, round to oval nuclei with finely granular chromatin and scant eosinophilic cytoplasm.\n\nThe most likely diagnosis is a well-differentiated neuroendocrine tumor (carcinoid) of the ovary. The uniform cell population with characteristic nuclear features and the nested/corded architecture are consistent with this entity. Differential diagnoses include other sex cord-stromal tumors such as granulosa cell tumor, which typically shows Call-Exner bodies and nuclear grooves, and metastatic neuroendocrine tumors from other sites, which would require clinical correlation and immunohistochemistry for confirmation.",
+      "rationale": "High power in nested tumor area to look for nuclear grooves, Call-Exner bodies, cytoplasmic lipid, mitoses."
+    },
+    {
+      "roi_id": "slide_A_x10240_y10240_mag5",
+      "tile_id": "slide_A_x10240_y10240_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 10240,
+      "y": 10240,
+      "level0": {
+        "x": 10240,
+        "y": 10240,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cystic structure lined by flattened to cuboidal cells with a wall of dense fibrous tissue. The lumen contains amorphous eosinophilic material and scattered red blood cells.\n\nThe most likely diagnosis is a corpus albicans cyst. This is a benign cystic lesion arising from the regression of a corpus luteum. The flattened to cuboidal lining cells are consistent with the attenuated epithelium of a regressed corpus luteum, and the fibrous wall represents the scar tissue. The amorphous material and red blood cells in the lumen are common findings.\n\nDifferential diagnoses include a simple ovarian cyst or a follicular cyst. However, the lining cells in a simple cyst are typically flattened, and a follicular cyst would show a granulosa cell layer, which is not evident here.",
+      "rationale": "Examine inferior left edge for capsule/interface with ovarian stroma"
+    },
+    {
+      "roi_id": "slide_A_x30208_y7168_mag20",
+      "tile_id": "slide_A_x30208_y7168_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 30208,
+      "y": 7168,
+      "level0": {
+        "x": 30208,
+        "y": 7168,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords separated by delicate fibrovascular stroma. The cells are uniform with round to oval nuclei, finely granular chromatin, and moderate eosinophilic cytoplasm.\n\nThe most likely diagnosis is a neuroendocrine tumor, such as a carcinoid tumor. The uniform cells with round nuclei and finely granular chromatin arranged in nests and cords are characteristic features. Differential diagnoses include other sex cord-stromal tumors like granulosa cell tumor, which typically shows Call-Exner bodies and nuclear grooves, and metastatic carcinoma, which would show more pleomorphism and mitotic activity.",
+      "rationale": "High power to evaluate for neuroendocrine salt-and-pepper chromatin vs sex cord-stromal cytology; look for Reinke crystals."
+    },
+    {
+      "roi_id": "slide_A_x40960_y7680_mag20",
+      "tile_id": "slide_A_x40960_y7680_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 40960,
+      "y": 7680,
+      "level0": {
+        "x": 40960,
+        "y": 7680,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords separated by delicate fibrovascular stroma. The cells are uniform with round to oval nuclei, finely granular chromatin, and scant eosinophilic cytoplasm.\n\nThe most likely diagnosis is a granulosa cell tumor, adult type. The characteristic features include the insular and cord-like growth pattern, uniform cells with scant cytoplasm, and the presence of Call-Exner bodies (small spaces containing eosinophilic material). The clinical presentation of vaginal spotting in a postmenopausal woman is also consistent with this diagnosis.\n\nDifferential diagnoses include other sex cord-stromal tumors such as a Sertoli-Leydig cell tumor, which typically shows tubular or cord-like structures with Sertoli cells and Leydig cells, and a thecoma, which is composed of spindle cells with abundant lipid-rich cytoplasm.",
+      "rationale": "High power in right tumor to look for clear/vacuolated vs eosinophilic cells, nucleoli, mitoses."
+    },
+    {
+      "roi_id": "slide_A_x49152_y8192_mag5",
+      "tile_id": "slide_A_x49152_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 49152,
+      "y": 8192,
+      "level0": {
+        "x": 49152,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a well-circumscribed tumor composed of nests and cords of cells with round nuclei and moderate cytoplasm, separated by fibrous stroma. The tumor is sharply demarcated from the adjacent ovarian stroma.\n\nThe most likely diagnosis is a sex cord-stromal tumor, specifically a granulosa cell tumor. The differential diagnosis includes a metastatic neuroendocrine tumor, which can have a similar nested pattern but typically shows more prominent nucleoli and may have a different immunohistochemical profile.",
+      "rationale": "Examine far right edge for capsule/interface and any extraovarian tissue"
+    },
+    {
+      "roi_id": "slide_A_x23552_y10240_mag20",
+      "tile_id": "slide_A_x23552_y10240_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 23552,
+      "y": 10240,
+      "level0": {
+        "x": 23552,
+        "y": 10240,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a paucicellular lesion composed of abundant eosinophilic, wavy, fibrillar material with scattered spindle-shaped cells. The cells have elongated, dark nuclei and are embedded within the matrix.\n\nThe most likely diagnosis is a fibroma, a benign mesenchymal tumor characterized by dense collagenous stroma and sparse spindle cells. A thecoma could be considered in the differential, but typically shows more cellularity and lipid-rich cells.",
+      "rationale": "High power near hyalinized zone to search for pigment/hyaline globules and interface features."
+    },
+    {
+      "roi_id": "slide_A_x36352_y9728_mag20",
+      "tile_id": "slide_A_x36352_y9728_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 36352,
+      "y": 9728,
+      "level0": {
+        "x": 36352,
+        "y": 9728,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords with a prominent perivascular pattern. The cells have round to oval nuclei with finely granular chromatin and moderate eosinophilic cytoplasm, separated by a fibrous stroma.\n\nThe most likely diagnosis is a well-differentiated neuroendocrine tumor (carcinoid) of the ovary. The characteristic features include the nested and cord-like architecture, the perivascular arrangement, and the uniform cells with finely granular chromatin. \n\nDifferential diagnoses include metastatic neuroendocrine tumor from another site (e.g., gastrointestinal tract) and other primary ovarian tumors with neuroendocrine differentiation. Immunohistochemistry for neuroendocrine markers (e.g., synaptophysin, chromogranin) would be helpful to confirm the diagnosis.",
+      "rationale": "Search for microfollicles/Call-Exner bodies if present."
+    },
+    {
+      "roi_id": "slide_A_x16896_y8192_mag20",
+      "tile_id": "slide_A_x16896_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 16896,
+      "y": 8192,
+      "level0": {
+        "x": 16896,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with numerous small blood vessels and a fibrillary stroma. The cells have elongated, wavy nuclei and scant cytoplasm.\n\nThe most likely diagnosis is a benign stromal tumor, such as a fibroma or cellular fibroma.\n\nDifferential diagnoses include leiomyoma, which typically shows more eosinophilic cytoplasm and blunt-ended nuclei, and a solitary fibrous tumor, which often has a more prominent hemangiopericytoma-like vascular pattern.",
+      "rationale": "High power in spindle/hyalinized area to determine if this is stromal component (thecoma/fibroma) vs artifact."
+    },
+    {
+      "roi_id": "slide_A_x28672_y12288_mag5",
+      "tile_id": "slide_A_x28672_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 28672,
+      "y": 12288,
+      "level0": {
+        "x": 28672,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a well-circumscribed nodule composed of large polygonal cells with abundant eosinophilic cytoplasm and round nuclei, arranged in nests and cords within a fibrous stroma. The surrounding tissue contains fibrous stroma, blood vessels, and scattered inflammatory cells.\n\nThe most likely diagnosis is a steroid cell tumor, NOS. This diagnosis is supported by the presence of large polygonal cells with abundant eosinophilic cytoplasm, which are characteristic of steroid-producing cells. The arrangement in nests and cords within a fibrous stroma is also consistent with this entity.\n\nDifferential diagnoses to consider include a corpus luteum, which can also have large polygonal cells with eosinophilic cytoplasm, but typically shows a more prominent vascular network and a central cavity. Another possibility is a Leydig cell tumor, which can have similar cells but often shows Reinke crystals, which are not apparent in this image.",
+      "rationale": "Inferior central region to look for hilum/vessels and interface"
+    },
+    {
+      "roi_id": "slide_A_x32768_y16384_mag20",
+      "tile_id": "slide_A_x32768_y16384_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 32768,
+      "y": 16384,
+      "level0": {
+        "x": 32768,
+        "y": 16384,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with interspersed blood vessels and a large irregular space. The spindle cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a stromal tumor of the ovary, such as a fibroma or thecoma. The differential diagnosis includes leiomyoma, which typically shows more prominent fascicles and cigar-shaped nuclei, and a cellular fibroma, which is more cellular than a typical fibroma.",
+      "rationale": "High power inferior spindle area for atypia/mitoses and to exclude smooth muscle."
+    },
+    {
+      "roi_id": "slide_A_x26624_y2048_mag5",
+      "tile_id": "slide_A_x26624_y2048_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 26624,
+      "y": 2048,
+      "level0": {
+        "x": 26624,
+        "y": 2048,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular neoplasm with a nested and trabecular growth pattern separated by fibrous stroma. The cells are relatively uniform with round to oval nuclei and scant cytoplasm.\n\nThe most likely diagnosis is a granulosa cell tumor, adult type. The nested and trabecular pattern with fibrous stroma is characteristic. Differential diagnoses include a neuroendocrine tumor, which can have a similar nested pattern, and a Sertoli-Leydig cell tumor, which can also have a trabecular pattern.",
+      "rationale": "Superior central region to assess interface and any surface involvement"
+    },
+    {
+      "roi_id": "slide_A_x17408_y8192_mag20",
+      "tile_id": "slide_A_x17408_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 17408,
+      "y": 8192,
+      "level0": {
+        "x": 17408,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with numerous small blood vessels and a prominent perivascular pattern. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a stromal tumor of the ovary, such as a fibroma or thecoma. The spindle cell morphology, fascicular and whorled pattern, and prominent vascularity are characteristic features. The presence of a perivascular pattern and the clinical context of a sharply circumscribed yellow mass in a postmenopausal woman are also consistent with this category.\n\nDifferential diagnoses include other spindle cell lesions of the ovary, such as leiomyoma or solitary fibrous tumor. Leiomyomas typically show intersecting fascicles of smooth muscle cells with blunt-ended nuclei, while solitary fibrous tumors often have a more haphazard pattern with prominent staghorn vessels. Immunohistochemistry would be helpful to confirm the diagnosis and exclude other possibilities.",
+      "rationale": "High power spindle component—assess if thecomatous (lipidized) vs fibromatous collagen, stromal luteinization."
+    },
+    {
+      "roi_id": "slide_A_x39424_y6656_mag20",
+      "tile_id": "slide_A_x39424_y6656_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 39424,
+      "y": 6656,
+      "level0": {
+        "x": 39424,
+        "y": 6656,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords with prominent pseudoglandular spaces. The cells have round to oval nuclei with finely granular chromatin and scant eosinophilic cytoplasm.\n\nThe most likely diagnosis is a sex cord-stromal tumor, specifically a granulosa cell tumor, adult type. The pseudoglandular pattern and cellular morphology are characteristic. Differential diagnoses include other sex cord-stromal tumors like Sertoli-Leydig cell tumor or a metastatic carcinoma, which can be distinguished by their different architectural patterns and cellular features.",
+      "rationale": "Search within cellular tumor for Reinke crystals (Leydig), pigment, mitotic figures."
+    },
+    {
+      "roi_id": "slide_A_x4096_y4096_mag2",
+      "tile_id": "slide_A_x4096_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 4096,
+      "y": 4096,
+      "level0": {
+        "x": 4096,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with areas of hyalinization and scattered blood vessels. The cells have elongated, wavy nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a benign smooth muscle tumor, such as a leiomyoma.\n\nDifferential diagnoses include a cellular fibroma, which typically has less cellularity and more collagenous stroma, and a nerve sheath tumor, which would show more prominent nuclear palisading and Verocay bodies.",
+      "rationale": "Scan far left tip for non-ovarian structures (tube/uterus) or attached tissue"
+    },
+    {
+      "roi_id": "slide_A_x43008_y9216_mag20",
+      "tile_id": "slide_A_x43008_y9216_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 43008,
+      "y": 9216,
+      "level0": {
+        "x": 43008,
+        "y": 9216,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords with a prominent perivascular pattern. The cells have round to oval nuclei with finely granular chromatin and scant cytoplasm, separated by a delicate fibrovascular stroma.\n\nThe most likely diagnosis is a neuroendocrine tumor, such as a carcinoid tumor. The perivascular arrangement and cellular morphology are characteristic features. Differential diagnoses include other neuroendocrine neoplasms or metastatic tumors with similar morphology, which would require further investigation.",
+      "rationale": "Another high-power area to look for nuclear grooves/Call-Exner bodies vs steroid cells and for hyaline globules."
+    },
+    {
+      "roi_id": "slide_A_x40960_y8192_mag20",
+      "tile_id": "slide_A_x40960_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 40960,
+      "y": 8192,
+      "level0": {
+        "x": 40960,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords separated by delicate fibrovascular stroma. The cells have uniform, round to oval nuclei with finely granular chromatin and scant eosinophilic cytoplasm.\n\nThe most likely diagnosis is a granulosa cell tumor, adult type. The characteristic features include the nested and cord-like architecture, delicate stroma, and the cytologic appearance of the cells with uniform nuclei and scant cytoplasm. The presence of Call-Exner bodies, if seen elsewhere in the tumor, would further support this diagnosis.\n\nDifferential diagnoses include other sex cord-stromal tumors such as Sertoli-Leydig cell tumor, which can have a similar nested pattern but typically shows more prominent stromal elements and may have Leydig cells. Another consideration is a metastatic neuroendocrine tumor, which can also present with nested architecture and uniform cells, but would typically show more prominent nucleoli and may have a different immunohistochemical profile.",
+      "rationale": "Look for clear cell carcinoma features (tubules/papillae, hobnail) in another tumor focus."
+    },
+    {
+      "roi_id": "slide_A_x53248_y4096_mag2",
+      "tile_id": "slide_A_x53248_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 53248,
+      "y": 4096,
+      "level0": {
+        "x": 53248,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a well-circumscribed tumor composed of nests and cords of cells with eosinophilic cytoplasm and round nuclei, separated by fibrous stroma. The tumor is sharply demarcated from the surrounding ovarian stroma.\n\nThe most likely diagnosis is a steroid cell tumor, NOS. This diagnosis is supported by the well-circumscribed nature of the tumor, the arrangement of cells in nests and cords, and the presence of cells with eosinophilic cytoplasm and round nuclei, which are characteristic features of steroid cell tumors.\n\nDifferential diagnoses include a metastatic adrenal cortical carcinoma, which can have a similar appearance but would typically show more nuclear pleomorphism and mitotic activity. Another consideration is a granulosa cell tumor, which can also present as a well-circumscribed ovarian mass but typically shows Call-Exner bodies and nuclear grooves.",
+      "rationale": "Scan far right superior tip for non-ovarian structures"
+    },
+    {
+      "roi_id": "slide_A_x32256_y9728_mag20",
+      "tile_id": "slide_A_x32256_y9728_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 32256,
+      "y": 9728,
+      "level0": {
+        "x": 32256,
+        "y": 9728,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords separated by fibrous stroma. The cells have round to oval nuclei with finely granular chromatin and moderate eosinophilic cytoplasm.\n\nThe most likely diagnosis is a well-differentiated neuroendocrine tumor (carcinoid) of the ovary. The nested and cord-like architecture, uniform cells with round nuclei, and finely granular chromatin are characteristic features. Differential diagnoses include metastatic neuroendocrine tumor from another site (e.g., gastrointestinal tract) and other sex cord-stromal tumors like granulosa cell tumor, which can have similar patterns but typically show different nuclear features and may have Call-Exner bodies.",
+      "rationale": "Evaluate vasculature for RCC-like delicate chicken-wire network and clear cells."
+    },
+    {
+      "roi_id": "slide_A_x26112_y6144_mag20",
+      "tile_id": "slide_A_x26112_y6144_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 26112,
+      "y": 6144,
+      "level0": {
+        "x": 26112,
+        "y": 6144,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords separated by fibrovascular stroma. The cells are uniform with round to oval nuclei, finely granular chromatin, and scant eosinophilic cytoplasm. Peripheral palisading is noted in some nests.\n\nThe most likely diagnosis is a granulosa cell tumor, adult type. The characteristic features include the insular and cord-like growth pattern, uniform cells with scant cytoplasm, and the presence of peripheral palisading. The clinical presentation of vaginal spotting in a postmenopausal woman is also consistent with this diagnosis.\n\nDifferential diagnoses include a metastatic neuroendocrine tumor, which can have a similar nested pattern and uniform cells, but typically shows more prominent nucleoli and may have a different immunoprofile. Another consideration is a metastatic renal cell carcinoma, which can have clear cells and a nested pattern, but usually shows more prominent vascularity and different nuclear features.",
+      "rationale": "High power near tumor-stroma interface to evaluate circumscription and exclude infiltrative carcinoma."
+    },
+    {
+      "roi_id": "slide_A_x49152_y16384_mag2",
+      "tile_id": "slide_A_x49152_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 49152,
+      "y": 16384,
+      "level0": {
+        "x": 49152,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a sharply circumscribed lesion composed of cells with abundant eosinophilic cytoplasm arranged in nests and cords, with a prominent vascular network. The cells have round to oval nuclei with visible nucleoli.\n\nThe most likely diagnosis is a steroid cell tumor, NOS. This diagnosis is supported by the characteristic morphology of cells with abundant eosinophilic cytoplasm and the nested/corded architecture with prominent vasculature.\n\nDifferential diagnoses include adrenocortical carcinoma metastasis, which can have similar morphology but typically shows more significant nuclear atypia and mitotic activity. Other sex cord-stromal tumors like Leydig cell tumor could also be considered, but the abundant eosinophilic cytoplasm and nested pattern are more typical of steroid cell tumor.",
+      "rationale": "Scan far right inferior tip for non-ovarian structures"
+    },
+    {
+      "roi_id": "slide_A_x25088_y8704_mag20",
+      "tile_id": "slide_A_x25088_y8704_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 25088,
+      "y": 8704,
+      "level0": {
+        "x": 25088,
+        "y": 8704,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of cells with round to oval nuclei and moderate eosinophilic cytoplasm arranged in nests and cords, with some areas showing a tubular pattern. The stroma is fibrous and contains numerous blood vessels.\n\nThe most likely diagnosis is a sex cord-stromal tumor, specifically a Sertoli-Leydig cell tumor. The tubular and cord-like arrangement of cells with eosinophilic cytoplasm is characteristic of this category. Differential diagnoses include other sex cord-stromal tumors like granulosa cell tumor, which typically shows Call-Exner bodies and different nuclear features, and metastatic carcinoma, which would show different architectural patterns and cytologic atypia.",
+      "rationale": "Search for any cytoplasmic clearing/lipidization, Reinke crystals, or nuclear grooves in alternate area."
+    },
+    {
+      "roi_id": "slide_A_x20992_y8192_mag20",
+      "tile_id": "slide_A_x20992_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20992,
+      "y": 8192,
+      "level0": {
+        "x": 20992,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a well-circumscribed lesion composed of dense, hyalinized collagenous stroma with scattered spindle cells and small vessels. Adjacent tissue includes fibrous stroma and a nerve bundle.\n\nThe most likely diagnosis is a corpus albicans, a regressed corpus luteum. The dense, hyalinized collagenous stroma with scattered spindle cells and small vessels is characteristic of this structure. The presence of a nerve bundle in the adjacent tissue is also consistent with the ovarian hilum.\n\nDifferential diagnoses include a fibroma or theca-lutein cyst. A fibroma would typically show more uniform spindle cells and less hyalinization. A theca-lutein cyst would have a more cellular lining and lack the dense hyalinized stroma seen here.",
+      "rationale": "Sample additional cellular focus to assess cytoplasmic vacuolation/lipid and any atypia."
+    },
+    {
+      "roi_id": "slide_A_x4096_y12288_mag2",
+      "tile_id": "slide_A_x4096_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 4096,
+      "y": 12288,
+      "level0": {
+        "x": 4096,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a low-power view of a sharply circumscribed, bright yellow tumor in the ovary, with surrounding corpora albicantia. The tumor is composed of cells with abundant eosinophilic cytoplasm and round nuclei, arranged in nests and cords.\n\nThe most likely diagnosis is a steroid cell tumor, NOS. This diagnosis is supported by the gross appearance of a bright yellow tumor and the histological features of cells with abundant eosinophilic cytoplasm and round nuclei arranged in nests and cords.\n\nDifferential diagnoses include a Leydig cell tumor, which can also have abundant eosinophilic cytoplasm but typically shows Reinke crystals, and a Sertoli cell tumor, which usually has a tubular or cord-like pattern with less abundant cytoplasm.",
+      "rationale": "Scan far left inferior tip for non-ovarian structures"
+    },
+    {
+      "roi_id": "slide_A_x27648_y10240_mag10",
+      "tile_id": "slide_A_x27648_y10240_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 27648,
+      "y": 10240,
+      "level0": {
+        "x": 27648,
+        "y": 10240,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular stroma with spindle cells and numerous thin-walled vessels, along with large, irregular, eosinophilic hyalinized structures. The stroma is relatively hypocellular with scattered inflammatory cells.\n\nThe most likely diagnosis is a sclerosing stromal tumor. This diagnosis is supported by the presence of a cellular stroma with spindle cells, prominent thin-walled vessels, and large hyalinized structures. The differential diagnosis includes fibroma, which typically has a more collagenous stroma and lacks the prominent vascularity and hyalinized structures seen here.",
+      "rationale": "Look for any clear cell change, hemorrhage, or sinusoidal vascular network suggestive of RCC."
+    },
+    {
+      "roi_id": "slide_A_x38912_y6144_mag10",
+      "tile_id": "slide_A_x38912_y6144_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 38912,
+      "y": 6144,
+      "level0": {
+        "x": 38912,
+        "y": 6144,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular neoplasm arranged in nests and cords separated by fibrous stroma. The cells have uniform, round to oval nuclei with finely granular chromatin and scant cytoplasm. Small lumens are present within some cellular aggregates.\n\nThe most likely diagnosis is a granulosa cell tumor, adult type. The characteristic features include the insular and cord-like growth pattern, uniform cells with scant cytoplasm, and the presence of small lumens (Call-Exner bodies). The fibrous stroma is also typical.\n\nDifferential diagnoses include other sex cord-stromal tumors such as Sertoli-Leydig cell tumor, which can have a similar pattern but often shows more prominent tubular differentiation and Leydig cells. Another consideration is a metastatic neuroendocrine tumor, which can mimic the nested pattern and uniform cells, but typically shows more prominent nucleoli and may have a different immunoprofile.",
+      "rationale": "Check peripheral area for hilus/adrenal rest-like tissue; look for Leydig cell clusters."
+    },
+    {
+      "roi_id": "slide_A_x41984_y10240_mag10",
+      "tile_id": "slide_A_x41984_y10240_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 41984,
+      "y": 10240,
+      "level0": {
+        "x": 41984,
+        "y": 10240,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords within a fibrous stroma. The cells have round to oval nuclei and moderate eosinophilic cytoplasm, with some areas showing a cribriform pattern.\n\nThe most likely diagnosis is a sex cord-stromal tumor, specifically a granulosa cell tumor. The differential diagnosis includes other sex cord-stromal tumors such as Sertoli-Leydig cell tumor, and potentially metastatic carcinoma, although the morphology is less typical for the latter.",
+      "rationale": "Additional sampling for any papillary/tubulocystic areas (clear cell carcinoma) or different tumor component."
+    },
+    {
+      "roi_id": "slide_A_x40448_y7168_mag20",
+      "tile_id": "slide_A_x40448_y7168_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 40448,
+      "y": 7168,
+      "level0": {
+        "x": 40448,
+        "y": 7168,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords with prominent microfollicular structures containing eosinophilic material. The cells are uniform with round to oval nuclei and scant cytoplasm.\n\nThe most likely diagnosis is a granulosa cell tumor, adult type. The characteristic microfollicular pattern with Call-Exner bodies is highly suggestive. Differential diagnoses include other sex cord-stromal tumors like Sertoli-Leydig cell tumor, which typically shows tubular or cord-like patterns, and metastatic carcinoma, which would show more pleomorphism and lack the microfollicular architecture.",
+      "rationale": "Focused search for Reinke crystals within cellular areas (Leydig)."
+    },
+    {
+      "roi_id": "slide_A_x13312_y7168_mag10",
+      "tile_id": "slide_A_x13312_y7168_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 13312,
+      "y": 7168,
+      "level0": {
+        "x": 13312,
+        "y": 7168,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a hypocellular stroma with scattered spindle cells embedded in a prominent myxoid matrix. Numerous small blood vessels are present, some with thickened walls.\n\nThe most likely diagnosis is a myxoid stromal tumor, such as a myxoid leiomyoma or myxoid fibroma. Differential diagnoses include myxoid leiomyosarcoma, which would show increased cellularity, nuclear atypia, and mitotic activity, and myxoid liposarcoma, which would contain lipoblasts.",
+      "rationale": "Evaluate background ovarian stroma for corpora albicantia and stromal luteinization/thecoma."
+    },
+    {
+      "roi_id": "slide_A_x41984_y8704_mag20",
+      "tile_id": "slide_A_x41984_y8704_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 41984,
+      "y": 8704,
+      "level0": {
+        "x": 41984,
+        "y": 8704,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords separated by fibrovascular stroma. The cells have round to oval nuclei with finely granular chromatin and moderate eosinophilic cytoplasm.\n\nThe most likely diagnosis is a sex cord-stromal tumor, specifically a granulosa cell tumor. The differential diagnosis includes other sex cord-stromal tumors such as Sertoli-Leydig cell tumor, and potentially metastatic carcinoma or other ovarian neoplasms.",
+      "rationale": "Look for pigment (lipofuscin), hyaline globules, nuclear grooves/Call-Exner-like spaces."
+    },
+    {
+      "roi_id": "slide_A_x38400_y8192_mag20",
+      "tile_id": "slide_A_x38400_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 38400,
+      "y": 8192,
+      "level0": {
+        "x": 38400,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords separated by delicate fibrovascular stroma. The cells have round to oval nuclei with finely granular chromatin and scant eosinophilic cytoplasm.\n\nThe most likely diagnosis is a well-differentiated neuroendocrine tumor (carcinoid) of the ovary. The nested and cord-like architecture, uniform cells with round nuclei, and finely granular chromatin are characteristic features. Differential diagnoses include granulosa cell tumor, which can have a similar pattern but typically shows Call-Exner bodies and nuclear grooves, and metastatic neuroendocrine tumor, which would require clinical correlation and potentially immunohistochemistry to rule out a primary site elsewhere.",
+      "rationale": "Another cellular nest area to assess cytoplasm for lipid vacuoles/clear change suggesting steroid cell tumor/RCC."
+    },
+    {
+      "roi_id": "slide_A_x38912_y6144_mag20",
+      "tile_id": "slide_A_x38912_y6144_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 38912,
+      "y": 6144,
+      "level0": {
+        "x": 38912,
+        "y": 6144,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords with prominent pseudoglandular spaces. The cells have round to oval nuclei with finely granular chromatin and scant cytoplasm, separated by a fibrous stroma.\n\nThe most likely diagnosis is a sex cord-stromal tumor, specifically a granulosa cell tumor, adult type. The characteristic features include the nested and cord-like architecture, the presence of pseudoglandular spaces, and the cytologic features of the tumor cells.\n\nDifferential diagnoses include other sex cord-stromal tumors such as Sertoli-Leydig cell tumor, which typically shows more tubular differentiation, and metastatic carcinoma, which would usually exhibit more significant nuclear atypia and mitotic activity.",
+      "rationale": "Confirm presence of Call-Exner bodies and evaluate nuclear grooves."
+    },
+    {
+      "roi_id": "slide_A_x45056_y7680_mag20",
+      "tile_id": "slide_A_x45056_y7680_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 45056,
+      "y": 7680,
+      "level0": {
+        "x": 45056,
+        "y": 7680,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords separated by prominent fibrous stroma. The cells have round to oval nuclei with finely granular chromatin and moderate eosinophilic cytoplasm.\n\nThe most likely diagnosis is a well-differentiated neuroendocrine tumor (carcinoid) of the ovary. The nested and cord-like architecture with uniform cells and finely granular chromatin is characteristic. Differential diagnoses include metastatic neuroendocrine tumor from another site (e.g., gastrointestinal tract) and other primary ovarian tumors with neuroendocrine differentiation, such as strumal carcinoid or granulosa cell tumor. Immunohistochemistry for neuroendocrine markers (e.g., synaptophysin, chromogranin) would be helpful to confirm the diagnosis.",
+      "rationale": "Sample additional right-sided tumor to exclude clear cell carcinoma (tubulocystic/papillary) or RCC-like vasculature."
+    },
+    {
+      "roi_id": "slide_A_x41984_y10240_mag20",
+      "tile_id": "slide_A_x41984_y10240_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 41984,
+      "y": 10240,
+      "level0": {
+        "x": 41984,
+        "y": 10240,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords with a prominent perivascular pattern. The cells have round to oval nuclei with finely granular chromatin and moderate eosinophilic cytoplasm, separated by a fibrovascular stroma.\n\nThe most likely diagnosis is a steroid cell tumor, NOS. This diagnosis is supported by the cellular morphology and the perivascular arrangement. Differential diagnoses include a metastatic neuroendocrine tumor, which can have a similar nested pattern, and a metastatic renal cell carcinoma, which can also have clear to eosinophilic cytoplasm. Immunohistochemistry would be helpful to confirm the diagnosis and rule out these possibilities.",
+      "rationale": "Assess cribriform area for true glands vs microfollicles; exclude carcinoma."
+    },
+    {
+      "roi_id": "slide_A_x27648_y10240_mag20",
+      "tile_id": "slide_A_x27648_y10240_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 27648,
+      "y": 10240,
+      "level0": {
+        "x": 27648,
+        "y": 10240,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles and whorls, with interspersed clear spaces and small blood vessels. The cells have bland nuclei without significant atypia or mitotic activity.\n\nThe most likely diagnosis is a benign mesenchymal tumor, such as a leiomyoma or fibroma.\n\nDifferential diagnoses include:\n- Leiomyoma: Characterized by intersecting fascicles of spindle cells with eosinophilic cytoplasm and blunt-ended nuclei, often with hyalinization and thick-walled vessels.\n- Fibroma: Composed of spindle cells with scant cytoplasm and elongated nuclei, arranged in a more haphazard pattern, often with collagenous stroma and less prominent vessels.",
+      "rationale": "Evaluate hyalinized structures/vascularity—rule out sclerosing stromal tumor vs stromal change."
+    },
+    {
+      "roi_id": "slide_A_x39936_y7168_mag20",
+      "tile_id": "slide_A_x39936_y7168_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 39936,
+      "y": 7168,
+      "level0": {
+        "x": 39936,
+        "y": 7168,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords with prominent microfollicular structures containing eosinophilic material. The cells are relatively uniform with round to oval nuclei and scant cytoplasm.\n\nThe most likely diagnosis is a granulosa cell tumor, adult type. The characteristic microfollicular pattern with Call-Exner bodies is highly suggestive. Differential diagnoses include other sex cord-stromal tumors like Sertoli-Leydig cell tumor, which typically shows tubular or cord-like patterns, and metastatic carcinoma, which would show more pleomorphism and lack the specific follicular structures.",
+      "rationale": "Verify Call-Exner bodies/microfollicular pattern and tumor cytology."
+    },
+    {
+      "roi_id": "slide_A_x38400_y6144_mag20",
+      "tile_id": "slide_A_x38400_y6144_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 38400,
+      "y": 6144,
+      "level0": {
+        "x": 38400,
+        "y": 6144,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords separated by fibrous stroma. The cells have uniform, round to oval nuclei with finely granular chromatin and scant cytoplasm.\n\nThe most likely diagnosis is a well-differentiated neuroendocrine tumor (carcinoid). The uniform cells with round nuclei and finely granular chromatin arranged in nests and cords are characteristic features. Differential diagnoses include other sex cord-stromal tumors such as granulosa cell tumor, which typically shows Call-Exner bodies and nuclear grooves, and Sertoli cell tumor, which often has tubular or cord-like patterns.",
+      "rationale": "Confirm microfollicular spaces and look for nuclear grooves/coffee-bean nuclei."
+    },
+    {
+      "roi_id": "slide_A_x24576_y7680_mag20",
+      "tile_id": "slide_A_x24576_y7680_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 24576,
+      "y": 7680,
+      "level0": {
+        "x": 24576,
+        "y": 7680,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords with uniform cells and round nuclei, separated by a prominent fibrous stroma. The cells have eosinophilic cytoplasm and round nuclei with finely granular chromatin.\n\nThe most likely diagnosis is a sex cord-stromal tumor, specifically a granulosa cell tumor. The differential diagnosis includes a metastatic neuroendocrine tumor, which can have a similar nested pattern but typically shows more nuclear pleomorphism and may have a different chromatin pattern.",
+      "rationale": "Assess mitotic activity/atypia and cytoplasm (vacuolated vs eosinophilic)."
+    },
+    {
+      "roi_id": "slide_A_x17408_y7680_mag20",
+      "tile_id": "slide_A_x17408_y7680_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 17408,
+      "y": 7680,
+      "level0": {
+        "x": 17408,
+        "y": 7680,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles and whorls. Prominent blood vessels with thickened walls are also present.\n\nThe most likely diagnosis is a stromal tumor of the ovary, such as a fibroma or thecoma. Differential diagnoses include leiomyoma, which typically shows intersecting fascicles of smooth muscle cells with blunt-ended nuclei, and cellular fibroma, which is more cellular than a typical fibroma.",
+      "rationale": "Evaluate spindle/hyalinized stroma to exclude fibroma/thecoma and check reticulin-like pattern surrogate."
+    }
+  ]
+}

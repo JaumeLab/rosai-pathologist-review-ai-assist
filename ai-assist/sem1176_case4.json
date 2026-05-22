@@ -1,0 +1,1114 @@
+{
+  "case_id": "sem1176_case4",
+  "source": "slideseek-ai-assist",
+  "model": "gpt-5.4",
+  "generated_at": "2026-05-22T09:22:01.759835+00:00",
+  "organ": "Bone-Soft Tissue",
+  "primary_dx": "Gouty Tophus With Foreign-Body Giant Cell Reaction And Dystrophic Calcification",
+  "differential_dx": [
+    "Calcium Pyrophosphate Dihydrate Crystal Deposition Disease (Pseudogout)",
+    "Tumoral Calcinosis / Calcinosis Cutis"
+  ],
+  "microscopic_findings": [
+    {
+      "text": "Large **amorphous eosinophilic deposits** show irregular **crystalline/clefted material** with geographic acellular quality.",
+      "roi_ids": [
+        "slide_A_x24576_y24576_mag10"
+      ]
+    },
+    {
+      "text": "Deposits contain numerous slender **needle-like clefts**, highlighting dissolved **monosodium urate-type crystals**.",
+      "roi_ids": [
+        "slide_A_x20480_y16384_mag20"
+      ]
+    },
+    {
+      "text": "A brisk peripheral **foreign-body giant cell reaction** with **histiocytes** rims the deposited material.",
+      "roi_ids": [
+        "slide_A_x32768_y20480_mag10"
+      ]
+    },
+    {
+      "text": "Scattered **basophilic granular calcifications** are present within and adjacent to the tophaceous deposits.",
+      "roi_ids": [
+        "slide_A_x31232_y17920_mag20"
+      ]
+    }
+  ],
+  "interpretation": "The lesion is best classified as **gouty tophus** based on acellular **urate-type crystalline deposits** with abundant **needle-like clefts** and a prominent foreign-body giant cell granulomatous response. Associated dystrophic calcification is present but appears secondary. **CPPD** is less favored because rhomboid crystal morphology and a chondrocalcinosis-type pattern are not identified. **Tumoral calcinosis/calcinosis cutis** is less likely given the distinctive urate-type clefting and granulomatous tophus formation.",
+  "num_rois": 67,
+  "tiles": [
+    {
+      "roi_id": "slide_A_x20480_y16384_mag2",
+      "tile_id": "slide_A_x20480_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 20480,
+      "y": 16384,
+      "level0": {
+        "x": 20480,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows large areas of amorphous, eosinophilic material with scattered basophilic granular deposits and a sparse inflammatory infiltrate. The morphology is consistent with a tophus.\n\nThe most likely diagnosis is a gouty tophus.\n\nDifferential diagnoses include other forms of crystal deposition disease, such as pseudogout (calcium pyrophosphate dihydrate deposition), which typically shows rhomboid-shaped crystals and a different inflammatory response.",
+      "rationale": "Low-power central scan for dominant lesion architecture and calcified/chondroid nodules."
+    },
+    {
+      "roi_id": "slide_A_x24576_y16384_mag1",
+      "tile_id": "slide_A_x24576_y16384_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 24576,
+      "y": 16384,
+      "level0": {
+        "x": 24576,
+        "y": 16384,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows large, irregular deposits of amorphous, eosinophilic material with associated calcification and a surrounding inflammatory infiltrate. The deposits are surrounded by fibrous tissue.\n\nThe most likely diagnosis is tumoral calcinosis.\n\nDifferential diagnoses include gouty tophus, which typically shows needle-shaped crystals and a prominent foreign body giant cell reaction, and calcified soft tissue tumor, which would show a neoplastic cellular component.",
+      "rationale": "Low-power overview of the bulk of Region 0 (center of tissue) to assess overall architecture/lobulation/cystic change."
+    },
+    {
+      "roi_id": "slide_A_x12288_y8192_mag2",
+      "tile_id": "slide_A_x12288_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 8192,
+      "level0": {
+        "x": 12288,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a hypocellular lesion with abundant eosinophilic matrix and scattered spindle cells. There are also areas of calcification and cystic change.\n\nThe most likely diagnosis is a calcifying aponeurotic fibroma.\n\nDifferential diagnoses include fibromatosis, which typically shows more cellularity and lacks the prominent calcification and cystic change seen here.",
+      "rationale": "Low-power survey of left/upper portion for amorphous deposits and inflammation"
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag2",
+      "tile_id": "slide_A_x8192_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a hypocellular lesion with abundant amorphous eosinophilic material and scattered calcifications. There is a sparse inflammatory infiltrate and areas of fibrosis.\n\nThe most likely diagnosis is tumoral calcinosis. Differential diagnoses include calcified soft tissue tumor and calcified hematoma.",
+      "rationale": "Low-power left/proximal portion to look for lobulated nodules and calcifications."
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag1",
+      "tile_id": "slide_A_x8192_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a soft tissue mass with a thick fibrous capsule and a central area of amorphous, eosinophilic material with calcifications. There is a surrounding inflammatory infiltrate.\n\nThe most likely diagnosis is a gouty tophus. Differential diagnoses include a calcified epidermoid cyst or a calcified foreign body reaction.",
+      "rationale": "Low-power survey of left/proximal portion of specimen for peripheral rim and septation."
+    },
+    {
+      "roi_id": "slide_A_x32768_y20480_mag2",
+      "tile_id": "slide_A_x32768_y20480_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 32768,
+      "y": 20480,
+      "level0": {
+        "x": 32768,
+        "y": 20480,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows large, irregular deposits of amorphous eosinophilic material with associated calcification and a surrounding inflammatory infiltrate.",
+      "rationale": "Low-power survey of right/lower portion to find calcified/deposit areas"
+    },
+    {
+      "roi_id": "slide_A_x8192_y16384_mag2",
+      "tile_id": "slide_A_x8192_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 8192,
+      "y": 16384,
+      "level0": {
+        "x": 8192,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cystic structure with a thick fibrous wall and a lumen containing amorphous eosinophilic material and calcifications. There is a prominent inflammatory infiltrate at the interface.\n\nThe most likely diagnosis is a gouty tophus. Differential diagnoses include a pseudogouty tophus (calcium pyrophosphate deposition disease) and a foreign body reaction to other crystalline material.",
+      "rationale": "Low-power overview left side for infiltrative edges or satellite nodules."
+    },
+    {
+      "roi_id": "slide_A_x36864_y16384_mag2",
+      "tile_id": "slide_A_x36864_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 36864,
+      "y": 16384,
+      "level0": {
+        "x": 36864,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a soft tissue lesion with a lobulated architecture composed of amorphous eosinophilic material and calcifications, surrounded by a cellular stroma with inflammation.\n\nThe most likely diagnosis is a gouty tophus.\n\nDifferential diagnoses include a calcified epidermal inclusion cyst or a calcified soft tissue tumor.",
+      "rationale": "Low-power overview right side for peripheral interface and cellular areas."
+    },
+    {
+      "roi_id": "slide_A_x24576_y24576_mag2",
+      "tile_id": "slide_A_x24576_y24576_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 24576,
+      "y": 24576,
+      "level0": {
+        "x": 24576,
+        "y": 24576,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows large, irregular deposits of amorphous, eosinophilic material with associated calcification, surrounded by a dense inflammatory infiltrate and fibrous tissue.\n\nThe most likely diagnosis is a gouty tophus, characterized by deposits of monosodium urate crystals and associated inflammation.\n\nDifferential diagnoses include calcified soft tissue tumor or dystrophic calcification, which would lack the characteristic amorphous eosinophilic material and specific inflammatory response seen here.",
+      "rationale": "Low-power inferior edge to check for synovial-like lining, capsule, or bony interface."
+    },
+    {
+      "roi_id": "slide_A_x40960_y16384_mag1",
+      "tile_id": "slide_A_x40960_y16384_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 40960,
+      "y": 16384,
+      "level0": {
+        "x": 40960,
+        "y": 16384,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a soft tissue lesion with a prominent chondromyxoid matrix containing scattered epithelial cells arranged in cords and nests. There are also areas of calcification and ossification.\n\nThe most likely diagnosis is a soft tissue chondroid syringoma.\n\nDifferential diagnoses include chondrosarcoma, which typically shows more cellular atypia and lacks the epithelial component, and myoepithelioma, which may have a similar matrix but lacks the distinct epithelial cords and nests.",
+      "rationale": "Low-power survey of right/distal portion for additional nodules/calcified areas."
+    },
+    {
+      "roi_id": "slide_A_x20480_y24576_mag2",
+      "tile_id": "slide_A_x20480_y24576_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 20480,
+      "y": 24576,
+      "level0": {
+        "x": 20480,
+        "y": 24576,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cystic structure with a thick fibrous wall and a lumen containing amorphous, granular material with calcifications. There is a prominent inflammatory infiltrate in the wall.\n\nThe most likely diagnosis is a gouty tophus. Differential diagnoses include a pseudogouty tophus (calcium pyrophosphate deposition disease) and a foreign body reaction to crystalline material.",
+      "rationale": "Low-power overview inferior edge for interface with soft tissue/bone."
+    },
+    {
+      "roi_id": "slide_A_x24576_y24576_mag1",
+      "tile_id": "slide_A_x24576_y24576_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 24576,
+      "y": 24576,
+      "level0": {
+        "x": 24576,
+        "y": 24576,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a cystic structure with a thick fibrous wall and a lumen filled with amorphous eosinophilic material, cellular debris, and calcifications. The wall contains a dense inflammatory infiltrate.\n\nThe most likely diagnosis is a gouty tophus. Differential diagnoses include a pseudogouty tophus (calcium pyrophosphate deposition disease) and a foreign body reaction to crystalline material.",
+      "rationale": "Low-power survey of inferior edge to evaluate interface with surrounding soft tissue/bone and any capsule."
+    },
+    {
+      "roi_id": "slide_A_x20480_y16384_mag10",
+      "tile_id": "slide_A_x20480_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 20480,
+      "y": 16384,
+      "level0": {
+        "x": 20480,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows amorphous, eosinophilic material with a fibrillar pattern and scattered clear spaces, along with a focus of chronic inflammation. These features are consistent with a tophus.\n\nThe most likely diagnosis is a tophus, which is a deposit of monosodium urate crystals.\n\nDifferential diagnoses include gouty tophus and pseudogout (calcium pyrophosphate dihydrate deposition disease). Pseudogout typically shows rhomboid-shaped crystals and is often associated with chondrocalcinosis, which are not seen in this image.",
+      "rationale": "Deposit–tissue interface at central amorphous area to assess for palisading histiocytes/giant cells and clefting"
+    },
+    {
+      "roi_id": "slide_A_x11264_y10240_mag10",
+      "tile_id": "slide_A_x11264_y10240_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 11264,
+      "y": 10240,
+      "level0": {
+        "x": 11264,
+        "y": 10240,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows abundant amorphous, eosinophilic material with scattered spindle cells and a mixed inflammatory infiltrate. The eosinophilic material is consistent with fibrin and calcification.\n\nThe most likely diagnosis is a calcified hematoma. Differential diagnoses include myositis ossificans, which typically shows zonal maturation and more organized bone formation, and a calcified soft tissue tumor, which would show neoplastic cells within the calcified matrix.",
+      "rationale": "ROI with prominent basophilic calcified focus at low power—evaluate for cartilage nodules vs calcific debris."
+    },
+    {
+      "roi_id": "slide_A_x12288_y9216_mag10",
+      "tile_id": "slide_A_x12288_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 12288,
+      "y": 9216,
+      "level0": {
+        "x": 12288,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a hypocellular lesion with abundant myxoid matrix, scattered spindle cells, and prominent curvilinear vessels. There are also areas of amorphous eosinophilic material and calcification.\n\nThe most likely diagnosis is a myxoma. Differential diagnoses include myxoid liposarcoma, which would show lipoblasts, and myxofibrosarcoma, which would have more cellular atypia and pleomorphism.",
+      "rationale": "More cellular-appearing peripheral band at upper-left to assess any neoplastic cellularity."
+    },
+    {
+      "roi_id": "slide_A_x24576_y16384_mag5",
+      "tile_id": "slide_A_x24576_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 24576,
+      "y": 16384,
+      "level0": {
+        "x": 24576,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows large, irregular fragments of acellular, eosinophilic material with a fibrillar to lamellated appearance, consistent with calcified matrix. Scattered basophilic granular material is also present.\n\nThe most likely diagnosis is a soft tissue chondroma, specifically a calcified chondroma given the gross description of calcifications.\n\nDifferential diagnoses include osteochondroma, which typically shows a cartilage cap and underlying bone, and myositis ossificans, which demonstrates zonal maturation with a cellular periphery and mature bone centrally.",
+      "rationale": "Sample central amorphous pale area to assess type of deposits/calcification pattern and any clefting."
+    },
+    {
+      "roi_id": "slide_A_x20480_y17408_mag10",
+      "tile_id": "slide_A_x20480_y17408_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 20480,
+      "y": 17408,
+      "level0": {
+        "x": 20480,
+        "y": 17408,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows amorphous eosinophilic material with a fibrillar pattern and scattered calcifications, surrounded by a mixed inflammatory infiltrate and multinucleated giant cells.\n\nThe most likely diagnosis is a gouty tophus, characterized by the presence of amorphous material and a foreign body giant cell reaction.\n\nDifferential diagnoses include a calcified soft tissue mass or a foreign body reaction to other crystalline material.",
+      "rationale": "Central area with amorphous material—look for needle-shaped clefts, palisading histiocytes, calcification type."
+    },
+    {
+      "roi_id": "slide_A_x24576_y24576_mag10",
+      "tile_id": "slide_A_x24576_y24576_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 24576,
+      "y": 24576,
+      "level0": {
+        "x": 24576,
+        "y": 24576,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows large, irregular deposits of amorphous, eosinophilic material with a crystalline appearance, surrounded by a dense inflammatory infiltrate including multinucleated giant cells and fibrosis.\n\nThe most likely diagnosis is gouty tophus.\n\nDifferential diagnoses include pseudogout (calcium pyrophosphate deposition disease), which typically shows rhomboid-shaped crystals and a less prominent inflammatory response, and tumoral calcinosis, which features large, amorphous calcified deposits with a surrounding foreign body giant cell reaction.",
+      "rationale": "Interface in inferior central area with dense inflammation for granulomatous response and crystal spaces"
+    },
+    {
+      "roi_id": "slide_A_x29696_y12288_mag10",
+      "tile_id": "slide_A_x29696_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 29696,
+      "y": 12288,
+      "level0": {
+        "x": 29696,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a transition from a cellular area with inflammation and giant cells to an acellular, hyalinized matrix with lacunae. The matrix is consistent with cartilage.\n\nThe most likely diagnosis is a soft tissue chondroma.\n\nDifferential diagnoses include synovial chondromatosis, which typically arises from synovium and may show more prominent calcification, and a low-grade chondrosarcoma, which would show increased cellularity, nuclear atypia, and permeative growth.",
+      "rationale": "Right mid lesion with lobulated architecture—evaluate for chondroid/synovial-like nodules."
+    },
+    {
+      "roi_id": "slide_A_x36864_y16384_mag10",
+      "tile_id": "slide_A_x36864_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 36864,
+      "y": 16384,
+      "level0": {
+        "x": 36864,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows large, irregular deposits of amorphous eosinophilic material surrounded by a dense inflammatory infiltrate rich in histiocytes and multinucleated giant cells.",
+      "rationale": "Right-sided lobulated focus—assess for hyaline cartilage lobules, synovial lining, endochondral ossification."
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag5",
+      "tile_id": "slide_A_x8192_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows abundant amorphous eosinophilic material with scattered lacunae containing cells, along with areas of calcification and fibrous tissue.\n\nThe most likely diagnosis is a soft tissue chondroma.\n\nDifferential diagnoses include osteochondroma, which would show a cartilage cap and underlying bone, and myxoid liposarcoma, which would have a myxoid matrix with lipoblasts.",
+      "rationale": "Examine peripheral fibrous capsule/rim for granulomatous reaction and septation."
+    },
+    {
+      "roi_id": "slide_A_x32768_y20480_mag10",
+      "tile_id": "slide_A_x32768_y20480_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 32768,
+      "y": 20480,
+      "level0": {
+        "x": 32768,
+        "y": 20480,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a large area of acellular, eosinophilic material with a fibrillar to crystalline appearance, bordered by a cellular reaction including multinucleated giant cells and inflammation.\n\nThe most likely diagnosis is a tophus, representing a deposit of monosodium urate crystals.\n\nDifferential diagnoses include gouty tophus and pseudogout (calcium pyrophosphate dihydrate deposition disease). Pseudogout typically shows rhomboid-shaped crystals and a more prominent inflammatory response, while gouty tophi are characterized by needle-shaped urate crystals and a foreign body giant cell reaction.",
+      "rationale": "Right-sided deposit with calcification to check for CPPD-like calcific granules vs urate clefts"
+    },
+    {
+      "roi_id": "slide_A_x23552_y24576_mag10",
+      "tile_id": "slide_A_x23552_y24576_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 23552,
+      "y": 24576,
+      "level0": {
+        "x": 23552,
+        "y": 24576,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a large deposit of amorphous, eosinophilic material with a crystalline appearance, surrounded by a dense inflammatory infiltrate including multinucleated giant cells and fibrous tissue.\n\nThe most likely diagnosis is a tophus, representing a deposit of monosodium urate crystals.\n\nDifferential diagnoses include gouty tophus and pseudogout (calcium pyrophosphate dihydrate deposition disease). Pseudogout typically shows rhomboid-shaped crystals and may have a more granular appearance, while gouty tophi are characterized by needle-shaped urate crystals and a prominent foreign body giant cell reaction.",
+      "rationale": "Inferior edge with inflammation—search for CPPD rhomboids, foreign-body giant cells, capsule/synovium."
+    },
+    {
+      "roi_id": "slide_A_x24576_y24576_mag5",
+      "tile_id": "slide_A_x24576_y24576_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 24576,
+      "y": 24576,
+      "level0": {
+        "x": 24576,
+        "y": 24576,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows large, irregular deposits of amorphous, eosinophilic material with a crystalline appearance, surrounded by a dense inflammatory infiltrate and fibrous tissue.\n\nThe most likely diagnosis is gouty tophus.\n\nDifferential diagnoses include pseudogout (calcium pyrophosphate deposition disease) and tumoral calcinosis. Pseudogout typically shows rhomboid-shaped crystals, while tumoral calcinosis features large, amorphous calcified deposits with a surrounding foreign body giant cell reaction.",
+      "rationale": "Evaluate cystic/pseudocystic area with luminal debris and wall characteristics."
+    },
+    {
+      "roi_id": "slide_A_x21504_y17408_mag10",
+      "tile_id": "slide_A_x21504_y17408_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 21504,
+      "y": 17408,
+      "level0": {
+        "x": 21504,
+        "y": 17408,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows abundant acellular, eosinophilic material with a fibrillar to lamellated pattern, interspersed with irregular clear spaces and scattered calcifications. A small focus of cellular material is also present.\n\nThe most likely diagnosis is a tophus, which is a deposit of monosodium urate crystals. The amorphous, eosinophilic material with a fibrillar pattern and associated calcifications are characteristic features of urate crystal deposition.\n\nDifferential diagnoses include other types of crystal deposition diseases such as pseudogout (calcium pyrophosphate dihydrate deposition) or gouty tophi. However, the specific morphology of the deposited material and the clinical context of a soft tissue mass in the toe are most consistent with a tophus.",
+      "rationale": "Central interface between amorphous material and reactive rim—look for palisading histiocytes/giant cells and atypia."
+    },
+    {
+      "roi_id": "slide_A_x12288_y8192_mag10",
+      "tile_id": "slide_A_x12288_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 12288,
+      "y": 8192,
+      "level0": {
+        "x": 12288,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a hypocellular lesion with abundant amorphous eosinophilic material and scattered spindle cells. There are also areas of calcification and clear spaces.\n\nThe most likely diagnosis is a calcifying aponeurotic fibroma.\n\nDifferential diagnoses include myositis ossificans and fibromatosis. Myositis ossificans typically shows a zonal pattern of maturation, while fibromatosis is more cellular and lacks the prominent calcification and amorphous material seen here.",
+      "rationale": "Area previously suggested calcifying lesion; verify if actually tophus-like with clefts or different entity (chondroid/calcifying fibroma)"
+    },
+    {
+      "roi_id": "slide_A_x36864_y16384_mag5",
+      "tile_id": "slide_A_x36864_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 36864,
+      "y": 16384,
+      "level0": {
+        "x": 36864,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows large, irregular deposits of amorphous eosinophilic material with associated calcification, surrounded by a dense inflammatory infiltrate and foreign body giant cells.\n\nThe most likely diagnosis is gouty tophus.\n\nDifferential diagnoses include calcified soft tissue tumor or dystrophic calcification.",
+      "rationale": "Target a dense purple/basophilic focus on right half (possible calcified nodule or cartilage) to check for chondroid/ossification architecture."
+    },
+    {
+      "roi_id": "slide_A_x32768_y21504_mag10",
+      "tile_id": "slide_A_x32768_y21504_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 32768,
+      "y": 21504,
+      "level0": {
+        "x": 32768,
+        "y": 21504,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows amorphous eosinophilic material with a fibrillar pattern, surrounded by a dense inflammatory infiltrate including lymphocytes, plasma cells, and multinucleated giant cells. Scattered dark granular material is also present.\n\nThe most likely diagnosis is a tophus, which is a deposit of monosodium urate crystals in soft tissue, typically associated with gout. The amorphous eosinophilic material represents the urate crystals, and the surrounding inflammatory reaction is characteristic of a foreign body response to these crystals.\n\nDifferential diagnoses include other types of crystal deposition diseases, such as pseudogout (calcium pyrophosphate dihydrate deposition), which would show rhomboid-shaped crystals and a different inflammatory pattern, and tumoral calcinosis, which would show calcium phosphate deposits and a different clinical presentation.",
+      "rationale": "Inferior-right edge to evaluate infiltration into surrounding soft tissue and any viable tumor-like areas."
+    },
+    {
+      "roi_id": "slide_A_x11264_y10240_mag20",
+      "tile_id": "slide_A_x11264_y10240_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 11264,
+      "y": 10240,
+      "level0": {
+        "x": 11264,
+        "y": 10240,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows abundant amorphous, eosinophilic material with scattered small, dark nuclei. There are also large clear spaces and areas of denser, more fibrillar material.\n\nThe most likely diagnosis is tumoral calcinosis. This diagnosis is supported by the presence of amorphous calcified material and the clinical presentation of a soft tissue mass with calcifications.\n\nDifferential diagnoses include calcified soft tissue tumor or dystrophic calcification. However, the amorphous nature of the material and the clinical context favor tumoral calcinosis.",
+      "rationale": "High power of calcified/eosinophilic focus to look for chondrocytes in lacunae vs crystal clefts vs calcinosis."
+    },
+    {
+      "roi_id": "slide_A_x12288_y12288_mag5",
+      "tile_id": "slide_A_x12288_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 12288,
+      "y": 12288,
+      "level0": {
+        "x": 12288,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows large areas of amorphous, eosinophilic material with a crystalline appearance, surrounded by a dense inflammatory infiltrate and fibrosis.",
+      "rationale": "Sample intervening stromal bands between nodules to assess fibrous septa and interface with deposits."
+    },
+    {
+      "roi_id": "slide_A_x24576_y24576_mag20",
+      "tile_id": "slide_A_x24576_y24576_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 24576,
+      "y": 24576,
+      "level0": {
+        "x": 24576,
+        "y": 24576,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows large, irregular deposits of amorphous, eosinophilic material with a fibrillar or crystalline appearance, surrounded by a mixed inflammatory infiltrate including multinucleated giant cells.\n\nThe most likely diagnosis is gouty tophus, characterized by the presence of monosodium urate crystals and associated foreign body giant cell reaction.\n\nDifferential diagnoses include pseudogout (calcium pyrophosphate dihydrate deposition disease), which typically shows rhomboid-shaped crystals, and tumoral calcinosis, which features calcium phosphate deposits.",
+      "rationale": "High power on inflammatory rim around deposit to look for needle-shaped clefts, palisading histiocytes, giant cells"
+    },
+    {
+      "roi_id": "slide_A_x12288_y12288_mag10",
+      "tile_id": "slide_A_x12288_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 12288,
+      "y": 12288,
+      "level0": {
+        "x": 12288,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows amorphous, eosinophilic material with a crystalline appearance, surrounded by a mixed inflammatory infiltrate including multinucleated giant cells.",
+      "rationale": "Confirm presence/absence of granulomatous rim/giant cells at nodule periphery at slightly higher low power."
+    },
+    {
+      "roi_id": "slide_A_x10240_y17408_mag20",
+      "tile_id": "slide_A_x10240_y17408_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 10240,
+      "y": 17408,
+      "level0": {
+        "x": 10240,
+        "y": 17408,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows dense fibrous tissue with scattered spindle cells and a prominent nerve bundle. The nerve bundle exhibits a fascicular pattern with wavy nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis for this single tile is a fibrous lesion with a prominent nerve component, such as a traumatic neuroma or a fibrous lesion with entrapped nerve.\n\nDifferential diagnoses include:\n- Traumatic neuroma: Characterized by disorganized nerve fascicles within a fibrous stroma, often following nerve injury.\n- Fibrous lesion with entrapped nerve: A fibrous lesion that has incorporated a pre-existing nerve bundle, which can occur in various fibrous proliferations.",
+      "rationale": "High power in inflamed wall area to assess for atypical epithelioid/spindle cells and mitoses."
+    },
+    {
+      "roi_id": "slide_A_x20480_y17408_mag20",
+      "tile_id": "slide_A_x20480_y17408_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20480,
+      "y": 17408,
+      "level0": {
+        "x": 20480,
+        "y": 17408,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows amorphous eosinophilic material with a crystalline appearance, surrounded by a foreign body giant cell reaction and chronic inflammation. The material is also seen within the wall of a blood vessel.\n\nThe most likely diagnosis is a gouty tophus.\n\nDifferential diagnoses include pseudogout (calcium pyrophosphate deposition disease), which typically shows rhomboid-shaped crystals, and tumoral calcinosis, which features amorphous calcification without the characteristic crystalline material.",
+      "rationale": "High power central tophus-like area—confirm needle-shaped clefts and foreign body giant cell response; exclude cartilage."
+    },
+    {
+      "roi_id": "slide_A_x30720_y14336_mag5",
+      "tile_id": "slide_A_x30720_y14336_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 30720,
+      "y": 14336,
+      "level0": {
+        "x": 30720,
+        "y": 14336,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows amorphous eosinophilic material with scattered calcifications and a prominent inflammatory infiltrate composed of lymphocytes, plasma cells, and multinucleated giant cells.",
+      "rationale": "Survey mid-right area not yet sampled to look for cartilage lobules/ossification or different architecture."
+    },
+    {
+      "roi_id": "slide_A_x36864_y16384_mag20",
+      "tile_id": "slide_A_x36864_y16384_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 36864,
+      "y": 16384,
+      "level0": {
+        "x": 36864,
+        "y": 16384,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows amorphous eosinophilic material surrounded by a dense inflammatory infiltrate including lymphocytes, plasma cells, and numerous multinucleated giant cells. Fibrosis is also present.\n\nThe most likely diagnosis is a tophus, which is a deposit of monosodium urate crystals surrounded by a granulomatous inflammatory reaction.\n\nDifferential diagnoses include gouty tophus and pseudogout (calcium pyrophosphate dihydrate deposition disease). Pseudogout typically shows rhomboid-shaped crystals and may have a different inflammatory pattern.",
+      "rationale": "High power right lobulated area—seek hyaline cartilage matrix and chondrocytes; look for endochondral ossification."
+    },
+    {
+      "roi_id": "slide_A_x20480_y16384_mag20",
+      "tile_id": "slide_A_x20480_y16384_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20480,
+      "y": 16384,
+      "level0": {
+        "x": 20480,
+        "y": 16384,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows abundant amorphous, eosinophilic material with a fibrillar to crystalline appearance, interspersed with scattered spindle cells and inflammatory cells. The material is largely acellular.\n\nThe most likely diagnosis is tumoral calcinosis. The presence of amorphous, eosinophilic material with a fibrillar to crystalline appearance is characteristic of calcium deposits. The clinical presentation of a soft tissue mass with calcifications in the toe is also consistent with this diagnosis.\n\nDifferential diagnoses include gout, which can present with amorphous material and inflammation, but typically shows needle-shaped crystals and a more prominent inflammatory infiltrate. Other calcifying lesions such as calcifying aponeurotic fibroma or calcifying fibrous tumor could also be considered, but the amorphous, fibrillar material is more typical of tumoral calcinosis.",
+      "rationale": "High power in central tophus-like amorphous material to characterize cleft morphology"
+    },
+    {
+      "roi_id": "slide_A_x23552_y24576_mag20",
+      "tile_id": "slide_A_x23552_y24576_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 23552,
+      "y": 24576,
+      "level0": {
+        "x": 23552,
+        "y": 24576,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows amorphous eosinophilic material with a crystalline appearance, surrounded by a prominent inflammatory infiltrate including multinucleated giant cells.",
+      "rationale": "High power inferior inflammatory rim—assess for CPPD rhomboid crystals vs urate clefts; synovial lining?"
+    },
+    {
+      "roi_id": "slide_A_x29696_y14336_mag10",
+      "tile_id": "slide_A_x29696_y14336_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 29696,
+      "y": 14336,
+      "level0": {
+        "x": 29696,
+        "y": 14336,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows fragmented tissue with abundant amorphous eosinophilic material and scattered calcifications. There is a prominent inflammatory infiltrate composed of lymphocytes, plasma cells, and numerous multinucleated giant cells.\n\nThe most likely diagnosis is a gouty tophus. The amorphous eosinophilic material represents dissolved urate crystals, and the multinucleated giant cells are a foreign body reaction to these crystals. The calcifications are also a common finding.\n\nDifferential diagnoses include other crystal deposition diseases such as pseudogout (calcium pyrophosphate dihydrate deposition disease), which typically shows rhomboid-shaped crystals, and tumoral calcinosis, which is characterized by large, lobulated calcified masses with surrounding inflammation.",
+      "rationale": "Assess for chondroid matrix/lacunae vs crystalline clefts and inflammatory response."
+    },
+    {
+      "roi_id": "slide_A_x29696_y12288_mag20",
+      "tile_id": "slide_A_x29696_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 29696,
+      "y": 12288,
+      "level0": {
+        "x": 29696,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular area with spindle cells and inflammatory cells adjacent to a hypocellular area with dense, hyalinized collagen. Amorphous material is present at the interface.\n\nThe most likely diagnosis is a calcifying aponeurotic fibroma.\n\nDifferential diagnoses include fibroma of tendon sheath and giant cell tumor of tendon sheath, which typically lack the calcified amorphous material and the characteristic hypocellular hyalinized areas seen here.",
+      "rationale": "High power of suspected cartilaginous area—assess chondrocyte atypia, binucleation, permeation."
+    },
+    {
+      "roi_id": "slide_A_x32768_y20480_mag20",
+      "tile_id": "slide_A_x32768_y20480_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 32768,
+      "y": 20480,
+      "level0": {
+        "x": 32768,
+        "y": 20480,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a hypocellular lesion composed of abundant eosinophilic, fibrillar material arranged in a wavy pattern, with scattered spindle-shaped cells.\n\nThe most likely diagnosis is Elastofibroma.\n\nDifferential diagnoses include fibromatosis, which typically shows more cellularity and less prominent fibrillar material, and calcifying aponeurotic fibroma, which would have more prominent calcifications and a different clinical presentation.",
+      "rationale": "High power in right-sided deposit/calcific area to evaluate for CPPD-type basophilic calcifications/rhomboid crystals"
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag10",
+      "tile_id": "slide_A_x8192_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a hypocellular lesion with abundant eosinophilic matrix containing scattered spindle cells and prominent calcifications. The matrix is hyalinized and fibrillar in areas.\n\nThe most likely diagnosis is a calcifying aponeurotic fibroma. Differential diagnoses include fibromatosis, which typically lacks the prominent calcifications and hyalinized matrix, and a low-grade fibromyxoid sarcoma, which would show more cellularity and a myxoid component.",
+      "rationale": "Revisit left area previously read as tumoral calcinosis—check for cystic calcified spaces vs tophus; pick best calcified basophilic focus."
+    },
+    {
+      "roi_id": "slide_A_x12288_y9216_mag20",
+      "tile_id": "slide_A_x12288_y9216_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 12288,
+      "y": 9216,
+      "level0": {
+        "x": 12288,
+        "y": 9216,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a hypocellular lesion with abundant myxoid matrix and scattered spindle cells. There are also areas of dense, hyalinized collagen and foci of calcification.\n\nThe most likely diagnosis is a soft tissue myxoma. Differential diagnoses include myxoid liposarcoma, which would show lipoblasts and a more cellular pattern, and myxofibrosarcoma, which would have more pleomorphism and curvilinear vessels.",
+      "rationale": "High power of myxoid-appearing area—rule out myxoid sarcoma (atypia, mitoses, lipoblasts)."
+    },
+    {
+      "roi_id": "slide_A_x12288_y8192_mag20",
+      "tile_id": "slide_A_x12288_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 12288,
+      "y": 8192,
+      "level0": {
+        "x": 12288,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a hypocellular lesion with abundant myxoid matrix and scattered spindle cells. There are also areas of dense, hyalinized collagen and foci of calcification.\n\nThe most likely diagnosis is a soft tissue chondroma, myxoid type.\n\nDifferential diagnoses include myxoma, which typically lacks calcification and chondroid differentiation, and myxoid liposarcoma, which would show lipoblasts and a characteristic plexiform vascular pattern.",
+      "rationale": "Clarify nature of left-upper hypocellular calcifying area; look for fibroblastic proliferation vs crystal deposition and clefting"
+    },
+    {
+      "roi_id": "slide_A_x33792_y14848_mag20",
+      "tile_id": "slide_A_x33792_y14848_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 33792,
+      "y": 14848,
+      "level0": {
+        "x": 33792,
+        "y": 14848,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows abundant acellular, eosinophilic material with a fibrillar and wavy pattern, along with scattered dark granular material. The morphology is consistent with degenerated fibrous tissue and calcification.\n\nThe most likely diagnosis is a ganglion cyst. Differential diagnoses include a calcified fibroma or a calcified synovial cyst, which would typically show more cellularity or a synovial lining, respectively.",
+      "rationale": "High power of right-sided cellular rim around deposits—look for synovial sarcoma/epithelioid sarcoma-like cells."
+    },
+    {
+      "roi_id": "slide_A_x8192_y15360_mag10",
+      "tile_id": "slide_A_x8192_y15360_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 8192,
+      "y": 15360,
+      "level0": {
+        "x": 8192,
+        "y": 15360,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows dense fibrous tissue with scattered spindle cells and a prominent inflammatory infiltrate. Amorphous eosinophilic material is present, surrounded by multinucleated giant cells and inflammation.\n\nThe most likely diagnosis is a gouty tophus, characterized by the presence of amorphous material representing dissolved urate crystals, surrounded by a foreign body giant cell reaction and chronic inflammation.\n\nDifferential diagnoses include a foreign body reaction to other crystalline or amorphous material, such as calcium pyrophosphate dihydrate (CPPD) crystal deposition disease (pseudogout), which would show rhomboid-shaped crystals, or a reaction to suture material, which would typically be more organized and linear.",
+      "rationale": "Assess cystic wall at intermediate power for lining cells, infiltrative growth, tumor nodules."
+    },
+    {
+      "roi_id": "slide_A_x26112_y16896_mag20",
+      "tile_id": "slide_A_x26112_y16896_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 26112,
+      "y": 16896,
+      "level0": {
+        "x": 26112,
+        "y": 16896,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a hypocellular lesion with abundant eosinophilic matrix and scattered spindle cells. The matrix is fibrillar and wavy, with areas of hyalinization and calcification.\n\nThe most likely diagnosis is a calcifying aponeurotic fibroma. Differential diagnoses include fibromatosis and low-grade fibromyxoid sarcoma, which can be distinguished by their different cellularity, matrix characteristics, and clinical presentation.",
+      "rationale": "High power at amorphous deposit interface—identify foreign body giant cell reaction vs neoplastic cells."
+    },
+    {
+      "roi_id": "slide_A_x35840_y18944_mag20",
+      "tile_id": "slide_A_x35840_y18944_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 35840,
+      "y": 18944,
+      "level0": {
+        "x": 35840,
+        "y": 18944,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows amorphous eosinophilic material surrounded by a cellular reaction including multinucleated giant cells and histiocytes. There is also a background of spindle cells and fibrous tissue.\n\nThe most likely diagnosis is a tophus, which is a deposit of monosodium urate crystals.\n\nDifferential diagnoses include gouty tophus and pseudogout (calcium pyrophosphate dihydrate deposition disease). Pseudogout typically shows rhomboid-shaped crystals and may have a more prominent inflammatory infiltrate.",
+      "rationale": "High power in right-lateral more cellular area to look for atypical epithelioid/spindle tumor cells (synovial/epithelioid sarcoma)."
+    },
+    {
+      "roi_id": "slide_A_x13824_y13312_mag20",
+      "tile_id": "slide_A_x13824_y13312_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 13824,
+      "y": 13312,
+      "level0": {
+        "x": 13824,
+        "y": 13312,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a hypocellular lesion with abundant myxoid matrix containing scattered spindle cells and prominent curvilinear vessels. There are also areas of calcification.\n\nThe most likely diagnosis is a myxoid chondrosarcoma. Differential diagnoses include myxoma and low-grade fibromyxoid sarcoma, which can be distinguished by cellularity, nuclear atypia, and specific vascular patterns.",
+      "rationale": "High power in left-central fibrous/myxoid zone to assess cellularity, mitoses."
+    },
+    {
+      "roi_id": "slide_A_x20480_y10752_mag20",
+      "tile_id": "slide_A_x20480_y10752_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20480,
+      "y": 10752,
+      "level0": {
+        "x": 20480,
+        "y": 10752,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows amorphous eosinophilic material surrounded by a mixed inflammatory infiltrate including multinucleated giant cells.",
+      "rationale": "High power in central deposit-rich area to evaluate for granulomatous reaction and any atypical cells."
+    },
+    {
+      "roi_id": "slide_A_x30720_y11264_mag10",
+      "tile_id": "slide_A_x30720_y11264_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 30720,
+      "y": 11264,
+      "level0": {
+        "x": 30720,
+        "y": 11264,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows amorphous eosinophilic material with associated calcification and a surrounding inflammatory infiltrate.",
+      "rationale": "Survey superior-right for discrete nodules (cartilage/synovium) and assess growth pattern."
+    },
+    {
+      "roi_id": "slide_A_x17408_y22528_mag10",
+      "tile_id": "slide_A_x17408_y22528_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 17408,
+      "y": 22528,
+      "level0": {
+        "x": 17408,
+        "y": 22528,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows dense fibrous tissue with a prominent inflammatory infiltrate and numerous multinucleated giant cells surrounding amorphous, refractile material.",
+      "rationale": "Survey inferior-central edge for infiltrative cords/nests and necrosis."
+    },
+    {
+      "roi_id": "slide_A_x9728_y11264_mag20",
+      "tile_id": "slide_A_x9728_y11264_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 9728,
+      "y": 11264,
+      "level0": {
+        "x": 9728,
+        "y": 11264,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a hypocellular lesion with abundant eosinophilic, fibrillar matrix and scattered spindle cells. The matrix exhibits a wavy, swirling pattern with areas of hyalinization and calcification.\n\nThe most likely diagnosis is Elastofibroma.\n\nDifferential diagnoses include:\n- Fibromatosis: Typically more cellular with less prominent matrix and calcification.\n- Calcifying fibrous tumor: Usually more cellular with prominent lymphoplasmacytic infiltrate and calcification.",
+      "rationale": "Check ROI near left/mid where potential GCTTS/hemosiderin could be—look for mononuclear cells, hemosiderin, mitoses."
+    },
+    {
+      "roi_id": "slide_A_x13312_y13312_mag10",
+      "tile_id": "slide_A_x13312_y13312_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 13312,
+      "y": 13312,
+      "level0": {
+        "x": 13312,
+        "y": 13312,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a transition from a cellular area with inflammation and foreign body giant cells to a hypocellular area with abundant amorphous, eosinophilic material. The amorphous material is consistent with crystalline deposits.\n\nThe most likely diagnosis is gouty tophus.\n\nDifferential diagnoses include pseudogout (calcium pyrophosphate deposition disease), which typically shows rhomboid-shaped crystals, and tumoral calcinosis, which features large, amorphous calcified deposits.",
+      "rationale": "Step back from myxoid area flagged at 20x to see overall pattern and exclude infiltrative myxoid sarcoma."
+    },
+    {
+      "roi_id": "slide_A_x13824_y13312_mag40",
+      "tile_id": "slide_A_x13824_y13312_mag40",
+      "mag": "high",
+      "magnification": 40.0,
+      "x": 13824,
+      "y": 13312,
+      "level0": {
+        "x": 13824,
+        "y": 13312,
+        "width": 512,
+        "height": 512
+      },
+      "description": "The image shows amorphous eosinophilic material with linear clefts, surrounded by a dense inflammatory infiltrate including histiocytes and multinucleated giant cells. Linear foreign material is also present.\n\nThe most likely diagnosis is gouty tophus.\n\nDifferential diagnoses include:\n- Pseudogout (calcium pyrophosphate deposition disease): Typically shows rhomboid-shaped crystals, often with a different inflammatory response.\n- Tumoral calcinosis: Characterized by large, amorphous calcified deposits with a surrounding foreign body giant cell reaction, but lacks the characteristic needle-shaped crystals of gout.",
+      "rationale": "If available, higher power of myxoid area to assess cytologic atypia/mitotic activity."
+    },
+    {
+      "roi_id": "slide_A_x28672_y12288_mag10",
+      "tile_id": "slide_A_x28672_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 28672,
+      "y": 12288,
+      "level0": {
+        "x": 28672,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows amorphous eosinophilic material surrounded by a dense inflammatory infiltrate rich in histiocytes and multinucleated giant cells. The eosinophilic material appears fragmented and calcified.\n\nThe most likely diagnosis is a tophus, which is a deposit of monosodium urate crystals. The amorphous eosinophilic material represents the urate crystals, and the surrounding inflammatory reaction is typical of a foreign body response to these crystals.\n\nDifferential diagnoses include other types of crystal deposition diseases such as pseudogout (calcium pyrophosphate dihydrate deposition) or gouty tophi. However, the characteristic appearance of the amorphous material and the clinical context of a soft tissue mass in the toe are highly suggestive of a tophus.",
+      "rationale": "Step back from calcifying aponeurotic fibroma-like area to evaluate characteristic calcified foci with fibroblastic proliferation."
+    },
+    {
+      "roi_id": "slide_A_x22528_y17408_mag20",
+      "tile_id": "slide_A_x22528_y17408_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 22528,
+      "y": 17408,
+      "level0": {
+        "x": 22528,
+        "y": 17408,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a hypocellular lesion with abundant eosinophilic matrix and scattered spindle cells. The matrix is fibrillar and amorphous, with areas of calcification.\n\nThe most likely diagnosis is a calcifying aponeurotic fibroma. Differential diagnoses include fibromatosis and low-grade fibrosarcoma, which typically show more cellularity and less prominent calcification.",
+      "rationale": "Search for solid cellular nodules away from deposits—rule out synovial sarcoma (monophasic spindle) or epithelioid sarcoma (nodular epithelioid)."
+    },
+    {
+      "roi_id": "slide_A_x17408_y14336_mag20",
+      "tile_id": "slide_A_x17408_y14336_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 17408,
+      "y": 14336,
+      "level0": {
+        "x": 17408,
+        "y": 14336,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows amorphous eosinophilic material surrounded by a mixed inflammatory infiltrate including multinucleated giant cells.",
+      "rationale": "Target more cellular-looking area near mid-left on map to definitively assess atypia/mitoses."
+    },
+    {
+      "roi_id": "slide_A_x24576_y13824_mag20",
+      "tile_id": "slide_A_x24576_y13824_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 24576,
+      "y": 13824,
+      "level0": {
+        "x": 24576,
+        "y": 13824,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular infiltrate of histiocytes and multinucleated giant cells surrounding amorphous, eosinophilic material. The background stroma is dense and hyalinized.\n\nThe most likely diagnosis is tumoral calcinosis. The presence of amorphous material surrounded by a foreign body giant cell reaction is characteristic. Differential diagnoses include gout, which typically shows needle-shaped crystals and a more prominent neutrophilic infiltrate, and pseudogout, which shows rhomboid-shaped crystals and a mixed inflammatory infiltrate.",
+      "rationale": "Examine central-right fibrous septa for any epithelioid nests or infiltrative spindle cell proliferation."
+    },
+    {
+      "roi_id": "slide_A_x31232_y17920_mag20",
+      "tile_id": "slide_A_x31232_y17920_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 31232,
+      "y": 17920,
+      "level0": {
+        "x": 31232,
+        "y": 17920,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows fragmented tissue with abundant amorphous eosinophilic material and scattered basophilic granular deposits. There is a notable absence of cellular elements.\n\nThe most likely diagnosis is a gouty tophus, characterized by the presence of amorphous material and calcifications in the absence of significant inflammation or cellular components.\n\nDifferential diagnoses include a calcified hematoma or a calcified foreign body reaction, which would typically show more prominent inflammatory cells and potentially identifiable foreign material.",
+      "rationale": "Examine right-side periphery for synovial sarcoma-like monophasic spindle cells or necrosis."
+    },
+    {
+      "roi_id": "slide_A_x11776_y15360_mag20",
+      "tile_id": "slide_A_x11776_y15360_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 11776,
+      "y": 15360,
+      "level0": {
+        "x": 11776,
+        "y": 15360,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows amorphous, eosinophilic material with a crystalline appearance surrounded by a prominent inflammatory infiltrate including numerous multinucleated giant cells.",
+      "rationale": "Look for hemosiderin and mononuclear proliferation suggestive of GCT tendon sheath."
+    },
+    {
+      "roi_id": "slide_A_x20992_y20992_mag20",
+      "tile_id": "slide_A_x20992_y20992_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20992,
+      "y": 20992,
+      "level0": {
+        "x": 20992,
+        "y": 20992,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a hypocellular lesion composed of abundant eosinophilic, fibrillar matrix with scattered spindle cells and prominent irregular clefts. The matrix exhibits areas of hyalinization and calcification.\n\nThe most likely diagnosis is a calcifying aponeurotic fibroma.\n\nDifferential diagnoses include:\n- Fibroma of tendon sheath: Typically more cellular and lacks the prominent calcification and clefting seen here.\n- Myxoid liposarcoma: Would show a more cellular proliferation of lipoblasts within a myxoid matrix, often with a characteristic plexiform vascular pattern, which is not present in this image.",
+      "rationale": "Inferior-central cellular rim around deposits—assess mitotic rate, atypia, necrosis."
+    },
+    {
+      "roi_id": "slide_A_x6144_y12800_mag20",
+      "tile_id": "slide_A_x6144_y12800_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 6144,
+      "y": 12800,
+      "level0": {
+        "x": 6144,
+        "y": 12800,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a hypocellular lesion with abundant eosinophilic matrix and scattered spindle cells. The matrix is fibrillar and hyalinized, with areas of calcification.\n\nThe most likely diagnosis is a calcifying aponeurotic fibroma.\n\nDifferential diagnoses include fibromatosis, which typically shows more cellularity and lacks calcification, and a low-grade fibromyxoid sarcoma, which would have a more prominent myxoid component and curvilinear vessels.",
+      "rationale": "Left peripheral cellular focus—specifically look for GCTTS pattern (mononuclear cells, osteoclast-like giant cells, hemosiderin)."
+    },
+    {
+      "roi_id": "slide_A_x10752_y17920_mag20",
+      "tile_id": "slide_A_x10752_y17920_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 10752,
+      "y": 17920,
+      "level0": {
+        "x": 10752,
+        "y": 17920,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows dense fibrous tissue with scattered spindle cells and a prominent perivascular inflammatory infiltrate. The surface is irregular and frayed.\n\nThe most likely diagnosis is a fibroma of tendon sheath. Differential diagnoses include nodular fasciitis, which typically shows more cellularity and myxoid change, and a giant cell tumor of tendon sheath, which would have multinucleated giant cells and hemosiderin deposition.",
+      "rationale": "Inferior-left fibrous area—assess for hemosiderin/macrophage-rich nodules or atypical spindle proliferation."
+    },
+    {
+      "roi_id": "slide_A_x39936_y17920_mag20",
+      "tile_id": "slide_A_x39936_y17920_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 39936,
+      "y": 17920,
+      "level0": {
+        "x": 39936,
+        "y": 17920,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows amorphous eosinophilic material with a crystalline appearance, surrounded by a dense inflammatory infiltrate composed of lymphocytes, plasma cells, and histiocytes, including multinucleated giant cells.\n\nThe most likely diagnosis is a tophus, which is a deposit of monosodium urate crystals in soft tissue, typically associated with gout.\n\nDifferential diagnoses include calcinosis cutis, which would show calcium deposits, and a foreign body reaction to other crystalline or amorphous material, which would require clinical history or special stains for identification.",
+      "rationale": "Far right edge—exclude infiltrative malignant spindle cell component at periphery."
+    },
+    {
+      "roi_id": "slide_A_x33792_y24064_mag20",
+      "tile_id": "slide_A_x33792_y24064_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 33792,
+      "y": 24064,
+      "level0": {
+        "x": 33792,
+        "y": 24064,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows amorphous eosinophilic material with a fibrillar pattern, surrounded by a foreign body giant cell reaction and chronic inflammation.",
+      "rationale": "Inferior-right edge—look for necrosis, atypical mitoses, infiltrative growth."
+    },
+    {
+      "roi_id": "slide_A_x19968_y7168_mag20",
+      "tile_id": "slide_A_x19968_y7168_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 19968,
+      "y": 7168,
+      "level0": {
+        "x": 19968,
+        "y": 7168,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows abundant amorphous, eosinophilic material with a fibrillar to crystalline appearance, interspersed with clear spaces and scattered dark granular material. There is a notable absence of significant cellular components.\n\nThe most likely diagnosis is a tophus, which is a deposit of monosodium urate crystals. The amorphous, eosinophilic material represents the urate crystals, and the clear spaces are characteristic of the dissolved crystals in formalin-fixed tissue. The dark granular material may represent calcification or other debris.\n\nDifferential diagnoses include other types of crystal deposition diseases, such as pseudogout (calcium pyrophosphate dihydrate deposition), which typically shows rhomboid-shaped crystals, or gouty tophi with a prominent inflammatory reaction, which is not seen here.",
+      "rationale": "Superior-central region—evaluate any synovial-like lining or discrete nodules."
+    }
+  ]
+}

@@ -1,0 +1,910 @@
+{
+  "case_id": "sem1450_case1",
+  "source": "slideseek-ai-assist",
+  "model": "gpt-5.4",
+  "generated_at": "2026-05-22T09:24:05.145113+00:00",
+  "organ": "Hepatobiliary-Pancreas",
+  "primary_dx": "FNH-Like Nodular Hyperplasia With Fibrous Septa, Ductular Reaction, And Arterialized Vessels",
+  "differential_dx": [
+    "Macronodular Cirrhosis / Regenerative Nodules In A Congenital Fibrous Septation Process",
+    "Hepatocellular Adenoma"
+  ],
+  "microscopic_findings": [
+    {
+      "text": "Innumerable hepatocytic nodules are partitioned by **broad fibrous septa**, creating a diffuse **multinodular architecture**.",
+      "roi_ids": [
+        "slide_A_x16384_y16384_mag10",
+        "slide_A_x32768_y24576_mag10"
+      ]
+    },
+    {
+      "text": "Septa contain conspicuous **bile ducts/ductules** with **portal tract-type elements**, supporting a hyperplastic rather than adenomatous…",
+      "roi_ids": [
+        "slide_A_x8192_y24576_mag10",
+        "slide_A_x8192_y28672_mag20"
+      ]
+    },
+    {
+      "text": "Fibrous bands show **thick-walled arterialized vessels** with accompanying **lymphoid/inflammatory aggregates**.",
+      "roi_ids": [
+        "slide_A_x25600_y11264_mag10",
+        "slide_A_x28672_y9216_mag10"
+      ]
+    },
+    {
+      "text": "Nodular hepatocytes are cytologically bland in preserved **1-2-cell-thick cords** without **stromal invasion**, necrosis, or brisk mitoses.",
+      "roi_ids": [
+        "slide_A_x23040_y12800_mag20",
+        "slide_A_x24576_y20480_mag20"
+      ]
+    }
+  ],
+  "interpretation": "The combination of diffuse nodularity with septa containing **bile ductular reaction** and **arterialized vessels** supports **FNH-like nodular hyperplasia**. The retained bland hepatocytic cytology and preserved thin cords argue against **well-differentiated HCC** and hepatoblastoma. Conspicuous portal tract-type elements within septa also make **hepatocellular adenoma** less favored. A localized congenital fibrous septation/regenerative nodule process remains a secondary consideration because of the diffuse cirrhosis-like multinodular pattern.",
+  "num_rois": 54,
+  "tiles": [
+    {
+      "roi_id": "slide_A_x20480_y16384_mag2",
+      "tile_id": "slide_A_x20480_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 20480,
+      "y": 16384,
+      "level0": {
+        "x": 20480,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a nodular architecture with hepatocyte nodules separated by fibrous septa. The hepatocytes within the nodules appear relatively uniform.\n\nThe most likely diagnosis is Focal Nodular Hyperplasia (FNH).\n\nDifferential diagnoses include Hepatocellular Adenoma, which typically lacks the prominent fibrous septa and central scar seen in FNH, and Hepatocellular Carcinoma, which would show cytologic atypia and architectural disarray.",
+      "rationale": "Low-power survey of main tissue for nodularity, fibrous septa, vascular/biliary lesions"
+    },
+    {
+      "roi_id": "slide_A_x16384_y16384_mag1",
+      "tile_id": "slide_A_x16384_y16384_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 16384,
+      "y": 16384,
+      "level0": {
+        "x": 16384,
+        "y": 16384,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a nodular architecture with broad fibrous septa separating nodules of hepatocytes. The septa contain inflammatory cells and prominent vessels, and the nodules show hepatocytes with some variation in size and nuclear features.\n\nThe most likely diagnosis is Focal Nodular Hyperplasia (FNH).\n\nDifferential diagnoses include Hepatocellular Adenoma, which typically lacks the prominent fibrous septa and central scar seen in FNH, and Hepatocellular Carcinoma, which would show more significant cytologic atypia and architectural disarray.",
+      "rationale": "Global low-power survey of overall nodularity and septation."
+    },
+    {
+      "roi_id": "slide_A_x17408_y8192_mag10",
+      "tile_id": "slide_A_x17408_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 17408,
+      "y": 8192,
+      "level0": {
+        "x": 17408,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a nodular lesion composed of hepatocytes arranged in cords separated by fibrous septa. The hepatocytes are uniform with round nuclei and eosinophilic cytoplasm, and there is no significant atypia or mitotic activity.\n\nThe most likely diagnosis is a benign hepatocellular neoplasm, such as a hepatocellular adenoma or focal nodular hyperplasia. The uniform hepatocytes and lack of significant atypia or mitotic activity are consistent with a benign process. The presence of fibrous septa and nodularity could suggest focal nodular hyperplasia, but the overall features are also compatible with a hepatocellular adenoma.\n\nDifferential diagnoses to consider include hepatocellular carcinoma, which would typically show more significant cellular atypia, increased mitotic activity, and potentially vascular invasion. Another possibility is a hepatic adenoma, which is a benign neoplasm of hepatocytes, but the presence of fibrous septa and nodularity makes focal nodular hyperplasia a more likely consideration.",
+      "rationale": "Region 1 overview at 10x to assess nodule architecture and cytology."
+    },
+    {
+      "roi_id": "slide_A_x12288_y8192_mag2",
+      "tile_id": "slide_A_x12288_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 8192,
+      "level0": {
+        "x": 12288,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a nodular architecture with broad fibrous septa separating nodules of hepatocytes. The septa contain inflammatory cells and prominent vessels, and the hepatocytes within the nodules appear relatively uniform.\n\nThe most likely diagnosis is Focal Nodular Hyperplasia (FNH).\n\nDifferential diagnoses include:\n- Hepatocellular Adenoma: Typically lacks the prominent fibrous septa and central scar seen in FNH.\n- Hepatocellular Carcinoma: Usually shows more significant cytologic atypia, increased mitotic activity, and often lacks the characteristic fibrous septa of FNH.",
+      "rationale": "Survey left/upper portion for cavernous vascular spaces or ductal plate malformations"
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag1",
+      "tile_id": "slide_A_x8192_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a nodular architecture with broad fibrous septa separating nodules of hepatocytes. There is a prominent inflammatory infiltrate within the septa and nodules, including lymphoid aggregates.\n\nThe most likely diagnosis is Focal Nodular Hyperplasia (FNH).\n\nDifferential diagnoses include:\n- Hepatocellular Adenoma: Typically lacks the prominent fibrous septa and inflammatory infiltrate seen here.\n- Hepatocellular Carcinoma: Usually shows more significant cytologic atypia and architectural disarray than is apparent in this image.",
+      "rationale": "Survey left/superior portion for capsule/edge and architecture variation."
+    },
+    {
+      "roi_id": "slide_A_x17920_y8192_mag20",
+      "tile_id": "slide_A_x17920_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 17920,
+      "y": 8192,
+      "level0": {
+        "x": 17920,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a well-circumscribed nodule of hepatocytes with a fibrous capsule. The hepatocytes are arranged in cords and show mild nuclear pleomorphism and prominent nucleoli. The surrounding liver parenchyma exhibits fibrosis and inflammation.\n\nThe most likely diagnosis is a hepatocellular adenoma. The well-circumscribed nodule of hepatocytes with a fibrous capsule and the absence of portal tracts within the nodule are characteristic features. The mild nuclear pleomorphism and prominent nucleoli are also consistent with this diagnosis.\n\nDifferential diagnoses include focal nodular hyperplasia, which typically shows a central scar and ductular reaction, and hepatocellular carcinoma, which would exhibit more significant cytologic atypia, increased mitotic activity, and potentially vascular invasion.",
+      "rationale": "Region 1 at 20x to evaluate hepatocyte atypia/mitoses/EMH."
+    },
+    {
+      "roi_id": "slide_A_x28672_y8192_mag2",
+      "tile_id": "slide_A_x28672_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 28672,
+      "y": 8192,
+      "level0": {
+        "x": 28672,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a nodular liver lesion with fibrous septa and prominent lymphoid aggregates. The nodules are composed of hepatocytes with eosinophilic cytoplasm and round nuclei.\n\nThe most likely diagnosis is Focal Nodular Hyperplasia (FNH).\n\nDifferential diagnoses include Hepatocellular Adenoma, which typically lacks the central scar and fibrous septa seen in FNH, and Hepatocellular Carcinoma, which would show more significant cytologic atypia and architectural disarray.",
+      "rationale": "Survey right/upper portion near capsule edge for abnormal vascular channels or bile duct lesions"
+    },
+    {
+      "roi_id": "slide_A_x32768_y8192_mag1",
+      "tile_id": "slide_A_x32768_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 32768,
+      "y": 8192,
+      "level0": {
+        "x": 32768,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a nodular liver lesion with a thin capsule and fibrous septa. The nodules are composed of hepatocytes with varying cellularity and scattered inflammatory cells.\n\nThe most likely diagnosis is Focal Nodular Hyperplasia (FNH).\n\nDifferential diagnoses include Hepatocellular Adenoma, which typically lacks the central scar and fibrous septa seen in FNH, and Hepatocellular Carcinoma, which would show more significant cytologic atypia and architectural disarray.",
+      "rationale": "Survey right/superior edge for interface/capsule and nodularity."
+    },
+    {
+      "roi_id": "slide_A_x32768_y32768_mag1",
+      "tile_id": "slide_A_x32768_y32768_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 32768,
+      "y": 32768,
+      "level0": {
+        "x": 32768,
+        "y": 32768,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a nodular lesion with a fibrous capsule and nodules separated by fibrous septa. The nodules are composed of hepatocytes with varying cellularity and scattered inflammatory cells.\n\nThe most likely diagnosis is Focal Nodular Hyperplasia (FNH).\n\nDifferential diagnoses include Hepatocellular Adenoma, which typically lacks the prominent fibrous septa and central scar seen in FNH, and Hepatocellular Carcinoma, which would show more significant cytologic atypia and architectural disarray.",
+      "rationale": "Survey right/inferior edge including possible ragged liver tissue interface."
+    },
+    {
+      "roi_id": "slide_A_x24576_y11264_mag10",
+      "tile_id": "slide_A_x24576_y11264_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 24576,
+      "y": 11264,
+      "level0": {
+        "x": 24576,
+        "y": 11264,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of uniform cells with round nuclei and eosinophilic cytoplasm arranged in cords and nests, separated by thin fibrovascular septa. The cells are cytologically bland with no significant atypia or mitotic activity.\n\nThe most likely diagnosis is hepatocellular adenoma. The uniform cytology, lack of significant atypia, and the arrangement in cords and nests are characteristic features. The absence of portal tracts and bile ducts within the lesion further supports this diagnosis.\n\nDifferential diagnoses include focal nodular hyperplasia, which typically shows a central scar and ductular reaction, and hepatocellular carcinoma, which would exhibit cytologic atypia, increased mitotic activity, and potentially vascular invasion.",
+      "rationale": "Region 2 overview at 10x for architecture; look for small blue cell or ductal elements."
+    },
+    {
+      "roi_id": "slide_A_x22528_y14336_mag5",
+      "tile_id": "slide_A_x22528_y14336_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 22528,
+      "y": 14336,
+      "level0": {
+        "x": 22528,
+        "y": 14336,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a nodular architecture with hepatocytes arranged in cords separated by fibrous septa. The hepatocytes are relatively uniform with eosinophilic cytoplasm and round nuclei.\n\nThe most likely diagnosis is Focal Nodular Hyperplasia (FNH). The nodular architecture with fibrous septa and hepatocytes arranged in cords is characteristic of FNH. The presence of a thin capsule and the clinical history of a liver mass in a young patient further support this diagnosis.\n\nDifferential diagnoses include Hepatocellular Adenoma, which typically lacks the prominent fibrous septa and central scar seen in FNH, and Hepatocellular Carcinoma, which would show more significant cellular atypia and architectural disarray.",
+      "rationale": "Inspect Region 2 specifically for any abnormal vascular/biliary structures"
+    },
+    {
+      "roi_id": "slide_A_x16384_y32768_mag1",
+      "tile_id": "slide_A_x16384_y32768_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 16384,
+      "y": 32768,
+      "level0": {
+        "x": 16384,
+        "y": 32768,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The liver tissue shows a nodular architecture with fibrous septa and prominent lymphoid aggregates. The nodules are composed of hepatocytes with eosinophilic cytoplasm and round nuclei.\n\nThe most likely diagnosis is Focal Nodular Hyperplasia (FNH).\n\nDifferential diagnoses include Hepatocellular Adenoma, which typically lacks the central scar and fibrous septa seen in FNH, and Hepatocellular Carcinoma, which would show cytologic atypia and architectural disarray.",
+      "rationale": "Survey inferior central region for large vessels/septa patterns."
+    },
+    {
+      "roi_id": "slide_A_x23040_y14336_mag20",
+      "tile_id": "slide_A_x23040_y14336_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 23040,
+      "y": 14336,
+      "level0": {
+        "x": 23040,
+        "y": 14336,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of uniform cells with round nuclei and eosinophilic cytoplasm arranged in cords and nests separated by delicate fibrovascular stroma. The cells have a hepatoid appearance.\n\nThe most likely diagnosis is hepatoid adenocarcinoma.\n\nDifferential diagnoses include hepatocellular carcinoma and hepatoblastoma. Hepatocellular carcinoma typically shows more significant nuclear atypia and architectural disarray. Hepatoblastoma is more common in this age group but usually has a different histological pattern, often with a mixture of epithelial and mesenchymal components.",
+      "rationale": "Region 2 at 20x for cytologic detail; search for hepatoblastoma/HCC features."
+    },
+    {
+      "roi_id": "slide_A_x11264_y8192_mag10",
+      "tile_id": "slide_A_x11264_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 11264,
+      "y": 8192,
+      "level0": {
+        "x": 11264,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a nodular lesion composed of hepatocytes arranged in cords separated by sinusoids, with a fibrous capsule and adjacent liver parenchyma. The hepatocytes appear relatively uniform with round nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a benign hepatocellular neoplasm, such as a hepatocellular adenoma or focal nodular hyperplasia.\n\nDifferential diagnoses include hepatocellular carcinoma, which would typically show more significant cytologic atypia, increased mitotic activity, and potentially vascular invasion, and hepatic adenoma, which is a benign neoplasm but lacks the fibrous capsule and nodular architecture seen here.",
+      "rationale": "Assess fibrous septa contents for abnormal vessels, bile duct proliferation/ductal plate malformation"
+    },
+    {
+      "roi_id": "slide_A_x27648_y8192_mag10",
+      "tile_id": "slide_A_x27648_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 27648,
+      "y": 8192,
+      "level0": {
+        "x": 27648,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a well-circumscribed nodule of liver parenchyma with hepatocytes arranged in cords separated by sinusoids. The hepatocytes have round nuclei and eosinophilic cytoplasm, and the nodule is surrounded by a thin fibrous capsule.\n\nThe most likely diagnosis is a hepatic adenoma. The differential diagnosis includes focal nodular hyperplasia, which typically shows a central scar and ductular reaction, and hepatocellular carcinoma, which would exhibit cytologic atypia and architectural disarray.",
+      "rationale": "Look for cavernous vascular spaces, peliosis, or atypical endothelial proliferation in septa"
+    },
+    {
+      "roi_id": "slide_A_x16896_y7680_mag20",
+      "tile_id": "slide_A_x16896_y7680_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 16896,
+      "y": 7680,
+      "level0": {
+        "x": 16896,
+        "y": 7680,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a nodular lesion composed of hepatocytes arranged in cords separated by fibrous septa. The hepatocytes have round nuclei and eosinophilic cytoplasm, with some areas showing mild nuclear pleomorphism.\n\nThe most likely diagnosis is Focal Nodular Hyperplasia (FNH). The nodular architecture with hepatocytes arranged in cords and separated by fibrous septa is characteristic of FNH. The presence of a thin capsule and the clinical history of a liver mass in a young patient further support this diagnosis.\n\nDifferential diagnoses to consider include Hepatocellular Adenoma and Hepatocellular Carcinoma. Hepatocellular adenoma typically lacks the prominent fibrous septa and nodular architecture seen in FNH. Hepatocellular carcinoma would show more significant cytologic atypia, increased mitotic activity, and potentially vascular invasion, which are not evident in this image.",
+      "rationale": "Sample adjacent field in region 1 for portal tracts/ductular reaction/central scar-like fibrosis and mitoses."
+    },
+    {
+      "roi_id": "slide_A_x16384_y16384_mag2",
+      "tile_id": "slide_A_x16384_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 16384,
+      "y": 16384,
+      "level0": {
+        "x": 16384,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a nodular architecture with broad fibrous septa separating nodules of hepatocytes. The septa contain inflammatory cells and prominent vessels. The hepatocytes within the nodules appear relatively uniform.\n\nThe most likely diagnosis is Focal Nodular Hyperplasia (FNH).\n\nDifferential diagnoses include:\n- Hepatocellular Adenoma: Typically lacks the prominent fibrous septa and central scar seen in FNH.\n- Hepatocellular Carcinoma: Usually shows more significant cytologic atypia, increased mitotic activity, and often lacks the characteristic fibrous septa of FNH.",
+      "rationale": "Assess nodule composition and septa contents centrally."
+    },
+    {
+      "roi_id": "slide_A_x20480_y18432_mag10",
+      "tile_id": "slide_A_x20480_y18432_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 20480,
+      "y": 18432,
+      "level0": {
+        "x": 20480,
+        "y": 18432,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a nodular proliferation of hepatocytes with a thin capsule and fibrous septa. The hepatocytes are arranged in cords and show mild nuclear pleomorphism.\n\nThe most likely diagnosis is Focal Nodular Hyperplasia (FNH).\n\nDifferential diagnoses include Hepatocellular Adenoma, which typically lacks the prominent fibrous septa and capsule seen in FNH, and Hepatocellular Carcinoma, which would show more significant cytologic atypia and architectural disarray.",
+      "rationale": "Interrogate central area for vascular lakes/peliosis or biliary hamartomas"
+    },
+    {
+      "roi_id": "slide_A_x24576_y16384_mag2",
+      "tile_id": "slide_A_x24576_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 24576,
+      "y": 16384,
+      "level0": {
+        "x": 24576,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a nodular architecture with broad fibrous septa separating nodules of hepatocytes. The hepatocytes within the nodules appear relatively uniform.\n\nThe most likely diagnosis is Focal Nodular Hyperplasia (FNH).\n\nDifferential diagnoses include Hepatocellular Adenoma, which typically lacks the prominent fibrous septa and central scar seen in FNH, and Hepatocellular Carcinoma, which would show cytologic atypia and architectural disarray.",
+      "rationale": "Another central area to look for portal tract distribution/ductules."
+    },
+    {
+      "roi_id": "slide_A_x18944_y8704_mag20",
+      "tile_id": "slide_A_x18944_y8704_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 18944,
+      "y": 8704,
+      "level0": {
+        "x": 18944,
+        "y": 8704,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a well-circumscribed nodule composed of hepatocytes arranged in cords separated by sinusoids. The hepatocytes have round nuclei and eosinophilic cytoplasm, with a fibrous capsule at the periphery.\n\nThe most likely diagnosis is a hepatocellular adenoma.\n\nDifferential diagnoses include focal nodular hyperplasia, which typically shows a central scar and ductular reaction, and hepatocellular carcinoma, which would exhibit cytologic atypia, increased mitotic activity, and potentially vascular invasion.",
+      "rationale": "Another region 1 nodule edge to look for capsule, invasion, thickened plates."
+    },
+    {
+      "roi_id": "slide_A_x25600_y12288_mag10",
+      "tile_id": "slide_A_x25600_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 25600,
+      "y": 12288,
+      "level0": {
+        "x": 25600,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a nodular proliferation of hepatocytes with a prominent fibrous septum. The hepatocytes are arranged in cords and appear relatively uniform with eosinophilic cytoplasm and round nuclei.\n\nThe most likely diagnosis is Focal Nodular Hyperplasia (FNH).\n\nDifferential diagnoses include Hepatocellular Adenoma, which typically lacks the prominent fibrous septa and abnormal vessels seen in FNH, and Hepatocellular Carcinoma, which would show more significant cytologic atypia and architectural disarray.",
+      "rationale": "Region 2 closer look for ductal plate lesions or vascular abnormalities"
+    },
+    {
+      "roi_id": "slide_A_x22016_y12800_mag20",
+      "tile_id": "slide_A_x22016_y12800_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 22016,
+      "y": 12800,
+      "level0": {
+        "x": 22016,
+        "y": 12800,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a well-circumscribed nodule of hepatocytes with a fibrous capsule. The hepatocytes are arranged in cords and show mild nuclear pleomorphism and occasional binucleation.\n\nThe most likely diagnosis is a hepatocellular adenoma.\n\nDifferential diagnoses include focal nodular hyperplasia, which typically shows a central scar and ductular reaction, and hepatocellular carcinoma, which would exhibit more significant cytologic atypia, increased mitotic activity, and potentially vascular invasion.",
+      "rationale": "Region 2 additional field to verify 'hepatoid' area; look for small blue cell component/rosettes/EMH."
+    },
+    {
+      "roi_id": "slide_A_x32768_y8192_mag2",
+      "tile_id": "slide_A_x32768_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 32768,
+      "y": 8192,
+      "level0": {
+        "x": 32768,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a nodular lesion with a fibrous capsule and nodules separated by fibrous bands. The nodules are composed of hepatocytes with eosinophilic cytoplasm and round nuclei, arranged in cords.\n\nThe most likely diagnosis is Focal Nodular Hyperplasia (FNH).\n\nDifferential diagnoses include Hepatocellular Adenoma, which typically lacks the central scar and fibrous septa seen in FNH, and Hepatocellular Carcinoma, which would show cytologic atypia and architectural disarray.",
+      "rationale": "Periphery near capsule to assess interface and septa."
+    },
+    {
+      "roi_id": "slide_A_x23040_y14848_mag20",
+      "tile_id": "slide_A_x23040_y14848_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 23040,
+      "y": 14848,
+      "level0": {
+        "x": 23040,
+        "y": 14848,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a well-circumscribed nodule composed of hepatocytes arranged in cords separated by sinusoids. The hepatocytes have round nuclei and eosinophilic cytoplasm, with a thin fibrous capsule at the periphery.\n\nThe most likely diagnosis is a hepatocellular adenoma.\n\nDifferential diagnoses include focal nodular hyperplasia, which typically shows a central scar and ductular reaction, and hepatocellular carcinoma, which would exhibit cytologic atypia, increased mitotic activity, and potentially vascular invasion.",
+      "rationale": "Region 2 nodule edge/septum to evaluate fibrous bands, ductal plates, vascular proliferation."
+    },
+    {
+      "roi_id": "slide_A_x8192_y24576_mag2",
+      "tile_id": "slide_A_x8192_y24576_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 8192,
+      "y": 24576,
+      "level0": {
+        "x": 8192,
+        "y": 24576,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a nodular architecture with broad fibrous septa separating nodules of hepatocytes. The septa contain a prominent lymphocytic infiltrate and thick-walled vessels.\n\nThe most likely diagnosis is Focal Nodular Hyperplasia (FNH).\n\nDifferential diagnoses include Hepatocellular Adenoma, which typically lacks the prominent fibrous septa and central scar seen in FNH, and Hepatocellular Carcinoma, which would show cytologic atypia and architectural disarray.",
+      "rationale": "Inferior left area for septa/vascular structures."
+    },
+    {
+      "roi_id": "slide_A_x11776_y7680_mag20",
+      "tile_id": "slide_A_x11776_y7680_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 11776,
+      "y": 7680,
+      "level0": {
+        "x": 11776,
+        "y": 7680,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a transition from normal liver parenchyma to a nodular area with fibrous stroma, inflammation, and ductular reaction. The nodular area contains hepatocytes with some nuclear variability and eosinophilic cytoplasm.\n\nThe most likely diagnosis is Focal Nodular Hyperplasia (FNH).\n\nDifferential diagnoses include Hepatocellular Adenoma, which typically lacks the prominent fibrous septa and ductular reaction seen in FNH, and Hepatocellular Carcinoma, which would show more significant cytologic atypia and architectural disarray.",
+      "rationale": "High power of septa to look for ductular reaction vs ductal plate malformation; check vessel walls/endothelium"
+    },
+    {
+      "roi_id": "slide_A_x20480_y22528_mag5",
+      "tile_id": "slide_A_x20480_y22528_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 20480,
+      "y": 22528,
+      "level0": {
+        "x": 20480,
+        "y": 22528,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a nodular architecture with broad fibrous septa separating nodules of hepatocytes. The hepatocytes within the nodules appear relatively uniform.\n\nThe most likely diagnosis is Focal Nodular Hyperplasia (FNH).\n\nDifferential diagnoses include Hepatocellular Adenoma, which typically lacks the prominent fibrous septa and central scar seen in FNH, and Hepatocellular Carcinoma, which would show cytologic atypia and architectural disarray.",
+      "rationale": "Higher low-power to look for bile duct proliferation/ductular reaction in septa."
+    },
+    {
+      "roi_id": "slide_A_x28160_y8704_mag20",
+      "tile_id": "slide_A_x28160_y8704_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 28160,
+      "y": 8704,
+      "level0": {
+        "x": 28160,
+        "y": 8704,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a well-circumscribed nodule of hepatocytes with a thin fibrous capsule. The hepatocytes are arranged in cords and show mild variation in size and nuclear features.\n\nThe most likely diagnosis is a hepatocellular adenoma.\n\nDifferential diagnoses include focal nodular hyperplasia, which typically shows a central scar and ductular reaction, and hepatocellular carcinoma, which would exhibit more significant cytologic atypia, increased mitotic activity, and potentially vascular invasion.",
+      "rationale": "High power to evaluate any vascular spaces for endothelial atypia/hemangioma/peliosis"
+    },
+    {
+      "roi_id": "slide_A_x25600_y12288_mag20",
+      "tile_id": "slide_A_x25600_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 25600,
+      "y": 12288,
+      "level0": {
+        "x": 25600,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of uniform cells with round nuclei and eosinophilic cytoplasm arranged in cords and nests separated by delicate fibrovascular stroma. The cells have a hepatoid appearance.\n\nThe most likely diagnosis is hepatoid adenocarcinoma.\n\nDifferential diagnoses include hepatocellular carcinoma and hepatoblastoma. Hepatocellular carcinoma typically occurs in older patients and may show more significant nuclear atypia and architectural disarray. Hepatoblastoma is more common in young children but often shows a mixed epithelial and mesenchymal pattern.",
+      "rationale": "Examine fibrous septum in region 2 for bile ducts (von Meyenburg complexes) or abnormal vascular channels"
+    },
+    {
+      "roi_id": "slide_A_x32768_y24576_mag5",
+      "tile_id": "slide_A_x32768_y24576_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 32768,
+      "y": 24576,
+      "level0": {
+        "x": 32768,
+        "y": 24576,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a nodular architecture with broad fibrous septa separating nodules of hepatocytes. The septa contain inflammation and bile duct proliferation, and the hepatocytes within the nodules appear relatively uniform.\n\nThe most likely diagnosis is Focal Nodular Hyperplasia (FNH).\n\nDifferential diagnoses include Hepatocellular Adenoma, which typically lacks the prominent fibrous septa and bile duct proliferation seen here, and Hepatocellular Carcinoma, which would show cytologic atypia and architectural disarray.",
+      "rationale": "Repeat 5x in septal area to better evaluate vessels/ductules and band composition."
+    },
+    {
+      "roi_id": "slide_A_x25600_y11264_mag10",
+      "tile_id": "slide_A_x25600_y11264_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 25600,
+      "y": 11264,
+      "level0": {
+        "x": 25600,
+        "y": 11264,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a nodular lesion with hepatocytes arranged in cords separated by sinusoids. There is a prominent lymphoid aggregate and a large vessel with thickened walls. The hepatocytes appear relatively uniform.\n\nThe most likely diagnosis is Focal Nodular Hyperplasia (FNH).\n\nDifferential diagnoses include Hepatocellular Adenoma, which typically lacks the prominent fibrous septa and lymphoid aggregates seen in FNH, and Hepatocellular Carcinoma, which would show more significant cytologic atypia and architectural disarray.",
+      "rationale": "Re-center region 2 at 10x to ensure correct area (prior 10x capture offset)."
+    },
+    {
+      "roi_id": "slide_A_x20480_y18432_mag20",
+      "tile_id": "slide_A_x20480_y18432_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20480,
+      "y": 18432,
+      "level0": {
+        "x": 20480,
+        "y": 18432,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of uniform cells with round nuclei and eosinophilic cytoplasm arranged in cords and nests separated by thin fibrovascular septa. The cells resemble fetal hepatocytes.\n\nThe most likely diagnosis is Hepatoblastoma, fetal type.\n\nDifferential diagnoses include Hepatocellular Carcinoma, which typically shows more significant nuclear atypia, increased mitotic activity, and often a trabecular pattern with sinusoidal capillarization. Focal Nodular Hyperplasia is another consideration, but it usually has a central scar and lacks the cellular uniformity and fetal-like appearance seen here.",
+      "rationale": "Check nodule-septum interface for sinusoidal dilatation/peliosis, bile ductules, inflammation"
+    },
+    {
+      "roi_id": "slide_A_x8192_y24576_mag5",
+      "tile_id": "slide_A_x8192_y24576_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 8192,
+      "y": 24576,
+      "level0": {
+        "x": 8192,
+        "y": 24576,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a nodular architecture with broad fibrous septa separating nodules of hepatocytes. The septa contain a mixed inflammatory infiltrate and numerous bile ducts.\n\nThe most likely diagnosis is Focal Nodular Hyperplasia (FNH).\n\nDifferential diagnoses include Hepatocellular Adenoma, which typically lacks the prominent fibrous septa and bile duct proliferation seen here, and Hepatocellular Carcinoma, which would show cytologic atypia and architectural disarray.",
+      "rationale": "Thick-walled vessel/lymphoid area—assess for ductular reaction and abnormal arteries."
+    },
+    {
+      "roi_id": "slide_A_x23040_y12800_mag20",
+      "tile_id": "slide_A_x23040_y12800_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 23040,
+      "y": 12800,
+      "level0": {
+        "x": 23040,
+        "y": 12800,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a nodular lesion composed of hepatocytes arranged in cords separated by fibrous septa. The hepatocytes are relatively uniform with round nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is Focal Nodular Hyperplasia (FNH).\n\nDifferential diagnoses include Hepatocellular Adenoma, which typically lacks the prominent fibrous septa and central scar seen in FNH, and Hepatocellular Carcinoma, which would show cytologic atypia and architectural disarray.",
+      "rationale": "Re-center region 2 at 20x for cytology; verify no hepatoblastoma features."
+    },
+    {
+      "roi_id": "slide_A_x24064_y13312_mag20",
+      "tile_id": "slide_A_x24064_y13312_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 24064,
+      "y": 13312,
+      "level0": {
+        "x": 24064,
+        "y": 13312,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of hepatocytes arranged in cords and nests, with cells having round nuclei and eosinophilic cytoplasm. There is a delicate fibrovascular stroma and scattered brown pigment.\n\nThe most likely diagnosis is Hepatocellular Adenoma. The differential diagnosis includes Hepatocellular Carcinoma, which would typically show more significant cytologic atypia, increased mitotic activity, and potentially vascular invasion.",
+      "rationale": "Sample different nodule/septum within region 2 for ductular reaction/bile ducts/portal tracts."
+    },
+    {
+      "roi_id": "slide_A_x30720_y8192_mag5",
+      "tile_id": "slide_A_x30720_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 30720,
+      "y": 8192,
+      "level0": {
+        "x": 30720,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a nodular lesion with a thin capsule and a cellular proliferation of small cells with hyperchromatic nuclei and scant cytoplasm, arranged in nests and cords. The background stroma is fibrous.\n\nThe most likely diagnosis is hepatoblastoma, specifically the small cell undifferentiated subtype. This diagnosis is supported by the patient's age, the presence of a nodular liver mass, and the characteristic morphology of small, hyperchromatic cells arranged in nests and cords within a fibrous stroma. The clinical history of a liver mass and the postoperative hemorrhagic diathesis are also consistent with this diagnosis.\n\nDifferential diagnoses to consider include other pediatric liver tumors such as hepatocellular carcinoma (HCC) and mesenchymal hamartoma. HCC typically shows larger cells with more abundant eosinophilic cytoplasm and a trabecular pattern, often with bile production. Mesenchymal hamartoma is characterized by a mixture of mesenchymal elements, bile ducts, and cystic spaces, which are not seen in this image.",
+      "rationale": "Capsular/peripheral band—look for portal tracts, ductules, and transition."
+    },
+    {
+      "roi_id": "slide_A_x22528_y14848_mag20",
+      "tile_id": "slide_A_x22528_y14848_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 22528,
+      "y": 14848,
+      "level0": {
+        "x": 22528,
+        "y": 14848,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a nodular proliferation of hepatocytes with eosinophilic cytoplasm and round nuclei, separated by fibrous septa. The hepatocytes are arranged in cords and nests.\n\nThe most likely diagnosis is Focal Nodular Hyperplasia (FNH).\n\nDifferential diagnoses include Hepatocellular Adenoma, which typically lacks the prominent fibrous septa and ductular reaction seen in FNH, and Hepatocellular Carcinoma, which would show more significant cytologic atypia and architectural disarray.",
+      "rationale": "Sample periphery of region 2 for interface with fibrous band and any invasion/vascular lesion."
+    },
+    {
+      "roi_id": "slide_A_x24576_y20480_mag2",
+      "tile_id": "slide_A_x24576_y20480_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 24576,
+      "y": 20480,
+      "level0": {
+        "x": 24576,
+        "y": 20480,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a nodular architecture with broad fibrous septa containing inflammation and prominent vessels. The nodules are composed of hepatocytes with some variation in size and nuclear features.\n\nThe most likely diagnosis is Focal Nodular Hyperplasia (FNH).\n\nDifferential diagnoses include Hepatocellular Adenoma, which typically lacks the prominent fibrous septa and central scar seen in FNH, and Hepatocellular Carcinoma, which would show more significant cytologic atypia and architectural disarray.",
+      "rationale": "Survey lower/central area for possible blood lakes, dilated ducts, or cystic change"
+    },
+    {
+      "roi_id": "slide_A_x36864_y24576_mag2",
+      "tile_id": "slide_A_x36864_y24576_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 36864,
+      "y": 24576,
+      "level0": {
+        "x": 36864,
+        "y": 24576,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a nodular architecture with broad fibrous septa separating nodules of hepatocytes. There is a prominent inflammatory infiltrate within the septa and at the interface with the parenchyma.\n\nThe most likely diagnosis is Focal Nodular Hyperplasia (FNH). The nodular architecture with fibrous septa and inflammation is characteristic of FNH. The presence of a central scar (not clearly visible at this magnification but suggested by the septa) is also typical. The clinical history of a liver mass in a young patient is consistent with FNH.\n\nDifferential diagnoses include Hepatocellular Adenoma, which typically lacks the prominent fibrous septa and inflammatory infiltrate seen here. Hepatocellular Carcinoma is less likely given the bland cytology of the hepatocytes and the absence of significant atypia or architectural disarray.",
+      "rationale": "Survey far right/lower tissue for vascular lesions near capsule"
+    },
+    {
+      "roi_id": "slide_A_x8192_y28672_mag2",
+      "tile_id": "slide_A_x8192_y28672_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 8192,
+      "y": 28672,
+      "level0": {
+        "x": 8192,
+        "y": 28672,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a nodular architecture with broad fibrous septa separating nodules of hepatocytes. The septa contain inflammatory cells and prominent vessels. The hepatocytes within the nodules appear relatively uniform.\n\nThe most likely diagnosis is Focal Nodular Hyperplasia (FNH).\n\nDifferential diagnoses include:\n- Hepatocellular Adenoma: Typically lacks the prominent fibrous septa and central scar seen in FNH.\n- Hepatocellular Carcinoma: Usually shows more significant cytologic atypia, increased mitotic activity, and often lacks the characteristic fibrous septa of FNH.",
+      "rationale": "Survey left/lower area for ductal plate malformation clusters or cavernous spaces"
+    },
+    {
+      "roi_id": "slide_A_x40960_y16384_mag2",
+      "tile_id": "slide_A_x40960_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 40960,
+      "y": 16384,
+      "level0": {
+        "x": 40960,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a low power view of a liver mass with a nodular surface and fibrous septa. The underlying tissue is densely cellular with a pinkish-purple hue.\n\nThe most likely diagnosis is Hepatoblastoma, specifically the macrotrabecular subtype. This diagnosis is supported by the patient's age, the presence of a liver mass, and the macroscopic appearance of a nodular tumor with fibrous bands. The macrotrabecular subtype is characterized by thick trabeculae of tumor cells, which would be visible at higher magnification.\n\nDifferential diagnoses include other pediatric liver tumors such as hepatocellular carcinoma (HCC) and mesenchymal hamartoma. HCC is less common in this age group and typically shows more cellular atypia and mitotic activity. Mesenchymal hamartoma is a benign lesion characterized by cystic spaces and mesenchymal stroma, which are not seen in this image.",
+      "rationale": "Far right edge to assess capsule and interface with surrounding liver."
+    },
+    {
+      "roi_id": "slide_A_x32768_y32768_mag2",
+      "tile_id": "slide_A_x32768_y32768_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 32768,
+      "y": 32768,
+      "level0": {
+        "x": 32768,
+        "y": 32768,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a thin capsule with underlying liver tissue. The liver tissue is composed of hepatocytes arranged in cords separated by sinusoids, with some areas showing increased cellularity and fibrous stroma.\n\nThe most likely diagnosis is a benign liver lesion, such as a hepatic adenoma or focal nodular hyperplasia. The presence of a thin capsule and nodular architecture are consistent with these possibilities. Differential diagnoses include hepatocellular carcinoma, which would typically show more significant cellular atypia and architectural disarray, and a hepatic cyst, which would be characterized by a cystic space lined by epithelium.",
+      "rationale": "Inferior right edge for ragged interface vs capsule."
+    },
+    {
+      "roi_id": "slide_A_x36864_y24576_mag10",
+      "tile_id": "slide_A_x36864_y24576_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 36864,
+      "y": 24576,
+      "level0": {
+        "x": 36864,
+        "y": 24576,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a nodular lesion with a fibrous capsule and a cellular proliferation of cells with eosinophilic cytoplasm and round nuclei arranged in cords and nests, separated by thin fibrous septa. The surrounding liver parenchyma shows reactive changes.\n\nThe most likely diagnosis is a hepatocellular adenoma, specifically the inflammatory subtype, given the nodular architecture, fibrous capsule, and cellular morphology. The presence of a fibrous capsule and the nodular growth pattern are key features. The inflammatory subtype is suggested by the cellular morphology and the presence of fibrous septa.\n\nDifferential diagnoses include focal nodular hyperplasia, which typically shows a central scar and ductular reaction, and hepatocellular carcinoma, which would show more significant cytologic atypia and architectural disarray.",
+      "rationale": "Evaluate septa/inflammation and look for dilated vascular channels or ductal plate malformation"
+    },
+    {
+      "roi_id": "slide_A_x4096_y16384_mag2",
+      "tile_id": "slide_A_x4096_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 4096,
+      "y": 16384,
+      "level0": {
+        "x": 4096,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a nodular architecture with broad fibrous septa separating nodules of hepatocytes. The septa contain inflammatory cells and prominent vessels. The hepatocytes within the nodules appear relatively uniform.\n\nThe most likely diagnosis is Focal Nodular Hyperplasia (FNH). The nodular architecture with broad fibrous septa and prominent vessels is characteristic of FNH. The presence of inflammatory cells within the septa is also consistent with this diagnosis.\n\nDifferential diagnoses to consider include Hepatocellular Adenoma, which typically lacks the prominent fibrous septa and abnormal vessels seen in FNH, and Hepatocellular Carcinoma, which would show cytologic atypia and architectural disarray not present in this image.",
+      "rationale": "Far left edge for interface/possible normal liver."
+    },
+    {
+      "roi_id": "slide_A_x8192_y28672_mag10",
+      "tile_id": "slide_A_x8192_y28672_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 8192,
+      "y": 28672,
+      "level0": {
+        "x": 8192,
+        "y": 28672,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a nodular architecture with hepatocytes arranged in cords separated by fibrous septa. The hepatocytes are relatively uniform with round nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is Focal Nodular Hyperplasia (FNH).\n\nDifferential diagnoses include Hepatocellular Adenoma, which typically lacks the prominent fibrous septa and central scar seen in FNH, and Hepatocellular Carcinoma, which would show cytologic atypia and architectural disarray.",
+      "rationale": "Look for von Meyenburg complexes or cystically dilated bile ducts in fibrous bands"
+    },
+    {
+      "roi_id": "slide_A_x29696_y10240_mag10",
+      "tile_id": "slide_A_x29696_y10240_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 29696,
+      "y": 10240,
+      "level0": {
+        "x": 29696,
+        "y": 10240,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a nodular lesion with a dense lymphocytic infiltrate at the periphery and hepatocytes with abundant clear to finely vacuolated cytoplasm. The surrounding liver parenchyma appears unremarkable.\n\nThe most likely diagnosis is a hepatic adenoma, specifically the inflammatory subtype, given the nodular architecture, peripheral lymphocytic infiltrate, and hepatocyte changes. Other considerations include focal nodular hyperplasia, which typically shows a central scar and ductular reaction, and hepatocellular carcinoma, which would exhibit more significant cytologic atypia and architectural disarray.",
+      "rationale": "Higher power check of area previously flagged as small blue cell proliferation at 5x."
+    },
+    {
+      "roi_id": "slide_A_x24576_y20480_mag10",
+      "tile_id": "slide_A_x24576_y20480_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 24576,
+      "y": 20480,
+      "level0": {
+        "x": 24576,
+        "y": 20480,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a nodular architecture with hepatocytes arranged in cords separated by sinusoids. The hepatocytes have eosinophilic cytoplasm and round nuclei, with some variation in size and occasional binucleation. Fibrous septa are present, separating the nodules.\n\nThe most likely diagnosis is Focal Nodular Hyperplasia (FNH). This diagnosis is supported by the nodular architecture, hepatocyte cords, and fibrous septa. The presence of a central scar (not visible in this single image but mentioned in the gross description) is a characteristic feature of FNH.\n\nDifferential diagnoses include Hepatocellular Adenoma, which typically lacks the fibrous septa and central scar seen in FNH, and Hepatocellular Carcinoma, which would show more significant cytologic atypia and architectural disarray.",
+      "rationale": "Assess for sinusoidal dilatation/peliosis or abnormal vascular proliferation"
+    },
+    {
+      "roi_id": "slide_A_x28672_y9216_mag10",
+      "tile_id": "slide_A_x28672_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 28672,
+      "y": 9216,
+      "level0": {
+        "x": 28672,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a nodular lesion composed of hepatocytes with eosinophilic cytoplasm and round nuclei, separated by fibrous septa containing inflammation and a large vessel. The surface is irregular and lacks a true capsule.\n\nThe most likely diagnosis is Focal Nodular Hyperplasia (FNH).\n\nDifferential diagnoses include Hepatocellular Adenoma, which typically lacks the prominent fibrous septa and central scar seen in FNH, and Hepatocellular Carcinoma, which would show cytologic atypia and architectural disarray.",
+      "rationale": "Directly on flagged ROI for confirmation of cell population/architecture."
+    },
+    {
+      "roi_id": "slide_A_x36864_y24576_mag20",
+      "tile_id": "slide_A_x36864_y24576_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 36864,
+      "y": 24576,
+      "level0": {
+        "x": 36864,
+        "y": 24576,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a well-circumscribed nodule composed of hepatocytes arranged in cords separated by sinusoids. The hepatocytes have abundant eosinophilic cytoplasm and round nuclei with prominent nucleoli. The nodule is surrounded by a fibrous capsule.\n\nThe most likely diagnosis is a hepatocellular adenoma. The well-circumscribed nodule of hepatocytes with preserved architecture and lack of significant atypia or mitotic activity is characteristic of this benign neoplasm. The presence of a fibrous capsule further supports this diagnosis.\n\nDifferential diagnoses include focal nodular hyperplasia, which typically shows a central scar and ductular reaction, and hepatocellular carcinoma, which would exhibit more significant cytologic atypia, increased mitotic activity, and potentially vascular invasion.",
+      "rationale": "High power to check for bile ducts (ductular reaction vs ductal plate malformation) and endothelial atypia"
+    },
+    {
+      "roi_id": "slide_A_x8192_y24576_mag10",
+      "tile_id": "slide_A_x8192_y24576_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 8192,
+      "y": 24576,
+      "level0": {
+        "x": 8192,
+        "y": 24576,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a nodular architecture with hepatocytes arranged in cords separated by fibrous septa containing bile ducts and vessels. The hepatocytes are relatively uniform with eosinophilic cytoplasm and round nuclei.\n\nThe most likely diagnosis is Focal Nodular Hyperplasia (FNH).\n\nDifferential diagnoses include Hepatocellular Adenoma, which typically lacks the prominent fibrous septa and bile duct proliferation seen in FNH, and Hepatocellular Carcinoma, which would show cytologic atypia and architectural disarray.",
+      "rationale": "Assess ductular reaction/bile ducts within septa; look for ductal plate malformation or abnormal portal structures."
+    },
+    {
+      "roi_id": "slide_A_x8192_y28672_mag20",
+      "tile_id": "slide_A_x8192_y28672_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 8192,
+      "y": 28672,
+      "level0": {
+        "x": 8192,
+        "y": 28672,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a nodular proliferation of hepatocytes with mild cytologic atypia and prominent sinusoids. The nodules are separated by fibrous septa containing inflammatory cells and bile ducts.\n\nThe most likely diagnosis is Focal Nodular Hyperplasia (FNH).\n\nDifferential diagnoses include Hepatocellular Adenoma, which typically lacks the prominent fibrous septa and bile ducts seen in FNH, and Hepatocellular Carcinoma, which would show more significant cytologic atypia and architectural disarray.",
+      "rationale": "High power in fibrous septa to look for von Meyenburg complexes/biliary hamartoma or Caroli-like dilated ducts"
+    },
+    {
+      "roi_id": "slide_A_x32768_y24576_mag10",
+      "tile_id": "slide_A_x32768_y24576_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 32768,
+      "y": 24576,
+      "level0": {
+        "x": 32768,
+        "y": 24576,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a nodular architecture with hepatocytes arranged in cords separated by fibrous septa. The hepatocytes are relatively uniform with round nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is Focal Nodular Hyperplasia (FNH).\n\nDifferential diagnoses include Hepatocellular Adenoma, which typically lacks the prominent fibrous septa and central scar seen in FNH, and Hepatocellular Carcinoma, which would show cytologic atypia and architectural disarray.",
+      "rationale": "Assess septal bile duct proliferation and vascular abnormalities."
+    },
+    {
+      "roi_id": "slide_A_x24576_y20480_mag20",
+      "tile_id": "slide_A_x24576_y20480_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 24576,
+      "y": 20480,
+      "level0": {
+        "x": 24576,
+        "y": 20480,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of uniform cells with round nuclei and eosinophilic cytoplasm arranged in cords and nests separated by delicate fibrovascular stroma. The cells are similar to normal hepatocytes.\n\nThe most likely diagnosis is hepatoblastoma, specifically the fetal type.\n\nDifferential diagnoses include hepatocellular carcinoma, which typically shows more significant nuclear atypia, increased mitotic activity, and often a trabecular pattern with sinusoidal capillarization. Another consideration is a hepatocellular adenoma, which is usually a solitary lesion and lacks the nodular architecture and fibrous bands seen in this case.",
+      "rationale": "High power for sinusoidal dilatation/peliosis and vascular lining cell atypia"
+    },
+    {
+      "roi_id": "slide_A_x16384_y16384_mag10",
+      "tile_id": "slide_A_x16384_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 16384,
+      "y": 16384,
+      "level0": {
+        "x": 16384,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a nodular architecture with hepatocytes arranged in cords separated by fibrous septa. The hepatocytes are relatively uniform with round nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is Focal Nodular Hyperplasia (FNH). The nodular architecture with fibrous septa and hepatocytes arranged in cords is characteristic of FNH. The presence of a thin capsule and the clinical history of a liver mass in a young patient further support this diagnosis.\n\nDifferential diagnoses include Hepatocellular Adenoma, which typically lacks the prominent fibrous septa and nodular architecture seen in FNH. Another consideration is Hepatocellular Carcinoma, which would show more significant cellular atypia and architectural disarray.",
+      "rationale": "Check for portal tract vs central vein distribution within nodules and septa; cirrhosis vs FNH-like pattern."
+    }
+  ]
+}

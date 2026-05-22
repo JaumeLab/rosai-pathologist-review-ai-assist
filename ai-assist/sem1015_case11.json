@@ -1,0 +1,1070 @@
+{
+  "case_id": "sem1015_case11",
+  "source": "slideseek-ai-assist",
+  "model": "gpt-5.4",
+  "generated_at": "2026-05-22T09:18:52.429171+00:00",
+  "organ": "Skin-Lymphoid",
+  "primary_dx": "Cellular Blue Nevus",
+  "differential_dx": [
+    "Atypical Cellular Blue Nevus / Melanoma Arising In Blue Nevus",
+    "Pigmented DFSP / Other Pigmented Spindle-Cell Tumor"
+  ],
+  "microscopic_findings": [
+    {
+      "text": "Dermal-subcutaneous lesion is **well-circumscribed** with a **pushing border** and peripheral fibrous rim/pseudocapsule.",
+      "roi_ids": [
+        "slide_A_x16384_y8192_mag1",
+        "slide_A_x16384_y16384_mag1"
+      ]
+    },
+    {
+      "text": "Tumor is composed of heavily pigmented **spindle cells** in intersecting **fascicles/whorls** with admixed dendritic melanized cells.",
+      "roi_ids": [
+        "slide_A_x15360_y11264_mag10",
+        "slide_A_x17408_y13312_mag10"
+      ]
+    },
+    {
+      "text": "Stroma shows **hyalinization** with focal **myxoid change/clefting** around pigmented spindle-cell aggregates.",
+      "roi_ids": [
+        "slide_A_x12288_y12288_mag2",
+        "slide_A_x20480_y14336_mag5"
+      ]
+    },
+    {
+      "text": "Cells show only mild atypia despite focal plumper epithelioid change, with **no mitotic activity** and **no necrosis** identified.",
+      "roi_ids": [
+        "slide_A_x14848_y14848_mag20",
+        "slide_A_x25600_y13312_mag20"
+      ]
+    }
+  ],
+  "interpretation": "The lesion is most consistent with **cellular blue nevus**, supported by a **well-circumscribed dermal/subcutaneous melanocytic proliferation** of heavily pigmented spindle cells arranged in fascicles and whorls with stromal hyalinization/myxoid change. Although focal plumper epithelioid cells are present, the overall cytology is only mildly atypical and there is **no mitotic activity or necrosis**, arguing against **melanoma arising in blue nevus** in the examined sections. The circumscribed pushing growth also disfavors **pigmented DFSP**.",
+  "num_rois": 64,
+  "tiles": [
+    {
+      "roi_id": "slide_A_x16384_y12288_mag2",
+      "tile_id": "slide_A_x16384_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 16384,
+      "y": 12288,
+      "level0": {
+        "x": 16384,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with areas of myxoid change and scattered pigment. The cells have elongated, wavy nuclei.\n\nThe most likely diagnosis is a cellular blue nevus.\n\nDifferential diagnoses include cellular schwannoma and melanoma. Cellular schwannoma typically shows Antoni A and B areas and Verocay bodies, while melanoma would exhibit significant nuclear atypia and mitotic activity.",
+      "rationale": "Low-power survey of entire lesion to find darkest/most cellular areas and architecture."
+    },
+    {
+      "roi_id": "slide_A_x16384_y8192_mag1",
+      "tile_id": "slide_A_x16384_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 16384,
+      "y": 8192,
+      "level0": {
+        "x": 16384,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The lesion is a well-circumscribed dermal nodule composed of spindle cells arranged in fascicles and whorls, with abundant melanin pigment and scattered clear spaces. The overlying epidermis shows acanthosis and hyperkeratosis.\n\nThe most likely diagnosis is a pigmented spindle cell nevus (Reed nevus).\n\nDifferential diagnoses include cellular blue nevus and melanoma. Cellular blue nevus typically shows more prominent dendritic melanocytes and less epidermal involvement. Melanoma would show cytologic atypia, mitotic activity, and potentially necrosis, which are not evident in this image.",
+      "rationale": "Low-power overview of entire lesion for circumscription/pseudocapsule and hemorrhagic spaces"
+    },
+    {
+      "roi_id": "slide_A_x14336_y12288_mag5",
+      "tile_id": "slide_A_x14336_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 14336,
+      "y": 12288,
+      "level0": {
+        "x": 14336,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with scattered melanin pigment and prominent clear spaces. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a cellular blue nevus.\n\nDifferential diagnoses include cellular blue nevus and melanoma. Cellular blue nevus is characterized by a dense proliferation of spindle and dendritic melanocytes with melanin pigment, often with prominent clear spaces. Melanoma would typically show more significant nuclear atypia, mitotic activity, and potentially necrosis.",
+      "rationale": "Identify hypercellular pigmented foci in central tumor."
+    },
+    {
+      "roi_id": "slide_A_x16384_y4096_mag2",
+      "tile_id": "slide_A_x16384_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 16384,
+      "y": 4096,
+      "level0": {
+        "x": 16384,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The lesion is a well-circumscribed dermal nodule composed of spindle cells with abundant melanin pigment, arranged in fascicles and whorls. The overlying epidermis shows acanthosis and hyperkeratosis.\n\nThe most likely diagnosis is a pigmented spindle cell nevus (Reed nevus).\n\nDifferential diagnoses include cellular blue nevus and melanoma. Cellular blue nevus typically shows more prominent dendritic melanocytes and less epidermal involvement. Melanoma would show significant cytologic atypia, mitotic activity, and potentially necrosis, which are not evident in this image.",
+      "rationale": "Examine epidermis/dermal interface at superior aspect."
+    },
+    {
+      "roi_id": "slide_A_x12288_y12288_mag2",
+      "tile_id": "slide_A_x12288_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 12288,
+      "level0": {
+        "x": 12288,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with abundant melanin pigment and areas of stromal hyalinization. The lesion is well-circumscribed.\n\nThe most likely diagnosis is a cellular blue nevus.\n\nDifferential diagnoses include a cellular blue nevus-like melanoma, which would show significant cytologic atypia, increased mitotic activity, and potentially necrosis, and a conventional blue nevus, which is typically less cellular and lacks the prominent fascicular and whorled architecture.",
+      "rationale": "Examine central pale/whitish areas on thumbnail that may represent hemorrhage/cystic degeneration"
+    },
+    {
+      "roi_id": "slide_A_x20480_y14336_mag5",
+      "tile_id": "slide_A_x20480_y14336_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 20480,
+      "y": 14336,
+      "level0": {
+        "x": 20480,
+        "y": 14336,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a biphasic pattern with a cellular area of spindle cells and a less cellular area with prominent myxoid change and scattered cells. Abundant brown-black pigment is present throughout.\n\nThe most likely diagnosis is a pigmented neurothekeoma.\n\nDifferential diagnoses include cellular blue nevus and melanoma. Cellular blue nevus typically shows more uniform spindle cells and less myxoid change. Melanoma would show more significant cytologic atypia and mitotic activity.",
+      "rationale": "Survey right-sided tumor edge for infiltrative pattern/cellularity."
+    },
+    {
+      "roi_id": "slide_A_x24576_y12288_mag2",
+      "tile_id": "slide_A_x24576_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 24576,
+      "y": 12288,
+      "level0": {
+        "x": 24576,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a densely cellular lesion with a prominent fibrous capsule and abundant dark brown pigment. The cells are pleomorphic with irregular nuclei and scant cytoplasm, arranged in sheets and nests.\n\nThe most likely diagnosis is a pigmented malignant melanoma. Differential diagnoses include a pigmented schwannoma or a heavily pigmented basal cell carcinoma, which can be distinguished by their characteristic cellular morphology and growth patterns.",
+      "rationale": "Right peripheral margin to assess infiltration into subcutis/fat."
+    },
+    {
+      "roi_id": "slide_A_x20480_y8192_mag2",
+      "tile_id": "slide_A_x20480_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 20480,
+      "y": 8192,
+      "level0": {
+        "x": 20480,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The lesion is a well-circumscribed dermal nodule composed of spindle cells arranged in fascicles and whorls, with abundant melanin pigment and areas of stromal hyalinization. The overlying epidermis shows acanthosis and hyperkeratosis.\n\nThe most likely diagnosis is a cellular blue nevus.\n\nDifferential diagnoses include a common blue nevus, which is typically smaller and less cellular, and a melanoma, which would show significant cytologic atypia, mitotic activity, and often necrosis.",
+      "rationale": "Examine right-sided darker area for possible vascular channels/congestion"
+    },
+    {
+      "roi_id": "slide_A_x4096_y12288_mag2",
+      "tile_id": "slide_A_x4096_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 4096,
+      "y": 12288,
+      "level0": {
+        "x": 4096,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a well-circumscribed dermal and subcutaneous lesion composed of spindle cells with abundant melanin pigment, arranged in fascicles and nests. The overlying epidermis is acanthotic with hyperkeratosis and parakeratosis.\n\nThe most likely diagnosis is a pigmented spindle cell nevus (Reed nevus).\n\nDifferential diagnoses include cellular blue nevus and melanoma. Cellular blue nevus typically shows more prominent dendritic melanocytes and less epidermal involvement. Melanoma would show cytologic atypia, mitotic activity, and potentially necrosis, which are not evident in this image.",
+      "rationale": "Left peripheral margin including adnexa to assess involvement and border."
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag5",
+      "tile_id": "slide_A_x8192_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with abundant melanin pigment and a transition to a less cellular, myxoid area. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a cellular blue nevus.\n\nDifferential diagnoses include:\n- Cellular blue nevus: characterized by dense spindle cell proliferation with abundant melanin pigment, often with a transition to a less cellular myxoid area.\n- Spindle cell melanoma: would typically show more significant nuclear atypia, mitotic activity, and potentially necrosis, which are not prominent features in this image.\n- Dermatofibroma: usually lacks the abundant melanin pigment and the characteristic transition to a myxoid area seen here.",
+      "rationale": "Survey left-upper portion nearer dermis for cellularity and junctional activity."
+    },
+    {
+      "roi_id": "slide_A_x12288_y8192_mag2",
+      "tile_id": "slide_A_x12288_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 8192,
+      "level0": {
+        "x": 12288,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with abundant melanin pigment and areas of stromal hyalinization. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a cellular blue nevus.\n\nDifferential diagnoses include:\n- Cellular blue nevus: characterized by spindle cells, abundant melanin, and fascicular/whorled architecture.\n- Spindle cell melanoma: would show more significant nuclear atypia, mitotic activity, and potentially necrosis.\n- Dermatofibroma: typically lacks significant melanin pigment and has a different cellular morphology.",
+      "rationale": "Examine left-superior portion near dermis/subcutis interface for capsule/lymphoid cuff"
+    },
+    {
+      "roi_id": "slide_A_x16384_y16384_mag1",
+      "tile_id": "slide_A_x16384_y16384_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 16384,
+      "y": 16384,
+      "level0": {
+        "x": 16384,
+        "y": 16384,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The lesion is a well-circumscribed dermal nodule composed of spindle cells arranged in fascicles and whorls, with abundant melanin pigment and areas of myxoid change. The overlying epidermis shows acanthosis and hyperkeratosis.\n\nThe most likely diagnosis is a cellular blue nevus.\n\nDifferential diagnoses include a common blue nevus, which is typically smaller and less cellular, and a melanoma, which would show significant cytologic atypia and mitotic activity.",
+      "rationale": "Confirm deep extent into subcutis/fascia at inferior aspect."
+    },
+    {
+      "roi_id": "slide_A_x16384_y16384_mag2",
+      "tile_id": "slide_A_x16384_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 16384,
+      "y": 16384,
+      "level0": {
+        "x": 16384,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The lesion is well-circumscribed and composed of spindle cells with abundant melanin pigment, arranged in fascicles and whorls. There are also areas of myxoid change and scattered clear spaces.\n\nThe most likely diagnosis is a cellular blue nevus.\n\nDifferential diagnoses include a deep penetrating nevus, which typically shows more prominent junctional activity and nests of epithelioid cells, and a melanoma, which would exhibit significant cytologic atypia, mitotic activity, and infiltrative growth.",
+      "rationale": "Inferior-central pale/clefted areas to look for hemorrhage/blood-filled spaces"
+    },
+    {
+      "roi_id": "slide_A_x14848_y14848_mag20",
+      "tile_id": "slide_A_x14848_y14848_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 14848,
+      "y": 14848,
+      "level0": {
+        "x": 14848,
+        "y": 14848,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles with abundant intracellular and extracellular dark brown pigment. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a pigmented spindle cell nevus.\n\nDifferential diagnoses include cellular blue nevus and pigmented spindle cell melanoma. Cellular blue nevus typically shows more prominent dendritic cells and less cellular atypia. Pigmented spindle cell melanoma would exhibit significant nuclear atypia, mitotic activity, and potentially necrosis.",
+      "rationale": "High-power cytology in central hypercellular area."
+    },
+    {
+      "roi_id": "slide_A_x14336_y10240_mag5",
+      "tile_id": "slide_A_x14336_y10240_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 14336,
+      "y": 10240,
+      "level0": {
+        "x": 14336,
+        "y": 10240,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with abundant melanin pigment and areas of stromal hyalinization. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a cellular blue nevus.\n\nDifferential diagnoses include:\n- Cellular blue nevus: characterized by spindle cells, abundant melanin, and fascicular/whorled architecture.\n- Spindle cell melanoma: would show more significant nuclear atypia, mitotic activity, and potentially necrosis.\n- Dermatofibroma: typically lacks the abundant melanin and prominent whorled pattern seen here.",
+      "rationale": "Assess architecture/pigment distribution in central portion at higher low power."
+    },
+    {
+      "roi_id": "slide_A_x20992_y14848_mag20",
+      "tile_id": "slide_A_x20992_y14848_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20992,
+      "y": 14848,
+      "level0": {
+        "x": 20992,
+        "y": 14848,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle and epithelioid cells with abundant intracellular and extracellular melanin pigment. The cells are arranged in fascicles and nests, with some areas showing clear cell change.\n\nThe most likely diagnosis is a pigmented spindle cell nevus (Reed nevus).\n\nDifferential diagnoses include cellular blue nevus and melanoma. Cellular blue nevus typically shows more uniform spindle cells and less prominent clear cell change. Melanoma would show significant cytologic atypia, mitotic activity, and often necrosis, which are not prominent features in this image.",
+      "rationale": "High-power at right-sided pigmented cellular area to assess atypia/mitoses."
+    },
+    {
+      "roi_id": "slide_A_x24576_y8192_mag2",
+      "tile_id": "slide_A_x24576_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 24576,
+      "y": 8192,
+      "level0": {
+        "x": 24576,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a well-circumscribed dermal nodule composed of densely packed cells with abundant dark brown pigment. The cells are arranged in nests and sheets, with some areas showing a fascicular pattern.\n\nThe most likely diagnosis is a pigmented melanocytic nevus, specifically a blue nevus given the deep dermal location and heavy pigmentation.\n\nDifferential diagnoses include cellular blue nevus and melanoma. Cellular blue nevus can be distinguished by its larger size and more prominent cellularity, while melanoma would show features of malignancy such as significant nuclear atypia, mitotic activity, and infiltrative growth.",
+      "rationale": "Far right edge where hemorrhage/congestion may be present; assess for vascular channels"
+    },
+    {
+      "roi_id": "slide_A_x26624_y12288_mag5",
+      "tile_id": "slide_A_x26624_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 26624,
+      "y": 12288,
+      "level0": {
+        "x": 26624,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a dense cellular proliferation of spindle cells with abundant melanin pigment, arranged in fascicles and nests, with associated stromal changes and prominent vessels.\n\nThe most likely diagnosis is a cellular blue nevus.\n\nDifferential diagnoses include melanoma, which would typically show more significant cytologic atypia, mitotic activity, and potentially necrosis, and a common blue nevus, which is usually less cellular and lacks the prominent fascicular growth pattern.",
+      "rationale": "Interrogate right margin that appeared more atypical on 2.5x for infiltrative pattern/capsule."
+    },
+    {
+      "roi_id": "slide_A_x9216_y9216_mag20",
+      "tile_id": "slide_A_x9216_y9216_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 9216,
+      "y": 9216,
+      "level0": {
+        "x": 9216,
+        "y": 9216,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of spindle cells with elongated nuclei and abundant intracellular brown-black pigment. The cells are arranged in intersecting fascicles within a collagenous stroma.\n\nThe most likely diagnosis is a pigmented spindle cell nevus.\n\nDifferential diagnoses include pigmented spindle cell melanoma, which would typically show greater nuclear atypia, mitotic activity, and potentially necrosis. A blue nevus is another consideration, but the cellular morphology and arrangement in this case are more consistent with a spindle cell nevus.",
+      "rationale": "High-power near upper-left dermal aspect to look for junctional activity/infiltration."
+    },
+    {
+      "roi_id": "slide_A_x8192_y12288_mag2",
+      "tile_id": "slide_A_x8192_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 8192,
+      "y": 12288,
+      "level0": {
+        "x": 8192,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a well-circumscribed dermal lesion composed of spindle cells arranged in fascicles and whorls, with abundant melanin pigment. The lesion is sharply demarcated from the surrounding tissue.\n\nThe most likely diagnosis is a pigmented spindle cell nevus (Reed nevus).\n\nDifferential diagnoses include cellular blue nevus and melanoma. Cellular blue nevus typically shows more prominent dendritic melanocytes and less circumscription. Melanoma would exhibit cytologic atypia, mitotic activity, and potentially necrosis, which are not apparent in this image.",
+      "rationale": "Left edge near subcutis to look for lymphoid aggregates/cuffing and hemosiderin"
+    },
+    {
+      "roi_id": "slide_A_x6144_y12288_mag5",
+      "tile_id": "slide_A_x6144_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 6144,
+      "y": 12288,
+      "level0": {
+        "x": 6144,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with abundant intracellular and extracellular melanin pigment. The cells have elongated nuclei and eosinophilic cytoplasm, with some areas showing nuclear palisading.\n\nThe most likely diagnosis is a cellular blue nevus. Differential diagnoses include a cellular blue nevus-like melanoma, which would show significant cytologic atypia, increased mitotic activity, and potentially necrosis, features not apparent in this image. A conventional blue nevus would typically be less cellular and more heavily pigmented.",
+      "rationale": "Evaluate left margin and relationship to adnexa/fat for honeycomb or pushing border."
+    },
+    {
+      "roi_id": "slide_A_x20480_y10752_mag20",
+      "tile_id": "slide_A_x20480_y10752_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20480,
+      "y": 10752,
+      "level0": {
+        "x": 20480,
+        "y": 10752,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles with abundant intracellular and extracellular melanin pigment. The cells have elongated nuclei with mild pleomorphism.\n\nThe most likely diagnosis is a pigmented spindle cell nevus.\n\nDifferential diagnoses include cellular blue nevus and spindle cell melanoma. Cellular blue nevus typically shows more prominent dendritic cells and less cellular atypia. Spindle cell melanoma would exhibit more significant nuclear atypia, mitotic activity, and potentially necrosis.",
+      "rationale": "High-power in myxoid/less cellular zone to characterize stromal change and cell type."
+    },
+    {
+      "roi_id": "slide_A_x16384_y10240_mag5",
+      "tile_id": "slide_A_x16384_y10240_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 16384,
+      "y": 10240,
+      "level0": {
+        "x": 16384,
+        "y": 10240,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with abundant melanin pigment and areas of myxoid change. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a cellular blue nevus.\n\nDifferential diagnoses include:\n- Cellular blue nevus: characterized by spindle cells, abundant melanin, and fascicular/whorled architecture.\n- Spindle cell melanoma: would show more significant nuclear atypia, mitotic activity, and potentially necrosis.\n- Dermatofibroma: typically lacks significant melanin pigment and has a storiform pattern.",
+      "rationale": "Intermediate power in central lesion to assess for pseudovascular spaces and inflammatory cuff"
+    },
+    {
+      "roi_id": "slide_A_x11776_y17408_mag20",
+      "tile_id": "slide_A_x11776_y17408_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 11776,
+      "y": 17408,
+      "level0": {
+        "x": 11776,
+        "y": 17408,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with abundant melanin pigment within a dense collagenous stroma. The cells are arranged in fascicles and nests, with some areas showing a storiform pattern.\n\nThe most likely diagnosis is a cellular blue nevus.\n\nDifferential diagnoses include a deep penetrating nevus, which typically shows more prominent junctional activity and nests of epithelioid cells, and a melanoma, which would exhibit significant cytologic atypia, mitotic activity, and potentially necrosis.",
+      "rationale": "High-power in deep portion to assess necrosis, mitoses, and pushing vs infiltrative border."
+    },
+    {
+      "roi_id": "slide_A_x17408_y13312_mag10",
+      "tile_id": "slide_A_x17408_y13312_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 17408,
+      "y": 13312,
+      "level0": {
+        "x": 17408,
+        "y": 13312,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with scattered cells containing abundant dark brown pigment. Prominent clear spaces are also present.\n\nThe most likely diagnosis is a cellular blue nevus.\n\nDifferential diagnoses include melanoma, which would typically show more significant cytologic atypia, mitotic activity, and potentially necrosis, and a common blue nevus, which is usually less cellular and lacks the prominent clear spaces seen here.",
+      "rationale": "Central pale/clefted spaces—evaluate for true vascular channels vs artifact/pseudovascular spaces, RBCs, endothelial lining"
+    },
+    {
+      "roi_id": "slide_A_x22528_y18432_mag5",
+      "tile_id": "slide_A_x22528_y18432_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 22528,
+      "y": 18432,
+      "level0": {
+        "x": 22528,
+        "y": 18432,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a dense cellular proliferation of spindle cells with abundant melanin pigment, arranged in fascicles and whorls, with associated hemorrhage and necrosis.\n\nThe most likely diagnosis is a cellular blue nevus.\n\nDifferential diagnoses include malignant melanoma, which would typically show more significant cytologic atypia, mitotic activity, and potentially necrosis, and a common blue nevus, which is usually less cellular and lacks the prominent fascicular growth pattern.",
+      "rationale": "Check deep right-inferior margin for infiltration into fat/fascia."
+    },
+    {
+      "roi_id": "slide_A_x6144_y13312_mag10",
+      "tile_id": "slide_A_x6144_y13312_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 6144,
+      "y": 13312,
+      "level0": {
+        "x": 6144,
+        "y": 13312,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles with abundant intracellular and extracellular melanin pigment. The cells have elongated nuclei and are associated with a dense lymphocytic infiltrate.\n\nThe most likely diagnosis is a cellular blue nevus.\n\nDifferential diagnoses include melanoma, which would typically show greater nuclear atypia, mitotic activity, and potentially necrosis, and a common blue nevus, which is usually less cellular and lacks the prominent lymphocytic infiltrate.",
+      "rationale": "Assess left edge/dermal interface for infiltration, adnexal involvement, or grenz zone."
+    },
+    {
+      "roi_id": "slide_A_x12288_y6144_mag10",
+      "tile_id": "slide_A_x12288_y6144_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 12288,
+      "y": 6144,
+      "level0": {
+        "x": 12288,
+        "y": 6144,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with abundant intracellular and extracellular melanin pigment. The cells have elongated nuclei with mild pleomorphism.\n\nThe most likely diagnosis is a cellular blue nevus.\n\nDifferential diagnoses include melanoma, which would typically show more significant nuclear atypia, mitotic activity, and potentially necrosis. A common blue nevus would be less cellular and more heavily pigmented.",
+      "rationale": "Near superficial dermis/epidermis interface—look for lymphoid aggregates/cuffing at periphery"
+    },
+    {
+      "roi_id": "slide_A_x14336_y16384_mag5",
+      "tile_id": "slide_A_x14336_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 14336,
+      "y": 16384,
+      "level0": {
+        "x": 14336,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with abundant melanin pigment and areas of myxoid change. The cells have elongated, wavy nuclei.\n\nThe most likely diagnosis is a cellular blue nevus.\n\nDifferential diagnoses include melanoma, which would typically show more significant nuclear atypia, mitotic activity, and potentially necrosis, and a common blue nevus, which is usually less cellular and lacks the prominent myxoid change seen here.",
+      "rationale": "Assess deepest portion/lesion base for capsule vs permeative growth."
+    },
+    {
+      "roi_id": "slide_A_x8192_y16384_mag5",
+      "tile_id": "slide_A_x8192_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 8192,
+      "y": 16384,
+      "level0": {
+        "x": 8192,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with abundant melanin pigment, arranged in fascicles and nests, with associated hemorrhage and necrosis. The lesion is sharply demarcated from the surrounding tissue.\n\nThe most likely diagnosis is a cellular blue nevus. Differential diagnoses include malignant melanoma, which would typically show more significant cytologic atypia, mitotic activity, and infiltrative growth.",
+      "rationale": "Deep left-inferior margin including subcutis to look for honeycomb entrapment."
+    },
+    {
+      "roi_id": "slide_A_x25600_y9216_mag10",
+      "tile_id": "slide_A_x25600_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 25600,
+      "y": 9216,
+      "level0": {
+        "x": 25600,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with abundant melanin pigment and scattered clear spaces. The cells have elongated nuclei with mild pleomorphism.\n\nThe most likely diagnosis is a cellular blue nevus. Differential diagnoses include melanoma, which would typically show more significant nuclear atypia, mitotic activity, and potentially necrosis, and a common blue nevus, which is usually less cellular and lacks the prominent fascicular growth pattern.",
+      "rationale": "Far right darker region—check for large blood-filled spaces/vascular malformation features"
+    },
+    {
+      "roi_id": "slide_A_x25600_y13312_mag10",
+      "tile_id": "slide_A_x25600_y13312_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 25600,
+      "y": 13312,
+      "level0": {
+        "x": 25600,
+        "y": 13312,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle and epithelioid cells arranged in fascicles and nests, with abundant intracellular and extracellular melanin pigment. The cells have vesicular nuclei with prominent nucleoli and show mild to moderate pleomorphism.\n\nThe most likely diagnosis is a pigmented spindle cell nevus (Reed nevus).\n\nDifferential diagnoses include cellular blue nevus and melanoma. Cellular blue nevus typically shows more uniform spindle cells and less pleomorphism. Melanoma would show more significant nuclear atypia, mitotic activity, and potentially necrosis.",
+      "rationale": "Assess right edge for capsule/pushing border vs infiltration into subcutis."
+    },
+    {
+      "roi_id": "slide_A_x14336_y6144_mag5",
+      "tile_id": "slide_A_x14336_y6144_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 14336,
+      "y": 6144,
+      "level0": {
+        "x": 14336,
+        "y": 6144,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with abundant melanin pigment. The cells have elongated nuclei and eosinophilic cytoplasm, with scattered larger cells and blood vessels.\n\nThe most likely diagnosis is a cellular blue nevus. Differential diagnoses include melanoma, which would show significant nuclear atypia, mitotic activity, and necrosis, and a common blue nevus, which is typically less cellular and lacks the prominent fascicular growth pattern.",
+      "rationale": "Superficial dermis just beneath epidermis for junctional component/epidermal involvement pattern."
+    },
+    {
+      "roi_id": "slide_A_x8192_y14336_mag10",
+      "tile_id": "slide_A_x8192_y14336_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 8192,
+      "y": 14336,
+      "level0": {
+        "x": 8192,
+        "y": 14336,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with abundant intracellular and extracellular melanin pigment. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a pigmented spindle cell nevus.\n\nDifferential diagnoses include cellular blue nevus and pigmented spindle cell melanoma. Cellular blue nevus typically shows more prominent dendritic melanocytes and less cellular atypia. Pigmented spindle cell melanoma would exhibit significant nuclear atypia, mitotic activity, and potentially necrosis.",
+      "rationale": "Left-lower region near capsule—search for hemosiderin-laden macrophages, hemorrhage, lymphoid cuff"
+    },
+    {
+      "roi_id": "slide_A_x15360_y6144_mag10",
+      "tile_id": "slide_A_x15360_y6144_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 15360,
+      "y": 6144,
+      "level0": {
+        "x": 15360,
+        "y": 6144,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with abundant intracellular and extracellular dark brown pigment. The cells have elongated nuclei with mild pleomorphism.\n\nThe most likely diagnosis is a pigmented spindle cell nevus.\n\nDifferential diagnoses include cellular blue nevus and pigmented spindle cell melanoma. Cellular blue nevus typically shows more prominent dendritic cells and less cellular atypia. Pigmented spindle cell melanoma would show more significant nuclear atypia, mitotic activity, and potentially necrosis.",
+      "rationale": "Assess superficial dermis/epidermis for junctional melanocytic component."
+    },
+    {
+      "roi_id": "slide_A_x15360_y19456_mag10",
+      "tile_id": "slide_A_x15360_y19456_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 15360,
+      "y": 19456,
+      "level0": {
+        "x": 15360,
+        "y": 19456,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with abundant melanin pigment in the upper portion, transitioning to a less cellular, fibrous stroma with scattered spindle cells and blood vessels in the lower portion. A large clear space is present at the bottom.\n\nThe most likely diagnosis is a cellular blue nevus.\n\nDifferential diagnoses include:\n- Deep penetrating nevus: Typically shows a wedge-shaped growth pattern and may have more prominent junctional activity.\n- Melanoma: Would show significant cytologic atypia, mitotic activity, and potentially necrosis, which are not evident in this image.",
+      "rationale": "Assess deep margin for infiltrative growth/necrosis."
+    },
+    {
+      "roi_id": "slide_A_x17408_y13312_mag20",
+      "tile_id": "slide_A_x17408_y13312_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 17408,
+      "y": 13312,
+      "level0": {
+        "x": 17408,
+        "y": 13312,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles with abundant intracellular and extracellular dark brown pigment. The cells have elongated nuclei and eosinophilic cytoplasm, with some clear spaces.\n\nThe most likely diagnosis is a pigmented spindle cell nevus (Reed nevus).\n\nDifferential diagnoses include cellular blue nevus and pigmented spindle cell melanoma. Cellular blue nevus typically shows more prominent dendritic cells and less cellular atypia. Pigmented spindle cell melanoma would show significant nuclear atypia, mitotic activity, and potentially necrosis.",
+      "rationale": "High power in area with prominent clear spaces to determine if endothelial-lined vascular channels/blood-filled spaces"
+    },
+    {
+      "roi_id": "slide_A_x16384_y8192_mag2",
+      "tile_id": "slide_A_x16384_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 16384,
+      "y": 8192,
+      "level0": {
+        "x": 16384,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with abundant melanin pigment and areas of stromal hyalinization. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a cellular blue nevus.\n\nDifferential diagnoses include:\n- Cellular blue nevus: characterized by spindle cells, abundant melanin, and fascicular/whorled architecture.\n- Spindle cell melanoma: would show more significant nuclear atypia, mitotic activity, and potentially necrosis.\n- Dermatofibroma: typically lacks significant melanin pigment and has a storiform pattern.",
+      "rationale": "Center of lesion at 2.5x to confirm overall architecture (lobulated? storiform? fascicles) and pigment distribution."
+    },
+    {
+      "roi_id": "slide_A_x24576_y15360_mag20",
+      "tile_id": "slide_A_x24576_y15360_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 24576,
+      "y": 15360,
+      "level0": {
+        "x": 24576,
+        "y": 15360,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles with abundant intracellular and extracellular brown-black pigment. The cells have elongated nuclei with mild pleomorphism.\n\nThe most likely diagnosis is a pigmented spindle cell nevus.\n\nDifferential diagnoses include pigmented spindle cell melanoma, which would typically show more significant nuclear atypia, mitotic activity, and potentially necrosis. A cellular blue nevus could also be considered, but the cellular morphology and fascicular pattern are more characteristic of a pigmented spindle cell nevus.",
+      "rationale": "Right-inferior peripheral region to assess for hemorrhage/hemosiderin and lymphoid cuff/pseudocapsule"
+    },
+    {
+      "roi_id": "slide_A_x25600_y13312_mag20",
+      "tile_id": "slide_A_x25600_y13312_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 25600,
+      "y": 13312,
+      "level0": {
+        "x": 25600,
+        "y": 13312,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle and epithelioid cells with abundant intracellular and extracellular melanin pigment. The cells are arranged in fascicles and nests, with some nuclear pleomorphism and prominent nucleoli.\n\nThe most likely diagnosis is a pigmented spindle cell nevus (Reed nevus).\n\nDifferential diagnoses include cellular blue nevus and melanoma. Cellular blue nevus typically shows more uniform spindle cells and less pleomorphism. Melanoma would show more significant nuclear atypia, mitotic activity, and potentially necrosis.",
+      "rationale": "High-power at right edge area that looked more epithelioid/pleomorphic at 10x; check mitoses/atypia/necrosis."
+    },
+    {
+      "roi_id": "slide_A_x6144_y14336_mag20",
+      "tile_id": "slide_A_x6144_y14336_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 6144,
+      "y": 14336,
+      "level0": {
+        "x": 6144,
+        "y": 14336,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a transition from a cellular area with spindle cells and pigment to a less cellular area with dense collagen and scattered pigment. The cellular area contains spindle cells with elongated nuclei and abundant brown pigment.\n\nThe most likely diagnosis is a cellular blue nevus. The differential diagnosis includes a common blue nevus, which is typically less cellular and lacks the prominent spindle cell component.",
+      "rationale": "Left-inferior edge near subcutis/capsule to look for lymphoid aggregates/cuffing and hemosiderin-laden macrophages"
+    },
+    {
+      "roi_id": "slide_A_x15360_y11264_mag10",
+      "tile_id": "slide_A_x15360_y11264_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 15360,
+      "y": 11264,
+      "level0": {
+        "x": 15360,
+        "y": 11264,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with scattered melanin pigment and areas of stromal hyalinization. The cells have elongated nuclei with mild pleomorphism.\n\nThe most likely diagnosis is a cellular blue nevus.\n\nDifferential diagnoses include:\n- Cellular blue nevus: characterized by spindle cells, melanin pigment, and fascicular/whorled architecture.\n- Spindle cell melanoma: would show more significant nuclear atypia, mitotic activity, and potentially necrosis.\n- Dermatofibroma: typically lacks melanin pigment and has a storiform pattern.",
+      "rationale": "Same central area at 10x to better assess pattern (biphasic cellular blue nevus pattern) and stromal change."
+    },
+    {
+      "roi_id": "slide_A_x6144_y13312_mag20",
+      "tile_id": "slide_A_x6144_y13312_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 6144,
+      "y": 13312,
+      "level0": {
+        "x": 6144,
+        "y": 13312,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles with abundant intracellular and extracellular melanin pigment. The cells have elongated nuclei with mild pleomorphism and visible nucleoli.\n\nThe most likely diagnosis is a cellular blue nevus.\n\nDifferential diagnoses include melanoma, which would typically show more significant nuclear atypia, mitotic activity, and potentially necrosis. A common blue nevus would be less cellular and more heavily pigmented.",
+      "rationale": "High-power in area with lymphocytic infiltrate; assess tumor cytology and any regression/necrosis."
+    },
+    {
+      "roi_id": "slide_A_x14848_y6144_mag20",
+      "tile_id": "slide_A_x14848_y6144_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 14848,
+      "y": 6144,
+      "level0": {
+        "x": 14848,
+        "y": 6144,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles with abundant intracellular and extracellular brown-black pigment. The cells have elongated nuclei with mild pleomorphism.\n\nThe most likely diagnosis is a pigmented spindle cell nevus.\n\nDifferential diagnoses include cellular blue nevus and pigmented spindle cell melanoma. Cellular blue nevus typically shows more prominent dendritic cells and less cellular atypia. Pigmented spindle cell melanoma would show more significant nuclear atypia, mitotic activity, and potentially necrosis.",
+      "rationale": "Superficial dermis near epidermis to check for inflammation/lymphoid cuff and vascular proliferation"
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag2",
+      "tile_id": "slide_A_x8192_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with abundant melanin pigment and areas of myxoid change. The lesion is well-circumscribed and extends into the subcutaneous tissue.\n\nThe most likely diagnosis is a cellular blue nevus.\n\nDifferential diagnoses include:\n- Cellular blue nevus: characterized by spindle cells, abundant melanin, and myxoid change.\n- Spindle cell melanoma: would show more significant cytologic atypia, mitotic activity, and potentially necrosis.\n- Dermatofibroma: typically lacks the abundant melanin and myxoid change seen here.",
+      "rationale": "Mid-left region to look for any infiltrative tongues/satellites and relationship to adnexa."
+    },
+    {
+      "roi_id": "slide_A_x15360_y6144_mag20",
+      "tile_id": "slide_A_x15360_y6144_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 15360,
+      "y": 6144,
+      "level0": {
+        "x": 15360,
+        "y": 6144,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles with abundant intracellular and extracellular brown-black pigment. The cells have elongated nuclei with mild pleomorphism.\n\nThe most likely diagnosis is a pigmented spindle cell nevus.\n\nDifferential diagnoses include pigmented spindle cell melanoma, which would typically show more significant nuclear atypia, mitotic activity, and potentially necrosis. A cellular blue nevus could also be considered, but the cellular morphology and fascicular pattern are more characteristic of a pigmented spindle cell nevus.",
+      "rationale": "High-power superficial region near epidermis to look for junctional component/pagetoid spread."
+    },
+    {
+      "roi_id": "slide_A_x20480_y12288_mag2",
+      "tile_id": "slide_A_x20480_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 20480,
+      "y": 12288,
+      "level0": {
+        "x": 20480,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a dense proliferation of spindle cells with abundant melanin pigment, arranged in fascicles and sheets. There are also areas of stromal hyalinization and myxoid change.\n\nThe most likely diagnosis is a pigmented spindle cell nevus. Differential diagnoses include cellular blue nevus and pigmented spindle cell melanoma.",
+      "rationale": "Mid-right region to compare cellularity/pigment and check for vascular/cystic spaces."
+    },
+    {
+      "roi_id": "slide_A_x15360_y19456_mag20",
+      "tile_id": "slide_A_x15360_y19456_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 15360,
+      "y": 19456,
+      "level0": {
+        "x": 15360,
+        "y": 19456,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a fibrous capsule with dense collagen bundles, scattered spindle cells, and numerous blood vessels. There is also a focus of increased cellularity with cells containing brown pigment.\n\nThe most likely diagnosis is a lymphangioma, specifically a lymphangioma circumscriptum, given the clinical presentation of a long-standing, dome-shaped lesion on the foot.\n\nDifferential diagnoses include a hemangioma, which would show more prominent vascular channels, and a melanocytic lesion, which would have more uniform melanocytes and potentially melanin pigment.",
+      "rationale": "High-power deep portion to evaluate border, vascular invasion, necrosis."
+    },
+    {
+      "roi_id": "slide_A_x16384_y14336_mag5",
+      "tile_id": "slide_A_x16384_y14336_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 16384,
+      "y": 14336,
+      "level0": {
+        "x": 16384,
+        "y": 14336,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with scattered clear spaces and abundant brown-black pigment. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a pigmented spindle cell nevus.\n\nDifferential diagnoses include cellular blue nevus and melanoma. Cellular blue nevus typically shows more prominent dendritic melanocytes and less cellular atypia. Melanoma would show more significant nuclear atypia, mitotic activity, and potentially necrosis.",
+      "rationale": "Sample additional inferior-central pale zone not yet assessed at 20x for hemorrhage/blood lakes"
+    },
+    {
+      "roi_id": "slide_A_x14336_y18432_mag10",
+      "tile_id": "slide_A_x14336_y18432_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 14336,
+      "y": 18432,
+      "level0": {
+        "x": 14336,
+        "y": 18432,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle and epithelioid cells with abundant melanin pigment, arranged in nests and fascicles, with associated stromal fibrosis and inflammation.\n\nThe most likely diagnosis is a cellular blue nevus.\n\nDifferential diagnoses include melanoma, which would typically show more significant cytologic atypia, mitotic activity, and potentially necrosis, and a common blue nevus, which is usually less cellular and lacks the prominent epithelioid component.",
+      "rationale": "Near inferior edge where capsule meets subcutis—look for peripheral lymphoid cuff/hemosiderin"
+    },
+    {
+      "roi_id": "slide_A_x24576_y10240_mag5",
+      "tile_id": "slide_A_x24576_y10240_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 24576,
+      "y": 10240,
+      "level0": {
+        "x": 24576,
+        "y": 10240,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with abundant melanin pigment and areas of stromal hyalinization. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a cellular blue nevus.\n\nDifferential diagnoses include:\n- Cellular blue nevus: characterized by spindle cells, abundant melanin, and fascicular/whorled growth pattern.\n- Spindle cell melanoma: would show more significant nuclear atypia, mitotic activity, and potentially necrosis.\n- Pigmented schwannoma: would typically show Verocay bodies and S100 positivity.",
+      "rationale": "Area near right-superior where prior 2.5x suggested more pleomorphism; verify margin/architecture."
+    },
+    {
+      "roi_id": "slide_A_x16896_y11776_mag20",
+      "tile_id": "slide_A_x16896_y11776_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 16896,
+      "y": 11776,
+      "level0": {
+        "x": 16896,
+        "y": 11776,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with abundant brown-black pigment granules. The cells have elongated nuclei and eosinophilic cytoplasm, with some areas showing a looser, myxoid stroma.\n\nThe most likely diagnosis is a pigmented spindle cell nevus (Reed nevus).\n\nDifferential diagnoses include cellular blue nevus and pigmented spindle cell melanoma. Cellular blue nevus typically shows more prominent dendritic melanocytes and less cellular atypia. Pigmented spindle cell melanoma would exhibit significant nuclear atypia, mitotic activity, and potentially necrosis, which are not prominent features in this image.",
+      "rationale": "Target another hyperpigmented central focus to better assess mitotic activity/atypia."
+    },
+    {
+      "roi_id": "slide_A_x10240_y15360_mag10",
+      "tile_id": "slide_A_x10240_y15360_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 10240,
+      "y": 15360,
+      "level0": {
+        "x": 10240,
+        "y": 15360,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with abundant intracellular and extracellular melanin pigment. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a pigmented spindle cell nevus.\n\nDifferential diagnoses include cellular blue nevus and pigmented spindle cell melanoma. Cellular blue nevus typically shows more prominent dendritic melanocytes and less cellular atypia. Pigmented spindle cell melanoma would exhibit significant nuclear atypia, mitotic activity, and potentially necrosis.",
+      "rationale": "Left-inferior quadrant—search for chronic hemorrhage, hemosiderin, vascular spaces"
+    },
+    {
+      "roi_id": "slide_A_x25600_y10240_mag10",
+      "tile_id": "slide_A_x25600_y10240_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 25600,
+      "y": 10240,
+      "level0": {
+        "x": 25600,
+        "y": 10240,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with abundant intracellular and extracellular melanin pigment. The cells have elongated nuclei with mild pleomorphism.\n\nThe most likely diagnosis is a cellular blue nevus.\n\nDifferential diagnoses include melanoma, which would typically show more significant nuclear atypia, mitotic activity, and potentially necrosis, and a common blue nevus, which is usually less cellular and lacks the prominent fascicular growth pattern.",
+      "rationale": "Same suspicious right-superior zone at 10x for mapping (still low-power task but confirm if truly atypical focus)."
+    },
+    {
+      "roi_id": "slide_A_x23040_y11776_mag20",
+      "tile_id": "slide_A_x23040_y11776_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 23040,
+      "y": 11776,
+      "level0": {
+        "x": 23040,
+        "y": 11776,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with abundant intracellular and extracellular brown-black pigment. The cells have elongated nuclei with mild pleomorphism.\n\nThe most likely diagnosis is a pigmented spindle cell nevus.\n\nDifferential diagnoses include cellular blue nevus and pigmented spindle cell melanoma. Cellular blue nevus typically shows more prominent dendritic cells and less cellular atypia. Pigmented spindle cell melanoma would exhibit more significant nuclear atypia, mitotic activity, and potentially necrosis.",
+      "rationale": "Sample peripheral cellular zone to assess infiltrative border and cytology."
+    },
+    {
+      "roi_id": "slide_A_x17408_y9216_mag10",
+      "tile_id": "slide_A_x17408_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 17408,
+      "y": 9216,
+      "level0": {
+        "x": 17408,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with abundant intracellular and extracellular melanin pigment. The cells have elongated nuclei with mild pleomorphism.\n\nThe most likely diagnosis is a cellular blue nevus.\n\nDifferential diagnoses include:\n- Cellular blue nevus: characterized by a dense proliferation of spindle and dendritic melanocytes with abundant melanin, often arranged in fascicles and whorls.\n- Spindle cell melanoma: would typically show more significant nuclear atypia, mitotic activity, and potentially necrosis, which are not prominent features in this image.\n- Pigmented schwannoma: would show features of schwannoma (e.g., Antoni A and B areas, Verocay bodies) and would be S100 positive but negative for melanocytic markers.",
+      "rationale": "Upper central area—check for ectatic vascular channels or perivascular lymphoid aggregates"
+    },
+    {
+      "roi_id": "slide_A_x12288_y4096_mag2",
+      "tile_id": "slide_A_x12288_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 4096,
+      "level0": {
+        "x": 12288,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The lesion is a well-circumscribed dermal nodule composed of spindle cells arranged in fascicles and whorls, with abundant melanin pigment. The overlying epidermis shows acanthosis and hyperkeratosis.\n\nThe most likely diagnosis is a pigmented spindle cell nevus (Reed nevus).\n\nDifferential diagnoses include cellular blue nevus and melanoma. Cellular blue nevus typically shows more prominent dendritic melanocytes and less epidermal involvement. Melanoma would show cytologic atypia, mitotic activity, and potentially necrosis, which are not evident in this image.",
+      "rationale": "Scan for lobulation/biphasic pattern across midline."
+    },
+    {
+      "roi_id": "slide_A_x10752_y11776_mag20",
+      "tile_id": "slide_A_x10752_y11776_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 10752,
+      "y": 11776,
+      "level0": {
+        "x": 10752,
+        "y": 11776,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls within a myxoid stroma. Abundant brown-black pigment is present within the cells and extracellularly.\n\nThe most likely diagnosis is a pigmented spindle cell nevus.\n\nDifferential diagnoses include cellular blue nevus and spindle cell melanoma. Cellular blue nevus typically shows more prominent dendritic cells and less cellular atypia. Spindle cell melanoma would exhibit significant nuclear atypia, mitotic activity, and potentially necrosis.",
+      "rationale": "Sample left-central area to confirm uniformity vs heterogeneity (spindle vs epithelioid)."
+    },
+    {
+      "roi_id": "slide_A_x15360_y14848_mag20",
+      "tile_id": "slide_A_x15360_y14848_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 15360,
+      "y": 14848,
+      "level0": {
+        "x": 15360,
+        "y": 14848,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles with abundant intracellular and extracellular dark brown pigment. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a pigmented spindle cell nevus.\n\nDifferential diagnoses include pigmented spindle cell melanoma, which would show significant nuclear atypia, increased mitotic activity, and potentially necrosis, and blue nevus, which typically has a more dendritic cell morphology and less cellularity.",
+      "rationale": "High power in pale zone to confirm whether spaces contain RBCs and have endothelial lining"
+    },
+    {
+      "roi_id": "slide_A_x12288_y16384_mag2",
+      "tile_id": "slide_A_x12288_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 16384,
+      "level0": {
+        "x": 12288,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a densely cellular lesion composed of small cells with hyperchromatic nuclei and scant cytoplasm, arranged in sheets and nests, with prominent melanin pigment. The lesion is well-circumscribed and appears to be surrounded by a fibrous capsule.\n\nThe most likely diagnosis is a cellular blue nevus. Differential diagnoses include melanoma, which would typically show more significant cytologic atypia, mitotic activity, and potentially necrosis, and a common blue nevus, which is usually less cellular and more fibrotic.",
+      "rationale": "Deep central-left to ensure no infiltrative tongues/satellites beyond capsule."
+    },
+    {
+      "roi_id": "slide_A_x15360_y17408_mag10",
+      "tile_id": "slide_A_x15360_y17408_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 15360,
+      "y": 17408,
+      "level0": {
+        "x": 15360,
+        "y": 17408,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with abundant melanin pigment. The cells have elongated nuclei and eosinophilic cytoplasm, with some areas showing a storiform pattern.\n\nThe most likely diagnosis is a cellular blue nevus. Differential diagnoses include melanoma, which would typically show more significant nuclear atypia, mitotic activity, and potentially necrosis, and a common blue nevus, which is usually less cellular and lacks the prominent fascicular and storiform growth patterns seen here.",
+      "rationale": "Peripheral inferior zone (less sampled) to look specifically for lymphoid cuffing/plasma cells and hemosiderin suggesting AFH"
+    },
+    {
+      "roi_id": "slide_A_x14848_y17408_mag20",
+      "tile_id": "slide_A_x14848_y17408_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 14848,
+      "y": 17408,
+      "level0": {
+        "x": 14848,
+        "y": 17408,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls within a myxoid stroma. Abundant brown-black pigment is present within the cytoplasm of many cells.\n\nThe most likely diagnosis is a pigmented spindle cell nevus.\n\nDifferential diagnoses include cellular blue nevus and spindle cell melanoma. Cellular blue nevus typically shows more prominent dendritic cells and less cellular atypia. Spindle cell melanoma would exhibit significant nuclear atypia, mitotic activity, and often necrosis, which are not prominent features in this image.",
+      "rationale": "High power at same peripheral zone to confirm presence/absence of lymphoid aggregates, siderophages, hemorrhage"
+    },
+    {
+      "roi_id": "slide_A_x22528_y17408_mag10",
+      "tile_id": "slide_A_x22528_y17408_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 22528,
+      "y": 17408,
+      "level0": {
+        "x": 22528,
+        "y": 17408,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and nests, with abundant intracellular and extracellular melanin pigment. The cells have elongated nuclei and eosinophilic cytoplasm, with some nuclear pleomorphism.\n\nThe most likely diagnosis is a pigmented spindle cell nevus (Reed nevus).\n\nDifferential diagnoses include cellular blue nevus and melanoma. Cellular blue nevus typically shows more uniform spindle cells and less pleomorphism. Melanoma would show more significant nuclear atypia, mitotic activity, and potentially necrosis.",
+      "rationale": "Right-inferior periphery near possible capsule to search for lymphoid cuff and hemorrhage"
+    },
+    {
+      "roi_id": "slide_A_x23040_y17920_mag20",
+      "tile_id": "slide_A_x23040_y17920_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 23040,
+      "y": 17920,
+      "level0": {
+        "x": 23040,
+        "y": 17920,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with abundant intracellular and extracellular melanin pigment. The cells are arranged in fascicles and nests within a fibrous stroma, with prominent blood vessels.\n\nThe most likely diagnosis is a cellular blue nevus. Differential diagnoses include pigmented spindle cell nevus and melanoma, which can be distinguished by the lack of significant cytologic atypia and mitotic activity in this case.",
+      "rationale": "High power right-inferior periphery to evaluate inflammatory infiltrate/hemorrhage/vascular channels"
+    }
+  ]
+}

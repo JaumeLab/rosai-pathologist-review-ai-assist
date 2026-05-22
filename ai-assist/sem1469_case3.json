@@ -1,0 +1,1502 @@
+{
+  "case_id": "sem1469_case3",
+  "source": "slideseek-ai-assist",
+  "model": "gpt-5.4",
+  "generated_at": "2026-05-22T09:27:54.536588+00:00",
+  "organ": "Gynecologic",
+  "primary_dx": "Gestational Choriocarcinoma Arising In Association With Tubal Ectopic Pregnancy",
+  "differential_dx": [
+    "Invasive Mole Involving Fallopian Tube",
+    "Placental Site Trophoblastic Tumor / Epithelioid Trophoblastic Tumor"
+  ],
+  "microscopic_findings": [
+    {
+      "text": "Tumor shows a **biphasic trophoblastic population** of pleomorphic mononuclear cells admixed with **multinucleated…",
+      "roi_ids": [
+        "slide_A_x25088_y7680_mag20",
+        "slide_A_x26624_y12288_mag20"
+      ]
+    },
+    {
+      "text": "Neoplastic cells form irregular **nests and cords** with **pseudo-vascular/anastomosing spaces** containing red blood cells.",
+      "roi_ids": [
+        "slide_A_x25600_y8704_mag20",
+        "slide_A_x29184_y7680_mag20"
+      ]
+    },
+    {
+      "text": "There is marked **hemorrhage** and **geographic necrosis** intimately surrounding and permeating viable malignant trophoblastic foci.",
+      "roi_ids": [
+        "slide_A_x30720_y8704_mag20",
+        "slide_A_x33792_y10752_mag20"
+      ]
+    },
+    {
+      "text": "Separate clot contains **chorionic villi/products of conception**, but **no villi are identified within tumor-bearing areas**.",
+      "roi_ids": [
+        "slide_A_x3072_y18432_mag10",
+        "slide_A_x24576_y8192_mag20"
+      ]
+    }
+  ],
+  "interpretation": "The findings support **gestational choriocarcinoma** arising in a tubal ectopic pregnancy, based on **biphasic cytotrophoblast/syncytiotrophoblast morphology** within a profoundly **hemorrhagic and necrotic** background. The absence of **chorionic villi in tumor-bearing areas** argues strongly against invasive mole. The tumor also lacks the monomorphic intermediate trophoblastic growth expected for **PSTT/ETT**, favoring classic choriocarcinoma.",
+  "num_rois": 91,
+  "tiles": [
+    {
+      "roi_id": "slide_A_x8192_y12288_mag2",
+      "tile_id": "slide_A_x8192_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 8192,
+      "y": 12288,
+      "level0": {
+        "x": 8192,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a dilated fallopian tube with a thickened wall, extensive hemorrhage, and areas of necrosis. The lumen contains clotted blood and tissue suggestive of placental components.\n\nThe most likely diagnosis is a tubal pregnancy with rupture.\n\nDifferential diagnoses include ectopic pregnancy in other locations (e.g., ovary, cervix) and other causes of tubal hemorrhage and necrosis, such as infection or torsion.",
+      "rationale": "Left bulbous area in thumbnail: likely tubal wall with dark nodule/hematoma; scout for viable trophoblast."
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag1",
+      "tile_id": "slide_A_x8192_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a dilated fallopian tube with a thickened wall, extensive hemorrhage, and areas of necrosis. The lumen contains clotted blood and material suggestive of placental tissue.\n\nThe most likely diagnosis is a tubal pregnancy with associated hemorrhage and necrosis.\n\nDifferential diagnoses include ectopic pregnancy in other locations (e.g., ovary, cervix) and other causes of tubal hemorrhage and necrosis, such as infection or torsion.",
+      "rationale": "Left side of tissue: likely dilated tube cross-section; map wall vs lumen contents."
+    },
+    {
+      "roi_id": "slide_A_x16384_y8192_mag1",
+      "tile_id": "slide_A_x16384_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 16384,
+      "y": 8192,
+      "level0": {
+        "x": 16384,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a dilated fallopian tube with a thickened wall, extensive hemorrhage, and a lumen containing clotted blood and tissue suggestive of placental tissue. There is also a large, cellular mass with a papillary architecture and associated hemorrhage.\n\nThe most likely diagnosis is a tubal pregnancy with associated hemorrhage and a separate neoplastic process.\n\nDifferential diagnoses include:\n- Tubal pregnancy with extensive hemorrhage and infarction, potentially mimicking a neoplastic process.\n- A primary tubal neoplasm (e.g., adenocarcinoma) with secondary hemorrhage and infarction.",
+      "rationale": "Mid region near constriction/transition; assess for perforation/hemorrhage and any solid lesion."
+    },
+    {
+      "roi_id": "slide_A_x24576_y8192_mag2",
+      "tile_id": "slide_A_x24576_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 24576,
+      "y": 8192,
+      "level0": {
+        "x": 24576,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a transition from a hemorrhagic and necrotic area to a cellular proliferation arranged in nests and cords with prominent vascularity and hemorrhage. The cells have moderate eosinophilic cytoplasm and round to oval nuclei.\n\nThe most likely diagnosis is choriocarcinoma.\n\nDifferential diagnoses include other gestational trophoblastic diseases such as invasive mole or placental site trophoblastic tumor, which typically show different architectural patterns and cellular morphology.",
+      "rationale": "Central narrow isthmus with dark focus; possible implantation site."
+    },
+    {
+      "roi_id": "slide_A_x8192_y16384_mag2",
+      "tile_id": "slide_A_x8192_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 8192,
+      "y": 16384,
+      "level0": {
+        "x": 8192,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a transition from a cellular area with hemorrhage and necrosis to a dense fibrous stroma with inflammation. The cellular component exhibits irregular glandular and papillary structures.\n\nThe most likely diagnosis is a malignant germ cell tumor, specifically a yolk sac tumor.\n\nDifferential diagnoses include other germ cell tumors such as embryonal carcinoma or choriocarcinoma, which can also present with hemorrhage and necrosis but typically have different architectural patterns and cellular morphology.",
+      "rationale": "Left lobulated area in thumbnail—possible implant or clotted blood; assess composition"
+    },
+    {
+      "roi_id": "slide_A_x32768_y8192_mag2",
+      "tile_id": "slide_A_x32768_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 32768,
+      "y": 8192,
+      "level0": {
+        "x": 32768,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows extensive hemorrhage and necrosis with scattered viable cells, including some with clear cytoplasm, and a large vessel with a thickened wall. The most likely diagnosis is choriocarcinoma. Differential diagnoses include other gestational trophoblastic diseases like invasive mole or placental site trophoblastic tumor, which typically show different cellular patterns and lack the extensive hemorrhage and necrosis seen here.",
+      "rationale": "Right broad hemorrhagic area with dark nodule in thumbnail; search for tumor-like trophoblast."
+    },
+    {
+      "roi_id": "slide_A_x8192_y16384_mag1",
+      "tile_id": "slide_A_x8192_y16384_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 8192,
+      "y": 16384,
+      "level0": {
+        "x": 8192,
+        "y": 16384,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a dilated fallopian tube with a thickened wall, extensive hemorrhage, and a large mass of cellular tissue with complex architecture and necrosis. The surrounding omentum is also hemorrhagic.\n\nThe most likely diagnosis is a tubal pregnancy with associated hemorrhage and necrosis.\n\nDifferential diagnoses include ectopic pregnancy in other locations (e.g., ovary, cervix) and other causes of hemorrhage in the adnexa, such as a ruptured ovarian cyst or hemorrhagic neoplasm.",
+      "rationale": "Low-power view of left side nodular area in thumbnail"
+    },
+    {
+      "roi_id": "slide_A_x32768_y8192_mag1",
+      "tile_id": "slide_A_x32768_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 32768,
+      "y": 8192,
+      "level0": {
+        "x": 32768,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a transition from viable tissue with glandular structures and hemorrhage to extensive necrosis and hemorrhage. The viable tissue exhibits glandular and papillary patterns with cellular crowding and nuclear hyperchromasia.\n\nThe most likely diagnosis is a malignant germ cell tumor, specifically a yolk sac tumor.\n\nDifferential diagnoses include other germ cell tumors such as dysgerminoma or embryonal carcinoma, which can also present with hemorrhage and necrosis but typically have different cellular morphology and architectural patterns.",
+      "rationale": "Low-power view of right side hemorrhagic area in thumbnail"
+    },
+    {
+      "roi_id": "slide_A_x28672_y16384_mag2",
+      "tile_id": "slide_A_x28672_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 28672,
+      "y": 16384,
+      "level0": {
+        "x": 28672,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows extensive hemorrhage and necrosis with scattered cellular debris and inflammatory cells. There are also areas of dense, hyalinized fibrous tissue.\n\nThe most likely diagnosis is a tubal pregnancy with associated hemorrhage and necrosis. The presence of extensive hemorrhage and necrosis is consistent with a ruptured or non-ruptured tubal pregnancy. The fibrous tissue may represent a reactive process or scarring from previous interventions.\n\nDifferential diagnoses to consider include other causes of hemorrhage and necrosis in the fallopian tube, such as ectopic pregnancy in other locations (e.g., ovarian, cervical), or other inflammatory or neoplastic processes. However, the clinical history strongly supports a tubal pregnancy.",
+      "rationale": "Inferior right hemorrhagic region; look for additional cellular nodules/necrosis."
+    },
+    {
+      "roi_id": "slide_A_x24576_y12288_mag2",
+      "tile_id": "slide_A_x24576_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 24576,
+      "y": 12288,
+      "level0": {
+        "x": 24576,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a transition from a cellular proliferation with irregular spaces and hemorrhage to extensive necrosis and hemorrhage. The cellular component is composed of cells with pleomorphic nuclei and eosinophilic cytoplasm, arranged in nests and cords.\n\nThe most likely diagnosis is choriocarcinoma. This diagnosis is supported by the presence of a highly cellular proliferation with irregular spaces and hemorrhage, composed of pleomorphic cells with eosinophilic cytoplasm, arranged in nests and cords, and associated with extensive necrosis and hemorrhage. The clinical history of a tubal pregnancy and subsequent development of metastatic disease is also consistent with this diagnosis.\n\nDifferential diagnoses to consider include other gestational trophoblastic diseases such as invasive mole or placental site trophoblastic tumor, as well as non-gestational trophoblastic tumors or other high-grade carcinomas. However, the combination of the characteristic morphology and the clinical history strongly favors choriocarcinoma.",
+      "rationale": "Right broad hemorrhagic area—look for nodularity or tumor interface"
+    },
+    {
+      "roi_id": "slide_A_x4096_y16384_mag2",
+      "tile_id": "slide_A_x4096_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 4096,
+      "y": 16384,
+      "level0": {
+        "x": 4096,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a dilated fallopian tube with a thickened wall, extensive hemorrhage, and luminal contents including clotted blood and tissue suggestive of placental tissue. The surrounding omentum also exhibits hemorrhage.\n\nThe most likely diagnosis is a tubal pregnancy with associated hemorrhage and omental involvement.\n\nDifferential diagnoses include ectopic pregnancy in other locations (e.g., ovary, cervix) and other causes of hemorrhage in the adnexa, such as a ruptured ovarian cyst or hemorrhagic corpus luteum.",
+      "rationale": "Further characterize left dilated tubular structure: look for villi vs solid trophoblast in lumen."
+    },
+    {
+      "roi_id": "slide_A_x20480_y12288_mag5",
+      "tile_id": "slide_A_x20480_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 20480,
+      "y": 12288,
+      "level0": {
+        "x": 20480,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a transition from a cellular area with hemorrhage and necrosis to a less cellular area with fibrosis and inflammation. The cellular area contains large cells with abundant eosinophilic cytoplasm and vesicular nuclei, some with prominent nucleoli, along with hemorrhage and necrosis.\n\nThe most likely diagnosis is a gestational trophoblastic neoplasm, such as choriocarcinoma, given the presence of large cells with features suggestive of trophoblasts, extensive hemorrhage, and necrosis.\n\nDifferential diagnoses include other gestational trophoblastic diseases like invasive mole or placental site trophoblastic tumor, which can also show trophoblastic cells and hemorrhage, but typically have different architectural patterns and cellular morphology.",
+      "rationale": "Central bridging area with darker focus—possible residual tissue/trophoblast"
+    },
+    {
+      "roi_id": "slide_A_x16384_y12288_mag2",
+      "tile_id": "slide_A_x16384_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 16384,
+      "y": 12288,
+      "level0": {
+        "x": 16384,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a dilated fallopian tube with a thickened wall, extensive hemorrhage, and a large intraluminal mass composed of cellular tissue with a papillary and glandular pattern. The surrounding omentum is also hemorrhagic.\n\nThe most likely diagnosis is an ectopic pregnancy within the fallopian tube.\n\nDifferential diagnoses include a tubal neoplasm (e.g., adenocarcinoma) or a tubal ectopic pregnancy with significant hemorrhage and necrosis.",
+      "rationale": "Sample central dark cellular/papillary area mentioned on low power; assess architecture and relation to hemorrhage."
+    },
+    {
+      "roi_id": "slide_A_x8192_y14336_mag5",
+      "tile_id": "slide_A_x8192_y14336_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 8192,
+      "y": 14336,
+      "level0": {
+        "x": 8192,
+        "y": 14336,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with prominent hemorrhage and scattered inflammatory cells. The spindle cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a tubal pregnancy with associated hemorrhage and reactive changes. The spindle cell proliferation is consistent with reactive stromal changes and granulation tissue in response to the hemorrhage and implantation site.\n\nDifferential diagnoses include a leiomyoma with degenerative changes or a low-grade spindle cell sarcoma. However, the presence of extensive hemorrhage and the clinical context of a tubal pregnancy strongly favor a reactive process.",
+      "rationale": "Evaluate left nodular intraluminal area for chorionic villi outlines vs tumor"
+    },
+    {
+      "roi_id": "slide_A_x24576_y8192_mag10",
+      "tile_id": "slide_A_x24576_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 24576,
+      "y": 8192,
+      "level0": {
+        "x": 24576,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation with irregular spaces and hemorrhage, composed of pleomorphic cells with hyperchromatic nuclei and prominent nucleoli, arranged in nests and cords. There is also a dense inflammatory infiltrate and areas of necrosis.\n\nThe most likely diagnosis is choriocarcinoma. This diagnosis is supported by the presence of a biphasic population of cytotrophoblasts and syncytiotrophoblasts, the extensive hemorrhage, and the irregular vascular spaces. The clinical history of a tubal pregnancy and subsequent metastatic disease is also consistent with this diagnosis.\n\nDifferential diagnoses include other gestational trophoblastic diseases such as invasive mole or placental site trophoblastic tumor, which typically show different architectural patterns and cellular morphology.",
+      "rationale": "Dark cellular proliferation at 2.5x—evaluate architecture, villi, biphasic trophoblast, invasion."
+    },
+    {
+      "roi_id": "slide_A_x12288_y15360_mag10",
+      "tile_id": "slide_A_x12288_y15360_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 12288,
+      "y": 15360,
+      "level0": {
+        "x": 12288,
+        "y": 15360,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a biphasic cellular proliferation with irregular glandular and papillary structures, and solid nests of pleomorphic cells, set within a background of extensive hemorrhage and necrosis.",
+      "rationale": "Assess interface of tubal wall and intraluminal tissue for invading villi/trophoblast"
+    },
+    {
+      "roi_id": "slide_A_x28672_y8192_mag2",
+      "tile_id": "slide_A_x28672_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 28672,
+      "y": 8192,
+      "level0": {
+        "x": 28672,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular proliferation with irregular glandular and papillary patterns, extensive hemorrhage, and necrosis. The cells are pleomorphic with hyperchromatic nuclei and scant cytoplasm.\n\nThe most likely diagnosis is choriocarcinoma.\n\nDifferential diagnoses include other gestational trophoblastic diseases such as invasive mole or placental site trophoblastic tumor, which typically show different architectural patterns and cellular morphology.",
+      "rationale": "Right-side dark nodule within hemorrhagic tissue; assess whether tumor nodule vs infarcted tissue."
+    },
+    {
+      "roi_id": "slide_A_x32768_y8192_mag10",
+      "tile_id": "slide_A_x32768_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 32768,
+      "y": 8192,
+      "level0": {
+        "x": 32768,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows extensive hemorrhage and necrosis with scattered large, pleomorphic cells exhibiting irregular nuclei and prominent nucleoli, consistent with trophoblastic cells.",
+      "rationale": "Hemorrhagic/necrotic field with scattered viable cells—look for choriocarcinoma pattern and vascular invasion."
+    },
+    {
+      "roi_id": "slide_A_x28672_y10240_mag5",
+      "tile_id": "slide_A_x28672_y10240_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 28672,
+      "y": 10240,
+      "level0": {
+        "x": 28672,
+        "y": 10240,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation with irregular glandular and papillary structures, solid nests, and cords, along with prominent hemorrhage and necrosis. The cells exhibit nuclear pleomorphism and hyperchromasia.\n\nThe most likely diagnosis is choriocarcinoma.\n\nDifferential diagnoses include other gestational trophoblastic diseases such as invasive mole or placental site trophoblastic tumor, which typically show different architectural patterns and cellular morphology.",
+      "rationale": "Evaluate right cellular/papillary appearing area for trophoblastic proliferation vs other neoplasm"
+    },
+    {
+      "roi_id": "slide_A_x8192_y12288_mag10",
+      "tile_id": "slide_A_x8192_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 8192,
+      "y": 12288,
+      "level0": {
+        "x": 8192,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with prominent hemorrhage and scattered inflammatory cells. The spindle cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a reactive process such as granulation tissue or organizing hematoma.\n\nDifferential diagnoses include leiomyoma, which typically shows more uniform spindle cells with blunt-ended nuclei and less prominent hemorrhage, and leiomyosarcoma, which would exhibit significant nuclear atypia, increased mitotic activity, and necrosis.",
+      "rationale": "Left dilated tube wall/lumen—search for chorionic villi vs tumor and implantation site."
+    },
+    {
+      "roi_id": "slide_A_x32768_y12288_mag2",
+      "tile_id": "slide_A_x32768_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 32768,
+      "y": 12288,
+      "level0": {
+        "x": 32768,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows extensive hemorrhage and necrosis with scattered cellular elements. There are also areas of dense fibrosis and hyalinization.\n\nThe most likely diagnosis is a gestational trophoblastic disease, such as choriocarcinoma, given the extensive hemorrhage, necrosis, and cellular elements in the context of a gynecologic specimen from a patient with a history of tubal pregnancy and subsequent metastatic disease.\n\nDifferential diagnoses include other gestational trophoblastic diseases like invasive mole or placental site trophoblastic tumor, which can also present with hemorrhage and necrosis. However, the presence of significant necrosis and the clinical history of metastatic disease are more suggestive of choriocarcinoma.",
+      "rationale": "Right-side pale/hemorrhagic field to determine if omentum/fat with hemorrhage; look for implants."
+    },
+    {
+      "roi_id": "slide_A_x28672_y9216_mag10",
+      "tile_id": "slide_A_x28672_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 28672,
+      "y": 9216,
+      "level0": {
+        "x": 28672,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation with irregular glandular and papillary structures, solid nests, and cords. The cells have moderate eosinophilic cytoplasm and pleomorphic nuclei with prominent nucleoli. There is also prominent hemorrhage and necrosis.\n\nThe most likely diagnosis is choriocarcinoma. This diagnosis is supported by the presence of a biphasic population of cytotrophoblasts and syncytiotrophoblasts, although the latter may be less apparent in this field. The extensive hemorrhage and necrosis are also characteristic features.\n\nDifferential diagnoses include other gestational trophoblastic diseases such as invasive mole or placental site trophoblastic tumor, as well as non-gestational trophoblastic tumors. However, the marked pleomorphism, high mitotic activity, and lack of villi in this field are more consistent with choriocarcinoma.",
+      "rationale": "Sample cellular hemorrhagic focus on right for architecture; assess for biphasic trophoblast and absence of villi"
+    },
+    {
+      "roi_id": "slide_A_x28672_y16384_mag10",
+      "tile_id": "slide_A_x28672_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 28672,
+      "y": 16384,
+      "level0": {
+        "x": 28672,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows extensive hemorrhage and necrosis with scattered cellular debris and inflammatory cells. There are also areas of dense, hyalinized fibrous tissue.\n\nThe most likely diagnosis is a hemorrhagic and necrotic process, likely related to a tubal pregnancy given the clinical context. Differential diagnoses include other causes of hemorrhage and necrosis in the adnexa, such as a ruptured ovarian cyst or a necrotic adnexal mass.",
+      "rationale": "Inferior right hemorrhagic/fibrotic area—check for additional viable trophoblast nodules."
+    },
+    {
+      "roi_id": "slide_A_x32768_y11264_mag10",
+      "tile_id": "slide_A_x32768_y11264_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 32768,
+      "y": 11264,
+      "level0": {
+        "x": 32768,
+        "y": 11264,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows extensive hemorrhage and necrosis with scattered inflammatory cells and cellular debris. There is also a large, irregular structure with a thickened, hyalinized wall.\n\nThe most likely diagnosis is a tubal pregnancy with associated hemorrhage and necrosis. The large structure with a thickened, hyalinized wall is consistent with a dilated fallopian tube wall.\n\nDifferential diagnoses include other causes of hemorrhage and necrosis in the adnexa, such as a ruptured ovarian cyst or a hemorrhagic adnexal mass. However, the presence of the thickened, hyalinized wall strongly favors a tubal origin.",
+      "rationale": "Higher power of right lesion to look for biphasic cyto/syncytiotrophoblast and absence/presence of villi"
+    },
+    {
+      "roi_id": "slide_A_x26624_y12288_mag10",
+      "tile_id": "slide_A_x26624_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 26624,
+      "y": 12288,
+      "level0": {
+        "x": 26624,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a biphasic cellular population with large multinucleated cells and smaller mononuclear cells, associated with extensive hemorrhage and necrosis.",
+      "rationale": "Interface of cellular focus with hemorrhage/necrosis to look for implantation in adipose/omentum"
+    },
+    {
+      "roi_id": "slide_A_x9216_y15360_mag10",
+      "tile_id": "slide_A_x9216_y15360_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 9216,
+      "y": 15360,
+      "level0": {
+        "x": 9216,
+        "y": 15360,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular stroma with spindle cells, numerous dilated and congested blood vessels, and areas of hemorrhage. Scattered multinucleated giant cells are also present.\n\nThe most likely diagnosis is an ectopic pregnancy with associated hemorrhage and reactive changes.\n\nDifferential diagnoses include a hemorrhagic ovarian cyst or a hemorrhagic neoplasm. The presence of placental tissue would be a key feature to confirm ectopic pregnancy.",
+      "rationale": "Left nodular cellular area to exclude placental villi vs tumor vs organizing clot"
+    },
+    {
+      "roi_id": "slide_A_x25088_y7680_mag20",
+      "tile_id": "slide_A_x25088_y7680_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 25088,
+      "y": 7680,
+      "level0": {
+        "x": 25088,
+        "y": 7680,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a biphasic cellular population with large multinucleated cells and smaller mononuclear cells, along with prominent hemorrhage and necrosis.",
+      "rationale": "High-power of main cellular nodule to confirm biphasic cyto/syncytiotrophoblast, atypia, mitoses; exclude villi."
+    },
+    {
+      "roi_id": "slide_A_x22528_y14336_mag5",
+      "tile_id": "slide_A_x22528_y14336_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 22528,
+      "y": 14336,
+      "level0": {
+        "x": 22528,
+        "y": 14336,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a transition from dense fibrous tissue to a cellular proliferation with extensive hemorrhage and necrosis. The cellular component consists of pleomorphic cells with irregular nuclei and prominent nucleoli, arranged in nests and cords, with areas of necrosis and hemorrhage.\n\nThe most likely diagnosis is choriocarcinoma. This diagnosis is supported by the presence of a highly cellular, pleomorphic malignant neoplasm with extensive hemorrhage and necrosis, which is characteristic of this tumor type. The clinical history of a tubal pregnancy and subsequent development of metastatic disease is also consistent with choriocarcinoma.\n\nDifferential diagnoses to consider include other gestational trophoblastic diseases such as invasive mole or placental site trophoblastic tumor, as well as non-gestational malignancies like poorly differentiated carcinoma or sarcoma. However, the combination of the morphologic features and the clinical history strongly favors choriocarcinoma.",
+      "rationale": "Sample central hemorrhagic zone for villi fragments and trophoblast"
+    },
+    {
+      "roi_id": "slide_A_x20992_y12288_mag20",
+      "tile_id": "slide_A_x20992_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20992,
+      "y": 12288,
+      "level0": {
+        "x": 20992,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows extensive hemorrhage and fibrin deposition with a mixed inflammatory infiltrate including numerous histiocytes and scattered multinucleated giant cells. There are also areas of necrosis and cellular debris.\n\nThe most likely diagnosis is a tubal pregnancy with associated hemorrhage and necrosis.\n\nDifferential diagnoses include other causes of hemorrhage and necrosis in the fallopian tube, such as ectopic pregnancy in a different location (e.g., ovary, cervix) or a ruptured ovarian cyst. However, the clinical history and gross findings strongly favor a tubal pregnancy.",
+      "rationale": "Higher power of central 5x ROI to characterize trophoblastic cytology (cyto/syncytio), mitoses, vascular invasion"
+    },
+    {
+      "roi_id": "slide_A_x28672_y8192_mag5",
+      "tile_id": "slide_A_x28672_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 28672,
+      "y": 8192,
+      "level0": {
+        "x": 28672,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords with prominent hemorrhage and necrosis. The cells have moderate eosinophilic cytoplasm and pleomorphic nuclei, with some areas showing a cribriform pattern.\n\nThe most likely diagnosis is choriocarcinoma. This diagnosis is supported by the presence of a biphasic population of cytotrophoblasts and syncytiotrophoblasts, although the latter are not clearly discernible at this magnification. The extensive hemorrhage and necrosis are also characteristic features.\n\nDifferential diagnoses include other gestational trophoblastic diseases such as invasive mole or placental site trophoblastic tumor. Invasive mole typically shows a more villous architecture, while placental site trophoblastic tumor is characterized by intermediate trophoblasts infiltrating the myometrium.",
+      "rationale": "Zoom into right-sided cellular proliferation to distinguish trophoblastic tumor vs glandular mimic; look for biphasic cyto/syncytiotrophoblast and hemorrhage/necrosis."
+    },
+    {
+      "roi_id": "slide_A_x24064_y9216_mag20",
+      "tile_id": "slide_A_x24064_y9216_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 24064,
+      "y": 9216,
+      "level0": {
+        "x": 24064,
+        "y": 9216,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a tubal lumen containing hemorrhage and necrotic debris, with a thickened wall infiltrated by a mixed inflammatory cell population. Adjacent tissue exhibits a dense inflammatory infiltrate and areas of necrosis.\n\nThe morphologic features are consistent with a tubal pregnancy complicated by hemorrhage and necrosis. The presence of placental tissue within the lumen, along with the inflammatory and necrotic changes, supports this diagnosis. Differential diagnoses could include other causes of tubal inflammation or necrosis, but the presence of placental tissue is a key distinguishing feature.",
+      "rationale": "Adjacent area of same proliferation—look for interface with hemorrhage/necrosis and vascular invasion."
+    },
+    {
+      "roi_id": "slide_A_x33280_y8192_mag20",
+      "tile_id": "slide_A_x33280_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 33280,
+      "y": 8192,
+      "level0": {
+        "x": 33280,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a biphasic cellular population of large multinucleated cells and smaller mononuclear cells within a background of extensive hemorrhage and necrosis.",
+      "rationale": "Scattered pleomorphic cells in hemorrhage—seek viable tumor, syncytiotrophoblast, ghost outlines."
+    },
+    {
+      "roi_id": "slide_A_x29696_y9728_mag20",
+      "tile_id": "slide_A_x29696_y9728_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 29696,
+      "y": 9728,
+      "level0": {
+        "x": 29696,
+        "y": 9728,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of pleomorphic cells with irregular nuclei and prominent nucleoli, arranged in nests and cords with areas of necrosis and hemorrhage. The cells have eosinophilic cytoplasm and some show spindle morphology.\n\nThe most likely diagnosis is choriocarcinoma.\n\nDifferential diagnoses include other gestational trophoblastic diseases such as invasive mole or placental site trophoblastic tumor, which typically show different architectural patterns and cellular morphology.",
+      "rationale": "High power of right lesion where choriocarcinoma suspected; assess for biphasic trophoblast and absence of villi"
+    },
+    {
+      "roi_id": "slide_A_x8192_y11776_mag20",
+      "tile_id": "slide_A_x8192_y11776_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 8192,
+      "y": 11776,
+      "level0": {
+        "x": 8192,
+        "y": 11776,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with numerous thin-walled blood vessels and areas of hemorrhage. Scattered inflammatory cells and hemosiderin pigment are also present.\n\nThe most likely diagnosis is a cellular fibroblastic/myofibroblastic proliferation, consistent with a reactive process such as granulation tissue or organizing hematoma.\n\nDifferential diagnoses include a low-grade spindle cell sarcoma, which would typically show more significant nuclear atypia and mitotic activity, and a leiomyoma, which would have more uniform spindle cells with blunt-ended nuclei and eosinophilic cytoplasm.",
+      "rationale": "Left-side spindle/reactive area—ensure not PSTT/ETT; look for implantation site intermediate trophoblast and vessel wall infiltration."
+    },
+    {
+      "roi_id": "slide_A_x16384_y12288_mag5",
+      "tile_id": "slide_A_x16384_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 16384,
+      "y": 12288,
+      "level0": {
+        "x": 16384,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation with a prominent papillary architecture and extensive hemorrhage. The cells are pleomorphic with hyperchromatic nuclei and scant cytoplasm, arranged in nests and cords.\n\nThe most likely diagnosis is choriocarcinoma. This diagnosis is supported by the presence of a highly cellular, pleomorphic proliferation with a papillary pattern and extensive hemorrhage, which are characteristic features of this tumor. The clinical history of a tubal pregnancy and subsequent metastatic disease also aligns with this diagnosis.\n\nDifferential diagnoses to consider include other gestational trophoblastic diseases such as invasive mole or placental site trophoblastic tumor. However, the marked pleomorphism, high mitotic activity, and extensive hemorrhage seen in the image are more consistent with choriocarcinoma. Immunohistochemical stains for hCG and hPL would be helpful in confirming the diagnosis and distinguishing it from other entities.",
+      "rationale": "Central intraluminal papillary/glandular-appearing area: assess whether degenerating villi/trophoblast vs tubal mucosa/neoplasm."
+    },
+    {
+      "roi_id": "slide_A_x31232_y7680_mag20",
+      "tile_id": "slide_A_x31232_y7680_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 31232,
+      "y": 7680,
+      "level0": {
+        "x": 31232,
+        "y": 7680,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows extensive hemorrhage and necrosis with scattered inflammatory cells and cellular debris. There are also areas of amorphous eosinophilic material and clear spaces.\n\nThe most likely diagnosis is a hemorrhagic and necrotic process, likely related to a tubal pregnancy given the clinical context. Differential diagnoses include other causes of hemorrhage and necrosis in the adnexa, such as a ruptured ovarian cyst or a necrotic adnexal mass.",
+      "rationale": "High-power in rightmost cellular area to confirm biphasic trophoblast and mitotic activity"
+    },
+    {
+      "roi_id": "slide_A_x22528_y14336_mag20",
+      "tile_id": "slide_A_x22528_y14336_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 22528,
+      "y": 14336,
+      "level0": {
+        "x": 22528,
+        "y": 14336,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a transition from a cellular area with pleomorphic cells and pigment to a dense fibrous stroma with inflammation and hemorrhage. The cellular component exhibits features of a high-grade neoplasm.\n\nThe most likely diagnosis is a high-grade malignant neoplasm, such as a high-grade serous carcinoma.\n\nDifferential diagnoses include other high-grade carcinomas or sarcomas, which would require further characterization with immunohistochemistry.",
+      "rationale": "High power in central lesion to search for chorionic villi fragments vs pure trophoblastic tumor"
+    },
+    {
+      "roi_id": "slide_A_x4096_y16384_mag5",
+      "tile_id": "slide_A_x4096_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 4096,
+      "y": 16384,
+      "level0": {
+        "x": 4096,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows extensive hemorrhage and fibrin deposition with scattered inflammatory cells and cellular debris. There are also areas of necrosis and tissue disruption.\n\nThe most likely diagnosis is a tubal pregnancy with associated hemorrhage and necrosis.\n\nDifferential diagnoses include ectopic pregnancy in other locations (e.g., ovary, cervix) or a hemorrhagic ovarian cyst.",
+      "rationale": "Left luminal contents suspicious for placental tissue: search for chorionic villi."
+    },
+    {
+      "roi_id": "slide_A_x34816_y7680_mag20",
+      "tile_id": "slide_A_x34816_y7680_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 34816,
+      "y": 7680,
+      "level0": {
+        "x": 34816,
+        "y": 7680,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows extensive hemorrhage and fibrin deposition with scattered large, pleomorphic cells exhibiting irregular nuclei and prominent nucleoli. These cells are often associated with vascular structures.\n\nThe most likely diagnosis is choriocarcinoma.\n\nDifferential diagnoses include other gestational trophoblastic diseases such as invasive mole or placental site trophoblastic tumor, which typically show different patterns of trophoblastic proliferation and lack the marked pleomorphism and hemorrhage seen here.",
+      "rationale": "Right upper dark nodule seen on thumbnail/map—check for additional tumor focus."
+    },
+    {
+      "roi_id": "slide_A_x12288_y15360_mag20",
+      "tile_id": "slide_A_x12288_y15360_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 12288,
+      "y": 15360,
+      "level0": {
+        "x": 12288,
+        "y": 15360,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a biphasic cellular population with pleomorphic cells forming irregular spaces and solid areas, alongside larger cells with abundant eosinophilic cytoplasm. Extensive hemorrhage and necrosis are also present.\n\nThe most likely diagnosis is choriocarcinoma.\n\nDifferential diagnoses include other gestational trophoblastic diseases such as invasive mole or placental site trophoblastic tumor, which typically show different architectural patterns and cellular morphology.",
+      "rationale": "High power of biphasic papillary/solid area to look for villi, trophoblastic hyperplasia, implantation site features"
+    },
+    {
+      "roi_id": "slide_A_x29696_y10752_mag20",
+      "tile_id": "slide_A_x29696_y10752_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 29696,
+      "y": 10752,
+      "level0": {
+        "x": 29696,
+        "y": 10752,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a biphasic cellular proliferation with pleomorphic cells arranged in nests and cords, featuring irregular nuclei and prominent nucleoli. There is also a prominent stromal component with hemorrhage and necrosis.\n\nThe most likely diagnosis is choriocarcinoma. The biphasic pattern of cytotrophoblasts and syncytiotrophoblasts, along with extensive hemorrhage and necrosis, is characteristic. Differential diagnoses include other gestational trophoblastic diseases like invasive mole, which typically shows villous structures, and non-gestational trophoblastic tumors, which lack the distinct biphasic pattern.",
+      "rationale": "High-power at tumor-hemorrhage interface to look for viable tumor nests vs only necrosis/fibrin"
+    },
+    {
+      "roi_id": "slide_A_x24576_y8192_mag20",
+      "tile_id": "slide_A_x24576_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 24576,
+      "y": 8192,
+      "level0": {
+        "x": 24576,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a biphasic cellular population with pleomorphic cells and scattered multinucleated giant cells, along with areas of hemorrhage and necrosis.",
+      "rationale": "Within main tumor nodule—look for chorionic villi (to exclude invasive mole) and confirm true biphasic malignant trophoblast."
+    },
+    {
+      "roi_id": "slide_A_x32768_y12288_mag5",
+      "tile_id": "slide_A_x32768_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 32768,
+      "y": 12288,
+      "level0": {
+        "x": 32768,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows extensive hemorrhage and necrosis with scattered cellular debris and inflammatory cells. There are also areas of dense, hyalinized fibrous tissue.\n\nThe most likely diagnosis is a tubal pregnancy with associated hemorrhage and necrosis.\n\nDifferential diagnoses include other causes of hemorrhage and necrosis in the fallopian tube, such as ectopic pregnancy in a different location (e.g., ovary, cervix) or a ruptured ovarian cyst. However, the clinical history and gross findings strongly support a tubal pregnancy.",
+      "rationale": "Right hemorrhagic/necrotic omental tissue: look for viable tumor nests/implants at periphery."
+    },
+    {
+      "roi_id": "slide_A_x25600_y14336_mag10",
+      "tile_id": "slide_A_x25600_y14336_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 25600,
+      "y": 14336,
+      "level0": {
+        "x": 25600,
+        "y": 14336,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows extensive hemorrhage and fibrin deposition with scattered inflammatory cells and cellular debris. There are also areas of necrosis and amorphous eosinophilic material.\n\nThe most likely diagnosis is a hemorrhagic and necrotic process, consistent with a tubal pregnancy.\n\nDifferential diagnoses include other causes of hemorrhage and necrosis in the adnexa, such as a ruptured ovarian cyst or a necrotic adnexal mass.",
+      "rationale": "More inferior right side—check for omental adipose and any surface implant/vascular invasion"
+    },
+    {
+      "roi_id": "slide_A_x8192_y14336_mag20",
+      "tile_id": "slide_A_x8192_y14336_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 8192,
+      "y": 14336,
+      "level0": {
+        "x": 8192,
+        "y": 14336,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells in a loose, edematous stroma with prominent hemorrhage and a mixed inflammatory infiltrate. The spindle cells have elongated nuclei and are arranged in short fascicles and haphazardly.\n\nThe most likely diagnosis is an inflammatory myofibroblastic tumor.\n\nDifferential diagnoses include:\n- Nodular fasciitis: typically more cellular, with plump myofibroblasts and a more myxoid stroma, often with a \"tissue culture\" appearance.\n- Solitary fibrous tumor: usually shows a more patternless architecture with prominent branching \"staghorn\" vessels and dense collagen.",
+      "rationale": "High power of left spindle/reactive area to ensure no villi/hydropic change overlooked"
+    },
+    {
+      "roi_id": "slide_A_x25600_y8704_mag20",
+      "tile_id": "slide_A_x25600_y8704_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 25600,
+      "y": 8704,
+      "level0": {
+        "x": 25600,
+        "y": 8704,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a biphasic cellular proliferation with irregular vascular spaces containing red blood cells. There are two distinct cell populations: large multinucleated cells and smaller mononuclear cells.\n\nThe most likely diagnosis is choriocarcinoma.\n\nDifferential diagnoses include other gestational trophoblastic diseases such as invasive mole or placental site trophoblastic tumor, which typically show different architectural patterns and cellular morphology.",
+      "rationale": "Another field in same nodule for mitotic activity/apoptosis and relationship to vessels."
+    },
+    {
+      "roi_id": "slide_A_x6144_y17408_mag10",
+      "tile_id": "slide_A_x6144_y17408_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 6144,
+      "y": 17408,
+      "level0": {
+        "x": 6144,
+        "y": 17408,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows extensive hemorrhage and fibrin deposition with scattered inflammatory cells and spindle cells. There are also congested blood vessels and areas of necrosis.\n\nThe most likely diagnosis is a hemorrhagic and necrotic process, consistent with a tubal pregnancy.\n\nDifferential diagnoses include other causes of hemorrhage and necrosis in the adnexa, such as a ruptured ovarian cyst or a hemorrhagic adnexal mass.",
+      "rationale": "Left peripheral tissue—assess for omentum/adipose, decidua, inflammation, endometriosis"
+    },
+    {
+      "roi_id": "slide_A_x11264_y14848_mag20",
+      "tile_id": "slide_A_x11264_y14848_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 11264,
+      "y": 14848,
+      "level0": {
+        "x": 11264,
+        "y": 14848,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a biphasic cellular population with large multinucleated cells and smaller mononuclear cells, along with extensive hemorrhage and necrosis.",
+      "rationale": "Left nodular focus at higher power—exclude chorionic villi vs reactive granulation/decidua"
+    },
+    {
+      "roi_id": "slide_A_x29696_y8192_mag10",
+      "tile_id": "slide_A_x29696_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 29696,
+      "y": 8192,
+      "level0": {
+        "x": 29696,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a biphasic cellular proliferation with nests and cords of cytotrophoblasts and syncytiotrophoblasts, associated with extensive hemorrhage and necrosis.",
+      "rationale": "Within right tumor nodule: better define architecture (solid vs gland-like), hemorrhage/necrosis pattern."
+    },
+    {
+      "roi_id": "slide_A_x26624_y7680_mag20",
+      "tile_id": "slide_A_x26624_y7680_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 26624,
+      "y": 7680,
+      "level0": {
+        "x": 26624,
+        "y": 7680,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows extensive hemorrhage and necrosis with scattered dark granular material. There are also nests and cords of cells with pleomorphic nuclei and eosinophilic cytoplasm, some forming irregular spaces.\n\nThe most likely diagnosis is choriocarcinoma.\n\nDifferential diagnoses include other gestational trophoblastic diseases such as invasive mole or placental site trophoblastic tumor, which typically show different cellular morphology and growth patterns.",
+      "rationale": "Edge of nodule where it abuts hemorrhage—look for infiltrative growth and vessel wall destruction."
+    },
+    {
+      "roi_id": "slide_A_x29184_y7680_mag20",
+      "tile_id": "slide_A_x29184_y7680_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 29184,
+      "y": 7680,
+      "level0": {
+        "x": 29184,
+        "y": 7680,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation with irregular spaces containing red blood cells, composed of pleomorphic cells with hyperchromatic nuclei and prominent nucleoli, arranged in nests and cords.",
+      "rationale": "High power in same nodule: look for biphasic cyto/syncytiotrophoblast, atypia/mitoses."
+    },
+    {
+      "roi_id": "slide_A_x30720_y8192_mag10",
+      "tile_id": "slide_A_x30720_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 30720,
+      "y": 8192,
+      "level0": {
+        "x": 30720,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a transition from viable tissue with nests of cells and inflammation to extensive hemorrhage and necrosis. The viable area contains large, pleomorphic cells with abundant eosinophilic cytoplasm and irregular nuclei, some multinucleated, intermixed with smaller cells.\n\nThe most likely diagnosis is choriocarcinoma.\n\nDifferential diagnoses include other gestational trophoblastic diseases such as invasive mole or placental site trophoblastic tumor, which typically show different architectural patterns and cellular morphology.",
+      "rationale": "Sample additional right-superior viable-looking tissue away from necrosis for possible villi"
+    },
+    {
+      "roi_id": "slide_A_x19456_y10240_mag10",
+      "tile_id": "slide_A_x19456_y10240_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 19456,
+      "y": 10240,
+      "level0": {
+        "x": 19456,
+        "y": 10240,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a hemorrhagic and edematous stroma with numerous dilated blood vessels and a mixed inflammatory infiltrate. Scattered large cells with abundant eosinophilic cytoplasm and vesicular nuclei are present.\n\nThe most likely diagnosis is a hemorrhagic and necrotic ectopic pregnancy.\n\nDifferential diagnoses include a hemorrhagic ovarian cyst or a hemorrhagic corpus luteum, which can also present with extensive hemorrhage and inflammation. However, the presence of scattered large cells with features suggestive of trophoblasts points towards an ectopic pregnancy.",
+      "rationale": "Unexplored darker area left of main nodule on map—search for additional tumor vs villous implantation products."
+    },
+    {
+      "roi_id": "slide_A_x17408_y11264_mag10",
+      "tile_id": "slide_A_x17408_y11264_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 17408,
+      "y": 11264,
+      "level0": {
+        "x": 17408,
+        "y": 11264,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a transition from a cellular area with hemorrhage and necrosis to a region with spindle cells and numerous blood vessels. The cellular area contains cells with pleomorphic nuclei and eosinophilic cytoplasm, some forming irregular structures.\n\nThe most likely diagnosis is a gestational trophoblastic neoplasm, such as choriocarcinoma.\n\nDifferential diagnoses include other gestational trophoblastic diseases like invasive mole or placental site trophoblastic tumor, as well as non-gestational malignancies with hemorrhage and necrosis.",
+      "rationale": "Central intraluminal lesion: assess if villi present or solid trophoblast; relationship to tube mucosa."
+    },
+    {
+      "roi_id": "slide_A_x30720_y8704_mag20",
+      "tile_id": "slide_A_x30720_y8704_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 30720,
+      "y": 8704,
+      "level0": {
+        "x": 30720,
+        "y": 8704,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a biphasic population of mononuclear and multinucleated cells with abundant eosinophilic cytoplasm and pleomorphic nuclei, associated with extensive hemorrhage and necrosis.\n\nThe most likely diagnosis is choriocarcinoma.\n\nDifferential diagnoses include other gestational trophoblastic diseases such as invasive mole or placental site trophoblastic tumor, which typically show different architectural patterns and cellular morphology.",
+      "rationale": "High power right-superior tissue to confirm trophoblastic pattern and check for villous structures"
+    },
+    {
+      "roi_id": "slide_A_x33792_y6144_mag10",
+      "tile_id": "slide_A_x33792_y6144_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 33792,
+      "y": 6144,
+      "level0": {
+        "x": 33792,
+        "y": 6144,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows extensive hemorrhage and necrosis with scattered large, pleomorphic cells exhibiting abundant eosinophilic cytoplasm and irregular nuclei, some multinucleated. These features are consistent with trophoblastic cells.\n\nThe most likely diagnosis is choriocarcinoma.\n\nDifferential diagnoses include other gestational trophoblastic diseases such as invasive mole or placental site trophoblastic tumor, which typically show different architectural patterns and cellular morphology.",
+      "rationale": "Far right tip (less sampled) to ensure no additional viable implant/tumor at edge"
+    },
+    {
+      "roi_id": "slide_A_x32768_y3584_mag20",
+      "tile_id": "slide_A_x32768_y3584_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 32768,
+      "y": 3584,
+      "level0": {
+        "x": 32768,
+        "y": 3584,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of large, pleomorphic cells with abundant eosinophilic cytoplasm and irregular nuclei, arranged in nests and cords, with associated hemorrhage and necrosis.",
+      "rationale": "High power near right serosal edge for surface implant and cytology"
+    },
+    {
+      "roi_id": "slide_A_x25600_y12288_mag10",
+      "tile_id": "slide_A_x25600_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 25600,
+      "y": 12288,
+      "level0": {
+        "x": 25600,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows irregular, anastomosing vascular channels lined by atypical cells with pleomorphic nuclei and prominent nucleoli, set within a background of extensive hemorrhage and necrosis.\n\nThe most likely diagnosis is choriocarcinoma.\n\nDifferential diagnoses include other gestational trophoblastic diseases such as invasive mole or placental site trophoblastic tumor, which typically show different architectural patterns and cellular morphology.",
+      "rationale": "Sample mid-right area near tubal lumen to search for chorionic villi fragments"
+    },
+    {
+      "roi_id": "slide_A_x16896_y11264_mag20",
+      "tile_id": "slide_A_x16896_y11264_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 16896,
+      "y": 11264,
+      "level0": {
+        "x": 16896,
+        "y": 11264,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with associated hemorrhage and scattered multinucleated giant cells. The spindle cells are arranged in fascicles and whorls.\n\nThe most likely diagnosis is a reactive process, such as a granulation tissue or organizing hematoma, secondary to a tubal pregnancy.\n\nDifferential diagnoses include a low-grade spindle cell neoplasm, such as a leiomyoma or fibroma, which would typically lack the prominent hemorrhage and multinucleated giant cells seen here.",
+      "rationale": "High power central lesion for trophoblast types vs tubal epithelium."
+    },
+    {
+      "roi_id": "slide_A_x14336_y14336_mag10",
+      "tile_id": "slide_A_x14336_y14336_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 14336,
+      "y": 14336,
+      "level0": {
+        "x": 14336,
+        "y": 14336,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a biphasic cellular proliferation with areas of hemorrhage and necrosis. The cellular component consists of nests and cords of cells with hyperchromatic nuclei and scant cytoplasm, along with scattered larger cells.\n\nThe most likely diagnosis is choriocarcinoma. This diagnosis is supported by the presence of a biphasic population of cytotrophoblasts and syncytiotrophoblasts, often associated with extensive hemorrhage and necrosis. The clinical history of a tubal pregnancy and subsequent metastatic disease is also consistent with this diagnosis.\n\nDifferential diagnoses to consider include other gestational trophoblastic diseases such as invasive mole or placental site trophoblastic tumor. However, the marked hemorrhage and necrosis, along with the distinct biphasic cellular pattern, are more characteristic of choriocarcinoma.",
+      "rationale": "Left bulge darker focus—check for villi/implantation site intermediate trophoblast (PSTT-like)."
+    },
+    {
+      "roi_id": "slide_A_x26112_y11776_mag20",
+      "tile_id": "slide_A_x26112_y11776_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 26112,
+      "y": 11776,
+      "level0": {
+        "x": 26112,
+        "y": 11776,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows irregular vascular spaces filled with red blood cells and lined by atypical cells, along with areas of hemorrhage and necrosis. The lining cells exhibit pleomorphism, hyperchromatic nuclei, and prominent nucleoli.\n\nThe most likely diagnosis is choriocarcinoma.\n\nDifferential diagnoses include other gestational trophoblastic diseases such as invasive mole or placental site trophoblastic tumor, which typically show different architectural patterns and cellular morphology.",
+      "rationale": "High power mid-right for villi/hydropic change"
+    },
+    {
+      "roi_id": "slide_A_x5120_y15360_mag10",
+      "tile_id": "slide_A_x5120_y15360_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 5120,
+      "y": 15360,
+      "level0": {
+        "x": 5120,
+        "y": 15360,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows extensive hemorrhage and fibrin deposition with scattered inflammatory cells and cellular debris. There are also areas of necrotic tissue and structures resembling chorionic villi.\n\nThe most likely diagnosis is a tubal pregnancy with associated hemorrhage and necrosis.\n\nDifferential diagnoses include ectopic pregnancy in other locations (e.g., ovary, cervix) and other causes of hemorrhage in the adnexa, such as a ruptured ovarian cyst or hemorrhagic corpus luteum. The presence of chorionic villi is a key feature supporting a tubal pregnancy.",
+      "rationale": "Left luminal contents: search for chorionic villi in hemorrhagic clot."
+    },
+    {
+      "roi_id": "slide_A_x15360_y17408_mag10",
+      "tile_id": "slide_A_x15360_y17408_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 15360,
+      "y": 17408,
+      "level0": {
+        "x": 15360,
+        "y": 17408,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation with a prominent papillary architecture and irregular spaces containing red blood cells. The cells are pleomorphic with hyperchromatic nuclei and scant cytoplasm, and there is associated hemorrhage and necrosis.\n\nThe most likely diagnosis is a malignant germ cell tumor, specifically choriocarcinoma, given the biphasic pattern of cytotrophoblasts and syncytiotrophoblasts, the extensive hemorrhage, and necrosis. The presence of irregular spaces containing red blood cells is also characteristic.\n\nDifferential diagnoses include other germ cell tumors with trophoblastic differentiation, such as a mixed germ cell tumor with choriocarcinoma component, or a high-grade carcinoma with extensive hemorrhage and necrosis. However, the distinct biphasic pattern of cytotrophoblasts and syncytiotrophoblasts strongly favors choriocarcinoma.",
+      "rationale": "Central-lower pale area (possible omentum/adipose) to look for separate implant focus"
+    },
+    {
+      "roi_id": "slide_A_x16384_y15360_mag10",
+      "tile_id": "slide_A_x16384_y15360_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 16384,
+      "y": 15360,
+      "level0": {
+        "x": 16384,
+        "y": 15360,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation with a prominent papillary architecture and areas of solid growth. The cells are pleomorphic with hyperchromatic nuclei and scant cytoplasm, and there are numerous dilated blood vessels.\n\nThe most likely diagnosis is a high-grade malignant neoplasm, consistent with a carcinoma. Given the gynecologic origin and the papillary and solid growth patterns, a high-grade serous carcinoma is a strong consideration.\n\nDifferential diagnoses include other high-grade carcinomas such as endometrioid carcinoma or clear cell carcinoma, which can also present with papillary or solid patterns. However, the marked nuclear pleomorphism and hyperchromasia are more typical of a high-grade serous carcinoma.",
+      "rationale": "Sample mid region between left and right masses for implantation site/villi"
+    },
+    {
+      "roi_id": "slide_A_x10752_y10752_mag20",
+      "tile_id": "slide_A_x10752_y10752_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 10752,
+      "y": 10752,
+      "level0": {
+        "x": 10752,
+        "y": 10752,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells in a loose, edematous stroma with numerous thin-walled blood vessels and extravasated red blood cells. Scattered inflammatory cells are also present.\n\nThe most likely diagnosis is a reactive process such as granulation tissue or organizing hematoma.\n\nDifferential diagnoses include a low-grade spindle cell neoplasm such as a fibroma or leiomyoma, which would typically show more uniform spindle cells and less prominent vascularity and hemorrhage.",
+      "rationale": "Under-sampled far-left small dark focus; check for true trophoblast vs decidual/reactive tissue."
+    },
+    {
+      "roi_id": "slide_A_x13824_y19968_mag20",
+      "tile_id": "slide_A_x13824_y19968_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 13824,
+      "y": 19968,
+      "level0": {
+        "x": 13824,
+        "y": 19968,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells and scattered multinucleated giant cells within a background of hemorrhage and hemosiderin deposition. The spindle cells have elongated nuclei and eosinophilic cytoplasm, arranged in fascicles and haphazardly.\n\nThe most likely diagnosis is a trophoblastic tumor, specifically a choriocarcinoma, given the presence of multinucleated giant cells resembling syncytiotrophoblasts and the background of hemorrhage and hemosiderin.\n\nDifferential diagnoses include other gestational trophoblastic diseases such as invasive mole or placental site trophoblastic tumor, which can also show trophoblastic cells and hemorrhage but typically have different architectural patterns and cellular morphology.",
+      "rationale": "High power in central-lower area to identify adipose/omentum vs fibrous tissue and search for tumor cells"
+    },
+    {
+      "roi_id": "slide_A_x15872_y12288_mag20",
+      "tile_id": "slide_A_x15872_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 15872,
+      "y": 12288,
+      "level0": {
+        "x": 15872,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation with a prominent papillary architecture and areas of solid growth. The cells are pleomorphic with irregular nuclei and prominent nucleoli, and there is extensive hemorrhage.\n\nThe most likely diagnosis is a malignant germ cell tumor, specifically choriocarcinoma, given the papillary and solid growth patterns, cellular pleomorphism, and extensive hemorrhage. The presence of syncytiotrophoblast-like cells would be a key feature to confirm this diagnosis.\n\nDifferential diagnoses include other germ cell tumors with papillary features, such as embryonal carcinoma, and potentially a high-grade carcinoma with papillary features. However, the combination of papillary and solid growth, cellular pleomorphism, and extensive hemorrhage strongly favors choriocarcinoma.",
+      "rationale": "Mid-left dark nodule not yet at high power—confirm biphasic malignant trophoblast and absence of villi."
+    },
+    {
+      "roi_id": "slide_A_x3072_y18432_mag10",
+      "tile_id": "slide_A_x3072_y18432_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 3072,
+      "y": 18432,
+      "level0": {
+        "x": 3072,
+        "y": 18432,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dilated fallopian tube lumen filled with hemorrhage and cellular debris, including structures consistent with chorionic villi. The wall is thickened and hemorrhagic with areas of necrosis and inflammation.\n\nThe most likely diagnosis is a tubal pregnancy. Differential diagnoses include ectopic pregnancy in other locations (e.g., ovary, cervix) or a hemorrhagic ovarian cyst with secondary changes.",
+      "rationale": "Far left inferior edge to check for omental adipose and any endometriosis/decidua"
+    },
+    {
+      "roi_id": "slide_A_x7168_y17408_mag10",
+      "tile_id": "slide_A_x7168_y17408_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 7168,
+      "y": 17408,
+      "level0": {
+        "x": 7168,
+        "y": 17408,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of spindle cells arranged in fascicles and whorls, with numerous dilated and congested blood vessels and areas of hemorrhage. The spindle cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a reactive process such as granulation tissue or organizing hematoma.\n\nDifferential diagnoses include a spindle cell neoplasm such as leiomyoma or leiomyosarcoma, which would typically show more uniform cellularity and less prominent vascularity and hemorrhage.",
+      "rationale": "Search left-lower hemorrhagic lumen for retained chorionic villi"
+    },
+    {
+      "roi_id": "slide_A_x20992_y7168_mag20",
+      "tile_id": "slide_A_x20992_y7168_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20992,
+      "y": 7168,
+      "level0": {
+        "x": 20992,
+        "y": 7168,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows extensive hemorrhage and fibrin deposition with a mixed inflammatory infiltrate. Scattered dark brown pigment is also present.\n\nThe most likely diagnosis is a hemorrhagic process, such as a tubal pregnancy with rupture.\n\nDifferential diagnoses include other causes of hemorrhage in the adnexa, such as a ruptured ovarian cyst or hemorrhagic ectopic pregnancy.",
+      "rationale": "Central-upper cellular area; assess for villi/invasive mole vs choriocarcinoma necrosis."
+    },
+    {
+      "roi_id": "slide_A_x6656_y17408_mag20",
+      "tile_id": "slide_A_x6656_y17408_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 6656,
+      "y": 17408,
+      "level0": {
+        "x": 6656,
+        "y": 17408,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells within a loose, edematous stroma with prominent hemorrhage and scattered hemosiderin-laden macrophages. The spindle cells have elongated nuclei and are arranged in short fascicles and haphazardly.\n\nThe morphologic features are consistent with granulation tissue. The presence of spindle cells, hemorrhage, and hemosiderin-laden macrophages in a loose stroma is characteristic of this reactive process. Differential diagnoses could include other spindle cell lesions such as a leiomyoma or a low-grade sarcoma, but the prominent hemorrhage and inflammatory component favor granulation tissue.",
+      "rationale": "High power left-lower area to confirm/deny villi (trophoblast rim, stroma, fetal vessels)"
+    },
+    {
+      "roi_id": "slide_A_x30720_y7168_mag20",
+      "tile_id": "slide_A_x30720_y7168_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 30720,
+      "y": 7168,
+      "level0": {
+        "x": 30720,
+        "y": 7168,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows extensive hemorrhage and necrosis with scattered inflammatory cells and hemosiderin-laden macrophages. There are also areas of organizing tissue with spindle cells and fibrosis.\n\nThe most likely diagnosis is a tubal pregnancy with associated hemorrhage and necrosis.\n\nDifferential diagnoses include other causes of hemorrhage and necrosis in the fallopian tube, such as ectopic pregnancy at a different site or a tubal abscess.",
+      "rationale": "Right-upper cellular nodule; look for cohesive nests, geographic necrosis, vessel invasion."
+    },
+    {
+      "roi_id": "slide_A_x33792_y10752_mag20",
+      "tile_id": "slide_A_x33792_y10752_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 33792,
+      "y": 10752,
+      "level0": {
+        "x": 33792,
+        "y": 10752,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows extensive necrosis with amorphous eosinophilic material, scattered cellular debris, and ghost outlines of cells. There is a notable absence of viable cells.\n\nThe most likely diagnosis is a necrotic gestational trophoblastic disease, such as a hydatidiform mole or choriocarcinoma.\n\nDifferential diagnoses include other necrotic lesions such as a necrotic ovarian neoplasm or infarcted ovarian tissue.",
+      "rationale": "Right-middle viable-appearing area; ensure not PSTT/ETT (monomorphic intermediate trophoblast) and document mitoses."
+    },
+    {
+      "roi_id": "slide_A_x26624_y12288_mag20",
+      "tile_id": "slide_A_x26624_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 26624,
+      "y": 12288,
+      "level0": {
+        "x": 26624,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a biphasic cellular population with large multinucleated cells and smaller mononuclear cells, associated with extensive hemorrhage and necrosis.",
+      "rationale": "High power in 10x biphasic trophoblast field to confirm cyto/syncytiotrophoblast and mitoses"
+    },
+    {
+      "roi_id": "slide_A_x10240_y13312_mag10",
+      "tile_id": "slide_A_x10240_y13312_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 10240,
+      "y": 13312,
+      "level0": {
+        "x": 10240,
+        "y": 13312,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a transition from a cellular proliferation of spindle cells in fascicles to areas of extensive hemorrhage and necrosis. Scattered within the hemorrhagic areas are large, pleomorphic cells with abundant eosinophilic cytoplasm and irregular nuclei, some multinucleated.\n\nThe most likely diagnosis is a trophoblastic tumor, specifically choriocarcinoma, given the presence of large, pleomorphic cells resembling syncytiotrophoblasts within a background of hemorrhage and necrosis.\n\nDifferential diagnoses include other gestational trophoblastic diseases such as invasive mole or placental site trophoblastic tumor, which can also show trophoblastic cells and hemorrhage, but typically have different architectural patterns and cellular morphology.",
+      "rationale": "Search left-central darker focus for villous fragments vs tumor"
+    },
+    {
+      "roi_id": "slide_A_x15360_y17408_mag20",
+      "tile_id": "slide_A_x15360_y17408_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 15360,
+      "y": 17408,
+      "level0": {
+        "x": 15360,
+        "y": 17408,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a papillary proliferation of cells with marked nuclear pleomorphism, hyperchromasia, and prominent nucleoli. The cells are arranged in a syncytial pattern with associated hemorrhage.\n\nThe most likely diagnosis is a malignant germ cell tumor, specifically choriocarcinoma, given the papillary architecture, syncytial growth, and marked nuclear atypia.\n\nDifferential diagnoses include other germ cell tumors with papillary features, such as embryonal carcinoma, and metastatic carcinoma with papillary features, such as papillary serous carcinoma. However, the syncytial growth pattern and marked nuclear atypia are highly suggestive of choriocarcinoma.",
+      "rationale": "High power in central-lower papillary/irregular spaces area to determine if true tumor vs reactive/organizing clot"
+    },
+    {
+      "roi_id": "slide_A_x10240_y13312_mag20",
+      "tile_id": "slide_A_x10240_y13312_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 10240,
+      "y": 13312,
+      "level0": {
+        "x": 10240,
+        "y": 13312,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with admixed hemorrhage and inflammatory cells. Scattered large, pleomorphic cells with abundant eosinophilic cytoplasm and irregular nuclei are also present.\n\nThe most likely diagnosis is a trophoblastic tumor, specifically choriocarcinoma, given the presence of pleomorphic cells resembling syncytiotrophoblasts and the clinical context of a tubal pregnancy.\n\nDifferential diagnoses include other gestational trophoblastic diseases such as invasive mole or placental site trophoblastic tumor, which can have overlapping features but typically show different architectural patterns and cellular morphology.",
+      "rationale": "High power left-central to look for villous morphology/hydropic change"
+    },
+    {
+      "roi_id": "slide_A_x24576_y15360_mag10",
+      "tile_id": "slide_A_x24576_y15360_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 24576,
+      "y": 15360,
+      "level0": {
+        "x": 24576,
+        "y": 15360,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows extensive hemorrhage and necrosis with scattered large, pleomorphic cells exhibiting abundant eosinophilic cytoplasm and irregular nuclei, some multinucleated. These cells are present within the hemorrhagic background and associated with necrotic debris.\n\nThe most likely diagnosis is a gestational trophoblastic neoplasm, specifically choriocarcinoma, given the presence of pleomorphic trophoblastic cells in a hemorrhagic and necrotic background.\n\nDifferential diagnoses include other gestational trophoblastic diseases such as invasive mole or placental site trophoblastic tumor, which typically show different architectural patterns and cellular morphology.",
+      "rationale": "Search right-lower for adipose/omentum and assess for implant location (surface vs within fat)"
+    },
+    {
+      "roi_id": "slide_A_x18432_y10240_mag10",
+      "tile_id": "slide_A_x18432_y10240_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 18432,
+      "y": 10240,
+      "level0": {
+        "x": 18432,
+        "y": 10240,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a large area of hemorrhage with fibrin and inflammatory cells, adjacent to a cellular stroma containing numerous small vessels and scattered inflammatory cells. The stroma appears edematous and contains scattered cells with clear cytoplasm.\n\nThe most likely diagnosis is a hemorrhagic lesion with features suggestive of a tubal pregnancy. The presence of extensive hemorrhage, fibrin, and inflammatory cells is consistent with a ruptured or hemorrhagic process. The cellular stroma with numerous small vessels and scattered inflammatory cells, along with the clinical history of a tubal pregnancy, supports this diagnosis. The scattered cells with clear cytoplasm could represent decidualized stromal cells or other reactive changes.\n\nDifferential diagnoses to consider include a ruptured ovarian cyst or hemorrhagic adnexal mass. However, the clinical history of a tubal pregnancy and the presence of features suggestive of placental tissue in the fallopian tube strongly favor a tubal pregnancy.",
+      "rationale": "Search superior central band near mucosa for villi/implantation site"
+    },
+    {
+      "roi_id": "slide_A_x11264_y9216_mag10",
+      "tile_id": "slide_A_x11264_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 11264,
+      "y": 9216,
+      "level0": {
+        "x": 11264,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a surface layer of fibrin and inflammatory cells overlying a stroma with numerous dilated blood vessels, edema, and a mixed inflammatory infiltrate. Scattered large cells with abundant eosinophilic cytoplasm and eccentric nuclei are present within the stroma.\n\nThe morphologic features are consistent with a tubal pregnancy. The presence of chorionic villi or trophoblastic tissue within the fallopian tube wall would confirm this diagnosis. Differential diagnoses include ectopic pregnancy in other locations (e.g., ovary, cervix) or a non-pregnancy related process causing hemorrhage and inflammation in the fallopian tube.",
+      "rationale": "Search central-upper for decidua/villi/inflammation to support ectopic pregnancy vs neoplasm"
+    },
+    {
+      "roi_id": "slide_A_x6656_y12288_mag20",
+      "tile_id": "slide_A_x6656_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 6656,
+      "y": 12288,
+      "level0": {
+        "x": 6656,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a background of red blood cells with scattered dark brown to black granular pigment. There are also clusters of cells with eosinophilic cytoplasm and round to oval nuclei, some containing pigment.\n\nThe most likely diagnosis is a hemorrhagic lesion with hemosiderin deposition, such as a hemorrhagic cyst or a lesion with significant bleeding and subsequent hemosiderin deposition.\n\nDifferential diagnoses include:\n1. Hemorrhagic cyst: Characterized by blood and hemosiderin-laden macrophages.\n2. Endometriosis: Can present with hemorrhage and hemosiderin, but typically shows endometrial glands and stroma.\n3. Hemorrhagic neoplasm: A tumor with significant bleeding can also show hemosiderin deposition.",
+      "rationale": "High power left side where villi suspected—confirm chorionic villi and absence/presence of atypical trophoblast"
+    },
+    {
+      "roi_id": "slide_A_x33792_y7168_mag10",
+      "tile_id": "slide_A_x33792_y7168_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 33792,
+      "y": 7168,
+      "level0": {
+        "x": 33792,
+        "y": 7168,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows extensive hemorrhage and necrosis with scattered large, pleomorphic cells exhibiting irregular nuclei and prominent nucleoli, along with smaller cells and multinucleated forms.",
+      "rationale": "Unexplored far right-superior edge; look for residual villi/implantation site separate from tumor"
+    },
+    {
+      "roi_id": "slide_A_x33792_y7168_mag20",
+      "tile_id": "slide_A_x33792_y7168_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 33792,
+      "y": 7168,
+      "level0": {
+        "x": 33792,
+        "y": 7168,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows extensive hemorrhage and necrosis with scattered large, pleomorphic cells exhibiting abundant eosinophilic cytoplasm and irregular nuclei, some multinucleated. Smaller cells with hyperchromatic nuclei are also present.\n\nThe most likely diagnosis is choriocarcinoma.\n\nDifferential diagnoses include other gestational trophoblastic diseases such as invasive mole or placental site trophoblastic tumor, which typically show different architectural patterns and cellular morphology.",
+      "rationale": "High power far right-superior edge for chorionic villi or hydropic villi"
+    },
+    {
+      "roi_id": "slide_A_x37888_y9216_mag10",
+      "tile_id": "slide_A_x37888_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 37888,
+      "y": 9216,
+      "level0": {
+        "x": 37888,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows extensive hemorrhage and necrosis with scattered inflammatory cells and cellular debris. There are also areas of amorphous eosinophilic material and spindle-shaped cells.\n\nThe most likely diagnosis is a hemorrhagic and necrotic process, consistent with a tubal pregnancy complicated by rupture.\n\nDifferential diagnoses include other causes of hemorrhage and necrosis in the adnexa, such as a ruptured ovarian cyst or a necrotic adnexal mass.",
+      "rationale": "Extreme right margin tissue; check for villi or tubal mucosa"
+    },
+    {
+      "roi_id": "slide_A_x37888_y9728_mag20",
+      "tile_id": "slide_A_x37888_y9728_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 37888,
+      "y": 9728,
+      "level0": {
+        "x": 37888,
+        "y": 9728,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows extensive necrosis with amorphous eosinophilic material, scattered inflammatory cells, and ghost outlines of cells.",
+      "rationale": "High power extreme right margin for villi"
+    },
+    {
+      "roi_id": "slide_A_x23552_y6144_mag10",
+      "tile_id": "slide_A_x23552_y6144_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 23552,
+      "y": 6144,
+      "level0": {
+        "x": 23552,
+        "y": 6144,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dilated fallopian tube lumen filled with hemorrhage and cellular debris, including structures suggestive of placental tissue. The wall is thickened and hemorrhagic with inflammatory cells.\n\nThe most likely diagnosis is a tubal pregnancy with rupture. Differential diagnoses include ectopic pregnancy in other locations (e.g., ovary, cervix) or a hemorrhagic ovarian cyst.",
+      "rationale": "Upper-central/right area not yet specifically described—assess for true omental adipose vs tube wall and any implant along surface"
+    },
+    {
+      "roi_id": "slide_A_x8192_y11264_mag10",
+      "tile_id": "slide_A_x8192_y11264_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 8192,
+      "y": 11264,
+      "level0": {
+        "x": 8192,
+        "y": 11264,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular stroma with numerous dilated, congested blood vessels and areas of hemorrhage. There is also a mixed inflammatory infiltrate and scattered spindle cells.\n\nThe most likely diagnosis is a hemorrhagic lesion, likely related to a tubal pregnancy given the clinical context.\n\nDifferential diagnoses include a hemorrhagic ovarian cyst or a hemorrhagic adnexal mass.",
+      "rationale": "Far left-superior periphery; search for villi in luminal clot"
+    },
+    {
+      "roi_id": "slide_A_x23552_y6656_mag20",
+      "tile_id": "slide_A_x23552_y6656_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 23552,
+      "y": 6656,
+      "level0": {
+        "x": 23552,
+        "y": 6656,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows extensive hemorrhage and fibrin with scattered inflammatory cells and dark granular material. A layer of flattened to cuboidal cells is present along one edge.\n\nThe morphologic features are consistent with a hemorrhagic process, likely related to a tubal pregnancy. The presence of hemorrhage, fibrin, and inflammatory cells in the context of a fallopian tube specimen supports this interpretation. The dark granular material may represent hemosiderin or other debris. The flattened to cuboidal cells could represent tubal epithelium or reactive mesothelial cells.",
+      "rationale": "High power of same area to look for adipocytes/mesothelium and tumor infiltration/vascular invasion"
+    },
+    {
+      "roi_id": "slide_A_x19456_y8192_mag10",
+      "tile_id": "slide_A_x19456_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 19456,
+      "y": 8192,
+      "level0": {
+        "x": 19456,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cystic structure lined by flattened cells with a lumen filled with hemorrhage and cellular debris. The wall is composed of fibrous tissue with scattered inflammatory cells and hemorrhage.\n\nThe most likely diagnosis is a hemorrhagic cystic structure, likely a dilated fallopian tube with hemorrhage and possible placental tissue. Differential diagnoses include a hemorrhagic ovarian cyst or a ruptured endometriotic cyst.",
+      "rationale": "Upper central bridge between left and right masses—search for decidua/villi or surface implant"
+    },
+    {
+      "roi_id": "slide_A_x18944_y8192_mag20",
+      "tile_id": "slide_A_x18944_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 18944,
+      "y": 8192,
+      "level0": {
+        "x": 18944,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a background of hemorrhage with scattered red blood cells and inflammatory cells. There are also clusters of cells with dark nuclei and abundant dark brown pigment.\n\nThe most likely diagnosis is a hemorrhagic process with associated inflammation and pigment-laden macrophages, possibly related to a tubal pregnancy or other source of bleeding.\n\nDifferential diagnoses include a hemorrhagic tubal pregnancy with associated hemosiderin-laden macrophages, or a hemorrhagic lesion with associated inflammation and hemosiderin deposition.",
+      "rationale": "High power bridge area for trophoblast vs inflammation/organizing clot"
+    },
+    {
+      "roi_id": "slide_A_x10240_y21504_mag10",
+      "tile_id": "slide_A_x10240_y21504_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 10240,
+      "y": 21504,
+      "level0": {
+        "x": 10240,
+        "y": 21504,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of spindle cells arranged in fascicles with associated hemorrhage, hemosiderin-laden macrophages, and scattered inflammatory cells. The spindle cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a reactive process such as granulation tissue or organizing hematoma.\n\nDifferential diagnoses include leiomyoma, which typically shows more uniform spindle cells with blunt-ended nuclei and less prominent hemorrhage and inflammation, and leiomyosarcoma, which would exhibit significant nuclear atypia, increased mitotic activity, and necrosis.",
+      "rationale": "Inferior left-mid edge to look for omental adipose and exclude endometriosis (glands/stroma, hemosiderin)"
+    }
+  ]
+}

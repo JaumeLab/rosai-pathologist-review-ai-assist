@@ -1,0 +1,1339 @@
+{
+  "case_id": "sem1451_case13",
+  "source": "slideseek-ai-assist",
+  "model": "gpt-5.4",
+  "generated_at": "2026-05-22T09:25:07.494899+00:00",
+  "organ": "CNS-Endocrine",
+  "primary_dx": "Poorly Differentiated Retinoblastoma With Scleral Invasion And Probable Extrascleral Extension",
+  "differential_dx": [
+    "Medulloepithelioma",
+    "Metastatic Neuroblastoma / Intraocular PNET"
+  ],
+  "microscopic_findings": [
+    {
+      "text": "Tumor is composed of densely packed **small round blue cells** with **hyperchromatic nuclei** and scant cytoplasm.",
+      "roi_ids": [
+        "slide_A_x24576_y20480_mag20"
+      ]
+    },
+    {
+      "text": "Viable neoplasm shows **sheeted growth** with broad **geographic necrosis** and associated hemorrhagic debris.",
+      "roi_ids": [
+        "slide_A_x28672_y20480_mag10"
+      ]
+    },
+    {
+      "text": "Necrotic tumor contains frequent **dystrophic calcifications**, a classic clue in **retinoblastoma**.",
+      "roi_ids": [
+        "slide_A_x12288_y24576_mag20"
+      ]
+    },
+    {
+      "text": "Neoplastic cells infiltrate **posterior sclera** with probable **trans-scleral extension** into adjacent soft tissue.",
+      "roi_ids": [
+        "slide_A_x44032_y21504_mag20",
+        "slide_A_x45056_y20480_mag2"
+      ]
+    }
+  ],
+  "interpretation": "The combination of an intraocular **small round blue cell tumor**, extensive **geographic necrosis**, and frequent **dystrophic calcification** supports **poorly differentiated retinoblastoma**. Focal neuroblastic differentiation is in keeping with this diagnosis, while conspicuous medulloepitheliomatous tubular architecture is not identified. Tumor permeates the **sclera** with probable **extrascleral extension**, indicating high-risk local invasive behavior. Optic nerve invasion cannot be assessed in the sampled fields.",
+  "num_rois": 81,
+  "tiles": [
+    {
+      "roi_id": "slide_A_x40960_y16384_mag1",
+      "tile_id": "slide_A_x40960_y16384_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 40960,
+      "y": 16384,
+      "level0": {
+        "x": 40960,
+        "y": 16384,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a densely cellular tumor with areas of necrosis and cystic change, adjacent to a thickened sclera. The tumor appears to be invading the sclera.\n\nThe most likely diagnosis is retinoblastoma.\n\nDifferential diagnoses include other small blue round cell tumors of the eye, such as medulloepithelioma or metastatic neuroblastoma, which can be distinguished by their distinct histological patterns and clinical presentation.",
+      "rationale": "Low power to find optic nerve stump/scleral canal (posterior pole) likely on right side of globe section."
+    },
+    {
+      "roi_id": "slide_A_x24576_y20480_mag2",
+      "tile_id": "slide_A_x24576_y20480_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 24576,
+      "y": 20480,
+      "level0": {
+        "x": 24576,
+        "y": 20480,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular neoplasm with extensive necrosis and hemorrhage. The viable tumor cells are small with hyperchromatic nuclei and scant cytoplasm, arranged in sheets and nests.\n\nThe most likely diagnosis is retinoblastoma. Differential diagnoses include other small blue round cell tumors of the eye, such as medulloepithelioma or metastatic neuroblastoma, which can be distinguished by their distinct histological patterns and clinical presentation.",
+      "rationale": "Low-power survey of central globe contents for tumor bulk/necrosis"
+    },
+    {
+      "roi_id": "slide_A_x24576_y24576_mag1",
+      "tile_id": "slide_A_x24576_y24576_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 24576,
+      "y": 24576,
+      "level0": {
+        "x": 24576,
+        "y": 24576,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a cellular neoplasm with a nodular growth pattern, composed of small cells with hyperchromatic nuclei and scant cytoplasm, interspersed with areas of necrosis and calcification. The tumor is located in the posterior segment of the eye, consistent with a retinal origin.\n\nThe most likely diagnosis is retinoblastoma. Differential diagnoses include other small blue round cell tumors of the eye, such as medulloepithelioma or metastatic neuroblastoma, but the characteristic location, morphology, and clinical presentation strongly favor retinoblastoma.",
+      "rationale": "Whole-globe low power overview to orient anatomy and tumor distribution."
+    },
+    {
+      "roi_id": "slide_A_x12288_y24576_mag2",
+      "tile_id": "slide_A_x12288_y24576_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 24576,
+      "level0": {
+        "x": 12288,
+        "y": 24576,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular neoplasm with areas of necrosis and calcification, along with a large cystic space. The tumor cells are small with hyperchromatic nuclei and scant cytoplasm, arranged in nests and sheets.\n\nThe most likely diagnosis is retinoblastoma. Differential diagnoses include other small blue round cell tumors of the eye, such as medulloepithelioma or metastatic neuroblastoma, which can be distinguished by their distinct histological patterns and clinical presentation.",
+      "rationale": "Low-power survey of inferior-left quadrant for calcification/necrosis/retinal detachment region"
+    },
+    {
+      "roi_id": "slide_A_x40960_y24576_mag1",
+      "tile_id": "slide_A_x40960_y24576_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 40960,
+      "y": 24576,
+      "level0": {
+        "x": 40960,
+        "y": 24576,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a densely cellular tumor with small, hyperchromatic nuclei and scant cytoplasm, adjacent to a large cystic space containing eosinophilic material and cellular debris. The tumor is surrounded by a fibrous capsule.\n\nThe most likely diagnosis is retinoblastoma. Differential diagnoses include other small blue round cell tumors of the eye, such as medulloepithelioma or metastatic neuroblastoma, which can be distinguished by their distinct histological patterns and clinical presentation.",
+      "rationale": "Low power scan posterior pole for optic nerve head/nerve stump."
+    },
+    {
+      "roi_id": "slide_A_x12288_y20480_mag2",
+      "tile_id": "slide_A_x12288_y20480_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 20480,
+      "level0": {
+        "x": 12288,
+        "y": 20480,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular neoplasm with areas of necrosis and calcification. The tumor cells are small with hyperchromatic nuclei and scant cytoplasm, arranged in sheets and nests.\n\nThe most likely diagnosis is retinoblastoma. Differential diagnoses include other small blue round cell tumors of the eye, such as medulloepithelioma or metastatic neuroblastoma, which can be distinguished by their distinct histological patterns and clinical presentation.",
+      "rationale": "Left/temporal vitreous mass area—likely main tumor bulk; look for necrosis/calcification."
+    },
+    {
+      "roi_id": "slide_A_x32768_y12288_mag2",
+      "tile_id": "slide_A_x32768_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 32768,
+      "y": 12288,
+      "level0": {
+        "x": 32768,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a densely cellular tumor with extensive necrosis and calcification. The tumor cells are small with hyperchromatic nuclei and scant cytoplasm, arranged in sheets and nests.\n\nThe most likely diagnosis is retinoblastoma. Differential diagnoses include other small blue round cell tumors of the eye, such as medulloepithelioma or metastatic neuroblastoma, which can be distinguished by their distinct histological patterns and clinical presentation.",
+      "rationale": "Low-power survey of superior-right quadrant near sclera/choroid for invasive tumor"
+    },
+    {
+      "roi_id": "slide_A_x28672_y20480_mag2",
+      "tile_id": "slide_A_x28672_y20480_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 28672,
+      "y": 20480,
+      "level0": {
+        "x": 28672,
+        "y": 20480,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular neoplasm with extensive necrosis and hemorrhage. The viable tumor cells are small with hyperchromatic nuclei and scant cytoplasm, arranged in nests and cords.\n\nThe most likely diagnosis is retinoblastoma. Differential diagnoses include other small blue round cell tumors of the eye, such as medulloepithelioma or metastatic neuroblastoma, which can be distinguished by their distinct histological patterns and clinical presentation.",
+      "rationale": "Central vitreous/retinal interface—assess retinal detachment and tumor seeding pattern."
+    },
+    {
+      "roi_id": "slide_A_x40960_y32768_mag1",
+      "tile_id": "slide_A_x40960_y32768_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 40960,
+      "y": 32768,
+      "level0": {
+        "x": 40960,
+        "y": 32768,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a dense cellular proliferation with small, hyperchromatic nuclei and scant cytoplasm, adjacent to a thickened, hyalinized fibrous layer. The cellular component is arranged in sheets and nests.\n\nThe most likely diagnosis is retinoblastoma. The differential diagnosis includes other small blue round cell tumors of the eye, such as medulloepithelioma, but the clinical presentation and morphology are most consistent with retinoblastoma.",
+      "rationale": "Low power scan inferior posterior sclera for nerve stump or extraocular tissue."
+    },
+    {
+      "roi_id": "slide_A_x36864_y24576_mag2",
+      "tile_id": "slide_A_x36864_y24576_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 36864,
+      "y": 24576,
+      "level0": {
+        "x": 36864,
+        "y": 24576,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a dense cellular proliferation with areas of necrosis and hemorrhage, adjacent to a large cystic space containing amorphous material and cellular debris. The cellular component is composed of small cells with hyperchromatic nuclei and scant cytoplasm.\n\nThe most likely diagnosis is retinoblastoma. The differential diagnosis includes other small blue round cell tumors of the eye, such as medulloepithelioma or metastatic neuroblastoma, which can be distinguished by their distinct histological patterns and clinical presentation.",
+      "rationale": "Right/peripheral wall near sclera/choroid—check invasion and relationship to coats."
+    },
+    {
+      "roi_id": "slide_A_x45056_y20480_mag2",
+      "tile_id": "slide_A_x45056_y20480_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 45056,
+      "y": 20480,
+      "level0": {
+        "x": 45056,
+        "y": 20480,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a dense cellular proliferation with small, hyperchromatic nuclei and scant cytoplasm, arranged in sheets and nests, with areas of necrosis and calcification. The tumor is seen invading the sclera and extending into the orbital soft tissue.\n\nThe most likely diagnosis is retinoblastoma. Differential diagnoses include other small blue round cell tumors such as medulloepithelioma or metastatic neuroblastoma, but the characteristic features of retinoblastoma, including the presence of calcifications and invasion pattern, are most consistent with this diagnosis.",
+      "rationale": "Posterior sclera on far right edge—likely contains optic nerve stump exiting globe."
+    },
+    {
+      "roi_id": "slide_A_x12288_y24576_mag10",
+      "tile_id": "slide_A_x12288_y24576_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 12288,
+      "y": 24576,
+      "level0": {
+        "x": 12288,
+        "y": 24576,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense cellular infiltrate with areas of necrosis and hemorrhage. The cells are small with hyperchromatic nuclei and scant cytoplasm, arranged in sheets and nests, with scattered calcifications.\n\nThe most likely diagnosis is retinoblastoma. Differential diagnoses include other small blue round cell tumors such as medulloblastoma or neuroblastoma, but the clinical presentation and location strongly favor retinoblastoma.",
+      "rationale": "Interrogate suspected calcification focus and adjacent viable tumor for rosettes"
+    },
+    {
+      "roi_id": "slide_A_x32768_y36864_mag2",
+      "tile_id": "slide_A_x32768_y36864_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 32768,
+      "y": 36864,
+      "level0": {
+        "x": 32768,
+        "y": 36864,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a large, layered structure with a dense, eosinophilic outer layer and a less dense, fibrillar inner layer. Scattered dark granular material is present within the inner layer and adjacent to the outer layer.\n\nThe most likely diagnosis is retinoblastoma. The layered structure represents the retina and choroid, and the dark granular material is consistent with calcifications, a common feature of retinoblastoma. The clinical history of a white reflex, yellowish fundus reflex, and the presence of a white tumor in the vitreous cavity further support this diagnosis.\n\nDifferential diagnoses to consider include other intraocular tumors such as medulloepithelioma or astrocytoma, but the presence of calcifications and the clinical presentation strongly favor retinoblastoma.",
+      "rationale": "Inferior/posterior segment—possible optic nerve head region; assess extension."
+    },
+    {
+      "roi_id": "slide_A_x32768_y12288_mag10",
+      "tile_id": "slide_A_x32768_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 32768,
+      "y": 12288,
+      "level0": {
+        "x": 32768,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense cellular infiltrate composed of small cells with hyperchromatic nuclei and scant cytoplasm, arranged in sheets and nests, with areas of necrosis and calcification. The cells exhibit nuclear molding and crush artifact.\n\nThe most likely diagnosis is retinoblastoma.\n\nDifferential diagnoses include other small blue round cell tumors such as medulloblastoma or neuroblastoma, which can be distinguished by their location and specific immunohistochemical profiles.",
+      "rationale": "Assess superior-right tumor near sclera for pseudorosettes/necrosis pattern"
+    },
+    {
+      "roi_id": "slide_A_x45056_y12288_mag2",
+      "tile_id": "slide_A_x45056_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 45056,
+      "y": 12288,
+      "level0": {
+        "x": 45056,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a dense cellular proliferation with small, hyperchromatic nuclei and scant cytoplasm, arranged in sheets and nests, with areas of necrosis and calcification. The tumor is seen invading the sclera and optic nerve.\n\nThe most likely diagnosis is retinoblastoma. Differential diagnoses include other small blue round cell tumors of the eye, such as medulloepithelioma or metastatic neuroblastoma, which can be distinguished by their distinct histological patterns and clinical presentation.",
+      "rationale": "Superior posterior pole near scleral canal to locate optic nerve head."
+    },
+    {
+      "roi_id": "slide_A_x24576_y20480_mag10",
+      "tile_id": "slide_A_x24576_y20480_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 24576,
+      "y": 20480,
+      "level0": {
+        "x": 24576,
+        "y": 20480,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a densely cellular tumor composed of small cells with hyperchromatic nuclei and scant cytoplasm, arranged in sheets and nests. There are areas of necrosis and calcification within the tumor.\n\nThe most likely diagnosis is retinoblastoma. Differential diagnoses include other small blue round cell tumors of the eye, such as medulloepithelioma or metastatic neuroblastoma, which can be distinguished by their distinct histological patterns and clinical presentation.",
+      "rationale": "Central viable islands around necrosis for differentiation/rosette structures"
+    },
+    {
+      "roi_id": "slide_A_x45056_y32768_mag2",
+      "tile_id": "slide_A_x45056_y32768_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 45056,
+      "y": 32768,
+      "level0": {
+        "x": 45056,
+        "y": 32768,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a low-power view of a large, irregular, cellular mass with areas of necrosis and calcification. The mass appears to be infiltrating the surrounding tissue.\n\nThe most likely diagnosis is retinoblastoma. The presence of a large, cellular mass with necrosis and calcification in the eye of a young child is highly suggestive of this diagnosis. Differential diagnoses could include other intraocular tumors such as medulloepithelioma or astrocytoma, but the clinical presentation and gross findings strongly favor retinoblastoma.",
+      "rationale": "Inferior posterior edge to check for optic nerve stump/extraocular extension."
+    },
+    {
+      "roi_id": "slide_A_x22528_y26624_mag5",
+      "tile_id": "slide_A_x22528_y26624_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 22528,
+      "y": 26624,
+      "level0": {
+        "x": 22528,
+        "y": 26624,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a densely cellular tumor with extensive necrosis and hemorrhage. The tumor cells are small with hyperchromatic nuclei and scant cytoplasm, arranged in sheets and nests, with areas of calcification.\n\nThe most likely diagnosis is retinoblastoma. Differential diagnoses include other small blue round cell tumors of the eye, such as medulloepithelioma or metastatic neuroblastoma, which can be distinguished by their distinct histological patterns and clinical presentation.",
+      "rationale": "Viable cellular tumor in central globe—assess architecture and search for rosettes."
+    },
+    {
+      "roi_id": "slide_A_x17408_y14336_mag10",
+      "tile_id": "slide_A_x17408_y14336_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 17408,
+      "y": 14336,
+      "level0": {
+        "x": 17408,
+        "y": 14336,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense cellular infiltrate with areas of necrosis and calcification. The cells are small with hyperchromatic nuclei and scant cytoplasm, arranged in sheets and nests.\n\nThe most likely diagnosis is retinoblastoma. Differential diagnoses include other small blue round cell tumors such as medulloblastoma or neuroblastoma, but the clinical context and morphology are most consistent with retinoblastoma.",
+      "rationale": "New region: upper-central left area to look for rosettes/fleurettes away from hemorrhage"
+    },
+    {
+      "roi_id": "slide_A_x12288_y22528_mag5",
+      "tile_id": "slide_A_x12288_y22528_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 12288,
+      "y": 22528,
+      "level0": {
+        "x": 12288,
+        "y": 22528,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular neoplasm with extensive necrosis and calcification. The tumor cells are small with hyperchromatic nuclei and scant cytoplasm, arranged in sheets and nests.\n\nThe most likely diagnosis is retinoblastoma. Differential diagnoses include other small blue round cell tumors of the eye, such as medulloepithelioma or metastatic neuroblastoma, which can be distinguished by their distinct histological patterns and clinical presentation.",
+      "rationale": "Left tumor bulk with necrosis/calcification—document patterns."
+    },
+    {
+      "roi_id": "slide_A_x43008_y12288_mag10",
+      "tile_id": "slide_A_x43008_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 43008,
+      "y": 12288,
+      "level0": {
+        "x": 43008,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense cellular proliferation with small, hyperchromatic nuclei and scant cytoplasm, arranged in sheets and nests, with areas of necrosis and calcification. The tumor is seen invading the sclera.\n\nThe most likely diagnosis is retinoblastoma. Differential diagnoses include other small blue round cell tumors of the eye, such as medulloepithelioma or metastatic neuroblastoma, which can be distinguished by their distinct histological patterns and clinical presentation.",
+      "rationale": "Detail optic nerve invasion/lamina region suggested on 2.5x."
+    },
+    {
+      "roi_id": "slide_A_x26624_y28672_mag10",
+      "tile_id": "slide_A_x26624_y28672_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 26624,
+      "y": 28672,
+      "level0": {
+        "x": 26624,
+        "y": 28672,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense cellular infiltrate with areas of necrosis and a large, irregular space. The cellular component consists of small cells with hyperchromatic nuclei and scant cytoplasm, with some areas showing a swirling pattern.\n\nThe most likely diagnosis is retinoblastoma. The differential diagnosis includes other small blue round cell tumors of the eye, such as medulloepithelioma or metastatic neuroblastoma, which can be distinguished by their distinct histological patterns and clinical presentation.",
+      "rationale": "Inferior-central thick tumor area for calcifications and necrosis (ghost cells)"
+    },
+    {
+      "roi_id": "slide_A_x28672_y20480_mag10",
+      "tile_id": "slide_A_x28672_y20480_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 28672,
+      "y": 20480,
+      "level0": {
+        "x": 28672,
+        "y": 20480,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular neoplasm composed of small cells with hyperchromatic nuclei and scant cytoplasm, arranged in sheets and nests, with areas of necrosis and hemorrhage. The tumor cells are seen infiltrating the surrounding tissue.\n\nThe most likely diagnosis is retinoblastoma. The differential diagnosis includes other small blue round cell tumors of the eye, such as medulloepithelioma or metastatic neuroblastoma, which can be distinguished by their distinct histological patterns and clinical presentation.",
+      "rationale": "Tumor adjacent to necrosis—look for perivascular pseudorosettes/rosettes at higher power."
+    },
+    {
+      "roi_id": "slide_A_x12288_y24576_mag20",
+      "tile_id": "slide_A_x12288_y24576_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 12288,
+      "y": 24576,
+      "level0": {
+        "x": 12288,
+        "y": 24576,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense cellular infiltrate composed of small cells with hyperchromatic nuclei and scant cytoplasm, arranged in sheets and nests, with areas of necrosis and calcification. The cells exhibit nuclear molding and crush artifact.\n\nThe most likely diagnosis is retinoblastoma. Differential diagnoses include other small blue round cell tumors such as medulloblastoma or neuroblastoma, but the clinical presentation and location strongly favor retinoblastoma.",
+      "rationale": "High power to confirm nature of calcifications and look for Flexner-Wintersteiner rosettes adjacent"
+    },
+    {
+      "roi_id": "slide_A_x44032_y20480_mag10",
+      "tile_id": "slide_A_x44032_y20480_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 44032,
+      "y": 20480,
+      "level0": {
+        "x": 44032,
+        "y": 20480,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular neoplasm with a prominent desmoplastic stromal reaction. The tumor cells are arranged in nests and cords, with some areas showing a swirling pattern. The cells have round to oval nuclei and scant cytoplasm.\n\nThe most likely diagnosis is retinoblastoma, desmoplastic type. This diagnosis is supported by the presence of a cellular neoplasm with a prominent desmoplastic stroma, which is characteristic of the desmoplastic variant of retinoblastoma. The clinical history of a 3.5-year-old female with a history of retinoblastoma and subsequent orbital recurrence and metastasis further supports this diagnosis.\n\nDifferential diagnoses to consider include other small blue round cell tumors of the orbit, such as medulloepithelioma or neuroblastoma. However, the prominent desmoplastic stroma and the clinical history strongly favor retinoblastoma.",
+      "rationale": "Assess scleral perforation/extraocular extension near posterior pole."
+    },
+    {
+      "roi_id": "slide_A_x24576_y20480_mag20",
+      "tile_id": "slide_A_x24576_y20480_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 24576,
+      "y": 20480,
+      "level0": {
+        "x": 24576,
+        "y": 20480,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a highly cellular neoplasm composed of small cells with hyperchromatic nuclei and scant cytoplasm, arranged in sheets and nests with areas of necrosis. The cells exhibit nuclear molding and crush artifact.\n\nThe most likely diagnosis is retinoblastoma.\n\nDifferential diagnoses include other small blue round cell tumors such as medulloblastoma or neuroblastoma, which can be distinguished by their location and specific immunohistochemical profiles.",
+      "rationale": "High power in viable tumor islands to search for rosettes/pseudorosettes and photoreceptor differentiation"
+    },
+    {
+      "roi_id": "slide_A_x36864_y24576_mag5",
+      "tile_id": "slide_A_x36864_y24576_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 36864,
+      "y": 24576,
+      "level0": {
+        "x": 36864,
+        "y": 24576,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a large area of amorphous eosinophilic material with scattered dark granular deposits and a dense aggregate of small, dark-staining cells. The eosinophilic material is consistent with necrosis and fibrin, while the cellular aggregate represents viable tumor cells.\n\nThe most likely diagnosis is retinoblastoma, a malignant tumor of the retina. The presence of necrosis and calcifications (dark granular deposits) are characteristic features of this tumor. The dense aggregate of small, dark-staining cells represents the viable tumor component.\n\nDifferential diagnoses to consider include other small blue round cell tumors of the eye, such as medulloepithelioma or metastatic neuroblastoma. However, the presence of extensive necrosis and calcifications strongly favors retinoblastoma.",
+      "rationale": "Peripheral wall interface—check choroid/sclera invasion pattern."
+    },
+    {
+      "roi_id": "slide_A_x43008_y12288_mag20",
+      "tile_id": "slide_A_x43008_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 43008,
+      "y": 12288,
+      "level0": {
+        "x": 43008,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of small cells with hyperchromatic nuclei and scant cytoplasm, arranged in nests and cords, with areas of necrosis and calcification. The tumor is associated with a desmoplastic stromal reaction.\n\nThe most likely diagnosis is retinoblastoma. Differential diagnoses include other small blue round cell tumors of the eye, such as medulloepithelioma or metastatic neuroblastoma, which can be distinguished by their distinct histological patterns and clinical presentation.",
+      "rationale": "High power at suspected optic nerve involvement to determine prelaminar vs postlaminar and margin."
+    },
+    {
+      "roi_id": "slide_A_x32768_y12288_mag20",
+      "tile_id": "slide_A_x32768_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 32768,
+      "y": 12288,
+      "level0": {
+        "x": 32768,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense cellular infiltrate composed of small cells with hyperchromatic nuclei and scant cytoplasm, arranged in sheets and nests, with areas of necrosis and hemorrhage. The cells exhibit nuclear molding and crush artifact.\n\nThe most likely diagnosis is retinoblastoma.\n\nDifferential diagnoses include other small blue round cell tumors such as medulloblastoma or neuroblastoma, which can be distinguished by their location and specific immunohistochemical profiles.",
+      "rationale": "High power near necrosis/calcification for vascular pseudorosettes and differentiation"
+    },
+    {
+      "roi_id": "slide_A_x44544_y20992_mag20",
+      "tile_id": "slide_A_x44544_y20992_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 44544,
+      "y": 20992,
+      "level0": {
+        "x": 44544,
+        "y": 20992,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular neoplasm composed of small cells with hyperchromatic nuclei and scant cytoplasm, arranged in sheets and nests, with areas of necrosis and calcification.\n\nThe most likely diagnosis is retinoblastoma.\n\nDifferential diagnoses include other small blue round cell tumors such as medulloblastoma or neuroblastoma, which can be distinguished by their location and specific immunohistochemical profiles.",
+      "rationale": "High power to confirm extraocular soft tissue invasion and perineural spread."
+    },
+    {
+      "roi_id": "slide_A_x33792_y36864_mag10",
+      "tile_id": "slide_A_x33792_y36864_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 33792,
+      "y": 36864,
+      "level0": {
+        "x": 33792,
+        "y": 36864,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense, layered structure with a prominent linear pattern and scattered dark granular material. The layered structure is consistent with sclera, and the granular material represents calcifications.\n\nThe most likely diagnosis is retinoblastoma, given the clinical history of a white reflex, yellowish fundus reflex, and the presence of calcifications in the eye. The calcifications are a characteristic feature of retinoblastoma.\n\nDifferential diagnoses to consider include other intraocular tumors with calcifications, such as choroidal melanoma or metastatic tumors, but these are less likely given the clinical presentation and the specific location of the calcifications.",
+      "rationale": "Posterior segment/retina-choroid area—assess retinal involvement and subretinal spread."
+    },
+    {
+      "roi_id": "slide_A_x26112_y28672_mag20",
+      "tile_id": "slide_A_x26112_y28672_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 26112,
+      "y": 28672,
+      "level0": {
+        "x": 26112,
+        "y": 28672,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense cellular infiltrate composed of small cells with hyperchromatic nuclei and scant cytoplasm, arranged in sheets and nests, with areas of necrosis and calcification. The tumor is seen invading the sclera.\n\nThe most likely diagnosis is retinoblastoma. Differential diagnoses include other small blue round cell tumors of the eye, such as medulloepithelioma or metastatic neuroblastoma, which can be distinguished by their distinct histological patterns and clinical presentation.",
+      "rationale": "High power in inferior tumor with swirling pattern for fleurettes or medulloepithelioma-like tubules"
+    },
+    {
+      "roi_id": "slide_A_x43520_y13312_mag20",
+      "tile_id": "slide_A_x43520_y13312_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 43520,
+      "y": 13312,
+      "level0": {
+        "x": 43520,
+        "y": 13312,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense cellular proliferation with small, hyperchromatic nuclei and scant cytoplasm, arranged in sheets and nests, with areas of necrosis and calcification. The tumor is seen invading the sclera.\n\nThe most likely diagnosis is retinoblastoma. Differential diagnoses include other small blue round cell tumors of the eye, such as medulloepithelioma or metastatic neuroblastoma, which can be distinguished by their distinct histological patterns and clinical presentation.",
+      "rationale": "More posterior-superior right edge to capture optic nerve head/lamina cribrosa interface if present."
+    },
+    {
+      "roi_id": "slide_A_x20992_y25088_mag20",
+      "tile_id": "slide_A_x20992_y25088_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20992,
+      "y": 25088,
+      "level0": {
+        "x": 20992,
+        "y": 25088,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense cellular infiltrate composed of small cells with hyperchromatic nuclei and scant cytoplasm, arranged in sheets and nests, with areas of necrosis and artifactual spaces. The cells exhibit nuclear molding and crush artifact.\n\nThe most likely diagnosis is retinoblastoma.\n\nDifferential diagnoses include other small blue round cell tumors such as medulloblastoma or neuroblastoma, which can be distinguished by their location and specific immunohistochemical profiles.",
+      "rationale": "Most viable-appearing tumor area to look for Flexner-Wintersteiner rosettes."
+    },
+    {
+      "roi_id": "slide_A_x43520_y12800_mag20",
+      "tile_id": "slide_A_x43520_y12800_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 43520,
+      "y": 12800,
+      "level0": {
+        "x": 43520,
+        "y": 12800,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense cellular proliferation with small, hyperchromatic nuclei and scant cytoplasm, arranged in sheets and nests, with areas of necrosis and calcification. The tumor is seen invading the sclera.\n\nThe most likely diagnosis is retinoblastoma. Differential diagnoses include other small blue round cell tumors of childhood, such as neuroblastoma or medulloblastoma, but the location and clinical presentation strongly favor retinoblastoma.",
+      "rationale": "Far right/superior margin—look for optic nerve stump cross-section and assess margin."
+    },
+    {
+      "roi_id": "slide_A_x15360_y23552_mag10",
+      "tile_id": "slide_A_x15360_y23552_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 15360,
+      "y": 23552,
+      "level0": {
+        "x": 15360,
+        "y": 23552,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a transition from a densely cellular area with small, hyperchromatic cells to an area of necrosis and hemorrhage. The cellular component exhibits a perivascular pattern.\n\nThe most likely diagnosis is retinoblastoma. Differential diagnoses include other small blue round cell tumors of the eye, such as medulloepithelioma or metastatic neuroblastoma, which can be distinguished by their distinct histological patterns and clinical presentation.",
+      "rationale": "New mid-power area along left-central tumor to search for true rosettes/fleurettes (less necrotic)"
+    },
+    {
+      "roi_id": "slide_A_x28672_y20992_mag20",
+      "tile_id": "slide_A_x28672_y20992_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 28672,
+      "y": 20992,
+      "level0": {
+        "x": 28672,
+        "y": 20992,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a highly cellular neoplasm composed of small cells with hyperchromatic nuclei and scant cytoplasm, arranged in sheets and clusters. There is also abundant eosinophilic material and scattered red blood cells.\n\nThe most likely diagnosis is retinoblastoma. The differential diagnosis includes other small blue round cell tumors of the eye, such as medulloepithelioma or metastatic neuroblastoma, which can be distinguished by their distinct architectural patterns and immunohistochemical profiles.",
+      "rationale": "Cellular nests near necrosis—search for Homer Wright rosettes/pseudorosettes."
+    },
+    {
+      "roi_id": "slide_A_x43520_y16896_mag20",
+      "tile_id": "slide_A_x43520_y16896_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 43520,
+      "y": 16896,
+      "level0": {
+        "x": 43520,
+        "y": 16896,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense cellular proliferation with small, hyperchromatic nuclei and scant cytoplasm, arranged in sheets and nests, with areas of necrosis and calcification. The tumor is seen invading the sclera.\n\nThe most likely diagnosis is retinoblastoma. Differential diagnoses include other small blue round cell tumors of the eye, such as medulloepithelioma or metastatic neuroblastoma, which can be distinguished by their distinct histological patterns and clinical presentation.",
+      "rationale": "Far right mid posterior—evaluate for extraocular extension beyond sclera and any perineural spread."
+    },
+    {
+      "roi_id": "slide_A_x20480_y25600_mag10",
+      "tile_id": "slide_A_x20480_y25600_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 20480,
+      "y": 25600,
+      "level0": {
+        "x": 20480,
+        "y": 25600,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a densely cellular tumor composed of small cells with hyperchromatic nuclei and scant cytoplasm, arranged in sheets and nests. Areas of necrosis and hemorrhage are also present.\n\nThe most likely diagnosis is retinoblastoma. Differential diagnoses include other small blue round cell tumors such as medulloblastoma or neuroblastoma, which can be distinguished by their location and specific immunohistochemical profiles.",
+      "rationale": "Mid-power at necrosis-viable interface for perivascular pseudorosettes and calcification"
+    },
+    {
+      "roi_id": "slide_A_x16384_y22016_mag20",
+      "tile_id": "slide_A_x16384_y22016_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 16384,
+      "y": 22016,
+      "level0": {
+        "x": 16384,
+        "y": 22016,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense proliferation of small cells with hyperchromatic nuclei and scant cytoplasm, arranged in sheets and nests, with areas of necrosis and calcification. The cells exhibit nuclear molding and crush artifact.\n\nThe most likely diagnosis is retinoblastoma.\n\nDifferential diagnoses include other small blue round cell tumors such as medulloblastoma or neuroblastoma, which can be distinguished by their location and specific immunohistochemical profiles.",
+      "rationale": "Left tumor bulk with calcification—assess for rosettes and dystrophic calcification."
+    },
+    {
+      "roi_id": "slide_A_x45056_y23552_mag10",
+      "tile_id": "slide_A_x45056_y23552_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 45056,
+      "y": 23552,
+      "level0": {
+        "x": 45056,
+        "y": 23552,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular neoplasm with small, hyperchromatic cells and scant cytoplasm, arranged in sheets and nests, with areas of necrosis and calcification. The tumor is associated with a prominent vascular network and a desmoplastic stromal reaction.\n\nThe most likely diagnosis is retinoblastoma. Differential diagnoses include other small blue round cell tumors such as medulloblastoma or neuroblastoma, which can be distinguished by their location and specific immunohistochemical profiles.",
+      "rationale": "Right posterior mid—search for optic nerve stump/subarachnoid space at lower power."
+    },
+    {
+      "roi_id": "slide_A_x37888_y23552_mag10",
+      "tile_id": "slide_A_x37888_y23552_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 37888,
+      "y": 23552,
+      "level0": {
+        "x": 37888,
+        "y": 23552,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a pinkish-purple background with scattered dark purple aggregates and linear structures. A large clear space is also present.\n\nThe morphologic features are not specific for a particular diagnosis. The pinkish-purple background could represent necrotic tissue or proteinaceous material, while the dark purple aggregates and linear structures could be cellular debris or calcifications. The large clear space could represent a cystic or necrotic area. Without further context or additional images, it is difficult to suggest a specific diagnosis.",
+      "rationale": "Peripheral tumor vs sclera/choroid interface—evaluate invasion pattern."
+    },
+    {
+      "roi_id": "slide_A_x35840_y19456_mag10",
+      "tile_id": "slide_A_x35840_y19456_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 35840,
+      "y": 19456,
+      "level0": {
+        "x": 35840,
+        "y": 19456,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense cellular infiltrate composed of small cells with hyperchromatic nuclei and scant cytoplasm, adjacent to a large area of eosinophilic, amorphous material with scattered cellular debris.\n\nThe most likely diagnosis is retinoblastoma. The dense cellular infiltrate of small, hyperchromatic cells is characteristic of this tumor. The eosinophilic, amorphous material likely represents necrosis and/or calcification, which are common features in retinoblastoma.\n\nDifferential diagnoses to consider include other small blue round cell tumors of the eye, such as medulloepithelioma or metastatic neuroblastoma. However, the clinical presentation and gross findings strongly favor retinoblastoma.",
+      "rationale": "Mid-power near right side choroid/sclera for invasion and differentiation"
+    },
+    {
+      "roi_id": "slide_A_x34816_y35840_mag10",
+      "tile_id": "slide_A_x34816_y35840_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 34816,
+      "y": 35840,
+      "level0": {
+        "x": 34816,
+        "y": 35840,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense, layered structure with a prominent dark brown band and a less dense, fibrillar area with scattered dark granules. The layered structure is consistent with sclera, and the less dense area with granules is consistent with tumor.\n\nThe most likely diagnosis is retinoblastoma.\n\nDifferential diagnoses include other intraocular tumors such as medulloepithelioma or astrocytoma, but the presence of calcifications and the clinical history strongly favor retinoblastoma.",
+      "rationale": "Posterior segment near optic nerve head candidate—check for optic nerve invasion."
+    },
+    {
+      "roi_id": "slide_A_x45056_y14336_mag5",
+      "tile_id": "slide_A_x45056_y14336_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 45056,
+      "y": 14336,
+      "level0": {
+        "x": 45056,
+        "y": 14336,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a dense cellular proliferation with areas of necrosis and calcification. The cells are small with hyperchromatic nuclei and scant cytoplasm, arranged in sheets and nests.\n\nThe most likely diagnosis is retinoblastoma. Differential diagnoses include other small blue round cell tumors such as medulloblastoma or neuroblastoma, but the location and clinical presentation strongly favor retinoblastoma.",
+      "rationale": "Try to definitively identify optic nerve stump cross-section at far right posterior—5x provides architecture (nerve bundles/meninges)."
+    },
+    {
+      "roi_id": "slide_A_x9216_y18432_mag10",
+      "tile_id": "slide_A_x9216_y18432_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 9216,
+      "y": 18432,
+      "level0": {
+        "x": 9216,
+        "y": 18432,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense cellular infiltrate with areas of necrosis and calcification. A prominent structure with a thick wall and internal material is also present.\n\nThe most likely diagnosis is retinoblastoma.\n\nDifferential diagnoses include other small blue round cell tumors of the eye, such as medulloepithelioma or metastatic neuroblastoma, which can be distinguished by their distinct histological patterns and clinical presentation.",
+      "rationale": "Mid-power near anterior/left area for possible medulloepithelioma-like epithelium or ciliary body involvement"
+    },
+    {
+      "roi_id": "slide_A_x43520_y14848_mag20",
+      "tile_id": "slide_A_x43520_y14848_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 43520,
+      "y": 14848,
+      "level0": {
+        "x": 43520,
+        "y": 14848,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular neoplasm with small, hyperchromatic cells and scant cytoplasm, arranged in sheets and nests, with areas of necrosis and calcification. The tumor is seen invading the sclera.\n\nThe most likely diagnosis is retinoblastoma.\n\nDifferential diagnoses include other small blue round cell tumors such as medulloepithelioma or metastatic neuroblastoma, which can be distinguished by their distinct histological patterns and clinical presentation.",
+      "rationale": "High power at same suspected nerve stump area to look for tumor within nerve, subarachnoid space, or at margin."
+    },
+    {
+      "roi_id": "slide_A_x43008_y10240_mag5",
+      "tile_id": "slide_A_x43008_y10240_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 43008,
+      "y": 10240,
+      "level0": {
+        "x": 43008,
+        "y": 10240,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a dense cellular proliferation with areas of necrosis and calcification. The cells are small with hyperchromatic nuclei and scant cytoplasm, arranged in sheets and nests.\n\nThe most likely diagnosis is retinoblastoma. Differential diagnoses include other small blue round cell tumors such as medulloblastoma or neuroblastoma, but the location and clinical presentation strongly favor retinoblastoma.",
+      "rationale": "Survey superior posterior sclera for scleral canal/lamina cribrosa region."
+    },
+    {
+      "roi_id": "slide_A_x15360_y24064_mag20",
+      "tile_id": "slide_A_x15360_y24064_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 15360,
+      "y": 24064,
+      "level0": {
+        "x": 15360,
+        "y": 24064,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense cellular infiltrate of small cells with hyperchromatic nuclei and scant cytoplasm, arranged in sheets and nests, with areas of necrosis and calcification. The cells exhibit nuclear molding and crush artifact.\n\nThe most likely diagnosis is retinoblastoma.\n\nDifferential diagnoses include other small blue round cell tumors such as medulloblastoma or neuroblastoma, which can be distinguished by their location and specific immunohistochemical profiles.",
+      "rationale": "High power at perivascular pattern area to confirm pseudorosettes vs true rosettes"
+    },
+    {
+      "roi_id": "slide_A_x20480_y23552_mag10",
+      "tile_id": "slide_A_x20480_y23552_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 20480,
+      "y": 23552,
+      "level0": {
+        "x": 20480,
+        "y": 23552,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a highly cellular neoplasm composed of small cells with hyperchromatic nuclei and scant cytoplasm, arranged in sheets and nests with areas of necrosis and hemorrhage. The cells exhibit a high nuclear-to-cytoplasmic ratio and nuclear molding.\n\nThe most likely diagnosis is retinoblastoma. Differential diagnoses include other small blue round cell tumors such as medulloblastoma or neuroblastoma, which can be distinguished by their location and specific histological features.",
+      "rationale": "Target more viable solid tumor away from necrosis to better identify rosettes."
+    },
+    {
+      "roi_id": "slide_A_x41984_y10752_mag20",
+      "tile_id": "slide_A_x41984_y10752_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 41984,
+      "y": 10752,
+      "level0": {
+        "x": 41984,
+        "y": 10752,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular neoplasm with small, hyperchromatic cells and scant cytoplasm, arranged in sheets and nests. There are also areas of necrosis and calcification.\n\nThe most likely diagnosis is retinoblastoma. Differential diagnoses include other small blue round cell tumors such as medulloblastoma or neuroblastoma, but the clinical context and location strongly favor retinoblastoma.",
+      "rationale": "High power to assess prelaminar/laminar invasion if optic nerve head present here."
+    },
+    {
+      "roi_id": "slide_A_x20480_y24064_mag20",
+      "tile_id": "slide_A_x20480_y24064_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20480,
+      "y": 24064,
+      "level0": {
+        "x": 20480,
+        "y": 24064,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a highly cellular neoplasm composed of small cells with hyperchromatic nuclei and scant cytoplasm, arranged in sheets and nests with areas of necrosis. The cells exhibit nuclear molding and crush artifact.\n\nThe most likely diagnosis is retinoblastoma.\n\nDifferential diagnoses include other small blue round cell tumors such as medulloblastoma or neuroblastoma, which can be distinguished by their location and specific immunohistochemical profiles.",
+      "rationale": "High-power of same viable area for Flexner-Wintersteiner rosettes."
+    },
+    {
+      "roi_id": "slide_A_x9216_y18432_mag20",
+      "tile_id": "slide_A_x9216_y18432_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 9216,
+      "y": 18432,
+      "level0": {
+        "x": 9216,
+        "y": 18432,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a highly cellular neoplasm composed of small cells with hyperchromatic nuclei and scant cytoplasm, arranged in sheets and nests. There is also abundant eosinophilic material and scattered larger cells.\n\nThe most likely diagnosis is retinoblastoma. The differential diagnosis includes other small blue round cell tumors of the eye, such as medulloepithelioma, but the clinical presentation and morphology are most consistent with retinoblastoma.",
+      "rationale": "High power on thick-walled structure area to evaluate vessel/optic nerve/retina and look for differentiation"
+    },
+    {
+      "roi_id": "slide_A_x23552_y29696_mag10",
+      "tile_id": "slide_A_x23552_y29696_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 23552,
+      "y": 29696,
+      "level0": {
+        "x": 23552,
+        "y": 29696,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense cellular infiltrate with areas of necrosis and calcification. The cells are small with hyperchromatic nuclei and scant cytoplasm, arranged in sheets and nests.\n\nThe most likely diagnosis is retinoblastoma. Differential diagnoses include other small blue round cell tumors such as medulloblastoma or neuroblastoma, but the clinical presentation and location strongly favor retinoblastoma.",
+      "rationale": "Inferior tumor component near hemorrhage—look for pattern differences and calcification."
+    },
+    {
+      "roi_id": "slide_A_x35840_y19456_mag20",
+      "tile_id": "slide_A_x35840_y19456_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 35840,
+      "y": 19456,
+      "level0": {
+        "x": 35840,
+        "y": 19456,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense, eosinophilic, fibrillar matrix with scattered small, dark nuclei. There are also areas of pallor and vacuolation.\n\nThe most likely diagnosis is retinoblastoma.\n\nDifferential diagnoses include other small blue round cell tumors of the eye, such as medulloepithelioma or metastatic neuroblastoma, which can be distinguished by their distinct histological patterns and clinical presentation.",
+      "rationale": "High power along eosinophilic amorphous (necrosis/calcification) region for dystrophic calcification and ghost cells"
+    },
+    {
+      "roi_id": "slide_A_x20480_y25600_mag20",
+      "tile_id": "slide_A_x20480_y25600_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20480,
+      "y": 25600,
+      "level0": {
+        "x": 20480,
+        "y": 25600,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a highly cellular neoplasm composed of small cells with hyperchromatic nuclei and scant cytoplasm, arranged in sheets and nests with areas of necrosis. A prominent blood vessel is also present.\n\nThe most likely diagnosis is retinoblastoma.\n\nDifferential diagnoses include other small blue round cell tumors such as medulloblastoma or neuroblastoma, which can be distinguished by their location and specific immunohistochemical profiles.",
+      "rationale": "High power in viable sheets for Flexner-Wintersteiner rosettes/fleurettes"
+    },
+    {
+      "roi_id": "slide_A_x25088_y31744_mag20",
+      "tile_id": "slide_A_x25088_y31744_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 25088,
+      "y": 31744,
+      "level0": {
+        "x": 25088,
+        "y": 31744,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense cellular infiltrate composed of small cells with hyperchromatic nuclei and scant cytoplasm, arranged in sheets and nests, with areas of necrosis and calcification. The cells are seen infiltrating the surrounding tissue.\n\nThe most likely diagnosis is retinoblastoma. The differential diagnosis includes other small blue round cell tumors of the eye, such as medulloepithelioma or metastatic neuroblastoma, but the presence of calcification and the clinical context strongly favor retinoblastoma.",
+      "rationale": "High-power in inferior viable focus to search for Homer Wright rosettes/pseudorosettes."
+    },
+    {
+      "roi_id": "slide_A_x45056_y26624_mag5",
+      "tile_id": "slide_A_x45056_y26624_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 45056,
+      "y": 26624,
+      "level0": {
+        "x": 45056,
+        "y": 26624,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular neoplasm with a prominent reticular pattern and areas of necrosis. The cells have small, hyperchromatic nuclei and scant cytoplasm, with scattered larger cells and eosinophilic material.\n\nThe most likely diagnosis is retinoblastoma. Differential diagnoses include other small blue round cell tumors such as medulloblastoma or neuroblastoma, but the reticular pattern and location are highly suggestive of retinoblastoma.",
+      "rationale": "Right posterior quadrant closer to expected optic nerve stump location; look for nerve bundles/meninges and margin."
+    },
+    {
+      "roi_id": "slide_A_x18432_y31744_mag10",
+      "tile_id": "slide_A_x18432_y31744_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 18432,
+      "y": 31744,
+      "level0": {
+        "x": 18432,
+        "y": 31744,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a densely cellular tumor composed of small cells with hyperchromatic nuclei and scant cytoplasm, arranged in sheets and nests. There are areas of necrosis and scattered calcifications.\n\nThe most likely diagnosis is retinoblastoma. Differential diagnoses include other small blue round cell tumors of the eye, such as medulloepithelioma or metastatic neuroblastoma, which can be distinguished by their distinct histological patterns and clinical presentation.",
+      "rationale": "Explore inferior tumor adjacent to hemorrhage for additional calcification foci and possible retinal attachment"
+    },
+    {
+      "roi_id": "slide_A_x40960_y26624_mag5",
+      "tile_id": "slide_A_x40960_y26624_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 40960,
+      "y": 26624,
+      "level0": {
+        "x": 40960,
+        "y": 26624,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a densely cellular tumor with small, hyperchromatic nuclei and scant cytoplasm, adjacent to a thickened sclera and surrounding fibrous tissue. The tumor appears to be invading the sclera.\n\nThe most likely diagnosis is retinoblastoma. Differential diagnoses include other small blue round cell tumors of the eye, such as medulloepithelioma or metastatic neuroblastoma, but the clinical presentation and morphology are most consistent with retinoblastoma.",
+      "rationale": "Far right wall to look for scleral/choroidal involvement and extraocular extension."
+    },
+    {
+      "roi_id": "slide_A_x45056_y26624_mag10",
+      "tile_id": "slide_A_x45056_y26624_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 45056,
+      "y": 26624,
+      "level0": {
+        "x": 45056,
+        "y": 26624,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows mature adipose tissue with a fibrous capsule and adjacent dense fibrous tissue. The adipocytes are uniform with clear cytoplasm and peripherally located nuclei.\n\nThe most likely diagnosis for this single histology tile is a lipoma. The presence of mature adipose tissue with a fibrous capsule is characteristic of this benign tumor. Differential diagnoses could include other benign mesenchymal tumors with adipose differentiation, such as a fibrolipoma, but the uniformity of the adipocytes and the lack of significant fibrous component in this specific field favor a lipoma.",
+      "rationale": "Assess for tumor within optic nerve/subarachnoid space if nerve stump identified."
+    },
+    {
+      "roi_id": "slide_A_x38912_y36864_mag5",
+      "tile_id": "slide_A_x38912_y36864_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 38912,
+      "y": 36864,
+      "level0": {
+        "x": 38912,
+        "y": 36864,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a low-power view of a CNS-endocrine tissue with a large area of amorphous, eosinophilic material and scattered cellular debris. The tissue is largely acellular with some scattered cells and debris.\n\nThe most likely diagnosis for this CNS-endocrine tissue is retinoblastoma. The presence of amorphous eosinophilic material and cellular debris is consistent with necrosis and calcification, which are common features of retinoblastoma. The clinical history of a 3.5-year-old female with a history of right-eye conjunctivitis and subsequent enucleation for retinoblastoma further supports this diagnosis.\n\nDifferential diagnoses to consider include other small round blue cell tumors of the CNS, such as medulloblastoma or pineoblastoma. However, the clinical history and the presence of necrosis and calcification are more characteristic of retinoblastoma.",
+      "rationale": "Inferior right edge—search for extraocular tissue adjacent to sclera and possible nerve stump remnant."
+    },
+    {
+      "roi_id": "slide_A_x17920_y23040_mag20",
+      "tile_id": "slide_A_x17920_y23040_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 17920,
+      "y": 23040,
+      "level0": {
+        "x": 17920,
+        "y": 23040,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a highly cellular neoplasm composed of small cells with hyperchromatic nuclei and scant cytoplasm, arranged in sheets and nests. Prominent features include areas of necrosis and the presence of Homer-Wright rosettes.\n\nThe most likely diagnosis is retinoblastoma. Differential diagnoses include other small blue round cell tumors such as medulloblastoma or neuroblastoma, which can be distinguished by their location and specific histological features.",
+      "rationale": "Unexplored viable-appearing central tumor focus—maximize chance to find true rosettes."
+    },
+    {
+      "roi_id": "slide_A_x38912_y32768_mag10",
+      "tile_id": "slide_A_x38912_y32768_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 38912,
+      "y": 32768,
+      "level0": {
+        "x": 38912,
+        "y": 32768,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense cellular proliferation with small, hyperchromatic nuclei and scant cytoplasm, arranged in sheets and nests, with areas of necrosis and calcification. The tumor infiltrates the surrounding tissue.\n\nThe most likely diagnosis is retinoblastoma. Differential diagnoses include other small blue round cell tumors such as medulloblastoma or neuroblastoma, but the location and clinical presentation strongly favor retinoblastoma.",
+      "rationale": "Confirm whether tumor breaches sclera into orbital soft tissue at inferior posterior edge."
+    },
+    {
+      "roi_id": "slide_A_x26624_y17920_mag20",
+      "tile_id": "slide_A_x26624_y17920_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 26624,
+      "y": 17920,
+      "level0": {
+        "x": 26624,
+        "y": 17920,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense cellular infiltrate composed of small cells with hyperchromatic nuclei and scant cytoplasm, along with areas of necrosis and calcification. These features are consistent with a malignant neoplasm of the retina.\n\nThe most likely diagnosis is retinoblastoma. Differential diagnoses include other small blue round cell tumors, but the location and clinical presentation strongly favor retinoblastoma.",
+      "rationale": "More peripheral cellular nests away from necrosis—look for Flexner-Wintersteiner lumina."
+    },
+    {
+      "roi_id": "slide_A_x23040_y17408_mag20",
+      "tile_id": "slide_A_x23040_y17408_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 23040,
+      "y": 17408,
+      "level0": {
+        "x": 23040,
+        "y": 17408,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense cellular infiltrate composed of small cells with hyperchromatic nuclei and scant cytoplasm, along with areas of necrosis and calcification. These features are consistent with a malignant neoplasm of the retina.\n\nThe most likely diagnosis is retinoblastoma. Differential diagnoses include other small blue cell tumors of the eye, such as medulloepithelioma or metastatic neuroblastoma, which can be distinguished by their distinct histological patterns and clinical presentation.",
+      "rationale": "Superior tumor focus—search rosettes/pseudorosettes."
+    },
+    {
+      "roi_id": "slide_A_x24576_y36864_mag2",
+      "tile_id": "slide_A_x24576_y36864_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 24576,
+      "y": 36864,
+      "level0": {
+        "x": 24576,
+        "y": 36864,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a dense cellular infiltrate with areas of necrosis and calcification. The cells are small with hyperchromatic nuclei and scant cytoplasm, arranged in sheets and nests.\n\nThe most likely diagnosis is retinoblastoma. Differential diagnoses include other small blue round cell tumors such as medulloblastoma or neuroblastoma, but the location and clinical presentation strongly favor retinoblastoma.",
+      "rationale": "Posterior pole opposite prior right-edge sampling; look for optic nerve head/lamina cribrosa within globe."
+    },
+    {
+      "roi_id": "slide_A_x41984_y26624_mag10",
+      "tile_id": "slide_A_x41984_y26624_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 41984,
+      "y": 26624,
+      "level0": {
+        "x": 41984,
+        "y": 26624,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense fibrous layer, a cellular proliferation of small cells with hyperchromatic nuclei and scant cytoplasm, and a large nerve bundle. The cellular proliferation is consistent with a small blue cell tumor.\n\nThe most likely diagnosis is retinoblastoma.\n\nDifferential diagnoses include other small blue cell tumors such as neuroblastoma or medulloblastoma, which can be distinguished by their typical locations and immunohistochemical profiles.",
+      "rationale": "Right wall/coat interface—confirm scleral/choroidal invasion."
+    },
+    {
+      "roi_id": "slide_A_x23552_y33792_mag10",
+      "tile_id": "slide_A_x23552_y33792_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 23552,
+      "y": 33792,
+      "level0": {
+        "x": 23552,
+        "y": 33792,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense cellular infiltrate with areas of necrosis and hemorrhage, along with a large, round, laminated structure. The cellular component consists of small cells with hyperchromatic nuclei.\n\nThe most likely diagnosis is retinoblastoma. Differential diagnoses include other small blue round cell tumors of the eye, such as medulloepithelioma or metastatic neuroblastoma, which can be distinguished by their distinct histological patterns and clinical presentation.",
+      "rationale": "If disc region present, assess lamina cribrosa involvement at intermediate power."
+    },
+    {
+      "roi_id": "slide_A_x32768_y38912_mag10",
+      "tile_id": "slide_A_x32768_y38912_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 32768,
+      "y": 38912,
+      "level0": {
+        "x": 32768,
+        "y": 38912,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a layered structure with a dense, wavy outer layer and a less dense inner layer containing scattered cells and linear structures. The inner layer is consistent with a tumor.\n\nThe most likely diagnosis is retinoblastoma.\n\nDifferential diagnoses include other intraocular tumors such as medulloepithelioma or astrocytoma, which can also present as intraocular masses in children. However, the characteristic features of retinoblastoma, such as the presence of calcifications and the specific location within the vitreous cavity, help distinguish it from these other entities.",
+      "rationale": "Posterior pole near optic nerve head candidate—assess optic nerve invasion."
+    },
+    {
+      "roi_id": "slide_A_x28672_y40960_mag2",
+      "tile_id": "slide_A_x28672_y40960_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 28672,
+      "y": 40960,
+      "level0": {
+        "x": 28672,
+        "y": 40960,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a large, irregular, intensely eosinophilic structure with a fibrillar and striated appearance, consistent with a calcified tumor mass.\n\nThe most likely diagnosis is retinoblastoma, given the clinical history and the presence of calcification in the eye.\n\nDifferential diagnoses could include other calcified intraocular tumors, but the clinical presentation and gross findings strongly favor retinoblastoma.",
+      "rationale": "Near posterior inferior midline—possible optic nerve stump attachment area."
+    },
+    {
+      "roi_id": "slide_A_x32768_y37888_mag10",
+      "tile_id": "slide_A_x32768_y37888_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 32768,
+      "y": 37888,
+      "level0": {
+        "x": 32768,
+        "y": 37888,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense, eosinophilic, acellular structure with a wavy pattern, consistent with sclera. There is a large, irregular, dark purple artifact present.\n\nThe most likely diagnosis for this specific image is normal sclera. The differential diagnosis for this image is limited due to the lack of cellular or tissue content.",
+      "rationale": "Detail check for nerve bundles/meninges and tumor tracking along nerve."
+    },
+    {
+      "roi_id": "slide_A_x43008_y26112_mag20",
+      "tile_id": "slide_A_x43008_y26112_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 43008,
+      "y": 26112,
+      "level0": {
+        "x": 43008,
+        "y": 26112,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense, hyalinized fibrous stroma with scattered spindle cells and prominent nerve bundles. The stroma is composed of thick, wavy collagen bundles.\n\nThe most likely diagnosis for this single tile is a fibrous histiocytoma. Differential diagnoses include neurofibroma, which would show more prominent nerve bundles and a less dense collagenous stroma, and schwannoma, which typically has Antoni A and B areas and Verocay bodies.",
+      "rationale": "High power at right wall interface where scleral invasion suspected—verify coat/optic nerve involvement."
+    },
+    {
+      "roi_id": "slide_A_x41984_y28672_mag10",
+      "tile_id": "slide_A_x41984_y28672_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 41984,
+      "y": 28672,
+      "level0": {
+        "x": 41984,
+        "y": 28672,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular neoplasm composed of small cells with hyperchromatic nuclei and scant cytoplasm, arranged in sheets and nests, with areas of necrosis and calcification. The tumor is associated with a prominent desmoplastic stromal reaction.\n\nThe most likely diagnosis is retinoblastoma. Differential diagnoses include other small blue round cell tumors of the eye, such as medulloepithelioma or metastatic neuroblastoma, which can be distinguished by their distinct histological patterns and clinical presentation.",
+      "rationale": "Track tumor along coats toward optic nerve; look for choroidal invasion pattern."
+    },
+    {
+      "roi_id": "slide_A_x43008_y20480_mag5",
+      "tile_id": "slide_A_x43008_y20480_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 43008,
+      "y": 20480,
+      "level0": {
+        "x": 43008,
+        "y": 20480,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a densely cellular tumor composed of small cells with hyperchromatic nuclei and scant cytoplasm, adjacent to the sclera and optic nerve. The tumor appears to be invading the sclera.\n\nThe most likely diagnosis is retinoblastoma. Differential diagnoses include other small blue round cell tumors of the eye, such as medulloepithelioma or metastatic neuroblastoma, which can be distinguished by their distinct histological patterns and clinical presentation.",
+      "rationale": "Posterior right thick sclera/orbital fat interface—verify extraocular extension."
+    },
+    {
+      "roi_id": "slide_A_x40448_y30720_mag20",
+      "tile_id": "slide_A_x40448_y30720_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 40448,
+      "y": 30720,
+      "level0": {
+        "x": 40448,
+        "y": 30720,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense proliferation of spindle cells with elongated, wavy nuclei arranged in intersecting fascicles. The cells are embedded in a pink, fibrillary matrix.\n\nThe most likely diagnosis is a spindle cell neoplasm, such as a schwannoma or neurofibroma. Differential diagnoses include other spindle cell tumors like leiomyoma or solitary fibrous tumor, which can be distinguished by their characteristic cellular morphology and immunohistochemical profiles.",
+      "rationale": "Search for tumor within/around large nerve bundle (optic nerve) seen at 10x."
+    },
+    {
+      "roi_id": "slide_A_x44032_y21504_mag20",
+      "tile_id": "slide_A_x44032_y21504_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 44032,
+      "y": 21504,
+      "level0": {
+        "x": 44032,
+        "y": 21504,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a highly cellular neoplasm composed of small cells with hyperchromatic nuclei and scant cytoplasm, arranged in sheets and nests. There is evidence of necrosis and calcification.\n\nThe most likely diagnosis is retinoblastoma. Differential diagnoses include other small blue round cell tumors such as medulloblastoma or neuroblastoma, but the location and clinical presentation strongly favor retinoblastoma.",
+      "rationale": "High power at scleral breach to confirm tumor beyond sclera."
+    },
+    {
+      "roi_id": "slide_A_x44032_y22528_mag10",
+      "tile_id": "slide_A_x44032_y22528_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 44032,
+      "y": 22528,
+      "level0": {
+        "x": 44032,
+        "y": 22528,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a transition from dense fibrous tissue to a less cellular area with abundant amorphous material and scattered cells. The cells in the less cellular area are small with hyperchromatic nuclei and scant cytoplasm.\n\nThe most likely diagnosis is retinoblastoma. The presence of small, hyperchromatic cells in a background of necrosis and calcification is characteristic of this tumor. Differential diagnoses could include other small blue round cell tumors, but the clinical context and morphology strongly favor retinoblastoma.",
+      "rationale": "Peripheral anterior segment wall—rule out extraocular extension/episcleral involvement."
+    },
+    {
+      "roi_id": "slide_A_x45056_y20480_mag5",
+      "tile_id": "slide_A_x45056_y20480_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 45056,
+      "y": 20480,
+      "level0": {
+        "x": 45056,
+        "y": 20480,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a dense cellular proliferation with areas of necrosis and calcification, along with a prominent inflammatory infiltrate. The tumor cells are small with hyperchromatic nuclei and scant cytoplasm, arranged in sheets and nests.\n\nThe most likely diagnosis is retinoblastoma. Differential diagnoses include other small blue round cell tumors such as medulloblastoma or neuroblastoma, but the location and clinical presentation strongly favor retinoblastoma.",
+      "rationale": "Extreme right edge to look for optic nerve stump/meninges (subarachnoid space) architecture."
+    },
+    {
+      "roi_id": "slide_A_x45056_y21504_mag10",
+      "tile_id": "slide_A_x45056_y21504_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 45056,
+      "y": 21504,
+      "level0": {
+        "x": 45056,
+        "y": 21504,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense cellular proliferation with areas of necrosis and calcification, along with a prominent inflammatory infiltrate.",
+      "rationale": "Assess for tumor in optic nerve, perineural, or meningeal spaces if stump present."
+    },
+    {
+      "roi_id": "slide_A_x45056_y10240_mag5",
+      "tile_id": "slide_A_x45056_y10240_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 45056,
+      "y": 10240,
+      "level0": {
+        "x": 45056,
+        "y": 10240,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a low-power view of a CNS-endocrine tissue with a large area of dense, basophilic material. The surrounding tissue appears less cellular and more eosinophilic.\n\nThe most likely diagnosis for this CNS-endocrine tissue is a pituitary adenoma. The dense basophilic material could represent calcification or necrosis within the adenoma. Differential diagnoses could include other pituitary lesions such as craniopharyngioma or Rathke's cleft cyst, but the overall morphology is most consistent with a pituitary adenoma.",
+      "rationale": "Superior posterior pole; search for optic disc/lamina cribrosa structures."
+    }
+  ]
+}

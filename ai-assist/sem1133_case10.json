@@ -1,0 +1,1134 @@
+{
+  "case_id": "sem1133_case10",
+  "source": "slideseek-ai-assist",
+  "model": "gpt-5.4",
+  "generated_at": "2026-05-22T09:20:38.948522+00:00",
+  "organ": "Breast",
+  "primary_dx": "Lactating Adenoma Of Breast",
+  "differential_dx": [
+    "Tubular Adenoma With Lactational Change",
+    "Fibroadenoma With Lactational Change"
+  ],
+  "microscopic_findings": [
+    {
+      "text": "Closely packed **tubules and acini** show a **circumscribed tubuloacinar proliferation** with scant intervening stroma.",
+      "roi_ids": [
+        "slide_A_x24576_y6144_mag10",
+        "slide_A_x28672_y11264_mag10"
+      ]
+    },
+    {
+      "text": "Lining cells have abundant **clear/vacuolated cytoplasm** and **basally oriented bland nuclei**, consistent with secretory change.",
+      "roi_ids": [
+        "slide_A_x16896_y11776_mag20",
+        "slide_A_x25600_y18432_mag20"
+      ]
+    },
+    {
+      "text": "Many lumina contain dense **eosinophilic secretions** with variable **cystic dilatation** of glandular spaces.",
+      "roi_ids": [
+        "slide_A_x5120_y20992_mag20",
+        "slide_A_x30208_y12288_mag20"
+      ]
+    },
+    {
+      "text": "Glands retain a **myoepithelial layer** and lack **cytologic atypia**, necrosis, or infiltrative angulated growth.",
+      "roi_ids": [
+        "slide_A_x23040_y17408_mag20",
+        "slide_A_x20992_y12288_mag20"
+      ]
+    }
+  ],
+  "interpretation": "The lesion is a **lactating adenoma**, showing a circumscribed **tubuloacinar proliferation** with striking secretory change, including vacuolated cytoplasm, basally placed bland nuclei, and luminal eosinophilic secretions. The scant stroma and epithelial predominance favor this over fibroadenoma with lactational change, while the preserved **myoepithelial layer** and lack of **infiltrative growth** or atypia argue strongly against secretory carcinoma. Overall morphology is most consistent with **lactating adenoma of breast**.",
+  "num_rois": 68,
+  "tiles": [
+    {
+      "roi_id": "slide_A_x16384_y16384_mag1",
+      "tile_id": "slide_A_x16384_y16384_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 16384,
+      "y": 16384,
+      "level0": {
+        "x": 16384,
+        "y": 16384,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a well-circumscribed lesion composed of numerous variably sized cystic and glandular spaces, many containing eosinophilic material, separated by scant stroma. The cells lining these spaces are relatively uniform.\n\nThe most likely diagnosis is a lactating adenoma. This benign breast lesion is characterized by a proliferation of glandular tissue with prominent cystic change and secretory activity, often seen in pregnant or lactating women.\n\nDifferential diagnoses include fibroadenoma, which typically shows a more prominent stromal component and less cystic change, and secretory carcinoma, which would exhibit more cellular atypia and characteristic intraluminal secretions.",
+      "rationale": "Whole-section overview for circumscription, capsule, lobulation, adipose and cystic components."
+    },
+    {
+      "roi_id": "slide_A_x16384_y8192_mag1",
+      "tile_id": "slide_A_x16384_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 16384,
+      "y": 8192,
+      "level0": {
+        "x": 16384,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a well-circumscribed lesion composed of numerous variably sized cystic and tubular spaces lined by epithelial cells, with some spaces containing eosinophilic material. The stroma is scant.\n\nThe most likely diagnosis is a lactating adenoma, a benign breast lesion characterized by prominent cystic and tubular changes with secretory activity, often seen in pregnant or lactating women.\n\nDifferential diagnoses include fibroadenoma with cystic change and secretory carcinoma. Fibroadenomas typically have a more prominent stromal component and lack the extensive secretory changes. Secretory carcinoma, while also showing secretory features, is a malignant neoplasm with infiltrative growth and cytologic atypia, which are not seen in this image.",
+      "rationale": "Whole-lesion low power overview for circumscription and stromal architecture."
+    },
+    {
+      "roi_id": "slide_A_x16384_y12288_mag2",
+      "tile_id": "slide_A_x16384_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 16384,
+      "y": 12288,
+      "level0": {
+        "x": 16384,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a proliferation of variably sized tubules and cysts, many containing eosinophilic secretions, within a cellular stroma. The tubules are lined by a single layer of cuboidal to low columnar epithelial cells.\n\nThe most likely diagnosis is lactating adenoma. This benign breast lesion is characterized by a proliferation of glandular tissue with secretory changes, often seen in pregnant or lactating women. The presence of variably sized tubules and cysts filled with eosinophilic secretions, along with the clinical history of a pregnant patient with bilateral breast masses, strongly supports this diagnosis.\n\nDifferential diagnoses include fibroadenoma with secretory changes and tubular adenoma. Fibroadenoma typically shows a more prominent stromal component and lacks the extensive secretory changes seen in lactating adenoma. Tubular adenoma is characterized by a proliferation of small, uniform tubules, often with a more infiltrative growth pattern, and lacks the prominent secretory changes and cystic dilation seen in lactating adenoma.",
+      "rationale": "Low-power overview of central tumor architecture/circumscription."
+    },
+    {
+      "roi_id": "slide_A_x4096_y8192_mag2",
+      "tile_id": "slide_A_x4096_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 4096,
+      "y": 8192,
+      "level0": {
+        "x": 4096,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a well-circumscribed lesion composed of numerous cystic spaces of varying sizes, lined by flattened to cuboidal epithelium, with some containing eosinophilic material. The stroma is fibrous and cellular.\n\nThe most likely diagnosis is a lactating adenoma, a benign breast lesion characterized by cystic dilation of acini and stromal edema, often seen in pregnant or lactating women.\n\nDifferential diagnoses include fibroadenoma, which typically shows a biphasic pattern of stromal and epithelial proliferation, and cystic hypersecretory hyperplasia, which features abundant eosinophilic secretions within cysts and may show apocrine metaplasia.",
+      "rationale": "Sample peripheral area for capsule/edge and stromal pattern."
+    },
+    {
+      "roi_id": "slide_A_x8192_y6144_mag5",
+      "tile_id": "slide_A_x8192_y6144_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 8192,
+      "y": 6144,
+      "level0": {
+        "x": 8192,
+        "y": 6144,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a well-circumscribed lesion composed of a proliferation of spindle cells arranged in fascicles and whorls, with interspersed slit-like spaces. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is myofibroblastoma. This benign mesenchymal tumor is characterized by spindle cells with myofibroblastic differentiation, often arranged in fascicles and whorls, and can occur in the breast.\n\nDifferential diagnoses include solitary fibrous tumor, which typically shows a more haphazard pattern and prominent hemangiopericytoma-like vessels, and fibromatosis, which is more infiltrative and lacks the well-circumscribed nature.",
+      "rationale": "Sample peripheral area for circumscription and stromal component."
+    },
+    {
+      "roi_id": "slide_A_x28672_y4096_mag2",
+      "tile_id": "slide_A_x28672_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 28672,
+      "y": 4096,
+      "level0": {
+        "x": 28672,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a well-circumscribed lesion composed of numerous small, closely packed tubules lined by a double layer of cells. The stroma is scant.\n\nThe most likely diagnosis is tubular adenoma.\n\nDifferential diagnoses include fibroadenoma, which typically has more prominent stromal components and less uniform tubular architecture, and tubular carcinoma, which would show infiltrative growth and lack a myoepithelial layer.",
+      "rationale": "Opposite peripheral area to assess heterogeneity and borders."
+    },
+    {
+      "roi_id": "slide_A_x24576_y8192_mag2",
+      "tile_id": "slide_A_x24576_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 24576,
+      "y": 8192,
+      "level0": {
+        "x": 24576,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a proliferation of closely packed, variably sized glandular structures with lumens containing eosinophilic material, lined by cuboidal to low columnar cells with basally oriented nuclei. The stroma is scant.\n\nThe most likely diagnosis is lactating adenoma. This diagnosis is supported by the clinical context of pregnancy and the morphologic features of a well-circumscribed proliferation of glandular tissue with secretory changes.\n\nDifferential diagnoses include fibroadenoma with secretory changes and tubular adenoma. Fibroadenoma typically shows a more prominent stromal component, while tubular adenoma is characterized by a proliferation of small, uniform tubules.",
+      "rationale": "Opposite peripheral area to compare edge/capsule and heterogeneity."
+    },
+    {
+      "roi_id": "slide_A_x24576_y6144_mag5",
+      "tile_id": "slide_A_x24576_y6144_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 24576,
+      "y": 6144,
+      "level0": {
+        "x": 24576,
+        "y": 6144,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a proliferation of closely packed, small, round to oval glandular structures with minimal intervening stroma. The glands are lined by cuboidal to low columnar cells with basally oriented nuclei and eosinophilic cytoplasm, and some lumens contain eosinophilic material.\n\nThe most likely diagnosis is lactating adenoma. This benign breast lesion is characterized by a proliferation of glandular tissue with secretory changes, which aligns with the morphologic features observed in the image. The clinical context of a pregnant patient with bilateral breast masses further supports this diagnosis.\n\nDifferential diagnoses include fibroadenoma, which typically shows a biphasic pattern with both epithelial and stromal components, and secretory carcinoma, which would exhibit more prominent secretory material and potentially cellular atypia.",
+      "rationale": "Sample opposite peripheral area; look for lobulated pattern, fat."
+    },
+    {
+      "roi_id": "slide_A_x16384_y20480_mag2",
+      "tile_id": "slide_A_x16384_y20480_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 16384,
+      "y": 20480,
+      "level0": {
+        "x": 16384,
+        "y": 20480,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a well-circumscribed lesion composed of numerous small, closely packed acini and tubules with scant intervening stroma. The acini are lined by cuboidal to low columnar cells with basally oriented nuclei and eosinophilic cytoplasm, and some lumens contain eosinophilic secretions.\n\nThe most likely diagnosis is lactating adenoma. This benign breast lesion is characterized by a proliferation of acini and tubules with secretory changes, which aligns with the morphologic features observed in the image. The clinical context of a pregnant patient with bilateral breast masses further supports this diagnosis.\n\nDifferential diagnoses include fibroadenoma, which typically shows a biphasic pattern with both epithelial and stromal components, and secretory carcinoma, which would exhibit more prominent secretory material and potentially cellular atypia.",
+      "rationale": "Inferior aspect near apparent clefting/central septation for stromal changes."
+    },
+    {
+      "roi_id": "slide_A_x24576_y18432_mag5",
+      "tile_id": "slide_A_x24576_y18432_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 24576,
+      "y": 18432,
+      "level0": {
+        "x": 24576,
+        "y": 18432,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a proliferation of variably sized tubules and cysts within a fibrous stroma. Many lumens contain eosinophilic secretions, and the epithelial cells lining the structures are generally cuboidal to low columnar.\n\nThe most likely diagnosis is lactating adenoma. This benign breast lesion is characterized by a proliferation of glandular tissue with secretory changes, often seen in pregnant or lactating women. The presence of abundant eosinophilic secretions within the lumens and the clinical context of a pregnant patient with bilateral breast masses are consistent with this diagnosis.\n\nDifferential diagnoses include fibroadenoma with secretory changes and tubular adenoma. Fibroadenomas typically have a more prominent stromal component and less pronounced secretory changes. Tubular adenomas are characterized by a proliferation of small, round tubules, often with a more infiltrative pattern.",
+      "rationale": "Inferior-right area: evaluate any cystic/secretory change."
+    },
+    {
+      "roi_id": "slide_A_x10240_y6144_mag5",
+      "tile_id": "slide_A_x10240_y6144_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 10240,
+      "y": 6144,
+      "level0": {
+        "x": 10240,
+        "y": 6144,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a well-circumscribed lesion composed of numerous dilated acini and ducts filled with abundant eosinophilic secretions. The epithelial lining is generally flattened to cuboidal.\n\nThe most likely diagnosis is lactating adenoma. This benign breast lesion is characterized by dilated acini and ducts filled with secretions, often seen in pregnant or lactating women. The well-circumscribed nature and the presence of abundant secretions are key features.\n\nDifferential diagnoses include fibroadenoma with lactational changes and secretory carcinoma. Fibroadenoma typically shows a biphasic pattern with both epithelial and stromal components, while secretory carcinoma would show more cellular atypia and characteristic intraluminal secretions.",
+      "rationale": "Upper central area to evaluate lobulation and any intracanalicular/leaf-like pattern."
+    },
+    {
+      "roi_id": "slide_A_x28672_y10752_mag20",
+      "tile_id": "slide_A_x28672_y10752_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 28672,
+      "y": 10752,
+      "level0": {
+        "x": 28672,
+        "y": 10752,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of small, closely packed tubules lined by cuboidal cells with eosinophilic cytoplasm and round nuclei. Lumens contain eosinophilic secretions, and the stroma is scant.\n\nThe most likely diagnosis is lactating adenoma, a benign breast lesion characterized by secretory changes in the tubules.\n\nDifferential diagnoses include fibroadenoma with secretory changes and tubular carcinoma. Fibroadenoma typically shows a biphasic pattern with stromal proliferation, while tubular carcinoma is characterized by angulated tubules infiltrating the stroma.",
+      "rationale": "High power check for stromal atypia/mitoses in right-sided area."
+    },
+    {
+      "roi_id": "slide_A_x28672_y11264_mag10",
+      "tile_id": "slide_A_x28672_y11264_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 28672,
+      "y": 11264,
+      "level0": {
+        "x": 28672,
+        "y": 11264,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of closely packed tubules lined by cuboidal to low columnar cells with eosinophilic cytoplasm and round nuclei. Lumens contain eosinophilic secretions, and there is prominent interstitial hemorrhage.\n\nThe most likely diagnosis is lactating adenoma. This benign breast lesion is characterized by a proliferation of tubules with secretory changes, consistent with the clinical history of pregnancy. The prominent hemorrhage is also a common finding. Differential diagnoses include fibroadenoma with secretory changes and tubular adenoma, but the diffuse secretory changes and hemorrhage are more characteristic of lactating adenoma.",
+      "rationale": "Sample more cellular-appearing stromal zone on right side at 10x for stromal cellularity/atypia and any leaf-like architecture."
+    },
+    {
+      "roi_id": "slide_A_x24576_y8192_mag5",
+      "tile_id": "slide_A_x24576_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 24576,
+      "y": 8192,
+      "level0": {
+        "x": 24576,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a proliferation of closely packed, variably sized tubules and acini with luminal secretions, separated by scant stroma. A large duct is also present.\n\nThe most likely diagnosis is lactating adenoma.\n\nDifferential diagnoses include fibroadenoma, which typically shows a biphasic pattern with prominent stromal component, and tubular adenoma, which lacks the prominent secretory changes seen here.",
+      "rationale": "Right upper area with denser stroma to assess for phyllodes-like clefts or stromal overgrowth."
+    },
+    {
+      "roi_id": "slide_A_x24576_y6144_mag10",
+      "tile_id": "slide_A_x24576_y6144_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 24576,
+      "y": 6144,
+      "level0": {
+        "x": 24576,
+        "y": 6144,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of closely packed acini and tubules with luminal secretions and a prominent myoepithelial cell layer. The stroma is scant and fibrovascular.\n\nThe most likely diagnosis is lactating adenoma. This benign lesion is characterized by a proliferation of acini and tubules with luminal secretions and a prominent myoepithelial layer, consistent with the clinical history of pregnancy.\n\nDifferential diagnoses include fibroadenoma, which typically shows a more prominent stromal component, and tubular adenoma, which lacks the prominent myoepithelial layer and luminal secretions seen here.",
+      "rationale": "Densely packed glands area—assess tubular vs lactational architecture."
+    },
+    {
+      "roi_id": "slide_A_x23040_y17408_mag20",
+      "tile_id": "slide_A_x23040_y17408_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 23040,
+      "y": 17408,
+      "level0": {
+        "x": 23040,
+        "y": 17408,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of variably sized tubules lined by a single layer of cuboidal to low columnar cells with bland nuclei and eosinophilic cytoplasm. Lumens contain eosinophilic secretions, and the stroma is fibrous with scattered chronic inflammation.\n\nThe most likely diagnosis is lactating adenoma. This benign lesion is characterized by a proliferation of tubules with secretory changes, consistent with the clinical history of pregnancy. The differential diagnosis includes fibroadenoma, which typically shows a biphasic pattern with stromal and epithelial components, and tubular adenoma, which lacks the prominent secretory changes seen here.",
+      "rationale": "High power check for stromal mitotic activity/atypia around glands."
+    },
+    {
+      "roi_id": "slide_A_x6144_y16384_mag5",
+      "tile_id": "slide_A_x6144_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 6144,
+      "y": 16384,
+      "level0": {
+        "x": 6144,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a proliferation of variably sized tubules and cysts within a cellular stroma. The tubules are lined by a single layer of cuboidal to low columnar cells with eosinophilic cytoplasm and round nuclei, and some lumens contain eosinophilic material.\n\nThe most likely diagnosis is tubular adenoma. This benign lesion is characterized by a proliferation of small, round to oval tubules lined by a single layer of epithelial cells, often with eosinophilic cytoplasm and round nuclei, set within a cellular stroma. The presence of cystic dilation and eosinophilic luminal material is also consistent with this diagnosis.\n\nDifferential diagnoses include fibroadenoma, which typically shows a biphasic proliferation of both epithelial and stromal components, and adenoid cystic carcinoma, which is characterized by cribriform architecture and basaloid cells.",
+      "rationale": "Left mid-lower area to look for adipose admixture/hamartoma and duct distribution."
+    },
+    {
+      "roi_id": "slide_A_x22528_y17408_mag10",
+      "tile_id": "slide_A_x22528_y17408_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 22528,
+      "y": 17408,
+      "level0": {
+        "x": 22528,
+        "y": 17408,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of variably sized cystic and tubular structures lined by cuboidal to low columnar cells with eosinophilic cytoplasm and round nuclei. Lumens contain eosinophilic material, and the stroma is fibrous.\n\nThe most likely diagnosis is lactating adenoma. This benign breast lesion is characterized by a proliferation of glandular tissue with secretory changes, often seen in pregnant or lactating women. The presence of cystic and tubular structures with eosinophilic luminal material and cuboidal to low columnar cells with eosinophilic cytoplasm is consistent with this diagnosis.\n\nDifferential diagnoses include fibroadenoma with secretory changes and tubular adenoma. Fibroadenoma typically shows a more prominent stromal component and lacks the prominent secretory changes seen in lactating adenoma. Tubular adenoma is characterized by a proliferation of small, round tubules lined by a single layer of epithelial cells, which is different from the cystic and tubular structures seen in this image.",
+      "rationale": "Evaluate central-right area with larger glands for periductal stromal condensation/phyllodes-like clefts."
+    },
+    {
+      "roi_id": "slide_A_x16384_y12288_mag10",
+      "tile_id": "slide_A_x16384_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 16384,
+      "y": 12288,
+      "level0": {
+        "x": 16384,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of variably sized tubules and cysts lined by cells with clear cytoplasm and small, basally located nuclei, set within a fibrous stroma. The tubules are often closely packed with minimal intervening stroma.\n\nThe most likely diagnosis is lactating adenoma. This benign breast lesion is characterized by a proliferation of tubules and cysts lined by cells with abundant clear cytoplasm, reflecting secretory activity, and small, basally located nuclei. The clinical context of a pregnant patient with bilateral breast masses is highly suggestive of this diagnosis.\n\nDifferential diagnoses include tubular adenoma and fibroadenoma. Tubular adenoma typically shows more uniform, round tubules with less prominent secretory changes. Fibroadenoma is characterized by a biphasic proliferation of both epithelial and stromal components, with the stroma often being more cellular and less fibrous than seen in this image.",
+      "rationale": "Central area with mixed tubules/cysts—evaluate lobular arrangement and stroma."
+    },
+    {
+      "roi_id": "slide_A_x11776_y14848_mag20",
+      "tile_id": "slide_A_x11776_y14848_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 11776,
+      "y": 14848,
+      "level0": {
+        "x": 11776,
+        "y": 14848,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of variably sized tubules and cysts lined by cells with abundant clear cytoplasm and small, basally located nuclei. The lumens contain eosinophilic material, and the stroma is fibrovascular.\n\nThe most likely diagnosis is lactating adenoma. This benign lesion is characterized by the presence of secretory changes in the breast epithelium, which is consistent with the patient's pregnancy status. The clear cytoplasm and eosinophilic luminal material are typical features of lactation.\n\nDifferential diagnoses include fibroadenoma with secretory changes and tubular adenoma. Fibroadenoma typically has a more prominent stromal component and lacks the extensive secretory changes seen here. Tubular adenoma is characterized by a proliferation of small, angulated tubules, which is not the predominant pattern in this image.",
+      "rationale": "High power look for PASH slits and stromal cytology."
+    },
+    {
+      "roi_id": "slide_A_x16384_y12288_mag5",
+      "tile_id": "slide_A_x16384_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 16384,
+      "y": 12288,
+      "level0": {
+        "x": 16384,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a proliferation of variably sized tubules and cysts within a fibrous stroma, with some tubules containing eosinophilic material. The tubules are lined by a double layer of cells, including inner epithelial cells with eosinophilic cytoplasm and outer myoepithelial cells.\n\nThe most likely diagnosis is tubular adenoma. This benign tumor is characterized by a proliferation of tubules and cysts lined by a double layer of epithelial and myoepithelial cells, often with eosinophilic secretions within the lumens.\n\nDifferential diagnoses include fibroadenoma, which typically shows a more prominent stromal component and less tubular differentiation, and adenomyoepithelioma, which would show a more prominent myoepithelial component and often a more solid growth pattern.",
+      "rationale": "Central region to confirm circumscription/capsule and overall gland-to-stroma ratio."
+    },
+    {
+      "roi_id": "slide_A_x12288_y15360_mag10",
+      "tile_id": "slide_A_x12288_y15360_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 12288,
+      "y": 15360,
+      "level0": {
+        "x": 12288,
+        "y": 15360,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of variably sized tubules and cysts within a fibrous stroma. The tubules are lined by a single layer of cuboidal to low columnar cells with bland nuclei and eosinophilic cytoplasm, and some lumens contain eosinophilic material.\n\nThe most likely diagnosis is tubular adenoma. This benign lesion is characterized by a proliferation of small, round to oval tubules lined by a single layer of bland epithelial cells, often with a fibrous stroma. The presence of cystic dilation and eosinophilic luminal material is also consistent with this diagnosis.\n\nDifferential diagnoses include fibroadenoma, which typically shows a biphasic proliferation of both epithelial and stromal components, and adenosis, which is characterized by an increased number of small, round tubules within the terminal duct lobular unit.",
+      "rationale": "Central area to assess overall stroma at 10x and look for PASH-like slits."
+    },
+    {
+      "roi_id": "slide_A_x8192_y18944_mag20",
+      "tile_id": "slide_A_x8192_y18944_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 8192,
+      "y": 18944,
+      "level0": {
+        "x": 8192,
+        "y": 18944,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of variably sized tubules and cysts lined by cuboidal to low columnar cells with eosinophilic cytoplasm and round nuclei. Lumens contain eosinophilic material, and the stroma is fibrous with scattered inflammation.\n\nThe most likely diagnosis is lactating adenoma, given the clinical context of pregnancy and the morphologic features of tubular and cystic proliferation with eosinophilic luminal secretions and cellular changes.\n\nDifferential diagnoses include fibroadenoma, which typically shows a more prominent stromal component and lacks the prominent secretory changes, and tubular adenoma, which is characterized by a proliferation of small, uniform tubules without significant secretory changes.",
+      "rationale": "High power at periphery for infiltration and stromal atypia."
+    },
+    {
+      "roi_id": "slide_A_x24576_y18432_mag10",
+      "tile_id": "slide_A_x24576_y18432_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 24576,
+      "y": 18432,
+      "level0": {
+        "x": 24576,
+        "y": 18432,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of variably sized tubules and cysts lined by cuboidal to low columnar cells with eosinophilic cytoplasm and round nuclei. Lumens contain eosinophilic material, and the stroma is fibrous.\n\nThe most likely diagnosis is lactating adenoma. This benign breast lesion is characterized by a proliferation of tubules and cysts with secretory changes, often seen in pregnant or lactating women. The clinical history of a pregnant patient with bilateral breast masses supports this diagnosis.\n\nDifferential diagnoses include fibroadenoma with secretory changes and tubular adenoma. Fibroadenoma typically shows a more prominent stromal component and lacks the extensive secretory changes seen in lactating adenoma. Tubular adenoma is characterized by a proliferation of small, angulated tubules, which are not the predominant feature in this image.",
+      "rationale": "Cystically dilated/secretory area—look for lactational change, necrosis."
+    },
+    {
+      "roi_id": "slide_A_x8192_y19456_mag10",
+      "tile_id": "slide_A_x8192_y19456_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 8192,
+      "y": 19456,
+      "level0": {
+        "x": 8192,
+        "y": 19456,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of variably sized tubules and cysts lined by cuboidal to low columnar cells with eosinophilic cytoplasm and round nuclei. Lumens contain eosinophilic material, and the stroma is fibrous.\n\nThe most likely diagnosis is lactating adenoma. This diagnosis is supported by the clinical context of pregnancy and the morphologic features of tubular and cystic proliferation with eosinophilic luminal secretions and cellular changes consistent with lactation.\n\nDifferential diagnoses include fibroadenoma, which typically shows a more prominent stromal component and lacks the prominent lactational changes, and tubular adenoma, which is characterized by a more uniform tubular pattern without the cystic dilation and secretory changes seen here.",
+      "rationale": "Inferior-left region near edge for capsule/infiltration and stromal quality."
+    },
+    {
+      "roi_id": "slide_A_x12288_y4096_mag2",
+      "tile_id": "slide_A_x12288_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 4096,
+      "level0": {
+        "x": 12288,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a well-circumscribed lesion composed of numerous variably sized cystic and tubular structures lined by cuboidal to low columnar epithelium, with some lumens containing eosinophilic material. The stroma is relatively sparse.\n\nThe most likely diagnosis is a lactating adenoma, a benign breast lesion characterized by prominent secretory changes in the epithelium, often seen in pregnant or lactating women.\n\nDifferential diagnoses include fibroadenoma with secretory changes and tubular adenoma. Fibroadenomas typically have a more prominent stromal component, while tubular adenomas are composed of smaller, more uniform tubules.",
+      "rationale": "Near superior edge to assess capsule and any pushing border."
+    },
+    {
+      "roi_id": "slide_A_x10240_y8192_mag10",
+      "tile_id": "slide_A_x10240_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 10240,
+      "y": 8192,
+      "level0": {
+        "x": 10240,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of variably sized tubules and cysts lined by cuboidal to low columnar cells with eosinophilic cytoplasm and round nuclei. The stroma is scant and fibrovascular.\n\nThe most likely diagnosis is lactating adenoma. This benign breast lesion is characterized by a proliferation of tubules and cysts with secretory changes, which aligns with the morphologic features observed. The clinical context of a pregnant patient with bilateral breast masses also supports this diagnosis.\n\nDifferential diagnoses include fibroadenoma, which typically shows a more prominent stromal component and lacks the secretory changes seen in lactating adenoma. Another consideration is tubular adenoma, which is composed of small, uniform tubules but lacks the cystic dilation and secretory features.",
+      "rationale": "Spindle/slit-like stromal area—confirm PASH vs myofibroblastoma and relation to epithelium."
+    },
+    {
+      "roi_id": "slide_A_x28672_y12288_mag2",
+      "tile_id": "slide_A_x28672_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 28672,
+      "y": 12288,
+      "level0": {
+        "x": 28672,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a well-circumscribed lesion composed of numerous closely packed tubules and acini with variable luminal size, lined by cuboidal to low columnar cells with basally oriented nuclei. The stroma is scant and fibrovascular.\n\nThe most likely diagnosis is a lactating adenoma. This diagnosis is supported by the clinical context of pregnancy and the morphological features of a well-circumscribed lesion with prominent tubular and acinar proliferation and secretory changes.\n\nDifferential diagnoses include fibroadenoma, which typically shows a more prominent stromal component and less pronounced secretory changes, and tubular adenoma, which is characterized by a more uniform tubular pattern without the secretory features seen here.",
+      "rationale": "Far right lateral edge for circumscription and stromal interface."
+    },
+    {
+      "roi_id": "slide_A_x16896_y13312_mag20",
+      "tile_id": "slide_A_x16896_y13312_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 16896,
+      "y": 13312,
+      "level0": {
+        "x": 16896,
+        "y": 13312,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of small, round to oval glands with clear to vacuolated cytoplasm and basally located nuclei, embedded in a fibrous stroma. Some glands contain eosinophilic secretions.\n\nThe most likely diagnosis is lactating adenoma.\n\nDifferential diagnoses include fibroadenoma with secretory changes and tubular adenoma. Fibroadenoma typically shows a more prominent stromal component and lacks the prominent secretory changes. Tubular adenoma is characterized by angulated tubules and lacks the secretory changes seen here.",
+      "rationale": "High power correlate of midline area for stromal atypia/mitoses."
+    },
+    {
+      "roi_id": "slide_A_x16384_y24576_mag2",
+      "tile_id": "slide_A_x16384_y24576_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 16384,
+      "y": 24576,
+      "level0": {
+        "x": 16384,
+        "y": 24576,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a well-circumscribed lesion composed of numerous small, uniform acini and tubules embedded in a fibrous stroma. The acini are lined by a double layer of cells, and some contain eosinophilic secretions.\n\nThe most likely diagnosis is lactating adenoma. This benign breast lesion is characterized by a proliferation of small, uniform acini and tubules with secretory activity, often seen in pregnant or lactating women. The well-circumscribed nature and the presence of a double cell layer are key features.\n\nDifferential diagnoses include fibroadenoma, which typically shows a more prominent stromal component and lacks the prominent secretory changes seen in lactating adenoma. Another consideration is tubular adenoma, which also shows a proliferation of tubules but lacks the secretory changes and the double cell layer.",
+      "rationale": "Inferior edge/clefted area to check for leaf-like architecture or clefting."
+    },
+    {
+      "roi_id": "slide_A_x16896_y11776_mag20",
+      "tile_id": "slide_A_x16896_y11776_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 16896,
+      "y": 11776,
+      "level0": {
+        "x": 16896,
+        "y": 11776,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of variably sized tubules and cysts lined by cells with clear cytoplasm and small, basally located nuclei. The lumens contain eosinophilic material, and the stroma is scant.\n\nThe most likely diagnosis is secretory carcinoma of the breast.\n\nDifferential diagnoses include tubular carcinoma, which typically shows angulated tubules with apical snouts and lacks the prominent secretory material and clear cell change seen here. Another consideration is clear cell carcinoma, which would show more significant nuclear atypia and mitotic activity.",
+      "rationale": "High power in central representative lactational area—assess atypia/mitoses/necrosis and secretion."
+    },
+    {
+      "roi_id": "slide_A_x17408_y13312_mag10",
+      "tile_id": "slide_A_x17408_y13312_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 17408,
+      "y": 13312,
+      "level0": {
+        "x": 17408,
+        "y": 13312,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of small, closely packed tubules with open lumens, lined by cuboidal to low columnar cells with eosinophilic cytoplasm and basally oriented nuclei. The stroma is scant and fibrous.\n\nThe most likely diagnosis is tubular adenoma. This benign lesion is characterized by a proliferation of small, uniform tubules with open lumens, lined by a single layer of epithelial cells, and a scant fibrous stroma. The clinical presentation of bilateral breast masses in a pregnant patient is also consistent with this diagnosis.\n\nDifferential diagnoses include fibroadenoma, which typically shows a more prominent stromal component and less uniform tubular proliferation, and tubular carcinoma, which would show infiltrative growth, desmoplastic stroma, and cytologic atypia.",
+      "rationale": "Midline area between prior ROIs to look for any stromal heterogeneity or leaf-like clefts."
+    },
+    {
+      "roi_id": "slide_A_x13824_y9216_mag20",
+      "tile_id": "slide_A_x13824_y9216_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 13824,
+      "y": 9216,
+      "level0": {
+        "x": 13824,
+        "y": 9216,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of variably sized tubules and acini lined by cuboidal to low columnar cells with eosinophilic cytoplasm and round nuclei. Lumens contain eosinophilic secretions, and the stroma is scant.\n\nThe most likely diagnosis is lactating adenoma, a benign breast lesion characterized by secretory changes in the epithelium and stroma, often seen in pregnant or lactating women.\n\nDifferential diagnoses include fibroadenoma with secretory changes and tubular adenoma. Fibroadenoma typically shows a more prominent stromal component, while tubular adenoma is composed of smaller, more uniform tubules.",
+      "rationale": "High power check for stromal mitoses/atypia and PASH."
+    },
+    {
+      "roi_id": "slide_A_x24576_y6144_mag20",
+      "tile_id": "slide_A_x24576_y6144_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 24576,
+      "y": 6144,
+      "level0": {
+        "x": 24576,
+        "y": 6144,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of closely packed tubules lined by cells with abundant eosinophilic cytoplasm and round nuclei. Many tubules contain eosinophilic secretions.\n\nThe most likely diagnosis is lactating adenoma.\n\nDifferential diagnoses include fibroadenoma with lactational changes and tubular adenoma. Fibroadenoma typically shows a biphasic pattern with stromal proliferation, while tubular adenoma is characterized by a more uniform tubular pattern without the prominent secretory changes seen here.",
+      "rationale": "High power in densely packed tubules—evaluate myoepithelium and cytology."
+    },
+    {
+      "roi_id": "slide_A_x4096_y20480_mag2",
+      "tile_id": "slide_A_x4096_y20480_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 4096,
+      "y": 20480,
+      "level0": {
+        "x": 4096,
+        "y": 20480,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a well-circumscribed lesion composed of numerous variably sized cystic and tubular spaces lined by cuboidal to low columnar cells, with some spaces containing eosinophilic material. The stroma is scant and fibrovascular.\n\nThe most likely diagnosis is a lactating adenoma, a benign breast lesion characterized by prominent secretory changes in the epithelium, often seen in pregnant or lactating women.\n\nDifferential diagnoses include fibroadenoma with secretory changes and tubular adenoma. Fibroadenomas typically have a more prominent stromal component, while tubular adenomas are composed of small, uniform tubules.",
+      "rationale": "Inferolateral left edge for adipose admixture/hamartoma and border."
+    },
+    {
+      "roi_id": "slide_A_x20992_y12288_mag20",
+      "tile_id": "slide_A_x20992_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20992,
+      "y": 12288,
+      "level0": {
+        "x": 20992,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of small, round to oval glands with clear cytoplasm and basally located nuclei, embedded in a fibrous stroma. Some glands contain eosinophilic luminal material.\n\nThe most likely diagnosis is lactating adenoma.\n\nDifferential diagnoses include fibroadenoma with secretory changes and tubular adenoma. Fibroadenoma typically shows a more prominent stromal component and less prominent secretory changes. Tubular adenoma is characterized by a proliferation of small, angulated tubules with minimal stroma.",
+      "rationale": "High power search for PASH-like slit spaces and stromal cytology."
+    },
+    {
+      "roi_id": "slide_A_x14336_y9216_mag10",
+      "tile_id": "slide_A_x14336_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 14336,
+      "y": 9216,
+      "level0": {
+        "x": 14336,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of variably sized tubules and cysts lined by cuboidal to low columnar cells with eosinophilic cytoplasm and round nuclei. Lumens contain eosinophilic material, and the stroma is cellular with scattered inflammatory cells.\n\nThe most likely diagnosis is lactating adenoma. This benign breast lesion is characterized by a proliferation of glandular tissue with secretory changes, often seen in pregnant or lactating women. The presence of variably sized tubules and cysts, cuboidal to low columnar cells with eosinophilic cytoplasm, and luminal secretions are characteristic features. The clinical history of a pregnant patient with bilateral breast masses further supports this diagnosis.\n\nDifferential diagnoses include fibroadenoma with secretory changes and tubular adenoma. Fibroadenoma typically shows a biphasic pattern with both epithelial and stromal components, while tubular adenoma is characterized by a proliferation of small, uniform tubules. The prominent secretory changes and cystic dilation seen in this image are more consistent with lactating adenoma.",
+      "rationale": "Upper-central area for stromal cellularity and any periductal condensation."
+    },
+    {
+      "roi_id": "slide_A_x25600_y18432_mag20",
+      "tile_id": "slide_A_x25600_y18432_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 25600,
+      "y": 18432,
+      "level0": {
+        "x": 25600,
+        "y": 18432,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows dilated glandular structures lined by cuboidal to low columnar cells with clear cytoplasm and basally oriented nuclei. Lumens contain eosinophilic material, and the stroma is fibrovascular.\n\nThe most likely diagnosis is lactating adenoma. This benign breast lesion is characterized by dilated glands with secretory changes, which aligns with the patient's pregnancy status. The clear cytoplasm and eosinophilic luminal material are typical features. Differential diagnoses include fibroadenoma with secretory changes and tubular adenoma, but the prominent secretory features and clear cell change are more characteristic of lactating adenoma.",
+      "rationale": "High power in cystically dilated/secretory region—look for necrosis, apocrine, atypia."
+    },
+    {
+      "roi_id": "slide_A_x15360_y12288_mag10",
+      "tile_id": "slide_A_x15360_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 15360,
+      "y": 12288,
+      "level0": {
+        "x": 15360,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of variably sized tubules and cysts lined by cuboidal to low columnar cells with eosinophilic cytoplasm and round nuclei. Lumens contain eosinophilic material, and the stroma is fibrous.\n\nThe most likely diagnosis is lactating adenoma. This diagnosis is supported by the clinical context of pregnancy and the morphologic features of tubular and cystic proliferation with eosinophilic luminal secretions and bland epithelial cells.\n\nDifferential diagnoses include fibroadenoma, which typically shows a more prominent stromal component and lacks the prominent secretory changes, and tubular adenoma, which is characterized by a proliferation of small, uniform tubules without significant cystic change or secretory activity.",
+      "rationale": "Representative area at higher low-power to judge gland density, stromal character; look for PASH-like slits or pericanalicular pattern."
+    },
+    {
+      "roi_id": "slide_A_x21504_y12288_mag10",
+      "tile_id": "slide_A_x21504_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 21504,
+      "y": 12288,
+      "level0": {
+        "x": 21504,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of variably sized tubules and acini with luminal secretions, lined by cuboidal to low columnar cells with basally oriented nuclei. The stroma is cellular and fibrous.\n\nThe most likely diagnosis is lactating adenoma.\n\nDifferential diagnoses include fibroadenoma, which typically shows a more prominent stromal component and lacks the prominent secretory changes seen here.",
+      "rationale": "Upper-right central area to search for PASH-like slits or myxoid change."
+    },
+    {
+      "roi_id": "slide_A_x10240_y10752_mag20",
+      "tile_id": "slide_A_x10240_y10752_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 10240,
+      "y": 10752,
+      "level0": {
+        "x": 10240,
+        "y": 10752,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of variably sized tubules lined by cells with abundant clear cytoplasm and small, basally located nuclei. Lumens contain eosinophilic secretions, and the stroma is scant.\n\nThe most likely diagnosis is lactating adenoma. This benign lesion is characterized by tubular proliferation with secretory changes, including clear cytoplasm and luminal secretions, which are prominent in this image. The clinical context of pregnancy and bilateral masses further supports this diagnosis.\n\nDifferential diagnoses include secretory carcinoma, which typically shows more cellular atypia, infiltrative growth, and often intraluminal papillary projections, and fibroadenoma with secretory change, which would have a more prominent stromal component.",
+      "rationale": "High power check at upper-left for stromal atypia and infiltrative edge."
+    },
+    {
+      "roi_id": "slide_A_x10240_y8192_mag20",
+      "tile_id": "slide_A_x10240_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 10240,
+      "y": 8192,
+      "level0": {
+        "x": 10240,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of variably sized tubules and cysts lined by cuboidal to columnar cells with eosinophilic cytoplasm and round nuclei. The stroma is scant and fibrovascular.\n\nThe most likely diagnosis is lactating adenoma. This benign breast lesion is characterized by a proliferation of tubules and cysts lined by secretory epithelium, which is consistent with the patient's pregnancy status. The well-encapsulated nature and yellow color on gross examination are also typical features.\n\nDifferential diagnoses include fibroadenoma, which typically shows a more prominent stromal component and lacks the secretory changes seen in lactating adenoma. Another consideration is tubular adenoma, which is composed of small, uniform tubules but lacks the secretory features and cystic changes of lactating adenoma.",
+      "rationale": "High power in area with prior stromal concern—assess for PASH-like slit spaces vs true tumor, and epithelial relationship."
+    },
+    {
+      "roi_id": "slide_A_x10240_y10240_mag10",
+      "tile_id": "slide_A_x10240_y10240_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 10240,
+      "y": 10240,
+      "level0": {
+        "x": 10240,
+        "y": 10240,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of variably sized tubules and cysts lined by cuboidal to low columnar cells with eosinophilic cytoplasm and round nuclei. Lumens contain eosinophilic material, and the stroma is scant.\n\nThe most likely diagnosis is lactating adenoma, a benign breast lesion characterized by prominent tubular and cystic changes with secretory activity, often seen in pregnant or lactating women.\n\nDifferential diagnoses include fibroadenoma with secretory changes and tubular adenoma. Fibroadenomas typically have a more prominent stromal component, while tubular adenomas are composed of smaller, more uniform tubules.",
+      "rationale": "Upper-left central area for stromal pattern and edge features."
+    },
+    {
+      "roi_id": "slide_A_x15360_y21504_mag10",
+      "tile_id": "slide_A_x15360_y21504_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 15360,
+      "y": 21504,
+      "level0": {
+        "x": 15360,
+        "y": 21504,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a well-circumscribed proliferation of closely packed tubules lined by cuboidal to low columnar cells with eosinophilic cytoplasm and round nuclei. Lumens are often dilated and contain eosinophilic material.\n\nThe most likely diagnosis is lactating adenoma. This benign breast lesion is characterized by a proliferation of tubules with secretory changes, consistent with the patient's pregnancy status. The well-circumscribed nature and the presence of eosinophilic luminal secretions are key features. Differential diagnoses include fibroadenoma with secretory changes and tubular adenoma, but the prominent secretory features and well-defined tubules favor lactating adenoma.",
+      "rationale": "Bottom-central edge to assess capsule/infiltration and stromal response."
+    },
+    {
+      "roi_id": "slide_A_x12288_y9216_mag10",
+      "tile_id": "slide_A_x12288_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 12288,
+      "y": 9216,
+      "level0": {
+        "x": 12288,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of variably sized cystic and tubular structures lined by cuboidal to low columnar cells with eosinophilic cytoplasm and round nuclei. Lumens contain eosinophilic material, and the stroma is cellular with scattered inflammatory cells.\n\nThe most likely diagnosis is lactating adenoma, a benign breast lesion characterized by prominent secretory changes in the epithelium and stromal edema, often seen in pregnant or lactating women.\n\nDifferential diagnoses include fibroadenoma with secretory changes and tubular adenoma. Fibroadenoma typically shows a more prominent stromal component and lacks the extensive secretory changes. Tubular adenoma is characterized by a proliferation of small, uniform tubules, which are not the predominant feature in this image.",
+      "rationale": "Sample additional mid-left area not yet reviewed in detail—exclude phyllodes/complex fibroadenoma features."
+    },
+    {
+      "roi_id": "slide_A_x15360_y22016_mag20",
+      "tile_id": "slide_A_x15360_y22016_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 15360,
+      "y": 22016,
+      "level0": {
+        "x": 15360,
+        "y": 22016,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a large cystic space lined by flattened cells, surrounded by fibrous stroma containing scattered spindle cells and inflammatory cells. Adjacent breast tissue shows glandular structures with some nuclear pleomorphism.\n\nThe most likely diagnosis is a lactating adenoma, a benign breast lesion associated with pregnancy and lactation. The cystic change and stromal reaction are consistent with this entity. The adjacent glandular tissue with some nuclear pleomorphism may represent associated lactational changes or a separate process.\n\nDifferential diagnoses include fibroadenoma with cystic change and fibrocystic changes. Fibroadenomas typically show a more prominent stromal component and lack the significant cystic change seen here. Fibrocystic changes are common in pregnancy and lactation but usually lack the well-encapsulated nature and specific stromal features of a lactating adenoma.",
+      "rationale": "High power at bottom-central edge for stromal atypia, mitoses, invasion."
+    },
+    {
+      "roi_id": "slide_A_x29696_y15360_mag10",
+      "tile_id": "slide_A_x29696_y15360_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 29696,
+      "y": 15360,
+      "level0": {
+        "x": 29696,
+        "y": 15360,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of variably sized tubules and cysts lined by cuboidal to low columnar cells with eosinophilic cytoplasm and basally oriented nuclei. Lumens contain eosinophilic secretions, and the stroma is cellular with scattered inflammatory cells.\n\nThe most likely diagnosis is lactating adenoma. This benign lesion is characterized by a proliferation of glandular tissue with secretory changes, consistent with the clinical history of pregnancy.\n\nDifferential diagnoses include fibroadenoma with secretory changes and tubular adenoma. Fibroadenoma typically shows a biphasic pattern with both epithelial and stromal proliferation, while tubular adenoma is composed of small, uniform tubules without significant secretory changes.",
+      "rationale": "Far right-mid edge for any infiltrative pattern and stromal condensation."
+    },
+    {
+      "roi_id": "slide_A_x29696_y15360_mag20",
+      "tile_id": "slide_A_x29696_y15360_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 29696,
+      "y": 15360,
+      "level0": {
+        "x": 29696,
+        "y": 15360,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of variably sized tubules and cysts lined by cuboidal to low columnar cells with eosinophilic cytoplasm and round nuclei. Lumens contain eosinophilic material, and the stroma is fibrovascular with scattered inflammation.\n\nThe most likely diagnosis is lactating adenoma, a benign breast lesion characterized by prominent tubular and cystic changes with secretory activity, often seen in pregnant or lactating women.\n\nDifferential diagnoses include fibroadenoma with secretory changes and tubular adenoma. Fibroadenoma typically shows a more prominent stromal component and less pronounced secretory changes. Tubular adenoma is characterized by a proliferation of small, uniform tubules, often lacking the cystic dilation and secretory features seen here.",
+      "rationale": "High power at far right-mid edge for stromal cytology and infiltration."
+    },
+    {
+      "roi_id": "slide_A_x11776_y9216_mag20",
+      "tile_id": "slide_A_x11776_y9216_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 11776,
+      "y": 9216,
+      "level0": {
+        "x": 11776,
+        "y": 9216,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of variably sized tubules and cysts lined by cuboidal to low columnar cells with eosinophilic cytoplasm and round nuclei. Lumens contain eosinophilic material, and the stroma is cellular with scattered inflammatory cells.\n\nThe most likely diagnosis is lactating adenoma. This benign breast lesion is characterized by a proliferation of tubules and cysts lined by cells with abundant eosinophilic cytoplasm, consistent with secretory activity, and luminal secretions. The clinical context of a pregnant patient with bilateral breast masses further supports this diagnosis.\n\nDifferential diagnoses include fibroadenoma, which typically shows a biphasic pattern with both epithelial and stromal components, and secretory carcinoma, which would show more prominent intraluminal secretions and potentially more cellular atypia.",
+      "rationale": "High power from same mid-left area—confirm myoepithelium, bland cytology."
+    },
+    {
+      "roi_id": "slide_A_x5120_y14336_mag10",
+      "tile_id": "slide_A_x5120_y14336_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 5120,
+      "y": 14336,
+      "level0": {
+        "x": 5120,
+        "y": 14336,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of variably sized cystic and tubular structures lined by cuboidal to low columnar cells with eosinophilic cytoplasm and round nuclei. The stroma is cellular and fibrous.\n\nThe most likely diagnosis is lactating adenoma. This diagnosis is supported by the clinical context of pregnancy and the morphologic features of cystic and tubular proliferation with eosinophilic cytoplasm, consistent with secretory changes.\n\nDifferential diagnoses include fibroadenoma, which typically shows a more prominent stromal component and less prominent secretory changes, and tubular adenoma, which is characterized by a proliferation of small, round tubules.",
+      "rationale": "Far left-mid area with different texture to look for stromal heterogeneity or myxoid change."
+    },
+    {
+      "roi_id": "slide_A_x5120_y14336_mag20",
+      "tile_id": "slide_A_x5120_y14336_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 5120,
+      "y": 14336,
+      "level0": {
+        "x": 5120,
+        "y": 14336,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of variably sized tubules and cysts lined by cells with abundant clear cytoplasm and small, basally located nuclei. The stroma is fibrovascular.\n\nThe most likely diagnosis is lactating adenoma.\n\nDifferential diagnoses include fibroadenoma with secretory changes and tubular adenoma. Fibroadenoma typically shows a more prominent stromal component and lacks the prominent clear cell change. Tubular adenoma is characterized by a proliferation of small, round tubules with minimal intervening stroma.",
+      "rationale": "High power in left-mid region for myxoid change/PASH-like slits and stromal mitoses."
+    },
+    {
+      "roi_id": "slide_A_x17408_y14336_mag10",
+      "tile_id": "slide_A_x17408_y14336_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 17408,
+      "y": 14336,
+      "level0": {
+        "x": 17408,
+        "y": 14336,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of variably sized tubules and acini with eosinophilic luminal secretions, lined by cuboidal to low columnar cells with bland nuclei. The stroma is cellular and fibrous.\n\nThe most likely diagnosis is lactating adenoma.\n\nDifferential diagnoses include fibroadenoma, which typically shows a more prominent stromal component and lacks the abundant luminal secretions and cellular changes of lactation. Tubular adenoma is another consideration, but it usually has more uniform, smaller tubules.",
+      "rationale": "Inferior central area—look for adipose inclusion/hamartoma or galactocele-like cysts."
+    },
+    {
+      "roi_id": "slide_A_x16384_y10240_mag10",
+      "tile_id": "slide_A_x16384_y10240_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 16384,
+      "y": 10240,
+      "level0": {
+        "x": 16384,
+        "y": 10240,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of variably sized tubules and cysts lined by cells with clear cytoplasm and small, basally located nuclei, set within a fibrous stroma. Some lumens contain eosinophilic material.\n\nThe most likely diagnosis is lactating adenoma.\n\nDifferential diagnoses include tubular adenoma and fibroadenoma. Tubular adenoma typically shows more uniform, round tubules with less prominent clear cell change. Fibroadenoma is characterized by a prominent stromal component and lacks the clear cell change and cystic dilation seen here.",
+      "rationale": "Top-central area for any phyllodes-like clefts/leaflets."
+    },
+    {
+      "roi_id": "slide_A_x15872_y10240_mag20",
+      "tile_id": "slide_A_x15872_y10240_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 15872,
+      "y": 10240,
+      "level0": {
+        "x": 15872,
+        "y": 10240,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of variably sized tubules and cysts lined by cells with abundant clear cytoplasm and small, basally located nuclei. Lumens contain eosinophilic material, and the stroma is fibrous.\n\nThe most likely diagnosis is lactating adenoma, a benign breast lesion associated with pregnancy and lactation.\n\nDifferential diagnoses include secretory carcinoma, which typically shows more prominent intraluminal secretions and cellular atypia, and clear cell carcinoma, which would exhibit more significant nuclear atypia and mitotic activity.",
+      "rationale": "High power in top-central region to assess periductal stromal condensation (phyllodes) and mitotic figures."
+    },
+    {
+      "roi_id": "slide_A_x17408_y14336_mag20",
+      "tile_id": "slide_A_x17408_y14336_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 17408,
+      "y": 14336,
+      "level0": {
+        "x": 17408,
+        "y": 14336,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of variably sized tubules and cysts lined by cells with abundant clear cytoplasm and small, basally located nuclei. The stroma is cellular with scattered inflammatory cells.\n\nThe most likely diagnosis is lactating adenoma. This benign lesion is characterized by the presence of secretory changes in the breast epithelium, which is consistent with the patient's pregnancy status. The clear cytoplasm and basally located nuclei are typical features of lactating cells.\n\nDifferential diagnoses include fibroadenoma with secretory changes and tubular adenoma. Fibroadenoma typically shows a more prominent stromal component and lacks the extensive secretory changes seen in lactating adenoma. Tubular adenoma is characterized by a proliferation of small, uniform tubules, which is not the predominant pattern in this image.",
+      "rationale": "High power of inferior central area—check for inflammation/necrosis, apocrine, carcinoma."
+    },
+    {
+      "roi_id": "slide_A_x20480_y10240_mag10",
+      "tile_id": "slide_A_x20480_y10240_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 20480,
+      "y": 10240,
+      "level0": {
+        "x": 20480,
+        "y": 10240,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of variably sized tubules and acini with eosinophilic luminal secretions, lined by cuboidal to low columnar cells with bland nuclei. The stroma is cellular and fibrous.\n\nThe most likely diagnosis is lactating adenoma.\n\nDifferential diagnoses include fibroadenoma, which typically shows a more prominent stromal component and lacks the abundant luminal secretions and cellular changes of lactation. Tubular adenoma is another consideration, but it usually has more uniform, smaller tubules.",
+      "rationale": "Upper central/right area—evaluate stroma for PASH slit spaces or hypercellularity."
+    },
+    {
+      "roi_id": "slide_A_x15360_y17408_mag10",
+      "tile_id": "slide_A_x15360_y17408_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 15360,
+      "y": 17408,
+      "level0": {
+        "x": 15360,
+        "y": 17408,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of small, closely packed tubules lined by cuboidal to low columnar cells with eosinophilic cytoplasm and round nuclei. The stroma is scant and fibrovascular.\n\nThe most likely diagnosis is lactating adenoma. This benign breast lesion is characterized by a proliferation of small, closely packed tubules lined by cuboidal to low columnar cells with eosinophilic cytoplasm and round nuclei, often with luminal secretions. The scant fibrovascular stroma is also typical. The clinical context of a pregnant patient with bilateral breast masses is highly suggestive of this diagnosis.\n\nDifferential diagnoses include tubular adenoma and fibroadenoma. Tubular adenoma also shows a proliferation of small tubules, but the cells typically have less abundant eosinophilic cytoplasm and the stroma is often more prominent. Fibroadenoma is characterized by a biphasic proliferation of both epithelial and stromal components, with the stroma often being more cellular and fibrous than in lactating adenoma.",
+      "rationale": "Target central clefted/fibrous septal area on map for possible leaf-like architecture."
+    },
+    {
+      "roi_id": "slide_A_x28672_y12288_mag10",
+      "tile_id": "slide_A_x28672_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 28672,
+      "y": 12288,
+      "level0": {
+        "x": 28672,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of closely packed tubules and acini lined by cuboidal to low columnar cells with eosinophilic cytoplasm and round nuclei. Lumens contain eosinophilic secretions, and the stroma is scant and edematous.\n\nThe most likely diagnosis is lactating adenoma. This benign lesion is characterized by a proliferation of glandular tissue with secretory changes, consistent with the clinical history of pregnancy. The differential diagnosis includes fibroadenoma, which typically shows a more prominent stromal component and lacks the prominent secretory changes seen here.",
+      "rationale": "Far right peripheral area to ensure no leaf-like phyllodes architecture or infiltrative edge."
+    },
+    {
+      "roi_id": "slide_A_x14848_y16896_mag20",
+      "tile_id": "slide_A_x14848_y16896_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 14848,
+      "y": 16896,
+      "level0": {
+        "x": 14848,
+        "y": 16896,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of small, closely packed tubules lined by cells with abundant clear cytoplasm and small, basally located nuclei. Lumens contain eosinophilic secretions, and the stroma is scant.\n\nThe most likely diagnosis is lactating adenoma, a benign breast lesion associated with pregnancy and lactation.\n\nDifferential diagnoses include tubular adenoma and secretory carcinoma. Tubular adenoma typically lacks the prominent clear cell change and abundant luminal secretions seen here. Secretory carcinoma, while also showing secretory features, usually has more prominent nuclear atypia and a different architectural pattern.",
+      "rationale": "High power of central septal/clefted area to evaluate stromal cellularity/atypia and PASH-like slits."
+    },
+    {
+      "roi_id": "slide_A_x29184_y11776_mag20",
+      "tile_id": "slide_A_x29184_y11776_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 29184,
+      "y": 11776,
+      "level0": {
+        "x": 29184,
+        "y": 11776,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of closely packed tubules lined by cuboidal to low columnar cells with eosinophilic cytoplasm and round nuclei. Lumens contain eosinophilic secretions, and the stroma is scant.\n\nThe most likely diagnosis is lactating adenoma, a benign breast lesion characterized by tubular proliferation with secretory changes.\n\nDifferential diagnoses include fibroadenoma with secretory change and tubular carcinoma. Fibroadenoma typically shows a biphasic pattern with stromal proliferation, while tubular carcinoma is characterized by angulated tubules infiltrating the stroma.",
+      "rationale": "High power at far right periphery—confirm myoepithelium and bland cytology."
+    },
+    {
+      "roi_id": "slide_A_x11264_y17408_mag10",
+      "tile_id": "slide_A_x11264_y17408_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 11264,
+      "y": 17408,
+      "level0": {
+        "x": 11264,
+        "y": 17408,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of variably sized tubules and acini with eosinophilic luminal secretions, lined by cuboidal to low columnar cells with bland nuclei. The stroma is cellular and fibrous.\n\nThe most likely diagnosis is lactating adenoma.\n\nDifferential diagnoses include fibroadenoma, which typically shows a more prominent stromal component and lacks the abundant luminal secretions and cellular changes of lactation. Tubular adenoma is another consideration, but it usually has more uniform, smaller tubules.",
+      "rationale": "Adjacent central-left area with apparent stromal prominence for phyllodes-like clefts."
+    },
+    {
+      "roi_id": "slide_A_x10752_y17408_mag20",
+      "tile_id": "slide_A_x10752_y17408_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 10752,
+      "y": 17408,
+      "level0": {
+        "x": 10752,
+        "y": 17408,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of variably sized tubules and cysts lined by cells with abundant clear cytoplasm and small, basally located nuclei. Lumens contain eosinophilic secretions.\n\nThe most likely diagnosis is lactating adenoma. This benign lesion is characterized by secretory changes in the breast epithelium, often seen in pregnant or lactating women, and is consistent with the clinical history of a pregnant patient with bilateral breast masses.\n\nDifferential diagnoses include secretory carcinoma, which typically shows more cellular atypia, infiltrative growth, and characteristic intraluminal secretions, and fibroadenoma with secretory change, which would also show a prominent stromal component.",
+      "rationale": "High power assessment of adjacent central-left stromal area."
+    },
+    {
+      "roi_id": "slide_A_x6144_y18432_mag10",
+      "tile_id": "slide_A_x6144_y18432_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 6144,
+      "y": 18432,
+      "level0": {
+        "x": 6144,
+        "y": 18432,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of variably sized tubules and cysts lined by cuboidal to low columnar cells with eosinophilic cytoplasm and round nuclei. Lumens contain eosinophilic material, and the stroma is cellular with scattered inflammatory cells.\n\nThe most likely diagnosis is lactating adenoma, a benign breast lesion associated with pregnancy and lactation. The key features supporting this diagnosis are the prominent tubular and cystic architecture, the presence of eosinophilic luminal secretions, and the cellular stroma with inflammation, all of which are characteristic of lactational changes.\n\nDifferential diagnoses include fibroadenoma, which typically shows a more prominent stromal component and lacks the extensive tubular and cystic changes with luminal secretions seen here. Another consideration is tubular adenoma, which is composed of well-formed tubules but usually lacks the significant cystic dilation and luminal secretions characteristic of lactating adenoma.",
+      "rationale": "Far left-inferior area—look for fat-rich hamartoma/lipoma, galactocele, or different pattern."
+    },
+    {
+      "roi_id": "slide_A_x6144_y17920_mag20",
+      "tile_id": "slide_A_x6144_y17920_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 6144,
+      "y": 17920,
+      "level0": {
+        "x": 6144,
+        "y": 17920,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of small, closely packed tubules lined by cells with abundant clear cytoplasm and small, basally located nuclei. Lumens contain eosinophilic secretions.\n\nThe most likely diagnosis is lactating adenoma.\n\nDifferential diagnoses include tubular adenoma and fibroadenoma. Tubular adenoma typically lacks the prominent clear cell change and secretions seen here. Fibroadenoma would show a more prominent stromal component.",
+      "rationale": "High power of left-inferior area—confirm epithelial features/secretions, exclude atypia."
+    },
+    {
+      "roi_id": "slide_A_x16384_y21504_mag10",
+      "tile_id": "slide_A_x16384_y21504_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 16384,
+      "y": 21504,
+      "level0": {
+        "x": 16384,
+        "y": 21504,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a well-circumscribed proliferation of small, uniform acini with eosinophilic cytoplasm and round nuclei, separated by delicate fibrovascular stroma. The cells lack significant atypia or mitotic activity.\n\nThe most likely diagnosis is lactating adenoma, a benign breast lesion characterized by proliferation of acini with secretory changes, often seen in pregnant or lactating women.\n\nDifferential diagnoses include fibroadenoma, which typically shows a biphasic pattern with stromal and epithelial components, and tubular adenoma, which features more prominent tubular structures.",
+      "rationale": "Inferior edge—evaluate capsule/interface and any inflammation/necrosis."
+    },
+    {
+      "roi_id": "slide_A_x30208_y12288_mag20",
+      "tile_id": "slide_A_x30208_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 30208,
+      "y": 12288,
+      "level0": {
+        "x": 30208,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows numerous closely packed tubular structures lined by cuboidal to low columnar cells with basally oriented nuclei and eosinophilic cytoplasm. Lumens contain eosinophilic material, and the stroma is scant.\n\nThe most likely diagnosis is lactating adenoma. This benign breast lesion is characterized by a proliferation of tubular glands with secretory changes, consistent with the patient's pregnancy status. The well-encapsulated nature and yellow color on gross examination are also typical features.\n\nDifferential diagnoses include fibroadenoma with lactational changes and tubular adenoma. Fibroadenomas typically have a more prominent stromal component, while tubular adenomas are composed of more uniform, angulated tubules.",
+      "rationale": "Check periphery for any infiltrative growth or atypia; correlate with explored map right edge."
+    },
+    {
+      "roi_id": "slide_A_x15872_y2560_mag20",
+      "tile_id": "slide_A_x15872_y2560_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 15872,
+      "y": 2560,
+      "level0": {
+        "x": 15872,
+        "y": 2560,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of variably sized cystic and tubular structures lined by cells with clear cytoplasm and small, basally located nuclei. The lumens contain eosinophilic material, and the stroma is fibrous.\n\nThe most likely diagnosis is clear cell adenoma. This benign tumor is characterized by the clear cell morphology and cystic/tubular architecture seen in the image. The clinical context of a pregnant patient with bilateral breast masses is also consistent with this diagnosis.\n\nDifferential diagnoses include secretory carcinoma, which typically shows more prominent intraluminal secretions and often has a more solid growth pattern, and clear cell carcinoma, which would exhibit more significant nuclear atypia and mitotic activity.",
+      "rationale": "Sample superior lesion area to ensure no carcinoma/secretory carcinoma features."
+    },
+    {
+      "roi_id": "slide_A_x5120_y20992_mag20",
+      "tile_id": "slide_A_x5120_y20992_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 5120,
+      "y": 20992,
+      "level0": {
+        "x": 5120,
+        "y": 20992,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of variably sized cystic and tubular structures lined by cuboidal to low columnar cells with clear cytoplasm and basally oriented nuclei. Lumens contain eosinophilic material, and the stroma is fibrous.\n\nThe most likely diagnosis is lactating adenoma, given the clinical context of pregnancy and the morphologic features of cystic and tubular structures with clear cytoplasm and luminal secretions.\n\nDifferential diagnoses include fibroadenoma with secretory changes and tubular adenoma. Fibroadenoma typically shows a more prominent stromal component and lacks the prominent secretory changes. Tubular adenoma is characterized by a proliferation of small, angulated tubules, which are not the predominant feature here.",
+      "rationale": "Sample left-inferior lobulated area to confirm uniform lactational adenoma pattern."
+    }
+  ]
+}

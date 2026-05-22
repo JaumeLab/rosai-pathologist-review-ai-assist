@@ -1,0 +1,1164 @@
+{
+  "case_id": "sem70_case3",
+  "source": "slideseek-ai-assist",
+  "model": "gpt-5.4",
+  "generated_at": "2026-05-22T09:31:19.114968+00:00",
+  "organ": "Lung-Mediastinum",
+  "primary_dx": "Endobronchial Bronchial Carcinoid Tumor, Favor Typical Carcinoid",
+  "differential_dx": [
+    "Atypical Carcinoid Tumor",
+    "Paraganglioma Of Bronchus"
+  ],
+  "microscopic_findings": [
+    {
+      "text": "Tumor shows **organoid nests** and **trabeculae** separated by fibrous septa with a delicate **capillary network**.",
+      "roi_ids": [
+        "slide_A_x16384_y6144_mag20",
+        "slide_A_x5120_y13312_mag10"
+      ]
+    },
+    {
+      "text": "Cells are uniform with round-oval nuclei, finely granular **salt-and-pepper chromatin**, and moderate **eosinophilic cytoplasm**.",
+      "roi_ids": [
+        "slide_A_x15872_y6144_mag20",
+        "slide_A_x8192_y13312_mag20"
+      ]
+    },
+    {
+      "text": "Stroma shows focal **hyalinization** and **calcification** adjacent to viable nested neuroendocrine tumor.",
+      "roi_ids": [
+        "slide_A_x29696_y10752_mag20"
+      ]
+    },
+    {
+      "text": "Reviewed viable tumor lacks convincing **geographic necrosis** or brisk **mitotic activity**; a focal **crush-artifact** small-cell area…",
+      "roi_ids": [
+        "slide_A_x12288_y3584_mag20"
+      ]
+    }
+  ],
+  "interpretation": "The dominant morphology supports **endobronchial bronchial carcinoid tumor** with classic **organoid nested/trabecular neuroendocrine architecture** and uniform cells showing **salt-and-pepper chromatin**. In the sampled viable tumor, there is no convincing widespread necrosis or brisk mitotic activity, favoring **typical carcinoid** over **atypical carcinoid**. A focal crushed small-blue-cell focus is not representative of the lesion and does not outweigh the prevailing well-differentiated neuroendocrine pattern. **Paraganglioma** remains a lesser morphologic consideration but is less favored given the epithelial-appearing carcinoid pattern.",
+  "num_rois": 70,
+  "tiles": [
+    {
+      "roi_id": "slide_A_x8192_y4096_mag5",
+      "tile_id": "slide_A_x8192_y4096_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 8192,
+      "y": 4096,
+      "level0": {
+        "x": 8192,
+        "y": 4096,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows fragments of lung tissue with areas of necrosis and hemorrhage. A prominent structure with a thickened wall and luminal narrowing is present, surrounded by dense fibrous tissue and inflammation.\n\nThe most likely diagnosis is a malignant tumor arising from the bronchial wall, such as a squamous cell carcinoma or adenocarcinoma. The presence of necrosis, hemorrhage, and a thickened, irregular structure with luminal narrowing are consistent with an invasive process.\n\nDifferential diagnoses include a large granuloma or a benign tumor like a leiomyoma, although the irregularity and necrosis favor a malignant process.",
+      "rationale": "Initial survey of target region 1 for tumor-rich areas"
+    },
+    {
+      "roi_id": "slide_A_x4096_y12288_mag2",
+      "tile_id": "slide_A_x4096_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 4096,
+      "y": 12288,
+      "level0": {
+        "x": 4096,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular neoplasm with a nested and trabecular growth pattern, composed of cells with moderate eosinophilic cytoplasm and round to oval nuclei. The tumor is seen infiltrating the bronchial wall and extending into the surrounding tissue.\n\nThe most likely diagnosis is a neuroendocrine tumor, such as a carcinoid tumor, given the nested and trabecular architecture and cellular morphology. Differential diagnoses include other neuroendocrine neoplasms like atypical carcinoid or small cell carcinoma, which would show different cytologic features and growth patterns.",
+      "rationale": "Target region 4 low-power survey for vascular/hemorrhagic or granulation tissue"
+    },
+    {
+      "roi_id": "slide_A_x24576_y8192_mag1",
+      "tile_id": "slide_A_x24576_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 24576,
+      "y": 8192,
+      "level0": {
+        "x": 24576,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a cellular neoplasm with a prominent fibrous stroma and areas of necrosis. The tumor cells are arranged in nests and cords, with some areas showing a cribriform pattern. The tumor is seen invading the bronchial wall and extending into the surrounding soft tissue.\n\nThe most likely diagnosis is a neuroendocrine tumor, specifically a carcinoid tumor, given the organ site and the described morphology. Differential diagnoses include other neuroendocrine neoplasms such as atypical carcinoid or small cell carcinoma, which would typically show higher mitotic activity and/or necrosis.",
+      "rationale": "Whole-section overview to localize bronchus/cartilage and tumor distribution."
+    },
+    {
+      "roi_id": "slide_A_x38912_y20480_mag5",
+      "tile_id": "slide_A_x38912_y20480_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 38912,
+      "y": 20480,
+      "level0": {
+        "x": 38912,
+        "y": 20480,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a large, firm, gray tumor arising from the bronchial wall, filling the lumen and extending into the surrounding lung parenchyma. The tumor is composed of spindle cells arranged in fascicles and whorls, with areas of hyalinization and myxoid change.\n\nThe most likely diagnosis is a malignant mesenchymal neoplasm, such as a leiomyosarcoma, given the spindle cell morphology and fascicular growth pattern. Other differential diagnoses include a solitary fibrous tumor or a sarcomatoid carcinoma, which can also present as a spindle cell lesion in the lung.",
+      "rationale": "Initial survey of target region 2 for viable tumor/cytology"
+    },
+    {
+      "roi_id": "slide_A_x40960_y8192_mag1",
+      "tile_id": "slide_A_x40960_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 40960,
+      "y": 8192,
+      "level0": {
+        "x": 40960,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a cellular neoplasm with a prominent lymphoid stroma and scattered anthracotic pigment. The tumor cells are arranged in nests and cords within a fibrous stroma.\n\nThe most likely diagnosis is a neuroendocrine tumor, such as a carcinoid tumor, given the cellular morphology and lymphoid stroma. Differential diagnoses include other neuroendocrine neoplasms like atypical carcinoid or small cell carcinoma, which would require higher magnification and immunohistochemistry for definitive classification.",
+      "rationale": "Right upper portion where tissue appears denser—possible bronchus/tumor interface."
+    },
+    {
+      "roi_id": "slide_A_x36864_y20480_mag2",
+      "tile_id": "slide_A_x36864_y20480_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 36864,
+      "y": 20480,
+      "level0": {
+        "x": 36864,
+        "y": 20480,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular neoplasm with a prominent trabecular and nested growth pattern, composed of cells with round to oval nuclei and moderate cytoplasm, adjacent to hyaline cartilage.\n\nThe most likely diagnosis is a neuroendocrine tumor, such as a carcinoid tumor, given the characteristic trabecular and nested architecture and the cellular morphology.\n\nDifferential diagnoses include other neuroendocrine neoplasms like atypical carcinoid or small cell carcinoma, which would typically show higher mitotic activity, necrosis, or more pronounced nuclear atypia, respectively.",
+      "rationale": "Target region 7 low-power survey; small focus may show edge of lesion/vascularity"
+    },
+    {
+      "roi_id": "slide_A_x45056_y18432_mag5",
+      "tile_id": "slide_A_x45056_y18432_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 45056,
+      "y": 18432,
+      "level0": {
+        "x": 45056,
+        "y": 18432,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a low-power view of lung tissue with a large, firm, gray tumor arising from the bronchial wall, causing significant luminal obstruction and extending into the surrounding lung parenchyma. The tumor is associated with marked bronchiectasis and atelectasis.\n\nThe most likely diagnosis is a malignant bronchial tumor, such as a squamous cell carcinoma or adenocarcinoma, given the location, size, and invasive nature. Differential diagnoses include a large inflammatory pseudotumor or a benign bronchial tumor like a leiomyoma, although the invasive growth pattern and clinical presentation are more suggestive of malignancy.",
+      "rationale": "Initial survey of target region 3 for better-preserved tumor and mitotic activity"
+    },
+    {
+      "roi_id": "slide_A_x40960_y16384_mag1",
+      "tile_id": "slide_A_x40960_y16384_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 40960,
+      "y": 16384,
+      "level0": {
+        "x": 40960,
+        "y": 16384,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a cellular neoplasm with a prominent desmoplastic stromal reaction, infiltrating the bronchial wall and extending into the surrounding lung parenchyma. The tumor cells are arranged in nests and cords.\n\nThe most likely diagnosis is a neuroendocrine carcinoma, such as small cell carcinoma, given the cellular morphology and infiltrative pattern. A key differential diagnosis is squamous cell carcinoma, which can also present as a bronchial mass with desmoplasia, but typically shows keratinization or intercellular bridges.",
+      "rationale": "Far right edge near label 3—possible airway wall/cartilage and peribronchial extension."
+    },
+    {
+      "roi_id": "slide_A_x16384_y4096_mag2",
+      "tile_id": "slide_A_x16384_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 16384,
+      "y": 4096,
+      "level0": {
+        "x": 16384,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular neoplasm with a prominent trabecular and nested growth pattern. The cells have round to oval nuclei and moderate eosinophilic cytoplasm, with areas of hemorrhage and necrosis.\n\nThe most likely diagnosis is a neuroendocrine tumor, such as a carcinoid tumor, given the characteristic trabecular and nested architecture and cellular morphology. Differential diagnoses include other neuroendocrine neoplasms like atypical carcinoid or small cell carcinoma, which would typically show higher mitotic activity, necrosis, and nuclear pleomorphism.",
+      "rationale": "Target region 8 low-power survey; small tissue focus possibly mucosa/tumor interface"
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag1",
+      "tile_id": "slide_A_x8192_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a cellular neoplasm with a prominent trabecular and nested growth pattern, composed of cells with round to oval nuclei and moderate cytoplasm, separated by fibrous stroma. The tumor is seen adjacent to a large space containing amorphous material and hemorrhage.\n\nThe morphologic features are consistent with a neuroendocrine neoplasm. Given the location in the lung/mediastinum and the clinical history of a large bronchial mass, a carcinoid tumor is the most likely diagnosis. Differential diagnoses include other neuroendocrine tumors such as atypical carcinoid or small cell carcinoma, which would typically show higher mitotic activity, necrosis, or more pronounced nuclear atypia, respectively.",
+      "rationale": "Left side of section to assess background lung/bronchiectasis changes and tumor extent."
+    },
+    {
+      "roi_id": "slide_A_x9216_y5120_mag10",
+      "tile_id": "slide_A_x9216_y5120_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 9216,
+      "y": 5120,
+      "level0": {
+        "x": 9216,
+        "y": 5120,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle-shaped cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles and whorls, with associated hemorrhage and necrosis. The morphology is consistent with a spindle cell neoplasm.\n\nThe most likely diagnosis is a spindle cell carcinoma (sarcomatoid carcinoma) of the lung.\n\nDifferential diagnoses include leiomyosarcoma, which would typically show more prominent eosinophilic cytoplasm and cigar-shaped nuclei, and solitary fibrous tumor, which often has a more prominent collagenous stroma and characteristic hemangiopericytoma-like vasculature.",
+      "rationale": "Region 1: move to more cellular area at higher power for cytology/architecture"
+    },
+    {
+      "roi_id": "slide_A_x5120_y13312_mag10",
+      "tile_id": "slide_A_x5120_y13312_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 5120,
+      "y": 13312,
+      "level0": {
+        "x": 5120,
+        "y": 13312,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords with a prominent trabecular pattern, composed of cells with round to oval nuclei and moderate eosinophilic cytoplasm, separated by a fibrous stroma.\n\nThe most likely diagnosis is a neuroendocrine tumor, specifically a carcinoid tumor, given the characteristic organoid and trabecular growth pattern and cytologic features.\n\nDifferential diagnoses include other neuroendocrine neoplasms such as atypical carcinoid or small cell carcinoma, which would typically show higher mitotic activity, necrosis, or more pronounced nuclear atypia, respectively.",
+      "rationale": "Assess architecture and look for granulation tissue/vascular proliferation at higher power in region 4"
+    },
+    {
+      "roi_id": "slide_A_x38912_y21504_mag10",
+      "tile_id": "slide_A_x38912_y21504_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 38912,
+      "y": 21504,
+      "level0": {
+        "x": 38912,
+        "y": 21504,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a large, firm, gray tumor arising from the bronchial wall, filling the lumen and extending into the surrounding lung parenchyma. The tumor is composed of spindle cells arranged in fascicles and whorls, with areas of hyalinization and myxoid change.\n\nThe most likely diagnosis is a malignant spindle cell neoplasm, such as a sarcoma or sarcomatoid carcinoma. Differential diagnoses include leiomyosarcoma, fibrosarcoma, and malignant peripheral nerve sheath tumor. Distinguishing features would include immunohistochemical staining for smooth muscle markers (e.g., desmin, SMA), nerve sheath markers (e.g., S100), and epithelial markers (e.g., cytokeratins) to differentiate between these entities.",
+      "rationale": "Region 2: evaluate spindle vs epithelial tumor areas; look for glands/cribriform/mucin"
+    },
+    {
+      "roi_id": "slide_A_x37888_y21504_mag10",
+      "tile_id": "slide_A_x37888_y21504_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 37888,
+      "y": 21504,
+      "level0": {
+        "x": 37888,
+        "y": 21504,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a large, firm gray tumor arising from the bronchial wall, filling the lumen and extending into the surrounding lung parenchyma. The tumor is composed of spindle cells arranged in fascicles and whorls, with areas of hyalinization and myxoid change.\n\nThe most likely diagnosis is a malignant spindle cell neoplasm, such as a sarcoma or sarcomatoid carcinoma. Differential diagnoses include leiomyosarcoma, fibrosarcoma, and malignant peripheral nerve sheath tumor. Distinguishing features would include immunohistochemical staining for smooth muscle markers (e.g., desmin, SMA), nerve sheath markers (e.g., S100), and epithelial markers (e.g., cytokeratins) to differentiate between these entities.",
+      "rationale": "Assess relationship to bronchial cartilage/mucosa and any inflammatory or vascular stromal component"
+    },
+    {
+      "roi_id": "slide_A_x24576_y12288_mag2",
+      "tile_id": "slide_A_x24576_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 24576,
+      "y": 12288,
+      "level0": {
+        "x": 24576,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular neoplasm with a prominent trabecular and nested growth pattern, separated by thick fibrous septa. The tumor cells are relatively uniform with round to oval nuclei and moderate eosinophilic cytoplasm.\n\nThe most likely diagnosis is a neuroendocrine tumor, specifically a carcinoid tumor, given the characteristic trabecular and nested architecture and uniform cell morphology.\n\nDifferential diagnoses include other neuroendocrine neoplasms such as atypical carcinoid or small cell carcinoma. Atypical carcinoid would show increased mitotic activity and/or necrosis, while small cell carcinoma would exhibit more significant nuclear pleomorphism, hyperchromasia, and a higher mitotic rate.",
+      "rationale": "Intermediate mag to assess overall bronchial wall involvement and polypoid endobronchial component."
+    },
+    {
+      "roi_id": "slide_A_x45056_y20480_mag10",
+      "tile_id": "slide_A_x45056_y20480_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 45056,
+      "y": 20480,
+      "level0": {
+        "x": 45056,
+        "y": 20480,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a pink, amorphous background with scattered small, dark punctate structures and larger, irregular pale areas. There is no discernible tissue architecture or cellular detail.\n\nThe morphologic features are insufficient for a specific diagnosis. The amorphous background and scattered punctate structures could represent artifact or debris, while the pale areas may be tissue loss or artifact. Further evaluation of additional regions of the specimen is necessary to assess for any diagnostic features.",
+      "rationale": "Region 3: assess most solid tumor for necrosis/mitoses and cell type"
+    },
+    {
+      "roi_id": "slide_A_x16384_y6144_mag10",
+      "tile_id": "slide_A_x16384_y6144_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 16384,
+      "y": 6144,
+      "level0": {
+        "x": 16384,
+        "y": 6144,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords with a prominent trabecular pattern. The cells have round to oval nuclei and moderate eosinophilic cytoplasm, with intervening stroma and areas of necrosis.\n\nThe most likely diagnosis is a neuroendocrine tumor, such as a carcinoid tumor, given the organ site and the characteristic trabecular and nested growth pattern. Differential diagnoses include other neuroendocrine neoplasms like atypical carcinoid or small cell carcinoma, which would show different cytologic features and mitotic activity.",
+      "rationale": "Evaluate hemorrhage/necrosis focus and stroma/inflammation at intermediate power"
+    },
+    {
+      "roi_id": "slide_A_x28672_y12288_mag2",
+      "tile_id": "slide_A_x28672_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 28672,
+      "y": 12288,
+      "level0": {
+        "x": 28672,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular neoplasm with a prominent trabecular and nested growth pattern, separated by fibrous stroma. The tumor cells are relatively uniform with round to oval nuclei and moderate eosinophilic cytoplasm.\n\nThe most likely diagnosis is a neuroendocrine tumor, specifically a carcinoid tumor, given the characteristic trabecular and nested architecture and uniform cell morphology.\n\nDifferential diagnoses include other neuroendocrine neoplasms such as atypical carcinoid or small cell carcinoma. Atypical carcinoid would show increased mitotic activity and/or necrosis, while small cell carcinoma would exhibit more significant nuclear pleomorphism, hyperchromasia, and a higher mitotic rate.",
+      "rationale": "Evaluate central tumor architecture and any luminal surfaces/ulceration."
+    },
+    {
+      "roi_id": "slide_A_x16384_y6144_mag20",
+      "tile_id": "slide_A_x16384_y6144_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 16384,
+      "y": 6144,
+      "level0": {
+        "x": 16384,
+        "y": 6144,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords with a prominent trabecular pattern. The cells have round to oval nuclei with finely granular chromatin and moderate eosinophilic cytoplasm, with intervening stroma.\n\nThe morphologic features are consistent with a neuroendocrine tumor. The most likely diagnosis is a carcinoid tumor. Differential diagnoses include atypical carcinoid tumor and small cell carcinoma, which can be distinguished by mitotic activity, necrosis, and nuclear features.",
+      "rationale": "High power on hemorrhagic area to characterize vessels/endothelium and inflammatory infiltrate"
+    },
+    {
+      "roi_id": "slide_A_x40960_y16384_mag2",
+      "tile_id": "slide_A_x40960_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 40960,
+      "y": 16384,
+      "level0": {
+        "x": 40960,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular neoplasm with a prominent trabecular and nested growth pattern, composed of cells with eosinophilic cytoplasm and round to oval nuclei, separated by fibrous stroma. The tumor is seen infiltrating the bronchial wall and extending into the surrounding tissue.\n\nThe most likely diagnosis is a neuroendocrine tumor, such as a carcinoid tumor, given the characteristic trabecular and nested architecture and the cellular morphology. Differential diagnoses include other neuroendocrine neoplasms like atypical carcinoid or small cell carcinoma, which would typically show higher mitotic activity, necrosis, or more pleomorphism, respectively.",
+      "rationale": "Assess right-sided interface with lung parenchyma/peribronchial extension and desmoplasia."
+    },
+    {
+      "roi_id": "slide_A_x12288_y8192_mag2",
+      "tile_id": "slide_A_x12288_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 8192,
+      "level0": {
+        "x": 12288,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular neoplasm with a prominent trabecular and nested growth pattern, composed of cells with round to oval nuclei and moderate eosinophilic cytoplasm, separated by fibrous stroma. The tumor appears to arise from the bronchial wall.\n\nThe most likely diagnosis is a neuroendocrine tumor, such as a carcinoid tumor, given the characteristic trabecular and nested architecture and the cellular morphology. Differential diagnoses include other neuroendocrine neoplasms like atypical carcinoid or small cell carcinoma, which would typically show higher mitotic activity, necrosis, or more pleomorphism, respectively.",
+      "rationale": "Look for bronchial cartilage plates and relationship of tumor to mucosa/cartilage proximally."
+    },
+    {
+      "roi_id": "slide_A_x9216_y5120_mag20",
+      "tile_id": "slide_A_x9216_y5120_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 9216,
+      "y": 5120,
+      "level0": {
+        "x": 9216,
+        "y": 5120,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a large, irregular, eosinophilic structure with a granular and fibrillar texture, surrounded by scattered red blood cells and inflammatory cells. The structure appears to be a tumor mass.\n\nThe most likely diagnosis is a malignant tumor, likely a carcinoma, given the clinical history of a large bronchial mass causing obstruction and symptoms. The morphology of the eosinophilic structure is consistent with a tumor mass.\n\nDifferential diagnoses include squamous cell carcinoma, which is common in the lung and can present as a large obstructing mass, and adenocarcinoma, which can also form large masses and cause bronchial obstruction. The specific type of carcinoma would require further evaluation of cellular morphology and potentially immunohistochemical studies.",
+      "rationale": "Region 1: high power cytology in cellular spindle area; assess atypia/mitoses/necrosis"
+    },
+    {
+      "roi_id": "slide_A_x8192_y13312_mag10",
+      "tile_id": "slide_A_x8192_y13312_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 8192,
+      "y": 13312,
+      "level0": {
+        "x": 8192,
+        "y": 13312,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords with a prominent sinusoidal vascular pattern. The cells have uniform, round to oval nuclei and moderate eosinophilic cytoplasm. A desmoplastic stromal reaction is also present.\n\nThe most likely diagnosis is a neuroendocrine tumor, specifically a carcinoid tumor, given the organ site and the characteristic nested and cord-like architecture with uniform cells and sinusoidal vasculature. Differential diagnoses include other neuroendocrine neoplasms such as atypical carcinoid or small cell carcinoma, which would typically show more nuclear pleomorphism, mitotic activity, and necrosis, respectively.",
+      "rationale": "Seek inflammatory/vascular stroma away from classic nested tumor; look for granulation tissue/hemangioma-like areas"
+    },
+    {
+      "roi_id": "slide_A_x38912_y8192_mag5",
+      "tile_id": "slide_A_x38912_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 38912,
+      "y": 8192,
+      "level0": {
+        "x": 38912,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a large vessel with a thickened wall and a dense cellular infiltrate composed of small lymphocytes with scattered larger cells. The infiltrate is diffuse and surrounds the vessel.\n\nThe most likely diagnosis is a lymphoproliferative disorder, such as lymphoma, given the dense infiltrate of small lymphocytes with scattered larger cells. The perivascular distribution is also notable.\n\nDifferential diagnoses include reactive lymphoid hyperplasia, which can be seen in chronic inflammation, and other small blue cell tumors. However, the monomorphic appearance of the infiltrate and the presence of larger cells favor a neoplastic process.",
+      "rationale": "Higher low-power (5x) to confirm nesting/trabecular vs cribriform pattern and stromal/vascular features."
+    },
+    {
+      "roi_id": "slide_A_x39424_y22016_mag20",
+      "tile_id": "slide_A_x39424_y22016_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 39424,
+      "y": 22016,
+      "level0": {
+        "x": 39424,
+        "y": 22016,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a large, firm, gray tumor arising from the bronchial wall, filling the lumen and extending into the surrounding tissue. The tumor is composed of spindle cells arranged in fascicles and whorls, with areas of hyalinization and myxoid change. The most likely diagnosis is a malignant spindle cell neoplasm, such as a sarcoma. Differential diagnoses include leiomyosarcoma, given the spindle cell morphology and fascicular arrangement, and malignant peripheral nerve sheath tumor, which can also present as a spindle cell tumor with variable cellularity and stromal changes.",
+      "rationale": "Region 2: high power of spindle tumor with hyalinization; look for epithelial components, mucin, gland/cribriform"
+    },
+    {
+      "roi_id": "slide_A_x45056_y17408_mag20",
+      "tile_id": "slide_A_x45056_y17408_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 45056,
+      "y": 17408,
+      "level0": {
+        "x": 45056,
+        "y": 17408,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a pink background with scattered small, dark red punctate structures. There is no discernible tissue or cellular detail present.\n\nThe morphologic features are insufficient to suggest a specific diagnosis or differential diagnosis.",
+      "rationale": "Region 3: sample different area than prior non-diagnostic 10x; look for viable tumor and mitoses"
+    },
+    {
+      "roi_id": "slide_A_x8192_y13312_mag20",
+      "tile_id": "slide_A_x8192_y13312_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 8192,
+      "y": 13312,
+      "level0": {
+        "x": 8192,
+        "y": 13312,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation arranged in nests, cords, and trabeculae with a prominent perivascular pattern. The cells are uniform with round to oval nuclei and moderate eosinophilic cytoplasm, separated by a delicate fibrovascular stroma.\n\nThe most likely diagnosis is a neuroendocrine tumor, specifically a carcinoid tumor, given the organ site and the characteristic morphology of uniform cells arranged in nests and cords with a perivascular pattern.\n\nDifferential diagnoses include other neuroendocrine neoplasms such as atypical carcinoid or small cell carcinoma. Atypical carcinoid would show increased mitotic activity and/or necrosis, while small cell carcinoma would exhibit more significant nuclear pleomorphism, hyperchromasia, and a higher mitotic rate.",
+      "rationale": "High power of same for vessel characterization and inflammation (plasma cells/eosinophils)"
+    },
+    {
+      "roi_id": "slide_A_x24576_y15360_mag10",
+      "tile_id": "slide_A_x24576_y15360_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 24576,
+      "y": 15360,
+      "level0": {
+        "x": 24576,
+        "y": 15360,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords separated by prominent fibrous septa. The cells are relatively uniform with round to oval nuclei and moderate eosinophilic cytoplasm.\n\nThe most likely diagnosis is a neuroendocrine tumor, such as a carcinoid tumor, given the nested and cord-like architecture and uniform cell morphology. Differential diagnoses include other neuroendocrine neoplasms like atypical carcinoid or small cell carcinoma, which would show different cytologic features and growth patterns.",
+      "rationale": "Sample central tumor-stroma interface for hemorrhage, hyalinized vessels, fibrosis"
+    },
+    {
+      "roi_id": "slide_A_x10752_y4096_mag20",
+      "tile_id": "slide_A_x10752_y4096_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 10752,
+      "y": 4096,
+      "level0": {
+        "x": 10752,
+        "y": 4096,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle-shaped cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles and haphazardly, with associated hemorrhage and scattered inflammatory cells.\n\nThe most likely diagnosis is a spindle cell neoplasm, such as a sarcoma or a spindle cell carcinoma. Differential diagnoses include leiomyosarcoma, malignant peripheral nerve sheath tumor, and spindle cell carcinoma. Distinguishing features would include immunohistochemical staining for smooth muscle markers (e.g., desmin, SMA), neural markers (e.g., S100), and epithelial markers (e.g., cytokeratins).",
+      "rationale": "Region 1: sample a different, more cellular focus (avoid necrosis/artifact) for true cytology/mitoses"
+    },
+    {
+      "roi_id": "slide_A_x40960_y20480_mag2",
+      "tile_id": "slide_A_x40960_y20480_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 40960,
+      "y": 20480,
+      "level0": {
+        "x": 40960,
+        "y": 20480,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular proliferation with a prominent vascular network and areas of hemorrhage, adjacent to a large area of amorphous eosinophilic material. The cellular component is composed of cells with round to oval nuclei and moderate cytoplasm, arranged in nests and cords.\n\nThe most likely diagnosis is a neuroendocrine tumor, such as a carcinoid tumor, given the cellular morphology and prominent vascularity. Differential diagnoses include other neuroendocrine neoplasms like atypical carcinoid or small cell carcinoma, which would require higher magnification and immunohistochemistry for definitive classification.",
+      "rationale": "Sample inferior-right tissue near previously explored edge to look for bronchial lumen/mucosa and tumor periphery."
+    },
+    {
+      "roi_id": "slide_A_x25088_y14848_mag20",
+      "tile_id": "slide_A_x25088_y14848_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 25088,
+      "y": 14848,
+      "level0": {
+        "x": 25088,
+        "y": 14848,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords separated by prominent fibrous stroma. The cells have round to oval nuclei with finely granular chromatin and moderate eosinophilic cytoplasm.\n\nThe most likely diagnosis is a neuroendocrine tumor, such as a carcinoid tumor, given the nested/corded architecture and cellular morphology. Differential diagnoses include other neuroendocrine neoplasms like atypical carcinoid or small cell carcinoma, which would show different nuclear features and mitotic activity.",
+      "rationale": "High power on vessels/hemorrhage at interface"
+    },
+    {
+      "roi_id": "slide_A_x32768_y20480_mag2",
+      "tile_id": "slide_A_x32768_y20480_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 32768,
+      "y": 20480,
+      "level0": {
+        "x": 32768,
+        "y": 20480,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular neoplasm with a prominent trabecular and nested pattern, composed of cells with round to oval nuclei and moderate cytoplasm, adjacent to a thickened bronchial wall.\n\nThe most likely diagnosis is a neuroendocrine tumor, such as a carcinoid tumor, given the characteristic trabecular and nested architecture and cellular morphology.\n\nDifferential diagnoses include other neuroendocrine neoplasms like atypical carcinoid or small cell carcinoma, which would typically show higher mitotic activity, necrosis, or more pleomorphic nuclei, respectively.",
+      "rationale": "Examine mid-right lower area for bronchial cartilage plates and peribronchial extension."
+    },
+    {
+      "roi_id": "slide_A_x38400_y20480_mag20",
+      "tile_id": "slide_A_x38400_y20480_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 38400,
+      "y": 20480,
+      "level0": {
+        "x": 38400,
+        "y": 20480,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle-shaped cells arranged in intersecting fascicles and whorls, with areas of hyalinization and scattered inflammatory cells. The cells have elongated, wavy nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a spindle cell neoplasm, such as a solitary fibrous tumor or a smooth muscle tumor (leiomyoma/leiomyosarcoma). Differential diagnoses include inflammatory myofibroblastic tumor and sarcomatoid carcinoma. Distinguishing features would include immunohistochemical staining for markers such as CD34, smooth muscle actin, desmin, and keratin.",
+      "rationale": "Region 2: alternate focus near interface to see if epithelial differentiation (glands/squamoid) present"
+    },
+    {
+      "roi_id": "slide_A_x43008_y1024_mag10",
+      "tile_id": "slide_A_x43008_y1024_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 43008,
+      "y": 1024,
+      "level0": {
+        "x": 43008,
+        "y": 1024,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense cellular infiltrate composed of small cells with hyperchromatic nuclei and scant cytoplasm, along with scattered larger cells and dark granular pigment. The cellular infiltrate is associated with areas of necrosis and hemorrhage.\n\nThe most likely diagnosis is small cell carcinoma of the lung. The differential diagnosis includes lymphoma, which can also present as a dense infiltrate of small cells, but typically lacks the necrosis and hemorrhage seen here.",
+      "rationale": "Small tissue at top right; may show mucosa surface ulceration/granulation with prominent vessels"
+    },
+    {
+      "roi_id": "slide_A_x20480_y4096_mag2",
+      "tile_id": "slide_A_x20480_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 20480,
+      "y": 4096,
+      "level0": {
+        "x": 20480,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular neoplasm with a prominent trabecular and nested pattern, composed of cells with eosinophilic cytoplasm and round to oval nuclei. The tumor is seen invading the bronchial wall and extending into the surrounding soft tissue.\n\nThe most likely diagnosis is a neuroendocrine tumor, specifically a carcinoid tumor, given the characteristic trabecular and nested architecture and the cellular morphology. Differential diagnoses include other neuroendocrine neoplasms such as atypical carcinoid or small cell carcinoma, which would typically show higher mitotic activity, necrosis, or more pleomorphism.",
+      "rationale": "Upper central area to find mucosal surface/ulceration and polypoid growth into lumen."
+    },
+    {
+      "roi_id": "slide_A_x39424_y22528_mag20",
+      "tile_id": "slide_A_x39424_y22528_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 39424,
+      "y": 22528,
+      "level0": {
+        "x": 39424,
+        "y": 22528,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a large, firm, gray tumor arising from the bronchial wall, filling the lumen and extending into the surrounding tissue. The tumor is composed of spindle cells arranged in fascicles and whorls, with areas of hyalinization and myxoid change.\n\nThe most likely diagnosis is a malignant spindle cell neoplasm, such as a sarcoma or sarcomatoid carcinoma. Differential diagnoses include leiomyosarcoma, fibrosarcoma, and malignant peripheral nerve sheath tumor. Distinguishing features would include immunohistochemical staining for smooth muscle markers (e.g., desmin, SMA), S100 protein, and cytokeratins.",
+      "rationale": "Region 2: look for perivascular pattern/hemangiopericytoma-like vessels, collagen rosettes, myxoid areas"
+    },
+    {
+      "roi_id": "slide_A_x14336_y8192_mag5",
+      "tile_id": "slide_A_x14336_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 14336,
+      "y": 8192,
+      "level0": {
+        "x": 14336,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular neoplasm with a prominent trabecular and nested pattern, separated by fibrous stroma. The cells are relatively uniform with round to oval nuclei and moderate eosinophilic cytoplasm.\n\nThe most likely diagnosis is a neuroendocrine tumor, such as a carcinoid tumor. The trabecular and nested architecture, along with the uniform cell population, are characteristic features. Differential diagnoses include other neuroendocrine neoplasms like atypical carcinoid or small cell carcinoma, which would typically show more nuclear pleomorphism, mitotic activity, and necrosis.",
+      "rationale": "5x check for cartilage and relationship to tumor nests; look for inflammation/bronchiectasis changes."
+    },
+    {
+      "roi_id": "slide_A_x39936_y20480_mag10",
+      "tile_id": "slide_A_x39936_y20480_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 39936,
+      "y": 20480,
+      "level0": {
+        "x": 39936,
+        "y": 20480,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle-shaped cells arranged in fascicles and whorls, with areas of hyalinization and scattered clear spaces. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a spindle cell neoplasm, such as a solitary fibrous tumor or a smooth muscle tumor. Differential diagnoses include inflammatory myofibroblastic tumor and sarcomatoid carcinoma, which can be distinguished by immunohistochemical staining for markers like CD34, smooth muscle actin, and cytokeratins.",
+      "rationale": "Region 3: relocate to tissue-bearing area at lower power before going 20x"
+    },
+    {
+      "roi_id": "slide_A_x40960_y4096_mag2",
+      "tile_id": "slide_A_x40960_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 40960,
+      "y": 4096,
+      "level0": {
+        "x": 40960,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a dense cellular infiltrate with a prominent nodular pattern, composed of small cells with dark nuclei and scant cytoplasm, along with areas of fibrosis and anthracotic pigment.\n\nThe most likely diagnosis is a small cell neuroendocrine carcinoma, such as small cell carcinoma of the lung.\n\nDifferential diagnoses include lymphoma, which can also present as a dense infiltrate of small cells, and carcinoid tumor, which is another type of neuroendocrine tumor but typically has larger cells and less aggressive features.",
+      "rationale": "Re-check region 5 at low power to verify if this is artifact/anthracosis vs necrotic small cell-like area; look for mucosa/granulation and vessels"
+    },
+    {
+      "roi_id": "slide_A_x26624_y16384_mag5",
+      "tile_id": "slide_A_x26624_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 26624,
+      "y": 16384,
+      "level0": {
+        "x": 26624,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular neoplasm with a prominent trabecular and nested growth pattern, separated by fibrous stroma. The cells are relatively uniform with round to oval nuclei and moderate eosinophilic cytoplasm.\n\nThe most likely diagnosis is a neuroendocrine tumor, such as a carcinoid tumor, given the characteristic trabecular and nested architecture and uniform cell morphology.\n\nDifferential diagnoses include other neuroendocrine neoplasms like atypical carcinoid or small cell carcinoma, which would typically show more nuclear pleomorphism, increased mitotic activity, and necrosis, respectively.",
+      "rationale": "5x of lower central tumor for necrosis/hemorrhage and stromal pattern (fibrous bands vs myxoid)."
+    },
+    {
+      "roi_id": "slide_A_x45056_y16384_mag5",
+      "tile_id": "slide_A_x45056_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 45056,
+      "y": 16384,
+      "level0": {
+        "x": 45056,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a large, firm gray tumor arising from the bronchial wall, filling the lumen and extending into the surrounding lung parenchyma. The tumor is composed of spindle cells arranged in fascicles and whorls, with areas of hyalinization and myxoid change.\n\nThe most likely diagnosis is a malignant spindle cell neoplasm, such as a sarcoma or sarcomatoid carcinoma. Differential diagnoses include leiomyosarcoma, fibrosarcoma, and malignant peripheral nerve sheath tumor. Distinguishing features would include immunohistochemical staining for smooth muscle markers (e.g., desmin, SMA), S100 protein, and cytokeratins.",
+      "rationale": "Region 3: find actual tissue (prior ROIs were mostly blank) and locate viable tumor areas"
+    },
+    {
+      "roi_id": "slide_A_x43008_y1024_mag20",
+      "tile_id": "slide_A_x43008_y1024_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 43008,
+      "y": 1024,
+      "level0": {
+        "x": 43008,
+        "y": 1024,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense cellular infiltrate composed of small lymphocytes and larger cells with eosinophilic cytoplasm and vesicular nuclei, along with scattered dark granular pigment. The cellular infiltrate appears to be infiltrating the tissue.\n\nThe most likely diagnosis for this lung-mediastinum tissue is a lymphoepithelioma-like carcinoma. This diagnosis is supported by the presence of a dense lymphoid infiltrate admixed with larger atypical epithelial cells, which is characteristic of this tumor type. The dark granular pigment may represent anthracotic pigment, commonly seen in lung tissue.\n\nDifferential diagnoses to consider include lymphoma, which would typically show a more monotonous population of lymphoid cells without the admixed larger epithelial cells, and metastatic carcinoma with a prominent lymphoid stroma, which would require clinical correlation and potentially immunohistochemical studies to confirm the primary site.",
+      "rationale": "High power to characterize small dark cells/pigment; rule out crush artifact vs inflammation"
+    },
+    {
+      "roi_id": "slide_A_x45568_y18432_mag20",
+      "tile_id": "slide_A_x45568_y18432_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 45568,
+      "y": 18432,
+      "level0": {
+        "x": 45568,
+        "y": 18432,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle-shaped cells arranged in fascicles and whorls, with areas of hyalinization and scattered larger cells. The cells have elongated nuclei with mild pleomorphism and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a spindle cell neoplasm, such as a solitary fibrous tumor or a smooth muscle tumor. Differential diagnoses include inflammatory myofibroblastic tumor and sarcomatoid carcinoma, which can be distinguished by immunohistochemical staining for markers like CD34, smooth muscle actin, desmin, and cytokeratins.",
+      "rationale": "Region 3: high power in darker cellular area near top right to assess cytology/mitoses/necrosis"
+    },
+    {
+      "roi_id": "slide_A_x29696_y11264_mag10",
+      "tile_id": "slide_A_x29696_y11264_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 29696,
+      "y": 11264,
+      "level0": {
+        "x": 29696,
+        "y": 11264,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords with a prominent cribriform pattern. The cells have round to oval nuclei and moderate eosinophilic cytoplasm, with associated stromal reaction and calcification.\n\nThe most likely diagnosis is a neuroendocrine tumor, specifically a carcinoid tumor, given the characteristic architectural patterns and cellular morphology. Differential diagnoses include other neuroendocrine neoplasms such as atypical carcinoid or small cell carcinoma, which would typically show higher mitotic activity, necrosis, or more pleomorphism.",
+      "rationale": "Sample additional area near apparent bronchial lumen interface to look for ulceration/granulation/hemorrhage"
+    },
+    {
+      "roi_id": "slide_A_x40448_y19968_mag20",
+      "tile_id": "slide_A_x40448_y19968_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 40448,
+      "y": 19968,
+      "level0": {
+        "x": 40448,
+        "y": 19968,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle-shaped cells arranged in fascicles and whorls, with areas of hyalinization and scattered clear spaces. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a spindle cell neoplasm, such as a solitary fibrous tumor or a smooth muscle tumor. Differential diagnoses include inflammatory myofibroblastic tumor and sarcomatoid carcinoma, which can be distinguished by immunohistochemical staining for markers like CD34, smooth muscle actin, desmin, and keratins.",
+      "rationale": "Region 2: sample different field to look for epithelial differentiation (glands/squamoid) or vascular pattern"
+    },
+    {
+      "roi_id": "slide_A_x30208_y10752_mag20",
+      "tile_id": "slide_A_x30208_y10752_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 30208,
+      "y": 10752,
+      "level0": {
+        "x": 30208,
+        "y": 10752,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a large area of dense, amorphous, basophilic material consistent with calcification, adjacent to a cellular proliferation of epithelial cells arranged in nests and cords. The epithelial cells have round to oval nuclei and moderate cytoplasm.\n\nThe most likely diagnosis is a calcified tumor, likely a neuroendocrine tumor given the cellular morphology and arrangement. Differential diagnoses include a calcified squamous cell carcinoma or a calcified metastatic tumor.",
+      "rationale": "High power in same area for vessel type and inflammatory infiltrate"
+    },
+    {
+      "roi_id": "slide_A_x40960_y4096_mag5",
+      "tile_id": "slide_A_x40960_y4096_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 40960,
+      "y": 4096,
+      "level0": {
+        "x": 40960,
+        "y": 4096,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a dense cellular infiltrate with prominent lymphoid aggregates and scattered dark pigment. There is also a significant stromal reaction with fibrosis and hyalinization.\n\nThe most likely diagnosis is a lymphoepithelioma-like carcinoma of the lung. This diagnosis is supported by the dense lymphoid infiltrate surrounding nests of tumor cells, which are not clearly visible at this magnification but are characteristic of this entity. The presence of dark pigment is also noted.\n\nDifferential diagnoses include lymphoma, which can present with a dense lymphoid infiltrate, and metastatic carcinoma with a prominent lymphoid response. However, the presence of a stromal reaction and the clinical context of a mass in the bronchus favor a primary lung tumor.",
+      "rationale": "Top-right dense purple area—likely bronchial mucosa/lumen with polypoid tumor; assess surface and stalk."
+    },
+    {
+      "roi_id": "slide_A_x7680_y4096_mag20",
+      "tile_id": "slide_A_x7680_y4096_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 7680,
+      "y": 4096,
+      "level0": {
+        "x": 7680,
+        "y": 4096,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles and whorls. There is also a prominent inflammatory infiltrate and areas of hemorrhage.\n\nThe most likely diagnosis is a spindle cell neoplasm, such as a leiomyosarcoma, given the spindle cell morphology and fascicular arrangement. Other possibilities include inflammatory myofibroblastic tumor or solitary fibrous tumor, which can have overlapping features.",
+      "rationale": "Region 1: sample closer to bronchial wall/possible epithelial lining for any glandular or squamoid component"
+    },
+    {
+      "roi_id": "slide_A_x40960_y17408_mag10",
+      "tile_id": "slide_A_x40960_y17408_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 40960,
+      "y": 17408,
+      "level0": {
+        "x": 40960,
+        "y": 17408,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle-shaped cells with elongated nuclei arranged in fascicles, associated with hemorrhage and necrosis. The tumor appears to arise from the bronchial wall and extends into the surrounding tissue.\n\nThe most likely diagnosis is a malignant spindle cell neoplasm, such as a sarcoma or sarcomatoid carcinoma, arising from the bronchial wall.\n\nDifferential diagnoses include leiomyosarcoma, which would show smooth muscle differentiation, and malignant peripheral nerve sheath tumor, which would show S100 positivity.",
+      "rationale": "Edge region 3 possibly shows hemorrhage or peribronchial soft tissue; assess vascular/inflammatory component"
+    },
+    {
+      "roi_id": "slide_A_x45056_y10240_mag5",
+      "tile_id": "slide_A_x45056_y10240_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 45056,
+      "y": 10240,
+      "level0": {
+        "x": 45056,
+        "y": 10240,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a large tumor mass arising from the bronchial wall, composed of dense cellular tissue with areas of necrosis and hemorrhage. The tumor extends into the surrounding lung parenchyma.\n\nThe most likely diagnosis is a malignant neoplasm, likely a carcinoma, arising from the bronchial wall. Differential diagnoses include squamous cell carcinoma and adenocarcinoma, which can present as a mass in the bronchus.",
+      "rationale": "Right-upper quadrant near edge to look for cartilage plates and transmural extension."
+    },
+    {
+      "roi_id": "slide_A_x47104_y18432_mag5",
+      "tile_id": "slide_A_x47104_y18432_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 47104,
+      "y": 18432,
+      "level0": {
+        "x": 47104,
+        "y": 18432,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a low-power view of lung tissue with a large, firm, gray tumor arising from the bronchial wall, causing significant luminal obstruction and extending into the surrounding tissue. The tumor is associated with marked bronchiectasis and atelectasis of the right lower lobe.\n\nThe most likely diagnosis is a malignant bronchial tumor, such as a squamous cell carcinoma or adenocarcinoma, given the location, size, and invasive nature of the mass. Differential diagnoses could include a large granuloma or a benign tumor like a leiomyoma, although the clinical presentation and gross appearance are more suggestive of malignancy.",
+      "rationale": "Extreme right mid-lower edge to evaluate peribronchial soft tissue extension/infiltrative front."
+    },
+    {
+      "roi_id": "slide_A_x2048_y12288_mag5",
+      "tile_id": "slide_A_x2048_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 2048,
+      "y": 12288,
+      "level0": {
+        "x": 2048,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cystic structure lined by pseudostratified columnar epithelium with cilia and goblet cells, surrounded by submucosal glands and smooth muscle. The wall is thickened by fibrous tissue and chronic inflammation.\n\nThe most likely diagnosis is a bronchogenic cyst. Differential diagnoses include a bronchial diverticulum or a cystic neoplasm such as a mucoepidermoid carcinoma, which would typically show a more complex epithelial lining with squamous and mucous cells.",
+      "rationale": "Far left margin region 4 area—background lung with bronchiectasis/atelectasis/inflammation."
+    },
+    {
+      "roi_id": "slide_A_x45568_y19456_mag20",
+      "tile_id": "slide_A_x45568_y19456_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 45568,
+      "y": 19456,
+      "level0": {
+        "x": 45568,
+        "y": 19456,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a pink background with scattered small dark particles and a larger dark structure. No tissue or cellular morphology is visible.\n\nThe morphologic features are insufficient to suggest a diagnosis or differential diagnoses.",
+      "rationale": "Region 3: additional high-power field in tumor bulk to check atypia/mitoses/necrosis"
+    },
+    {
+      "roi_id": "slide_A_x45056_y20480_mag20",
+      "tile_id": "slide_A_x45056_y20480_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 45056,
+      "y": 20480,
+      "level0": {
+        "x": 45056,
+        "y": 20480,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a pink background with scattered small, dark purple structures. There is no discernible tissue architecture or cellular detail.\n\nThe morphologic features are insufficient for a definitive diagnosis. The image lacks tissue content and cellular detail necessary for evaluation.",
+      "rationale": "Region 3: sample more peripheral area for any epithelial component or vascular channels"
+    },
+    {
+      "roi_id": "slide_A_x16384_y14336_mag5",
+      "tile_id": "slide_A_x16384_y14336_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 16384,
+      "y": 14336,
+      "level0": {
+        "x": 16384,
+        "y": 14336,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular neoplasm with a prominent trabecular and nested growth pattern separated by thick fibrous septa. The tumor cells are relatively uniform with round to oval nuclei and moderate eosinophilic cytoplasm.\n\nThe most likely diagnosis is a neuroendocrine tumor, specifically a carcinoid tumor, given the characteristic trabecular and nested architecture and uniform cell morphology.\n\nDifferential diagnoses include other neuroendocrine neoplasms such as atypical carcinoid or small cell carcinoma. Atypical carcinoid would show increased mitotic activity and/or necrosis, while small cell carcinoma would exhibit more significant nuclear pleomorphism, hyperchromasia, and a higher mitotic rate.",
+      "rationale": "Lower central-left area for any necrosis, hemorrhage, or inflammatory/granulation tissue."
+    },
+    {
+      "roi_id": "slide_A_x45568_y16896_mag20",
+      "tile_id": "slide_A_x45568_y16896_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 45568,
+      "y": 16896,
+      "level0": {
+        "x": 45568,
+        "y": 16896,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle-shaped cells arranged in fascicles and whorls, with areas of hyalinization and scattered inflammatory cells. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a spindle cell neoplasm, such as a leiomyosarcoma or a solitary fibrous tumor.\n\nDifferential diagnoses include leiomyosarcoma, which typically shows intersecting fascicles of spindle cells with eosinophilic cytoplasm and blunt-ended nuclei, and solitary fibrous tumor, which often exhibits a patternless architecture with alternating hypercellular and hypocellular areas, and prominent hyalinized vessels.",
+      "rationale": "Region 3: high power near darker zone to assess cellularity and mitotic rate"
+    },
+    {
+      "roi_id": "slide_A_x7168_y5632_mag20",
+      "tile_id": "slide_A_x7168_y5632_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 7168,
+      "y": 5632,
+      "level0": {
+        "x": 7168,
+        "y": 5632,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows scattered fragments of eosinophilic material with a fibrillar to amorphous appearance, along with scattered red blood cells and inflammatory cells. The morphology is consistent with a tumor composed of spindle cells and collagen.\n\nThe most likely diagnosis is a solitary fibrous tumor. This diagnosis is supported by the presence of spindle cells and collagenous stroma, which are characteristic features of this entity. Differential diagnoses to consider include other spindle cell neoplasms such as leiomyoma or schwannoma, which can also occur in the mediastinum and lung. However, the specific morphology seen here, particularly the pattern of collagen deposition, is most suggestive of a solitary fibrous tumor.",
+      "rationale": "Region 1: additional high-power to assess inflammation vs tumor and look for necrosis/mitoses"
+    },
+    {
+      "roi_id": "slide_A_x45056_y8192_mag2",
+      "tile_id": "slide_A_x45056_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 45056,
+      "y": 8192,
+      "level0": {
+        "x": 45056,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a dense cellular infiltrate with a prominent nodular pattern and areas of necrosis. The infiltrate is composed of small cells with scant cytoplasm and hyperchromatic nuclei, arranged in sheets and nests.\n\nThe most likely diagnosis is small cell carcinoma. Differential diagnoses include lymphoma, which can also present as a dense infiltrate of small cells, and carcinoid tumor, which typically shows a more organoid or trabecular pattern and less necrosis.",
+      "rationale": "Revisit area with reported necrosis/hemorrhage to verify at lower mag and assess distribution."
+    },
+    {
+      "roi_id": "slide_A_x38400_y22528_mag20",
+      "tile_id": "slide_A_x38400_y22528_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 38400,
+      "y": 22528,
+      "level0": {
+        "x": 38400,
+        "y": 22528,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a pink background with scattered small red structures. There is no discernible tissue or cellular detail present.\n\nThe morphologic features are insufficient to suggest a diagnosis or differential diagnoses.",
+      "rationale": "Sample lower part of target region 2 (less explored) for any epithelial differentiation, necrosis, mitoses"
+    },
+    {
+      "roi_id": "slide_A_x36864_y4096_mag2",
+      "tile_id": "slide_A_x36864_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 36864,
+      "y": 4096,
+      "level0": {
+        "x": 36864,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a dense cellular infiltrate with prominent lymphoid aggregates and scattered dark pigment. There is also a large vessel with a thickened wall.\n\nThe morphologic features are consistent with a lymphoid neoplasm, such as a lymphoma, given the dense lymphoid infiltrate and lymphoid aggregates. The presence of dark pigment could represent anthracotic pigment, which is common in the mediastinum. The large vessel with a thickened wall may be a reactive change or related to the tumor.\n\nDifferential diagnoses include reactive lymphoid hyperplasia and other types of lymphoma. Further characterization with immunohistochemistry would be necessary to confirm the diagnosis and subtype the lymphoma.",
+      "rationale": "Assess dense lymphoid/pigmented area at 2.5x—reactive lymphoid cuff vs tumor."
+    },
+    {
+      "roi_id": "slide_A_x39936_y19968_mag20",
+      "tile_id": "slide_A_x39936_y19968_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 39936,
+      "y": 19968,
+      "level0": {
+        "x": 39936,
+        "y": 19968,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle-shaped cells arranged in intersecting fascicles and whorls, with areas of hyalinization and scattered clear spaces. The cells have elongated, wavy nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a spindle cell neoplasm, such as a solitary fibrous tumor or a smooth muscle tumor (leiomyoma/leiomyosarcoma). Differential diagnoses include inflammatory myofibroblastic tumor and sarcomatoid carcinoma. Immunohistochemical stains for markers such as CD34, smooth muscle actin, desmin, and keratin would be helpful in distinguishing between these possibilities.",
+      "rationale": "Sample upper part of target region 2 near interface; look for bronchial mucosa, glands, cribriform/hyaline globules"
+    },
+    {
+      "roi_id": "slide_A_x12288_y3584_mag20",
+      "tile_id": "slide_A_x12288_y3584_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 12288,
+      "y": 3584,
+      "level0": {
+        "x": 12288,
+        "y": 3584,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of small cells with scant cytoplasm and hyperchromatic nuclei, arranged in sheets and clusters. Features include nuclear molding, crush artifact, and scattered apoptotic bodies.\n\nThe most likely diagnosis is small cell carcinoma of the lung. Differential diagnoses include other high-grade neuroendocrine carcinomas and lymphoma, which can be distinguished by immunohistochemistry.",
+      "rationale": "Region 1 peripheral focus for intact tumor cells; assess atypia/mitoses and exclude neuroendocrine morphology"
+    },
+    {
+      "roi_id": "slide_A_x40960_y20480_mag5",
+      "tile_id": "slide_A_x40960_y20480_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 40960,
+      "y": 20480,
+      "level0": {
+        "x": 40960,
+        "y": 20480,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a low-power view of lung tissue with a large, firm, gray tumor arising from the bronchial wall, causing significant luminal obstruction and extending into the surrounding lung parenchyma. The tumor is associated with marked bronchiectasis and atelectasis of the right lower lobe.\n\nThe most likely diagnosis is a malignant bronchial tumor, such as a squamous cell carcinoma or adenocarcinoma, given the location, size, and invasive nature of the mass. Differential diagnoses include other primary lung cancers like small cell carcinoma or large cell carcinoma, or a metastatic tumor to the bronchus. Further evaluation with higher magnification and immunohistochemical studies would be necessary to determine the specific tumor type.",
+      "rationale": "Inferior-right area with hemorrhage/amorphous material—look for organizing thrombus, necrosis, or luminal contents."
+    },
+    {
+      "roi_id": "slide_A_x24576_y12288_mag5",
+      "tile_id": "slide_A_x24576_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 24576,
+      "y": 12288,
+      "level0": {
+        "x": 24576,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular neoplasm with a mixed growth pattern including solid nests and trabeculae, separated by prominent fibrous stroma. The cells are relatively uniform with round to oval nuclei and moderate eosinophilic cytoplasm.\n\nThe most likely diagnosis is a neuroendocrine tumor, such as a carcinoid tumor, given the organ site and the described morphology. Differential diagnoses include other neuroendocrine neoplasms like atypical carcinoid or small cell carcinoma, which would typically show more nuclear pleomorphism, mitotic activity, or necrosis.",
+      "rationale": "Central tumor at 5x for any comedonecrosis, stromal hyalinization, or prominent vessels."
+    },
+    {
+      "roi_id": "slide_A_x20480_y4096_mag5",
+      "tile_id": "slide_A_x20480_y4096_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 20480,
+      "y": 4096,
+      "level0": {
+        "x": 20480,
+        "y": 4096,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a large, irregular mass composed of dense, eosinophilic material with scattered dark granules, adjacent to a thickened bronchial wall. The mass appears to arise from the bronchial wall and extends into the lumen.\n\nThe most likely diagnosis is a malignant tumor arising from the bronchial wall, such as a squamous cell carcinoma or adenocarcinoma. The dense eosinophilic material could represent keratinization or necrosis, and the dark granules may be pigment or necrotic debris. The thickened bronchial wall suggests invasion.\n\nDifferential diagnoses include other primary lung carcinomas (e.g., small cell carcinoma, large cell carcinoma) or metastatic tumors. The specific morphology of the tumor cells, if visible at higher magnification, would help differentiate between these possibilities.",
+      "rationale": "Upper central—look for surface mucosa, ulceration, and polypoid intraluminal component."
+    },
+    {
+      "roi_id": "slide_A_x12288_y4096_mag20",
+      "tile_id": "slide_A_x12288_y4096_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 12288,
+      "y": 4096,
+      "level0": {
+        "x": 12288,
+        "y": 4096,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of small cells with hyperchromatic nuclei and scant cytoplasm, arranged in sheets and clusters. There is also amorphous eosinophilic material and scattered larger cells.\n\nThe most likely diagnosis is small cell carcinoma of the lung. The differential diagnosis includes other small blue cell tumors such as lymphoma or metastatic small cell carcinoma from another site.",
+      "rationale": "Re-check reported small-cell/crush artifact focus and look for true high-grade neuroendocrine features/necrosis/mitoses."
+    },
+    {
+      "roi_id": "slide_A_x15872_y6144_mag20",
+      "tile_id": "slide_A_x15872_y6144_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 15872,
+      "y": 6144,
+      "level0": {
+        "x": 15872,
+        "y": 6144,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords with a prominent vascular stroma. The cells have round to oval nuclei with finely granular chromatin and moderate eosinophilic cytoplasm.\n\nThe most likely diagnosis is a neuroendocrine tumor, such as a carcinoid tumor, given the nested architecture, uniform cells with finely granular chromatin, and prominent vascular stroma. Differential diagnoses include other neuroendocrine neoplasms like atypical carcinoid or small cell carcinoma, which would show different nuclear features and growth patterns.",
+      "rationale": "Assess classic carcinoid cytology (salt-and-pepper chromatin), mitotic count, necrosis."
+    },
+    {
+      "roi_id": "slide_A_x10240_y4096_mag20",
+      "tile_id": "slide_A_x10240_y4096_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 10240,
+      "y": 4096,
+      "level0": {
+        "x": 10240,
+        "y": 4096,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle-shaped cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles and haphazardly, with associated hemorrhage and necrosis.\n\nThe most likely diagnosis is a malignant spindle cell neoplasm, such as a sarcoma or sarcomatoid carcinoma.\n\nDifferential diagnoses include leiomyosarcoma, which would show smooth muscle differentiation, and malignant peripheral nerve sheath tumor, which would show S100 positivity.",
+      "rationale": "Clarify whether spindle areas represent artifact/stroma vs true spindle-cell tumor; look for neuroendocrine nesting."
+    },
+    {
+      "roi_id": "slide_A_x29696_y10752_mag20",
+      "tile_id": "slide_A_x29696_y10752_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 29696,
+      "y": 10752,
+      "level0": {
+        "x": 29696,
+        "y": 10752,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords with uniform cells and round to oval nuclei, adjacent to dense fibrous tissue and areas of necrosis and calcification. The morphology is consistent with a neuroendocrine neoplasm.\n\nThe most likely diagnosis is a neuroendocrine tumor, such as a carcinoid tumor.\n\nDifferential diagnoses include other neuroendocrine neoplasms like atypical carcinoid or small cell carcinoma, which would show different cytologic features and growth patterns.",
+      "rationale": "Evaluate calcification and adjacent tumor; search for necrosis or atypia to separate typical vs atypical carcinoid."
+    },
+    {
+      "roi_id": "slide_A_x38912_y22016_mag20",
+      "tile_id": "slide_A_x38912_y22016_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 38912,
+      "y": 22016,
+      "level0": {
+        "x": 38912,
+        "y": 22016,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a large, firm gray tumor arising from the bronchial wall, filling the lumen and extending into the surrounding lung parenchyma. The tumor is composed of spindle cells arranged in fascicles and whorls, with areas of hyalinization and myxoid change. The most likely diagnosis is a malignant spindle cell neoplasm, such as a sarcoma or sarcomatoid carcinoma. Differential diagnoses include leiomyosarcoma, fibrosarcoma, and malignant peripheral nerve sheath tumor.",
+      "rationale": "High-power in region 2 to reconcile spindle vs neuroendocrine descriptions; check for organoid nests and cytology."
+    }
+  ]
+}

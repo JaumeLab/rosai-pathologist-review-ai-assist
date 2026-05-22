@@ -1,0 +1,926 @@
+{
+  "case_id": "sem580_case5",
+  "source": "slideseek-ai-assist",
+  "model": "gpt-5.4",
+  "generated_at": "2026-05-22T09:30:47.176157+00:00",
+  "organ": "Lung-Mediastinum",
+  "primary_dx": "Pulmonary Hamartoma, Chondroid Type, With Associated Coccidioidomycosis",
+  "differential_dx": [
+    "Pulmonary Chondroma",
+    "Solitary Coccidioidal Granuloma Mimicking Hamartoma / Collision Lesion"
+  ],
+  "microscopic_findings": [
+    {
+      "text": "Lobules of **mature hyaline cartilage** with bland **chondrocytes in lacunae** form the dominant lesional component.",
+      "roi_ids": [
+        "slide_A_x18432_y16384_mag10",
+        "slide_A_x18432_y16384_mag20"
+      ]
+    },
+    {
+      "text": "Cartilage is admixed with **mature adipose tissue** and **fibrous stroma**, supporting a mixed mesenchymal hamartomatous lesion.",
+      "roi_ids": [
+        "slide_A_x16384_y12288_mag10",
+        "slide_A_x14336_y12288_mag10"
+      ]
+    },
+    {
+      "text": "There are **entrapped benign respiratory epithelium** and epithelial clefts within the lesion, favoring hamartoma over pure chondroma.",
+      "roi_ids": [
+        "slide_A_x22528_y16384_mag10",
+        "slide_A_x24576_y8192_mag5"
+      ]
+    },
+    {
+      "text": "A separate focus shows **hyalinized necrotizing granulomatous inflammation** with **thick-walled spherules containing endospores**.",
+      "roi_ids": [
+        "slide_A_x25600_y19456_mag20",
+        "slide_A_x24576_y18432_mag10"
+      ]
+    }
+  ],
+  "interpretation": "The lesion is best classified as **pulmonary hamartoma, chondroid type** based on the admixture of **mature cartilage, adipose tissue, fibrous stroma, and entrapped respiratory epithelium**. A distinct associated focus of **necrotizing granulomatous inflammation** contains **Coccidioides-type spherules with endospores**, supporting coexistent coccidioidomycosis rather than altering the benign hamartomatous nature of the bulk lesion. The mixed mesenchymal composition and epithelial entrapment argue against **pulmonary chondroma**.",
+  "num_rois": 55,
+  "tiles": [
+    {
+      "roi_id": "slide_A_x16384_y16384_mag1",
+      "tile_id": "slide_A_x16384_y16384_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 16384,
+      "y": 16384,
+      "level0": {
+        "x": 16384,
+        "y": 16384,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a well-circumscribed lesion composed of multiple rounded to oval structures with a central core and a thick, hyalinized wall. These structures are embedded within a fibrous stroma.\n\nThe most likely diagnosis is Pulmonary Hamartoma.\n\nDifferential diagnoses include:\n- Chondroma: Typically lacks the characteristic cartilaginous nodules with a central core and thick wall seen in hamartomas.\n- Chondrosarcoma: Would show cellular atypia, increased cellularity, and infiltrative growth, which are not present in this lesion.",
+      "rationale": "Global low-power architecture of lesion and interface with lung"
+    },
+    {
+      "roi_id": "slide_A_x16384_y12288_mag2",
+      "tile_id": "slide_A_x16384_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 16384,
+      "y": 12288,
+      "level0": {
+        "x": 16384,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a well-circumscribed lesion composed of lobules of mature hyaline cartilage separated by fibrous septa. Chondrocytes are present within lacunae, and the cartilage matrix is basophilic.\n\nThe most likely diagnosis is a pulmonary chondroma.\n\nDifferential diagnoses include chondrosarcoma, which would typically show increased cellularity, nuclear atypia, and myxoid change, and hamartoma, which would contain other mesenchymal elements like fat or smooth muscle.",
+      "rationale": "Low-power map of lesion; identify nodules/whorls vs hyalinized areas."
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag2",
+      "tile_id": "slide_A_x8192_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a well-circumscribed lesion composed of mature cartilage, adipose tissue, and fibrous tissue, with entrapped respiratory epithelium. The lesion is sharply demarcated from the surrounding lung parenchyma.\n\nThe most likely diagnosis is a pulmonary hamartoma. Differential diagnoses include chondroma and chondrosarcoma, which would typically lack the admixture of adipose and fibrous tissue and entrapped epithelium seen here.",
+      "rationale": "Assess left-superior portion for lobulation/whorls and peripheral interface"
+    },
+    {
+      "roi_id": "slide_A_x10240_y8192_mag5",
+      "tile_id": "slide_A_x10240_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 10240,
+      "y": 8192,
+      "level0": {
+        "x": 10240,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a well-circumscribed lesion composed of mature cartilage with chondrocytes in lacunae, surrounded by fibrous tissue and adipose tissue. The cartilage matrix is eosinophilic and hyaline.\n\nThe most likely diagnosis is a pulmonary hamartoma, specifically a chondroid hamartoma.\n\nDifferential diagnoses include chondrosarcoma, which would typically show increased cellularity, nuclear atypia, and infiltrative growth, and a metastatic cartilaginous tumor, which would require clinical correlation and imaging to rule out a primary site.",
+      "rationale": "Sample upper-left lobulated nodule for architecture."
+    },
+    {
+      "roi_id": "slide_A_x14336_y12288_mag5",
+      "tile_id": "slide_A_x14336_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 14336,
+      "y": 12288,
+      "level0": {
+        "x": 14336,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a well-circumscribed lesion composed of mature hyaline cartilage with chondrocytes in lacunae, surrounded by fibrous connective tissue and adjacent respiratory epithelium. The cartilage matrix is predominantly eosinophilic with some basophilic areas.\n\nThe most likely diagnosis is a pulmonary hamartoma, specifically a chondroid hamartoma.\n\nDifferential diagnoses include chondrosarcoma, which would typically show increased cellularity, nuclear atypia, and infiltrative growth, and a chondroma, which is a benign cartilaginous tumor but usually occurs in bone.",
+      "rationale": "Mid-power assess architecture and any central necrosis."
+    },
+    {
+      "roi_id": "slide_A_x24576_y8192_mag2",
+      "tile_id": "slide_A_x24576_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 24576,
+      "y": 8192,
+      "level0": {
+        "x": 24576,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a well-circumscribed lesion composed of mature adipose tissue, fibrous stroma, and islands of hyaline cartilage. The lesion is surrounded by a fibrous capsule.\n\nThe most likely diagnosis is a pulmonary hamartoma.\n\nDifferential diagnoses include chondroma, which would lack the prominent adipose tissue component, and lipoma, which would lack the cartilaginous component.",
+      "rationale": "Assess right-superior portion for encapsulation and adjacent lung"
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag5",
+      "tile_id": "slide_A_x8192_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a lesion composed of mature adipose tissue, fibrous stroma, and entrapped benign epithelial structures. The presence of these diverse mature tissues in a well-circumscribed nodule is characteristic.\n\nThe most likely diagnosis is a pulmonary hamartoma. Differential diagnoses include lipoma, which lacks the other mesenchymal and epithelial components, and a chondroid hamartoma, which would have a prominent cartilaginous component.",
+      "rationale": "Sample left-upper portion where paler whorled areas noted."
+    },
+    {
+      "roi_id": "slide_A_x20480_y8192_mag5",
+      "tile_id": "slide_A_x20480_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 20480,
+      "y": 8192,
+      "level0": {
+        "x": 20480,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a well-circumscribed lesion composed of mature hyaline cartilage and entrapped respiratory epithelium. There is also evidence of hemorrhage and inflammation.\n\nThe most likely diagnosis is a pulmonary hamartoma, specifically a chondroid hamartoma.\n\nDifferential diagnoses include chondroma and chondrosarcoma. Chondroma would lack the entrapped respiratory epithelium and would be less common in the lung. Chondrosarcoma would show cellular atypia and infiltrative growth, which are not seen here.",
+      "rationale": "Sample upper-right more cellular-appearing area."
+    },
+    {
+      "roi_id": "slide_A_x16384_y20480_mag2",
+      "tile_id": "slide_A_x16384_y20480_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 16384,
+      "y": 20480,
+      "level0": {
+        "x": 16384,
+        "y": 20480,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a well-circumscribed lesion with a central area of necrosis and calcification surrounded by a thick fibrous capsule. The surrounding lung parenchyma exhibits interstitial fibrosis and chronic inflammation.\n\nThe most likely diagnosis is a hyalinizing granuloma, also known as a silicotic nodule. This diagnosis is supported by the presence of a well-circumscribed nodule with central necrosis and calcification, surrounded by a thick fibrous capsule, and the clinical history of a coin lesion in the lung.\n\nDifferential diagnoses include a calcified granuloma due to other infectious or inflammatory causes, such as tuberculosis or fungal infections. However, the clinical history of negative skin tests for tuberculosis and Valley Fever, along with the characteristic morphology of a hyalinizing granuloma, makes these less likely.",
+      "rationale": "Assess inferior portion for hemorrhage/necrosis/cystic change"
+    },
+    {
+      "roi_id": "slide_A_x18432_y16384_mag5",
+      "tile_id": "slide_A_x18432_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 18432,
+      "y": 16384,
+      "level0": {
+        "x": 18432,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a well-circumscribed nodule composed of hyaline cartilage with chondrocytes in lacunae, some forming isogenous groups, and a basophilic matrix. The periphery is surrounded by fibrous tissue.\n\nThe most likely diagnosis is a pulmonary chondroma.\n\nDifferential diagnoses include chondrosarcoma, which would show increased cellularity, nuclear atypia, and myxoid change, and a hamartoma, which would contain other mesenchymal elements like fat or smooth muscle.",
+      "rationale": "Sample central whorled/pale zone near hemorrhage."
+    },
+    {
+      "roi_id": "slide_A_x22528_y16384_mag5",
+      "tile_id": "slide_A_x22528_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 22528,
+      "y": 16384,
+      "level0": {
+        "x": 22528,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a lesion composed of a mixture of mature adipose tissue, fibrous stroma, and entrapped benign glandular structures. The stroma is dense and fibrous with scattered chronic inflammation.\n\nThe most likely diagnosis is a pulmonary hamartoma, specifically a chondroid hamartoma with prominent adipose tissue component. The presence of mature adipose tissue, fibrous stroma, and entrapped benign glandular structures is characteristic of this benign lesion. The clinical presentation of a sharply circumscribed nodule in the lung is also typical.\n\nDifferential diagnoses to consider include lipoma, which would lack the fibrous stroma and entrapped glandular structures, and a well-differentiated liposarcoma, which would show atypical stromal cells and lipoblasts.",
+      "rationale": "Sample right-lower portion with more dense eosinophilic nodules."
+    },
+    {
+      "roi_id": "slide_A_x24576_y18432_mag5",
+      "tile_id": "slide_A_x24576_y18432_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 24576,
+      "y": 18432,
+      "level0": {
+        "x": 24576,
+        "y": 18432,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a well-circumscribed lesion with a central area of necrosis and surrounding granulomatous inflammation composed of epithelioid histiocytes and multinucleated giant cells. There is also a peripheral fibrous capsule.\n\nThe most likely diagnosis is a necrotizing granuloma, consistent with a healed or resolving infectious process.\n\nDifferential diagnoses include fungal infections (e.g., histoplasmosis, coccidioidomycosis) and mycobacterial infections (e.g., tuberculosis). Special stains for fungi and acid-fast bacilli would be helpful to rule out these etiologies.",
+      "rationale": "Sample lower-right peripheral interface with lung."
+    },
+    {
+      "roi_id": "slide_A_x16384_y12288_mag5",
+      "tile_id": "slide_A_x16384_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 16384,
+      "y": 12288,
+      "level0": {
+        "x": 16384,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a well-circumscribed lesion composed of mature hyaline cartilage with chondrocytes in lacunae, some in isogenous groups, and areas of adipose tissue. The cartilage matrix is eosinophilic.\n\nThe most likely diagnosis is a chondroma.\n\nDifferential diagnoses include chondrosarcoma, which would show increased cellularity, nuclear atypia, and myxoid change, and osteochondroma, which would contain a bony stalk.",
+      "rationale": "Representative central lobule/whorled pink area—confirm cartilage vs hyalinized collagen; look for entrapped epithelium"
+    },
+    {
+      "roi_id": "slide_A_x20480_y12288_mag5",
+      "tile_id": "slide_A_x20480_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 20480,
+      "y": 12288,
+      "level0": {
+        "x": 20480,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a well-circumscribed lesion composed of mature hyaline cartilage with chondrocytes in lacunae, surrounded by fibrous connective tissue and adipose tissue. The cartilage matrix is eosinophilic and glassy.\n\nThe most likely diagnosis is a pulmonary hamartoma, specifically a chondroid hamartoma.\n\nDifferential diagnoses include chondrosarcoma, which would typically show increased cellularity, nuclear atypia, and infiltrative growth, and a chondroma, which is a benign cartilaginous tumor but usually occurs in bone.",
+      "rationale": "Right-sided lobule near capsule—assess peripheral interface and any lymphoid cuffing or granulomatous inflammation"
+    },
+    {
+      "roi_id": "slide_A_x14336_y12288_mag10",
+      "tile_id": "slide_A_x14336_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 14336,
+      "y": 12288,
+      "level0": {
+        "x": 14336,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a mixture of mature adipose tissue, dense fibrous tissue, and hyaline cartilage with chondrocytes in lacunae. The cartilage exhibits a somewhat lobulated pattern.\n\nThe most likely diagnosis is chondrolipoma.\n\nDifferential diagnoses include lipoma with osseous metaplasia and hamartoma. Lipoma with osseous metaplasia would show bone formation instead of cartilage. Hamartoma typically contains a more disorganized mixture of tissues, including cartilage, fat, and fibrous tissue, often with entrapped respiratory epithelium.",
+      "rationale": "At 10x look for granulomatous inflammation/necrosis vs bland hamartoma components."
+    },
+    {
+      "roi_id": "slide_A_x24576_y18432_mag10",
+      "tile_id": "slide_A_x24576_y18432_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 24576,
+      "y": 18432,
+      "level0": {
+        "x": 24576,
+        "y": 18432,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a well-circumscribed lesion with a central area of dense fibrosis and hyalinization, surrounded by a cellular zone containing spindle cells and chronic inflammation. The periphery exhibits a papillary pattern with fibrovascular cores lined by cuboidal to columnar cells.\n\nThe most likely diagnosis is a benign mesenchymal tumor with epithelial differentiation, such as a pulmonary hamartoma.\n\nDifferential diagnoses include a sclerosing pneumocytoma, which can also present with a sclerotic core and papillary areas, and a solitary fibrous tumor, which typically shows a more uniform spindle cell proliferation and lacks the epithelial component.",
+      "rationale": "Clarify reported necrotizing granuloma area at periphery; verify vs entrapped epithelium or cartilage."
+    },
+    {
+      "roi_id": "slide_A_x10240_y18432_mag5",
+      "tile_id": "slide_A_x10240_y18432_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 10240,
+      "y": 18432,
+      "level0": {
+        "x": 10240,
+        "y": 18432,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a well-circumscribed lesion with a central area of hyaline cartilage surrounded by a proliferation of bronchial-type epithelium forming irregular glands and tubules within a fibrous stroma. A thick-walled blood vessel is also present.\n\nThe most likely diagnosis is a pulmonary hamartoma.\n\nDifferential diagnoses include a chondroma, which would lack the epithelial and stromal components, and a chondrosarcoma, which would show cellular atypia and infiltrative growth.",
+      "rationale": "Inferior-central area with darker red focus—evaluate for hemorrhage/necrosis/calcification"
+    },
+    {
+      "roi_id": "slide_A_x16384_y12288_mag10",
+      "tile_id": "slide_A_x16384_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 16384,
+      "y": 12288,
+      "level0": {
+        "x": 16384,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a mixture of mature cartilage, adipose tissue, and fibrous tissue. The cartilage contains chondrocytes within lacunae, some forming isogenous groups, and the matrix is eosinophilic.\n\nThe most likely diagnosis is a chondrolipoma. This benign tumor is characterized by the presence of mature adipose tissue and cartilage, which are both present in the image. The fibrous tissue component is also consistent with this diagnosis.\n\nDifferential diagnoses include chondroma and lipoma. A chondroma would lack the adipose tissue component, while a lipoma would lack the cartilage component.",
+      "rationale": "Survey cartilaginous lobules for any necrosis/calcification patterns."
+    },
+    {
+      "roi_id": "slide_A_x6144_y14336_mag5",
+      "tile_id": "slide_A_x6144_y14336_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 6144,
+      "y": 14336,
+      "level0": {
+        "x": 6144,
+        "y": 14336,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a well-circumscribed lesion composed of mature cartilage, adipose tissue, and glandular structures. The presence of multiple mature tissue types in a single lesion is characteristic.\n\nThe most likely diagnosis is a pulmonary hamartoma. Differential diagnoses include chondroma, which would lack the other mature tissue components, and a teratoma, which would contain immature elements.",
+      "rationale": "Left-mid peripheral area—check for adjacent lung parenchyma involvement/infiltration vs pushing border"
+    },
+    {
+      "roi_id": "slide_A_x20480_y8192_mag10",
+      "tile_id": "slide_A_x20480_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 20480,
+      "y": 8192,
+      "level0": {
+        "x": 20480,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a well-circumscribed nodule composed of hyaline cartilage with chondrocytes in lacunae, surrounded by a fibrous capsule. There is also adjacent lung parenchyma with alveolar spaces and areas of hemorrhage.\n\nThe most likely diagnosis is a pulmonary hamartoma, specifically a chondroid hamartoma.\n\nDifferential diagnoses include a chondroma, which is a benign cartilaginous neoplasm, and a chondrosarcoma, which is a malignant cartilaginous tumor. However, the presence of entrapped lung parenchyma and the overall well-circumscribed nature of the lesion are more consistent with a hamartoma.",
+      "rationale": "Assess presence of entrapped respiratory epithelium/fat to support hamartoma."
+    },
+    {
+      "roi_id": "slide_A_x22528_y16384_mag10",
+      "tile_id": "slide_A_x22528_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 22528,
+      "y": 16384,
+      "level0": {
+        "x": 22528,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a mixture of mature adipose tissue, fibrous stroma, and entrapped benign epithelial structures. The stroma is dense and fibrous with scattered chronic inflammation and congested vessels.\n\nThe most likely diagnosis is a pulmonary hamartoma, specifically a chondrolipoma variant. The presence of mature adipose tissue, fibrous stroma, and entrapped benign epithelial structures is characteristic. Differential diagnoses include lipoma, which lacks the fibrous stroma and entrapped epithelium, and a fibrolipoma, which lacks the cartilaginous component.",
+      "rationale": "Assess fibrous septa/chronic inflammation for granulomas."
+    },
+    {
+      "roi_id": "slide_A_x18432_y16384_mag10",
+      "tile_id": "slide_A_x18432_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 18432,
+      "y": 16384,
+      "level0": {
+        "x": 18432,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a well-circumscribed lesion composed of mature hyaline cartilage with chondrocytes in lacunae, some forming small clusters, within a pinkish-purple matrix. The chondrocytes have small, dark nuclei and lack significant atypia.\n\nThe most likely diagnosis is a pulmonary chondroma.\n\nDifferential diagnoses include chondrosarcoma, which would show increased cellularity, nuclear atypia, and potentially myxoid change, and a hamartoma, which would contain other mesenchymal elements like fat or smooth muscle.",
+      "rationale": "Evaluate cartilage cytology/isogenous groups; look for atypia/myxoid change."
+    },
+    {
+      "roi_id": "slide_A_x18432_y15360_mag10",
+      "tile_id": "slide_A_x18432_y15360_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 18432,
+      "y": 15360,
+      "level0": {
+        "x": 18432,
+        "y": 15360,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a well-circumscribed nodule composed of mature hyaline cartilage with chondrocytes in lacunae, surrounded by fibrous connective tissue and adipose tissue. The chondrocytes are bland with no significant atypia or mitotic activity.\n\nThe most likely diagnosis is a pulmonary chondroma.\n\nDifferential diagnoses include chondrosarcoma, which would show increased cellularity, nuclear atypia, and mitotic activity, and a hamartoma, which would contain a mixture of cartilage, fat, and fibrous tissue but typically has a more disorganized appearance.",
+      "rationale": "Sample central zone near prior mark for any necrosis/hemorrhage."
+    },
+    {
+      "roi_id": "slide_A_x26624_y18432_mag5",
+      "tile_id": "slide_A_x26624_y18432_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 26624,
+      "y": 18432,
+      "level0": {
+        "x": 26624,
+        "y": 18432,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a well-circumscribed lesion with a central area of necrosis and surrounding granulomatous inflammation. The granulomas are composed of epithelioid histiocytes and multinucleated giant cells, with some giant cells containing refractile material.\n\nThe most likely diagnosis is a necrotizing granuloma, consistent with a fungal infection such as Coccidioidomycosis.\n\nDifferential diagnoses include tuberculosis and other fungal infections (e.g., Histoplasmosis, Blastomycosis). Special stains for fungi (GMS, PAS) and acid-fast bacilli (AFB) would be helpful to identify the causative organism.",
+      "rationale": "Far right-inferior peripheral region—look for capsule/pleura and adjacent lung; any calcification/necrosis"
+    },
+    {
+      "roi_id": "slide_A_x10240_y8192_mag10",
+      "tile_id": "slide_A_x10240_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 10240,
+      "y": 8192,
+      "level0": {
+        "x": 10240,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a transition from mature hyaline cartilage to fibrofatty tissue. The cartilage contains chondrocytes within lacunae, some in isogenous groups, and the fibrofatty tissue contains mature adipocytes and fibrous stroma.\n\nThe most likely diagnosis is a chondrolipoma, a benign mesenchymal tumor composed of mature cartilage and adipose tissue. Differential diagnoses include a hamartoma, which typically contains a mixture of cartilage, fat, and other mesenchymal elements, and a chondroma, which is composed solely of mature cartilage.",
+      "rationale": "Look for additional mesenchymal elements (fat, smooth muscle) typical of hamartoma."
+    },
+    {
+      "roi_id": "slide_A_x16384_y12288_mag20",
+      "tile_id": "slide_A_x16384_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 16384,
+      "y": 12288,
+      "level0": {
+        "x": 16384,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a hypocellular lesion with a prominent myxoid matrix containing scattered spindle cells and mature adipocytes. A blood vessel with thickened walls is also present.\n\nThe most likely diagnosis is a myxoid lipoma.\n\nDifferential diagnoses include myxoid liposarcoma, which typically shows more cellularity, lipoblasts, and a characteristic plexiform capillary pattern, and myxoma, which lacks the mature adipocytes seen here.",
+      "rationale": "High power search within cartilage/fibrous stroma for fungal spherules/yeast or AFB-like organisms."
+    },
+    {
+      "roi_id": "slide_A_x14336_y16384_mag5",
+      "tile_id": "slide_A_x14336_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 14336,
+      "y": 16384,
+      "level0": {
+        "x": 14336,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a well-circumscribed lesion composed of mature hyaline cartilage with chondrocytes in lacunae, some forming isogenous groups, and a basophilic matrix. There is also a central area of fibrous tissue and adipose tissue.\n\nThe most likely diagnosis is a pulmonary chondroma.\n\nDifferential diagnoses include chondrosarcoma, which would show increased cellularity, nuclear atypia, and mitotic activity, and hamartoma, which typically contains a mixture of cartilage, fat, and fibrous tissue but often has entrapped respiratory epithelium.",
+      "rationale": "Central interface between lobules—assess multinodular architecture and any clefting/entrapped epithelium"
+    },
+    {
+      "roi_id": "slide_A_x15360_y12288_mag10",
+      "tile_id": "slide_A_x15360_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 15360,
+      "y": 12288,
+      "level0": {
+        "x": 15360,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a well-circumscribed nodule composed of hyaline cartilage with chondrocytes in lacunae, some forming isogenous groups, within a pink matrix. There is also a central area of degeneration with amorphous material and clear spaces.\n\nThe most likely diagnosis is a pulmonary chondroma.\n\nDifferential diagnoses include chondrosarcoma, which would typically show increased cellularity, nuclear atypia, and infiltrative growth, and a hamartoma, which would contain a mixture of cartilage, fat, and fibrous tissue.",
+      "rationale": "Survey central lobules and septa for overall architecture; pick most cellular areas for 20x."
+    },
+    {
+      "roi_id": "slide_A_x8192_y22528_mag5",
+      "tile_id": "slide_A_x8192_y22528_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 8192,
+      "y": 22528,
+      "level0": {
+        "x": 8192,
+        "y": 22528,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a well-circumscribed lesion with a central area of dense hyalinized collagen and a peripheral zone of chronic inflammation and fibrosis. The lesion is sharply demarcated from the surrounding lung parenchyma.\n\nThe most likely diagnosis is a hyalinized granuloma, consistent with a healed or resolving inflammatory process.\n\nDifferential diagnoses include a silicotic nodule, which typically shows concentric lamellations of collagen, and a fibrotic scar, which lacks the granulomatous inflammatory component.",
+      "rationale": "Inferior-left edge—evaluate relationship to lung parenchyma and any inflammation/granulomas at periphery"
+    },
+    {
+      "roi_id": "slide_A_x6144_y18432_mag10",
+      "tile_id": "slide_A_x6144_y18432_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 6144,
+      "y": 18432,
+      "level0": {
+        "x": 6144,
+        "y": 18432,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a biphasic lesion composed of epithelial structures forming tubules and glands within a dense fibrous stroma, with areas of hemorrhage and inflammation.\n\nThe most likely diagnosis is a benign biphasic tumor of the lung, such as a pulmonary hamartoma or a benign mixed tumor.\n\nDifferential diagnoses include a malignant biphasic tumor like a carcinosarcoma, which would show cytologic atypia and increased mitotic activity, and a metastatic adenocarcinoma with a prominent desmoplastic stroma, which would lack the characteristic biphasic pattern of a hamartoma.",
+      "rationale": "Sample inferior-left peripheral area for any granulomatous inflammation/calcification."
+    },
+    {
+      "roi_id": "slide_A_x17408_y10240_mag10",
+      "tile_id": "slide_A_x17408_y10240_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 17408,
+      "y": 10240,
+      "level0": {
+        "x": 17408,
+        "y": 10240,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a well-circumscribed lesion composed of mature hyaline cartilage with chondrocytes in lacunae, some forming small clusters, within a pink matrix. The periphery shows a transition to fibrous tissue and adipose tissue.\n\nThe most likely diagnosis is a pulmonary chondroma.\n\nDifferential diagnoses include chondrosarcoma, which would typically show increased cellularity, nuclear atypia, and myxoid change, and a hamartoma, which would contain a mixture of cartilage, fat, and fibrous tissue but would not be composed predominantly of mature cartilage.",
+      "rationale": "Zoom on cartilage/epithelium area to confirm no atypia and evaluate for granulomas/necrosis/calcification"
+    },
+    {
+      "roi_id": "slide_A_x11264_y8192_mag20",
+      "tile_id": "slide_A_x11264_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 11264,
+      "y": 8192,
+      "level0": {
+        "x": 11264,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a hyaline cartilage matrix with chondrocytes in lacunae, some forming isogenous groups. The matrix is predominantly eosinophilic with areas of basophilia.\n\nThe most likely diagnosis is a pulmonary chondroma. Differential diagnoses include chondrosarcoma, which would show increased cellularity, nuclear atypia, and mitotic activity, and a hamartoma, which would contain other mesenchymal elements like fat or smooth muscle.",
+      "rationale": "High power of cartilage/fat interface to assess chondrocyte cytology/atypia and confirm mature adipose."
+    },
+    {
+      "roi_id": "slide_A_x25600_y8192_mag10",
+      "tile_id": "slide_A_x25600_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 25600,
+      "y": 8192,
+      "level0": {
+        "x": 25600,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a transition from mature adipose tissue to a fibrous stroma containing entrapped benign-appearing glandular structures. The stroma is dense and collagenous with scattered inflammatory cells.\n\nThe most likely diagnosis is a pulmonary hamartoma, specifically a chondrolipoma variant. The presence of mature adipose tissue and entrapped benign epithelial elements within a fibrous stroma is characteristic. Differential diagnoses include lipoma, which lacks the epithelial and stromal components, and a solitary fibrous tumor, which typically shows a more uniform spindle cell proliferation and lacks adipose tissue.",
+      "rationale": "Sample superior-right peripheral area near capsule/adjacent lung for granulomas."
+    },
+    {
+      "roi_id": "slide_A_x20480_y8192_mag20",
+      "tile_id": "slide_A_x20480_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20480,
+      "y": 8192,
+      "level0": {
+        "x": 20480,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a well-circumscribed nodule with a central vessel surrounded by a dense inflammatory infiltrate, including lymphocytes and plasma cells, and abundant hemosiderin-laden macrophages. There is also evidence of hemorrhage and fibrosis.\n\nThe most likely diagnosis is a pulmonary hamartoma, specifically a chondroid hamartoma, given the presence of a well-circumscribed nodule with a central vessel and surrounding inflammation and fibrosis. The presence of hemosiderin-laden macrophages suggests prior hemorrhage, which can be seen in hamartomas.\n\nDifferential diagnoses include a granuloma, which would typically show well-formed granulomas with epithelioid histiocytes and multinucleated giant cells, and a metastatic tumor, which would show malignant cells.",
+      "rationale": "High power of area with possible entrapped epithelium to look for cleft-like respiratory epithelium typical hamartoma."
+    },
+    {
+      "roi_id": "slide_A_x25600_y19456_mag10",
+      "tile_id": "slide_A_x25600_y19456_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 25600,
+      "y": 19456,
+      "level0": {
+        "x": 25600,
+        "y": 19456,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a well-circumscribed nodule composed of dense fibrous tissue with a prominent whorled pattern and scattered chronic inflammatory cells. The periphery is lined by flattened cells.\n\nThe most likely diagnosis is a hyalinized granuloma, consistent with a healed or resolving inflammatory process.\n\nDifferential diagnoses include a fibrous scar or a fibrotic tumor. The whorled pattern and chronic inflammation favor a granulomatous process over a simple scar. The absence of significant cellular atypia or mitotic activity makes a fibrotic tumor less likely.",
+      "rationale": "Sample inferior-right peripheral region with dense stroma for inflammation/calcification."
+    },
+    {
+      "roi_id": "slide_A_x24576_y18432_mag20",
+      "tile_id": "slide_A_x24576_y18432_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 24576,
+      "y": 18432,
+      "level0": {
+        "x": 24576,
+        "y": 18432,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of epithelial cells forming papillary and glandular structures within a dense fibrous stroma. The epithelial cells are cuboidal to columnar with basally oriented nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a benign epithelial tumor of the lung, such as a papillary adenoma. The differential diagnosis includes a well-differentiated adenocarcinoma, which would typically show more significant cytologic atypia, mitotic activity, and potentially invasive growth patterns.",
+      "rationale": "High power of peripheral papillary/spindle zone to exclude sclerosing pneumocytoma or other epithelial tumor."
+    },
+    {
+      "roi_id": "slide_A_x26624_y18432_mag10",
+      "tile_id": "slide_A_x26624_y18432_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 26624,
+      "y": 18432,
+      "level0": {
+        "x": 26624,
+        "y": 18432,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a well-circumscribed nodule composed of dense fibrous tissue with a prominent chronic inflammatory infiltrate and scattered epithelioid histiocytes. There are also areas of fat necrosis and amorphous eosinophilic material.\n\nThe most likely diagnosis is a fibrotic granuloma, consistent with a healed or resolving inflammatory process.\n\nDifferential diagnoses include a fibrotic nodule of sarcoidosis, which typically shows non-caseating granulomas, and a fibrotic nodule of tuberculosis, which would show caseating granulomas.",
+      "rationale": "Clarify whether true necrotizing granuloma is present at right-inferior periphery vs misread stromal change; look for giant cells/necrosis at higher power"
+    },
+    {
+      "roi_id": "slide_A_x14848_y20992_mag20",
+      "tile_id": "slide_A_x14848_y20992_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 14848,
+      "y": 20992,
+      "level0": {
+        "x": 14848,
+        "y": 20992,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a fibroinflammatory process with a central area of necrosis and hemorrhage surrounded by a dense inflammatory infiltrate and fibrosis. The inflammatory cells include lymphocytes, plasma cells, and histiocytes, with scattered multinucleated giant cells.\n\nThe most likely diagnosis is a necrotizing granuloma, consistent with a fungal infection such as Coccidioidomycosis.\n\nDifferential diagnoses include other granulomatous infections like tuberculosis or fungal infections (e.g., Histoplasmosis, Blastomycosis), and non-infectious causes like sarcoidosis or foreign body reaction.",
+      "rationale": "High power in inferior central band (possible hemorrhage) to look for necrosis, organisms, calcification."
+    },
+    {
+      "roi_id": "slide_A_x8192_y22528_mag10",
+      "tile_id": "slide_A_x8192_y22528_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 8192,
+      "y": 22528,
+      "level0": {
+        "x": 8192,
+        "y": 22528,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a nodular lesion with a central area of necrosis and hemorrhage surrounded by a cellular infiltrate and fibrous tissue. The cellular infiltrate includes lymphocytes, plasma cells, and histiocytes, with scattered dark granular material.\n\nThe most likely diagnosis is a necrotizing granuloma, consistent with a healed or resolving infectious process.\n\nDifferential diagnoses include:\n- Sarcoidosis: Typically non-necrotizing granulomas.\n- Fungal infection: Special stains would be needed to identify fungal elements.\n- Tuberculosis: Acid-fast bacilli would be needed to identify mycobacteria.",
+      "rationale": "Evaluate purported hyalinized granuloma area at inferior-left edge; look for granulomas/calcifications"
+    },
+    {
+      "roi_id": "slide_A_x18432_y16384_mag20",
+      "tile_id": "slide_A_x18432_y16384_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 18432,
+      "y": 16384,
+      "level0": {
+        "x": 18432,
+        "y": 16384,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a hyaline cartilage matrix with chondrocytes in lacunae, often forming isogenous groups. The chondrocytes have small, dark nuclei and are embedded in a pinkish-purple matrix.\n\nThe most likely diagnosis is a pulmonary chondroma. This benign cartilaginous tumor is characterized by mature hyaline cartilage, as seen in the image. The presence of a sharply circumscribed nodule in the lung/mediastinum of an asymptomatic patient further supports this diagnosis.\n\nDifferential diagnoses include chondrosarcoma, which would typically show increased cellularity, nuclear atypia, and myxoid change, and a hamartoma, which would contain a mixture of cartilage, fat, and fibrous tissue.",
+      "rationale": "High power of cartilage lobule for nuclear atypia, binucleation, mitotic activity, myxoid change."
+    },
+    {
+      "roi_id": "slide_A_x26112_y8192_mag20",
+      "tile_id": "slide_A_x26112_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 26112,
+      "y": 8192,
+      "level0": {
+        "x": 26112,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of irregular glandular structures embedded in a dense fibrous stroma, with some glands containing eosinophilic material. The glands are lined by cuboidal to columnar epithelium with focal stratification and papillary infolding.\n\nThe most likely diagnosis is a benign glandular lesion, such as a bronchogenic cyst or a benign glandular tumor.\n\nDifferential diagnoses include:\n- Bronchogenic cyst: Typically lined by respiratory epithelium and may contain cartilage or smooth muscle, which are not seen here.\n- Adenocarcinoma: Would show more significant cytologic atypia, mitotic activity, and potentially invasive growth, which are not apparent in this image.",
+      "rationale": "High power at periphery for granulomas/organisms."
+    },
+    {
+      "roi_id": "slide_A_x15872_y12288_mag20",
+      "tile_id": "slide_A_x15872_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 15872,
+      "y": 12288,
+      "level0": {
+        "x": 15872,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a transition from hyaline cartilage with chondrocytes in lacunae to mature adipose tissue. The cartilage matrix is eosinophilic and fibrillar.\n\nThe most likely diagnosis is a chondrolipoma, a benign mesenchymal tumor composed of mature adipose tissue and hyaline cartilage.\n\nDifferential diagnoses include chondroma, which lacks the adipose tissue component, and lipoma, which lacks the cartilage component.",
+      "rationale": "High power of central degeneration/amorphous material to characterize (myxoid change vs necrosis) and check for inflammation."
+    },
+    {
+      "roi_id": "slide_A_x10240_y18432_mag10",
+      "tile_id": "slide_A_x10240_y18432_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 10240,
+      "y": 18432,
+      "level0": {
+        "x": 10240,
+        "y": 18432,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a well-circumscribed lesion with a central area of dense hyalinized material surrounded by a cellular stroma containing spindle cells and a mixed inflammatory infiltrate. The lesion is sharply demarcated from the adjacent lung parenchyma.\n\nThe most likely diagnosis is a hyalinizing granuloma. This diagnosis is supported by the presence of a central hyalinized core and surrounding granulomatous inflammation. Differential diagnoses include a fibrotic nodule or scar, which would lack the granulomatous component, and a fungal granuloma, which would typically show identifiable fungal organisms.",
+      "rationale": "Confirm entrapped bronchial epithelium/glands within chondroid stroma (hamartoma feature) and check for necrosis/calcification"
+    },
+    {
+      "roi_id": "slide_A_x24576_y8192_mag5",
+      "tile_id": "slide_A_x24576_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 24576,
+      "y": 8192,
+      "level0": {
+        "x": 24576,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a well-circumscribed lesion composed of mature adipose tissue, fibrous stroma, and islands of hyaline cartilage. Entrapped benign glandular structures are also present.\n\nThe most likely diagnosis is a pulmonary hamartoma.\n\nDifferential diagnoses include lipoma, which would lack cartilage and entrapped glands, and chondroma, which would lack adipose tissue and entrapped glands.",
+      "rationale": "Re-assess capsule/adjacent lung at right-superior edge for pushing border and lack of infiltrative growth"
+    },
+    {
+      "roi_id": "slide_A_x25600_y19456_mag20",
+      "tile_id": "slide_A_x25600_y19456_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 25600,
+      "y": 19456,
+      "level0": {
+        "x": 25600,
+        "y": 19456,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a well-circumscribed nodule composed of dense fibrous tissue with a prominent chronic inflammatory infiltrate. Scattered within the fibrous stroma are large, thick-walled spherules containing endospores.\n\nThe most likely diagnosis is Coccidioidomycosis.\n\nDifferential diagnoses include other fungal infections such as Blastomycosis or Histoplasmosis, which typically show different fungal morphology (e.g., broad-based budding yeasts in Blastomycosis, small intracellular yeasts in Histoplasmosis).",
+      "rationale": "High power in whorled hyalinized area to look for fungal elements/AFB-like organisms/calcification."
+    },
+    {
+      "roi_id": "slide_A_x14336_y20992_mag20",
+      "tile_id": "slide_A_x14336_y20992_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 14336,
+      "y": 20992,
+      "level0": {
+        "x": 14336,
+        "y": 20992,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a well-circumscribed nodule composed of dense fibrous tissue with scattered spindle cells and chronic inflammation. There are also areas of hemorrhage and necrosis.\n\nThe most likely diagnosis is a hyalinizing granuloma. Differential diagnoses include a fibrotic nodule of sarcoidosis or a fibrotic scar from a healed infection.",
+      "rationale": "Re-examine necrotizing granuloma focus carefully for spherules/yeast/hyphae."
+    },
+    {
+      "roi_id": "slide_A_x10752_y11776_mag20",
+      "tile_id": "slide_A_x10752_y11776_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 10752,
+      "y": 11776,
+      "level0": {
+        "x": 10752,
+        "y": 11776,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a well-circumscribed nodule composed of hyaline cartilage with chondrocytes in lacunae, some forming isogenous groups, within a pink matrix. The periphery shows dense fibrous tissue.\n\nThe most likely diagnosis is a pulmonary chondroma.\n\nDifferential diagnoses include chondrosarcoma, which would show increased cellularity, nuclear atypia, and myxoid change, and a hamartoma, which would contain other mesenchymal elements like fat or smooth muscle.",
+      "rationale": "High power within cartilaginous hamartoma component to ensure no organisms/calcification."
+    },
+    {
+      "roi_id": "slide_A_x22016_y11776_mag20",
+      "tile_id": "slide_A_x22016_y11776_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 22016,
+      "y": 11776,
+      "level0": {
+        "x": 22016,
+        "y": 11776,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a hyaline cartilage nodule with chondrocytes in lacunae, some forming isogenous groups, embedded in a pink matrix. The periphery is surrounded by dense fibrous tissue.\n\nThe most likely diagnosis is a pulmonary chondroma.\n\nDifferential diagnoses include chondrosarcoma, which would show increased cellularity, nuclear atypia, and mitotic activity, and a hamartoma, which typically contains a mixture of cartilage, fat, and fibrous tissue.",
+      "rationale": "High power in fibrous septa with chronic inflammation for granulomas/organisms."
+    },
+    {
+      "roi_id": "slide_A_x14336_y8192_mag5",
+      "tile_id": "slide_A_x14336_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 14336,
+      "y": 8192,
+      "level0": {
+        "x": 14336,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a well-circumscribed lesion composed of mature hyaline cartilage with chondrocytes in lacunae, surrounded by fibrous tissue and adipose tissue. The cartilage matrix is eosinophilic and glassy.\n\nThe most likely diagnosis is a pulmonary hamartoma, specifically a chondroid hamartoma.\n\nDifferential diagnoses include chondrosarcoma, which would typically show increased cellularity, nuclear atypia, and infiltrative growth, and a chondroma, which is a benign cartilaginous tumor but usually occurs in bone.",
+      "rationale": "Sample additional central-upper lobules to confirm lack of granulomas/calcification and consistent hamartoma architecture"
+    },
+    {
+      "roi_id": "slide_A_x12288_y12288_mag5",
+      "tile_id": "slide_A_x12288_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 12288,
+      "y": 12288,
+      "level0": {
+        "x": 12288,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a mixture of mature hyaline cartilage, fibrous connective tissue, and respiratory epithelium. The cartilage contains chondrocytes within lacunae, some in isogenous groups, and the fibrous tissue is composed of spindle cells and collagen.\n\nThe most likely diagnosis is a pulmonary hamartoma. This benign tumor is characterized by a disorganized mixture of mature mesenchymal tissues, most commonly cartilage, and entrapped respiratory epithelium, which is consistent with the findings in this image. The presence of mature cartilage is a key feature supporting this diagnosis.\n\nDifferential diagnoses to consider include chondroma, which is composed predominantly of cartilage without the other mesenchymal elements, and chondrosarcoma, which would show features of malignancy such as increased cellularity, nuclear atypia, and mitotic activity, which are not present in this image.",
+      "rationale": "Assess central area for calcification/ossification/cholesterol clefts sometimes in hamartoma"
+    },
+    {
+      "roi_id": "slide_A_x6144_y6144_mag5",
+      "tile_id": "slide_A_x6144_y6144_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 6144,
+      "y": 6144,
+      "level0": {
+        "x": 6144,
+        "y": 6144,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a well-circumscribed nodule composed of dense fibrous tissue with entrapped adipose tissue and a central area of hemorrhage. The periphery is lined by flattened cells.\n\nThe most likely diagnosis is a pulmonary hamartoma.\n\nDifferential diagnoses include a fibrous scar or a sclerosing pneumocytoma. A fibrous scar would typically lack the entrapped adipose tissue and the characteristic peripheral lining cells. A sclerosing pneumocytoma would show a more complex architecture with solid, papillary, and sclerotic areas, and the lining cells would be cuboidal to hobnail, often with a dual cell population.",
+      "rationale": "Peripheral left-upper edge for pleura/encapsulation and adjacent lung compression"
+    },
+    {
+      "roi_id": "slide_A_x26624_y10240_mag5",
+      "tile_id": "slide_A_x26624_y10240_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 26624,
+      "y": 10240,
+      "level0": {
+        "x": 26624,
+        "y": 10240,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a lesion composed of mature adipose tissue, fibrous tissue, and islands of hyaline cartilage. The lesion is sharply circumscribed and contains entrapped respiratory epithelium.\n\nThe most likely diagnosis is a pulmonary hamartoma, specifically a chondrolipoma.\n\nDifferential diagnoses include lipoma, which lacks cartilage, and chondroma, which lacks adipose tissue.",
+      "rationale": "Peripheral right-upper edge for capsule, adjacent lung, and exclude necrotizing granuloma"
+    },
+    {
+      "roi_id": "slide_A_x25088_y19456_mag20",
+      "tile_id": "slide_A_x25088_y19456_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 25088,
+      "y": 19456,
+      "level0": {
+        "x": 25088,
+        "y": 19456,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a well-circumscribed nodule with a central area of necrosis surrounded by a cellular infiltrate and fibrous tissue. The cellular infiltrate includes lymphocytes, plasma cells, and histiocytes, with some histiocytes forming a palisading arrangement around the necrotic core.\n\nThe most likely diagnosis is a necrotizing granuloma, consistent with a rheumatoid nodule.\n\nDifferential diagnoses include infectious granulomas (e.g., tuberculosis, fungal infections) and other non-infectious granulomatous conditions (e.g., sarcoidosis). Infectious granulomas typically show caseating necrosis and may have identifiable organisms, while sarcoidosis is characterized by non-caseating granulomas.",
+      "rationale": "Verify reported Coccidioides spherules and surrounding reaction."
+    },
+    {
+      "roi_id": "slide_A_x14848_y20480_mag20",
+      "tile_id": "slide_A_x14848_y20480_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 14848,
+      "y": 20480,
+      "level0": {
+        "x": 14848,
+        "y": 20480,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a fibrotic nodule with a central area of dense collagen and hyalinization, surrounded by concentric layers of fibroblasts and collagen. Scattered chronic inflammatory cells and dark granular material are also present.\n\nThe most likely diagnosis is a silicotic nodule.\n\nDifferential diagnoses include:\n- Sarcoidosis: Typically shows non-caseating granulomas, which are not seen here.\n- Tuberculosis: Would show caseating granulomas, which are absent.\n- Coccidioidomycosis: Would show fungal spherules, which are not present.",
+      "rationale": "Assess necrosis/hemorrhage/granulomatous inflammation focus for organisms."
+    },
+    {
+      "roi_id": "slide_A_x16384_y11776_mag20",
+      "tile_id": "slide_A_x16384_y11776_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 16384,
+      "y": 11776,
+      "level0": {
+        "x": 16384,
+        "y": 11776,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a mixture of mature adipose tissue, fibrous stroma, and hyaline cartilage. The cartilage contains chondrocytes within lacunae, some forming small clusters.\n\nThe most likely diagnosis is a chondrolipoma. This benign mesenchymal tumor is characterized by the presence of mature adipose tissue and cartilage. The presence of fibrous stroma is also consistent with this diagnosis.\n\nDifferential diagnoses include lipoma with osseous metaplasia and chondrosarcoma. Lipoma with osseous metaplasia would show mature adipose tissue and bone formation, but not cartilage. Chondrosarcoma would show malignant cartilage with increased cellularity, nuclear atypia, and mitotic activity, which are not seen in this image.",
+      "rationale": "Confirm classic hamartoma components: cartilage, fat, epithelial clefts."
+    }
+  ]
+}

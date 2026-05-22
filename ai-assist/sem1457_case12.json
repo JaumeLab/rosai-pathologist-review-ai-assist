@@ -1,0 +1,1133 @@
+{
+  "case_id": "sem1457_case12",
+  "source": "slideseek-ai-assist",
+  "model": "gpt-5.4",
+  "generated_at": "2026-05-22T09:27:07.428621+00:00",
+  "organ": "Genitourinary",
+  "primary_dx": "Pheochromocytoma (Adrenal Medullary Paraganglioma)",
+  "differential_dx": [
+    "Adrenocortical Neoplasm",
+    "Metastatic Well-Differentiated Neuroendocrine Tumor"
+  ],
+  "microscopic_findings": [
+    {
+      "text": "Tumor shows **zellballen-like nests** and trabeculae separated by **delicate fibrovascular septa**.",
+      "roi_ids": [
+        "slide_A_x34816_y5120_mag10",
+        "slide_A_x9216_y15360_mag20"
+      ]
+    },
+    {
+      "text": "Cells are polygonal with **abundant granular eosinophilic cytoplasm** and round nuclei showing **salt-and-pepper chromatin**.",
+      "roi_ids": [
+        "slide_A_x16384_y8192_mag20",
+        "slide_A_x10240_y18432_mag20"
+      ]
+    },
+    {
+      "text": "Foci of **marked pleomorphism** include **bizarre multinucleated giant cells**, a degenerative change seen in pheochromocytoma.",
+      "roi_ids": [
+        "slide_A_x30720_y8192_mag20"
+      ]
+    },
+    {
+      "text": "There is **geographic necrosis** with hemorrhagic degeneration and a **thick hyalinized capsule** without unequivocal vascular invasion.",
+      "roi_ids": [
+        "slide_A_x18432_y6144_mag20",
+        "slide_A_x15360_y3072_mag20"
+      ]
+    }
+  ],
+  "interpretation": "The combination of **pheochromocytoma**-type **zellballen architecture**, rich vascular septation, and neuroendocrine cytology supports **pheochromocytoma** arising in the adrenal medulla. Marked nuclear atypia and necrosis are present, but these findings alone do not establish malignancy in this tumor type. Lack of convincing cortical morphology argues against **adrenocortical neoplasm**, and absence of rosettes or neuropil excludes **neuroblastoma-spectrum** tumor.",
+  "num_rois": 68,
+  "tiles": [
+    {
+      "roi_id": "slide_A_x16384_y8192_mag1",
+      "tile_id": "slide_A_x16384_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 16384,
+      "y": 8192,
+      "level0": {
+        "x": 16384,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a cellular neoplasm with a prominent fibrous capsule and areas of hemorrhage and necrosis. The tumor cells are arranged in nests and cords with eosinophilic cytoplasm and round nuclei.\n\nThe most likely diagnosis is pheochromocytoma.\n\nDifferential diagnoses include adrenal cortical carcinoma, which typically shows more pleomorphism and mitotic activity, and metastatic carcinoma, which would lack the characteristic nested architecture and cellular morphology of pheochromocytoma.",
+      "rationale": "Low-power overview of main tissue to orient and identify capsule/adjacent adrenal tissue."
+    },
+    {
+      "roi_id": "slide_A_x8192_y4096_mag5",
+      "tile_id": "slide_A_x8192_y4096_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 8192,
+      "y": 4096,
+      "level0": {
+        "x": 8192,
+        "y": 4096,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a low-power view of a cellular neoplasm with a pinkish-purple background and scattered small dark nuclei. The tissue is fragmented and appears to have a capsule.\n\nThe most likely diagnosis is pheochromocytoma. The clinical history of recurrent flushing spells, hypertension, and elevated catecholamines, along with the family history of similar symptoms and bilateral adrenal tumors, strongly supports this diagnosis. The gross description of a firm, encapsulated mass is also consistent with pheochromocytoma.\n\nDifferential diagnoses to consider include other adrenal cortical neoplasms, such as adrenal cortical adenoma or carcinoma, and metastatic tumors to the adrenal gland. However, the clinical presentation and gross findings are most suggestive of a primary adrenal medullary tumor like pheochromocytoma.",
+      "rationale": "Low-power survey of main tissue to locate most cellular/viable tumor."
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag1",
+      "tile_id": "slide_A_x8192_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a well-circumscribed tumor with a thick fibrous capsule. The tumor is composed of cells arranged in nests and cords with abundant eosinophilic cytoplasm and round nuclei, separated by a prominent vascular network.\n\nThe most likely diagnosis is pheochromocytoma.\n\nDifferential diagnoses include adrenal cortical carcinoma, which typically shows more pleomorphism, necrosis, and mitotic activity, and paraganglioma, which is histologically similar but usually arises outside the adrenal gland.",
+      "rationale": "Survey left portion for potential residual adrenal cortex/medulla and capsule."
+    },
+    {
+      "roi_id": "slide_A_x24576_y8192_mag1",
+      "tile_id": "slide_A_x24576_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 24576,
+      "y": 8192,
+      "level0": {
+        "x": 24576,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a cellular neoplasm with a prominent fibrous capsule and areas of hemorrhage and necrosis. The tumor cells are arranged in nests and cords with eosinophilic cytoplasm and round to oval nuclei.\n\nThe most likely diagnosis is pheochromocytoma. Differential diagnoses include adrenal cortical carcinoma, which typically shows more pleomorphism and mitotic activity, and metastatic carcinoma, which would lack the characteristic nested architecture and chromatin pattern.",
+      "rationale": "Survey right portion of main tissue for capsule and interface"
+    },
+    {
+      "roi_id": "slide_A_x18432_y6144_mag5",
+      "tile_id": "slide_A_x18432_y6144_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 18432,
+      "y": 6144,
+      "level0": {
+        "x": 18432,
+        "y": 6144,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords with a prominent vascular network, adjacent to extensive hemorrhage and necrosis. The cells have moderate eosinophilic cytoplasm and round to oval nuclei.\n\nThe most likely diagnosis is pheochromocytoma.\n\nDifferential diagnoses include paraganglioma, which is histologically similar but typically arises in extra-adrenal sites. Adrenal cortical carcinoma can also be considered, but it usually shows more significant nuclear pleomorphism and lacks the characteristic nested pattern with prominent vasculature.",
+      "rationale": "Survey central portion for cellular tumor vs fibrosis/hemorrhage."
+    },
+    {
+      "roi_id": "slide_A_x32768_y8192_mag1",
+      "tile_id": "slide_A_x32768_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 32768,
+      "y": 8192,
+      "level0": {
+        "x": 32768,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a cellular neoplasm with a nested and trabecular pattern separated by fibrous stroma. The cells have abundant eosinophilic cytoplasm and round to oval nuclei. Areas of hemorrhage and necrosis are also present.\n\nThe most likely diagnosis is pheochromocytoma.\n\nDifferential diagnoses include:\n- Adrenal cortical carcinoma: typically shows more pleomorphism, mitotic activity, and lacks the nested pattern.\n- Metastatic carcinoma: would depend on the primary site, but often shows more cytologic atypia and lacks the characteristic nested pattern.",
+      "rationale": "Survey right portion and edges for capsule and invasion assessment."
+    },
+    {
+      "roi_id": "slide_A_x8192_y16384_mag1",
+      "tile_id": "slide_A_x8192_y16384_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 8192,
+      "y": 16384,
+      "level0": {
+        "x": 8192,
+        "y": 16384,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a well-circumscribed, encapsulated tumor with a prominent central area of hemorrhage and necrosis. The viable tumor is composed of cells arranged in nests and cords with eosinophilic cytoplasm and round nuclei.\n\nThe most likely diagnosis is pheochromocytoma. Differential diagnoses include adrenal cortical carcinoma, which typically shows more significant nuclear pleomorphism and mitotic activity, and metastatic carcinoma, which would lack the characteristic nested architecture and chromatin pattern.",
+      "rationale": "Overview of separate smaller fragment (region 1) for adrenal remnants/capsule."
+    },
+    {
+      "roi_id": "slide_A_x8192_y6144_mag5",
+      "tile_id": "slide_A_x8192_y6144_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 8192,
+      "y": 6144,
+      "level0": {
+        "x": 8192,
+        "y": 6144,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a large area of amorphous, eosinophilic material with scattered clear spaces, consistent with necrosis and cystic change. The periphery is irregular and fragmented.\n\nThe most likely diagnosis is a pheochromocytoma with extensive necrosis and cystic degeneration.\n\nDifferential diagnoses include other adrenal tumors with degenerative changes, such as an adrenal cortical carcinoma with necrosis, or a metastatic tumor with necrosis.",
+      "rationale": "Intratumoral area left side to confirm zellballen vs diffuse sheets and vascular stroma"
+    },
+    {
+      "roi_id": "slide_A_x30720_y8192_mag5",
+      "tile_id": "slide_A_x30720_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 30720,
+      "y": 8192,
+      "level0": {
+        "x": 30720,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular neoplasm arranged in nests and cords separated by a prominent vascular stroma. The cells have moderate eosinophilic cytoplasm and round to oval nuclei with visible nucleoli. Scattered larger cells with more abundant cytoplasm and pleomorphism are also present.\n\nThe most likely diagnosis is pheochromocytoma. The characteristic nested architecture (Zellballen pattern) and the presence of a rich vascular network are classic features of this tumor. The cellular morphology, including the eosinophilic cytoplasm and nuclear features, is also consistent. The clinical history of recurrent flushing spells, hypertension, and elevated catecholamines further supports this diagnosis.\n\nDifferential diagnoses to consider include paraganglioma, which is histologically similar but typically arises in extra-adrenal sites. Adrenal cortical carcinoma could also be considered, but it usually shows more significant nuclear pleomorphism, mitotic activity, and necrosis, and lacks the characteristic Zellballen pattern.",
+      "rationale": "Survey right-sided portion for different architecture/cellularity."
+    },
+    {
+      "roi_id": "slide_A_x16384_y8192_mag5",
+      "tile_id": "slide_A_x16384_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 16384,
+      "y": 8192,
+      "level0": {
+        "x": 16384,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords with a prominent vascular network, adjacent to an area of necrosis. The cells have round to oval nuclei and moderate eosinophilic cytoplasm.\n\nThe most likely diagnosis is pheochromocytoma.\n\nDifferential diagnoses include paraganglioma, which is histologically similar but typically arises in extra-adrenal sites. Adrenal cortical carcinoma is another consideration, but it usually shows more significant nuclear pleomorphism and mitotic activity.",
+      "rationale": "Central tumor to assess architecture and necrosis/hemorrhage at mid power"
+    },
+    {
+      "roi_id": "slide_A_x6144_y4096_mag5",
+      "tile_id": "slide_A_x6144_y4096_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 6144,
+      "y": 4096,
+      "level0": {
+        "x": 6144,
+        "y": 4096,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a low-power view of a cellular neoplasm with a pinkish-purple background and scattered small dark structures. The cellular component is arranged in nests and cords.\n\nThe most likely diagnosis is pheochromocytoma. The characteristic nested and cord-like architecture, along with the clinical history of catecholamine excess and family history of similar tumors, supports this diagnosis. Differential diagnoses include other neuroendocrine tumors, but the clinical context strongly favors pheochromocytoma.",
+      "rationale": "Check peripheral upper-left edge for adrenal cortical remnant/capsule."
+    },
+    {
+      "roi_id": "slide_A_x10240_y18432_mag5",
+      "tile_id": "slide_A_x10240_y18432_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 10240,
+      "y": 18432,
+      "level0": {
+        "x": 10240,
+        "y": 18432,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation of small cells with hyperchromatic nuclei and scant cytoplasm arranged in nests and cords, with associated hemorrhage and necrosis. The tumor is surrounded by a fibrous capsule.\n\nThe most likely diagnosis is pheochromocytoma.\n\nDifferential diagnoses include paraganglioma, which is histologically similar but typically arises in extra-adrenal sites. Other possibilities include neuroendocrine tumors, but the characteristic nesting pattern and clinical context strongly favor pheochromocytoma.",
+      "rationale": "Survey smaller tissue fragment (region 1) for tumor component."
+    },
+    {
+      "roi_id": "slide_A_x26624_y8192_mag5",
+      "tile_id": "slide_A_x26624_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 26624,
+      "y": 8192,
+      "level0": {
+        "x": 26624,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation of cells with clear to eosinophilic cytoplasm arranged in nests and cords, separated by a prominent fibrous stroma. Scattered dark granular material is also present.\n\nThe most likely diagnosis is pheochromocytoma.\n\nDifferential diagnoses include paraganglioma, which is histologically similar but typically arises in extra-adrenal sites. Adrenal cortical carcinoma is another consideration, but it usually shows more significant nuclear atypia and mitotic activity.",
+      "rationale": "Right tumor portion to evaluate pattern and stromal septa/capsule proximity"
+    },
+    {
+      "roi_id": "slide_A_x32768_y4096_mag5",
+      "tile_id": "slide_A_x32768_y4096_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 32768,
+      "y": 4096,
+      "level0": {
+        "x": 32768,
+        "y": 4096,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular neoplasm arranged in nests and cords separated by delicate fibrovascular stroma. The cells have round to oval nuclei with finely granular chromatin and moderate eosinophilic cytoplasm. The tumor is well-circumscribed.\n\nThe most likely diagnosis is pheochromocytoma.\n\nDifferential diagnoses include paraganglioma, which is histologically similar but typically arises in extra-adrenal sites. Adrenal cortical carcinoma is another consideration, but it usually shows more significant nuclear pleomorphism, mitotic activity, and necrosis.",
+      "rationale": "Check peripheral upper-right edge for capsule and any attached adrenal cortex."
+    },
+    {
+      "roi_id": "slide_A_x20480_y12288_mag5",
+      "tile_id": "slide_A_x20480_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 20480,
+      "y": 12288,
+      "level0": {
+        "x": 20480,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords with cells exhibiting eosinophilic to clear cytoplasm and round nuclei, separated by a prominent fibrous stroma. There is also evidence of hemorrhage and necrosis.\n\nThe most likely diagnosis is pheochromocytoma.\n\nDifferential diagnoses include paraganglioma, which is histologically similar but typically arises in extra-adrenal sites. Adrenal cortical carcinoma could also be considered, but it usually shows more significant nuclear pleomorphism and mitotic activity.",
+      "rationale": "Lower central area near apparent cleft to look for capsule/edge and invasion"
+    },
+    {
+      "roi_id": "slide_A_x18432_y6144_mag20",
+      "tile_id": "slide_A_x18432_y6144_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 18432,
+      "y": 6144,
+      "level0": {
+        "x": 18432,
+        "y": 6144,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a transition from a cellular area with cells in nests and cords to a large area of necrosis. The cells have round to oval nuclei and moderate cytoplasm, with scattered brown pigment.\n\nThe most likely diagnosis is pheochromocytoma.\n\nDifferential diagnoses include other neuroendocrine tumors or metastatic carcinoma, which would typically lack the characteristic zellballen pattern and the presence of brown pigment.",
+      "rationale": "20x cytology in cellular nested area with prominent vasculature."
+    },
+    {
+      "roi_id": "slide_A_x20480_y10240_mag5",
+      "tile_id": "slide_A_x20480_y10240_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 20480,
+      "y": 10240,
+      "level0": {
+        "x": 20480,
+        "y": 10240,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular neoplasm arranged in nests and cords within a fibrous stroma, with cells exhibiting clear to eosinophilic cytoplasm and round nuclei. Prominent vascular spaces are also present.\n\nThe most likely diagnosis is pheochromocytoma.\n\nDifferential diagnoses include paraganglioma, which can have a similar morphology but typically arises in extra-adrenal sites. Adrenal cortical carcinoma is another consideration, but it usually shows more significant nuclear pleomorphism and mitotic activity.",
+      "rationale": "Assess central band/cleft area for interface with residual adrenal tissue or invasion through capsule."
+    },
+    {
+      "roi_id": "slide_A_x34816_y5120_mag10",
+      "tile_id": "slide_A_x34816_y5120_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 34816,
+      "y": 5120,
+      "level0": {
+        "x": 34816,
+        "y": 5120,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular neoplasm arranged in nests and cords separated by delicate fibrovascular stroma. The cells have round to oval nuclei with finely granular chromatin and moderate eosinophilic cytoplasm. A fibrous capsule is present.\n\nThe most likely diagnosis is pheochromocytoma.\n\nDifferential diagnoses include paraganglioma, which is histologically similar but typically arises in extra-adrenal sites. Adrenal cortical carcinoma is another consideration, but it usually shows more significant nuclear pleomorphism, mitotic activity, and necrosis.",
+      "rationale": "Rightmost edge to evaluate capsule integrity and possible capsular/vascular invasion"
+    },
+    {
+      "roi_id": "slide_A_x30720_y8192_mag20",
+      "tile_id": "slide_A_x30720_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 30720,
+      "y": 8192,
+      "level0": {
+        "x": 30720,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular neoplasm with marked nuclear pleomorphism, including large bizarre cells and multinucleated forms, within a fibrous stroma. There is also evidence of hemorrhage and necrosis.\n\nThe most likely diagnosis is pheochromocytoma. The marked nuclear pleomorphism, including bizarre cells and multinucleated forms, is a common feature in pheochromocytomas and does not necessarily indicate malignancy. The clinical history of recurrent flushing spells, hypertension, and elevated catecholamines further supports this diagnosis.\n\nDifferential diagnoses to consider include adrenocortical carcinoma, which can also show significant pleomorphism and necrosis, but typically has a different growth pattern and immunohistochemical profile. Other possibilities include metastatic carcinoma or melanoma, which would require clinical correlation and immunohistochemical studies to exclude.",
+      "rationale": "20x evaluate more pleomorphic-appearing area for nuclear atypia/mitoses."
+    },
+    {
+      "roi_id": "slide_A_x12288_y18432_mag5",
+      "tile_id": "slide_A_x12288_y18432_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 12288,
+      "y": 18432,
+      "level0": {
+        "x": 12288,
+        "y": 18432,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a thick fibrous capsule with underlying tissue containing abundant red blood cells and fibrin, consistent with hemorrhage and necrosis. The cellular component is not clearly visible at this magnification.\n\nThe most likely diagnosis is pheochromocytoma, given the clinical history of recurrent flushing spells, hypertension, and elevated catecholamines, along with the gross description of a firm, orange, encapsulated adrenal mass.\n\nDifferential diagnoses include adrenal cortical carcinoma, which can also present as a large, firm adrenal mass, and metastatic carcinoma, which can involve the adrenal gland. However, the clinical presentation and gross features are more suggestive of a primary adrenal tumor like pheochromocytoma.",
+      "rationale": "Evaluate separate fragment for adrenal cortex/medulla remnants and capsular/vascular invasion."
+    },
+    {
+      "roi_id": "slide_A_x29696_y9216_mag10",
+      "tile_id": "slide_A_x29696_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 29696,
+      "y": 9216,
+      "level0": {
+        "x": 29696,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular neoplasm arranged in nests and cords separated by a prominent vascular stroma. The cells have abundant clear to vacuolated cytoplasm and round to oval nuclei with visible nucleoli.\n\nThe most likely diagnosis is pheochromocytoma.\n\nDifferential diagnoses include:\n- Adrenal cortical carcinoma: typically shows more pleomorphism, mitotic activity, and necrosis, and lacks the characteristic nested pattern and prominent vascular stroma.\n- Metastatic clear cell renal cell carcinoma: can have clear cytoplasm and a vascular stroma, but usually shows a more solid growth pattern and lacks the nested architecture.",
+      "rationale": "Right mid tumor to assess zellballen/trabecular architecture and vascularity"
+    },
+    {
+      "roi_id": "slide_A_x9216_y5120_mag20",
+      "tile_id": "slide_A_x9216_y5120_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 9216,
+      "y": 5120,
+      "level0": {
+        "x": 9216,
+        "y": 5120,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of large cells with abundant eosinophilic cytoplasm and vesicular nuclei, arranged in nests and cords separated by delicate fibrovascular stroma. The surface is irregular with associated amorphous material.\n\nThe most likely diagnosis is pheochromocytoma.\n\nDifferential diagnoses include adrenocortical carcinoma, which typically shows more pleomorphism, mitotic activity, and necrosis, and metastatic carcinoma, which would lack the characteristic nested architecture and neuroendocrine features.",
+      "rationale": "20x evaluate capsular/interface area for invasion and cytology."
+    },
+    {
+      "roi_id": "slide_A_x15360_y3072_mag10",
+      "tile_id": "slide_A_x15360_y3072_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 15360,
+      "y": 3072,
+      "level0": {
+        "x": 15360,
+        "y": 3072,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a thickened, hyalinized fibrous capsule with scattered spindle cells and dark granular material. The underlying tissue is less cellular and contains scattered cells with clear cytoplasm.\n\nThe most likely diagnosis is pheochromocytoma.\n\nDifferential diagnoses include adrenal cortical adenoma or carcinoma, which typically have different cellular morphology and lack the characteristic granular material seen in the capsule.",
+      "rationale": "Upper central area where capsule appears thick to check for invasion or residual adrenal cortex"
+    },
+    {
+      "roi_id": "slide_A_x3072_y14336_mag10",
+      "tile_id": "slide_A_x3072_y14336_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 3072,
+      "y": 14336,
+      "level0": {
+        "x": 3072,
+        "y": 14336,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of large cells with abundant clear to vacuolated cytoplasm and eccentric nuclei, arranged in nests and cords within a fibrous stroma. There is also an area of necrosis and hemorrhage.\n\nThe most likely diagnosis is pheochromocytoma.\n\nDifferential diagnoses include adrenocortical carcinoma, which typically shows more pleomorphism, mitotic activity, and lacks the characteristic nested pattern (zellballen) and clear cytoplasm. Metastatic clear cell renal cell carcinoma could also be considered, but the clinical history of a primary adrenal tumor and the characteristic morphology favor pheochromocytoma.",
+      "rationale": "Inferior-left peripheral edge near capsule; look for residual adrenal cortex (zona pattern) or invasion."
+    },
+    {
+      "roi_id": "slide_A_x10240_y18432_mag20",
+      "tile_id": "slide_A_x10240_y18432_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 10240,
+      "y": 18432,
+      "level0": {
+        "x": 10240,
+        "y": 18432,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of polygonal cells arranged in nests and cords, with abundant eosinophilic cytoplasm and round to oval nuclei. Prominent vascularity is present, along with areas of hemorrhage and necrosis.\n\nThe most likely diagnosis is pheochromocytoma. Differential diagnoses include paraganglioma, which is histologically similar but typically arises in extra-adrenal sites. Other considerations could include adrenal cortical carcinoma or metastatic carcinoma, but the characteristic nested pattern and cellular morphology are most consistent with a neuroendocrine tumor.",
+      "rationale": "20x evaluate small fragment with small hyperchromatic cells—exclude neuroblastoma-like component/rosettes."
+    },
+    {
+      "roi_id": "slide_A_x9216_y15360_mag10",
+      "tile_id": "slide_A_x9216_y15360_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 9216,
+      "y": 15360,
+      "level0": {
+        "x": 9216,
+        "y": 15360,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular neoplasm with a nested and trabecular growth pattern separated by fibrous stroma. The cells have round to oval nuclei with granular chromatin and moderate eosinophilic cytoplasm, with some larger cells showing nuclear pleomorphism.\n\nThe most likely diagnosis is pheochromocytoma.\n\nDifferential diagnoses include paraganglioma, which is histologically similar but typically arises in extra-adrenal sites. Adrenal cortical carcinoma is another consideration, but it usually shows more significant nuclear atypia, mitotic activity, and necrosis.",
+      "rationale": "Inferior left edge/capsule to look for vascular invasion/extra-capsular spread"
+    },
+    {
+      "roi_id": "slide_A_x5120_y16384_mag10",
+      "tile_id": "slide_A_x5120_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 5120,
+      "y": 16384,
+      "level0": {
+        "x": 5120,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of cells with eosinophilic cytoplasm and round nuclei arranged in nests and cords, separated by a fibrous capsule. There is also evidence of hemorrhage and inflammation.\n\nThe most likely diagnosis is pheochromocytoma.\n\nDifferential diagnoses include adrenal cortical carcinoma, which typically shows more pleomorphism and mitotic activity, and metastatic carcinoma, which would have a different cellular morphology and growth pattern.",
+      "rationale": "Small inferior fragment area; check for adrenal cortex/medulla remnants."
+    },
+    {
+      "roi_id": "slide_A_x26112_y8192_mag20",
+      "tile_id": "slide_A_x26112_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 26112,
+      "y": 8192,
+      "level0": {
+        "x": 26112,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with prominent dilated vascular spaces containing red blood cells and scattered dark granular material.\n\nThe most likely diagnosis is pheochromocytoma.\n\nDifferential diagnoses include paraganglioma, which can have similar morphology but typically arises in extra-adrenal sites. Other spindle cell neoplasms such as leiomyoma or schwannoma are less likely given the clinical context and vascular pattern.",
+      "rationale": "20x in right lobe (ROI 20/22 area) to assess typical chromaffin cytology and search for sustentacular cells."
+    },
+    {
+      "roi_id": "slide_A_x17408_y3072_mag10",
+      "tile_id": "slide_A_x17408_y3072_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 17408,
+      "y": 3072,
+      "level0": {
+        "x": 17408,
+        "y": 3072,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated nuclei arranged in fascicles and whorls, with areas of hyalinization and scattered calcifications. The cells have eosinophilic cytoplasm and lack significant atypia or mitotic activity.\n\nThe most likely diagnosis is pheochromocytoma.\n\nDifferential diagnoses include:\n- Adrenal cortical adenoma: typically shows cells with clear or eosinophilic cytoplasm arranged in nests or cords, often with lipid-rich vacuoles.\n- Adrenal cortical carcinoma: would show significant nuclear atypia, mitotic activity, necrosis, and often invasion, which are not seen here.",
+      "rationale": "Superior central edge; search for compressed cortex/subcapsular tissue."
+    },
+    {
+      "roi_id": "slide_A_x33280_y7168_mag20",
+      "tile_id": "slide_A_x33280_y7168_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 33280,
+      "y": 7168,
+      "level0": {
+        "x": 33280,
+        "y": 7168,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular neoplasm with a nested and trabecular pattern, composed of large cells with abundant eosinophilic cytoplasm and pleomorphic nuclei, separated by a prominent vascular stroma.\n\nThe most likely diagnosis is pheochromocytoma.\n\nDifferential diagnoses include paraganglioma, which is histologically similar but typically arises in extra-adrenal sites. Adrenal cortical carcinoma is another consideration, but it usually shows more significant nuclear atypia and mitotic activity.",
+      "rationale": "20x far right edge (ROI 19 area) for capsule/interface and mitoses."
+    },
+    {
+      "roi_id": "slide_A_x32768_y5120_mag20",
+      "tile_id": "slide_A_x32768_y5120_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 32768,
+      "y": 5120,
+      "level0": {
+        "x": 32768,
+        "y": 5120,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular neoplasm arranged in nests and cords within a fibrous stroma. The cells have abundant eosinophilic to clear cytoplasm and pleomorphic nuclei with prominent nucleoli. Scattered multinucleated cells are also present.\n\nThe most likely diagnosis is pheochromocytoma.\n\nDifferential diagnoses include adrenocortical carcinoma, which typically shows more prominent nuclear atypia, mitotic activity, and necrosis, and metastatic carcinoma, which would lack the characteristic nested architecture and neuroendocrine features.",
+      "rationale": "High power at capsule edge to look for capsular/vascular invasion"
+    },
+    {
+      "roi_id": "slide_A_x21504_y11264_mag10",
+      "tile_id": "slide_A_x21504_y11264_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 21504,
+      "y": 11264,
+      "level0": {
+        "x": 21504,
+        "y": 11264,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a large vessel with a thickened wall and a lumen containing amorphous material and red blood cells. Surrounding tissue includes dense fibrous stroma and areas of hemorrhage.\n\nThe morphologic features are consistent with a pheochromocytoma, a neuroendocrine tumor of the adrenal medulla. The presence of a large vessel and hemorrhage are common findings in these tumors. Differential diagnoses include other adrenal neoplasms such as adrenocortical carcinoma, which typically shows different cellular morphology and lacks the characteristic zellballen pattern of pheochromocytoma.",
+      "rationale": "Cleft/interface zone between lobules; assess for capsule breach/vascular invasion."
+    },
+    {
+      "roi_id": "slide_A_x14848_y5120_mag20",
+      "tile_id": "slide_A_x14848_y5120_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 14848,
+      "y": 5120,
+      "level0": {
+        "x": 14848,
+        "y": 5120,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular neoplasm with a prominent fibrillary background and scattered cells with small, dark nuclei. There are also areas of amorphous eosinophilic material and linear structures.\n\nThe most likely diagnosis is pheochromocytoma.\n\nDifferential diagnoses include other neuroendocrine tumors or metastatic carcinoma, which would typically show different cellular morphology and lack the characteristic fibrillary background.",
+      "rationale": "20x central-left (ROI 17/24 area) to look for any small blue cell/neuroblastic foci or rosettes."
+    },
+    {
+      "roi_id": "slide_A_x15360_y3072_mag20",
+      "tile_id": "slide_A_x15360_y3072_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 15360,
+      "y": 3072,
+      "level0": {
+        "x": 15360,
+        "y": 3072,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense, hyalinized fibrous capsule with scattered spindle cells and dark granular material. The tissue is largely acellular and hyalinized.\n\nThe most likely diagnosis is a pheochromocytoma with a prominent fibrous capsule.\n\nDifferential diagnoses include other adrenal tumors with a fibrous capsule, such as an adrenal cortical adenoma or carcinoma, or a metastatic tumor with a desmoplastic reaction. However, the clinical history of recurrent flushing spells and elevated catecholamines strongly supports a pheochromocytoma.",
+      "rationale": "Upper central thick capsule area for invasion and presence of residual adrenal cortex"
+    },
+    {
+      "roi_id": "slide_A_x34816_y6144_mag10",
+      "tile_id": "slide_A_x34816_y6144_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 34816,
+      "y": 6144,
+      "level0": {
+        "x": 34816,
+        "y": 6144,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular neoplasm arranged in nests and cords separated by a prominent vascular stroma. The cells have round to oval nuclei with visible nucleoli and moderate eosinophilic cytoplasm.\n\nThe most likely diagnosis is pheochromocytoma.\n\nDifferential diagnoses include paraganglioma, which is histologically similar but typically arises in extra-adrenal sites. Adrenal cortical carcinoma is another consideration, but it usually shows more significant nuclear pleomorphism and mitotic activity.",
+      "rationale": "Far right edge; look for adrenal cortex remnants and capsular invasion."
+    },
+    {
+      "roi_id": "slide_A_x9216_y15360_mag20",
+      "tile_id": "slide_A_x9216_y15360_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 9216,
+      "y": 15360,
+      "level0": {
+        "x": 9216,
+        "y": 15360,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular neoplasm with a nested and cord-like pattern separated by delicate fibrovascular stroma. The cells have round to oval nuclei with prominent nucleoli and moderate eosinophilic cytoplasm, with some nuclear pleomorphism.\n\nThe most likely diagnosis is pheochromocytoma.\n\nDifferential diagnoses include paraganglioma, which is histologically similar but typically arises in extra-adrenal sites. Adrenal cortical carcinoma is another consideration, but it usually shows more significant nuclear atypia, mitotic activity, and necrosis.",
+      "rationale": "Inferior left edge for vascular invasion/extracapsular extension"
+    },
+    {
+      "roi_id": "slide_A_x8192_y5632_mag20",
+      "tile_id": "slide_A_x8192_y5632_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 8192,
+      "y": 5632,
+      "level0": {
+        "x": 8192,
+        "y": 5632,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular neoplasm with a prominent fibrillary background and scattered cells exhibiting dark, pleomorphic nuclei. The cells are arranged in nests and cords, with some areas showing a more diffuse pattern.\n\nThe most likely diagnosis is pheochromocytoma. The characteristic features include the nested and cord-like arrangement of cells with pleomorphic nuclei and the fibrillary background, which represents the sustentacular cells and stroma. The clinical history of recurrent flushing spells, hypertension, and elevated catecholamines further supports this diagnosis.\n\nDifferential diagnoses to consider include paraganglioma, which is histologically similar but typically arises in extra-adrenal sites. Other possibilities include neuroendocrine tumors, but the specific clinical presentation and morphology are most consistent with pheochromocytoma.",
+      "rationale": "20x left side (ROI 12/23 area) to evaluate cytology and check for ganglion cells/neuropil."
+    },
+    {
+      "roi_id": "slide_A_x15360_y2560_mag20",
+      "tile_id": "slide_A_x15360_y2560_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 15360,
+      "y": 2560,
+      "level0": {
+        "x": 15360,
+        "y": 2560,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense, hyalinized fibrous capsule with scattered spindle cells and dark granular material. The inner surface is irregular with associated red blood cells.\n\nThe most likely diagnosis is a pheochromocytoma with a prominent fibrous capsule.\n\nDifferential diagnoses include other adrenal tumors with a fibrous capsule, such as an adrenal cortical adenoma or carcinoma, or a metastatic tumor to the adrenal gland.",
+      "rationale": "Area with spindle/whorled stroma at 10x; evaluate for Schwannian stroma/ganglion cells vs capsule."
+    },
+    {
+      "roi_id": "slide_A_x16384_y8192_mag20",
+      "tile_id": "slide_A_x16384_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 16384,
+      "y": 8192,
+      "level0": {
+        "x": 16384,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular neoplasm with large cells exhibiting abundant eosinophilic to clear cytoplasm and vesicular nuclei, arranged in nests and cords within a fibrous stroma. Areas of necrosis and calcification are also present.\n\nThe most likely diagnosis is pheochromocytoma.\n\nDifferential diagnoses include adrenocortical carcinoma, which typically shows more pleomorphism, mitotic activity, and lacks the characteristic nesting pattern and sustentacular cells. Metastatic carcinoma should also be considered, but the clinical history and morphology are highly suggestive of a primary adrenal tumor.",
+      "rationale": "Representative viable tumor away from necrosis to confirm zellballen pattern and vascularity"
+    },
+    {
+      "roi_id": "slide_A_x20992_y11264_mag20",
+      "tile_id": "slide_A_x20992_y11264_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20992,
+      "y": 11264,
+      "level0": {
+        "x": 20992,
+        "y": 11264,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a thick-walled vessel with a lumen containing amorphous material and red blood cells, surrounded by dense fibrous tissue with scattered spindle cells and inflammatory cells.\n\nThe morphologic features are consistent with a vascular structure, likely a vein, within the adrenal gland. The presence of a thick wall and surrounding fibrosis suggests a reactive or degenerative process. Given the clinical history of pheochromocytoma and the gross description of a firm, encapsulated mass, this could represent a vascular component within or adjacent to the adrenal tumor.",
+      "rationale": "Large vessel area; assess for true vascular invasion by tumor."
+    },
+    {
+      "roi_id": "slide_A_x20480_y6144_mag20",
+      "tile_id": "slide_A_x20480_y6144_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20480,
+      "y": 6144,
+      "level0": {
+        "x": 20480,
+        "y": 6144,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular neoplasm with cells arranged in nests and cords within a fibrillary stroma. The cells have round to oval nuclei with granular chromatin and moderate eosinophilic cytoplasm, with some larger cells and areas of hemorrhage.\n\nThe most likely diagnosis is pheochromocytoma.\n\nDifferential diagnoses include paraganglioma, which is histologically similar but typically arises in extra-adrenal sites. Adrenal cortical carcinoma is another consideration, but it usually shows more significant nuclear pleomorphism, mitotic activity, and necrosis.",
+      "rationale": "Target viable cellular area adjacent to necrosis to look for mitoses/apoptosis."
+    },
+    {
+      "roi_id": "slide_A_x35840_y12288_mag10",
+      "tile_id": "slide_A_x35840_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 35840,
+      "y": 12288,
+      "level0": {
+        "x": 35840,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with a prominent inflammatory infiltrate and scattered brown pigment. The background stroma is fibrotic and hyalinized.\n\nThe most likely diagnosis is pheochromocytoma.\n\nDifferential diagnoses include other neuroendocrine tumors or metastatic lesions, which would typically show different cellular morphology and lack the characteristic zellballen pattern and sustentacular cells seen in pheochromocytoma.",
+      "rationale": "Unexplored far right-lower edge to evaluate capsule and any extracapsular extension/vascular invasion"
+    },
+    {
+      "roi_id": "slide_A_x2560_y13824_mag20",
+      "tile_id": "slide_A_x2560_y13824_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 2560,
+      "y": 13824,
+      "level0": {
+        "x": 2560,
+        "y": 13824,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular neoplasm with cells arranged in nests and cords within a fibrous stroma. The cells have abundant clear to vacuolated cytoplasm and round to oval nuclei with prominent nucleoli. There is also evidence of hemorrhage and necrosis.\n\nThe most likely diagnosis is pheochromocytoma. The characteristic nested architecture (Zellballen pattern) and the presence of cells with clear to vacuolated cytoplasm are consistent with this diagnosis. The clinical history of recurrent flushing spells, hypertension, and elevated catecholamines further supports this.\n\nDifferential diagnoses to consider include adrenal cortical carcinoma, which can also present with clear cell morphology and necrosis, but typically lacks the nested pattern and has different immunohistochemical staining. Metastatic clear cell renal cell carcinoma is another possibility, but the clinical context and the nested pattern are more suggestive of a primary adrenal tumor.",
+      "rationale": "Peripheral clear cell area; look for adrenal cortex (lipid-rich) vs pheo cells; check capsular interface."
+    },
+    {
+      "roi_id": "slide_A_x29184_y7680_mag20",
+      "tile_id": "slide_A_x29184_y7680_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 29184,
+      "y": 7680,
+      "level0": {
+        "x": 29184,
+        "y": 7680,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular neoplasm arranged in nests and cords separated by a prominent vascular stroma. The cells have abundant clear to finely vacuolated cytoplasm and round to oval nuclei with visible nucleoli.\n\nThe most likely diagnosis is pheochromocytoma.\n\nDifferential diagnoses include:\n- Adrenal cortical carcinoma: typically shows more pleomorphism, mitotic activity, and necrosis, and lacks the characteristic nested pattern and prominent vascular stroma.\n- Metastatic clear cell renal cell carcinoma: can have clear cytoplasm and a vascular stroma, but usually shows more nuclear atypia and lacks the nested architecture.",
+      "rationale": "Scan another cellular nest-rich area for mitotic figures/atypical mitoses."
+    },
+    {
+      "roi_id": "slide_A_x6144_y16384_mag10",
+      "tile_id": "slide_A_x6144_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 6144,
+      "y": 16384,
+      "level0": {
+        "x": 6144,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords with cells having round to oval nuclei and moderate eosinophilic cytoplasm, separated by a fibrous capsule. There is also evidence of hemorrhage and necrosis.\n\nThe most likely diagnosis is pheochromocytoma.\n\nDifferential diagnoses include paraganglioma, which is histologically similar but typically arises in extra-adrenal sites. Adrenal cortical carcinoma could also be considered, but it usually shows more significant nuclear pleomorphism and mitotic activity.",
+      "rationale": "Inferior left tip edge to assess capsule integrity and invasion"
+    },
+    {
+      "roi_id": "slide_A_x33792_y6656_mag20",
+      "tile_id": "slide_A_x33792_y6656_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 33792,
+      "y": 6656,
+      "level0": {
+        "x": 33792,
+        "y": 6656,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular neoplasm arranged in nests and cords separated by fibrovascular stroma. The cells have abundant eosinophilic to clear cytoplasm and pleomorphic nuclei with prominent nucleoli. Scattered multinucleated cells are also present.\n\nThe most likely diagnosis is pheochromocytoma.\n\nDifferential diagnoses include adrenocortical carcinoma, which typically shows more prominent nuclear pleomorphism and mitotic activity, and metastatic carcinoma, which would lack the characteristic nested architecture and neuroendocrine features.",
+      "rationale": "Right edge tumor; look for capsular breach and residual cortex."
+    },
+    {
+      "roi_id": "slide_A_x13824_y11264_mag20",
+      "tile_id": "slide_A_x13824_y11264_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 13824,
+      "y": 11264,
+      "level0": {
+        "x": 13824,
+        "y": 11264,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular neoplasm with a fibrillary background, composed of cells with round to oval nuclei and moderate cytoplasm, along with scattered larger cells and areas of hemorrhage and necrosis.\n\nThe most likely diagnosis is pheochromocytoma.\n\nDifferential diagnoses include paraganglioma, which is histologically similar but typically arises in extra-adrenal sites. Other possibilities include neuroblastoma, which would show a different cellular morphology and often have a more primitive appearance.",
+      "rationale": "Examine midline band area for small blue cell component/rosettes."
+    },
+    {
+      "roi_id": "slide_A_x23552_y14336_mag10",
+      "tile_id": "slide_A_x23552_y14336_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 23552,
+      "y": 14336,
+      "level0": {
+        "x": 23552,
+        "y": 14336,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular neoplasm with a nested and cord-like pattern separated by a prominent vascular stroma. The cells have abundant clear to vacuolated cytoplasm and round to oval nuclei with visible nucleoli.\n\nThe most likely diagnosis is pheochromocytoma.\n\nDifferential diagnoses include adrenocortical carcinoma, which typically shows more pleomorphism, mitotic activity, and necrosis, and metastatic clear cell carcinoma, which would lack the characteristic nested pattern and vascular stroma.",
+      "rationale": "Lower right fragment near cleft to evaluate interface and necrosis/hemorrhage"
+    },
+    {
+      "roi_id": "slide_A_x11776_y18944_mag20",
+      "tile_id": "slide_A_x11776_y18944_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 11776,
+      "y": 18944,
+      "level0": {
+        "x": 11776,
+        "y": 18944,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of small cells with hyperchromatic nuclei and scant cytoplasm, arranged in nests and cords, with prominent hemorrhage and fibrin. The cells have a high nuclear-to-cytoplasmic ratio.\n\nThe most likely diagnosis is pheochromocytoma.\n\nDifferential diagnoses include neuroblastoma, which typically shows a more primitive appearance with neuropil, and paraganglioma, which is histologically similar but usually arises in extra-adrenal sites.",
+      "rationale": "Region 1 capsule/hemorrhage; look for tumor, adrenal remnants, invasion."
+    },
+    {
+      "roi_id": "slide_A_x9728_y18432_mag20",
+      "tile_id": "slide_A_x9728_y18432_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 9728,
+      "y": 18432,
+      "level0": {
+        "x": 9728,
+        "y": 18432,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of polygonal cells arranged in nests and cords, with abundant eosinophilic cytoplasm and round to oval nuclei. Prominent vascularity is also noted.\n\nThe most likely diagnosis is pheochromocytoma.\n\nDifferential diagnoses include paraganglioma, which is histologically similar but typically arises in extra-adrenal sites. Adrenal cortical carcinoma is another consideration, but it usually shows more significant nuclear pleomorphism and mitotic activity.",
+      "rationale": "Further assess region 1 fragment for neuroblastic morphology/neuropil/rosettes and cytologic differences."
+    },
+    {
+      "roi_id": "slide_A_x11264_y9216_mag10",
+      "tile_id": "slide_A_x11264_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 11264,
+      "y": 9216,
+      "level0": {
+        "x": 11264,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular neoplasm with a prominent fibrillary background and scattered dark granular material. The cells are arranged in nests and cords.\n\nThe most likely diagnosis is pheochromocytoma.\n\nDifferential diagnoses include paraganglioma, which is histologically similar but typically arises in extra-adrenal sites. Other possibilities include neuroendocrine tumors, but the characteristic zellballen pattern and fibrillary background are highly suggestive of pheochromocytoma.",
+      "rationale": "Left-central viable tumor to confirm architecture away from previously sampled zones"
+    },
+    {
+      "roi_id": "slide_A_x4096_y13312_mag10",
+      "tile_id": "slide_A_x4096_y13312_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 4096,
+      "y": 13312,
+      "level0": {
+        "x": 4096,
+        "y": 13312,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a central area of necrosis surrounded by a cellular proliferation of cells with clear to eosinophilic cytoplasm and round to oval nuclei, arranged in nests and cords. There is also a prominent inflammatory infiltrate and stromal reaction.\n\nThe most likely diagnosis is pheochromocytoma.\n\nDifferential diagnoses include adrenocortical carcinoma, which typically shows more significant nuclear pleomorphism, mitotic activity, and often lacks the nested architecture. Metastatic renal cell carcinoma could also be considered, but the clinical history and gross appearance are more consistent with a primary adrenal tumor.",
+      "rationale": "Explore far left-lower edge not yet sampled; look for compressed adrenal cortex/medulla adjacent to capsule."
+    },
+    {
+      "roi_id": "slide_A_x12800_y4096_mag20",
+      "tile_id": "slide_A_x12800_y4096_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 12800,
+      "y": 4096,
+      "level0": {
+        "x": 12800,
+        "y": 4096,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular neoplasm with a nested and trabecular pattern, composed of cells with abundant eosinophilic cytoplasm and round nuclei, separated by a prominent fibrous stroma. Areas of necrosis are also present.\n\nThe most likely diagnosis is pheochromocytoma.\n\nDifferential diagnoses include adrenocortical carcinoma, which typically shows more pleomorphism, mitotic activity, and lacks the characteristic nested pattern and fibrous stroma of pheochromocytoma. Other neuroendocrine tumors could also be considered, but the clinical context and location strongly favor pheochromocytoma.",
+      "rationale": "Area with fibrillary background—look for true neuropil/rosettes vs sustentacular stroma."
+    },
+    {
+      "roi_id": "slide_A_x12288_y4096_mag10",
+      "tile_id": "slide_A_x12288_y4096_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 12288,
+      "y": 4096,
+      "level0": {
+        "x": 12288,
+        "y": 4096,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular neoplasm with a prominent fibrillary background and scattered clear spaces. The cells have small, dark nuclei and are arranged in nests and cords.\n\nThe most likely diagnosis is pheochromocytoma.\n\nDifferential diagnoses include paraganglioma, which is histologically similar but typically arises in extra-adrenal sites. Other possibilities include neuroendocrine tumors, but the characteristic zellballen pattern and fibrillary background are highly suggestive of pheochromocytoma.",
+      "rationale": "Explore superior edge mid-left for residual adrenal cortex under capsule."
+    },
+    {
+      "roi_id": "slide_A_x15360_y6144_mag20",
+      "tile_id": "slide_A_x15360_y6144_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 15360,
+      "y": 6144,
+      "level0": {
+        "x": 15360,
+        "y": 6144,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles, with areas of hemorrhage and necrosis.\n\nThe most likely diagnosis is pheochromocytoma.\n\nDifferential diagnoses include other neuroendocrine tumors or spindle cell neoplasms of the adrenal gland. Immunohistochemistry for neuroendocrine markers (e.g., chromogranin, synaptophysin) and S100 (for sustentacular cells) would be helpful for confirmation.",
+      "rationale": "Search for ganglion cells or primitive neuroblasts within central tumor."
+    },
+    {
+      "roi_id": "slide_A_x9728_y5120_mag20",
+      "tile_id": "slide_A_x9728_y5120_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 9728,
+      "y": 5120,
+      "level0": {
+        "x": 9728,
+        "y": 5120,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular neoplasm with a prominent fibrillary background and scattered cells exhibiting clear to vacuolated cytoplasm. The cells have small, dark nuclei and are arranged in nests and cords.\n\nThe most likely diagnosis is pheochromocytoma.\n\nDifferential diagnoses include paraganglioma, which is histologically similar but typically arises in extra-adrenal sites. Adrenal cortical carcinoma is another consideration, but it usually shows more pleomorphism and lacks the characteristic nested architecture and fibrillary background.",
+      "rationale": "Left cellular area: evaluate for small round blue cells, Homer-Wright rosettes."
+    },
+    {
+      "roi_id": "slide_A_x24576_y6144_mag10",
+      "tile_id": "slide_A_x24576_y6144_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 24576,
+      "y": 6144,
+      "level0": {
+        "x": 24576,
+        "y": 6144,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular neoplasm arranged in nests and cords separated by a prominent vascular stroma. The cells have round to oval nuclei with granular chromatin and moderate eosinophilic cytoplasm.\n\nThe most likely diagnosis is pheochromocytoma. The characteristic nested architecture (zellballen) and prominent vascular stroma are classic features. The clinical history of recurrent flushing spells, hypertension, and elevated catecholamines further supports this diagnosis.\n\nDifferential diagnoses include paraganglioma, which is histologically similar but typically arises in extra-adrenal sites. Adrenal cortical carcinoma is another consideration, but it usually shows more significant nuclear pleomorphism, mitotic activity, and necrosis.",
+      "rationale": "Explore upper central-right edge for adrenal tissue interface."
+    },
+    {
+      "roi_id": "slide_A_x11264_y18944_mag20",
+      "tile_id": "slide_A_x11264_y18944_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 11264,
+      "y": 18944,
+      "level0": {
+        "x": 11264,
+        "y": 18944,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a highly cellular neoplasm composed of small cells with hyperchromatic nuclei and scant cytoplasm, arranged in nests and cords with prominent vascularity. The cells exhibit nuclear molding and crush artifact.\n\nThe most likely diagnosis is pheochromocytoma.\n\nDifferential diagnoses include other neuroendocrine tumors such as paraganglioma, which can have similar morphology but typically arises in extra-adrenal sites. Other small blue cell tumors like neuroblastoma or Ewing sarcoma are less likely given the patient's age and clinical presentation.",
+      "rationale": "More of region 1 fragment: assess for differing differentiation (ganglioneuroma/neuroblastoma features)."
+    },
+    {
+      "roi_id": "slide_A_x26624_y15360_mag10",
+      "tile_id": "slide_A_x26624_y15360_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 26624,
+      "y": 15360,
+      "level0": {
+        "x": 26624,
+        "y": 15360,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular neoplasm with a nested and trabecular pattern, composed of large cells with abundant eosinophilic cytoplasm and pleomorphic nuclei, separated by a prominent vascular stroma.\n\nThe most likely diagnosis is pheochromocytoma.\n\nDifferential diagnoses include paraganglioma, which is histologically similar but typically arises in extra-adrenal sites. Adrenal cortical carcinoma can also be considered, but it usually shows more significant nuclear atypia and mitotic activity.",
+      "rationale": "Explore lower right lobe edge for capsule and possible adrenal remnants."
+    },
+    {
+      "roi_id": "slide_A_x14336_y17408_mag10",
+      "tile_id": "slide_A_x14336_y17408_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 14336,
+      "y": 17408,
+      "level0": {
+        "x": 14336,
+        "y": 17408,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle-shaped cells arranged in fascicles, with areas of hemorrhage and scattered inflammatory cells. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is pheochromocytoma. The spindle cell morphology, fascicular arrangement, and presence of hemorrhage are consistent with this diagnosis. Differential diagnoses include other neuroendocrine tumors or mesenchymal neoplasms, but the clinical context strongly supports pheochromocytoma.",
+      "rationale": "Explore region1 deeper portion for tumor vs adrenal cortex/medulla."
+    },
+    {
+      "roi_id": "slide_A_x11776_y18432_mag20",
+      "tile_id": "slide_A_x11776_y18432_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 11776,
+      "y": 18432,
+      "level0": {
+        "x": 11776,
+        "y": 18432,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of small cells with hyperchromatic nuclei and scant cytoplasm, arranged in nests and cords, with associated hemorrhage and fibrin. The cells exhibit a high nuclear-to-cytoplasmic ratio and nuclear molding.\n\nThe most likely diagnosis is pheochromocytoma.\n\nDifferential diagnoses include neuroblastoma, which typically shows a more primitive appearance with neuropil, and paraganglioma, which is histologically similar but usually arises in extra-adrenal sites.",
+      "rationale": "Revisit region 1 area with small blue cell appearance/crush to exclude true neuroblastoma (rosettes/neuropil) vs artifact."
+    },
+    {
+      "roi_id": "slide_A_x12288_y18944_mag20",
+      "tile_id": "slide_A_x12288_y18944_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 12288,
+      "y": 18944,
+      "level0": {
+        "x": 12288,
+        "y": 18944,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle-shaped cells arranged in fascicles and whorls, with prominent hemorrhage and scattered inflammatory cells. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is pheochromocytoma.\n\nDifferential diagnoses include:\n- Adrenal cortical carcinoma: typically shows more pleomorphism, mitotic activity, and necrosis.\n- Metastatic spindle cell neoplasm: would require clinical correlation and immunohistochemistry to rule out other primary sites.",
+      "rationale": "Adjacent area in region 1 for comparison—look for ganglion cells/Schwannian stroma (ganglioneuroma)."
+    },
+    {
+      "roi_id": "slide_A_x4608_y16384_mag20",
+      "tile_id": "slide_A_x4608_y16384_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 4608,
+      "y": 16384,
+      "level0": {
+        "x": 4608,
+        "y": 16384,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense fibrous capsule with scattered spindle cells and a prominent band of erythrocytes. The underlying tissue is not clearly visible.\n\nThe morphologic features are consistent with a fibrous capsule of an adrenal tumor. Given the clinical history of recurrent flushing spells, hypertension, and a family history of pheochromocytoma, the most likely diagnosis is pheochromocytoma.\n\nDifferential diagnoses include other adrenal tumors with a fibrous capsule, such as an adrenal cortical adenoma or carcinoma, or a metastatic tumor. However, the clinical presentation strongly favors pheochromocytoma.",
+      "rationale": "Inferior small fragment edge; look for residual adrenal cortex/medulla at periphery vs pure tumor."
+    },
+    {
+      "roi_id": "slide_A_x9216_y18432_mag20",
+      "tile_id": "slide_A_x9216_y18432_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 9216,
+      "y": 18432,
+      "level0": {
+        "x": 9216,
+        "y": 18432,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of small cells with hyperchromatic nuclei and scant cytoplasm, arranged in nests and cords, with associated hemorrhage and necrosis. The cells exhibit a high nuclear-to-cytoplasmic ratio and nuclear molding.\n\nThe most likely diagnosis is small cell carcinoma. Differential diagnoses include other high-grade neuroendocrine carcinomas, such as large cell neuroendocrine carcinoma, which would show larger cells with more cytoplasm and less nuclear molding.",
+      "rationale": "Another part of region 1 fragment for classic zellballen/chromaffin cytology and mitoses."
+    },
+    {
+      "roi_id": "slide_A_x9728_y16384_mag20",
+      "tile_id": "slide_A_x9728_y16384_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 9728,
+      "y": 16384,
+      "level0": {
+        "x": 9728,
+        "y": 16384,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of large cells with abundant eosinophilic cytoplasm and pleomorphic nuclei, arranged in nests and cords, with prominent vascularity and hemorrhage. The interface with the surrounding tissue is irregular.\n\nThe most likely diagnosis is pheochromocytoma.\n\nDifferential diagnoses include adrenocortical carcinoma, which typically shows more prominent nucleoli and lacks the characteristic nested (zellballen) pattern and prominent vascularity of pheochromocytoma. Other possibilities include metastatic carcinoma, which would require clinical correlation and potentially immunohistochemistry for confirmation.",
+      "rationale": "Inferior central region near capsule; search for cortical remnant and capsular invasion."
+    },
+    {
+      "roi_id": "slide_A_x16384_y4608_mag20",
+      "tile_id": "slide_A_x16384_y4608_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 16384,
+      "y": 4608,
+      "level0": {
+        "x": 16384,
+        "y": 4608,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles and whorls, with areas of hyalinization and scattered dark granular material.\n\nThe most likely diagnosis is pheochromocytoma.\n\nDifferential diagnoses include other neuroendocrine tumors or spindle cell neoplasms of the adrenal gland. Immunohistochemistry for neuroendocrine markers (e.g., chromogranin, synaptophysin) and S100 (for sustentacular cells) would be helpful for confirmation.",
+      "rationale": "Upper central band near capsule; assess for adrenal cortex (spongiocytes) or medulla/tumor interface."
+    },
+    {
+      "roi_id": "slide_A_x28160_y2560_mag20",
+      "tile_id": "slide_A_x28160_y2560_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 28160,
+      "y": 2560,
+      "level0": {
+        "x": 28160,
+        "y": 2560,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of pleomorphic cells with large, irregular nuclei and prominent nucleoli, arranged in nests and cords, with areas of necrosis and hemorrhage. The cells are embedded in a dense, hyalinized stroma.\n\nThe most likely diagnosis is pheochromocytoma.\n\nDifferential diagnoses include adrenocortical carcinoma, which typically shows more abundant eosinophilic cytoplasm and may have a different growth pattern, and metastatic carcinoma, which would require clinical correlation and potentially immunohistochemistry for confirmation.",
+      "rationale": "Superior right edge; look for compressed adrenal cortex under capsule."
+    },
+    {
+      "roi_id": "slide_A_x29696_y15872_mag20",
+      "tile_id": "slide_A_x29696_y15872_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 29696,
+      "y": 15872,
+      "level0": {
+        "x": 29696,
+        "y": 15872,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular neoplasm with a prominent vascular network and areas of hemorrhage and necrosis. The tumor cells are large with abundant eosinophilic cytoplasm and pleomorphic nuclei, arranged in nests and cords.\n\nThe most likely diagnosis is pheochromocytoma.\n\nDifferential diagnoses include adrenocortical carcinoma, which typically shows more prominent nucleoli and lacks the characteristic nested (zellballen) pattern, and metastatic carcinoma, which would require clinical correlation and potentially immunohistochemistry for confirmation.",
+      "rationale": "Inferior right edge; evaluate capsule and possible vascular invasion."
+    }
+  ]
+}

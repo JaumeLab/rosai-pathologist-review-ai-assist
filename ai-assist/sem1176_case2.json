@@ -1,0 +1,974 @@
+{
+  "case_id": "sem1176_case2",
+  "source": "slideseek-ai-assist",
+  "model": "gpt-5.4",
+  "generated_at": "2026-05-22T09:21:55.460167+00:00",
+  "organ": "Breast",
+  "primary_dx": "Benign Phyllodes Tumor",
+  "differential_dx": [
+    "Cellular Fibroadenoma",
+    "Borderline Phyllodes Tumor"
+  ],
+  "microscopic_findings": [
+    {
+      "text": "Biphasic lesion shows benign ducts compressed into **slit-like clefts** by moderately **cellular spindle-cell stroma**.",
+      "roi_ids": [
+        "slide_A_x24576_y36864_mag10",
+        "slide_A_x30720_y36864_mag20"
+      ]
+    },
+    {
+      "text": "Focal **leaf-like architecture** with epithelial-lined clefts and **periductal stromal condensation** supports phyllodes morphology.",
+      "roi_ids": [
+        "slide_A_x27648_y16384_mag10",
+        "slide_A_x24576_y37376_mag20"
+      ]
+    },
+    {
+      "text": "Stromal cells are **bland to mildly atypical** with **rare mitoses** and no atypical mitotic figures in hotspot fields.",
+      "roi_ids": [
+        "slide_A_x29696_y36864_mag20",
+        "slide_A_x30208_y36864_mag20"
+      ]
+    },
+    {
+      "text": "Tumor-adipose interface is **circumscribed/pushing** without infiltrative edge, and there is no **stromal overgrowth** in sampled areas.",
+      "roi_ids": [
+        "slide_A_x32768_y40960_mag5",
+        "slide_A_x32768_y40960_mag20"
+      ]
+    }
+  ],
+  "interpretation": "The lesion is a **benign phyllodes tumor** based on a biphasic fibroepithelial proliferation with **leaf-like clefting** and **periductal stromal condensation**. Bland stromal cytology, **low mitotic activity**, absence of stromal overgrowth, and a pushing interface argue against **borderline phyllodes tumor**. The focal phyllodes architecture favors this diagnosis over **cellular fibroadenoma**.",
+  "num_rois": 58,
+  "tiles": [
+    {
+      "roi_id": "slide_A_x16384_y24576_mag1",
+      "tile_id": "slide_A_x16384_y24576_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 16384,
+      "y": 24576,
+      "level0": {
+        "x": 16384,
+        "y": 24576,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a biphasic lesion with a prominent stromal component compressing and distorting the epithelial ducts into slit-like spaces. The stroma is cellular and arranged in fascicles.\n\nThe most likely diagnosis is a fibroadenoma. A phyllodes tumor is a differential diagnosis, which would typically show increased stromal cellularity, mitotic activity, and stromal overgrowth.",
+      "rationale": "Whole-slide low-power overview of architecture and circumscription."
+    },
+    {
+      "roi_id": "slide_A_x20480_y22528_mag5",
+      "tile_id": "slide_A_x20480_y22528_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 20480,
+      "y": 22528,
+      "level0": {
+        "x": 20480,
+        "y": 22528,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a biphasic proliferation of benign epithelial glands and a cellular spindle cell stroma arranged in intersecting fascicles and whorls. The stroma is composed of bland spindle cells with elongated nuclei.\n\nThe most likely diagnosis is fibroadenoma. The differential diagnosis includes phyllodes tumor, which would show increased stromal cellularity, atypia, and mitotic activity.",
+      "rationale": "Central lesion survey for overall stromal cellularity and architecture."
+    },
+    {
+      "roi_id": "slide_A_x20480_y24576_mag2",
+      "tile_id": "slide_A_x20480_y24576_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 20480,
+      "y": 24576,
+      "level0": {
+        "x": 20480,
+        "y": 24576,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a biphasic proliferation of epithelial and stromal elements, with the stroma being cellular and compressing the epithelial structures into slit-like spaces. The stroma is composed of spindle cells arranged in fascicles and whorls.\n\nThe most likely diagnosis is a fibroadenoma. The differential diagnosis includes phyllodes tumor, which would typically show increased stromal cellularity, mitotic activity, and stromal overgrowth.",
+      "rationale": "Low power scan of central tumor to map clefts and epithelial distribution"
+    },
+    {
+      "roi_id": "slide_A_x12288_y8192_mag2",
+      "tile_id": "slide_A_x12288_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 8192,
+      "level0": {
+        "x": 12288,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a biphasic lesion with a cellular spindle cell stroma and scattered epithelial ducts. The stroma is dense and arranged in fascicles and whorls, with some ducts appearing compressed.\n\nThe most likely diagnosis is a fibroadenoma. A phyllodes tumor is a differential diagnosis, which would typically show increased stromal cellularity, mitotic activity, and stromal overgrowth.",
+      "rationale": "Sample upper-left region for clefts/leaf-like pattern and stroma distribution."
+    },
+    {
+      "roi_id": "slide_A_x12288_y12288_mag5",
+      "tile_id": "slide_A_x12288_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 12288,
+      "y": 12288,
+      "level0": {
+        "x": 12288,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a biphasic proliferation of epithelial and stromal elements, with compressed and elongated ducts embedded in a cellular spindle cell stroma arranged in fascicles and whorls.\n\nThe most likely diagnosis is fibroadenoma. Differential diagnoses include phyllodes tumor, which typically shows increased stromal cellularity, mitotic activity, and stromal overgrowth.",
+      "rationale": "Upper-left portion to look for hypercellular subepithelial cuffs/leaf-like clefts."
+    },
+    {
+      "roi_id": "slide_A_x12288_y12288_mag2",
+      "tile_id": "slide_A_x12288_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 12288,
+      "level0": {
+        "x": 12288,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a biphasic lesion with a prominent cellular stromal component and scattered epithelial ducts. The stroma is composed of spindle cells arranged in fascicles and whorls, with some areas showing stromal overgrowth.\n\nThe most likely diagnosis is a fibroadenoma. The differential diagnosis includes phyllodes tumor, which would show increased stromal cellularity, mitotic activity, and potentially stromal overgrowth.",
+      "rationale": "Low power scan upper/left area for leaf-like clefts and ducts"
+    },
+    {
+      "roi_id": "slide_A_x28672_y12288_mag2",
+      "tile_id": "slide_A_x28672_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 28672,
+      "y": 12288,
+      "level0": {
+        "x": 28672,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a biphasic lesion with a prominent cellular spindle cell stroma arranged in fascicles and whorls, surrounding and compressing epithelial ducts. The epithelial component is benign.\n\nThe most likely diagnosis is a fibroadenoma. A phyllodes tumor is a differential diagnosis, which would show increased stromal cellularity, mitotic activity, and potentially stromal overgrowth.",
+      "rationale": "Sample upper-right region; check for heterogeneity/hemorrhage/necrosis."
+    },
+    {
+      "roi_id": "slide_A_x30720_y12288_mag5",
+      "tile_id": "slide_A_x30720_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 30720,
+      "y": 12288,
+      "level0": {
+        "x": 30720,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a biphasic proliferation of benign epithelial glands and a cellular spindle cell stroma arranged in fascicles and whorls. The stroma is notably more cellular than the epithelial component.\n\nThe most likely diagnosis is fibroadenoma. The differential diagnosis includes phyllodes tumor, which would show increased stromal cellularity, atypia, and mitotic activity.",
+      "rationale": "Upper-right portion to compare stromal cellularity and look for myxoid change."
+    },
+    {
+      "roi_id": "slide_A_x28672_y16384_mag2",
+      "tile_id": "slide_A_x28672_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 28672,
+      "y": 16384,
+      "level0": {
+        "x": 28672,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a biphasic lesion with irregular glandular structures embedded in a cellular spindle cell stroma. The stroma is arranged in fascicles and whorls, with areas of stromal condensation around glands.\n\nThe most likely diagnosis is a fibroadenoma. A phyllodes tumor is a differential diagnosis, which would show increased stromal cellularity, mitotic activity, and stromal overgrowth.",
+      "rationale": "Low power scan upper/right area near capsule for epithelial elements"
+    },
+    {
+      "roi_id": "slide_A_x12288_y36864_mag5",
+      "tile_id": "slide_A_x12288_y36864_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 12288,
+      "y": 36864,
+      "level0": {
+        "x": 12288,
+        "y": 36864,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a fragment of breast tissue with a cellular proliferation of spindle cells arranged in fascicles and whorls, along with scattered dark brown pigment.\n\nThe most likely diagnosis is a benign spindle cell lesion of the breast, such as a myofibroblastoma or fibromatosis.\n\nDifferential diagnoses include a phyllodes tumor (stromal component) and a spindle cell carcinoma (metaplastic carcinoma).",
+      "rationale": "Lower-left portion to assess for stromal overgrowth or hypocellular collagenized zones."
+    },
+    {
+      "roi_id": "slide_A_x28672_y36864_mag2",
+      "tile_id": "slide_A_x28672_y36864_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 28672,
+      "y": 36864,
+      "level0": {
+        "x": 28672,
+        "y": 36864,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a biphasic proliferation of epithelial and stromal elements, with the stroma being cellular and arranged in fascicles and whorls around the epithelial structures. The epithelial component forms glands and ducts, some with intraluminal papillary projections.\n\nThe most likely diagnosis is a fibroadenoma. The differential diagnosis includes phyllodes tumor, which would typically show increased stromal cellularity, mitotic activity, and stromal overgrowth.",
+      "rationale": "Sample lower-right near apparent capsule/margin; assess pushing vs infiltrative border."
+    },
+    {
+      "roi_id": "slide_A_x24576_y36864_mag2",
+      "tile_id": "slide_A_x24576_y36864_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 24576,
+      "y": 36864,
+      "level0": {
+        "x": 24576,
+        "y": 36864,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a biphasic proliferation of benign epithelial glands and a cellular spindle cell stroma arranged in fascicles and whorls. The stroma is prominent and compresses the epithelial structures.\n\nThe most likely diagnosis is fibroadenoma. The differential diagnosis includes phyllodes tumor, which would show increased stromal cellularity, mitotic activity, and stromal overgrowth.",
+      "rationale": "Low power scan lower/right area with possible stromal predominance/capsule"
+    },
+    {
+      "roi_id": "slide_A_x12288_y36864_mag2",
+      "tile_id": "slide_A_x12288_y36864_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 36864,
+      "level0": {
+        "x": 12288,
+        "y": 36864,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a well-circumscribed lesion composed of spindle cells arranged in fascicles and whorls, with areas of hyalinization and scattered pigment. The lesion is surrounded by a fibrous capsule.\n\nThe most likely diagnosis is myofibroblastoma. Differential diagnoses include fibroadenoma and phyllodes tumor, which typically show epithelial components, and solitary fibrous tumor, which may have a more prominent vascular pattern.",
+      "rationale": "Sample lower-left margin and internal architecture."
+    },
+    {
+      "roi_id": "slide_A_x30720_y36864_mag5",
+      "tile_id": "slide_A_x30720_y36864_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 30720,
+      "y": 36864,
+      "level0": {
+        "x": 30720,
+        "y": 36864,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a biphasic lesion with irregular glandular structures embedded in a cellular spindle cell stroma arranged in fascicles and whorls. The stroma is hypercellular and compresses the glands.\n\nThe most likely diagnosis is a phyllodes tumor. Differential diagnoses include fibroadenoma, which typically has less cellular stroma and lacks the leaf-like architecture, and benign spindle cell lesions like myofibroblastoma, which lacks the epithelial component.",
+      "rationale": "Lower-right peripheral area to assess margins and any infiltrative pattern."
+    },
+    {
+      "roi_id": "slide_A_x20480_y24576_mag10",
+      "tile_id": "slide_A_x20480_y24576_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 20480,
+      "y": 24576,
+      "level0": {
+        "x": 20480,
+        "y": 24576,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with entrapped benign ducts. The stroma is collagenous with scattered small vessels.\n\nThe most likely diagnosis is fibroadenoma. Differential diagnoses include phyllodes tumor, which typically shows increased stromal cellularity, mitotic activity, and stromal overgrowth, and myofibroblastoma, which is usually less cellular and lacks entrapped ducts.",
+      "rationale": "Assess epithelial architecture in central representative area: intracanalicular vs pericanalicular; hyperplasia/apocrine"
+    },
+    {
+      "roi_id": "slide_A_x10240_y32768_mag5",
+      "tile_id": "slide_A_x10240_y32768_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 10240,
+      "y": 32768,
+      "level0": {
+        "x": 10240,
+        "y": 32768,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a spindle cell proliferation with elongated nuclei and eosinophilic cytoplasm arranged in fascicles. There is also a small amount of dark brown pigment present.\n\nThe most likely diagnosis is a benign spindle cell lesion, such as a myofibroblastoma.\n\nDifferential diagnoses include fibromatosis, which typically shows more infiltrative growth, and a nerve sheath tumor, which would have different architectural patterns and immunohistochemical profile.",
+      "rationale": "Clarify lower-left region where caption suggested encapsulated spindle lesion; verify presence/absence of epithelial component and margin."
+    },
+    {
+      "roi_id": "slide_A_x30720_y36864_mag10",
+      "tile_id": "slide_A_x30720_y36864_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 30720,
+      "y": 36864,
+      "level0": {
+        "x": 30720,
+        "y": 36864,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a biphasic lesion with benign epithelial elements and a cellular stromal component composed of spindle cells arranged in fascicles and whorls. The stroma is hypercellular with mild nuclear atypia and mitotic activity.\n\nThe most likely diagnosis is a fibroadenoma, specifically a cellular fibroadenoma given the stromal cellularity. A phyllodes tumor is a key differential diagnosis, which would show increased stromal cellularity, atypia, and mitotic activity, often with stromal overgrowth and leaf-like architecture.",
+      "rationale": "Hypercellular area at lower-right—evaluate stromal cellularity and look for mitotic hotspots."
+    },
+    {
+      "roi_id": "slide_A_x12288_y12288_mag10",
+      "tile_id": "slide_A_x12288_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 12288,
+      "y": 12288,
+      "level0": {
+        "x": 12288,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a biphasic proliferation of benign epithelial glands and a cellular stromal component composed of spindle cells arranged in fascicles and whorls. The stroma is hypercellular with mild nuclear atypia and mitotic activity.\n\nThe most likely diagnosis is a cellular fibroadenoma. The differential diagnosis includes phyllodes tumor, which would show more pronounced stromal cellularity, atypia, and mitotic activity, often with stromal overgrowth.",
+      "rationale": "Assess area with apparent stromal overgrowth for epithelial patterns/leaf-like clefts"
+    },
+    {
+      "roi_id": "slide_A_x28672_y36864_mag5",
+      "tile_id": "slide_A_x28672_y36864_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 28672,
+      "y": 36864,
+      "level0": {
+        "x": 28672,
+        "y": 36864,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a biphasic proliferation of benign epithelial glands and a cellular spindle cell stroma arranged in fascicles and whorls. The stroma is notably more cellular than the epithelial component.\n\nThe most likely diagnosis is fibroadenoma. The differential diagnosis includes phyllodes tumor, which would show increased stromal cellularity, atypia, and mitotic activity.",
+      "rationale": "Assess margin behavior and check for true leaf-like fronds vs compressed ducts."
+    },
+    {
+      "roi_id": "slide_A_x14336_y34816_mag10",
+      "tile_id": "slide_A_x14336_y34816_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 14336,
+      "y": 34816,
+      "level0": {
+        "x": 14336,
+        "y": 34816,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense fibrous stroma with scattered spindle cells and abundant dark brown to black granular pigment. A small duct-like structure is also present.\n\nThe most likely diagnosis is a fibroadenoma with stromal pigment deposition.\n\nDifferential diagnoses include a phyllodes tumor, which can also have stromal pigment, and a pigmented spindle cell nevus, which would show more cellular nests and less stromal fibrosis.",
+      "rationale": "Spindle-cell–predominant area at lower-left—confirm if stroma-only (overgrowth) vs tangential ducts."
+    },
+    {
+      "roi_id": "slide_A_x18432_y22528_mag5",
+      "tile_id": "slide_A_x18432_y22528_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 18432,
+      "y": 22528,
+      "level0": {
+        "x": 18432,
+        "y": 22528,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a biphasic proliferation of benign epithelial glands and a cellular spindle cell stroma arranged in intersecting fascicles and whorls. The stroma is hypercellular with elongated nuclei and scant cytoplasm.\n\nThe most likely diagnosis is fibroadenoma. The differential diagnosis includes phyllodes tumor, which would show increased stromal cellularity, atypia, and mitotic activity.",
+      "rationale": "Central architecture at higher low-power for stromal overgrowth foci and clefting."
+    },
+    {
+      "roi_id": "slide_A_x20480_y22528_mag10",
+      "tile_id": "slide_A_x20480_y22528_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 20480,
+      "y": 22528,
+      "level0": {
+        "x": 20480,
+        "y": 22528,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a biphasic lesion with a cellular spindle cell stroma arranged in fascicles and whorls, and benign epithelial elements forming compressed and elongated ducts. The stromal cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a fibroadenoma. The differential diagnosis includes phyllodes tumor, which would show increased stromal cellularity, atypia, and mitotic activity.",
+      "rationale": "Central representative area—assess typical stromal cytology and any periductal condensation."
+    },
+    {
+      "roi_id": "slide_A_x28672_y16384_mag10",
+      "tile_id": "slide_A_x28672_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 28672,
+      "y": 16384,
+      "level0": {
+        "x": 28672,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a biphasic lesion with a prominent cellular spindle cell stroma arranged in fascicles and whorls, and embedded epithelial structures forming clefts and glands. The stroma is hypercellular with mild nuclear pleomorphism.\n\nThe most likely diagnosis is a phyllodes tumor. The biphasic nature with a cellular stromal component and epithelial elements forming clefts is characteristic. The degree of stromal cellularity and mild pleomorphism suggests a borderline phyllodes tumor.\n\nDifferential diagnoses include fibroadenoma, which typically has less cellular stroma and lacks the prominent stromal overgrowth and clefting seen here. Another consideration is a cellular fibroadenoma, but the stromal cellularity and architectural pattern are more consistent with a phyllodes tumor.",
+      "rationale": "Assess periductal stromal condensation region for epithelial changes and clefts"
+    },
+    {
+      "roi_id": "slide_A_x32768_y28672_mag2",
+      "tile_id": "slide_A_x32768_y28672_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 32768,
+      "y": 28672,
+      "level0": {
+        "x": 32768,
+        "y": 28672,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a biphasic lesion with a cellular spindle cell stroma and scattered epithelial glands. The stroma is dense and arranged in fascicles and whorls, with some glands showing compression.\n\nThe most likely diagnosis is fibroadenoma. A key differential diagnosis is phyllodes tumor, which would show increased stromal cellularity, mitotic activity, and stromal overgrowth.",
+      "rationale": "Survey additional mid-right area for heterogeneity (myxoid/hemorrhage/necrosis)."
+    },
+    {
+      "roi_id": "slide_A_x30720_y12288_mag10",
+      "tile_id": "slide_A_x30720_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 30720,
+      "y": 12288,
+      "level0": {
+        "x": 30720,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a biphasic proliferation of benign epithelial glands and a cellular stromal component composed of spindle cells arranged in fascicles and whorls. The stroma is hypercellular with mild nuclear atypia and mitotic activity.\n\nThe most likely diagnosis is a fibroadenoma, specifically a cellular fibroadenoma given the stromal cellularity. A phyllodes tumor is a differential diagnosis, which would show increased stromal cellularity, atypia, and mitotic activity, often with stromal overgrowth and leaf-like architecture.",
+      "rationale": "Upper-right—assess for leaf-like fronds and subepithelial stromal hypercellularity."
+    },
+    {
+      "roi_id": "slide_A_x24576_y36864_mag10",
+      "tile_id": "slide_A_x24576_y36864_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 24576,
+      "y": 36864,
+      "level0": {
+        "x": 24576,
+        "y": 36864,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a biphasic proliferation of benign epithelial glands and a cellular spindle cell stroma arranged in fascicles and whorls. The stroma is composed of bland spindle cells with elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is fibroadenoma. The differential diagnosis includes phyllodes tumor, which would show increased stromal cellularity, atypia, and mitotic activity.",
+      "rationale": "Assess lower right region for lobular units/PASH/sclerosing adenosis and epithelial atypia"
+    },
+    {
+      "roi_id": "slide_A_x16384_y12288_mag2",
+      "tile_id": "slide_A_x16384_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 16384,
+      "y": 12288,
+      "level0": {
+        "x": 16384,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a biphasic lesion with a prominent cellular spindle cell stroma arranged in fascicles and whorls, and scattered epithelial ducts and glands, some with cystic dilation. The stroma appears to compress the epithelial structures.\n\nThe most likely diagnosis is a fibroadenoma. The differential diagnosis includes phyllodes tumor, which would typically show increased stromal cellularity, mitotic activity, and stromal overgrowth.",
+      "rationale": "Survey mid-upper area for periductal stromal condensation/leaf-like pattern."
+    },
+    {
+      "roi_id": "slide_A_x29184_y16896_mag20",
+      "tile_id": "slide_A_x29184_y16896_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 29184,
+      "y": 16896,
+      "level0": {
+        "x": 29184,
+        "y": 16896,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with elongated nuclei and eosinophilic cytoplasm. Scattered small blood vessels and a mild inflammatory infiltrate are also present.\n\nThe most likely diagnosis is fibromatosis (desmoid tumor).\n\nDifferential diagnoses include myofibroblastoma and low-grade spindle cell sarcoma. Myofibroblastoma typically shows more prominent vascularity and may have adipose tissue, while low-grade spindle cell sarcoma would exhibit more significant nuclear atypia and mitotic activity.",
+      "rationale": "High power on clefting/condensed periductal stroma area to evaluate epithelial atypia, hyperplasia, apocrine, metaplasia"
+    },
+    {
+      "roi_id": "slide_A_x30720_y36864_mag20",
+      "tile_id": "slide_A_x30720_y36864_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 30720,
+      "y": 36864,
+      "level0": {
+        "x": 30720,
+        "y": 36864,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a biphasic lesion with a cellular stromal component composed of spindle cells arranged in fascicles and whorls, and an epithelial component forming glandular structures. The stromal cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a fibroadenoma. The biphasic pattern with a prominent cellular stromal component and benign epithelial elements is characteristic. Differential diagnoses include phyllodes tumor, which typically shows more stromal cellularity, atypia, and mitotic activity, and adenomyoepithelioma, which would have a dual epithelial and myoepithelial proliferation.",
+      "rationale": "Detail stromal cytology/mitoses in hypercellular area."
+    },
+    {
+      "roi_id": "slide_A_x16384_y40960_mag2",
+      "tile_id": "slide_A_x16384_y40960_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 16384,
+      "y": 40960,
+      "level0": {
+        "x": 16384,
+        "y": 40960,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a fragment of breast tissue with a cellular proliferation of spindle cells arranged in fascicles and whorls, with associated stromal hyalinization and scattered inflammatory cells.\n\nThe most likely diagnosis is a benign spindle cell lesion of the breast, such as a myofibroblastoma or fibromatosis.\n\nDifferential diagnoses include other spindle cell lesions like nodular fasciitis or a low-grade sarcoma, which would typically show different growth patterns, cellularity, or cytologic atypia.",
+      "rationale": "Inferior border: assess circumscription/capsule and any infiltrative tongues into fat."
+    },
+    {
+      "roi_id": "slide_A_x12288_y11776_mag20",
+      "tile_id": "slide_A_x12288_y11776_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 12288,
+      "y": 11776,
+      "level0": {
+        "x": 12288,
+        "y": 11776,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with areas of nuclear palisading and Verocay bodies. The stroma is collagenous with scattered inflammatory cells.\n\nThe most likely diagnosis is a benign spindle cell lesion, such as a schwannoma or neurofibroma.\n\nDifferential diagnoses include fibromatosis, which typically lacks Verocay bodies and has more uniform spindle cells, and a solitary fibrous tumor, which often shows a patternless architecture and prominent vasculature.",
+      "rationale": "High power in hypercellular area to check epithelium for UDH/DCIS, necrosis, metaplastic carcinoma"
+    },
+    {
+      "roi_id": "slide_A_x30208_y35328_mag20",
+      "tile_id": "slide_A_x30208_y35328_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 30208,
+      "y": 35328,
+      "level0": {
+        "x": 30208,
+        "y": 35328,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with elongated nuclei and eosinophilic cytoplasm. There is a prominent inflammatory infiltrate and areas of stromal hyalinization.\n\nThe most likely diagnosis is a cellular fibroadenoma. The differential diagnosis includes phyllodes tumor, which typically shows greater stromal cellularity, atypia, and mitotic activity, and may have leaf-like architecture.",
+      "rationale": "Adjacent hypercellular stroma near glands—seek mitotic figures."
+    },
+    {
+      "roi_id": "slide_A_x32768_y40960_mag2",
+      "tile_id": "slide_A_x32768_y40960_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 32768,
+      "y": 40960,
+      "level0": {
+        "x": 32768,
+        "y": 40960,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a well-circumscribed lesion composed of a cellular spindle cell stroma with entrapped benign epithelial elements, adjacent to mature adipose tissue. The stroma is dense and cellular with spindle cells arranged in fascicles and whorls.\n\nThe most likely diagnosis is a fibroadenoma. The well-circumscribed nature, biphasic pattern of stromal and epithelial components, and the cellular spindle cell stroma are characteristic features. A phyllodes tumor is a differential diagnosis, but typically shows more stromal cellularity, atypia, and mitotic activity, which are not prominent in this image.",
+      "rationale": "Inferolateral border: check margin and any satellite nodules."
+    },
+    {
+      "roi_id": "slide_A_x20992_y25088_mag20",
+      "tile_id": "slide_A_x20992_y25088_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20992,
+      "y": 25088,
+      "level0": {
+        "x": 20992,
+        "y": 25088,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a biphasic proliferation of epithelial and stromal elements, with the stroma being cellular and composed of spindle cells arranged in fascicles and whorls. The epithelial component forms compressed ducts and glands.\n\nThe most likely diagnosis is fibroadenoma. The biphasic pattern with a cellular stromal component and compressed epithelial structures is characteristic. Differential diagnoses include phyllodes tumor, which typically shows more stromal cellularity, atypia, and mitotic activity, and adenomyoepithelioma, which would have a prominent myoepithelial component.",
+      "rationale": "High power representative ducts to evaluate epithelial lining, myoepithelium, and any apocrine change"
+    },
+    {
+      "roi_id": "slide_A_x32768_y4096_mag2",
+      "tile_id": "slide_A_x32768_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 32768,
+      "y": 4096,
+      "level0": {
+        "x": 32768,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a well-circumscribed lesion composed of a biphasic proliferation of benign epithelial and stromal elements. The stroma is cellular and compresses the epithelial ducts into slit-like spaces.\n\nThe most likely diagnosis is fibroadenoma. The differential diagnosis includes phyllodes tumor, which would show increased stromal cellularity, atypia, and mitotic activity.",
+      "rationale": "Superior border: look for clefting/leaf-like fronds and margin behavior."
+    },
+    {
+      "roi_id": "slide_A_x20480_y22528_mag20",
+      "tile_id": "slide_A_x20480_y22528_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20480,
+      "y": 22528,
+      "level0": {
+        "x": 20480,
+        "y": 22528,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with elongated nuclei and scant cytoplasm. There is a prominent collagenous stroma and scattered blood vessels.\n\nThe most likely diagnosis is fibroadenoma, a common benign breast tumor characterized by a biphasic proliferation of stromal and epithelial elements. The spindle cell component represents the stromal element, while the epithelial component is not prominent in this particular field.\n\nDifferential diagnoses include phyllodes tumor, which can also show a cellular stromal component but typically exhibits leaf-like architecture and stromal overgrowth, and myofibroblastoma, a benign mesenchymal tumor composed of spindle cells with a more prominent myxoid or collagenous stroma.",
+      "rationale": "Representative central area—baseline atypia/mitoses."
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag2",
+      "tile_id": "slide_A_x8192_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular stromal proliferation with spindle cells arranged in fascicles and whorls, surrounding entrapped benign epithelial structures. The stroma is dense and collagenous.\n\nThe most likely diagnosis is a fibroadenoma. Differential diagnoses include phyllodes tumor, which typically shows increased stromal cellularity, mitotic activity, and stromal overgrowth, and benign stromal lesions like myofibroblastoma, which lacks the epithelial component.",
+      "rationale": "Superomedial border: assess capsule/pushing vs infiltrative growth."
+    },
+    {
+      "roi_id": "slide_A_x24576_y37376_mag20",
+      "tile_id": "slide_A_x24576_y37376_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 24576,
+      "y": 37376,
+      "level0": {
+        "x": 24576,
+        "y": 37376,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a biphasic lesion with a cellular spindle cell stroma and epithelial-lined clefts. The stroma is composed of spindle cells with elongated nuclei arranged in fascicles and whorls, with some areas showing increased cellularity and mild nuclear pleomorphism.\n\nThe most likely diagnosis is a phyllodes tumor. The biphasic pattern with a cellular stromal component and epithelial-lined clefts is characteristic. The increased stromal cellularity and mild nuclear pleomorphism suggest a borderline or malignant phyllodes tumor, although a definitive grade requires assessment of the entire lesion.\n\nDifferential diagnoses include fibroadenoma, which typically has less cellular stroma and lacks the leaf-like architecture, and benign phyllodes tumor, which would show less stromal cellularity and atypia.",
+      "rationale": "High power lower right for lobular units, sclerosing adenosis, PASH-like spaces"
+    },
+    {
+      "roi_id": "slide_A_x30720_y12288_mag20",
+      "tile_id": "slide_A_x30720_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 30720,
+      "y": 12288,
+      "level0": {
+        "x": 30720,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a biphasic lesion with a cellular stromal component composed of spindle cells and a glandular component with benign epithelial structures. The stroma is cellular with some nuclear pleomorphism and mitotic activity.\n\nThe most likely diagnosis is a fibroadenoma, specifically a cellular fibroadenoma given the stromal cellularity. A phyllodes tumor is a differential diagnosis, which would show more pronounced stromal cellularity, atypia, and mitotic activity, often with stromal overgrowth.",
+      "rationale": "Upper-right cellular area—confirm atypia/mitotic rate."
+    },
+    {
+      "roi_id": "slide_A_x14336_y34816_mag20",
+      "tile_id": "slide_A_x14336_y34816_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 14336,
+      "y": 34816,
+      "level0": {
+        "x": 14336,
+        "y": 34816,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with scattered dark granular material. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a benign spindle cell lesion, such as a myofibroblastoma or fibromatosis.\n\nDifferential diagnoses include a phyllodes tumor (stromal component) and a low-grade sarcoma.",
+      "rationale": "Pigmented fibrous area—exclude giant cells/atypical stromal cells."
+    },
+    {
+      "roi_id": "slide_A_x32768_y40960_mag5",
+      "tile_id": "slide_A_x32768_y40960_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 32768,
+      "y": 40960,
+      "level0": {
+        "x": 32768,
+        "y": 40960,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a transition from a cellular area with spindle cells in fascicles to mature adipose tissue. The adipose tissue is composed of uniform adipocytes with thin fibrous septa.\n\nThe most likely diagnosis is a fibroadenolipoma, a benign breast lesion composed of fibrous, adipose, and glandular tissue.\n\nDifferential diagnoses include lipoma, which would lack the fibrous and glandular components, and phyllodes tumor, which would show more cellular stroma and leaf-like architecture.",
+      "rationale": "Inferolateral margin with fat interface; assess pushing vs infiltrative border."
+    },
+    {
+      "roi_id": "slide_A_x32768_y4096_mag5",
+      "tile_id": "slide_A_x32768_y4096_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 32768,
+      "y": 4096,
+      "level0": {
+        "x": 32768,
+        "y": 4096,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a well-circumscribed lesion composed of spindle cells arranged in fascicles and whorls, with scattered benign-appearing glandular structures. The stroma is collagenous with areas of hyalinization and myxoid change.\n\nThe most likely diagnosis is myofibroblastoma. Differential diagnoses include fibroadenoma and phyllodes tumor, which typically show a more prominent epithelial component and different stromal patterns.",
+      "rationale": "Superior margin; evaluate capsule and any tongue-like stromal projections."
+    },
+    {
+      "roi_id": "slide_A_x28672_y36352_mag20",
+      "tile_id": "slide_A_x28672_y36352_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 28672,
+      "y": 36352,
+      "level0": {
+        "x": 28672,
+        "y": 36352,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with areas of stromal hyalinization and a prominent inflammatory infiltrate. The spindle cells have elongated, wavy nuclei and scant cytoplasm.\n\nThe most likely diagnosis is a cellular fibroadenoma. The differential diagnosis includes phyllodes tumor, which typically shows greater stromal cellularity, mitotic activity, and leaf-like architecture.",
+      "rationale": "Search for stromal overgrowth: stroma without epithelium in cellular lower-right region."
+    },
+    {
+      "roi_id": "slide_A_x10240_y8192_mag5",
+      "tile_id": "slide_A_x10240_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 10240,
+      "y": 8192,
+      "level0": {
+        "x": 10240,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a small fragment of breast tissue with a cellular proliferation of spindle cells arranged in fascicles. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a benign spindle cell lesion of the breast, such as a myofibroblastoma or fibromatosis.\n\nDifferential diagnoses include phyllodes tumor (stromal component) and low-grade spindle cell carcinoma.",
+      "rationale": "Superomedial margin; confirm biphasic elements and border quality."
+    },
+    {
+      "roi_id": "slide_A_x31744_y37888_mag20",
+      "tile_id": "slide_A_x31744_y37888_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 31744,
+      "y": 37888,
+      "level0": {
+        "x": 31744,
+        "y": 37888,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with a prominent inflammatory infiltrate composed of lymphocytes and plasma cells.\n\nThe most likely diagnosis is myofibroblastoma. Differential diagnoses include fibromatosis, which typically lacks the prominent inflammatory infiltrate and has more uniform spindle cells, and solitary fibrous tumor, which often shows a more haphazard pattern and characteristic staghorn vessels.",
+      "rationale": "Further in lower-right periphery for atypia/mitoses and margin quality."
+    },
+    {
+      "roi_id": "slide_A_x18432_y38912_mag5",
+      "tile_id": "slide_A_x18432_y38912_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 18432,
+      "y": 38912,
+      "level0": {
+        "x": 18432,
+        "y": 38912,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a fragment of breast tissue with a cellular stromal component and scattered epithelial elements. The stroma is cellular with spindle cells and scattered inflammatory cells.\n\nThe most likely diagnosis is a fibroadenoma. The differential diagnosis includes phyllodes tumor, which would show increased stromal cellularity, atypia, and mitotic activity.",
+      "rationale": "Inferior region flagged as spindle-cell predominant; check if margin shows infiltration or represents separate lesion."
+    },
+    {
+      "roi_id": "slide_A_x14336_y35328_mag20",
+      "tile_id": "slide_A_x14336_y35328_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 14336,
+      "y": 35328,
+      "level0": {
+        "x": 14336,
+        "y": 35328,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a spindle cell proliferation with elongated nuclei and wavy cytoplasm, arranged in fascicles and whorls. Abundant dark brown to black granular pigment is present within the stroma and associated with the spindle cells.\n\nThe most likely diagnosis is a pigmented spindle cell neoplasm, such as a pigmented schwannoma.\n\nDifferential diagnoses include melanoma, which can also present as a pigmented spindle cell lesion, and other pigmented mesenchymal tumors.",
+      "rationale": "Lower-left stroma-dominant zone to determine if true overgrowth vs sparse ducts."
+    },
+    {
+      "roi_id": "slide_A_x30208_y36864_mag20",
+      "tile_id": "slide_A_x30208_y36864_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 30208,
+      "y": 36864,
+      "level0": {
+        "x": 30208,
+        "y": 36864,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a biphasic lesion with a cellular spindle cell stroma and epithelial-lined clefts. The stroma is composed of spindle cells arranged in fascicles with elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a fibroadenoma. The biphasic pattern with a cellular stromal component and epithelial-lined clefts is characteristic. Differential diagnoses include phyllodes tumor, which typically shows increased stromal cellularity, mitotic activity, and stromal overgrowth, and adenomyoepithelioma, which would have a prominent myoepithelial component.",
+      "rationale": "Dedicated mitotic count in most cellular area; scan consecutive HPFs."
+    },
+    {
+      "roi_id": "slide_A_x29696_y35328_mag20",
+      "tile_id": "slide_A_x29696_y35328_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 29696,
+      "y": 35328,
+      "level0": {
+        "x": 29696,
+        "y": 35328,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls within a collagenous stroma. The cells have elongated, wavy nuclei and scant cytoplasm, with scattered inflammatory cells.\n\nThe most likely diagnosis is fibromatosis. Differential diagnoses include myofibroblastoma and low-grade spindle cell sarcoma.",
+      "rationale": "Second hotspot for mitotic figures and atypical mitoses."
+    },
+    {
+      "roi_id": "slide_A_x30208_y12288_mag20",
+      "tile_id": "slide_A_x30208_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 30208,
+      "y": 12288,
+      "level0": {
+        "x": 30208,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated nuclei and eosinophilic cytoplasm, arranged in intersecting fascicles and whorls within a collagenous stroma. There is also evidence of hemorrhage and inflammation.\n\nThe most likely diagnosis is myofibroblastoma. This benign mesenchymal tumor is characterized by spindle cells with myofibroblastic differentiation, often arranged in fascicles and whorls, and can be associated with hemorrhage and inflammation.\n\nDifferential diagnoses include fibromatosis, which typically shows more infiltrative growth and less prominent whorling, and solitary fibrous tumor, which often has a more prominent hemangiopericytoma-like vascular pattern.",
+      "rationale": "Upper-right cellular area for mitotic activity comparison."
+    },
+    {
+      "roi_id": "slide_A_x19968_y22528_mag20",
+      "tile_id": "slide_A_x19968_y22528_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 19968,
+      "y": 22528,
+      "level0": {
+        "x": 19968,
+        "y": 22528,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a biphasic lesion with a cellular stromal component composed of spindle cells arranged in fascicles and whorls, and an epithelial component forming compressed ducts. The stromal cells have elongated nuclei with minimal atypia and rare mitoses.\n\nThe most likely diagnosis is a fibroadenoma. The differential diagnosis includes phyllodes tumor, which would show increased stromal cellularity, atypia, and mitotic activity.",
+      "rationale": "Central area—confirm low mitotic rate."
+    },
+    {
+      "roi_id": "slide_A_x35840_y37888_mag10",
+      "tile_id": "slide_A_x35840_y37888_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 35840,
+      "y": 37888,
+      "level0": {
+        "x": 35840,
+        "y": 37888,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a transition from dense fibrous tissue to mature adipose tissue. The fibrous component contains wavy collagen bundles and scattered spindle cells, while the adipose tissue consists of mature adipocytes.\n\nThe most likely diagnosis for this single tile is a fibroadenoma with fatty metaplasia. The presence of both fibrous and adipose tissue components is characteristic of this benign breast lesion. Differential diagnoses could include a lipoma, which is composed predominantly of mature adipose tissue, or a phyllodes tumor, which typically shows a more cellular stromal component and leaf-like architecture.",
+      "rationale": "Peripheral edge to evaluate circumscription vs infiltration and leaf-like architecture."
+    },
+    {
+      "roi_id": "slide_A_x33792_y40960_mag10",
+      "tile_id": "slide_A_x33792_y40960_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 33792,
+      "y": 40960,
+      "level0": {
+        "x": 33792,
+        "y": 40960,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows mature adipose tissue with large, clear adipocytes and peripherally located nuclei. There is a fibrous capsule and scattered small blood vessels.\n\nThe most likely diagnosis is a lipoma. Differential diagnoses include fibrolipoma and well-differentiated liposarcoma, which can be distinguished by the presence of fibrous tissue and atypical stromal cells, respectively.",
+      "rationale": "Another peripheral sector near inked/edge region for margin assessment."
+    },
+    {
+      "roi_id": "slide_A_x12288_y10240_mag10",
+      "tile_id": "slide_A_x12288_y10240_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 12288,
+      "y": 10240,
+      "level0": {
+        "x": 12288,
+        "y": 10240,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a biphasic lesion with a cellular spindle cell stroma and embedded benign epithelial structures. The stroma is composed of spindle cells arranged in fascicles and whorls.\n\nThe most likely diagnosis is fibroadenoma. A key differential diagnosis is phyllodes tumor, which would show increased stromal cellularity, atypia, and mitotic activity.",
+      "rationale": "Upper-left periphery for periductal stromal condensation and clefting."
+    },
+    {
+      "roi_id": "slide_A_x11776_y31232_mag20",
+      "tile_id": "slide_A_x11776_y31232_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 11776,
+      "y": 31232,
+      "level0": {
+        "x": 11776,
+        "y": 31232,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of spindle cells arranged in fascicles with elongated, wavy nuclei and eosinophilic cytoplasm. Scattered dark brown pigment is present along the edge.\n\nThe most likely diagnosis is a benign spindle cell lesion, such as a myofibroblastoma.\n\nDifferential diagnoses include fibromatosis, which typically shows more infiltrative growth and lacks pigment, and a nerve sheath tumor, which would show different nuclear morphology and potentially S100 positivity.",
+      "rationale": "Interrogate peripheral stroma-dominant/pigmented area for alternate spindle lesion, infarct, or malignancy."
+    },
+    {
+      "roi_id": "slide_A_x32768_y40960_mag20",
+      "tile_id": "slide_A_x32768_y40960_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 32768,
+      "y": 40960,
+      "level0": {
+        "x": 32768,
+        "y": 40960,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows mature adipose tissue with large, clear adipocytes and thin fibrous septa. There is no evidence of cellular atypia or lipoblasts.\n\nThe most likely diagnosis is a lipoma.\n\nDifferential diagnoses include atypical lipomatous tumor/well-differentiated liposarcoma, which would show atypical stromal cells and/or lipoblasts, and fibrolipoma, which would have a more prominent fibrous component.",
+      "rationale": "Check tumor-fat interface at high power for infiltrative margins suggestive of phyllodes."
+    },
+    {
+      "roi_id": "slide_A_x29696_y36864_mag20",
+      "tile_id": "slide_A_x29696_y36864_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 29696,
+      "y": 36864,
+      "level0": {
+        "x": 29696,
+        "y": 36864,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a biphasic lesion with a cellular spindle cell stroma and epithelial-lined clefts. The stroma is composed of spindle cells arranged in fascicles with mild atypia and mitotic activity.\n\nThe most likely diagnosis is a phyllodes tumor. Differential diagnoses include fibroadenoma, which typically has less cellular stroma and lacks the leaf-like architecture, and malignant phyllodes tumor, which would show marked stromal atypia and increased mitotic activity.",
+      "rationale": "Reassess most cellular hotspot for mitoses/atypia and look for periductal stromal condensation."
+    },
+    {
+      "roi_id": "slide_A_x27648_y16384_mag10",
+      "tile_id": "slide_A_x27648_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 27648,
+      "y": 16384,
+      "level0": {
+        "x": 27648,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a biphasic lesion with irregular epithelial structures embedded in a cellular spindle cell stroma. The stroma is composed of plump spindle cells arranged in fascicles and whorls, with areas of stromal condensation around the epithelial elements.\n\nThe most likely diagnosis is a phyllodes tumor. The biphasic nature with a prominent cellular stromal component and the presence of stromal condensation around epithelial structures are characteristic features. The differential diagnosis includes fibroadenoma, which typically has a less cellular stroma and lacks the stromal condensation seen here.",
+      "rationale": "Confirm any leaf-like architecture and assess stromal-epithelial fronds for phyllodes features."
+    }
+  ]
+}

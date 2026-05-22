@@ -1,0 +1,958 @@
+{
+  "case_id": "sem94_case16",
+  "source": "slideseek-ai-assist",
+  "model": "gpt-5.4",
+  "generated_at": "2026-05-22T09:32:10.134399+00:00",
+  "organ": "CNS-Endocrine",
+  "primary_dx": "Choroid Plexus Papilloma, WHO Grade 1",
+  "differential_dx": [
+    "Atypical Choroid Plexus Papilloma, WHO Grade 2",
+    "Choroid Plexus Carcinoma Or Papillary Ependymoma"
+  ],
+  "microscopic_findings": [
+    {
+      "text": "Numerous **branching papillary fronds** with delicate **fibrovascular cores** recapitulate native choroid plexus.",
+      "roi_ids": [
+        "slide_A_x31744_y8192_mag10",
+        "slide_A_x36864_y12288_mag10"
+      ]
+    },
+    {
+      "text": "Papillae are lined by a **single epithelial layer** of bland cuboidal-columnar cells with round-oval nuclei and inconspicuous nucleoli.",
+      "roi_ids": [
+        "slide_A_x31744_y8192_mag20",
+        "slide_A_x36864_y11264_mag20"
+      ]
+    },
+    {
+      "text": "Only focal mild **nuclear crowding** is present, without significant stratification, pleomorphism, or overt **mitotic activity**.",
+      "roi_ids": [
+        "slide_A_x32768_y8192_mag20",
+        "slide_A_x24064_y8192_mag20"
+      ]
+    },
+    {
+      "text": "Papillary cores show **edema**, **vascular congestion**, and focal hemorrhagic change without necrosis or destructive invasion.",
+      "roi_ids": [
+        "slide_A_x24576_y16384_mag10",
+        "slide_A_x39936_y16384_mag20"
+      ]
+    }
+  ],
+  "interpretation": "The lesion is a **choroid plexus papilloma** showing **well-formed branching papillae** with delicate fibrovascular cores and a predominantly **single-layered bland epithelium**. There is no convincing increase in mitoses, necrosis, marked multilayering, solid growth, or destructive brain invasion to support atypical papilloma or carcinoma. Absence of **ependymal rosettes/pseudorosettes** and fibrillary background also argues against papillary ependymoma. Overall findings support **WHO grade 1 choroid plexus papilloma**.",
+  "num_rois": 57,
+  "tiles": [
+    {
+      "roi_id": "slide_A_x31744_y8192_mag10",
+      "tile_id": "slide_A_x31744_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 31744,
+      "y": 8192,
+      "level0": {
+        "x": 31744,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a papillary neoplasm with complex branching papillae lined by cuboidal to columnar epithelium. The papillae have fibrovascular cores with prominent blood vessels and areas of hemorrhage.\n\nThe most likely diagnosis is choroid plexus papilloma. Differential diagnoses include choroid plexus carcinoma, which would show increased cellularity, nuclear pleomorphism, and mitotic activity, and metastatic papillary carcinoma, which would typically have a different immunoprofile.",
+      "rationale": "Target region 2 overview at 10x to find most cellular epithelium"
+    },
+    {
+      "roi_id": "slide_A_x24576_y16384_mag2",
+      "tile_id": "slide_A_x24576_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 24576,
+      "y": 16384,
+      "level0": {
+        "x": 24576,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a papillary neoplasm composed of numerous papillae with fibrovascular cores lined by cuboidal to columnar epithelium. The papillae are closely packed and appear to replace the normal tissue architecture.\n\nThe most likely diagnosis is choroid plexus papilloma. This diagnosis is supported by the papillary architecture and the location within the ventricle, as suggested by the gross description. Differential diagnoses include choroid plexus carcinoma, which would show increased cellularity, nuclear pleomorphism, and mitotic activity, and atypical choroid plexus papilloma, which would have some features of malignancy but not enough for carcinoma.",
+      "rationale": "Low power survey of largest tissue region to assess overall architecture and papillary growth"
+    },
+    {
+      "roi_id": "slide_A_x4096_y8192_mag2",
+      "tile_id": "slide_A_x4096_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 4096,
+      "y": 8192,
+      "level0": {
+        "x": 4096,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a papillary neoplasm with complex branching papillae lined by cuboidal to columnar cells. The papillae have fibrovascular cores and are seen in a background of dilated ventricles.\n\nThe most likely diagnosis is choroid plexus papilloma. Differential diagnoses include choroid plexus carcinoma, which would show increased cellularity, nuclear pleomorphism, and mitotic activity, and atypical teratoid/rhabdoid tumor, which would have rhabdoid cells and often necrosis.",
+      "rationale": "Low power survey of target region 1 for overall architecture."
+    },
+    {
+      "roi_id": "slide_A_x36864_y11264_mag10",
+      "tile_id": "slide_A_x36864_y11264_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 36864,
+      "y": 11264,
+      "level0": {
+        "x": 36864,
+        "y": 11264,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows numerous papillary structures with fibrovascular cores lined by cuboidal to columnar epithelium. The papillae are variable in size and shape, with some appearing edematous and congested.\n\nThe most likely diagnosis is choroid plexus papilloma. This diagnosis is supported by the papillary architecture and the location within the ventricle, as suggested by the clinical history of a papillary mass in the right lateral ventricle. The presence of a papillary mass in the ventricle causing hydrocephalus is characteristic of choroid plexus papilloma.\n\nDifferential diagnoses include choroid plexus carcinoma, which would show increased cellularity, nuclear pleomorphism, and mitotic activity, and choroid plexus hyperplasia, which typically presents as a diffuse increase in the number of normal-appearing choroid plexus cells without forming a discrete mass.",
+      "rationale": "Target region 3 at 10x for papillary fronds and cellular crowding"
+    },
+    {
+      "roi_id": "slide_A_x32768_y8192_mag2",
+      "tile_id": "slide_A_x32768_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 32768,
+      "y": 8192,
+      "level0": {
+        "x": 32768,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a papillary neoplasm composed of numerous branching papillae with fibrovascular cores lined by cuboidal to columnar epithelium. The papillae vary in size and shape, with some appearing edematous or hyalinized.\n\nThe most likely diagnosis is choroid plexus papilloma. This diagnosis is supported by the papillary architecture and the location within the ventricle, as suggested by the gross description. Differential diagnoses include choroid plexus carcinoma, which would show increased cellularity, nuclear pleomorphism, and mitotic activity, and metastatic papillary carcinoma, which would typically have a different clinical history and immunohistochemical profile.",
+      "rationale": "Low power survey of region 2 to look for papillary fronds and complexity"
+    },
+    {
+      "roi_id": "slide_A_x12288_y16384_mag2",
+      "tile_id": "slide_A_x12288_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 16384,
+      "level0": {
+        "x": 12288,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a papillary neoplasm composed of numerous fronds with fibrovascular cores lined by cuboidal to columnar epithelium. The fronds vary in size and shape, with some appearing broad and edematous.\n\nThe most likely diagnosis is choroid plexus papilloma. This diagnosis is supported by the papillary architecture and the location within the ventricle, as suggested by the gross description. Differential diagnoses include choroid plexus carcinoma, which would show increased cellularity, nuclear pleomorphism, and mitotic activity, and atypical teratoid/rhabdoid tumor, which would have a more primitive appearance with rhabdoid cells.",
+      "rationale": "Low power survey region 5; look for alternative patterns/necrosis."
+    },
+    {
+      "roi_id": "slide_A_x37888_y17408_mag10",
+      "tile_id": "slide_A_x37888_y17408_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 37888,
+      "y": 17408,
+      "level0": {
+        "x": 37888,
+        "y": 17408,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows numerous papillary structures with fibrovascular cores lined by cuboidal to columnar epithelium. The papillae are closely packed and vary in size and shape.\n\nThe most likely diagnosis is choroid plexus papilloma. Differential diagnoses include choroid plexus hyperplasia, which typically lacks the complex papillary architecture and cellular atypia seen here, and choroid plexus carcinoma, which would show increased cellularity, nuclear pleomorphism, and mitotic activity.",
+      "rationale": "Target region 6 at 10x for hypercellular/necrotic foci"
+    },
+    {
+      "roi_id": "slide_A_x36864_y12288_mag2",
+      "tile_id": "slide_A_x36864_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 36864,
+      "y": 12288,
+      "level0": {
+        "x": 36864,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a papillary neoplasm composed of numerous branching papillae with fibrovascular cores lined by cuboidal to columnar epithelium. The papillae vary in size and shape, with some appearing edematous or cystic.\n\nThe most likely diagnosis is choroid plexus papilloma. This diagnosis is supported by the papillary architecture and the location within the ventricle, as suggested by the gross description. Differential diagnoses include choroid plexus carcinoma, which would show increased cellularity, nuclear pleomorphism, and mitotic activity, and metastatic papillary carcinoma, which would typically have a different clinical history and immunohistochemical profile.",
+      "rationale": "Low power survey of region 3 to assess tumor pattern and any solid areas"
+    },
+    {
+      "roi_id": "slide_A_x16384_y4096_mag2",
+      "tile_id": "slide_A_x16384_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 16384,
+      "y": 4096,
+      "level0": {
+        "x": 16384,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a papillary neoplasm with a central fibrovascular core and a lining of cuboidal to columnar epithelium. The cells have round to oval nuclei and moderate eosinophilic cytoplasm. The papillary structures are arranged in a complex, branching pattern.\n\nThe most likely diagnosis is choroid plexus papilloma. This diagnosis is supported by the papillary architecture and the location within the ventricle, as suggested by the gross description. The cells lining the papillae resemble normal choroid plexus epithelium.\n\nDifferential diagnoses include atypical choroid plexus papilloma and choroid plexus carcinoma. Atypical choroid plexus papilloma would show increased cellularity, nuclear pleomorphism, and mitotic activity. Choroid plexus carcinoma would exhibit marked nuclear atypia, high mitotic rate, necrosis, and potentially invasion, features not evident in this image.",
+      "rationale": "Low power survey region 7."
+    },
+    {
+      "roi_id": "slide_A_x31744_y8192_mag20",
+      "tile_id": "slide_A_x31744_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 31744,
+      "y": 8192,
+      "level0": {
+        "x": 31744,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a papillary neoplasm composed of fibrovascular cores lined by a single layer of cuboidal to columnar epithelium with round to oval nuclei. The papillae are separated by clear spaces.\n\nThe most likely diagnosis is choroid plexus papilloma. Differential diagnoses include choroid plexus carcinoma, which would show increased cellularity, nuclear pleomorphism, and mitotic activity, and metastatic papillary carcinoma, which would typically have a different immunoprofile.",
+      "rationale": "High power in region 2 to assess epithelial cytology, atypia, mitoses"
+    },
+    {
+      "roi_id": "slide_A_x24576_y8192_mag2",
+      "tile_id": "slide_A_x24576_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 24576,
+      "y": 8192,
+      "level0": {
+        "x": 24576,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a papillary neoplasm with complex branching papillae lined by cuboidal to columnar cells. The papillae have fibrovascular cores and are supported by a delicate stroma.\n\nThe most likely diagnosis is choroid plexus papilloma. Differential diagnoses include choroid plexus carcinoma, which would show increased cellularity, nuclear pleomorphism, and mitotic activity, and metastatic papillary carcinoma, which would typically have a different immunoprofile.",
+      "rationale": "Survey region 4 for interface areas and any non-papillary/solid growth"
+    },
+    {
+      "roi_id": "slide_A_x12288_y8192_mag2",
+      "tile_id": "slide_A_x12288_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 8192,
+      "level0": {
+        "x": 12288,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows numerous papillary structures with fibrovascular cores lined by cuboidal to columnar epithelium. The papillae vary in size and shape, with some appearing edematous or hyalinized.\n\nThe most likely diagnosis is choroid plexus papilloma. This diagnosis is supported by the papillary architecture and the clinical context of a mass in the lateral ventricle. Differential diagnoses include choroid plexus carcinoma, which would show increased cellularity, nuclear pleomorphism, and mitotic activity, and metastatic papillary carcinoma, which would typically have a different clinical presentation and immunohistochemical profile.",
+      "rationale": "Low power survey region 8."
+    },
+    {
+      "roi_id": "slide_A_x36864_y16384_mag2",
+      "tile_id": "slide_A_x36864_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 36864,
+      "y": 16384,
+      "level0": {
+        "x": 36864,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows numerous papillary structures with fibrovascular cores lined by cuboidal to columnar epithelium. These structures are present within a dilated ventricular space.\n\nThe most likely diagnosis is choroid plexus papilloma. Differential diagnoses include choroid plexus hyperplasia, which typically lacks the complex papillary architecture and is often associated with increased CSF production, and choroid plexus carcinoma, which would show increased cellularity, nuclear atypia, and mitotic activity.",
+      "rationale": "Survey region 6 for attachment, invasion, or hemorrhage/necrosis"
+    },
+    {
+      "roi_id": "slide_A_x36864_y11264_mag20",
+      "tile_id": "slide_A_x36864_y11264_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 36864,
+      "y": 11264,
+      "level0": {
+        "x": 36864,
+        "y": 11264,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a papillary neoplasm composed of delicate fibrovascular cores lined by a single layer of cuboidal to columnar epithelial cells with round to oval nuclei. The papillae are closely packed and appear to be floating in the background.\n\nThe most likely diagnosis is choroid plexus papilloma. This diagnosis is supported by the papillary architecture and the bland cytology of the lining epithelial cells, which resemble normal choroid plexus epithelium. The presence of a papillary mass in the ventricle causing hydrocephalus is also characteristic of this entity.\n\nDifferential diagnoses include choroid plexus carcinoma, which would show increased cellularity, nuclear pleomorphism, mitotic activity, and potentially necrosis or invasion, features not seen in this image. Metastatic papillary carcinoma could also be considered, but the bland cytology and location within the ventricle are more consistent with a primary choroid plexus tumor.",
+      "rationale": "High power in region 3 for mitotic count, multilayering, necrosis"
+    },
+    {
+      "roi_id": "slide_A_x24576_y4096_mag2",
+      "tile_id": "slide_A_x24576_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 24576,
+      "y": 4096,
+      "level0": {
+        "x": 24576,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a papillary neoplasm with complex branching papillae lined by cuboidal to columnar cells. The papillae have fibrovascular cores and are set within a background of scattered cellular debris.\n\nThe most likely diagnosis is choroid plexus papilloma. Differential diagnoses include choroid plexus carcinoma, which would show increased cellularity, nuclear pleomorphism, and mitotic activity, and metastatic papillary carcinoma, which would typically have a different immunoprofile.",
+      "rationale": "Low power survey region 10."
+    },
+    {
+      "roi_id": "slide_A_x32768_y12288_mag2",
+      "tile_id": "slide_A_x32768_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 32768,
+      "y": 12288,
+      "level0": {
+        "x": 32768,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a papillary neoplasm composed of numerous branching papillae with fibrovascular cores lined by cuboidal to columnar epithelium. The papillae are separated by clear spaces.\n\nThe most likely diagnosis is choroid plexus papilloma. Differential diagnoses include choroid plexus carcinoma, which would show increased cellularity, nuclear pleomorphism, and mitotic activity, and metastatic papillary carcinoma, which would typically have a different immunoprofile.",
+      "rationale": "Survey region 14 for potential brain parenchyma interface; assess invasion"
+    },
+    {
+      "roi_id": "slide_A_x37888_y17408_mag20",
+      "tile_id": "slide_A_x37888_y17408_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 37888,
+      "y": 17408,
+      "level0": {
+        "x": 37888,
+        "y": 17408,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows papillary structures lined by cuboidal to columnar epithelium with fibrovascular cores. The epithelial cells have round to oval nuclei and eosinophilic cytoplasm, with some areas showing clear cytoplasm.\n\nThe most likely diagnosis is choroid plexus papilloma. This diagnosis is supported by the papillary architecture and the appearance of the lining epithelium, which resembles normal choroid plexus. The presence of a friable papillary mass in the right lateral ventricle replacing the normal choroid plexus, as described in the gross findings, further supports this diagnosis.\n\nDifferential diagnoses to consider include choroid plexus carcinoma, which would typically show increased cellularity, nuclear pleomorphism, and mitotic activity, and choroid plexus hyperplasia, which would present as an increase in the number of normal-appearing choroid plexus cells without forming a discrete mass.",
+      "rationale": "High power in region 6 to look for high-grade foci/necrosis/apoptosis"
+    },
+    {
+      "roi_id": "slide_A_x36864_y4096_mag2",
+      "tile_id": "slide_A_x36864_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 36864,
+      "y": 4096,
+      "level0": {
+        "x": 36864,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows numerous papillary structures with fibrovascular cores lined by cuboidal to columnar epithelium. These structures are present within a dilated space.\n\nThe most likely diagnosis is choroid plexus papilloma. Differential diagnoses include choroid plexus hyperplasia and atypical choroid plexus papilloma, which would show increased cellularity, nuclear atypia, and mitotic activity, respectively.",
+      "rationale": "Complete low power survey target region 12."
+    },
+    {
+      "roi_id": "slide_A_x24576_y16384_mag10",
+      "tile_id": "slide_A_x24576_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 24576,
+      "y": 16384,
+      "level0": {
+        "x": 24576,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a papillary neoplasm with fibrovascular cores lined by cuboidal to columnar epithelium. There is also a large area of hemorrhage.\n\nThe most likely diagnosis is choroid plexus papilloma.\n\nDifferential diagnoses include choroid plexus carcinoma, which would show increased cellularity, nuclear pleomorphism, and mitotic activity, and metastatic papillary carcinoma, which would typically have a different immunoprofile and clinical history.",
+      "rationale": "Intermediate power assessment of papillary fronds, fibrovascular cores, and complexity in main mass"
+    },
+    {
+      "roi_id": "slide_A_x4608_y8704_mag20",
+      "tile_id": "slide_A_x4608_y8704_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 4608,
+      "y": 8704,
+      "level0": {
+        "x": 4608,
+        "y": 8704,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows papillary structures lined by a single layer of cuboidal to columnar epithelium with round to oval nuclei and eosinophilic cytoplasm. The cores contain loose connective tissue with prominent blood vessels.\n\nThe most likely diagnosis is choroid plexus papilloma. Differential diagnoses include choroid plexus hyperplasia, which typically lacks the well-formed papillary architecture, and choroid plexus carcinoma, which would show increased cellularity, nuclear pleomorphism, and mitotic activity.",
+      "rationale": "High power for ependymoma rosettes/pseudorosettes and cytologic atypia."
+    },
+    {
+      "roi_id": "slide_A_x4096_y8192_mag10",
+      "tile_id": "slide_A_x4096_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 4096,
+      "y": 8192,
+      "level0": {
+        "x": 4096,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows numerous papillary structures with fibrovascular cores lined by a single layer of cuboidal to columnar epithelium. The stroma is edematous and contains congested blood vessels.\n\nThe most likely diagnosis is choroid plexus papilloma. Differential diagnoses include choroid plexus hyperplasia, which typically lacks the complex papillary architecture and stromal edema, and choroid plexus carcinoma, which would show increased cellularity, nuclear pleomorphism, and mitotic activity.",
+      "rationale": "Look for pseudorosettes/true rosettes or meningioma-like whorls at intermediate power."
+    },
+    {
+      "roi_id": "slide_A_x10240_y10240_mag10",
+      "tile_id": "slide_A_x10240_y10240_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 10240,
+      "y": 10240,
+      "level0": {
+        "x": 10240,
+        "y": 10240,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows papillary structures with fibrovascular cores lined by cuboidal to columnar epithelium. The stroma is edematous and contains numerous red blood cells.\n\nThe most likely diagnosis is choroid plexus papilloma. Differential diagnoses include choroid plexus hyperplasia and atypical choroid plexus papilloma, which would show increased cellularity, nuclear atypia, and mitotic activity, respectively.",
+      "rationale": "Region 9 at 10x to identify most cellular fronds"
+    },
+    {
+      "roi_id": "slide_A_x32768_y8192_mag10",
+      "tile_id": "slide_A_x32768_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 32768,
+      "y": 8192,
+      "level0": {
+        "x": 32768,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a papillary neoplasm composed of numerous papillae with fibrovascular cores lined by cuboidal to columnar epithelium. The papillae are separated by clear spaces.\n\nThe most likely diagnosis is choroid plexus papilloma.\n\nDifferential diagnoses include choroid plexus carcinoma, which would show increased cellularity, nuclear pleomorphism, and mitotic activity, and metastatic papillary carcinoma, which would typically have a different immunoprofile and clinical history.",
+      "rationale": "Check for solid growth, necrosis, or increased complexity that might suggest atypical/carcinoma"
+    },
+    {
+      "roi_id": "slide_A_x12288_y15360_mag10",
+      "tile_id": "slide_A_x12288_y15360_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 12288,
+      "y": 15360,
+      "level0": {
+        "x": 12288,
+        "y": 15360,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows papillary structures with fibrovascular cores lined by cuboidal to columnar epithelium. The stroma is edematous and contains congested blood vessels.\n\nThe most likely diagnosis is choroid plexus papilloma. Differential diagnoses include choroid plexus hyperplasia, which typically lacks the well-formed papillary architecture, and choroid plexus carcinoma, which would show increased cellularity, nuclear atypia, and mitotic activity.",
+      "rationale": "Assess cytology/mitoses/necrosis; search for rosettes."
+    },
+    {
+      "roi_id": "slide_A_x12288_y15872_mag20",
+      "tile_id": "slide_A_x12288_y15872_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 12288,
+      "y": 15872,
+      "level0": {
+        "x": 12288,
+        "y": 15872,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows papillary structures lined by a single layer of cuboidal to columnar epithelium with round to oval nuclei and eosinophilic cytoplasm. The cores contain loose connective tissue with numerous blood vessels.\n\nThe most likely diagnosis is choroid plexus papilloma. Differential diagnoses include choroid plexus hyperplasia, which typically lacks the well-formed papillary architecture, and choroid plexus carcinoma, which would show increased cellularity, nuclear pleomorphism, and mitotic activity.",
+      "rationale": "High power to assess mitotic activity, necrosis, nuclear pleomorphism suggestive of carcinoma."
+    },
+    {
+      "roi_id": "slide_A_x28672_y4096_mag2",
+      "tile_id": "slide_A_x28672_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 28672,
+      "y": 4096,
+      "level0": {
+        "x": 28672,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows numerous papillary structures with fibrovascular cores lined by cuboidal to columnar epithelium. These structures are present in clusters and scattered individually.\n\nThe most likely diagnosis is choroid plexus papilloma. The papillary architecture with fibrovascular cores lined by epithelial cells is characteristic of this tumor. Differential diagnoses include choroid plexus carcinoma, which would show increased cellularity, nuclear pleomorphism, and mitotic activity, and metastatic papillary carcinoma, which would typically have a different clinical history and immunohistochemical profile.",
+      "rationale": "Complete low power survey target region 13."
+    },
+    {
+      "roi_id": "slide_A_x10752_y9728_mag20",
+      "tile_id": "slide_A_x10752_y9728_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 10752,
+      "y": 9728,
+      "level0": {
+        "x": 10752,
+        "y": 9728,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows papillary structures lined by cuboidal to columnar epithelium with fibrovascular cores containing numerous red blood cells. The epithelial cells have round to oval nuclei with finely dispersed chromatin.\n\nThe most likely diagnosis is choroid plexus papilloma. The papillary architecture lined by cuboidal to columnar epithelium with fibrovascular cores is characteristic of choroid plexus tissue. The presence of numerous red blood cells within the cores is also noted. The clinical history of a papilloma of the choroid plexus in an 8-month-old child with congenital hydrocephalus and a mass in the right lateral ventricle further supports this diagnosis.\n\nDifferential diagnoses include choroid plexus hyperplasia and atypical choroid plexus papilloma. Choroid plexus hyperplasia typically shows increased cellularity and papillary proliferation but lacks the well-formed fibrovascular cores seen here. Atypical choroid plexus papilloma would show increased cellularity, nuclear pleomorphism, and mitotic activity, which are not prominent features in this image.",
+      "rationale": "Target region 9 high power for atypia/mitoses"
+    },
+    {
+      "roi_id": "slide_A_x12288_y10240_mag10",
+      "tile_id": "slide_A_x12288_y10240_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 12288,
+      "y": 10240,
+      "level0": {
+        "x": 12288,
+        "y": 10240,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows numerous papillary structures with fibrovascular cores lined by cuboidal to columnar epithelium. The papillae vary in size and shape, with some appearing edematous or cystic.\n\nThe most likely diagnosis is choroid plexus papilloma. This diagnosis is supported by the papillary architecture and the location within the ventricle, as suggested by the gross description of a papillary mass replacing the choroid plexus.\n\nDifferential diagnoses include choroid plexus hyperplasia, which typically shows more uniform papillae and lacks the mass effect seen in papilloma, and choroid plexus carcinoma, which would exhibit increased cellularity, nuclear atypia, and mitotic activity.",
+      "rationale": "Region 11 at 10x overview"
+    },
+    {
+      "roi_id": "slide_A_x40960_y16384_mag2",
+      "tile_id": "slide_A_x40960_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 40960,
+      "y": 16384,
+      "level0": {
+        "x": 40960,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows numerous papillary structures with fibrovascular cores lined by cuboidal to columnar epithelium. These structures are consistent with choroid plexus morphology.\n\nThe most likely diagnosis is choroid plexus papilloma. Differential diagnoses include choroid plexus hyperplasia, which typically lacks the well-formed papillary architecture, and choroid plexus carcinoma, which would show increased cellularity, nuclear atypia, and mitotic activity.",
+      "rationale": "Complete low power survey target region 15."
+    },
+    {
+      "roi_id": "slide_A_x22528_y5120_mag10",
+      "tile_id": "slide_A_x22528_y5120_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 22528,
+      "y": 5120,
+      "level0": {
+        "x": 22528,
+        "y": 5120,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a papillary neoplasm composed of delicate fibrovascular cores lined by a single layer of cuboidal to columnar epithelium. The papillae are complex and branching.\n\nThe most likely diagnosis is choroid plexus papilloma. Differential diagnoses include choroid plexus carcinoma, which would show increased cellularity, nuclear pleomorphism, and mitotic activity, and metastatic papillary carcinoma, which would typically have a different immunoprofile.",
+      "rationale": "Assess papillary cores for hyalinization/calcification; search for alternate patterns."
+    },
+    {
+      "roi_id": "slide_A_x36864_y12288_mag10",
+      "tile_id": "slide_A_x36864_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 36864,
+      "y": 12288,
+      "level0": {
+        "x": 36864,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a papillary neoplasm composed of fibrovascular cores lined by cuboidal to columnar epithelium. The papillae are variable in size and shape, with some appearing edematous and congested.\n\nThe most likely diagnosis is choroid plexus papilloma. Differential diagnoses include choroid plexus carcinoma, which would show increased cellularity, nuclear pleomorphism, and mitotic activity, and metastatic papillary carcinoma, which would typically have a different immunoprofile and clinical history.",
+      "rationale": "Evaluate papillary lining and look for invasion or brain parenchyma adjacency"
+    },
+    {
+      "roi_id": "slide_A_x24064_y5632_mag20",
+      "tile_id": "slide_A_x24064_y5632_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 24064,
+      "y": 5632,
+      "level0": {
+        "x": 24064,
+        "y": 5632,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows papillary structures lined by a single layer of cuboidal to columnar epithelium with basally oriented nuclei and delicate fibrovascular cores. The epithelial cells exhibit bland cytology without significant atypia or mitotic activity.\n\nThe most likely diagnosis is choroid plexus papilloma. This diagnosis is supported by the papillary architecture lined by bland epithelium resembling choroid plexus, which is consistent with the gross description of a friable papillary mass in the ventricle. The absence of significant cytologic atypia, mitotic activity, or necrosis helps distinguish it from choroid plexus carcinoma.",
+      "rationale": "High power to look for psammoma bodies/whorls or epithelial features/glands."
+    },
+    {
+      "roi_id": "slide_A_x14336_y11264_mag20",
+      "tile_id": "slide_A_x14336_y11264_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 14336,
+      "y": 11264,
+      "level0": {
+        "x": 14336,
+        "y": 11264,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows papillary structures lined by cuboidal to columnar epithelium with round to oval nuclei and eosinophilic cytoplasm, supported by fibrovascular cores containing red blood cells. The papillae are arranged in a complex pattern.\n\nThe most likely diagnosis is choroid plexus papilloma. Differential diagnoses include choroid plexus hyperplasia, which typically lacks the complex papillary architecture and stromal cores seen here, and choroid plexus carcinoma, which would show increased cellularity, nuclear pleomorphism, and mitotic activity.",
+      "rationale": "Target region 11 high power; look for multilayering/necrosis"
+    },
+    {
+      "roi_id": "slide_A_x23552_y8192_mag10",
+      "tile_id": "slide_A_x23552_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 23552,
+      "y": 8192,
+      "level0": {
+        "x": 23552,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a papillary neoplasm with complex branching papillae lined by cuboidal to columnar cells. The papillae have fibrovascular cores with prominent blood vessels and areas of hemorrhage.\n\nThe most likely diagnosis is choroid plexus papilloma. Differential diagnoses include choroid plexus carcinoma, which would show increased cellularity, nuclear pleomorphism, and mitotic activity, and metastatic papillary carcinoma, which would typically have a different immunoprofile.",
+      "rationale": "Region 16 at 10x overview"
+    },
+    {
+      "roi_id": "slide_A_x20480_y12288_mag2",
+      "tile_id": "slide_A_x20480_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 20480,
+      "y": 12288,
+      "level0": {
+        "x": 20480,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a papillary neoplasm composed of numerous branching papillae with fibrovascular cores lined by cuboidal to columnar epithelium. The papillae are separated by clear spaces.\n\nThe most likely diagnosis is choroid plexus papilloma. Differential diagnoses include choroid plexus carcinoma, which would show increased cellularity, nuclear pleomorphism, and mitotic activity, and metastatic papillary carcinoma, which would typically have a different immunoprofile.",
+      "rationale": "Complete low power survey target region 17."
+    },
+    {
+      "roi_id": "slide_A_x24064_y8192_mag20",
+      "tile_id": "slide_A_x24064_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 24064,
+      "y": 8192,
+      "level0": {
+        "x": 24064,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a papillary neoplasm with fibrovascular cores lined by a single layer of cuboidal to columnar epithelial cells. The cells have round to oval nuclei with finely dispersed chromatin and eosinophilic cytoplasm.\n\nThe most likely diagnosis is choroid plexus papilloma. Differential diagnoses include choroid plexus carcinoma, which would show increased cellularity, nuclear pleomorphism, and mitotic activity, and metastatic papillary carcinoma, which would typically have a different immunoprofile.",
+      "rationale": "Target region 16 high power for any high-grade focus"
+    },
+    {
+      "roi_id": "slide_A_x32768_y16384_mag2",
+      "tile_id": "slide_A_x32768_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 32768,
+      "y": 16384,
+      "level0": {
+        "x": 32768,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a papillary neoplasm composed of numerous branching papillae with fibrovascular cores lined by cuboidal to columnar epithelium. The papillae are separated by clear spaces.\n\nThe most likely diagnosis is choroid plexus papilloma.\n\nDifferential diagnoses include choroid plexus carcinoma, which would show increased cellularity, nuclear pleomorphism, and mitotic activity, and atypical teratoid/rhabdoid tumor, which would have rhabdoid cells and often necrosis.",
+      "rationale": "Complete low power survey target region 18."
+    },
+    {
+      "roi_id": "slide_A_x24576_y8192_mag10",
+      "tile_id": "slide_A_x24576_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 24576,
+      "y": 8192,
+      "level0": {
+        "x": 24576,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a papillary neoplasm with complex branching papillae lined by cuboidal to columnar cells. The papillae contain fibrovascular cores with prominent blood vessels.\n\nThe most likely diagnosis is choroid plexus papilloma. Differential diagnoses include choroid plexus carcinoma, which would show increased cellularity, nuclear pleomorphism, and mitotic activity, and metastatic papillary carcinoma, which would typically have a different immunoprofile.",
+      "rationale": "Region 4 at intermediate power: confirm papillary fronds vs any solid sheets and assess adjacent tissue"
+    },
+    {
+      "roi_id": "slide_A_x24576_y16384_mag20",
+      "tile_id": "slide_A_x24576_y16384_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 24576,
+      "y": 16384,
+      "level0": {
+        "x": 24576,
+        "y": 16384,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows papillary structures lined by cuboidal to columnar epithelium with round to oval nuclei and eosinophilic cytoplasm, surrounded by abundant red blood cells. The papillary cores are delicate and contain small blood vessels.\n\nThe most likely diagnosis is choroid plexus papilloma. The papillary architecture lined by cuboidal to columnar epithelium is characteristic of choroid plexus tissue. The presence of a mass in the ventricle causing hydrocephalus is consistent with a choroid plexus papilloma. The delicate papillary cores with small blood vessels further support this diagnosis.\n\nDifferential diagnoses include choroid plexus hyperplasia, which typically shows increased cellularity and less prominent papillary architecture, and choroid plexus carcinoma, which would exhibit significant nuclear atypia, increased mitotic activity, and potentially necrosis or invasion.",
+      "rationale": "High power in main mass to assess epithelial stratification, mitoses, and atypia"
+    },
+    {
+      "roi_id": "slide_A_x36864_y16384_mag10",
+      "tile_id": "slide_A_x36864_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 36864,
+      "y": 16384,
+      "level0": {
+        "x": 36864,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows numerous papillary structures with fibrovascular cores lined by cuboidal to columnar epithelium. The papillae vary in size and shape, with some appearing edematous or cystic.\n\nThe most likely diagnosis is choroid plexus papilloma. This diagnosis is supported by the papillary architecture and the clinical context of a mass in the ventricle causing hydrocephalus. Differential diagnoses include choroid plexus hyperplasia, which typically lacks the complex papillary architecture and is often associated with increased CSF production, and choroid plexus carcinoma, which would show increased cellularity, nuclear atypia, and mitotic activity.",
+      "rationale": "Region 6 at intermediate power: look for brain interface, necrosis, and architectural complexity"
+    },
+    {
+      "roi_id": "slide_A_x11264_y9216_mag10",
+      "tile_id": "slide_A_x11264_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 11264,
+      "y": 9216,
+      "level0": {
+        "x": 11264,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows papillary structures with fibrovascular cores lined by cuboidal to columnar epithelium. The stroma is edematous and contains numerous dilated blood vessels filled with erythrocytes.\n\nThe most likely diagnosis is choroid plexus papilloma. Differential diagnoses include choroid plexus hyperplasia, which typically lacks the complex papillary architecture and stromal edema, and choroid plexus carcinoma, which would show increased cellularity, nuclear atypia, and mitotic activity.",
+      "rationale": "Assess stromal change—hyalinization/edema; look for calcifications."
+    },
+    {
+      "roi_id": "slide_A_x32768_y12288_mag10",
+      "tile_id": "slide_A_x32768_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 32768,
+      "y": 12288,
+      "level0": {
+        "x": 32768,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows numerous papillary structures with fibrovascular cores lined by a single layer of cuboidal to columnar epithelium. The stroma is edematous and contains congested blood vessels.\n\nThe most likely diagnosis is choroid plexus papilloma. Differential diagnoses include choroid plexus hyperplasia, which typically lacks the complex papillary architecture and stromal edema, and choroid plexus carcinoma, which would show increased cellularity, nuclear atypia, and mitotic activity.",
+      "rationale": "Region 14 at intermediate power: evaluate edge of tumor for invasion into parenchyma"
+    },
+    {
+      "roi_id": "slide_A_x19456_y13312_mag10",
+      "tile_id": "slide_A_x19456_y13312_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 19456,
+      "y": 13312,
+      "level0": {
+        "x": 19456,
+        "y": 13312,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a papillary neoplasm composed of fibrovascular cores lined by cuboidal to columnar epithelium. The papillae are variable in size and shape, with some appearing edematous.\n\nThe most likely diagnosis is choroid plexus papilloma. Differential diagnoses include choroid plexus carcinoma, which would show increased cellularity, nuclear pleomorphism, and mitotic activity, and metastatic papillary carcinoma, which would typically have a different immunoprofile.",
+      "rationale": "Look for any focal solid areas/necrosis or different pattern."
+    },
+    {
+      "roi_id": "slide_A_x32768_y8192_mag20",
+      "tile_id": "slide_A_x32768_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 32768,
+      "y": 8192,
+      "level0": {
+        "x": 32768,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows multiple papillary structures with fibrovascular cores lined by a single layer of cuboidal to columnar epithelium. The epithelial cells have round to oval nuclei and eosinophilic cytoplasm, with some areas showing nuclear crowding and stratification.\n\nThe most likely diagnosis is choroid plexus papilloma. This diagnosis is supported by the papillary architecture and the bland cytology of the lining epithelium, which resembles normal choroid plexus. The presence of a papillary mass in the ventricle causing hydrocephalus is also characteristic.\n\nDifferential diagnoses include choroid plexus carcinoma, which would show increased cellularity, nuclear pleomorphism, mitotic activity, and potentially necrosis or invasion, features not seen in this image. Metastatic papillary carcinoma could also be considered, but the bland cytology and location within the ventricle are more consistent with a primary choroid plexus tumor.",
+      "rationale": "High power in region 2 to look for increased atypia/mitoses suggestive of atypical/carcinoma"
+    },
+    {
+      "roi_id": "slide_A_x32768_y16384_mag10",
+      "tile_id": "slide_A_x32768_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 32768,
+      "y": 16384,
+      "level0": {
+        "x": 32768,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a papillary neoplasm composed of complex branching papillae with fibrovascular cores lined by cuboidal to columnar epithelium. The papillae are crowded and show areas of fusion.\n\nThe most likely diagnosis is choroid plexus papilloma. Differential diagnoses include choroid plexus carcinoma, which would show increased cellularity, nuclear pleomorphism, and mitotic activity, and atypical papilloma, which would have some but not all features of carcinoma.",
+      "rationale": "Evaluate stroma for psammoma bodies/whorls; look for perivascular pseudorosettes."
+    },
+    {
+      "roi_id": "slide_A_x36864_y12288_mag20",
+      "tile_id": "slide_A_x36864_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 36864,
+      "y": 12288,
+      "level0": {
+        "x": 36864,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows papillary structures with fibrovascular cores lined by a single layer of cuboidal to columnar epithelium. The epithelial cells have round to oval nuclei with finely dispersed chromatin and eosinophilic cytoplasm.\n\nThe most likely diagnosis is choroid plexus papilloma. The papillary architecture with fibrovascular cores lined by a single layer of cuboidal to columnar epithelium is characteristic of choroid plexus tissue. The clinical history of a papilloma of the choroid plexus in an 8-month-old male with congenital hydrocephalus and a mass in the right lateral ventricle further supports this diagnosis.\n\nDifferential diagnoses include choroid plexus hyperplasia and atypical choroid plexus papilloma. Choroid plexus hyperplasia typically shows increased cellularity and papillary proliferation but lacks the well-formed fibrovascular cores seen here. Atypical choroid plexus papilloma would show increased cellularity, nuclear pleomorphism, and mitotic activity, which are not evident in this image.",
+      "rationale": "High power in region 3 to assess cytology and any microinvasion/brain tissue"
+    },
+    {
+      "roi_id": "slide_A_x39936_y16384_mag10",
+      "tile_id": "slide_A_x39936_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 39936,
+      "y": 16384,
+      "level0": {
+        "x": 39936,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows papillary structures with fibrovascular cores lined by cuboidal to columnar epithelium. The papillae vary in size and shape, with some appearing edematous or cystic.\n\nThe most likely diagnosis is choroid plexus papilloma. Differential diagnoses include choroid plexus hyperplasia, which typically lacks the complex papillary architecture and stromal edema seen here, and choroid plexus carcinoma, which would show increased cellularity, nuclear atypia, and mitotic activity.",
+      "rationale": "Assess periphery for invasion or meningioma-like whorls."
+    },
+    {
+      "roi_id": "slide_A_x28672_y6144_mag10",
+      "tile_id": "slide_A_x28672_y6144_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 28672,
+      "y": 6144,
+      "level0": {
+        "x": 28672,
+        "y": 6144,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows numerous papillary structures with fibrovascular cores lined by cuboidal to columnar epithelium. The papillae vary in size and shape, with some appearing elongated and branching.\n\nThe most likely diagnosis is choroid plexus papilloma. This diagnosis is supported by the papillary architecture and the location within the ventricle, as suggested by the clinical history of a papillary mass in the right lateral ventricle. The presence of a papillary mass in the ventricle causing hydrocephalus is characteristic of choroid plexus papilloma.\n\nDifferential diagnoses include choroid plexus hyperplasia and choroid plexus carcinoma. Choroid plexus hyperplasia typically shows increased cellularity and papillary proliferation but lacks the well-formed papillary structures seen here. Choroid plexus carcinoma would show increased cellularity, nuclear atypia, and mitotic activity, which are not evident in this image.",
+      "rationale": "Search for rosette formations and cytologic atypia."
+    },
+    {
+      "roi_id": "slide_A_x32768_y16384_mag20",
+      "tile_id": "slide_A_x32768_y16384_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 32768,
+      "y": 16384,
+      "level0": {
+        "x": 32768,
+        "y": 16384,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a papillary neoplasm composed of branching papillae with fibrovascular cores lined by cuboidal to columnar epithelium. The papillae are lined by a single layer of cells with round to oval nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is choroid plexus papilloma. The differential diagnosis includes choroid plexus carcinoma, which would show increased cellularity, nuclear pleomorphism, mitotic activity, and necrosis, features not seen in this image.",
+      "rationale": "High power search for perivascular pseudorosettes/true ependymal rosettes in more fused papillary areas."
+    },
+    {
+      "roi_id": "slide_A_x28160_y6144_mag20",
+      "tile_id": "slide_A_x28160_y6144_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 28160,
+      "y": 6144,
+      "level0": {
+        "x": 28160,
+        "y": 6144,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows papillary structures lined by a single layer of cuboidal to columnar epithelium with round to oval nuclei and eosinophilic cytoplasm. The cores are fibrovascular with prominent blood vessels and some edema.\n\nThe most likely diagnosis is choroid plexus papilloma. Differential diagnoses include choroid plexus hyperplasia, which typically lacks the well-formed papillary architecture and is more diffuse, and choroid plexus carcinoma, which would show increased cellularity, nuclear pleomorphism, and mitotic activity.",
+      "rationale": "High power assess nuclear features/mitoses; look for true rosettes."
+    },
+    {
+      "roi_id": "slide_A_x19456_y13312_mag20",
+      "tile_id": "slide_A_x19456_y13312_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 19456,
+      "y": 13312,
+      "level0": {
+        "x": 19456,
+        "y": 13312,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows papillary structures lined by a single layer of cuboidal to columnar epithelium with round to oval nuclei and eosinophilic cytoplasm. The cores are fibrovascular with prominent blood vessels.\n\nThe most likely diagnosis is choroid plexus papilloma. Differential diagnoses include choroid plexus hyperplasia, which typically lacks the well-formed papillary architecture, and choroid plexus carcinoma, which would show increased cellularity, nuclear pleomorphism, and mitotic activity.",
+      "rationale": "High power for necrosis/mitoses; exclude carcinoma."
+    },
+    {
+      "roi_id": "slide_A_x39936_y16384_mag20",
+      "tile_id": "slide_A_x39936_y16384_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 39936,
+      "y": 16384,
+      "level0": {
+        "x": 39936,
+        "y": 16384,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows papillary structures with fibrovascular cores lined by cuboidal to columnar epithelium. The stroma is edematous and contains congested vessels.\n\nThe most likely diagnosis is choroid plexus papilloma. Differential diagnoses include choroid plexus hyperplasia and atypical choroid plexus papilloma, which would show increased cellularity, nuclear atypia, and mitotic activity, respectively.",
+      "rationale": "High power for meningioma-like whorls/psammoma bodies."
+    },
+    {
+      "roi_id": "slide_A_x10752_y9216_mag20",
+      "tile_id": "slide_A_x10752_y9216_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 10752,
+      "y": 9216,
+      "level0": {
+        "x": 10752,
+        "y": 9216,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a papillary structure lined by cuboidal to columnar epithelium with a central core containing numerous red blood cells. The epithelial cells have round to oval nuclei with finely dispersed chromatin and visible nucleoli.\n\nThe most likely diagnosis is choroid plexus papilloma. The papillary architecture lined by cuboidal to columnar epithelium with a central vascular core is characteristic of choroid plexus tissue. The presence of a mass in the ventricle causing hydrocephalus is consistent with a choroid plexus papilloma.\n\nDifferential diagnoses include choroid plexus hyperplasia, which typically shows increased cellularity and papillary proliferation but lacks the mass effect seen in papilloma, and choroid plexus carcinoma, which would show increased mitotic activity, nuclear pleomorphism, and necrosis.",
+      "rationale": "High power of stromal vessels—look for pseudorosettes around vessels."
+    },
+    {
+      "roi_id": "slide_A_x20992_y11776_mag20",
+      "tile_id": "slide_A_x20992_y11776_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20992,
+      "y": 11776,
+      "level0": {
+        "x": 20992,
+        "y": 11776,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows numerous papillary structures with fibrovascular cores lined by a single layer of cuboidal to columnar epithelium. The epithelial cells have round to oval nuclei with finely dispersed chromatin and eosinophilic cytoplasm.\n\nThe most likely diagnosis is choroid plexus papilloma. The papillary architecture with fibrovascular cores lined by a single layer of cuboidal to columnar epithelium is characteristic of this tumor. The clinical history of a papilloma of the choroid plexus in an 8-month-old male with hydrocephalus and a mass in the right lateral ventricle further supports this diagnosis.\n\nDifferential diagnoses include choroid plexus hyperplasia and atypical choroid plexus papilloma. Choroid plexus hyperplasia typically shows increased cellularity and complex branching but lacks the distinct papillary architecture seen here. Atypical choroid plexus papilloma would show increased cellularity, nuclear pleomorphism, and mitotic activity, which are not evident in this image.",
+      "rationale": "Reconfirm absence of necrosis/mitoses and any invasive growth; assess for carcinoma-like cytology."
+    },
+    {
+      "roi_id": "slide_A_x36352_y5120_mag20",
+      "tile_id": "slide_A_x36352_y5120_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 36352,
+      "y": 5120,
+      "level0": {
+        "x": 36352,
+        "y": 5120,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows papillary structures lined by cuboidal to columnar epithelium with basally oriented nuclei and eosinophilic cytoplasm. The cores are fibrovascular with prominent blood vessels.\n\nThe most likely diagnosis is choroid plexus papilloma. Differential diagnoses include choroid plexus hyperplasia, which typically lacks the complex papillary architecture and stromal vascularity seen here, and choroid plexus carcinoma, which would show increased cellularity, nuclear pleomorphism, and mitotic activity.",
+      "rationale": "High power in region 12 to check for focal atypia/mitoses or glandular/metastatic patterns."
+    },
+    {
+      "roi_id": "slide_A_x15872_y5632_mag20",
+      "tile_id": "slide_A_x15872_y5632_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 15872,
+      "y": 5632,
+      "level0": {
+        "x": 15872,
+        "y": 5632,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows papillary structures lined by cuboidal to columnar epithelium with fibrovascular cores containing congested blood vessels. The epithelial cells have round to oval nuclei with finely dispersed chromatin.\n\nThe most likely diagnosis is choroid plexus papilloma. Differential diagnoses include choroid plexus hyperplasia, which typically lacks the well-formed papillary architecture and is more diffuse, and choroid plexus carcinoma, which would show increased cellularity, nuclear pleomorphism, and mitotic activity.",
+      "rationale": "High power region 7 to look for any solid growth, stratification, necrosis."
+    },
+    {
+      "roi_id": "slide_A_x4096_y8192_mag20",
+      "tile_id": "slide_A_x4096_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 4096,
+      "y": 8192,
+      "level0": {
+        "x": 4096,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a papillary neoplasm with fibrovascular cores lined by cuboidal to columnar epithelium. The cells have round to oval nuclei with finely dispersed chromatin and eosinophilic cytoplasm. The papillae are closely packed.\n\nThe most likely diagnosis is choroid plexus papilloma. Differential diagnoses include choroid plexus carcinoma, which would show increased cellularity, nuclear pleomorphism, mitotic activity, and necrosis, and metastatic papillary carcinoma, which would typically have more atypical cytology and a different growth pattern.",
+      "rationale": "High power region 1 to look for mitoses and multilayering suggestive of atypical papilloma/carcinoma."
+    }
+  ]
+}

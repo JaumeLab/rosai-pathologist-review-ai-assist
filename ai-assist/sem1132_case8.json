@@ -1,0 +1,1038 @@
+{
+  "case_id": "sem1132_case8",
+  "source": "slideseek-ai-assist",
+  "model": "gpt-5.4",
+  "generated_at": "2026-05-22T09:20:31.639238+00:00",
+  "organ": "Gynecologic",
+  "primary_dx": "Placental Chorangioma With Background Maternal Vascular Malperfusion-Type Changes",
+  "differential_dx": [
+    "Chorangiosis/Chorangiomatosis",
+    "Intervillous Thrombus or Placental Hematoma"
+  ],
+  "microscopic_findings": [
+    {
+      "text": "Discrete **well-circumscribed lobulated** proliferation of densely packed **capillary-sized vascular channels** forms a mass lesion.",
+      "roi_ids": [
+        "slide_A_x36864_y28672_mag10",
+        "slide_A_x24576_y16384_mag2"
+      ]
+    },
+    {
+      "text": "Lesion contains **fibrous septa/stroma** and scattered **larger thick-walled vessels**, supporting a capillary chorangioma pattern.",
+      "roi_ids": [
+        "slide_A_x29696_y18432_mag10",
+        "slide_A_x26624_y16384_mag5"
+      ]
+    },
+    {
+      "text": "Vascular spaces are lined by **bland endothelium** and contain erythrocytes, without convincing **cytologic atypia** or necrosis.",
+      "roi_ids": [
+        "slide_A_x26624_y16384_mag20",
+        "slide_A_x30720_y18432_mag20"
+      ]
+    },
+    {
+      "text": "Background villi show **perivillous fibrin deposition**, **hyalinization/calcification**, and ischemic-type change with focal intervillous…",
+      "roi_ids": [
+        "slide_A_x20480_y31744_mag10",
+        "slide_A_x8192_y8192_mag20"
+      ]
+    }
+  ],
+  "interpretation": "The lesion is a **placental chorangioma** based on a **discrete lobulated mass** of tightly packed capillary channels within fibrous stroma and larger feeding-type vessels. The endothelial lining is cytologically bland, supporting a benign capillary vascular tumor. This pattern argues against **chorangiosis/chorangiomatosis**, which would show diffuse or multifocal villous capillary increase rather than a circumscribed mass. Separate background **maternal vascular malperfusion-type changes** are present, including perivillous fibrin and focal ischemic hyalinization/calcification.",
+  "num_rois": 62,
+  "tiles": [
+    {
+      "roi_id": "slide_A_x24576_y16384_mag1",
+      "tile_id": "slide_A_x24576_y16384_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 24576,
+      "y": 16384,
+      "level0": {
+        "x": 24576,
+        "y": 16384,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a nodular proliferation of capillaries separated by fibrous stroma, with prominent dilated vascular spaces. The capillaries are lined by plump endothelial cells.\n\nThe most likely diagnosis is chorangioma, a benign vascular tumor of the placenta. Differential diagnoses include chorangiomatosis, which is a diffuse proliferation of capillaries throughout the placenta, and placental infarct, which typically shows ischemic changes and necrosis.",
+      "rationale": "Low-power global survey for circumscribed lesion."
+    },
+    {
+      "roi_id": "slide_A_x24576_y16384_mag2",
+      "tile_id": "slide_A_x24576_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 24576,
+      "y": 16384,
+      "level0": {
+        "x": 24576,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a well-circumscribed nodule composed of densely packed capillaries and small vessels within a fibrous stroma, with prominent dilated vascular spaces at the periphery.\n\nThe most likely diagnosis is chorangioma.\n\nDifferential diagnoses include chorangiomatosis, which is a diffuse proliferation of capillaries throughout the placenta, and a placental hemangioma, which is a benign vascular tumor.",
+      "rationale": "Survey central parenchyma for lobulated vascular mass/hematoma."
+    },
+    {
+      "roi_id": "slide_A_x24576_y16384_mag5",
+      "tile_id": "slide_A_x24576_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 24576,
+      "y": 16384,
+      "level0": {
+        "x": 24576,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a well-circumscribed lesion composed of numerous small, capillary-sized vessels with plump endothelial cells and scant intervening stroma. The vessels are arranged in a lobular pattern.\n\nThe most likely diagnosis is a chorangioma, a benign vascular tumor of the placenta.\n\nDifferential diagnoses include chorangiomatosis, which is a diffuse proliferation of capillaries throughout the placental parenchyma, and a placental hemangioma, which is a larger, more infiltrative vascular lesion.",
+      "rationale": "Central area near apparent vascular channels to assess for intervillous thrombus or infarct."
+    },
+    {
+      "roi_id": "slide_A_x8192_y4096_mag2",
+      "tile_id": "slide_A_x8192_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 8192,
+      "y": 4096,
+      "level0": {
+        "x": 8192,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows placental villi with variable size and shape, including some enlarged and edematous villi, and prominent fetal vessels. There is also a large area of hemorrhage and fibrin deposition.\n\nThe most likely diagnosis is placental abruption. The presence of a large area of hemorrhage and fibrin deposition within the placenta is characteristic of abruption. The variable villous morphology, including enlarged and edematous villi, may represent changes secondary to the abruption or other factors. Differential diagnoses could include placental infarction or intervillous thrombosis, but the prominent hemorrhage and fibrin deposition are more consistent with abruption.",
+      "rationale": "Assess upper left edge for maternal surface/basal plate features"
+    },
+    {
+      "roi_id": "slide_A_x32768_y12288_mag5",
+      "tile_id": "slide_A_x32768_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 32768,
+      "y": 12288,
+      "level0": {
+        "x": 32768,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows placental villi with prominent fetal capillaries and a large fetal vessel with a thickened wall. The intervillous space contains abundant maternal blood.\n\nThe most likely diagnosis is placental infarction. Differential diagnoses include placental abruption and intervillous thrombosis.",
+      "rationale": "Upper-right parenchyma where lobulated red-brown gross lesion may correspond."
+    },
+    {
+      "roi_id": "slide_A_x28672_y12288_mag2",
+      "tile_id": "slide_A_x28672_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 28672,
+      "y": 12288,
+      "level0": {
+        "x": 28672,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a large, dilated vascular structure filled with erythrocytes, surrounded by fibrous tissue and adjacent placental villi. The villi appear relatively normal with some stromal edema.\n\nThe most likely diagnosis is a large chorangioma, a benign vascular tumor of the placenta. Differential diagnoses include a large chorangiomatous lesion or a large, dilated fetal vessel.",
+      "rationale": "Survey upper right area where larger vessels seen on thumbnail."
+    },
+    {
+      "roi_id": "slide_A_x36864_y4096_mag2",
+      "tile_id": "slide_A_x36864_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 36864,
+      "y": 4096,
+      "level0": {
+        "x": 36864,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows placental villi with variable size and shape, including some enlarged and hyalinized villi, and areas of intervillous hemorrhage. The villous stroma is cellular with prominent fetal vessels.\n\nThe most likely diagnosis is intervillous thrombosis. Differential diagnoses include placental infarct, which typically shows more extensive villous necrosis and loss of fetal vessels, and villitis, which would show inflammatory infiltrates within the villous stroma.",
+      "rationale": "Assess upper right edge for basal plate/decidua and possible myometrium"
+    },
+    {
+      "roi_id": "slide_A_x14336_y24576_mag5",
+      "tile_id": "slide_A_x14336_y24576_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 14336,
+      "y": 24576,
+      "level0": {
+        "x": 14336,
+        "y": 24576,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a well-circumscribed lesion composed of numerous small, capillary-sized vessels within a cellular stroma. The vessels are lined by plump endothelial cells and are often congested with red blood cells.\n\nThe most likely diagnosis is a chorangioma, a benign vascular tumor of the placenta. Differential diagnoses include chorangiomatosis, which is a diffuse proliferation of capillaries throughout the villi, and a placental hemangioma, which is a larger, more infiltrative vascular lesion.",
+      "rationale": "Lower-left parenchyma to look for pale infarcted area or hematoma."
+    },
+    {
+      "roi_id": "slide_A_x20480_y20480_mag2",
+      "tile_id": "slide_A_x20480_y20480_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 20480,
+      "y": 20480,
+      "level0": {
+        "x": 20480,
+        "y": 20480,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular proliferation of small, capillary-sized vessels within a fibrous stroma, with prominent larger vessels and areas of hemorrhage. The morphology is consistent with a vascular lesion.\n\nThe most likely diagnosis is a chorangioma, a benign vascular tumor of the placenta.\n\nDifferential diagnoses include chorangiomatosis, which is a diffuse proliferation of capillaries throughout the placenta, and a placental infarct, which typically shows coagulative necrosis and loss of villous architecture.",
+      "rationale": "Survey lower central area for pale infarct vs hemorrhage."
+    },
+    {
+      "roi_id": "slide_A_x36864_y28672_mag2",
+      "tile_id": "slide_A_x36864_y28672_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 36864,
+      "y": 28672,
+      "level0": {
+        "x": 36864,
+        "y": 28672,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a well-circumscribed lesion composed of numerous small, capillary-sized vessels within a fibrous stroma, with some larger vessels and areas of hemorrhage. The lesion is sharply demarcated from the adjacent placental tissue.\n\nThe most likely diagnosis is a chorangioma, a benign vascular tumor of the placenta. Differential diagnoses include chorangiomatosis, which is a diffuse proliferation of capillaries throughout the placenta, and a placental infarct, which typically shows coagulative necrosis and loss of villous architecture.",
+      "rationale": "Assess lower right edge for basal plate/decidua and hemorrhage/fibrin"
+    },
+    {
+      "roi_id": "slide_A_x28672_y26624_mag5",
+      "tile_id": "slide_A_x28672_y26624_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 28672,
+      "y": 26624,
+      "level0": {
+        "x": 28672,
+        "y": 26624,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a proliferation of numerous small, capillary-sized vessels within a fibrous stroma, along with larger, irregular vascular spaces. The vessels are lined by flattened endothelial cells.\n\nThe most likely diagnosis is chorangioma, a benign vascular tumor of the placenta. Differential diagnoses include chorangiomatosis, which is a diffuse proliferation of capillaries throughout the placental parenchyma, and placental infarct, which typically shows coagulative necrosis and hyalinization.",
+      "rationale": "Lower-right area near edge to assess for retroplacental hematoma/decidua-related changes."
+    },
+    {
+      "roi_id": "slide_A_x12288_y16384_mag2",
+      "tile_id": "slide_A_x12288_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 16384,
+      "level0": {
+        "x": 12288,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a dense proliferation of small, capillary-sized vessels with scant intervening stroma. Scattered larger vessels are also present.\n\nThe most likely diagnosis is chorangioma, a benign vascular tumor of the placenta. Differential diagnoses include chorangiomatosis, which is a diffuse proliferation of capillaries throughout the villi, and placental infarct, which typically shows coagulative necrosis and loss of villous architecture.",
+      "rationale": "Survey left-central area for lesion."
+    },
+    {
+      "roi_id": "slide_A_x6144_y8192_mag5",
+      "tile_id": "slide_A_x6144_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 6144,
+      "y": 8192,
+      "level0": {
+        "x": 6144,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows placental villi with extensive hemorrhage and fibrin deposition, along with areas of necrosis and calcification. The villous stroma appears edematous and congested.\n\nThe most likely diagnosis is placental abruption with infarction. The extensive hemorrhage, fibrin deposition, and necrosis are characteristic findings of placental abruption, while the calcification and stromal changes suggest associated infarction. Differential diagnoses could include other causes of placental hemorrhage or infarction, but the combination of features strongly supports abruption with infarction.",
+      "rationale": "Follow up on edge region for basal plate/decidua vs hemorrhage; look for decidua/myometrium"
+    },
+    {
+      "roi_id": "slide_A_x26624_y16384_mag5",
+      "tile_id": "slide_A_x26624_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 26624,
+      "y": 16384,
+      "level0": {
+        "x": 26624,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a dense proliferation of small, capillary-sized vessels within a fibrous stroma, with some larger vessels and a central cleft-like space. The vessels are lined by plump endothelial cells.\n\nThe most likely diagnosis is chorangioma, a benign vascular tumor of the placenta. Differential diagnoses include chorangiomatosis, which is a diffuse proliferation of capillaries throughout the villi, and placental infarct, which typically shows coagulative necrosis and hyalinization.",
+      "rationale": "Assess lesion architecture—lobulation, septa, relationship to villi."
+    },
+    {
+      "roi_id": "slide_A_x32768_y12288_mag10",
+      "tile_id": "slide_A_x32768_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 32768,
+      "y": 12288,
+      "level0": {
+        "x": 32768,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows placental villi with prominent capillaries and a large vessel filled with erythrocytes. The villous stroma appears edematous.\n\nThe most likely diagnosis is placental abruption. The presence of a large blood clot and the clinical history of complete placenta previa are consistent with this diagnosis. Differential diagnoses could include other causes of placental hemorrhage, but the clinical context strongly supports abruption.",
+      "rationale": "Clarify whether this area represents infarct/thrombus vs normal intervillous blood; look for ghost villi/fibrin."
+    },
+    {
+      "roi_id": "slide_A_x43008_y8192_mag5",
+      "tile_id": "slide_A_x43008_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 43008,
+      "y": 8192,
+      "level0": {
+        "x": 43008,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows placental tissue with a surface layer and underlying stroma containing numerous dilated vascular spaces filled with erythrocytes. The stroma is cellular with spindle-shaped cells and scattered inflammatory cells.\n\nThe most likely diagnosis is a placental chorangioma, a benign vascular tumor of the placenta. The key features supporting this are the presence of numerous dilated vascular channels filled with blood within the placental stroma. Differential diagnoses could include a large intervillous thrombus, which would typically show more fibrin and less cellular stroma, or a placental infarct, which would show ischemic changes and necrosis.",
+      "rationale": "Sample another peripheral edge to find maternal surface/basal plate with possible myometrial fibers"
+    },
+    {
+      "roi_id": "slide_A_x20480_y20480_mag5",
+      "tile_id": "slide_A_x20480_y20480_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 20480,
+      "y": 20480,
+      "level0": {
+        "x": 20480,
+        "y": 20480,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a well-circumscribed lesion composed of numerous small, capillary-sized vessels embedded in a fibrous stroma. The vessels are lined by plump endothelial cells and are separated by fibrous septa.\n\nThe most likely diagnosis is a chorangioma, a benign vascular tumor of the placenta. The differential diagnosis includes chorangiomatosis, which is a diffuse proliferation of capillaries throughout the placental parenchyma rather than a discrete mass.",
+      "rationale": "Check additional vascular focus for circumscription and feeding vessels."
+    },
+    {
+      "roi_id": "slide_A_x32768_y12288_mag20",
+      "tile_id": "slide_A_x32768_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 32768,
+      "y": 12288,
+      "level0": {
+        "x": 32768,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a transition from dense fibrous tissue to a cellular area with numerous dilated vascular channels filled with erythrocytes, lined by flattened endothelial cells, and containing scattered stromal cells.\n\nThe most likely diagnosis is a placental chorangioma, a benign vascular tumor of the placenta. Differential diagnoses include placental infarct, which typically shows coagulative necrosis and hyalinization, and a placental hemangioma, which is a more diffuse proliferation of vascular channels without the well-circumscribed appearance of a chorangioma.",
+      "rationale": "High power for fibrinoid necrosis, karyorrhexis, ghost villi, or organizing thrombus."
+    },
+    {
+      "roi_id": "slide_A_x24576_y18432_mag5",
+      "tile_id": "slide_A_x24576_y18432_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 24576,
+      "y": 18432,
+      "level0": {
+        "x": 24576,
+        "y": 18432,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a well-circumscribed lesion composed of numerous small, capillary-sized vessels within a fibrous stroma, with areas of hemorrhage and calcification. The lesion is sharply demarcated from the surrounding tissue.\n\nThe most likely diagnosis is a chorangioma, a benign vascular tumor of the placenta.\n\nDifferential diagnoses include placental infarct, which typically shows coagulative necrosis and hyalinization, and a placental hemangioma, which is less common and may have larger, cavernous vessels.",
+      "rationale": "Assess central lobulated lesion at higher power for relationship to basal plate and any invasion"
+    },
+    {
+      "roi_id": "slide_A_x28672_y12288_mag5",
+      "tile_id": "slide_A_x28672_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 28672,
+      "y": 12288,
+      "level0": {
+        "x": 28672,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a large, dilated vascular space filled with erythrocytes, surrounded by fibrous tissue and adjacent placental villi. The villi exhibit stromal edema and increased syncytial knots.\n\nThe most likely diagnosis is a large chorangioma with associated placental infarction.\n\nDifferential diagnoses include a large placental hematoma or a large intervillous thrombus. A large hematoma would typically show a more irregular, dissecting pattern of blood within the villous stroma, while a large intervillous thrombus would be located within the intervillous space rather than within the villi.",
+      "rationale": "Evaluate large dilated vessel region for feeding vessel vs thrombus."
+    },
+    {
+      "roi_id": "slide_A_x40960_y14336_mag5",
+      "tile_id": "slide_A_x40960_y14336_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 40960,
+      "y": 14336,
+      "level0": {
+        "x": 40960,
+        "y": 14336,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a well-circumscribed lesion composed of numerous small, capillary-sized vessels embedded in a fibrous stroma. The vessels are lined by plump endothelial cells and are filled with red blood cells.\n\nThe most likely diagnosis is a chorangioma, a benign vascular tumor of the placenta. Differential diagnoses include chorangiomatosis, which is a diffuse proliferation of capillaries throughout the placental parenchyma, and a placental infarct, which typically shows ischemic changes and necrosis.",
+      "rationale": "Peripheral upper-right parenchyma to evaluate for retroplacental hematoma or infarct near edge."
+    },
+    {
+      "roi_id": "slide_A_x36864_y28672_mag10",
+      "tile_id": "slide_A_x36864_y28672_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 36864,
+      "y": 28672,
+      "level0": {
+        "x": 36864,
+        "y": 28672,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The villi show increased vascularity with numerous capillaries, some containing thrombi. There is also stromal edema and scattered dark granular material.\n\nThe most likely diagnosis is chorangiosis, characterized by increased villous capillaries. Differential diagnoses include villous edema and intervillous thrombosis, which can be associated with placental insufficiency.",
+      "rationale": "Detail of well-circumscribed vascular lesion; also check adjacent basal plate for accreta changes"
+    },
+    {
+      "roi_id": "slide_A_x12288_y16384_mag5",
+      "tile_id": "slide_A_x12288_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 12288,
+      "y": 16384,
+      "level0": {
+        "x": 12288,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a proliferation of numerous small, thin-walled vessels within a cellular stroma, with larger vessels also present. The vessels are lined by flattened endothelial cells.\n\nThe most likely diagnosis is a chorangioma, a benign vascular tumor of the placenta. Differential diagnoses include chorangiomatosis, which is a diffuse proliferation of capillaries throughout the placental parenchyma, and a placental hemangioma, which is a localized vascular lesion.",
+      "rationale": "Confirm whether vascular proliferation is within enlarged villi (chorangioma) vs diffuse chorangiomatosis."
+    },
+    {
+      "roi_id": "slide_A_x40960_y15360_mag10",
+      "tile_id": "slide_A_x40960_y15360_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 40960,
+      "y": 15360,
+      "level0": {
+        "x": 40960,
+        "y": 15360,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of numerous small, capillary-sized vessels filled with erythrocytes, separated by a fibrous stroma. Larger vessels are also present.\n\nThe most likely diagnosis is a chorangioma, a benign vascular tumor of the placenta.\n\nDifferential diagnoses include chorangiomatosis, which is a diffuse proliferation of capillaries throughout the placental parenchyma, and a placental infarct, which typically shows ischemic changes and necrosis.",
+      "rationale": "Higher power check for fibrin/necrosis/hemosiderin at periphery."
+    },
+    {
+      "roi_id": "slide_A_x30720_y18432_mag5",
+      "tile_id": "slide_A_x30720_y18432_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 30720,
+      "y": 18432,
+      "level0": {
+        "x": 30720,
+        "y": 18432,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a well-circumscribed lesion composed of numerous small, capillary-sized vessels with plump endothelial cells and scant intervening stroma. Larger, thick-walled vessels are also present.\n\nThe most likely diagnosis is a chorangioma.\n\nDifferential diagnoses include chorangiomatosis, which is a diffuse proliferation of capillaries throughout the placenta, and a placental hemangioma, which is a benign vascular tumor. Chorangiomatosis typically involves the entire placenta, while a hemangioma is usually a solitary lesion.",
+      "rationale": "Survey different quadrant for background placental parenchyma and any additional lesions."
+    },
+    {
+      "roi_id": "slide_A_x4096_y24576_mag5",
+      "tile_id": "slide_A_x4096_y24576_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 4096,
+      "y": 24576,
+      "level0": {
+        "x": 4096,
+        "y": 24576,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a well-circumscribed lesion composed of numerous small, capillary-sized vessels within a fibrous stroma, with a distinct boundary from the adjacent placental tissue.\n\nThe most likely diagnosis is a chorangioma, a benign vascular tumor of the placenta.\n\nDifferential diagnoses include chorangiomatosis, which is a diffuse proliferation of capillaries throughout the villi, and a placental hemangioma, which is a larger, more infiltrative vascular lesion.",
+      "rationale": "Sample lower left peripheral edge to look for basal plate/decidua/myometrium (accreta evaluation)"
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag5",
+      "tile_id": "slide_A_x8192_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows placental villi with prominent stromal edema and increased cellularity, along with areas of hemorrhage and fibrin deposition. There is also evidence of villous stromal fibrosis and hyalinization.\n\nThe most likely diagnosis is placental infarction. The key features supporting this include the areas of hemorrhage and fibrin deposition, which are indicative of ischemic injury. The stromal edema and increased cellularity in other areas may represent reactive changes or other forms of villous pathology. Differential diagnoses to consider include villitis of unknown etiology (VUE) and intervillous thrombosis, which can also cause villous changes and hemorrhage, but the overall pattern of ischemic injury is most consistent with infarction.",
+      "rationale": "Upper-left edge region (blue box) to assess basal plate/decidua for hematoma/abruption-type changes."
+    },
+    {
+      "roi_id": "slide_A_x12288_y29696_mag10",
+      "tile_id": "slide_A_x12288_y29696_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 12288,
+      "y": 29696,
+      "level0": {
+        "x": 12288,
+        "y": 29696,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a well-circumscribed lesion composed of numerous small, capillary-sized vessels within a loose stroma, with some larger vessels and areas of hemorrhage. The lesion is sharply demarcated from the surrounding tissue.\n\nThe most likely diagnosis is a chorangioma, a benign vascular tumor of the placenta.\n\nDifferential diagnoses include chorangiomatosis, which is a diffuse proliferation of capillaries throughout the placental parenchyma, and a placental infarct, which typically shows ischemic changes and necrosis rather than a well-circumscribed vascular proliferation.",
+      "rationale": "Examine lower mid area where maternal surface likely present; assess decidua vs fibrin and any smooth muscle bundles"
+    },
+    {
+      "roi_id": "slide_A_x32768_y30720_mag10",
+      "tile_id": "slide_A_x32768_y30720_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 32768,
+      "y": 30720,
+      "level0": {
+        "x": 32768,
+        "y": 30720,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of numerous small, thin-walled vessels within a cellular stroma, along with larger, irregular vascular spaces. There is also evidence of vascular calcification.\n\nThe most likely diagnosis is a chorangioma, a benign vascular tumor of the placenta. Differential diagnoses include chorangiomatosis, which is a diffuse proliferation of capillaries throughout the villi, and a placental hemangioma, which is a localized proliferation of larger vessels.",
+      "rationale": "Examine lower right edge (maternal side) for decidua absence and myometrial fibers"
+    },
+    {
+      "roi_id": "slide_A_x26624_y16384_mag20",
+      "tile_id": "slide_A_x26624_y16384_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 26624,
+      "y": 16384,
+      "level0": {
+        "x": 26624,
+        "y": 16384,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of numerous small, thin-walled vessels within a cellular stroma, with some vessels containing red blood cells. The vessels are lined by flattened endothelial cells.\n\nThe most likely diagnosis is chorangioma, a benign vascular tumor of the placenta. Differential diagnoses include chorangiomatosis, which is a diffuse proliferation of capillaries throughout the villi, and placental infarct, which typically shows ischemic changes and necrosis.",
+      "rationale": "High power of main vascular nodule to confirm chorangioma features and exclude atypia."
+    },
+    {
+      "roi_id": "slide_A_x20480_y20480_mag20",
+      "tile_id": "slide_A_x20480_y20480_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20480,
+      "y": 20480,
+      "level0": {
+        "x": 20480,
+        "y": 20480,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of numerous small, capillary-sized vessels lined by plump endothelial cells, embedded in a loose stroma. The vessels are filled with red blood cells.\n\nThe most likely diagnosis is a chorangioma, a benign vascular tumor of the placenta. Differential diagnoses include chorangiomatosis, which is a diffuse proliferation of capillaries throughout the placenta, and a placental hemangioma, which is a localized vascular lesion.",
+      "rationale": "High power of another lobule to assess villous-based capillary proliferation vs intervillous thrombus."
+    },
+    {
+      "roi_id": "slide_A_x28672_y18432_mag5",
+      "tile_id": "slide_A_x28672_y18432_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 28672,
+      "y": 18432,
+      "level0": {
+        "x": 28672,
+        "y": 18432,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a dense proliferation of small, capillary-sized vessels with plump endothelial cells and scant intervening stroma. Scattered larger vessels are also present.\n\nThe most likely diagnosis is chorangioma, a benign vascular tumor of the placenta. Differential diagnoses include chorangiomatosis, which is a diffuse proliferation of capillaries throughout the villi, and placental infarct, which typically shows ischemic changes and necrosis.",
+      "rationale": "Area adjacent to main lesion but outside it to look for intervillous thrombus or infarct in background placenta."
+    },
+    {
+      "roi_id": "slide_A_x24576_y9216_mag10",
+      "tile_id": "slide_A_x24576_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 24576,
+      "y": 9216,
+      "level0": {
+        "x": 24576,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows numerous dilated vascular channels filled with erythrocytes within the villous stroma, with some channels appearing to extend into the intervillous space. The villi are lined by trophoblast.\n\nThe most likely diagnosis is chorangioma, a benign vascular tumor of the placenta. The key features supporting this are the presence of numerous dilated vascular channels within the villous stroma. Differential diagnoses include chorangiomatosis, which is a diffuse proliferation of capillaries throughout the villi, and a placental hemangioma, which is a localized collection of blood vessels.",
+      "rationale": "Examine upper central area for chorionic plate/amnion and inflammation (chorioamnionitis)"
+    },
+    {
+      "roi_id": "slide_A_x29696_y18432_mag10",
+      "tile_id": "slide_A_x29696_y18432_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 29696,
+      "y": 18432,
+      "level0": {
+        "x": 29696,
+        "y": 18432,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of numerous small, capillary-sized vessels filled with red blood cells, separated by a loose stroma. Larger, thick-walled vessels are also present.\n\nThe most likely diagnosis is a chorangioma, a benign vascular tumor of the placenta.\n\nDifferential diagnoses include chorangiomatosis, which is a diffuse proliferation of capillaries throughout the placental parenchyma, and a placental infarct, which typically shows coagulative necrosis and loss of villous architecture.",
+      "rationale": "Assess for fibrin/necrosis/ghost villi vs normal intervillous blood."
+    },
+    {
+      "roi_id": "slide_A_x28672_y12288_mag20",
+      "tile_id": "slide_A_x28672_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 28672,
+      "y": 12288,
+      "level0": {
+        "x": 28672,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a large collection of erythrocytes adjacent to placental tissue, with a thin layer of flattened cells at the interface. The erythrocytes appear densely packed and uniform.\n\nThe most likely diagnosis is a retroplacental hematoma. This is supported by the presence of a large collection of blood beneath the placental tissue, consistent with the clinical history of complete placenta previa and vaginal bleeding. The thin layer of flattened cells at the interface may represent compressed decidual tissue or the basal plate.\n\nDifferential diagnoses to consider include placental abruption, which is a premature separation of the placenta from the uterine wall, and placental infarction, which is an area of ischemic necrosis within the placenta. However, the large collection of blood and the clinical history of complete placenta previa make retroplacental hematoma the most likely diagnosis.",
+      "rationale": "High power of dilated blood-filled space to distinguish feeding vessel/varix vs hematoma/thrombus."
+    },
+    {
+      "roi_id": "slide_A_x24576_y32768_mag2",
+      "tile_id": "slide_A_x24576_y32768_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 24576,
+      "y": 32768,
+      "level0": {
+        "x": 24576,
+        "y": 32768,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a transition from placental villi to a densely cellular area composed of small cells with scant cytoplasm and prominent vascularity. The interface between these two areas is irregular.\n\nThe most likely diagnosis is chorangioma, a benign vascular tumor of the placenta. Differential diagnoses include placental infarct, which typically shows coagulative necrosis and hyalinization, and placental mesenchymal dysplasia, which is characterized by enlarged, edematous villi with cisterns and prominent vessels.",
+      "rationale": "Seek maternal surface/basal plate away from chorangioma; look for decidua and possible myometrium"
+    },
+    {
+      "roi_id": "slide_A_x30208_y17920_mag20",
+      "tile_id": "slide_A_x30208_y17920_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 30208,
+      "y": 17920,
+      "level0": {
+        "x": 30208,
+        "y": 17920,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of numerous small, capillary-sized vessels filled with erythrocytes, lined by flattened endothelial cells, within a loose stromal background. The vessels are closely packed and vary in size and shape.\n\nThe most likely diagnosis is a chorangioma, a benign vascular tumor of the placenta. The differential diagnosis includes chorangiomatosis, which is a diffuse proliferation of capillaries throughout the placental parenchyma rather than a discrete mass.",
+      "rationale": "High power for perivillous fibrin, intervillous thrombus organization, hemosiderin-laden macrophages."
+    },
+    {
+      "roi_id": "slide_A_x30720_y18432_mag20",
+      "tile_id": "slide_A_x30720_y18432_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 30720,
+      "y": 18432,
+      "level0": {
+        "x": 30720,
+        "y": 18432,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of numerous small, capillary-sized vessels filled with red blood cells, lined by plump endothelial cells, within a loose stromal background. The vessels are arranged in a lobular pattern.\n\nThe most likely diagnosis is chorangioma, a benign vascular tumor of the placenta. The differential diagnosis includes chorangiomatosis, which is a diffuse proliferation of capillaries throughout the placental parenchyma rather than a discrete mass.",
+      "rationale": "High power to look for fibrous septa, endothelial cytology, mitoses."
+    },
+    {
+      "roi_id": "slide_A_x43008_y24576_mag5",
+      "tile_id": "slide_A_x43008_y24576_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 43008,
+      "y": 24576,
+      "level0": {
+        "x": 43008,
+        "y": 24576,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows placental villi with increased vascularity and stromal edema. There is also a large, dilated vessel with a thickened wall.\n\nThe most likely diagnosis is chorangiosis, characterized by increased vascularity in the villi. Differential diagnoses include chorangioma, which is a discrete mass of capillaries, and villous edema, which is characterized by stromal expansion without increased vascularity.",
+      "rationale": "Right peripheral parenchyma to identify basal plate/decidual fragments and assess for accreta-type absence/adhesion"
+    },
+    {
+      "roi_id": "slide_A_x20480_y32768_mag5",
+      "tile_id": "slide_A_x20480_y32768_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 20480,
+      "y": 32768,
+      "level0": {
+        "x": 20480,
+        "y": 32768,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows placental tissue with a thickened, hyalinized layer and underlying villi exhibiting stromal edema, increased cellularity, and prominent vascular congestion. There is also evidence of intervillous fibrin deposition.\n\nThe most likely diagnosis is placental abruption. The morphologic features of villous congestion, stromal edema, and fibrin deposition are consistent with placental abruption, which is supported by the clinical history of a large vaginal clot and placenta previa. Differential diagnoses could include other causes of placental infarction or villitis, but the combination of clinical and morphologic findings strongly favors abruption.",
+      "rationale": "Basal plate/lower edge for retroplacental hematoma/abruption features."
+    },
+    {
+      "roi_id": "slide_A_x33792_y15360_mag10",
+      "tile_id": "slide_A_x33792_y15360_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 33792,
+      "y": 15360,
+      "level0": {
+        "x": 33792,
+        "y": 15360,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of numerous small, capillary-sized vessels filled with erythrocytes, separated by a cellular stroma. The vessels are lined by flattened endothelial cells.\n\nThe most likely diagnosis is a chorangioma, a benign vascular tumor of the placenta. The differential diagnosis includes chorangiomatosis, which is a diffuse proliferation of capillaries throughout the placental parenchyma rather than a discrete mass.",
+      "rationale": "Check right-sided area for any additional lesion or background changes."
+    },
+    {
+      "roi_id": "slide_A_x20480_y31744_mag10",
+      "tile_id": "slide_A_x20480_y31744_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 20480,
+      "y": 31744,
+      "level0": {
+        "x": 20480,
+        "y": 31744,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows placental villi with stromal edema and hyalinization, along with prominent perivillous fibrin deposition and scattered calcification. There is also a dense inflammatory infiltrate in the intervillous space.\n\nThe most likely diagnosis is placental infarction with associated villitis and calcification.\n\nDifferential diagnoses include other causes of villitis, such as infectious etiologies (e.g., CMV, syphilis), which would typically show characteristic viral inclusions or spirochetes, and villous stromal edema, which can be seen in conditions like fetal hydrops or chromosomal abnormalities, but would lack the prominent fibrin and calcification.",
+      "rationale": "Check for decidual hemorrhage, fibrinoid, organizing clot."
+    },
+    {
+      "roi_id": "slide_A_x41984_y24576_mag10",
+      "tile_id": "slide_A_x41984_y24576_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 41984,
+      "y": 24576,
+      "level0": {
+        "x": 41984,
+        "y": 24576,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The villi show stromal edema and increased cellularity with prominent fetal capillaries. There is also evidence of intervillous fibrin deposition.\n\nThe most likely diagnosis is placental mesenchymal dysplasia.\n\nDifferential diagnoses include partial hydatidiform mole, which typically shows more diffuse villous edema, trophoblastic proliferation, and cistern formation, and villitis of unknown etiology, which would show inflammatory infiltrates within the villous stroma.",
+      "rationale": "Higher power at right edge for myometrial fibers and trophoblastic invasion"
+    },
+    {
+      "roi_id": "slide_A_x13312_y30720_mag10",
+      "tile_id": "slide_A_x13312_y30720_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 13312,
+      "y": 30720,
+      "level0": {
+        "x": 13312,
+        "y": 30720,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a thickened fibrous layer with underlying placental villi exhibiting prominent vascular congestion and hemorrhage. There is also a large vessel with a thickened wall and luminal thrombus.\n\nThe most likely diagnosis is placental abruption. The key features supporting this are the extensive hemorrhage and congestion within the villi, along with the presence of a large thrombus in a maternal vessel. This is consistent with retroplacental hemorrhage and vascular compromise.\n\nDifferential diagnoses to consider include placental infarction, which typically shows villous necrosis and hyalinization, and placental mesenchymal dysplasia, which is characterized by enlarged, edematous villi with cisterns and abnormal vessels, features not prominent in this image.",
+      "rationale": "Bottom edge near ROI 37: look specifically for basal plate/decidua and any myometrial smooth muscle bundles (accreta) rather than chorangioma"
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag20",
+      "tile_id": "slide_A_x8192_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows placental villi with prominent stromal fibrosis and hyalinization, along with areas of calcification and scattered chronic inflammation. Fetal vessels within the villi exhibit thickened walls and narrowed lumens.\n\nThe most likely diagnosis is placental infarction. This is supported by the presence of stromal fibrosis, hyalinization, and calcification within the villi, which are characteristic features of chronic ischemic injury. The thickened fetal vessel walls and narrowed lumens further support impaired blood flow. Differential diagnoses to consider include chronic villitis, which typically shows a more prominent inflammatory infiltrate, and villous agglutination, which is characterized by clumping of villi without significant stromal changes.",
+      "rationale": "High power in upper-left edge region previously suspicious for infarct/hemorrhage to confirm ghost villi vs perivillous fibrin."
+    },
+    {
+      "roi_id": "slide_A_x25600_y32768_mag10",
+      "tile_id": "slide_A_x25600_y32768_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 25600,
+      "y": 32768,
+      "level0": {
+        "x": 25600,
+        "y": 32768,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a vascular lesion composed of numerous dilated, thin-walled vessels filled with erythrocytes, lined by flattened endothelial cells, and separated by fibrous stroma. The lesion is located beneath the amnion.\n\nThe most likely diagnosis is a chorangioma, a benign vascular tumor of the placenta.\n\nDifferential diagnoses include chorangiomatosis, which is a diffuse proliferation of capillaries throughout the villi, and a placental hemangioma, which is a localized proliferation of blood vessels. Chorangiomatosis typically involves the villi diffusely, while a hemangioma is usually a more discrete lesion.",
+      "rationale": "Bottom central edge: search for decidua basalis, fibrinoid (Nitabuch), and trophoblast attachment"
+    },
+    {
+      "roi_id": "slide_A_x20480_y31744_mag20",
+      "tile_id": "slide_A_x20480_y31744_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20480,
+      "y": 31744,
+      "level0": {
+        "x": 20480,
+        "y": 31744,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows placental villi with stromal edema and increased syncytial knots, along with prominent perivillous fibrin deposition and intervillous hemorrhage. The villous stroma is fibrotic and contains scattered inflammatory cells.\n\nThe most likely diagnosis is placental infarction. This is supported by the presence of perivillous fibrin deposition, stromal fibrosis, and villous changes such as increased syncytial knots and stromal edema. These features are consistent with ischemic injury to the villi.\n\nDifferential diagnoses to consider include maternal floor infarction (MFI) and intervillous thrombosis. MFI typically involves the basal plate and is characterized by extensive perivillous fibrin deposition and villous agglutination, often with associated inflammation. Intervillous thrombosis is characterized by large, occlusive thrombi within the intervillous space, which can lead to villous infarction. The presence of intervillous hemorrhage and the clinical history of complete placenta previa and vaginal bleeding are also important considerations.",
+      "rationale": "High power in basal/lower edge region with hyalinization/fibrin to assess for abruption-related hematoma, hemosiderin, organization."
+    },
+    {
+      "roi_id": "slide_A_x43008_y28672_mag10",
+      "tile_id": "slide_A_x43008_y28672_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 43008,
+      "y": 28672,
+      "level0": {
+        "x": 43008,
+        "y": 28672,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a layered structure with a superficial layer of amorphous eosinophilic material, a middle layer of spindle cells, and a deeper layer of cells with clear to vacuolated cytoplasm. The superficial layer contains entrapped red blood cells and inflammatory cells.\n\nThe most likely diagnosis is a placental hematoma. This is supported by the presence of layered fibrin and blood products, consistent with a collection of blood beneath the placental surface. The deeper layer of clear cells likely represents decidual cells or stromal cells with degenerative changes.\n\nDifferential diagnoses include placental abruption, which typically shows more extensive hemorrhage and disruption of the placental parenchyma, and placental infarct, which would show coagulative necrosis of the villi.",
+      "rationale": "Bottom right peripheral edge: evaluate for myometrial fibers/absence of decidua (accreta/increta)"
+    },
+    {
+      "roi_id": "slide_A_x14336_y24576_mag20",
+      "tile_id": "slide_A_x14336_y24576_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 14336,
+      "y": 24576,
+      "level0": {
+        "x": 14336,
+        "y": 24576,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows placental villi with stromal edema and prominent fetal capillaries. There is also a large vessel with a thickened wall and luminal thrombus, and a focus of dark granular material.\n\nThe most likely diagnosis is placental infarction with associated thrombosis and dystrophic calcification.\n\nDifferential diagnoses include placental abruption, which can also show thrombosis and infarction, but typically involves a more extensive area of hemorrhage and separation of the placenta from the uterine wall.",
+      "rationale": "High power within chorangioma-like lesion to see if any thrombosis/necrosis present."
+    },
+    {
+      "roi_id": "slide_A_x6144_y14336_mag10",
+      "tile_id": "slide_A_x6144_y14336_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 6144,
+      "y": 14336,
+      "level0": {
+        "x": 6144,
+        "y": 14336,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows placental villi with prominent stromal edema and dilated capillaries. There is also a large vessel with a thickened wall and luminal thrombus.\n\nThe most likely diagnosis is placental mesenchymal dysplasia. This condition is characterized by enlarged, edematous villi with prominent stromal vessels, often with thrombosis, and can be associated with fetal overgrowth syndromes.\n\nDifferential diagnoses include partial hydatidiform mole, which typically shows more diffuse villous edema, trophoblastic proliferation, and cistern formation, and placental infarct, which would show ischemic changes and necrosis rather than the prominent edema and vascular changes seen here.",
+      "rationale": "Left mid peripheral edge: another attempt to locate basal plate/decidual fragments away from mass"
+    },
+    {
+      "roi_id": "slide_A_x11776_y28160_mag20",
+      "tile_id": "slide_A_x11776_y28160_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 11776,
+      "y": 28160,
+      "level0": {
+        "x": 11776,
+        "y": 28160,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of numerous small, thin-walled capillaries lined by plump endothelial cells, embedded in a loose, edematous stroma. Scattered larger cells with clear cytoplasm are also present.\n\nThe most likely diagnosis is a chorangioma, a benign vascular tumor of the placenta.\n\nDifferential diagnoses include chorangiomatosis, which is a diffuse proliferation of capillaries throughout the placental parenchyma, and a placental hemangioma, which is a more circumscribed lesion composed of larger, more dilated vessels.",
+      "rationale": "High power in lower-left margin background villi to assess for infarction (ghost villi) or hemosiderin."
+    },
+    {
+      "roi_id": "slide_A_x24576_y3072_mag10",
+      "tile_id": "slide_A_x24576_y3072_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 24576,
+      "y": 3072,
+      "level0": {
+        "x": 24576,
+        "y": 3072,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a placental lesion with a central area of dense cellularity and numerous small vessels, surrounded by a less cellular, fibrous stroma. The lesion is covered by amnion and chorion.\n\nThe most likely diagnosis is a chorangioma, a benign vascular tumor of the placenta.\n\nDifferential diagnoses include chorangiomatosis, which is a diffuse proliferation of capillaries throughout the villi, and a placental infarct, which typically shows ischemic changes and necrosis.",
+      "rationale": "Sample top central edge (chorionic plate side) for subchorionic thrombus/intervillous thrombus."
+    },
+    {
+      "roi_id": "slide_A_x10240_y12288_mag10",
+      "tile_id": "slide_A_x10240_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 10240,
+      "y": 12288,
+      "level0": {
+        "x": 10240,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of numerous small, thin-walled vessels within a cellular stroma, with some larger vessels exhibiting thickened walls. There is also evidence of hemorrhage and hemosiderin deposition.\n\nThe most likely diagnosis is a chorangioma, a benign vascular tumor of the placenta. Differential diagnoses include chorangiomatosis, which is a diffuse proliferation of capillaries throughout the villi, and a placental hemangioma, which is a localized vascular lesion.",
+      "rationale": "Unexplored mid-left parenchyma near edge to locate basal plate/decidua and assess for accreta-related absence"
+    },
+    {
+      "roi_id": "slide_A_x15360_y18432_mag10",
+      "tile_id": "slide_A_x15360_y18432_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 15360,
+      "y": 18432,
+      "level0": {
+        "x": 15360,
+        "y": 18432,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of numerous small, capillary-sized vessels within a loose stroma, with larger, thick-walled vessels also present. The vessels are lined by plump endothelial cells.\n\nThe most likely diagnosis is chorangioma, a benign vascular tumor of the placenta. Differential diagnoses include chorangiomatosis, which is a diffuse proliferation of capillaries throughout the placenta, and placental infarct, which typically shows ischemic changes and necrosis.",
+      "rationale": "Unexplored mid region between lesion and periphery; check for basal plate tissue/myometrium fragments"
+    },
+    {
+      "roi_id": "slide_A_x35840_y31744_mag10",
+      "tile_id": "slide_A_x35840_y31744_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 35840,
+      "y": 31744,
+      "level0": {
+        "x": 35840,
+        "y": 31744,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a thickened, hyalinized layer with entrapped cells and a dense inflammatory infiltrate in the underlying tissue. The interface between these layers is irregular.\n\nThe most likely diagnosis is a placental abruption with associated retroplacental hematoma.\n\nDifferential diagnoses include placental infarct, which typically shows coagulative necrosis of villi, and placental site trophoblastic tumor, which would show infiltrative nests of trophoblastic cells.",
+      "rationale": "Fill missing ROI at lower-right basal plate region for retroplacental hematoma/infarct."
+    },
+    {
+      "roi_id": "slide_A_x7168_y27648_mag10",
+      "tile_id": "slide_A_x7168_y27648_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 7168,
+      "y": 27648,
+      "level0": {
+        "x": 7168,
+        "y": 27648,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a thickened, hyalinized membrane with a cellular layer and underlying stroma containing numerous dilated vascular spaces filled with erythrocytes. The interface with the underlying tissue is irregular.\n\nThe most likely diagnosis is a placental membrane with features of chronic abruption and associated changes. The thickened, hyalinized membrane with dilated vascular spaces is consistent with chronic changes secondary to abruption. The cellular layer may represent reactive changes or inflammatory infiltrate.\n\nDifferential diagnoses to consider include placental infarct, which typically shows coagulative necrosis of villi, and placental mesenchymal dysplasia, which is characterized by enlarged, edematous villi with stromal changes and often associated with fetal anomalies.",
+      "rationale": "Far lower-left edge to look for maternal surface with decidua/myometrium"
+    },
+    {
+      "roi_id": "slide_A_x35840_y31744_mag20",
+      "tile_id": "slide_A_x35840_y31744_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 35840,
+      "y": 31744,
+      "level0": {
+        "x": 35840,
+        "y": 31744,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows placental villi with stromal edema and hyalinization, along with a large area of amorphous eosinophilic material containing scattered cells and a prominent inflammatory infiltrate.\n\nThe most likely diagnosis is placental infarction. Differential diagnoses include intervillous thrombus, which would typically lack the inflammatory infiltrate and cellular debris seen here.",
+      "rationale": "High power of same: look for decidual hemorrhage, laminated fibrin, organization/hemosiderin."
+    },
+    {
+      "roi_id": "slide_A_x43008_y17408_mag10",
+      "tile_id": "slide_A_x43008_y17408_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 43008,
+      "y": 17408,
+      "level0": {
+        "x": 43008,
+        "y": 17408,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of numerous small, capillary-sized vessels filled with red blood cells, separated by a cellular stroma. The vessels are lined by plump endothelial cells.\n\nThe most likely diagnosis is a chorangioma, a benign vascular tumor of the placenta. Differential diagnoses include chorangiomatosis, which is a diffuse proliferation of capillaries throughout the placental parenchyma, and a placental hemangioma, which is a localized vascular lesion.",
+      "rationale": "Far right edge mid-height; potential basal plate area for accreta assessment"
+    },
+    {
+      "roi_id": "slide_A_x24576_y6144_mag10",
+      "tile_id": "slide_A_x24576_y6144_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 24576,
+      "y": 6144,
+      "level0": {
+        "x": 24576,
+        "y": 6144,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of numerous small, capillary-sized vessels filled with erythrocytes, separated by scant stroma. A larger vessel with a thickened wall is also present.\n\nThe most likely diagnosis is chorangioma, a benign vascular tumor of the placenta. Differential diagnoses include chorangiomatosis, which is a diffuse proliferation of capillaries throughout the villi, and placental infarct, which typically shows ischemic changes and necrosis.",
+      "rationale": "Top edge to identify membranes/chorionic plate and evaluate for acute chorioamnionitis"
+    },
+    {
+      "roi_id": "slide_A_x45056_y24576_mag5",
+      "tile_id": "slide_A_x45056_y24576_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 45056,
+      "y": 24576,
+      "level0": {
+        "x": 45056,
+        "y": 24576,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows placental villi with prominent stromal edema and numerous dilated fetal capillaries. There is also a large vessel with a thickened wall and surrounding stromal changes.\n\nThe most likely diagnosis is placental mesenchymal dysplasia. This condition is characterized by enlarged, edematous villi with increased stromal cellularity and prominent, often dilated, fetal vessels. The presence of a large, thick-walled vessel is also a feature that can be seen in this entity.\n\nDifferential diagnoses to consider include partial hydatidiform mole, which typically shows more diffuse villous edema, trophoblastic proliferation, and cistern formation, and chorangiomatosis, which is characterized by a diffuse increase in the number of small, capillary-sized vessels within the villous stroma.",
+      "rationale": "Far right edge to assess for peripheral infarct/hematoma not yet sampled."
+    },
+    {
+      "roi_id": "slide_A_x45056_y24576_mag10",
+      "tile_id": "slide_A_x45056_y24576_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 45056,
+      "y": 24576,
+      "level0": {
+        "x": 45056,
+        "y": 24576,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The villi show increased vascularity with numerous dilated capillaries and stromal edema. There is also evidence of intervillous fibrin deposition.\n\nThe most likely diagnosis is chorangiosis, characterized by increased villous capillaries. Differential diagnoses include villous edema and intervillous thrombosis, which can be distinguished by the predominant feature (vascular proliferation vs. edema vs. fibrin).",
+      "rationale": "Check for villous ghosting/perivillous fibrin at periphery."
+    },
+    {
+      "roi_id": "slide_A_x45056_y25088_mag20",
+      "tile_id": "slide_A_x45056_y25088_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 45056,
+      "y": 25088,
+      "level0": {
+        "x": 45056,
+        "y": 25088,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The villi show increased vascularity with numerous dilated capillaries and stromal edema. The villous surface is lined by trophoblast.\n\nThe morphologic features are consistent with chorangiosis, characterized by increased villous capillaries. Differential diagnoses include chorangioma, which is a discrete mass of capillaries, and villous edema, which lacks the increased vascularity.",
+      "rationale": "High power for hemorrhage with organization/hemosiderin."
+    }
+  ]
+}

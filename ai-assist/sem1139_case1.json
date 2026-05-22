@@ -1,0 +1,1022 @@
+{
+  "case_id": "sem1139_case1",
+  "source": "slideseek-ai-assist",
+  "model": "gpt-5.4",
+  "generated_at": "2026-05-22T09:20:46.164227+00:00",
+  "organ": "CNS-Endocrine",
+  "primary_dx": "Fibrous/Transitional Meningioma, WHO Grade 1 Favored",
+  "differential_dx": [
+    "Schwannoma",
+    "Solitary Fibrous Tumor"
+  ],
+  "microscopic_findings": [
+    {
+      "text": "Spindle-cell neoplasm shows intersecting fascicles with frequent **whorled architecture** and focal **storiform** arrangement.",
+      "roi_ids": [
+        "slide_A_x16384_y12288_mag10",
+        "slide_A_x20480_y8192_mag20"
+      ]
+    },
+    {
+      "text": "Tumor cells have elongated nuclei and eosinophilic cytoplasm within conspicuous **collagenous/hyalinized stroma**.",
+      "roi_ids": [
+        "slide_A_x22528_y15360_mag20",
+        "slide_A_x8192_y8192_mag20"
+      ]
+    },
+    {
+      "text": "There are focal areas of **nuclear palisading** with **Verocay-body-like** formation, but these are limited.",
+      "roi_ids": [
+        "slide_A_x8192_y20480_mag20",
+        "slide_A_x1024_y14848_mag20"
+      ]
+    },
+    {
+      "text": "Vessels are prominent and often **thick-walled/hyalinized** rather than showing classic **staghorn vasculature**.",
+      "roi_ids": [
+        "slide_A_x8192_y8192_mag5",
+        "slide_A_x12288_y17408_mag20"
+      ]
+    }
+  ],
+  "interpretation": "The tumor is best classified as **fibrous/transitional meningioma** based on diffuse **whorled fascicular growth** and collagen-rich stromal hyalinization. Although focal palisading raises schwannoma, the overall pattern is more consistently meningiomatous than Antoni-type. **Solitary fibrous tumor** is less favored because the vasculature is predominantly thick-walled and hyalinized rather than convincingly **staghorn**. In the sampled material, there is no convincing brisk mitotic activity, necrosis, or brain invasion, supporting **WHO grade 1 favored**.",
+  "num_rois": 61,
+  "tiles": [
+    {
+      "roi_id": "slide_A_x16384_y12288_mag2",
+      "tile_id": "slide_A_x16384_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 16384,
+      "y": 12288,
+      "level0": {
+        "x": 16384,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and prominent whorls. The cells have elongated, wavy nuclei and scant cytoplasm, with areas of hyalinized stroma.\n\nThe most likely diagnosis is a meningioma, specifically a fibrous or transitional subtype, given the characteristic whorled pattern and spindle cell morphology. A schwannoma could be considered in the differential, but the prominent whorling and hyalinized stroma are more typical of meningioma.",
+      "rationale": "Low-power survey center of main tissue to assess overall architecture and find hypercellular/necrotic areas."
+    },
+    {
+      "roi_id": "slide_A_x16384_y16384_mag1",
+      "tile_id": "slide_A_x16384_y16384_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 16384,
+      "y": 16384,
+      "level0": {
+        "x": 16384,
+        "y": 16384,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with areas of nuclear palisading and Verocay bodies. The cells have elongated, wavy nuclei and scant cytoplasm.\n\nThe most likely diagnosis is a schwannoma. Differential diagnoses include meningioma, which typically shows meningothelial whorls and psammoma bodies, and solitary fibrous tumor, which often has a more haphazard pattern and prominent staghorn vessels.",
+      "rationale": "Central overview of region 0 for global architecture."
+    },
+    {
+      "roi_id": "slide_A_x2048_y14336_mag5",
+      "tile_id": "slide_A_x2048_y14336_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 2048,
+      "y": 14336,
+      "level0": {
+        "x": 2048,
+        "y": 14336,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation of spindle-shaped cells arranged in intersecting fascicles and whorls. The cells have elongated nuclei and eosinophilic cytoplasm, with areas of hemorrhage and necrosis.\n\nThe most likely diagnosis is a high-grade spindle cell neoplasm, such as a glioblastoma or a sarcoma. Differential diagnoses include other spindle cell tumors like schwannoma or meningioma, which would typically show different architectural patterns and cellular features.",
+      "rationale": "Low-power overview of small fragment region 1 to determine overall architecture and tissue type."
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag2",
+      "tile_id": "slide_A_x8192_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with areas of nuclear palisading and Verocay bodies. The cells have elongated, wavy nuclei and scant cytoplasm.\n\nThe most likely diagnosis is a schwannoma. Differential diagnoses include meningioma, which typically shows meningothelial whorls and psammoma bodies, and solitary fibrous tumor, which often has a more haphazard pattern and prominent staghorn vessels.",
+      "rationale": "Low-power survey upper-left quadrant for cellular hotspots or vascular patterns."
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag1",
+      "tile_id": "slide_A_x8192_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls. The cells have elongated, wavy nuclei and eosinophilic cytoplasm, with areas of hyalinization and hemorrhage.\n\nThe most likely diagnosis is a meningioma, specifically a fibrous or transitional subtype. Differential diagnoses include schwannoma, which typically shows Antoni A and B areas and Verocay bodies, and solitary fibrous tumor, which often has a more haphazard pattern and prominent staghorn vessels.",
+      "rationale": "Upper-left quadrant overview to assess edge/interface and pattern variation."
+    },
+    {
+      "roi_id": "slide_A_x3072_y10240_mag10",
+      "tile_id": "slide_A_x3072_y10240_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 3072,
+      "y": 10240,
+      "level0": {
+        "x": 3072,
+        "y": 10240,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with prominent irregular, slit-like vascular spaces. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a high-grade spindle cell neoplasm, such as a gliosarcoma or sarcomatoid glioblastoma.\n\nDifferential diagnoses include solitary fibrous tumor/hemangiopericytoma and meningioma, which can also show spindle cells and prominent vasculature, but typically have different architectural patterns and cellular features.",
+      "rationale": "Assess cellular patterns (whorls, sheets), vasculature, possible brain parenchyma at edge."
+    },
+    {
+      "roi_id": "slide_A_x5120_y12288_mag10",
+      "tile_id": "slide_A_x5120_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 5120,
+      "y": 12288,
+      "level0": {
+        "x": 5120,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with prominent vascularity and areas of hemorrhage. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a meningioma, specifically a fibrous or transitional subtype.\n\nDifferential diagnoses include schwannoma, which typically shows Antoni A and B areas and Verocay bodies, and solitary fibrous tumor, which often has a more haphazard pattern and characteristic staghorn vessels.",
+      "rationale": "Second 10x area across fragment to avoid sampling bias; look for interface or different component."
+    },
+    {
+      "roi_id": "slide_A_x24576_y8192_mag1",
+      "tile_id": "slide_A_x24576_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 24576,
+      "y": 8192,
+      "level0": {
+        "x": 24576,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls. The cells have elongated, wavy nuclei and scant cytoplasm, with areas of hyalinization and hemorrhage.\n\nThe most likely diagnosis is a meningioma, specifically a fibrous or transitional subtype. Differential diagnoses include schwannoma, which typically shows Antoni A and B areas and Verocay bodies, and solitary fibrous tumor, which often has a more haphazard pattern and prominent hemangiopericytoma-like vessels.",
+      "rationale": "Upper-right edge overview for border and any dural-like collagen."
+    },
+    {
+      "roi_id": "slide_A_x20480_y8192_mag2",
+      "tile_id": "slide_A_x20480_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 20480,
+      "y": 8192,
+      "level0": {
+        "x": 20480,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and prominent whorls. The cells have elongated, wavy nuclei and scant cytoplasm, with areas of hyalinized stroma.\n\nThe most likely diagnosis is a meningioma, specifically a fibrous or transitional subtype, given the characteristic whorled pattern and spindle cell morphology. Differential diagnoses include schwannoma, which typically shows Antoni A and B areas and Verocay bodies, and solitary fibrous tumor, which often has a more haphazard pattern and prominent hemangiopericytoma-like vessels.",
+      "rationale": "Low-power survey upper-right quadrant for necrosis/atypia."
+    },
+    {
+      "roi_id": "slide_A_x24576_y24576_mag1",
+      "tile_id": "slide_A_x24576_y24576_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 24576,
+      "y": 24576,
+      "level0": {
+        "x": 24576,
+        "y": 24576,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls. The cells have elongated, wavy nuclei and scant cytoplasm, with areas of hyalinization and hemorrhage.\n\nThe most likely diagnosis is a meningioma, specifically a fibrous or transitional subtype. Differential diagnoses include schwannoma, which typically shows Antoni A and B areas and Verocay bodies, and solitary fibrous tumor, which often has a more haphazard pattern and prominent hemangiopericytoma-like vessels.",
+      "rationale": "Lower-right edge overview for interface/necrosis/hemorrhage."
+    },
+    {
+      "roi_id": "slide_A_x8192_y20480_mag2",
+      "tile_id": "slide_A_x8192_y20480_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 8192,
+      "y": 20480,
+      "level0": {
+        "x": 8192,
+        "y": 20480,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with prominent vascularity and areas of hemorrhage. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a meningioma, specifically a fibrous or transitional subtype.\n\nDifferential diagnoses include schwannoma, which typically shows Antoni A and B areas and Verocay bodies, and solitary fibrous tumor, which often has a more haphazard pattern and characteristic staghorn vessels.",
+      "rationale": "Low-power survey lower-left quadrant for hemorrhage/necrosis/hypercellularity."
+    },
+    {
+      "roi_id": "slide_A_x1024_y14848_mag20",
+      "tile_id": "slide_A_x1024_y14848_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 1024,
+      "y": 14848,
+      "level0": {
+        "x": 1024,
+        "y": 14848,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with elongated nuclei and eosinophilic cytoplasm. There is a prominent inflammatory infiltrate and areas of hemorrhage.\n\nThe most likely diagnosis is a meningioma, specifically a fibrous subtype. The characteristic whorled pattern of spindle cells and the presence of inflammation are consistent with this diagnosis. Differential diagnoses include schwannoma, which typically shows Antoni A and B areas and Verocay bodies, and solitary fibrous tumor, which often has a more haphazard pattern and prominent staghorn vessels.",
+      "rationale": "High power cytology in central portion of fragment."
+    },
+    {
+      "roi_id": "slide_A_x20480_y20480_mag2",
+      "tile_id": "slide_A_x20480_y20480_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 20480,
+      "y": 20480,
+      "level0": {
+        "x": 20480,
+        "y": 20480,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with areas of nuclear palisading and Verocay bodies. The cells have elongated, wavy nuclei and scant cytoplasm.\n\nThe most likely diagnosis is a schwannoma. Differential diagnoses include meningioma, which typically shows meningothelial whorls and psammoma bodies, and solitary fibrous tumor, which often has a more haphazard pattern and prominent staghorn vessels.",
+      "rationale": "Low-power survey lower-right quadrant for hypercellular regions."
+    },
+    {
+      "roi_id": "slide_A_x1024_y15360_mag20",
+      "tile_id": "slide_A_x1024_y15360_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 1024,
+      "y": 15360,
+      "level0": {
+        "x": 1024,
+        "y": 15360,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated nuclei and eosinophilic cytoplasm, arranged in intersecting fascicles and whorls. There is a prominent inflammatory infiltrate and areas of hemorrhage.\n\nThe most likely diagnosis is a meningioma, specifically a fibrous or transitional subtype. The spindle cell morphology, fascicular and whorled architecture, and associated inflammation are characteristic features. Differential diagnoses include schwannoma, which typically shows Antoni A and B areas and Verocay bodies, and solitary fibrous tumor, which often has a more haphazard pattern and prominent staghorn vessels.",
+      "rationale": "High power at another area/edge to look for brain invasion/reactive gliosis or dural collagen."
+    },
+    {
+      "roi_id": "slide_A_x8192_y24576_mag1",
+      "tile_id": "slide_A_x8192_y24576_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 8192,
+      "y": 24576,
+      "level0": {
+        "x": 8192,
+        "y": 24576,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a cellular neoplasm composed of spindle cells arranged in intersecting fascicles and whorls. The cells have elongated, wavy nuclei and scant cytoplasm, with scattered blood vessels.\n\nThe most likely diagnosis is a meningioma, specifically a fibrous or transitional subtype. The characteristic features include the spindle cell morphology, fascicular and whorled growth pattern, and elongated, wavy nuclei. The presence of a large, dural-based mass in the posterior frontal lobe with associated symptoms and imaging findings is also consistent with this diagnosis.\n\nDifferential diagnoses to consider include schwannoma and solitary fibrous tumor. Schwannomas typically show Antoni A and B areas and Verocay bodies, which are not evident here. Solitary fibrous tumors often have a more haphazard pattern and prominent hemangiopericytoma-like vessels.",
+      "rationale": "Lower-left edge overview to check for brain parenchyma or capsule."
+    },
+    {
+      "roi_id": "slide_A_x16384_y12288_mag10",
+      "tile_id": "slide_A_x16384_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 16384,
+      "y": 12288,
+      "level0": {
+        "x": 16384,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and prominent whorls. The cells have elongated, wavy nuclei and scant cytoplasm, with areas of hyalinized stroma.\n\nThe most likely diagnosis is meningioma, specifically the meningothelial subtype. The characteristic whorled pattern and spindle cell morphology are highly suggestive. Differential diagnoses include schwannoma, which typically shows Antoni A and B areas and Verocay bodies, and solitary fibrous tumor, which often has a more haphazard pattern and prominent hemangiopericytoma-like vessels.",
+      "rationale": "Evaluate whorled spindle-cell area for meningioma vs schwannoma features; look for collagen/psammoma bodies/mitoses."
+    },
+    {
+      "roi_id": "slide_A_x20480_y14336_mag5",
+      "tile_id": "slide_A_x20480_y14336_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 20480,
+      "y": 14336,
+      "level0": {
+        "x": 20480,
+        "y": 14336,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and prominent whorls. The cells have elongated, wavy nuclei and scant cytoplasm, with scattered blood vessels.\n\nThe most likely diagnosis is meningioma, specifically a fibrous or transitional subtype. The characteristic whorled pattern and spindle cell morphology are highly suggestive. Differential diagnoses include schwannoma, which typically shows Antoni A and B areas and Verocay bodies, and solitary fibrous tumor, which often has a more haphazard pattern and prominent hemangiopericytoma-like vessels.",
+      "rationale": "Assess for meningothelial whorls vs Antoni A/B, collagen, and vessels at intermediate power."
+    },
+    {
+      "roi_id": "slide_A_x4096_y10240_mag10",
+      "tile_id": "slide_A_x4096_y10240_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 4096,
+      "y": 10240,
+      "level0": {
+        "x": 4096,
+        "y": 10240,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with prominent slit-like vascular spaces and areas of hemorrhage. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a meningioma, specifically a fibrous or transitional subtype.\n\nDifferential diagnoses include solitary fibrous tumor/hemangiopericytoma, which can also show spindle cells and prominent vasculature, and schwannoma, which typically exhibits Antoni A and B areas and Verocay bodies.",
+      "rationale": "10x near one edge of fragment to look for dura-like collagen, brain parenchyma, or invasion."
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag10",
+      "tile_id": "slide_A_x8192_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with elongated nuclei and eosinophilic cytoplasm. Prominent blood vessels with thickened walls are also present.\n\nThe most likely diagnosis is a meningioma, specifically a fibrous subtype.\n\nDifferential diagnoses include schwannoma, which typically shows Antoni A and B areas and Verocay bodies, and solitary fibrous tumor, which often has a more haphazard pattern and characteristic staghorn vessels.",
+      "rationale": "Assess reported palisading/Verocay-like area for schwannoma vs fibrous meningioma; check vessels/collagen."
+    },
+    {
+      "roi_id": "slide_A_x5120_y11264_mag10",
+      "tile_id": "slide_A_x5120_y11264_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 5120,
+      "y": 11264,
+      "level0": {
+        "x": 5120,
+        "y": 11264,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with prominent areas of hemorrhage and necrosis. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a high-grade spindle cell neoplasm, such as a glioblastoma or anaplastic meningioma.\n\nDifferential diagnoses include glioblastoma, which typically shows more pleomorphism and mitotic activity, and anaplastic meningioma, which may show more prominent whorls and psammoma bodies.",
+      "rationale": "10x opposite edge to assess vascular pattern (staghorn?) and any different component."
+    },
+    {
+      "roi_id": "slide_A_x16384_y18432_mag5",
+      "tile_id": "slide_A_x16384_y18432_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 16384,
+      "y": 18432,
+      "level0": {
+        "x": 16384,
+        "y": 18432,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and prominent whorls. The cells have elongated, wavy nuclei and scant cytoplasm, with areas of hyalinized stroma.\n\nThe most likely diagnosis is a meningioma, specifically a fibrous or transitional subtype. The characteristic whorled pattern and spindle cell morphology are highly suggestive. Differential diagnoses include schwannoma, which typically shows Antoni A and B areas and Verocay bodies, and solitary fibrous tumor, which often has a more haphazard pattern and prominent hemangiopericytoma-like vessels.",
+      "rationale": "Evaluate central area described as palisading/Verocay-like to confirm/deny schwannoma pattern."
+    },
+    {
+      "roi_id": "slide_A_x20480_y20480_mag10",
+      "tile_id": "slide_A_x20480_y20480_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 20480,
+      "y": 20480,
+      "level0": {
+        "x": 20480,
+        "y": 20480,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with elongated, wavy nuclei and a fibrillary background. There is variable cellularity and scattered small blood vessels.\n\nThe most likely diagnosis is a meningioma, specifically a fibrous or transitional subtype. The characteristic whorled pattern and spindle cell morphology are highly suggestive. Differential diagnoses include schwannoma, which typically shows Antoni A and B areas and Verocay bodies, and solitary fibrous tumor, which often has a more haphazard pattern and prominent hemangiopericytoma-like vessels.",
+      "rationale": "Another palisading/Verocay-like area; assess cellularity/atypia."
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag5",
+      "tile_id": "slide_A_x8192_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with prominent thick-walled blood vessels. The cells have elongated, wavy nuclei and scant cytoplasm.\n\nThe most likely diagnosis is a meningioma, specifically a fibrous or transitional subtype.\n\nDifferential diagnoses include schwannoma, which typically shows Antoni A and B areas and Verocay bodies, and solitary fibrous tumor, which often has a more haphazard pattern and characteristic staghorn vessels.",
+      "rationale": "Sample area with hyalinization/hemorrhage for SFT/HPC-like staghorn vessels or sclerosis."
+    },
+    {
+      "roi_id": "slide_A_x6144_y14336_mag10",
+      "tile_id": "slide_A_x6144_y14336_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 6144,
+      "y": 14336,
+      "level0": {
+        "x": 6144,
+        "y": 14336,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles and whorls. Prominent features include numerous thin-walled blood vessels and areas of hemorrhage.\n\nThe most likely diagnosis is a meningioma, specifically a fibrous or transitional subtype. The presence of spindle cells, fascicular and whorled architecture, and prominent vascularity are characteristic features. The hemorrhage is also a common finding in meningiomas.\n\nDifferential diagnoses include schwannoma, which typically shows Antoni A and B areas and Verocay bodies, and solitary fibrous tumor, which often has a more haphazard pattern and characteristic staghorn vessels.",
+      "rationale": "10x inferior edge to look for necrosis, hemorrhage, palisading, or brain tissue."
+    },
+    {
+      "roi_id": "slide_A_x8192_y20480_mag10",
+      "tile_id": "slide_A_x8192_y20480_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 8192,
+      "y": 20480,
+      "level0": {
+        "x": 8192,
+        "y": 20480,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with areas of nuclear palisading and Verocay bodies. The cells have elongated, wavy nuclei and scant cytoplasm.\n\nThe most likely diagnosis is a schwannoma. Differential diagnoses include meningioma, which can also show whorls and spindle cells, but typically has more rounded nuclei and may show psammoma bodies. A solitary fibrous tumor could also be considered, but usually lacks the prominent nuclear palisading and Verocay bodies seen here.",
+      "rationale": "Area with vascularity/hemorrhage; look for staghorn vessels, necrosis, microvascular proliferation."
+    },
+    {
+      "roi_id": "slide_A_x6144_y13312_mag10",
+      "tile_id": "slide_A_x6144_y13312_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 6144,
+      "y": 13312,
+      "level0": {
+        "x": 6144,
+        "y": 13312,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with prominent vascularity and areas of hemorrhage. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a meningioma, specifically a fibrous or transitional subtype.\n\nDifferential diagnoses include schwannoma, which typically shows Antoni A and B areas and Verocay bodies, and solitary fibrous tumor, which often has a more haphazard pattern and characteristic staghorn vessels.",
+      "rationale": "10x inferior opposite edge; check for meningioma-like whorls/psammoma bodies vs SFT pattern."
+    },
+    {
+      "roi_id": "slide_A_x24576_y22528_mag5",
+      "tile_id": "slide_A_x24576_y22528_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 24576,
+      "y": 22528,
+      "level0": {
+        "x": 24576,
+        "y": 22528,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with areas of nuclear palisading and Verocay bodies. The cells have elongated, wavy nuclei and scant cytoplasm.\n\nThe most likely diagnosis is a meningioma, specifically a fibrous or transitional subtype.\n\nDifferential diagnoses include schwannoma, which also shows spindle cells and nuclear palisading but typically has a more prominent Antoni A and B pattern and lacks the characteristic whorls and Verocay bodies seen here. Other spindle cell lesions of the CNS, such as solitary fibrous tumor or fibrous meningioma, could also be considered but are less likely given the prominent whorling and palisading.",
+      "rationale": "Check peripheral area for interface and any necrosis or brain infiltration."
+    },
+    {
+      "roi_id": "slide_A_x20480_y8192_mag10",
+      "tile_id": "slide_A_x20480_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 20480,
+      "y": 8192,
+      "level0": {
+        "x": 20480,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and prominent whorls. The cells have elongated, wavy nuclei and scant cytoplasm, with scattered blood vessels.\n\nThe most likely diagnosis is meningioma, specifically the fibrous subtype. Differential diagnoses include schwannoma, which typically shows Antoni A and B areas and Verocay bodies, and solitary fibrous tumor, which often has a more haphazard pattern and prominent hemangiopericytoma-like vessels.",
+      "rationale": "Whorled fascicular area; assess for atypia/mitotic activity."
+    },
+    {
+      "roi_id": "slide_A_x6144_y22528_mag5",
+      "tile_id": "slide_A_x6144_y22528_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 6144,
+      "y": 22528,
+      "level0": {
+        "x": 6144,
+        "y": 22528,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The tissue fragments show a cellular proliferation of spindle-shaped cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles and whorls. There is also prominent hemorrhage and necrosis.\n\nThe most likely diagnosis is a high-grade glial neoplasm, such as glioblastoma.\n\nDifferential diagnoses include anaplastic astrocytoma, which would lack the necrosis and microvascular proliferation seen in glioblastoma, and a high-grade meningioma, which would typically show a more syncytial growth pattern and characteristic whorls.",
+      "rationale": "Another peripheral area for border with brain/dura and architecture."
+    },
+    {
+      "roi_id": "slide_A_x16384_y12288_mag20",
+      "tile_id": "slide_A_x16384_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 16384,
+      "y": 12288,
+      "level0": {
+        "x": 16384,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and prominent whorls. The cells have elongated, wavy nuclei and eosinophilic cytoplasm, with areas of hyalinized stroma.\n\nThe most likely diagnosis is meningioma, specifically the meningothelial subtype. The characteristic whorled pattern and spindle cell morphology are highly suggestive. Differential diagnoses include schwannoma, which typically shows Antoni A and B areas and Verocay bodies, and solitary fibrous tumor, which often has a more haphazard pattern and prominent hemangiopericytoma-like vessels.",
+      "rationale": "High power cytology/mitoses in whorled spindle region."
+    },
+    {
+      "roi_id": "slide_A_x512_y14336_mag20",
+      "tile_id": "slide_A_x512_y14336_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 512,
+      "y": 14336,
+      "level0": {
+        "x": 512,
+        "y": 14336,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated nuclei and eosinophilic cytoplasm, arranged in intersecting fascicles and whorls. There is a prominent inflammatory infiltrate and areas of hemorrhage.\n\nThe most likely diagnosis is a meningioma, specifically a fibrous subtype. The characteristic features include the spindle cell morphology, fascicular and whorled growth pattern, and the presence of inflammation and hemorrhage. Differential diagnoses include schwannoma, which typically shows Antoni A and B areas and Verocay bodies, and solitary fibrous tumor, which often has a more haphazard pattern and prominent staghorn vessels.",
+      "rationale": "20x to evaluate cytology and look for collagenous stroma (fibrous meningioma vs SFT), mitoses."
+    },
+    {
+      "roi_id": "slide_A_x8192_y24576_mag2",
+      "tile_id": "slide_A_x8192_y24576_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 8192,
+      "y": 24576,
+      "level0": {
+        "x": 8192,
+        "y": 24576,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with prominent vascularity and areas of hemorrhage. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a meningioma, specifically a fibrous or transitional subtype.\n\nDifferential diagnoses include schwannoma, which typically shows Antoni A and B areas and Verocay bodies, and solitary fibrous tumor, which often has a more haphazard pattern and characteristic staghorn vessels.",
+      "rationale": "Contextualize suspected necrosis/hemorrhage area at lower mag to see if true geographic necrosis vs artifact/fragment edge."
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag20",
+      "tile_id": "slide_A_x8192_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated, wavy nuclei arranged in intersecting fascicles and whorls, with prominent hyalinized vessels. The most likely diagnosis is a meningioma, specifically a fibrous subtype. Differential diagnoses include schwannoma and solitary fibrous tumor, which can be distinguished by their characteristic architectural patterns and immunohistochemical profiles.",
+      "rationale": "High power in fibrous/palisading region to look for nuclear pseudoinclusions, collagen, mitoses."
+    },
+    {
+      "roi_id": "slide_A_x1024_y14336_mag20",
+      "tile_id": "slide_A_x1024_y14336_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 1024,
+      "y": 14336,
+      "level0": {
+        "x": 1024,
+        "y": 14336,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated nuclei and eosinophilic cytoplasm, arranged in intersecting fascicles and whorls. There is a prominent inflammatory infiltrate and areas of hemorrhage.\n\nThe most likely diagnosis is a meningioma, specifically a fibrous or transitional subtype. The characteristic whorled pattern of spindle cells and the presence of inflammation are consistent with this diagnosis. Differential diagnoses include schwannoma, which typically shows Antoni A and B areas and Verocay bodies, and solitary fibrous tumor, which often has a more haphazard pattern and prominent staghorn vessels.",
+      "rationale": "20x in more vascular area to assess staghorn pattern and perivascular collagen."
+    },
+    {
+      "roi_id": "slide_A_x8192_y21504_mag10",
+      "tile_id": "slide_A_x8192_y21504_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 8192,
+      "y": 21504,
+      "level0": {
+        "x": 8192,
+        "y": 21504,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with prominent vascularity and areas of hemorrhage. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a meningioma, specifically a fibrous or transitional subtype.\n\nDifferential diagnoses include schwannoma, which typically shows Antoni A and B areas and Verocay bodies, and solitary fibrous tumor, which often has a more haphazard pattern and characteristic staghorn vessels.",
+      "rationale": "Clarify nature of dark areas called necrosis/hemorrhage; look for pseudopalisading, microvascular proliferation, or just hemorrhage."
+    },
+    {
+      "roi_id": "slide_A_x8192_y20480_mag20",
+      "tile_id": "slide_A_x8192_y20480_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 8192,
+      "y": 20480,
+      "level0": {
+        "x": 8192,
+        "y": 20480,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with prominent nuclear palisading and Verocay bodies. The cells have elongated, wavy nuclei and scant cytoplasm.\n\nThe most likely diagnosis is a schwannoma. Differential diagnoses include meningioma, which can also show whorls and spindle cells, but typically has more rounded nuclei and lacks Verocay bodies.",
+      "rationale": "High power in palisading/Verocay-like area; assess for Antoni A/B, hyalinized vessels, mitoses/atypia."
+    },
+    {
+      "roi_id": "slide_A_x512_y15360_mag20",
+      "tile_id": "slide_A_x512_y15360_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 512,
+      "y": 15360,
+      "level0": {
+        "x": 512,
+        "y": 15360,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles and whorls. There is a prominent inflammatory infiltrate and areas of hemorrhage.\n\nThe most likely diagnosis is a meningioma, specifically a fibrous or transitional subtype. The spindle cell morphology, fascicular and whorled architecture, and associated inflammation are characteristic features. Differential diagnoses include schwannoma, which typically shows Antoni A and B areas and Verocay bodies, and solitary fibrous tumor, which often has a more haphazard pattern and prominent staghorn vessels.",
+      "rationale": "20x near inferior edge to look for necrosis, palisading, brain tissue/reactive gliosis."
+    },
+    {
+      "roi_id": "slide_A_x2048_y6144_mag5",
+      "tile_id": "slide_A_x2048_y6144_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 2048,
+      "y": 6144,
+      "level0": {
+        "x": 2048,
+        "y": 6144,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The tissue fragments show a cellular proliferation of spindle-shaped cells arranged in fascicles and whorls, with areas of hyalinization and hemorrhage. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a meningioma, specifically a fibrous or transitional subtype.\n\nDifferential diagnoses include schwannoma, which typically shows Antoni A and B areas and Verocay bodies, and solitary fibrous tumor, which often has a more prominent hemangiopericytoma-like vascular pattern.",
+      "rationale": "Near upper-left edge to look for dural collagen/capsule and interface features."
+    },
+    {
+      "roi_id": "slide_A_x20480_y8192_mag20",
+      "tile_id": "slide_A_x20480_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20480,
+      "y": 8192,
+      "level0": {
+        "x": 20480,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and prominent whorls. The cells have elongated, wavy nuclei and scant cytoplasm, with scattered small blood vessels.\n\nThe most likely diagnosis is meningioma, specifically the fibrous subtype. The characteristic whorled pattern and spindle cell morphology are highly suggestive. Differential diagnoses include schwannoma, which typically shows Antoni A and B areas and Verocay bodies, and solitary fibrous tumor, which often has a more haphazard pattern and prominent hemangiopericytoma-like vessels.",
+      "rationale": "High power in another whorl area; look for psammoma bodies and atypia."
+    },
+    {
+      "roi_id": "slide_A_x512_y14848_mag20",
+      "tile_id": "slide_A_x512_y14848_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 512,
+      "y": 14848,
+      "level0": {
+        "x": 512,
+        "y": 14848,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with a prominent inflammatory infiltrate and areas of hemorrhage. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a meningioma, specifically a fibrous or transitional subtype, given the spindle cell morphology and whorling pattern. A solitary fibrous tumor could be considered in the differential, but the presence of whorls and the typical location in the CNS are more suggestive of meningioma.",
+      "rationale": "20x near far edge to assess any interface tissue and inflammatory infiltrate."
+    },
+    {
+      "roi_id": "slide_A_x26624_y8192_mag5",
+      "tile_id": "slide_A_x26624_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 26624,
+      "y": 8192,
+      "level0": {
+        "x": 26624,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and prominent whorls. The cells have elongated, wavy nuclei and scant cytoplasm, with areas of hyalinized stroma.\n\nThe most likely diagnosis is meningioma, specifically a fibrous or transitional subtype. The characteristic whorled pattern and spindle cell morphology are highly suggestive. Differential diagnoses include schwannoma, which typically shows Antoni A and B areas and Verocay bodies, and solitary fibrous tumor, which often has a more haphazard pattern and prominent hemangiopericytoma-like vessels.",
+      "rationale": "Upper-right peripheral for vascular pattern (staghorn?) and border."
+    },
+    {
+      "roi_id": "slide_A_x20992_y14848_mag20",
+      "tile_id": "slide_A_x20992_y14848_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20992,
+      "y": 14848,
+      "level0": {
+        "x": 20992,
+        "y": 14848,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles with elongated, wavy nuclei and eosinophilic cytoplasm. There is a fibrillary background and scattered small blood vessels.\n\nThe most likely diagnosis is a high-grade spindle cell neoplasm, such as a Malignant Peripheral Nerve Sheath Tumor (MPNST).\n\nDifferential diagnoses include:\n- Schwannoma: Typically shows Antoni A and B areas, Verocay bodies, and less cellularity.\n- Fibrosarcoma: Characterized by herringbone pattern and more uniform spindle cells.\n- Solitary Fibrous Tumor: Often shows a patternless architecture and prominent branching vessels.",
+      "rationale": "Probe mid-right for possible higher cellularity/atypia away from sampled ROIs."
+    },
+    {
+      "roi_id": "slide_A_x12288_y26624_mag5",
+      "tile_id": "slide_A_x12288_y26624_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 12288,
+      "y": 26624,
+      "level0": {
+        "x": 12288,
+        "y": 26624,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular neoplasm with a prominent vascular component and areas of hemorrhage. The cells are relatively uniform with round to oval nuclei and scant cytoplasm.\n\nThe most likely diagnosis is a hemangioblastoma. Differential diagnoses include metastatic renal cell carcinoma, which can also be highly vascular and hemorrhagic, and a primary CNS lymphoma, which can present as a mass with hemorrhage but typically shows a different cellular morphology.",
+      "rationale": "Lower-central edge for possible brain parenchyma infiltration or capsule."
+    },
+    {
+      "roi_id": "slide_A_x22528_y15360_mag10",
+      "tile_id": "slide_A_x22528_y15360_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 22528,
+      "y": 15360,
+      "level0": {
+        "x": 22528,
+        "y": 15360,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with elongated, wavy nuclei and scant cytoplasm. There is a prominent storiform pattern and scattered blood vessels.\n\nThe most likely diagnosis is a meningioma, specifically a fibrous or transitional subtype. The characteristic whorled pattern and spindle cell morphology are highly suggestive. Differential diagnoses include schwannoma, which typically shows Antoni A and B areas and Verocay bodies, and solitary fibrous tumor, which often has a more haphazard pattern and prominent hemangiopericytoma-like vessels.",
+      "rationale": "Broader context around suspected higher-grade spindle area to see necrosis/vascular pattern/hypercellularity."
+    },
+    {
+      "roi_id": "slide_A_x20480_y14336_mag10",
+      "tile_id": "slide_A_x20480_y14336_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 20480,
+      "y": 14336,
+      "level0": {
+        "x": 20480,
+        "y": 14336,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with elongated nuclei and eosinophilic cytoplasm. There is a prominent storiform pattern and areas of hyalinized stroma.\n\nThe most likely diagnosis is a meningioma, specifically a fibrous or transitional subtype. The characteristic whorling pattern and spindle cell morphology are highly suggestive. Differential diagnoses include schwannoma, which typically shows Antoni A and B areas and Verocay bodies, and solitary fibrous tumor, which often has a more haphazard pattern and prominent hemangiopericytoma-like vessels.",
+      "rationale": "Confirm architecture at 10x in same area called high-grade spindle neoplasm."
+    },
+    {
+      "roi_id": "slide_A_x4096_y4096_mag2",
+      "tile_id": "slide_A_x4096_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 4096,
+      "y": 4096,
+      "level0": {
+        "x": 4096,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with areas of nuclear palisading and Verocay bodies. The cells have elongated, wavy nuclei and scant cytoplasm.\n\nThe most likely diagnosis is a schwannoma. Differential diagnoses include meningioma, which typically shows meningothelial whorls and psammoma bodies, and solitary fibrous tumor, which often has a more haphazard pattern and prominent vasculature.",
+      "rationale": "Near extreme top-left edge of tissue to look for capsule/dural collagen or attached brain."
+    },
+    {
+      "roi_id": "slide_A_x23552_y12288_mag10",
+      "tile_id": "slide_A_x23552_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 23552,
+      "y": 12288,
+      "level0": {
+        "x": 23552,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and prominent whorls. The cells have elongated, wavy nuclei and scant cytoplasm, with areas of hyalinized stroma.\n\nThe most likely diagnosis is meningioma, specifically the fibrous subtype. The characteristic whorled pattern and spindle cell morphology are highly suggestive. Differential diagnoses include schwannoma, which typically shows Antoni A and B areas and Verocay bodies, and solitary fibrous tumor, which often has a more haphazard pattern and prominent hemangiopericytoma-like vessels.",
+      "rationale": "Check far right-upper mid for atypia/necrosis."
+    },
+    {
+      "roi_id": "slide_A_x24576_y4096_mag2",
+      "tile_id": "slide_A_x24576_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 24576,
+      "y": 4096,
+      "level0": {
+        "x": 24576,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with areas of nuclear palisading and Verocay bodies. The cells have elongated, wavy nuclei and scant cytoplasm.\n\nThe most likely diagnosis is a schwannoma.\n\nDifferential diagnoses include meningioma, which can also show spindle cells and whorls but typically has more rounded nuclei and psammoma bodies, and solitary fibrous tumor, which is characterized by a patternless architecture and prominent hemangiopericytoma-like vessels.",
+      "rationale": "Extreme top-right edge for interface/capsule and pattern."
+    },
+    {
+      "roi_id": "slide_A_x24576_y20480_mag10",
+      "tile_id": "slide_A_x24576_y20480_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 24576,
+      "y": 20480,
+      "level0": {
+        "x": 24576,
+        "y": 20480,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and prominent whorls. The cells have elongated, wavy nuclei and scant cytoplasm, with scattered small blood vessels.\n\nThe most likely diagnosis is meningioma, specifically a fibrous subtype. Differential diagnoses include schwannoma, which typically shows Antoni A and B areas and Verocay bodies, and solitary fibrous tumor, which often has a more haphazard pattern and prominent hemangiopericytoma-like vessels.",
+      "rationale": "Check far right-lower for atypical foci."
+    },
+    {
+      "roi_id": "slide_A_x12288_y17408_mag10",
+      "tile_id": "slide_A_x12288_y17408_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 12288,
+      "y": 17408,
+      "level0": {
+        "x": 12288,
+        "y": 17408,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with elongated nuclei and a prominent blood vessel. The morphology is consistent with a meningioma, specifically a fibrous subtype.",
+      "rationale": "Assess mid-lower central area for necrosis/mitoses."
+    },
+    {
+      "roi_id": "slide_A_x28672_y12288_mag2",
+      "tile_id": "slide_A_x28672_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 28672,
+      "y": 12288,
+      "level0": {
+        "x": 28672,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with areas of nuclear palisading and Verocay bodies. The cells have elongated, wavy nuclei and scant cytoplasm.\n\nThe most likely diagnosis is a schwannoma. Differential diagnoses include neurofibroma, which typically lacks Verocay bodies and has a more haphazard arrangement of cells, and meningioma, which often shows whorls but has different cellular morphology and immunohistochemical profile.",
+      "rationale": "Right lateral edge mid for border/interface."
+    },
+    {
+      "roi_id": "slide_A_x4096_y24576_mag2",
+      "tile_id": "slide_A_x4096_y24576_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 4096,
+      "y": 24576,
+      "level0": {
+        "x": 4096,
+        "y": 24576,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular neoplasm with a prominent vascular network and areas of hemorrhage. The cells are relatively uniform with round to oval nuclei and scant cytoplasm.\n\nThe most likely diagnosis is a CNS endocrine neoplasm, such as a pituitary adenoma or pituitary carcinoma, given the cellular morphology and vascular pattern. Differential diagnoses include other highly vascular tumors like hemangioblastoma or metastatic carcinoma, which can be distinguished by their unique cellular features and clinical context.",
+      "rationale": "Bottom-left edge for interface and hemorrhage."
+    },
+    {
+      "roi_id": "slide_A_x12288_y28672_mag2",
+      "tile_id": "slide_A_x12288_y28672_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 28672,
+      "level0": {
+        "x": 12288,
+        "y": 28672,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular neoplasm with a prominent vascular network and areas of hemorrhage. The cells are relatively uniform with round to oval nuclei and scant cytoplasm.\n\nThe most likely diagnosis is a CNS endocrine neoplasm, such as a pituitary adenoma or pituitary carcinoma, given the cellular morphology and vascular pattern. Differential diagnoses include other highly vascular tumors like hemangioblastoma or metastatic carcinoma, which can be distinguished by their unique cellular features and clinical context.",
+      "rationale": "Inferior edge midline for any adjacent brain or capsule."
+    },
+    {
+      "roi_id": "slide_A_x22528_y15360_mag20",
+      "tile_id": "slide_A_x22528_y15360_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 22528,
+      "y": 15360,
+      "level0": {
+        "x": 22528,
+        "y": 15360,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated, wavy nuclei arranged in intersecting fascicles and whorls. The stroma is collagenous with areas of hyalinization and scattered small blood vessels.\n\nThe most likely diagnosis is a meningioma, specifically a fibrous or transitional subtype. The characteristic features include the spindle cell morphology, wavy nuclei, and fascicular/whorled growth pattern. The presence of collagenous stroma and hyalinization further supports this diagnosis.\n\nDifferential diagnoses to consider include schwannoma, which typically shows Antoni A and B areas and Verocay bodies, and solitary fibrous tumor, which often has a more haphazard pattern and prominent hemangiopericytoma-like vessels.",
+      "rationale": "High power in storiform area to look for mitoses/atypia/collagen."
+    },
+    {
+      "roi_id": "slide_A_x12288_y17408_mag20",
+      "tile_id": "slide_A_x12288_y17408_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 12288,
+      "y": 17408,
+      "level0": {
+        "x": 12288,
+        "y": 17408,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with elongated nuclei and eosinophilic cytoplasm. Prominent blood vessels are also present.\n\nThe most likely diagnosis is a meningioma, specifically a fibrous subtype.\n\nDifferential diagnoses include schwannoma, which typically shows Antoni A and B areas and Verocay bodies, and solitary fibrous tumor, which often has a more haphazard pattern and characteristic staghorn vessels.",
+      "rationale": "High power near prominent vessel to assess vascular pattern (staghorn vs hyalinized) and cytology."
+    },
+    {
+      "roi_id": "slide_A_x20480_y20480_mag20",
+      "tile_id": "slide_A_x20480_y20480_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20480,
+      "y": 20480,
+      "level0": {
+        "x": 20480,
+        "y": 20480,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated, wavy nuclei arranged in intersecting fascicles and whorls. The stroma is fibrillary with areas of hyalinization.\n\nThe most likely diagnosis is a schwannoma. Differential diagnoses include meningioma, which typically shows whorls and psammoma bodies, and solitary fibrous tumor, which often has a more haphazard pattern and prominent vasculature.",
+      "rationale": "High power in another representative area for mitotic count/necrosis."
+    },
+    {
+      "roi_id": "slide_A_x8192_y21504_mag20",
+      "tile_id": "slide_A_x8192_y21504_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 8192,
+      "y": 21504,
+      "level0": {
+        "x": 8192,
+        "y": 21504,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with prominent vascularity and areas of hemorrhage. The cells have elongated nuclei with fine chromatin and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a meningioma, specifically a fibrous subtype. The characteristic features include the spindle cell morphology, fascicular and whorled growth pattern, and prominent vascularity. The presence of hemorrhage is also noted.\n\nDifferential diagnoses to consider include schwannoma and solitary fibrous tumor. Schwannomas typically show Antoni A and B areas and Verocay bodies, which are not seen here. Solitary fibrous tumors often have a more haphazard pattern and prominent staghorn vessels, and may show STAT6 nuclear positivity on immunohistochemistry.",
+      "rationale": "Assess reported hemorrhagic/possible necrosis area; look for true necrosis, mitoses, high-grade features."
+    },
+    {
+      "roi_id": "slide_A_x7680_y8192_mag20",
+      "tile_id": "slide_A_x7680_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 7680,
+      "y": 8192,
+      "level0": {
+        "x": 7680,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated, wavy nuclei arranged in intersecting fascicles and whorls, with a prominent fibrillary background and scattered small blood vessels.\n\nThe most likely diagnosis is a meningioma, specifically a fibrous subtype.\n\nDifferential diagnoses include schwannoma, which typically shows Antoni A and B areas and Verocay bodies, and solitary fibrous tumor, which often has a more haphazard pattern and prominent branching vessels.",
+      "rationale": "Evaluate vascular/hyalinized area for staghorn pattern vs thick-walled vessels; support SFT/HPC vs meningioma."
+    },
+    {
+      "roi_id": "slide_A_x20480_y14336_mag20",
+      "tile_id": "slide_A_x20480_y14336_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20480,
+      "y": 14336,
+      "level0": {
+        "x": 20480,
+        "y": 14336,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated, wavy nuclei arranged in intersecting fascicles and whorls. The stroma is fibrillary with areas of hyalinization.\n\nThe most likely diagnosis is a meningioma, specifically a fibrous subtype.\n\nDifferential diagnoses include schwannoma, which typically shows nuclear palisading and Verocay bodies, and solitary fibrous tumor, which often has a more prominent hemangiopericytoma-like vascular pattern.",
+      "rationale": "Representative whorled/fascicular spindle-cell area to confirm meningioma features (whorls, collagen, nuclear pseudoinclusions)."
+    },
+    {
+      "roi_id": "slide_A_x7680_y20480_mag20",
+      "tile_id": "slide_A_x7680_y20480_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 7680,
+      "y": 20480,
+      "level0": {
+        "x": 7680,
+        "y": 20480,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with scattered inflammatory cells and areas of hemorrhage. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is meningioma, specifically a fibrous subtype.\n\nDifferential diagnoses include schwannoma, which typically shows Antoni A and B areas and Verocay bodies, and solitary fibrous tumor, which often has a more prominent hemangiopericytoma-like vascular pattern.",
+      "rationale": "Examine schwannoma-like palisading/Verocay area; check for Antoni A/B, hyalinized vessels, EMA-like whorls."
+    },
+    {
+      "roi_id": "slide_A_x13312_y24576_mag20",
+      "tile_id": "slide_A_x13312_y24576_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 13312,
+      "y": 24576,
+      "level0": {
+        "x": 13312,
+        "y": 24576,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated nuclei arranged in fascicles, along with a prominent inflammatory infiltrate and areas of hemorrhage.",
+      "rationale": "Rounder-cell/highly vascular area to exclude separate component/metastasis/hemangioblastoma."
+    }
+  ]
+}

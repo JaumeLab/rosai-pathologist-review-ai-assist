@@ -1,0 +1,1405 @@
+{
+  "case_id": "sem1123_case8",
+  "source": "slideseek-ai-assist",
+  "model": "gpt-5.4",
+  "generated_at": "2026-05-22T09:19:31.825097+00:00",
+  "organ": "Hepatobiliary-Pancreas",
+  "primary_dx": "Fibrolamellar Hepatocellular Carcinoma, Provisional",
+  "differential_dx": [
+    "Conventional Hepatocellular Carcinoma, Eosinophilic/Oncocytic Variant",
+    "Adult Hepatoblastoma, Epithelial Type / Hepatocellular Neoplasm NOS"
+  ],
+  "microscopic_findings": [
+    {
+      "text": "Tumor forms **nests and trabeculae** of hepatoid cells with intervening **broad fibrous stroma**.",
+      "roi_ids": [
+        "slide_A_x8192_y8192_mag10",
+        "slide_A_x20480_y16384_mag10"
+      ]
+    },
+    {
+      "text": "Neoplastic cells are large and polygonal with abundant **granular eosinophilic cytoplasm** and **prominent nucleoli**.",
+      "roi_ids": [
+        "slide_A_x20480_y16384_mag20",
+        "slide_A_x8192_y15360_mag20"
+      ]
+    },
+    {
+      "text": "Focal **pseudoglandular spaces** are present within the tumor without convincing true gland formation.",
+      "roi_ids": [
+        "slide_A_x16384_y24576_mag10"
+      ]
+    },
+    {
+      "text": "There are foci of **geographic necrosis** and **hemorrhage** within the neoplasm.",
+      "roi_ids": [
+        "slide_A_x32768_y24576_mag10",
+        "slide_A_x20992_y14848_mag20"
+      ]
+    }
+  ],
+  "interpretation": "The lesion is a **primary hepatocellular malignant neoplasm** composed of oncocytic polygonal cells in **trabecular/nested architecture** with prominent intervening fibrosis. In a young adult, this combination favors **fibrolamellar hepatocellular carcinoma**. However, unequivocal classic **lamellar collagen bands** or other definitive fibrolamellar-specific cytoplasmic features are not clearly established in the reviewed ROIs, so **conventional oncocytic HCC** remains an important alternative. Lack of convincing true glandular differentiation or embryonal/small blue cell elements argues against major mimics.",
+  "num_rois": 85,
+  "tiles": [
+    {
+      "roi_id": "slide_A_x20480_y16384_mag2",
+      "tile_id": "slide_A_x20480_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 20480,
+      "y": 16384,
+      "level0": {
+        "x": 20480,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular neoplasm with a predominant solid growth pattern and areas of necrosis. The tumor cells are relatively uniform with round to oval nuclei and scant cytoplasm, arranged in nests and cords.\n\nThe most likely diagnosis is hepatoblastoma, specifically the embryonal subtype, given the patient's age and the described morphology. Differential diagnoses include hepatocellular carcinoma, which is less common in this age group, and metastatic neuroendocrine tumor, which would typically show different architectural patterns and cellular features.",
+      "rationale": "Low-power scan of central tumor to identify viable vs necrotic and fibrous septa."
+    },
+    {
+      "roi_id": "slide_A_x16384_y16384_mag1",
+      "tile_id": "slide_A_x16384_y16384_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 16384,
+      "y": 16384,
+      "level0": {
+        "x": 16384,
+        "y": 16384,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a neoplasm with a prominent trabecular and nested growth pattern separated by fibrous stroma. The tumor cells are relatively uniform with round to oval nuclei and moderate eosinophilic cytoplasm.\n\nThe most likely diagnosis is Hepatocellular Carcinoma (HCC). The trabecular architecture and cellular morphology are characteristic of HCC. The presence of fibrous stroma and necrosis are also consistent with this diagnosis.\n\nDifferential diagnoses include metastatic carcinoma, which can sometimes mimic HCC, and cholangiocarcinoma, which typically shows a glandular or ductal pattern. Immunohistochemical stains for hepatocellular markers (e.g., HepPar1, Arginase-1) and biliary markers (e.g., CK7, CK19) would be helpful in distinguishing these entities.",
+      "rationale": "Global low-power survey of entire section for lobulation, septa, necrosis."
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag2",
+      "tile_id": "slide_A_x8192_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a multinodular neoplasm with a prominent fibrous stroma and areas of necrosis. The tumor cells are arranged in nests and cords with eosinophilic cytoplasm and round nuclei.\n\nThe most likely diagnosis is hepatocellular carcinoma, given the multinodular growth pattern, fibrous stroma, and cellular morphology. Differential diagnoses include metastatic carcinoma, which can also present as a multinodular liver mass, and cholangiocarcinoma, which typically shows glandular differentiation and desmoplastic stroma.",
+      "rationale": "Sample left-upper portion—assess lobules and septa/viability."
+    },
+    {
+      "roi_id": "slide_A_x8192_y16384_mag1",
+      "tile_id": "slide_A_x8192_y16384_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 8192,
+      "y": 16384,
+      "level0": {
+        "x": 8192,
+        "y": 16384,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a cellular neoplasm with a prominent lobulated architecture separated by fibrous septa. The tumor cells are arranged in nests and cords with areas of necrosis and hemorrhage.\n\nThe most likely diagnosis is Hepatocellular Carcinoma, given the patient's age, clinical presentation, and the morphologic features of a cellular neoplasm with a lobulated pattern and necrosis in the liver.\n\nDifferential diagnoses include metastatic carcinoma, which can also present as a liver mass with necrosis, and cholangiocarcinoma, which typically shows a more glandular or ductal pattern.",
+      "rationale": "Low-power scan left side; look for residual liver/tumor interface and lobulation."
+    },
+    {
+      "roi_id": "slide_A_x32768_y8192_mag2",
+      "tile_id": "slide_A_x32768_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 32768,
+      "y": 8192,
+      "level0": {
+        "x": 32768,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular neoplasm with a prominent trabecular and nested growth pattern separated by fibrous stroma. The cells have round to oval nuclei and moderate eosinophilic cytoplasm.\n\nThe most likely diagnosis is Hepatocellular Carcinoma.\n\nDifferential diagnoses include metastatic neuroendocrine tumor, which can also show a trabecular pattern, and metastatic renal cell carcinoma, which can have clear or eosinophilic cytoplasm. Immunohistochemistry for markers such as HepPar1, Arginase-1, and Glypican-3 would be helpful in confirming hepatocellular differentiation.",
+      "rationale": "Sample right-upper portion—look for interface/background liver if present."
+    },
+    {
+      "roi_id": "slide_A_x32768_y16384_mag1",
+      "tile_id": "slide_A_x32768_y16384_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 32768,
+      "y": 16384,
+      "level0": {
+        "x": 32768,
+        "y": 16384,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a cellular neoplasm with a prominent trabecular and nested pattern separated by fibrous stroma. The cells have eosinophilic cytoplasm and round to oval nuclei. Areas of hemorrhage and necrosis are also present.\n\nThe most likely diagnosis is hepatocellular carcinoma. The trabecular pattern, cellular morphology, and presence of necrosis and hemorrhage are characteristic features. Differential diagnoses include metastatic carcinoma, which can also present with a trabecular pattern, and cholangiocarcinoma, which typically shows glandular differentiation.",
+      "rationale": "Low-power scan right side; assess fibrous bands and any distinctive central scar-like area."
+    },
+    {
+      "roi_id": "slide_A_x32768_y24576_mag2",
+      "tile_id": "slide_A_x32768_y24576_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 32768,
+      "y": 24576,
+      "level0": {
+        "x": 32768,
+        "y": 24576,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular neoplasm with a prominent trabecular and nested pattern separated by fibrous septa. The cells are relatively uniform with round to oval nuclei and moderate eosinophilic cytoplasm.\n\nThe most likely diagnosis is hepatocellular carcinoma. Differential diagnoses include metastatic neuroendocrine tumor, which can have a nested pattern but typically shows more uniform cells with salt-and-pepper chromatin, and metastatic renal cell carcinoma, which often has clear cytoplasm and a different vascular pattern.",
+      "rationale": "Survey right lower portion for hemorrhage/necrosis and viable rim."
+    },
+    {
+      "roi_id": "slide_A_x16384_y24576_mag1",
+      "tile_id": "slide_A_x16384_y24576_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 16384,
+      "y": 24576,
+      "level0": {
+        "x": 16384,
+        "y": 24576,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a cellular neoplasm with a predominant solid growth pattern and areas of necrosis. The tumor cells are relatively uniform with round to oval nuclei and scant cytoplasm.\n\nThe most likely diagnosis is a poorly differentiated neuroendocrine carcinoma, such as a large cell neuroendocrine carcinoma.\n\nDifferential diagnoses include hepatocellular carcinoma, which typically shows trabecular or pseudoglandular patterns and more abundant eosinophilic cytoplasm, and metastatic carcinoma, which would require clinical correlation and potentially immunohistochemistry to confirm the primary site.",
+      "rationale": "Low-power scan inferior area where greener gaps suggest necrosis/hemorrhage/calcification."
+    },
+    {
+      "roi_id": "slide_A_x20480_y24576_mag2",
+      "tile_id": "slide_A_x20480_y24576_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 20480,
+      "y": 24576,
+      "level0": {
+        "x": 20480,
+        "y": 24576,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular neoplasm with a predominant trabecular and pseudoglandular pattern, featuring cells with eosinophilic cytoplasm and round nuclei. There is also a prominent desmoplastic stromal reaction.\n\nThe most likely diagnosis is Hepatocellular Carcinoma.\n\nDifferential diagnoses include metastatic carcinoma, which can also present with a trabecular pattern and desmoplastic stroma, and cholangiocarcinoma, which typically shows a more prominent glandular pattern and different cytologic features.",
+      "rationale": "Sample lower-central portion—evaluate pale areas/necrosis/hemorrhage."
+    },
+    {
+      "roi_id": "slide_A_x8192_y24576_mag2",
+      "tile_id": "slide_A_x8192_y24576_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 8192,
+      "y": 24576,
+      "level0": {
+        "x": 8192,
+        "y": 24576,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular neoplasm with a prominent trabecular and nested growth pattern separated by fibrous stroma. The neoplastic cells have eosinophilic cytoplasm and round to oval nuclei.\n\nThe most likely diagnosis is Hepatocellular Carcinoma.\n\nDifferential diagnoses include metastatic neuroendocrine tumor, which can also show a trabecular pattern, but typically has more uniform cells with salt-and-pepper chromatin. Metastatic renal cell carcinoma, particularly the clear cell type, can also present with a trabecular pattern and eosinophilic cytoplasm, but usually has a more prominent vascular network and clear cell change.",
+      "rationale": "Survey left lower portion for additional viable areas."
+    },
+    {
+      "roi_id": "slide_A_x16384_y16384_mag10",
+      "tile_id": "slide_A_x16384_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 16384,
+      "y": 16384,
+      "level0": {
+        "x": 16384,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular neoplasm with large cells exhibiting abundant eosinophilic cytoplasm and prominent nucleoli, arranged in nests and cords. There is extensive hemorrhage and necrosis.\n\nThe most likely diagnosis is hepatocellular carcinoma. Differential diagnoses include metastatic carcinoma, which would typically show different cellular morphology and lack the characteristic eosinophilic cytoplasm and prominent nucleoli of hepatocytes.",
+      "rationale": "Assess trabecular vs nested architecture; look for lamellar fibrosis and cytologic features of fibrolamellar HCC."
+    },
+    {
+      "roi_id": "slide_A_x4096_y20480_mag2",
+      "tile_id": "slide_A_x4096_y20480_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 4096,
+      "y": 20480,
+      "level0": {
+        "x": 4096,
+        "y": 20480,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular neoplasm with a prominent trabecular and nested growth pattern separated by fibrous stroma. The cells have eosinophilic cytoplasm and round to oval nuclei. Areas of hemorrhage and necrosis are also present.\n\nThe most likely diagnosis is hepatocellular carcinoma. The trabecular architecture, cellular morphology, and presence of necrosis and hemorrhage are characteristic features. Differential diagnoses include metastatic carcinoma, which can mimic HCC, and cholangiocarcinoma, which typically shows glandular differentiation and desmoplastic stroma.",
+      "rationale": "Sample left-lower portion—assess septa and any entrapped bile ducts."
+    },
+    {
+      "roi_id": "slide_A_x8192_y15360_mag10",
+      "tile_id": "slide_A_x8192_y15360_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 8192,
+      "y": 15360,
+      "level0": {
+        "x": 8192,
+        "y": 15360,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular neoplasm with a solid growth pattern composed of cells with eosinophilic cytoplasm and round nuclei, arranged in nests and cords. There is also a prominent stromal component with areas of hyalinization and myxoid change.\n\nThe most likely diagnosis is hepatocellular carcinoma, given the cellular morphology and growth pattern in the context of a liver mass. Differential diagnoses include metastatic carcinoma, which can have similar morphology, and cholangiocarcinoma, which typically shows glandular differentiation.",
+      "rationale": "Evaluate lobulated area with septa; check for glands/mucin or inflammatory infiltrate."
+    },
+    {
+      "roi_id": "slide_A_x20480_y16384_mag10",
+      "tile_id": "slide_A_x20480_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 20480,
+      "y": 16384,
+      "level0": {
+        "x": 20480,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular neoplasm with a prominent desmoplastic stromal reaction. The neoplastic cells are arranged in nests and cords and exhibit eosinophilic cytoplasm and round to oval nuclei with visible nucleoli.\n\nThe most likely diagnosis is Hepatocellular Carcinoma (HCC).\n\nDifferential diagnoses include:\n- Metastatic carcinoma: This would typically show a different growth pattern and cellular morphology, often with glandular or squamous differentiation.\n- Cholangiocarcinoma: This would show a more prominent glandular or ductal pattern and would typically lack the eosinophilic cytoplasm seen in HCC.",
+      "rationale": "Central ROI: assess architecture (trabeculae vs sheets), stroma, necrosis interface."
+    },
+    {
+      "roi_id": "slide_A_x40960_y16384_mag1",
+      "tile_id": "slide_A_x40960_y16384_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 40960,
+      "y": 16384,
+      "level0": {
+        "x": 40960,
+        "y": 16384,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a cellular neoplasm with a prominent fibrous capsule and a lobulated architecture. The tumor cells are arranged in nests and cords with intervening fibrous stroma and areas of hemorrhage.\n\nThe most likely diagnosis is hepatocellular carcinoma, given the patient's age, clinical presentation, and the gross and microscopic features of a large, lobulated, hemorrhagic liver mass. Differential diagnoses include metastatic carcinoma, which can present as a large liver mass, and cholangiocarcinoma, which typically has a more desmoplastic stroma and different cellular morphology.",
+      "rationale": "Survey far right/central to confirm multilobulated pattern and any background liver edge."
+    },
+    {
+      "roi_id": "slide_A_x32768_y16384_mag10",
+      "tile_id": "slide_A_x32768_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 32768,
+      "y": 16384,
+      "level0": {
+        "x": 32768,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular neoplasm with a pseudopapillary architecture, composed of cells with eosinophilic cytoplasm and round nuclei, associated with hemorrhage and necrosis.\n\nThe most likely diagnosis is a solid pseudopapillary neoplasm of the pancreas.\n\nDifferential diagnoses include hepatocellular carcinoma and neuroendocrine tumor, which can be distinguished by their characteristic architectural patterns and cellular features.",
+      "rationale": "Right-sided tumor region; search for distinctive stroma (myxohyaline), vascular channels, or clear cells."
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag10",
+      "tile_id": "slide_A_x8192_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular neoplasm with a solid growth pattern and prominent pseudoglandular spaces. The cells have abundant eosinophilic cytoplasm and round to oval nuclei with visible nucleoli. The stroma is fibrovascular.\n\nThe most likely diagnosis is hepatocellular carcinoma, given the hepatobiliary location, patient age, and the described morphology. The presence of pseudoglandular spaces and eosinophilic cytoplasm are characteristic features. Differential diagnoses include metastatic carcinoma, which can mimic HCC, and cholangiocarcinoma, which typically shows more glandular differentiation and desmoplastic stroma.",
+      "rationale": "Left upper ROI: evaluate fibrous stroma for lamellar fibrosis and cytology."
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag1",
+      "tile_id": "slide_A_x8192_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a multinodular lesion with cellular nodules separated by fibrous septa. The nodules are composed of cells with eosinophilic cytoplasm and round nuclei, with areas of hemorrhage and necrosis.\n\nThe most likely diagnosis is hepatocellular carcinoma, given the multinodular architecture, cellular morphology, and presence of necrosis and hemorrhage in a liver mass.\n\nDifferential diagnoses include metastatic carcinoma, which can present as a multinodular liver mass, and cholangiocarcinoma, which typically shows glandular differentiation and desmoplastic stroma.",
+      "rationale": "Survey far left edge for possible non-neoplastic liver/interface."
+    },
+    {
+      "roi_id": "slide_A_x16384_y24576_mag10",
+      "tile_id": "slide_A_x16384_y24576_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 16384,
+      "y": 24576,
+      "level0": {
+        "x": 16384,
+        "y": 24576,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular neoplasm with a predominant trabecular pattern and areas of pseudoglandular formation. The cells have eosinophilic cytoplasm and round to oval nuclei with prominent nucleoli, and there is a desmoplastic stromal reaction.\n\nThe most likely diagnosis is Hepatocellular Carcinoma.\n\nDifferential diagnoses include metastatic carcinoma, which can mimic HCC, and cholangiocarcinoma, which typically shows more glandular differentiation and lacks the trabecular pattern.",
+      "rationale": "Inferior solid/necrotic-appearing area; rule out sarcomatoid/vascular/neuroendocrine-like patterns."
+    },
+    {
+      "roi_id": "slide_A_x32768_y8192_mag10",
+      "tile_id": "slide_A_x32768_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 32768,
+      "y": 8192,
+      "level0": {
+        "x": 32768,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords separated by fibrous stroma. The cells have abundant eosinophilic cytoplasm and round to oval nuclei with prominent nucleoli. Areas of hemorrhage and necrosis are also present.\n\nThe most likely diagnosis is hepatocellular carcinoma. The differential diagnosis includes metastatic carcinoma, which can also present as a cellular proliferation in the liver, but the morphology is more consistent with a primary hepatic neoplasm.",
+      "rationale": "Right upper ROI: check for fibrolamellar features, pale bodies, bile, oncocytic cells."
+    },
+    {
+      "roi_id": "slide_A_x20480_y16384_mag5",
+      "tile_id": "slide_A_x20480_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 20480,
+      "y": 16384,
+      "level0": {
+        "x": 20480,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular neoplasm with a predominant trabecular and nested pattern, separated by fibrous stroma. The cells have eosinophilic cytoplasm and round to oval nuclei with visible nucleoli. Areas of necrosis and hemorrhage are also present.\n\nThe most likely diagnosis is Hepatocellular Carcinoma.\n\nDifferential diagnoses include metastatic carcinoma, which can mimic HCC, and cholangiocarcinoma, which typically shows glandular differentiation and desmoplastic stroma. Immunohistochemistry for markers such as HepPar1, Arginase-1, and Glypican-3 would be helpful in confirming the diagnosis of HCC.",
+      "rationale": "At higher low-power, assess septa composition and presence of ductular structures."
+    },
+    {
+      "roi_id": "slide_A_x15360_y11776_mag20",
+      "tile_id": "slide_A_x15360_y11776_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 15360,
+      "y": 11776,
+      "level0": {
+        "x": 15360,
+        "y": 11776,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of large cells with abundant eosinophilic cytoplasm and round nuclei, arranged in nests and cords with prominent sinusoidal vasculature. There is also a background of smaller cells with hyperchromatic nuclei.\n\nThe most likely diagnosis is hepatocellular carcinoma, given the cellular morphology and architectural pattern. Differential diagnoses include metastatic carcinoma, which can mimic hepatocellular carcinoma, and cholangiocarcinoma, which typically shows glandular differentiation.",
+      "rationale": "High-power in central tumor to assess cytology (fibrolamellar large polygonal cells), bile, pale bodies, and inflammation."
+    },
+    {
+      "roi_id": "slide_A_x32768_y24576_mag10",
+      "tile_id": "slide_A_x32768_y24576_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 32768,
+      "y": 24576,
+      "level0": {
+        "x": 32768,
+        "y": 24576,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular neoplasm with a predominant solid growth pattern and areas of necrosis and hemorrhage. The tumor cells have abundant eosinophilic cytoplasm and round to oval nuclei with prominent nucleoli.\n\nThe most likely diagnosis is hepatocellular carcinoma, given the hepatobiliary location, patient age, and morphologic features. Differential diagnoses include metastatic carcinoma, which can mimic HCC, and cholangiocarcinoma, which typically shows glandular differentiation.",
+      "rationale": "Right lower ROI: evaluate viable vs necrotic, vascular pattern."
+    },
+    {
+      "roi_id": "slide_A_x8192_y24576_mag10",
+      "tile_id": "slide_A_x8192_y24576_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 8192,
+      "y": 24576,
+      "level0": {
+        "x": 8192,
+        "y": 24576,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords with intervening fibrous stroma. The cells have eosinophilic cytoplasm and round to oval nuclei with prominent nucleoli. Areas of necrosis and hemorrhage are also present.\n\nThe most likely diagnosis is Hepatocellular Carcinoma.\n\nDifferential diagnoses include metastatic carcinoma, which can mimic HCC, and cholangiocarcinoma, which typically shows glandular differentiation and desmoplastic stroma.",
+      "rationale": "Left lower ROI: look for alternate morphology (spindle/myxoid/hemorrhagic)."
+    },
+    {
+      "roi_id": "slide_A_x8192_y15360_mag20",
+      "tile_id": "slide_A_x8192_y15360_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 8192,
+      "y": 15360,
+      "level0": {
+        "x": 8192,
+        "y": 15360,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of large cells with abundant eosinophilic cytoplasm and prominent nucleoli, arranged in nests and cords. Scattered cells contain clear cytoplasmic vacuoles, and there is a background of fibrous stroma.\n\nThe most likely diagnosis is hepatocellular carcinoma, given the hepatobiliary location, large eosinophilic cells with prominent nucleoli, and architectural pattern. Differential diagnoses include metastatic carcinoma, which can mimic hepatocellular carcinoma, and cholangiocarcinoma, which typically shows glandular differentiation and desmoplastic stroma.",
+      "rationale": "High-power in stromal hyalinized/myxoid area to evaluate for lamellar fibrosis vs myxohyaline stroma (EHE) and inflammatory cells."
+    },
+    {
+      "roi_id": "slide_A_x20480_y24576_mag5",
+      "tile_id": "slide_A_x20480_y24576_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 20480,
+      "y": 24576,
+      "level0": {
+        "x": 20480,
+        "y": 24576,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular neoplasm with a predominant trabecular and nested pattern, composed of cells with eosinophilic cytoplasm and round to oval nuclei. There is a prominent desmoplastic stromal reaction and areas of necrosis.\n\nThe most likely diagnosis is Hepatocellular Carcinoma.\n\nDifferential diagnoses include metastatic carcinoma, which can also present as a cellular neoplasm with a trabecular pattern and desmoplastic stroma. However, the presence of eosinophilic cytoplasm and the clinical context of hepatomegaly and weight loss strongly favor a primary liver malignancy. Immunohistochemical stains for hepatocellular markers (e.g., HepPar1, Arginase-1) and markers for common metastatic carcinomas (e.g., CK7, CK20, TTF-1) would be helpful in confirming the diagnosis.",
+      "rationale": "Assess necrosis/hemorrhage distribution and architecture in lower central area."
+    },
+    {
+      "roi_id": "slide_A_x32768_y16384_mag20",
+      "tile_id": "slide_A_x32768_y16384_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 32768,
+      "y": 16384,
+      "level0": {
+        "x": 32768,
+        "y": 16384,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of large cells with abundant eosinophilic cytoplasm and prominent nucleoli, arranged in nests and cords. There is also a background of hemorrhage and necrosis.\n\nThe most likely diagnosis is hepatocellular carcinoma, given the large eosinophilic cells with prominent nucleoli and the clinical context of a large liver mass in a young patient with weight loss.\n\nDifferential diagnoses include metastatic renal cell carcinoma, which can also show large eosinophilic cells, and metastatic melanoma, which can have pleomorphic cells with prominent nucleoli. Immunohistochemistry would be helpful to confirm the diagnosis.",
+      "rationale": "Clarify pseudopapillary impression; look for true fibrovascular cores vs trabeculae and endothelial-lined spaces."
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag5",
+      "tile_id": "slide_A_x8192_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular neoplasm arranged in nests and cords with a prominent fibrous stroma. The cells have eosinophilic to clear cytoplasm and round to oval nuclei with visible nucleoli. Areas of necrosis and hemorrhage are present.\n\nThe most likely diagnosis is Hepatocellular Carcinoma.\n\nDifferential diagnoses include:\n- Metastatic Carcinoma: Considered due to the patient's age and weight loss, but the morphology is more typical of a primary liver tumor.\n- Cholangiocarcinoma: Less likely given the cellular morphology and growth pattern, but can be considered in the differential for a primary liver neoplasm.",
+      "rationale": "Assess nodular/lobulated architecture with fibrous bands in upper left area."
+    },
+    {
+      "roi_id": "slide_A_x20480_y16384_mag20",
+      "tile_id": "slide_A_x20480_y16384_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20480,
+      "y": 16384,
+      "level0": {
+        "x": 20480,
+        "y": 16384,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular neoplasm composed of large cells with abundant eosinophilic cytoplasm and prominent nucleoli, arranged in nests and cords. There is a prominent desmoplastic stromal reaction and areas of necrosis.\n\nThe most likely diagnosis is hepatocellular carcinoma, given the cellular morphology and arrangement. Differential diagnoses include metastatic carcinoma, which can also present with large cells and eosinophilic cytoplasm, and cholangiocarcinoma, which typically shows glandular differentiation and a more prominent desmoplastic stroma.",
+      "rationale": "High power cytology in central viable tumor; assess pleomorphism, mitoses, bile, inclusions."
+    },
+    {
+      "roi_id": "slide_A_x16896_y25088_mag20",
+      "tile_id": "slide_A_x16896_y25088_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 16896,
+      "y": 25088,
+      "level0": {
+        "x": 16896,
+        "y": 25088,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular neoplasm composed of large cells with abundant eosinophilic cytoplasm and prominent nucleoli, arranged in nests and cords. There is also a background of fibrous stroma and areas of hemorrhage.\n\nThe most likely diagnosis is hepatocellular carcinoma, given the hepatoid morphology and arrangement in nests and cords. Differential diagnoses include metastatic carcinoma, particularly from a primary site with eosinophilic cytoplasm such as renal cell carcinoma or adrenal cortical carcinoma, which can be distinguished by immunohistochemistry.",
+      "rationale": "Inferior region with desmoplasia/pseudoglands; assess for true gland formation/mucin (cholangioca) vs pseudoglandular HCC."
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag20",
+      "tile_id": "slide_A_x8192_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of large cells with abundant eosinophilic cytoplasm and prominent nucleoli, arranged in nests and cords separated by thin fibrovascular septa. Scattered cells contain clear cytoplasmic vacuoles.\n\nThe most likely diagnosis is hepatocellular carcinoma, eosinophilic variant.\n\nDifferential diagnoses include metastatic renal cell carcinoma, which can also show clear cells and a nested pattern, and metastatic adrenal cortical carcinoma, which can have eosinophilic cells and a nested pattern.",
+      "rationale": "High power in pseudoglandular area; look for bile/canaliculi, intracytoplasmic inclusions."
+    },
+    {
+      "roi_id": "slide_A_x32768_y8192_mag20",
+      "tile_id": "slide_A_x32768_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 32768,
+      "y": 8192,
+      "level0": {
+        "x": 32768,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of large cells with abundant eosinophilic cytoplasm and round nuclei, arranged in thickened cords and nests separated by sinusoidal spaces. There is also evidence of hemorrhage and necrosis.\n\nThe most likely diagnosis is hepatocellular carcinoma.\n\nDifferential diagnoses include metastatic carcinoma, which would typically show different cellular morphology and lack the characteristic sinusoidal pattern, and cholangiocarcinoma, which would have a glandular or ductal pattern.",
+      "rationale": "High power in right upper area near necrosis/hemorrhage; evaluate cytology and any fibrolamellar oncocytic cells."
+    },
+    {
+      "roi_id": "slide_A_x16384_y8192_mag1",
+      "tile_id": "slide_A_x16384_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 16384,
+      "y": 8192,
+      "level0": {
+        "x": 16384,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a multinodular lesion with cellular nodules separated by broad fibrous septa. The nodules are composed of relatively uniform cells with scant cytoplasm and hyperchromatic nuclei, arranged in nests and cords.\n\nThe most likely diagnosis is hepatoblastoma, specifically the macrotrabecular subtype. This diagnosis is supported by the multinodular architecture, broad fibrous septa, and the cellular morphology of relatively uniform cells with scant cytoplasm and hyperchromatic nuclei arranged in nests and cords.\n\nDifferential diagnoses include hepatocellular carcinoma (HCC), particularly the macrotrabecular variant, and metastatic neuroendocrine tumor. HCC typically occurs in older patients and may show more significant nuclear atypia and mitotic activity. Metastatic neuroendocrine tumor would require clinical history of a primary tumor elsewhere and would show characteristic neuroendocrine features on higher power.",
+      "rationale": "Check central-left area for any residual background liver and tumor interface along broad septa."
+    },
+    {
+      "roi_id": "slide_A_x32768_y24576_mag20",
+      "tile_id": "slide_A_x32768_y24576_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 32768,
+      "y": 24576,
+      "level0": {
+        "x": 32768,
+        "y": 24576,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular neoplasm with a solid growth pattern composed of cells with eosinophilic cytoplasm and round to oval nuclei. There is prominent hemorrhage and necrosis.\n\nThe most likely diagnosis is hepatocellular carcinoma, given the cellular morphology and the clinical context of a large liver mass in a young patient with weight loss.\n\nDifferential diagnoses include metastatic carcinoma, which can present as a large liver mass, and cholangiocarcinoma, although the cellular morphology is more consistent with hepatocellular differentiation.",
+      "rationale": "High power in right lower viable area; check for small cell component, endothelial differentiation."
+    },
+    {
+      "roi_id": "slide_A_x24576_y24576_mag1",
+      "tile_id": "slide_A_x24576_y24576_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 24576,
+      "y": 24576,
+      "level0": {
+        "x": 24576,
+        "y": 24576,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a cellular neoplasm with a predominant solid and trabecular growth pattern, along with areas of necrosis and hemorrhage. The tumor cells have eosinophilic cytoplasm and round to oval nuclei.\n\nThe most likely diagnosis is hepatocellular carcinoma, given the patient's age, clinical presentation, and the morphologic features observed in the liver tissue.\n\nDifferential diagnoses include metastatic carcinoma, which can present with similar morphology, and cholangiocarcinoma, which typically shows glandular differentiation.",
+      "rationale": "Survey region with green holes/clefts (processing) for central scar vs necrosis distribution."
+    },
+    {
+      "roi_id": "slide_A_x20480_y14336_mag5",
+      "tile_id": "slide_A_x20480_y14336_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 20480,
+      "y": 14336,
+      "level0": {
+        "x": 20480,
+        "y": 14336,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular neoplasm with a predominant trabecular and nested pattern, featuring cells with eosinophilic cytoplasm and round to oval nuclei. There is also a prominent desmoplastic stromal reaction.\n\nThe most likely diagnosis is Hepatocellular Carcinoma.\n\nDifferential diagnoses include metastatic carcinoma, which can also present with a trabecular pattern and desmoplastic stroma. Immunohistochemical stains for hepatocellular markers (e.g., HepPar1, Arginase-1) and markers for potential primary sites (e.g., CK7, CK20, TTF-1) would be helpful in distinguishing between these possibilities.",
+      "rationale": "Scan central fibrous septa for lamellar fibrosis/scar-like pattern and inflammation."
+    },
+    {
+      "roi_id": "slide_A_x32768_y24576_mag1",
+      "tile_id": "slide_A_x32768_y24576_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 32768,
+      "y": 24576,
+      "level0": {
+        "x": 32768,
+        "y": 24576,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a cellular neoplasm with a prominent trabecular and nested pattern separated by fibrous stroma. The cells have eosinophilic cytoplasm and round to oval nuclei. Areas of hemorrhage and necrosis are present.\n\nThe most likely diagnosis is hepatocellular carcinoma. Differential diagnoses include metastatic carcinoma, which would typically show different architectural patterns and cellular morphology, and cholangiocarcinoma, which is usually characterized by glandular or ductal structures.",
+      "rationale": "Lower right edge for capsule, interface, and hemorrhage."
+    },
+    {
+      "roi_id": "slide_A_x8192_y24576_mag20",
+      "tile_id": "slide_A_x8192_y24576_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 8192,
+      "y": 24576,
+      "level0": {
+        "x": 8192,
+        "y": 24576,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular neoplasm composed of large cells with abundant eosinophilic cytoplasm and prominent nucleoli, arranged in nests and cords. There is also a background of smaller cells with hyperchromatic nuclei.\n\nThe most likely diagnosis is hepatocellular carcinoma, given the hepatobiliary location and the described morphology of large cells with eosinophilic cytoplasm and prominent nucleoli.\n\nDifferential diagnoses include metastatic carcinoma, particularly from a primary site with eosinophilic cytoplasm such as renal cell carcinoma or adrenal cortical carcinoma. Immunohistochemical stains for hepatocellular markers (e.g., HepPar1, Arginase-1) and markers for other potential primary sites would be helpful in confirming the diagnosis.",
+      "rationale": "High power in left lower area; assess for spindle/myxoid or sarcomatoid component."
+    },
+    {
+      "roi_id": "slide_A_x25600_y11264_mag10",
+      "tile_id": "slide_A_x25600_y11264_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 25600,
+      "y": 11264,
+      "level0": {
+        "x": 25600,
+        "y": 11264,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular neoplasm with a predominant trabecular pattern, composed of large cells with abundant eosinophilic cytoplasm and round nuclei. There is also a prominent sinusoidal vascular pattern and areas of necrosis.\n\nThe most likely diagnosis is Hepatocellular Carcinoma.\n\nDifferential diagnoses include metastatic carcinoma, which can mimic HCC but typically lacks the trabecular pattern and sinusoidal vascular pattern. Cholangiocarcinoma is another possibility, but it usually presents with glandular or ductal structures rather than the trabecular pattern seen here.",
+      "rationale": "Explore upper-right quadrant for different tumor phenotype; look for clear cells/PEComa-like perivascular pattern."
+    },
+    {
+      "roi_id": "slide_A_x12288_y14336_mag5",
+      "tile_id": "slide_A_x12288_y14336_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 12288,
+      "y": 14336,
+      "level0": {
+        "x": 12288,
+        "y": 14336,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular neoplasm arranged in nests and cords separated by fibrous stroma. The cells have round to oval nuclei and abundant eosinophilic cytoplasm, with areas of necrosis and hemorrhage.\n\nThe most likely diagnosis is hepatocellular carcinoma. Differential diagnoses include metastatic carcinoma, which would typically show different architectural patterns and cellular morphology, and cholangiocarcinoma, which is characterized by glandular differentiation.",
+      "rationale": "At 5x, look for bile ducts/portal tracts entrapped within septa or at interface."
+    },
+    {
+      "roi_id": "slide_A_x12288_y21504_mag10",
+      "tile_id": "slide_A_x12288_y21504_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 12288,
+      "y": 21504,
+      "level0": {
+        "x": 12288,
+        "y": 21504,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of large cells with abundant eosinophilic cytoplasm and prominent nucleoli, arranged in nests and cords, with areas of necrosis and hemorrhage. A prominent desmoplastic stromal reaction is also present.\n\nThe most likely diagnosis is Hepatocellular Carcinoma.\n\nDifferential diagnoses include metastatic carcinoma, which can also present as a large mass in the liver with necrosis and hemorrhage. However, the cellular morphology and arrangement are more consistent with hepatocellular differentiation.",
+      "rationale": "Explore lower-central area near necrosis/green gaps for sarcomatoid/vascular channels or myxoid stroma."
+    },
+    {
+      "roi_id": "slide_A_x34816_y22528_mag5",
+      "tile_id": "slide_A_x34816_y22528_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 34816,
+      "y": 22528,
+      "level0": {
+        "x": 34816,
+        "y": 22528,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular neoplasm with a solid growth pattern and areas of necrosis and hemorrhage. The tumor cells have eosinophilic cytoplasm and round to oval nuclei, with a prominent fibrous stroma.\n\nThe most likely diagnosis is hepatocellular carcinoma. Differential diagnoses include metastatic carcinoma, which would typically show different cellular morphology and lack the characteristic eosinophilic cytoplasm and trabecular pattern of hepatocellular carcinoma.",
+      "rationale": "At 5x, assess capsule and any adjacent non-tumor liver."
+    },
+    {
+      "roi_id": "slide_A_x15360_y12288_mag10",
+      "tile_id": "slide_A_x15360_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 15360,
+      "y": 12288,
+      "level0": {
+        "x": 15360,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords with intervening fibrous stroma. The cells have abundant eosinophilic cytoplasm and round to oval nuclei with prominent nucleoli. Areas of necrosis and hemorrhage are also present.\n\nThe most likely diagnosis is hepatocellular carcinoma. The differential diagnosis includes metastatic carcinoma, which can mimic hepatocellular carcinoma but typically lacks the characteristic trabecular pattern and sinusoidal spaces.",
+      "rationale": "Explore unexamined upper-central area for alternate morphology (fibrolamellar lamellae vs embryonal/small cell)."
+    },
+    {
+      "roi_id": "slide_A_x6144_y9216_mag10",
+      "tile_id": "slide_A_x6144_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 6144,
+      "y": 9216,
+      "level0": {
+        "x": 6144,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of large cells with abundant eosinophilic cytoplasm and prominent nucleoli, arranged in nests and cords. Scattered cells contain clear cytoplasmic vacuoles, and there is a background of fibrous stroma.\n\nThe most likely diagnosis is hepatocellular carcinoma. The large cells with eosinophilic cytoplasm and prominent nucleoli are characteristic of hepatocytes, and their arrangement in nests and cords is typical of hepatocellular carcinoma. The presence of clear cytoplasmic vacuoles may represent steatosis or glycogen accumulation, which can be seen in hepatocellular carcinoma. The fibrous stroma is also a common feature.\n\nDifferential diagnoses include metastatic carcinoma, which can sometimes mimic hepatocellular carcinoma, and cholangiocarcinoma, which typically shows glandular differentiation and a more prominent desmoplastic stroma. Immunohistochemical stains for hepatocellular markers (e.g., HepPar1, Arginase-1) and biliary markers (e.g., CK7, CK19) would be helpful in distinguishing these entities.",
+      "rationale": "Upper-left area near tissue edge: check for residual liver, bile ducts, or glandular differentiation."
+    },
+    {
+      "roi_id": "slide_A_x14848_y11776_mag20",
+      "tile_id": "slide_A_x14848_y11776_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 14848,
+      "y": 11776,
+      "level0": {
+        "x": 14848,
+        "y": 11776,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of large cells with abundant eosinophilic cytoplasm and round nuclei, arranged in nests and cords. There is also a background of fibrous stroma and areas of hemorrhage.\n\nThe most likely diagnosis is hepatocellular carcinoma. The large cells with eosinophilic cytoplasm and round nuclei are characteristic of hepatocytes, and their arrangement in nests and cords is typical of hepatocellular carcinoma. The presence of fibrous stroma and hemorrhage are also consistent with this diagnosis.\n\nDifferential diagnoses to consider include metastatic carcinoma, which can also present as a liver mass, and cholangiocarcinoma, which typically shows glandular differentiation. Immunohistochemical stains for hepatocellular markers (e.g., HepPar1, Arginase-1) and biliary markers (e.g., CK7, CK19) would be helpful in distinguishing between these entities.",
+      "rationale": "High power of same area to look for pale bodies, hyaline globules, cytoplasmic inclusions, bile."
+    },
+    {
+      "roi_id": "slide_A_x14336_y6144_mag5",
+      "tile_id": "slide_A_x14336_y6144_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 14336,
+      "y": 6144,
+      "level0": {
+        "x": 14336,
+        "y": 6144,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular neoplasm with a prominent trabecular pattern and intervening sinusoidal spaces. The cells have eosinophilic cytoplasm and round nuclei, with areas of hemorrhage and necrosis.\n\nThe most likely diagnosis is Hepatocellular Carcinoma.\n\nDifferential diagnoses include metastatic carcinoma, which would typically lack the trabecular pattern and sinusoidal spaces, and cholangiocarcinoma, which would show glandular differentiation.",
+      "rationale": "Sample another upper central septated area for lamellar vs random fibrosis; check for central scar-like stroma."
+    },
+    {
+      "roi_id": "slide_A_x6656_y9216_mag20",
+      "tile_id": "slide_A_x6656_y9216_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 6656,
+      "y": 9216,
+      "level0": {
+        "x": 6656,
+        "y": 9216,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of large cells with abundant eosinophilic cytoplasm and prominent nucleoli, arranged in nests and cords. Scattered cells exhibit clear cytoplasmic vacuoles.\n\nThe most likely diagnosis is hepatocellular carcinoma, given the hepatoid morphology and arrangement in nests and cords. Differential diagnoses include metastatic clear cell renal cell carcinoma, which can have clear cells and a nested pattern, and metastatic adrenal cortical carcinoma, which can have eosinophilic and clear cells.",
+      "rationale": "High-power of upper-left area if glandular or hepatoblastoma-like small blue cells seen."
+    },
+    {
+      "roi_id": "slide_A_x21504_y25600_mag10",
+      "tile_id": "slide_A_x21504_y25600_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 21504,
+      "y": 25600,
+      "level0": {
+        "x": 21504,
+        "y": 25600,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular neoplasm with cells arranged in nests and cords, separated by delicate fibrovascular stroma. The cells have round to oval nuclei and moderate eosinophilic cytoplasm, with areas of necrosis and hemorrhage.\n\nThe most likely diagnosis is hepatocellular carcinoma. Differential diagnoses include metastatic carcinoma, which would typically show different architectural patterns and cellular morphology, and cholangiocarcinoma, which is characterized by glandular differentiation.",
+      "rationale": "Explore inferior-central area near pale/cleared zones for possible calcification/necrosis interface."
+    },
+    {
+      "roi_id": "slide_A_x14336_y12288_mag5",
+      "tile_id": "slide_A_x14336_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 14336,
+      "y": 12288,
+      "level0": {
+        "x": 14336,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular neoplasm arranged in nests and cords separated by fibrous stroma. The cells have eosinophilic cytoplasm and round to oval nuclei with visible nucleoli. Prominent vascular spaces are also present.\n\nThe most likely diagnosis is Hepatocellular Carcinoma.\n\nDifferential diagnoses include:\n- Metastatic Carcinoma: Typically shows different architectural patterns and cellular morphology depending on the primary site.\n- Cholangiocarcinoma: Usually forms glandular structures and has a different cytological appearance.",
+      "rationale": "Examine thick fibrous band between nodules for ductular reaction/entrapped portal tracts."
+    },
+    {
+      "roi_id": "slide_A_x26624_y16384_mag5",
+      "tile_id": "slide_A_x26624_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 26624,
+      "y": 16384,
+      "level0": {
+        "x": 26624,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular neoplasm with a prominent trabecular pattern and intervening sinusoidal spaces. The cells have eosinophilic cytoplasm and round nuclei, with areas of necrosis and hemorrhage.\n\nThe most likely diagnosis is Hepatocellular Carcinoma.\n\nDifferential diagnoses include metastatic carcinoma, which would typically lack the trabecular pattern and sinusoidal spaces, and cholangiocarcinoma, which would show glandular differentiation.",
+      "rationale": "Sample mid-right nodule to confirm consistent architecture and look for pseudoacini."
+    },
+    {
+      "roi_id": "slide_A_x20992_y26112_mag20",
+      "tile_id": "slide_A_x20992_y26112_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20992,
+      "y": 26112,
+      "level0": {
+        "x": 20992,
+        "y": 26112,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular neoplasm composed of large cells with abundant eosinophilic cytoplasm and prominent nucleoli, arranged in nests and cords. There is also a background of hemorrhage and necrosis.\n\nThe most likely diagnosis is hepatocellular carcinoma. The large cells with eosinophilic cytoplasm and prominent nucleoli are characteristic of hepatocytes, and their arrangement in nests and cords is typical of hepatocellular carcinoma. The presence of hemorrhage and necrosis is also common in this tumor type.\n\nDifferential diagnoses include metastatic carcinoma, which can also present as a liver mass with similar morphology. However, the presence of cells with hepatocytic features and the clinical context of hepatomegaly and weight loss strongly favor hepatocellular carcinoma. Immunohistochemical stains for hepatocellular markers (e.g., HepPar1, Arginase-1) and markers for other potential primary sites (e.g., CK7, CK20, TTF-1) would be helpful in confirming the diagnosis.",
+      "rationale": "High power inferior-central for mitoses, small blue cell, sarcomatoid change."
+    },
+    {
+      "roi_id": "slide_A_x24576_y20480_mag5",
+      "tile_id": "slide_A_x24576_y20480_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 24576,
+      "y": 20480,
+      "level0": {
+        "x": 24576,
+        "y": 20480,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular neoplasm with a predominant trabecular and nested pattern, composed of cells with eosinophilic cytoplasm and round to oval nuclei. Areas of necrosis and hemorrhage are also present.\n\nThe most likely diagnosis is Hepatocellular Carcinoma.\n\nDifferential diagnoses include metastatic carcinoma, which can mimic HCC, and cholangiocarcinoma, which typically shows glandular differentiation. Immunohistochemistry for markers such as HepPar1, Arginase-1, and Glypican-3 would support a diagnosis of HCC, while markers like CK7 and CK19 would favor cholangiocarcinoma.",
+      "rationale": "Assess lower-mid area with pallor for coagulative necrosis/hemorrhage."
+    },
+    {
+      "roi_id": "slide_A_x23552_y19456_mag10",
+      "tile_id": "slide_A_x23552_y19456_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 23552,
+      "y": 19456,
+      "level0": {
+        "x": 23552,
+        "y": 19456,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular neoplasm with cells arranged in nests and cords, featuring abundant eosinophilic cytoplasm and round to oval nuclei. There is also a prominent stromal component with spindle cells and inflammation.\n\nThe most likely diagnosis is Hepatocellular Carcinoma, given the hepatobiliary location and the described morphology of cells with eosinophilic cytoplasm and a trabecular pattern.\n\nDifferential diagnoses include metastatic carcinoma, which can mimic HCC, and cholangiocarcinoma, which typically shows glandular differentiation and a desmoplastic stroma.",
+      "rationale": "Unexplored mid-right area to look for glandular differentiation/ducts or vascular tumor patterns."
+    },
+    {
+      "roi_id": "slide_A_x8192_y24576_mag1",
+      "tile_id": "slide_A_x8192_y24576_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 8192,
+      "y": 24576,
+      "level0": {
+        "x": 8192,
+        "y": 24576,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a cellular neoplasm with a prominent trabecular and nested pattern separated by fibrous stroma. The cells have eosinophilic cytoplasm and round to oval nuclei. Areas of necrosis and hemorrhage are present.\n\nThe most likely diagnosis is hepatocellular carcinoma. Differential diagnoses include metastatic carcinoma, which can mimic HCC, and cholangiocarcinoma, which typically shows glandular differentiation.",
+      "rationale": "Far left edge revisit for any residual nonneoplastic liver at periphery."
+    },
+    {
+      "roi_id": "slide_A_x26624_y17408_mag10",
+      "tile_id": "slide_A_x26624_y17408_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 26624,
+      "y": 17408,
+      "level0": {
+        "x": 26624,
+        "y": 17408,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of large cells with abundant eosinophilic cytoplasm and round nuclei, arranged in thickened cords and nests separated by sinusoidal spaces. There is also a prominent inflammatory infiltrate and areas of necrosis.\n\nThe morphologic features are consistent with a hepatocellular neoplasm. Given the clinical context of a young patient with significant weight loss and an enlarged liver, hepatocellular carcinoma is a strong consideration. Differential diagnoses include metastatic carcinoma, which can mimic hepatocellular carcinoma, and hepatocellular adenoma, although the presence of necrosis and inflammation makes adenoma less likely.",
+      "rationale": "Mid-right central area away from prior ROIs to assess stroma pattern and any ductular/glandular differentiation."
+    },
+    {
+      "roi_id": "slide_A_x24064_y18944_mag20",
+      "tile_id": "slide_A_x24064_y18944_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 24064,
+      "y": 18944,
+      "level0": {
+        "x": 24064,
+        "y": 18944,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular neoplasm composed of large cells with abundant eosinophilic cytoplasm and prominent nucleoli, arranged in nests and cords. Multinucleated cells and a background of hemorrhage and necrosis are also present.\n\nThe most likely diagnosis is hepatocellular carcinoma, given the large eosinophilic cells with prominent nucleoli and the clinical context of an enlarged liver mass in a young patient with weight loss.\n\nDifferential diagnoses include metastatic carcinoma, particularly renal cell carcinoma, which can also present with large eosinophilic cells and a nested pattern. However, the clinical history and gross findings are more suggestive of a primary liver tumor.",
+      "rationale": "High-power mid-right to check for mucin/glands, endothelial-lined channels, or PEComa perivascular epithelioid cells."
+    },
+    {
+      "roi_id": "slide_A_x14336_y17408_mag10",
+      "tile_id": "slide_A_x14336_y17408_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 14336,
+      "y": 17408,
+      "level0": {
+        "x": 14336,
+        "y": 17408,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular neoplasm with a predominant trabecular pattern, composed of cells with eosinophilic cytoplasm and round nuclei. There is significant hemorrhage and necrosis present.\n\nThe most likely diagnosis is hepatocellular carcinoma. Differential diagnoses include metastatic carcinoma, which would typically show different architectural patterns and cellular morphology, and cholangiocarcinoma, which is usually characterized by glandular or ductal structures.",
+      "rationale": "Mid-left area near septa; search for small blue cell component/hepatoblastoma embryonal areas or mesenchymal stroma."
+    },
+    {
+      "roi_id": "slide_A_x13824_y16896_mag20",
+      "tile_id": "slide_A_x13824_y16896_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 13824,
+      "y": 16896,
+      "level0": {
+        "x": 13824,
+        "y": 16896,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular neoplasm composed of large cells with abundant eosinophilic cytoplasm and prominent nucleoli, arranged in nests and cords. There is also a large clear space containing red blood cells.\n\nThe most likely diagnosis is hepatocellular carcinoma.\n\nDifferential diagnoses include metastatic carcinoma, which can also present as a cellular neoplasm in the liver, and cholangiocarcinoma, which typically shows glandular differentiation.",
+      "rationale": "High-power mid-left for hepatoblastoma-like features, extramedullary hematopoiesis, osteoid/chondroid."
+    },
+    {
+      "roi_id": "slide_A_x24064_y13824_mag20",
+      "tile_id": "slide_A_x24064_y13824_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 24064,
+      "y": 13824,
+      "level0": {
+        "x": 24064,
+        "y": 13824,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of large cells with abundant eosinophilic cytoplasm and prominent nucleoli, arranged in nests and cords. There is also a background of hemorrhage and necrosis.\n\nThe most likely diagnosis is hepatocellular carcinoma.\n\nDifferential diagnoses include metastatic carcinoma, which can mimic hepatocellular carcinoma but typically lacks the characteristic trabecular pattern and sinusoidal spaces. Cholangiocarcinoma is another possibility, but it usually presents with glandular or ductal structures.",
+      "rationale": "Check additional mid-tumor area for fibrolamellar features (lamellar collagen, pale bodies) and better assess mitoses."
+    },
+    {
+      "roi_id": "slide_A_x24576_y8192_mag1",
+      "tile_id": "slide_A_x24576_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 24576,
+      "y": 8192,
+      "level0": {
+        "x": 24576,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a cellular neoplasm with a prominent trabecular and nested pattern separated by fibrous stroma. The cells are relatively uniform with round to oval nuclei and scant cytoplasm.\n\nThe most likely diagnosis is Hepatoblastoma, specifically the macrotrabecular subtype.\n\nDifferential diagnoses include Hepatocellular Carcinoma (HCC), which typically occurs in older patients and may show more significant nuclear atypia and sinusoidal capillarization. Another consideration is a metastatic neuroendocrine tumor, which can have a nested pattern but usually shows more uniform cells with salt-and-pepper chromatin.",
+      "rationale": "Extreme top-left to see if any non-tumor liver parenchyma is present at edge."
+    },
+    {
+      "roi_id": "slide_A_x19456_y9216_mag10",
+      "tile_id": "slide_A_x19456_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 19456,
+      "y": 9216,
+      "level0": {
+        "x": 19456,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular neoplasm with a predominant trabecular pattern and areas of pseudoglandular formation. The cells have eosinophilic cytoplasm and round to oval nuclei with visible nucleoli. There is also evidence of hemorrhage and necrosis.\n\nThe most likely diagnosis is hepatocellular carcinoma. Differential diagnoses include metastatic carcinoma, which would typically show different architectural patterns and cellular morphology, and cholangiocarcinoma, which is characterized by glandular structures and desmoplastic stroma.",
+      "rationale": "Upper-central area to evaluate fibrosis pattern and possible central scar/calcification correlate."
+    },
+    {
+      "roi_id": "slide_A_x40960_y8192_mag1",
+      "tile_id": "slide_A_x40960_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 40960,
+      "y": 8192,
+      "level0": {
+        "x": 40960,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a cellular neoplasm with a prominent desmoplastic stromal reaction and areas of hemorrhage. The tumor cells are arranged in nests and cords.\n\nThe most likely diagnosis is hepatocellular carcinoma, given the location and the patient's history of weight loss and hepatomegaly. The differential diagnosis includes metastatic carcinoma, which can also present with a desmoplastic stroma and hemorrhage.",
+      "rationale": "Extreme top-right edge for background liver/capsule."
+    },
+    {
+      "roi_id": "slide_A_x11776_y17920_mag20",
+      "tile_id": "slide_A_x11776_y17920_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 11776,
+      "y": 17920,
+      "level0": {
+        "x": 11776,
+        "y": 17920,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of large cells with abundant eosinophilic cytoplasm and prominent nucleoli, arranged in nests and cords. Scattered multinucleated cells and a background inflammatory infiltrate are also present.\n\nThe most likely diagnosis is Hepatocellular Carcinoma, given the hepatobiliary location and the described cellular morphology. The presence of large cells with eosinophilic cytoplasm and prominent nucleoli is characteristic of hepatocellular differentiation.\n\nDifferential diagnoses include metastatic carcinoma, particularly from a primary site with eosinophilic cytoplasm such as renal cell carcinoma or adrenal cortical carcinoma. Immunohistochemical stains for hepatocellular markers (e.g., HepPar1, Arginase-1) and markers for other potential primary sites would be helpful in confirming the diagnosis.",
+      "rationale": "Look for any small round blue/embryonal component or mesenchymal stroma not yet captured."
+    },
+    {
+      "roi_id": "slide_A_x8192_y32768_mag1",
+      "tile_id": "slide_A_x8192_y32768_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 8192,
+      "y": 32768,
+      "level0": {
+        "x": 8192,
+        "y": 32768,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The tumor is composed of nests and cords of cells with eosinophilic cytoplasm and round nuclei, separated by prominent fibrous stroma. Areas of necrosis and hemorrhage are also present.\n\nThe most likely diagnosis is hepatocellular carcinoma.\n\nDifferential diagnoses include metastatic carcinoma, which can also present as a liver mass, and cholangiocarcinoma, which typically shows glandular differentiation.",
+      "rationale": "Extreme bottom-left edge for residual liver/interface."
+    },
+    {
+      "roi_id": "slide_A_x29184_y20992_mag20",
+      "tile_id": "slide_A_x29184_y20992_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 29184,
+      "y": 20992,
+      "level0": {
+        "x": 29184,
+        "y": 20992,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular neoplasm with large, pleomorphic cells exhibiting abundant eosinophilic cytoplasm and prominent nucleoli. There is extensive hemorrhage and necrosis, with some cells showing multinucleation.\n\nThe most likely diagnosis is Hepatocellular Carcinoma, given the hepatobiliary location, large cell size, eosinophilic cytoplasm, and prominent nucleoli. The extensive necrosis and hemorrhage are also common features.\n\nDifferential diagnoses include metastatic carcinoma, which can mimic HCC, and cholangiocarcinoma, which typically shows glandular differentiation and desmoplastic stroma, features not seen here.",
+      "rationale": "Sample another viable nodule away from necrosis to confirm uniform hepatoid cytology and exclude glands."
+    },
+    {
+      "roi_id": "slide_A_x40960_y32768_mag1",
+      "tile_id": "slide_A_x40960_y32768_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 40960,
+      "y": 32768,
+      "level0": {
+        "x": 40960,
+        "y": 32768,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a cellular neoplasm with a prominent fibrous capsule and areas of hemorrhage and necrosis. The tumor cells are arranged in nests and cords with eosinophilic cytoplasm and round nuclei.\n\nThe most likely diagnosis is hepatocellular carcinoma, given the patient's age, clinical presentation, and the gross and microscopic features of a large, necrotic, and hemorrhagic liver mass.\n\nDifferential diagnoses include metastatic carcinoma, which can present as a large liver mass, and cholangiocarcinoma, which typically shows glandular differentiation and desmoplastic stroma.",
+      "rationale": "Extreme bottom-right edge for capsule and any adjacent liver."
+    },
+    {
+      "roi_id": "slide_A_x29696_y24576_mag10",
+      "tile_id": "slide_A_x29696_y24576_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 29696,
+      "y": 24576,
+      "level0": {
+        "x": 29696,
+        "y": 24576,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular neoplasm with a solid growth pattern, composed of cells with eosinophilic cytoplasm and round to oval nuclei. There is prominent stromal fibrosis and areas of necrosis and hemorrhage.\n\nThe most likely diagnosis is Hepatocellular Carcinoma.\n\nDifferential diagnoses include metastatic carcinoma, which can mimic HCC, and cholangiocarcinoma, which typically shows glandular differentiation and desmoplastic stroma.",
+      "rationale": "Unexplored lower-right lobule to look for heterologous elements (osteoid/chondroid) or sarcomatoid areas."
+    },
+    {
+      "roi_id": "slide_A_x20480_y4096_mag2",
+      "tile_id": "slide_A_x20480_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 20480,
+      "y": 4096,
+      "level0": {
+        "x": 20480,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular neoplasm with a prominent trabecular and nested pattern separated by fibrous septa. The cells have eosinophilic cytoplasm and round to oval nuclei.\n\nThe most likely diagnosis is hepatocellular carcinoma.\n\nDifferential diagnoses include metastatic neuroendocrine tumor, which can have a nested pattern but typically shows more uniform cells with salt-and-pepper chromatin, and metastatic renal cell carcinoma, which often has clear cytoplasm and a different vascular pattern.",
+      "rationale": "Upper central area near edge: look for portal tracts/bile ducts indicating background liver."
+    },
+    {
+      "roi_id": "slide_A_x30208_y25088_mag20",
+      "tile_id": "slide_A_x30208_y25088_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 30208,
+      "y": 25088,
+      "level0": {
+        "x": 30208,
+        "y": 25088,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular neoplasm with large cells exhibiting abundant eosinophilic cytoplasm and prominent nucleoli, arranged in nests and cords. There is also a background of smaller cells and areas of necrosis.\n\nThe morphologic features are consistent with a hepatocellular carcinoma. The large cells with eosinophilic cytoplasm and prominent nucleoli are characteristic of hepatocytes, and their arrangement in nests and cords is typical of hepatocellular carcinoma. The presence of necrosis further supports a malignant process. Given the patient's age and clinical history, hepatocellular carcinoma is a strong consideration. Differential diagnoses could include metastatic carcinoma, but the morphology is more consistent with a primary liver tumor. Further evaluation with immunohistochemical stains such as HepPar1, Arginase-1, and Glypican-3 would be helpful to confirm the diagnosis.",
+      "rationale": "High-power lower-right for hepatoblastoma small cells, mesenchymal differentiation, or vascular tumor."
+    },
+    {
+      "roi_id": "slide_A_x20480_y4096_mag5",
+      "tile_id": "slide_A_x20480_y4096_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 20480,
+      "y": 4096,
+      "level0": {
+        "x": 20480,
+        "y": 4096,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular neoplasm with a predominant trabecular and nested pattern, composed of cells with eosinophilic cytoplasm and round nuclei. Areas of necrosis and hemorrhage are also present.\n\nThe most likely diagnosis is Hepatocellular Carcinoma.\n\nDifferential diagnoses include metastatic neuroendocrine tumor, which can have a nested pattern but typically shows more uniform cells with salt-and-pepper chromatin, and metastatic renal cell carcinoma, which often has clear cytoplasm and a different vascular pattern.",
+      "rationale": "Interface/edge area at higher low-power to look for residual portal tracts/bile ducts or background liver."
+    },
+    {
+      "roi_id": "slide_A_x10240_y27648_mag10",
+      "tile_id": "slide_A_x10240_y27648_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 10240,
+      "y": 27648,
+      "level0": {
+        "x": 10240,
+        "y": 27648,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular neoplasm with cells arranged in nests and cords, exhibiting moderate eosinophilic cytoplasm and round to oval nuclei with prominent nucleoli. There is also a desmoplastic stromal reaction and areas of necrosis.\n\nThe most likely diagnosis is hepatocellular carcinoma. Differential diagnoses include metastatic carcinoma, which can have similar morphology, and cholangiocarcinoma, which typically shows more glandular differentiation and a different stromal pattern.",
+      "rationale": "Lower-left edge near green gaps to search for myxoid stroma (embryonal sarcoma) or vascular channels."
+    },
+    {
+      "roi_id": "slide_A_x40960_y16384_mag2",
+      "tile_id": "slide_A_x40960_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 40960,
+      "y": 16384,
+      "level0": {
+        "x": 40960,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular neoplasm with a prominent fibrous capsule and areas of hemorrhage. The tumor cells are arranged in nests and cords with eosinophilic cytoplasm and round to oval nuclei.\n\nThe most likely diagnosis is hepatocellular carcinoma, given the location in the liver and the described morphology. Differential diagnoses include metastatic carcinoma, which can also present as a liver mass, and cholangiocarcinoma, which typically shows glandular differentiation.",
+      "rationale": "Right peripheral thick capsule region to see if adjacent nonneoplastic liver present."
+    },
+    {
+      "roi_id": "slide_A_x9728_y28160_mag20",
+      "tile_id": "slide_A_x9728_y28160_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 9728,
+      "y": 28160,
+      "level0": {
+        "x": 9728,
+        "y": 28160,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of large cells with abundant eosinophilic cytoplasm and prominent nucleoli, arranged in nests and cords. There is also a large central area of necrosis.\n\nThe most likely diagnosis is hepatocellular carcinoma.\n\nDifferential diagnoses include metastatic carcinoma, which can mimic hepatocellular carcinoma but typically lacks the characteristic trabecular pattern and bile production. Cholangiocarcinoma is another possibility, but it usually shows glandular differentiation and desmoplastic stroma.",
+      "rationale": "High-power lower-left to assess for undifferentiated embryonal sarcoma (pleomorphic stellate cells in myxoid stroma) or EHE/angiosarcoma."
+    },
+    {
+      "roi_id": "slide_A_x4096_y4096_mag2",
+      "tile_id": "slide_A_x4096_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 4096,
+      "y": 4096,
+      "level0": {
+        "x": 4096,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular neoplasm with a prominent fibrous stroma and areas of necrosis. The tumor cells are arranged in nests and cords, with some areas showing a pseudoglandular pattern.\n\nThe most likely diagnosis is hepatocellular carcinoma, given the patient's age, clinical presentation, and the morphologic features of a cellular neoplasm with a fibrous stroma and necrosis in the liver.\n\nDifferential diagnoses include metastatic carcinoma, which can present with similar morphology, and cholangiocarcinoma, which typically shows more prominent glandular differentiation and desmoplastic stroma.",
+      "rationale": "Left superior edge to look for background liver parenchyma."
+    },
+    {
+      "roi_id": "slide_A_x21504_y21504_mag10",
+      "tile_id": "slide_A_x21504_y21504_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 21504,
+      "y": 21504,
+      "level0": {
+        "x": 21504,
+        "y": 21504,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular neoplasm with a predominant trabecular and nested pattern. The cells have eosinophilic cytoplasm and round to oval nuclei with visible nucleoli, separated by fibrous stroma.\n\nThe most likely diagnosis is Hepatocellular Carcinoma.\n\nDifferential diagnoses include metastatic carcinoma, which can mimic HCC, and cholangiocarcinoma, which typically shows glandular differentiation.",
+      "rationale": "Central-inferior area near necrosis to evaluate for small blue cell component, extramedullary hematopoiesis, or germ cell features."
+    },
+    {
+      "roi_id": "slide_A_x6144_y2048_mag5",
+      "tile_id": "slide_A_x6144_y2048_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 6144,
+      "y": 2048,
+      "level0": {
+        "x": 6144,
+        "y": 2048,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a fragment of liver tissue with a cellular proliferation of cells exhibiting eosinophilic cytoplasm and round to oval nuclei, arranged in nests and cords. The background is largely acellular.\n\nThe morphologic features are consistent with a hepatocellular neoplasm. Given the clinical context of a young patient with significant weight loss and an enlarged liver, a hepatocellular carcinoma is a strong consideration. Differential diagnoses include other primary liver tumors such as hepatoblastoma or metastatic carcinoma, which would require further evaluation with immunohistochemistry and clinical correlation.",
+      "rationale": "Same area at 5x to confirm presence/absence of portal tracts/bile ducts."
+    },
+    {
+      "roi_id": "slide_A_x17408_y20480_mag10",
+      "tile_id": "slide_A_x17408_y20480_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 17408,
+      "y": 20480,
+      "level0": {
+        "x": 17408,
+        "y": 20480,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular neoplasm with a predominant trabecular and nested pattern, composed of cells with eosinophilic cytoplasm and round to oval nuclei. There is also a prominent desmoplastic stromal reaction.\n\nThe most likely diagnosis is Hepatocellular Carcinoma.\n\nDifferential diagnoses include metastatic carcinoma, which can also present with a trabecular pattern and desmoplastic stroma. Immunohistochemical stains for hepatocellular markers (e.g., HepPar1, Arginase-1) and markers for common metastatic sites (e.g., CK7, CK20, TTF-1) would be helpful in distinguishing between these possibilities.",
+      "rationale": "Target green cleft-rich central area to assess for vascular channels (angiosarcoma/EHE) or myxoid change."
+    },
+    {
+      "roi_id": "slide_A_x16896_y19968_mag20",
+      "tile_id": "slide_A_x16896_y19968_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 16896,
+      "y": 19968,
+      "level0": {
+        "x": 16896,
+        "y": 19968,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords with intervening spaces. The cells have abundant eosinophilic cytoplasm and round to oval nuclei with prominent nucleoli. There is also evidence of hemorrhage and necrosis.\n\nThe most likely diagnosis is hepatocellular carcinoma. The differential diagnosis includes metastatic carcinoma, which can have similar morphology but typically lacks the characteristic trabecular pattern and sinusoidal spaces seen in hepatocellular carcinoma.",
+      "rationale": "High-power of cleft-rich area for endothelial lining/intracytoplasmic lumina, myxohyaline stroma."
+    },
+    {
+      "roi_id": "slide_A_x24576_y17408_mag10",
+      "tile_id": "slide_A_x24576_y17408_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 24576,
+      "y": 17408,
+      "level0": {
+        "x": 24576,
+        "y": 17408,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of large cells with abundant eosinophilic cytoplasm and prominent nucleoli, arranged in nests and cords. There is also a prominent desmoplastic stromal reaction.\n\nThe most likely diagnosis is hepatocellular carcinoma, given the cellular morphology and arrangement. Differential diagnoses include metastatic carcinoma, which can also present with large cells and eosinophilic cytoplasm, and cholangiocarcinoma, which typically shows glandular differentiation and a more prominent desmoplastic stroma.",
+      "rationale": "Area with reported spindle cells/inflammation to evaluate inflammatory myofibroblastic tumor-like stroma vs reactive."
+    },
+    {
+      "roi_id": "slide_A_x24576_y16896_mag20",
+      "tile_id": "slide_A_x24576_y16896_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 24576,
+      "y": 16896,
+      "level0": {
+        "x": 24576,
+        "y": 16896,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of large cells with abundant eosinophilic cytoplasm and prominent nucleoli, arranged in nests and cords, with associated hemorrhage and necrosis. The cells exhibit moderate nuclear pleomorphism.\n\nThe most likely diagnosis is hepatocellular carcinoma.\n\nDifferential diagnoses include metastatic carcinoma, which can mimic hepatocellular carcinoma but typically lacks the characteristic trabecular pattern and sinusoidal spaces. Cholangiocarcinoma is another consideration, but it usually presents with glandular differentiation and desmoplastic stroma, which are not prominent features in this image.",
+      "rationale": "High-power in spindle/inflammatory stroma; assess lymphoplasmacytic infiltrate, storiform fibrosis, ALK-like morphology."
+    },
+    {
+      "roi_id": "slide_A_x35840_y2560_mag20",
+      "tile_id": "slide_A_x35840_y2560_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 35840,
+      "y": 2560,
+      "level0": {
+        "x": 35840,
+        "y": 2560,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cystic structure lined by a single layer of flattened to cuboidal cells with eosinophilic cytoplasm and round nuclei. The cyst wall is composed of dense fibrous tissue with scattered inflammatory cells and hemorrhage.\n\nThe most likely diagnosis is a simple hepatic cyst. Differential diagnoses include a biliary cystadenoma, which would typically show a more complex lining with mucinous epithelium and ovarian-type stroma, and a cystic neoplasm, which would show features of malignancy.",
+      "rationale": "Check peripheral fibrous band/capsule area for lamellar fibrosis and ductules; assess background liver."
+    },
+    {
+      "roi_id": "slide_A_x30720_y4096_mag20",
+      "tile_id": "slide_A_x30720_y4096_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 30720,
+      "y": 4096,
+      "level0": {
+        "x": 30720,
+        "y": 4096,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of large cells with abundant eosinophilic cytoplasm and prominent nucleoli, arranged in nests and cords with sinusoidal spaces. There is also a dense fibrous stroma and areas of hemorrhage.\n\nThe most likely diagnosis is hepatocellular carcinoma.\n\nDifferential diagnoses include metastatic carcinoma, which would typically show different cellular morphology and lack the characteristic sinusoidal pattern. Cholangiocarcinoma is also a possibility, but it usually presents with glandular differentiation and a desmoplastic stroma.",
+      "rationale": "Sample another septated nodule edge to look for classic fibrolamellar features (lamellar collagen, pale bodies)."
+    },
+    {
+      "roi_id": "slide_A_x5120_y5120_mag20",
+      "tile_id": "slide_A_x5120_y5120_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 5120,
+      "y": 5120,
+      "level0": {
+        "x": 5120,
+        "y": 5120,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of large cells with abundant eosinophilic cytoplasm and round nuclei, arranged in nests and cords with prominent sinusoidal spaces. The cells exhibit mild nuclear pleomorphism and occasional binucleation.\n\nThe most likely diagnosis is hepatocellular carcinoma, given the hepatocellular morphology and the clinical context of a large liver mass in a young patient with weight loss.\n\nDifferential diagnoses include metastatic carcinoma, which would typically show different cellular morphology and lack the characteristic sinusoidal pattern, and cholangiocarcinoma, which would have a glandular or ductal pattern.",
+      "rationale": "Look for calcification/central yellow area correlate; any osteoid or psammomatous calcifications."
+    },
+    {
+      "roi_id": "slide_A_x20992_y14848_mag20",
+      "tile_id": "slide_A_x20992_y14848_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20992,
+      "y": 14848,
+      "level0": {
+        "x": 20992,
+        "y": 14848,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of large cells with abundant eosinophilic cytoplasm and prominent nucleoli, arranged in nests and cords, with areas of necrosis and hemorrhage. A dense fibrous stroma is also present.\n\nThe most likely diagnosis is hepatocellular carcinoma.\n\nDifferential diagnoses include metastatic carcinoma, which can mimic hepatocellular carcinoma but typically lacks the characteristic trabecular pattern and sinusoidal spaces. Cholangiocarcinoma is another possibility, but it usually shows glandular differentiation and a desmoplastic stroma.",
+      "rationale": "Evaluate viable tumor for pale bodies/hyaline globules, CK7-like ductular features, and mitoses."
+    },
+    {
+      "roi_id": "slide_A_x9216_y28672_mag20",
+      "tile_id": "slide_A_x9216_y28672_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 9216,
+      "y": 28672,
+      "level0": {
+        "x": 9216,
+        "y": 28672,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of large cells with abundant eosinophilic cytoplasm and prominent nucleoli, arranged in nests and cords with intervening fibrous stroma. The cells exhibit moderate nuclear pleomorphism.\n\nThe most likely diagnosis is hepatocellular carcinoma.\n\nDifferential diagnoses include metastatic carcinoma, which can mimic hepatocellular carcinoma but typically lacks the characteristic trabecular pattern and sinusoidal spaces. Cholangiocarcinoma is another possibility, but it usually shows glandular differentiation and a desmoplastic stromal reaction.",
+      "rationale": "Assess edge region for residual non-neoplastic liver and tumor interface; look for cirrhosis or background disease."
+    }
+  ]
+}

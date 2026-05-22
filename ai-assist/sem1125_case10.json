@@ -1,0 +1,910 @@
+{
+  "case_id": "sem1125_case10",
+  "source": "slideseek-ai-assist",
+  "model": "gpt-5.4",
+  "generated_at": "2026-05-22T09:19:45.512387+00:00",
+  "organ": "Skin-Lymphoid",
+  "primary_dx": "Nevus Sebaceus",
+  "differential_dx": [
+    "Keratinocytic Epidermal Nevus",
+    "Sebaceous Hyperplasia"
+  ],
+  "microscopic_findings": [
+    {
+      "text": "Epidermis shows **acanthosis**, **hyperkeratosis**, and elongated rete ridges with papillomatous contour.",
+      "roi_ids": [
+        "slide_A_x2560_y6656_mag20",
+        "slide_A_x11776_y8192_mag20"
+      ]
+    },
+    {
+      "text": "Dermis contains numerous enlarged **sebaceous lobules** of mature sebocytes with peripheral basaloid cells, imparting **organoid adnexal…",
+      "roi_ids": [
+        "slide_A_x12288_y6656_mag20",
+        "slide_A_x4608_y6144_mag20"
+      ]
+    },
+    {
+      "text": "There is associated **follicular differentiation** with adnexal structures embedded in fibrotic dermis and mild periadnexal lymphocytes.",
+      "roi_ids": [
+        "slide_A_x20992_y6144_mag20",
+        "slide_A_x9216_y7168_mag20"
+      ]
+    },
+    {
+      "text": "A focal **spindle-cell** stroma with **wavy nuclei** is present without cytologic atypia or other malignant features.",
+      "roi_ids": [
+        "slide_A_x12288_y4608_mag20",
+        "slide_A_x20480_y6144_mag20"
+      ]
+    }
+  ],
+  "interpretation": "The combination of papillomatous epidermal hyperplasia and prominent **sebaceous/adnexal hamartomatous proliferation** supports **Nevus Sebaceus**. The lesion shows characteristic **organoid architecture** with mature sebaceous lobules and associated follicular structures rather than isolated sebaceous enlargement. There is no histologic support for a melanocytic proliferation or **Spitz/melanoma**, and the overall pattern is not that of simple **sebaceous hyperplasia**.",
+  "num_rois": 54,
+  "tiles": [
+    {
+      "roi_id": "slide_A_x8192_y8192_mag1",
+      "tile_id": "slide_A_x8192_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a polypoid skin lesion with epidermal acanthosis and papillomatosis. The dermis contains numerous enlarged sebaceous glands and a prominent lymphoid aggregate.\n\nThe most likely diagnosis is a sebaceous naevus. Differential diagnoses include a nevus sebaceus of Jadassohn and a dermal nevus with prominent sebaceous differentiation.",
+      "rationale": "Whole-section architectural overview for symmetry/circumscription and depth."
+    },
+    {
+      "roi_id": "slide_A_x4096_y6144_mag5",
+      "tile_id": "slide_A_x4096_y6144_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 4096,
+      "y": 6144,
+      "level0": {
+        "x": 4096,
+        "y": 6144,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The epidermis shows acanthosis and elongated rete ridges. The dermis contains numerous enlarged sebaceous glands and a mild periadnexal lymphocytic infiltrate.\n\nThe most likely diagnosis is a nevus sebaceus. Differential diagnoses include epidermal nevus and sebaceous hyperplasia, which can be distinguished by the presence of enlarged sebaceous glands and epidermal changes in nevus sebaceus.",
+      "rationale": "Left half deep dermis near base to assess depth/maturation pattern."
+    },
+    {
+      "roi_id": "slide_A_x3072_y7168_mag10",
+      "tile_id": "slide_A_x3072_y7168_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 3072,
+      "y": 7168,
+      "level0": {
+        "x": 3072,
+        "y": 7168,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The epidermis shows acanthosis, papillomatosis, and elongated rete ridges with increased basal pigmentation. The dermis contains a dense band-like lymphocytic infiltrate and dilated blood vessels.\n\nThe most likely diagnosis is a Nevus of Ota. Differential diagnoses include a lentigo simplex or a junctional nevus, which would typically lack the dense dermal lymphocytic infiltrate and prominent epidermal changes seen here.",
+      "rationale": "Left inferior junction near adnexa at higher power"
+    },
+    {
+      "roi_id": "slide_A_x2048_y6144_mag5",
+      "tile_id": "slide_A_x2048_y6144_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 2048,
+      "y": 6144,
+      "level0": {
+        "x": 2048,
+        "y": 6144,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The epidermis shows acanthosis, papillomatosis, and elongated rete ridges with increased basal pigmentation. The dermis contains dense collagen bundles, adnexal structures, and a mild perivascular lymphocytic infiltrate.\n\nThe most likely diagnosis is a lentigo simplex. Differential diagnoses include seborrheic keratosis, which typically shows more prominent papillomatosis and horn cysts, and a junctional nevus, which would have nests of nevus cells at the dermal-epidermal junction.",
+      "rationale": "Left end overview of epidermal-dermal junction architecture"
+    },
+    {
+      "roi_id": "slide_A_x4096_y4096_mag2",
+      "tile_id": "slide_A_x4096_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 4096,
+      "y": 4096,
+      "level0": {
+        "x": 4096,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a well-circumscribed dermal lesion composed of mature adipocytes. The overlying epidermis exhibits acanthosis and papillomatosis with prominent rete ridges.\n\nThe most likely diagnosis is a dermal lipoma. Differential diagnoses include nevus lipomatosus superficialis, which typically shows mature adipocytes within the dermis without a well-defined capsule, and a fibrolipoma, which would contain a significant fibrous component.",
+      "rationale": "Left third: assess epidermis, dermal lesion distribution, adnexal involvement."
+    },
+    {
+      "roi_id": "slide_A_x12288_y6144_mag5",
+      "tile_id": "slide_A_x12288_y6144_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 12288,
+      "y": 6144,
+      "level0": {
+        "x": 12288,
+        "y": 6144,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows epidermal acanthosis and papillomatosis with elongated rete ridges. The dermis contains numerous enlarged sebaceous glands and a mild periadnexal lymphocytic infiltrate.\n\nThe most likely diagnosis is nevus sebaceus. Differential diagnoses include epidermal nevus and sebaceous hyperplasia, which can be distinguished by the presence of enlarged sebaceous glands and epidermal changes in nevus sebaceus.",
+      "rationale": "Central lesion overview for junctional component/rete changes"
+    },
+    {
+      "roi_id": "slide_A_x12288_y4096_mag2",
+      "tile_id": "slide_A_x12288_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 4096,
+      "level0": {
+        "x": 12288,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a well-circumscribed dermal lesion composed of lobules of cells with abundant clear to finely vacuolated cytoplasm and small, centrally placed nuclei, separated by thin fibrous septa. The overlying epidermis is acanthotic with elongated rete ridges.\n\nThe most likely diagnosis is a sebaceous nevus. The key features supporting this diagnosis are the well-circumscribed dermal lesion composed of lobules of sebaceous cells with clear to finely vacuolated cytoplasm and small, centrally placed nuclei, separated by thin fibrous septa. The overlying epidermis shows acanthosis and elongated rete ridges, which are also characteristic findings in sebaceous nevus.\n\nDifferential diagnoses to consider include sebaceous adenoma and sebaceous carcinoma. Sebaceous adenoma typically shows a more organized lobular architecture with a higher proportion of mature sebocytes and less prominent fibrous septa. Sebaceous carcinoma, on the other hand, would exhibit cytologic atypia, increased mitotic activity, and infiltrative growth pattern, which are not seen in this image.",
+      "rationale": "Central: assess deepest extension and overall pattern."
+    },
+    {
+      "roi_id": "slide_A_x11264_y8192_mag10",
+      "tile_id": "slide_A_x11264_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 11264,
+      "y": 8192,
+      "level0": {
+        "x": 11264,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The epidermis shows acanthosis with elongated rete ridges and increased basal layer pigmentation. The dermis contains adnexal structures and a mild perivascular lymphocytic infiltrate.\n\nThe most likely diagnosis is a lentigo simplex. Differential diagnoses include a junctional nevus, which would show nests of nevus cells at the dermal-epidermal junction, and a solar lentigo, which typically occurs in sun-exposed skin and shows more prominent solar elastosis.",
+      "rationale": "Central inferior junction/adnexal openings for junctional nests"
+    },
+    {
+      "roi_id": "slide_A_x20480_y6144_mag5",
+      "tile_id": "slide_A_x20480_y6144_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 20480,
+      "y": 6144,
+      "level0": {
+        "x": 20480,
+        "y": 6144,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The epidermis shows acanthosis and hyperkeratosis with increased basal layer pigmentation. The dermis contains numerous adnexal structures including prominent sebaceous glands and hair follicles, along with a mild periadnexal lymphocytic infiltrate.\n\nThe most likely diagnosis is a nevus sebaceus. The presence of prominent sebaceous glands and hair follicles, along with epidermal changes and mild inflammation, are characteristic features. A differential diagnosis could include a congenital melanocytic nevus, which would typically show nests of nevus cells in the dermis, which are not apparent in this image.",
+      "rationale": "Right end overview for junctional activity and epidermal hyperplasia"
+    },
+    {
+      "roi_id": "slide_A_x21504_y7168_mag10",
+      "tile_id": "slide_A_x21504_y7168_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 21504,
+      "y": 7168,
+      "level0": {
+        "x": 21504,
+        "y": 7168,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The epidermis shows acanthosis with elongated rete ridges and increased basal layer pigmentation. The dermis contains thickened collagen bundles and a sparse perivascular lymphocytic infiltrate.\n\nThe most likely diagnosis is a lentigo simplex. Differential diagnoses include a junctional nevus, which would show nests of nevus cells at the dermal-epidermal junction, and a solar lentigo, which typically occurs in sun-exposed skin and shows more prominent basal layer pigmentation and elongated rete ridges.",
+      "rationale": "Right inferior junction/adnexal region for follicular extension"
+    },
+    {
+      "roi_id": "slide_A_x6144_y6144_mag5",
+      "tile_id": "slide_A_x6144_y6144_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 6144,
+      "y": 6144,
+      "level0": {
+        "x": 6144,
+        "y": 6144,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows epidermis with rete ridges, dermis containing adnexal structures including sebaceous glands, and subcutaneous adipose tissue. There is a mild periadnexal inflammatory infiltrate.\n\nThe most likely diagnosis for this single histology tile is a benign skin lesion, such as a nevus or sebaceous hyperplasia, given the presence of adnexal structures and mild inflammation. However, without higher magnification and additional context, it is difficult to definitively diagnose the lesion. Differential diagnoses could include other benign adnexal tumors or inflammatory conditions.",
+      "rationale": "Left portion with more dermal component/adnexa to look for pigmented dermal melanocytes and pattern."
+    },
+    {
+      "roi_id": "slide_A_x12288_y7168_mag10",
+      "tile_id": "slide_A_x12288_y7168_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 12288,
+      "y": 7168,
+      "level0": {
+        "x": 12288,
+        "y": 7168,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The epidermis shows acanthosis and elongated rete ridges with increased basal layer pigmentation. The dermis contains numerous enlarged sebaceous glands and a mild perivascular lymphocytic infiltrate.\n\nThe most likely diagnosis is a nevus sebaceus. Differential diagnoses include epidermal nevus and sebaceous hyperplasia, which can be distinguished by the presence of enlarged sebaceous glands and epidermal changes in nevus sebaceus.",
+      "rationale": "Near deepest aspect to see if lesion approaches subcutis and assess maturation."
+    },
+    {
+      "roi_id": "slide_A_x20480_y4096_mag2",
+      "tile_id": "slide_A_x20480_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 20480,
+      "y": 4096,
+      "level0": {
+        "x": 20480,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a well-circumscribed dermal lesion composed of nests and cords of basaloid cells with peripheral palisading and stromal retraction. The overlying epidermis is acanthotic with elongated rete ridges.\n\nThe most likely diagnosis is a basal cell carcinoma, specifically the nodular subtype. The differential diagnosis includes trichoepithelioma, which can also show basaloid nests and palisading but typically has more prominent stromal fibrosis and lacks the characteristic stromal retraction seen in basal cell carcinoma.",
+      "rationale": "Right third: compare architecture, circumscription, and depth."
+    },
+    {
+      "roi_id": "slide_A_x18432_y6144_mag5",
+      "tile_id": "slide_A_x18432_y6144_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 18432,
+      "y": 6144,
+      "level0": {
+        "x": 18432,
+        "y": 6144,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a well-circumscribed dermal proliferation of sebaceous glands arranged in lobules, composed of peripheral basaloid cells and central mature sebocytes. The overlying epidermis is acanthotic with elongated rete ridges.\n\nThe most likely diagnosis is sebaceous adenoma. This benign neoplasm is characterized by a proliferation of sebaceous glands with a lobular architecture and a mixture of basaloid cells and mature sebocytes. The clinical presentation of a slightly raised pigmented lesion over the forehead in an 8-year-old female is also consistent with this diagnosis.\n\nDifferential diagnoses include sebaceoma and sebaceous hyperplasia. Sebaceoma typically shows a more solid growth pattern with less prominent lobulation and a higher proportion of basaloid cells. Sebaceous hyperplasia is characterized by enlarged sebaceous glands surrounding a central dilated duct, often with a more prominent stromal component.",
+      "rationale": "Right portion to compare architecture and identify any focal deeply pigmented spindle cell areas."
+    },
+    {
+      "roi_id": "slide_A_x2560_y6144_mag20",
+      "tile_id": "slide_A_x2560_y6144_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 2560,
+      "y": 6144,
+      "level0": {
+        "x": 2560,
+        "y": 6144,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The dermis shows thickened, hyalinized collagen bundles with a sparse perivascular and interstitial lymphocytic infiltrate. A sebaceous gland is also present.\n\nThe most likely diagnosis is a Mongolian spot, characterized by dermal melanocytes and thickened collagen.\n\nDifferential diagnoses include nevus of Ota/Ito and dermal melanocytosis, which also show dermal melanocytes but typically have different clinical presentations and locations.",
+      "rationale": "Left junction: look for junctional nests, pagetoid spread, Spitz features/Kamino bodies"
+    },
+    {
+      "roi_id": "slide_A_x11776_y7168_mag20",
+      "tile_id": "slide_A_x11776_y7168_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 11776,
+      "y": 7168,
+      "level0": {
+        "x": 11776,
+        "y": 7168,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of sebaceous glands composed of mature sebocytes with clear cytoplasm and peripheral basaloid cells, arranged in lobules. The overlying epidermis exhibits acanthosis and hyperkeratosis.\n\nThe most likely diagnosis is a sebaceous adenoma. This benign neoplasm is characterized by a proliferation of mature sebocytes arranged in lobules, often associated with a peripheral layer of basaloid cells. The clinical presentation of a slightly raised pigmented lesion on the forehead in a young patient is also consistent with this diagnosis.\n\nDifferential diagnoses include sebaceoma and sebaceous carcinoma. Sebaceoma typically shows a more prominent basaloid cell component and less mature sebocytes. Sebaceous carcinoma would exhibit cytologic atypia, increased mitotic activity, and infiltrative growth, which are not seen in this image.",
+      "rationale": "Central adnexal ostia: check for follicular junctional extension (congenital nevus pattern)"
+    },
+    {
+      "roi_id": "slide_A_x4096_y7168_mag10",
+      "tile_id": "slide_A_x4096_y7168_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 4096,
+      "y": 7168,
+      "level0": {
+        "x": 4096,
+        "y": 7168,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows epidermal acanthosis and hyperkeratosis with elongated rete ridges. The dermis contains numerous sebaceous glands and a mild perivascular lymphocytic infiltrate.\n\nThe most likely diagnosis is a nevus sebaceus. The presence of numerous sebaceous glands in the dermis, along with epidermal changes, is characteristic. Differential diagnoses include epidermal nevus, which typically lacks the prominent sebaceous gland component, and sebaceous hyperplasia, which is usually a solitary lesion in adults.",
+      "rationale": "Deeper dermis below adnexa on left to exclude melanocytes/neurotropism."
+    },
+    {
+      "roi_id": "slide_A_x12288_y6144_mag20",
+      "tile_id": "slide_A_x12288_y6144_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 12288,
+      "y": 6144,
+      "level0": {
+        "x": 12288,
+        "y": 6144,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows nests of basaloid cells with peripheral palisading and stromal retraction, along with sebaceous glands and a hair follicle. The stroma is fibrotic with a mild inflammatory infiltrate.\n\nThe most likely diagnosis is a basal cell carcinoma with associated adnexal structures.\n\nDifferential diagnoses include trichoepithelioma, which can also show basaloid nests and adnexal differentiation, but typically lacks the prominent stromal retraction and often has more mature hair follicle structures.",
+      "rationale": "Central junction over sebaceous-rich area: assess melanocytic proliferation vs epidermal nevus"
+    },
+    {
+      "roi_id": "slide_A_x6144_y7168_mag20",
+      "tile_id": "slide_A_x6144_y7168_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 6144,
+      "y": 7168,
+      "level0": {
+        "x": 6144,
+        "y": 7168,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of sebaceous glands composed of mature sebocytes with clear cytoplasm and peripheral basaloid cells, along with a hair follicle. The surrounding stroma is fibrous.\n\nThe most likely diagnosis is a sebaceous nevus.\n\nDifferential diagnoses include sebaceous adenoma and sebaceoma, which typically show a more prominent basaloid cell component and lack the association with a hair follicle.",
+      "rationale": "Additional left-mid junction sample to avoid sampling bias"
+    },
+    {
+      "roi_id": "slide_A_x2048_y8192_mag5",
+      "tile_id": "slide_A_x2048_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 2048,
+      "y": 8192,
+      "level0": {
+        "x": 2048,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The epidermis shows acanthosis, papillomatosis, and elongated rete ridges with increased basal layer pigmentation. The dermis contains a dense lymphoid infiltrate with follicular structures.\n\nThe most likely diagnosis is a cutaneous lymphoid hyperplasia (pseudolymphoma).\n\nDifferential diagnoses include a primary cutaneous B-cell lymphoma, which would typically show a more monotonous lymphoid infiltrate and lack well-formed germinal centers. A seborrheic keratosis could be considered due to the epidermal changes, but the prominent dermal lymphoid infiltrate is not characteristic.",
+      "rationale": "Left side higher power to confirm whether adipocytes are in dermis (nevus lipomatosus) vs subcutis and evaluate epidermal/adnexal pattern."
+    },
+    {
+      "roi_id": "slide_A_x16384_y8192_mag1",
+      "tile_id": "slide_A_x16384_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 16384,
+      "y": 8192,
+      "level0": {
+        "x": 16384,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a polypoid skin lesion with epidermal acanthosis and papillomatosis. The dermis contains numerous enlarged sebaceous glands and hair follicles, along with a prominent lymphoid aggregate.\n\nThe most likely diagnosis is a nevus sebaceus. This is supported by the presence of enlarged sebaceous glands and hair follicles, along with epidermal changes and a lymphoid aggregate. Differential diagnoses include sebaceous hyperplasia, which typically lacks the epidermal changes and prominent lymphoid aggregate, and a dermoid cyst, which would show adnexal structures within a cystic space.",
+      "rationale": "Reconfirm whole-section overview for any pigmented dermal melanocytic component; identify darkest foci."
+    },
+    {
+      "roi_id": "slide_A_x11264_y7168_mag10",
+      "tile_id": "slide_A_x11264_y7168_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 11264,
+      "y": 7168,
+      "level0": {
+        "x": 11264,
+        "y": 7168,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows epidermal acanthosis and hyperkeratosis with elongated rete ridges. There is a proliferation of sebaceous glands in the dermis, some associated with hair follicles, and increased basal layer pigmentation.\n\nThe most likely diagnosis is Nevus Sebaceus. Differential diagnoses include sebaceous hyperplasia, which typically occurs in older adults, and basal cell carcinoma, which would show nests of basaloid cells with peripheral palisading and stromal retraction.",
+      "rationale": "Deeper central dermis to look for dermal melanocytic component or deep nodule."
+    },
+    {
+      "roi_id": "slide_A_x20480_y6144_mag20",
+      "tile_id": "slide_A_x20480_y6144_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20480,
+      "y": 6144,
+      "level0": {
+        "x": 20480,
+        "y": 6144,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dermal proliferation of spindle cells with wavy nuclei and eosinophilic cytoplasm, arranged in fascicles and whorls, with associated thickened collagen bundles. A mild perivascular lymphocytic infiltrate is also present.\n\nThe most likely diagnosis is a neurofibroma. The spindle cell morphology with wavy nuclei and the presence of thickened collagen bundles are characteristic features. A schwannoma is a differential diagnosis, but it typically shows more distinct Antoni A and B areas and Verocay bodies, which are not prominent here.",
+      "rationale": "Right junction: confirm absence/presence of melanocytic nests, pagetoid spread"
+    },
+    {
+      "roi_id": "slide_A_x12288_y8192_mag5",
+      "tile_id": "slide_A_x12288_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 12288,
+      "y": 8192,
+      "level0": {
+        "x": 12288,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The epidermis shows acanthosis, papillomatosis, and elongated rete ridges with increased basal pigmentation. The dermis contains numerous enlarged sebaceous glands and a mild perivascular lymphocytic infiltrate.\n\nThe most likely diagnosis is Nevus Sebaceus. Differential diagnoses include sebaceous hyperplasia, which typically occurs in older adults, and epidermal nevus, which lacks the prominent sebaceous gland component.",
+      "rationale": "Mid/deep dermis to assess depth, subcutis involvement, and look for melanocytic maturation vs adnexal hamartoma."
+    },
+    {
+      "roi_id": "slide_A_x20480_y7168_mag10",
+      "tile_id": "slide_A_x20480_y7168_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 20480,
+      "y": 7168,
+      "level0": {
+        "x": 20480,
+        "y": 7168,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The epidermis shows acanthosis and elongated rete ridges with increased basal layer pigmentation. The dermis contains a proliferation of mature sebaceous glands and scattered melanophages.\n\nThe most likely diagnosis is a sebaceous nevus. Differential diagnoses include nevus sebaceus of Jadassohn and epidermal nevus.",
+      "rationale": "Deeper right dermis to check for subtle dermal melanocytes, periadnexal growth."
+    },
+    {
+      "roi_id": "slide_A_x17920_y7168_mag20",
+      "tile_id": "slide_A_x17920_y7168_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 17920,
+      "y": 7168,
+      "level0": {
+        "x": 17920,
+        "y": 7168,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows nests of basaloid cells with peripheral palisading and central squamous differentiation, including keratin pearls, within a fibrous stroma. There is also a prominent lymphocytic infiltrate.\n\nThe most likely diagnosis is Basal Cell Carcinoma with Squamous Differentiation.\n\nDifferential diagnoses include:\n- Trichoepithelioma: Typically shows more uniform basaloid cells, horn cysts, and a less prominent stromal reaction.\n- Squamous Cell Carcinoma: Usually lacks the prominent peripheral palisading and stromal retraction seen in basal cell carcinoma.",
+      "rationale": "Additional right-mid junction sample for melanocytic activity"
+    },
+    {
+      "roi_id": "slide_A_x20480_y8192_mag5",
+      "tile_id": "slide_A_x20480_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 20480,
+      "y": 8192,
+      "level0": {
+        "x": 20480,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The epidermis shows acanthosis and hyperkeratosis with elongated rete ridges. The dermis contains numerous sebaceous glands and a mild perivascular lymphocytic infiltrate.\n\nThe most likely diagnosis is a nevus sebaceus. Differential diagnoses include epidermal nevus and sebaceous hyperplasia.",
+      "rationale": "Right side to assess basaloid nests vs adnexal tumor arising in nevus sebaceus; check circumscription/infiltration at low power."
+    },
+    {
+      "roi_id": "slide_A_x9216_y6144_mag10",
+      "tile_id": "slide_A_x9216_y6144_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 9216,
+      "y": 6144,
+      "level0": {
+        "x": 9216,
+        "y": 6144,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows prominent sebaceous glands composed of mature sebocytes with clear cytoplasm and peripheral basaloid cells, along with a hair follicle and surrounding dermis. The sebaceous glands appear enlarged.\n\nThe most likely diagnosis is a sebaceous nevus, also known as nevus sebaceus of Jadassohn. This is a hamartomatous lesion characterized by an overgrowth of sebaceous glands, hair follicles, and epidermis, typically present at birth and growing proportionally with the patient.\n\nDifferential diagnoses include sebaceous adenoma, which is a benign neoplasm of sebaceous glands, and sebaceous carcinoma, a malignant tumor. Sebaceous adenoma typically shows a more circumscribed growth pattern and lacks the epidermal changes seen in sebaceous nevus. Sebaceous carcinoma would exhibit cytologic atypia, increased mitotic activity, and infiltrative growth, which are not present in this image.",
+      "rationale": "Mid-left dermis around adnexal lobules to look for melanocytic proliferation vs adnexal tumor."
+    },
+    {
+      "roi_id": "slide_A_x11776_y8192_mag20",
+      "tile_id": "slide_A_x11776_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 11776,
+      "y": 8192,
+      "level0": {
+        "x": 11776,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The epidermis shows acanthosis with elongated rete ridges and increased basal layer pigmentation. The stratum corneum exhibits hyperkeratosis and parakeratosis, and the superficial dermis contains a mild perivascular lymphocytic infiltrate.\n\nThe most likely diagnosis is a lentigo simplex. Differential diagnoses include seborrheic keratosis, which typically shows more pronounced acanthosis, papillomatosis, and horn cysts, and a junctional nevus, which would demonstrate nests of nevus cells at the dermal-epidermal junction.",
+      "rationale": "Highest mag at deepest evaluable dermis for mitoses/atypia and maturation if present."
+    },
+    {
+      "roi_id": "slide_A_x12288_y2048_mag5",
+      "tile_id": "slide_A_x12288_y2048_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 12288,
+      "y": 2048,
+      "level0": {
+        "x": 12288,
+        "y": 2048,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a dermal proliferation of spindle cells with wavy nuclei and eosinophilic cytoplasm, arranged in fascicles and whorls, with associated thickened blood vessels and entrapped adnexal structures.\n\nThe most likely diagnosis is a neurofibroma.\n\nDifferential diagnoses include schwannoma, which typically shows Antoni A and B areas and Verocay bodies, and dermatofibroma, which is usually more cellular and collagenous.",
+      "rationale": "Superficial epidermis/junction to look for junctional nests/pagetoid spread at scanning power."
+    },
+    {
+      "roi_id": "slide_A_x15360_y6144_mag10",
+      "tile_id": "slide_A_x15360_y6144_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 15360,
+      "y": 6144,
+      "level0": {
+        "x": 15360,
+        "y": 6144,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The epidermis shows acanthosis with elongated rete ridges and increased basal layer pigmentation. The dermis contains thickened collagen bundles and a mild perivascular lymphocytic infiltrate.\n\nThe most likely diagnosis is a lentigo simplex. Differential diagnoses include a junctional nevus, which would show nests of nevus cells at the dermal-epidermal junction, and a solar lentigo, which typically occurs in sun-exposed skin and shows more prominent basal layer hyperpigmentation and elongated rete ridges.",
+      "rationale": "Mid-right dermis to search for pigmented spindle/dendritic cells, collagen trapping, sclerosis."
+    },
+    {
+      "roi_id": "slide_A_x2560_y6656_mag20",
+      "tile_id": "slide_A_x2560_y6656_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 2560,
+      "y": 6656,
+      "level0": {
+        "x": 2560,
+        "y": 6656,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The epidermis shows acanthosis, hyperkeratosis, and increased basal pigmentation. The dermis contains a dense perivascular and interstitial lymphocytic infiltrate with scattered melanophages.\n\nThe most likely diagnosis is a Nevus of Ota. Differential diagnoses include a Mongolian spot or a dermal nevus, which can be distinguished by the depth and pattern of melanocytes and the presence of melanophages.",
+      "rationale": "Left epidermis included: assess DEJ directly for melanocytic nests/pagetoid spread"
+    },
+    {
+      "roi_id": "slide_A_x12288_y6656_mag20",
+      "tile_id": "slide_A_x12288_y6656_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 12288,
+      "y": 6656,
+      "level0": {
+        "x": 12288,
+        "y": 6656,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows lobules of sebaceous glands composed of peripheral basaloid cells and central mature sebocytes with clear cytoplasm, separated by fibrous stroma. A hair follicle is also present.\n\nThe most likely diagnosis is a sebaceous nevus.\n\nDifferential diagnoses include sebaceous adenoma and sebaceoma, which typically show a more prominent basaloid cell component and lack the characteristic lobular architecture of a sebaceous nevus.",
+      "rationale": "Central epidermis/DEJ: confirm whether any junctional melanocytic proliferation exists"
+    },
+    {
+      "roi_id": "slide_A_x21504_y4096_mag10",
+      "tile_id": "slide_A_x21504_y4096_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 21504,
+      "y": 4096,
+      "level0": {
+        "x": 21504,
+        "y": 4096,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows mature adipose tissue with scattered hemorrhage and a transition to dense fibrous tissue. The adipocytes are uniform with clear cytoplasm and peripheral nuclei.\n\nThe most likely diagnosis for this single tile is a dermal lipoma. The presence of mature adipose tissue is characteristic of this benign mesenchymal neoplasm. The hemorrhage and fibrous tissue may represent reactive changes or components of the lesion.\n\nDifferential diagnoses to consider include a fibrolipoma, which would show a more prominent fibrous component, and a liposarcoma, which would typically exhibit cellular atypia and lipoblasts, features not seen in this image.",
+      "rationale": "Right side near epidermis/dermis interface to assess for any junctional melanocytic component or grenz zone."
+    },
+    {
+      "roi_id": "slide_A_x12288_y3072_mag10",
+      "tile_id": "slide_A_x12288_y3072_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 12288,
+      "y": 3072,
+      "level0": {
+        "x": 12288,
+        "y": 3072,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of thin-walled lymphatic vessels within the dermis and subcutaneous tissue, accompanied by a mild perivascular inflammatory infiltrate. The overlying epidermis is unremarkable.\n\nThe most likely diagnosis is a lymphatic malformation (lymphangioma).\n\nDifferential diagnoses include a hemangioma, which would typically show thicker-walled vessels and potentially red blood cells within the lumens, and a vascular malformation, which may have a more complex vascular architecture.",
+      "rationale": "Clarify superficial dermal spindle-cell area vs artifact; assess for melanocytic junctional nests/pagetoid."
+    },
+    {
+      "roi_id": "slide_A_x4608_y6144_mag20",
+      "tile_id": "slide_A_x4608_y6144_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 4608,
+      "y": 6144,
+      "level0": {
+        "x": 4608,
+        "y": 6144,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows lobules of sebaceous glands composed of cells with clear to finely vacuolated cytoplasm and small, centrally placed nuclei, separated by fibrous stroma. A mild periadnexal lymphocytic infiltrate is also present.\n\nThe most likely diagnosis is a sebaceous nevus. This is supported by the presence of prominent sebaceous glands, which are a key feature of this hamartomatous lesion. The clinical history of a congenital, slowly growing pigmented lesion on the forehead in a young patient is also consistent with this diagnosis.\n\nDifferential diagnoses to consider include other adnexal tumors with sebaceous differentiation, such as sebaceous adenoma or sebaceoma. However, these typically show more cellular atypia and architectural disarray than seen in a sebaceous nevus.",
+      "rationale": "Higher mag in dermis around adnexa to look for melanocytes, periadnexal spread, mitoses."
+    },
+    {
+      "roi_id": "slide_A_x20480_y6656_mag20",
+      "tile_id": "slide_A_x20480_y6656_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20480,
+      "y": 6656,
+      "level0": {
+        "x": 20480,
+        "y": 6656,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of basaloid cells arranged in nests and cords with peripheral palisading and stromal retraction. The cells have scant cytoplasm and hyperchromatic nuclei.\n\nThe most likely diagnosis is basal cell carcinoma.\n\nDifferential diagnoses include trichoepithelioma, which typically shows more prominent follicular differentiation and lacks the stromal retraction seen in basal cell carcinoma.",
+      "rationale": "Right epidermis/DEJ: evaluate for Spitz-like features/Kamino bodies"
+    },
+    {
+      "roi_id": "slide_A_x2048_y6144_mag10",
+      "tile_id": "slide_A_x2048_y6144_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 2048,
+      "y": 6144,
+      "level0": {
+        "x": 2048,
+        "y": 6144,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The epidermis shows acanthosis with elongated rete ridges and increased basal layer pigmentation. The dermis contains thickened collagen bundles and a sparse perivascular lymphocytic infiltrate.\n\nThe most likely diagnosis is a dermal nevus. Differential diagnoses include lentigo simplex and junctional nevus, which would show increased melanocytes at the dermal-epidermal junction, and solar lentigo, which typically occurs in sun-exposed skin and shows basal layer hyperpigmentation and elongated rete ridges.",
+      "rationale": "Evaluate lymphoid aggregate architecture (follicles) and relationship to lesion."
+    },
+    {
+      "roi_id": "slide_A_x15360_y6144_mag20",
+      "tile_id": "slide_A_x15360_y6144_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 15360,
+      "y": 6144,
+      "level0": {
+        "x": 15360,
+        "y": 6144,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The epidermis shows acanthosis and basal layer hyperpigmentation. The dermis contains thickened collagen bundles, scattered melanophages, and a mild perivascular lymphocytic infiltrate.\n\nThe most likely diagnosis is a dermal nevus. Differential diagnoses include lentigo simplex and solar lentigo, which typically show more prominent basal layer hyperpigmentation and less dermal melanocytic proliferation.",
+      "rationale": "High power in area with basal hyperpigmentation/thick collagen to look for dermal melanocytes (spindle/dendritic) or melanophages suggesting blue nevus/combined lesion."
+    },
+    {
+      "roi_id": "slide_A_x12800_y6144_mag20",
+      "tile_id": "slide_A_x12800_y6144_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 12800,
+      "y": 6144,
+      "level0": {
+        "x": 12800,
+        "y": 6144,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense dermal lymphoid infiltrate with a perivascular and periadnexal distribution. The infiltrate is composed of small lymphocytes with scattered larger cells and occasional eosinophils. There is also evidence of dermal fibrosis.\n\nThe most likely diagnosis is a cutaneous lymphoid hyperplasia, such as a cutaneous pseudolymphoma. This is supported by the dense lymphoid infiltrate with a mixed cell population and the clinical history of a slowly growing lesion.\n\nDifferential diagnoses include cutaneous B-cell lymphoma, which would typically show a more monotonous population of atypical lymphocytes, and cutaneous T-cell lymphoma, which often presents with epidermotropism and Pautrier microabscesses.",
+      "rationale": "High mag central deep dermis to assess for any dermal melanocytic nests/atypia."
+    },
+    {
+      "roi_id": "slide_A_x13312_y7168_mag10",
+      "tile_id": "slide_A_x13312_y7168_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 13312,
+      "y": 7168,
+      "level0": {
+        "x": 13312,
+        "y": 7168,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The epidermis shows acanthosis with elongated rete ridges and increased basal layer pigmentation. The dermis contains dense collagen bundles, adnexal structures, and a mild perivascular lymphocytic infiltrate.\n\nThe most likely diagnosis is a lentigo simplex. Differential diagnoses include a junctional nevus, which would show nests of nevus cells at the dermal-epidermal junction, and a solar lentigo, which typically occurs in sun-exposed skin and shows more prominent basal layer pigmentation and elongated rete ridges.",
+      "rationale": "Confirm adnexal hamartoma pattern: sebaceous lobules, abortive follicles, epidermal hyperplasia."
+    },
+    {
+      "roi_id": "slide_A_x20480_y4096_mag10",
+      "tile_id": "slide_A_x20480_y4096_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 20480,
+      "y": 4096,
+      "level0": {
+        "x": 20480,
+        "y": 4096,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows mature adipose tissue with scattered fibrous septa and a small nerve bundle. There is no significant inflammation or atypical cells.\n\nThe most likely diagnosis for this single tile is a dermal lipoma, given the presence of mature adipose tissue. However, the clinical context of a pigmented lesion suggests that this may be a component of a larger lesion, such as a nevus with fatty metaplasia or a hamartoma.",
+      "rationale": "Interrogate right-side basaloid nests seen at 2.5x for adnexal tumor vs BCC."
+    },
+    {
+      "roi_id": "slide_A_x9728_y6144_mag20",
+      "tile_id": "slide_A_x9728_y6144_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 9728,
+      "y": 6144,
+      "level0": {
+        "x": 9728,
+        "y": 6144,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows enlarged sebaceous glands composed of mature sebocytes with clear cytoplasm and peripheral basaloid cells, arranged in lobules separated by fibrous stroma. The overlying epidermis is acanthotic with elongated rete ridges.\n\nThe most likely diagnosis is sebaceous hyperplasia. This is characterized by enlarged sebaceous glands with a normal lobular architecture. The presence of mature sebocytes with clear cytoplasm and peripheral basaloid cells is typical. The acanthotic epidermis with elongated rete ridges is also a common finding.\n\nDifferential diagnoses include sebaceous adenoma, which would show a more prominent basaloid cell component and less mature sebocytes, and sebaceous carcinoma, which would exhibit cytologic atypia, increased mitotic activity, and infiltrative growth.",
+      "rationale": "High power through sebaceous lobules to see if any pigmented spindle/dendritic melanocytes are interspersed or if this is purely adnexal hamartoma."
+    },
+    {
+      "roi_id": "slide_A_x11264_y5120_mag10",
+      "tile_id": "slide_A_x11264_y5120_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 11264,
+      "y": 5120,
+      "level0": {
+        "x": 11264,
+        "y": 5120,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of basaloid cells arranged in nests and cords with peripheral palisading and stromal retraction. The cells have scant cytoplasm and hyperchromatic nuclei, with some nests showing central keratinization or cystic change.\n\nThe most likely diagnosis is basal cell carcinoma. Differential diagnoses include trichoepithelioma, which typically shows more prominent follicular differentiation and lacks the stromal retraction seen here.",
+      "rationale": "Assess surface for ulceration/parakeratosis and degree of papillomatosis"
+    },
+    {
+      "roi_id": "slide_A_x20992_y6144_mag20",
+      "tile_id": "slide_A_x20992_y6144_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20992,
+      "y": 6144,
+      "level0": {
+        "x": 20992,
+        "y": 6144,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a hair follicle with a central hair shaft surrounded by concentric epithelial layers, embedded in dense collagen bundles of the dermis. A mild periadnexal lymphocytic infiltrate is also present.\n\nThe most likely diagnosis for this single tile is normal skin with a hair follicle. The presence of a hair follicle and surrounding dermis is consistent with normal skin histology. The mild periadnexal lymphocytic infiltrate is a non-specific finding and does not indicate a specific pathology in this context.\n\nDifferential diagnoses to consider based on the presence of a hair follicle and mild inflammation could include a normal skin biopsy with incidental inflammation or a mild inflammatory process such as perifolliculitis. However, without additional context or specific features, these are less likely.",
+      "rationale": "High mag right deep dermis with reported melanophages; exclude dermal melanocytic lesion."
+    },
+    {
+      "roi_id": "slide_A_x12288_y4608_mag20",
+      "tile_id": "slide_A_x12288_y4608_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 12288,
+      "y": 4608,
+      "level0": {
+        "x": 12288,
+        "y": 4608,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of spindle cells with wavy nuclei and eosinophilic cytoplasm, arranged in fascicles and whorls, with scattered mature adipocytes. The background stroma is collagenous.\n\nThe most likely diagnosis is a neurofibroma. The presence of spindle cells with wavy nuclei, eosinophilic cytoplasm, and scattered adipocytes within a collagenous stroma are characteristic features. A schwannoma could be considered in the differential, but the lack of Antoni A and B areas and Verocay bodies makes it less likely.",
+      "rationale": "High power in central dermis to look for any melanocytic nests, sclerosis, collagen trapping, or deep pigmented cells."
+    },
+    {
+      "roi_id": "slide_A_x12288_y6144_mag10",
+      "tile_id": "slide_A_x12288_y6144_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 12288,
+      "y": 6144,
+      "level0": {
+        "x": 12288,
+        "y": 6144,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of sebaceous glands composed of mature sebocytes with clear cytoplasm and peripheral basaloid cells, arranged in lobules. The overlying epidermis is acanthotic with elongated rete ridges.\n\nThe most likely diagnosis is a sebaceous adenoma. This benign neoplasm is characterized by a proliferation of mature sebaceous glands. The presence of basaloid cells at the periphery of the lobules is a key feature. Differential diagnoses include sebaceoma, which typically shows a higher proportion of basaloid cells and less mature sebocytes, and sebaceous carcinoma, which would exhibit cytologic atypia and infiltrative growth.",
+      "rationale": "Check follicular ostia for junctional extension along adnexae"
+    },
+    {
+      "roi_id": "slide_A_x13312_y6144_mag10",
+      "tile_id": "slide_A_x13312_y6144_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 13312,
+      "y": 6144,
+      "level0": {
+        "x": 13312,
+        "y": 6144,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The epidermis shows acanthosis and elongated rete ridges with increased basal layer pigmentation. The dermis contains thickened collagen bundles and a sparse perivascular lymphocytic infiltrate.\n\nThe most likely diagnosis is a lentigo simplex. Differential diagnoses include a junctional nevus, which would show nests of nevus cells at the dermal-epidermal junction, and a solar lentigo, which typically occurs in sun-exposed skin and shows more prominent basal layer pigmentation and elongated rete ridges.",
+      "rationale": "Revisit area with dense lymphoid infiltrate to see if any neurotropism/perineural component in deep dermis."
+    },
+    {
+      "roi_id": "slide_A_x19456_y7168_mag10",
+      "tile_id": "slide_A_x19456_y7168_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 19456,
+      "y": 7168,
+      "level0": {
+        "x": 19456,
+        "y": 7168,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a well-circumscribed dermal nodule composed of lobules of cells with abundant clear to finely vacuolated cytoplasm and small, centrally placed nuclei, separated by thin fibrous septa. The overlying epidermis is unremarkable.\n\nThe most likely diagnosis is a sebaceous nevus.\n\nDifferential diagnoses include:\n- Nevus sebaceus: This is the most likely diagnosis given the clinical presentation and histological features.\n- Sebaceous adenoma: This would typically show more prominent sebaceous differentiation and less mature basaloid cells.\n- Sebaceous carcinoma: This would show cytologic atypia, increased mitotic activity, and infiltrative growth, which are not seen in this image.",
+      "rationale": "Right-sided follicular units: look for melanocytic extension or epidermal nevus changes"
+    },
+    {
+      "roi_id": "slide_A_x9216_y7168_mag20",
+      "tile_id": "slide_A_x9216_y7168_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 9216,
+      "y": 7168,
+      "level0": {
+        "x": 9216,
+        "y": 7168,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dilated follicular structure containing keratinous material, surrounded by sebaceous glands and a mild periadnexal lymphocytic infiltrate. The overlying epidermis exhibits acanthosis and hyperkeratosis.\n\nThe most likely diagnosis is a dilated pore of Winer. This is a benign follicular lesion characterized by a dilated follicular infundibulum filled with keratin. The presence of surrounding sebaceous glands and mild inflammation is also consistent with this diagnosis.\n\nDifferential diagnoses include epidermal inclusion cyst, which typically lacks a connection to the epidermis and has a granular layer, and trichofolliculoma, which shows multiple hair follicles radiating from a central cystic structure.",
+      "rationale": "Search for nerves in deep dermis; assess for perineural melanocytes/neurotropism."
+    },
+    {
+      "roi_id": "slide_A_x15872_y7168_mag20",
+      "tile_id": "slide_A_x15872_y7168_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 15872,
+      "y": 7168,
+      "level0": {
+        "x": 15872,
+        "y": 7168,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The epidermis shows acanthosis, elongated rete ridges, and increased basal layer pigmentation. The dermis contains a dense lymphoid infiltrate with scattered melanophages.\n\nThe most likely diagnosis is a Nevus of Ota. Differential diagnoses include a Mongolian spot or a dermal nevus, which would show different cellular components and distribution.",
+      "rationale": "Search deep dermis for perivascular/periadnexal melanocytes; exclude congenital nevus pattern."
+    },
+    {
+      "roi_id": "slide_A_x12288_y8192_mag2",
+      "tile_id": "slide_A_x12288_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 8192,
+      "level0": {
+        "x": 12288,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows epidermal acanthosis and papillomatosis with elongated rete ridges. The dermis contains numerous enlarged sebaceous glands and a mild periadnexal lymphocytic infiltrate.\n\nThe most likely diagnosis is nevus sebaceus. Differential diagnoses include epidermal nevus and sebaceous hyperplasia, which can be distinguished by the presence of enlarged sebaceous glands and epidermal changes in nevus sebaceus.",
+      "rationale": "Assess whether subcutis present and if lesion extends to base."
+    },
+    {
+      "roi_id": "slide_A_x6144_y8192_mag5",
+      "tile_id": "slide_A_x6144_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 6144,
+      "y": 8192,
+      "level0": {
+        "x": 6144,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The epidermis shows acanthosis, papillomatosis, and elongated rete ridges with increased basal pigmentation. The dermis contains numerous enlarged sebaceous glands and a mild perivascular lymphocytic infiltrate.\n\nThe most likely diagnosis is Nevus Sebaceus. Differential diagnoses include epidermal nevus and sebaceous hyperplasia, which can be distinguished by the presence of enlarged sebaceous glands and the specific epidermal changes seen here.",
+      "rationale": "Examine deepest left base for subcutis/infiltrative growth."
+    },
+    {
+      "roi_id": "slide_A_x18432_y8192_mag5",
+      "tile_id": "slide_A_x18432_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 18432,
+      "y": 8192,
+      "level0": {
+        "x": 18432,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The epidermis shows acanthosis, papillomatosis, and hyperkeratosis with elongated rete ridges. The dermis contains numerous enlarged sebaceous glands and a mild perivascular lymphocytic infiltrate.\n\nThe most likely diagnosis is nevus sebaceus. Differential diagnoses include epidermal nevus and sebaceous hyperplasia, which can be distinguished by the presence of enlarged sebaceous glands and the specific epidermal changes seen in nevus sebaceus.",
+      "rationale": "Examine deepest right base for subcutis/infiltrative growth or deep nodule."
+    }
+  ]
+}

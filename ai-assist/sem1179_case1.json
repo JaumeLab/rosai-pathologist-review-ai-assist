@@ -1,0 +1,1550 @@
+{
+  "case_id": "sem1179_case1",
+  "source": "slideseek-ai-assist",
+  "model": "gpt-5.4",
+  "generated_at": "2026-05-22T09:22:18.021492+00:00",
+  "organ": "Skin-Lymphoid",
+  "primary_dx": "Classical Hodgkin Lymphoma, Favor Nodular Sclerosis Subtype",
+  "differential_dx": [
+    "Anaplastic Large Cell Lymphoma",
+    "T-Cell/Histiocyte-Rich Large B-Cell Lymphoma"
+  ],
+  "microscopic_findings": [
+    {
+      "text": "Scattered **Reed-Sternberg-like cells** show **binucleation** and **prominent nucleoli** within a mixed cellular background.",
+      "roi_ids": [
+        "slide_A_x16384_y14336_mag20",
+        "slide_A_x6144_y6144_mag20"
+      ]
+    },
+    {
+      "text": "Large atypical cells include **lacunar-type forms** with **abundant pale cytoplasm** and conspicuous pericellular retraction.",
+      "roi_ids": [
+        "slide_A_x9216_y6144_mag40",
+        "slide_A_x24064_y11776_mag20"
+      ]
+    },
+    {
+      "text": "Background is **polymorphous inflammatory infiltrate** rich in **eosinophils** and plasma cells rather than monomorphic large B cells.",
+      "roi_ids": [
+        "slide_A_x11776_y14848_mag20",
+        "slide_A_x9216_y13312_mag10"
+      ]
+    },
+    {
+      "text": "Stroma shows **fibrosis/sclerosis** with **hyalinized vessels**, supporting a nodular sclerosis pattern.",
+      "roi_ids": [
+        "slide_A_x15360_y10240_mag10",
+        "slide_A_x7168_y3072_mag10"
+      ]
+    }
+  ],
+  "interpretation": "The combination of scattered **Reed-Sternberg/lacunar cells** in a **polymorphous eosinophil-rich background** with associated **sclerosis** supports **classical Hodgkin lymphoma**. The fibrotic stroma and lacunar morphology favor the **nodular sclerosis subtype**. A reactive process is less favored because the large atypical cells are overtly neoplastic and recurrent across fields. THRLBCL or ALCL remain differential considerations, but the mixed inflammatory milieu and characteristic Hodgkin-type cells argue against these alternatives.",
+  "num_rois": 94,
+  "tiles": [
+    {
+      "roi_id": "slide_A_x12288_y16384_mag2",
+      "tile_id": "slide_A_x12288_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 16384,
+      "level0": {
+        "x": 12288,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a dense lymphoid infiltrate with a prominent follicular pattern and a large central area of necrosis. The follicles appear expanded and irregular.\n\nThe most likely diagnosis is a follicular lymphoma. Differential diagnoses include reactive follicular hyperplasia, which typically shows well-formed follicles with polarization and tingible body macrophages, and other low-grade B-cell lymphomas with a follicular growth pattern.",
+      "rationale": "Low-power survey of central tissue for nodularity/sclerosis."
+    },
+    {
+      "roi_id": "slide_A_x16384_y16384_mag1",
+      "tile_id": "slide_A_x16384_y16384_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 16384,
+      "y": 16384,
+      "level0": {
+        "x": 16384,
+        "y": 16384,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a dense lymphoid infiltrate with a diffuse pattern and scattered paler areas. There is also a large artifactual space.\n\nThe most likely diagnosis is a cutaneous lymphoid hyperplasia.\n\nDifferential diagnoses include cutaneous B-cell lymphoma and cutaneous T-cell lymphoma. Distinguishing features would include the presence of a monotonous population of atypical lymphocytes and architectural effacement in lymphoma, versus a polymorphous infiltrate with reactive germinal centers in lymphoid hyperplasia.",
+      "rationale": "Whole-tissue overview central to assess overall architecture and fragmentation."
+    },
+    {
+      "roi_id": "slide_A_x12288_y8192_mag2",
+      "tile_id": "slide_A_x12288_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 8192,
+      "level0": {
+        "x": 12288,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a dense lymphoid infiltrate with a vaguely nodular pattern and scattered larger cells. There is also prominent vascularity and areas of hemorrhage.\n\nThe most likely diagnosis is a cutaneous B-cell lymphoma, such as Primary Cutaneous Follicle Center Lymphoma.\n\nDifferential diagnoses include other cutaneous B-cell lymphomas like Primary Cutaneous Marginal Zone Lymphoma or Primary Cutaneous Diffuse Large B-cell Lymphoma, Leg Type. Reactive lymphoid hyperplasia is also a consideration, though less likely given the vaguely nodular pattern and clinical presentation.",
+      "rationale": "Low-power survey of upper fragment for follicle-rich areas."
+    },
+    {
+      "roi_id": "slide_A_x6144_y6144_mag5",
+      "tile_id": "slide_A_x6144_y6144_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 6144,
+      "y": 6144,
+      "level0": {
+        "x": 6144,
+        "y": 6144,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a dense lymphoid infiltrate with scattered large cells having abundant pale cytoplasm and prominent nucleoli, set within a background of small lymphocytes and eosinophils. Fibrosis is also present.\n\nThe most likely diagnosis is Hodgkin lymphoma, specifically the nodular sclerosis subtype, given the presence of large atypical cells (Reed-Sternberg cells) in a mixed inflammatory background with fibrosis.\n\nDifferential diagnoses include other types of Hodgkin lymphoma (e.g., mixed cellularity) and non-Hodgkin lymphomas with large atypical cells (e.g., anaplastic large cell lymphoma, diffuse large B-cell lymphoma). Immunohistochemistry would be essential to confirm the diagnosis and subtype.",
+      "rationale": "Upper left parenchyma to assess paracortex/interfollicular zones"
+    },
+    {
+      "roi_id": "slide_A_x4096_y4096_mag2",
+      "tile_id": "slide_A_x4096_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 4096,
+      "y": 4096,
+      "level0": {
+        "x": 4096,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a well-circumscribed lymphoid proliferation with a fibrous capsule. The lymphoid tissue is densely cellular with a mixed population of small lymphocytes and scattered larger cells.\n\nThe most likely diagnosis is a lymphoid neoplasm, such as a lymphoma. Differential diagnoses include reactive lymphoid hyperplasia and other types of lymphoma, which can be distinguished by the presence or absence of a monotonous cell population and specific architectural patterns.",
+      "rationale": "Low-power survey of upper-left portion near capsule."
+    },
+    {
+      "roi_id": "slide_A_x12288_y20480_mag2",
+      "tile_id": "slide_A_x12288_y20480_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 20480,
+      "level0": {
+        "x": 12288,
+        "y": 20480,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a dense, diffuse infiltrate of small to medium-sized lymphoid cells with scattered larger cells. There are areas of necrosis and hemorrhage.\n\nThe most likely diagnosis is a low-grade B-cell lymphoma, such as marginal zone lymphoma.\n\nDifferential diagnoses include other small B-cell lymphomas like follicular lymphoma (diffuse variant) or mantle cell lymphoma, which would require further immunophenotyping to distinguish.",
+      "rationale": "Low-power survey of lower fragment for follicle-rich areas."
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag1",
+      "tile_id": "slide_A_x8192_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The lymphoid tissue shows a prominent follicular pattern with numerous follicles and a cellular interfollicular area. The capsule is thickened and fibrotic.\n\nThe most likely diagnosis is a follicular lymphoma. Differential diagnoses include reactive follicular hyperplasia, which typically shows more variation in follicle size and shape, and mantle cell lymphoma, which would require higher power evaluation for characteristic cytology and immunohistochemistry for confirmation.",
+      "rationale": "Scan left/superior edge for capsule, skin, or salivary elements."
+    },
+    {
+      "roi_id": "slide_A_x16384_y6144_mag5",
+      "tile_id": "slide_A_x16384_y6144_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 16384,
+      "y": 6144,
+      "level0": {
+        "x": 16384,
+        "y": 6144,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a dense lymphoid infiltrate with a diffuse pattern and scattered larger cells. There is also prominent vascularity and areas of hemorrhage.\n\nThe most likely diagnosis is a cutaneous B-cell lymphoma, such as primary cutaneous marginal zone lymphoma.\n\nDifferential diagnoses include other low-grade B-cell lymphomas like primary cutaneous follicle center lymphoma or even a reactive process like pseudolymphoma, which can be distinguished by the presence of a monotonous infiltrate and specific immunophenotypic markers.",
+      "rationale": "Upper central/right to assess paracortical expansion and sinuses"
+    },
+    {
+      "roi_id": "slide_A_x20480_y8192_mag2",
+      "tile_id": "slide_A_x20480_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 20480,
+      "y": 8192,
+      "level0": {
+        "x": 20480,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a dense, diffuse lymphoid infiltrate with scattered paler areas and prominent artifactual clefts. The infiltrate is composed of a mixed population of small and larger cells.\n\nThe most likely diagnosis is a cutaneous lymphoid hyperplasia, such as a pseudolymphoma.\n\nDifferential diagnoses include cutaneous B-cell lymphoma, particularly marginal zone lymphoma, and cutaneous T-cell lymphoma. Distinguishing features would include the presence of reactive germinal centers, the pattern of infiltration, and the specific cell types present.",
+      "rationale": "Low-power survey of upper-right portion where paler streaks seen on thumbnail."
+    },
+    {
+      "roi_id": "slide_A_x8192_y24576_mag1",
+      "tile_id": "slide_A_x8192_y24576_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 8192,
+      "y": 24576,
+      "level0": {
+        "x": 8192,
+        "y": 24576,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The lymphoid tissue shows a diffuse infiltrate with effacement of normal architecture and a prominent starry-sky pattern. There is also a fibrous capsule and areas of hemorrhage.\n\nThe most likely diagnosis is a high-grade B-cell lymphoma, such as Burkitt lymphoma.\n\nDifferential diagnoses include other high-grade B-cell lymphomas like diffuse large B-cell lymphoma, which typically shows larger cells and less prominent starry-sky pattern, and reactive lymphoid hyperplasia, which would show preserved architecture and a mixed cell population.",
+      "rationale": "Scan left/inferior portion for capsule and nodularity."
+    },
+    {
+      "roi_id": "slide_A_x6144_y14336_mag5",
+      "tile_id": "slide_A_x6144_y14336_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 6144,
+      "y": 14336,
+      "level0": {
+        "x": 6144,
+        "y": 14336,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a dense lymphoid infiltrate with a vaguely nodular pattern and scattered large atypical cells. There is also prominent vascularity and stromal fibrosis.\n\nThe most likely diagnosis is a cutaneous B-cell lymphoma, such as Primary Cutaneous Follicle Center Lymphoma.\n\nDifferential diagnoses include other cutaneous B-cell lymphomas like Primary Cutaneous Marginal Zone Lymphoma or Primary Cutaneous Diffuse Large B-cell Lymphoma, Leg Type. Reactive lymphoid hyperplasia could also be considered, but the presence of large atypical cells and vague nodularity favor a neoplastic process.",
+      "rationale": "Assess peripheral cortex-like area for follicles/nodularity."
+    },
+    {
+      "roi_id": "slide_A_x12288_y24576_mag2",
+      "tile_id": "slide_A_x12288_y24576_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 24576,
+      "level0": {
+        "x": 12288,
+        "y": 24576,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a dense, diffuse lymphoid infiltrate with effaced architecture and scattered pale areas. The infiltrate is composed of a mixed population of small and large lymphoid cells.\n\nThe most likely diagnosis is a cutaneous B-cell lymphoma, such as primary cutaneous marginal zone lymphoma.\n\nDifferential diagnoses include other cutaneous B-cell lymphomas like primary cutaneous follicle center lymphoma or primary cutaneous diffuse large B-cell lymphoma, leg type. The presence of a mixed population of small and large cells and the diffuse pattern are key features to consider.",
+      "rationale": "Low-power survey of lower fragment for architecture and pale areas."
+    },
+    {
+      "roi_id": "slide_A_x24576_y8192_mag1",
+      "tile_id": "slide_A_x24576_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 24576,
+      "y": 8192,
+      "level0": {
+        "x": 24576,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The low power view shows a dense, diffuse lymphoid infiltrate with effaced architecture and scattered pale areas. The infiltrate is composed of a mixed population of small and large lymphoid cells.\n\nThe most likely diagnosis is a cutaneous B-cell lymphoma, such as primary cutaneous marginal zone lymphoma.\n\nDifferential diagnoses include other low-grade B-cell lymphomas like primary cutaneous follicle center lymphoma or even a reactive process like pseudolymphoma, although the diffuse effacement and mixed cell population favor a lymphoma.",
+      "rationale": "Scan right/superior portion where tissue tapers; look for capsule/sinuses or fibrosis."
+    },
+    {
+      "roi_id": "slide_A_x8192_y16384_mag5",
+      "tile_id": "slide_A_x8192_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 8192,
+      "y": 16384,
+      "level0": {
+        "x": 8192,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a dense lymphoid infiltrate with a vaguely nodular pattern and scattered large atypical cells. The background is composed of small lymphocytes and histiocytes.\n\nThe most likely diagnosis is a B-cell lymphoma, specifically Nodular Lymphocyte Predominant Hodgkin Lymphoma (NLPHL).\n\nDifferential diagnoses include T-cell/histiocyte-rich large B-cell lymphoma (THRLBCL) and classic Hodgkin lymphoma (CHL). NLPHL is distinguished by the presence of large atypical cells (LP cells) in a background rich in small lymphocytes and histiocytes, often with a nodular pattern. THRLBCL also has scattered large B-cells in a similar background but typically lacks the nodular architecture and characteristic LP cells. CHL would show Reed-Sternberg cells and variants in a mixed inflammatory background, often with fibrosis.",
+      "rationale": "Mid/lower junction area to evaluate sinuses and interfollicular areas"
+    },
+    {
+      "roi_id": "slide_A_x20480_y14336_mag5",
+      "tile_id": "slide_A_x20480_y14336_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 20480,
+      "y": 14336,
+      "level0": {
+        "x": 20480,
+        "y": 14336,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a dense, diffuse infiltrate of small to medium-sized lymphoid cells with scant cytoplasm and round to irregular nuclei. Scattered larger cells and small blood vessels are present within the infiltrate.\n\nThe most likely diagnosis is a low-grade B-cell lymphoma, such as marginal zone lymphoma.\n\nDifferential diagnoses include other small B-cell lymphomas like follicular lymphoma (diffuse variant) or small lymphocytic lymphoma. Follicular lymphoma would typically show a follicular pattern, while small lymphocytic lymphoma often has a more monotonous population of small lymphocytes with characteristic proliferation centers.",
+      "rationale": "Assess central region for follicle pattern/back-to-back nodules."
+    },
+    {
+      "roi_id": "slide_A_x24576_y24576_mag1",
+      "tile_id": "slide_A_x24576_y24576_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 24576,
+      "y": 24576,
+      "level0": {
+        "x": 24576,
+        "y": 24576,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a dense, diffuse lymphoid infiltrate with a sharp interface to the surrounding tissue. The infiltrate is composed of small to medium-sized cells with scant cytoplasm and hyperchromatic nuclei.\n\nThe most likely diagnosis is a low-grade B-cell lymphoma, such as extranodal marginal zone lymphoma (MALT lymphoma).\n\nDifferential diagnoses include other small B-cell lymphomas like follicular lymphoma or mantle cell lymphoma, which would require higher power examination and immunohistochemistry for definitive classification.",
+      "rationale": "Scan right/inferior portion for architecture, possible hilum, adipose, salivary tissue."
+    },
+    {
+      "roi_id": "slide_A_x16384_y14336_mag10",
+      "tile_id": "slide_A_x16384_y14336_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 16384,
+      "y": 14336,
+      "level0": {
+        "x": 16384,
+        "y": 14336,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense, mixed cellular infiltrate with scattered large atypical cells and a background of small lymphocytes, eosinophils, and plasma cells. The large cells have abundant cytoplasm and prominent nucleoli.\n\nThe most likely diagnosis is Hodgkin lymphoma, specifically the nodular sclerosis subtype, given the presence of large atypical cells in a mixed inflammatory background.\n\nDifferential diagnoses include anaplastic large cell lymphoma and other types of Hodgkin lymphoma, which can be distinguished by the specific morphology of the large atypical cells and the composition of the background infiltrate.",
+      "rationale": "Sample central nodular area/interfollicular zones for large atypical cells."
+    },
+    {
+      "roi_id": "slide_A_x14336_y24576_mag5",
+      "tile_id": "slide_A_x14336_y24576_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 14336,
+      "y": 24576,
+      "level0": {
+        "x": 14336,
+        "y": 24576,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a dense lymphoid infiltrate with a vaguely nodular pattern. Scattered large cells with prominent nucleoli are present within a background of small lymphocytes and histiocytes.\n\nThe most likely diagnosis is Nodular Lymphocyte Predominant Hodgkin Lymphoma (NLPHL).\n\nDifferential diagnoses include T-cell/histiocyte-rich large B-cell lymphoma (THRLBCL) and classical Hodgkin lymphoma, nodular sclerosis type. NLPHL is distinguished by the presence of characteristic \"popcorn\" cells (LP cells) in a background rich in small lymphocytes and histiocytes, often with a nodular pattern. THRLBCL also has scattered large B-cells in a background of T-cells and histiocytes, but typically lacks the nodular architecture and the specific morphology of LP cells. Classical Hodgkin lymphoma, nodular sclerosis type, would show Reed-Sternberg cells and variants in a background of mixed inflammatory cells, often with fibrosis.",
+      "rationale": "Lower fragment parenchyma for paracortex and sinus survey"
+    },
+    {
+      "roi_id": "slide_A_x4096_y12288_mag2",
+      "tile_id": "slide_A_x4096_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 4096,
+      "y": 12288,
+      "level0": {
+        "x": 4096,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a well-circumscribed lymphoid proliferation with a fibrous capsule. The parenchyma contains a mixed cellular infiltrate with scattered large cells and areas of hemorrhage.\n\nThe most likely diagnosis is a lymphoid neoplasm, such as a lymphoma. Differential diagnoses include reactive lymphoid hyperplasia and other types of lymphoma, which can be distinguished by the presence of specific cell types, architectural patterns, and immunophenotypic markers.",
+      "rationale": "Left peripheral edge to assess capsule, subcapsular sinus, perinodal soft tissue."
+    },
+    {
+      "roi_id": "slide_A_x10240_y8192_mag10",
+      "tile_id": "slide_A_x10240_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 10240,
+      "y": 8192,
+      "level0": {
+        "x": 10240,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense lymphoid infiltrate with scattered large atypical cells and a background of small lymphocytes and eosinophils. The large cells have abundant cytoplasm and prominent nucleoli.\n\nThe most likely diagnosis is Hodgkin lymphoma, specifically the nodular sclerosis subtype, given the presence of large atypical cells in a mixed inflammatory background.\n\nDifferential diagnoses include other types of Hodgkin lymphoma (e.g., mixed cellularity) and non-Hodgkin lymphomas with large atypical cells (e.g., anaplastic large cell lymphoma). Immunohistochemistry for CD30, CD15, and PAX5 would be helpful to confirm the diagnosis.",
+      "rationale": "Evaluate follicles/GCs in upper fragment—assess polarization, mantle zones, size variation."
+    },
+    {
+      "roi_id": "slide_A_x20480_y9216_mag10",
+      "tile_id": "slide_A_x20480_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 20480,
+      "y": 9216,
+      "level0": {
+        "x": 20480,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense, mixed cellular infiltrate with scattered large atypical cells and a background of small lymphocytes, eosinophils, and plasma cells. There is also evidence of stromal fibrosis.\n\nThe most likely diagnosis is a lymphoproliferative disorder, specifically a Hodgkin lymphoma subtype.\n\nDifferential diagnoses include other lymphomas with a mixed inflammatory background, such as T-cell/histiocyte-rich large B-cell lymphoma, and reactive processes like infectious mononucleosis or drug reaction.",
+      "rationale": "Evaluate pale/clefted area in upper-right for sclerosis/eosinophils/atypical large cells."
+    },
+    {
+      "roi_id": "slide_A_x4096_y10240_mag10",
+      "tile_id": "slide_A_x4096_y10240_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 4096,
+      "y": 10240,
+      "level0": {
+        "x": 4096,
+        "y": 10240,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense lymphoid infiltrate with scattered large atypical cells, some resembling Reed-Sternberg cells, within a background of small lymphocytes and eosinophils.",
+      "rationale": "Left mid (near capsule) to evaluate paracortex and subcapsular sinus"
+    },
+    {
+      "roi_id": "slide_A_x15360_y10240_mag10",
+      "tile_id": "slide_A_x15360_y10240_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 15360,
+      "y": 10240,
+      "level0": {
+        "x": 15360,
+        "y": 10240,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense lymphoid infiltrate with scattered large atypical cells and prominent hyalinized vessels. The background is composed of small lymphocytes and plasma cells.\n\nThe most likely diagnosis is cutaneous lymphoid hyperplasia with features suggestive of Castleman disease.\n\nDifferential diagnoses include cutaneous follicular lymphoma and cutaneous marginal zone lymphoma, which can also present with dense lymphoid infiltrates but typically lack the prominent hyalinized vessels and large atypical cells seen here.",
+      "rationale": "Central-upper area with nodularity—check for back-to-back follicles vs diffuse."
+    },
+    {
+      "roi_id": "slide_A_x11264_y25600_mag10",
+      "tile_id": "slide_A_x11264_y25600_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 11264,
+      "y": 25600,
+      "level0": {
+        "x": 11264,
+        "y": 25600,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense, diffuse infiltrate of small lymphocytes with scattered larger cells. There is also increased vascularity and stromal reaction.\n\nThe most likely diagnosis is a low-grade B-cell lymphoma, such as marginal zone lymphoma.\n\nDifferential diagnoses include other small B-cell lymphomas like follicular lymphoma (diffuse variant) or small lymphocytic lymphoma.",
+      "rationale": "Lower fragment architecture—look for fibrosis bands or mixed inflammatory background."
+    },
+    {
+      "roi_id": "slide_A_x12288_y11264_mag10",
+      "tile_id": "slide_A_x12288_y11264_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 12288,
+      "y": 11264,
+      "level0": {
+        "x": 12288,
+        "y": 11264,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense lymphoid infiltrate with scattered large atypical cells and prominent hyalinized vessels. The background is composed of small lymphocytes and plasma cells.\n\nThe most likely diagnosis is cutaneous lymphoid hyperplasia with features suggestive of Castleman disease.\n\nDifferential diagnoses include cutaneous follicular lymphoma and cutaneous marginal zone lymphoma, which would typically show a more monotonous lymphoid population and lack the prominent hyalinized vessels and scattered large atypical cells seen here.",
+      "rationale": "Central area to assess interfollicular/paracortical zones and HEVs"
+    },
+    {
+      "roi_id": "slide_A_x4096_y8192_mag2",
+      "tile_id": "slide_A_x4096_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 4096,
+      "y": 8192,
+      "level0": {
+        "x": 4096,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a well-circumscribed lymphoid proliferation with a fibrous capsule. The cellular infiltrate is composed of a mixed population including large cells with clear cytoplasm and smaller lymphocytes, with areas of hemorrhage.\n\nThe most likely diagnosis is a B-cell lymphoma, specifically Nodular Lymphocyte Predominant Hodgkin Lymphoma (NLPHL).\n\nDifferential diagnoses include T-cell/histiocyte-rich large B-cell lymphoma (THRLBCL) and classical Hodgkin lymphoma (cHL), nodular sclerosis type. NLPHL is characterized by the presence of large, atypical lymphocyte-predominant (LP) cells (also known as \"popcorn cells\") within a background of small lymphocytes, histiocytes, and often fibrosis. THRLBCL also has scattered large B-cells but typically lacks the characteristic LP cells and nodular architecture. Nodular sclerosis cHL can have a nodular pattern and fibrosis but the neoplastic cells are Reed-Sternberg cells and variants, which are typically CD15 and CD30 positive, unlike the LP cells of NLPHL.",
+      "rationale": "Upper left area with follicular pattern on overview; confirm nodularity vs diffuse."
+    },
+    {
+      "roi_id": "slide_A_x9216_y13312_mag10",
+      "tile_id": "slide_A_x9216_y13312_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 9216,
+      "y": 13312,
+      "level0": {
+        "x": 9216,
+        "y": 13312,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense lymphoid infiltrate with scattered large atypical cells, some with prominent nucleoli and abundant cytoplasm, and a background of smaller lymphocytes and eosinophils. A hyalinized vessel is also present.\n\nThe most likely diagnosis is Hodgkin lymphoma, specifically the nodular sclerosis subtype, given the presence of large atypical cells (Hodgkin and Reed-Sternberg cells) in a mixed inflammatory background.\n\nDifferential diagnoses include other lymphomas with large atypical cells, such as anaplastic large cell lymphoma or diffuse large B-cell lymphoma, which can be distinguished by immunohistochemical staining patterns.",
+      "rationale": "Mid-left region near capsule—look for cortical follicles and mantle zone preservation."
+    },
+    {
+      "roi_id": "slide_A_x6144_y6144_mag10",
+      "tile_id": "slide_A_x6144_y6144_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 6144,
+      "y": 6144,
+      "level0": {
+        "x": 6144,
+        "y": 6144,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense cellular infiltrate composed of small lymphocytes and scattered large atypical cells with abundant cytoplasm and prominent nucleoli, some of which are multinucleated. There is also a background of eosinophils and plasma cells.\n\nThe most likely diagnosis is Hodgkin lymphoma, specifically the nodular sclerosis subtype, given the presence of large atypical cells resembling Reed-Sternberg cells in a mixed inflammatory background.\n\nDifferential diagnoses include anaplastic large cell lymphoma, which can also show large atypical cells, and certain types of non-Hodgkin lymphoma with a prominent reactive background. Immunohistochemistry would be essential to confirm the diagnosis and differentiate between these entities.",
+      "rationale": "Capsular/subcapsular region—assess for sinus involvement and large atypical cells."
+    },
+    {
+      "roi_id": "slide_A_x20480_y12288_mag10",
+      "tile_id": "slide_A_x20480_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 20480,
+      "y": 12288,
+      "level0": {
+        "x": 20480,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense, diffuse infiltrate of small lymphocytes with scattered larger cells. There is also increased vascularity and areas of hemorrhage.\n\nThe most likely diagnosis is a low-grade B-cell lymphoma, such as marginal zone lymphoma.\n\nDifferential diagnoses include other small B-cell lymphomas like follicular lymphoma (diffuse variant) or small lymphocytic lymphoma. Follicular lymphoma would typically show a follicular pattern, while small lymphocytic lymphoma often has a more monotonous population of small lymphocytes and proliferation centers.",
+      "rationale": "Right mid (near hilum/cleft) to assess sinuses and any metastasis"
+    },
+    {
+      "roi_id": "slide_A_x12288_y12288_mag2",
+      "tile_id": "slide_A_x12288_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 12288,
+      "level0": {
+        "x": 12288,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a dense lymphoid infiltrate with a vaguely nodular pattern and scattered larger cells. There are also areas of hemorrhage and necrosis.\n\nThe most likely diagnosis is a cutaneous B-cell lymphoma, such as Primary Cutaneous Follicle Center Lymphoma.\n\nDifferential diagnoses include other cutaneous lymphomas like Primary Cutaneous Marginal Zone Lymphoma or Primary Cutaneous Diffuse Large B-cell Lymphoma, Leg Type. Distinguishing features would include the presence of well-formed follicles with centrocytes and centroblasts, and the absence of significant large cell transformation.",
+      "rationale": "Central region with paler areas/artifactual cleft; evaluate for nodules/necrosis/fibrosis."
+    },
+    {
+      "roi_id": "slide_A_x17408_y15360_mag10",
+      "tile_id": "slide_A_x17408_y15360_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 17408,
+      "y": 15360,
+      "level0": {
+        "x": 17408,
+        "y": 15360,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense lymphoid infiltrate with scattered large atypical cells and a background of small lymphocytes, eosinophils, and plasma cells. A blood vessel with thickened walls is also present.\n\nThe most likely diagnosis is a lymphoproliferative disorder, such as Hodgkin lymphoma or a T-cell rich B-cell lymphoma.\n\nDifferential diagnoses include other lymphomas with a mixed inflammatory background, such as anaplastic large cell lymphoma or certain types of peripheral T-cell lymphoma.",
+      "rationale": "Mid-right region—assess interfollicular expansion/vascularity and follicle architecture."
+    },
+    {
+      "roi_id": "slide_A_x20480_y16384_mag2",
+      "tile_id": "slide_A_x20480_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 20480,
+      "y": 16384,
+      "level0": {
+        "x": 20480,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a dense lymphoid infiltrate with a diffuse pattern and scattered pale areas. The infiltrate is composed of small to medium-sized lymphocytes with irregular nuclei.\n\nThe most likely diagnosis is cutaneous marginal zone lymphoma. Differential diagnoses include other low-grade B-cell lymphomas such as follicular lymphoma or small lymphocytic lymphoma, which can be distinguished by their characteristic architectural patterns and immunophenotype.",
+      "rationale": "Right central region near pale streaks; assess fibrosis/sclerosis or sinus pattern."
+    },
+    {
+      "roi_id": "slide_A_x11264_y21504_mag10",
+      "tile_id": "slide_A_x11264_y21504_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 11264,
+      "y": 21504,
+      "level0": {
+        "x": 11264,
+        "y": 21504,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense lymphoid infiltrate with scattered large atypical cells and a background of mixed inflammatory cells. There is also evidence of hemorrhage.\n\nThe most likely diagnosis is a lymphoproliferative disorder, such as a cutaneous T-cell lymphoma or a reactive process with atypical features.\n\nDifferential diagnoses include cutaneous T-cell lymphoma (e.g., mycosis fungoides, transformed) and a reactive lymphoid hyperplasia with atypical features. Distinguishing features would include the presence of epidermotropism, the degree of cellular atypia, and the pattern of the infiltrate.",
+      "rationale": "Upper part of lower fragment to assess paracortex/sinuses"
+    },
+    {
+      "roi_id": "slide_A_x12288_y23552_mag10",
+      "tile_id": "slide_A_x12288_y23552_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 12288,
+      "y": 23552,
+      "level0": {
+        "x": 12288,
+        "y": 23552,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense lymphoid infiltrate with a mixed population of small lymphocytes and scattered larger cells. There is also increased vascularity and areas of hemorrhage.\n\nThe most likely diagnosis is a cutaneous B-cell lymphoma, such as primary cutaneous marginal zone lymphoma.\n\nDifferential diagnoses include other low-grade B-cell lymphomas like primary cutaneous follicle center lymphoma or even reactive lymphoid hyperplasia, which can be distinguished by the specific cellular composition and architectural patterns.",
+      "rationale": "Lower fragment—survey follicles and GC features; compare to upper."
+    },
+    {
+      "roi_id": "slide_A_x16384_y14336_mag20",
+      "tile_id": "slide_A_x16384_y14336_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 16384,
+      "y": 14336,
+      "level0": {
+        "x": 16384,
+        "y": 14336,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense cellular infiltrate composed of small lymphocytes and scattered large atypical cells with prominent nucleoli and abundant cytoplasm, some of which are multinucleated. There is also a background of eosinophils and plasma cells.\n\nThe most likely diagnosis is Hodgkin lymphoma, specifically the nodular sclerosis subtype, given the presence of large atypical cells resembling Reed-Sternberg cells in a mixed inflammatory background.\n\nDifferential diagnoses include other lymphomas with large atypical cells, such as anaplastic large cell lymphoma, which typically shows strong CD30 positivity and lacks the characteristic Reed-Sternberg cells and mixed inflammatory background of Hodgkin lymphoma.",
+      "rationale": "High power on ROI with mixed inflammatory background and large atypical cells to confirm RS/lacunar features."
+    },
+    {
+      "roi_id": "slide_A_x12288_y28672_mag2",
+      "tile_id": "slide_A_x12288_y28672_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 28672,
+      "level0": {
+        "x": 12288,
+        "y": 28672,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The lymphoid tissue shows a diffuse infiltrate with effacement of normal architecture and a prominent starry-sky pattern. The infiltrate is composed of a mixed population of small and large lymphoid cells.\n\nThe most likely diagnosis is a high-grade B-cell lymphoma, such as Diffuse Large B-cell Lymphoma (DLBCL).\n\nDifferential diagnoses include Burkitt lymphoma, which also presents with a starry-sky pattern but typically has a more uniform population of medium-sized cells. Follicular lymphoma, grade 3, could also be considered, although it usually shows a follicular pattern.",
+      "rationale": "Inferior fragment to assess whether second node vs contiguous; architecture and capsule."
+    },
+    {
+      "roi_id": "slide_A_x15360_y28672_mag10",
+      "tile_id": "slide_A_x15360_y28672_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 15360,
+      "y": 28672,
+      "level0": {
+        "x": 15360,
+        "y": 28672,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense lymphoid infiltrate with a mixed population of small lymphocytes and scattered larger cells, including some with prominent nucleoli. There is also a fibrous capsule and areas of hemorrhage.\n\nThe most likely diagnosis is a lymphoid neoplasm, such as a lymphoma. The presence of a mixed cell population with scattered large cells raises suspicion for a T-cell lymphoma, such as Angioimmunoblastic T-cell Lymphoma.\n\nDifferential diagnoses include other lymphomas with a mixed cell population, such as Hodgkin Lymphoma or certain types of B-cell lymphomas. Immunohistochemistry would be essential to determine the lineage and specific subtype of the lymphoma.",
+      "rationale": "Inferior pole of lower fragment for medullary sinuses"
+    },
+    {
+      "roi_id": "slide_A_x20480_y9216_mag20",
+      "tile_id": "slide_A_x20480_y9216_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20480,
+      "y": 9216,
+      "level0": {
+        "x": 20480,
+        "y": 9216,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense lymphoid infiltrate with scattered large atypical cells exhibiting prominent nucleoli and abundant cytoplasm. There is also a background of smaller lymphocytes and eosinophils.\n\nThe most likely diagnosis is a lymphoproliferative disorder, specifically a T-cell lymphoma with large atypical cells.\n\nDifferential diagnoses include Hodgkin lymphoma, given the presence of large atypical cells, and other types of large cell lymphomas. Immunohistochemistry would be essential to determine the lineage of the atypical cells and confirm the diagnosis.",
+      "rationale": "High power in fibrotic upper-right area with scattered large cells—assess lacunar cells/sclerosis."
+    },
+    {
+      "roi_id": "slide_A_x6144_y6144_mag20",
+      "tile_id": "slide_A_x6144_y6144_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 6144,
+      "y": 6144,
+      "level0": {
+        "x": 6144,
+        "y": 6144,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense mixed cellular infiltrate with scattered large atypical cells, some resembling Reed-Sternberg cells, within a background of small lymphocytes, eosinophils, and plasma cells.",
+      "rationale": "High power near capsule where multinucleated large cells noted—confirm RS-like morphology."
+    },
+    {
+      "roi_id": "slide_A_x15360_y12288_mag10",
+      "tile_id": "slide_A_x15360_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 15360,
+      "y": 12288,
+      "level0": {
+        "x": 15360,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense lymphoid infiltrate with scattered large atypical cells, some resembling Reed-Sternberg cells, within a background of small lymphocytes and eosinophils. There are also areas of stromal fibrosis.\n\nThe most likely diagnosis is Hodgkin lymphoma, specifically the nodular sclerosis subtype, given the presence of Reed-Sternberg cells and fibrosis.\n\nDifferential diagnoses include other types of Hodgkin lymphoma (e.g., mixed cellularity) and certain non-Hodgkin lymphomas with large atypical cells, such as anaplastic large cell lymphoma. Immunohistochemistry would be essential for definitive classification.",
+      "rationale": "Target central follicle-rich area to directly assess GC morphology (polarization/TBMs/mantle)."
+    },
+    {
+      "roi_id": "slide_A_x11264_y25600_mag20",
+      "tile_id": "slide_A_x11264_y25600_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 11264,
+      "y": 25600,
+      "level0": {
+        "x": 11264,
+        "y": 25600,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense, diffuse infiltrate of small lymphocytes with scattered larger cells and prominent vascularity. The infiltrate is composed of a mixed population of small lymphocytes and larger cells with vesicular nuclei and prominent nucleoli.\n\nThe most likely diagnosis is a cutaneous B-cell lymphoma, such as primary cutaneous marginal zone lymphoma.\n\nDifferential diagnoses include other small B-cell lymphomas like primary cutaneous follicle center lymphoma or small lymphocytic lymphoma/chronic lymphocytic leukemia. The presence of larger cells and prominent vascularity favors a marginal zone lymphoma.",
+      "rationale": "Check lower fragment where prior 10x suggested low-grade lymphoma; look for large atypical cells or eosinophils."
+    },
+    {
+      "roi_id": "slide_A_x2048_y5120_mag10",
+      "tile_id": "slide_A_x2048_y5120_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 2048,
+      "y": 5120,
+      "level0": {
+        "x": 2048,
+        "y": 5120,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a transition from a dense lymphoid infiltrate to a less cellular area with spindle cells and fibrosis. Scattered large atypical cells are present within the lymphoid background.\n\nThe most likely diagnosis is Hodgkin lymphoma, specifically the nodular sclerosis subtype, given the presence of large atypical cells in a background of mixed inflammatory cells and fibrosis.\n\nDifferential diagnoses include other types of lymphoma, such as anaplastic large cell lymphoma, which can also show large atypical cells, and reactive lymphoid hyperplasia with fibrosis, which lacks the characteristic large atypical cells.",
+      "rationale": "Upper left edge to look for subcapsular sinus and any metastatic deposits"
+    },
+    {
+      "roi_id": "slide_A_x2048_y4096_mag5",
+      "tile_id": "slide_A_x2048_y4096_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 2048,
+      "y": 4096,
+      "level0": {
+        "x": 2048,
+        "y": 4096,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a well-circumscribed mass composed of dense lymphoid tissue with a fibrous capsule. The lymphoid tissue contains a mixed population of small lymphocytes and larger cells with vesicular nuclei and prominent nucleoli.\n\nThe most likely diagnosis is a lymphoid neoplasm, such as a lymphoma. The presence of a mixed population of small lymphocytes and larger atypical cells suggests a possible large cell lymphoma. Differential diagnoses include reactive lymphoid hyperplasia, which typically shows a more polymorphous population and preserved architecture, and other types of lymphoma, such as follicular lymphoma, which would show a follicular pattern.",
+      "rationale": "Superior-left peripheral edge to confirm true capsule/subcapsular sinus vs fibrous tissue; look for extranodal tissue."
+    },
+    {
+      "roi_id": "slide_A_x21504_y9216_mag10",
+      "tile_id": "slide_A_x21504_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 21504,
+      "y": 9216,
+      "level0": {
+        "x": 21504,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense cellular infiltrate composed of a mixed population of small lymphocytes and scattered large atypical cells with prominent nucleoli. The large cells are often surrounded by the smaller lymphocytes.\n\nThe most likely diagnosis is Hodgkin lymphoma, specifically the nodular sclerosis subtype, given the presence of large atypical cells (Hodgkin and Reed-Sternberg cells) in a background of small lymphocytes.\n\nDifferential diagnoses include other lymphomas with large atypical cells, such as anaplastic large cell lymphoma or diffuse large B-cell lymphoma, which can be distinguished by immunohistochemical staining patterns.",
+      "rationale": "Right upper area with nodularity—evaluate for back-to-back follicles or regressed GCs."
+    },
+    {
+      "roi_id": "slide_A_x23552_y9216_mag10",
+      "tile_id": "slide_A_x23552_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 23552,
+      "y": 9216,
+      "level0": {
+        "x": 23552,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense cellular infiltrate composed of a mixed population of small lymphocytes and scattered large atypical cells with prominent nucleoli and abundant cytoplasm. The background stroma is fibrotic.\n\nThe most likely diagnosis is Hodgkin lymphoma, specifically the nodular sclerosis subtype, given the presence of large atypical cells in a mixed inflammatory background and fibrotic stroma.\n\nDifferential diagnoses include anaplastic large cell lymphoma, which can also show large atypical cells, and certain types of non-Hodgkin lymphoma with a prominent reactive background. Immunohistochemistry would be essential to confirm the diagnosis and differentiate between these entities.",
+      "rationale": "Far right upper (near cleft) for sinus evaluation"
+    },
+    {
+      "roi_id": "slide_A_x6144_y8192_mag5",
+      "tile_id": "slide_A_x6144_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 6144,
+      "y": 8192,
+      "level0": {
+        "x": 6144,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a dense lymphoid infiltrate with scattered large atypical cells and a background of smaller lymphocytes. There is also prominent vascularity and areas of hemorrhage.\n\nThe most likely diagnosis is a lymphoproliferative disorder, specifically a B-cell lymphoma with large atypical cells.\n\nDifferential diagnoses include Hodgkin lymphoma, given the presence of large atypical cells, and other large B-cell lymphomas. Immunohistochemistry would be necessary to confirm the lineage and specific subtype.",
+      "rationale": "Area with apparent follicular/nodular pattern to see if follicles back-to-back vs reactive."
+    },
+    {
+      "roi_id": "slide_A_x7168_y9216_mag10",
+      "tile_id": "slide_A_x7168_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 7168,
+      "y": 9216,
+      "level0": {
+        "x": 7168,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense lymphoid infiltrate with scattered large atypical cells and prominent hemorrhage. The background is composed of small lymphocytes and plasma cells.\n\nThe most likely diagnosis is a lymphoproliferative disorder, such as a cutaneous lymphoma or a reactive process with atypical features.\n\nDifferential diagnoses include cutaneous T-cell lymphoma (e.g., mycosis fungoides) and cutaneous B-cell lymphoma (e.g., primary cutaneous marginal zone lymphoma). The presence of large atypical cells and hemorrhage may also raise suspicion for a reactive process like Kikuchi-Fujimoto disease or an angioinvasive process.",
+      "rationale": "Left upper cortical zone—look for reactive follicles with intact mantle and polarization."
+    },
+    {
+      "roi_id": "slide_A_x12288_y12288_mag5",
+      "tile_id": "slide_A_x12288_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 12288,
+      "y": 12288,
+      "level0": {
+        "x": 12288,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a dense, diffuse infiltrate of small lymphocytes with scattered larger cells. There is also increased vascularity and stromal fibrosis.\n\nThe most likely diagnosis is a low-grade B-cell lymphoma, such as marginal zone lymphoma.\n\nDifferential diagnoses include other small B-cell lymphomas like follicular lymphoma (diffuse variant) or small lymphocytic lymphoma.",
+      "rationale": "Central region to assess nodularity vs diffuse effacement; look for pale bands, necrosis."
+    },
+    {
+      "roi_id": "slide_A_x9216_y6144_mag20",
+      "tile_id": "slide_A_x9216_y6144_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 9216,
+      "y": 6144,
+      "level0": {
+        "x": 9216,
+        "y": 6144,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense cellular infiltrate composed of small lymphocytes and scattered large atypical cells with prominent nucleoli and abundant cytoplasm, some of which are multinucleated. The background stroma is pink and fibrillar.\n\nThe most likely diagnosis is Hodgkin lymphoma, specifically the nodular sclerosis subtype, given the presence of large atypical cells resembling Reed-Sternberg cells within a mixed inflammatory background.\n\nDifferential diagnoses include other lymphomas with large atypical cells, such as anaplastic large cell lymphoma, which typically shows strong CD30 expression and lacks the characteristic background of Hodgkin lymphoma.",
+      "rationale": "Higher power paracortex to assess immunoblasts/RS-like cells, eosinophils"
+    },
+    {
+      "roi_id": "slide_A_x24064_y11776_mag20",
+      "tile_id": "slide_A_x24064_y11776_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 24064,
+      "y": 11776,
+      "level0": {
+        "x": 24064,
+        "y": 11776,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense cellular infiltrate composed of small lymphocytes, eosinophils, and scattered large atypical cells with prominent nucleoli. The large cells are often surrounded by clear spaces.\n\nThe most likely diagnosis is Hodgkin lymphoma, specifically the nodular sclerosis subtype, given the presence of large atypical cells (Reed-Sternberg cells) in a mixed inflammatory background.\n\nDifferential diagnoses include other lymphomas with large atypical cells, such as anaplastic large cell lymphoma, which typically shows strong CD30 positivity and lacks the characteristic mixed inflammatory background and nodular sclerosis pattern.",
+      "rationale": "Additional high-power in right-sided nodular area to confirm whether RS-like cells present beyond initial fields."
+    },
+    {
+      "roi_id": "slide_A_x15360_y25600_mag10",
+      "tile_id": "slide_A_x15360_y25600_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 15360,
+      "y": 25600,
+      "level0": {
+        "x": 15360,
+        "y": 25600,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense lymphoid infiltrate with a mixed population of small lymphocytes and scattered larger cells, including some with prominent nucleoli. There is also a background of pink stromal material.\n\nThe most likely diagnosis is a cutaneous B-cell lymphoma, such as primary cutaneous marginal zone lymphoma.\n\nDifferential diagnoses include other low-grade B-cell lymphomas like follicular lymphoma or small lymphocytic lymphoma, and reactive lymphoid hyperplasia. Distinguishing features would include the presence of follicular structures in follicular lymphoma, a monotonous population of small lymphocytes in small lymphocytic lymphoma, and the presence of well-formed germinal centers in reactive hyperplasia.",
+      "rationale": "Lower fragment follicle/GC area—compare architecture; look for PTGC."
+    },
+    {
+      "roi_id": "slide_A_x20480_y16384_mag5",
+      "tile_id": "slide_A_x20480_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 20480,
+      "y": 16384,
+      "level0": {
+        "x": 20480,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a dense lymphoid infiltrate with scattered larger cells. The infiltrate is well-circumscribed and composed of a mixed population of small and large lymphocytes.\n\nThe most likely diagnosis is a cutaneous lymphoid hyperplasia, such as a reactive lymphoid hyperplasia or a cutaneous B-cell lymphoma.\n\nDifferential diagnoses include reactive lymphoid hyperplasia, which typically shows a polymorphous infiltrate with germinal centers, and cutaneous B-cell lymphoma, which may show a more monomorphic population of large cells.",
+      "rationale": "Right-central area where pale streaks noted; evaluate for sclerosis/necrosis and sinus pattern."
+    },
+    {
+      "roi_id": "slide_A_x11776_y14848_mag20",
+      "tile_id": "slide_A_x11776_y14848_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 11776,
+      "y": 14848,
+      "level0": {
+        "x": 11776,
+        "y": 14848,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense, mixed cellular infiltrate with scattered large atypical cells and a background of small lymphocytes, eosinophils, and plasma cells. The large cells have abundant cytoplasm and prominent nucleoli.\n\nThe most likely diagnosis is Hodgkin lymphoma, specifically the mixed cellularity subtype, given the presence of large atypical cells in a mixed inflammatory background.\n\nDifferential diagnoses include anaplastic large cell lymphoma, which can also show large atypical cells, and certain types of non-Hodgkin lymphoma with a prominent reactive background. Immunohistochemistry would be essential to confirm the diagnosis and differentiate between these entities.",
+      "rationale": "Central interfollicular zone for HEVs, polymorphous infiltrate, necrosis/granulomas"
+    },
+    {
+      "roi_id": "slide_A_x17920_y20992_mag20",
+      "tile_id": "slide_A_x17920_y20992_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 17920,
+      "y": 20992,
+      "level0": {
+        "x": 17920,
+        "y": 20992,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense infiltrate of small lymphocytes with scattered larger atypical cells exhibiting vesicular nuclei and prominent nucleoli. The background contains eosinophils and plasma cells.\n\nThe most likely diagnosis is a lymphoproliferative disorder, such as Hodgkin lymphoma, given the presence of large atypical cells in a mixed inflammatory background.\n\nDifferential diagnoses include other lymphomas with large atypical cells, such as anaplastic large cell lymphoma or diffuse large B-cell lymphoma, which would require further immunohistochemical studies for definitive classification.",
+      "rationale": "High power at junction between upper and lower fragments where paler bands seen—look for sclerosis/lacunar cells."
+    },
+    {
+      "roi_id": "slide_A_x14336_y28672_mag5",
+      "tile_id": "slide_A_x14336_y28672_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 14336,
+      "y": 28672,
+      "level0": {
+        "x": 14336,
+        "y": 28672,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a dense lymphoid infiltrate with a prominent follicular pattern and a fibrous capsule. The follicles contain a mixed population of cells including larger cells with vesicular nuclei and prominent nucleoli.\n\nThe most likely diagnosis is a follicular lymphoma. Differential diagnoses include reactive follicular hyperplasia, which typically shows well-formed germinal centers with tingible body macrophages and a mantle zone, and follicular lymphoma, which often shows effacement of the normal architecture and a monotonous population of centrocytes and centroblasts.",
+      "rationale": "Inferior fragment to see if it is lymph node with follicles and capsule vs separate tissue; assess architecture."
+    },
+    {
+      "roi_id": "slide_A_x11776_y14336_mag20",
+      "tile_id": "slide_A_x11776_y14336_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 11776,
+      "y": 14336,
+      "level0": {
+        "x": 11776,
+        "y": 14336,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a mixed cellular infiltrate with scattered large atypical cells, some resembling Reed-Sternberg cells, within a background of small lymphocytes, eosinophils, and plasma cells. There is also prominent stromal fibrosis.\n\nThe most likely diagnosis is Hodgkin lymphoma, specifically the nodular sclerosis subtype, given the presence of Reed-Sternberg cells and the mixed inflammatory background with fibrosis.\n\nDifferential diagnoses include other lymphomas with large atypical cells, such as anaplastic large cell lymphoma, which can also show large pleomorphic cells and a mixed inflammatory background, but typically lacks the classic Reed-Sternberg cells and the characteristic nodular sclerosis pattern.",
+      "rationale": "High-power on a representative follicle/GC for polarization, TBMs, centrocytes/centroblasts, mantle sharpness."
+    },
+    {
+      "roi_id": "slide_A_x18944_y13312_mag20",
+      "tile_id": "slide_A_x18944_y13312_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 18944,
+      "y": 13312,
+      "level0": {
+        "x": 18944,
+        "y": 13312,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense lymphoid infiltrate with scattered large atypical cells and prominent hyalinized blood vessels. The background infiltrate is composed of small lymphocytes, eosinophils, and plasma cells.\n\nThe most likely diagnosis is Lymphocyte-Rich Classic Hodgkin Lymphoma.\n\nDifferential diagnoses include Nodular Lymphocyte Predominant Hodgkin Lymphoma and T-cell/histiocyte-rich large B-cell lymphoma. Distinguishing features include the morphology of the large atypical cells (Reed-Sternberg cells vs. LP cells) and the composition of the background infiltrate.",
+      "rationale": "Right mid to check sinuses for carcinoma/melanoma/histiocytosis"
+    },
+    {
+      "roi_id": "slide_A_x9216_y16896_mag20",
+      "tile_id": "slide_A_x9216_y16896_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 9216,
+      "y": 16896,
+      "level0": {
+        "x": 9216,
+        "y": 16896,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense lymphoid infiltrate with scattered large atypical cells exhibiting prominent nucleoli and abundant cytoplasm. There is also a background of smaller lymphocytes and eosinophils.\n\nThe most likely diagnosis is a lymphoproliferative disorder, specifically a lymphoma. The presence of large atypical cells within a mixed inflammatory background is suggestive of a Hodgkin lymphoma or a T-cell rich large B-cell lymphoma.\n\nDifferential diagnoses include Hodgkin lymphoma, particularly the nodular sclerosis or mixed cellularity subtypes, and T-cell rich large B-cell lymphoma. Distinguishing between these entities would require immunohistochemical studies to characterize the large atypical cells and the surrounding microenvironment.",
+      "rationale": "High power in more basophilic central area to check for absence/presence of large atypical cells (control reactive/follicular)."
+    },
+    {
+      "roi_id": "slide_A_x10240_y6144_mag20",
+      "tile_id": "slide_A_x10240_y6144_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 10240,
+      "y": 6144,
+      "level0": {
+        "x": 10240,
+        "y": 6144,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense infiltrate of small lymphocytes with scattered larger cells exhibiting vesicular nuclei and prominent nucleoli. Small blood vessels are also present.\n\nThe most likely diagnosis is a lymphoid neoplasm, such as a cutaneous lymphoma.\n\nDifferential diagnoses include cutaneous involvement by systemic lymphoma, such as Hodgkin lymphoma or diffuse large B-cell lymphoma, and reactive lymphoid hyperplasia.",
+      "rationale": "Sample an upper-fragment follicle/GC to directly assess polarization/TBMs/mantle."
+    },
+    {
+      "roi_id": "slide_A_x7168_y3072_mag10",
+      "tile_id": "slide_A_x7168_y3072_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 7168,
+      "y": 3072,
+      "level0": {
+        "x": 7168,
+        "y": 3072,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense lymphoid infiltrate with a prominent fibrous band and scattered larger cells. The infiltrate is composed of small lymphocytes, plasma cells, and histiocytes.\n\nThe most likely diagnosis is a lymphoid neoplasm, such as a marginal zone lymphoma.\n\nDifferential diagnoses include reactive lymphoid hyperplasia and other low-grade lymphomas.",
+      "rationale": "Unsurveyed upper mid to assess paracortex and look for HEVs/granulomas"
+    },
+    {
+      "roi_id": "slide_A_x14848_y29184_mag20",
+      "tile_id": "slide_A_x14848_y29184_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 14848,
+      "y": 29184,
+      "level0": {
+        "x": 14848,
+        "y": 29184,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense, mixed cellular infiltrate with scattered large atypical cells and a background of small lymphocytes, eosinophils, and plasma cells. Fibrous tissue is also present.\n\nThe most likely diagnosis is Lymphocyte-Rich Classical Hodgkin Lymphoma.\n\nDifferential diagnoses include Nodular Lymphocyte Predominant Hodgkin Lymphoma and T-cell/histiocyte-rich large B-cell lymphoma. Distinguishing features include the morphology of the large atypical cells (Reed-Sternberg cells vs. LP cells) and the composition of the background infiltrate.",
+      "rationale": "High power in inferior fragment deeper area to ensure no missed RS-like cells."
+    },
+    {
+      "roi_id": "slide_A_x15872_y8192_mag20",
+      "tile_id": "slide_A_x15872_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 15872,
+      "y": 8192,
+      "level0": {
+        "x": 15872,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense infiltrate of small lymphocytes with scattered larger cells and prominent hyalinized vessels. The background stroma is pink and fibrillar.\n\nThe most likely diagnosis is cutaneous marginal zone lymphoma.\n\nDifferential diagnoses include other small B-cell lymphomas such as follicular lymphoma or mantle cell lymphoma, which would require immunohistochemistry for definitive classification.",
+      "rationale": "Another upper-central putative follicle/GC; check for reactive vs neoplastic GC features."
+    },
+    {
+      "roi_id": "slide_A_x14336_y4096_mag10",
+      "tile_id": "slide_A_x14336_y4096_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 14336,
+      "y": 4096,
+      "level0": {
+        "x": 14336,
+        "y": 4096,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense cellular infiltrate composed of small lymphocytes and scattered large atypical cells with prominent nucleoli and abundant cytoplasm, some of which are multinucleated. There is also a background of pink, fibrillar material.\n\nThe most likely diagnosis is Hodgkin lymphoma, specifically the nodular sclerosis subtype, given the presence of large atypical cells (Reed-Sternberg cells and variants) in a background of small lymphocytes and fibrosis.\n\nDifferential diagnoses include anaplastic large cell lymphoma, which can also show large atypical cells, but typically lacks the characteristic background of small lymphocytes and fibrosis seen here. Other considerations could include reactive lymphoid hyperplasia with atypical large cells, but the morphology of the large cells and the background are more suggestive of a neoplastic process.",
+      "rationale": "Upper central to evaluate interfollicular zones"
+    },
+    {
+      "roi_id": "slide_A_x24576_y14336_mag5",
+      "tile_id": "slide_A_x24576_y14336_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 24576,
+      "y": 14336,
+      "level0": {
+        "x": 24576,
+        "y": 14336,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a dense aggregate of small, dark-staining cells with scant cytoplasm and round to irregular nuclei, consistent with lymphoid cells. The cells are tightly packed, forming a cohesive cluster.\n\nThe most likely diagnosis for this lymphoid aggregate is a lymphoid neoplasm, such as a lymphoma. The differential diagnosis includes reactive lymphoid hyperplasia, which can also present as a dense lymphoid aggregate, but typically shows a more heterogeneous cell population and architectural features like germinal centers. Further evaluation with immunohistochemistry and clinical correlation is necessary to distinguish between these possibilities.",
+      "rationale": "Right mid area not yet emphasized; evaluate for sclerosis/necrosis or subcapsular sinus pattern."
+    },
+    {
+      "roi_id": "slide_A_x20992_y9216_mag20",
+      "tile_id": "slide_A_x20992_y9216_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20992,
+      "y": 9216,
+      "level0": {
+        "x": 20992,
+        "y": 9216,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense cellular infiltrate composed of a mixed population of small lymphocytes and scattered large atypical cells with prominent nucleoli and abundant cytoplasm. The background stroma is pink and fibrillar.\n\nThe most likely diagnosis is a lymphoproliferative disorder, specifically a T-cell lymphoma with large atypical cells.\n\nDifferential diagnoses include Hodgkin lymphoma, given the presence of large atypical cells, and other large cell lymphomas. Immunohistochemistry is essential to determine the lineage of the large atypical cells and the background infiltrate to distinguish between these possibilities.",
+      "rationale": "Right upper area nodularity; evaluate for regressed GC/hyalinized vessel penetration (Castleman-like) vs atypical follicle."
+    },
+    {
+      "roi_id": "slide_A_x18432_y6144_mag5",
+      "tile_id": "slide_A_x18432_y6144_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 18432,
+      "y": 6144,
+      "level0": {
+        "x": 18432,
+        "y": 6144,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a dense lymphoid infiltrate with a diffuse pattern and scattered larger cells. There is also a focus of necrosis and hemorrhage.\n\nThe most likely diagnosis is a cutaneous lymphoid hyperplasia, such as a reactive lymphoid hyperplasia or a pseudolymphoma.\n\nDifferential diagnoses include cutaneous B-cell lymphoma, particularly marginal zone lymphoma, and cutaneous T-cell lymphoma. Distinguishing features would include the presence of monoclonal B-cell or T-cell populations, which would require immunohistochemistry and/or molecular studies.",
+      "rationale": "Upper central region between prior ROIs to assess nodularity/follicles and any preserved architecture."
+    },
+    {
+      "roi_id": "slide_A_x21504_y5120_mag10",
+      "tile_id": "slide_A_x21504_y5120_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 21504,
+      "y": 5120,
+      "level0": {
+        "x": 21504,
+        "y": 5120,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense, mixed cellular infiltrate with scattered large atypical cells and a prominent fibrous stroma. The infiltrate includes small lymphocytes, eosinophils, and plasma cells.\n\nThe most likely diagnosis is a lymphoproliferative disorder, such as Hodgkin lymphoma, given the presence of large atypical cells in a mixed inflammatory background.\n\nDifferential diagnoses include other lymphomas with a mixed inflammatory infiltrate, such as T-cell/histiocyte-rich large B-cell lymphoma, or reactive processes like infectious mononucleosis, which can also show large atypical cells and a mixed infiltrate.",
+      "rationale": "Upper right to check for subcapsular sinus/metastasis"
+    },
+    {
+      "roi_id": "slide_A_x9216_y12800_mag20",
+      "tile_id": "slide_A_x9216_y12800_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 9216,
+      "y": 12800,
+      "level0": {
+        "x": 9216,
+        "y": 12800,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense lymphoid infiltrate with scattered large atypical cells, some resembling Reed-Sternberg cells, and a background of small lymphocytes and eosinophils. A prominent hyalinized vessel is also present.\n\nThe most likely diagnosis is cutaneous Hodgkin lymphoma, mixed cellularity type.\n\nDifferential diagnoses include other lymphomas with large atypical cells, such as anaplastic large cell lymphoma or diffuse large B-cell lymphoma, which would typically lack the characteristic Reed-Sternberg cells and the mixed inflammatory background seen here.",
+      "rationale": "Mid-left cortex-like region; examine follicle spacing/back-to-back pattern and mantle zones."
+    },
+    {
+      "roi_id": "slide_A_x8192_y18432_mag5",
+      "tile_id": "slide_A_x8192_y18432_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 8192,
+      "y": 18432,
+      "level0": {
+        "x": 8192,
+        "y": 18432,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a dense lymphoid infiltrate with areas of necrosis and a mixed cellular population including large atypical cells. The infiltrate is diffuse and effaces the normal architecture.\n\nThe most likely diagnosis is a lymphoproliferative disorder, such as a lymphoma.\n\nDifferential diagnoses include Hodgkin lymphoma, given the presence of large atypical cells, and non-Hodgkin lymphoma, which can also present with a mixed cellular infiltrate and necrosis. Further characterization with immunohistochemistry is necessary to distinguish between these possibilities.",
+      "rationale": "Left-central region to compare diffuse vs follicular areas; look for residual sinuses."
+    },
+    {
+      "roi_id": "slide_A_x14848_y25600_mag20",
+      "tile_id": "slide_A_x14848_y25600_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 14848,
+      "y": 25600,
+      "level0": {
+        "x": 14848,
+        "y": 25600,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense lymphoid infiltrate with a mixed population of small lymphocytes and scattered larger cells, including immunoblasts and multinucleated giant cells, within a background of prominent vascularity.\n\nThe most likely diagnosis is a reactive lymphoid process, such as a reactive lymphoid hyperplasia or a reactive lymph node.\n\nDifferential diagnoses include lymphoma, particularly Hodgkin lymphoma, which can show a mixed inflammatory background and large atypical cells. However, the presence of a mixed population of small lymphocytes and the overall architecture would favor a reactive process.",
+      "rationale": "Lower fragment follicle/GC detail; assess for PTGC or monomorphous follicles."
+    },
+    {
+      "roi_id": "slide_A_x6144_y13312_mag10",
+      "tile_id": "slide_A_x6144_y13312_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 6144,
+      "y": 13312,
+      "level0": {
+        "x": 6144,
+        "y": 13312,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense, diffuse infiltrate of small lymphocytes with scattered larger cells and prominent vascularity. The infiltrate is composed of a mixed population of small lymphocytes and larger cells with vesicular nuclei and prominent nucleoli.\n\nThe most likely diagnosis is a cutaneous B-cell lymphoma, such as primary cutaneous marginal zone lymphoma.\n\nDifferential diagnoses include other small B-cell lymphomas like primary cutaneous follicle center lymphoma or small lymphocytic lymphoma/chronic lymphocytic leukemia. The presence of scattered larger cells and prominent vascularity favors a marginal zone lymphoma.",
+      "rationale": "Mid left to evaluate sinuses and paracortical expansion"
+    },
+    {
+      "roi_id": "slide_A_x16384_y22528_mag5",
+      "tile_id": "slide_A_x16384_y22528_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 16384,
+      "y": 22528,
+      "level0": {
+        "x": 16384,
+        "y": 22528,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a dense, diffuse infiltrate of small to medium-sized lymphoid cells with scattered larger cells. There is a background of small blood vessels and areas of hemorrhage.\n\nThe most likely diagnosis is a low-grade B-cell lymphoma, such as marginal zone lymphoma.\n\nDifferential diagnoses include other small B-cell lymphomas like follicular lymphoma (diffuse variant) or small lymphocytic lymphoma. Follicular lymphoma would typically show a follicular pattern, while small lymphocytic lymphoma would have a more monotonous population of small lymphocytes.",
+      "rationale": "Junction between upper and lower fragments near cleft to assess for epithelial/cyst wall vs artifact; look for fibrosis."
+    },
+    {
+      "roi_id": "slide_A_x16384_y18432_mag10",
+      "tile_id": "slide_A_x16384_y18432_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 16384,
+      "y": 18432,
+      "level0": {
+        "x": 16384,
+        "y": 18432,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense lymphoid infiltrate with a prominent follicular pattern and a reactive germinal center. The interfollicular areas are cellular with small lymphocytes and scattered larger cells.\n\nThe most likely diagnosis is a reactive lymphoid hyperplasia, such as a reactive lymph node or a cutaneous lymphoid hyperplasia.\n\nDifferential diagnoses include follicular lymphoma, which typically shows effacement of the normal architecture and lacks reactive germinal centers, and marginal zone lymphoma, which often has a more diffuse pattern and may show plasmacytic differentiation.",
+      "rationale": "Mid right to assess sinuses for tumor/histiocytosis"
+    },
+    {
+      "roi_id": "slide_A_x6144_y28672_mag5",
+      "tile_id": "slide_A_x6144_y28672_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 6144,
+      "y": 28672,
+      "level0": {
+        "x": 6144,
+        "y": 28672,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a dense cellular infiltrate composed of small lymphocytes with scattered larger cells, adjacent to a surface with amorphous material and cellular debris. The infiltrate is well-circumscribed.\n\nThe most likely diagnosis is a lymphoid neoplasm, such as a lymphoma.\n\nDifferential diagnoses include reactive lymphoid hyperplasia and other types of lymphoma. Distinguishing features would include the presence of a polymorphous infiltrate with germinal centers in reactive hyperplasia, and the specific cytologic and architectural features of different lymphoma subtypes.",
+      "rationale": "Inferior tip region to assess capsule and any extracapsular extension or adjacent soft tissue."
+    },
+    {
+      "roi_id": "slide_A_x10240_y10240_mag10",
+      "tile_id": "slide_A_x10240_y10240_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 10240,
+      "y": 10240,
+      "level0": {
+        "x": 10240,
+        "y": 10240,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense lymphoid infiltrate with scattered larger cells and prominent vascularity. The infiltrate is composed of small lymphocytes with admixed larger cells, some with clear cytoplasm.\n\nThe most likely diagnosis is cutaneous marginal zone lymphoma. The presence of a dense lymphoid infiltrate with scattered larger cells and prominent vascularity is characteristic of this entity. The admixture of small lymphocytes with larger cells, some with clear cytoplasm, further supports this diagnosis.\n\nDifferential diagnoses include reactive lymphoid hyperplasia and other low-grade B-cell lymphomas. Reactive lymphoid hyperplasia typically shows well-formed germinal centers and a polymorphous infiltrate, which are not prominent features in this image. Other low-grade B-cell lymphomas, such as follicular lymphoma, would show a different architectural pattern and cytologic features.",
+      "rationale": "Additional 10x field to find true germinal centers/follicles and assess polarization and mantle."
+    },
+    {
+      "roi_id": "slide_A_x2048_y10240_mag10",
+      "tile_id": "slide_A_x2048_y10240_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 2048,
+      "y": 10240,
+      "level0": {
+        "x": 2048,
+        "y": 10240,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a transition from a dense lymphoid infiltrate to a spindle cell proliferation with associated hemorrhage and inflammation. The spindle cells are arranged in fascicles.\n\nThe most likely diagnosis is an inflammatory myofibroblastic tumor.\n\nDifferential diagnoses include:\n- Nodular fasciitis: typically more cellular, less organized, and often shows a myxoid background.\n- Solitary fibrous tumor: usually shows a more haphazard pattern of spindle cells and prominent branching vessels.",
+      "rationale": "Far left edge to better visualize subcapsular sinus for metastasis/histiocytosis"
+    },
+    {
+      "roi_id": "slide_A_x18432_y11264_mag10",
+      "tile_id": "slide_A_x18432_y11264_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 18432,
+      "y": 11264,
+      "level0": {
+        "x": 18432,
+        "y": 11264,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense lymphoid infiltrate with scattered large atypical cells exhibiting abundant cytoplasm and prominent nucleoli, some of which are multinucleated. The background is composed of small lymphocytes and histiocytes.\n\nThe most likely diagnosis is a lymphoproliferative disorder, specifically a B-cell lymphoma with large atypical cells.\n\nDifferential diagnoses include Hodgkin lymphoma, given the presence of large atypical cells resembling Reed-Sternberg cells, and certain types of non-Hodgkin lymphoma, such as diffuse large B-cell lymphoma or T-cell/histiocyte-rich large B-cell lymphoma, which can also present with scattered large atypical cells in a background of small lymphocytes and histiocytes.",
+      "rationale": "10x in right upper fragment to assess for back-to-back follicles vs diffuse pattern."
+    },
+    {
+      "roi_id": "slide_A_x24576_y11264_mag10",
+      "tile_id": "slide_A_x24576_y11264_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 24576,
+      "y": 11264,
+      "level0": {
+        "x": 24576,
+        "y": 11264,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a mixed cellular infiltrate with scattered large atypical cells, some with prominent nucleoli, within a background of small lymphocytes and eosinophils. Areas of hemorrhage are also present.\n\nThe most likely diagnosis is Hodgkin lymphoma, specifically the nodular sclerosis subtype, given the presence of large atypical cells resembling Reed-Sternberg cells in a mixed inflammatory background.\n\nDifferential diagnoses include other lymphomas with large atypical cells, such as anaplastic large cell lymphoma, which typically shows strong CD30 expression and lacks the characteristic mixed inflammatory background and nodular sclerosis pattern.",
+      "rationale": "Far right edge/hilar area to assess sinuses for metastatic carcinoma/melanoma"
+    },
+    {
+      "roi_id": "slide_A_x12288_y17408_mag10",
+      "tile_id": "slide_A_x12288_y17408_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 12288,
+      "y": 17408,
+      "level0": {
+        "x": 12288,
+        "y": 17408,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense lymphoid infiltrate with a prominent follicular pattern and a large germinal center. The surrounding interfollicular area contains a mixed population of lymphocytes and scattered larger cells.\n\nThe most likely diagnosis is a reactive lymphoid hyperplasia, such as a reactive lymph node or a reactive lymphoid aggregate in the skin.\n\nDifferential diagnoses include follicular lymphoma, which typically shows a more monotonous population of centrocytes and centroblasts, and follicular dendritic cell sarcoma, which would show atypical spindle cells forming a network.",
+      "rationale": "10x near midline to identify any preserved nodal architecture with follicles."
+    },
+    {
+      "roi_id": "slide_A_x13312_y23552_mag10",
+      "tile_id": "slide_A_x13312_y23552_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 13312,
+      "y": 23552,
+      "level0": {
+        "x": 13312,
+        "y": 23552,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense lymphoid infiltrate with a mixed population of small lymphocytes and scattered larger cells. There is also prominent vascularity and areas of hemorrhage.\n\nThe most likely diagnosis is a cutaneous B-cell lymphoma, such as primary cutaneous marginal zone lymphoma.\n\nDifferential diagnoses include other low-grade B-cell lymphomas and reactive lymphoid hyperplasia. Features such as the presence of monocytoid B-cells, plasma cells, and lymphoepithelial lesions would support marginal zone lymphoma, while reactive processes would typically show a more polymorphous infiltrate and preserved architecture.",
+      "rationale": "Lower fragment central to look for medullary sinuses and histiocytosis"
+    },
+    {
+      "roi_id": "slide_A_x11264_y24576_mag10",
+      "tile_id": "slide_A_x11264_y24576_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 11264,
+      "y": 24576,
+      "level0": {
+        "x": 11264,
+        "y": 24576,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense lymphoid infiltrate with a mixed population of small lymphocytes and larger cells, including immunoblasts and plasma cells. Scattered tingible body macrophages and areas of hemorrhage are also present.\n\nThe most likely diagnosis is a reactive lymphoid hyperplasia, such as a cutaneous lymphoid hyperplasia (pseudolymphoma).\n\nDifferential diagnoses include cutaneous B-cell lymphoma, particularly marginal zone lymphoma, which can have a similar mixed cellularity but typically lacks the prominent tingible body macrophages and reactive germinal centers seen in reactive processes.",
+      "rationale": "10x in lower fragment to look for reactive follicles/PTGC."
+    },
+    {
+      "roi_id": "slide_A_x18432_y24576_mag10",
+      "tile_id": "slide_A_x18432_y24576_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 18432,
+      "y": 24576,
+      "level0": {
+        "x": 18432,
+        "y": 24576,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense lymphoid infiltrate with a mixed population of small lymphocytes and larger cells, along with scattered blood vessels. The infiltrate is diffuse and lacks well-formed follicles.\n\nThe most likely diagnosis is a cutaneous lymphoid hyperplasia, such as a reactive lymphoid hyperplasia or a pseudolymphoma.\n\nDifferential diagnoses include cutaneous B-cell lymphoma, which would typically show a more monotonous population of atypical lymphocytes and potentially follicular structures, and cutaneous T-cell lymphoma, which would show a predominance of atypical T-cells.",
+      "rationale": "Lower fragment right edge to assess subcapsular/medullary sinuses"
+    },
+    {
+      "roi_id": "slide_A_x14336_y28672_mag10",
+      "tile_id": "slide_A_x14336_y28672_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 14336,
+      "y": 28672,
+      "level0": {
+        "x": 14336,
+        "y": 28672,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense lymphoid infiltrate with a mixed population of small lymphocytes and larger cells, including some with vesicular nuclei and prominent nucleoli. There is also a fibrous capsule and scattered blood vessels.\n\nThe most likely diagnosis is a cutaneous lymphoid hyperplasia, such as a reactive lymphoid hyperplasia or a pseudolymphoma.\n\nDifferential diagnoses include cutaneous B-cell lymphoma, particularly marginal zone lymphoma, and cutaneous T-cell lymphoma. Distinguishing features would include the presence of monoclonal B or T cell populations, specific architectural patterns, and the presence of atypical cells.",
+      "rationale": "10x near bottom of lower fragment for follicle assessment."
+    },
+    {
+      "roi_id": "slide_A_x2560_y10752_mag20",
+      "tile_id": "slide_A_x2560_y10752_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 2560,
+      "y": 10752,
+      "level0": {
+        "x": 2560,
+        "y": 10752,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a transition from dense fibrous tissue to a dense lymphoid infiltrate composed of small lymphocytes and scattered larger cells. The interface between the fibrous and lymphoid components is irregular.\n\nThe most likely diagnosis is a lymphoid neoplasm, such as a lymphoma, given the dense lymphoid infiltrate and the clinical presentation of a neck mass. A reactive lymphoid process could also be considered, but the density and cellular composition favor a neoplastic process.\n\nDifferential diagnoses include:\n- Lymphoma: The dense, monotonous lymphoid infiltrate is highly suggestive of a lymphoma. Further subtyping would require immunohistochemistry.\n- Reactive lymphoid hyperplasia: This is less likely given the density and cellular composition of the infiltrate, but it remains a possibility, especially if there is a history of inflammation or infection.",
+      "rationale": "Higher power of subcapsular region for sinus contents/tumor cells"
+    },
+    {
+      "roi_id": "slide_A_x22528_y12288_mag10",
+      "tile_id": "slide_A_x22528_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 22528,
+      "y": 12288,
+      "level0": {
+        "x": 22528,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense, diffuse infiltrate of small lymphocytes with scattered larger cells. There is also a focus of necrosis.\n\nThe most likely diagnosis is a low-grade B-cell lymphoma, such as marginal zone lymphoma.\n\nDifferential diagnoses include other small B-cell lymphomas like follicular lymphoma (diffuse variant) or small lymphocytic lymphoma.",
+      "rationale": "Unexplored right-lower of upper fragment to assess sinuses for metastasis"
+    },
+    {
+      "roi_id": "slide_A_x19456_y20480_mag10",
+      "tile_id": "slide_A_x19456_y20480_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 19456,
+      "y": 20480,
+      "level0": {
+        "x": 19456,
+        "y": 20480,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense lymphoid infiltrate with a prominent reactive germinal center. There is also a focus of hemorrhage and scattered larger cells.\n\nThe most likely diagnosis is a reactive lymphoid hyperplasia, such as a lymph node or reactive lymphoid tissue.\n\nDifferential diagnoses include cutaneous lymphoid hyperplasia (pseudolymphoma) and low-grade B-cell lymphoma. Distinguishing features would include the presence of a well-formed reactive germinal center and the absence of significant cytologic atypia or architectural effacement.",
+      "rationale": "Right side near bridge between fragments for sinus evaluation"
+    },
+    {
+      "roi_id": "slide_A_x4096_y19456_mag10",
+      "tile_id": "slide_A_x4096_y19456_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 4096,
+      "y": 19456,
+      "level0": {
+        "x": 4096,
+        "y": 19456,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense lymphoid infiltrate with a prominent fibrous capsule and areas of hemorrhage. The lymphoid population appears relatively monotonous.\n\nThe most likely diagnosis is a cutaneous lymphoid hyperplasia or a low-grade B-cell lymphoma, such as marginal zone lymphoma.\n\nDifferential diagnoses include reactive lymphoid hyperplasia and other low-grade B-cell lymphomas. Distinguishing features would include the presence of reactive germinal centers, monocytoid B-cells, and plasma cells in reactive processes, versus a more monotonous population of small lymphocytes in lymphoma.",
+      "rationale": "Left lower of upper fragment to look for subcapsular sinus and histiocytosis"
+    },
+    {
+      "roi_id": "slide_A_x8192_y27648_mag10",
+      "tile_id": "slide_A_x8192_y27648_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 8192,
+      "y": 27648,
+      "level0": {
+        "x": 8192,
+        "y": 27648,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense lymphoid infiltrate with a prominent fibrous capsule and areas of hemorrhage. The lymphoid population appears relatively monotonous.\n\nThe most likely diagnosis is a lymphoid neoplasm, such as a lymphoma.\n\nDifferential diagnoses include reactive lymphoid hyperplasia and other types of lymphoma. Further characterization with immunohistochemistry and flow cytometry would be necessary to confirm the diagnosis and subtype.",
+      "rationale": "Lower fragment left to assess medullary sinuses"
+    },
+    {
+      "roi_id": "slide_A_x23040_y12288_mag20",
+      "tile_id": "slide_A_x23040_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 23040,
+      "y": 12288,
+      "level0": {
+        "x": 23040,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense infiltrate of small lymphocytes with scattered larger cells and a prominent clear space. The infiltrate is composed of a mixed population of lymphocytes and plasma cells.\n\nThe most likely diagnosis is a cutaneous lymphoid hyperplasia, such as a reactive lymphoid hyperplasia or a cutaneous B-cell lymphoma.\n\nDifferential diagnoses include reactive lymphoid hyperplasia, which typically shows a polymorphous infiltrate with germinal centers, and cutaneous B-cell lymphoma, which may show a more monotonous population of small lymphocytes.",
+      "rationale": "Higher power on right-lower upper fragment for sinus contents/tumor"
+    },
+    {
+      "roi_id": "slide_A_x21504_y12288_mag10",
+      "tile_id": "slide_A_x21504_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 21504,
+      "y": 12288,
+      "level0": {
+        "x": 21504,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense, diffuse infiltrate of small lymphocytes with scattered larger cells. There is also prominent vascularity and areas of hemorrhage.\n\nThe most likely diagnosis is a low-grade B-cell lymphoma, such as marginal zone lymphoma.\n\nDifferential diagnoses include other small B-cell lymphomas like follicular lymphoma (diffuse variant) or small lymphocytic lymphoma. Distinguishing features would include the presence of follicular structures in follicular lymphoma and the presence of proliferation centers in small lymphocytic lymphoma.",
+      "rationale": "Revisit area with reported necrosis to confirm and characterize (necrosis vs crush/hemorrhage)"
+    },
+    {
+      "roi_id": "slide_A_x16384_y14336_mag40",
+      "tile_id": "slide_A_x16384_y14336_mag40",
+      "mag": "high",
+      "magnification": 40.0,
+      "x": 16384,
+      "y": 14336,
+      "level0": {
+        "x": 16384,
+        "y": 14336,
+        "width": 512,
+        "height": 512
+      },
+      "description": "The image shows a dense lymphoid infiltrate with scattered large atypical cells and a prominent blood vessel. The background is composed of small lymphocytes and other inflammatory cells.\n\nThe most likely diagnosis is a lymphoproliferative disorder, such as Hodgkin lymphoma or a T-cell rich B-cell lymphoma.\n\nDifferential diagnoses include Hodgkin lymphoma, characterized by Reed-Sternberg cells in a mixed inflammatory background, and T-cell rich B-cell lymphoma, which features scattered large B-cells in a background rich in T-cells.",
+      "rationale": "High-power confirmation of RS/lacunar cells and background; assess cytologic features vs ALCL/THRLBCL."
+    },
+    {
+      "roi_id": "slide_A_x24064_y11776_mag40",
+      "tile_id": "slide_A_x24064_y11776_mag40",
+      "mag": "high",
+      "magnification": 40.0,
+      "x": 24064,
+      "y": 11776,
+      "level0": {
+        "x": 24064,
+        "y": 11776,
+        "width": 512,
+        "height": 512
+      },
+      "description": "The image shows a dense infiltrate of small lymphocytes with scattered larger cells. The background is relatively clean.\n\nThe most likely diagnosis is a low-grade B-cell lymphoma, such as marginal zone lymphoma.\n\nDifferential diagnoses include other small B-cell lymphomas like follicular lymphoma or small lymphocytic lymphoma. Follicular lymphoma would typically show a follicular pattern, while small lymphocytic lymphoma often has a more diffuse pattern and characteristic proliferation centers.",
+      "rationale": "Area with lacunar-type change reported; evaluate fibrosis and lacunar cells."
+    },
+    {
+      "roi_id": "slide_A_x14848_y29184_mag40",
+      "tile_id": "slide_A_x14848_y29184_mag40",
+      "mag": "high",
+      "magnification": 40.0,
+      "x": 14848,
+      "y": 29184,
+      "level0": {
+        "x": 14848,
+        "y": 29184,
+        "width": 512,
+        "height": 512
+      },
+      "description": "The image shows a dense lymphoid infiltrate with a prominent fibrous capsule and scattered larger cells. The lymphoid population is predominantly small lymphocytes with scattered larger cells.\n\nThe most likely diagnosis is a lymphoid neoplasm, such as a lymphoma.\n\nDifferential diagnoses include reactive lymphoid hyperplasia and other types of lymphoma. Reactive lymphoid hyperplasia would typically show a more polymorphous infiltrate with germinal centers, while other lymphomas may have different cytologic features or growth patterns.",
+      "rationale": "Lower fragment area with fibrosis and atypical cells; look for nodular sclerosis bands or other patterns."
+    },
+    {
+      "roi_id": "slide_A_x9216_y6144_mag40",
+      "tile_id": "slide_A_x9216_y6144_mag40",
+      "mag": "high",
+      "magnification": 40.0,
+      "x": 9216,
+      "y": 6144,
+      "level0": {
+        "x": 9216,
+        "y": 6144,
+        "width": 512,
+        "height": 512
+      },
+      "description": "The image shows a dense cellular infiltrate composed of small lymphocytes and scattered large atypical cells with prominent nucleoli and abundant cytoplasm, some of which are multinucleated. The background stroma is fibrotic.\n\nThe most likely diagnosis is Hodgkin lymphoma, specifically the nodular sclerosis subtype, given the presence of large atypical cells (Reed-Sternberg cells and variants) in a background of small lymphocytes and fibrosis.\n\nDifferential diagnoses include anaplastic large cell lymphoma, which can also show large atypical cells, but typically lacks the characteristic Reed-Sternberg cells and the prominent fibrosis seen here. Other considerations could include reactive lymphoid hyperplasia with atypical large cells, but the overall pattern and cellular morphology are more suggestive of a lymphoma.",
+      "rationale": "Interfollicular area with eosinophils/RS-like cells; evaluate for ALCL hallmark cells, mitoses."
+    }
+  ]
+}

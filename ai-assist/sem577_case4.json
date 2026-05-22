@@ -1,0 +1,829 @@
+{
+  "case_id": "sem577_case4",
+  "source": "slideseek-ai-assist",
+  "model": "gpt-5.4",
+  "generated_at": "2026-05-22T09:30:28.052548+00:00",
+  "organ": "Gynecologic",
+  "primary_dx": "Ovarian Yolk Sac Tumor, Predominantly Reticular/Microcystic Pattern",
+  "differential_dx": [
+    "Ovarian Clear Cell Carcinoma",
+    "Small Cell Carcinoma Of The Ovary, Hypercalcemic Type"
+  ],
+  "microscopic_findings": [
+    {
+      "text": "Tumor shows a **reticular/microcystic pattern** with **anastomosing cords and nests** creating lace-like spaces.",
+      "roi_ids": [
+        "slide_A_x8192_y12288_mag10",
+        "slide_A_x26624_y6144_mag5"
+      ]
+    },
+    {
+      "text": "Multiple spaces contain **eosinophilic/proteinaceous material** with scattered **hyaline globules**, a classic yolk sac tumor clue.",
+      "roi_ids": [
+        "slide_A_x20480_y16384_mag10",
+        "slide_A_x8192_y11776_mag20"
+      ]
+    },
+    {
+      "text": "Tumor cells are relatively uniform with **clear to vacuolated cytoplasm** and **round to oval nuclei** in a loose myxoid background.",
+      "roi_ids": [
+        "slide_A_x12288_y16384_mag5",
+        "slide_A_x15360_y14848_mag20"
+      ]
+    },
+    {
+      "text": "A focal **Schiller-Duval-like structure** with **delicate fibrovascular core** is identified as supportive evidence.",
+      "roi_ids": [
+        "slide_A_x15872_y14848_mag20"
+      ]
+    }
+  ],
+  "interpretation": "The combination of **reticular/microcystic architecture**, **eosinophilic hyaline globules**, and a focal **Schiller-Duval-like structure** supports **ovarian yolk sac tumor**. The cytology and growth pattern fit a malignant germ cell tumor of endodermal sinus type. The examined fields do not show the hobnail-cell tubulocystic morphology of **clear cell carcinoma** or the diffuse small blue cell appearance expected for **small cell carcinoma of the ovary, hypercalcemic type**.",
+  "num_rois": 49,
+  "tiles": [
+    {
+      "roi_id": "slide_A_x16384_y8192_mag1",
+      "tile_id": "slide_A_x16384_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 16384,
+      "y": 8192,
+      "level0": {
+        "x": 16384,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a heterogeneous tumor with areas of dense cellularity, cystic spaces, and necrosis. The cellular areas are composed of small cells with scant cytoplasm and hyperchromatic nuclei, arranged in sheets and cords.\n\nThe most likely diagnosis is a small cell carcinoma of the ovary, hypercalcemic type. This diagnosis is supported by the patient's age, clinical presentation, and the morphologic features of a small cell tumor with cystic and necrotic areas.\n\nDifferential diagnoses include other small cell tumors such as small cell carcinoma of the ovary, not otherwise specified, and metastatic small cell carcinoma from other sites (e.g., lung). Distinguishing features would include immunohistochemical staining patterns and clinical history.",
+      "rationale": "Low-power global survey to see overall architecture and pick target areas."
+    },
+    {
+      "roi_id": "slide_A_x8192_y6144_mag5",
+      "tile_id": "slide_A_x8192_y6144_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 8192,
+      "y": 6144,
+      "level0": {
+        "x": 8192,
+        "y": 6144,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular neoplasm with a prominent reticular pattern and large cystic spaces containing eosinophilic material. The tumor cells are small with hyperchromatic nuclei and scant cytoplasm, arranged in cords and nests within a fibrous stroma.\n\nThe most likely diagnosis is a yolk sac tumor (endodermal sinus tumor).\n\nDifferential diagnoses include other germ cell tumors such as embryonal carcinoma, which typically shows more pleomorphism and solid growth, and clear cell carcinoma, which has clear cytoplasm and hobnail cells.",
+      "rationale": "Sample left-superior cellular area vs stroma for pattern."
+    },
+    {
+      "roi_id": "slide_A_x26624_y6144_mag5",
+      "tile_id": "slide_A_x26624_y6144_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 26624,
+      "y": 6144,
+      "level0": {
+        "x": 26624,
+        "y": 6144,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a neoplasm with a prominent reticular pattern of anastomosing cords and nests of cells within a loose, myxoid stroma. The cells are relatively uniform with round to oval nuclei and moderate eosinophilic cytoplasm, and cystic spaces are present.\n\nThe most likely diagnosis is a Yolk Sac Tumor (Endodermal Sinus Tumor).\n\nDifferential diagnoses include:\n- Clear Cell Carcinoma: Typically shows more prominent clear cytoplasm and hobnail cells, often with a more solid or tubulocystic pattern.\n- Sertoli-Leydig Cell Tumor: Usually exhibits tubular or cord-like patterns with Sertoli cells and Leydig cells, often with Reinke crystals, and lacks the prominent reticular pattern and myxoid stroma seen here.",
+      "rationale": "Sample right-superior area that appears more solid/pale on thumbnail."
+    },
+    {
+      "roi_id": "slide_A_x12288_y16384_mag5",
+      "tile_id": "slide_A_x12288_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 12288,
+      "y": 16384,
+      "level0": {
+        "x": 12288,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular neoplasm with a prominent reticular pattern and cystic spaces. The cells have clear to eosinophilic cytoplasm and round to oval nuclei, with areas of hemorrhage and necrosis.\n\nThe most likely diagnosis is a Yolk Sac Tumor (Endodermal Sinus Tumor).\n\nDifferential diagnoses include other germ cell tumors such as a mixed germ cell tumor with a yolk sac component, or potentially a clear cell carcinoma, although the reticular pattern and clinical context strongly favor a yolk sac tumor.",
+      "rationale": "Sample left-inferior area near possible cystic/necrotic change."
+    },
+    {
+      "roi_id": "slide_A_x28672_y16384_mag5",
+      "tile_id": "slide_A_x28672_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 28672,
+      "y": 16384,
+      "level0": {
+        "x": 28672,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular neoplasm with a prominent reticular pattern and microcystic spaces, along with solid areas and a desmoplastic stroma. The cells are relatively uniform with round to oval nuclei and scant cytoplasm.\n\nThe most likely diagnosis is a Yolk Sac Tumor (Endodermal Sinus Tumor).\n\nDifferential diagnoses include other germ cell tumors such as embryonal carcinoma, which typically shows more pleomorphism and prominent nucleoli, and clear cell carcinoma, which often has clear cytoplasm and hobnail cells.",
+      "rationale": "Sample right-inferior area for heterogeneity/necrosis."
+    },
+    {
+      "roi_id": "slide_A_x20480_y12288_mag2",
+      "tile_id": "slide_A_x20480_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 20480,
+      "y": 12288,
+      "level0": {
+        "x": 20480,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular neoplasm with a prominent myxoid stroma and scattered cystic spaces. The tumor cells are arranged in cords and nests within the myxoid background.\n\nThe most likely diagnosis is a yolk sac tumor. The myxoid stroma, cystic spaces, and arrangement of cells in cords and nests are characteristic features. Differential diagnoses include other germ cell tumors such as immature teratoma or embryonal carcinoma, which typically show different architectural patterns and cellular morphology.",
+      "rationale": "Low power scan of central tumor to identify most hypercellular/blue foci vs necrosis/cysts."
+    },
+    {
+      "roi_id": "slide_A_x24576_y8192_mag1",
+      "tile_id": "slide_A_x24576_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 24576,
+      "y": 8192,
+      "level0": {
+        "x": 24576,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a heterogeneous tumor with areas of dense cellularity and areas of necrosis and cystic change. The cellular areas are composed of cells with eosinophilic cytoplasm and round nuclei, arranged in nests and cords.\n\nThe most likely diagnosis is a Sertoli-Leydig cell tumor, intermediate grade. This diagnosis is supported by the presence of cellular areas with eosinophilic cytoplasm and round nuclei, arranged in nests and cords, and the presence of necrosis and cystic change. The intermediate grade is suggested by the presence of both cellular and less cellular/necrotic areas.\n\nDifferential diagnoses include other sex cord-stromal tumors such as granulosa cell tumor, which typically shows Call-Exner bodies and nuclear grooves, and metastatic carcinoma, which would show different cytologic features and growth patterns.",
+      "rationale": "Low-power map overall architecture; find viable tumor vs necrosis/cystic change."
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag2",
+      "tile_id": "slide_A_x8192_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular neoplasm with a prominent reticular pattern and cystic spaces containing eosinophilic material. The tumor cells are relatively uniform with round to oval nuclei and scant cytoplasm, set within a fibrous stroma.\n\nThe most likely diagnosis is a Yolk Sac Tumor (Endodermal Sinus Tumor).\n\nDifferential diagnoses include other germ cell tumors such as a dysgerminoma, which typically shows nests of uniform cells with clear cytoplasm and lymphocytic infiltrate, and a teratoma, which would contain elements from multiple germ layers.",
+      "rationale": "Survey left side where there may be different texture/necrosis; look for cambium-like subcapsular hypercellularity."
+    },
+    {
+      "roi_id": "slide_A_x8192_y12288_mag2",
+      "tile_id": "slide_A_x8192_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 8192,
+      "y": 12288,
+      "level0": {
+        "x": 8192,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular neoplasm with a prominent reticular pattern and cystic spaces, along with areas of necrosis and hemorrhage. The tumor cells are relatively uniform with round to oval nuclei and scant cytoplasm.\n\nThe most likely diagnosis is a yolk sac tumor (endodermal sinus tumor).\n\nDifferential diagnoses include other germ cell tumors such as dysgerminoma, which typically shows a more solid growth pattern and uniform cells with clear cytoplasm, and embryonal carcinoma, which is more pleomorphic and often shows glandular or papillary structures.",
+      "rationale": "Examine left-central area with heterogeneous pale/pink zones for viable tumor."
+    },
+    {
+      "roi_id": "slide_A_x32768_y8192_mag2",
+      "tile_id": "slide_A_x32768_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 32768,
+      "y": 8192,
+      "level0": {
+        "x": 32768,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls within a prominent myxoid stroma. Scattered cystic spaces are also present.\n\nThe most likely diagnosis is a myxoid mesenchymal neoplasm, such as a myxoid sarcoma.\n\nDifferential diagnoses include myxoid liposarcoma, which typically shows lipoblasts and a characteristic plexiform capillary pattern, and myxofibrosarcoma, which often exhibits more pleomorphism and curvilinear vessels.",
+      "rationale": "Survey right side for distinct nodules or desmoplastic areas."
+    },
+    {
+      "roi_id": "slide_A_x28672_y8192_mag2",
+      "tile_id": "slide_A_x28672_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 28672,
+      "y": 8192,
+      "level0": {
+        "x": 28672,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a neoplasm with a prominent reticular pattern of anastomosing cords and nests of cells within a loose, myxoid stroma. The cells are relatively uniform with round to oval nuclei and scant cytoplasm.\n\nThe most likely diagnosis is a Yolk Sac Tumor (Endodermal Sinus Tumor).\n\nDifferential diagnoses include other germ cell tumors such as a dysgerminoma, which typically shows sheets of uniform cells with clear cytoplasm and a prominent lymphocytic infiltrate, and a teratoma, which would contain elements from multiple germ layers.",
+      "rationale": "Examine right-central area; look for solid cellular regions suggestive of germ cell patterns."
+    },
+    {
+      "roi_id": "slide_A_x20480_y20480_mag2",
+      "tile_id": "slide_A_x20480_y20480_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 20480,
+      "y": 20480,
+      "level0": {
+        "x": 20480,
+        "y": 20480,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular neoplasm with a prominent reticular pattern and cystic spaces. The tumor cells are relatively uniform with round to oval nuclei and scant cytoplasm, arranged in cords and nests within a loose stroma.\n\nThe most likely diagnosis is a yolk sac tumor (endodermal sinus tumor).\n\nDifferential diagnoses include other germ cell tumors such as dysgerminoma, which typically shows sheets of uniform cells with clear cytoplasm and lymphocytic infiltrate, and embryonal carcinoma, which is more pleomorphic and often forms glandular or papillary structures.",
+      "rationale": "Inferior portion for hemorrhage/necrosis and possible small blue cell sheets."
+    },
+    {
+      "roi_id": "slide_A_x20480_y16384_mag2",
+      "tile_id": "slide_A_x20480_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 20480,
+      "y": 16384,
+      "level0": {
+        "x": 20480,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular neoplasm with a prominent reticular pattern and cystic spaces. The cells are relatively uniform with round to oval nuclei and scant cytoplasm, and there are areas of necrosis.\n\nThe most likely diagnosis is a yolk sac tumor. The reticular pattern, cystic spaces, and cellular morphology are characteristic features of this tumor type. Differential diagnoses include other germ cell tumors such as dysgerminoma, which typically shows a more solid growth pattern and larger cells with clear cytoplasm, and embryonal carcinoma, which is more pleomorphic and often shows glandular or papillary structures.",
+      "rationale": "Inferior area—possible hemorrhage/necrosis or different pattern"
+    },
+    {
+      "roi_id": "slide_A_x24576_y16384_mag2",
+      "tile_id": "slide_A_x24576_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 24576,
+      "y": 16384,
+      "level0": {
+        "x": 24576,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular neoplasm with a mixed pattern of solid areas and cystic spaces, including microcysts and larger cysts. The cells are relatively uniform with scant cytoplasm and hyperchromatic nuclei, and the stroma is variable.\n\nThe most likely diagnosis is a juvenile granulosa cell tumor. This diagnosis is supported by the patient's age, the large ovarian mass, and the characteristic histological pattern of a cellular neoplasm with microcysts and larger cysts, composed of relatively uniform cells with scant cytoplasm and hyperchromatic nuclei.\n\nDifferential diagnoses include other sex cord-stromal tumors such as adult granulosa cell tumor or Sertoli-Leydig cell tumor, which can have overlapping features but typically show different cellular morphology and architectural patterns.",
+      "rationale": "Examine right-lower region where tissue looks denser; potential viable tumor."
+    },
+    {
+      "roi_id": "slide_A_x32768_y8192_mag10",
+      "tile_id": "slide_A_x32768_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 32768,
+      "y": 8192,
+      "level0": {
+        "x": 32768,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of epithelioid cells forming nests, cords, and tubules within a prominent myxoid stroma. The cells have round to oval nuclei and moderate eosinophilic cytoplasm, with some cells showing intracytoplasmic vacuoles.\n\nThe most likely diagnosis is a yolk sac tumor (endodermal sinus tumor).\n\nDifferential diagnoses include other germ cell tumors such as embryonal carcinoma, which typically shows more pleomorphism and prominent nucleoli, and clear cell carcinoma, which often has more abundant clear cytoplasm and hobnail cells.",
+      "rationale": "Right-sided spindle/myxoid area at 2.5x—evaluate for sarcomatous small blue cell component vs stromal differentiation."
+    },
+    {
+      "roi_id": "slide_A_x30720_y7168_mag10",
+      "tile_id": "slide_A_x30720_y7168_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 30720,
+      "y": 7168,
+      "level0": {
+        "x": 30720,
+        "y": 7168,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with scattered clear spaces and eosinophilic material, set within a prominent myxoid stroma. The cells are arranged in cords and nests.\n\nThe most likely diagnosis is a yolk sac tumor, specifically the reticular pattern. This pattern is characterized by a network of spaces and cords of cells within a myxoid background, often containing eosinophilic hyaline globules.\n\nDifferential diagnoses include other germ cell tumors such as embryonal carcinoma, which typically shows more pleomorphism and solid growth, and clear cell carcinoma, which usually has more prominent clear cells and hobnail morphology.",
+      "rationale": "Right upper cellular area—assess for Sertoli tubules vs reticular yolk sac pattern"
+    },
+    {
+      "roi_id": "slide_A_x8192_y12288_mag10",
+      "tile_id": "slide_A_x8192_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 8192,
+      "y": 12288,
+      "level0": {
+        "x": 8192,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation with a prominent reticular pattern and microcystic spaces containing eosinophilic material. The cells have round to oval nuclei and moderate cytoplasm, with some clear cell change. A desmoplastic stromal reaction is also present.\n\nThe most likely diagnosis is a Yolk Sac Tumor (Endodermal Sinus Tumor).\n\nDifferential diagnoses include other germ cell tumors such as Embryonal Carcinoma, which typically shows more pleomorphism and solid growth, and Clear Cell Carcinoma, which usually lacks the characteristic reticular and microcystic patterns and Schiller-Duval bodies.",
+      "rationale": "Left central area flagged reticular—confirm architecture, look for Schiller-Duval vs sex cord"
+    },
+    {
+      "roi_id": "slide_A_x20480_y12288_mag10",
+      "tile_id": "slide_A_x20480_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 20480,
+      "y": 12288,
+      "level0": {
+        "x": 20480,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation with a prominent reticular pattern and microcystic spaces, along with solid areas and a delicate fibrovascular stroma. The cells have round to oval nuclei and moderate eosinophilic cytoplasm.\n\nThe most likely diagnosis is a yolk sac tumor (endodermal sinus tumor).\n\nDifferential diagnoses include other germ cell tumors such as embryonal carcinoma, which typically shows more pleomorphism and solid growth, and clear cell carcinoma, which often has clear cytoplasm and hobnail cells.",
+      "rationale": "Central reticular/cystic area—look for Schiller-Duval bodies vs small round cell sheets."
+    },
+    {
+      "roi_id": "slide_A_x28672_y8192_mag10",
+      "tile_id": "slide_A_x28672_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 28672,
+      "y": 8192,
+      "level0": {
+        "x": 28672,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of small cells with hyperchromatic nuclei and scant cytoplasm, arranged in nests and cords within a prominent myxoid stroma. Scattered cystic spaces and areas of hemorrhage are also present.\n\nThe most likely diagnosis is a yolk sac tumor (endodermal sinus tumor).\n\nDifferential diagnoses include other germ cell tumors such as embryonal carcinoma, which typically shows more pleomorphism and prominent nucleoli, and clear cell carcinoma, which would have more abundant clear cytoplasm and a different architectural pattern.",
+      "rationale": "Follow up right-central reticular area for classic microcystic/reticular yolk sac pattern."
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag10",
+      "tile_id": "slide_A_x8192_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of epithelioid cells with clear to vacuolated cytoplasm arranged in nests and cords within a prominent desmoplastic stroma. The cells have round to oval nuclei with visible nucleoli.\n\nThe most likely diagnosis is a yolk sac tumor, specifically the reticular pattern. This pattern is characterized by a network of anastomosing cords and nests of tumor cells within a myxoid or desmoplastic stroma, often with clear or vacuolated cytoplasm.\n\nDifferential diagnoses include clear cell carcinoma, which typically shows more prominent hobnail cells and hyalinized stroma, and metastatic clear cell renal cell carcinoma, which usually has a more nested or alveolar pattern and lacks the reticular architecture.",
+      "rationale": "Left reticular area—assess for high-grade round cell component, mitoses, necrosis."
+    },
+    {
+      "roi_id": "slide_A_x20480_y16384_mag10",
+      "tile_id": "slide_A_x20480_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 20480,
+      "y": 16384,
+      "level0": {
+        "x": 20480,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation with a reticular pattern and microcystic spaces, along with eosinophilic hyaline globules. The cells have round to oval nuclei and moderate cytoplasm, with areas of necrosis and hemorrhage.\n\nThe most likely diagnosis is a Yolk Sac Tumor (Endodermal Sinus Tumor).\n\nDifferential diagnoses include other germ cell tumors such as embryonal carcinoma, which typically shows more pleomorphism and lacks the characteristic reticular pattern and hyaline globules. Clear cell carcinoma can also have a reticular pattern but usually has clear cytoplasm and hobnail cells.",
+      "rationale": "Inferior central—look for microfollicular/Call-Exner or trabecular patterns"
+    },
+    {
+      "roi_id": "slide_A_x23552_y16384_mag10",
+      "tile_id": "slide_A_x23552_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 23552,
+      "y": 16384,
+      "level0": {
+        "x": 23552,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of pleomorphic cells with irregular nuclei and prominent nucleoli, arranged in nests and cords within a desmoplastic stroma. Areas of necrosis and hemorrhage are also present.\n\nThe most likely diagnosis is a malignant germ cell tumor, specifically a yolk sac tumor.\n\nDifferential diagnoses include other malignant germ cell tumors such as dysgerminoma or embryonal carcinoma, and potentially a poorly differentiated carcinoma.",
+      "rationale": "Interrogate lower-right microcystic/solid area flagged as possible granulosa; confirm/deny germ cell features."
+    },
+    {
+      "roi_id": "slide_A_x24576_y6144_mag10",
+      "tile_id": "slide_A_x24576_y6144_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 24576,
+      "y": 6144,
+      "level0": {
+        "x": 24576,
+        "y": 6144,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a biphasic pattern with cystic spaces containing eosinophilic material and a cellular stromal component composed of spindle cells and inflammatory cells. The cystic spaces are lined by flattened to cuboidal cells.\n\nThe most likely diagnosis is a mucinous cystic neoplasm of the ovary. The differential diagnosis includes serous cystadenoma/cystadenocarcinoma, which typically has papillary architecture and different lining epithelium, and a dermoid cyst, which would contain skin adnexal structures.",
+      "rationale": "Upper mid area not yet sampled—seek any hypercellular 'blue' zones, desmoplasia, rosettes."
+    },
+    {
+      "roi_id": "slide_A_x19456_y10240_mag10",
+      "tile_id": "slide_A_x19456_y10240_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 19456,
+      "y": 10240,
+      "level0": {
+        "x": 19456,
+        "y": 10240,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of epithelioid cells with eosinophilic cytoplasm and vesicular nuclei, arranged in nests and cords within a prominent myxoid stroma. Scattered cystic spaces and areas of hemorrhage are also present.\n\nThe most likely diagnosis is a Yolk Sac Tumor (Endodermal Sinus Tumor).\n\nDifferential diagnoses include other germ cell tumors such as embryonal carcinoma, which typically shows more pleomorphism and prominent nucleoli, and clear cell carcinoma, which would have more abundant clear cytoplasm and a different architectural pattern.",
+      "rationale": "Mid tumor—sample different zone, check for fibromatous/thecomatous stroma"
+    },
+    {
+      "roi_id": "slide_A_x21504_y10240_mag10",
+      "tile_id": "slide_A_x21504_y10240_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 21504,
+      "y": 10240,
+      "level0": {
+        "x": 21504,
+        "y": 10240,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of epithelioid cells with clear to vacuolated cytoplasm arranged in nests and cords within a prominent desmoplastic stroma. Areas of necrosis and hemorrhage are also present.\n\nThe most likely diagnosis is a yolk sac tumor, specifically the reticular pattern. The presence of epithelioid cells with clear cytoplasm, a reticular pattern, and a desmoplastic stroma are characteristic features. The clinical presentation of a large abdominal mass in a young girl is also consistent with this diagnosis.\n\nDifferential diagnoses include clear cell carcinoma and other germ cell tumors. Clear cell carcinoma typically shows more prominent hobnail cells and hyalinized stroma. Other germ cell tumors like dysgerminoma would show sheets of uniform cells with clear cytoplasm and lymphocytic infiltrate, while embryonal carcinoma would have more pleomorphic cells and glandular or papillary patterns.",
+      "rationale": "Sample central solid-appearing zone to exclude dysgerminoma nests with fibrous septa/lymphocytes or embryonal carcinoma."
+    },
+    {
+      "roi_id": "slide_A_x8192_y11776_mag20",
+      "tile_id": "slide_A_x8192_y11776_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 8192,
+      "y": 11776,
+      "level0": {
+        "x": 8192,
+        "y": 11776,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation with a reticular pattern and microcystic spaces, along with eosinophilic hyaline globules and a prominent inflammatory infiltrate. These features are characteristic of a yolk sac tumor.",
+      "rationale": "20x detail in left-central reticular area to look for Schiller-Duval bodies and hyaline globules."
+    },
+    {
+      "roi_id": "slide_A_x24576_y6144_mag20",
+      "tile_id": "slide_A_x24576_y6144_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 24576,
+      "y": 6144,
+      "level0": {
+        "x": 24576,
+        "y": 6144,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells within a fibrous stroma, with prominent irregular spaces containing eosinophilic material and red blood cells. The spindle cells have elongated nuclei and are arranged in fascicles and haphazardly.\n\nThe most likely diagnosis is a yolk sac tumor, specifically the reticular pattern. This pattern is characterized by a network of irregular spaces lined by tumor cells, often containing eosinophilic hyaline globules and hemorrhage, as seen in the image. The spindle cell component and fibrous stroma are also consistent with this tumor type.\n\nDifferential diagnoses include other germ cell tumors such as embryonal carcinoma, which typically shows more pleomorphic cells and solid growth, and teratoma, which would contain elements from multiple germ layers.",
+      "rationale": "Clarify questionable cystic/biphasic area—rule out small cell component; assess lining and stromal cytology."
+    },
+    {
+      "roi_id": "slide_A_x25600_y6144_mag10",
+      "tile_id": "slide_A_x25600_y6144_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 25600,
+      "y": 6144,
+      "level0": {
+        "x": 25600,
+        "y": 6144,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with eosinophilic cytoplasm and round to oval nuclei, arranged in fascicles and whorls, with scattered cystic spaces containing eosinophilic material. The stroma is variably collagenous and myxoid.\n\nThe most likely diagnosis is a sex cord-stromal tumor, specifically a Sertoli-Leydig cell tumor, given the spindle cell morphology and cystic spaces. Differential diagnoses include other sex cord-stromal tumors like granulosa cell tumor or fibroma, and potentially a metastatic carcinoma with a spindle cell component, although the morphology is less typical for these.",
+      "rationale": "Sample more solid-appearing superior central zone—ensure no sex cord-stromal/trabecular areas missed"
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag20",
+      "tile_id": "slide_A_x8192_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation in a prominent myxoid stroma with cells arranged in cords, nests, and microcystic spaces. The cells have clear to vacuolated cytoplasm and round to oval nuclei, with some microcysts containing eosinophilic material.\n\nThe most likely diagnosis is a Yolk Sac Tumor (Endodermal Sinus Tumor).\n\nDifferential diagnoses include clear cell carcinoma, which typically shows more nuclear atypia and hobnail cells, and metastatic clear cell renal cell carcinoma, which would require clinical correlation and immunohistochemistry for differentiation.",
+      "rationale": "High cellular area with cords/nests—evaluate for rhabdomyoblasts, nuclear molding, lymphoglandular bodies, mitoses."
+    },
+    {
+      "roi_id": "slide_A_x12288_y7168_mag10",
+      "tile_id": "slide_A_x12288_y7168_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 12288,
+      "y": 7168,
+      "level0": {
+        "x": 12288,
+        "y": 7168,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation with a prominent reticular pattern and microcystic spaces, along with eosinophilic hyaline globules and a dense fibrous stroma. The cells have round to oval nuclei and moderate cytoplasm.\n\nThe most likely diagnosis is a Yolk Sac Tumor (Endodermal Sinus Tumor).\n\nDifferential diagnoses include other germ cell tumors such as embryonal carcinoma, which typically shows more solid growth and pleomorphic cells, and clear cell carcinoma, which has clear cytoplasm and hobnail cells.",
+      "rationale": "Superior left—look for different architecture (follicle-like/tubules)"
+    },
+    {
+      "roi_id": "slide_A_x29696_y8192_mag20",
+      "tile_id": "slide_A_x29696_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 29696,
+      "y": 8192,
+      "level0": {
+        "x": 29696,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a neoplasm with a prominent reticular pattern of anastomosing channels and spaces containing eosinophilic material, lined by cells with clear to vacuolated cytoplasm. The stroma is loose and edematous.\n\nThe most likely diagnosis is a yolk sac tumor (endodermal sinus tumor).\n\nDifferential diagnoses include clear cell carcinoma, which typically shows more solid and tubulocystic patterns with hobnail cells, and metastatic clear cell renal cell carcinoma, which usually has a more nested or alveolar pattern and lacks the reticular architecture and eosinophilic hyaline globules characteristic of yolk sac tumor.",
+      "rationale": "20x in right-central reticular/microcystic area for endodermal sinus structures."
+    },
+    {
+      "roi_id": "slide_A_x32768_y14336_mag10",
+      "tile_id": "slide_A_x32768_y14336_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 32768,
+      "y": 14336,
+      "level0": {
+        "x": 32768,
+        "y": 14336,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation with a reticular pattern and microcystic spaces, composed of cells with clear to vacuolated cytoplasm and round to oval nuclei, within a prominent fibrous stroma. The morphology is consistent with a yolk sac tumor.",
+      "rationale": "Right lower—look for papillary/solid areas; check for fibroma/thecoma-like stroma"
+    },
+    {
+      "roi_id": "slide_A_x20480_y12288_mag20",
+      "tile_id": "slide_A_x20480_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20480,
+      "y": 12288,
+      "level0": {
+        "x": 20480,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation with a microcystic pattern, cells with clear to vacuolated cytoplasm, and scattered eosinophilic hyaline globules. The cells are arranged in nests and cords within a fibrous stroma.\n\nThe most likely diagnosis is a yolk sac tumor (endodermal sinus tumor).\n\nDifferential diagnoses include clear cell carcinoma, which typically shows more prominent clear cells and hobnail cells, and hepatoid adenocarcinoma, which would have cells resembling hepatocytes.",
+      "rationale": "Central reticular/microcystic region—look for Schiller-Duval body, hyaline globules; assess for small round cell sheets."
+    },
+    {
+      "roi_id": "slide_A_x21504_y10240_mag20",
+      "tile_id": "slide_A_x21504_y10240_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 21504,
+      "y": 10240,
+      "level0": {
+        "x": 21504,
+        "y": 10240,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of epithelioid cells with clear to vacuolated cytoplasm and eccentric nuclei, arranged in nests and cords within a prominent fibrous stroma. Some cells exhibit signet ring morphology.\n\nThe most likely diagnosis is a Yolk Sac Tumor (Endodermal Sinus Tumor).\n\nDifferential diagnoses include clear cell carcinoma, which typically shows more nuclear atypia and hobnail cells, and metastatic signet ring cell carcinoma, which would require clinical correlation and immunohistochemistry for differentiation.",
+      "rationale": "20x in central clear/vacuolated nests to assess for dysgerminoma vs yolk sac; search for lymphocytes/fibrous septa."
+    },
+    {
+      "roi_id": "slide_A_x15872_y14848_mag20",
+      "tile_id": "slide_A_x15872_y14848_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 15872,
+      "y": 14848,
+      "level0": {
+        "x": 15872,
+        "y": 14848,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a biphasic pattern with a reticular pattern of microcysts and a more cellular area composed of cells with eosinophilic cytoplasm and round nuclei. A Schiller-Duval body is also present.\n\nThe most likely diagnosis is a yolk sac tumor.\n\nDifferential diagnoses include other germ cell tumors such as embryonal carcinoma, which typically shows more solid growth and pleomorphic cells, and teratoma, which would contain elements from multiple germ layers.",
+      "rationale": "High power in representative reticular area—check for nuclear grooves/Call-Exner vs hyaline globules"
+    },
+    {
+      "roi_id": "slide_A_x23552_y16384_mag20",
+      "tile_id": "slide_A_x23552_y16384_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 23552,
+      "y": 16384,
+      "level0": {
+        "x": 23552,
+        "y": 16384,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of pleomorphic cells with irregular nuclei and prominent nucleoli, arranged in nests and cords within a desmoplastic stroma. Scattered glandular structures are also present.\n\nThe most likely diagnosis is a malignant germ cell tumor, specifically a yolk sac tumor.\n\nDifferential diagnoses include other malignant germ cell tumors such as embryonal carcinoma or choriocarcinoma, and potentially a poorly differentiated carcinoma.",
+      "rationale": "20x in pleomorphic/desmoplastic area to identify hyaline globules or glandular/papillary embryonal carcinoma patterns."
+    },
+    {
+      "roi_id": "slide_A_x32768_y8192_mag20",
+      "tile_id": "slide_A_x32768_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 32768,
+      "y": 8192,
+      "level0": {
+        "x": 32768,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a neoplasm with a prominent reticular pattern of anastomosing channels and spaces containing eosinophilic material, lined by flattened to cuboidal cells. The stroma is loose and edematous with scattered inflammatory cells.\n\nThe most likely diagnosis is a yolk sac tumor (endodermal sinus tumor).\n\nDifferential diagnoses include other germ cell tumors such as embryonal carcinoma, which typically shows more solid growth and pleomorphic cells, and clear cell carcinoma, which often has clear cytoplasm and hobnail cells.",
+      "rationale": "Right-sided area—assess for true spindle cell sarcoma vs yolk sac reticular pattern; check for desmoplastic stroma/nests (DSRCT)."
+    },
+    {
+      "roi_id": "slide_A_x18432_y4096_mag10",
+      "tile_id": "slide_A_x18432_y4096_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 18432,
+      "y": 4096,
+      "level0": {
+        "x": 18432,
+        "y": 4096,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation with a prominent reticular pattern and microcystic spaces, along with solid areas and a dense fibrous stroma. The cells have clear to vacuolated cytoplasm and round to oval nuclei.\n\nThe most likely diagnosis is a Yolk Sac Tumor (Endodermal Sinus Tumor).\n\nDifferential diagnoses include other germ cell tumors such as a mixed germ cell tumor with a yolk sac component, or potentially a clear cell carcinoma, although the reticular pattern and microcystic spaces are highly characteristic of yolk sac tumor.",
+      "rationale": "Sample additional upper central area to ensure no solid small blue cell sheets/rosettes away from reticular regions."
+    },
+    {
+      "roi_id": "slide_A_x25600_y6144_mag20",
+      "tile_id": "slide_A_x25600_y6144_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 25600,
+      "y": 6144,
+      "level0": {
+        "x": 25600,
+        "y": 6144,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells in a myxoid stroma with scattered large cells exhibiting abundant eosinophilic cytoplasm and eccentric nuclei. Prominent cystic spaces containing eosinophilic material are also present.\n\nThe most likely diagnosis is a yolk sac tumor, specifically the reticular pattern. The presence of a myxoid stroma, spindle cells, and large eosinophilic cells with eccentric nuclei (potentially representing Schiller-Duval bodies or hyaline globules) are characteristic features. The cystic spaces containing eosinophilic material are also consistent with this diagnosis.\n\nDifferential diagnoses to consider include other germ cell tumors such as embryonal carcinoma or immature teratoma, as well as sex cord-stromal tumors like Sertoli-Leydig cell tumor. However, the specific combination of reticular pattern, myxoid stroma, and eosinophilic cells strongly favors a yolk sac tumor.",
+      "rationale": "Area previously suggested possible sex cord-stromal/spindle—verify whether true Sertoli tubules or just reticular yolk sac"
+    },
+    {
+      "roi_id": "slide_A_x12288_y15360_mag10",
+      "tile_id": "slide_A_x12288_y15360_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 12288,
+      "y": 15360,
+      "level0": {
+        "x": 12288,
+        "y": 15360,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation with a reticular pattern, microcystic spaces, and solid areas. The cells have clear to vacuolated cytoplasm and round to oval nuclei, with some areas showing hemorrhage and necrosis.\n\nThe most likely diagnosis is a yolk sac tumor (endodermal sinus tumor).\n\nDifferential diagnoses include clear cell carcinoma, which typically shows more prominent clear cells and hobnail cells, and embryonal carcinoma, which is usually more solid and composed of larger, more pleomorphic cells.",
+      "rationale": "Inferolateral area with denser staining—look for high-grade round cell component, necrosis, brisk mitoses."
+    },
+    {
+      "roi_id": "slide_A_x12288_y6144_mag10",
+      "tile_id": "slide_A_x12288_y6144_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 12288,
+      "y": 6144,
+      "level0": {
+        "x": 12288,
+        "y": 6144,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation in nests and cords within a prominent desmoplastic stroma. The cells have round to oval nuclei and moderate eosinophilic cytoplasm, with scattered cystic spaces containing eosinophilic material.\n\nThe most likely diagnosis is a yolk sac tumor. The characteristic features include the reticular pattern of cellular nests and cords within a desmoplastic stroma, and the presence of cystic spaces containing eosinophilic material, which can represent Schiller-Duval bodies or hyaline globules. The clinical presentation of a large abdominal mass in a young girl is also consistent with this diagnosis.\n\nDifferential diagnoses to consider include other germ cell tumors such as dysgerminoma or embryonal carcinoma, as well as sex cord-stromal tumors like Sertoli-Leydig cell tumor. However, the specific combination of reticular pattern, desmoplastic stroma, and eosinophilic cystic material strongly favors a yolk sac tumor.",
+      "rationale": "Sample additional superior-left viable area not yet interrogated for dysgerminoma nests/septa or alternative patterns."
+    },
+    {
+      "roi_id": "slide_A_x30720_y7168_mag20",
+      "tile_id": "slide_A_x30720_y7168_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 30720,
+      "y": 7168,
+      "level0": {
+        "x": 30720,
+        "y": 7168,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation with a prominent reticular pattern and microcystic spaces containing eosinophilic material. The cells are relatively uniform with round to oval nuclei and moderate cytoplasm, set within a loose stroma.\n\nThe most likely diagnosis is a yolk sac tumor (endodermal sinus tumor).\n\nDifferential diagnoses include other germ cell tumors such as embryonal carcinoma, which typically shows more pleomorphism and solid growth, and clear cell carcinoma, which often has clear cytoplasm and hobnail cells.",
+      "rationale": "High power in right-upper reticular/myxoid area—look for hyaline globules, basement membrane material"
+    },
+    {
+      "roi_id": "slide_A_x28672_y14336_mag10",
+      "tile_id": "slide_A_x28672_y14336_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 28672,
+      "y": 14336,
+      "level0": {
+        "x": 28672,
+        "y": 14336,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of cells with clear to vacuolated cytoplasm arranged in nests and cords within a prominent myxoid stroma. The cells have round to oval nuclei with visible nucleoli.\n\nThe most likely diagnosis is a Yolk Sac Tumor (Endodermal Sinus Tumor).\n\nDifferential diagnoses include clear cell carcinoma, which typically shows more nuclear atypia and hobnail cells, and metastatic clear cell renal cell carcinoma, which would require clinical correlation and immunohistochemistry for differentiation.",
+      "rationale": "Right inferior area—assess for desmoplastic nests (DSRCT) or small cell carcinoma features."
+    },
+    {
+      "roi_id": "slide_A_x32768_y6144_mag10",
+      "tile_id": "slide_A_x32768_y6144_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 32768,
+      "y": 6144,
+      "level0": {
+        "x": 32768,
+        "y": 6144,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a biphasic pattern with epithelial structures forming glands and nests within a prominent myxoid stroma. The epithelial cells have eosinophilic cytoplasm and round to oval nuclei.\n\nThe most likely diagnosis is a yolk sac tumor (endodermal sinus tumor).\n\nDifferential diagnoses include other germ cell tumors such as immature teratoma or mixed germ cell tumor, which may show similar epithelial components but typically lack the characteristic myxoid stroma and Schiller-Duval bodies.",
+      "rationale": "Sample far superior-right edge to exclude dysgerminoma/embryonal carcinoma components."
+    },
+    {
+      "roi_id": "slide_A_x8192_y12288_mag20",
+      "tile_id": "slide_A_x8192_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 8192,
+      "y": 12288,
+      "level0": {
+        "x": 8192,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation with a microcystic pattern, featuring cells with clear to vacuolated cytoplasm and scattered eosinophilic hyaline globules. The background stroma is loose and edematous.\n\nThe most likely diagnosis is a yolk sac tumor. The microcystic pattern, clear/vacuolated cells, and eosinophilic hyaline globules are characteristic features. Differential diagnoses include clear cell carcinoma, which typically shows more prominent nuclear atypia and hobnail cells, and endometrioid carcinoma, which usually has glandular or solid patterns and lacks the microcystic architecture and hyaline globules.",
+      "rationale": "High power left-central reticular area—assess cytology for granulosa-like grooves vs germ cell features"
+    },
+    {
+      "roi_id": "slide_A_x6144_y6144_mag10",
+      "tile_id": "slide_A_x6144_y6144_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 6144,
+      "y": 6144,
+      "level0": {
+        "x": 6144,
+        "y": 6144,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular neoplasm with a prominent myxoid stroma, featuring cells in nests, cords, and scattered individually. The cells have round to oval nuclei and moderate cytoplasm, with some forming small lumens or cystic spaces.\n\nThe most likely diagnosis is a Yolk Sac Tumor (Endodermal Sinus Tumor).\n\nDifferential diagnoses include other germ cell tumors such as embryonal carcinoma, which typically shows more pleomorphism and prominent nucleoli, and teratoma, which would contain elements from multiple germ layers.",
+      "rationale": "Far left superior—check for cambium-like subcapsular condensation or rhabdomyoblastic differentiation."
+    },
+    {
+      "roi_id": "slide_A_x13824_y7168_mag20",
+      "tile_id": "slide_A_x13824_y7168_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 13824,
+      "y": 7168,
+      "level0": {
+        "x": 13824,
+        "y": 7168,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation with a reticular pattern and microcystic spaces containing eosinophilic material, set within a prominent myxoid stroma. The cells have round to oval nuclei and moderate cytoplasm, with some clear cells and scattered eosinophilic hyaline globules.\n\nThe most likely diagnosis is a Yolk Sac Tumor (Endodermal Sinus Tumor).\n\nDifferential diagnoses include other germ cell tumors such as embryonal carcinoma, which typically shows more solid growth, pleomorphism, and prominent nucleoli, and clear cell carcinoma, which usually has more tubulocystic or papillary patterns and hobnail cells.",
+      "rationale": "High-power in superior-left area to look for Schiller-Duval bodies/hyaline globules if yolk sac pattern present."
+    },
+    {
+      "roi_id": "slide_A_x15360_y14848_mag20",
+      "tile_id": "slide_A_x15360_y14848_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 15360,
+      "y": 14848,
+      "level0": {
+        "x": 15360,
+        "y": 14848,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a reticular pattern with anastomosing cords of cells within a loose, myxoid stroma. The cells have clear to vacuolated cytoplasm and small, hyperchromatic nuclei. Scattered eosinophilic hyaline globules are also present.\n\nThe most likely diagnosis is a Yolk Sac Tumor (Endodermal Sinus Tumor).\n\nDifferential diagnoses include:\n- Clear Cell Carcinoma: Typically shows more prominent clear cells, hobnail cells, and a more solid or tubulocystic pattern, often with hyalinized stroma.\n- Embryonal Carcinoma: Usually presents with more pleomorphic cells, prominent nucleoli, and a solid growth pattern, often with necrosis and hemorrhage.",
+      "rationale": "Confirm Schiller-Duval body and exclude Call-Exner look-alikes"
+    },
+    {
+      "roi_id": "slide_A_x32768_y6656_mag20",
+      "tile_id": "slide_A_x32768_y6656_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 32768,
+      "y": 6656,
+      "level0": {
+        "x": 32768,
+        "y": 6656,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of epithelioid cells forming irregular spaces and cords within a dense fibrous stroma. The cells have eosinophilic cytoplasm and round to oval nuclei, with some areas showing clear spaces.\n\nThe most likely diagnosis is a yolk sac tumor (endodermal sinus tumor).\n\nDifferential diagnoses include clear cell carcinoma, which typically shows more prominent clear cytoplasm and hobnail cells, and metastatic carcinoma, which would require clinical correlation and potentially immunohistochemistry for confirmation.",
+      "rationale": "High-power in superior-right area to check for hallmark structures and lymphocytic septa."
+    }
+  ]
+}

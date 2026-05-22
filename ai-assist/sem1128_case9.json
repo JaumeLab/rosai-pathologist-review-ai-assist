@@ -1,0 +1,1342 @@
+{
+  "case_id": "sem1128_case9",
+  "source": "slideseek-ai-assist",
+  "model": "gpt-5.4",
+  "generated_at": "2026-05-22T09:20:01.415483+00:00",
+  "organ": "Breast",
+  "primary_dx": "Low-Grade Ductal Carcinoma In Situ With Papillary, Micropapillary, And Cribriform Patterns",
+  "differential_dx": [
+    "Encapsulated Papillary Carcinoma",
+    "DCIS Involving An Intraductal Papilloma / Atypical Ductal Hyperplasia In Limited Foci"
+  ],
+  "microscopic_findings": [
+    {
+      "text": "Dilated ducts show **rigid cribriform** epithelial proliferation with **punched-out lumina** and cytologically monotonous cells.",
+      "roi_ids": [
+        "slide_A_x36864_y4096_mag20",
+        "slide_A_x34304_y17920_mag20"
+      ]
+    },
+    {
+      "text": "Multiple involved ducts contain **micropapillary tufts** and stratified low-grade atypical cells lacking true fibrovascular cores.",
+      "roi_ids": [
+        "slide_A_x39424_y6656_mag20",
+        "slide_A_x36864_y4096_mag10"
+      ]
+    },
+    {
+      "text": "Papillary spaces contain **fibrovascular cores** lined by **stratified atypical epithelium**, supporting papillary DCIS/papilloma spectrum…",
+      "roi_ids": [
+        "slide_A_x14336_y8192_mag10",
+        "slide_A_x9216_y12288_mag20"
+      ]
+    },
+    {
+      "text": "The neoplastic cells show **low-grade atypia** with nuclear crowding and no dominant **comedo necrosis** or overt high-grade features.",
+      "roi_ids": [
+        "slide_A_x13312_y9216_mag10",
+        "slide_A_x43008_y9216_mag20"
+      ]
+    }
+  ],
+  "interpretation": "The lesion is best classified as **low-grade ductal carcinoma in situ** with mixed **papillary, micropapillary, and cribriform architecture** involving cystically dilated ducts and papillary lesions. The combination of rigid secondary spaces, stratified low-grade atypical epithelium, and intraductal confinement favors **DCIS** over usual hyperplasia or limited **atypical ductal hyperplasia**. **Encapsulated papillary carcinoma** remains a consideration in the most papillary/cystic foci, but definitive separation depends on peripheral myoepithelial assessment. No unequivocal stromal invasion is identified in the sampled ROIs.",
+  "num_rois": 81,
+  "tiles": [
+    {
+      "roi_id": "slide_A_x16384_y8192_mag1",
+      "tile_id": "slide_A_x16384_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 16384,
+      "y": 8192,
+      "level0": {
+        "x": 16384,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows breast tissue with multiple dilated ducts containing intraluminal papillary structures. The surrounding stroma is fibrous and cellular.\n\nThe most likely diagnosis is intraductal papilloma. Differential diagnoses include papillary ductal carcinoma in situ, which would show more complex architecture and cytologic atypia, and sclerosing papilloma, which would have prominent stromal sclerosis.",
+      "rationale": "overview of region 0 architecture"
+    },
+    {
+      "roi_id": "slide_A_x12288_y12288_mag2",
+      "tile_id": "slide_A_x12288_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 12288,
+      "level0": {
+        "x": 12288,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows breast tissue with dilated ducts containing intraluminal papillary structures and epithelial proliferation. The surrounding stroma is fibrous and adipose.\n\nThe most likely diagnosis is an intraductal papilloma with associated ductal carcinoma in situ (DCIS).\n\nDifferential diagnoses include:\n- Intraductal papilloma without DCIS: would lack the epithelial proliferation and atypia.\n- Encapsulated papillary carcinoma: typically shows a more complex papillary architecture and lacks a myoepithelial layer.",
+      "rationale": "Low-power survey of Region 0; identify largest cystic/ductal spaces and papillary foci."
+    },
+    {
+      "roi_id": "slide_A_x36864_y4096_mag2",
+      "tile_id": "slide_A_x36864_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 36864,
+      "y": 4096,
+      "level0": {
+        "x": 36864,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows breast tissue with dilated ducts and cysts containing eosinophilic material, along with areas of epithelial proliferation exhibiting cribriform and micropapillary patterns. The surrounding stroma is fibrotic.\n\nThe most likely diagnosis is Ductal Carcinoma In Situ (DCIS), cribriform and micropapillary types.\n\nDifferential diagnoses include Atypical Ductal Hyperplasia (ADH) and usual ductal hyperplasia (UDH). ADH would show similar architectural patterns but would be limited in extent and lack the cytologic atypia of DCIS. UDH typically shows a more heterogeneous cell population and lacks the rigid cribriform spaces and micropapillary projections seen here.",
+      "rationale": "Low-power overview of upper half of region 1 to map lesion distribution."
+    },
+    {
+      "roi_id": "slide_A_x8192_y4096_mag2",
+      "tile_id": "slide_A_x8192_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 8192,
+      "y": 4096,
+      "level0": {
+        "x": 8192,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a dilated duct with intraluminal papillary projections and epithelial proliferation. The surrounding stroma is fibrotic with chronic inflammation.\n\nThe most likely diagnosis is an intraductal papilloma with associated ductal carcinoma in situ (DCIS).\n\nDifferential diagnoses include:\n- Intraductal papilloma without DCIS: would lack the epithelial proliferation and atypia.\n- Encapsulated papillary carcinoma: would show a more complex papillary architecture and lack a myoepithelial layer.",
+      "rationale": "survey upper/central portion with multiple ducts/cysts"
+    },
+    {
+      "roi_id": "slide_A_x36864_y12288_mag2",
+      "tile_id": "slide_A_x36864_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 36864,
+      "y": 12288,
+      "level0": {
+        "x": 36864,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows breast tissue with dilated ducts containing intraluminal papillary structures and epithelial proliferation. There is also a focus of invasive epithelial cells within a desmoplastic stroma.\n\nThe most likely diagnosis is Invasive Papillary Carcinoma.\n\nDifferential diagnoses include:\n- Encapsulated Papillary Carcinoma: Typically lacks stromal invasion.\n- Intraductal Papilloma with Atypical Ductal Hyperplasia or Ductal Carcinoma in Situ: Would not show stromal invasion.",
+      "rationale": "Low-power overview of lower half of region 1 to assess stromal nodules/cysts and proximity to margins."
+    },
+    {
+      "roi_id": "slide_A_x16384_y16384_mag2",
+      "tile_id": "slide_A_x16384_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 16384,
+      "y": 16384,
+      "level0": {
+        "x": 16384,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a dilated duct containing a papillary lesion with fibrovascular cores and epithelial proliferation. The surrounding stroma is dense and fibrous with scattered adipose tissue.\n\nThe most likely diagnosis is an intraductal papilloma. Differential diagnoses include papillary ductal carcinoma in situ, which would show more significant nuclear atypia and lack a myoepithelial layer within the papillae.",
+      "rationale": "survey lower/right portion where stroma appears denser"
+    },
+    {
+      "roi_id": "slide_A_x20480_y8192_mag2",
+      "tile_id": "slide_A_x20480_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 20480,
+      "y": 8192,
+      "level0": {
+        "x": 20480,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows breast tissue with ducts and lobules embedded in fibrous and adipose stroma. There is a prominent dilated duct with intraluminal papillary projections and epithelial proliferation, along with smaller ducts and lobules exhibiting varying degrees of epithelial proliferation.\n\nThe most likely diagnosis for this single tile is a papilloma with associated ductal carcinoma in situ (DCIS). The dilated duct with papillary architecture and epithelial proliferation is characteristic of a papilloma. The presence of epithelial proliferation within other ducts and lobules raises suspicion for DCIS.\n\nDifferential diagnoses include:\n- Intraductal papilloma without DCIS: This would lack the significant epithelial proliferation seen in other ducts and lobules.\n- Atypical ductal hyperplasia (ADH) or low-grade DCIS: These would show similar epithelial proliferation but typically lack the prominent papillary architecture seen in the large dilated duct.",
+      "rationale": "Low-power survey of Region 0, more central-right where multiple ducts apparent on thumbnail."
+    },
+    {
+      "roi_id": "slide_A_x32768_y6144_mag5",
+      "tile_id": "slide_A_x32768_y6144_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 32768,
+      "y": 6144,
+      "level0": {
+        "x": 32768,
+        "y": 6144,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows breast ducts with intraluminal papillary projections and epithelial proliferation. The surrounding stroma is fibrous with scattered adipose tissue.\n\nThe most likely diagnosis is Ductal Carcinoma In Situ (DCIS) with papillary features.\n\nDifferential diagnoses include:\n- Intraductal Papilloma: Typically shows a fibrovascular core and lacks the cellular atypia and architectural complexity of DCIS.\n- Atypical Ductal Hyperplasia (ADH): Shares some features with low-grade DCIS but is limited in extent and lacks the complete filling of ducts seen in DCIS.",
+      "rationale": "Survey left-upper portion of region 1 at mid power for architectural patterns."
+    },
+    {
+      "roi_id": "slide_A_x36864_y8192_mag2",
+      "tile_id": "slide_A_x36864_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 36864,
+      "y": 8192,
+      "level0": {
+        "x": 36864,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows breast tissue with dilated ducts containing intraluminal papillary projections and epithelial proliferation. The surrounding stroma is fibrous with scattered adipose tissue.\n\nThe most likely diagnosis is intraductal papilloma with associated ductal carcinoma in situ (DCIS).\n\nDifferential diagnoses include:\n- Intraductal papilloma without DCIS: Lacks the epithelial proliferation and architectural complexity seen in this image.\n- Atypical ductal hyperplasia (ADH) within a papilloma: Would show less extensive and less complex proliferation than DCIS.",
+      "rationale": "Low-power survey of Region 1 upper half; look for cystic dilated duct with papillary lesion."
+    },
+    {
+      "roi_id": "slide_A_x10240_y8192_mag5",
+      "tile_id": "slide_A_x10240_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 10240,
+      "y": 8192,
+      "level0": {
+        "x": 10240,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows breast tissue with ducts and lobules embedded in fibrous stroma and adipose tissue. There is a proliferation of epithelial cells within ducts and lobules, exhibiting varying architectural patterns including solid and cribriform areas.\n\nThe most likely diagnosis is Ductal Carcinoma In Situ (DCIS). The presence of atypical epithelial cells filling and expanding ducts and lobules with cribriform and solid patterns is characteristic of DCIS. The absence of invasion into the surrounding stroma supports an in situ process.\n\nDifferential diagnoses include Atypical Ductal Hyperplasia (ADH), which shares similar cytologic and architectural features but is typically limited in extent. Invasive Ductal Carcinoma (IDC) would show invasion of atypical cells into the surrounding stroma, which is not evident in this image.",
+      "rationale": "papillary lesion within dilated duct—assess complexity and sclerosis"
+    },
+    {
+      "roi_id": "slide_A_x36864_y16384_mag2",
+      "tile_id": "slide_A_x36864_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 36864,
+      "y": 16384,
+      "level0": {
+        "x": 36864,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows breast tissue with a large duct exhibiting intraluminal papillary proliferation and smaller ducts with epithelial hyperplasia. The surrounding stroma is dense and fibrous with scattered chronic inflammation.\n\nThe most likely diagnosis for this single tile is a papilloma with associated ductal hyperplasia. The presence of a large duct with intraluminal papillary structures is characteristic of a papilloma. The smaller ducts show epithelial hyperplasia, which is a common finding in association with papillomas.\n\nDifferential diagnoses to consider include intraductal papilloma with atypical ductal hyperplasia or ductal carcinoma in situ, which would require higher magnification to assess for cytologic atypia and architectural complexity. Another consideration is sclerosing adenosis, which can present with distorted ducts and stromal fibrosis, but typically lacks the prominent papillary architecture seen here.",
+      "rationale": "Low-power survey of Region 1 lower half; assess for sclerosing/invasive areas."
+    },
+    {
+      "roi_id": "slide_A_x40960_y6144_mag5",
+      "tile_id": "slide_A_x40960_y6144_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 40960,
+      "y": 6144,
+      "level0": {
+        "x": 40960,
+        "y": 6144,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows breast tissue with a proliferation of ducts and lobules embedded in dense fibrous stroma. The ducts exhibit variable size and shape, with some showing epithelial hyperplasia and papillary infoldings.\n\nThe most likely diagnosis for this single tile is a benign proliferative lesion, such as sclerosing adenosis or fibroadenoma, given the dense stroma and ductal proliferation. However, the presence of epithelial hyperplasia and papillary infoldings raises the possibility of an atypical ductal hyperplasia or low-grade ductal carcinoma in situ (DCIS) component, which would require further evaluation of the entire lesion.\n\nDifferential diagnoses to consider include:\n- Sclerosing adenosis: characterized by distorted ducts and acini within a sclerotic stroma, often with epithelial hyperplasia.\n- Fibroadenoma: typically shows a biphasic proliferation of stromal and epithelial components, often with a more uniform appearance.\n- Atypical ductal hyperplasia (ADH) or low-grade DCIS: characterized by monomorphic epithelial proliferation with architectural patterns such as cribriform or micropapillary, which may be present in some ducts in this image.",
+      "rationale": "Survey right-upper portion for ducts/cysts and any infiltrative glands."
+    },
+    {
+      "roi_id": "slide_A_x14336_y8192_mag5",
+      "tile_id": "slide_A_x14336_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 14336,
+      "y": 8192,
+      "level0": {
+        "x": 14336,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a well-circumscribed lesion with complex papillary and cribriform architecture within a dilated duct. The epithelial cells are multilayered with nuclear crowding and hyperchromasia, and there is a prominent fibrovascular core.\n\nThe most likely diagnosis is an intraductal papilloma with associated ductal carcinoma in situ (DCIS).\n\nDifferential diagnoses include:\n- Intraductal papilloma without DCIS: would lack the complex cribriform architecture and significant nuclear atypia.\n- Encapsulated papillary carcinoma: typically lacks a myoepithelial layer and shows more extensive invasion.",
+      "rationale": "sample another ductal/papillary focus toward right side"
+    },
+    {
+      "roi_id": "slide_A_x13312_y9216_mag10",
+      "tile_id": "slide_A_x13312_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 13312,
+      "y": 9216,
+      "level0": {
+        "x": 13312,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a ductal structure with complex papillary architecture and cribriform spaces, lined by stratified epithelium with nuclear atypia. The surrounding stroma is dense and fibrous with scattered adipocytes.\n\nThe most likely diagnosis is Ductal Carcinoma In Situ (DCIS), papillary type.\n\nDifferential diagnoses include:\n- Invasive Papillary Carcinoma: Would show invasion into the surrounding stroma, which is not evident in this image.\n- Atypical Ductal Hyperplasia (ADH): Would show less architectural complexity and cytologic atypia compared to DCIS.",
+      "rationale": "Region 0: zoom on largest dilated duct with papillary fronds to assess architecture and atypia."
+    },
+    {
+      "roi_id": "slide_A_x13312_y13312_mag10",
+      "tile_id": "slide_A_x13312_y13312_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 13312,
+      "y": 13312,
+      "level0": {
+        "x": 13312,
+        "y": 13312,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dilated duct with complex papillary architecture and fibrovascular cores. The lining epithelium is stratified and exhibits nuclear atypia. The surrounding stroma is dense and fibrous.\n\nThe most likely diagnosis is intraductal papilloma with atypical ductal hyperplasia (ADH).\n\nDifferential diagnoses include:\n- Ductal carcinoma in situ (DCIS), papillary type: This would show more significant nuclear atypia and architectural complexity, potentially with necrosis.\n- Intraductal papilloma without atypia: This would lack the significant nuclear atypia and stratification seen in this case.",
+      "rationale": "evaluate epithelial atypia/cribriforming within papillary lesion"
+    },
+    {
+      "roi_id": "slide_A_x32768_y14336_mag5",
+      "tile_id": "slide_A_x32768_y14336_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 32768,
+      "y": 14336,
+      "level0": {
+        "x": 32768,
+        "y": 14336,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows breast tissue with a large cystic structure and smaller ducts and lobules embedded in fibrous stroma. The cyst is lined by flattened epithelium, and some ducts exhibit epithelial proliferation with cribriform and solid patterns.\n\nThe most likely diagnosis for this single tile is a large breast cyst with associated ductal hyperplasia. The presence of a large cyst lined by flattened epithelium is characteristic of a simple cyst. The epithelial proliferation within some ducts, showing cribriform and solid patterns, is consistent with ductal hyperplasia. \n\nDifferential diagnoses to consider include:\n- Fibrocystic changes: This is a common benign condition characterized by cysts, fibrosis, and epithelial hyperplasia, which aligns well with the features observed.\n- Ductal carcinoma in situ (DCIS): While the epithelial proliferation shows some architectural complexity, the low magnification and lack of overt cytologic atypia make DCIS less likely based on this single tile. Higher magnification and assessment of nuclear features would be necessary to rule this out definitively.",
+      "rationale": "Survey left-lower portion for sclerosing lesion or carcinoma."
+    },
+    {
+      "roi_id": "slide_A_x20480_y8192_mag10",
+      "tile_id": "slide_A_x20480_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 20480,
+      "y": 8192,
+      "level0": {
+        "x": 20480,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows dilated ducts containing eosinophilic material and cellular debris, surrounded by dense fibrous stroma and adipose tissue. There is also a mild chronic inflammatory infiltrate.\n\nThe most likely diagnosis is duct ectasia. This condition is characterized by dilated ducts filled with secretions and surrounded by periductal fibrosis and inflammation. The absence of significant epithelial proliferation or atypia helps distinguish it from other ductal lesions.",
+      "rationale": "Region 0 central: papillary lesion noted on low power; evaluate complexity/cribriforming."
+    },
+    {
+      "roi_id": "slide_A_x9216_y12288_mag10",
+      "tile_id": "slide_A_x9216_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 9216,
+      "y": 12288,
+      "level0": {
+        "x": 9216,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dilated duct containing a papillary proliferation with fibrovascular cores. The epithelial cells lining the duct exhibit nuclear atypia and stratification.\n\nThe most likely diagnosis is Ductal Carcinoma In Situ (DCIS) arising in a papilloma.\n\nDifferential diagnoses include:\n- Intraductal Papilloma: Typically lacks significant nuclear atypia and stratification.\n- Atypical Ductal Hyperplasia (ADH) in a papilloma: Shows some atypia but not as extensive as DCIS.",
+      "rationale": "assess adjacent stroma for invasion/sclerosing lesion features"
+    },
+    {
+      "roi_id": "slide_A_x36864_y8192_mag10",
+      "tile_id": "slide_A_x36864_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 36864,
+      "y": 8192,
+      "level0": {
+        "x": 36864,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows breast tissue with ducts embedded in fibrous stroma and adipose tissue. A large duct exhibits intraluminal epithelial proliferation with cribriform and micropapillary patterns, and smaller ducts show similar proliferation.\n\nThe most likely diagnosis is Ductal Carcinoma In Situ (DCIS), cribriform and micropapillary types. The presence of intraluminal epithelial proliferation with cribriform and micropapillary patterns within ducts is characteristic of DCIS. The absence of invasion into the surrounding stroma supports an in situ process.\n\nDifferential diagnoses include Atypical Ductal Hyperplasia (ADH), which can show similar patterns but typically involves smaller ducts and lacks the extent of involvement seen in DCIS. Invasive Cribriform Carcinoma should also be considered, but it would show invasion into the stroma, which is not evident in this image.",
+      "rationale": "Region 1 upper: dilated duct with papillary projections; assess for encapsulated papillary carcinoma features."
+    },
+    {
+      "roi_id": "slide_A_x36864_y4096_mag10",
+      "tile_id": "slide_A_x36864_y4096_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 36864,
+      "y": 4096,
+      "level0": {
+        "x": 36864,
+        "y": 4096,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows breast ducts with epithelial proliferation forming micropapillary structures and cribriform patterns. The cells are relatively uniform with round nuclei and eosinophilic cytoplasm, and some ducts contain luminal eosinophilic material.\n\nThe most likely diagnosis is Ductal Carcinoma In Situ (DCIS), cribriform and micropapillary type.\n\nDifferential diagnoses include Atypical Ductal Hyperplasia (ADH) and usual ductal hyperplasia (UDH). ADH would show similar architectural patterns but with less extensive involvement and less cytologic atypia. UDH typically shows a more heterogeneous cell population and lacks the rigid cribriform spaces and micropapillary projections seen here.",
+      "rationale": "Clarify nature of cribriform/micropapillary proliferation—DCIS vs ADH vs papilloma."
+    },
+    {
+      "roi_id": "slide_A_x14336_y8192_mag20",
+      "tile_id": "slide_A_x14336_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 14336,
+      "y": 8192,
+      "level0": {
+        "x": 14336,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a papillary lesion with fibrovascular cores lined by a bilayered epithelium. The epithelial cells exhibit low-grade nuclear atypia and stratification.\n\nThe most likely diagnosis is an intraductal papilloma with low-grade ductal carcinoma in situ.\n\nDifferential diagnoses include:\n- Intraductal papilloma without DCIS: would lack the epithelial stratification and nuclear atypia.\n- Encapsulated papillary carcinoma: typically lacks a myoepithelial layer and shows more complex architecture.",
+      "rationale": "high mag of complex papillary/cribriform focus to assess cytology, necrosis, myoepithelium"
+    },
+    {
+      "roi_id": "slide_A_x36864_y16384_mag10",
+      "tile_id": "slide_A_x36864_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 36864,
+      "y": 16384,
+      "level0": {
+        "x": 36864,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows breast tissue with a ductal structure exhibiting epithelial proliferation and a dense, hyalinized stroma. The epithelial cells show some nuclear pleomorphism and stratification.\n\nThe most likely diagnosis is Ductal Carcinoma In Situ (DCIS), given the epithelial proliferation within the duct and the associated stromal changes. The nuclear pleomorphism and stratification are consistent with a neoplastic process confined to the duct.\n\nDifferential diagnoses include Atypical Ductal Hyperplasia (ADH) and invasive ductal carcinoma. ADH would show similar features but typically involves a smaller area and lacks the degree of nuclear atypia seen here. Invasive ductal carcinoma would show invasion of the surrounding stroma, which is not evident in this image.",
+      "rationale": "Region 1 mid/lower: large duct with papillary proliferation; look for stromal invasion/sclerosis."
+    },
+    {
+      "roi_id": "slide_A_x13312_y13312_mag20",
+      "tile_id": "slide_A_x13312_y13312_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 13312,
+      "y": 13312,
+      "level0": {
+        "x": 13312,
+        "y": 13312,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a ductal structure with a micropapillary pattern and cells exhibiting apocrine features. The surrounding stroma is dense and fibrous.\n\nThe most likely diagnosis is Ductal Carcinoma In Situ (DCIS), micropapillary type with apocrine features.\n\nDifferential diagnoses include atypical ductal hyperplasia (ADH) with micropapillary features, which would show less extensive involvement and less pronounced cytologic atypia. Invasive micropapillary carcinoma should also be considered, but would show stromal invasion.",
+      "rationale": "high mag of atypical epithelium within dilated duct/papillae; look for myoepithelial layer"
+    },
+    {
+      "roi_id": "slide_A_x36864_y4096_mag20",
+      "tile_id": "slide_A_x36864_y4096_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 36864,
+      "y": 4096,
+      "level0": {
+        "x": 36864,
+        "y": 4096,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a breast duct with a cribriform pattern of epithelial proliferation and a large cystic space containing eosinophilic material. The epithelial cells are relatively uniform with round to oval nuclei.\n\nThe most likely diagnosis is Ductal Carcinoma In Situ (DCIS), cribriform type. The cribriform architecture and cellular proliferation confined within the duct are characteristic features. Differential diagnoses include Atypical Ductal Hyperplasia (ADH), which shares similar features but is typically smaller and less extensive, and usual ductal hyperplasia, which lacks the rigid cribriform pattern and cellular uniformity.",
+      "rationale": "Assess cytologic atypia and necrosis in suspected DCIS area."
+    },
+    {
+      "roi_id": "slide_A_x10240_y8192_mag20",
+      "tile_id": "slide_A_x10240_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 10240,
+      "y": 8192,
+      "level0": {
+        "x": 10240,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows mature adipose tissue with prominent, dense fibrous septa containing scattered spindle cells and inflammatory cells. The adipocytes are uniform in size.\n\nThe most likely diagnosis for this single tile is a fibroadenolipoma, a benign breast lesion composed of fibrous tissue, adipose tissue, and glandular elements.\n\nDifferential diagnoses include:\n- Lipoma: Typically composed of mature adipose tissue without significant fibrous septa or spindle cells.\n- Spindle cell lipoma: Characterized by mature adipocytes and a prominent spindle cell component, often with ropey collagen, but usually lacks the dense fibrous septa seen here.",
+      "rationale": "high mag of solid/cribriform intraductal proliferation; exclude invasion"
+    },
+    {
+      "roi_id": "slide_A_x13312_y9216_mag20",
+      "tile_id": "slide_A_x13312_y9216_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 13312,
+      "y": 9216,
+      "level0": {
+        "x": 13312,
+        "y": 9216,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows dense, hyalinized stroma with scattered adipocytes and a prominent inflammatory infiltrate. A duct-like structure with epithelial cells is also present.\n\nThe most likely diagnosis for this single tile is a benign sclerosing lesion, such as a radial scar or complex sclerosing lesion.\n\nDifferential diagnoses include invasive carcinoma, particularly tubular carcinoma, which can have a desmoplastic stromal reaction. However, the presence of a duct-like structure and the lack of infiltrating single cells or small nests of epithelial cells favor a benign process.",
+      "rationale": "High power of complex papillary/cribriform duct in Region 0; assess cytology/necrosis and fibrovascular cores."
+    },
+    {
+      "roi_id": "slide_A_x36864_y12288_mag10",
+      "tile_id": "slide_A_x36864_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 36864,
+      "y": 12288,
+      "level0": {
+        "x": 36864,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows breast tissue with adipose and fibrous stroma containing ducts and lobules. Some ducts exhibit epithelial proliferation with cribriform and solid patterns, and there is a mild periductal lymphocytic infiltrate.\n\nThe most likely diagnosis for this single tile is Ductal Carcinoma In Situ (DCIS), cribriform type. The presence of epithelial proliferation within ducts forming cribriform and solid patterns is characteristic of DCIS. The mild periductal lymphocytic infiltrate is a common associated finding.\n\nDifferential diagnoses to consider include Atypical Ductal Hyperplasia (ADH) and usual ductal hyperplasia (UDH). ADH shares similar features with low-grade DCIS but is typically limited in extent. UDH can show some architectural complexity but lacks the monomorphic cell population and rigid cribriform spaces seen in DCIS.",
+      "rationale": "Evaluate papillary/cystic area with possible invasion/desmoplasia."
+    },
+    {
+      "roi_id": "slide_A_x36864_y8192_mag20",
+      "tile_id": "slide_A_x36864_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 36864,
+      "y": 8192,
+      "level0": {
+        "x": 36864,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dilated duct lined by a single layer of columnar cells with apical snouts and luminal eosinophilic material. The surrounding stroma is fibrotic with scattered chronic inflammation.\n\nThe most likely diagnosis is columnar cell change. This is a benign alteration of breast ducts characterized by the presence of columnar epithelial cells lining dilated ducts, often with apical snouts and luminal secretions. The absence of significant cellular atypia or architectural complexity helps distinguish it from atypical ductal hyperplasia or low-grade ductal carcinoma in situ.",
+      "rationale": "High power of DCIS-like cribriform/micropapillary proliferation; look for true fibrovascular cores vs micropapillae and assess periductal myoepithelium."
+    },
+    {
+      "roi_id": "slide_A_x9216_y12288_mag20",
+      "tile_id": "slide_A_x9216_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 9216,
+      "y": 12288,
+      "level0": {
+        "x": 9216,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a papillary lesion with fibrovascular cores lined by stratified epithelium exhibiting nuclear pleomorphism and hyperchromasia. The lesion is surrounded by dense fibrous stroma and adipose tissue.\n\nThe most likely diagnosis is papillary carcinoma. The presence of a papillary architecture with fibrovascular cores and the cytologic atypia of the lining epithelium are characteristic features. The absence of a myoepithelial layer around the papillae would support a diagnosis of carcinoma.\n\nDifferential diagnoses include intraductal papilloma, which typically has a myoepithelial layer and lacks significant cytologic atypia, and papillary ductal carcinoma in situ (DCIS), which would show similar cytologic features but may have a more complex architecture or involvement of surrounding ducts.",
+      "rationale": "evaluate periductal stroma adjacent to papillary lesion for desmoplasia/invasion"
+    },
+    {
+      "roi_id": "slide_A_x36864_y12288_mag20",
+      "tile_id": "slide_A_x36864_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 36864,
+      "y": 12288,
+      "level0": {
+        "x": 36864,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cluster of small, uniform cells with round nuclei and scant cytoplasm, arranged in nests and cords within adipose tissue. These cells are associated with a blood vessel.\n\nThe most likely diagnosis is a benign breast lesion, specifically a perilobular or perivascular myoepithelial cell proliferation.\n\nDifferential diagnoses include:\n- Invasive lobular carcinoma: typically shows single-file infiltration and lacks the uniform, rounded cell morphology seen here.\n- Metastatic carcinoma: would usually show more pleomorphism and atypical features.",
+      "rationale": "Confirm stromal invasion vs encapsulated papillary carcinoma; look for myoepithelium."
+    },
+    {
+      "roi_id": "slide_A_x35840_y7680_mag20",
+      "tile_id": "slide_A_x35840_y7680_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 35840,
+      "y": 7680,
+      "level0": {
+        "x": 35840,
+        "y": 7680,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a ductal structure with a multilayered epithelium exhibiting nuclear pleomorphism and hyperchromasia, surrounded by adipose tissue. The adjacent duct appears benign.\n\nThe most likely diagnosis for this single tile is Ductal Carcinoma In Situ (DCIS).\n\nDifferential diagnoses include Atypical Ductal Hyperplasia (ADH), which would show similar cytologic atypia but typically involves a smaller area or lacks the architectural complexity seen here. Invasive Ductal Carcinoma (IDC) would show invasion into the surrounding stroma, which is not evident in this image.",
+      "rationale": "Adjacent area within same large duct to look for encapsulated papillary carcinoma pattern (expansile papillary nodule in cystic space)."
+    },
+    {
+      "roi_id": "slide_A_x40960_y6144_mag10",
+      "tile_id": "slide_A_x40960_y6144_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 40960,
+      "y": 6144,
+      "level0": {
+        "x": 40960,
+        "y": 6144,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows breast ducts with epithelial proliferation exhibiting micropapillary and cribriform patterns. The cells are relatively uniform with round nuclei and moderate cytoplasm, and the proliferation is contained within the ducts.\n\nThe most likely diagnosis is Ductal Carcinoma In Situ (DCIS), cribriform and micropapillary type.\n\nDifferential diagnoses include Atypical Ductal Hyperplasia (ADH), which would show similar patterns but with less extensive involvement and less cytologic atypia. Invasive carcinoma should be excluded by assessing for stromal invasion, which is not evident in this image.",
+      "rationale": "Interrogate dense fibrous area for sclerosing adenosis/complex sclerosing lesion vs carcinoma."
+    },
+    {
+      "roi_id": "slide_A_x36864_y16384_mag20",
+      "tile_id": "slide_A_x36864_y16384_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 36864,
+      "y": 16384,
+      "level0": {
+        "x": 36864,
+        "y": 16384,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dilated duct with atypical epithelial cells exhibiting apocrine features and a cribriform pattern. The surrounding stroma is dense and hyalinized with scattered chronic inflammation.\n\nThe most likely diagnosis is Ductal Carcinoma In Situ (DCIS), cribriform type with apocrine features.\n\nDifferential diagnoses include atypical ductal hyperplasia (ADH) and invasive cribriform carcinoma. ADH would show similar features but would be limited in extent. Invasive cribriform carcinoma would show stromal invasion, which is not evident in this image.",
+      "rationale": "High power of duct with epithelial proliferation and hyalinized stroma; evaluate peripheral myoepithelial layer and any stromal invasion."
+    },
+    {
+      "roi_id": "slide_A_x6144_y5120_mag10",
+      "tile_id": "slide_A_x6144_y5120_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 6144,
+      "y": 5120,
+      "level0": {
+        "x": 6144,
+        "y": 5120,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dilated duct with a micropapillary proliferation of epithelial cells exhibiting nuclear atypia. The surrounding stroma is fibrotic with chronic inflammation.\n\nThe most likely diagnosis is Ductal Carcinoma In Situ (DCIS), micropapillary type.\n\nDifferential diagnoses include Atypical Ductal Hyperplasia (ADH) and invasive micropapillary carcinoma. ADH would show less extensive involvement and less pronounced atypia. Invasive micropapillary carcinoma would show stromal invasion.",
+      "rationale": "sample peripheral fibrous nodule to exclude invasive carcinoma/sclerosing lesion"
+    },
+    {
+      "roi_id": "slide_A_x20480_y8192_mag20",
+      "tile_id": "slide_A_x20480_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20480,
+      "y": 8192,
+      "level0": {
+        "x": 20480,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dilated duct containing eosinophilic material and surrounded by dense periductal inflammation. The adjacent stroma exhibits fibrosis and scattered chronic inflammation.\n\nThe most likely diagnosis for this single tile is duct ectasia with periductal mastitis. This condition is characterized by dilated ducts, inspissated secretions, and surrounding chronic inflammation and fibrosis.\n\nDifferential diagnoses to consider include:\n- Intraductal papilloma: Typically shows a papillary proliferation within the duct lumen, which is not evident in this image.\n- Low-grade ductal carcinoma in situ (DCIS): Would show atypical epithelial proliferation within the duct, which is not seen here.",
+      "rationale": "Area called duct ectasia at 10x; verify if any epithelial atypia/papilloma present in adjacent ducts."
+    },
+    {
+      "roi_id": "slide_A_x41984_y5120_mag10",
+      "tile_id": "slide_A_x41984_y5120_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 41984,
+      "y": 5120,
+      "level0": {
+        "x": 41984,
+        "y": 5120,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows breast tissue with a proliferation of ducts and lobules embedded in dense fibrous stroma. The epithelial cells lining these structures exhibit uniform, round nuclei and eosinophilic cytoplasm, with some areas showing increased cellularity and crowding.\n\nThe most likely diagnosis for this single tile is a benign proliferative lesion, such as sclerosing adenosis or a fibroadenoma. The uniform cytology and lack of significant atypia or mitotic activity support a benign process. However, the presence of increased cellularity and crowding in some areas warrants careful evaluation to exclude atypical hyperplasia or low-grade carcinoma.\n\nDifferential diagnoses to consider include atypical ductal hyperplasia (ADH) or low-grade ductal carcinoma in situ (DCIS), which can show increased cellularity and architectural changes. However, these typically exhibit more significant cytologic atypia and architectural complexity than seen in this image.",
+      "rationale": "Sample far right edge/upper quadrant near margin not yet interrogated for invasion."
+    },
+    {
+      "roi_id": "slide_A_x5632_y5120_mag20",
+      "tile_id": "slide_A_x5632_y5120_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 5632,
+      "y": 5120,
+      "level0": {
+        "x": 5632,
+        "y": 5120,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dilated duct lined by flattened to cuboidal epithelium, surrounded by dense fibrous stroma with scattered chronic inflammation. The duct lumen contains amorphous material and red blood cells.\n\nThe most likely diagnosis for this single tile is a benign breast lesion, such as a fibroadenoma or a benign ductal cyst. The presence of a dilated duct with flattened epithelium and surrounding fibrous stroma is consistent with these entities. However, the clinical presentation of a mass in an older patient warrants consideration of other possibilities, including a low-grade ductal carcinoma in situ (DCIS) or a benign proliferative lesion with atypia. Further evaluation of the entire excisional biopsy specimen is necessary to assess the overall architecture, cellular morphology, and presence of any atypical features to arrive at a definitive diagnosis.",
+      "rationale": "high mag at periphery for myoepithelium and invasion"
+    },
+    {
+      "roi_id": "slide_A_x43008_y9216_mag10",
+      "tile_id": "slide_A_x43008_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 43008,
+      "y": 9216,
+      "level0": {
+        "x": 43008,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows breast tissue with dilated ducts and acini containing intraluminal epithelial proliferation. The surrounding stroma is dense and fibrous with scattered chronic inflammation.\n\nThe most likely diagnosis is Ductal Carcinoma In Situ (DCIS). The presence of intraluminal epithelial proliferation within dilated ducts and acini is characteristic of DCIS. The dense fibrous stroma and chronic inflammation are also commonly seen in association with DCIS.\n\nDifferential diagnoses include Atypical Ductal Hyperplasia (ADH) and usual ductal hyperplasia (UDH). ADH shares similar features with low-grade DCIS but is typically limited in extent. UDH shows a more heterogeneous cell population and lacks the monomorphic appearance of DCIS.",
+      "rationale": "Evaluate central-right mid region with ducts in fibrous stroma for invasive component."
+    },
+    {
+      "roi_id": "slide_A_x11264_y6144_mag10",
+      "tile_id": "slide_A_x11264_y6144_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 11264,
+      "y": 6144,
+      "level0": {
+        "x": 11264,
+        "y": 6144,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows breast ducts with intraluminal epithelial proliferation forming papillary structures and cribriform patterns. The surrounding stroma is fibrotic with chronic inflammation.\n\nThe most likely diagnosis is Ductal Carcinoma In Situ (DCIS), papillary and cribriform types.\n\nDifferential diagnoses include Atypical Ductal Hyperplasia (ADH) and Invasive Papillary Carcinoma. ADH typically shows less extensive involvement and lacks the architectural complexity of DCIS. Invasive Papillary Carcinoma would show invasion into the surrounding stroma, which is not evident in this image.",
+      "rationale": "another ductal unit with papillary change; check necrosis/calcifications"
+    },
+    {
+      "roi_id": "slide_A_x43008_y9216_mag20",
+      "tile_id": "slide_A_x43008_y9216_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 43008,
+      "y": 9216,
+      "level0": {
+        "x": 43008,
+        "y": 9216,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows breast tissue with a dilated duct containing intraluminal epithelial proliferation and a smaller duct with similar features. The surrounding stroma is dense and fibrous with scattered blood vessels.\n\nThe most likely diagnosis is Ductal Carcinoma In Situ (DCIS). The presence of intraluminal epithelial proliferation within ducts is characteristic of DCIS. The dense fibrous stroma is also a common finding in breast tissue with DCIS.\n\nDifferential diagnoses include Atypical Ductal Hyperplasia (ADH) and invasive carcinoma. ADH shares similar features but is typically limited in extent. Invasive carcinoma would show epithelial cells infiltrating the stroma, which is not evident in this image.",
+      "rationale": "High power check for myoepithelial layer loss, desmoplasia, tumor cells."
+    },
+    {
+      "roi_id": "slide_A_x10752_y6144_mag20",
+      "tile_id": "slide_A_x10752_y6144_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 10752,
+      "y": 6144,
+      "level0": {
+        "x": 10752,
+        "y": 6144,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dilated duct lined by pseudostratified columnar epithelium with apical snouts and luminal papillary projections. The surrounding stroma is fibrotic with scattered chronic inflammation.\n\nThe most likely diagnosis is Ductal Carcinoma In Situ (DCIS), specifically the micropapillary type, given the papillary projections within the duct lumen. The pseudostratified epithelium and apical snouts are also consistent with this diagnosis.\n\nDifferential diagnoses include Atypical Ductal Hyperplasia (ADH) and usual ductal hyperplasia (UDH). ADH would show similar features but would be limited in extent. UDH typically shows a more heterogeneous cell population and lacks the rigid papillary architecture seen here.",
+      "rationale": "cytology and presence of myoepithelial layer around involved duct"
+    },
+    {
+      "roi_id": "slide_A_x39936_y7168_mag10",
+      "tile_id": "slide_A_x39936_y7168_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 39936,
+      "y": 7168,
+      "level0": {
+        "x": 39936,
+        "y": 7168,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows dilated ducts with intraluminal papillary projections lined by a bilayered epithelium. The surrounding stroma is fibrotic.\n\nThe most likely diagnosis is an intraductal papilloma. Differential diagnoses include papillary ductal carcinoma in situ, which would show a monomorphic cell population and lack a myoepithelial layer, and sclerosing adenosis, which typically has smaller, compressed glands and lacks prominent papillary architecture.",
+      "rationale": "Top-right boxed area on map in Region 1; likely key papillary/cystic lesion."
+    },
+    {
+      "roi_id": "slide_A_x41984_y17408_mag10",
+      "tile_id": "slide_A_x41984_y17408_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 41984,
+      "y": 17408,
+      "level0": {
+        "x": 41984,
+        "y": 17408,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a breast duct with a bilayered epithelium embedded in dense fibrous stroma. The surrounding stroma exhibits hyalinization and scattered chronic inflammation.\n\nThe most likely diagnosis for this single tile is a benign breast duct within fibrous stroma, consistent with normal breast tissue or a benign fibroepithelial lesion.\n\nDifferential diagnoses include:\n- Fibroadenoma: Characterized by a proliferation of both stromal and epithelial components, often with a more cellular stroma than seen here.\n- Sclerosing adenosis: A benign proliferative lesion with increased stromal fibrosis and distorted ducts, which may show more prominent epithelial proliferation and distortion than observed in this single image.",
+      "rationale": "Assess lower right edge near margin for infiltrative glands or DCIS extension."
+    },
+    {
+      "roi_id": "slide_A_x39424_y7168_mag20",
+      "tile_id": "slide_A_x39424_y7168_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 39424,
+      "y": 7168,
+      "level0": {
+        "x": 39424,
+        "y": 7168,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows breast ducts with epithelial proliferation forming micropapillae and tufts. The cells are columnar with apical snouts and basally oriented nuclei, and the surrounding stroma is fibrotic.\n\nThe most likely diagnosis is Flat Epithelial Atypia (FEA).\n\nDifferential diagnoses include:\n- Atypical Ductal Hyperplasia (ADH): ADH typically shows more complex architecture and cellular atypia than FEA.\n- Ductal Carcinoma In Situ (DCIS), low grade: DCIS usually exhibits more pronounced architectural complexity and cytologic atypia than FEA.",
+      "rationale": "High power of top-right lesion; look for true intracystic papillary carcinoma pattern and myoepithelial absence."
+    },
+    {
+      "roi_id": "slide_A_x30720_y9216_mag10",
+      "tile_id": "slide_A_x30720_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 30720,
+      "y": 9216,
+      "level0": {
+        "x": 30720,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dilated duct lined by pseudostratified columnar epithelium with apical snouts and luminal papillary projections. The surrounding stroma is dense and fibrous.\n\nThe most likely diagnosis is a papillary lesion of the breast, such as an intraductal papilloma.\n\nDifferential diagnoses include:\n- Ductal carcinoma in situ (DCIS), papillary type: would show more significant nuclear atypia and architectural complexity.\n- Atypical ductal hyperplasia (ADH) with papillary features: would show less extensive involvement and less pronounced atypia than DCIS.",
+      "rationale": "Assess left edge of region 1 for additional lesion component or stromal invasion."
+    },
+    {
+      "roi_id": "slide_A_x33792_y6144_mag20",
+      "tile_id": "slide_A_x33792_y6144_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 33792,
+      "y": 6144,
+      "level0": {
+        "x": 33792,
+        "y": 6144,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dilated duct with intraluminal eosinophilic material and a multilayered epithelial lining exhibiting cellular crowding and nuclear atypia. The surrounding stroma is fibrotic with chronic inflammation.\n\nThe most likely diagnosis is Ductal Carcinoma In Situ (DCIS), low grade. The presence of a dilated duct with intraluminal material and multilayered epithelium showing cellular crowding and nuclear atypia is characteristic of DCIS. The low-grade nature is suggested by the relatively uniform nuclear features and lack of high-grade pleomorphism or necrosis.\n\nDifferential diagnoses include Atypical Ductal Hyperplasia (ADH) and usual ductal hyperplasia (UDH). ADH shares features with low-grade DCIS but is typically limited in extent. UDH can show multilayering and cellular crowding but lacks the significant nuclear atypia and architectural distortion seen in DCIS.",
+      "rationale": "Top-central ROI on map; assess periphery of papillary lesion for myoepithelial layer."
+    },
+    {
+      "roi_id": "slide_A_x34816_y17920_mag20",
+      "tile_id": "slide_A_x34816_y17920_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 34816,
+      "y": 17920,
+      "level0": {
+        "x": 34816,
+        "y": 17920,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows small, uniform cells with round nuclei and scant cytoplasm infiltrating the stroma in a single-file pattern. These cells are also seen within dilated spaces, some containing eosinophilic material.\n\nThe most likely diagnosis is invasive lobular carcinoma. The characteristic single-file infiltration pattern and the presence of cells within dilated spaces are key features. Differential diagnoses include invasive ductal carcinoma, which typically forms tubules or nests, and benign conditions like sclerosing adenosis, which would show preserved myoepithelial cells.",
+      "rationale": "High power in lower central area to look for invasion/desmoplasia and confirm epithelial nature of suspicious foci."
+    },
+    {
+      "roi_id": "slide_A_x30720_y8704_mag20",
+      "tile_id": "slide_A_x30720_y8704_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 30720,
+      "y": 8704,
+      "level0": {
+        "x": 30720,
+        "y": 8704,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a duct lined by pseudostratified columnar epithelium with apical snouts and a dense fibrous stroma. The epithelial cells exhibit mild nuclear atypia and crowding.\n\nThe most likely diagnosis is Ductal Carcinoma In Situ (DCIS), low grade. The pseudostratified epithelium with apical snouts and mild nuclear atypia is characteristic of low-grade DCIS. The dense fibrous stroma is also consistent with this diagnosis.\n\nDifferential diagnoses include Atypical Ductal Hyperplasia (ADH) and usual ductal hyperplasia (UDH). ADH shares similar features with low-grade DCIS but is typically smaller in size and extent. UDH lacks the significant nuclear atypia and architectural complexity seen in DCIS.",
+      "rationale": "High power of papillary-appearing duct to assess for fibrovascular cores, atypia, and myoepithelial layer."
+    },
+    {
+      "roi_id": "slide_A_x36352_y12288_mag20",
+      "tile_id": "slide_A_x36352_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 36352,
+      "y": 12288,
+      "level0": {
+        "x": 36352,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows nests of epithelial cells with round to oval nuclei and moderate cytoplasm infiltrating adipose tissue. Some nests contain small lumens.\n\nThe most likely diagnosis is invasive ductal carcinoma, no special type (NST).\n\nDifferential diagnoses include invasive lobular carcinoma, which typically shows single-file infiltration, and benign entities like sclerosing adenosis, which would have a more organized lobular architecture and lack significant cytologic atypia.",
+      "rationale": "Re-sample nearby area at same level to better characterize reported nests/cords in adipose—rule out invasive carcinoma."
+    },
+    {
+      "roi_id": "slide_A_x36864_y15360_mag10",
+      "tile_id": "slide_A_x36864_y15360_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 36864,
+      "y": 15360,
+      "level0": {
+        "x": 36864,
+        "y": 15360,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dilated duct with intraluminal papillary projections lined by stratified epithelium. The surrounding stroma is fibrotic with chronic inflammation.\n\nThe most likely diagnosis is papillary ductal carcinoma in situ (DCIS). The presence of papillary architecture within a dilated duct, lined by stratified epithelium, is characteristic of this entity. The absence of a myoepithelial layer within the papillary fronds would support the diagnosis of DCIS.\n\nDifferential diagnoses include intraductal papilloma, which typically has a myoepithelial layer within the papillary fronds, and invasive papillary carcinoma, which would show invasion into the surrounding stroma.",
+      "rationale": "Survey deeper lower mid region for any separate invasive component or sclerosing lesion."
+    },
+    {
+      "roi_id": "slide_A_x30720_y2048_mag5",
+      "tile_id": "slide_A_x30720_y2048_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 30720,
+      "y": 2048,
+      "level0": {
+        "x": 30720,
+        "y": 2048,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows breast tissue with a papillary lesion within a duct, characterized by fibrovascular cores lined by epithelial cells. The surrounding stroma is fibrous with scattered adipose tissue and other ducts.\n\nThe most likely diagnosis is an intraductal papilloma. Differential diagnoses include papillary ductal carcinoma in situ, which would show more significant nuclear atypia and lack of a myoepithelial layer, and atypical papilloma, which would have some but not all features of DCIS.",
+      "rationale": "Check very top-left of region 1 for lesion extent and margin proximity at low-mid power."
+    },
+    {
+      "roi_id": "slide_A_x41984_y3072_mag10",
+      "tile_id": "slide_A_x41984_y3072_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 41984,
+      "y": 3072,
+      "level0": {
+        "x": 41984,
+        "y": 3072,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a papillary lesion with fibrovascular cores lined by stratified epithelium exhibiting nuclear pleomorphism and hyperchromasia. There is also a focus of atypical epithelial cells within a duct.\n\nThe most likely diagnosis is a papillary lesion with associated ductal carcinoma in situ (DCIS).\n\nDifferential diagnoses include:\n- Intraductal papilloma with atypical ductal hyperplasia (ADH) or DCIS: This would be considered if the atypical proliferation is limited in extent.\n- Encapsulated papillary carcinoma: This would be considered if the lesion is completely surrounded by a fibrous capsule and lacks a myoepithelial layer.",
+      "rationale": "Map shows unexplored top-right edge tile at higher mag; assess DCIS at margin/invasion."
+    },
+    {
+      "roi_id": "slide_A_x42496_y3072_mag20",
+      "tile_id": "slide_A_x42496_y3072_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 42496,
+      "y": 3072,
+      "level0": {
+        "x": 42496,
+        "y": 3072,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cystic structure lined by flattened epithelium, surrounded by dense fibrous stroma with scattered chronic inflammation and hemorrhage. The cyst lumen contains amorphous material and red blood cells.\n\nThe most likely diagnosis is a simple breast cyst. Differential diagnoses include a fibrocystic change with cyst formation or a benign cystic lesion such as a fibroadenoma with cystic change.",
+      "rationale": "High power of top-right edge for invasive carcinoma vs in situ."
+    },
+    {
+      "roi_id": "slide_A_x43008_y18432_mag10",
+      "tile_id": "slide_A_x43008_y18432_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 43008,
+      "y": 18432,
+      "level0": {
+        "x": 43008,
+        "y": 18432,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows mature adipose tissue with scattered fibrous septa containing small blood vessels and a nerve bundle. There is no evidence of epithelial proliferation or atypia.\n\nThe most likely diagnosis for this specific field is normal breast tissue with adipose and fibrous components. The absence of epithelial elements in this field makes it difficult to comment on the nature of the mass. Differential diagnoses for a breast mass in this context would include benign lesions like fibroadenoma or lipoma, or malignant lesions like invasive carcinoma, but these cannot be assessed based on this single field.",
+      "rationale": "Bottom-right edge higher mag to assess for infiltration and margin."
+    },
+    {
+      "roi_id": "slide_A_x43520_y18944_mag20",
+      "tile_id": "slide_A_x43520_y18944_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 43520,
+      "y": 18944,
+      "level0": {
+        "x": 43520,
+        "y": 18944,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a breast duct with a bilayered epithelium and a prominent periductal lymphocytic infiltrate. The surrounding stroma is fibrous with scattered blood vessels.\n\nThe most likely diagnosis for this single tile is a benign breast duct with periductal inflammation. The bilayered epithelium is characteristic of benign ducts, and the lymphocytic infiltrate is a common finding in benign breast tissue. The fibrous stroma and scattered blood vessels are also typical features.\n\nDifferential diagnoses to consider include:\n- Ductal carcinoma in situ (DCIS): This would typically show a monomorphic cell population with loss of the bilayered epithelium and potentially atypical nuclear features, which are not seen in this image.\n- Invasive carcinoma: This would show malignant cells infiltrating the stroma, which is not evident in this image.",
+      "rationale": "High power bottom-right edge for invasion."
+    },
+    {
+      "roi_id": "slide_A_x41984_y12288_mag10",
+      "tile_id": "slide_A_x41984_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 41984,
+      "y": 12288,
+      "level0": {
+        "x": 41984,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dilated duct with intraluminal papillary projections and a thickened wall. The surrounding stroma is dense and fibrous with scattered adipocytes.\n\nThe most likely diagnosis is a papilloma of the lactiferous duct. The presence of a dilated duct with intraluminal papillary projections is characteristic of this benign lesion. The thickened wall may represent associated fibrosis or inflammation.\n\nDifferential diagnoses include intraductal papilloma with atypia or carcinoma in situ, which would show cellular atypia or architectural complexity within the papillary fronds, and ductal carcinoma in situ, which would show malignant cells filling the duct lumen.",
+      "rationale": "Mid-right area between prior ROIs to ensure no separate lesion component."
+    },
+    {
+      "roi_id": "slide_A_x34816_y17408_mag10",
+      "tile_id": "slide_A_x34816_y17408_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 34816,
+      "y": 17408,
+      "level0": {
+        "x": 34816,
+        "y": 17408,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows breast tissue with dense fibrous stroma and adipose tissue. There are small, uniform cells with round nuclei and scant cytoplasm filling and expanding the acini of lobules.\n\nThe most likely diagnosis is Lobular Carcinoma In Situ (LCIS). The key features supporting this diagnosis are the presence of small, uniform cells with round nuclei and scant cytoplasm filling and expanding the acini of lobules. The cells are discohesive, which is characteristic of lobular neoplasia. The lack of significant nuclear pleomorphism or mitotic activity further supports a diagnosis of LCIS rather than invasive lobular carcinoma or ductal carcinoma in situ.\n\nDifferential diagnoses to consider include Atypical Lobular Hyperplasia (ALH) and Ductal Carcinoma In Situ (DCIS). ALH is characterized by a similar cellular morphology but involves less than 50% of the acini in a lobule. DCIS typically shows more significant nuclear atypia, pleomorphism, and architectural patterns such as cribriform or micropapillary growth, which are not seen in this image.",
+      "rationale": "Context around high-power area suspicious for invasive lobular carcinoma to see overall pattern and relation to ducts."
+    },
+    {
+      "roi_id": "slide_A_x35840_y12288_mag10",
+      "tile_id": "slide_A_x35840_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 35840,
+      "y": 12288,
+      "level0": {
+        "x": 35840,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows breast tissue with ducts and lobules embedded in fibrous stroma and adipose tissue. There is a prominent periductal and perivascular inflammatory infiltrate composed of lymphocytes and plasma cells.\n\nThe most likely diagnosis for this single tile is chronic mastitis. The presence of a dense lymphoplasmacytic infiltrate around ducts and vessels is characteristic of chronic inflammation in the breast. This can be seen in various conditions, including idiopathic mastitis, inflammatory breast carcinoma, or as a reaction to other processes.\n\nDifferential diagnoses to consider include:\n- Inflammatory breast carcinoma: This would typically show malignant cells within the dermal lymphatics, which are not evident in this image.\n- Lymphocytic mastopathy: This condition is characterized by dense lymphocytic infiltrates, often associated with autoimmune diseases, and may show stromal fibrosis. The infiltrate in this image appears more diffuse and periductal/perivascular rather than forming dense nodules.",
+      "rationale": "Context around nests in adipose suspicious for invasive ductal carcinoma; assess desmoplasia/adjacent DCIS."
+    },
+    {
+      "roi_id": "slide_A_x35840_y12288_mag20",
+      "tile_id": "slide_A_x35840_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 35840,
+      "y": 12288,
+      "level0": {
+        "x": 35840,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows breast tissue with ducts and lobules embedded in fibrous stroma and adipose tissue. The ducts and lobules are lined by epithelial cells with round to oval nuclei and eosinophilic cytoplasm, and some lumens contain eosinophilic material.\n\nThe most likely diagnosis for this single tile is a benign breast lesion, such as fibrocystic changes or a fibroadenoma, given the presence of ducts and lobules within fibrous and adipose tissue. The epithelial cells appear bland without significant atypia or increased mitotic activity.\n\nDifferential diagnoses to consider include:\n- Fibrocystic changes: Characterized by a combination of ductal and lobular hyperplasia, stromal fibrosis, and cyst formation.\n- Fibroadenoma: A benign tumor composed of both glandular and stromal elements, often presenting as a well-circumscribed mass.\n- Sclerosing adenosis: A benign proliferative lesion characterized by increased stromal fibrosis and distorted ducts and lobules, which can sometimes mimic malignancy.\n\nFurther evaluation of the entire excisional biopsy specimen is necessary to assess the overall architecture, cellular atypia, and presence of any invasive component to arrive at a definitive diagnosis.",
+      "rationale": "Confirm cytology of nests/tubules in adipose and look for E-cadherin-type cohesion vs single-file."
+    },
+    {
+      "roi_id": "slide_A_x33280_y16896_mag20",
+      "tile_id": "slide_A_x33280_y16896_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 33280,
+      "y": 16896,
+      "level0": {
+        "x": 33280,
+        "y": 16896,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows dense fibrous stroma with scattered spindle cells and numerous irregular, slit-like spaces. Small blood vessels are also present.\n\nThe most likely diagnosis for this single tile is Pseudoangiomatous Stromal Hyperplasia (PASH).\n\nDifferential diagnoses include:\n- Angiosarcoma: This would typically show more cellular atypia, mitotic activity, and true endothelial-lined vascular channels.\n- Fibroadenoma: This would show a biphasic pattern with both stromal and epithelial components, which are not seen in this image.",
+      "rationale": "Sample nearby additional focus to confirm/rule out invasion in lower mid region."
+    },
+    {
+      "roi_id": "slide_A_x37888_y16896_mag20",
+      "tile_id": "slide_A_x37888_y16896_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 37888,
+      "y": 16896,
+      "level0": {
+        "x": 37888,
+        "y": 16896,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows dense, hyalinized collagenous stroma with scattered spindle cells and a small duct. The stroma exhibits a wavy pattern with clear spaces.\n\nThe most likely diagnosis for this single tile is a fibroadenoma, specifically the hyalinized variant, given the dense, hyalinized stroma and scattered spindle cells. However, a phyllodes tumor, particularly the benign or borderline type, could also present with similar stromal features. Distinguishing between these entities would require evaluating the overall architecture, cellularity, and mitotic activity in the entire lesion.",
+      "rationale": "Sample separate lower region with DCIS to look for microinvasion."
+    },
+    {
+      "roi_id": "slide_A_x34304_y12288_mag20",
+      "tile_id": "slide_A_x34304_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 34304,
+      "y": 12288,
+      "level0": {
+        "x": 34304,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows breast tissue with a prominent ductal structure exhibiting a cribriform pattern and cellular proliferation. The surrounding stroma is fibrotic with scattered inflammatory cells.\n\nThe most likely diagnosis for this single tile is Ductal Carcinoma In Situ (DCIS), cribriform type. The cribriform architecture and cellular proliferation within the duct are characteristic features of DCIS. The fibrotic stroma and inflammation are often associated findings.\n\nDifferential diagnoses to consider include Atypical Ductal Hyperplasia (ADH) and invasive cribriform carcinoma. ADH shares similar features but is typically smaller and less extensive than DCIS. Invasive cribriform carcinoma would show evidence of stromal invasion, which is not apparent in this single tile.",
+      "rationale": "Fill remaining gap mid-lower left: look for microinvasion and characterize DCIS grade/necrosis."
+    },
+    {
+      "roi_id": "slide_A_x39424_y10752_mag20",
+      "tile_id": "slide_A_x39424_y10752_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 39424,
+      "y": 10752,
+      "level0": {
+        "x": 39424,
+        "y": 10752,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a papillary lesion with fibrovascular cores lined by a bilayered epithelium. The epithelial cells exhibit nuclear crowding and stratification.\n\nThe most likely diagnosis is an intraductal papilloma. The presence of a bilayered epithelium lining the papillary fronds is characteristic of a benign papilloma. The nuclear crowding and stratification are also consistent with this diagnosis.\n\nDifferential diagnoses include papillary ductal carcinoma in situ (DCIS) and atypical papillary lesion. Papillary DCIS would typically show a monomorphic cell population with loss of the myoepithelial layer, while atypical papillary lesions would show more significant cytologic atypia and architectural complexity.",
+      "rationale": "Sample central area with dense stroma and ducts for invasion/desmoplasia."
+    },
+    {
+      "roi_id": "slide_A_x39424_y6656_mag20",
+      "tile_id": "slide_A_x39424_y6656_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 39424,
+      "y": 6656,
+      "level0": {
+        "x": 39424,
+        "y": 6656,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows breast ducts with epithelial proliferation forming rigid bridges and arches, along with areas of micropapillary projections. The cells are relatively uniform with round to oval nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is Atypical Ductal Hyperplasia (ADH).\n\nDifferential diagnoses include:\n- Ductal Carcinoma In Situ (DCIS), low grade: ADH and low-grade DCIS can be difficult to distinguish, but ADH typically involves less than two duct spaces or measures less than 2 mm.\n- Usual Ductal Hyperplasia (UDH): UDH shows a more heterogeneous cell population and lacks the rigid architectural patterns seen in ADH.",
+      "rationale": "Sample upper central area with cribriform/micropapillary proliferation for nuclear grade and necrosis."
+    },
+    {
+      "roi_id": "slide_A_x33280_y5120_mag20",
+      "tile_id": "slide_A_x33280_y5120_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 33280,
+      "y": 5120,
+      "level0": {
+        "x": 33280,
+        "y": 5120,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dilated duct lined by atypical epithelial cells with clear cytoplasm and prominent apical snouts. The surrounding stroma is dense and fibrous.\n\nThe most likely diagnosis is Ductal Carcinoma In Situ (DCIS), specifically the clear cell type.\n\nDifferential diagnoses include atypical ductal hyperplasia (ADH) and invasive carcinoma. ADH would show less extensive involvement and less pronounced atypia. Invasive carcinoma would demonstrate stromal invasion, which is not seen in this image.",
+      "rationale": "Upper left region 1 to assess papillary lesion and myoepithelium; exclude encapsulated papillary carcinoma."
+    },
+    {
+      "roi_id": "slide_A_x42496_y5120_mag20",
+      "tile_id": "slide_A_x42496_y5120_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 42496,
+      "y": 5120,
+      "level0": {
+        "x": 42496,
+        "y": 5120,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of epithelial cells forming irregular nests and cords within a dense, hyalinized stroma. The cells exhibit nuclear pleomorphism and hyperchromasia.\n\nThe most likely diagnosis is Ductal Carcinoma In Situ (DCIS), specifically the solid type, given the architectural pattern and cellular atypia.\n\nDifferential diagnoses include invasive ductal carcinoma, which would show stromal invasion, and atypical ductal hyperplasia, which would have less pronounced architectural and cytologic atypia.",
+      "rationale": "Upper right region 1 papillary/DCIS area for atypia and possible invasion."
+    },
+    {
+      "roi_id": "slide_A_x30720_y2048_mag10",
+      "tile_id": "slide_A_x30720_y2048_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 30720,
+      "y": 2048,
+      "level0": {
+        "x": 30720,
+        "y": 2048,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cystic structure lined by stratified squamous epithelium with keratinization, surrounded by dense fibrous stroma. Adjacent breast tissue contains ducts and lobules.\n\nThe most likely diagnosis is a squamous metaplasia of a breast duct or cyst. This is characterized by the presence of stratified squamous epithelium lining a cystic space, which is not typical for normal breast ducts or lobules.\n\nDifferential diagnoses include:\n- Epidermal inclusion cyst: This would also show stratified squamous epithelium and keratin, but it is typically a dermal lesion and not associated with breast ducts or lobules.\n- Squamous cell carcinoma: This would show invasive nests of squamous cells with cytologic atypia and stromal invasion, which are not seen in this image.",
+      "rationale": "Check extreme top-left of region 1 near tissue edge for DCIS/invasion at margin."
+    },
+    {
+      "roi_id": "slide_A_x30208_y2048_mag20",
+      "tile_id": "slide_A_x30208_y2048_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 30208,
+      "y": 2048,
+      "level0": {
+        "x": 30208,
+        "y": 2048,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows dense, hyalinized fibrous tissue with scattered spindle cells and a prominent wavy pattern. There is no evidence of epithelial elements or significant inflammation.\n\nThe most likely diagnosis for this single tile is a fibroadenoma, specifically the hyalinized variant. The dense, hyalinized stroma and lack of epithelial components are characteristic features. Differential diagnoses include a scar or a benign phyllodes tumor, which would typically show more cellularity and potentially leaf-like architecture, respectively.",
+      "rationale": "High power at extreme top-left edge for margin involvement/myoepithelium."
+    },
+    {
+      "roi_id": "slide_A_x30720_y20480_mag10",
+      "tile_id": "slide_A_x30720_y20480_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 30720,
+      "y": 20480,
+      "level0": {
+        "x": 30720,
+        "y": 20480,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a small vessel containing a thrombus composed of erythrocytes and fibrin. The vessel wall is thickened, and there is surrounding fibrous tissue with scattered inflammatory cells.\n\nThe most likely diagnosis is a thrombosed vessel. Differential diagnoses include organizing thrombus or a thrombosed benign vascular lesion such as a hemangioma.",
+      "rationale": "Check extreme bottom-left of region 1 near edge for lesion extension or invasion."
+    },
+    {
+      "roi_id": "slide_A_x29696_y19968_mag20",
+      "tile_id": "slide_A_x29696_y19968_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 29696,
+      "y": 19968,
+      "level0": {
+        "x": 29696,
+        "y": 19968,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cystic structure lined by flattened epithelium, surrounded by dense fibrous stroma with scattered chronic inflammation and numerous small blood vessels. The lumen contains amorphous material and red blood cells.\n\nThe most likely diagnosis is a simple breast cyst. The presence of a cystic structure lined by flattened epithelium and surrounded by fibrous stroma is characteristic. The amorphous material and red blood cells in the lumen are consistent with contents often found in simple cysts.\n\nDifferential diagnoses include fibrocystic changes, which typically show more prominent epithelial proliferation and stromal changes, and a fibroadenoma, which is a biphasic tumor with both epithelial and stromal components.",
+      "rationale": "High power bottom-left edge for invasion/DCIS at margin."
+    },
+    {
+      "roi_id": "slide_A_x43008_y10240_mag10",
+      "tile_id": "slide_A_x43008_y10240_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 43008,
+      "y": 10240,
+      "level0": {
+        "x": 43008,
+        "y": 10240,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows breast tissue with ducts and lobules embedded in fibrous stroma. There is a proliferation of cells within the lobules, and some ducts show epithelial changes. The stroma is dense and collagenous with scattered blood vessels.\n\nThe most likely diagnosis for this single tile is Lobular Carcinoma In Situ (LCIS) with associated Ductal Carcinoma In Situ (DCIS).\n\nDifferential diagnoses include:\n- Atypical Lobular Hyperplasia (ALH): This would show similar lobular proliferation but with less extensive involvement and less cellular atypia.\n- Sclerosing Adenosis: This benign condition can show increased cellularity and stromal fibrosis, but the cells would not show the same degree of atypia and the lobular architecture would be preserved.",
+      "rationale": "Check extreme right edge mid for any invasive carcinoma approaching margin."
+    },
+    {
+      "roi_id": "slide_A_x28672_y4096_mag5",
+      "tile_id": "slide_A_x28672_y4096_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 28672,
+      "y": 4096,
+      "level0": {
+        "x": 28672,
+        "y": 4096,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a dilated duct lined by stratified epithelium with papillary projections and a dense fibrous stroma. The epithelial cells have round to oval nuclei and moderate cytoplasm.\n\nThe most likely diagnosis is intraductal papilloma. Differential diagnoses include papillary ductal carcinoma in situ, which would show more significant nuclear atypia and architectural complexity, and fibroadenoma, which typically has a more prominent stromal component and lacks the papillary architecture.",
+      "rationale": "Per map, re-check superior left border of region 1 for missed invasive focus and assess lesion extent to edge."
+    },
+    {
+      "roi_id": "slide_A_x29696_y5120_mag10",
+      "tile_id": "slide_A_x29696_y5120_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 29696,
+      "y": 5120,
+      "level0": {
+        "x": 29696,
+        "y": 5120,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a breast duct with a multilayered epithelial proliferation exhibiting a cribriform pattern with rigid, punched-out spaces. The cells have round to oval nuclei and moderate cytoplasm.\n\nThe most likely diagnosis is Ductal Carcinoma In Situ (DCIS), cribriform type.\n\nDifferential diagnoses include Atypical Ductal Hyperplasia (ADH) and usual ductal hyperplasia (UDH). ADH shares features with low-grade DCIS but is limited in extent. UDH typically shows more cellular heterogeneity and irregular, slit-like spaces.",
+      "rationale": "Same area at higher mag for DCIS/margin involvement."
+    },
+    {
+      "roi_id": "slide_A_x43008_y6144_mag5",
+      "tile_id": "slide_A_x43008_y6144_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 43008,
+      "y": 6144,
+      "level0": {
+        "x": 43008,
+        "y": 6144,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows breast tissue with a transition from normal ducts to areas with increased cellularity and complex architectural patterns, including cribriform and solid growth. The cells are relatively uniform with round to oval nuclei.\n\nThe most likely diagnosis is Ductal Carcinoma In Situ (DCIS), cribriform type. The presence of a well-circumscribed lesion with cribriform and solid patterns, composed of relatively uniform cells, is characteristic of DCIS. The absence of invasion into the surrounding stroma supports the in situ nature.\n\nDifferential diagnoses include Atypical Ductal Hyperplasia (ADH) and invasive cribriform carcinoma. ADH typically involves smaller ducts and shows less architectural complexity and cellular atypia than DCIS. Invasive cribriform carcinoma would show stromal invasion, which is not evident in this image.",
+      "rationale": "Extreme right margin upper-mid to evaluate margin status/any invasion."
+    },
+    {
+      "roi_id": "slide_A_x43008_y6144_mag10",
+      "tile_id": "slide_A_x43008_y6144_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 43008,
+      "y": 6144,
+      "level0": {
+        "x": 43008,
+        "y": 6144,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows breast ducts with epithelial proliferation forming rigid bridges and arches, along with a cribriform pattern. The cells are relatively uniform with round nuclei and moderate cytoplasm.\n\nThe most likely diagnosis is Ductal Carcinoma In Situ (DCIS), cribriform type.\n\nDifferential diagnoses include Atypical Ductal Hyperplasia (ADH) and usual ductal hyperplasia (UDH). ADH shares similar features but is typically smaller and less extensive. UDH lacks the rigid architecture and monomorphic cell population seen here.",
+      "rationale": "Higher mag extreme right edge to assess for infiltrative glands."
+    },
+    {
+      "roi_id": "slide_A_x36864_y20480_mag5",
+      "tile_id": "slide_A_x36864_y20480_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 36864,
+      "y": 20480,
+      "level0": {
+        "x": 36864,
+        "y": 20480,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a dilated duct lined by pseudostratified columnar epithelium with apical snouts and surrounded by dense fibrous stroma. Scattered smaller ducts and lobules are also present.\n\nThe most likely diagnosis is a dilated duct, consistent with a duct ectasia or a benign ductal change.\n\nDifferential diagnoses include:\n- Ductal carcinoma in situ (DCIS): would show atypical epithelial proliferation with architectural and cytological atypia.\n- Intraductal papilloma: would show a papillary proliferation of epithelial and myoepithelial cells within the duct lumen.",
+      "rationale": "Inferior edge central for lesion proximity to margin."
+    },
+    {
+      "roi_id": "slide_A_x36352_y11776_mag20",
+      "tile_id": "slide_A_x36352_y11776_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 36352,
+      "y": 11776,
+      "level0": {
+        "x": 36352,
+        "y": 11776,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows breast tissue with adipose tissue and fibrous stroma. There are nests of epithelial cells with round to oval nuclei and moderate cytoplasm, some forming small lumens, within the stroma.\n\nThe most likely diagnosis for this single tile is invasive carcinoma, likely invasive ductal carcinoma, given the presence of epithelial cell nests infiltrating the stroma. The differential diagnosis includes benign proliferative lesions such as sclerosing adenosis or radial scar, which can also show epithelial nests in a fibrous stroma. However, the infiltrative pattern and cellular morphology are more suggestive of malignancy.",
+      "rationale": "Re-check reported nests/tubules in adipose suspicious for IDC; look for invasion/desmoplasia and myoepithelial rim."
+    },
+    {
+      "roi_id": "slide_A_x34304_y17920_mag20",
+      "tile_id": "slide_A_x34304_y17920_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 34304,
+      "y": 17920,
+      "level0": {
+        "x": 34304,
+        "y": 17920,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dilated duct containing a cellular proliferation with a cribriform pattern. The cells have round to oval nuclei and moderate cytoplasm, with some cells showing intracytoplasmic vacuoles.\n\nThe most likely diagnosis is Ductal Carcinoma In Situ (DCIS), cribriform type.\n\nDifferential diagnoses include Atypical Ductal Hyperplasia (ADH) and invasive cribriform carcinoma. ADH typically involves smaller ducts and shows less architectural complexity and cytologic atypia than DCIS. Invasive cribriform carcinoma would show infiltration of the surrounding stroma, which is not evident in this image.",
+      "rationale": "Re-check single-file infiltration-suspicious focus vs LCIS/ALH; assess stroma and E-cadherin-like morphology."
+    },
+    {
+      "roi_id": "slide_A_x38912_y7168_mag10",
+      "tile_id": "slide_A_x38912_y7168_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 38912,
+      "y": 7168,
+      "level0": {
+        "x": 38912,
+        "y": 7168,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows breast tissue with ducts and lobules embedded in fibrous stroma and adipose tissue. The ducts exhibit epithelial proliferation with some architectural complexity and mild nuclear atypia.\n\nThe most likely diagnosis for this single tile is atypical ductal hyperplasia (ADH). The presence of epithelial proliferation with some architectural complexity and mild nuclear atypia in the ducts is characteristic of ADH. The distinction from low-grade ductal carcinoma in situ (DCIS) can be challenging on a single tile, as both can show similar features. However, the extent of the lesion and the degree of architectural complexity and nuclear atypia are key differentiating factors. In ADH, the changes are typically limited in extent and may not involve the entire ductal system, whereas DCIS usually involves a larger area and shows more pronounced architectural complexity and nuclear atypia.",
+      "rationale": "Assess low-power architecture of largest cystic/papillary duct for possible encapsulated papillary carcinoma."
+    },
+    {
+      "roi_id": "slide_A_x39936_y7168_mag20",
+      "tile_id": "slide_A_x39936_y7168_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 39936,
+      "y": 7168,
+      "level0": {
+        "x": 39936,
+        "y": 7168,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows dilated ducts lined by a single layer of columnar cells with basally oriented nuclei and apical snouts. The surrounding stroma is fibrotic with scattered chronic inflammation.\n\nThe most likely diagnosis is columnar cell change. Differential diagnoses include flat epithelial atypia, which would show more significant nuclear atypia and stratification, and apocrine metaplasia, which would have cells with abundant eosinophilic cytoplasm and apical snouts.",
+      "rationale": "High power of same to evaluate papillary fronds, atypia, myoepithelial hints, necrosis."
+    },
+    {
+      "roi_id": "slide_A_x14336_y8192_mag10",
+      "tile_id": "slide_A_x14336_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 14336,
+      "y": 8192,
+      "level0": {
+        "x": 14336,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a papillary lesion with fibrovascular cores lined by stratified epithelium exhibiting nuclear atypia. There is also a dense fibrous stroma and areas of necrosis.\n\nThe most likely diagnosis is encapsulated papillary carcinoma.\n\nDifferential diagnoses include intraductal papilloma with atypia and solid papillary carcinoma. Intraductal papilloma with atypia would typically show a more benign epithelial lining and lack the dense fibrous capsule. Solid papillary carcinoma would show solid nests of cells without the prominent papillary architecture.",
+      "rationale": "Representative papillary/micropapillary DCIS area; assess extent and any necrosis/microinvasion."
+    }
+  ]
+}

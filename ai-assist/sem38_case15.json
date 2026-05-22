@@ -1,0 +1,1086 @@
+{
+  "case_id": "sem38_case15",
+  "source": "slideseek-ai-assist",
+  "model": "gpt-5.4",
+  "generated_at": "2026-05-22T09:29:27.574236+00:00",
+  "organ": "Bone-Soft Tissue",
+  "primary_dx": "Diffuse-Type Tenosynovial Giant Cell Tumor (Pigmented Villonodular Synovitis Pattern)",
+  "differential_dx": [
+    "Monophasic Synovial Sarcoma",
+    "Chronic Inflammatory or Rheumatoid-Type Synovitis"
+  ],
+  "microscopic_findings": [
+    {
+      "text": "Synovium shows **villonodular proliferation** of **ovoid-spindled mononuclear cells** with lobulated contours and fibrous septation.",
+      "roi_ids": [
+        "slide_A_x24576_y18432_mag5",
+        "slide_A_x12288_y12288_mag10"
+      ]
+    },
+    {
+      "text": "There are abundant **hemosiderin-laden macrophages** and **foamy histiocytes** admixed with hemorrhagic change.",
+      "roi_ids": [
+        "slide_A_x24576_y16384_mag20",
+        "slide_A_x41984_y11776_mag20"
+      ]
+    },
+    {
+      "text": "Scattered **osteoclast-type multinucleated giant cells** are interspersed throughout the mononuclear-histiocytic proliferation.",
+      "roi_ids": [
+        "slide_A_x11776_y4608_mag20",
+        "slide_A_x36864_y8192_mag10"
+      ]
+    },
+    {
+      "text": "The lesional cells lack **marked atypia**, **atypical mitoses**, and necrotic high-grade sarcoma features.",
+      "roi_ids": [
+        "slide_A_x36864_y7680_mag20",
+        "slide_A_x12288_y12288_mag20"
+      ]
+    }
+  ],
+  "interpretation": "The combination of **diffuse-type tenosynovial giant cell tumor** morphology, including **villonodular synovial proliferation**, hemosiderin-rich histiocytes, foamy macrophages, and osteoclast-type giant cells, supports TGCT/PVNS. The lesion lacks the **high-grade spindle cell atypia**, necrosis, and epithelial/biphasic differentiation expected for synovial sarcoma. Chronic synovitis is disfavored because the process is a nodular neoplasm with characteristic **hemosiderin-laden macrophages** and giant-cell-rich composition rather than purely reactive inflammation.",
+  "num_rois": 65,
+  "tiles": [
+    {
+      "roi_id": "slide_A_x24576_y8192_mag1",
+      "tile_id": "slide_A_x24576_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 24576,
+      "y": 8192,
+      "level0": {
+        "x": 24576,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a cellular lesion with a prominent villous architecture and areas of hemorrhage and hemosiderin deposition. The lesion appears to arise from the synovium and extends into the joint space.\n\nThe most likely diagnosis is pigmented villonodular synovitis (PVNS), also known as tenosynovial giant cell tumor, diffuse type.\n\nDifferential diagnoses include chronic synovitis, which typically lacks the prominent villous architecture and hemosiderin deposition seen here, and synovial chondromatosis, which would show cartilaginous nodules rather than the cellular and villous pattern observed.",
+      "rationale": "Low-power survey of entire tissue to identify nodules, hemorrhagic areas, and distinct lesions."
+    },
+    {
+      "roi_id": "slide_A_x24576_y12288_mag2",
+      "tile_id": "slide_A_x24576_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 24576,
+      "y": 12288,
+      "level0": {
+        "x": 24576,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with scattered multinucleated giant cells and areas of hemorrhage and hemosiderin deposition. The lesion appears to arise from the synovium and extends into the joint space.\n\nThe most likely diagnosis is Pigmented Villonodular Synovitis (PVNS), also known as Tenosynovial Giant Cell Tumor, diffuse type.\n\nDifferential diagnoses include chronic synovitis (e.g., rheumatoid arthritis) and synovial sarcoma. Chronic synovitis typically lacks the prominent multinucleated giant cells and hemosiderin deposition seen here. Synovial sarcoma is a malignant spindle cell neoplasm that would show more significant cytologic atypia and mitotic activity.",
+      "rationale": "Low-power overview center to assess overall architecture and identify most cellular/pigmented areas."
+    },
+    {
+      "roi_id": "slide_A_x12288_y4096_mag2",
+      "tile_id": "slide_A_x12288_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 4096,
+      "level0": {
+        "x": 12288,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular lesion with a fibrous capsule, composed of spindle cells and numerous multinucleated giant cells, along with areas of hemorrhage and hemosiderin deposition.\n\nThe most likely diagnosis is a giant cell tumor of tendon sheath.\n\nDifferential diagnoses include pigmented villonodular synovitis (PVNS) and tenosynovial giant cell tumor, diffuse type. PVNS typically involves larger joints and has a more diffuse growth pattern, while the giant cell tumor of tendon sheath is usually a localized lesion.",
+      "rationale": "Survey left portion for any cartilaginous nodules or vascular spaces."
+    },
+    {
+      "roi_id": "slide_A_x12288_y12288_mag2",
+      "tile_id": "slide_A_x12288_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 12288,
+      "level0": {
+        "x": 12288,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with areas of hyalinization and scattered dark brown pigment. The lesion is associated with a synovial surface.\n\nThe most likely diagnosis is Pigmented Villonodular Synovitis (PVNS).\n\nDifferential diagnoses include tenosynovial giant cell tumor (localized type) and synovial sarcoma. Tenosynovial giant cell tumor typically shows a more prominent multinucleated giant cell component and hemosiderin deposition, while synovial sarcoma is a malignant spindle cell neoplasm with specific genetic alterations.",
+      "rationale": "Low-power overview left half to look for villous synovium, fibrosis, vascular or necrotic zones."
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag1",
+      "tile_id": "slide_A_x8192_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a well-circumscribed lesion with a fibrous capsule and a lobulated architecture composed of cellular areas separated by fibrous septa. The cellular areas contain a mixed population of cells including mononuclear cells and scattered multinucleated giant cells.\n\nThe most likely diagnosis is a giant cell tumor of the synovium (pigmented villonodular synovitis). This diagnosis is supported by the location in the knee joint, the presence of a lobulated architecture, and the mixed cellular population including mononuclear cells and multinucleated giant cells. The clinical history of a long-standing, non-tender swelling with limited motion and the gross description of a soft, glistening, and mottled yellow-brown mass are also consistent with this entity.\n\nDifferential diagnoses include chronic inflammatory processes such as tuberculosis or rheumatoid arthritis, which can present with joint swelling and synovial hypertrophy. However, the presence of numerous multinucleated giant cells and the characteristic lobulated architecture seen in the image are more typical of a giant cell tumor of the synovium.",
+      "rationale": "Left/peripheral edge to assess capsule/synovial surface"
+    },
+    {
+      "roi_id": "slide_A_x36864_y8192_mag2",
+      "tile_id": "slide_A_x36864_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 36864,
+      "y": 8192,
+      "level0": {
+        "x": 36864,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with areas of hyalinization and scattered dark granular material. The lesion is well-circumscribed and appears to be located within the synovium.\n\nThe most likely diagnosis is pigmented villonodular synovitis (PVNS), also known as tenosynovial giant cell tumor, diffuse type. This diagnosis is supported by the location within the synovium, the cellular proliferation of spindle cells, and the presence of hemosiderin pigment (dark granular material).\n\nDifferential diagnoses include chronic synovitis, which typically lacks the cellular proliferation and hemosiderin deposition seen here, and synovial sarcoma, which would show more cellular atypia and mitotic activity.",
+      "rationale": "Survey right portion for nodules/necrosis or unusual hypercellular foci."
+    },
+    {
+      "roi_id": "slide_A_x40960_y8192_mag1",
+      "tile_id": "slide_A_x40960_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 40960,
+      "y": 8192,
+      "level0": {
+        "x": 40960,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a cellular lesion with a lobulated architecture, composed of spindle cells and scattered multinucleated giant cells, with areas of hemorrhage and hemosiderin deposition.\n\nThe most likely diagnosis is a giant cell tumor of tendon sheath.\n\nDifferential diagnoses include pigmented villonodular synovitis (PVNS) and tenosynovial giant cell tumor, diffuse type. PVNS typically involves larger joints and has a more diffuse growth pattern, while the giant cell tumor of tendon sheath is usually a localized lesion.",
+      "rationale": "Right/peripheral edge to assess nodularity/villous projections"
+    },
+    {
+      "roi_id": "slide_A_x36864_y12288_mag2",
+      "tile_id": "slide_A_x36864_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 36864,
+      "y": 12288,
+      "level0": {
+        "x": 36864,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a transition from a hypocellular area with dense collagen and scattered cells to a hypercellular area with a dense infiltrate of mononuclear cells and scattered multinucleated giant cells. The hypercellular area also contains areas of necrosis and hemorrhage.\n\nThe most likely diagnosis is a giant cell tumor of the synovium (pigmented villonodular synovitis).\n\nDifferential diagnoses include tenosynovial giant cell tumor, localized type, and chronic inflammatory processes such as tuberculosis. The presence of abundant hemosiderin pigment and the characteristic villous architecture would favor pigmented villonodular synovitis over tenosynovial giant cell tumor, while the lack of granulomas and caseous necrosis would argue against tuberculosis.",
+      "rationale": "Low-power overview right half where tissue appears more solid/dark; target possible PVNS nodules."
+    },
+    {
+      "roi_id": "slide_A_x32768_y8192_mag1",
+      "tile_id": "slide_A_x32768_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 32768,
+      "y": 8192,
+      "level0": {
+        "x": 32768,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with a prominent inflammatory infiltrate and areas of necrosis. The lesion is associated with bone erosion and extends into the soft tissue.\n\nThe most likely diagnosis is a tenosynovial giant cell tumor, diffuse type. Differential diagnoses include pigmented villonodular synovitis and chronic inflammatory processes such as tuberculosis.",
+      "rationale": "Superior aspect for surface/villous fronds or capsule"
+    },
+    {
+      "roi_id": "slide_A_x24576_y20480_mag2",
+      "tile_id": "slide_A_x24576_y20480_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 24576,
+      "y": 20480,
+      "level0": {
+        "x": 24576,
+        "y": 20480,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular lesion with a prominent villous architecture and areas of dense cellularity. There is abundant hemosiderin pigment and scattered multinucleated giant cells.\n\nThe most likely diagnosis is Pigmented Villonodular Synovitis (PVNS).\n\nDifferential diagnoses include tenosynovial giant cell tumor (localized type) and chronic synovitis (e.g., rheumatoid arthritis). PVNS is distinguished by its diffuse involvement of the synovium and characteristic villous architecture, while tenosynovial giant cell tumor is typically more localized and nodular. Chronic synovitis would show more prominent inflammatory infiltrates and less hemosiderin deposition.",
+      "rationale": "Survey inferior portion for granulomas or distinct mass-like foci."
+    },
+    {
+      "roi_id": "slide_A_x24576_y4096_mag2",
+      "tile_id": "slide_A_x24576_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 24576,
+      "y": 4096,
+      "level0": {
+        "x": 24576,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with scattered hemosiderin pigment and areas of stromal hyalinization. The lesion is associated with a synovial lining and extends into the adjacent soft tissue.\n\nThe most likely diagnosis is Pigmented Villonodular Synovitis (PVNS), also known as Tenosynovial Giant Cell Tumor, diffuse type.\n\nDifferential diagnoses include chronic synovitis, which typically lacks the characteristic hemosiderin deposition and cellular proliferation seen in PVNS, and synovial sarcoma, which would show a more uniform spindle cell population and often have a biphasic pattern with epithelial elements.",
+      "rationale": "Scan near superior edge for synovial lining/villous projections."
+    },
+    {
+      "roi_id": "slide_A_x24576_y16384_mag1",
+      "tile_id": "slide_A_x24576_y16384_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 24576,
+      "y": 16384,
+      "level0": {
+        "x": 24576,
+        "y": 16384,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a lesion with a villous architecture and a dense cellular infiltrate composed of mononuclear cells and scattered multinucleated giant cells. There is also evidence of hemorrhage and hemosiderin deposition.\n\nThe most likely diagnosis is Pigmented Villonodular Synovitis (PVNS).\n\nDifferential diagnoses include:\n- Chronic synovitis (e.g., rheumatoid arthritis): Typically lacks the prominent villous architecture and the characteristic cellular infiltrate with multinucleated giant cells.\n- Synovial chondromatosis: Characterized by the presence of cartilaginous nodules within the synovium, which are not seen in this image.",
+      "rationale": "Inferior aspect for any cystic/hemorrhagic spaces"
+    },
+    {
+      "roi_id": "slide_A_x24576_y16384_mag2",
+      "tile_id": "slide_A_x24576_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 24576,
+      "y": 16384,
+      "level0": {
+        "x": 24576,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a synovial proliferation with villous architecture and a dense cellular stroma containing spindle cells, inflammation, and hemosiderin pigment. The synovial lining is hyperplastic and hypertrophic.\n\nThe most likely diagnosis is Pigmented Villonodular Synovitis (PVNS).\n\nDifferential diagnoses include chronic synovitis (e.g., rheumatoid arthritis) and synovial chondromatosis. Chronic synovitis typically lacks the prominent villous architecture and hemosiderin deposition seen here. Synovial chondromatosis would show cartilaginous nodules within the synovium, which are not present in this image.",
+      "rationale": "Scan inferior/deeper portion for cartilage nodules or bone involvement."
+    },
+    {
+      "roi_id": "slide_A_x9216_y9216_mag10",
+      "tile_id": "slide_A_x9216_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 9216,
+      "y": 9216,
+      "level0": {
+        "x": 9216,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with a prominent inflammatory infiltrate and areas of stromal hyalinization. The spindle cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is pigmented villonodular synovitis (PVNS), also known as tenosynovial giant cell tumor, diffuse type. This diagnosis is supported by the presence of a cellular proliferation of spindle cells, inflammatory infiltrate, and stromal hyalinization, which are characteristic features of PVNS. The clinical history of a long-standing, non-painful swelling of the knee joint with limited motion and the gross description of a soft, glistening, and mottled yellow-brown mass are also consistent with PVNS.\n\nDifferential diagnoses to consider include chronic inflammatory processes such as rheumatoid arthritis or tuberculosis, which can present with joint swelling and inflammation. However, the presence of a cellular spindle cell proliferation and stromal hyalinization is more characteristic of PVNS than a purely inflammatory process.",
+      "rationale": "Left portion: check for cartilage nodules/ossification or granulomas within fibrous areas."
+    },
+    {
+      "roi_id": "slide_A_x11776_y4608_mag20",
+      "tile_id": "slide_A_x11776_y4608_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 11776,
+      "y": 4608,
+      "level0": {
+        "x": 11776,
+        "y": 4608,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with scattered multinucleated giant cells and foamy macrophages. There is also evidence of hemorrhage and hemosiderin deposition.\n\nThe most likely diagnosis is Pigmented Villonodular Synovitis (PVNS).\n\nDifferential diagnoses include tenosynovial giant cell tumor (localized type) and chronic synovitis (e.g., rheumatoid arthritis). PVNS is distinguished by its diffuse involvement of the synovium and characteristic cellular composition, while localized tenosynovial giant cell tumor is typically a more circumscribed lesion. Chronic synovitis would show more prominent inflammatory infiltrate and less cellular proliferation.",
+      "rationale": "Higher power in left-upper ROI to assess for vascular channels vs cartilage vs granulomatous inflammation."
+    },
+    {
+      "roi_id": "slide_A_x8192_y12288_mag5",
+      "tile_id": "slide_A_x8192_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 8192,
+      "y": 12288,
+      "level0": {
+        "x": 8192,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a dense cellular infiltrate composed of mononuclear cells and scattered multinucleated giant cells, with areas of fibrosis and hemorrhage. The cellular infiltrate is diffuse and infiltrative.\n\nThe most likely diagnosis is Pigmented Villonodular Synovitis (PVNS), also known as Tenosynovial Giant Cell Tumor, diffuse type.\n\nDifferential diagnoses include:\n- Chronic synovitis (e.g., rheumatoid arthritis): Typically shows lymphoplasmacytic infiltrate, fibrosis, and villous hypertrophy, but lacks the prominent multinucleated giant cells and hemosiderin deposition seen in PVNS.\n- Synovial sarcoma: Usually presents as a more cellular, spindle cell neoplasm with a fascicular growth pattern and lacks the characteristic multinucleated giant cells and hemosiderin deposition of PVNS.",
+      "rationale": "Left peripheral area—assess capsule vs synovial surface, villi, and any vascular spaces"
+    },
+    {
+      "roi_id": "slide_A_x36864_y8192_mag10",
+      "tile_id": "slide_A_x36864_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 36864,
+      "y": 8192,
+      "level0": {
+        "x": 36864,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense cellular infiltrate composed of mononuclear cells and scattered multinucleated giant cells, with areas of stromal fibrosis and hemosiderin pigment.",
+      "rationale": "Right portion: evaluate for synovial sarcoma-like hypercellular spindle areas or glandular elements."
+    },
+    {
+      "roi_id": "slide_A_x12288_y12288_mag10",
+      "tile_id": "slide_A_x12288_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 12288,
+      "y": 12288,
+      "level0": {
+        "x": 12288,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells and mononuclear cells with scattered multinucleated giant cells and foamy macrophages, set within a fibrous stroma. There is also a mixed inflammatory infiltrate and areas of hemorrhage.\n\nThe most likely diagnosis is Pigmented Villonodular Synovitis (PVNS), also known as Tenosynovial Giant Cell Tumor, diffuse type. This diagnosis is supported by the presence of mononuclear cells, multinucleated giant cells, foamy macrophages, and hemosiderin deposition (implied by the yellow-brown color in the gross description). The clinical presentation of a chronic, non-painful swelling of the knee joint with limited motion and the gross appearance of a soft, glistening, and mottled yellow-brown mass are also consistent with PVNS.\n\nDifferential diagnoses include chronic inflammatory processes such as rheumatoid arthritis or tuberculosis, which can also present with joint swelling and synovial hypertrophy. However, the presence of numerous multinucleated giant cells and foamy macrophages, along with the gross appearance, is more characteristic of PVNS.",
+      "rationale": "Intermediate mag left cellular area with pigment to choose 20x ROIs."
+    },
+    {
+      "roi_id": "slide_A_x24576_y10240_mag5",
+      "tile_id": "slide_A_x24576_y10240_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 24576,
+      "y": 10240,
+      "level0": {
+        "x": 24576,
+        "y": 10240,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with scattered multinucleated giant cells and prominent eosinophilic matrix material. The spindle cells are arranged in fascicles and whorls.\n\nThe most likely diagnosis is a giant cell tumor of bone. Differential diagnoses include pigmented villonodular synovitis and chondroblastoma, which can be distinguished by their characteristic histological features and clinical presentation.",
+      "rationale": "Central area—look for lobulation, clefts/hemorrhage, and any biphasic epithelial component"
+    },
+    {
+      "roi_id": "slide_A_x36864_y7680_mag20",
+      "tile_id": "slide_A_x36864_y7680_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 36864,
+      "y": 7680,
+      "level0": {
+        "x": 36864,
+        "y": 7680,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of mononuclear cells with round to oval nuclei and eosinophilic cytoplasm, interspersed with scattered multinucleated giant cells and brown pigment. The background stroma is fibrous.\n\nThe most likely diagnosis is Pigmented Villonodular Synovitis (PVNS).\n\nDifferential diagnoses include Giant Cell Tumor of Bone (GCTB) and Tenosynovial Giant Cell Tumor, localized type (TGCT). GCTB typically shows a more uniform distribution of multinucleated giant cells and lacks the prominent brown pigment seen here. TGCT is usually smaller and more circumscribed, often with a more prominent villous architecture.",
+      "rationale": "High power right portion: look for biphasic glands, atypia, mitoses, necrosis; also vascular channels."
+    },
+    {
+      "roi_id": "slide_A_x24576_y4096_mag10",
+      "tile_id": "slide_A_x24576_y4096_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 24576,
+      "y": 4096,
+      "level0": {
+        "x": 24576,
+        "y": 4096,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, interspersed with abundant eosinophilic, amorphous material consistent with osteoid. The spindle cells have elongated nuclei and scant cytoplasm.\n\nThe most likely diagnosis is osteosarcoma, specifically a low-grade variant given the relatively bland spindle cell morphology and the presence of osteoid production.\n\nDifferential diagnoses include fibrous dysplasia, which can show spindle cells and osteoid but typically lacks the cellular atypia and infiltrative growth pattern seen here, and myositis ossificans, which usually has a zonal pattern of maturation not evident in this image.",
+      "rationale": "Intermediate mag near synovial surface/villous area for lining hyperplasia and inflammation."
+    },
+    {
+      "roi_id": "slide_A_x40960_y10240_mag5",
+      "tile_id": "slide_A_x40960_y10240_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 40960,
+      "y": 10240,
+      "level0": {
+        "x": 40960,
+        "y": 10240,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a dense cellular infiltrate with scattered areas of necrosis and amorphous material. The infiltrate is composed of a mixed population of cells, including small lymphocytes and larger cells with vesicular nuclei and prominent nucleoli.\n\nThe most likely diagnosis is a lymphoproliferative disorder, such as a lymphoma. The presence of a mixed cellular population with larger atypical cells raises suspicion for a malignant process.\n\nDifferential diagnoses include reactive lymphoid hyperplasia and other types of lymphoma. Reactive lymphoid hyperplasia would typically show a more polymorphous infiltrate with well-formed germinal centers, while other lymphomas may have different cellular compositions and architectural patterns.",
+      "rationale": "Right side—check for cartilage nodules or different pattern suggesting chondromatosis/sarcoma"
+    },
+    {
+      "roi_id": "slide_A_x24576_y8192_mag10",
+      "tile_id": "slide_A_x24576_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 24576,
+      "y": 8192,
+      "level0": {
+        "x": 24576,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle to ovoid cells with hyperchromatic nuclei and scant cytoplasm, arranged in sheets and fascicles. There is a prominent pink, amorphous matrix consistent with osteoid, and scattered brown pigment.\n\nThe most likely diagnosis is osteosarcoma, specifically a chondroblastic subtype given the presence of osteoid matrix. Differential diagnoses include chondrosarcoma, which typically lacks the prominent osteoid production seen here, and fibrosarcoma, which would not produce osteoid.",
+      "rationale": "Central villous area: look for chondroid nodules, hemangioma-like channels, granulomas amidst PVNS-like changes."
+    },
+    {
+      "roi_id": "slide_A_x36864_y12288_mag10",
+      "tile_id": "slide_A_x36864_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 36864,
+      "y": 12288,
+      "level0": {
+        "x": 36864,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with interspersed irregular eosinophilic matrix material. The spindle cells have elongated nuclei and are arranged in fascicles and haphazardly.\n\nThe most likely diagnosis is a chondroblastic osteosarcoma. The presence of spindle cells producing irregular eosinophilic matrix material is characteristic of osteosarcoma, and the chondroblastic subtype is suggested by the matrix morphology. Differential diagnoses include chondrosarcoma, which typically shows more prominent cartilaginous matrix and less cellular atypia, and fibrosarcoma, which lacks the matrix production.",
+      "rationale": "Intermediate mag right hypercellular area to assess for atypia/necrosis and select 20x ROIs."
+    },
+    {
+      "roi_id": "slide_A_x24576_y18432_mag5",
+      "tile_id": "slide_A_x24576_y18432_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 24576,
+      "y": 18432,
+      "level0": {
+        "x": 24576,
+        "y": 18432,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with scattered multinucleated giant cells and abundant hemosiderin pigment. The lesion is associated with a synovial lining and exhibits a villous architecture.\n\nThe most likely diagnosis is Pigmented Villonodular Synovitis (PVNS).\n\nDifferential diagnoses include Giant Cell Tumor of Bone (GCTB) and Tenosynovial Giant Cell Tumor, localized type (TGCT). GCTB typically arises within bone and lacks the prominent villous architecture and synovial lining seen here. TGCT is usually smaller and more localized, often without the extensive synovial involvement and hemosiderin deposition characteristic of PVNS.",
+      "rationale": "Inferior area—evaluate for cystic/hemorrhagic lakes and villous projections"
+    },
+    {
+      "roi_id": "slide_A_x24576_y16384_mag10",
+      "tile_id": "slide_A_x24576_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 24576,
+      "y": 16384,
+      "level0": {
+        "x": 24576,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with scattered hemosiderin-laden macrophages and areas of hemorrhage. The cells are arranged in fascicles and whorls, with some areas showing a storiform pattern.\n\nThe most likely diagnosis is a tenosynovial giant cell tumor, localized type. This diagnosis is supported by the presence of spindle cells, hemosiderin-laden macrophages, and the characteristic growth pattern. Differential diagnoses include pigmented villonodular synovitis (which is essentially the diffuse type of tenosynovial giant cell tumor) and other spindle cell lesions of the soft tissue, such as fibroma of tendon sheath or synovial sarcoma. However, the presence of abundant hemosiderin and the specific growth pattern favor tenosynovial giant cell tumor.",
+      "rationale": "Intermediate mag inferior area to check for cartilage nodules/chondromatosis or bone involvement."
+    },
+    {
+      "roi_id": "slide_A_x24576_y4096_mag5",
+      "tile_id": "slide_A_x24576_y4096_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 24576,
+      "y": 4096,
+      "level0": {
+        "x": 24576,
+        "y": 4096,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with prominent stromal hyalinization and scattered hemosiderin pigment. The lesion is well-circumscribed and appears to arise from the synovium.\n\nThe most likely diagnosis is Pigmented Villonodular Synovitis (PVNS), also known as Tenosynovial Giant Cell Tumor, diffuse type.\n\nDifferential diagnoses include:\n- Synovial Sarcoma: Typically shows a biphasic pattern with epithelial and spindle cell components, and often has a characteristic t(X;18) translocation.\n- Chronic Synovitis (e.g., Rheumatoid Arthritis): Usually shows a more diffuse inflammatory infiltrate with lymphocytes, plasma cells, and macrophages, and lacks the prominent spindle cell proliferation and hemosiderin deposition seen here.",
+      "rationale": "Superior area—search for surface synovium, villous hypertrophy, and any calcified/cartilaginous foci"
+    },
+    {
+      "roi_id": "slide_A_x25600_y12288_mag10",
+      "tile_id": "slide_A_x25600_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 25600,
+      "y": 12288,
+      "level0": {
+        "x": 25600,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with interspersed multinucleated giant cells and areas of eosinophilic matrix material. The spindle cells are arranged in fascicles and whorls.\n\nThe most likely diagnosis is a giant cell tumor of bone. Differential diagnoses include pigmented villonodular synovitis and chondroblastoma, which can also show spindle cells and giant cells but typically have different matrix characteristics and clinical presentations.",
+      "rationale": "Intermediate mag central junction zone with hemorrhage/cleft for macrophages/giant cells."
+    },
+    {
+      "roi_id": "slide_A_x24064_y7680_mag20",
+      "tile_id": "slide_A_x24064_y7680_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 24064,
+      "y": 7680,
+      "level0": {
+        "x": 24064,
+        "y": 7680,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of mononuclear cells with round to oval nuclei and scant cytoplasm, arranged in sheets and nests within a fibrous stroma. Scattered brown pigment is also present.\n\nThe most likely diagnosis is Pigmented Villonodular Synovitis (PVNS).\n\nDifferential diagnoses include:\n- Tenosynovial Giant Cell Tumor (TGCT), localized type: Similar cellular morphology but typically lacks the diffuse synovial involvement and prominent hemosiderin deposition seen in PVNS.\n- Synovial Sarcoma: Can present as a cellular mass in the soft tissue, but usually shows a biphasic pattern with epithelial and spindle cell components, and lacks the characteristic hemosiderin pigment.",
+      "rationale": "Investigate central matrix area called 'osteoid' to verify if it is fibrin/collagen vs true osteoid/chondroid; look for cartilage lacunae/ossification."
+    },
+    {
+      "roi_id": "slide_A_x25600_y7680_mag20",
+      "tile_id": "slide_A_x25600_y7680_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 25600,
+      "y": 7680,
+      "level0": {
+        "x": 25600,
+        "y": 7680,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle to ovoid cells with hyperchromatic nuclei and scant cytoplasm, arranged in sheets and fascicles, with interspersed eosinophilic matrix material. Scattered multinucleated giant cells and brown pigment are also present.\n\nThe most likely diagnosis is a giant cell tumor of bone. The presence of mononuclear cells, multinucleated giant cells, and hemosiderin pigment are characteristic features. The spindle cell morphology and eosinophilic matrix material are also consistent with this entity.\n\nDifferential diagnoses include pigmented villonodular synovitis (PVNS) and tenosynovial giant cell tumor (TGCT), which can have similar features but typically arise in the synovium and tendon sheaths rather than bone. Other considerations include chondroblastoma, which can have a similar cellular appearance but typically shows chondroid matrix and chicken-wire calcification, and aneurysmal bone cyst, which is characterized by blood-filled spaces and reactive bone formation.",
+      "rationale": "Adjacent central area to check for chondroid nodules or calcification/ossification (synovial chondromatosis)."
+    },
+    {
+      "roi_id": "slide_A_x28672_y9216_mag10",
+      "tile_id": "slide_A_x28672_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 28672,
+      "y": 9216,
+      "level0": {
+        "x": 28672,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with scattered multinucleated giant cells and irregular deposits of eosinophilic osteoid matrix.",
+      "rationale": "Search near central-right for dilated vascular channels suggestive of hemangioma."
+    },
+    {
+      "roi_id": "slide_A_x29184_y9216_mag20",
+      "tile_id": "slide_A_x29184_y9216_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 29184,
+      "y": 9216,
+      "level0": {
+        "x": 29184,
+        "y": 9216,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with interspersed irregular deposits of eosinophilic osteoid matrix. The spindle cells have elongated nuclei and are arranged in fascicles and whorls.\n\nThe most likely diagnosis is osteosarcoma, specifically a chondroblastic subtype given the presence of osteoid matrix. Differential diagnoses include other spindle cell lesions of bone such as fibrosarcoma or malignant fibrous histiocytoma, which lack the production of osteoid matrix.",
+      "rationale": "High power to confirm vascular channel lining/endothelial cells vs clefts."
+    },
+    {
+      "roi_id": "slide_A_x12288_y12288_mag20",
+      "tile_id": "slide_A_x12288_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 12288,
+      "y": 12288,
+      "level0": {
+        "x": 12288,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense cellular infiltrate composed of mononuclear cells, foamy macrophages, and scattered multinucleated giant cells within a fibrous stroma. There is also evidence of hemorrhage and hemosiderin deposition.\n\nThe most likely diagnosis is Pigmented Villonodular Synovitis (PVNS), also known as Tenosynovial Giant Cell Tumor, diffuse type. This diagnosis is supported by the presence of mononuclear cells, foamy macrophages, multinucleated giant cells, and hemosiderin deposition in the context of a soft tissue mass in the knee joint.\n\nDifferential diagnoses include chronic inflammatory processes such as rheumatoid arthritis or tuberculosis, which can also present with synovial hypertrophy and inflammation. However, the presence of numerous foamy macrophages and hemosiderin deposition is more characteristic of PVNS.",
+      "rationale": "High-power cytology in left cellular/pigmented area to confirm mononuclear cells, giant cells, hemosiderin, foam cells, mitoses."
+    },
+    {
+      "roi_id": "slide_A_x25600_y12288_mag20",
+      "tile_id": "slide_A_x25600_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 25600,
+      "y": 12288,
+      "level0": {
+        "x": 25600,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with scattered multinucleated giant cells and abundant eosinophilic matrix material. The spindle cells have elongated nuclei and are arranged in fascicles and haphazardly.\n\nThe most likely diagnosis is a giant cell tumor of bone. The presence of numerous multinucleated giant cells evenly distributed among mononuclear spindle cells is characteristic. The eosinophilic matrix material may represent osteoid or chondroid matrix.\n\nDifferential diagnoses include aneurysmal bone cyst, which typically shows blood-filled spaces and fibrous septa, and chondroblastoma, which has chondroblasts with grooved nuclei and chondroid matrix.",
+      "rationale": "High-power cytology in central area with giant cells/matrix; assess for true osteoid/chondroid vs fibrin and for atypia."
+    },
+    {
+      "roi_id": "slide_A_x21504_y17408_mag10",
+      "tile_id": "slide_A_x21504_y17408_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 21504,
+      "y": 17408,
+      "level0": {
+        "x": 21504,
+        "y": 17408,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a synovial-lined cystic structure with a thickened wall containing a dense mixed inflammatory infiltrate, numerous foamy macrophages, and hemosiderin pigment. The synovial lining is hyperplastic and forms papillary projections.\n\nThe most likely diagnosis is a synovial cyst with chronic inflammation and hemosiderin deposition.\n\nDifferential diagnoses include pigmented villonodular synovitis (PVNS) and chronic inflammatory arthritis with secondary synovial changes. PVNS typically shows more prominent villous architecture and a more diffuse proliferation of mononuclear cells and multinucleated giant cells, often with more extensive hemosiderin deposition. Chronic inflammatory arthritis would show more diffuse synovial inflammation and less prominent villous formation.",
+      "rationale": "Inferior-central: look for granulomas/caseation (TB) in more inflamed zones."
+    },
+    {
+      "roi_id": "slide_A_x36864_y12288_mag20",
+      "tile_id": "slide_A_x36864_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 36864,
+      "y": 12288,
+      "level0": {
+        "x": 36864,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle to ovoid cells with hyperchromatic nuclei and scant cytoplasm, arranged in sheets and fascicles, with interspersed eosinophilic matrix material.",
+      "rationale": "High-power in right hypercellular zone previously suggested matrix; evaluate for malignant features vs TGCT-like synovium."
+    },
+    {
+      "roi_id": "slide_A_x24576_y4096_mag20",
+      "tile_id": "slide_A_x24576_y4096_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 24576,
+      "y": 4096,
+      "level0": {
+        "x": 24576,
+        "y": 4096,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles and whorls, with abundant eosinophilic, hyalinized stroma. The spindle cells are embedded within this dense stroma.\n\nThe most likely diagnosis is a fibrous lesion of the synovium, such as a fibroma of the tendon sheath or a localized form of fibromatosis. The presence of dense, hyalinized stroma and bland spindle cells are characteristic features. Differential diagnoses include nodular fasciitis, which typically shows more myxoid stroma and a more haphazard arrangement of cells, and a low-grade fibrosarcoma, which would exhibit more nuclear atypia and mitotic activity.",
+      "rationale": "High-power near synovial surface where 10x suggested osteoid; verify if actually fibrin/collagen and look for synovial lining, inflammation, granulomas."
+    },
+    {
+      "roi_id": "slide_A_x24576_y16384_mag20",
+      "tile_id": "slide_A_x24576_y16384_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 24576,
+      "y": 16384,
+      "level0": {
+        "x": 24576,
+        "y": 16384,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells and numerous foamy macrophages containing brown pigment, along with a mixed inflammatory infiltrate and prominent blood vessels.",
+      "rationale": "High-power in inferior storiform/pigmented area; look for hemosiderin macrophages, foam cells, giant cells, mitoses."
+    },
+    {
+      "roi_id": "slide_A_x15360_y3072_mag10",
+      "tile_id": "slide_A_x15360_y3072_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 15360,
+      "y": 3072,
+      "level0": {
+        "x": 15360,
+        "y": 3072,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with scattered multinucleated giant cells and foamy macrophages. There is also a mixed inflammatory infiltrate and areas of hemorrhage.\n\nThe most likely diagnosis is Pigmented Villonodular Synovitis (PVNS), also known as Tenosynovial Giant Cell Tumor, diffuse type.\n\nDifferential diagnoses include chronic synovitis (e.g., rheumatoid arthritis) and synovial chondromatosis. Chronic synovitis typically lacks the prominent multinucleated giant cells and foamy macrophages seen here. Synovial chondromatosis would show cartilaginous nodules, which are not present in this image.",
+      "rationale": "Upper-left: search for hyaline cartilage nodules/calcifications (chondromatosis) in less hemorrhagic areas."
+    },
+    {
+      "roi_id": "slide_A_x14848_y3584_mag20",
+      "tile_id": "slide_A_x14848_y3584_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 14848,
+      "y": 3584,
+      "level0": {
+        "x": 14848,
+        "y": 3584,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells and mononuclear cells with scattered multinucleated giant cells and foamy macrophages. There is also evidence of hemorrhage and hemosiderin deposition.\n\nThe most likely diagnosis is Pigmented Villonodular Synovitis (PVNS).\n\nDifferential diagnoses include Giant Cell Tumor of Bone (GCTB) and Tenosynovial Giant Cell Tumor, localized type (TGCT). GCTB typically involves bone and lacks the prominent hemosiderin deposition and villous architecture seen in PVNS. TGCT is usually smaller and more localized, often involving tendons or tendon sheaths, and may not show the extensive synovial involvement seen in PVNS.",
+      "rationale": "High power to confirm cartilage lacunae/endochondral ossification if present."
+    },
+    {
+      "roi_id": "slide_A_x20480_y5120_mag10",
+      "tile_id": "slide_A_x20480_y5120_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 20480,
+      "y": 5120,
+      "level0": {
+        "x": 20480,
+        "y": 5120,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense cellular infiltrate composed of lymphocytes, plasma cells, and histiocytes, with scattered multinucleated giant cells and brown pigment. Prominent blood vessels with thickened walls are also present.\n\nThe most likely diagnosis is Pigmented Villonodular Synovitis (PVNS), also known as Tenosynovial Giant Cell Tumor, diffuse type.\n\nDifferential diagnoses include chronic synovitis (e.g., rheumatoid arthritis) and synovial chondromatosis. Chronic synovitis typically lacks the prominent multinucleated giant cells and hemosiderin pigment seen here. Synovial chondromatosis would show cartilaginous nodules, which are not present in this image.",
+      "rationale": "Upper-central: look for gland-like spaces or hemangioma-like vascular channels."
+    },
+    {
+      "roi_id": "slide_A_x40960_y12288_mag20",
+      "tile_id": "slide_A_x40960_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 40960,
+      "y": 12288,
+      "level0": {
+        "x": 40960,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense cellular infiltrate composed of mononuclear cells and scattered multinucleated giant cells, with abundant brown-black pigment. There is also prominent stromal fibrosis.\n\nThe most likely diagnosis is Pigmented Villonodular Synovitis (PVNS).\n\nDifferential diagnoses include:\n- Tenosynovial Giant Cell Tumor (TGCT), localized type: Similar cellular composition but typically lacks the extensive villous architecture and diffuse involvement seen in PVNS.\n- Synovial Chondromatosis: Characterized by the presence of cartilaginous nodules within the synovium, which are not seen in this image.",
+      "rationale": "High-power far right area not yet sampled well; exclude synovial sarcoma-like atypia/necrosis and look for hemosiderin/giant cells."
+    },
+    {
+      "roi_id": "slide_A_x20480_y5120_mag20",
+      "tile_id": "slide_A_x20480_y5120_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20480,
+      "y": 5120,
+      "level0": {
+        "x": 20480,
+        "y": 5120,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense cellular infiltrate composed of mononuclear cells, foamy macrophages, and scattered multinucleated giant cells, with abundant hemosiderin pigment. A thickened blood vessel is also present.\n\nThe most likely diagnosis is Pigmented Villonodular Synovitis (PVNS).\n\nDifferential diagnoses include:\n- Tenosynovial Giant Cell Tumor (TGCT), localized type: Similar cellular composition but typically presents as a discrete mass rather than diffuse synovial involvement.\n- Chronic synovitis (e.g., rheumatoid arthritis): May show chronic inflammation and villous hypertrophy, but lacks the characteristic hemosiderin-laden macrophages and multinucleated giant cells seen in PVNS.",
+      "rationale": "High power to distinguish true glands vs clefts/vessels; assess atypia."
+    },
+    {
+      "roi_id": "slide_A_x33792_y10752_mag20",
+      "tile_id": "slide_A_x33792_y10752_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 33792,
+      "y": 10752,
+      "level0": {
+        "x": 33792,
+        "y": 10752,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with interspersed irregular deposits of eosinophilic osteoid matrix. The spindle cells have elongated nuclei and are arranged in a haphazard pattern.\n\nThe most likely diagnosis is osteosarcoma, specifically a low-grade variant given the relatively bland spindle cell morphology and the presence of osteoid production.\n\nDifferential diagnoses include fibrous dysplasia, which typically shows irregular woven bone trabeculae without osteoblastic rimming, and reactive bone formation, which usually lacks the cellular atypia and haphazard arrangement seen here.",
+      "rationale": "High-power right-central solid area to verify cell types and mitotic activity."
+    },
+    {
+      "roi_id": "slide_A_x32768_y5120_mag10",
+      "tile_id": "slide_A_x32768_y5120_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 32768,
+      "y": 5120,
+      "level0": {
+        "x": 32768,
+        "y": 5120,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with scattered hemosiderin pigment and numerous blood vessels. There is also a dense inflammatory infiltrate and areas of stromal hyalinization.\n\nThe most likely diagnosis is Pigmented Villonodular Synovitis (PVNS).\n\nDifferential diagnoses include:\n- Tenosynovial Giant Cell Tumor (TGCT), localized type: Similar cellular proliferation and hemosiderin, but typically more nodular and less diffuse.\n- Synovial Sarcoma: Can occur in the knee and be cellular, but usually shows more nuclear atypia and mitotic activity, and lacks the prominent hemosiderin and inflammatory infiltrate.",
+      "rationale": "Upper-right: screen for hemangioma (large vascular spaces) or chondroid nodules."
+    },
+    {
+      "roi_id": "slide_A_x20992_y6144_mag20",
+      "tile_id": "slide_A_x20992_y6144_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20992,
+      "y": 6144,
+      "level0": {
+        "x": 20992,
+        "y": 6144,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense cellular infiltrate composed of lymphocytes and plasma cells, with scattered macrophages containing brown pigment. There is also a prominent band of hyalinized fibrous tissue.\n\nThe most likely diagnosis is Pigmented Villonodular Synovitis (PVNS), also known as Tenosynovial Giant Cell Tumor, diffuse type. This diagnosis is supported by the presence of a dense cellular infiltrate with macrophages containing brown pigment (hemosiderin) and the presence of fibrous tissue, which are characteristic features of PVNS. The clinical history of a long-standing, non-painful swelling of the knee joint with limited motion and the gross description of a soft, pliable mass with a mottled yellow-brown cut surface further support this diagnosis.\n\nDifferential diagnoses to consider include chronic synovitis, such as rheumatoid arthritis or tuberculosis, which can also present with chronic inflammation and synovial hypertrophy. However, the presence of hemosiderin-laden macrophages and the characteristic villous architecture seen in PVNS help distinguish it from these conditions.",
+      "rationale": "High-power upper-central villous/surface area to look for synovial lining hyperplasia and fibrin; search for granulomas."
+    },
+    {
+      "roi_id": "slide_A_x18944_y16896_mag20",
+      "tile_id": "slide_A_x18944_y16896_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 18944,
+      "y": 16896,
+      "level0": {
+        "x": 18944,
+        "y": 16896,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells and numerous foamy macrophages within a fibrous stroma, accompanied by a mixed inflammatory infiltrate and scattered multinucleated giant cells.",
+      "rationale": "High-power lower-central cleft/hemorrhagic zone to assess hemosiderin macrophages, necrosis, and any granulomatous inflammation."
+    },
+    {
+      "roi_id": "slide_A_x8192_y9728_mag20",
+      "tile_id": "slide_A_x8192_y9728_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 8192,
+      "y": 9728,
+      "level0": {
+        "x": 8192,
+        "y": 9728,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells and numerous foamy macrophages within a fibrous stroma, accompanied by a mixed inflammatory infiltrate and prominent blood vessels. The presence of abundant foamy macrophages is a key feature.\n\nThe most likely diagnosis is Pigmented Villonodular Synovitis (PVNS), also known as Tenosynovial Giant Cell Tumor, diffuse type. This diagnosis is supported by the presence of spindle cells, foamy macrophages, and a mixed inflammatory infiltrate in the context of a soft tissue mass in the knee joint.\n\nDifferential diagnoses include chronic inflammatory processes such as rheumatoid arthritis or tuberculosis, which can also present with synovial hypertrophy and inflammation. However, the prominent foamy macrophages and the specific clinical presentation favor PVNS.",
+      "rationale": "High-power far left fibrous area to confirm bland fibrosis vs inflammatory synovitis; check for granulomas/organisms."
+    },
+    {
+      "roi_id": "slide_A_x8192_y12288_mag10",
+      "tile_id": "slide_A_x8192_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 8192,
+      "y": 12288,
+      "level0": {
+        "x": 8192,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense cellular infiltrate composed of mononuclear cells and scattered multinucleated giant cells, with areas of fibrosis and hemorrhage. The cellular infiltrate is arranged in sheets and nests.\n\nThe most likely diagnosis is Pigmented Villonodular Synovitis (PVNS), also known as Tenosynovial Giant Cell Tumor, diffuse type.\n\nDifferential diagnoses include:\n- Chronic synovitis (e.g., rheumatoid arthritis): Typically shows lymphoplasmacytic infiltrate, fibrosis, and villous hypertrophy, but lacks the prominent multinucleated giant cells and hemosiderin deposition seen in PVNS.\n- Synovial sarcoma: Usually presents as a more cellular spindle cell neoplasm with a fascicular growth pattern and lacks the characteristic multinucleated giant cells and hemosiderin deposition of PVNS.",
+      "rationale": "Left-lower quadrant less sampled: search for cartilage nodules/ossification or cavernous vascular spaces."
+    },
+    {
+      "roi_id": "slide_A_x8192_y11776_mag20",
+      "tile_id": "slide_A_x8192_y11776_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 8192,
+      "y": 11776,
+      "level0": {
+        "x": 8192,
+        "y": 11776,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles, admixed with a dense inflammatory infiltrate of lymphocytes and plasma cells, and scattered multinucleated giant cells.",
+      "rationale": "High power left-lower: confirm any chondroid matrix, calcification, or endothelial-lined channels."
+    },
+    {
+      "roi_id": "slide_A_x41984_y12288_mag10",
+      "tile_id": "slide_A_x41984_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 41984,
+      "y": 12288,
+      "level0": {
+        "x": 41984,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of mononuclear cells with scattered multinucleated giant cells and abundant hemosiderin pigment. The cells are arranged in sheets and nests with a background of fibrous stroma.\n\nThe most likely diagnosis is Pigmented Villonodular Synovitis (PVNS).\n\nDifferential diagnoses include Giant Cell Tumor of Bone (GCTB) and Tenosynovial Giant Cell Tumor, localized type (TGCT). GCTB typically lacks the prominent hemosiderin deposition and villous architecture seen in PVNS. TGCT is usually smaller and more localized, often involving tendons or tendon sheaths, and may not show the extensive synovial involvement seen in PVNS.",
+      "rationale": "Right-lower quadrant: look for hemangioma-like vascular proliferation or biphasic epithelial elements."
+    },
+    {
+      "roi_id": "slide_A_x41984_y11776_mag20",
+      "tile_id": "slide_A_x41984_y11776_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 41984,
+      "y": 11776,
+      "level0": {
+        "x": 41984,
+        "y": 11776,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense cellular infiltrate composed of mononuclear cells, scattered multinucleated giant cells, and numerous hemosiderin-laden macrophages. There is also a background of fibrous stroma.\n\nThe most likely diagnosis is Pigmented Villonodular Synovitis (PVNS), also known as Tenosynovial Giant Cell Tumor, diffuse type.\n\nDifferential diagnoses include chronic synovitis (e.g., rheumatoid arthritis) and synovial chondromatosis. Chronic synovitis typically lacks the prominent hemosiderin deposition and multinucleated giant cells seen here. Synovial chondromatosis would show cartilaginous nodules, which are not present in this image.",
+      "rationale": "High power right-lower: assess for true glands, atypia/mitoses, vascular channels, necrosis."
+    },
+    {
+      "roi_id": "slide_A_x30208_y14336_mag20",
+      "tile_id": "slide_A_x30208_y14336_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 30208,
+      "y": 14336,
+      "level0": {
+        "x": 30208,
+        "y": 14336,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with interspersed irregular deposits of eosinophilic osteoid matrix. The spindle cells have elongated nuclei and are arranged in fascicles and haphazardly.\n\nThe most likely diagnosis is osteosarcoma, specifically a chondroblastic subtype given the presence of osteoid matrix. Differential diagnoses include other spindle cell lesions of bone such as fibrosarcoma or malignant fibrous histiocytoma, which lack the production of osteoid matrix.",
+      "rationale": "Explore additional mid-right inferior area not clearly covered to exclude chondroid nodules or necrosis."
+    },
+    {
+      "roi_id": "slide_A_x26112_y10752_mag20",
+      "tile_id": "slide_A_x26112_y10752_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 26112,
+      "y": 10752,
+      "level0": {
+        "x": 26112,
+        "y": 10752,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with interspersed irregular eosinophilic matrix material. The spindle cells have elongated nuclei and are arranged in fascicles and haphazardly.\n\nThe most likely diagnosis is a chondroblastic osteosarcoma. The presence of spindle cells producing irregular eosinophilic matrix material is characteristic of osteosarcoma, and the clinical context of a soft tissue mass in the knee with associated bone changes supports this diagnosis. Differential diagnoses include other spindle cell sarcomas such as fibrosarcoma or malignant peripheral nerve sheath tumor, but the production of osteoid matrix is the key feature pointing towards osteosarcoma.",
+      "rationale": "Central mid area: re-check 'osteoid/matrix' focus to exclude metaplastic bone/cartilage (chondromatosis) vs fibrin."
+    },
+    {
+      "roi_id": "slide_A_x29696_y9216_mag20",
+      "tile_id": "slide_A_x29696_y9216_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 29696,
+      "y": 9216,
+      "level0": {
+        "x": 29696,
+        "y": 9216,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with interspersed irregular deposits of eosinophilic osteoid matrix. The spindle cells have elongated nuclei and are arranged in fascicles and whorls.\n\nThe most likely diagnosis is osteosarcoma, specifically a chondroblastic subtype given the presence of osteoid matrix. Differential diagnoses include other spindle cell lesions of bone such as fibrosarcoma or malignant peripheral nerve sheath tumor, which lack the characteristic osteoid production.",
+      "rationale": "Explore mid-right superior area for synovial lining/villi and confirm hemosiderin/giant cells."
+    },
+    {
+      "roi_id": "slide_A_x24576_y1024_mag10",
+      "tile_id": "slide_A_x24576_y1024_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 24576,
+      "y": 1024,
+      "level0": {
+        "x": 24576,
+        "y": 1024,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a synovial lining with a dense inflammatory infiltrate and underlying dense fibrous tissue with scattered chronic inflammation. The synovial lining is hyperplastic and villous.\n\nThe most likely diagnosis is chronic synovitis, likely secondary to a chronic inflammatory process such as rheumatoid arthritis or chronic infection.\n\nDifferential diagnoses include rheumatoid arthritis, which typically shows more prominent synovial hyperplasia and villous formation, and chronic infection, which may show more neutrophils and potentially granulomas.",
+      "rationale": "Unexplored superior edge from map: exclude surface cartilage nodules or granulomas."
+    },
+    {
+      "roi_id": "slide_A_x14848_y13824_mag20",
+      "tile_id": "slide_A_x14848_y13824_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 14848,
+      "y": 13824,
+      "level0": {
+        "x": 14848,
+        "y": 13824,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells and mononuclear cells with scattered multinucleated giant cells and foamy macrophages within a fibrous stroma. The cells are arranged in fascicles and haphazardly.\n\nThe most likely diagnosis is Pigmented Villonodular Synovitis (PVNS), also known as Tenosynovial Giant Cell Tumor, diffuse type.\n\nDifferential diagnoses include:\n- Chronic synovitis (e.g., rheumatoid arthritis): typically lacks the prominent multinucleated giant cells and foamy macrophages seen here.\n- Synovial sarcoma: would show more cellular atypia, mitotic activity, and often a biphasic pattern with epithelial and spindle cell components.",
+      "rationale": "Explore left-mid inferior area for granulomas/necrosis (TB) and inflammatory synovitis patterns."
+    },
+    {
+      "roi_id": "slide_A_x25088_y1536_mag20",
+      "tile_id": "slide_A_x25088_y1536_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 25088,
+      "y": 1536,
+      "level0": {
+        "x": 25088,
+        "y": 1536,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a transition from dense fibrous tissue to a looser, more cellular area with spindle cells, scattered inflammatory cells, and small vessels. The cellular area exhibits a somewhat myxoid background.\n\nThe most likely diagnosis is a chronic inflammatory process, such as chronic synovitis or a reactive lesion.\n\nDifferential diagnoses include chronic synovitis (e.g., rheumatoid arthritis, infectious synovitis) and a reactive lesion (e.g., myxoid fibroblastic proliferation). The presence of chronic inflammation and the myxoid background are key features supporting these possibilities.",
+      "rationale": "High power superior edge: look for caseating granulomas, epithelioid histiocytes, Langhans-type giant cells."
+    },
+    {
+      "roi_id": "slide_A_x26112_y20992_mag20",
+      "tile_id": "slide_A_x26112_y20992_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 26112,
+      "y": 20992,
+      "level0": {
+        "x": 26112,
+        "y": 20992,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with scattered multinucleated giant cells and abundant hemosiderin pigment. The spindle cells are arranged in fascicles and whorls within a collagenous stroma.\n\nThe most likely diagnosis is Pigmented Villonodular Synovitis (PVNS).\n\nDifferential diagnoses include Giant Cell Tumor of Bone (GCTB) and Tenosynovial Giant Cell Tumor, localized type (TGCT). GCTB typically involves bone and lacks the prominent hemosiderin and villous architecture seen in PVNS. TGCT is usually smaller and more localized, often involving tendons or tendon sheaths, and may not show the extensive synovial involvement characteristic of PVNS.",
+      "rationale": "Explore far inferior area for cartilage/bone fragments, calcification, or synovial chondromatosis."
+    },
+    {
+      "roi_id": "slide_A_x47104_y9216_mag10",
+      "tile_id": "slide_A_x47104_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 47104,
+      "y": 9216,
+      "level0": {
+        "x": 47104,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with interspersed inflammatory cells and areas of hyalinized stroma. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a tenosynovial giant cell tumor, localized type. This diagnosis is supported by the location in the knee joint, the presence of spindle cells, and the clinical history of a mass in the suprapatellar bursa.\n\nDifferential diagnoses include pigmented villonodular synovitis (PVNS), which is histologically similar but typically involves the synovium of a joint, and synovial sarcoma, which would show more cellular atypia and mitotic activity.",
+      "rationale": "Far right edge: search for cavernous vascular spaces/hemangioma or biphasic glands."
+    },
+    {
+      "roi_id": "slide_A_x44032_y14848_mag20",
+      "tile_id": "slide_A_x44032_y14848_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 44032,
+      "y": 14848,
+      "level0": {
+        "x": 44032,
+        "y": 14848,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of mononuclear cells with scattered multinucleated giant cells and abundant eosinophilic stromal material. Brown pigment is also present.\n\nThe most likely diagnosis is Pigmented Villonodular Synovitis (PVNS).\n\nDifferential diagnoses include Giant Cell Tumor of Bone (GCTB) and Tenosynovial Giant Cell Tumor, localized type (TGCT). GCTB typically lacks the prominent stromal material and hemosiderin pigment seen here. TGCT is usually smaller and more localized, often with a more nodular growth pattern.",
+      "rationale": "Explore far right-lower area for atypical spindle cell proliferation (synovial sarcoma) or vascular lesion."
+    },
+    {
+      "roi_id": "slide_A_x47104_y9216_mag20",
+      "tile_id": "slide_A_x47104_y9216_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 47104,
+      "y": 9216,
+      "level0": {
+        "x": 47104,
+        "y": 9216,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense cellular infiltrate composed of lymphocytes, plasma cells, and histiocytes within a fibrous stroma. Scattered multinucleated giant cells and brown pigment are also present.\n\nThe most likely diagnosis is Pigmented Villonodular Synovitis (PVNS), also known as Tenosynovial Giant Cell Tumor, diffuse type.\n\nDifferential diagnoses include chronic synovitis (e.g., rheumatoid arthritis) and synovial chondromatosis. Chronic synovitis typically lacks the prominent multinucleated giant cells and hemosiderin pigment seen here. Synovial chondromatosis would show cartilaginous nodules, which are not present in this image.",
+      "rationale": "High power far right edge: confirm endothelial-lined vascular channels vs clefts; assess atypia."
+    },
+    {
+      "roi_id": "slide_A_x24576_y11264_mag20",
+      "tile_id": "slide_A_x24576_y11264_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 24576,
+      "y": 11264,
+      "level0": {
+        "x": 24576,
+        "y": 11264,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with interspersed eosinophilic matrix material. The spindle cells have elongated nuclei and are arranged in fascicles and haphazardly.\n\nThe most likely diagnosis is a synovial sarcoma, specifically the monophasic fibrous type. The presence of spindle cells and the eosinophilic matrix material are characteristic features. Differential diagnoses include other spindle cell neoplasms such as fibrosarcoma or malignant peripheral nerve sheath tumor, which would typically lack the characteristic matrix material seen here.",
+      "rationale": "Confirm classic TGCT/PVNS components (mononuclear cells, giant cells, hemosiderin, foam cells) in a representative central area."
+    },
+    {
+      "roi_id": "slide_A_x40960_y10240_mag20",
+      "tile_id": "slide_A_x40960_y10240_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 40960,
+      "y": 10240,
+      "level0": {
+        "x": 40960,
+        "y": 10240,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense cellular infiltrate composed of small lymphocytes and larger cells with abundant cytoplasm, some containing brown pigment. There is also prominent stromal fibrosis and numerous blood vessels.\n\nThe most likely diagnosis is Pigmented Villonodular Synovitis (PVNS), also known as Tenosynovial Giant Cell Tumor, diffuse type. This diagnosis is supported by the presence of a dense cellular infiltrate with mononuclear cells and macrophages containing hemosiderin pigment, along with stromal fibrosis and prominent vasculature, in the context of a soft tissue mass in the knee joint.\n\nDifferential diagnoses to consider include chronic synovitis (e.g., rheumatoid arthritis) and synovial sarcoma. Chronic synovitis typically lacks the prominent hemosiderin-laden macrophages and the characteristic villous architecture seen in PVNS. Synovial sarcoma, while a malignant soft tissue tumor, would typically show more cellular atypia, mitotic activity, and often a biphasic pattern with epithelial and spindle cell components, which are not evident in this image.",
+      "rationale": "Interrogate paler area noted at 5x to exclude necrosis or sarcomatous transformation."
+    },
+    {
+      "roi_id": "slide_A_x8192_y12288_mag20",
+      "tile_id": "slide_A_x8192_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 8192,
+      "y": 12288,
+      "level0": {
+        "x": 8192,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with a prominent inflammatory infiltrate and areas of hemorrhage. The spindle cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is pigmented villonodular synovitis (PVNS), also known as tenosynovial giant cell tumor, diffuse type.\n\nDifferential diagnoses include:\n- Synovial sarcoma: typically shows more cellular atypia, mitotic activity, and often a biphasic pattern with epithelial and spindle cell components.\n- Chronic synovitis (e.g., rheumatoid arthritis): usually lacks the prominent spindle cell proliferation and characteristic hemosiderin deposition seen in PVNS.",
+      "rationale": "Check peripheral fibrous/capsular zone for synovial lining, villous architecture, and exclude alternative lesions."
+    }
+  ]
+}

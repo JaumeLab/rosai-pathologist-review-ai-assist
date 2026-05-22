@@ -1,0 +1,1518 @@
+{
+  "case_id": "sem1454_case3",
+  "source": "slideseek-ai-assist",
+  "model": "gpt-5.4",
+  "generated_at": "2026-05-22T09:26:44.752870+00:00",
+  "organ": "Bone-Soft Tissue",
+  "primary_dx": "Intramuscular Hemangioma/Venous Malformation With Organizing Hematoma and Dystrophic Calcification",
+  "differential_dx": [
+    "Organizing/Chronic Expanding Hematoma Associated With Vascular Malformation",
+    "Radiation-Associated Angiosarcoma"
+  ],
+  "microscopic_findings": [
+    {
+      "text": "Large irregular **thin-walled blood-filled spaces** are lined by **bland flattened endothelium** and separated by fibrous septa.",
+      "roi_ids": [
+        "slide_A_x17408_y12288_mag10",
+        "slide_A_x14848_y10752_mag20"
+      ]
+    },
+    {
+      "text": "The lesion **entrapps skeletal muscle** and extends through adipose tissue, supporting an **intramuscular infiltrative** venous…",
+      "roi_ids": [
+        "slide_A_x24576_y24576_mag1",
+        "slide_A_x12288_y16384_mag2"
+      ]
+    },
+    {
+      "text": "Cystic spaces contain **organizing hemorrhage**, eosinophilic debris, and fibrinous material consistent with **hematoma-like change**.",
+      "roi_ids": [
+        "slide_A_x15872_y11776_mag20",
+        "slide_A_x15360_y12288_mag10"
+      ]
+    },
+    {
+      "text": "There are foci of **laminated dystrophic calcification** within fibrotic necrotic tissue, compatible with **treatment-effect change**.",
+      "roi_ids": [
+        "slide_A_x32768_y11776_mag20",
+        "slide_A_x32768_y12288_mag10"
+      ]
+    }
+  ],
+  "interpretation": "The examined tissue shows an **intramuscular hemangioma/venous malformation** composed of **dilated bland thin-walled vascular channels** infiltrating soft tissue. Prominent secondary **organizing hematoma**, fibrosis, necrotic eosinophilic debris, and **dystrophic calcification** indicate chronic hemorrhagic and treatment-related change. No convincing features of **radiation-associated angiosarcoma** are identified, including endothelial atypia, multilayering, anastomosing destructive channels, or brisk mitotic activity.",
+  "num_rois": 92,
+  "tiles": [
+    {
+      "roi_id": "slide_A_x8192_y8192_mag2",
+      "tile_id": "slide_A_x8192_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles and whorls, with interspersed adipose tissue and areas of hemorrhage. The spindle cells exhibit mild to moderate nuclear pleomorphism.\n\nThe most likely diagnosis is a malignant peripheral nerve sheath tumor (MPNST).\n\nDifferential diagnoses include:\n- Leiomyosarcoma: Typically shows more prominent eosinophilic cytoplasm and cigar-shaped nuclei, often with more significant nuclear atypia and mitotic activity.\n- Fibrosarcoma: Characterized by a herringbone pattern of spindle cells, often with less pleomorphism and less prominent adipose tissue.",
+      "rationale": "low-power scan of upper-left tissue for cavernous/blood-filled spaces"
+    },
+    {
+      "roi_id": "slide_A_x16384_y16384_mag1",
+      "tile_id": "slide_A_x16384_y16384_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 16384,
+      "y": 16384,
+      "level0": {
+        "x": 16384,
+        "y": 16384,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows fragmented soft tissue with extensive hemorrhage and necrosis, along with scattered dark granular material. There is also a large cystic structure containing dark red material.\n\nThe morphologic features are consistent with a vascular lesion, likely a hemangioma, complicated by hemorrhage and necrosis. Differential diagnoses include other vascular tumors or malformations, and potentially a thrombosed or necrotic cystic lesion.",
+      "rationale": "Global low-power scan of entire tissue to map architecture."
+    },
+    {
+      "roi_id": "slide_A_x16384_y8192_mag2",
+      "tile_id": "slide_A_x16384_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 16384,
+      "y": 8192,
+      "level0": {
+        "x": 16384,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a vascular lesion with numerous dilated, thin-walled vessels of varying sizes, some containing red blood cells, within a background of adipose tissue and fibrous stroma. The vessels are lined by flattened endothelial cells.\n\nThe most likely diagnosis is a cavernous hemangioma. Differential diagnoses include venous malformation and lymphangioma, which can be distinguished by the presence of lymphatic fluid and lack of red blood cells in lymphangioma, and the presence of smooth muscle in venous malformation.",
+      "rationale": "Initial low-power survey of upper fragment for any solid cellular foci."
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag1",
+      "tile_id": "slide_A_x8192_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles and whorls, with areas of hemorrhage and necrosis. The presence of spindle cells with eosinophilic cytoplasm and fascicular arrangement is suggestive of a smooth muscle neoplasm.",
+      "rationale": "Survey left-upper portion; appears more hemorrhagic on thumbnail."
+    },
+    {
+      "roi_id": "slide_A_x16384_y24576_mag2",
+      "tile_id": "slide_A_x16384_y24576_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 16384,
+      "y": 24576,
+      "level0": {
+        "x": 16384,
+        "y": 24576,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a proliferation of large, irregular vascular channels filled with erythrocytes, embedded within a background of fibrous and adipose tissue. The vascular spaces are lined by flattened endothelial cells.\n\nThe most likely diagnosis is a cavernous hemangioma. Differential diagnoses include venous malformation and lymphangioma, which can be distinguished by the presence of lymphatic fluid and lack of red blood cells in lymphangioma, and the presence of smooth muscle in venous malformation.",
+      "rationale": "Initial low-power survey of lower fragment for any solid cellular foci."
+    },
+    {
+      "roi_id": "slide_A_x24576_y8192_mag2",
+      "tile_id": "slide_A_x24576_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 24576,
+      "y": 8192,
+      "level0": {
+        "x": 24576,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows fragmented soft tissue with extensive dark brown to black granular material consistent with calcification, along with areas of necrosis and hemorrhage. The background tissue is composed of fibrous and adipose tissue.\n\nThe most likely diagnosis is calcifying aponeurotic fibroma. This diagnosis is supported by the presence of extensive calcification within a background of fibrous and adipose tissue, which is characteristic of this entity. The clinical history of a long-standing, recurrent mass in the calf of a young patient also aligns with this diagnosis.\n\nDifferential diagnoses to consider include myositis ossificans, which typically shows zonal ossification, and calcified hemangioma, which would show vascular channels with calcification. The absence of zonal ossification and prominent vascular channels in this image makes these less likely.",
+      "rationale": "low-power scan upper-right where mottled hemorrhage suggested on thumbnail"
+    },
+    {
+      "roi_id": "slide_A_x24576_y8192_mag1",
+      "tile_id": "slide_A_x24576_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 24576,
+      "y": 8192,
+      "level0": {
+        "x": 24576,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles and whorls, with areas of hemorrhage and necrosis. The cells are associated with numerous small, thin-walled blood vessels.\n\nThe most likely diagnosis is Kaposi sarcoma. Differential diagnoses include angiosarcoma, which typically shows more significant nuclear atypia and pleomorphism, and spindle cell hemangioma, which is usually more circumscribed and lacks the extensive hemorrhage and necrosis seen here.",
+      "rationale": "Survey right-upper portion; look for cystic spaces/solid nodules."
+    },
+    {
+      "roi_id": "slide_A_x4096_y12288_mag2",
+      "tile_id": "slide_A_x4096_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 4096,
+      "y": 12288,
+      "level0": {
+        "x": 4096,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a vascular lesion with numerous dilated, blood-filled spaces separated by fibrous septa. The spaces are lined by flattened endothelial cells, and the septa contain fibrous tissue and scattered inflammatory cells.\n\nThe most likely diagnosis is a cavernous hemangioma. Differential diagnoses include venous malformation and lymphangioma, which can be distinguished by the presence of lymphatic fluid and lack of red blood cells in lymphangioma, and the presence of smooth muscle in venous malformation.",
+      "rationale": "Survey left side where there is denser pink tissue suggesting potential solid area."
+    },
+    {
+      "roi_id": "slide_A_x8192_y24576_mag2",
+      "tile_id": "slide_A_x8192_y24576_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 8192,
+      "y": 24576,
+      "level0": {
+        "x": 8192,
+        "y": 24576,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows fragmented tissue with extensive necrosis, hemorrhage, and inflammation. There are areas of dense fibrosis and hyalinization, along with scattered spindle cells and inflammatory cells.\n\nThe most likely diagnosis is a recurrent soft tissue sarcoma, likely a high-grade pleomorphic sarcoma, given the history of a long-standing, recurrent, and progressively enlarging mass in the calf of a young patient.\n\nDifferential diagnoses include other high-grade sarcomas such as undifferentiated pleomorphic sarcoma or leiomyosarcoma, or potentially a recurrent benign process with extensive secondary changes.",
+      "rationale": "Low-power survey left-lower portion for fibrous areas"
+    },
+    {
+      "roi_id": "slide_A_x28672_y12288_mag2",
+      "tile_id": "slide_A_x28672_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 28672,
+      "y": 12288,
+      "level0": {
+        "x": 28672,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows fragmented soft tissue with adipose tissue, fibrous stroma, and areas of hemorrhage and necrosis. There are also cystic spaces and dark granular material.\n\nThe most likely diagnosis is a vascular malformation, such as a venous malformation, given the presence of cystic spaces and hemorrhage. Other considerations include a hemangioma or a reactive process like a hematoma with organization.",
+      "rationale": "Survey right side with patchy hemorrhage; look for nodular cellular zones."
+    },
+    {
+      "roi_id": "slide_A_x8192_y28672_mag2",
+      "tile_id": "slide_A_x8192_y28672_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 8192,
+      "y": 28672,
+      "level0": {
+        "x": 8192,
+        "y": 28672,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows fragmented tissue with areas of dense fibrous tissue, skeletal muscle, and adipose tissue. There are also areas of hemorrhage and necrosis.\n\nThe most likely diagnosis is a soft tissue sarcoma, such as a malignant fibrous histiocytoma (undifferentiated pleomorphic sarcoma).\n\nDifferential diagnoses include other high-grade sarcomas or a reactive process like myositis ossificans, although the clinical history and morphology are more suggestive of a malignant process.",
+      "rationale": "low-power scan lower-left tissue for cystic/vascular channels"
+    },
+    {
+      "roi_id": "slide_A_x8192_y24576_mag1",
+      "tile_id": "slide_A_x8192_y24576_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 8192,
+      "y": 24576,
+      "level0": {
+        "x": 8192,
+        "y": 24576,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows fragmented tissue with extensive hemorrhage and necrosis, along with a cellular proliferation of spindle cells arranged in fascicles and whorls. The spindle cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a malignant peripheral nerve sheath tumor (MPNST).\n\nDifferential diagnoses include:\n- Leiomyosarcoma: Typically shows more prominent eosinophilic cytoplasm and cigar-shaped nuclei, often with more distinct fascicular architecture.\n- Fibrosarcoma: Characterized by a herringbone pattern of spindle cells, which is not evident here.\n- Synovial sarcoma: Usually presents as a biphasic tumor with both spindle and epithelial components, which are not seen in this image.",
+      "rationale": "Survey left-lower portion; assess muscle vs lesion distribution."
+    },
+    {
+      "roi_id": "slide_A_x28672_y28672_mag2",
+      "tile_id": "slide_A_x28672_y28672_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 28672,
+      "y": 28672,
+      "level0": {
+        "x": 28672,
+        "y": 28672,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows fragmented soft tissue with extensive hemorrhage and necrosis, along with prominent vascular structures. The presence of hemorrhage and necrosis in soft tissue is a key feature.\n\nThe most likely diagnosis is a vascular lesion with secondary changes, such as a hemangioma with hemorrhage and necrosis.\n\nDifferential diagnoses include other vascular malformations or tumors, and potentially a traumatic hematoma with secondary changes.",
+      "rationale": "Survey right lower fragment for any nodular solid component."
+    },
+    {
+      "roi_id": "slide_A_x24576_y24576_mag2",
+      "tile_id": "slide_A_x24576_y24576_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 24576,
+      "y": 24576,
+      "level0": {
+        "x": 24576,
+        "y": 24576,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a proliferation of spindle cells within a myxoid stroma, with prominent curvilinear vessels and scattered adipocytes. The spindle cells have elongated, wavy nuclei.\n\nThe most likely diagnosis is myxofibrosarcoma. This diagnosis is supported by the presence of a myxoid background, spindle cells with wavy nuclei, and characteristic curvilinear vessels. The infiltrative growth pattern and presence of adipocytes are also consistent with this entity.\n\nDifferential diagnoses include myxoid liposarcoma, which typically shows a more prominent plexiform capillary network and lipoblasts, and low-grade fibromyxoid sarcoma, which often has a more uniform spindle cell population and lacks the curvilinear vessels.",
+      "rationale": "Low-power survey right-lower portion for peripheral nodules/synovial-like tissue"
+    },
+    {
+      "roi_id": "slide_A_x24576_y24576_mag1",
+      "tile_id": "slide_A_x24576_y24576_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 24576,
+      "y": 24576,
+      "level0": {
+        "x": 24576,
+        "y": 24576,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows skeletal muscle, adipose tissue, and fibrous stroma with areas of hemorrhage and necrosis. There is a diffuse infiltrative process with scattered dark granular material.\n\nThe most likely diagnosis is a vascular neoplasm, such as Kaposi sarcoma, given the clinical history of radiation therapy and the presence of hemorrhage and necrosis.\n\nDifferential diagnoses include other vascular tumors like angiosarcoma or a reactive process like radiation-induced atypia.",
+      "rationale": "Survey right-lower portion; look for fibrosis/scar or necrosis."
+    },
+    {
+      "roi_id": "slide_A_x24576_y28672_mag2",
+      "tile_id": "slide_A_x24576_y28672_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 24576,
+      "y": 28672,
+      "level0": {
+        "x": 24576,
+        "y": 28672,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a proliferation of spindle cells with wavy nuclei and eosinophilic cytoplasm, arranged in fascicles and whorls, with interspersed mature adipocytes. Prominent blood vessels are also present.\n\nThe most likely diagnosis is a neurofibroma. The presence of spindle cells with wavy nuclei, eosinophilic cytoplasm, and the admixture of mature adipocytes are characteristic features. The prominent blood vessels are also commonly seen in neurofibromas.\n\nDifferential diagnoses include schwannoma and solitary fibrous tumor. Schwannomas typically show Antoni A and B areas and Verocay bodies, which are not seen here. Solitary fibrous tumors are characterized by a patternless architecture and prominent branching \"staghorn\" vessels, which are also not present.",
+      "rationale": "low-power scan lower-right to find large dilated vascular spaces/thrombi"
+    },
+    {
+      "roi_id": "slide_A_x8192_y6144_mag5",
+      "tile_id": "slide_A_x8192_y6144_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 8192,
+      "y": 6144,
+      "level0": {
+        "x": 8192,
+        "y": 6144,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows fragmented tissue with extensive hemorrhage, necrosis, and inflammation. There are areas of dense cellularity and scattered dark granular material.\n\nThe most likely diagnosis is a vascular lesion, such as a hemangioma, given the presence of hemorrhage, necrosis, and cystic structures. Other considerations include a vascular malformation or a reactive process with prominent vascular proliferation.",
+      "rationale": "More detailed look for any solid hypercellular nodules within vascular lesion (upper left-central)."
+    },
+    {
+      "roi_id": "slide_A_x12288_y4096_mag2",
+      "tile_id": "slide_A_x12288_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 4096,
+      "level0": {
+        "x": 12288,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles and whorls, with areas of hemorrhage and necrosis. The presence of spindle cells with eosinophilic cytoplasm and fascicular arrangement is suggestive of a smooth muscle neoplasm.",
+      "rationale": "Upper mid area with mixed pale and red—evaluate for vascular lakes/cysts vs solid spindle zones."
+    },
+    {
+      "roi_id": "slide_A_x16384_y10240_mag5",
+      "tile_id": "slide_A_x16384_y10240_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 16384,
+      "y": 10240,
+      "level0": {
+        "x": 16384,
+        "y": 10240,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows multiple large, dilated vascular channels filled with erythrocytes, lined by flattened endothelial cells, and separated by fibrous stroma. The surrounding tissue includes skeletal muscle and adipose tissue.\n\nThe most likely diagnosis is a cavernous hemangioma. Differential diagnoses include venous malformation and lymphangioma, which can be distinguished by the presence of lymphatic fluid and lack of red blood cells in lymphangioma, and the presence of smooth muscle in the vessel walls in venous malformation.",
+      "rationale": "Mid-upper tissue with hemorrhagic spaces; assess for hemosiderin/inflammation"
+    },
+    {
+      "roi_id": "slide_A_x16384_y12288_mag2",
+      "tile_id": "slide_A_x16384_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 16384,
+      "y": 12288,
+      "level0": {
+        "x": 16384,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a vascular lesion with large, irregular, thin-walled channels containing red blood cells, interspersed with adipose tissue and fibrous stroma. The channels are lined by flattened endothelial cells.\n\nThe most likely diagnosis is a cavernous hemangioma.\n\nDifferential diagnoses include venous malformation and lymphangioma. Venous malformations typically have thicker walls and may show phleboliths, while lymphangiomas contain clear lymphatic fluid and lack red blood cells.",
+      "rationale": "central-upper area with pale cavitation on map; search for large cystic blood-filled spaces"
+    },
+    {
+      "roi_id": "slide_A_x27648_y12288_mag10",
+      "tile_id": "slide_A_x27648_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 27648,
+      "y": 12288,
+      "level0": {
+        "x": 27648,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows mature adipose tissue with a fibrous capsule and areas of hemorrhage. The adipocytes are uniform with no significant atypia.\n\nThe most likely diagnosis is a lipoma with hemorrhage. Differential diagnoses include angiolipoma, which would show prominent vascular proliferation, and liposarcoma, which would exhibit cellular atypia and pleomorphism.",
+      "rationale": "Right-upper dark areas; check for hemosiderin-laden macrophages/giant cells"
+    },
+    {
+      "roi_id": "slide_A_x20480_y6144_mag5",
+      "tile_id": "slide_A_x20480_y6144_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 20480,
+      "y": 6144,
+      "level0": {
+        "x": 20480,
+        "y": 6144,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows fragmented tissue with extensive necrosis and hemorrhage, along with scattered cellular aggregates and amorphous material. The background is largely acellular with abundant red blood cells and fibrin.\n\nThe morphologic features are consistent with a necrotic and hemorrhagic process. Given the clinical history of a recurrent mass in the calf, a primary soft tissue sarcoma with extensive necrosis is a strong consideration. Differential diagnoses include other necrotic soft tissue lesions such as an organizing hematoma or a necrotic benign process, although the cellular aggregates raise concern for malignancy.",
+      "rationale": "Upper mid area with mixed fibrous/vascular tissue—screen for cellular spindle zones."
+    },
+    {
+      "roi_id": "slide_A_x16384_y20480_mag2",
+      "tile_id": "slide_A_x16384_y20480_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 16384,
+      "y": 20480,
+      "level0": {
+        "x": 16384,
+        "y": 20480,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows skeletal muscle fibers with significant interstitial and intracellular dark brown to black granular material. There is also evidence of muscle fiber degeneration and fragmentation.\n\nThe most likely diagnosis is radiation-induced changes in skeletal muscle, characterized by the presence of dark granular material consistent with radiation pigment and associated muscle degeneration.\n\nDifferential diagnoses to consider include hemosiderin deposition from hemorrhage, which can also present as dark granular material, and other forms of myopathy with pigment accumulation. However, the clinical history of radiation therapy strongly supports radiation-induced changes.",
+      "rationale": "central mid area near large blank space; likely cystic/vascular lumen"
+    },
+    {
+      "roi_id": "slide_A_x16384_y23552_mag10",
+      "tile_id": "slide_A_x16384_y23552_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 16384,
+      "y": 23552,
+      "level0": {
+        "x": 16384,
+        "y": 23552,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a vascular lesion with numerous dilated, blood-filled spaces lined by flattened endothelial cells. The surrounding stroma is fibrous with scattered chronic inflammation.\n\nThe most likely diagnosis is a cavernous hemangioma.\n\nDifferential diagnoses include venous malformation and lymphangioma. Venous malformations typically have thicker walls and less prominent endothelial lining, while lymphangiomas contain clear lymphatic fluid rather than blood.",
+      "rationale": "Central bridge area near cystic spaces; look for synovial-like lining and pigmented macrophages"
+    },
+    {
+      "roi_id": "slide_A_x20480_y4096_mag2",
+      "tile_id": "slide_A_x20480_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 20480,
+      "y": 4096,
+      "level0": {
+        "x": 20480,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows fragmented tissue with a surface layer of dark granular material and underlying fibrous tissue with scattered inflammatory cells. The deeper tissue contains adipose tissue and skeletal muscle with areas of hemorrhage and necrosis.\n\nThe morphologic features are consistent with a reactive process, likely related to the patient's history of radiation therapy and recurrent tumor. The dark granular material on the surface may represent necrotic debris or foreign material. The underlying fibrosis, inflammation, hemorrhage, and necrosis in the muscle and adipose tissue are indicative of tissue damage and repair. Given the clinical history of radiation therapy and recurrent tumor, these findings are most consistent with radiation-induced changes and/or a recurrent tumor with associated tissue damage.\n\nDifferential diagnoses to consider include radiation-induced fibrosis and necrosis, and recurrent tumor with associated necrosis and hemorrhage. Further evaluation of additional tissue sections and correlation with clinical and radiographic findings would be necessary to confirm the diagnosis.",
+      "rationale": "Upper central-right—target possible cystic blood-filled spaces seen on thumbnail."
+    },
+    {
+      "roi_id": "slide_A_x24576_y12288_mag5",
+      "tile_id": "slide_A_x24576_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 24576,
+      "y": 12288,
+      "level0": {
+        "x": 24576,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows multiple dilated vascular spaces filled with erythrocytes, embedded within a background of fibrous and adipose tissue. The vascular spaces are lined by flattened endothelial cells.\n\nThe most likely diagnosis is a vascular malformation, specifically a venous malformation.\n\nDifferential diagnoses include:\n- Hemangioma: Typically more cellular and may show proliferative endothelial cells, which are not prominent here.\n- Arteriovenous malformation: Would show direct connections between arteries and veins, which are not apparent in this image.",
+      "rationale": "Upper right area with hemorrhage/necrosis-like change—ensure no malignant solid component."
+    },
+    {
+      "roi_id": "slide_A_x32768_y12288_mag2",
+      "tile_id": "slide_A_x32768_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 32768,
+      "y": 12288,
+      "level0": {
+        "x": 32768,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows fragmented soft tissue with adipose tissue, fibrous stroma, and areas of hemorrhage. There are also cystic spaces containing amorphous material and dark granular deposits.\n\nThe most likely diagnosis is a soft tissue tumor with cystic and hemorrhagic features, such as a cystic myxoid liposarcoma or a cystic fibrous histiocytoma.\n\nDifferential diagnoses include cystic myxoid liposarcoma, which typically shows myxoid stroma and lipoblasts, and cystic fibrous histiocytoma, which may show fibrohistiocytic cells and hemosiderin deposition.",
+      "rationale": "far upper-right fringe where hemorrhagic/cystic structures may cluster"
+    },
+    {
+      "roi_id": "slide_A_x12288_y24576_mag5",
+      "tile_id": "slide_A_x12288_y24576_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 12288,
+      "y": 24576,
+      "level0": {
+        "x": 12288,
+        "y": 24576,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows dense fibrous tissue with prominent cystic spaces and areas of hemorrhage. Scattered chronic inflammation is also present.\n\nThe most likely diagnosis is a cystic fibrous pseudotumor of the soft tissue.\n\nDifferential diagnoses include:\n- Intramuscular myxoma: typically shows a more myxoid stroma and lacks the prominent cystic spaces and hemorrhage seen here.\n- Nodular fasciitis: usually presents as a more cellular lesion with a characteristic \"tissue culture\" appearance and lacks the extensive cystic change and hemorrhage.",
+      "rationale": "Lower left-mid: relatively solid eosinophilic muscle/fibrous tissue—look for sarcoma-like hypercellularity."
+    },
+    {
+      "roi_id": "slide_A_x28672_y8192_mag2",
+      "tile_id": "slide_A_x28672_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 28672,
+      "y": 8192,
+      "level0": {
+        "x": 28672,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows fragmented soft tissue with extensive dark purple calcification and areas of necrosis. There is also a large fragment of striated muscle with cystic spaces and hemorrhage.\n\nThe most likely diagnosis is calcifying aponeurotic fibroma. This diagnosis is supported by the presence of extensive calcification and cystic degeneration within soft tissue fragments, along with the clinical history of a long-standing, recurrent mass in the calf of a young patient.\n\nDifferential diagnoses to consider include myositis ossificans, which typically shows zonal ossification, and calcified hemangioma, which would show vascular channels with calcification.",
+      "rationale": "Far right upper tongue—look for circumscribed nodules or vascular channels."
+    },
+    {
+      "roi_id": "slide_A_x27648_y28672_mag10",
+      "tile_id": "slide_A_x27648_y28672_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 27648,
+      "y": 28672,
+      "level0": {
+        "x": 27648,
+        "y": 28672,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows fragmented tissue with a prominent reticular pattern of eosinophilic material and scattered cellular elements. The eosinophilic material appears amorphous to fibrillar.\n\nThe most likely diagnosis is Angiomatoid Fibrous Histiocytoma. This diagnosis is supported by the characteristic reticular pattern of eosinophilic material and the clinical history of a recurrent soft tissue mass in a young patient.\n\nDifferential diagnoses include other soft tissue tumors with a reticular pattern, such as myxoid liposarcoma or myxofibrosarcoma. However, the clinical context and the specific morphology of the eosinophilic material favor Angiomatoid Fibrous Histiocytoma.",
+      "rationale": "Right-lower peripheral tissue; assess fibrosis and radiation-type changes"
+    },
+    {
+      "roi_id": "slide_A_x28672_y32768_mag2",
+      "tile_id": "slide_A_x28672_y32768_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 28672,
+      "y": 32768,
+      "level0": {
+        "x": 28672,
+        "y": 32768,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a proliferation of spindle cells with wavy nuclei and eosinophilic cytoplasm, arranged in fascicles and whorls, with prominent thick-walled blood vessels and areas of hemorrhage.\n\nThe most likely diagnosis is a schwannoma. Differential diagnoses include neurofibroma, which typically lacks the Antoni A/B pattern and Verocay bodies, and leiomyoma, which has more eosinophilic cytoplasm and blunt-ended nuclei.",
+      "rationale": "far lower-right edge for blood lakes/thrombi/phleboliths"
+    },
+    {
+      "roi_id": "slide_A_x24576_y26624_mag5",
+      "tile_id": "slide_A_x24576_y26624_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 24576,
+      "y": 26624,
+      "level0": {
+        "x": 24576,
+        "y": 26624,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows mature adipose tissue with prominent fibrous septa containing numerous blood vessels, some with thickened walls. There is also evidence of hemorrhage and inflammation.\n\nThe most likely diagnosis is angiolipoma. Differential diagnoses include lipoma with prominent vascularity and Kaposi sarcoma, which can be distinguished by the presence of spindle cells and slit-like vascular spaces in Kaposi sarcoma.",
+      "rationale": "Lower right-mid: mottled area; screen for nodular solid foci vs organizing hematoma."
+    },
+    {
+      "roi_id": "slide_A_x12288_y16384_mag2",
+      "tile_id": "slide_A_x12288_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 16384,
+      "level0": {
+        "x": 12288,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a mixture of mature adipose tissue and skeletal muscle fibers, with some muscle fibers appearing atrophic. There is also evidence of hemorrhage and inflammation.\n\nThe most likely diagnosis is intramuscular lipoma. Differential diagnoses include liposarcoma, which would typically show atypical lipoblasts and increased cellularity, and myxoid lipoma, which would have a prominent myxoid stroma.",
+      "rationale": "Central region adjacent to large empty/cystic cleft—assess lining and septa."
+    },
+    {
+      "roi_id": "slide_A_x20480_y28672_mag2",
+      "tile_id": "slide_A_x20480_y28672_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 20480,
+      "y": 28672,
+      "level0": {
+        "x": 20480,
+        "y": 28672,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a mixture of mature adipose tissue and cellular areas composed of spindle cells and thick-walled blood vessels. The cellular areas are often arranged in a lobular pattern.\n\nThe most likely diagnosis is Angiolipoma.\n\nDifferential diagnoses include:\n- Lipoma: Typically composed of mature adipose tissue without the prominent vascular component.\n- Hemangioma: Composed predominantly of blood vessels, lacking the significant adipose tissue component.",
+      "rationale": "Lower central—muscle-rich area; assess infiltration between fascicles."
+    },
+    {
+      "roi_id": "slide_A_x15360_y12288_mag10",
+      "tile_id": "slide_A_x15360_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 15360,
+      "y": 12288,
+      "level0": {
+        "x": 15360,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a large cystic space filled with amorphous eosinophilic material and cellular debris, surrounded by dense fibrous tissue and adipose tissue. The cyst wall is lined by flattened cells, and there is evidence of hemorrhage and inflammation.\n\nThe most likely diagnosis is a ganglion cyst. Differential diagnoses include a synovial cyst or a pseudocyst, which can be distinguished by the presence or absence of a true synovial lining and the nature of the cyst contents.",
+      "rationale": "10x on cavernous vascular channels seen at slide_A_x16384_y12288_mag2 to assess lining/papillae/thrombi"
+    },
+    {
+      "roi_id": "slide_A_x15360_y10752_mag20",
+      "tile_id": "slide_A_x15360_y10752_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 15360,
+      "y": 10752,
+      "level0": {
+        "x": 15360,
+        "y": 10752,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows large, irregular vascular spaces filled with erythrocytes, lined by flattened endothelial cells, and separated by thin fibrous septa. The spaces contain abundant red blood cells and some pale eosinophilic material.\n\nThe most likely diagnosis is a cavernous hemangioma. Differential diagnoses include venous malformation and lymphangioma, which can be distinguished by the presence of lymphocytes and proteinaceous fluid in lymphangiomas, and the presence of smooth muscle in venous malformations.",
+      "rationale": "Detail of dilated blood-filled channels; look for hemosiderin macrophages/thrombus"
+    },
+    {
+      "roi_id": "slide_A_x30720_y9216_mag10",
+      "tile_id": "slide_A_x30720_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 30720,
+      "y": 9216,
+      "level0": {
+        "x": 30720,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows adipose tissue with areas of necrosis and hemorrhage, along with amorphous basophilic material consistent with calcification. There is also a focus of dense, basophilic material.\n\nThe morphologic features are consistent with a calcified soft tissue lesion. Given the clinical history of a long-standing, recurrent mass in the calf of a young patient, the most likely diagnosis is calcified myositis ossificans.\n\nDifferential diagnoses include calcified lipoma and calcified hemangioma. Calcified lipoma would typically show mature adipocytes with dystrophic calcification, while calcified hemangioma would show vascular channels with associated calcification.",
+      "rationale": "Far right-upper peripheral nodule; check pigment and lining"
+    },
+    {
+      "roi_id": "slide_A_x16384_y23552_mag20",
+      "tile_id": "slide_A_x16384_y23552_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 16384,
+      "y": 23552,
+      "level0": {
+        "x": 16384,
+        "y": 23552,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles and whorls, with areas of hyalinization and scattered inflammatory cells. The presence of spindle cells with eosinophilic cytoplasm and fascicular arrangement is suggestive of a smooth muscle neoplasm.",
+      "rationale": "Detail around vascular spaces and fibrous septa for inflammation/giant cells/synovial-like lining"
+    },
+    {
+      "roi_id": "slide_A_x20480_y6144_mag10",
+      "tile_id": "slide_A_x20480_y6144_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 20480,
+      "y": 6144,
+      "level0": {
+        "x": 20480,
+        "y": 6144,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows fragmented tissue with adipose tissue, fibrous stroma, and scattered dark granular material. There is also a focus of increased cellularity with small, dark nuclei.\n\nThe morphologic features are consistent with a soft tissue sarcoma, likely a liposarcoma given the presence of adipose tissue and the clinical history of a recurrent mass in the calf. The dark granular material may represent calcification or necrosis.\n\nDifferential diagnoses include other types of soft tissue sarcomas or a reactive process, but the presence of adipose tissue and the clinical history strongly favor a liposarcoma.",
+      "rationale": "Follow up on prior 5x area with reported cellular aggregates/necrosis to determine if true solid hypercellular neoplasm."
+    },
+    {
+      "roi_id": "slide_A_x14848_y10752_mag20",
+      "tile_id": "slide_A_x14848_y10752_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 14848,
+      "y": 10752,
+      "level0": {
+        "x": 14848,
+        "y": 10752,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows dilated vascular spaces filled with erythrocytes, lined by flattened endothelial cells, and separated by fibrous stroma. The spaces contain eosinophilic material and red blood cells.\n\nThe most likely diagnosis is a vascular lesion, such as a cavernous hemangioma.\n\nDifferential diagnoses include lymphangioma, which would show lymphatic fluid and lack red blood cells, and angiosarcoma, which would show atypical endothelial cells and infiltrative growth.",
+      "rationale": "20x detail of endothelial lining in same cavernous area to look for atypia/multilayering/mitoses"
+    },
+    {
+      "roi_id": "slide_A_x6144_y8192_mag10",
+      "tile_id": "slide_A_x6144_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 6144,
+      "y": 8192,
+      "level0": {
+        "x": 6144,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows fragmented tissue with extensive necrosis, hemorrhage, and scattered dark granular material. There is a paucity of viable cells, and some areas show amorphous eosinophilic material.\n\nThe morphologic features are consistent with a necrotic soft tissue process. Given the clinical history of a recurrent mass in the calf, a primary soft tissue sarcoma with extensive necrosis is a strong consideration. Differential diagnoses include other necrotic processes such as infection or infarction, but the clinical context favors a neoplastic etiology.",
+      "rationale": "Far left-upper tissue; search for pigmented macrophages/giant cells"
+    },
+    {
+      "roi_id": "slide_A_x6144_y12288_mag5",
+      "tile_id": "slide_A_x6144_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 6144,
+      "y": 12288,
+      "level0": {
+        "x": 6144,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a vascular lesion with numerous dilated, irregular vascular spaces filled with erythrocytes, lined by flattened endothelial cells, and surrounded by fibrous stroma. The lesion is infiltrative and associated with hemorrhage and hemosiderin deposition.\n\nThe most likely diagnosis is a cavernous hemangioma. Differential diagnoses include venous malformation and Kaposi sarcoma, which can be distinguished by the presence of spindle cells and slit-like vascular spaces in Kaposi sarcoma, and the more organized, thick-walled vessels in venous malformations.",
+      "rationale": "Upper left area with dense red—assess for cavernous vascular spaces and septations."
+    },
+    {
+      "roi_id": "slide_A_x16896_y12288_mag20",
+      "tile_id": "slide_A_x16896_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 16896,
+      "y": 12288,
+      "level0": {
+        "x": 16896,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles and whorls, with areas of hemorrhage and necrosis. The most likely diagnosis is a malignant peripheral nerve sheath tumor. Differential diagnoses include leiomyosarcoma and fibrosarcoma, which can be distinguished by their specific cellular morphology and immunohistochemical profiles.",
+      "rationale": "20x in adjacent vascular spaces for thrombus organization/phlebolith"
+    },
+    {
+      "roi_id": "slide_A_x24576_y17920_mag20",
+      "tile_id": "slide_A_x24576_y17920_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 24576,
+      "y": 17920,
+      "level0": {
+        "x": 24576,
+        "y": 17920,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows skeletal muscle fibers with significant variation in size, including atrophic and hypertrophic fibers, along with increased interstitial connective tissue and scattered inflammatory cells. These features are consistent with a reactive process.\n\nThe most likely diagnosis is proliferative myositis. This diagnosis is supported by the presence of reactive changes in the muscle fibers and interstitial tissue, which can be seen in response to injury or inflammation.\n\nDifferential diagnoses to consider include inflammatory myopathy and muscular dystrophy. Inflammatory myopathy would typically show more prominent inflammatory infiltrates, while muscular dystrophy would show more widespread muscle fiber degeneration and regeneration.",
+      "rationale": "Upper-mid hemorrhagic area for hemosiderin and chronic inflammatory response"
+    },
+    {
+      "roi_id": "slide_A_x8192_y6144_mag10",
+      "tile_id": "slide_A_x8192_y6144_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 8192,
+      "y": 6144,
+      "level0": {
+        "x": 8192,
+        "y": 6144,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows fragmented tissue with abundant amorphous eosinophilic material, scattered dark granular deposits, and areas of hemorrhage. The background tissue is fragmented and appears to be muscle and subcutaneous tissue.\n\nThe morphologic features are consistent with a soft tissue sarcoma. Given the clinical history of a recurrent mass in the calf of a young patient, a diagnosis of rhabdomyosarcoma is strongly considered. Other differential diagnoses include other types of soft tissue sarcomas or a reactive process, but the clinical context and morphology favor a malignant neoplasm.",
+      "rationale": "Examine upper-left hemorrhagic/necrotic zone with possible dense cellularity for malignant features vs organizing thrombus."
+    },
+    {
+      "roi_id": "slide_A_x10240_y24576_mag5",
+      "tile_id": "slide_A_x10240_y24576_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 10240,
+      "y": 24576,
+      "level0": {
+        "x": 10240,
+        "y": 24576,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows fragmented tissue with dense fibrous stroma, scattered spindle cells, and prominent cystic spaces containing amorphous material and red blood cells. There is also a focus of chronic inflammation.\n\nThe morphologic features are consistent with a fibrohistiocytic lesion, such as a fibrous histiocytoma. Differential diagnoses include other spindle cell lesions of soft tissue, such as nodular fasciitis or myxofibrosarcoma, which can be distinguished by their characteristic cellular morphology and stromal features.",
+      "rationale": "Lower left central—evaluate apparent cystic blood lakes and any solid spindle components."
+    },
+    {
+      "roi_id": "slide_A_x27648_y28672_mag20",
+      "tile_id": "slide_A_x27648_y28672_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 27648,
+      "y": 28672,
+      "level0": {
+        "x": 27648,
+        "y": 28672,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows fragmented tissue with abundant amorphous eosinophilic material and scattered dark granular deposits. There is a notable absence of viable cellular elements.\n\nThe morphologic features are consistent with necrotic tissue. Given the clinical history of a long-standing, recurrent, and treated mass, the findings are most likely representative of treatment effect or necrosis within a previously existing lesion.",
+      "rationale": "Right-lower eosinophilic reticular area; assess for hemosiderin, capsule, lymphoplasmacytic cuffing"
+    },
+    {
+      "roi_id": "slide_A_x32768_y12288_mag10",
+      "tile_id": "slide_A_x32768_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 32768,
+      "y": 12288,
+      "level0": {
+        "x": 32768,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows fragmented tissue with areas of necrosis and hemorrhage. A prominent feature is a large, round structure with concentric lamellations.\n\nThe most likely diagnosis is a calcified cystic lesion, such as a calcified epidermoid cyst or a calcified hematoma.\n\nDifferential diagnoses include a calcified epidermoid cyst, which would typically show a cystic structure lined by squamous epithelium, and a calcified hematoma, which would show evidence of hemorrhage and hemosiderin deposition.",
+      "rationale": "10x on upper-right cystic/hemorrhagic spaces to confirm true vascular lakes vs artifact and look for papillary projections"
+    },
+    {
+      "roi_id": "slide_A_x16384_y16384_mag5",
+      "tile_id": "slide_A_x16384_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 16384,
+      "y": 16384,
+      "level0": {
+        "x": 16384,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows skeletal muscle fibers interspersed with abundant mature adipose tissue. The muscle fibers appear atrophic and fragmented.\n\nThe most likely diagnosis is intramuscular lipoma. Differential diagnoses include lipomatosis and well-differentiated liposarcoma.",
+      "rationale": "Central around large cleft/cystic space—look for lining, organizing thrombus, pseudocyst."
+    },
+    {
+      "roi_id": "slide_A_x9216_y30720_mag10",
+      "tile_id": "slide_A_x9216_y30720_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 9216,
+      "y": 30720,
+      "level0": {
+        "x": 9216,
+        "y": 30720,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows skeletal muscle fibers with significant variation in size and shape, including atrophic and rounded profiles, along with increased interstitial connective tissue and scattered inflammatory cells. These features are consistent with a reactive process.\n\nThe most likely diagnosis is proliferative myositis. This condition is characterized by reactive proliferation of fibroblasts and myofibroblasts within the muscle, often associated with trauma or chronic inflammation. The morphologic features observed, such as the variation in muscle fiber size, increased interstitial connective tissue, and scattered inflammatory cells, are consistent with this diagnosis.\n\nDifferential diagnoses to consider include other reactive processes such as nodular fasciitis or myositis ossificans. Nodular fasciitis typically presents as a rapidly growing mass and shows a more cellular proliferation of spindle cells in a myxoid stroma. Myositis ossificans, on the other hand, is characterized by the formation of bone within the muscle, which is not evident in this image.",
+      "rationale": "Far left-lower area; look for fibrosis/hyalinization and radiation changes"
+    },
+    {
+      "roi_id": "slide_A_x12288_y24576_mag10",
+      "tile_id": "slide_A_x12288_y24576_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 12288,
+      "y": 24576,
+      "level0": {
+        "x": 12288,
+        "y": 24576,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows fragmented tissue with extensive necrosis and hemorrhage, along with scattered dark granular material. The background matrix is eosinophilic and fibrillar.\n\nThe morphologic features are consistent with a malignant mesenchymal neoplasm, likely a sarcoma. Given the clinical history of a recurrent, aggressive soft tissue mass in the calf of a young patient, a diagnosis of rhabdomyosarcoma is strongly considered. Other possibilities include other types of sarcoma or a high-grade undifferentiated pleomorphic sarcoma, although the clinical context favors rhabdomyosarcoma.",
+      "rationale": "Review 'dense fibrous tissue with cystic spaces' area for any solid spindle cell proliferation."
+    },
+    {
+      "roi_id": "slide_A_x26624_y16384_mag5",
+      "tile_id": "slide_A_x26624_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 26624,
+      "y": 16384,
+      "level0": {
+        "x": 26624,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a mixture of mature adipose tissue and thick-walled blood vessels. The vessels are often hyalinized and contain red blood cells.\n\nThe most likely diagnosis is angiolipoma. Differential diagnoses include lipoma with prominent vasculature and hemangioma with fatty change.",
+      "rationale": "Upper right central—search for solid hypercellular focus or atypical infiltrative growth."
+    },
+    {
+      "roi_id": "slide_A_x24576_y26624_mag10",
+      "tile_id": "slide_A_x24576_y26624_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 24576,
+      "y": 26624,
+      "level0": {
+        "x": 24576,
+        "y": 26624,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of spindle cells with wavy nuclei and eosinophilic cytoplasm, arranged in fascicles and whorls, with prominent thick-walled blood vessels and areas of hemorrhage.\n\nThe most likely diagnosis is a schwannoma, given the spindle cell morphology, fascicular and whorled architecture, and prominent thick-walled vessels. A neurofibroma is a differential diagnosis, but typically lacks the prominent thick-walled vessels and Verocay bodies seen in schwannomas.",
+      "rationale": "Review vascular-in-fat septa area for pericytic/spindle cell component (e.g., Kaposi/angiosarcoma) vs benign vascular malformation."
+    },
+    {
+      "roi_id": "slide_A_x30720_y22528_mag5",
+      "tile_id": "slide_A_x30720_y22528_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 30720,
+      "y": 22528,
+      "level0": {
+        "x": 30720,
+        "y": 22528,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows fragmented tissue with adipose tissue, dense fibrous tissue, and areas of hemorrhage and necrosis. There is a prominent inflammatory infiltrate composed of lymphocytes and plasma cells.\n\nThe most likely diagnosis is a soft tissue sarcoma, such as a liposarcoma, given the presence of adipose tissue and the clinical history of a recurrent mass in the calf. Other possibilities include a malignant peripheral nerve sheath tumor or a high-grade undifferentiated pleomorphic sarcoma.",
+      "rationale": "Lower right—assess fibrosis/scar, calcification/ossification, and lesion margins."
+    },
+    {
+      "roi_id": "slide_A_x21504_y25600_mag10",
+      "tile_id": "slide_A_x21504_y25600_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 21504,
+      "y": 25600,
+      "level0": {
+        "x": 21504,
+        "y": 25600,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a transition from skeletal muscle to adipose tissue with a prominent blood vessel. The muscle fibers appear fragmented and separated by clear spaces.\n\nThe most likely diagnosis is Intramuscular Hemangioma. The presence of a prominent blood vessel and the separation of muscle fibers by clear spaces are consistent with a vascular lesion within the muscle. The clinical history of a painful, recurrent mass in the calf muscle is also supportive.\n\nDifferential diagnoses include:\n- Angiosarcoma: This would typically show more cellular atypia, increased mitotic activity, and infiltrative growth, which are not evident in this image.\n- Intramuscular Lipoma: This would consist primarily of mature adipose tissue without the prominent vascular component seen here.",
+      "rationale": "Lower central region near cavity; check for synovial-like lining and hemosiderin"
+    },
+    {
+      "roi_id": "slide_A_x12288_y14336_mag10",
+      "tile_id": "slide_A_x12288_y14336_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 12288,
+      "y": 14336,
+      "level0": {
+        "x": 12288,
+        "y": 14336,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows mature adipose tissue with areas of hemorrhage and necrosis, adjacent to skeletal muscle. The adipocytes are large and clear with peripheral nuclei.\n\nThe most likely diagnosis is a lipoma with secondary changes such as hemorrhage and necrosis, likely due to prior trauma or treatment.\n\nDifferential diagnoses include angiolipoma, which would show prominent vascular channels, and liposarcoma, which would exhibit atypical adipocytes and lipoblasts.",
+      "rationale": "sample other cystic/blood-filled spaces near central-upper to confirm vascular nature and check for papillary tufts"
+    },
+    {
+      "roi_id": "slide_A_x28672_y27648_mag10",
+      "tile_id": "slide_A_x28672_y27648_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 28672,
+      "y": 27648,
+      "level0": {
+        "x": 28672,
+        "y": 27648,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows fragmented tissue with abundant amorphous eosinophilic material and scattered dark granular deposits. There is a notable absence of viable cellular elements.\n\nThe morphologic features are consistent with necrotic tissue. Given the clinical history of a long-standing, recurrent, and treated mass, the findings are most consistent with treatment effect, likely from prior radiation therapy.",
+      "rationale": "Lower right hemorrhagic region to exclude solid malignant component."
+    },
+    {
+      "roi_id": "slide_A_x11776_y13824_mag20",
+      "tile_id": "slide_A_x11776_y13824_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 11776,
+      "y": 13824,
+      "level0": {
+        "x": 11776,
+        "y": 13824,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows fragmented adipose tissue with areas of hemorrhage and necrosis. There is a prominent inflammatory infiltrate composed of neutrophils and macrophages, along with scattered multinucleated giant cells.\n\nThe morphologic features are consistent with fat necrosis. The presence of hemorrhage, necrosis, and inflammation in adipose tissue is characteristic. Differential diagnoses include traumatic fat necrosis, which can be associated with hemorrhage and inflammation, and potentially an inflammatory process such as panniculitis, although the findings here are more suggestive of fat necrosis.",
+      "rationale": "high power of same area to evaluate endothelial atypia/mitoses"
+    },
+    {
+      "roi_id": "slide_A_x23552_y23552_mag10",
+      "tile_id": "slide_A_x23552_y23552_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 23552,
+      "y": 23552,
+      "level0": {
+        "x": 23552,
+        "y": 23552,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows mature adipose tissue with prominent interstitial hemorrhage and scattered inflammatory cells. There are also areas of amorphous eosinophilic material and dark granular deposits.\n\nThe most likely diagnosis is a lipoma with extensive hemorrhage and secondary changes. The presence of mature adipocytes is characteristic of a lipoma, and the hemorrhage and inflammation are likely secondary to trauma or prior interventions. Differential diagnoses include other benign mesenchymal tumors with hemorrhage or a vascular lesion with secondary fat changes.",
+      "rationale": "mid-lower right area with hemorrhage; look for organizing thrombus/phleboliths in venous malformation"
+    },
+    {
+      "roi_id": "slide_A_x24576_y26624_mag20",
+      "tile_id": "slide_A_x24576_y26624_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 24576,
+      "y": 26624,
+      "level0": {
+        "x": 24576,
+        "y": 26624,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles and whorls, with prominent vascularity and areas of hemorrhage.\n\nThe most likely diagnosis is a cellular variant of intramuscular myxoma.\n\nDifferential diagnoses include:\n- Myxoid liposarcoma: typically shows lipoblasts and a more prominent plexiform capillary network.\n- Low-grade fibromyxoid sarcoma: characterized by alternating fibrous and myxoid areas and a swirling growth pattern.",
+      "rationale": "High-power of spindle cell proliferation with thick-walled vessels to characterize cytology/atypia/mitoses; assess pericytic vs neural."
+    },
+    {
+      "roi_id": "slide_A_x6144_y30720_mag5",
+      "tile_id": "slide_A_x6144_y30720_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 6144,
+      "y": 30720,
+      "level0": {
+        "x": 6144,
+        "y": 30720,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows fragmented tissue with a cellular proliferation of spindle cells in a myxoid background, along with scattered multinucleated giant cells and areas of hemorrhage. The spindle cells have elongated nuclei and scant cytoplasm.\n\nThe most likely diagnosis is Myxoid Liposarcoma. The presence of a myxoid matrix, spindle cells, and scattered multinucleated giant cells are characteristic features. The clinical history of a long-standing, recurrent, and progressively enlarging mass in the calf of a young patient is also consistent with this diagnosis.\n\nDifferential diagnoses include Myxofibrosarcoma, which typically shows more pleomorphism and curvilinear vessels, and Nodular Fasciitis, which is usually more cellular and lacks the prominent myxoid matrix and multinucleated giant cells seen here.",
+      "rationale": "Bottom left edge—seek more classic dilated venous channels vs thrombosis."
+    },
+    {
+      "roi_id": "slide_A_x18432_y20480_mag5",
+      "tile_id": "slide_A_x18432_y20480_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 18432,
+      "y": 20480,
+      "level0": {
+        "x": 18432,
+        "y": 20480,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows skeletal muscle fibers with significant variation in size and shape, including atrophic and rounded fibers, along with increased interstitial connective tissue and scattered inflammatory cells.",
+      "rationale": "Lower mid near hemorrhagic zones—assess for organizing thrombus/hematoma-like pseudocysts."
+    },
+    {
+      "roi_id": "slide_A_x13824_y12288_mag20",
+      "tile_id": "slide_A_x13824_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 13824,
+      "y": 12288,
+      "level0": {
+        "x": 13824,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows fragmented tissue with abundant amorphous eosinophilic material, scattered cellular debris, and dark granular material. The background is largely acellular.\n\nThe most likely diagnosis is a myositis ossificans, given the clinical history of a long-standing, recurrent, and progressively enlarging mass in the calf muscle of a young patient, with prior radiation therapy. The histological features of fragmented tissue with amorphous eosinophilic material and cellular debris are consistent with the reactive and reparative process seen in myositis ossificans.\n\nDifferential diagnoses include:\n- Osteosarcoma: This would typically show malignant osteoid production and atypical cells, which are not evident in this image.\n- Soft tissue sarcoma: These would show cellular atypia and mitotic activity, which are not seen here.\n- Hematoma: While there is some clotted blood, the overall picture is not consistent with a simple hematoma.",
+      "rationale": "Area adjacent to vascular spaces—search for hemosiderin macrophages/giant cells"
+    },
+    {
+      "roi_id": "slide_A_x24064_y24064_mag20",
+      "tile_id": "slide_A_x24064_y24064_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 24064,
+      "y": 24064,
+      "level0": {
+        "x": 24064,
+        "y": 24064,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows adipose tissue with extensive deposition of amorphous, eosinophilic material and scattered dark granular deposits. There is also evidence of hemorrhage and inflammation.\n\nThe most likely diagnosis is calciphylaxis, characterized by calcification of small vessels and surrounding tissue necrosis.\n\nDifferential diagnoses include fat necrosis and calcified hematoma, which can show similar features but typically lack the prominent vascular calcification seen in calciphylaxis.",
+      "rationale": "high power to confirm thrombus organization/phlebolith or atypical endothelial proliferation"
+    },
+    {
+      "roi_id": "slide_A_x20480_y6144_mag20",
+      "tile_id": "slide_A_x20480_y6144_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20480,
+      "y": 6144,
+      "level0": {
+        "x": 20480,
+        "y": 6144,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows fragmented adipose tissue with areas of hemorrhage and necrosis. There is also amorphous basophilic material consistent with calcification.\n\nThe most likely diagnosis is calcified hematoma. The presence of fragmented adipose tissue, hemorrhage, necrosis, and calcification are consistent with a resolving hematoma that has undergone dystrophic calcification. The clinical history of a long-standing, painful mass with prior interventions and recurrence is also supportive.\n\nDifferential diagnoses to consider include myositis ossificans, which typically shows zonal ossification, and a calcified soft tissue tumor, which would require identification of neoplastic cells.",
+      "rationale": "High-power of area flagged as increased cellularity in necrotic/hemorrhagic background to verify if viable tumor exists."
+    },
+    {
+      "roi_id": "slide_A_x17408_y22016_mag20",
+      "tile_id": "slide_A_x17408_y22016_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 17408,
+      "y": 22016,
+      "level0": {
+        "x": 17408,
+        "y": 22016,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles with elongated, wavy nuclei and eosinophilic cytoplasm. There is a prominent myxoid background with scattered small vessels.\n\nThe most likely diagnosis is a low-grade myxofibrosarcoma. The differential diagnosis includes myxoid liposarcoma, which typically shows lipoblasts and a more prominent plexiform vascular pattern, and myxoma, which is less cellular and lacks the characteristic curvilinear vessels.",
+      "rationale": "Fibrous septa around cavernous spaces—look for chronic inflammation and lining cells"
+    },
+    {
+      "roi_id": "slide_A_x14848_y19968_mag20",
+      "tile_id": "slide_A_x14848_y19968_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 14848,
+      "y": 19968,
+      "level0": {
+        "x": 14848,
+        "y": 19968,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows skeletal muscle fibers with significant fragmentation and separation by clear spaces. The muscle fibers exhibit variable size and shape, with some appearing rounded and others elongated.\n\nThe most likely diagnosis is a vascular lesion, such as a hemangioma, given the presence of clear spaces separating muscle fibers and the clinical history of a mass in the calf. Other considerations include a vascular malformation or a reactive process with prominent vascularity.",
+      "rationale": "area with heavy pigment/possible radiation change to distinguish hemosiderin vs dystrophic calcification within vascular lesion"
+    },
+    {
+      "roi_id": "slide_A_x22528_y12288_mag5",
+      "tile_id": "slide_A_x22528_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 22528,
+      "y": 12288,
+      "level0": {
+        "x": 22528,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows fragmented soft tissue with extensive hemorrhage, necrosis, and a mixed inflammatory infiltrate. There are also areas of dense fibrous tissue and scattered dark granular material.\n\nThe most likely diagnosis is a vascular malformation with secondary changes, such as a venous malformation with thrombosis and organization. The presence of extensive hemorrhage, necrosis, and fibrosis is consistent with a long-standing lesion that has undergone repeated episodes of bleeding and organization.\n\nDifferential diagnoses include a hemangioma with secondary changes or a traumatic neuroma with extensive hemorrhage and inflammation. However, the lack of a distinct vascular proliferation or neural elements makes these less likely.",
+      "rationale": "Upper right-mid interface—look for solid cellular nodules suggestive of sarcoma."
+    },
+    {
+      "roi_id": "slide_A_x8192_y6144_mag20",
+      "tile_id": "slide_A_x8192_y6144_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 8192,
+      "y": 6144,
+      "level0": {
+        "x": 8192,
+        "y": 6144,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows fragmented tissue with abundant amorphous eosinophilic material, scattered dark granular deposits, and areas of hemorrhage. The tissue is largely acellular with some scattered spindle cells.\n\nThe most likely diagnosis is a vascular lesion, such as a hemangioma, given the presence of hemorrhage and cystic spaces. Other considerations include organizing hematoma or a reactive process with hemorrhage.",
+      "rationale": "High-power of amorphous eosinophilic/hemorrhagic area with possible cells to assess for malignant endothelial/spindle cells."
+    },
+    {
+      "roi_id": "slide_A_x23040_y13824_mag20",
+      "tile_id": "slide_A_x23040_y13824_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 23040,
+      "y": 13824,
+      "level0": {
+        "x": 23040,
+        "y": 13824,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows fragmented tissue with abundant amorphous eosinophilic material and scattered cellular debris. There is a notable absence of viable cellular elements.\n\nThe morphologic features are consistent with necrotic tissue. Given the clinical history of a recurrent tumor and prior treatments, this likely represents necrosis secondary to therapy or ischemia.",
+      "rationale": "Hemorrhagic focus—evaluate for hemosiderin and organizing thrombus"
+    },
+    {
+      "roi_id": "slide_A_x28672_y13312_mag10",
+      "tile_id": "slide_A_x28672_y13312_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 28672,
+      "y": 13312,
+      "level0": {
+        "x": 28672,
+        "y": 13312,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows mature adipose tissue with areas of hemorrhage and scattered inflammatory cells. The adipocytes are uniform with no significant atypia.\n\nThe most likely diagnosis is a lipoma with secondary changes, such as hemorrhage and inflammation, likely related to prior interventions.\n\nDifferential diagnoses include angiolipoma, which would show prominent vascular proliferation, and liposarcoma, which would exhibit atypical adipocytes and lipoblasts.",
+      "rationale": "Upper right region at 10x (not yet viewed) to look for any solid nodules."
+    },
+    {
+      "roi_id": "slide_A_x29696_y20992_mag20",
+      "tile_id": "slide_A_x29696_y20992_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 29696,
+      "y": 20992,
+      "level0": {
+        "x": 29696,
+        "y": 20992,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows fragmented tissue with abundant amorphous eosinophilic material, scattered dark granular deposits, and areas of hemorrhage. The tissue is largely acellular with some scattered inflammatory cells.\n\nThe morphologic features are consistent with a reactive process, likely related to prior treatment and trauma. The amorphous eosinophilic material and hemorrhage are suggestive of treatment effect and tissue damage. The dark granular deposits may represent hemosiderin or other pigment.\n\nDifferential diagnoses to consider include post-treatment changes, organizing hematoma, or a reactive pseudotumor. The clinical history of prior radiation therapy and surgery is important in interpreting these findings.",
+      "rationale": "Peripheral area with calcified/necrotic debris—check for foreign-body giant cells and radiation changes"
+    },
+    {
+      "roi_id": "slide_A_x15872_y11776_mag20",
+      "tile_id": "slide_A_x15872_y11776_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 15872,
+      "y": 11776,
+      "level0": {
+        "x": 15872,
+        "y": 11776,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cystic structure lined by flattened cells, containing eosinophilic material and red blood cells. The surrounding tissue is fibrous with scattered inflammatory cells and dark granular material.\n\nThe most likely diagnosis is a cystic lesion, possibly a ganglion cyst or synovial cyst, given the cystic structure and surrounding fibrous tissue. Differential diagnoses include a hematoma or a cystic degeneration within a soft tissue tumor.",
+      "rationale": "return to best cavernous vascular ROI area to look specifically for thrombus/phlebolith and endothelial atypia"
+    },
+    {
+      "roi_id": "slide_A_x7168_y8192_mag10",
+      "tile_id": "slide_A_x7168_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 7168,
+      "y": 8192,
+      "level0": {
+        "x": 7168,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a vascular lesion with numerous dilated, blood-filled spaces lined by flattened endothelial cells, embedded in a fibrous stroma. The spaces contain red blood cells and some dark brown pigment.\n\nThe most likely diagnosis is a cavernous hemangioma. Differential diagnoses include venous malformation and arteriovenous malformation, which can be distinguished by the presence of arterial or venous components and the overall architecture of the lesion.",
+      "rationale": "Upper left previously called spindle—verify whether just organizing thrombus/fibrosis vs true tumor."
+    },
+    {
+      "roi_id": "slide_A_x14336_y20480_mag5",
+      "tile_id": "slide_A_x14336_y20480_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 14336,
+      "y": 20480,
+      "level0": {
+        "x": 14336,
+        "y": 20480,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows skeletal muscle fibers with prominent interstitial and perivascular inflammation, including lymphocytes and plasma cells, and areas of hemorrhage. There is also a thickened vessel wall with surrounding inflammation.\n\nThe morphologic features are consistent with a reactive process, such as a myositis or inflammatory pseudotumor. The presence of inflammation, hemorrhage, and vascular changes suggests a non-neoplastic process, potentially related to the patient's history of radiation therapy and recurrent swelling.",
+      "rationale": "Mid-lower central area not yet sampled; look for discrete solid cellular foci within lesion."
+    },
+    {
+      "roi_id": "slide_A_x17408_y12288_mag10",
+      "tile_id": "slide_A_x17408_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 17408,
+      "y": 12288,
+      "level0": {
+        "x": 17408,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows large, irregular vascular spaces filled with erythrocytes, lined by flattened endothelial cells, and separated by fibrous septa. The surrounding tissue is composed of skeletal muscle and adipose tissue.\n\nThe most likely diagnosis is a cavernous hemangioma. Differential diagnoses include venous malformation and lymphangioma, which can be distinguished by the presence of lymphatic fluid and the absence of red blood cells in lymphangioma, and the presence of smooth muscle in the walls of venous malformations.",
+      "rationale": "broader context around cavernous spaces to identify thicker-walled veins or organizing thrombi"
+    },
+    {
+      "roi_id": "slide_A_x32768_y11776_mag20",
+      "tile_id": "slide_A_x32768_y11776_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 32768,
+      "y": 11776,
+      "level0": {
+        "x": 32768,
+        "y": 11776,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cystic structure with a thick, laminated wall and internal amorphous material. Surrounding soft tissue exhibits inflammation and necrosis.\n\nThe most likely diagnosis is a parasitic cyst, such as a hydatid cyst.\n\nDifferential diagnoses include a foreign body reaction to a non-parasitic cyst or a cystic neoplasm.",
+      "rationale": "high power at upper-right lamellated calcified structure to decide phlebolith vs dystrophic calcification"
+    },
+    {
+      "roi_id": "slide_A_x11776_y15872_mag20",
+      "tile_id": "slide_A_x11776_y15872_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 11776,
+      "y": 15872,
+      "level0": {
+        "x": 11776,
+        "y": 15872,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows mature adipose tissue with scattered spindle cells and a small blood vessel. The adipocytes are uniform with no significant atypia.\n\nThe most likely diagnosis is a lipoma, a benign tumor of mature adipose tissue. The differential diagnosis includes well-differentiated liposarcoma, which would show atypical stromal cells and lipoblasts, and angiolipoma, which would have a prominent vascular component.",
+      "rationale": "Unexplored mid-left hemorrhagic interface; target pigment-laden macrophages"
+    },
+    {
+      "roi_id": "slide_A_x8192_y31744_mag10",
+      "tile_id": "slide_A_x8192_y31744_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 8192,
+      "y": 31744,
+      "level0": {
+        "x": 8192,
+        "y": 31744,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows skeletal muscle fibers with interstitial blue-staining material and scattered inflammatory cells. The blue material is consistent with mucin deposition.\n\nThe most likely diagnosis is myxoid liposarcoma.\n\nDifferential diagnoses include myxoma, which typically lacks lipoblasts and has less cellularity, and myxofibrosarcoma, which often shows more pleomorphism and curvilinear vessels.",
+      "rationale": "Lower left peripheral area previously requested at 5x but no result; evaluate for any solid cellular proliferation."
+    },
+    {
+      "roi_id": "slide_A_x20480_y16896_mag20",
+      "tile_id": "slide_A_x20480_y16896_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20480,
+      "y": 16896,
+      "level0": {
+        "x": 20480,
+        "y": 16896,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a paucicellular lesion with scattered spindle cells embedded in a prominent myxoid matrix. There are also areas of dense, hyalinized collagen and scattered dark granular material.\n\nThe most likely diagnosis is myxoma. Differential diagnoses include myxoid liposarcoma, which typically shows lipoblasts and a more cellular pattern, and myxofibrosarcoma, which often has more pleomorphism and curvilinear vessels.",
+      "rationale": "Mid-upper central fibrous septa around vascular channels; check for thrombus organization and inflammation"
+    },
+    {
+      "roi_id": "slide_A_x24576_y8192_mag10",
+      "tile_id": "slide_A_x24576_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 24576,
+      "y": 8192,
+      "level0": {
+        "x": 24576,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows fragmented tissue with abundant amorphous eosinophilic material, scattered cellular debris, and dark granular material. The background is largely acellular with minimal viable tissue.\n\nThe morphologic features are consistent with a necrotic process. Given the clinical history of a recurrent mass in the calf of a young patient, the most likely diagnosis is a necrotic soft tissue tumor, such as a necrotic rhabdomyosarcoma.\n\nDifferential diagnoses include necrotic ganglion cyst or necrotic lipoma, which would typically show different background material and lack the cellular debris seen here.",
+      "rationale": "upper-right area with heavy calcification/hemorrhage to search for venous malformation with phleboliths"
+    },
+    {
+      "roi_id": "slide_A_x14336_y20480_mag10",
+      "tile_id": "slide_A_x14336_y20480_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 14336,
+      "y": 20480,
+      "level0": {
+        "x": 14336,
+        "y": 20480,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows skeletal muscle fibers with prominent interstitial and perivascular inflammation, including lymphocytes and plasma cells, along with areas of hemorrhage and necrosis.\n\nThe most likely diagnosis is a reactive process such as proliferative myositis or myositis ossificans, given the history of trauma and radiation therapy.\n\nDifferential diagnoses include inflammatory myopathy or a low-grade sarcoma with prominent inflammation.",
+      "rationale": "Inflammatory/myositis-like region—exclude atypical spindle cell infiltrate or vascular neoplasm."
+    },
+    {
+      "roi_id": "slide_A_x25600_y30720_mag20",
+      "tile_id": "slide_A_x25600_y30720_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 25600,
+      "y": 30720,
+      "level0": {
+        "x": 25600,
+        "y": 30720,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows fragmented tissue with areas of dense cellularity and amorphous material. There are also areas of necrosis and hemorrhage.\n\nThe most likely diagnosis is a malignant soft tissue tumor, such as a sarcoma. The presence of dense cellularity, necrosis, and hemorrhage are concerning features. Differential diagnoses could include other high-grade sarcomas or a metastatic carcinoma, depending on the specific cellular morphology and clinical context.",
+      "rationale": "Right-lower edge; look for capsular fibrosis, radiation atypia, giant cells"
+    },
+    {
+      "roi_id": "slide_A_x28672_y8192_mag10",
+      "tile_id": "slide_A_x28672_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 28672,
+      "y": 8192,
+      "level0": {
+        "x": 28672,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows fragmented tissue with extensive necrosis and hemorrhage. There are areas of dense basophilic material and scattered spindle cells.\n\nThe most likely diagnosis is a malignant soft tissue tumor with extensive necrosis, such as a high-grade sarcoma.\n\nDifferential diagnoses include:\n- Angiosarcoma: characterized by atypical endothelial cells forming irregular vascular channels, which may be difficult to identify in areas of extensive necrosis.\n- Other high-grade sarcomas: such as undifferentiated pleomorphic sarcoma, which can show spindle cells and necrosis but lack specific vascular differentiation.",
+      "rationale": "Upper right peripheral small tissue tongue—rule out a discrete solid nodule/atypical vascular proliferation."
+    },
+    {
+      "roi_id": "slide_A_x16384_y12800_mag20",
+      "tile_id": "slide_A_x16384_y12800_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 16384,
+      "y": 12800,
+      "level0": {
+        "x": 16384,
+        "y": 12800,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows fragmented tissue with abundant amorphous eosinophilic material, scattered spindle cells, and a mixed inflammatory infiltrate. The tissue is fragmented and shows areas of necrosis and hemorrhage.\n\nThe most likely diagnosis is a malignant soft tissue tumor, such as a sarcoma, given the patient's history of a recurrent, aggressive mass in the calf. The fragmented nature and presence of necrosis and hemorrhage are consistent with a high-grade malignancy.\n\nDifferential diagnoses include other high-grade sarcomas (e.g., undifferentiated pleomorphic sarcoma) or a recurrent malignant peripheral nerve sheath tumor, which can occur in the setting of neurofibromatosis type 1.",
+      "rationale": "adjacent cavernous spaces, check lining and any papillary intraluminal endothelial proliferation"
+    },
+    {
+      "roi_id": "slide_A_x11264_y30720_mag10",
+      "tile_id": "slide_A_x11264_y30720_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 11264,
+      "y": 30720,
+      "level0": {
+        "x": 11264,
+        "y": 30720,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows fragmented tissue with extensive necrosis and hemorrhage. There are areas of dense, basophilic material consistent with calcification, and some residual cellular areas with spindle cells and inflammatory cells.\n\nThe most likely diagnosis is calcifying aponeurotic fibroma. This diagnosis is supported by the presence of calcification, necrosis, and spindle cell proliferation in a soft tissue mass from the calf of a young patient with a history of recurrence.\n\nDifferential diagnoses include myositis ossificans, which typically shows zonal maturation with peripheral ossification, and extraskeletal osteosarcoma, which would show malignant osteoid production and atypical spindle cells.",
+      "rationale": "Lower central area with more solid tissue on map; look for nodular cellular focus."
+    },
+    {
+      "roi_id": "slide_A_x9728_y31744_mag20",
+      "tile_id": "slide_A_x9728_y31744_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 9728,
+      "y": 31744,
+      "level0": {
+        "x": 9728,
+        "y": 31744,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows skeletal muscle fibers with significant fragmentation and separation by abundant interstitial material. This material is amorphous, granular, and basophilic, consistent with mucin.\n\nThe most likely diagnosis is Intramuscular Myxoma.\n\nDifferential diagnoses include:\n- Myxoid Liposarcoma: Typically shows lipoblasts and a more prominent plexiform capillary network.\n- Low-grade Myxofibrosarcoma: Usually exhibits more cellular atypia and curvilinear vessels.",
+      "rationale": "Far left-lower edge; assess for fibrosis/hyalinization and pigment"
+    },
+    {
+      "roi_id": "slide_A_x26624_y31744_mag10",
+      "tile_id": "slide_A_x26624_y31744_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 26624,
+      "y": 31744,
+      "level0": {
+        "x": 26624,
+        "y": 31744,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles and whorls, with areas of hyalinization and myxoid change. Scattered multinucleated giant cells are also present.\n\nThe most likely diagnosis is a benign peripheral nerve sheath tumor, such as a schwannoma or neurofibroma.\n\nDifferential diagnoses include other spindle cell lesions of soft tissue, such as leiomyoma or solitary fibrous tumor, which can be distinguished by their characteristic architectural patterns and immunohistochemical profiles.",
+      "rationale": "Lower right peripheral fragment—check for necrosis or hypercellular spindle sarcoma focus."
+    },
+    {
+      "roi_id": "slide_A_x19456_y29696_mag10",
+      "tile_id": "slide_A_x19456_y29696_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 19456,
+      "y": 29696,
+      "level0": {
+        "x": 19456,
+        "y": 29696,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows fragmented tissue with extensive necrosis and hemorrhage, along with areas of viable tissue containing spindle cells and scattered multinucleated giant cells. The background stroma is fibrous and myxoid.\n\nThe most likely diagnosis is a giant cell tumor of soft tissue. The presence of spindle cells, multinucleated giant cells, and a fibrous/myxoid stroma are characteristic features. The extensive necrosis and hemorrhage are consistent with the clinical history of a recurrent, aggressive lesion.\n\nDifferential diagnoses include other giant cell-rich lesions such as tenosynovial giant cell tumor (localized or diffuse type) and aneurysmal bone cyst (solid variant). Tenosynovial giant cell tumor typically shows a more prominent mononuclear cell component and hemosiderin deposition, while aneurysmal bone cyst is characterized by blood-filled cystic spaces.",
+      "rationale": "Lower mid-right area with fibrous septa; screen for hypercellular spindle zones."
+    },
+    {
+      "roi_id": "slide_A_x15360_y9216_mag10",
+      "tile_id": "slide_A_x15360_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 15360,
+      "y": 9216,
+      "level0": {
+        "x": 15360,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows dilated vascular spaces filled with erythrocytes, lined by flattened endothelial cells, and surrounded by fibrous stroma. There is also evidence of hemorrhage and hemosiderin deposition.\n\nThe most likely diagnosis is a vascular malformation, such as a venous malformation or cavernous hemangioma.\n\nDifferential diagnoses include Kaposi sarcoma, which typically shows spindle cells, slit-like vascular spaces, and extravasated red blood cells, and angiosarcoma, which would exhibit more cellular atypia and infiltrative growth.",
+      "rationale": "Upper central fibrotic area—assess for thick-walled vessels/AVM-type components."
+    },
+    {
+      "roi_id": "slide_A_x10240_y11264_mag10",
+      "tile_id": "slide_A_x10240_y11264_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 10240,
+      "y": 11264,
+      "level0": {
+        "x": 10240,
+        "y": 11264,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows fragmented tissue with abundant amorphous eosinophilic material, scattered inflammatory cells, and areas of hemorrhage. The tissue is fragmented and lacks a clear architectural pattern.\n\nThe most likely diagnosis is a soft tissue sarcoma, given the patient's history of a recurrent mass in the calf and the presence of amorphous eosinophilic material and hemorrhage. Differential diagnoses include other types of sarcomas or a reactive process, but the clinical history strongly favors a neoplastic process.",
+      "rationale": "Upper left hemorrhagic zone—confirm cavernous spaces and look for organizing thrombus."
+    },
+    {
+      "roi_id": "slide_A_x25600_y22528_mag10",
+      "tile_id": "slide_A_x25600_y22528_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 25600,
+      "y": 22528,
+      "level0": {
+        "x": 25600,
+        "y": 22528,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows fragmented tissue with abundant amorphous eosinophilic material, scattered basophilic granular deposits, and clear spaces. The background is largely acellular.\n\nThe most likely diagnosis is calcified cystic fibrosis. The presence of amorphous eosinophilic material and basophilic granular deposits is consistent with calcification, which is a common finding in cystic fibrosis. The clear spaces may represent cystic changes or areas of necrosis.\n\nDifferential diagnoses to consider include dystrophic calcification secondary to other conditions such as chronic inflammation or trauma, or a calcified soft tissue tumor. However, the clinical history of cystic fibrosis and the characteristic morphologic features strongly support the diagnosis of calcified cystic fibrosis.",
+      "rationale": "Mid-right area; assess for pericytic staghorn pattern or synovial sarcoma-like solid nests."
+    }
+  ]
+}

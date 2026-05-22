@@ -1,0 +1,1262 @@
+{
+  "case_id": "sem1452_case5",
+  "source": "slideseek-ai-assist",
+  "model": "gpt-5.4",
+  "generated_at": "2026-05-22T09:25:59.427187+00:00",
+  "organ": "Genitourinary",
+  "primary_dx": "Embryonal Rhabdomyosarcoma, Botryoid Pattern, Bladder/Prostatic Urethra",
+  "differential_dx": [
+    "Inflammatory Myofibroblastic Tumor",
+    "Polypoid Cystitis / Fibroepithelial Polyp"
+  ],
+  "microscopic_findings": [
+    {
+      "text": "Polypoid lesion shows broad botryoid lobules with attenuated surface urothelium rather than delicate papillary fronds, supporting…",
+      "roi_ids": [
+        "slide_A_x24576_y16384_mag1",
+        "slide_A_x49152_y16384_mag1"
+      ]
+    },
+    {
+      "text": "Immediately beneath the surface is a dense **cambium-like layer** of primitive **small round-to-spindle cells** with hyperchromatic nuclei.",
+      "roi_ids": [
+        "slide_A_x43008_y11264_mag10",
+        "slide_A_x47616_y15872_mag20"
+      ]
+    },
+    {
+      "text": "Tumor cells lie in loose **myxoid stroma** with hemorrhage and thin vessels, with scattered larger **rhabdomyoblast-like cells** showing…",
+      "roi_ids": [
+        "slide_A_x45056_y10752_mag20",
+        "slide_A_x46080_y11776_mag20"
+      ]
+    },
+    {
+      "text": "Additional areas show hypercellular **fascicular spindle-cell** proliferation with mixed inflammation including **eosinophils**, creating…",
+      "roi_ids": [
+        "slide_A_x28672_y8192_mag20",
+        "slide_A_x11776_y8192_mag20"
+      ]
+    }
+  ],
+  "interpretation": "The combination of a polypoid **botryoid pattern**, a subepithelial **cambium-like layer**, and primitive small round-to-spindle cells in myxoid stroma is most consistent with **embryonal rhabdomyosarcoma, botryoid pattern**. Scattered rhabdomyoblast-like eosinophilic cells further support rhabdomyoblastic differentiation. Although inflammation-rich fascicular areas raise **inflammatory myofibroblastic tumor**, the distinctive cambium distribution and primitive sarcomatous cytology argue against IMT and against a **reactive polypoid lesion**.",
+  "num_rois": 76,
+  "tiles": [
+    {
+      "roi_id": "slide_A_x12288_y8192_mag2",
+      "tile_id": "slide_A_x12288_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 8192,
+      "level0": {
+        "x": 12288,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a highly cellular spindle cell proliferation with a fascicular pattern and entrapped benign epithelial structures. The cells have elongated nuclei and scant cytoplasm.\n\nThe most likely diagnosis is a congenital mesoblastic nephroma, cellular type.\n\nDifferential diagnoses include other spindle cell tumors of the genitourinary tract, such as a solitary fibrous tumor or a smooth muscle tumor.",
+      "rationale": "Low-power scan left polypoid fronds for cellular submucosa vs edema."
+    },
+    {
+      "roi_id": "slide_A_x8192_y4096_mag2",
+      "tile_id": "slide_A_x8192_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 8192,
+      "y": 4096,
+      "level0": {
+        "x": 8192,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a densely cellular proliferation of small, round to oval cells with scant cytoplasm and hyperchromatic nuclei, arranged in sheets and nests. There is a sharp interface between the tumor and the overlying urothelium.\n\nThe most likely diagnosis is a small round blue cell tumor, such as rhabdomyosarcoma, given the patient's age and the location in the genitourinary tract. Differential diagnoses include other small round blue cell tumors like neuroblastoma, Ewing sarcoma, and lymphoma, which can be distinguished by immunohistochemical markers and clinical context.",
+      "rationale": "Low-power scan of left polypoid fronds to identify mucosal surface and any ulceration/botryoid architecture."
+    },
+    {
+      "roi_id": "slide_A_x24576_y16384_mag1",
+      "tile_id": "slide_A_x24576_y16384_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 24576,
+      "y": 16384,
+      "level0": {
+        "x": 24576,
+        "y": 16384,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a polypoid lesion with a surface lined by pseudostratified columnar epithelium and a dense, cellular stroma composed of spindle cells. The stroma is highly vascular with numerous small vessels.\n\nThe most likely diagnosis is a botryoid embryonal rhabdomyosarcoma (sarcoma botryoides).\n\nDifferential diagnoses include other polypoid lesions of the genitourinary tract such as polypoid cystitis or other sarcomas, but the characteristic cambium layer and cellular spindle cell stroma are highly suggestive of embryonal rhabdomyosarcoma.",
+      "rationale": "Mid-slide overview to assess overall polypoid architecture and base."
+    },
+    {
+      "roi_id": "slide_A_x28672_y8192_mag2",
+      "tile_id": "slide_A_x28672_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 28672,
+      "y": 8192,
+      "level0": {
+        "x": 28672,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with areas of variable cellularity and scattered blood vessels. The cells have elongated nuclei and scant cytoplasm.\n\nThe most likely diagnosis is a mesenchymal neoplasm, such as a congenital mesoblastic nephroma.\n\nDifferential diagnoses include other spindle cell tumors of the genitourinary tract, such as a solitary fibrous tumor or a smooth muscle tumor. Immunohistochemical stains would be helpful to differentiate these entities.",
+      "rationale": "Low-power scan of central fronds and stalk for surface urothelium and subepithelial condensation."
+    },
+    {
+      "roi_id": "slide_A_x8192_y16384_mag1",
+      "tile_id": "slide_A_x8192_y16384_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 8192,
+      "y": 16384,
+      "level0": {
+        "x": 8192,
+        "y": 16384,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a polypoid lesion with a surface lined by stratified squamous epithelium and a cellular stroma containing spindle cells and inflammatory cells. The stroma is densely cellular in some areas and less cellular with edema in others.\n\nThe most likely diagnosis is a botryoid embryonal rhabdomyosarcoma (sarcoma botryoides).\n\nDifferential diagnoses include other polypoid lesions of the bladder such as polypoid cystitis or a benign mesenchymal tumor like a fibroepithelial polyp. However, the cellular stroma with spindle cells and inflammatory cells, along with the clinical presentation in a young child, strongly favors a malignant process like embryonal rhabdomyosarcoma.",
+      "rationale": "Left lobulated polypoid area to look for broad-based polyps vs papillary fronds."
+    },
+    {
+      "roi_id": "slide_A_x45056_y8192_mag2",
+      "tile_id": "slide_A_x45056_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 45056,
+      "y": 8192,
+      "level0": {
+        "x": 45056,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular spindle cell proliferation with intersecting fascicles and whorls, surrounding a central lumen lined by epithelium. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a congenital mesoblastic nephroma, cellular type.\n\nDifferential diagnoses include other spindle cell tumors of the genitourinary tract, such as a solitary fibrous tumor or a leiomyoma, which would typically show different architectural patterns and immunohistochemical profiles.",
+      "rationale": "Low-power scan of right-sided polypoid projections for grape-like architecture and surface changes."
+    },
+    {
+      "roi_id": "slide_A_x45056_y12288_mag2",
+      "tile_id": "slide_A_x45056_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 45056,
+      "y": 12288,
+      "level0": {
+        "x": 45056,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a polypoid lesion with a central lumen lined by epithelium, surrounded by a cellular stroma composed of spindle cells arranged in fascicles and whorls. The stroma is highly cellular with scattered blood vessels.\n\nThe most likely diagnosis is botryoid embryonal rhabdomyosarcoma. This diagnosis is supported by the polypoid growth pattern, the presence of a central lumen, and the cellular spindle cell stroma. The patient's age and the location of the lesion in the genitourinary tract are also consistent with this diagnosis.\n\nDifferential diagnoses to consider include other spindle cell neoplasms such as leiomyosarcoma or fibrosarcoma. However, the characteristic botryoid pattern and the patient's age strongly favor embryonal rhabdomyosarcoma. Immunohistochemical stains for skeletal muscle markers (e.g., desmin, myogenin) would be helpful to confirm the diagnosis.",
+      "rationale": "Low-power scan right-sided nodular area near stalk for highest cellularity."
+    },
+    {
+      "roi_id": "slide_A_x49152_y16384_mag1",
+      "tile_id": "slide_A_x49152_y16384_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 49152,
+      "y": 16384,
+      "level0": {
+        "x": 49152,
+        "y": 16384,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a polypoid lesion with a cellular stroma and a prominent inflammatory infiltrate. The surface is lined by urothelium, and the stroma contains numerous blood vessels.\n\nThe most likely diagnosis is a botryoid embryonal rhabdomyosarcoma. This diagnosis is supported by the polypoid growth pattern, the cellular stroma, and the presence of a prominent inflammatory infiltrate. The botryoid subtype is characterized by a cambium layer of primitive cells beneath the epithelium, which is not clearly visible at this low magnification but is a key feature of this tumor type. Differential diagnoses include other polypoid lesions of the bladder, such as inflammatory polyps or other sarcomas, but the combination of features is most consistent with embryonal rhabdomyosarcoma.",
+      "rationale": "Right-sided lobules/possible stalked projections to evaluate surface configuration."
+    },
+    {
+      "roi_id": "slide_A_x53248_y20480_mag2",
+      "tile_id": "slide_A_x53248_y20480_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 53248,
+      "y": 20480,
+      "level0": {
+        "x": 53248,
+        "y": 20480,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a polypoid lesion with a surface lined by urothelium and a core of cellular stroma with a prominent inflammatory infiltrate. The lesion appears to arise from the bladder wall.\n\nThe most likely diagnosis is a polypoid inflammatory myofibroblastic tumor of the bladder.\n\nDifferential diagnoses include inflammatory polyp and solitary fibrous tumor. An inflammatory polyp would typically show more prominent edema and less cellular stroma, while a solitary fibrous tumor would have a more uniform spindle cell proliferation and characteristic staghorn vessels.",
+      "rationale": "Low-power scan of inferior right lobulated area; often best preserved mucosa at edges."
+    },
+    {
+      "roi_id": "slide_A_x32768_y8192_mag1",
+      "tile_id": "slide_A_x32768_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 32768,
+      "y": 8192,
+      "level0": {
+        "x": 32768,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a polypoid mass arising from the bladder wall, composed of a cellular spindle cell proliferation with variable cellularity and areas of hyalinization. The overlying urothelium is intact.\n\nThe most likely diagnosis is a congenital mesoblastic nephroma, cellular type.\n\nDifferential diagnoses include other spindle cell tumors of the genitourinary tract, such as a solitary fibrous tumor or a leiomyoma, which would typically show different architectural patterns and immunohistochemical profiles.",
+      "rationale": "Superior aspect where tissue narrows—possible attachment/base to bladder wall."
+    },
+    {
+      "roi_id": "slide_A_x53248_y4096_mag2",
+      "tile_id": "slide_A_x53248_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 53248,
+      "y": 4096,
+      "level0": {
+        "x": 53248,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a polypoid lesion with a cellular stroma and a surface lined by urothelium. The stroma is composed of spindle cells and contains scattered inflammatory cells and blood vessels.\n\nThe most likely diagnosis is a botryoid embryonal rhabdomyosarcoma. This diagnosis is supported by the polypoid growth pattern, the cellular stroma composed of spindle cells, and the location in the genitourinary tract of a young child. The botryoid subtype is characterized by a cambium layer of densely packed tumor cells beneath the epithelium, which is not clearly visible at this low magnification but is a key feature of this entity.\n\nDifferential diagnoses include other spindle cell tumors of the genitourinary tract, such as congenital mesoblastic nephroma or inflammatory myofibroblastic tumor. However, the botryoid growth pattern and the age of the patient strongly favor embryonal rhabdomyosarcoma.",
+      "rationale": "Check separate small region 1 for tumor vs artifact/edge."
+    },
+    {
+      "roi_id": "slide_A_x8192_y3072_mag10",
+      "tile_id": "slide_A_x8192_y3072_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 8192,
+      "y": 3072,
+      "level0": {
+        "x": 8192,
+        "y": 3072,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense cellular infiltrate composed of small cells with hyperchromatic nuclei and scant cytoplasm, arranged in sheets and nests, with areas of necrosis and hemorrhage. The surface is irregular and ulcerated.\n\nThe most likely diagnosis is a small round blue cell tumor, such as rhabdomyosarcoma.\n\nDifferential diagnoses include other small round blue cell tumors like neuroblastoma, Ewing sarcoma, and lymphoma. Immunohistochemistry for markers such as desmin, myogenin, and MyoD1 would be helpful to confirm rhabdomyosarcoma.",
+      "rationale": "Examine surface urothelium at top-left edge for ulceration vs intact lining and any cambium layer."
+    },
+    {
+      "roi_id": "slide_A_x45056_y12288_mag10",
+      "tile_id": "slide_A_x45056_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 45056,
+      "y": 12288,
+      "level0": {
+        "x": 45056,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a polypoid lesion with a surface lined by urothelium and a densely cellular stroma composed of small, round to spindle-shaped cells with hyperchromatic nuclei and scant cytoplasm. There is also evidence of hemorrhage and inflammation.\n\nThe most likely diagnosis is a botryoid embryonal rhabdomyosarcoma (sarcoma botryoides).\n\nDifferential diagnoses include other small round blue cell tumors such as Wilms tumor (blastemal predominant) or lymphoma, which can be distinguished by immunohistochemical staining for muscle markers (e.g., desmin, myogenin) and lymphoid markers (e.g., CD45, CD20, CD3).",
+      "rationale": "Survey right-sided polypoid/luminal area for cambium layer and cellular condensation."
+    },
+    {
+      "roi_id": "slide_A_x11264_y5120_mag10",
+      "tile_id": "slide_A_x11264_y5120_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 11264,
+      "y": 5120,
+      "level0": {
+        "x": 11264,
+        "y": 5120,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles and haphazardly, with a prominent inflammatory infiltrate and numerous blood vessels.\n\nThe most likely diagnosis is embryonal rhabdomyosarcoma, botryoid type.\n\nDifferential diagnoses include other spindle cell neoplasms such as leiomyosarcoma or inflammatory myofibroblastic tumor, which can be distinguished by immunohistochemical staining for muscle markers (e.g., desmin, myogenin) and inflammatory markers, respectively.",
+      "rationale": "Frond tip in left lobe to assess subepithelial condensation beneath urothelium."
+    },
+    {
+      "roi_id": "slide_A_x6144_y8192_mag5",
+      "tile_id": "slide_A_x6144_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 6144,
+      "y": 8192,
+      "level0": {
+        "x": 6144,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated nuclei and eosinophilic cytoplasm, arranged in intersecting fascicles and whorls, with scattered blood vessels. The overlying urothelium is unremarkable.\n\nThe most likely diagnosis is a mesenchymal neoplasm, such as a leiomyoma or leiomyosarcoma, given the spindle cell morphology and fascicular arrangement. However, the clinical context of a bladder mass in a young child with associated hydronephrosis and ureteral reflux raises suspicion for a congenital or developmental anomaly, such as a polypoid congenital mesoblastic nephroma or a congenital bladder tumor.\n\nDifferential diagnoses include:\n- Congenital mesoblastic nephroma: Typically arises in the kidney but can extend into the bladder; composed of spindle cells in fascicles.\n- Congenital bladder tumor (e.g., rhabdomyosarcoma, leiomyosarcoma): Spindle cell morphology can be seen in these tumors, but rhabdomyosarcoma would show rhabdomyoblasts, and leiomyosarcoma would show more significant atypia and mitotic activity.\n- Inflammatory myofibroblastic tumor: Can occur in the bladder and show spindle cells with inflammatory infiltrate, but typically has a more prominent inflammatory component.",
+      "rationale": "Upper-left mucosal surface to look for cambium layer/subepithelial condensation."
+    },
+    {
+      "roi_id": "slide_A_x29696_y5120_mag10",
+      "tile_id": "slide_A_x29696_y5120_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 29696,
+      "y": 5120,
+      "level0": {
+        "x": 29696,
+        "y": 5120,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with areas of increased cellularity and scattered inflammatory cells. The spindle cells have elongated, wavy nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a congenital mesoblastic nephroma, cellular type. This diagnosis is supported by the spindle cell morphology, fascicular and whorled growth pattern, and the clinical context of a pediatric genitourinary mass.\n\nDifferential diagnoses include other spindle cell neoplasms such as leiomyosarcoma or rhabdomyosarcoma, which would typically show different cellular morphology and immunohistochemical profiles.",
+      "rationale": "Central frond surface in mid specimen—look for cambium layer and botryoid architecture."
+    },
+    {
+      "roi_id": "slide_A_x53248_y4096_mag10",
+      "tile_id": "slide_A_x53248_y4096_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 53248,
+      "y": 4096,
+      "level0": {
+        "x": 53248,
+        "y": 4096,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular spindle cell proliferation with a prominent inflammatory infiltrate and areas of hemorrhage. The spindle cells are arranged in fascicles and haphazardly, with some areas showing a storiform pattern.\n\nThe most likely diagnosis is embryonal rhabdomyosarcoma, botryoid type. This diagnosis is supported by the location in the genitourinary tract, the patient's age, and the characteristic histological features of a cellular spindle cell proliferation with a prominent inflammatory infiltrate and areas of hemorrhage, often seen in a polypoid or botryoid growth pattern.\n\nDifferential diagnoses to consider include other spindle cell neoplasms such as leiomyosarcoma or inflammatory myofibroblastic tumor. However, the presence of rhabdomyoblasts (not clearly visible in this single image but characteristic of rhabdomyosarcoma) and the specific clinical context strongly favor embryonal rhabdomyosarcoma.",
+      "rationale": "Assess small region 1 polyp for most cellular subepithelial zone."
+    },
+    {
+      "roi_id": "slide_A_x12288_y20480_mag5",
+      "tile_id": "slide_A_x12288_y20480_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 12288,
+      "y": 20480,
+      "level0": {
+        "x": 12288,
+        "y": 20480,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a polypoid lesion with a surface lined by urothelium and a dense, mixed cellular infiltrate in the stroma. The infiltrate includes small lymphocytes, plasma cells, and scattered larger cells, with areas of hemorrhage and necrosis.\n\nThe most likely diagnosis is a polypoid rhabdomyosarcoma of the bladder. The presence of a polypoid mass in the bladder of a young child, along with the mixed cellular infiltrate containing larger cells, is characteristic of this entity. Differential diagnoses include other sarcomas or inflammatory conditions, but the specific morphology and clinical context strongly favor rhabdomyosarcoma.",
+      "rationale": "Lower-left large polypoid lobule—assess edema/myxoid stroma vs papillary fronds."
+    },
+    {
+      "roi_id": "slide_A_x54272_y16384_mag10",
+      "tile_id": "slide_A_x54272_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 54272,
+      "y": 16384,
+      "level0": {
+        "x": 54272,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense cellular infiltrate composed of small cells with hyperchromatic nuclei and scant cytoplasm, with scattered larger cells and areas of hemorrhage. The surface is irregular and ulcerated.\n\nThe most likely diagnosis is a small blue round cell tumor, such as rhabdomyosarcoma.\n\nDifferential diagnoses include other small blue round cell tumors like neuroblastoma, Ewing sarcoma, and lymphoma. Distinguishing features would include immunohistochemical staining for markers such as desmin, myogenin, and MyoD1 for rhabdomyosarcoma, CD99 for Ewing sarcoma, and lymphoid markers for lymphoma.",
+      "rationale": "Right-inferior lobule with reported urothelial lining—assess for polypoid cystitis-like edema vs cambium."
+    },
+    {
+      "roi_id": "slide_A_x28672_y8192_mag10",
+      "tile_id": "slide_A_x28672_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 28672,
+      "y": 8192,
+      "level0": {
+        "x": 28672,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles with a prominent inflammatory infiltrate, including numerous eosinophils. The spindle cells have elongated, wavy nuclei and scant cytoplasm.\n\nThe most likely diagnosis is an inflammatory myofibroblastic tumor.\n\nDifferential diagnoses include:\n- Leiomyoma: typically lacks the prominent inflammatory infiltrate and eosinophils.\n- Gastrointestinal stromal tumor (GIST): usually lacks the prominent inflammatory infiltrate and eosinophils, and often shows more uniform spindle cells.",
+      "rationale": "Check central area with fascicles for atypia/mitoses vs edematous stroma."
+    },
+    {
+      "roi_id": "slide_A_x30720_y10240_mag5",
+      "tile_id": "slide_A_x30720_y10240_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 30720,
+      "y": 10240,
+      "level0": {
+        "x": 30720,
+        "y": 10240,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a highly cellular spindle cell proliferation with intersecting fascicles and whorls, adjacent to a cystic structure lined by epithelium. The spindle cells have elongated nuclei and scant cytoplasm.\n\nThe most likely diagnosis is a malignant spindle cell neoplasm, such as a sarcoma.\n\nDifferential diagnoses include:\n- Rhabdomyosarcoma: Look for rhabdomyoblasts or positive immunohistochemistry for myogenin or desmin.\n- Leiomyosarcoma: Look for smooth muscle differentiation and positive immunohistochemistry for smooth muscle actin or desmin.\n- Fibrosarcoma: Look for herringbone pattern and positive immunohistochemistry for vimentin.\n- Malignant peripheral nerve sheath tumor: Look for S100 positivity and association with a nerve.",
+      "rationale": "Suspected base/attachment region—look for invasion into deeper wall/muscularis."
+    },
+    {
+      "roi_id": "slide_A_x12288_y8192_mag10",
+      "tile_id": "slide_A_x12288_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 12288,
+      "y": 8192,
+      "level0": {
+        "x": 12288,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles with a prominent inflammatory infiltrate rich in eosinophils. Numerous blood vessels are also present.\n\nThe most likely diagnosis is an inflammatory myofibroblastic tumor.\n\nDifferential diagnoses include other spindle cell lesions such as solitary fibrous tumor or leiomyoma, which typically lack the prominent inflammatory infiltrate and eosinophils seen here.",
+      "rationale": "Check left polypoid fronds for epithelial component and stromal cellularity."
+    },
+    {
+      "roi_id": "slide_A_x51200_y12288_mag5",
+      "tile_id": "slide_A_x51200_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 51200,
+      "y": 12288,
+      "level0": {
+        "x": 51200,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a polypoid lesion with a surface lined by urothelium and a cellular stroma composed of spindle cells arranged in fascicles and whorls. The stroma is highly vascular with numerous small blood vessels.\n\nThe most likely diagnosis is a botryoid embryonal rhabdomyosarcoma (sarcoma botryoides).\n\nDifferential diagnoses include other polypoid lesions of the bladder such as polypoid cystitis or a fibroepithelial polyp. However, the cellular spindle cell stroma with fascicular and whorled architecture and high vascularity are more characteristic of a sarcoma.",
+      "rationale": "Right-sided polypoid projections with mucosal folds—evaluate architecture and any papillary fronds."
+    },
+    {
+      "roi_id": "slide_A_x9216_y3072_mag20",
+      "tile_id": "slide_A_x9216_y3072_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 9216,
+      "y": 3072,
+      "level0": {
+        "x": 9216,
+        "y": 3072,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a highly cellular proliferation of small to medium-sized cells with hyperchromatic nuclei and scant cytoplasm, arranged in sheets and nests within a fibrous stroma. Scattered larger cells and areas of hemorrhage are also present.\n\nThe most likely diagnosis is a small round blue cell tumor, consistent with a rhabdomyosarcoma, given the patient's age and the location in the genitourinary tract.\n\nDifferential diagnoses include other small round blue cell tumors such as neuroblastoma, Ewing sarcoma, and lymphoma. Immunohistochemical stains for muscle markers (e.g., desmin, myogenin) would be helpful to confirm rhabdomyosarcoma.",
+      "rationale": "High power at left surface/ulcer edge to confirm presence/absence of urothelium and assess for cambium layer."
+    },
+    {
+      "roi_id": "slide_A_x45056_y12800_mag20",
+      "tile_id": "slide_A_x45056_y12800_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 45056,
+      "y": 12800,
+      "level0": {
+        "x": 45056,
+        "y": 12800,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense proliferation of small, round to oval cells with hyperchromatic nuclei and scant cytoplasm, arranged in sheets and nests. There is associated hemorrhage and scattered larger cells.\n\nThe most likely diagnosis is a small round blue cell tumor, consistent with a primitive neuroectodermal tumor (PNET) or Ewing sarcoma.\n\nDifferential diagnoses include rhabdomyosarcoma, lymphoma, and neuroblastoma. Rhabdomyosarcoma may show rhabdomyoblasts, lymphoma would typically have a more discohesive pattern, and neuroblastoma often has neuropil and Homer-Wright rosettes.",
+      "rationale": "High power on dense subepithelial tumor to look for rhabdomyoblasts/strap cells/mitoses."
+    },
+    {
+      "roi_id": "slide_A_x11264_y5120_mag20",
+      "tile_id": "slide_A_x11264_y5120_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 11264,
+      "y": 5120,
+      "level0": {
+        "x": 11264,
+        "y": 5120,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles and haphazardly, with a prominent inflammatory infiltrate and thickened blood vessels.\n\nThe most likely diagnosis is embryonal rhabdomyosarcoma, botryoid type.\n\nDifferential diagnoses include other spindle cell neoplasms such as leiomyosarcoma or inflammatory myofibroblastic tumor, which can be distinguished by immunohistochemical staining for muscle markers (e.g., desmin, myogenin) and inflammatory markers.",
+      "rationale": "High power in left frond with suspected botryoid features to evaluate subepithelial condensation and rhabdomyoblasts."
+    },
+    {
+      "roi_id": "slide_A_x45056_y24576_mag5",
+      "tile_id": "slide_A_x45056_y24576_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 45056,
+      "y": 24576,
+      "level0": {
+        "x": 45056,
+        "y": 24576,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a polypoid lesion with a surface lined by stratified squamous epithelium and a core of cellular stroma with inflammation and hemorrhage. The stroma contains spindle cells and scattered larger cells with eosinophilic cytoplasm.\n\nThe most likely diagnosis is a botryoid embryonal rhabdomyosarcoma (sarcoma botryoides).\n\nDifferential diagnoses include other polypoid lesions such as polypoid cystitis or a benign mesenchymal tumor. However, the presence of a cellular stroma with spindle cells and larger eosinophilic cells is more suggestive of a malignant process like rhabdomyosarcoma.",
+      "rationale": "Inferior right lobule/deeper tissue—check for infiltrative growth or muscle involvement."
+    },
+    {
+      "roi_id": "slide_A_x53248_y3584_mag20",
+      "tile_id": "slide_A_x53248_y3584_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 53248,
+      "y": 3584,
+      "level0": {
+        "x": 53248,
+        "y": 3584,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular stroma with spindle cells, a mixed inflammatory infiltrate, and numerous extravasated red blood cells. The overlying urothelium is pseudostratified columnar.\n\nThe most likely diagnosis is embryonal rhabdomyosarcoma, botryoid type.\n\nDifferential diagnoses include other spindle cell neoplasms such as leiomyosarcoma or inflammatory myofibroblastic tumor, which would typically show different cellular morphology and immunohistochemical profiles.",
+      "rationale": "High power in region 1 cellular spindle/inflammatory area for rhabdomyoblasts vs myofibroblastic features."
+    },
+    {
+      "roi_id": "slide_A_x29696_y4096_mag20",
+      "tile_id": "slide_A_x29696_y4096_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 29696,
+      "y": 4096,
+      "level0": {
+        "x": 29696,
+        "y": 4096,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles, with scattered inflammatory cells and extravasated red blood cells. The surface is irregular and lacks a distinct epithelial lining.\n\nThe most likely diagnosis is a congenital mesoblastic nephroma, cellular type. This diagnosis is supported by the spindle cell morphology, fascicular arrangement, and the clinical context of a pediatric patient with a bladder mass. Differential diagnoses include other spindle cell tumors such as leiomyoma or inflammatory myofibroblastic tumor, but the cellular morphology and clinical presentation are most consistent with congenital mesoblastic nephroma.",
+      "rationale": "High power in central frond to see if there is intact urothelium with underlying cambium or just stromal spindle proliferation."
+    },
+    {
+      "roi_id": "slide_A_x28672_y8192_mag20",
+      "tile_id": "slide_A_x28672_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 28672,
+      "y": 8192,
+      "level0": {
+        "x": 28672,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles with a prominent inflammatory infiltrate rich in eosinophils. The spindle cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is an inflammatory myofibroblastic tumor.\n\nDifferential diagnoses include:\n- Rhabdomyosarcoma: typically shows more pleomorphism, atypical mitoses, and may have rhabdomyoblasts.\n- Leiomyosarcoma: usually shows more nuclear atypia and mitotic activity, with less prominent inflammation.",
+      "rationale": "High power in eosinophil-rich spindle area to assess cytologic atypia, mitoses; exclude IMT-like area."
+    },
+    {
+      "roi_id": "slide_A_x6144_y4096_mag5",
+      "tile_id": "slide_A_x6144_y4096_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 6144,
+      "y": 4096,
+      "level0": {
+        "x": 6144,
+        "y": 4096,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a dense cellular proliferation of small cells with hyperchromatic nuclei and scant cytoplasm, arranged in sheets and nests, with areas of hemorrhage and necrosis. The overlying urothelium is attenuated and focally ulcerated.\n\nThe most likely diagnosis is a small round blue cell tumor, such as rhabdomyosarcoma, given the patient's age and the location in the genitourinary tract. Differential diagnoses include other small round blue cell tumors like neuroblastoma, Ewing sarcoma, and lymphoma, which can be distinguished by immunohistochemistry and molecular studies.",
+      "rationale": "ROI near top-left mucosal surface to better evaluate subepithelial condensation (cambium) and epithelial type."
+    },
+    {
+      "roi_id": "slide_A_x47104_y14848_mag20",
+      "tile_id": "slide_A_x47104_y14848_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 47104,
+      "y": 14848,
+      "level0": {
+        "x": 47104,
+        "y": 14848,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated nuclei and eosinophilic cytoplasm, arranged in short fascicles and haphazardly, with a prominent inflammatory infiltrate and small blood vessels.\n\nThe most likely diagnosis is embryonal rhabdomyosarcoma, botryoid type.\n\nDifferential diagnoses include other spindle cell neoplasms such as leiomyosarcoma or inflammatory myofibroblastic tumor, which can be distinguished by immunohistochemical staining for muscle markers (e.g., desmin, myogenin) and inflammatory markers, respectively.",
+      "rationale": "Sample another right polypoid nodule to confirm rhabdomyoblasts and cambium layer consistency."
+    },
+    {
+      "roi_id": "slide_A_x54272_y15360_mag20",
+      "tile_id": "slide_A_x54272_y15360_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 54272,
+      "y": 15360,
+      "level0": {
+        "x": 54272,
+        "y": 15360,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles and haphazardly, with scattered inflammatory cells and extravasated red blood cells. The spindle cells have bland nuclei without significant atypia or mitotic activity.\n\nThe most likely diagnosis is a benign mesenchymal tumor, such as a leiomyoma or fibroma, given the bland spindle cell morphology and lack of significant atypia or mitotic activity. The presence of inflammation and hemorrhage may be secondary to the tumor's location or associated with the patient's clinical presentation.\n\nDifferential diagnoses include inflammatory myofibroblastic tumor, which can have a similar spindle cell proliferation with inflammation, and solitary fibrous tumor, which can also present as a spindle cell lesion. However, the lack of significant atypia and mitotic activity makes these less likely.",
+      "rationale": "High power in right-inferior area to evaluate whether mucosa is ulcerated and whether cambium layer present."
+    },
+    {
+      "roi_id": "slide_A_x16384_y12288_mag5",
+      "tile_id": "slide_A_x16384_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 16384,
+      "y": 12288,
+      "level0": {
+        "x": 16384,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a highly cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with a prominent inflammatory infiltrate and scattered blood vessels. The spindle cells have elongated nuclei and scant cytoplasm.\n\nThe most likely diagnosis is a congenital mesoblastic nephroma, cellular type. This diagnosis is supported by the patient's age, the location of the mass in the genitourinary tract, and the characteristic histological features of a cellular spindle cell proliferation with a prominent inflammatory infiltrate.\n\nDifferential diagnoses to consider include other spindle cell neoplasms such as infantile fibrosarcoma or rhabdomyosarcoma. Infantile fibrosarcoma typically shows a more herringbone pattern and may have more prominent mitotic activity. Rhabdomyosarcoma would show evidence of skeletal muscle differentiation, which is not apparent in this image.",
+      "rationale": "Central-left lobule with pale stroma—assess edema/myxoid change and vascularity."
+    },
+    {
+      "roi_id": "slide_A_x11776_y8192_mag20",
+      "tile_id": "slide_A_x11776_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 11776,
+      "y": 8192,
+      "level0": {
+        "x": 11776,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles and haphazardly, with a prominent inflammatory infiltrate rich in eosinophils and scattered multinucleated giant cells.\n\nThe most likely diagnosis is an inflammatory myofibroblastic tumor.\n\nDifferential diagnoses include:\n- Rhabdomyosarcoma: typically shows more pleomorphism, mitotic activity, and may have strap cells or cross-striations.\n- Leiomyosarcoma: usually shows more uniform spindle cells with blunt-ended nuclei and less prominent inflammation.\n- Gastrointestinal stromal tumor (GIST): typically shows more uniform spindle cells with less inflammation and may have perinuclear vacuoles.",
+      "rationale": "High power left lesion to check if same process; evaluate inflammation vs tumor."
+    },
+    {
+      "roi_id": "slide_A_x26624_y16384_mag5",
+      "tile_id": "slide_A_x26624_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 26624,
+      "y": 16384,
+      "level0": {
+        "x": 26624,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a dense cellular infiltrate composed of small, round cells with hyperchromatic nuclei and scant cytoplasm, arranged in sheets. There is also a surface layer of flattened cells and areas of hemorrhage.\n\nThe most likely diagnosis is a small round blue cell tumor, such as rhabdomyosarcoma, given the patient's age and the location in the genitourinary tract. Differential diagnoses include other small round blue cell tumors like neuroblastoma, Ewing sarcoma, and lymphoma, which can be distinguished by immunohistochemical markers and clinical context.",
+      "rationale": "Central stalk/base region around thicker tissue to look for deep extension into muscle/prostate."
+    },
+    {
+      "roi_id": "slide_A_x15360_y3072_mag10",
+      "tile_id": "slide_A_x15360_y3072_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 15360,
+      "y": 3072,
+      "level0": {
+        "x": 15360,
+        "y": 3072,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense cellular infiltrate composed of small to medium-sized cells with hyperchromatic nuclei and scant cytoplasm, arranged in sheets and nests with a prominent vascular network. The surface epithelium is ulcerated.\n\nThe most likely diagnosis is a small round blue cell tumor, such as rhabdomyosarcoma.\n\nDifferential diagnoses include other small round blue cell tumors like neuroblastoma, Ewing sarcoma, and lymphoma. Immunohistochemistry for markers such as desmin, myogenin, and MyoD1 would be helpful to confirm rhabdomyosarcoma.",
+      "rationale": "Top surface ridge mid-left—look for intact urothelium with subepithelial cambium vs ulceration."
+    },
+    {
+      "roi_id": "slide_A_x15360_y2560_mag20",
+      "tile_id": "slide_A_x15360_y2560_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 15360,
+      "y": 2560,
+      "level0": {
+        "x": 15360,
+        "y": 2560,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense cellular infiltrate composed of small cells with hyperchromatic nuclei and scant cytoplasm, along with scattered larger cells and areas of hemorrhage. The surface is irregular and appears ulcerated.\n\nThe most likely diagnosis is embryonal rhabdomyosarcoma, botryoid type.\n\nDifferential diagnoses include other small blue round cell tumors such as lymphoma or Ewing sarcoma, which can be distinguished by immunohistochemistry (e.g., desmin, myogenin for rhabdomyosarcoma; CD45 for lymphoma; CD99 for Ewing sarcoma).",
+      "rationale": "High power of mid-left surface to confirm cambium layer (subepithelial condensation) and rhabdomyoblasts."
+    },
+    {
+      "roi_id": "slide_A_x21504_y3072_mag10",
+      "tile_id": "slide_A_x21504_y3072_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 21504,
+      "y": 3072,
+      "level0": {
+        "x": 21504,
+        "y": 3072,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a highly cellular proliferation of small, round to oval cells with hyperchromatic nuclei and scant cytoplasm, arranged in sheets and nests with a delicate vascular network. The surface is irregular and ulcerated.\n\nThe most likely diagnosis is a small round blue cell tumor, such as rhabdomyosarcoma.\n\nDifferential diagnoses include other small round blue cell tumors like neuroblastoma, Ewing sarcoma, and lymphoma. Immunohistochemistry for markers such as desmin, myogenin, and MyoD1 would be helpful to confirm rhabdomyosarcoma.",
+      "rationale": "Midline upper surface near stalk—assess mucosa and any hypercellular cambium layer."
+    },
+    {
+      "roi_id": "slide_A_x45056_y10752_mag20",
+      "tile_id": "slide_A_x45056_y10752_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 45056,
+      "y": 10752,
+      "level0": {
+        "x": 45056,
+        "y": 10752,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a highly cellular proliferation of spindle cells with hyperchromatic nuclei and scant cytoplasm, arranged in sheets and fascicles, with prominent vascularity and hemorrhage. The overlying urothelium is intact.\n\nThe most likely diagnosis is a malignant mesenchymal neoplasm, such as a rhabdomyosarcoma, given the spindle cell morphology and high cellularity in a genitourinary location in a young child.\n\nDifferential diagnoses include other spindle cell sarcomas or a highly cellular inflammatory process, though the cellular atypia and growth pattern favor a neoplasm.",
+      "rationale": "Re-sample just beneath urothelium in right polypoid area to look for cambium layer and rhabdomyoblasts (avoid hemorrhage)."
+    },
+    {
+      "roi_id": "slide_A_x36864_y8192_mag5",
+      "tile_id": "slide_A_x36864_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 36864,
+      "y": 8192,
+      "level0": {
+        "x": 36864,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with areas of variable cellularity and scattered blood vessels. The spindle cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a congenital mesoblastic nephroma, cellular type. This diagnosis is supported by the spindle cell morphology, intersecting fascicles, and the clinical context of a pediatric genitourinary mass.\n\nDifferential diagnoses include other spindle cell neoplasms such as infantile fibrosarcoma, which typically shows a more herringbone pattern and may have more prominent mitotic activity, and solitary fibrous tumor, which often has a more prominent hemangiopericytoma-like vascular pattern and stromal collagen.",
+      "rationale": "Superior central band-like area—possible muscularis/prostatic tissue interface."
+    },
+    {
+      "roi_id": "slide_A_x20992_y3072_mag20",
+      "tile_id": "slide_A_x20992_y3072_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20992,
+      "y": 3072,
+      "level0": {
+        "x": 20992,
+        "y": 3072,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a highly cellular proliferation of spindle to ovoid cells with hyperchromatic nuclei and scant cytoplasm, arranged in sheets and fascicles. Scattered larger cells with eosinophilic cytoplasm and brown pigment are also present.\n\nThe most likely diagnosis is a malignant mesenchymal neoplasm, such as a rhabdomyosarcoma, given the cellular morphology and the patient's age.\n\nDifferential diagnoses include other spindle cell sarcomas or a malignant melanoma, which can be distinguished by immunohistochemical staining for specific markers.",
+      "rationale": "High power midline surface—evaluate for intact urothelium vs denudation and underlying hypercellularity."
+    },
+    {
+      "roi_id": "slide_A_x55296_y14336_mag5",
+      "tile_id": "slide_A_x55296_y14336_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 55296,
+      "y": 14336,
+      "level0": {
+        "x": 55296,
+        "y": 14336,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a polypoid lesion with a cellular stroma containing spindle cells and numerous blood vessels, covered by urothelium. The stroma is less cellular and more myxoid in the core of the polypoid structure.\n\nThe most likely diagnosis is botryoid embryonal rhabdomyosarcoma.\n\nDifferential diagnoses include polypoid cystitis and other sarcomas. Polypoid cystitis would typically show a more inflammatory stroma and lack the characteristic cambium layer. Other sarcomas would have different cellular morphology and immunohistochemical profiles.",
+      "rationale": "Far-right peripheral polyp tip—check if true papillary fronds vs botryoid polyp and surface ulceration."
+    },
+    {
+      "roi_id": "slide_A_x44544_y13312_mag20",
+      "tile_id": "slide_A_x44544_y13312_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 44544,
+      "y": 13312,
+      "level0": {
+        "x": 44544,
+        "y": 13312,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles and haphazardly, with scattered inflammatory cells and extravasated red blood cells. The overlying urothelium is intact.\n\nThe most likely diagnosis is a congenital mesoblastic nephroma, cellular type. This diagnosis is supported by the spindle cell morphology, cellularity, and the clinical context of an 18-month-old male with a bladder mass and associated hydronephrosis.\n\nDifferential diagnoses include other spindle cell tumors of the genitourinary tract, such as a solitary fibrous tumor or a leiomyoma. However, the cellular morphology and clinical presentation are more consistent with a congenital mesoblastic nephroma.",
+      "rationale": "High power in deeper stroma of right nodule to assess myxoid background vs fascicular spindle, mitoses/necrosis."
+    },
+    {
+      "roi_id": "slide_A_x43008_y3072_mag20",
+      "tile_id": "slide_A_x43008_y3072_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 43008,
+      "y": 3072,
+      "level0": {
+        "x": 43008,
+        "y": 3072,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a surface lined by flattened to cuboidal cells with underlying edematous stroma containing scattered spindle cells and a mixed inflammatory infiltrate. The stroma is loose and myxoid in areas.\n\nThe most likely diagnosis is a polypoid lesion of the bladder, such as a polypoid cystitis or a reactive process. The presence of edema, inflammation, and spindle cells in the stroma supports a reactive or inflammatory etiology.\n\nDifferential diagnoses include polypoid cystitis, which is a reactive process often associated with inflammation and edema, and a fibroepithelial polyp, which is a benign lesion composed of fibrovascular stroma covered by urothelium. The lack of significant cellular atypia or mitotic activity favors a benign or reactive process over a neoplastic one.",
+      "rationale": "High power upper right surface—look for cambium and any cross striations/rhabdomyoblast morphology."
+    },
+    {
+      "roi_id": "slide_A_x43008_y3072_mag10",
+      "tile_id": "slide_A_x43008_y3072_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 43008,
+      "y": 3072,
+      "level0": {
+        "x": 43008,
+        "y": 3072,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a polypoid structure with a fibrovascular core lined by urothelium. There is a dense inflammatory infiltrate in the stroma, including lymphocytes and plasma cells, with some hemorrhage.\n\nThe most likely diagnosis is a polypoid urothelial neoplasm, such as a urothelial papilloma or low-grade papillary urothelial carcinoma. The presence of a fibrovascular core and urothelial lining are characteristic features. The inflammatory infiltrate and hemorrhage are non-specific findings that can be seen in both benign and malignant lesions.\n\nDifferential diagnoses include a reactive urothelial polyp or a benign mesenchymal lesion with entrapped urothelium. Reactive polyps can have similar features but typically lack the complex architecture and cellular atypia seen in neoplasms. Mesenchymal lesions would show a different stromal component, such as smooth muscle or fibrous tissue, rather than the prominent inflammatory infiltrate seen here.",
+      "rationale": "Upper right frond surface—check for grape-like botryoid polyp covered by urothelium and subepithelial condensation."
+    },
+    {
+      "roi_id": "slide_A_x47104_y10752_mag20",
+      "tile_id": "slide_A_x47104_y10752_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 47104,
+      "y": 10752,
+      "level0": {
+        "x": 47104,
+        "y": 10752,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated, wavy nuclei and eosinophilic cytoplasm, arranged in intersecting fascicles and whorls. Scattered inflammatory cells and small blood vessels are also present.\n\nThe most likely diagnosis is a congenital mesoblastic nephroma, cellular type. This diagnosis is supported by the spindle cell morphology, fascicular and whorled growth pattern, and the clinical context of a mass in the genitourinary tract of an infant.\n\nDifferential diagnoses include other spindle cell neoplasms such as infantile fibrosarcoma, which typically shows a more herringbone pattern and may have more prominent mitotic activity, and rhabdomyosarcoma, which would show evidence of skeletal muscle differentiation.",
+      "rationale": "High power right central surface—assess epithelial covering and stromal condensation."
+    },
+    {
+      "roi_id": "slide_A_x30208_y7168_mag20",
+      "tile_id": "slide_A_x30208_y7168_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 30208,
+      "y": 7168,
+      "level0": {
+        "x": 30208,
+        "y": 7168,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles with elongated, wavy nuclei and eosinophilic cytoplasm. Scattered inflammatory cells, including eosinophils, are present within the stroma.\n\nThe most likely diagnosis is a congenital mesoblastic nephroma, cellular type. This diagnosis is supported by the spindle cell morphology, intersecting fascicles, and the clinical context of an 18-month-old male with a bladder mass and associated hydronephrosis.\n\nDifferential diagnoses include other spindle cell neoplasms such as leiomyosarcoma or inflammatory myofibroblastic tumor. Leiomyosarcoma would typically show more nuclear atypia and mitotic activity, while inflammatory myofibroblastic tumor would have a more prominent inflammatory infiltrate and often ALK rearrangement.",
+      "rationale": "High power central spindle/inflammatory area to look for any rhabdomyoblasts; assess atypia/mitoses."
+    },
+    {
+      "roi_id": "slide_A_x47104_y10240_mag10",
+      "tile_id": "slide_A_x47104_y10240_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 47104,
+      "y": 10240,
+      "level0": {
+        "x": 47104,
+        "y": 10240,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with areas of increased cellularity and scattered inflammatory cells. The spindle cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a mesenchymal neoplasm, such as a rhabdomyosarcoma, given the spindle cell morphology and the clinical context of a bladder mass in a young child.\n\nDifferential diagnoses include other spindle cell tumors such as leiomyosarcoma or inflammatory myofibroblastic tumor. Immunohistochemical stains for muscle markers (e.g., desmin, myogenin) and inflammatory markers would be helpful in distinguishing between these possibilities.",
+      "rationale": "Right central frond edge—search for best preserved surface urothelium interface."
+    },
+    {
+      "roi_id": "slide_A_x32768_y8192_mag2",
+      "tile_id": "slide_A_x32768_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 32768,
+      "y": 8192,
+      "level0": {
+        "x": 32768,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular spindle cell proliferation with variable cellularity and areas of hyalinization. The cells are arranged in fascicles and whorls, with entrapped benign glandular structures.\n\nThe most likely diagnosis is a congenital mesoblastic nephroma, cellular type. This diagnosis is supported by the spindle cell morphology, variable cellularity, and the clinical context of an 18-month-old male with a large abdominal mass and associated hydronephrosis.\n\nDifferential diagnoses include other spindle cell neoplasms such as infantile fibrosarcoma or solitary fibrous tumor. Infantile fibrosarcoma typically shows a more uniform cellularity and characteristic translocation, while solitary fibrous tumor often has a more prominent vascular pattern and stromal hyalinization.",
+      "rationale": "Survey central superior thick tissue at lower mag to identify muscularis/prostate and attachment base."
+    },
+    {
+      "roi_id": "slide_A_x26112_y9728_mag20",
+      "tile_id": "slide_A_x26112_y9728_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 26112,
+      "y": 9728,
+      "level0": {
+        "x": 26112,
+        "y": 9728,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles with a prominent inflammatory infiltrate rich in eosinophils. The spindle cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is embryonal rhabdomyosarcoma, botryoid type.\n\nDifferential diagnoses include inflammatory myofibroblastic tumor and other spindle cell sarcomas.",
+      "rationale": "High power around entrapped epithelium/glands to assess epithelial component (nephrogenic adenoma?) and stromal interface."
+    },
+    {
+      "roi_id": "slide_A_x46592_y22528_mag20",
+      "tile_id": "slide_A_x46592_y22528_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 46592,
+      "y": 22528,
+      "level0": {
+        "x": 46592,
+        "y": 22528,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a polypoid lesion with a surface lined by stratified squamous epithelium and a core of cellular stroma with inflammation and hemorrhage. The stroma contains spindle cells and scattered dark granular material.\n\nThe most likely diagnosis is a botryoid embryonal rhabdomyosarcoma (sarcoma botryoides).\n\nDifferential diagnoses include other polypoid lesions of the bladder such as polypoid cystitis or a benign mesenchymal tumor like a fibroepithelial polyp. However, the presence of a cellular stroma with spindle cells and the clinical context of a polypoid mass in a young child strongly favor a malignant process like embryonal rhabdomyosarcoma.",
+      "rationale": "High power inferior right edge—assess for polypoid cystitis-type edema/inflammation vs cambium."
+    },
+    {
+      "roi_id": "slide_A_x46080_y22528_mag10",
+      "tile_id": "slide_A_x46080_y22528_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 46080,
+      "y": 22528,
+      "level0": {
+        "x": 46080,
+        "y": 22528,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense cellular proliferation of spindle cells with scattered pigment and hemorrhage, adjacent to urothelium. The spindle cells are arranged in fascicles and haphazardly, with some areas showing a storiform pattern.\n\nThe most likely diagnosis is a malignant mesenchymal neoplasm, such as a rhabdomyosarcoma, given the spindle cell morphology and the patient's age. Differential diagnoses include other spindle cell sarcomas or a pigmented lesion like a melanoma, although the latter is less likely in this location and age group.",
+      "rationale": "Inferior rightmost lobule edge—confirm whether urothelium present and assess for cambium."
+    },
+    {
+      "roi_id": "slide_A_x53760_y4608_mag20",
+      "tile_id": "slide_A_x53760_y4608_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 53760,
+      "y": 4608,
+      "level0": {
+        "x": 53760,
+        "y": 4608,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular stroma with spindle cells and a mixed inflammatory infiltrate, including eosinophils, beneath a surface epithelium. The stroma is highly vascular with numerous small vessels.\n\nThe most likely diagnosis is embryonal rhabdomyosarcoma, botryoid type.\n\nDifferential diagnoses include other spindle cell neoplasms such as leiomyosarcoma or inflammatory myofibroblastic tumor, which can be distinguished by immunohistochemical staining for muscle markers (e.g., desmin, myogenin) and inflammatory markers, respectively.",
+      "rationale": "High power subepithelial zone in region1 to look for condensation/cambium and rhabdomyoblasts."
+    },
+    {
+      "roi_id": "slide_A_x34816_y10240_mag5",
+      "tile_id": "slide_A_x34816_y10240_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 34816,
+      "y": 10240,
+      "level0": {
+        "x": 34816,
+        "y": 10240,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with areas of variable cellularity and a prominent myxoid background. The cells have elongated, wavy nuclei and scant cytoplasm.\n\nThe most likely diagnosis is a congenital mesoblastic nephroma, cellular type. This diagnosis is supported by the spindle cell morphology, intersecting fascicles, and myxoid stroma in a genitourinary specimen from an 18-month-old male.\n\nDifferential diagnoses include other spindle cell neoplasms such as infantile fibrosarcoma, which typically shows a more uniform cellularity and a herringbone pattern, and solitary fibrous tumor, which often has a more prominent hemangiopericytoma-like vascular pattern and collagenous stroma.",
+      "rationale": "Focus along presumed wall interface to look for muscular bundles with tumor infiltration."
+    },
+    {
+      "roi_id": "slide_A_x24576_y8192_mag5",
+      "tile_id": "slide_A_x24576_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 24576,
+      "y": 8192,
+      "level0": {
+        "x": 24576,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a spindle cell proliferation with variable cellularity, arranged in fascicles and haphazardly, with areas of myxoid change and scattered inflammatory cells. The cells have elongated, wavy nuclei.\n\nThe most likely diagnosis is a congenital mesoblastic nephroma, cellular type.\n\nDifferential diagnoses include infantile fibrosarcoma, which typically shows a more uniform cellularity and a herringbone pattern, and inflammatory myofibroblastic tumor, which often has a more prominent inflammatory infiltrate and may show ALK rearrangement.",
+      "rationale": "Another potential base region near narrowing to see if polyp arises from broad base with underlying muscle."
+    },
+    {
+      "roi_id": "slide_A_x41984_y3072_mag20",
+      "tile_id": "slide_A_x41984_y3072_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 41984,
+      "y": 3072,
+      "level0": {
+        "x": 41984,
+        "y": 3072,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular stroma with spindle cells and a prominent blood vessel. The stroma is composed of spindle cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles and haphazardly, with a prominent blood vessel containing erythrocytes.\n\nThe most likely diagnosis is a stromal tumor of the bladder, such as a stromal polyp or stromal sarcoma. The differential diagnosis includes other spindle cell lesions of the bladder, such as leiomyoma or leiomyosarcoma, which would typically show more prominent smooth muscle differentiation and fascicular architecture.",
+      "rationale": "Revisit right-upper frond with preserved urothelium to specifically assess for cambium layer (subepithelial hypercellular condensation)."
+    },
+    {
+      "roi_id": "slide_A_x45568_y10240_mag20",
+      "tile_id": "slide_A_x45568_y10240_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 45568,
+      "y": 10240,
+      "level0": {
+        "x": 45568,
+        "y": 10240,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular stroma composed of spindle cells with interspersed inflammatory cells and extravasated red blood cells. The overlying urothelium is pseudostratified columnar with cilia.\n\nThe most likely diagnosis is a botryoid embryonal rhabdomyosarcoma. This diagnosis is supported by the characteristic cambium layer of densely packed spindle cells beneath the urothelium, the presence of extravasated red blood cells, and the clinical presentation of a polypoid mass in the bladder of a young child.\n\nDifferential diagnoses include other spindle cell tumors such as leiomyosarcoma or inflammatory myofibroblastic tumor. However, the presence of a cambium layer and the patient's age strongly favor embryonal rhabdomyosarcoma.",
+      "rationale": "Highest cellular subepithelial zone on right—search for rhabdomyoblasts/strap cells and mitoses."
+    },
+    {
+      "roi_id": "slide_A_x43008_y8192_mag5",
+      "tile_id": "slide_A_x43008_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 43008,
+      "y": 8192,
+      "level0": {
+        "x": 43008,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with entrapped benign glandular structures. The spindle cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a congenital mesoblastic nephroma, cellular type. This diagnosis is supported by the spindle cell morphology, fascicular and whorled growth pattern, and the presence of entrapped benign structures, which is characteristic of this entity in the genitourinary tract of a young child.\n\nDifferential diagnoses include other spindle cell neoplasms such as rhabdomyosarcoma (embryonal type) or leiomyosarcoma. Rhabdomyosarcoma would typically show more pleomorphism and potentially rhabdomyoblasts, while leiomyosarcoma would have more eosinophilic cytoplasm and blunt-ended nuclei.",
+      "rationale": "Right-central thick band area—check for native bladder wall vs tumor stroma."
+    },
+    {
+      "roi_id": "slide_A_x43520_y3584_mag20",
+      "tile_id": "slide_A_x43520_y3584_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 43520,
+      "y": 3584,
+      "level0": {
+        "x": 43520,
+        "y": 3584,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells within a myxoid stroma, with scattered inflammatory cells and a prominent blood vessel. The spindle cells have elongated nuclei and are arranged in a loose pattern.\n\nThe most likely diagnosis is embryonal rhabdomyosarcoma, botryoid type.\n\nDifferential diagnoses include other spindle cell neoplasms such as leiomyosarcoma or inflammatory myofibroblastic tumor. However, the characteristic myxoid stroma and the clinical context of a polypoid mass in the bladder of a young child strongly favor embryonal rhabdomyosarcoma, botryoid type.",
+      "rationale": "Adjacent area on same frond to confirm consistency of subepithelial zone vs edematous stroma."
+    },
+    {
+      "roi_id": "slide_A_x46080_y11776_mag20",
+      "tile_id": "slide_A_x46080_y11776_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 46080,
+      "y": 11776,
+      "level0": {
+        "x": 46080,
+        "y": 11776,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense proliferation of small, round to oval cells with hyperchromatic nuclei and scant cytoplasm, arranged in sheets and nests. Scattered larger cells with more abundant eosinophilic cytoplasm are also present.\n\nThe most likely diagnosis is a small round blue cell tumor, consistent with a primitive neuroectodermal tumor (PNET) or Ewing sarcoma family tumor.\n\nDifferential diagnoses include rhabdomyosarcoma, which can also present as a small round blue cell tumor in this location, and lymphoma, which typically shows a more diffuse pattern and lacks the larger eosinophilic cells seen here.",
+      "rationale": "Another dense focus closer to luminal surface to look for cambium layer and any cross-striations."
+    },
+    {
+      "roi_id": "slide_A_x44032_y3072_mag20",
+      "tile_id": "slide_A_x44032_y3072_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 44032,
+      "y": 3072,
+      "level0": {
+        "x": 44032,
+        "y": 3072,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense cellular infiltrate composed of small cells with hyperchromatic nuclei and scant cytoplasm, along with scattered larger cells, within a fibrous stroma. The cells are arranged in sheets and nests.\n\nThe most likely diagnosis is a small round blue cell tumor, such as rhabdomyosarcoma.\n\nDifferential diagnoses include other small round blue cell tumors like neuroblastoma, Ewing sarcoma, and lymphoma. Immunohistochemistry for markers such as desmin, myogenin, and MyoD1 would be helpful to confirm rhabdomyosarcoma.",
+      "rationale": "Frond tip where urothelium thinnest—best chance to see cambium if present."
+    },
+    {
+      "roi_id": "slide_A_x36864_y14336_mag5",
+      "tile_id": "slide_A_x36864_y14336_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 36864,
+      "y": 14336,
+      "level0": {
+        "x": 36864,
+        "y": 14336,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with areas of variable cellularity and scattered blood vessels. The spindle cells have elongated nuclei and scant cytoplasm.\n\nThe most likely diagnosis is a congenital mesoblastic nephroma, cellular type. This diagnosis is supported by the spindle cell morphology, intersecting fascicles, and the clinical context of an 18-month-old male with a bladder mass and hydronephrosis.\n\nDifferential diagnoses include other spindle cell tumors of the genitourinary tract, such as leiomyoma or leiomyosarcoma, which would typically show more prominent smooth muscle differentiation and different growth patterns.",
+      "rationale": "Midline deeper core away from surface to assess infiltration pattern (nodular vs infiltrative)."
+    },
+    {
+      "roi_id": "slide_A_x47616_y15872_mag20",
+      "tile_id": "slide_A_x47616_y15872_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 47616,
+      "y": 15872,
+      "level0": {
+        "x": 47616,
+        "y": 15872,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of small, round to oval cells with hyperchromatic nuclei and scant cytoplasm, arranged in sheets and cords within a loose, myxoid stroma. Scattered larger cells and prominent blood vessels are also present.\n\nThe most likely diagnosis is embryonal rhabdomyosarcoma, botryoid type.\n\nDifferential diagnoses include other small round blue cell tumors such as Ewing sarcoma/PNET, lymphoma, and neuroblastoma. Immunohistochemistry for markers like desmin, myogenin, and MyoD1 would be helpful to confirm rhabdomyosarcoma.",
+      "rationale": "Deeper right nodule—assess for myxoid stroma, necrosis, atypical mitoses."
+    },
+    {
+      "roi_id": "slide_A_x40960_y3072_mag10",
+      "tile_id": "slide_A_x40960_y3072_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 40960,
+      "y": 3072,
+      "level0": {
+        "x": 40960,
+        "y": 3072,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated, wavy nuclei in a loose, myxoid stroma, along with numerous thin-walled blood vessels. The spindle cells are arranged in fascicles and whorls.\n\nThe most likely diagnosis is a neurofibroma. The differential diagnosis includes schwannoma, which typically shows more organized Antoni A and B areas and Verocay bodies, and leiomyoma, which has more eosinophilic cytoplasm and blunt-ended nuclei.",
+      "rationale": "Context view of right-upper frond architecture to correlate epithelial coverage and stromal cellularity gradients."
+    },
+    {
+      "roi_id": "slide_A_x28160_y8192_mag20",
+      "tile_id": "slide_A_x28160_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 28160,
+      "y": 8192,
+      "level0": {
+        "x": 28160,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles with a prominent inflammatory infiltrate rich in eosinophils. The spindle cells have elongated, wavy nuclei and scant cytoplasm.\n\nThe most likely diagnosis is an inflammatory myofibroblastic tumor.\n\nDifferential diagnoses include:\n- Rhabdomyosarcoma: typically shows more pleomorphism, mitotic activity, and may have rhabdomyoblasts.\n- Leiomyosarcoma: usually shows more uniform spindle cells with blunt-ended nuclei and less prominent inflammation.",
+      "rationale": "Inflammatory spindle area—confirm degree of atypia/mitotic activity; rule out pure IMT."
+    },
+    {
+      "roi_id": "slide_A_x51200_y4096_mag5",
+      "tile_id": "slide_A_x51200_y4096_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 51200,
+      "y": 4096,
+      "level0": {
+        "x": 51200,
+        "y": 4096,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated nuclei and eosinophilic cytoplasm, arranged in intersecting fascicles and whorls, with areas of hyalinization and scattered inflammatory cells. The overlying urothelium is intact.\n\nThe most likely diagnosis is a congenital mesoblastic nephroma, cellular type. This diagnosis is supported by the spindle cell morphology, fascicular and whorled growth pattern, and the clinical context of an 18-month-old male with a bladder mass and associated hydronephrosis.\n\nDifferential diagnoses include other spindle cell lesions of the genitourinary tract, such as a solitary fibrous tumor or a leiomyoma. However, the cellular morphology and growth pattern are more consistent with a mesoblastic nephroma.",
+      "rationale": "Examine far-right superior small lobules for true papillary architecture vs polypoid botryoid."
+    },
+    {
+      "roi_id": "slide_A_x11776_y7680_mag20",
+      "tile_id": "slide_A_x11776_y7680_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 11776,
+      "y": 7680,
+      "level0": {
+        "x": 11776,
+        "y": 7680,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles with a prominent inflammatory infiltrate rich in eosinophils. The spindle cells have elongated, wavy nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is an inflammatory myofibroblastic tumor.\n\nDifferential diagnoses include:\n- Rhabdomyosarcoma: typically shows more pleomorphism, atypical mitoses, and may have rhabdomyoblasts.\n- Eosinophilic granuloma (Langerhans cell histiocytosis): characterized by Langerhans cells with grooved nuclei and often associated with eosinophils, but lacks the spindle cell component.",
+      "rationale": "Left polypoid frond—check if any rhabdomyoblasts or just reactive spindle/inflammation."
+    },
+    {
+      "roi_id": "slide_A_x53248_y8192_mag5",
+      "tile_id": "slide_A_x53248_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 53248,
+      "y": 8192,
+      "level0": {
+        "x": 53248,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular spindle cell proliferation with intersecting fascicles and whorls beneath a surface epithelium. The cells have elongated, wavy nuclei and scant cytoplasm, with scattered inflammatory cells and small vessels.\n\nThe most likely diagnosis is a malignant spindle cell neoplasm, such as a sarcoma. Differential diagnoses include leiomyosarcoma, which would show more eosinophilic cytoplasm and blunt-ended nuclei, and malignant peripheral nerve sheath tumor, which might show more nuclear pleomorphism and Verocay bodies.",
+      "rationale": "Right superior edge with finger-like projections—assess for fibrovascular papillae."
+    },
+    {
+      "roi_id": "slide_A_x43008_y11264_mag10",
+      "tile_id": "slide_A_x43008_y11264_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 43008,
+      "y": 11264,
+      "level0": {
+        "x": 43008,
+        "y": 11264,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense proliferation of small, round to oval cells with hyperchromatic nuclei and scant cytoplasm, arranged in sheets and nests beneath the urothelium. The cells are closely packed with minimal intervening stroma.\n\nThe most likely diagnosis is a small round blue cell tumor, consistent with a primitive neuroectodermal tumor (PNET) or Ewing sarcoma.\n\nDifferential diagnoses include rhabdomyosarcoma, which would show evidence of skeletal muscle differentiation, and lymphoma, which would typically show a more diffuse pattern and lack the cohesive nests seen here.",
+      "rationale": "Inspect overlying urothelium for papillary architecture, ulceration, and possible cambium layer."
+    },
+    {
+      "roi_id": "slide_A_x49152_y14336_mag5",
+      "tile_id": "slide_A_x49152_y14336_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 49152,
+      "y": 14336,
+      "level0": {
+        "x": 49152,
+        "y": 14336,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a highly cellular mesenchymal proliferation composed of spindle cells with elongated nuclei and scant cytoplasm, arranged in intersecting fascicles and whorls. Scattered blood vessels are present within the stroma.\n\nThe most likely diagnosis is embryonal rhabdomyosarcoma, botryoid type. This diagnosis is supported by the location in the genitourinary tract, the patient's age, and the characteristic polypoid growth pattern. The spindle cell morphology is consistent with a mesenchymal neoplasm.\n\nDifferential diagnoses include other spindle cell tumors such as leiomyosarcoma or fibrosarcoma. However, the botryoid growth pattern and the patient's age strongly favor embryonal rhabdomyosarcoma. Immunohistochemical stains for skeletal muscle markers (e.g., desmin, myogenin, MyoD1) would be helpful to confirm the diagnosis.",
+      "rationale": "Right mid surface folds—evaluate if papillary fronds present."
+    },
+    {
+      "roi_id": "slide_A_x45056_y13312_mag10",
+      "tile_id": "slide_A_x45056_y13312_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 45056,
+      "y": 13312,
+      "level0": {
+        "x": 45056,
+        "y": 13312,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense proliferation of spindle cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles and haphazardly, with scattered inflammatory cells and hemorrhage. The overlying urothelium is intact.\n\nThe most likely diagnosis is a congenital mesoblastic nephroma, cellular type.\n\nDifferential diagnoses include other spindle cell neoplasms such as rhabdomyosarcoma or leiomyosarcoma, which would typically show different cellular morphology and immunohistochemical profiles.",
+      "rationale": "Look for glandular/nephrogenic-type epithelial structures within lesion."
+    },
+    {
+      "roi_id": "slide_A_x12288_y6144_mag5",
+      "tile_id": "slide_A_x12288_y6144_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 12288,
+      "y": 6144,
+      "level0": {
+        "x": 12288,
+        "y": 6144,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with scattered blood vessels and a mild inflammatory infiltrate. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a mesenchymal neoplasm, such as a congenital mesoblastic nephroma.\n\nDifferential diagnoses include other spindle cell tumors of the genitourinary tract, such as a solitary fibrous tumor or a smooth muscle tumor. Immunohistochemical stains would be helpful to differentiate these entities.",
+      "rationale": "Left superior surface where tissue forms ridges—look for papillary fronds."
+    },
+    {
+      "roi_id": "slide_A_x53760_y3584_mag20",
+      "tile_id": "slide_A_x53760_y3584_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 53760,
+      "y": 3584,
+      "level0": {
+        "x": 53760,
+        "y": 3584,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles and haphazardly, with scattered inflammatory cells and extravasated red blood cells. The morphology is consistent with a spindle cell neoplasm.\n\nThe most likely diagnosis is embryonal rhabdomyosarcoma, spindle cell type.\n\nDifferential diagnoses include other spindle cell neoplasms such as leiomyosarcoma or fibrosarcoma, which would typically show different architectural patterns and lack the characteristic rhabdomyoblastic differentiation.",
+      "rationale": "High power surface epithelium in region 1 to confirm urothelium vs glandular differentiation."
+    },
+    {
+      "roi_id": "slide_A_x24576_y10240_mag10",
+      "tile_id": "slide_A_x24576_y10240_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 24576,
+      "y": 10240,
+      "level0": {
+        "x": 24576,
+        "y": 10240,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with a prominent inflammatory infiltrate and scattered thick-walled blood vessels.",
+      "rationale": "Evaluate entrapped benign epithelium noted at low power—rule out nephrogenic adenoma component."
+    },
+    {
+      "roi_id": "slide_A_x22528_y16384_mag5",
+      "tile_id": "slide_A_x22528_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 22528,
+      "y": 16384,
+      "level0": {
+        "x": 22528,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a dense cellular proliferation of small cells with hyperchromatic nuclei and scant cytoplasm, arranged in sheets and nests, with areas of necrosis and hemorrhage. The overlying urothelium is intact.\n\nThe most likely diagnosis is a small round blue cell tumor, such as rhabdomyosarcoma, given the patient's age and the location in the genitourinary tract.\n\nDifferential diagnoses include other small round blue cell tumors like neuroblastoma, Ewing sarcoma, and lymphoma. Immunohistochemistry for markers such as desmin, myogenin, CD99, and LCA would be helpful in distinguishing between these entities.",
+      "rationale": "Central polyp surface region to assess surface contour and presence/absence of true papillae."
+    }
+  ]
+}

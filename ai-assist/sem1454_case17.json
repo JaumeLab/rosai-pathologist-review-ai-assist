@@ -1,0 +1,638 @@
+{
+  "case_id": "sem1454_case17",
+  "source": "slideseek-ai-assist",
+  "model": "gpt-5.4",
+  "generated_at": "2026-05-22T09:26:21.544754+00:00",
+  "organ": "Head-Neck",
+  "primary_dx": "Cardiac Myxoma With Hemorrhage And Prominent Hemosiderin Deposition",
+  "differential_dx": [
+    "Organizing Mural Thrombus",
+    "Primary Cardiac Sarcoma"
+  ],
+  "microscopic_findings": [
+    {
+      "text": "Hypocellular lesion shows abundant **myxoid matrix** with scattered bland **stellate/spindle cells** in a loose reticular distribution.",
+      "roi_ids": [
+        "slide_A_x34816_y16384_mag10",
+        "slide_A_x40448_y18944_mag20"
+      ]
+    },
+    {
+      "text": "There is prominent **hemorrhage** with numerous **hemosiderin-laden macrophages** and extravasated red blood cells.",
+      "roi_ids": [
+        "slide_A_x23040_y13824_mag20",
+        "slide_A_x10752_y22016_mag20"
+      ]
+    },
+    {
+      "text": "Numerous small delicate **vascular channels** traverse the lesion without **necrosis** or significant cytologic atypia.",
+      "roi_ids": [
+        "slide_A_x21504_y16384_mag10",
+        "slide_A_x34816_y16384_mag20"
+      ]
+    },
+    {
+      "text": "Pedicle tissue shows dense **subendocardial fibrous tissue** transitioning into **myocardium**, supporting true atrial wall attachment.",
+      "roi_ids": [
+        "slide_A_x40960_y19456_mag10",
+        "slide_A_x40960_y17408_mag20"
+      ]
+    }
+  ],
+  "interpretation": "The lesion is most consistent with **cardiac myxoma**, based on **hypocellular myxoid stroma** containing bland stellate to spindle cells, delicate vessels, and striking hemorrhagic hemosiderin deposition. Identification of a **true pedunculated atrial wall attachment** with subendocardial fibrous tissue and focal myocardium argues against an organizing mural thrombus. There is no convincing **malignant cytologic atypia**, necrosis, or other features to support primary cardiac sarcoma.",
+  "num_rois": 37,
+  "tiles": [
+    {
+      "roi_id": "slide_A_x16384_y16384_mag1",
+      "tile_id": "slide_A_x16384_y16384_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 16384,
+      "y": 16384,
+      "level0": {
+        "x": 16384,
+        "y": 16384,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a hypocellular lesion with a prominent myxoid matrix, scattered spindle cells, and numerous small vessels. There are also areas of hemorrhage and hemosiderin deposition.\n\nThe most likely diagnosis is a cardiac myxoma. Differential diagnoses include myxoid sarcoma, which would typically show more cellularity, nuclear atypia, and mitotic activity, and a myxoid liposarcoma, which would contain lipoblasts.",
+      "rationale": "Low-mag overview of large round mass (left) to orient and pick ROIs."
+    },
+    {
+      "roi_id": "slide_A_x45056_y16384_mag2",
+      "tile_id": "slide_A_x45056_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 45056,
+      "y": 16384,
+      "level0": {
+        "x": 45056,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a tumor composed of interlacing bundles of spindle cells with elongated, wavy nuclei and eosinophilic cytoplasm, along with prominent blood vessels. The tumor appears to arise from the atrial wall and extends into the lumen.\n\nThe most likely diagnosis is a cardiac rhabdomyoma. This diagnosis is supported by the presence of spindle cells with features of striated muscle differentiation, the location arising from the atrial wall, and the clinical context of a firm rubbery tumor occluding the mitral orifice.\n\nDifferential diagnoses include cardiac fibroma, which typically shows more collagenous stroma and lacks the characteristic muscle fibers, and cardiac myxoma, which is characterized by a myxoid stroma and stellate cells.",
+      "rationale": "Overview of elongated right-sided tissue fragment to assess gross architecture and relation to round lesion."
+    },
+    {
+      "roi_id": "slide_A_x40960_y16384_mag1",
+      "tile_id": "slide_A_x40960_y16384_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 40960,
+      "y": 16384,
+      "level0": {
+        "x": 40960,
+        "y": 16384,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a tumor composed of spindle cells with elongated nuclei arranged in intersecting fascicles, with areas of hyalinization and prominent blood vessels. The tumor appears to arise from the atrial wall and extends into the lumen.\n\nThe most likely diagnosis is a cardiac myxoma, specifically a fibrous variant given the prominent spindle cell component and hyalinization. A key differential diagnosis is a cardiac fibroma, which would also show spindle cells and hyalinization but typically lacks the myxoid stroma and prominent vessels seen in myxomas.",
+      "rationale": "Low-mag overview of adjacent right-hand tissue to determine if skin/fibrous and find interface."
+    },
+    {
+      "roi_id": "slide_A_x51200_y14336_mag5",
+      "tile_id": "slide_A_x51200_y14336_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 51200,
+      "y": 14336,
+      "level0": {
+        "x": 51200,
+        "y": 14336,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a mesenchymal proliferation composed of spindle cells with elongated nuclei and eosinophilic cytoplasm, arranged in intersecting fascicles. There is abundant collagenous stroma and areas of hyalinization.\n\nThe most likely diagnosis is a cardiac fibroma. Differential diagnoses include other benign mesenchymal tumors such as leiomyoma, which would show more prominent smooth muscle differentiation, and myxoma, which would have a more myxoid stroma.",
+      "rationale": "Scan central portion of elongated fragment for layered structure or muscle bundles."
+    },
+    {
+      "roi_id": "slide_A_x32768_y16384_mag2",
+      "tile_id": "slide_A_x32768_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 32768,
+      "y": 16384,
+      "level0": {
+        "x": 32768,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a hypocellular lesion with a prominent myxoid matrix and scattered spindle cells. There is also abundant dark brown granular pigment and numerous small blood vessels.\n\nThe most likely diagnosis is a cardiac myxoma. Differential diagnoses include organizing thrombus, which would typically show more fibrin and inflammatory cells, and a myxoid sarcoma, which would exhibit increased cellularity and atypia.",
+      "rationale": "Intermediate power to look for transition zone between round lesion and adjacent fibrous tissue."
+    },
+    {
+      "roi_id": "slide_A_x24576_y16384_mag1",
+      "tile_id": "slide_A_x24576_y16384_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 24576,
+      "y": 16384,
+      "level0": {
+        "x": 24576,
+        "y": 16384,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a hypocellular lesion with a prominent myxoid matrix, scattered spindle cells, and numerous small vessels. There are also areas of hemorrhage and hemosiderin deposition.\n\nThe most likely diagnosis is a cardiac myxoma. Differential diagnoses include organizing thrombus, which typically lacks the characteristic myxoid stroma and spindle cells, and myxoid sarcoma, which would show increased cellularity and atypia.",
+      "rationale": "Low-mag overview of interface between round mass and adjacent tissue."
+    },
+    {
+      "roi_id": "slide_A_x49152_y22528_mag5",
+      "tile_id": "slide_A_x49152_y22528_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 49152,
+      "y": 22528,
+      "level0": {
+        "x": 49152,
+        "y": 22528,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows fragmented tissue with elongated, eosinophilic structures consistent with muscle fibers, along with scattered smaller, round to oval structures. The tissue is fragmented and lacks a clear architectural pattern.\n\nThe most likely diagnosis for this single tile is a cardiac rhabdomyoma. The presence of elongated, eosinophilic structures resembling muscle fibers is characteristic of this tumor type. Differential diagnoses could include other mesenchymal tumors with a myxoid or fibrous stroma, but the morphology in this image is most consistent with a rhabdomyoma.",
+      "rationale": "Evaluate distal/inferior part of elongated fragment where edge irregularities may show surface/lining."
+    },
+    {
+      "roi_id": "slide_A_x57344_y12288_mag2",
+      "tile_id": "slide_A_x57344_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 57344,
+      "y": 12288,
+      "level0": {
+        "x": 57344,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a large, irregular mass composed of dense, eosinophilic, fibrillar material with scattered cellular elements. The mass appears to be attached to a structure, likely the heart wall, and is associated with surrounding inflammation.\n\nThe most likely diagnosis is a cardiac myxoma, given the location and gross description of a firm, rubbery, pedunculated mass attached to the heart wall. The histological appearance of dense fibrillar material with scattered cells is consistent with the myxoid stroma and entrapped cells seen in myxomas.\n\nDifferential diagnoses include organizing thrombus, which can also present as a mass attached to the heart wall, but typically lacks the characteristic myxoid stroma and cellular elements of a myxoma. Another consideration is a papillary fibroelastoma, which is typically smaller and has a more delicate, frond-like appearance.",
+      "rationale": "Survey small separate region 1 tissue fragment."
+    },
+    {
+      "roi_id": "slide_A_x45056_y12288_mag10",
+      "tile_id": "slide_A_x45056_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 45056,
+      "y": 12288,
+      "level0": {
+        "x": 45056,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a mixture of mature adipose tissue, bundles of skeletal muscle fibers, and fibrous connective tissue. Scattered small blood vessels are also present.\n\nThe most likely diagnosis for this histology tile is a lipoma with heterologous elements, specifically a lipoma containing skeletal muscle and fibrous tissue.\n\nDifferential diagnoses to consider include:\n- Liposarcoma: This would typically show atypical lipoblasts and increased cellularity, which are not seen in this image.\n- Rhabdomyoma: This would be composed predominantly of skeletal muscle, without the significant adipose tissue component seen here.",
+      "rationale": "Assess interface between round mass and elongated fragment for attachment tissue type."
+    },
+    {
+      "roi_id": "slide_A_x15360_y16384_mag10",
+      "tile_id": "slide_A_x15360_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 15360,
+      "y": 16384,
+      "level0": {
+        "x": 15360,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells within a dense collagenous stroma, with abundant brown-black pigment granules and scattered red blood cells. The spindle cells have elongated nuclei and are arranged in fascicles and haphazardly.\n\nThe most likely diagnosis is a cardiac myxoma, specifically a pigmented variant. The presence of spindle cells, dense collagen, and pigment is characteristic. Differential diagnoses include organizing thrombus, which can have spindle cells and pigment but typically lacks the dense collagen and specific cellular arrangement seen here.",
+      "rationale": "Look for classic myxoma patterns: cords/rings, vessels, hemorrhage."
+    },
+    {
+      "roi_id": "slide_A_x14336_y16384_mag5",
+      "tile_id": "slide_A_x14336_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 14336,
+      "y": 16384,
+      "level0": {
+        "x": 14336,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation of spindle cells within a myxoid stroma, with abundant extravasated red blood cells and scattered hemosiderin pigment. The spindle cells have elongated nuclei and are arranged in a haphazard pattern.\n\nThe most likely diagnosis is a cardiac myxoma. The presence of a myxoid stroma, spindle cells, and prominent hemorrhage/hemosiderin are characteristic features. Differential diagnoses include organizing thrombus, which can have a myxoid appearance and hemorrhage, but typically lacks the cellular spindle cell component. Other mesenchymal tumors are less likely given the specific combination of features.",
+      "rationale": "Assess architecture/cellularity of mass near center at medium power."
+    },
+    {
+      "roi_id": "slide_A_x36864_y16384_mag5",
+      "tile_id": "slide_A_x36864_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 36864,
+      "y": 16384,
+      "level0": {
+        "x": 36864,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a dense, hypocellular fibrous tissue with scattered spindle cells and areas of hyalinization. There is also a large clear space adjacent to the tissue.\n\nThe most likely diagnosis for this single tile is a cardiac fibroma, given the dense fibrous tissue and hypocellularity. Differential diagnoses could include a fibrous scar or a low-grade fibrosarcoma, which would typically show more cellularity and atypia.",
+      "rationale": "Examine suspected interface/attachment zone between lesion and right-sided fibrous tissue."
+    },
+    {
+      "roi_id": "slide_A_x11264_y21504_mag10",
+      "tile_id": "slide_A_x11264_y21504_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 11264,
+      "y": 21504,
+      "level0": {
+        "x": 11264,
+        "y": 21504,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a hypocellular lesion with abundant myxoid stroma and scattered spindle cells. Prominent features include numerous hemosiderin-laden macrophages and areas of hemorrhage.\n\nThe most likely diagnosis is a cardiac myxoma. Differential diagnoses include organizing thrombus, which typically lacks the myxoid stroma and characteristic spindle cells, and myxoid sarcoma, which would show increased cellularity and atypia.",
+      "rationale": "Evaluate for thrombus organization/lines of Zahn vs myxoid tumor at periphery."
+    },
+    {
+      "roi_id": "slide_A_x10240_y20480_mag5",
+      "tile_id": "slide_A_x10240_y20480_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 10240,
+      "y": 20480,
+      "level0": {
+        "x": 10240,
+        "y": 20480,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a hypocellular mesenchymal lesion with abundant myxoid stroma and scattered spindle cells. Prominent features include numerous hemosiderin-laden macrophages and thick-walled blood vessels.\n\nThe most likely diagnosis is a cardiac myxoma. Differential diagnoses include myxoid sarcoma, which would typically show more cellularity, nuclear atypia, and mitotic activity, and myxoid liposarcoma, which would contain lipoblasts.",
+      "rationale": "Assess peripheral zone for hemorrhage, surface fibrin/thrombus, attachment."
+    },
+    {
+      "roi_id": "slide_A_x53248_y13312_mag10",
+      "tile_id": "slide_A_x53248_y13312_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 53248,
+      "y": 13312,
+      "level0": {
+        "x": 53248,
+        "y": 13312,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of spindle cells with elongated, wavy nuclei arranged in intersecting fascicles. The cells are embedded in a collagenous stroma with scattered small blood vessels.\n\nThe most likely diagnosis is a cardiac fibroma. Differential diagnoses include other spindle cell lesions such as a leiomyoma, which would show more eosinophilic cytoplasm and blunt-ended nuclei, or a schwannoma, which would exhibit nuclear palisading and Verocay bodies.",
+      "rationale": "Look for surface lining/endocardium or epidermis and any adnexal structures in elongated fragment."
+    },
+    {
+      "roi_id": "slide_A_x41984_y17408_mag10",
+      "tile_id": "slide_A_x41984_y17408_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 41984,
+      "y": 17408,
+      "level0": {
+        "x": 41984,
+        "y": 17408,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows cardiac muscle fibers with prominent interstitial edema and separation. There is also a large clear space and a small blood vessel.\n\nThe morphologic features are consistent with cardiac muscle tissue showing interstitial edema. The presence of a large clear space and a small blood vessel are also noted.",
+      "rationale": "Higher power of right-hand tissue to see if dermis/adnexa or myocardium."
+    },
+    {
+      "roi_id": "slide_A_x38912_y17408_mag10",
+      "tile_id": "slide_A_x38912_y17408_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 38912,
+      "y": 17408,
+      "level0": {
+        "x": 38912,
+        "y": 17408,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a mesenchymal proliferation composed of spindle cells within a collagenous stroma, with scattered skeletal muscle fibers. The spindle cells have elongated nuclei and are arranged in fascicles and haphazardly.\n\nThe most likely diagnosis is a cardiac fibroma. Differential diagnoses include rhabdomyoma, which would show more prominent cross-striations and vacuolated cytoplasm, and leiomyoma, which would have more eosinophilic cytoplasm and blunt-ended nuclei.",
+      "rationale": "Look for endocardium/myocardium and pedicle features at higher power near attachment."
+    },
+    {
+      "roi_id": "slide_A_x22528_y12288_mag5",
+      "tile_id": "slide_A_x22528_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 22528,
+      "y": 12288,
+      "level0": {
+        "x": 22528,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a hypocellular lesion with abundant myxoid stroma and scattered spindle cells. Prominent features include numerous hemosiderin-laden macrophages and areas of hemorrhage.\n\nThe most likely diagnosis is a cardiac myxoma. Differential diagnoses include organizing thrombus, which typically lacks the characteristic myxoid stroma and spindle cells, and myxoid sarcoma, which would show increased cellularity and atypia.",
+      "rationale": "Sample interface area between mass and adjacent tissue."
+    },
+    {
+      "roi_id": "slide_A_x43008_y16384_mag5",
+      "tile_id": "slide_A_x43008_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 43008,
+      "y": 16384,
+      "level0": {
+        "x": 43008,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a mesenchymal proliferation composed of spindle cells with elongated nuclei and eosinophilic cytoplasm, arranged in intersecting fascicles and whorls. There is abundant collagenous stroma and scattered blood vessels.\n\nThe most likely diagnosis is a cardiac fibroma. Differential diagnoses include leiomyoma, which would show more prominent eosinophilic cytoplasm and cigar-shaped nuclei, and rhabdomyoma, which would contain characteristic spider cells.",
+      "rationale": "Characterize right-hand tissue (possible skin/fibrous) at medium power."
+    },
+    {
+      "roi_id": "slide_A_x53760_y17408_mag20",
+      "tile_id": "slide_A_x53760_y17408_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 53760,
+      "y": 17408,
+      "level0": {
+        "x": 53760,
+        "y": 17408,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of spindle cells with elongated, wavy nuclei arranged in intersecting fascicles. The cells have abundant eosinophilic cytoplasm, and the background stroma is collagenous with scattered inflammatory cells.\n\nThe most likely diagnosis is a cardiac rhabdomyoma. This diagnosis is supported by the presence of spindle cells with abundant eosinophilic cytoplasm and elongated, wavy nuclei, arranged in intersecting fascicles, which are characteristic features of rhabdomyoma. The clinical context of a firm rubbery tumor attached to the heart with muscle fibers extending from the pedicle further supports this diagnosis.\n\nDifferential diagnoses to consider include cardiac fibroma and cardiac myxoma. Cardiac fibroma would typically show more collagenous stroma and less prominent eosinophilic cytoplasm. Cardiac myxoma would have a more myxoid stroma and often contain characteristic stellate or polygonal cells.",
+      "rationale": "High-power of elongated fragment to determine muscle type (smooth vs cardiac vs skeletal) and collagen content."
+    },
+    {
+      "roi_id": "slide_A_x41984_y17920_mag20",
+      "tile_id": "slide_A_x41984_y17920_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 41984,
+      "y": 17920,
+      "level0": {
+        "x": 41984,
+        "y": 17920,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a large, irregular clear space bordered by dense fibrous tissue containing scattered spindle cells and small blood vessels. The border is irregular and appears to be composed of fibrous tissue.\n\nThe most likely diagnosis for this single histology tile is a fibrous tumor, such as a fibroma or fibrous histiocytoma. The presence of dense fibrous tissue with scattered spindle cells and small blood vessels is consistent with this diagnosis. The irregular border and apparent attachment to the surrounding tissue could suggest a pedunculated lesion.\n\nDifferential diagnoses to consider include a fibrous tumor of the heart (e.g., cardiac fibroma) or a fibrous tumor of the pericardium. The clinical context of a firm rubbery pedunculated tumor attached to the heart and occluding the mitral orifice would favor a cardiac origin. However, without further clinical information or examination of additional histology tiles, it is difficult to definitively distinguish between these possibilities.",
+      "rationale": "High-power of attachment area to assess for entrapped cardiac muscle fibers, lining, thrombus organization, vascular channels."
+    },
+    {
+      "roi_id": "slide_A_x55808_y12800_mag20",
+      "tile_id": "slide_A_x55808_y12800_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 55808,
+      "y": 12800,
+      "level0": {
+        "x": 55808,
+        "y": 12800,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense, eosinophilic, fibrillar matrix with scattered spindle-shaped cells and a prominent inflammatory infiltrate composed of neutrophils and lymphocytes.\n\nThe most likely diagnosis for this single tile is a cardiac myxoma, given the presence of a myxoid matrix and scattered spindle cells. However, the significant inflammatory infiltrate is atypical for a classic myxoma and could suggest a reactive process or an inflammatory myxoma variant. Other considerations include organizing thrombus or a myxoid sarcoma, although the latter is less likely given the clinical context.",
+      "rationale": "Examine peripheral edge of elongated fragment for epidermis/keratinization vs endocardial surface with fibrin."
+    },
+    {
+      "roi_id": "slide_A_x11776_y18944_mag20",
+      "tile_id": "slide_A_x11776_y18944_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 11776,
+      "y": 18944,
+      "level0": {
+        "x": 11776,
+        "y": 18944,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense, hyalinized stroma with scattered spindle cells and abundant brown-black pigment granules, many within macrophages. The pigment is consistent with hemosiderin.\n\nThe most likely diagnosis is a cardiac myxoma with secondary hemosiderin deposition.\n\nDifferential diagnoses include a myxoid sarcoma, which would typically show more cellular atypia and mitotic activity, and a myxoid liposarcoma, which would contain lipoblasts.",
+      "rationale": "High power of typical myxoid area to identify stellate myxoma cells, cords/rings, mitoses."
+    },
+    {
+      "roi_id": "slide_A_x21504_y16384_mag10",
+      "tile_id": "slide_A_x21504_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 21504,
+      "y": 16384,
+      "level0": {
+        "x": 21504,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a hypocellular lesion with abundant myxoid stroma, scattered spindle cells, and numerous hemosiderin-laden macrophages. The spindle cells are arranged in a loose, reticular pattern.\n\nThe most likely diagnosis is a cardiac myxoma, specifically a left atrial myxoma given the clinical context of a firm rubbery tumor in the left atrium.\n\nDifferential diagnoses include organizing thrombus, which would typically show more prominent fibrin and lack the characteristic myxoid stroma and spindle cell proliferation of a myxoma. A myxoid sarcoma would be less likely given the hypocellularity and bland cytology of the spindle cells.",
+      "rationale": "Representative area within round lesion to confirm myxoid stroma and vascularity."
+    },
+    {
+      "roi_id": "slide_A_x50688_y11264_mag20",
+      "tile_id": "slide_A_x50688_y11264_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 50688,
+      "y": 11264,
+      "level0": {
+        "x": 50688,
+        "y": 11264,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows cardiac muscle fibers with prominent interstitial edema and scattered inflammatory cells. There is also evidence of myocyte hypertrophy and nuclear pleomorphism.\n\nThe morphologic features are consistent with myocardial injury and inflammation. Given the clinical context of carbon monoxide poisoning, these findings could represent toxic myocardial damage. Differential diagnoses include myocarditis (infectious or autoimmune) or other forms of cardiomyopathy.",
+      "rationale": "High-power at presumed interface zone to see if elongated fragment represents atrial wall with myocardium/endocardium."
+    },
+    {
+      "roi_id": "slide_A_x10752_y22016_mag20",
+      "tile_id": "slide_A_x10752_y22016_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 10752,
+      "y": 22016,
+      "level0": {
+        "x": 10752,
+        "y": 22016,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a myxoid stroma with scattered spindle cells and numerous hemosiderin-laden macrophages. Extravasated red blood cells are also present.\n\nThe most likely diagnosis is a cardiac myxoma. Differential diagnoses include organizing thrombus, which typically lacks the prominent myxoid stroma and spindle cells, and myxoid sarcoma, which would show more significant cellular atypia and mitotic activity.",
+      "rationale": "High power near hemorrhagic/hemosiderin focus to assess macrophages, fibrin, organization."
+    },
+    {
+      "roi_id": "slide_A_x20992_y15872_mag20",
+      "tile_id": "slide_A_x20992_y15872_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20992,
+      "y": 15872,
+      "level0": {
+        "x": 20992,
+        "y": 15872,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense, hyalinized stroma with scattered spindle cells and abundant brown-black pigment granules, many within macrophages. Extravasated red blood cells are also present.\n\nThe most likely diagnosis is a cardiac myxoma, specifically a pigmented variant. The presence of a firm, rubbery tumor in the left atrium with a pedicle and the characteristic histology of a myxoid stroma with scattered cells and pigment are consistent with this diagnosis. Differential diagnoses could include a pigmented schwannoma or a melanotic neuroectodermal tumor, but the location and stromal features are more typical of a myxoma.",
+      "rationale": "High-power within lesion for stellate cells, myxoma pattern, hemorrhage, vascular channels."
+    },
+    {
+      "roi_id": "slide_A_x15360_y15360_mag20",
+      "tile_id": "slide_A_x15360_y15360_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 15360,
+      "y": 15360,
+      "level0": {
+        "x": 15360,
+        "y": 15360,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells within a dense collagenous stroma, with abundant brown-black pigment granules and scattered red blood cells. The spindle cells have elongated nuclei and are arranged in fascicles and haphazardly.\n\nThe most likely diagnosis is a cardiac myxoma with extensive hemosiderin deposition. The presence of spindle cells in a collagenous stroma is characteristic of myxoma, and the abundant brown-black pigment is consistent with hemosiderin, likely secondary to hemorrhage within the tumor. The clinical context of a large tumor in the left atrium causing obstruction and the patient's history of carbon monoxide poisoning and burns are also consistent with this diagnosis.\n\nDifferential diagnoses to consider include a cardiac fibroma, which would typically show more uniform spindle cells and less prominent pigment, and a cardiac sarcoma, which would exhibit more significant cellular atypia and mitotic activity.",
+      "rationale": "High power of more collagenized/spindle area to exclude sarcoma/atypia."
+    },
+    {
+      "roi_id": "slide_A_x34816_y16384_mag10",
+      "tile_id": "slide_A_x34816_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 34816,
+      "y": 16384,
+      "level0": {
+        "x": 34816,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a hypocellular lesion with scattered spindle and stellate cells embedded in a prominent myxoid matrix. The cells have elongated to plump nuclei with fine chromatin and inconspicuous nucleoli, and there is no significant atypia or mitotic activity.\n\nThe most likely diagnosis is a cardiac myxoma. The differential diagnosis includes myxoid sarcoma, which would typically show increased cellularity, nuclear atypia, and mitotic activity, features not seen in this image.",
+      "rationale": "Try to capture true junction between myxoid lesion and fibrous pedicle tissue."
+    },
+    {
+      "roi_id": "slide_A_x34816_y16384_mag20",
+      "tile_id": "slide_A_x34816_y16384_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 34816,
+      "y": 16384,
+      "level0": {
+        "x": 34816,
+        "y": 16384,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a hypocellular lesion with scattered cells embedded in a dense, hyalinized matrix. The cells have small, dark nuclei and are often surrounded by clear spaces.\n\nThe most likely diagnosis is a cardiac myxoma. The differential diagnosis includes a fibroma, which would typically show more cellularity and less prominent myxoid change.",
+      "rationale": "High power at junction to look for endocardial surface, thrombus layering, and vascular channels."
+    },
+    {
+      "roi_id": "slide_A_x43008_y16896_mag20",
+      "tile_id": "slide_A_x43008_y16896_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 43008,
+      "y": 16896,
+      "level0": {
+        "x": 43008,
+        "y": 16896,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of spindle cells with elongated, wavy nuclei arranged in intersecting fascicles. The cells have abundant eosinophilic cytoplasm, and the background stroma is collagenous with scattered inflammatory cells.\n\nThe most likely diagnosis is a cardiac rhabdomyoma. This diagnosis is supported by the presence of spindle cells with abundant eosinophilic cytoplasm and elongated, wavy nuclei, arranged in intersecting fascicles, which are characteristic features of rhabdomyoma. The clinical context of a firm rubbery tumor attached to the heart with muscle fibers extending from the pedicle further supports this diagnosis.\n\nDifferential diagnoses to consider include cardiac fibroma and cardiac myxoma. Cardiac fibroma would typically show more collagenous stroma and less prominent eosinophilic cytoplasm. Cardiac myxoma would have a more myxoid stroma and often contain characteristic stellate or polygonal cells.",
+      "rationale": "High power of adjacent right-hand tissue to confirm myocardium vs skin/burn and interface."
+    },
+    {
+      "roi_id": "slide_A_x40960_y19456_mag10",
+      "tile_id": "slide_A_x40960_y19456_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 40960,
+      "y": 19456,
+      "level0": {
+        "x": 40960,
+        "y": 19456,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a transition from dense fibrous tissue to cardiac muscle. The cardiac muscle fibers are elongated and eosinophilic with centrally located nuclei, arranged in bundles separated by connective tissue.\n\nThe most likely diagnosis for this single tile is normal cardiac muscle and associated fibrous tissue. The morphologic features are consistent with the expected appearance of cardiac muscle and surrounding connective tissue.",
+      "rationale": "More lateral within fibrous fragment to see if myocardium/endocardium present (attachment base)."
+    },
+    {
+      "roi_id": "slide_A_x40448_y18944_mag20",
+      "tile_id": "slide_A_x40448_y18944_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 40448,
+      "y": 18944,
+      "level0": {
+        "x": 40448,
+        "y": 18944,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a hypocellular lesion with scattered spindle cells embedded in a prominent myxoid matrix. The spindle cells have elongated, wavy nuclei and are arranged in a haphazard pattern.\n\nThe most likely diagnosis is a cardiac myxoma. The differential diagnosis includes myxoid sarcoma, which would typically show increased cellularity, nuclear atypia, and mitotic activity, features not seen in this image.",
+      "rationale": "High power in same for muscle fibers and vessels."
+    },
+    {
+      "roi_id": "slide_A_x23040_y13824_mag20",
+      "tile_id": "slide_A_x23040_y13824_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 23040,
+      "y": 13824,
+      "level0": {
+        "x": 23040,
+        "y": 13824,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a myxoid stroma with scattered spindle cells, numerous hemosiderin-laden macrophages, and extravasated red blood cells. A small vessel with thickened walls is also present.\n\nThe most likely diagnosis for this single tile is a cardiac myxoma, given the myxoid background, spindle cells, and prominent hemosiderin deposition. Differential diagnoses could include organizing thrombus or a myxoid sarcoma, but the overall features are most consistent with a myxoma.",
+      "rationale": "Within lesion near hemorrhagic zone to assess vascularity/organization (exclude thrombus)."
+    },
+    {
+      "roi_id": "slide_A_x40960_y17408_mag20",
+      "tile_id": "slide_A_x40960_y17408_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 40960,
+      "y": 17408,
+      "level0": {
+        "x": 40960,
+        "y": 17408,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows cardiac muscle fibers with prominent interstitial edema and scattered inflammatory cells. There is also evidence of myocyte hypertrophy and nuclear pleomorphism.\n\nThe morphologic features are consistent with myocardial injury. Given the clinical context of carbon monoxide poisoning, the findings are suggestive of myocardial damage secondary to hypoxia. Differential diagnoses could include other causes of myocardial injury such as ischemic heart disease or myocarditis, but the clinical history strongly supports hypoxic injury.",
+      "rationale": "High power at fibrous-to-myocardium transition to confirm entrapped myocardium/endocardium and assess vessels."
+    },
+    {
+      "roi_id": "slide_A_x57344_y12288_mag10",
+      "tile_id": "slide_A_x57344_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 57344,
+      "y": 12288,
+      "level0": {
+        "x": 57344,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a tumor composed of spindle cells arranged in fascicles with elongated, wavy nuclei and eosinophilic cytoplasm. The cells are embedded in a collagenous stroma with areas of hyalinization and myxoid change.\n\nThe most likely diagnosis is a cardiac fibroma. Differential diagnoses include leiomyoma, which typically shows more uniform spindle cells with blunt-ended nuclei and less prominent myxoid change, and a schwannoma, which would exhibit Antoni A and B areas and Verocay bodies.",
+      "rationale": "Region 1 at higher power to determine if this is thrombus, fibrous pedicle, or other tissue."
+    },
+    {
+      "roi_id": "slide_A_x57344_y12800_mag20",
+      "tile_id": "slide_A_x57344_y12800_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 57344,
+      "y": 12800,
+      "level0": {
+        "x": 57344,
+        "y": 12800,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a papillary structure composed of a central fibrovascular core covered by a layer of cells with eosinophilic cytoplasm and round to oval nuclei. The cells appear relatively uniform.\n\nThe most likely diagnosis for this papillary structure is a papillary fibroelastoma. This diagnosis is supported by the characteristic papillary architecture with a fibrovascular core and the appearance of the covering cells.\n\nDifferential diagnoses to consider include papillary fibroma and myxoma. Papillary fibroma typically lacks the prominent fibrovascular core and may have more spindle-shaped cells. Myxoma is characterized by a myxoid stroma and stellate cells, which are not seen in this image.",
+      "rationale": "High power in Region 1 for fibrin, organization, endothelial-lined channels."
+    }
+  ]
+}

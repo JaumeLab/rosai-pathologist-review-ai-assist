@@ -1,0 +1,1086 @@
+{
+  "case_id": "sem1128_case2",
+  "source": "slideseek-ai-assist",
+  "model": "gpt-5.4",
+  "generated_at": "2026-05-22T09:19:53.030314+00:00",
+  "organ": "Breast",
+  "primary_dx": "Breast Implant Capsule With Silicone Granuloma And Foreign-Body Granulomatous Inflammation",
+  "differential_dx": [
+    "Breast Implant-Associated Anaplastic Large Cell Lymphoma",
+    "Fat Necrosis/Traumatic Lipogranuloma"
+  ],
+  "microscopic_findings": [
+    {
+      "text": "Fibrous capsule shows numerous irregular **empty vacuoles** rimmed by **foreign-body giant cells** and vacuolated histiocytes.",
+      "roi_ids": [
+        "slide_A_x20480_y14336_mag20",
+        "slide_A_x15360_y15360_mag20"
+      ]
+    },
+    {
+      "text": "Cyst wall is lined by attenuated **flattened histiocytes/reactive cells** rather than true epithelium, supporting a **pseudocyst**.",
+      "roi_ids": [
+        "slide_A_x15360_y25600_mag20",
+        "slide_A_x8192_y9728_mag20"
+      ]
+    },
+    {
+      "text": "Stroma contains **chronic inflammation** with lymphocytes and plasma cells in dense fibrosis, with focal **hemorrhage/hemosiderin**.",
+      "roi_ids": [
+        "slide_A_x16896_y19968_mag20",
+        "slide_A_x32768_y20992_mag20"
+      ]
+    },
+    {
+      "text": "Fragments of **acellular eosinophilic wavy material** and entrapped **benign ducts/lobules** are present without epithelial atypia.",
+      "roi_ids": [
+        "slide_A_x29696_y18944_mag20",
+        "slide_A_x29696_y6144_mag20"
+      ]
+    }
+  ],
+  "interpretation": "The findings support **silicone granuloma/siliconoma** in an implant capsule, characterized by **extravasated silicone-type vacuoles**, foreign-body giant cell reaction, and a fibrous **pseudocyst**. Associated chronic inflammation and focal hemorrhagic change fit an implant-related capsular reaction. There are no sheets of **large atypical anaplastic lymphoid cells** or a mass-forming atypical lymphoid infiltrate to support **BIA-ALCL**. No morphologic evidence of invasive carcinoma is identified.",
+  "num_rois": 65,
+  "tiles": [
+    {
+      "roi_id": "slide_A_x16384_y16384_mag1",
+      "tile_id": "slide_A_x16384_y16384_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 16384,
+      "y": 16384,
+      "level0": {
+        "x": 16384,
+        "y": 16384,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a cystic structure lined by flattened cells, surrounded by dense fibrous tissue and adipose tissue with chronic inflammation. The cyst lumen contains amorphous material.\n\nThe most likely diagnosis is a silicone granuloma, likely secondary to a ruptured silicone implant.\n\nDifferential diagnoses include a foreign body granuloma from other causes (e.g., suture material) or a cystic lesion with secondary inflammation.",
+      "rationale": "Low-power overview of main tissue region to localize cyst wall/capsule and identify cellular foci."
+    },
+    {
+      "roi_id": "slide_A_x16384_y16384_mag2",
+      "tile_id": "slide_A_x16384_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 16384,
+      "y": 16384,
+      "level0": {
+        "x": 16384,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows adipose tissue with numerous clear vacuoles of varying sizes, surrounded by dense fibrous stroma and chronic inflammation. A large cystic structure filled with clear material is also present.\n\nThe most likely diagnosis is silicone granuloma, a foreign body reaction to silicone material.\n\nDifferential diagnoses include fat necrosis, which typically shows foamy macrophages and lacks the large cystic structure, and a lipoma, which is a benign proliferation of mature adipocytes without the inflammatory and fibrotic reaction seen here.",
+      "rationale": "Low-power survey of main tissue to identify cyst wall/capsule and any residual breast parenchyma."
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag1",
+      "tile_id": "slide_A_x8192_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a cystic structure lined by flattened cells, surrounded by dense fibrous tissue and adipose tissue. The cyst lumen contains amorphous material.\n\nThe most likely diagnosis is a silicone cyst. Differential diagnoses include a simple breast cyst or a cystic lesion associated with a breast implant.",
+      "rationale": "Survey superior-left portion of region 0 where lining and vacuolated areas seen on thumbnail."
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag2",
+      "tile_id": "slide_A_x8192_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows large, irregular clear spaces within a dense fibrous stroma, accompanied by chronic inflammation and foreign body giant cells. These features are consistent with a foreign body reaction to silicone.\n\nMost likely diagnosis: Silicone granuloma (Siliconoma)\n\nDifferential diagnoses:\n1. Fat necrosis: Typically shows foamy macrophages and lipid-laden histiocytes, often with calcification, rather than clear spaces.\n2. Lipoma: Composed of mature adipocytes, not clear spaces within fibrous tissue.",
+      "rationale": "Assess upper-left portion where adipose/capsule interface may be present."
+    },
+    {
+      "roi_id": "slide_A_x24576_y24576_mag1",
+      "tile_id": "slide_A_x24576_y24576_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 24576,
+      "y": 24576,
+      "level0": {
+        "x": 24576,
+        "y": 24576,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a cystic structure with a thick fibrotic wall containing amorphous material and surrounded by dense fibrous tissue with chronic inflammation. The cyst is lined by flattened cells.\n\nThe most likely diagnosis is a silicone granuloma, likely secondary to a ruptured silicone implant.\n\nDifferential diagnoses include a foreign body granuloma from other materials (e.g., suture material) or a cystic lesion with secondary inflammation.",
+      "rationale": "Survey inferior-right portion of region 0 near dense fibrous areas for lymphoid aggregates."
+    },
+    {
+      "roi_id": "slide_A_x28672_y8192_mag2",
+      "tile_id": "slide_A_x28672_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 28672,
+      "y": 8192,
+      "level0": {
+        "x": 28672,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cystic structure lined by flattened to cuboidal epithelium, surrounded by dense fibrous tissue and adipose tissue. The lumen contains amorphous material. There is also a focus of chronic inflammation and hemorrhage.\n\nThe most likely diagnosis is a silicone cyst. The presence of a cystic structure containing amorphous material, surrounded by fibrosis and inflammation, is consistent with a foreign body reaction to silicone. The clinical history of silicone breast implants and the gross description of a cyst filled with clear, sticky material further support this diagnosis.\n\nDifferential diagnoses to consider include a simple breast cyst or a mucocele-like lesion. However, the amorphous nature of the luminal material and the clinical history of silicone implants make a silicone cyst the most likely diagnosis.",
+      "rationale": "Survey superior/left area with apparent adipose and possible glandular tissue for ducts/lobules."
+    },
+    {
+      "roi_id": "slide_A_x24576_y8192_mag2",
+      "tile_id": "slide_A_x24576_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 24576,
+      "y": 8192,
+      "level0": {
+        "x": 24576,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows adipose tissue with a prominent inflammatory infiltrate, including lymphoid aggregates, and fibrosis. There are also areas of dense fibrous tissue containing entrapped ducts and glands.\n\nThe most likely diagnosis is silicone granuloma, a foreign body reaction to silicone material.\n\nDifferential diagnoses include fat necrosis, which can also show inflammation and fibrosis, and a low-grade lymphoma, which would typically show a more monotonous lymphoid infiltrate.",
+      "rationale": "Assess right-central thicker fibrous area for capsule wall and inflammation."
+    },
+    {
+      "roi_id": "slide_A_x32768_y16384_mag1",
+      "tile_id": "slide_A_x32768_y16384_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 32768,
+      "y": 16384,
+      "level0": {
+        "x": 32768,
+        "y": 16384,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a cystic structure with a thick fibrotic wall containing amorphous material and surrounded by dense fibrous tissue with chronic inflammation. The lining epithelium is absent.\n\nThe most likely diagnosis is a silicone granuloma, likely secondary to a ruptured silicone implant.\n\nDifferential diagnoses include a foreign body granuloma from other materials (e.g., suture material) or a cystic lesion with secondary inflammation and fibrosis.",
+      "rationale": "Low-power survey of separate fragment region 1 for capsule/inflammation."
+    },
+    {
+      "roi_id": "slide_A_x24576_y20480_mag2",
+      "tile_id": "slide_A_x24576_y20480_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 24576,
+      "y": 20480,
+      "level0": {
+        "x": 24576,
+        "y": 20480,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cystic structure with a thick fibrotic wall containing amorphous material and surrounded by dense fibrous tissue with chronic inflammation. The adjacent breast tissue exhibits fibrosis, chronic inflammation, and hemorrhage.\n\nThe most likely diagnosis is a silicone granuloma, likely secondary to a ruptured silicone implant. The presence of a cystic structure filled with amorphous material and surrounded by a fibrotic wall with chronic inflammation is characteristic of a foreign body reaction to silicone. The adjacent fibrosis and chronic inflammation in the breast tissue are consistent with a long-standing inflammatory process related to the implant.\n\nDifferential diagnoses include a ruptured epidermal inclusion cyst, which would typically contain lamellated keratin and be lined by squamous epithelium, and a fat necrosis, which would show necrotic adipocytes and foamy macrophages.",
+      "rationale": "Survey inferior area with dense fibrous tissue where capsule likely thick; look for lining."
+    },
+    {
+      "roi_id": "slide_A_x12288_y10240_mag5",
+      "tile_id": "slide_A_x12288_y10240_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 12288,
+      "y": 10240,
+      "level0": {
+        "x": 12288,
+        "y": 10240,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows multiple clear spaces of varying size within a dense fibrous stroma, accompanied by chronic inflammation and foreign body giant cells. These features are consistent with a foreign body reaction to silicone.\n\nMost likely diagnosis: Silicone granuloma\n\nDifferential diagnoses:\n1. Fat necrosis: Typically shows foamy macrophages and cholesterol clefts, which are not prominent here.\n2. Lipoma: Composed of mature adipocytes, not clear spaces within fibrous tissue.",
+      "rationale": "Assess cyst wall/lining area at intermediate power for lymphoid aggregates or atypical cells."
+    },
+    {
+      "roi_id": "slide_A_x12288_y24576_mag2",
+      "tile_id": "slide_A_x12288_y24576_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 24576,
+      "level0": {
+        "x": 12288,
+        "y": 24576,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cystic structure lined by flattened cells, surrounded by dense fibrous tissue and adipose tissue. The cyst wall contains scattered chronic inflammatory cells and small vessels.\n\nThe most likely diagnosis is a silicone granuloma, likely secondary to a ruptured silicone implant. The presence of a cystic structure with a fibrotic wall and surrounding inflammation is consistent with a foreign body reaction to silicone. The clinical history of bilateral silicone breast implants and the gross description of a cyst filled with clear, sticky material further support this diagnosis.\n\nDifferential diagnoses include a simple breast cyst or a fibrocystic change. However, the clinical history and gross findings make these less likely. A simple cyst would not typically have a fibrotic wall or be associated with silicone implants. Fibrocystic changes usually involve multiple cysts and stromal changes, and the gross description of a single large cyst filled with silicone-like material is not typical.",
+      "rationale": "Assess inferior portion for dense fibrosis, hemorrhage, or calcifications."
+    },
+    {
+      "roi_id": "slide_A_x18432_y8192_mag5",
+      "tile_id": "slide_A_x18432_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 18432,
+      "y": 8192,
+      "level0": {
+        "x": 18432,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows adipose tissue with clear spaces and a prominent inflammatory infiltrate composed of lymphocytes, plasma cells, and histiocytes, including foreign body giant cells. There is also fibrosis and thickened blood vessels.\n\nThe most likely diagnosis is silicone granuloma, a foreign body reaction to silicone.\n\nDifferential diagnoses include fat necrosis, which typically shows foamy macrophages and lacks the clear spaces and prominent foreign body giant cells seen here.",
+      "rationale": "Sample another segment of inner capsule/seroma interface."
+    },
+    {
+      "roi_id": "slide_A_x32768_y20480_mag2",
+      "tile_id": "slide_A_x32768_y20480_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 32768,
+      "y": 20480,
+      "level0": {
+        "x": 32768,
+        "y": 20480,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cystic structure lined by stratified squamous epithelium containing keratinous material, surrounded by dense fibrous tissue and chronic inflammation. The surrounding stroma exhibits fibrosis and chronic inflammation.\n\nThe most likely diagnosis is a squamous-lined cyst with surrounding fibrosis and chronic inflammation, consistent with a foreign body reaction to leaked silicone.\n\nDifferential diagnoses include a ruptured epidermal inclusion cyst or a ruptured dermoid cyst. The presence of stratified squamous epithelium lining the cyst and the clinical history of silicone implants support the diagnosis of a foreign body reaction to leaked silicone.",
+      "rationale": "Low-power survey of separate fragment (Region 1) for breast tissue vs capsule."
+    },
+    {
+      "roi_id": "slide_A_x21504_y17408_mag10",
+      "tile_id": "slide_A_x21504_y17408_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 21504,
+      "y": 17408,
+      "level0": {
+        "x": 21504,
+        "y": 17408,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cystic structure lined by flattened cells, surrounded by dense fibrous tissue with chronic inflammation and foreign body giant cells. Adipose tissue and breast ducts are also present.\n\nThe most likely diagnosis is a silicone granuloma, likely secondary to a ruptured silicone implant.\n\nDifferential diagnoses include fat necrosis and a foreign body reaction to other materials.",
+      "rationale": "Evaluate dense fibrous/inflammatory area for sheets of large atypical lymphoid cells."
+    },
+    {
+      "roi_id": "slide_A_x6144_y5120_mag10",
+      "tile_id": "slide_A_x6144_y5120_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 6144,
+      "y": 5120,
+      "level0": {
+        "x": 6144,
+        "y": 5120,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows multiple large, irregular cystic spaces lined by flattened cells, surrounded by dense fibrous stroma with chronic inflammation and scattered foreign body giant cells. The cystic spaces contain clear, sticky material.\n\nThe most likely diagnosis is a silicone granuloma, a foreign body reaction to leaked silicone.\n\nDifferential diagnoses include a simple breast cyst or a cystic lesion with fat necrosis. However, the presence of foreign body giant cells and the characteristic clear, sticky material within the cysts strongly favor a reaction to silicone.",
+      "rationale": "Upper-left area with many clear vacuoles—evaluate capsule reaction/giant cells and silicone spaces."
+    },
+    {
+      "roi_id": "slide_A_x31744_y19456_mag10",
+      "tile_id": "slide_A_x31744_y19456_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 31744,
+      "y": 19456,
+      "level0": {
+        "x": 31744,
+        "y": 19456,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows dense fibrous tissue with scattered chronic inflammation and numerous congested blood vessels. A duct-like structure is also present.\n\nThe most likely diagnosis is a silicone granuloma, a foreign body reaction to silicone.\n\nDifferential diagnoses include fat necrosis, which typically shows foamy macrophages and lipid vacuoles, and a fibroadenoma, which would have a more organized stromal and epithelial proliferation.",
+      "rationale": "Examine fragment in region 1 for dense lymphoid infiltrate along capsule."
+    },
+    {
+      "roi_id": "slide_A_x28672_y8192_mag10",
+      "tile_id": "slide_A_x28672_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 28672,
+      "y": 8192,
+      "level0": {
+        "x": 28672,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cystic structure lined by flattened cells, surrounded by dense fibrous tissue with extensive hemorrhage and scattered inflammatory cells. The cyst lumen contains amorphous material.\n\nThe most likely diagnosis is a silicone cyst, likely related to the patient's history of silicone breast implants.\n\nDifferential diagnoses include a simple breast cyst or a cystic lesion associated with a benign breast tumor, such as a fibroadenoma or phyllodes tumor. However, the presence of amorphous material in the lumen and the clinical history strongly favor a silicone cyst.",
+      "rationale": "Evaluate reported flattened/cuboidal epithelial lining; assess for atypia, mucin, carcinoma."
+    },
+    {
+      "roi_id": "slide_A_x8192_y9728_mag20",
+      "tile_id": "slide_A_x8192_y9728_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 8192,
+      "y": 9728,
+      "level0": {
+        "x": 8192,
+        "y": 9728,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cystic structure lined by flattened to cuboidal cells with some reactive changes and scattered inflammatory cells. The wall is composed of fibrous tissue with chronic inflammation.\n\nThe most likely diagnosis is a silicone cyst, likely related to the patient's history of silicone breast implants. The presence of a cystic structure lined by reactive cells and containing clear, sticky material is consistent with a foreign body reaction to silicone. Differential diagnoses include a simple breast cyst or a cystic lesion associated with a benign breast condition, but the clinical history strongly favors a silicone cyst.",
+      "rationale": "High-power of foreign-body reaction area to confirm silicone vacuoles and giant cells; assess for atypia."
+    },
+    {
+      "roi_id": "slide_A_x24576_y8192_mag10",
+      "tile_id": "slide_A_x24576_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 24576,
+      "y": 8192,
+      "level0": {
+        "x": 24576,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows multiple clear spaces within a fibrotic stroma, accompanied by a mixed inflammatory infiltrate including lymphocytes, plasma cells, and multinucleated giant cells.",
+      "rationale": "Right-central lymphoid aggregate area—assess architecture, pericapsular lymphoid cuffing vs atypical sheets."
+    },
+    {
+      "roi_id": "slide_A_x24576_y20480_mag10",
+      "tile_id": "slide_A_x24576_y20480_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 24576,
+      "y": 20480,
+      "level0": {
+        "x": 24576,
+        "y": 20480,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cystic structure lined by flattened cells, surrounded by dense fibrous tissue with extensive hemorrhage and scattered inflammatory cells. The cyst lumen contains amorphous material.\n\nThe most likely diagnosis is a silicone granuloma, likely secondary to a ruptured silicone implant.\n\nDifferential diagnoses include a simple breast cyst with hemorrhage and a cystic neoplasm with hemorrhage. The presence of foreign material (silicone) and the clinical history of silicone implants strongly favor a silicone granuloma.",
+      "rationale": "Assess thick fibrotic wall area for any true epithelial lining or invasive carcinoma."
+    },
+    {
+      "roi_id": "slide_A_x19968_y12800_mag20",
+      "tile_id": "slide_A_x19968_y12800_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 19968,
+      "y": 12800,
+      "level0": {
+        "x": 19968,
+        "y": 12800,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows large clear spaces surrounded by a dense inflammatory infiltrate composed of lymphocytes, plasma cells, and histiocytes, with associated fibrosis. These features are consistent with a foreign body reaction to silicone.\n\nThe most likely diagnosis is silicone granuloma.\n\nDifferential diagnoses include fat necrosis, which typically shows foamy macrophages and cholesterol clefts, and infectious granuloma, which would require identification of microorganisms.",
+      "rationale": "High-power check of inflammatory area for atypical large lymphoid cells (BIA-ALCL) vs histiocytes/giant cells."
+    },
+    {
+      "roi_id": "slide_A_x16384_y16384_mag10",
+      "tile_id": "slide_A_x16384_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 16384,
+      "y": 16384,
+      "level0": {
+        "x": 16384,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows adipose tissue with prominent fibrosis and a mixed inflammatory infiltrate, including lymphocytes, plasma cells, and histiocytes, some with vacuolated cytoplasm. Multinucleated giant cells are also present.\n\nThe most likely diagnosis is silicone granuloma.\n\nDifferential diagnoses include fat necrosis and foreign body reaction to other materials. Fat necrosis typically shows foamy macrophages and cholesterol clefts, while foreign body reaction to other materials may show different types of giant cells or foreign material.",
+      "rationale": "Central cyst-lining area—assess lining type (synovial metaplasia vs granulation), fibrin, necrosis."
+    },
+    {
+      "roi_id": "slide_A_x16896_y19968_mag20",
+      "tile_id": "slide_A_x16896_y19968_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 16896,
+      "y": 19968,
+      "level0": {
+        "x": 16896,
+        "y": 19968,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a fibrotic stroma with a mixed inflammatory infiltrate, including lymphocytes and plasma cells, and numerous small vessels. Scattered throughout are small, round to oval structures with lumens, some containing eosinophilic material.\n\nThe most likely diagnosis is silicone granuloma, a foreign body reaction to silicone material.\n\nDifferential diagnoses include:\n- Granulomatous mastitis: typically shows more prominent granulomas with multinucleated giant cells and often associated with infectious organisms.\n- Fat necrosis: characterized by necrotic adipocytes, foamy macrophages, and often calcification, which are not prominent features in this image.",
+      "rationale": "Examine inner capsule/seroma interface at high power for cohesive sheets of large cells."
+    },
+    {
+      "roi_id": "slide_A_x32768_y20480_mag10",
+      "tile_id": "slide_A_x32768_y20480_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 32768,
+      "y": 20480,
+      "level0": {
+        "x": 32768,
+        "y": 20480,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cystic structure lined by flattened cells, surrounded by dense fibrous tissue with scattered chronic inflammation and extravasated red blood cells. The lumen contains amorphous material.\n\nThe most likely diagnosis is a silicone granuloma, a foreign body reaction to extravasated silicone.\n\nDifferential diagnoses include a simple breast cyst with hemorrhage and a fibroadenoma with cystic change and hemorrhage. The presence of amorphous material in the lumen and the clinical history of silicone implants strongly favor a silicone granuloma.",
+      "rationale": "Assess squamous-lined area in region 1; exclude metaplastic carcinoma/squamous carcinoma; look for atypia/invasion."
+    },
+    {
+      "roi_id": "slide_A_x9728_y8192_mag20",
+      "tile_id": "slide_A_x9728_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 9728,
+      "y": 8192,
+      "level0": {
+        "x": 9728,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows large clear spaces surrounded by a fibrous wall with a mixed inflammatory infiltrate including lymphocytes, plasma cells, and multinucleated giant cells.",
+      "rationale": "Assess vacuolated silicone reaction area for any atypical lymphoid component."
+    },
+    {
+      "roi_id": "slide_A_x14336_y23552_mag10",
+      "tile_id": "slide_A_x14336_y23552_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 14336,
+      "y": 23552,
+      "level0": {
+        "x": 14336,
+        "y": 23552,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cyst wall lined by flattened cells with a dense fibrous stroma containing scattered chronic inflammatory cells and hemosiderin pigment. The lumen contains amorphous material.\n\nThe most likely diagnosis is a silicone cyst. Differential diagnoses include a simple breast cyst or a fibrocystic change with cystic degeneration. The presence of hemosiderin and chronic inflammation in the cyst wall, along with the clinical history of silicone implants, supports the diagnosis of a silicone cyst.",
+      "rationale": "Inferior capsule—assess dense fibrosis, calcifications, hemorrhage, and inflammation distribution."
+    },
+    {
+      "roi_id": "slide_A_x32768_y20992_mag20",
+      "tile_id": "slide_A_x32768_y20992_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 32768,
+      "y": 20992,
+      "level0": {
+        "x": 32768,
+        "y": 20992,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cystic structure lined by flattened cells, surrounded by dense fibrous tissue with scattered chronic inflammation and extravasated red blood cells. The lumen contains amorphous material.\n\nThe most likely diagnosis is a silicone granuloma, a foreign body reaction to extravasated silicone.\n\nDifferential diagnoses include a simple breast cyst or a cystic fibroadenoma, which would typically lack the foreign body reaction and amorphous luminal material.",
+      "rationale": "High-power review of region 1 fibrous tissue with chronic inflammation for atypical large cells or necrosis."
+    },
+    {
+      "roi_id": "slide_A_x20480_y14336_mag20",
+      "tile_id": "slide_A_x20480_y14336_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20480,
+      "y": 14336,
+      "level0": {
+        "x": 20480,
+        "y": 14336,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows clear spaces surrounded by a fibrous stroma with a mixed inflammatory infiltrate including lymphocytes, plasma cells, and multinucleated giant cells.",
+      "rationale": "Previously planned high-power along capsule edge (possible synovial metaplasia/atypical large cells)."
+    },
+    {
+      "roi_id": "slide_A_x29696_y6144_mag20",
+      "tile_id": "slide_A_x29696_y6144_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 29696,
+      "y": 6144,
+      "level0": {
+        "x": 29696,
+        "y": 6144,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows breast tissue with ducts and lobules embedded in fibrous stroma, along with areas of hemorrhage and inflammation. The ducts and lobules appear unremarkable.\n\nThe most likely diagnosis for this single tile is benign breast tissue with hemorrhage and inflammation.\n\nDifferential diagnoses to consider include:\n- Silicone granuloma: This would show foreign body giant cells and histiocytes surrounding silicone material, which is not evident in this image.\n- Fat necrosis: This would show necrotic adipocytes and foamy macrophages, which are not seen here.",
+      "rationale": "High power of area with suspected epithelial lining to determine if true epithelium vs histiocytes and assess atypia/mucin."
+    },
+    {
+      "roi_id": "slide_A_x25600_y9216_mag20",
+      "tile_id": "slide_A_x25600_y9216_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 25600,
+      "y": 9216,
+      "level0": {
+        "x": 25600,
+        "y": 9216,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows dense fibrous stroma with scattered chronic inflammation and foreign body giant cells. There are also dilated ducts containing eosinophilic material and a nerve bundle.\n\nThe most likely diagnosis is silicone granuloma, a foreign body reaction to silicone material. The presence of foreign body giant cells and chronic inflammation surrounding the silicone material is characteristic. The dilated ducts with eosinophilic material may represent a separate process or reactive changes.",
+      "rationale": "High-power of lymphoid aggregate/giant cell area to exclude atypical lymphoid sheets suggestive of BIA-ALCL."
+    },
+    {
+      "roi_id": "slide_A_x15360_y15360_mag10",
+      "tile_id": "slide_A_x15360_y15360_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 15360,
+      "y": 15360,
+      "level0": {
+        "x": 15360,
+        "y": 15360,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows clear spaces within fibrous stroma, accompanied by a mixed inflammatory infiltrate and foreign body giant cells. These features are consistent with a foreign body reaction to silicone.\n\nMost likely diagnosis: Silicone granuloma\n\nDifferential diagnoses:\n1. Fat necrosis: Typically shows foamy macrophages and lacks the clear spaces and foreign body giant cells seen here.\n2. Infection: Would show neutrophils and potentially microorganisms, which are not present in this image.",
+      "rationale": "Target central cyst wall/inner lining not yet sampled on map; look for dense lymphoid cuffing."
+    },
+    {
+      "roi_id": "slide_A_x15360_y25600_mag20",
+      "tile_id": "slide_A_x15360_y25600_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 15360,
+      "y": 25600,
+      "level0": {
+        "x": 15360,
+        "y": 25600,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cystic structure lined by a layer of histiocytes and surrounded by dense fibrous tissue with chronic inflammation. The lumen contains amorphous material.\n\nThe most likely diagnosis is a silicone granuloma.\n\nDifferential diagnoses include a foreign body granuloma from other materials (e.g., suture material) and a simple breast cyst. The presence of histiocytes and fibrosis surrounding the cystic space is characteristic of a granulomatous reaction to foreign material, such as silicone.",
+      "rationale": "High-power of inferior cyst wall with hemosiderin—look for calcifications, granulation tissue, lining type."
+    },
+    {
+      "roi_id": "slide_A_x24576_y23552_mag20",
+      "tile_id": "slide_A_x24576_y23552_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 24576,
+      "y": 23552,
+      "level0": {
+        "x": 24576,
+        "y": 23552,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows dense fibrous stroma with scattered chronic inflammation and extravasated red blood cells. There are also clusters of epithelial cells with hyperchromatic nuclei and scant cytoplasm.\n\nThe most likely diagnosis is silicone granuloma. The presence of dense fibrosis, chronic inflammation, and extravasated red blood cells in the context of a patient with a history of silicone breast implants is characteristic of a foreign body reaction to silicone. The clusters of epithelial cells may represent entrapped benign ductal or lobular elements within the fibrotic stroma.\n\nDifferential diagnoses to consider include fat necrosis, which can also present with fibrosis and inflammation, and a low-grade carcinoma, which would typically show more significant nuclear atypia and architectural distortion.",
+      "rationale": "High power of thick capsule/cyst wall to look for invasive carcinoma, metaplastic change, or lining epithelium."
+    },
+    {
+      "roi_id": "slide_A_x15360_y15360_mag20",
+      "tile_id": "slide_A_x15360_y15360_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 15360,
+      "y": 15360,
+      "level0": {
+        "x": 15360,
+        "y": 15360,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows clear spaces within fibrous stroma, accompanied by a mixed inflammatory infiltrate including lymphocytes, plasma cells, and multinucleated giant cells.",
+      "rationale": "High-power of same central lining area to exclude large atypical CD30+ type cells morphologically."
+    },
+    {
+      "roi_id": "slide_A_x22528_y11264_mag10",
+      "tile_id": "slide_A_x22528_y11264_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 22528,
+      "y": 11264,
+      "level0": {
+        "x": 22528,
+        "y": 11264,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows clear spaces surrounded by dense fibrous tissue and a prominent chronic inflammatory infiltrate, including lymphocytes and foreign body giant cells.",
+      "rationale": "Sample upper-right capsule area near luminal material for aggregates/necrosis."
+    },
+    {
+      "roi_id": "slide_A_x15360_y8704_mag20",
+      "tile_id": "slide_A_x15360_y8704_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 15360,
+      "y": 8704,
+      "level0": {
+        "x": 15360,
+        "y": 8704,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows large, clear spaces separated by fibrous septa containing scattered inflammatory cells, including multinucleated giant cells. The spaces are lined by flattened cells.\n\nThe most likely diagnosis is silicone granuloma.\n\nDifferential diagnoses include fat necrosis, which typically shows foamy macrophages and cholesterol clefts, and foreign body reaction to other materials, which would require clinical correlation.",
+      "rationale": "Examine any residual ducts/lobules in upper left breast parenchyma for DCIS/atypia."
+    },
+    {
+      "roi_id": "slide_A_x10752_y11776_mag20",
+      "tile_id": "slide_A_x10752_y11776_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 10752,
+      "y": 11776,
+      "level0": {
+        "x": 10752,
+        "y": 11776,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows clear spaces within fibrous tissue, surrounded by a mixed inflammatory infiltrate including lymphocytes, plasma cells, and histiocytes, with some multinucleated giant cells. A blood vessel is also present.\n\nThe most likely diagnosis is silicone granuloma.\n\nDifferential diagnoses include fat necrosis, which typically shows foamy macrophages and cholesterol clefts, and foreign body reaction to other materials, which would require clinical correlation.",
+      "rationale": "High-power of vacuolated stromal area for classic silicone vacuoles, foreign-body giant cells, and any epithelial atypia."
+    },
+    {
+      "roi_id": "slide_A_x23040_y10752_mag20",
+      "tile_id": "slide_A_x23040_y10752_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 23040,
+      "y": 10752,
+      "level0": {
+        "x": 23040,
+        "y": 10752,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows large clear spaces surrounded by dense fibrous tissue with a mixed inflammatory infiltrate including lymphocytes, plasma cells, and multinucleated giant cells.",
+      "rationale": "High-power check for anaplastic large cells/cohesive sheets."
+    },
+    {
+      "roi_id": "slide_A_x33280_y20480_mag20",
+      "tile_id": "slide_A_x33280_y20480_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 33280,
+      "y": 20480,
+      "level0": {
+        "x": 33280,
+        "y": 20480,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cystic space containing amorphous material and surrounded by a fibrotic wall with scattered inflammatory cells and red blood cells. The lining is not clearly visible.\n\nThe most likely diagnosis is a silicone granuloma, a foreign body reaction to leaked silicone.\n\nDifferential diagnoses include a simple breast cyst or a cystic lesion with hemorrhage. The presence of amorphous material and fibrosis is more suggestive of a foreign body reaction than a simple cyst.",
+      "rationale": "High power of region 1 to verify any squamous lining vs reactive changes; exclude squamous carcinoma/metaplasia."
+    },
+    {
+      "roi_id": "slide_A_x28672_y12288_mag10",
+      "tile_id": "slide_A_x28672_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 28672,
+      "y": 12288,
+      "level0": {
+        "x": 28672,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cystic structure lined by flattened cells, surrounded by dense fibrous tissue with chronic inflammation and hemorrhage. The lumen contains amorphous material.\n\nThe most likely diagnosis is a silicone granuloma, a foreign body reaction to leaked silicone.\n\nDifferential diagnoses include a simple breast cyst or a cystic lesion with hemorrhage. The presence of foreign body giant cells and the clinical history of silicone implants are key features supporting the diagnosis of a silicone granuloma.",
+      "rationale": "Sample far right edge of region 0 capsule/pericapsular zone for lymphoid infiltrate."
+    },
+    {
+      "roi_id": "slide_A_x29696_y21504_mag10",
+      "tile_id": "slide_A_x29696_y21504_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 29696,
+      "y": 21504,
+      "level0": {
+        "x": 29696,
+        "y": 21504,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cystic structure lined by stratified squamous epithelium with keratinization and a fibrotic wall. The surrounding stroma contains dense fibrous tissue, hemorrhage, and scattered inflammatory cells.\n\nThe most likely diagnosis is a squamous-lined cyst with associated fibrosis and inflammation, likely related to the patient's history of silicone breast implants and the presence of a mass in the left breast.\n\nDifferential diagnoses include a ruptured epidermal inclusion cyst or a foreign body reaction to silicone material. The presence of stratified squamous epithelium lining the cyst and the clinical history of silicone implants support the diagnosis.",
+      "rationale": "Survey far right/inferior capsule edge within Region 0 for any additional atypical inflammation or synovial metaplasia not yet sampled."
+    },
+    {
+      "roi_id": "slide_A_x10752_y5120_mag20",
+      "tile_id": "slide_A_x10752_y5120_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 10752,
+      "y": 5120,
+      "level0": {
+        "x": 10752,
+        "y": 5120,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows large, clear spaces surrounded by a fibrous stroma containing scattered inflammatory cells, including histiocytes and lymphocytes. The clear spaces are consistent with dissolved foreign material.\n\nThe most likely diagnosis is a foreign body reaction to silicone.\n\nDifferential diagnoses include fat necrosis, which typically shows foamy macrophages and lipid vacuoles, and cystic lymphangioma, which would have endothelial-lined spaces.",
+      "rationale": "Sample additional breast parenchyma/TDLUs in upper left to exclude in situ/invasive carcinoma."
+    },
+    {
+      "roi_id": "slide_A_x29696_y18944_mag20",
+      "tile_id": "slide_A_x29696_y18944_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 29696,
+      "y": 18944,
+      "level0": {
+        "x": 29696,
+        "y": 18944,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows fragmented, eosinophilic, acellular material with a wavy appearance, associated with hemorrhage and scattered inflammatory cells. The material is consistent with foreign material.\n\nThe most likely diagnosis is a foreign body reaction to silicone.\n\nDifferential diagnoses include other foreign body reactions (e.g., suture material, talc) and amyloidosis. Foreign body reactions typically show more fragmented material and associated inflammation, while amyloidosis presents as more homogeneous, amorphous deposits.",
+      "rationale": "High-power of right/inferior capsule edge to look for atypical large lymphoid cells (BIA-ALCL) vs reactive histiocytes."
+    },
+    {
+      "roi_id": "slide_A_x13312_y4096_mag10",
+      "tile_id": "slide_A_x13312_y4096_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 13312,
+      "y": 4096,
+      "level0": {
+        "x": 13312,
+        "y": 4096,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows clear spaces within fibrous stroma, accompanied by a mixed inflammatory infiltrate including lymphocytes, plasma cells, and histiocytes, some with foamy cytoplasm. Multinucleated giant cells are also present.\n\nThe most likely diagnosis is silicone granuloma.\n\nDifferential diagnoses include fat necrosis, which typically shows foamy macrophages and giant cells but lacks the clear spaces and foreign body reaction pattern seen here. Other foreign body reactions could also be considered, but the clinical history of silicone implants strongly supports the diagnosis of silicone granuloma.",
+      "rationale": "Sample superior cap area (less explored) for lymphoid aggregates along capsule."
+    },
+    {
+      "roi_id": "slide_A_x12288_y11264_mag20",
+      "tile_id": "slide_A_x12288_y11264_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 12288,
+      "y": 11264,
+      "level0": {
+        "x": 12288,
+        "y": 11264,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cystic space lined by fibrous tissue with a mixed inflammatory infiltrate, including histiocytes and multinucleated giant cells, and associated fibrosis. The cystic space contains clear, sticky material.\n\nThe most likely diagnosis is a silicone granuloma, a foreign body reaction to silicone.\n\nDifferential diagnoses include fat necrosis, which typically shows foamy macrophages and cholesterol clefts, and a simple cyst, which lacks the prominent foreign body giant cell reaction and fibrosis.",
+      "rationale": "Examine interface of fibrous capsule and adjacent breast tissue for entrapped ducts vs atypical epithelial proliferation."
+    },
+    {
+      "roi_id": "slide_A_x12800_y4608_mag20",
+      "tile_id": "slide_A_x12800_y4608_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 12800,
+      "y": 4608,
+      "level0": {
+        "x": 12800,
+        "y": 4608,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows large, clear spaces surrounded by a cellular stroma containing a mixed inflammatory infiltrate and spindle cells. The spaces are lined by flattened cells, and the stroma shows fibrosis.\n\nThe most likely diagnosis is a foreign body reaction to silicone.\n\nDifferential diagnoses include fat necrosis and cystic lymphangioma. Fat necrosis typically shows foamy macrophages and cholesterol clefts, while cystic lymphangioma would have endothelial-lined spaces.",
+      "rationale": "High-power of superior cap to exclude atypical large lymphoid cells."
+    },
+    {
+      "roi_id": "slide_A_x17408_y10240_mag10",
+      "tile_id": "slide_A_x17408_y10240_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 17408,
+      "y": 10240,
+      "level0": {
+        "x": 17408,
+        "y": 10240,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows adipose tissue with a prominent inflammatory infiltrate composed of lymphocytes, plasma cells, and histiocytes, including numerous multinucleated giant cells. There is also associated fibrosis and thickened blood vessel walls.\n\nThe morphologic features are consistent with a foreign body reaction to silicone. The presence of multinucleated giant cells surrounding clear spaces is characteristic of a reaction to foreign material. Given the clinical history of silicone breast implants, this is the most likely diagnosis.\n\nDifferential diagnoses to consider include fat necrosis, which can also show inflammation and giant cells, but typically lacks the clear spaces seen here. Other foreign body reactions to different materials could also be considered, but the clinical history strongly supports silicone.",
+      "rationale": "Sample central-upper cyst wall to assess lining and look for calcifications."
+    },
+    {
+      "roi_id": "slide_A_x20480_y15360_mag20",
+      "tile_id": "slide_A_x20480_y15360_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20480,
+      "y": 15360,
+      "level0": {
+        "x": 20480,
+        "y": 15360,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows clear spaces within fibrous stroma, accompanied by a dense lymphoid infiltrate and scattered inflammatory cells. These features are consistent with a foreign body reaction to silicone.\n\nThe most likely diagnosis is silicone granuloma.\n\nDifferential diagnoses include fat necrosis, which typically shows foamy macrophages and cholesterol clefts, and lymphoma, which would show a monotonous population of atypical lymphoid cells.",
+      "rationale": "Check central cyst wall region for any true epithelial lining or malignant cells in wall."
+    },
+    {
+      "roi_id": "slide_A_x6144_y13312_mag10",
+      "tile_id": "slide_A_x6144_y13312_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 6144,
+      "y": 13312,
+      "level0": {
+        "x": 6144,
+        "y": 13312,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cystic structure lined by flattened cells, surrounded by dense fibrous tissue and a prominent inflammatory infiltrate including lymphocytes, plasma cells, and numerous foamy macrophages.",
+      "rationale": "Sample far left fibrous/capsular edge for dense lymphoid cuffing or necrosis."
+    },
+    {
+      "roi_id": "slide_A_x28672_y12288_mag20",
+      "tile_id": "slide_A_x28672_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 28672,
+      "y": 12288,
+      "level0": {
+        "x": 28672,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cystic structure lined by flattened cells, surrounded by dense fibrous tissue with extensive hemorrhage and scattered inflammatory cells. The cyst lumen contains amorphous material.\n\nThe most likely diagnosis is a silicone cyst, likely related to the patient's history of silicone breast implants.\n\nDifferential diagnoses include a simple breast cyst or a cystic lesion associated with a benign breast tumor, such as a fibroadenoma or phyllodes tumor. However, the presence of amorphous material within the cyst lumen and the patient's history of silicone implants strongly favor a silicone cyst.",
+      "rationale": "Sample right-sided fibrous/hemorrhagic area for atypical epithelial nests/metaplastic carcinoma."
+    },
+    {
+      "roi_id": "slide_A_x6144_y12800_mag20",
+      "tile_id": "slide_A_x6144_y12800_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 6144,
+      "y": 12800,
+      "level0": {
+        "x": 6144,
+        "y": 12800,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cystic structure lined by flattened cells, surrounded by dense fibrous tissue with chronic inflammation and hemorrhage. The lumen contains amorphous material.\n\nThe most likely diagnosis is a silicone granuloma, a foreign body reaction to leaked silicone.\n\nDifferential diagnoses include a ruptured epidermal inclusion cyst, which would typically show a lining of stratified squamous epithelium and keratin debris, and a simple cyst, which would lack the surrounding inflammatory and fibrotic reaction.",
+      "rationale": "High-power check of far left edge."
+    },
+    {
+      "roi_id": "slide_A_x17408_y10240_mag20",
+      "tile_id": "slide_A_x17408_y10240_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 17408,
+      "y": 10240,
+      "level0": {
+        "x": 17408,
+        "y": 10240,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows adipose tissue with a prominent inflammatory infiltrate composed of lymphocytes, plasma cells, and histiocytes, including numerous multinucleated giant cells. There is also associated fibrosis and thickened blood vessel walls.\n\nThe morphologic features are consistent with a foreign body reaction to silicone. The presence of multinucleated giant cells and the inflammatory infiltrate surrounding adipose tissue are characteristic of a reaction to foreign material. Given the clinical history of silicone breast implants, this reaction is likely due to silicone leakage or migration. Differential diagnoses could include other causes of granulomatous inflammation in the breast, such as infectious etiologies (e.g., tuberculosis, fungal infections) or sarcoidosis, but the clinical history strongly supports a foreign body reaction to silicone.",
+      "rationale": "High-power of same area for synovial metaplasia vs granulation tissue and search for malignant epithelial cells."
+    },
+    {
+      "roi_id": "slide_A_x35840_y14848_mag20",
+      "tile_id": "slide_A_x35840_y14848_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 35840,
+      "y": 14848,
+      "level0": {
+        "x": 35840,
+        "y": 14848,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cystic space containing abundant red blood cells and scattered inflammatory cells, with a wall composed of dense fibrous tissue and spindle cells.\n\nThe most likely diagnosis is a silicone granuloma with associated hemorrhage.\n\nDifferential diagnoses include a simple hematoma or a cystic lesion with hemorrhage, but the presence of a fibrous wall and inflammatory cells suggests a reactive process related to the silicone implant.",
+      "rationale": "Further sample region 1 fibrous fragment for squamous/epithelial lining or carcinoma."
+    },
+    {
+      "roi_id": "slide_A_x25600_y25600_mag10",
+      "tile_id": "slide_A_x25600_y25600_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 25600,
+      "y": 25600,
+      "level0": {
+        "x": 25600,
+        "y": 25600,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cystic structure lined by flattened cells, surrounded by dense fibrous tissue with chronic inflammation and hemorrhage. The lumen contains amorphous material.\n\nThe most likely diagnosis is a silicone granuloma, likely secondary to a ruptured silicone implant.\n\nDifferential diagnoses include a foreign body granuloma from other causes (e.g., suture material) or a cystic lesion with reactive changes.",
+      "rationale": "Sample inferior right capsule/adjacent hemorrhagic area for atypical cells."
+    },
+    {
+      "roi_id": "slide_A_x36864_y17408_mag10",
+      "tile_id": "slide_A_x36864_y17408_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 36864,
+      "y": 17408,
+      "level0": {
+        "x": 36864,
+        "y": 17408,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cystic structure lined by flattened cells, surrounded by dense fibrous tissue with scattered chronic inflammation and hemorrhage. The cyst lumen contains amorphous material.\n\nThe most likely diagnosis is a silicone cyst, likely related to the patient's history of silicone breast implants. The presence of amorphous material within a cystic structure lined by flattened cells, surrounded by fibrosis and inflammation, is consistent with a foreign body reaction to silicone.",
+      "rationale": "Fill gap in region 1 near mid-upper fragment to ensure no focal dense lymphoid aggregates missed."
+    },
+    {
+      "roi_id": "slide_A_x29184_y6144_mag20",
+      "tile_id": "slide_A_x29184_y6144_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 29184,
+      "y": 6144,
+      "level0": {
+        "x": 29184,
+        "y": 6144,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows dense fibrous stroma with scattered epithelial structures, including ducts and lobules, some with luminal secretions. There are also congested blood vessels and a mild perivascular inflammatory infiltrate.\n\nThe most likely diagnosis for this single tile is benign breast tissue with fibrosis and inflammation, possibly related to the patient's history of silicone implants and mastectomy.\n\nDifferential diagnoses to consider include:\n- Silicone granuloma: This would show foreign body giant cells and histiocytes surrounding silicone material, which is not evident in this image.\n- Chronic mastitis: This would typically show a more prominent inflammatory infiltrate, often with plasma cells, and may be associated with duct ectasia or abscess formation, which are not seen here.",
+      "rationale": "Revisit benign duct/lobule area to specifically screen for DCIS/atypia/LCIS."
+    },
+    {
+      "roi_id": "slide_A_x24064_y24064_mag20",
+      "tile_id": "slide_A_x24064_y24064_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 24064,
+      "y": 24064,
+      "level0": {
+        "x": 24064,
+        "y": 24064,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows dense fibrous stroma with scattered spindle cells and numerous extravasated red blood cells. A cluster of epithelial cells is also present.\n\nThe most likely diagnosis is a silicone granuloma, a foreign body reaction to silicone.\n\nDifferential diagnoses include fat necrosis, which can also show fibrosis and inflammation, and a ruptured cyst, which would typically show a cystic structure lined by epithelium.",
+      "rationale": "Review area with entrapped epithelial clusters noted earlier; confirm benignity vs carcinoma."
+    },
+    {
+      "roi_id": "slide_A_x36864_y17408_mag20",
+      "tile_id": "slide_A_x36864_y17408_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 36864,
+      "y": 17408,
+      "level0": {
+        "x": 36864,
+        "y": 17408,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cystic structure lined by flattened cells, surrounded by dense fibrous tissue with scattered chronic inflammation and extravasated red blood cells. The lumen contains amorphous material.\n\nThe most likely diagnosis is a silicone granuloma, likely secondary to a ruptured silicone implant.\n\nDifferential diagnoses include a foreign body granuloma from other materials (e.g., suture material) or a cystic lesion with secondary inflammation.",
+      "rationale": "High-power at same site for atypical large cells."
+    },
+    {
+      "roi_id": "slide_A_x30720_y11264_mag10",
+      "tile_id": "slide_A_x30720_y11264_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 30720,
+      "y": 11264,
+      "level0": {
+        "x": 30720,
+        "y": 11264,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows mature adipose tissue with scattered inflammatory cells and red blood cells. The cyst wall is composed of dense fibrous tissue with chronic inflammation and hemorrhage.\n\nThe most likely diagnosis is a silicone granuloma, a foreign body reaction to silicone material. Differential diagnoses include fat necrosis and a lipoma with secondary changes.",
+      "rationale": "Sample right-sided capsule/seroma edge between prior ROIs for focal atypical lymphoid infiltrate."
+    },
+    {
+      "roi_id": "slide_A_x31232_y20480_mag20",
+      "tile_id": "slide_A_x31232_y20480_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 31232,
+      "y": 20480,
+      "level0": {
+        "x": 31232,
+        "y": 20480,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows dense fibrous tissue with scattered chronic inflammation and numerous small vessels. There are also clusters of cells with small, dark nuclei and scant cytoplasm, some arranged in a linear pattern.\n\nThe most likely diagnosis is a foreign body reaction to silicone.\n\nDifferential diagnoses include:\n- Silicone granuloma: Characterized by foreign body giant cells and histiocytes surrounding silicone material.\n- Chronic inflammation: May show similar fibrosis and chronic inflammatory cells but lacks the foreign body reaction pattern.",
+      "rationale": "Sample any epithelium in region 1 fragment to exclude true squamous cyst or malignancy."
+    },
+    {
+      "roi_id": "slide_A_x31232_y11264_mag20",
+      "tile_id": "slide_A_x31232_y11264_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 31232,
+      "y": 11264,
+      "level0": {
+        "x": 31232,
+        "y": 11264,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows mature adipose tissue with large, clear adipocytes and peripherally located nuclei. Delicate fibrovascular septa are present, containing scattered red blood cells.\n\nThe most likely diagnosis for this histology tile is normal breast adipose tissue. The presence of mature adipocytes with peripherally located nuclei and delicate fibrovascular septa is characteristic of normal breast fat. The clinical history of silicone breast implants and the gross description of a cyst filled with clear, sticky material are not directly related to the histology of this specific tissue sample.",
+      "rationale": "High-power check right capsule edge."
+    },
+    {
+      "roi_id": "slide_A_x20480_y6144_mag10",
+      "tile_id": "slide_A_x20480_y6144_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 20480,
+      "y": 6144,
+      "level0": {
+        "x": 20480,
+        "y": 6144,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows clear spaces surrounded by a dense inflammatory infiltrate composed of lymphocytes, plasma cells, and numerous histiocytes, including multinucleated giant cells. There is also associated fibrosis.\n\nThe most likely diagnosis is a foreign body reaction to silicone.\n\nDifferential diagnoses include fat necrosis, which can also show inflammation and giant cells, but typically has associated foamy macrophages and lacks the clear spaces seen here.",
+      "rationale": "Sample superior central area near luminal material for possible lining-associated atypical cells."
+    },
+    {
+      "roi_id": "slide_A_x35840_y20480_mag10",
+      "tile_id": "slide_A_x35840_y20480_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 35840,
+      "y": 20480,
+      "level0": {
+        "x": 35840,
+        "y": 20480,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cystic structure lined by flattened cells, surrounded by dense fibrous tissue with scattered chronic inflammation and foreign body giant cells. The lumen contains amorphous material.\n\nThe most likely diagnosis is a silicone granuloma, likely secondary to a ruptured silicone implant.\n\nDifferential diagnoses include a foreign body granuloma from other causes (e.g., suture material) or a ruptured epidermal inclusion cyst, although the clinical history strongly favors a silicone source.",
+      "rationale": "Systematic review of region 1 at intermediate power for any epithelial lining, squamous metaplasia, atypia or invasive nests."
+    },
+    {
+      "roi_id": "slide_A_x34816_y16384_mag10",
+      "tile_id": "slide_A_x34816_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 34816,
+      "y": 16384,
+      "level0": {
+        "x": 34816,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cystic structure lined by flattened cells, surrounded by dense fibrous tissue with scattered chronic inflammation and hemorrhage. The lumen contains amorphous material.\n\nThe most likely diagnosis is a silicone cyst, likely related to the patient's history of silicone breast implants.\n\nDifferential diagnoses include a simple breast cyst or a fibrocystic change, which would typically lack the dense fibrosis and amorphous luminal material seen here.",
+      "rationale": "Sample additional part of region 1 fragment closer to hemorrhagic/cystic area."
+    },
+    {
+      "roi_id": "slide_A_x34816_y13312_mag10",
+      "tile_id": "slide_A_x34816_y13312_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 34816,
+      "y": 13312,
+      "level0": {
+        "x": 34816,
+        "y": 13312,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cystic structure with a fibrotic wall containing abundant amorphous eosinophilic material and numerous red blood cells. Scattered inflammatory cells and dark granular material are also present.\n\nThe most likely diagnosis is a silicone granuloma, likely secondary to a ruptured silicone implant.\n\nDifferential diagnoses include a hematoma or a cyst with hemorrhage, which would lack the characteristic amorphous eosinophilic material and granular material seen here.",
+      "rationale": "Check right-sided capsule area near boundary with region 1 for any epithelial proliferation not yet sampled."
+    }
+  ]
+}

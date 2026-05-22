@@ -1,0 +1,922 @@
+{
+  "case_id": "sem1129_case3",
+  "source": "slideseek-ai-assist",
+  "model": "gpt-5.4",
+  "generated_at": "2026-05-22T09:20:08.432140+00:00",
+  "organ": "Genitourinary",
+  "primary_dx": "Classic Seminoma, Testis",
+  "differential_dx": [
+    "Embryonal Carcinoma, Nonseminomatous Germ Cell Tumor Component",
+    "Yolk Sac Tumor, Nonseminomatous Germ Cell Tumor Component"
+  ],
+  "microscopic_findings": [
+    {
+      "text": "Tumor cells are large and uniform with **clear cytoplasm**, **distinct cell borders**, and round nuclei with **prominent nucleoli**.",
+      "roi_ids": [
+        "slide_A_x24576_y14336_mag20"
+      ]
+    },
+    {
+      "text": "Neoplasm grows in nests and cords separated by **fibrous septa** containing conspicuous **lymphocytic infiltrates**.",
+      "roi_ids": [
+        "slide_A_x24576_y16384_mag10"
+      ]
+    },
+    {
+      "text": "Lobules show cohesive sheets of **polygonal germ cells** with relatively monomorphic cytology and no marked pleomorphism.",
+      "roi_ids": [
+        "slide_A_x29696_y19456_mag10"
+      ]
+    },
+    {
+      "text": "A peripheral **cystic/duct-like structure** is lined by bland cuboidal epithelium, without atypical teratomatous differentiation.",
+      "roi_ids": [
+        "slide_A_x14848_y25088_mag20"
+      ]
+    }
+  ],
+  "interpretation": "The morphology is diagnostic of **classic seminoma**, supported by sheets and nests of large uniform germ cells with **clear cytoplasm**, sharp borders, and prominent nucleoli divided by **fibrous septa with lymphocytes**. There is no convincing **embryonal carcinoma** pattern, as marked pleomorphism and glandular, papillary, or alveolar architecture are not identified. No **yolk sac tumor** features such as reticular or microcystic growth, Schiller-Duval bodies, or hyaline globules are seen on the examined slide. The focal peripheral cystic structure appears benign/rete-type rather than evidence of teratoma.",
+  "num_rois": 55,
+  "tiles": [
+    {
+      "roi_id": "slide_A_x24576_y14336_mag5",
+      "tile_id": "slide_A_x24576_y14336_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 24576,
+      "y": 14336,
+      "level0": {
+        "x": 24576,
+        "y": 14336,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a diffuse proliferation of large cells with clear cytoplasm and prominent nucleoli, arranged in nests separated by fibrous septa with lymphocytic infiltrate. The most likely diagnosis is seminoma. Differential diagnoses include embryonal carcinoma and lymphoma, which can be distinguished by their different cellular morphology and immunohistochemical profiles.",
+      "rationale": "Assess architecture: sheets vs nests, septa, lymphoid infiltrate"
+    },
+    {
+      "roi_id": "slide_A_x24576_y12288_mag2",
+      "tile_id": "slide_A_x24576_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 24576,
+      "y": 12288,
+      "level0": {
+        "x": 24576,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a dense cellular infiltrate with a diffuse growth pattern and scattered fibrous septa. The cells are relatively uniform with round to oval nuclei and scant cytoplasm.\n\nThe most likely diagnosis is a germ cell tumor, specifically seminoma, given the clinical context and morphology. Differential diagnoses include other germ cell tumors like embryonal carcinoma or lymphoma, which can be distinguished by cellular morphology and immunohistochemistry.",
+      "rationale": "Low-power overview of central tumor to assess growth pattern and necrosis/hemorrhage"
+    },
+    {
+      "roi_id": "slide_A_x24576_y16384_mag1",
+      "tile_id": "slide_A_x24576_y16384_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 24576,
+      "y": 16384,
+      "level0": {
+        "x": 24576,
+        "y": 16384,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a cellular neoplasm with a nodular pattern separated by fibrous septa. The tumor cells are relatively uniform with round to oval nuclei and scant cytoplasm, and there is a prominent lymphocytic infiltrate within the septa.\n\nThe most likely diagnosis is seminoma. Differential diagnoses include embryonal carcinoma, which typically shows more pleomorphism and architectural patterns like glandular or papillary structures, and lymphoma, which would lack the characteristic fibrous septa and lymphocytic infiltrate.",
+      "rationale": "Low-power overview of central tumor to assess heterogeneity/necrosis"
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag1",
+      "tile_id": "slide_A_x8192_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a dense cellular infiltrate with a prominent fibrous capsule and areas of necrosis. The cellular population appears relatively uniform.\n\nThe most likely diagnosis is a germ cell tumor, specifically seminoma, given the clinical context and morphology. Differential diagnoses include other germ cell tumors like embryonal carcinoma or lymphoma, which can be distinguished by cellular morphology and immunohistochemistry.",
+      "rationale": "Low-power overview left/superior tumor for heterogeneity/necrosis"
+    },
+    {
+      "roi_id": "slide_A_x12288_y18432_mag5",
+      "tile_id": "slide_A_x12288_y18432_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 12288,
+      "y": 18432,
+      "level0": {
+        "x": 12288,
+        "y": 18432,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular neoplasm composed of nests of uniform cells separated by fibrous septa containing lymphocytes. The cells have round nuclei and clear cytoplasm, with areas of necrosis.\n\nThe most likely diagnosis is seminoma. Differential diagnoses include embryonal carcinoma, which typically shows more pleomorphism and glandular or papillary structures, and lymphoma, which would lack the fibrous septa and lymphocytic infiltrate.",
+      "rationale": "Survey left-central area for architecture; look for diffuse sheets vs cords/tubules or spindle areas"
+    },
+    {
+      "roi_id": "slide_A_x12288_y8192_mag5",
+      "tile_id": "slide_A_x12288_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 12288,
+      "y": 8192,
+      "level0": {
+        "x": 12288,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular neoplasm with a nodular pattern separated by fibrous septa. The tumor cells are large with clear cytoplasm and round nuclei, accompanied by a prominent lymphocytic infiltrate.\n\nThe most likely diagnosis is seminoma.\n\nDifferential diagnoses include embryonal carcinoma, which typically shows more pleomorphism, irregular glandular or papillary structures, and lacks the prominent lymphocytic infiltrate. Spermatocytic tumor is another consideration, but it usually occurs in older men and has a different cellular morphology with three distinct cell types.",
+      "rationale": "Look for necrosis/hemorrhage and different patterns"
+    },
+    {
+      "roi_id": "slide_A_x12288_y8192_mag2",
+      "tile_id": "slide_A_x12288_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 8192,
+      "level0": {
+        "x": 12288,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a transition from a densely cellular area with small cells and scant cytoplasm to a less cellular area with necrosis and hemorrhage. The cellular component is arranged in nests and cords separated by fibrous septa.\n\nThe most likely diagnosis is a germ cell tumor, specifically seminoma, given the clinical context and morphology.\n\nDifferential diagnoses include embryonal carcinoma, which typically shows more pleomorphism and glandular or papillary patterns, and lymphoma, which would lack the fibrous septa and nested architecture.",
+      "rationale": "Survey superior-left region for different architecture"
+    },
+    {
+      "roi_id": "slide_A_x40960_y24576_mag1",
+      "tile_id": "slide_A_x40960_y24576_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 40960,
+      "y": 24576,
+      "level0": {
+        "x": 40960,
+        "y": 24576,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a cellular neoplasm with a nodular pattern separated by fibrous septa. The tumor cells are relatively uniform with round to oval nuclei and scant cytoplasm, and there is a prominent lymphocytic infiltrate within the septa.\n\nThe most likely diagnosis is seminoma. Differential diagnoses include embryonal carcinoma, which typically shows more pleomorphism and glandular or papillary structures, and lymphoma, which would lack the nodular architecture and fibrous septa.",
+      "rationale": "Low-power overview right/inferior area near possible capsule/periphery"
+    },
+    {
+      "roi_id": "slide_A_x38912_y16384_mag5",
+      "tile_id": "slide_A_x38912_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 38912,
+      "y": 16384,
+      "level0": {
+        "x": 38912,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular neoplasm with a nodular pattern separated by fibrous septa. The tumor cells are uniform with round nuclei and clear cytoplasm, and there is a prominent lymphocytic infiltrate within the septa.\n\nThe most likely diagnosis is seminoma.\n\nDifferential diagnoses include embryonal carcinoma, which typically shows more pleomorphism, irregular nuclear contours, and prominent nucleoli, and lymphoma, which would lack the characteristic fibrous septa and lymphocytic infiltrate.",
+      "rationale": "Survey right-central area for heterogeneity incl. spindle/sex cord-stromal or lymphoid infiltrate"
+    },
+    {
+      "roi_id": "slide_A_x38912_y24576_mag5",
+      "tile_id": "slide_A_x38912_y24576_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 38912,
+      "y": 24576,
+      "level0": {
+        "x": 38912,
+        "y": 24576,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords separated by fibrous septa. The cells are uniform with round nuclei and clear cytoplasm, and there is a prominent lymphocytic infiltrate within the septa.\n\nThe most likely diagnosis is seminoma. Differential diagnoses include embryonal carcinoma, which typically shows more pleomorphism and glandular or papillary patterns, and lymphoma, which would lack the nested architecture and fibrous septa.",
+      "rationale": "Periphery search for residual tubules/ITGCN"
+    },
+    {
+      "roi_id": "slide_A_x36864_y8192_mag2",
+      "tile_id": "slide_A_x36864_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 36864,
+      "y": 8192,
+      "level0": {
+        "x": 36864,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular neoplasm with a diffuse growth pattern and a prominent lymphocytic infiltrate. The neoplastic cells are large with vesicular nuclei and prominent nucleoli, arranged in nests and cords separated by fibrous septa.\n\nThe most likely diagnosis is seminoma. Differential diagnoses include embryonal carcinoma, which typically shows more pleomorphism, and lymphoma, which would lack the characteristic fibrous septa and lymphocytic infiltrate.",
+      "rationale": "Survey superior-right region"
+    },
+    {
+      "roi_id": "slide_A_x16384_y24576_mag2",
+      "tile_id": "slide_A_x16384_y24576_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 16384,
+      "y": 24576,
+      "level0": {
+        "x": 16384,
+        "y": 24576,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a thickened fibrous capsule with underlying testicular parenchyma containing seminiferous tubules and interstitial stroma. There is a prominent inflammatory infiltrate and numerous blood vessels, some with thickened walls.\n\nThe most likely diagnosis is a testicular neoplasm with associated inflammation and vascular changes. Differential diagnoses include seminoma, which can present with a fibrous capsule and prominent lymphocytic infiltrate, and a Leydig cell tumor, which can have a fibrous capsule and prominent vasculature.",
+      "rationale": "Survey inferior-left region near capsule/possible invasion"
+    },
+    {
+      "roi_id": "slide_A_x26624_y26624_mag5",
+      "tile_id": "slide_A_x26624_y26624_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 26624,
+      "y": 26624,
+      "level0": {
+        "x": 26624,
+        "y": 26624,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a large vessel with a thickened wall and luminal thrombus, surrounded by fibrous stroma containing smaller vessels and tubular structures. The lower edge shows a thin layer of flattened cells.\n\nThe most likely diagnosis is a testicular tumor with associated vascular changes and stromal reaction. The presence of a large vessel with thrombus and surrounding fibrous stroma with tubular structures suggests a neoplastic process with significant stromal reaction and vascular involvement.\n\nDifferential diagnoses include a testicular germ cell tumor with prominent stromal reaction or a sex cord-stromal tumor. The presence of tubular structures could suggest a sex cord-stromal tumor, while the overall pattern could be seen in germ cell tumors with extensive stromal desmoplasia. Further evaluation of the cellular morphology and immunohistochemical studies would be necessary to distinguish between these possibilities.",
+      "rationale": "Examine lower portion near apparent capsule/parenchyma for interstitial lymphoid infiltrate or vascular invasion"
+    },
+    {
+      "roi_id": "slide_A_x24576_y14336_mag20",
+      "tile_id": "slide_A_x24576_y14336_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 24576,
+      "y": 14336,
+      "level0": {
+        "x": 24576,
+        "y": 14336,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of large cells with clear cytoplasm and prominent nucleoli, arranged in nests separated by fibrous septa with a prominent lymphocytic infiltrate.\n\nThe most likely diagnosis is seminoma.\n\nDifferential diagnoses include embryonal carcinoma, which typically shows more pleomorphism, irregular nuclear contours, and often forms glandular or papillary structures, and lymphoma, which would show a diffuse infiltrate of lymphoid cells.",
+      "rationale": "Confirm seminoma cytology and look for lymphocytes/granulomas"
+    },
+    {
+      "roi_id": "slide_A_x41984_y26624_mag10",
+      "tile_id": "slide_A_x41984_y26624_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 41984,
+      "y": 26624,
+      "level0": {
+        "x": 41984,
+        "y": 26624,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of large cells with clear cytoplasm and prominent nucleoli, arranged in nests separated by fibrous septa with a prominent lymphocytic infiltrate.\n\nThe most likely diagnosis is seminoma.\n\nDifferential diagnoses include embryonal carcinoma, which typically shows more pleomorphism, irregular nuclear contours, and often forms glandular or papillary structures, and lymphoma, which would show a diffuse infiltrate of lymphoid cells.",
+      "rationale": "Inferior-right edge/capsule to find seminiferous tubules and ITGCN"
+    },
+    {
+      "roi_id": "slide_A_x36864_y24576_mag2",
+      "tile_id": "slide_A_x36864_y24576_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 36864,
+      "y": 24576,
+      "level0": {
+        "x": 36864,
+        "y": 24576,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular neoplasm with a nodular pattern separated by fibrous septa. The tumor cells are relatively uniform with round to oval nuclei and scant cytoplasm, and there is a prominent lymphocytic infiltrate within the septa.\n\nThe most likely diagnosis is a germ cell tumor, specifically seminoma, given the nodular architecture, uniform cell population, and lymphocytic infiltrate. Other germ cell tumors, such as embryonal carcinoma, could be considered but typically show more pleomorphism and different architectural patterns.",
+      "rationale": "Survey inferior-right region"
+    },
+    {
+      "roi_id": "slide_A_x12288_y8192_mag20",
+      "tile_id": "slide_A_x12288_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 12288,
+      "y": 8192,
+      "level0": {
+        "x": 12288,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of large cells with clear cytoplasm and prominent nucleoli, arranged in nests separated by fibrous septa with a dense lymphocytic infiltrate.",
+      "rationale": "Assess for necrosis, cytologic atypia, rule out embryonal/yolk sac features"
+    },
+    {
+      "roi_id": "slide_A_x6144_y24576_mag10",
+      "tile_id": "slide_A_x6144_y24576_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 6144,
+      "y": 24576,
+      "level0": {
+        "x": 6144,
+        "y": 24576,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cystic structure lined by flattened cells with a wall composed of dense fibrous tissue containing spindle cells and blood vessels. The surrounding tissue is less cellular and more collagenous.\n\nThe most likely diagnosis is a cystic lesion of the testis, such as a cystic lymphangioma or a cystic degeneration within a testicular tumor.\n\nDifferential diagnoses include a cystic lymphangioma, which typically has a thin wall and is lined by endothelial cells, and a cystic degeneration within a testicular tumor, which would show features of the underlying tumor in other areas.",
+      "rationale": "Inferior-left edge—look for non-tumor parenchyma and ITGCN"
+    },
+    {
+      "roi_id": "slide_A_x38912_y24576_mag10",
+      "tile_id": "slide_A_x38912_y24576_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 38912,
+      "y": 24576,
+      "level0": {
+        "x": 38912,
+        "y": 24576,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords separated by fibrovascular septa. The cells are uniform with round nuclei, prominent nucleoli, and clear to pale eosinophilic cytoplasm, with scattered lymphocytes in the stroma.\n\nThe most likely diagnosis is seminoma. Differential diagnoses include embryonal carcinoma, which typically shows more pleomorphism, and lymphoma, which would have a different growth pattern and lack the characteristic fibrovascular septa.",
+      "rationale": "Periphery—search for residual tubules/ITGCN"
+    },
+    {
+      "roi_id": "slide_A_x12288_y18432_mag20",
+      "tile_id": "slide_A_x12288_y18432_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 12288,
+      "y": 18432,
+      "level0": {
+        "x": 12288,
+        "y": 18432,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of large cells with clear to eosinophilic cytoplasm and prominent nucleoli, arranged in nests separated by fibrous septa with a lymphocytic infiltrate.\n\nThe most likely diagnosis is seminoma.\n\nDifferential diagnoses include embryonal carcinoma, which typically shows more pleomorphism, irregular nuclear contours, and prominent nucleoli, and yolk sac tumor, which often exhibits a reticular or microcystic pattern and Schiller-Duval bodies.",
+      "rationale": "High-power of classic-appearing tumor nests with fibrous septa/lymphocytes to exclude lymphoma and assess cytology"
+    },
+    {
+      "roi_id": "slide_A_x12288_y8192_mag10",
+      "tile_id": "slide_A_x12288_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 12288,
+      "y": 8192,
+      "level0": {
+        "x": 12288,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords separated by fibrous septa. The cells are large with clear cytoplasm and prominent nucleoli, accompanied by a dense lymphocytic infiltrate in the stroma.\n\nThe most likely diagnosis is seminoma. Differential diagnoses include embryonal carcinoma, which typically shows more pleomorphism and glandular or papillary patterns, and lymphoma, which would lack the nested architecture and fibrous septa.",
+      "rationale": "Check for embryonal carcinoma vs seminoma cytology/architecture in superior-left sampled area"
+    },
+    {
+      "roi_id": "slide_A_x38912_y16384_mag20",
+      "tile_id": "slide_A_x38912_y16384_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 38912,
+      "y": 16384,
+      "level0": {
+        "x": 38912,
+        "y": 16384,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of large cells with clear cytoplasm and prominent nucleoli, arranged in nests separated by fibrous septa with a lymphocytic infiltrate.",
+      "rationale": "High-power in another tumor area to confirm seminoma-like cytology vs embryonal carcinoma/sex cord"
+    },
+    {
+      "roi_id": "slide_A_x24576_y16384_mag10",
+      "tile_id": "slide_A_x24576_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 24576,
+      "y": 16384,
+      "level0": {
+        "x": 24576,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of large cells with clear cytoplasm and prominent nucleoli, arranged in nests separated by fibrous septa with a prominent lymphocytic infiltrate.",
+      "rationale": "Evaluate central tumor for nonseminomatous components and necrosis"
+    },
+    {
+      "roi_id": "slide_A_x8192_y6144_mag10",
+      "tile_id": "slide_A_x8192_y6144_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 8192,
+      "y": 6144,
+      "level0": {
+        "x": 8192,
+        "y": 6144,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords separated by delicate fibrovascular septa. The cells are uniform with round nuclei, prominent nucleoli, and clear to pale eosinophilic cytoplasm. Scattered lymphocytes are present within the septa.\n\nThe most likely diagnosis is seminoma. The characteristic features include the nested architecture, uniform cells with clear cytoplasm and prominent nucleoli, and the presence of lymphocytes within the fibrovascular septa. The clinical presentation of a testicular mass in a young adult male is also consistent with this diagnosis.\n\nDifferential diagnoses include embryonal carcinoma, which typically shows more pleomorphism, irregular glandular or papillary structures, and lacks the prominent lymphocytic infiltrate. Spermatocytic tumor is another consideration, but it usually occurs in older men and has a different cellular morphology with three distinct cell types.",
+      "rationale": "Superior-left—look for granulomas/septa and heterologous elements"
+    },
+    {
+      "roi_id": "slide_A_x36864_y8192_mag10",
+      "tile_id": "slide_A_x36864_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 36864,
+      "y": 8192,
+      "level0": {
+        "x": 36864,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords separated by fibrous septa. The cells are large with clear cytoplasm and prominent nucleoli, with a background lymphocytic infiltrate.\n\nThe most likely diagnosis is seminoma.\n\nDifferential diagnoses include embryonal carcinoma, which typically shows more pleomorphism, glandular or papillary structures, and lacks the prominent lymphocytic infiltrate. Spermatocytic tumor is another consideration, but it usually occurs in older men and has a different cellular morphology.",
+      "rationale": "Assess superior-right region for glandular/solid patterns suggestive of embryonal or yolk sac"
+    },
+    {
+      "roi_id": "slide_A_x26624_y26624_mag10",
+      "tile_id": "slide_A_x26624_y26624_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 26624,
+      "y": 26624,
+      "level0": {
+        "x": 26624,
+        "y": 26624,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a large vessel with a thickened wall and luminal thrombus, surrounded by dense fibrous stroma containing scattered tubular structures. The stroma is hypocellular with scattered chronic inflammation.\n\nThe most likely diagnosis is a Sertoli cell tumor, NOS. The presence of tubular structures within a fibrous stroma is characteristic of this tumor type. The large vessel with thrombus and surrounding fibrosis may represent a reactive change or a component of the tumor.\n\nDifferential diagnoses include other sex cord-stromal tumors such as Leydig cell tumor, which typically shows cells with abundant eosinophilic cytoplasm and Reinke crystals, and granulosa cell tumor, which may show Call-Exner bodies.",
+      "rationale": "Evaluate lower region with large vessel/thrombus; look for vascular invasion or entrapped tubules"
+    },
+    {
+      "roi_id": "slide_A_x32768_y15360_mag10",
+      "tile_id": "slide_A_x32768_y15360_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 32768,
+      "y": 15360,
+      "level0": {
+        "x": 32768,
+        "y": 15360,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords separated by fibrous septa. The cells are large with clear cytoplasm and prominent nucleoli, with a background lymphocytic infiltrate.\n\nThe most likely diagnosis is seminoma. Differential diagnoses include embryonal carcinoma, which typically shows more pleomorphism and glandular or papillary patterns, and lymphoma, which would have a diffuse infiltrate of lymphoid cells.",
+      "rationale": "Sample different central-right zone to look for heterogeneous component"
+    },
+    {
+      "roi_id": "slide_A_x26624_y26624_mag20",
+      "tile_id": "slide_A_x26624_y26624_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 26624,
+      "y": 26624,
+      "level0": {
+        "x": 26624,
+        "y": 26624,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with wavy nuclei and eosinophilic cytoplasm, arranged in fascicles and whorls, with prominent thick-walled blood vessels and scattered inflammatory cells.\n\nThe most likely diagnosis is a paraganglioma.\n\nDifferential diagnoses include schwannoma, which typically shows Antoni A and B areas and Verocay bodies, and leiomyoma, which has more uniform spindle cells with blunt-ended nuclei.",
+      "rationale": "High-power of vessel wall/lumen for intravascular tumor vs bland thrombus"
+    },
+    {
+      "roi_id": "slide_A_x6144_y24576_mag20",
+      "tile_id": "slide_A_x6144_y24576_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 6144,
+      "y": 24576,
+      "level0": {
+        "x": 6144,
+        "y": 24576,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cystic structure lined by flattened to cuboidal cells with a fibrous wall containing spindle cells and small vessels. The surrounding tissue is fibrous with scattered spindle cells.\n\nThe most likely diagnosis is a cystic lesion of the testis, such as a cystic mesothelioma or a cystic degeneration within a testicular tumor.\n\nDifferential diagnoses include cystic mesothelioma, which typically shows a lining of mesothelial cells, and cystic degeneration within a testicular tumor, which would require identification of the underlying neoplastic component.",
+      "rationale": "Clarify cystic/fibrous area—exclude teratomatous epithelium or rete testis/residual structures"
+    },
+    {
+      "roi_id": "slide_A_x29696_y19456_mag10",
+      "tile_id": "slide_A_x29696_y19456_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 29696,
+      "y": 19456,
+      "level0": {
+        "x": 29696,
+        "y": 19456,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows nests of large cells with clear cytoplasm and prominent nucleoli separated by fibrous septa containing lymphocytes.",
+      "rationale": "Sample additional mid-tumor area not yet high-powered; look for alternative components/necrosis"
+    },
+    {
+      "roi_id": "slide_A_x29696_y21504_mag10",
+      "tile_id": "slide_A_x29696_y21504_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 29696,
+      "y": 21504,
+      "level0": {
+        "x": 29696,
+        "y": 21504,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords separated by fibrovascular septa. The cells are uniform with round nuclei, prominent nucleoli, and clear to eosinophilic cytoplasm, with a prominent lymphocytic infiltrate in the septa.\n\nThe most likely diagnosis is seminoma.\n\nDifferential diagnoses include embryonal carcinoma, which typically shows more pleomorphism, irregular glandular or papillary structures, and lacks the prominent lymphocytic infiltrate. Spermatocytic tumor is another consideration, but it usually occurs in older men and has a different cellular morphology with three distinct cell types.",
+      "rationale": "Sample inferior-central zone near hemorrhage/necrosis for choriocarcinoma-like areas"
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag5",
+      "tile_id": "slide_A_x8192_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords separated by fibrous septa. The cells are uniform with round nuclei and clear cytoplasm, and there is a prominent lymphocytic infiltrate within the septa.\n\nThe most likely diagnosis is seminoma. Differential diagnoses include embryonal carcinoma, which typically shows more pleomorphism and glandular or papillary structures, and lymphoma, which would lack the nested architecture and fibrous septa.",
+      "rationale": "Check upper-left tumor edge for any different morphology (spindle/sarcoma) or residual tubules/interstitial lymphoid infiltrate"
+    },
+    {
+      "roi_id": "slide_A_x46080_y12288_mag10",
+      "tile_id": "slide_A_x46080_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 46080,
+      "y": 12288,
+      "level0": {
+        "x": 46080,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords separated by delicate fibrovascular septa. The cells are large with round to oval nuclei, prominent nucleoli, and abundant clear to eosinophilic cytoplasm. Scattered lymphocytes are present within the septa.\n\nThe most likely diagnosis is seminoma. The characteristic features include the nested architecture, large cells with clear cytoplasm, and the presence of lymphocytes within the fibrovascular septa. The clinical presentation of a testicular mass in a young adult male is also consistent with this diagnosis.\n\nDifferential diagnoses include embryonal carcinoma, which typically shows more pleomorphism, irregular glandular or papillary structures, and lacks the prominent lymphocytic infiltrate. Spermatocytic tumor is another consideration, but it usually occurs in older men and has a different cellular morphology with three distinct cell populations.",
+      "rationale": "Upper-right tumor—check for heterogeneity, granulomas, septa, or non-seminomatous areas"
+    },
+    {
+      "roi_id": "slide_A_x41984_y25600_mag20",
+      "tile_id": "slide_A_x41984_y25600_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 41984,
+      "y": 25600,
+      "level0": {
+        "x": 41984,
+        "y": 25600,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of large cells with clear cytoplasm and prominent nucleoli, arranged in nests separated by fibrous septa with a prominent lymphocytic infiltrate.\n\nThe most likely diagnosis is seminoma.\n\nDifferential diagnoses include embryonal carcinoma, which typically shows more pleomorphism, irregular nuclear contours, and often forms glandular or papillary structures, and lymphoma, which would show a diffuse infiltrate of lymphoid cells.",
+      "rationale": "High-power check of inferior-right area near vascular/capsular zone for any distinct nonseminomatous foci"
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag20",
+      "tile_id": "slide_A_x8192_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords separated by fibrovascular septa. The cells are large with clear to eosinophilic cytoplasm and prominent nucleoli, with a background lymphocytic infiltrate.\n\nThe most likely diagnosis is seminoma.\n\nDifferential diagnoses include embryonal carcinoma, which typically shows more pleomorphism, irregular glandular or papillary structures, and lacks the prominent lymphocytic infiltrate. Spermatocytic tumor is another consideration, but it usually occurs in older men and has a characteristic triphasic cell population.",
+      "rationale": "High-power at upper-left for lymphoma vs seminoma cytology"
+    },
+    {
+      "roi_id": "slide_A_x20480_y14336_mag20",
+      "tile_id": "slide_A_x20480_y14336_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20480,
+      "y": 14336,
+      "level0": {
+        "x": 20480,
+        "y": 14336,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of large cells with clear cytoplasm and prominent nucleoli, arranged in nests separated by fibrous septa with a lymphocytic infiltrate.",
+      "rationale": "High power central-left nodule for embryonal carcinoma cytology (pleomorphism, mitoses) vs seminoma"
+    },
+    {
+      "roi_id": "slide_A_x15360_y24576_mag10",
+      "tile_id": "slide_A_x15360_y24576_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 15360,
+      "y": 24576,
+      "level0": {
+        "x": 15360,
+        "y": 24576,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cystic structure lined by flattened to cuboidal epithelium, surrounded by a fibrous wall containing blood vessels and a nerve bundle. The lumen contains red blood cells.\n\nThe most likely diagnosis is a cystic lesion of the testis, such as a cystic teratoma or a simple cyst. The presence of a nerve bundle within the wall could suggest a teratoma component. Differential diagnoses include a simple cyst or a cystic component of a mixed germ cell tumor.",
+      "rationale": "Inferior mid-left periphery—search for residual seminiferous tubules/ITGCN"
+    },
+    {
+      "roi_id": "slide_A_x26112_y11776_mag20",
+      "tile_id": "slide_A_x26112_y11776_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 26112,
+      "y": 11776,
+      "level0": {
+        "x": 26112,
+        "y": 11776,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of large cells with clear cytoplasm and prominent nucleoli, arranged in nests separated by fibrous septa with a prominent lymphocytic infiltrate.",
+      "rationale": "High power central/superior zone to look for yolk sac patterns (reticular/microcystic, hyaline globules) or EC glands"
+    },
+    {
+      "roi_id": "slide_A_x45056_y8192_mag5",
+      "tile_id": "slide_A_x45056_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 45056,
+      "y": 8192,
+      "level0": {
+        "x": 45056,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a dense cellular infiltrate with a prominent lymphocytic background and scattered larger cells. There are also areas of fibrosis and necrosis.\n\nThe most likely diagnosis is a germ cell tumor, specifically seminoma, given the clinical context and morphology.\n\nDifferential diagnoses include embryonal carcinoma, which typically shows more pleomorphism and less prominent lymphocytic infiltrate, and lymphoma, which would lack the larger germ cells and fibrous septa.",
+      "rationale": "Upper-right tumor area to assess for heterogeneity/necrosis"
+    },
+    {
+      "roi_id": "slide_A_x45056_y8192_mag20",
+      "tile_id": "slide_A_x45056_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 45056,
+      "y": 8192,
+      "level0": {
+        "x": 45056,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of large cells with clear cytoplasm and prominent nucleoli, arranged in nests separated by fibrous septa with a prominent lymphocytic infiltrate. A blood vessel with thickened walls is also present.\n\nThe most likely diagnosis is seminoma.\n\nDifferential diagnoses include embryonal carcinoma, which typically shows more pleomorphism, irregular nuclear contours, and often forms glandular or papillary structures, and lymphoma, which would show a diffuse infiltrate of lymphoid cells.",
+      "rationale": "High-power upper-right to confirm cytology"
+    },
+    {
+      "roi_id": "slide_A_x14848_y25088_mag20",
+      "tile_id": "slide_A_x14848_y25088_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 14848,
+      "y": 25088,
+      "level0": {
+        "x": 14848,
+        "y": 25088,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cystic structure lined by a single layer of cuboidal to low columnar epithelium with basally oriented nuclei. The wall is composed of dense fibrous connective tissue with scattered spindle cells.\n\nThe most likely diagnosis is a cystic lesion of the testis, such as a cystic teratoma or a simple cyst. The presence of a cystic structure lined by epithelium and a fibrous wall is consistent with these possibilities. A cystic teratoma would typically show additional tissue types (e.g., cartilage, glandular structures) in other areas, while a simple cyst would lack such complexity.",
+      "rationale": "High-power interface with residual tubules to exclude teratoma or other components"
+    },
+    {
+      "roi_id": "slide_A_x10752_y7168_mag20",
+      "tile_id": "slide_A_x10752_y7168_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 10752,
+      "y": 7168,
+      "level0": {
+        "x": 10752,
+        "y": 7168,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of large cells with clear cytoplasm and prominent nucleoli, arranged in nests separated by fibrous septa with a prominent lymphocytic infiltrate.",
+      "rationale": "High-power superior-left zone where necrosis/hemorrhage noted to exclude choriocarcinoma-like biphasic trophoblast"
+    },
+    {
+      "roi_id": "slide_A_x45056_y24576_mag5",
+      "tile_id": "slide_A_x45056_y24576_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 45056,
+      "y": 24576,
+      "level0": {
+        "x": 45056,
+        "y": 24576,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords separated by fibrous septa. The cells are uniform with round nuclei and clear cytoplasm, and there is a prominent lymphocytic infiltrate within the septa.\n\nThe most likely diagnosis is seminoma. Differential diagnoses include embryonal carcinoma, which typically shows more pleomorphism and glandular or papillary patterns, and lymphoma, which would lack the nested architecture and fibrous septa.",
+      "rationale": "Lower-right region near cord/epididymis to look for vascular invasion or different component"
+    },
+    {
+      "roi_id": "slide_A_x14336_y24576_mag5",
+      "tile_id": "slide_A_x14336_y24576_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 14336,
+      "y": 24576,
+      "level0": {
+        "x": 14336,
+        "y": 24576,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cystic structure lined by flattened to cuboidal epithelium, surrounded by fibrous stroma containing numerous blood vessels, some with thickened walls. Adjacent tissue shows seminiferous tubules.\n\nThe most likely diagnosis is a cystic lesion of the testis, such as a cystic dysplastic rete testis or a cystic lesion of the tunica albuginea.\n\nDifferential diagnoses include a cystic seminoma or a cystic teratoma. Cystic seminoma would typically show sheets of large cells with clear cytoplasm and prominent nucleoli, while a cystic teratoma would contain elements from multiple germ layers.",
+      "rationale": "Context around cystic structure to see if part of teratoma with other tissue types"
+    },
+    {
+      "roi_id": "slide_A_x24576_y26624_mag5",
+      "tile_id": "slide_A_x24576_y26624_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 24576,
+      "y": 26624,
+      "level0": {
+        "x": 24576,
+        "y": 26624,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cystic structure lined by flattened cells, surrounded by fibrous stroma containing blood vessels and a nerve bundle. The lumen contains eosinophilic material and red blood cells.\n\nThe most likely diagnosis for this single tile is a cystic lesion, possibly a cystic lymphangioma or a cystic degeneration within a testicular tumor. The presence of a nerve bundle and fibrous stroma suggests a complex lesion. Differential diagnoses include a cystic lymphangioma, which is characterized by cystic spaces lined by endothelial cells, and a cystic degeneration within a testicular tumor, which would require identification of the underlying neoplastic component in other areas of the specimen.",
+      "rationale": "Revisit lower vessel/tubular/spindle focus at intermediate power to determine if this is rete testis/spermatic cord/epididymal tissue vs true tumor component"
+    },
+    {
+      "roi_id": "slide_A_x13312_y24576_mag10",
+      "tile_id": "slide_A_x13312_y24576_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 13312,
+      "y": 24576,
+      "level0": {
+        "x": 13312,
+        "y": 24576,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cystic structure lined by flattened to cuboidal epithelium with a wall composed of dense fibrous tissue containing numerous blood vessels. The surrounding stroma is fibrous with scattered inflammatory cells.\n\nThe most likely diagnosis is a cystic lesion of the testis, such as a cystic lymphangioma or a cystic degeneration within a testicular tumor.\n\nDifferential diagnoses include cystic lymphangioma, which typically shows lymphatic channels, and cystic degeneration within a testicular tumor, which would require identification of the underlying neoplastic component.",
+      "rationale": "Sample adjacent to cyst lining for other teratomatous elements (cartilage, glands, neuroepithelium)"
+    },
+    {
+      "roi_id": "slide_A_x26112_y26624_mag20",
+      "tile_id": "slide_A_x26112_y26624_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 26112,
+      "y": 26624,
+      "level0": {
+        "x": 26112,
+        "y": 26624,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles and whorls, with prominent vascularity and hemorrhage.\n\nThe most likely diagnosis is a Leydig cell tumor. Differential diagnoses include other sex cord-stromal tumors like Sertoli cell tumor, which typically shows tubular or cord-like patterns, and smooth muscle tumors like leiomyoma, which would lack the characteristic Leydig cell morphology.",
+      "rationale": "Clarify spindle-cell focus: reactive fibrovascular tissue vs sarcoma vs sex cord-stromal; check for intravascular tumor"
+    },
+    {
+      "roi_id": "slide_A_x16384_y24576_mag10",
+      "tile_id": "slide_A_x16384_y24576_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 16384,
+      "y": 24576,
+      "level0": {
+        "x": 16384,
+        "y": 24576,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a large vessel with a thickened wall and luminal thrombus, surrounded by fibrous stroma containing smaller vessels and scattered inflammatory cells. The vessel wall exhibits concentric thickening and hyalinization.\n\nThe most likely diagnosis is a benign vascular lesion, such as a hemangioma, given the presence of numerous blood vessels of varying sizes within a fibrous stroma. The large vessel with thrombus and wall changes could represent a component of the lesion or reactive changes.\n\nDifferential diagnoses include other benign vascular tumors like a venous malformation or a reactive process such as organizing thrombus or granulation tissue. The presence of a multinodular tumor with hemorrhage and necrosis in the gross description would favor a neoplastic process over a purely reactive one.",
+      "rationale": "Sample different area at tumor-parenchyma interface for teratoma/yolk sac"
+    },
+    {
+      "roi_id": "slide_A_x9216_y23552_mag10",
+      "tile_id": "slide_A_x9216_y23552_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 9216,
+      "y": 23552,
+      "level0": {
+        "x": 9216,
+        "y": 23552,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a transition from a cellular area with prominent vessels and inflammation to a less cellular, fibrous stroma. The cellular area contains large cells with clear to eosinophilic cytoplasm and round nuclei, arranged in nests and cords.\n\nThe most likely diagnosis is a germ cell tumor, specifically seminoma, given the presence of large cells with clear cytoplasm and round nuclei arranged in nests and cords, along with the clinical context of a testicular mass in a young male.\n\nDifferential diagnoses include other germ cell tumors such as embryonal carcinoma, which typically shows more pleomorphism and mitotic activity, and lymphoma, which would show a diffuse infiltrate of lymphoid cells.",
+      "rationale": "Explore additional inferior-left interface area not yet sampled for nonseminomatous components"
+    },
+    {
+      "roi_id": "slide_A_x45056_y11264_mag10",
+      "tile_id": "slide_A_x45056_y11264_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 45056,
+      "y": 11264,
+      "level0": {
+        "x": 45056,
+        "y": 11264,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords separated by fibrous septa. The cells are large with round nuclei, prominent nucleoli, and clear to eosinophilic cytoplasm, with a background lymphocytic infiltrate.\n\nThe most likely diagnosis is seminoma. Differential diagnoses include embryonal carcinoma, which typically shows more pleomorphism and glandular or papillary patterns, and lymphoma, which would lack the nested architecture and fibrous septa.",
+      "rationale": "Explore far superior-right edge for hemorrhagic foci that could harbor choriocarcinoma or EC"
+    },
+    {
+      "roi_id": "slide_A_x47104_y16384_mag5",
+      "tile_id": "slide_A_x47104_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 47104,
+      "y": 16384,
+      "level0": {
+        "x": 47104,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular neoplasm composed of nests of cells with round nuclei and clear cytoplasm, separated by fibrous septa containing lymphocytes. Areas of necrosis are also present.\n\nThe most likely diagnosis is seminoma.\n\nDifferential diagnoses include embryonal carcinoma, which typically shows more pleomorphism, and lymphoma, which would lack the fibrous septa and lymphocytic infiltrate.",
+      "rationale": "Explore right mid region not yet sampled for possible nonseminomatous heterogeneity"
+    },
+    {
+      "roi_id": "slide_A_x47104_y17408_mag10",
+      "tile_id": "slide_A_x47104_y17408_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 47104,
+      "y": 17408,
+      "level0": {
+        "x": 47104,
+        "y": 17408,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of large cells with clear cytoplasm and prominent nucleoli, arranged in nests separated by fibrous septa with lymphocytes. Areas of necrosis are also present.\n\nThe most likely diagnosis is seminoma.\n\nDifferential diagnoses include embryonal carcinoma, which typically shows more pleomorphism, irregular nuclear contours, and prominent nucleoli, and yolk sac tumor, which often exhibits a reticular or microcystic pattern and Schiller-Duval bodies.",
+      "rationale": "Same region at higher power to assess architecture/cytology"
+    },
+    {
+      "roi_id": "slide_A_x24576_y6144_mag5",
+      "tile_id": "slide_A_x24576_y6144_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 24576,
+      "y": 6144,
+      "level0": {
+        "x": 24576,
+        "y": 6144,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a dense cellular infiltrate with a prominent lymphocytic background and scattered larger cells with clear cytoplasm. Areas of necrosis are also present.\n\nThe most likely diagnosis is seminoma.\n\nDifferential diagnoses include embryonal carcinoma, which typically shows more pleomorphism and glandular or papillary structures, and lymphoma, which would lack the larger cells with clear cytoplasm and the characteristic lymphocytic infiltrate.",
+      "rationale": "Explore superior-central pale area for potential different component"
+    },
+    {
+      "roi_id": "slide_A_x25600_y6144_mag10",
+      "tile_id": "slide_A_x25600_y6144_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 25600,
+      "y": 6144,
+      "level0": {
+        "x": 25600,
+        "y": 6144,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular neoplasm with a mixed population of large cells and smaller lymphocytes, separated by fibrous septa. The large cells have abundant clear cytoplasm and prominent nucleoli.\n\nThe most likely diagnosis is seminoma. Differential diagnoses include embryonal carcinoma, which typically shows more pleomorphism and glandular differentiation, and lymphoma, which would lack the characteristic large cells with clear cytoplasm.",
+      "rationale": "Assess superior-central area for yolk sac/embryonal patterns"
+    },
+    {
+      "roi_id": "slide_A_x6144_y16384_mag5",
+      "tile_id": "slide_A_x6144_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 6144,
+      "y": 16384,
+      "level0": {
+        "x": 6144,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords separated by fibrous septa. The cells are uniform with round nuclei and clear cytoplasm, and there is a prominent lymphocytic infiltrate within the septa.\n\nThe most likely diagnosis is seminoma.\n\nDifferential diagnoses include embryonal carcinoma, which typically shows more pleomorphism, irregular glandular or papillary structures, and lacks the prominent lymphocytic infiltrate. Spermatocytic tumor is another consideration, but it usually occurs in older men and has a different cellular morphology with three distinct cell types.",
+      "rationale": "Explore left mid region for necrosis/hemorrhage and nonseminomatous foci"
+    }
+  ]
+}

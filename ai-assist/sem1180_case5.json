@@ -1,0 +1,1278 @@
+{
+  "case_id": "sem1180_case5",
+  "source": "slideseek-ai-assist",
+  "model": "gpt-5.4",
+  "generated_at": "2026-05-22T09:22:26.611294+00:00",
+  "organ": "CNS-Endocrine",
+  "primary_dx": "Glioblastoma, CNS WHO Grade 4, Pleomorphic/Giant-Cell Rich With Sarcomatoid-Spindle Morphology",
+  "differential_dx": [
+    "Anaplastic Pleomorphic Xanthoastrocytoma, CNS WHO Grade 3",
+    "Anaplastic Meningioma / Other High-Grade Meningeal Tumor"
+  ],
+  "microscopic_findings": [
+    {
+      "text": "Tumor shows marked **nuclear pleomorphism** with numerous **multinucleated giant cells** in a fibrillary glial background.",
+      "roi_ids": [
+        "slide_A_x49664_y34816_mag20",
+        "slide_A_x35840_y8192_mag20"
+      ]
+    },
+    {
+      "text": "There is broad **geographic necrosis** with sharp **viable tumor-necrosis interface** and associated hemorrhagic debris.",
+      "roi_ids": [
+        "slide_A_x47104_y28672_mag10",
+        "slide_A_x45056_y24576_mag5"
+      ]
+    },
+    {
+      "text": "Abnormal vessels show **microvascular proliferation** and **thick-walled hyalinized vessels** within hypercellular tumor.",
+      "roi_ids": [
+        "slide_A_x46080_y30720_mag10",
+        "slide_A_x28672_y16384_mag20"
+      ]
+    },
+    {
+      "text": "Neoplastic cells are **spindle to epithelioid** with infiltrative fibrillary/myxoid stroma and conspicuous cytologic atypia.",
+      "roi_ids": [
+        "slide_A_x46080_y20992_mag20",
+        "slide_A_x32768_y24064_mag20"
+      ]
+    }
+  ],
+  "interpretation": "The combination of a highly pleomorphic astrocytic neoplasm with **multinucleated giant cells**, extensive **geographic necrosis**, and **microvascular proliferation** supports **glioblastoma, CNS WHO grade 4**. The spindle/sarcomatoid and giant-cell rich appearance is within the morphologic spectrum of **glioblastoma**. **Anaplastic PXA** is less favored because classic xanthomatous cells, eosinophilic granular bodies, and leptomeningeal/pericellular reticulin-rich features are not identified here. **Anaplastic meningioma** is also less likely given the absence of convincing whorls or psammoma bodies and the fibrillary glial background.",
+  "num_rois": 77,
+  "tiles": [
+    {
+      "roi_id": "slide_A_x16384_y8192_mag1",
+      "tile_id": "slide_A_x16384_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 16384,
+      "y": 8192,
+      "level0": {
+        "x": 16384,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The tissue shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with areas of hyalinization and prominent vascularity. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a meningioma, specifically a fibrous or transitional subtype.\n\nDifferential diagnoses include schwannoma, which typically shows Antoni A and B areas and Verocay bodies, and solitary fibrous tumor, which often has a more haphazard pattern and prominent staghorn vessels.",
+      "rationale": "overview of left tissue piece"
+    },
+    {
+      "roi_id": "slide_A_x12288_y8192_mag2",
+      "tile_id": "slide_A_x12288_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 8192,
+      "level0": {
+        "x": 12288,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The tissue shows a cellular proliferation of spindle-shaped cells arranged in intersecting fascicles and whorls, with areas of hyalinization and scattered blood vessels. The cells have elongated nuclei with mild pleomorphism.\n\nThe most likely diagnosis is a meningioma, specifically a fibrous or transitional subtype.\n\nDifferential diagnoses include solitary fibrous tumor/hemangiopericytoma, which typically shows a more prominent hemangiopericytoma-like vascular pattern, and schwannoma, which often exhibits nuclear palisading and Verocay bodies.",
+      "rationale": "Low-power survey left fragment; look for hypercellular rim vs necrosis."
+    },
+    {
+      "roi_id": "slide_A_x32768_y8192_mag1",
+      "tile_id": "slide_A_x32768_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 32768,
+      "y": 8192,
+      "level0": {
+        "x": 32768,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a spindle cell proliferation with variable cellularity, ranging from hypocellular areas with hyalinized stroma to more cellular areas with spindle cells in a myxoid background. Scattered blood vessels are present.\n\nThe most likely diagnosis is a pleomorphic xanthoastrocytoma. The differential diagnosis includes pilocytic astrocytoma, which typically shows Rosenthal fibers and eosinophilic granular bodies, and ganglioglioma, which would have a neuronal component.",
+      "rationale": "overview of upper central/right portion"
+    },
+    {
+      "roi_id": "slide_A_x32768_y8192_mag2",
+      "tile_id": "slide_A_x32768_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 32768,
+      "y": 8192,
+      "level0": {
+        "x": 32768,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated, wavy nuclei and eosinophilic cytoplasm, arranged in intersecting fascicles and whorls within a collagenous stroma. Scattered blood vessels are present.\n\nThe most likely diagnosis is a high-grade spindle cell neoplasm, such as a sarcoma or a high-grade glioma with sarcomatous features.\n\nDifferential diagnoses include:\n- Meningioma (fibrous type): Typically shows whorls and psammoma bodies, but lacks the high cellularity and atypia seen here.\n- Solitary fibrous tumor: Characterized by a patternless architecture and prominent branching vessels, which are not the main features in this image.",
+      "rationale": "Low-power survey superior central of main fragment."
+    },
+    {
+      "roi_id": "slide_A_x40960_y24576_mag1",
+      "tile_id": "slide_A_x40960_y24576_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 40960,
+      "y": 24576,
+      "level0": {
+        "x": 40960,
+        "y": 24576,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a cellular neoplasm with areas of necrosis and hemorrhage. The tumor cells are pleomorphic with spindle and epithelioid morphology, arranged in sheets and fascicles.\n\nThe most likely diagnosis is a high-grade glioma, such as glioblastoma. Differential diagnoses include anaplastic astrocytoma and metastatic carcinoma, which can be distinguished by the presence of necrosis and microvascular proliferation in glioblastoma, and the specific immunohistochemical profile.",
+      "rationale": "overview of central portion to assess necrosis/cystic change"
+    },
+    {
+      "roi_id": "slide_A_x45056_y16384_mag2",
+      "tile_id": "slide_A_x45056_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 45056,
+      "y": 16384,
+      "level0": {
+        "x": 45056,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a highly cellular neoplasm with marked nuclear pleomorphism, including bizarre giant cells, and areas of necrosis. The cells are arranged in sheets and fascicles.\n\nThe most likely diagnosis is a high-grade pleomorphic sarcoma, such as a pleomorphic undifferentiated sarcoma.\n\nDifferential diagnoses include glioblastoma, which can have pleomorphic cells and necrosis, and metastatic carcinoma, which can present as a pleomorphic mass in the CNS.",
+      "rationale": "Low-power overview right side of main fragment; evaluate for meningeal/dural tissue and pushing border."
+    },
+    {
+      "roi_id": "slide_A_x45056_y20480_mag2",
+      "tile_id": "slide_A_x45056_y20480_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 45056,
+      "y": 20480,
+      "level0": {
+        "x": 45056,
+        "y": 20480,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a transition from a cellular area with pleomorphic cells and vacuolated cytoplasm to a less cellular area with prominent vascularity, hemorrhage, and necrosis. The cellular component exhibits marked nuclear pleomorphism and hyperchromasia.\n\nThe most likely diagnosis is anaplastic meningioma (WHO grade III).\n\nDifferential diagnoses include glioblastoma, which can also show marked pleomorphism, necrosis, and vascularity, and metastatic carcinoma, which can present as a ring-enhancing mass in the brain with pleomorphic cells.",
+      "rationale": "Low-power survey right side of main fragment for viable tumor."
+    },
+    {
+      "roi_id": "slide_A_x49152_y32768_mag1",
+      "tile_id": "slide_A_x49152_y32768_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 49152,
+      "y": 32768,
+      "level0": {
+        "x": 49152,
+        "y": 32768,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a highly cellular neoplasm with marked nuclear pleomorphism, extensive necrosis, and hemorrhage. The tumor cells are arranged in sheets and nests with a prominent vascular network.\n\nThe most likely diagnosis is a high-grade glioma, such as glioblastoma.\n\nDifferential diagnoses include anaplastic astrocytoma, which would lack the extensive necrosis and microvascular proliferation seen here, and metastatic carcinoma, which would typically show more cohesive growth and lack the glial background.",
+      "rationale": "overview of far right/inferior portion"
+    },
+    {
+      "roi_id": "slide_A_x36864_y28672_mag2",
+      "tile_id": "slide_A_x36864_y28672_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 36864,
+      "y": 28672,
+      "level0": {
+        "x": 36864,
+        "y": 28672,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with prominent vascularity, including numerous small vessels and larger, thick-walled vessels. There is also a background of hyalinized stroma and scattered inflammatory cells.\n\nThe most likely diagnosis is a high-grade glial neoplasm, such as glioblastoma, given the cellularity, prominent vascularity, and hyalinized stroma. A key differential diagnosis is a high-grade meningioma, which can also show prominent vascularity and spindle cells, but typically lacks the hyalinized stroma and the degree of cellularity seen here.",
+      "rationale": "Low-power overview inferior central; map viable cellular areas vs necrosis."
+    },
+    {
+      "roi_id": "slide_A_x32768_y28672_mag2",
+      "tile_id": "slide_A_x32768_y28672_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 32768,
+      "y": 28672,
+      "level0": {
+        "x": 32768,
+        "y": 28672,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a transition from a hypocellular area with hyalinized stroma and prominent vessels to a hypercellular area with spindle cells in a fibrillary matrix. Scattered larger cells with eosinophilic cytoplasm and nuclear pleomorphism are present.\n\nThe most likely diagnosis is Pleomorphic Xanthoastrocytoma (PXA).\n\nDifferential diagnoses include:\n- Glioblastoma: Typically shows more pronounced nuclear atypia, mitotic activity, and necrosis.\n- Anaplastic Astrocytoma: Lacks the prominent pleomorphism and xanthomatous change seen in PXA.",
+      "rationale": "Low-power survey inferior central for necrosis/hemorrhage vs cellular areas."
+    },
+    {
+      "roi_id": "slide_A_x53248_y32768_mag2",
+      "tile_id": "slide_A_x53248_y32768_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 53248,
+      "y": 32768,
+      "level0": {
+        "x": 53248,
+        "y": 32768,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a highly cellular neoplasm composed of pleomorphic spindle and epithelioid cells with marked nuclear atypia and numerous mitotic figures. There is also extensive hemorrhage and necrosis.\n\nThe most likely diagnosis is a high-grade pleomorphic sarcoma, such as an undifferentiated pleomorphic sarcoma.\n\nDifferential diagnoses include anaplastic meningioma, which can show similar pleomorphism and necrosis, and metastatic melanoma, which can also present with pleomorphic cells and necrosis. Immunohistochemistry would be essential to differentiate these entities.",
+      "rationale": "Low-power overview inferolateral right; check for circumscribed nodule/metastatic pattern."
+    },
+    {
+      "roi_id": "slide_A_x12288_y12288_mag2",
+      "tile_id": "slide_A_x12288_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 12288,
+      "level0": {
+        "x": 12288,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with areas of hemorrhage and necrosis. The cells have elongated, wavy nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a high-grade spindle cell neoplasm, such as a sarcoma or a high-grade glioma with sarcomatous features.\n\nDifferential diagnoses include:\n- Malignant peripheral nerve sheath tumor (MPNST): Characterized by spindle cells with wavy nuclei, often associated with nerve sheath differentiation.\n- Glioblastoma (sarcomatous variant): A high-grade glioma with spindle cell morphology, often showing necrosis and hemorrhage.\n- Solitary fibrous tumor: A spindle cell neoplasm that can occur in the CNS, typically showing a patternless architecture and prominent vasculature.",
+      "rationale": "left piece medium-low power to assess circumscription vs infiltration and any whorled/spindle areas"
+    },
+    {
+      "roi_id": "slide_A_x46080_y21504_mag10",
+      "tile_id": "slide_A_x46080_y21504_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 46080,
+      "y": 21504,
+      "level0": {
+        "x": 46080,
+        "y": 21504,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells in a fibrillary matrix with prominent microcystic change and numerous thin-walled blood vessels. Scattered larger cells with eosinophilic cytoplasm and eccentric nuclei are also present.\n\nThe most likely diagnosis is a high-grade astrocytic neoplasm, such as glioblastoma.\n\nDifferential diagnoses include pleomorphic xanthoastrocytoma, which can have pleomorphic cells and microcystic change, but typically shows a more prominent xanthomatous component and lacks the high-grade features seen here. Other high-grade gliomas, such as anaplastic astrocytoma, could also be considered, but the presence of microcystic change and prominent vascularity is more characteristic of glioblastoma.",
+      "rationale": "Hypercellular/pleomorphic transition area on right; evaluate architecture, necrosis, vessels."
+    },
+    {
+      "roi_id": "slide_A_x28672_y8192_mag2",
+      "tile_id": "slide_A_x28672_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 28672,
+      "y": 8192,
+      "level0": {
+        "x": 28672,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a spindle cell proliferation with variable cellularity, arranged in fascicles and haphazardly, with areas of hyalinization and myxoid change. The cells have elongated, wavy nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a high-grade spindle cell neoplasm, such as a sarcoma or sarcomatoid carcinoma.\n\nDifferential diagnoses include:\n- Meningioma (fibrous type): Typically shows whorls and psammoma bodies, which are not seen here.\n- Schwannoma: Usually has Antoni A and B areas and Verocay bodies, which are absent.\n- Solitary fibrous tumor: Characterized by a patternless pattern and prominent branching vessels, which are not prominent here.",
+      "rationale": "upper mid area to look for necrosis/cystic change distribution"
+    },
+    {
+      "roi_id": "slide_A_x15360_y12288_mag10",
+      "tile_id": "slide_A_x15360_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 15360,
+      "y": 12288,
+      "level0": {
+        "x": 15360,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles with elongated, wavy nuclei and eosinophilic cytoplasm. Scattered larger cells with vesicular nuclei and prominent nucleoli are also present.\n\nThe most likely diagnosis is a high-grade spindle cell neoplasm, such as a sarcoma or a high-grade glioma with sarcomatous features.\n\nDifferential diagnoses include:\n- Malignant peripheral nerve sheath tumor (MPNST): Characterized by spindle cells with wavy nuclei, often associated with nerve sheath differentiation.\n- Anaplastic astrocytoma with sarcomatous features: Can show spindle cell morphology and high-grade features.\n- Solitary fibrous tumor: Typically shows a patternless architecture with prominent branching vessels, which are not the main feature here.",
+      "rationale": "Left fragment at higher power to see if whorls/psammoma vs carcinoma nests/glands."
+    },
+    {
+      "roi_id": "slide_A_x45056_y24576_mag5",
+      "tile_id": "slide_A_x45056_y24576_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 45056,
+      "y": 24576,
+      "level0": {
+        "x": 45056,
+        "y": 24576,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a highly cellular neoplasm with extensive hemorrhage and necrosis. The cells are pleomorphic with irregular nuclei and prominent nucleoli, arranged in sheets and nests.\n\nThe most likely diagnosis is a high-grade glioma, such as glioblastoma.\n\nDifferential diagnoses include metastatic carcinoma, which can also present as a hemorrhagic mass in the brain, and anaplastic meningioma, which can show high cellularity and necrosis.",
+      "rationale": "central area where necrosis/hemorrhage suggested; assess geographic necrosis/palisading"
+    },
+    {
+      "roi_id": "slide_A_x46080_y20992_mag20",
+      "tile_id": "slide_A_x46080_y20992_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 46080,
+      "y": 20992,
+      "level0": {
+        "x": 46080,
+        "y": 20992,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated, wavy nuclei and eosinophilic cytoplasm, arranged in intersecting fascicles within a fibrillary matrix. Scattered larger cells with vesicular nuclei and prominent nucleoli are also present.\n\nThe most likely diagnosis is a high-grade astrocytic neoplasm, such as glioblastoma.\n\nDifferential diagnoses include other high-grade gliomas like anaplastic astrocytoma or pleomorphic xanthoastrocytoma, and potentially a high-grade mesenchymal neoplasm like a sarcoma, although the fibrillary background and glial morphology favor a glial origin.",
+      "rationale": "High power cytology/mitoses in same pleomorphic area."
+    },
+    {
+      "roi_id": "slide_A_x45056_y16384_mag10",
+      "tile_id": "slide_A_x45056_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 45056,
+      "y": 16384,
+      "level0": {
+        "x": 45056,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a highly cellular neoplasm with marked pleomorphism, including spindle cells, epithelioid cells, and scattered multinucleated giant cells. There is significant nuclear atypia and numerous mitotic figures, including atypical forms, within a fibrillary stroma.\n\nThe most likely diagnosis is a high-grade pleomorphic glioma, such as glioblastoma.\n\nDifferential diagnoses include anaplastic meningioma, which can also be highly pleomorphic, and metastatic carcinoma or melanoma, which can present with similar cellular morphology. Immunohistochemistry would be essential to distinguish between these possibilities.",
+      "rationale": "Right-side pleomorphic area; assess for epithelial cohesion, glandular differentiation."
+    },
+    {
+      "roi_id": "slide_A_x32768_y28672_mag10",
+      "tile_id": "slide_A_x32768_y28672_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 32768,
+      "y": 28672,
+      "level0": {
+        "x": 32768,
+        "y": 28672,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells in a fibrillary matrix with prominent microvascular proliferation and scattered multinucleated giant cells. The cells exhibit nuclear pleomorphism and hyperchromasia.\n\nThe most likely diagnosis is glioblastoma, IDH-wildtype.\n\nDifferential diagnoses include anaplastic astrocytoma, which typically lacks the prominent microvascular proliferation and necrosis seen in glioblastoma, and metastatic carcinoma, which would show different cellular morphology and immunohistochemical profile.",
+      "rationale": "Inferior central area suggested PXA-like; assess for xanthomatous cells, eosinophilic granular bodies, perivascular cuffs."
+    },
+    {
+      "roi_id": "slide_A_x51200_y32768_mag5",
+      "tile_id": "slide_A_x51200_y32768_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 51200,
+      "y": 32768,
+      "level0": {
+        "x": 51200,
+        "y": 32768,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a highly cellular neoplasm composed of pleomorphic spindle and epithelioid cells with marked nuclear atypia and scattered multinucleated giant cells. There is a prominent inflammatory infiltrate and areas of hemorrhage.\n\nThe most likely diagnosis is a high-grade pleomorphic sarcoma, such as an undifferentiated pleomorphic sarcoma.\n\nDifferential diagnoses include pleomorphic glioblastoma, which would typically show glial differentiation and perivascular pseudorosettes, and metastatic melanoma, which would require immunohistochemical confirmation.",
+      "rationale": "right-lower cellular area; look for microvascular proliferation pattern"
+    },
+    {
+      "roi_id": "slide_A_x53248_y32768_mag10",
+      "tile_id": "slide_A_x53248_y32768_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 53248,
+      "y": 32768,
+      "level0": {
+        "x": 53248,
+        "y": 32768,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a highly cellular neoplasm composed of pleomorphic spindle and epithelioid cells with marked nuclear atypia and scattered multinucleated giant cells. There is a prominent vascular network and areas of necrosis.\n\nThe most likely diagnosis is a high-grade pleomorphic sarcoma, such as an undifferentiated pleomorphic sarcoma.\n\nDifferential diagnoses include anaplastic glioma, which can show pleomorphism and necrosis, and metastatic carcinoma, which can present with pleomorphic cells and necrosis. Immunohistochemistry would be essential to differentiate these entities.",
+      "rationale": "Inferior-right necrotic/hemorrhagic area; look for carcinoma architecture/keratin/mucin."
+    },
+    {
+      "roi_id": "slide_A_x36864_y20480_mag2",
+      "tile_id": "slide_A_x36864_y20480_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 36864,
+      "y": 20480,
+      "level0": {
+        "x": 36864,
+        "y": 20480,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a transition from a hypocellular area with myxoid change and scattered cells to a more cellular area with pleomorphic cells, including multinucleated forms, and prominent vascularity.\n\nThe most likely diagnosis is a pleomorphic xanthoastrocytoma, WHO grade 3.\n\nDifferential diagnoses include glioblastoma, which typically shows more diffuse infiltration and necrosis, and anaplastic astrocytoma, which lacks the prominent pleomorphism and xanthomatous change seen here.",
+      "rationale": "interface zone between paler and more cellular regions to evaluate infiltrative edge"
+    },
+    {
+      "roi_id": "slide_A_x32768_y29184_mag20",
+      "tile_id": "slide_A_x32768_y29184_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 32768,
+      "y": 29184,
+      "level0": {
+        "x": 32768,
+        "y": 29184,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular neoplasm with pleomorphic cells, including spindle and epithelioid forms, within a fibrillary matrix. Prominent features include numerous blood vessels with thickened walls and perivascular hyalinization, along with areas of necrosis and hemorrhage.\n\nThe most likely diagnosis is a high-grade glioma, such as glioblastoma, given the cellularity, pleomorphism, necrosis, and vascular changes. Differential diagnoses include anaplastic astrocytoma, which lacks necrosis and microvascular proliferation, and metastatic carcinoma, which would typically show more cohesive growth and lack the fibrillary background.",
+      "rationale": "High power to assess atypia, mitoses, necrosis, inflammatory background."
+    },
+    {
+      "roi_id": "slide_A_x36864_y28672_mag10",
+      "tile_id": "slide_A_x36864_y28672_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 36864,
+      "y": 28672,
+      "level0": {
+        "x": 36864,
+        "y": 28672,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular neoplasm with a prominent vascular pattern, including numerous vessels with thickened walls and perivascular hyalinization. The cellular component consists of pleomorphic cells with large, irregular nuclei and scattered multinucleated giant cells.\n\nThe most likely diagnosis is glioblastoma, a high-grade astrocytic tumor. The presence of pleomorphic cells, thickened vessels, and multinucleated giant cells are characteristic features. Differential diagnoses include anaplastic astrocytoma, which lacks the microvascular proliferation and necrosis seen in glioblastoma, and metastatic carcinoma, which would typically show more cohesive growth and different cellular morphology.",
+      "rationale": "Vascular spindle-cell area; check for desmoplastic stroma or metastatic pattern."
+    },
+    {
+      "roi_id": "slide_A_x41984_y9216_mag10",
+      "tile_id": "slide_A_x41984_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 41984,
+      "y": 9216,
+      "level0": {
+        "x": 41984,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with marked nuclear pleomorphism and scattered multinucleated giant cells within a fibrillary stroma. Prominent blood vessels are also present.\n\nThe most likely diagnosis is a high-grade glial neoplasm, such as glioblastoma.\n\nDifferential diagnoses include anaplastic astrocytoma, which would lack the prominent vascular proliferation and necrosis seen in glioblastoma, and a pleomorphic xanthoastrocytoma, which typically has a more circumscribed growth pattern and often contains lipidized cells.",
+      "rationale": "Sample additional viable area in main fragment not yet focused; search for glands/mucin."
+    },
+    {
+      "roi_id": "slide_A_x12288_y11264_mag10",
+      "tile_id": "slide_A_x12288_y11264_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 12288,
+      "y": 11264,
+      "level0": {
+        "x": 12288,
+        "y": 11264,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle-shaped cells with elongated, pleomorphic nuclei and eosinophilic cytoplasm, arranged in intersecting fascicles. Scattered blood vessels are present.\n\nThe most likely diagnosis is a high-grade spindle cell neoplasm, such as a sarcoma or sarcomatoid carcinoma.\n\nDifferential diagnoses include:\n- Malignant peripheral nerve sheath tumor (MPNST): Typically shows wavy nuclei and may have areas of necrosis or hemorrhage.\n- Leiomyosarcoma: Characterized by spindle cells with blunt-ended nuclei and eosinophilic cytoplasm, often arranged in intersecting fascicles.\n- Fibrosarcoma: Composed of spindle cells in a herringbone pattern, with less pleomorphism than seen here.\n- Sarcomatoid carcinoma: A biphasic tumor with both epithelial and mesenchymal components, which may require immunohistochemistry for confirmation.",
+      "rationale": "Left fragment spindle/whorled area; check for meningioma vs schwannoma vs reactive."
+    },
+    {
+      "roi_id": "slide_A_x45056_y25600_mag10",
+      "tile_id": "slide_A_x45056_y25600_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 45056,
+      "y": 25600,
+      "level0": {
+        "x": 45056,
+        "y": 25600,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a highly cellular neoplasm with marked nuclear pleomorphism, prominent vascularity, and extensive hemorrhage. The cells are large with irregular nuclei and abundant eosinophilic cytoplasm, arranged in sheets and nests.\n\nThe most likely diagnosis is a high-grade glioma, such as glioblastoma.\n\nDifferential diagnoses include metastatic carcinoma, which can also present as a highly cellular, pleomorphic tumor with hemorrhage. Immunohistochemistry for glial markers (e.g., GFAP) and epithelial markers (e.g., cytokeratins) would be helpful to distinguish between these possibilities.",
+      "rationale": "evaluate for pseudopalisading necrosis vs abscess-like necrosis at medium power in necrotic/hemorrhagic center"
+    },
+    {
+      "roi_id": "slide_A_x51200_y33792_mag10",
+      "tile_id": "slide_A_x51200_y33792_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 51200,
+      "y": 33792,
+      "level0": {
+        "x": 51200,
+        "y": 33792,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a highly cellular neoplasm with marked cellular and nuclear pleomorphism, including spindle cells, epithelioid cells, and scattered multinucleated giant cells. There is a prominent inflammatory infiltrate and areas of necrosis.\n\nThe most likely diagnosis is a high-grade pleomorphic sarcoma, such as an undifferentiated pleomorphic sarcoma.\n\nDifferential diagnoses include pleomorphic glioblastoma, which would typically show glial differentiation and perivascular pseudorosettes, and metastatic carcinoma, which would show epithelial differentiation and potentially keratin or EMA positivity.",
+      "rationale": "assess for microvascular proliferation and tumor architecture in cellular right-lower area"
+    },
+    {
+      "roi_id": "slide_A_x37888_y21504_mag10",
+      "tile_id": "slide_A_x37888_y21504_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 37888,
+      "y": 21504,
+      "level0": {
+        "x": 37888,
+        "y": 21504,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation within a prominent myxoid matrix, featuring spindle cells, scattered multinucleated giant cells, and numerous small blood vessels.\n\nThe most likely diagnosis is a myxoid glioneuronal tumor. Differential diagnoses include myxoid astrocytoma and myxopapillary ependymoma, which can also show myxoid change and spindle cells but typically lack the characteristic glioneuronal elements.",
+      "rationale": "interface zone to assess infiltrative margin vs circumscription and perivascular cuffing"
+    },
+    {
+      "roi_id": "slide_A_x46080_y15360_mag20",
+      "tile_id": "slide_A_x46080_y15360_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 46080,
+      "y": 15360,
+      "level0": {
+        "x": 46080,
+        "y": 15360,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a highly cellular neoplasm with marked cellular and nuclear pleomorphism, including spindle and epithelioid cells with large, irregular nuclei and prominent nucleoli. There is a high mitotic rate and areas of necrosis.\n\nThe most likely diagnosis is a high-grade pleomorphic sarcoma, such as an undifferentiated pleomorphic sarcoma.\n\nDifferential diagnoses include anaplastic glioma, which can show pleomorphism but typically has a glial background and may express GFAP, and metastatic carcinoma, which would show epithelial differentiation and express cytokeratins.",
+      "rationale": "High power in pleomorphic epithelioid area to look for epithelial cohesion, intercellular bridges, keratin pearls."
+    },
+    {
+      "roi_id": "slide_A_x49152_y34816_mag10",
+      "tile_id": "slide_A_x49152_y34816_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 49152,
+      "y": 34816,
+      "level0": {
+        "x": 49152,
+        "y": 34816,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with marked nuclear pleomorphism and scattered multinucleated giant cells. There is a prominent fibrillary background and areas of hemorrhage.\n\nThe most likely diagnosis is a high-grade glial neoplasm, such as glioblastoma.\n\nDifferential diagnoses include anaplastic astrocytoma, which would lack the prominent microvascular proliferation and necrosis seen in glioblastoma, and a pleomorphic xanthoastrocytoma, which typically has a more prominent xanthomatous component and lacks the high-grade features.",
+      "rationale": "Inferior right edge (ring-enhancing rim candidate); search for viable hypercellular tumor vs abscess wall."
+    },
+    {
+      "roi_id": "slide_A_x53248_y32768_mag20",
+      "tile_id": "slide_A_x53248_y32768_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 53248,
+      "y": 32768,
+      "level0": {
+        "x": 53248,
+        "y": 32768,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a highly cellular neoplasm with marked cellular and nuclear pleomorphism, including spindle and epithelioid cells with large, irregular nuclei and prominent nucleoli. Scattered multinucleated giant cells and a background of smaller cells are also present.\n\nThe most likely diagnosis is a high-grade pleomorphic sarcoma, such as an undifferentiated pleomorphic sarcoma.\n\nDifferential diagnoses include pleomorphic glioblastoma, which would typically show glial differentiation and potentially GFAP positivity, and metastatic carcinoma, which would show epithelial differentiation and cytokeratin positivity.",
+      "rationale": "High power in necrotic/hemorrhagic region to look for gland formation, mucin, carcinoma nests at viable rim."
+    },
+    {
+      "roi_id": "slide_A_x49664_y34816_mag20",
+      "tile_id": "slide_A_x49664_y34816_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 49664,
+      "y": 34816,
+      "level0": {
+        "x": 49664,
+        "y": 34816,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with marked nuclear pleomorphism and scattered multinucleated giant cells within a fibrillary stroma. Prominent blood vessels are also present.\n\nThe most likely diagnosis is a high-grade glial neoplasm, such as glioblastoma.\n\nDifferential diagnoses include anaplastic astrocytoma, which would lack the prominent vascular proliferation and necrosis seen in glioblastoma, and a pleomorphic xanthoastrocytoma, which typically has a more circumscribed growth pattern and often contains lipidized cells.",
+      "rationale": "High power for mitoses, endothelial proliferation, necrosis type, inflammatory cells/organisms."
+    },
+    {
+      "roi_id": "slide_A_x12288_y12288_mag10",
+      "tile_id": "slide_A_x12288_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 12288,
+      "y": 12288,
+      "level0": {
+        "x": 12288,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a highly cellular proliferation of pleomorphic spindle cells arranged in intersecting fascicles and whorls. The cells have elongated, hyperchromatic nuclei with prominent nucleoli and numerous mitotic figures. Scattered multinucleated giant cells and areas of necrosis are also present.\n\nThe most likely diagnosis is a high-grade pleomorphic sarcoma, such as an undifferentiated pleomorphic sarcoma (UPS).\n\nDifferential diagnoses include:\n- Anaplastic meningioma: Typically shows whorls and psammoma bodies, which are absent here.\n- Pleomorphic glioblastoma: Would show glial differentiation and often necrosis with pseudopalisading, which is not seen here.\n- Metastatic sarcomatoid carcinoma: Would require clinical history of a primary carcinoma and immunohistochemistry to confirm epithelial origin.",
+      "rationale": "left piece to confirm whether spindle/whorled pattern is true vs artifact; look for dural/meningioma-like architecture or reactive tissue"
+    },
+    {
+      "roi_id": "slide_A_x35840_y8192_mag10",
+      "tile_id": "slide_A_x35840_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 35840,
+      "y": 8192,
+      "level0": {
+        "x": 35840,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells in a fibrillary matrix with scattered pleomorphic cells, including multinucleated giant cells. Prominent blood vessels with thickened walls are also present.\n\nThe most likely diagnosis is Pleomorphic Xanthoastrocytoma (PXA).\n\nDifferential diagnoses include Glioblastoma, which typically shows more pronounced nuclear atypia, mitotic activity, and necrosis, and Anaplastic Astrocytoma, which lacks the characteristic pleomorphic giant cells and xanthomatous change seen in PXA.",
+      "rationale": "Superior central pale area may represent necrosis; look for pseudopalisading or macrophages/neutrophils."
+    },
+    {
+      "roi_id": "slide_A_x15360_y12288_mag20",
+      "tile_id": "slide_A_x15360_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 15360,
+      "y": 12288,
+      "level0": {
+        "x": 15360,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle-shaped cells with elongated, pleomorphic nuclei and eosinophilic cytoplasm, arranged in intersecting fascicles and whorls. Scattered inflammatory cells and areas of hemorrhage are also present.\n\nThe most likely diagnosis is a high-grade spindle cell neoplasm, such as a sarcoma or a sarcomatoid carcinoma.\n\nDifferential diagnoses include:\n- Malignant peripheral nerve sheath tumor (MPNST): Typically shows wavy nuclei and may have areas of necrosis or myxoid change.\n- Leiomyosarcoma: Characterized by spindle cells with blunt-ended nuclei and eosinophilic cytoplasm, often arranged in intersecting fascicles.\n- Sarcomatoid carcinoma: A biphasic tumor with both epithelial and mesenchymal components, which may require immunohistochemistry for confirmation.",
+      "rationale": "High power in left fragment spindle/whorled area; check for meningioma-like whorls vs carcinoma."
+    },
+    {
+      "roi_id": "slide_A_x29696_y9216_mag10",
+      "tile_id": "slide_A_x29696_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 29696,
+      "y": 9216,
+      "level0": {
+        "x": 29696,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a moderately cellular proliferation of spindle cells with elongated, wavy nuclei embedded in a fibrillary matrix. Scattered blood vessels are present, some with thickened walls.\n\nThe most likely diagnosis is a low-grade astrocytoma, such as a pilocytic astrocytoma. The presence of spindle cells with elongated, wavy nuclei and a fibrillary background is characteristic of glial tumors. The thickened blood vessels are also a feature that can be seen in pilocytic astrocytomas.\n\nDifferential diagnoses to consider include other low-grade gliomas, such as diffuse astrocytoma, and reactive gliosis. However, the relatively uniform cellularity and the presence of thickened vessels favor a neoplastic process over reactive changes.",
+      "rationale": "upper region to assess whether myxoid/hypocellular areas represent cystic/degenerative change"
+    },
+    {
+      "roi_id": "slide_A_x40960_y9216_mag20",
+      "tile_id": "slide_A_x40960_y9216_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 40960,
+      "y": 9216,
+      "level0": {
+        "x": 40960,
+        "y": 9216,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation within a prominent myxoid stroma, featuring spindle cells, scattered multinucleated giant cells, and a mixed inflammatory infiltrate.",
+      "rationale": "High power in additional viable area to search for glands/mucin/epithelial clusters."
+    },
+    {
+      "roi_id": "slide_A_x35840_y8192_mag20",
+      "tile_id": "slide_A_x35840_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 35840,
+      "y": 8192,
+      "level0": {
+        "x": 35840,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells in a fibrillary matrix with scattered large, pleomorphic cells exhibiting bizarre nuclei and multinucleation. There is also a background of smaller cells with round nuclei and a small blood vessel.\n\nThe most likely diagnosis is Pleomorphic Xanthoastrocytoma (PXA). The presence of pleomorphic cells with bizarre nuclei and multinucleation, along with a fibrillary background, is characteristic of this entity. The clinical presentation of a young adult with a large, enhancing mass in the frontal lobe is also consistent.\n\nDifferential diagnoses include Glioblastoma, which typically shows more pronounced mitotic activity, necrosis, and microvascular proliferation, and Anaplastic Astrocytoma, which lacks the prominent pleomorphic cells and xanthomatous change seen in PXA.",
+      "rationale": "High power to characterize necrosis and inflammatory background."
+    },
+    {
+      "roi_id": "slide_A_x30208_y10752_mag20",
+      "tile_id": "slide_A_x30208_y10752_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 30208,
+      "y": 10752,
+      "level0": {
+        "x": 30208,
+        "y": 10752,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated, wavy nuclei and scattered larger cells with pleomorphic nuclei, set within a fibrillary matrix. Prominent blood vessels are also present.\n\nThe most likely diagnosis is a high-grade glial neoplasm, such as glioblastoma.\n\nDifferential diagnoses include anaplastic astrocytoma, which would lack the prominent vascular proliferation and necrosis seen in glioblastoma, and pleomorphic xanthoastrocytoma, which typically shows a more prominent xanthomatous component and often has a different clinical presentation.",
+      "rationale": "Sample different central zone for any discrete nests/glandular lumina suggesting metastasis."
+    },
+    {
+      "roi_id": "slide_A_x43008_y18432_mag5",
+      "tile_id": "slide_A_x43008_y18432_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 43008,
+      "y": 18432,
+      "level0": {
+        "x": 43008,
+        "y": 18432,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a highly cellular neoplasm with marked cellular and nuclear pleomorphism, including spindle and epithelioid cells, scattered multinucleated giant cells, and prominent nucleoli. There is a variable stromal component with areas of myxoid change and hemorrhage.\n\nThe most likely diagnosis is a high-grade pleomorphic sarcoma, such as an undifferentiated pleomorphic sarcoma.\n\nDifferential diagnoses include pleomorphic glioblastoma, which would typically show glial differentiation and perivascular pseudorosettes, and pleomorphic meningioma, which would show meningothelial features and whorls.",
+      "rationale": "sample paler upper-central area to see if represents necrosis/demyelination-like pallor or edema"
+    },
+    {
+      "roi_id": "slide_A_x24576_y14336_mag10",
+      "tile_id": "slide_A_x24576_y14336_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 24576,
+      "y": 14336,
+      "level0": {
+        "x": 24576,
+        "y": 14336,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated, wavy nuclei within a fibrillary matrix. Scattered larger cells with pleomorphic nuclei are also present. The background is fibrillary with areas of myxoid change.\n\nThe most likely diagnosis is a low-grade astrocytoma, specifically a pilocytic astrocytoma, given the biphasic pattern of cellular and myxoid areas, spindle cells with wavy nuclei, and scattered pleomorphic cells.\n\nDifferential diagnoses include other low-grade gliomas such as diffuse astrocytoma, which typically lacks the biphasic pattern and prominent piloid features, and reactive gliosis, which usually shows less cellularity and lacks the characteristic nuclear morphology and pleomorphism.",
+      "rationale": "Periventricular/central interface area; look for perivascular lymphoid cuffing (lymphoma) or demyelination pattern."
+    },
+    {
+      "roi_id": "slide_A_x40960_y21504_mag10",
+      "tile_id": "slide_A_x40960_y21504_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 40960,
+      "y": 21504,
+      "level0": {
+        "x": 40960,
+        "y": 21504,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular neoplasm with marked pleomorphism, including spindle and epithelioid cells, within a prominent myxoid stroma. Scattered multinucleated giant cells and prominent blood vessels are also present.\n\nThe most likely diagnosis is a high-grade pleomorphic sarcoma, such as myxofibrosarcoma.\n\nDifferential diagnoses include pleomorphic glioblastoma, which would typically show glial differentiation and perivascular pseudorosettes, and pleomorphic meningioma, which would show meningothelial features and whorls.",
+      "rationale": "look for perivascular cuffing/angiocentricity (lymphoma/demyelination) in paler region"
+    },
+    {
+      "roi_id": "slide_A_x28672_y16384_mag20",
+      "tile_id": "slide_A_x28672_y16384_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 28672,
+      "y": 16384,
+      "level0": {
+        "x": 28672,
+        "y": 16384,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells within a fibrillary matrix, featuring prominent microvascular proliferation with thickened walls and perivascular hyalinization. Scattered cells with clear cytoplasm are also present.\n\nThe most likely diagnosis is a high-grade astrocytic neoplasm, such as Glioblastoma.\n\nDifferential diagnoses include other high-grade gliomas like Anaplastic Astrocytoma or Pleomorphic Xanthoastrocytoma, which can show similar features but typically lack the extensive microvascular proliferation and necrosis seen in Glioblastoma.",
+      "rationale": "Unexplored central zone between prior ROIs; search for mitotically active hypercellular focus."
+    },
+    {
+      "roi_id": "slide_A_x47104_y28672_mag5",
+      "tile_id": "slide_A_x47104_y28672_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 47104,
+      "y": 28672,
+      "level0": {
+        "x": 47104,
+        "y": 28672,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a highly cellular neoplasm with marked nuclear pleomorphism, prominent vascularity, and areas of necrosis. The cells are arranged in sheets and nests.\n\nThe most likely diagnosis is glioblastoma, a high-grade astrocytic tumor.\n\nDifferential diagnoses include anaplastic astrocytoma, which lacks the prominent necrosis and microvascular proliferation seen here, and metastatic carcinoma, which would typically show more cohesive growth and lack the fibrillary background.",
+      "rationale": "evaluate necrotic-appearing mid-lower region for geographic necrosis/pseudopalisading pattern"
+    },
+    {
+      "roi_id": "slide_A_x47104_y28672_mag10",
+      "tile_id": "slide_A_x47104_y28672_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 47104,
+      "y": 28672,
+      "level0": {
+        "x": 47104,
+        "y": 28672,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular neoplasm with prominent vascularity, hemorrhage, and necrosis. The cells are pleomorphic with large, irregular nuclei and eosinophilic cytoplasm, arranged in nests and cords.\n\nThe most likely diagnosis is a high-grade glial neoplasm, such as glioblastoma.\n\nDifferential diagnoses include metastatic carcinoma, which can also present with necrosis and hemorrhage, and anaplastic meningioma, which can show increased cellularity and atypia.",
+      "rationale": "higher power to distinguish coagulative necrosis with palisading vs suppurative necrosis (abscess)"
+    },
+    {
+      "roi_id": "slide_A_x40960_y14848_mag20",
+      "tile_id": "slide_A_x40960_y14848_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 40960,
+      "y": 14848,
+      "level0": {
+        "x": 40960,
+        "y": 14848,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular neoplasm with a fibrillary background, featuring large pleomorphic cells with irregular nuclei and prominent nucleoli, along with scattered multinucleated giant cells and a mixed inflammatory infiltrate.\n\nThe most likely diagnosis is Pleomorphic Xanthoastrocytoma (PXA), WHO grade 3.\n\nDifferential diagnoses include Glioblastoma, which typically shows more pronounced microvascular proliferation and necrosis, and Anaplastic Astrocytoma, which lacks the characteristic pleomorphic giant cells and xanthomatous change seen in PXA.",
+      "rationale": "Unexplored upper-right central area; look for necrosis/pseudopalisading and microvascular proliferation."
+    },
+    {
+      "roi_id": "slide_A_x8192_y16384_mag5",
+      "tile_id": "slide_A_x8192_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 8192,
+      "y": 16384,
+      "level0": {
+        "x": 8192,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a highly cellular proliferation of pleomorphic spindle cells arranged in intersecting fascicles and whorls. There is marked nuclear pleomorphism, hyperchromasia, and numerous mitotic figures, including atypical forms. Areas of necrosis and hemorrhage are also present.\n\nThe most likely diagnosis is a high-grade pleomorphic sarcoma, such as an undifferentiated pleomorphic sarcoma (UPS). The marked cellularity, pleomorphism, and high mitotic activity are characteristic of a high-grade malignancy. The spindle cell morphology and lack of specific differentiation features point towards a sarcoma.\n\nDifferential diagnoses include:\n- Anaplastic meningioma: This can also present as a pleomorphic spindle cell tumor in the CNS, but typically shows some areas of meningothelial differentiation (e.g., whorls, psammoma bodies) and may express EMA.\n- Pleomorphic glioblastoma: This is a high-grade glioma with pleomorphic spindle cells, but it would typically show glial differentiation (e.g., GFAP positivity) and often has a more infiltrative growth pattern.\n- Metastatic sarcoma: A metastasis from a sarcoma elsewhere in the body could present similarly, but clinical history and immunohistochemistry would be needed to rule this out.",
+      "rationale": "Examine peripheral edge of left fragment for possible dura/meningeal interface and pushing border."
+    },
+    {
+      "roi_id": "slide_A_x22016_y26112_mag20",
+      "tile_id": "slide_A_x22016_y26112_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 22016,
+      "y": 26112,
+      "level0": {
+        "x": 22016,
+        "y": 26112,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a highly cellular neoplasm with marked cellular and nuclear pleomorphism, including large atypical cells and multinucleated giant cells. There is a prominent desmoplastic stromal reaction and areas of necrosis.\n\nThe most likely diagnosis is a high-grade pleomorphic sarcoma, such as an undifferentiated pleomorphic sarcoma.\n\nDifferential diagnoses include pleomorphic glioblastoma, which would typically show glial differentiation and perivascular pseudorosettes, and metastatic carcinoma, which would show epithelial differentiation and potentially keratinization.",
+      "rationale": "Inferior central pale area; assess for macrophages/demyelination vs necrosis/inflammation."
+    },
+    {
+      "roi_id": "slide_A_x6144_y18432_mag10",
+      "tile_id": "slide_A_x6144_y18432_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 6144,
+      "y": 18432,
+      "level0": {
+        "x": 6144,
+        "y": 18432,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a highly cellular proliferation of pleomorphic spindle cells arranged in intersecting fascicles and whorls. The cells have elongated, hyperchromatic nuclei with prominent nucleoli and eosinophilic cytoplasm. There is a fibrillary stroma and scattered inflammatory cells.\n\nThe most likely diagnosis is a high-grade spindle cell neoplasm, such as a sarcoma or a sarcomatoid carcinoma. Given the location in the CNS and the clinical presentation, a primary CNS sarcoma or a sarcomatoid variant of a glioma or meningioma should be considered.\n\nDifferential diagnoses include:\n- Malignant peripheral nerve sheath tumor (MPNST): Typically shows wavy nuclei and may have areas of necrosis or hemorrhage.\n- Anaplastic meningioma (sarcomatoid variant): May show areas of conventional meningioma and often has a more prominent whorling pattern.\n- Glioblastoma (sarcomatoid variant): May show areas of conventional glioblastoma and often has a more prominent vascular proliferation.",
+      "rationale": "Higher power at left fragment periphery to see if collagenous dura, whorls, or carcinoma infiltration."
+    },
+    {
+      "roi_id": "slide_A_x24576_y16384_mag2",
+      "tile_id": "slide_A_x24576_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 24576,
+      "y": 16384,
+      "level0": {
+        "x": 24576,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The tissue shows a spindle cell proliferation with variable cellularity, ranging from hypocellular areas with hyalinized stroma to more cellular areas with spindle cells in fascicles. Scattered blood vessels are present.\n\nThe most likely diagnosis is a low-grade astrocytoma, such as pilocytic astrocytoma.\n\nDifferential diagnoses include other low-grade gliomas, such as diffuse astrocytoma, and reactive gliosis.",
+      "rationale": "edge/interface near central cleft to assess circumscription/infiltrative margin"
+    },
+    {
+      "roi_id": "slide_A_x14848_y11264_mag20",
+      "tile_id": "slide_A_x14848_y11264_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 14848,
+      "y": 11264,
+      "level0": {
+        "x": 14848,
+        "y": 11264,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle-shaped cells with elongated, pleomorphic nuclei and eosinophilic cytoplasm, arranged in intersecting fascicles and whorls. Scattered larger, atypical cells are present within a fibrillary stroma.\n\nThe most likely diagnosis is a high-grade glial neoplasm, such as glioblastoma.\n\nDifferential diagnoses include anaplastic astrocytoma, which would show similar cellular atypia and pleomorphism but typically lacks the prominent microvascular proliferation and necrosis seen in glioblastoma. Other spindle cell lesions, such as solitary fibrous tumor or sarcoma, could be considered but are less likely given the clinical context and typical CNS location.",
+      "rationale": "Left fragment edge near hemorrhage; check for inflammatory/abscess-like neutrophils or organisms."
+    },
+    {
+      "roi_id": "slide_A_x55296_y14336_mag5",
+      "tile_id": "slide_A_x55296_y14336_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 55296,
+      "y": 14336,
+      "level0": {
+        "x": 55296,
+        "y": 14336,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular neoplasm with a prominent vascular network and areas of hemorrhage. The cells are relatively uniform with round to oval nuclei and moderate cytoplasm.\n\nThe most likely diagnosis is a pituitary adenoma. Differential diagnoses include other sellar region tumors such as craniopharyngioma or meningioma, which can be distinguished by their characteristic histological features and immunohistochemical profiles.",
+      "rationale": "Right upper edge of main fragment—look for surface meninges/dura and circumscription typical of metastasis."
+    },
+    {
+      "roi_id": "slide_A_x24576_y24576_mag2",
+      "tile_id": "slide_A_x24576_y24576_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 24576,
+      "y": 24576,
+      "level0": {
+        "x": 24576,
+        "y": 24576,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular neoplasm with a prominent vascular network and areas of necrosis. The cells are pleomorphic with spindle and epithelioid morphology, and some exhibit clear cytoplasm.\n\nThe most likely diagnosis is a high-grade glial neoplasm, such as glioblastoma.\n\nDifferential diagnoses include anaplastic meningioma, which can also be highly cellular and pleomorphic, and metastatic carcinoma, which can present as a ring-enhancing mass in the brain.",
+      "rationale": "lower central paler zone to see if viable tumor infiltrates into brain parenchyma"
+    },
+    {
+      "roi_id": "slide_A_x52736_y12800_mag20",
+      "tile_id": "slide_A_x52736_y12800_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 52736,
+      "y": 12800,
+      "level0": {
+        "x": 52736,
+        "y": 12800,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a highly cellular neoplasm with marked cellular and nuclear pleomorphism, including large bizarre cells and multinucleated giant cells. There is a prominent inflammatory infiltrate and areas of necrosis.\n\nThe most likely diagnosis is a high-grade pleomorphic sarcoma, such as an undifferentiated pleomorphic sarcoma.\n\nDifferential diagnoses include anaplastic glioma, which can also show pleomorphism and necrosis, and metastatic carcinoma, which can present with pleomorphic cells and necrosis. Immunohistochemistry would be essential to differentiate these entities.",
+      "rationale": "High power at right upper edge: search for desmoplasia, epithelial nests, dural involvement."
+    },
+    {
+      "roi_id": "slide_A_x53248_y20480_mag2",
+      "tile_id": "slide_A_x53248_y20480_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 53248,
+      "y": 20480,
+      "level0": {
+        "x": 53248,
+        "y": 20480,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a transition from a cellular area with pleomorphic cells and necrosis to a less cellular area with spindle cells and myxoid change. A prominent vessel is present.\n\nThe most likely diagnosis is anaplastic meningioma (WHO grade III).\n\nDifferential diagnoses include glioblastoma, which can also show necrosis and pleomorphism, and metastatic carcinoma, which can present as a ring-enhancing mass in the brain.",
+      "rationale": "far right edge to evaluate pushing vs infiltrative border"
+    },
+    {
+      "roi_id": "slide_A_x24576_y17408_mag10",
+      "tile_id": "slide_A_x24576_y17408_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 24576,
+      "y": 17408,
+      "level0": {
+        "x": 24576,
+        "y": 17408,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated, wavy nuclei and eosinophilic cytoplasm, arranged in intersecting fascicles and whorls within a fibrillary matrix. Scattered larger cells with pleomorphic nuclei are also present.\n\nThe most likely diagnosis is a high-grade glial neoplasm, such as glioblastoma.\n\nDifferential diagnoses include anaplastic astrocytoma, which typically lacks the prominent microvascular proliferation and necrosis seen in glioblastoma, and pleomorphic xanthoastrocytoma, which often shows a more prominent xanthomatous component and eosinophilic granular bodies.",
+      "rationale": "Tumor-brain interface zone near central pale area to assess infiltrative vs circumscribed growth; look for reactive gliosis."
+    },
+    {
+      "roi_id": "slide_A_x8192_y20480_mag2",
+      "tile_id": "slide_A_x8192_y20480_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 8192,
+      "y": 20480,
+      "level0": {
+        "x": 8192,
+        "y": 20480,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a highly cellular neoplasm composed of spindle cells arranged in fascicles and whorls, with areas of necrosis and hemorrhage. The cells have elongated, pleomorphic nuclei.\n\nThe most likely diagnosis is a high-grade spindle cell neoplasm, such as a sarcoma or a high-grade glioma with sarcomatous features.\n\nDifferential diagnoses include:\n- Anaplastic astrocytoma or glioblastoma: These can have spindle cell morphology and necrosis, but typically show more pleomorphism and mitotic activity.\n- Meningioma (atypical or anaplastic): These can be highly cellular and show necrosis, but often have characteristic whorls and psammoma bodies.\n- Metastatic sarcoma: A metastasis from a primary sarcoma elsewhere in the body could present as a high-grade spindle cell neoplasm in the CNS.",
+      "rationale": "left-lower edge to look for adjacent brain tissue and infiltration"
+    },
+    {
+      "roi_id": "slide_A_x49664_y25088_mag20",
+      "tile_id": "slide_A_x49664_y25088_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 49664,
+      "y": 25088,
+      "level0": {
+        "x": 49664,
+        "y": 25088,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation within a fibrillary background, featuring pleomorphic cells with large, irregular nuclei and prominent nucleoli, along with scattered multinucleated giant cells and areas of hemorrhage.\n\nThe most likely diagnosis is glioblastoma, IDH-wildtype.\n\nDifferential diagnoses include anaplastic astrocytoma, which typically lacks the prominent microvascular proliferation and necrosis seen in glioblastoma, and metastatic carcinoma, which would show different cellular morphology and immunohistochemical profile.",
+      "rationale": "Explore additional unsampled viable area in mid-right to exclude discrete epithelial nests/glands."
+    },
+    {
+      "roi_id": "slide_A_x46080_y30720_mag10",
+      "tile_id": "slide_A_x46080_y30720_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 46080,
+      "y": 30720,
+      "level0": {
+        "x": 46080,
+        "y": 30720,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular neoplasm with pleomorphic cells, including spindle and epithelioid forms, within a fibrillary stroma. Prominent features include numerous blood vessels with thickened walls and perivascular hyalinization, along with areas of hemorrhage and necrosis.\n\nThe most likely diagnosis is glioblastoma, a high-grade astrocytic tumor. The presence of marked cellular pleomorphism, necrosis, and microvascular proliferation (thickened vessels) are characteristic features. Differential diagnoses include anaplastic astrocytoma (which lacks necrosis and microvascular proliferation) and metastatic carcinoma (which would typically show more cohesive growth and lack the fibrillary background).",
+      "rationale": "search for classic serpiginous/geographic necrosis with pseudopalisading at edge"
+    },
+    {
+      "roi_id": "slide_A_x49152_y33792_mag10",
+      "tile_id": "slide_A_x49152_y33792_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 49152,
+      "y": 33792,
+      "level0": {
+        "x": 49152,
+        "y": 33792,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with marked nuclear pleomorphism and scattered multinucleated giant cells, set within a background of hemorrhage and necrosis.",
+      "rationale": "evaluate vascular proliferation (glomeruloid) in highly cellular right-lower region"
+    },
+    {
+      "roi_id": "slide_A_x45568_y23040_mag20",
+      "tile_id": "slide_A_x45568_y23040_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 45568,
+      "y": 23040,
+      "level0": {
+        "x": 45568,
+        "y": 23040,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with prominent vascularity, including vessels with thickened walls and perivascular hyalinization. There is also significant hemorrhage and a mixed inflammatory infiltrate.\n\nThe most likely diagnosis is a high-grade glial neoplasm, such as glioblastoma, given the cellularity, vascularity, and hemorrhage in the context of a large ring-enhancing mass in the brain.\n\nDifferential diagnoses include anaplastic astrocytoma, which would show similar cellularity and atypia but typically lacks the prominent microvascular proliferation and necrosis seen in glioblastoma. Other considerations could include metastatic carcinoma or melanoma, which would require immunohistochemical studies to exclude.",
+      "rationale": "Another mid-right ROI near heterogeneous zone; specifically look for mucin/vacuoles or gland lumina."
+    },
+    {
+      "roi_id": "slide_A_x44032_y23552_mag10",
+      "tile_id": "slide_A_x44032_y23552_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 44032,
+      "y": 23552,
+      "level0": {
+        "x": 44032,
+        "y": 23552,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a highly cellular neoplasm with marked nuclear pleomorphism, including large bizarre cells and multinucleated giant cells, within a background of extensive hemorrhage and necrosis.",
+      "rationale": "assess another necrosis-adjacent area for palisading and thrombosed vessels"
+    },
+    {
+      "roi_id": "slide_A_x32768_y24064_mag20",
+      "tile_id": "slide_A_x32768_y24064_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 32768,
+      "y": 24064,
+      "level0": {
+        "x": 32768,
+        "y": 24064,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells within a prominent myxoid matrix, featuring numerous thin-walled blood vessels and scattered cells with clear cytoplasm.",
+      "rationale": "Central-lower region with mixed pale/dark areas; check for metastatic carcinoma architecture."
+    },
+    {
+      "roi_id": "slide_A_x51200_y24576_mag5",
+      "tile_id": "slide_A_x51200_y24576_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 51200,
+      "y": 24576,
+      "level0": {
+        "x": 51200,
+        "y": 24576,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation of spindle cells in a fibrillary matrix with prominent microcystic change and scattered pleomorphic cells. There is also increased vascularity and areas of hemorrhage.\n\nThe most likely diagnosis is Pleomorphic Xanthoastrocytoma (PXA).\n\nDifferential diagnoses include:\n- Glioblastoma: Typically shows more pronounced nuclear atypia, mitotic activity, and necrosis, which are not prominent features in this image.\n- Anaplastic Astrocytoma: Lacks the characteristic microcystic change and pleomorphic cells seen here.",
+      "rationale": "scan for cohesive metastatic nests/gland formation vs fibrillary background and to find viable/necrosis interface"
+    },
+    {
+      "roi_id": "slide_A_x41984_y33792_mag20",
+      "tile_id": "slide_A_x41984_y33792_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 41984,
+      "y": 33792,
+      "level0": {
+        "x": 41984,
+        "y": 33792,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular neoplasm with a prominent fibrillary background. There is marked cellular pleomorphism with large, bizarre cells and scattered multinucleated giant cells. Areas of necrosis and hemorrhage are also present.\n\nThe most likely diagnosis is a high-grade glioma, such as glioblastoma.\n\nDifferential diagnoses include anaplastic astrocytoma, which would lack the prominent necrosis and microvascular proliferation seen in glioblastoma, and metastatic carcinoma, which would typically show more cohesive growth and lack the fibrillary background.",
+      "rationale": "Inferior right near edge; look for dural collagen and any epithelial infiltration."
+    },
+    {
+      "roi_id": "slide_A_x30720_y16384_mag5",
+      "tile_id": "slide_A_x30720_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 30720,
+      "y": 16384,
+      "level0": {
+        "x": 30720,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation of spindle cells in a fibrillary matrix with areas of necrosis and hemorrhage. The cells exhibit elongated, wavy nuclei and are arranged in fascicles and haphazardly.\n\nThe most likely diagnosis is a high-grade glial neoplasm, such as glioblastoma.\n\nDifferential diagnoses include anaplastic astrocytoma, which lacks the prominent necrosis and microvascular proliferation seen in glioblastoma, and other high-grade spindle cell tumors of the CNS.",
+      "rationale": "evaluate mid-upper region for perivascular patterns suggesting lymphoma/tumefactive demyelination"
+    },
+    {
+      "roi_id": "slide_A_x11264_y14336_mag20",
+      "tile_id": "slide_A_x11264_y14336_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 11264,
+      "y": 14336,
+      "level0": {
+        "x": 11264,
+        "y": 14336,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a highly cellular proliferation of pleomorphic spindle cells with marked nuclear atypia and numerous mitotic figures, including atypical forms. There is also evidence of hemorrhage.\n\nThe most likely diagnosis is a high-grade pleomorphic sarcoma, such as an undifferentiated pleomorphic sarcoma.\n\nDifferential diagnoses include anaplastic glioma, which can also show pleomorphism and mitotic activity, and metastatic sarcomatoid carcinoma, which would require clinical correlation and immunohistochemistry to exclude.",
+      "rationale": "Left fragment different spot; re-check for meningothelial whorls/EMA-like syncytial nests vs carcinoma."
+    },
+    {
+      "roi_id": "slide_A_x53248_y6144_mag5",
+      "tile_id": "slide_A_x53248_y6144_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 53248,
+      "y": 6144,
+      "level0": {
+        "x": 53248,
+        "y": 6144,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular neoplasm with a prominent fibrillary background. The cells have round to oval nuclei and moderate cytoplasm, arranged in sheets and nests.\n\nThe most likely diagnosis is a high-grade glial neoplasm, such as glioblastoma.\n\nDifferential diagnoses include anaplastic astrocytoma and other high-grade gliomas. Features such as microvascular proliferation and necrosis would help distinguish glioblastoma from anaplastic astrocytoma.",
+      "rationale": "Check extreme top-right edge for possible dura/meningeal surface not yet sampled."
+    },
+    {
+      "roi_id": "slide_A_x47104_y28672_mag20",
+      "tile_id": "slide_A_x47104_y28672_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 47104,
+      "y": 28672,
+      "level0": {
+        "x": 47104,
+        "y": 28672,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation with marked nuclear pleomorphism, including bizarre forms, within a fibrillary background. Prominent features include numerous blood vessels with thickened walls and perivascular hyalinization, along with areas of hemorrhage and necrosis.\n\nThe most likely diagnosis is a high-grade glial neoplasm, such as glioblastoma. The presence of marked nuclear pleomorphism, bizarre cells, necrosis, and microvascular proliferation (thickened vessels) are characteristic features of glioblastoma. Other high-grade gliomas could be considered, but the combination of features strongly favors glioblastoma.\n\nDifferential diagnoses include anaplastic astrocytoma, which would lack necrosis and microvascular proliferation, and other high-grade CNS tumors like metastatic carcinoma or melanoma, which would typically show different cellular morphology and immunohistochemical profiles.",
+      "rationale": "necrosis-adjacent area to check for pseudopalisading vs neutrophilic suppuration"
+    },
+    {
+      "roi_id": "slide_A_x51712_y8192_mag20",
+      "tile_id": "slide_A_x51712_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 51712,
+      "y": 8192,
+      "level0": {
+        "x": 51712,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a highly cellular neoplasm with marked cellular and nuclear pleomorphism, including spindle and epithelioid cells, scattered multinucleated giant cells, and prominent nucleoli. There is a high mitotic rate and areas of necrosis.\n\nThe most likely diagnosis is a high-grade pleomorphic sarcoma, such as an undifferentiated pleomorphic sarcoma.\n\nDifferential diagnoses include anaplastic glioma, which can also show marked pleomorphism and necrosis, and metastatic carcinoma, which can present with pleomorphic cells and necrosis. Immunohistochemistry would be essential to differentiate these entities.",
+      "rationale": "High power at top-right edge to look for dense collagenous dura and/or metastatic surface involvement."
+    },
+    {
+      "roi_id": "slide_A_x46080_y30720_mag20",
+      "tile_id": "slide_A_x46080_y30720_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 46080,
+      "y": 30720,
+      "level0": {
+        "x": 46080,
+        "y": 30720,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular neoplasm with marked pleomorphism, including large cells with abundant eosinophilic cytoplasm and eccentric nuclei, and smaller cells with hyperchromatic nuclei. There is prominent vascularity with thickened vessels and areas of hemorrhage.\n\nThe most likely diagnosis is a high-grade pleomorphic glial neoplasm, such as glioblastoma.\n\nDifferential diagnoses include anaplastic astrocytoma, which would lack the prominent microvascular proliferation and necrosis seen in glioblastoma, and metastatic carcinoma, which would typically show more cohesive growth and lack the glial background.",
+      "rationale": "evaluate abnormal vessels for glomeruloid microvascular proliferation at higher power"
+    },
+    {
+      "roi_id": "slide_A_x6144_y10240_mag5",
+      "tile_id": "slide_A_x6144_y10240_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 6144,
+      "y": 10240,
+      "level0": {
+        "x": 6144,
+        "y": 10240,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation of spindle-shaped cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles and whorls. There is a fibrillary background and scattered small blood vessels.\n\nThe most likely diagnosis is a meningioma, specifically a fibrous or transitional subtype. The spindle cell morphology, fascicular and whorled architecture, and fibrillary background are characteristic features. Differential diagnoses include schwannoma, which typically shows Antoni A and B areas and Verocay bodies, and solitary fibrous tumor, which often has a more prominent hemangiopericytoma-like vascular pattern.",
+      "rationale": "Check far left-superior edge of small fragment for dura or circumscribed lesion edge."
+    },
+    {
+      "roi_id": "slide_A_x30720_y16384_mag10",
+      "tile_id": "slide_A_x30720_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 30720,
+      "y": 16384,
+      "level0": {
+        "x": 30720,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles and haphazardly, with areas of myxoid change and hemorrhage. The cells exhibit mild to moderate nuclear pleomorphism.\n\nThe most likely diagnosis is a high-grade glial neoplasm, such as glioblastoma.\n\nDifferential diagnoses include anaplastic astrocytoma, which typically lacks the prominent microvascular proliferation and necrosis seen in glioblastoma, and other high-grade spindle cell neoplasms like sarcomatoid meningioma or solitary fibrous tumor, which would require immunohistochemical studies for definitive classification.",
+      "rationale": "look for angiocentric growth/perivascular cuffing suggestive of lymphoma or demyelination-related inflammation"
+    },
+    {
+      "roi_id": "slide_A_x4608_y12800_mag20",
+      "tile_id": "slide_A_x4608_y12800_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 4608,
+      "y": 12800,
+      "level0": {
+        "x": 4608,
+        "y": 12800,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a highly cellular proliferation of pleomorphic spindle cells with marked nuclear atypia and numerous mitotic figures. The cells are arranged in a haphazard pattern with some fascicles.\n\nThe most likely diagnosis is a high-grade pleomorphic sarcoma, such as an undifferentiated pleomorphic sarcoma.\n\nDifferential diagnoses include anaplastic meningioma, which can show similar pleomorphism and mitotic activity, and a high-grade glioma, which may have a more infiltrative pattern and different cellular morphology.",
+      "rationale": "High power at far left-superior to identify dural collagen/arachnoid or epithelial nests."
+    },
+    {
+      "roi_id": "slide_A_x51200_y33792_mag20",
+      "tile_id": "slide_A_x51200_y33792_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 51200,
+      "y": 33792,
+      "level0": {
+        "x": 51200,
+        "y": 33792,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a highly cellular neoplasm with marked cellular and nuclear pleomorphism, including spindle cells, epithelioid cells, and scattered multinucleated giant cells. There is a prominent inflammatory infiltrate and areas of necrosis.\n\nThe most likely diagnosis is a high-grade pleomorphic sarcoma, such as an undifferentiated pleomorphic sarcoma.\n\nDifferential diagnoses include anaplastic glioma, which can show pleomorphism and necrosis, and metastatic carcinoma, which can present with pleomorphic cells and giant cells. Immunohistochemistry would be essential to differentiate these entities.",
+      "rationale": "assess inflammatory infiltrate composition (neutrophils vs lymphocytes/macrophages) and tumor cell morphology in right-lower area"
+    },
+    {
+      "roi_id": "slide_A_x50176_y5120_mag10",
+      "tile_id": "slide_A_x50176_y5120_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 50176,
+      "y": 5120,
+      "level0": {
+        "x": 50176,
+        "y": 5120,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a highly cellular neoplasm with marked cellular pleomorphism, including spindle cells, epithelioid cells, and scattered multinucleated giant cells. There is a prominent myxoid stroma and areas of necrosis.\n\nThe most likely diagnosis is a high-grade pleomorphic sarcoma, such as a pleomorphic undifferentiated sarcoma (PUS). The marked pleomorphism, high cellularity, and presence of necrosis are characteristic features of a high-grade sarcoma.\n\nDifferential diagnoses include glioblastoma, which can show pleomorphism and necrosis, but typically has a glial component and may show perivascular pseudorosettes. Other sarcomas, such as leiomyosarcoma or rhabdomyosarcoma, could also be considered, but would require specific immunohistochemical markers for confirmation.",
+      "rationale": "Sample another superior area of main fragment for any epithelial glandular focus missed."
+    }
+  ]
+}

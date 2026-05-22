@@ -1,0 +1,922 @@
+{
+  "case_id": "sem1334_case8",
+  "source": "slideseek-ai-assist",
+  "model": "gpt-5.4",
+  "generated_at": "2026-05-22T09:23:09.443528+00:00",
+  "organ": "Skin-Lymphoid",
+  "primary_dx": "Metastatic Malignant Melanoma Involving Spleen",
+  "differential_dx": [
+    "Primary Splenic Angiosarcoma",
+    "Metastatic Poorly Differentiated Carcinoma/Epithelioid Sarcoma"
+  ],
+  "microscopic_findings": [
+    {
+      "text": "Tumor shows solid nests and cords of **pleomorphic epithelioid cells** with **vesicular nuclei** and **prominent nucleoli**.",
+      "roi_ids": [
+        "slide_A_x41984_y16384_mag20"
+      ]
+    },
+    {
+      "text": "Scattered coarse **brown-black intracytoplasmic pigment** is present within atypical tumor cells, supporting **melanin** production.",
+      "roi_ids": [
+        "slide_A_x33792_y23552_mag20"
+      ]
+    },
+    {
+      "text": "Large areas of **geographic necrosis** with marked **hemorrhage** accompany the viable malignant cell population.",
+      "roi_ids": [
+        "slide_A_x45056_y13312_mag20"
+      ]
+    },
+    {
+      "text": "A focal **spindle-cell fascicular component** is present, but there are no convincing **anastomosing vascular channels** or hobnail lining…",
+      "roi_ids": [
+        "slide_A_x49152_y30720_mag20"
+      ]
+    }
+  ],
+  "interpretation": "The splenic lesion is a **metastatic malignant melanoma** composed of **pleomorphic epithelioid and focal spindle cells** with prominent nucleoli, focal **intracytoplasmic melanin pigment**, and extensive necrosis and hemorrhage. The lack of convincing **vasoformative architecture** argues against primary splenic angiosarcoma. The pigment and cytomorphology also make **poorly differentiated carcinoma/epithelioid sarcoma** less favored.",
+  "num_rois": 55,
+  "tiles": [
+    {
+      "roi_id": "slide_A_x24576_y24576_mag1",
+      "tile_id": "slide_A_x24576_y24576_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 24576,
+      "y": 24576,
+      "level0": {
+        "x": 24576,
+        "y": 24576,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a well-demarcated nodule within the spleen composed of cells arranged in nests and cords, with areas of necrosis and hemorrhage. The surrounding splenic parenchyma shows preserved architecture with lymphoid follicles.\n\nThe morphologic features are consistent with a metastatic neoplasm. Given the clinical history of melanoma, the most likely diagnosis is metastatic melanoma. The presence of brownish-black pigment in the gross description further supports this possibility. Differential diagnoses could include other metastatic tumors or a primary splenic neoplasm, but the clinical context strongly favors metastatic melanoma.",
+      "rationale": "Low-power survey of entire section to assess splenic architecture and any dominant mass/vascular areas."
+    },
+    {
+      "roi_id": "slide_A_x12288_y12288_mag5",
+      "tile_id": "slide_A_x12288_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 12288,
+      "y": 12288,
+      "level0": {
+        "x": 12288,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a dense cellular infiltrate with areas of necrosis and hemorrhage. The cells are pleomorphic with irregular nuclei and scant cytoplasm, arranged in sheets and nests.\n\nThe most likely diagnosis is metastatic melanoma. The presence of brownish-black pigment, pleomorphic cells, and necrosis are characteristic features. Differential diagnoses include other pigmented neoplasms or lymphomas, but the morphology is most consistent with melanoma.",
+      "rationale": "Sample darker basophilic area at upper left for possible lymphoid follicles/white pulp."
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag1",
+      "tile_id": "slide_A_x8192_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a low power view of a splenic mass with a relatively well-demarcated border. The mass is composed of a cellular proliferation with areas of necrosis and hemorrhage. The presence of brownish-black pigment is noted.\n\nThe most likely diagnosis is metastatic melanoma. The brownish-black pigment is consistent with melanin, and the clinical history of melanoma supports this diagnosis. The splenic involvement is likely metastatic disease.\n\nDifferential diagnoses include other pigmented lesions such as a pigmented lymphoma or a pigmented sarcoma, although these are less likely given the clinical context.",
+      "rationale": "Left/superior portion scan for dark pigment and different texture."
+    },
+    {
+      "roi_id": "slide_A_x12288_y32768_mag2",
+      "tile_id": "slide_A_x12288_y32768_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 32768,
+      "level0": {
+        "x": 12288,
+        "y": 32768,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows splenic tissue with multiple lymphoid follicles and a large vessel. The lymphoid follicles appear reactive with prominent germinal centers. The surrounding red pulp is cellular.\n\nThe most likely diagnosis is metastatic melanoma to the spleen. The presence of a mass replacing the splenic parenchyma, along with the patient's history of melanoma and the gross description of brownish-black pigment, are highly suggestive. The lymphoid follicles are likely reactive to the tumor.\n\nDifferential diagnoses include other metastatic tumors to the spleen, such as metastatic carcinoma or lymphoma. However, the clinical history and gross findings strongly favor metastatic melanoma.",
+      "rationale": "Assess inferior-left portion for nodularity/hemorrhage and potential capsule."
+    },
+    {
+      "roi_id": "slide_A_x36864_y14336_mag5",
+      "tile_id": "slide_A_x36864_y14336_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 36864,
+      "y": 14336,
+      "level0": {
+        "x": 36864,
+        "y": 14336,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a highly cellular neoplasm with a diffuse growth pattern and areas of necrosis. The cells are relatively uniform with round to oval nuclei and scant cytoplasm.\n\nThe most likely diagnosis is metastatic melanoma. The presence of brownish-black pigment in the gross description is highly suggestive of melanoma. The cellular morphology, including the relatively uniform cells with round to oval nuclei and scant cytoplasm, is consistent with melanoma. The diffuse growth pattern and areas of necrosis are also features that can be seen in melanoma.\n\nDifferential diagnoses to consider include other metastatic tumors to the spleen, such as metastatic carcinoma or lymphoma. However, the presence of pigment strongly favors melanoma. Immunohistochemical stains for melanoma markers (e.g., S100, SOX10, Melan-A, HMB45) would be helpful to confirm the diagnosis.",
+      "rationale": "Sample central paler area for diffuse infiltrate vs red pulp expansion."
+    },
+    {
+      "roi_id": "slide_A_x40960_y8192_mag1",
+      "tile_id": "slide_A_x40960_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 40960,
+      "y": 8192,
+      "level0": {
+        "x": 40960,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a cellular neoplasm with a nodular growth pattern and areas of necrosis. The cells are relatively uniform with round to oval nuclei and scant cytoplasm, arranged in nests and cords.\n\nThe most likely diagnosis is metastatic melanoma. The presence of brownish-black pigment in the gross description is highly suggestive of melanin, a characteristic feature of melanoma. The cellular morphology and growth pattern are also consistent with metastatic melanoma.\n\nDifferential diagnoses include other pigmented neoplasms such as pigmented neuroendocrine tumors or pigmented sarcomas, which would typically show different cellular morphology and immunohistochemical profiles.",
+      "rationale": "Right/superior area near capsule for interface and possible pigment/necrosis."
+    },
+    {
+      "roi_id": "slide_A_x40960_y12288_mag2",
+      "tile_id": "slide_A_x40960_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 40960,
+      "y": 12288,
+      "level0": {
+        "x": 40960,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular neoplasm with a nodular growth pattern and areas of necrosis. The cells are relatively uniform with round to oval nuclei and scant cytoplasm, arranged in nests and cords.\n\nThe most likely diagnosis is metastatic melanoma. The presence of brownish-black pigment in the gross description is highly suggestive of melanoma. The cellular morphology and nodular growth pattern are consistent with metastatic disease in the spleen.\n\nDifferential diagnoses include other metastatic tumors such as renal cell carcinoma or hepatocellular carcinoma, which can also present as splenic masses. However, the presence of pigment strongly favors melanoma.",
+      "rationale": "Assess superior-right portion near capsule for infiltrative growth or vascular spaces."
+    },
+    {
+      "roi_id": "slide_A_x28672_y8192_mag2",
+      "tile_id": "slide_A_x28672_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 28672,
+      "y": 8192,
+      "level0": {
+        "x": 28672,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a nodular proliferation of small to medium-sized cells with scant cytoplasm and hyperchromatic nuclei, arranged in sheets and nests with areas of necrosis and hemorrhage. The presence of brownish-black pigment is noted.\n\nThe most likely diagnosis is metastatic melanoma.\n\nDifferential diagnoses include other pigmented neoplasms such as pigmented lymphoma or pigmented sarcoma, which would typically show different cellular morphology and immunophenotype.",
+      "rationale": "Assess superior central area with darker basophilic regions—possible white pulp/lesional nodules."
+    },
+    {
+      "roi_id": "slide_A_x43008_y26624_mag5",
+      "tile_id": "slide_A_x43008_y26624_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 43008,
+      "y": 26624,
+      "level0": {
+        "x": 43008,
+        "y": 26624,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords with areas of necrosis. The cells have round to oval nuclei and scant cytoplasm, with some areas showing a more spindled morphology.\n\nThe most likely diagnosis is metastatic melanoma. The presence of brownish-black pigment in the gross description is highly suggestive of melanoma. The cellular morphology, including the nested and cord-like growth pattern and areas of necrosis, is also consistent with metastatic melanoma.\n\nDifferential diagnoses to consider include other metastatic tumors to the spleen, such as metastatic carcinoma or lymphoma. However, the presence of pigment strongly favors melanoma. Immunohistochemical stains for melanoma markers (e.g., S100, SOX10, Melan-A, HMB45) would be helpful to confirm the diagnosis.",
+      "rationale": "Sample right/lower region near capsule for sinusoidal pattern/vascular changes and pigment."
+    },
+    {
+      "roi_id": "slide_A_x16384_y32768_mag1",
+      "tile_id": "slide_A_x16384_y32768_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 16384,
+      "y": 32768,
+      "level0": {
+        "x": 16384,
+        "y": 32768,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The splenic parenchyma is largely replaced by a cellular infiltrate with scattered residual lymphoid follicles. The infiltrate is composed of cells with abundant eosinophilic cytoplasm and round to oval nuclei, arranged in sheets and cords.\n\nThe most likely diagnosis is metastatic melanoma. The presence of a cellular infiltrate replacing the spleen, along with the clinical history of melanoma and the gross finding of brownish-black pigment, strongly suggests this diagnosis. The cells with abundant eosinophilic cytoplasm and round to oval nuclei are consistent with melanoma cells.\n\nDifferential diagnoses include other metastatic tumors with eosinophilic cytoplasm, such as renal cell carcinoma or hepatocellular carcinoma, and primary splenic neoplasms like angiosarcoma or histiocytic sarcoma. However, the clinical history of melanoma and the presence of pigment make metastatic melanoma the most likely diagnosis.",
+      "rationale": "Inferior portion for heterogeneous areas, hemorrhage, pigment."
+    },
+    {
+      "roi_id": "slide_A_x49152_y32768_mag1",
+      "tile_id": "slide_A_x49152_y32768_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 49152,
+      "y": 32768,
+      "level0": {
+        "x": 49152,
+        "y": 32768,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a cellular proliferation with a prominent reticular pattern and areas of hemorrhage and necrosis. The cells are relatively uniform with round to oval nuclei and scant cytoplasm.\n\nThe most likely diagnosis is metastatic melanoma. The presence of brownish-black pigment in the gross description is highly suggestive of melanin, a characteristic feature of melanoma. The reticular pattern and cellular morphology are also consistent with metastatic melanoma.\n\nDifferential diagnoses include other pigmented neoplasms such as pigmented neuroendocrine tumors or pigmented sarcomas, which would typically show different architectural patterns and cellular features.",
+      "rationale": "Right/inferior portion scan for additional pigmented foci."
+    },
+    {
+      "roi_id": "slide_A_x30720_y22528_mag5",
+      "tile_id": "slide_A_x30720_y22528_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 30720,
+      "y": 22528,
+      "level0": {
+        "x": 30720,
+        "y": 22528,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a dense cellular infiltrate with a diffuse pattern, composed of small to medium-sized cells with scant cytoplasm and hyperchromatic nuclei. Scattered larger cells and areas of necrosis are also present.\n\nThe most likely diagnosis is metastatic melanoma. The presence of brownish-black pigment in the gross description is highly suggestive of melanoma. The cellular morphology, including the presence of scattered larger cells, is also consistent with melanoma.\n\nDifferential diagnoses include other small blue cell tumors such as lymphoma or small cell carcinoma, which would typically lack the pigment and may have different cellular morphology.",
+      "rationale": "Intermediate power to evaluate for vasoformation/anastomosing channels vs solid nests."
+    },
+    {
+      "roi_id": "slide_A_x32768_y14336_mag5",
+      "tile_id": "slide_A_x32768_y14336_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 32768,
+      "y": 14336,
+      "level0": {
+        "x": 32768,
+        "y": 14336,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords with areas of necrosis and hemorrhage. The cells have round to oval nuclei and scant cytoplasm, with scattered brown pigment.\n\nThe most likely diagnosis is metastatic melanoma. The presence of brown pigment is a key feature suggestive of melanoma. The cellular morphology and growth pattern are also consistent with metastatic melanoma.\n\nDifferential diagnoses include other pigmented tumors such as pigmented neuroendocrine tumors or pigmented sarcomas, which would typically show different cellular morphology and growth patterns.",
+      "rationale": "Sample area with necrosis/hemorrhage for vascular tumor patterns (angiosarcoma) and capsule proximity."
+    },
+    {
+      "roi_id": "slide_A_x8192_y31744_mag10",
+      "tile_id": "slide_A_x8192_y31744_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 8192,
+      "y": 31744,
+      "level0": {
+        "x": 8192,
+        "y": 31744,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense cellular infiltrate with scattered larger cells and prominent hyalinized vessels. The infiltrate is composed of a mixed population of small lymphocytes and larger cells with vesicular nuclei and prominent nucleoli.\n\nThe most likely diagnosis is a lymphoproliferative disorder, such as a lymphoma or leukemia, involving the spleen. The presence of scattered larger cells within a background of small lymphocytes and the prominent hyalinized vessels are key features.\n\nDifferential diagnoses include:\n1. Hairy cell leukemia: Characterized by a diffuse infiltrate of small to medium-sized lymphocytes with abundant pale cytoplasm and reniform nuclei, often with prominent hyalinized vessels.\n2. Splenic marginal zone lymphoma: Typically shows a nodular or diffuse infiltrate of small to medium-sized lymphocytes with irregular nuclei and pale cytoplasm, often with a marginal zone pattern.\n3. Diffuse large B-cell lymphoma: Characterized by a diffuse infiltrate of large lymphoid cells with vesicular nuclei and prominent nucleoli, which could explain the scattered larger cells seen in the image.",
+      "rationale": "Look for residual splenic tissue/white pulp follicles at lower left; evaluate for lymphoma patterns (follicular/marginal zone)."
+    },
+    {
+      "roi_id": "slide_A_x41984_y16384_mag10",
+      "tile_id": "slide_A_x41984_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 41984,
+      "y": 16384,
+      "level0": {
+        "x": 41984,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords with areas of necrosis. The cells have round to oval nuclei with prominent nucleoli and moderate eosinophilic cytoplasm.\n\nThe most likely diagnosis is metastatic melanoma. The presence of brownish-black pigment in the gross description and the cellular morphology with prominent nucleoli are characteristic features of melanoma. The nested and cord-like growth pattern is also consistent with metastatic melanoma.\n\nDifferential diagnoses to consider include other metastatic tumors with similar morphology, such as renal cell carcinoma or hepatocellular carcinoma, which can also show nested growth and prominent nucleoli. However, the presence of pigment strongly favors melanoma.",
+      "rationale": "Higher power in nodular area to look for sinus-like/littoral features vs melanoma nests."
+    },
+    {
+      "roi_id": "slide_A_x11264_y13312_mag10",
+      "tile_id": "slide_A_x11264_y13312_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 11264,
+      "y": 13312,
+      "level0": {
+        "x": 11264,
+        "y": 13312,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense infiltrate of small to medium-sized cells with hyperchromatic nuclei and scant cytoplasm, arranged in sheets and nests. Scattered larger cells and areas of necrosis are also present.\n\nThe most likely diagnosis is metastatic melanoma. The presence of brownish-black pigment in the gross description is highly suggestive of melanin, a key feature of melanoma. The cellular morphology, including the presence of scattered larger cells, is also consistent with melanoma.\n\nDifferential diagnoses include other small blue cell tumors such as lymphoma or small cell carcinoma. However, the presence of pigment and the clinical history of melanoma strongly favor metastatic melanoma. Immunohistochemical stains for melanoma markers (e.g., S100, SOX10, Melan-A, HMB45) would be helpful to confirm the diagnosis.",
+      "rationale": "Area with suggested pigment on low power—assess architecture/cell type."
+    },
+    {
+      "roi_id": "slide_A_x24576_y8192_mag10",
+      "tile_id": "slide_A_x24576_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 24576,
+      "y": 8192,
+      "level0": {
+        "x": 24576,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense cellular infiltrate with areas of necrosis and hemorrhage. The cells are pleomorphic with irregular nuclei and prominent nucleoli, arranged in sheets and nests.\n\nThe most likely diagnosis is metastatic melanoma. The presence of pleomorphic cells with prominent nucleoli and areas of necrosis and hemorrhage are consistent with a high-grade malignancy. The brownish-black pigment seen grossly is suggestive of melanin, which is characteristic of melanoma. The patient's history of melanoma further supports this diagnosis.\n\nDifferential diagnoses include other high-grade malignancies such as lymphoma or poorly differentiated carcinoma. However, the presence of pigment and the patient's history strongly favor melanoma. Immunohistochemical stains for melanoma markers (e.g., S100, HMB45, Melan-A) would be helpful to confirm the diagnosis.",
+      "rationale": "Interface of mass and adjacent spleen near upper mid; assess infiltration pattern into red/white pulp."
+    },
+    {
+      "roi_id": "slide_A_x24576_y9216_mag10",
+      "tile_id": "slide_A_x24576_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 24576,
+      "y": 9216,
+      "level0": {
+        "x": 24576,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense cellular infiltrate with areas of necrosis and hemorrhage. The cells are relatively uniform with round to oval nuclei and scant cytoplasm, arranged in sheets and nests.\n\nThe most likely diagnosis is metastatic melanoma. The presence of brownish-black pigment in the gross description and the cellular morphology are consistent with melanoma. The clinical history of a 68-year-old man with a history of melanoma and splenomegaly further supports this diagnosis.\n\nDifferential diagnoses include other metastatic tumors such as carcinoma or lymphoma, which would typically lack the pigment and may have different cellular morphology.",
+      "rationale": "Evaluate pigmented area for endothelial-lined spaces, histiocytic cells, or melanoma morphology."
+    },
+    {
+      "roi_id": "slide_A_x24576_y23552_mag10",
+      "tile_id": "slide_A_x24576_y23552_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 24576,
+      "y": 23552,
+      "level0": {
+        "x": 24576,
+        "y": 23552,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of small cells with hyperchromatic nuclei and scant cytoplasm arranged in nests and cords, adjacent to a large vessel with a thickened wall and surrounding hemorrhage.\n\nThe most likely diagnosis is metastatic melanoma. The presence of a cellular proliferation of small cells with hyperchromatic nuclei and scant cytoplasm arranged in nests and cords, along with the clinical history of melanoma, is highly suggestive. The brownish-black pigment seen grossly is also consistent with melanin.\n\nDifferential diagnoses to consider include other small blue cell tumors such as lymphoma or small cell carcinoma, which can also present as metastatic disease in the spleen. However, the nesting pattern and the clinical history strongly favor melanoma.",
+      "rationale": "Central tumor area to assess sheets/nests, necrosis, vascularity."
+    },
+    {
+      "roi_id": "slide_A_x33792_y23552_mag10",
+      "tile_id": "slide_A_x33792_y23552_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 33792,
+      "y": 23552,
+      "level0": {
+        "x": 33792,
+        "y": 23552,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords with intervening fibrovascular stroma. The cells have round to oval nuclei with finely granular chromatin and scant cytoplasm. Areas of hemorrhage and necrosis are also present.\n\nThe morphologic features are consistent with a metastatic melanoma. The presence of brownish-black pigment in the gross description further supports this diagnosis. Differential diagnoses include other metastatic tumors with similar morphology, such as neuroendocrine carcinoma or poorly differentiated carcinoma, which would typically lack the pigment and may show different nuclear features or growth patterns.",
+      "rationale": "Within mass: evaluate architecture (nests/sheets vs sinusoidal) and look for vascular channels."
+    },
+    {
+      "roi_id": "slide_A_x49152_y30720_mag10",
+      "tile_id": "slide_A_x49152_y30720_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 49152,
+      "y": 30720,
+      "level0": {
+        "x": 49152,
+        "y": 30720,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with prominent hemorrhage and scattered pigment. The cells are arranged in fascicles and whorls.\n\nThe most likely diagnosis is metastatic melanoma.\n\nDifferential diagnoses include other pigmented spindle cell neoplasms such as pigmented schwannoma or pigmented neurofibroma, which would typically show different architectural patterns and immunohistochemical profiles.",
+      "rationale": "Right inferior heterogeneous area with hemorrhage/reticular pattern—evaluate for vascular tumor mimic."
+    },
+    {
+      "roi_id": "slide_A_x45056_y13312_mag10",
+      "tile_id": "slide_A_x45056_y13312_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 45056,
+      "y": 13312,
+      "level0": {
+        "x": 45056,
+        "y": 13312,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords with areas of necrosis. The cells have round to oval nuclei and moderate eosinophilic cytoplasm, with some cells showing clear cytoplasm.\n\nThe most likely diagnosis is metastatic melanoma. The presence of brownish-black pigment in the gross description and the cellular morphology with clear cytoplasm are suggestive of melanoma. The patient's history of melanoma further supports this diagnosis.\n\nDifferential diagnoses include other metastatic tumors with clear cell features, such as renal cell carcinoma or adrenocortical carcinoma, which can also present with clear cytoplasm and necrosis. However, the presence of pigment and the patient's history of melanoma make metastatic melanoma the most likely diagnosis.",
+      "rationale": "Area with possible pigment/hemorrhage; check for sinusoidal involvement or marginal zone expansion."
+    },
+    {
+      "roi_id": "slide_A_x40960_y9216_mag10",
+      "tile_id": "slide_A_x40960_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 40960,
+      "y": 9216,
+      "level0": {
+        "x": 40960,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords with areas of necrosis. The cells have round to oval nuclei with prominent nucleoli and moderate eosinophilic cytoplasm.\n\nThe most likely diagnosis is metastatic melanoma. The presence of brownish-black pigment in the gross description and the cellular morphology with prominent nucleoli are characteristic features of melanoma. The clinical history of a 68-year-old man with a history of melanoma and splenomegaly further supports this diagnosis.\n\nDifferential diagnoses to consider include other pigmented neoplasms such as pigmented neuroendocrine tumors or pigmented sarcomas, although the morphology is most consistent with melanoma.",
+      "rationale": "Right superior area near capsule/interface."
+    },
+    {
+      "roi_id": "slide_A_x41984_y16384_mag20",
+      "tile_id": "slide_A_x41984_y16384_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 41984,
+      "y": 16384,
+      "level0": {
+        "x": 41984,
+        "y": 16384,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of large cells with abundant eosinophilic cytoplasm, vesicular nuclei, and prominent nucleoli, arranged in nests and cords. There is also a central area of necrosis and hemorrhage.\n\nThe morphologic features are consistent with metastatic melanoma. The large cells with prominent nucleoli and eosinophilic cytoplasm, along with the presence of necrosis, are characteristic of melanoma. The clinical history of a 68-year-old man with a history of melanoma and involvement of the spleen and adrenal glands further supports this diagnosis.\n\nDifferential diagnoses to consider include other metastatic tumors with similar morphology, such as metastatic renal cell carcinoma or adrenocortical carcinoma. However, the clinical history of melanoma makes metastatic melanoma the most likely diagnosis. Immunohistochemical stains for melanoma markers (e.g., S100, SOX10, Melan-A, HMB45) would be helpful to confirm the diagnosis.",
+      "rationale": "High power to assess cytology: melanin pigment, nucleoli, mitoses; exclude endothelial atypia/hobnailing."
+    },
+    {
+      "roi_id": "slide_A_x8192_y31744_mag20",
+      "tile_id": "slide_A_x8192_y31744_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 8192,
+      "y": 31744,
+      "level0": {
+        "x": 8192,
+        "y": 31744,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a transition from a dense lymphoid infiltrate to a less cellular area with spindle cells and prominent vessels. Scattered larger cells with vesicular nuclei and prominent nucleoli are present.\n\nThe morphologic features are consistent with a lymphoid neoplasm. Given the clinical history of melanoma, metastatic melanoma should be considered in the differential diagnosis. Other possibilities include lymphoma or other metastatic tumors. Immunohistochemistry would be necessary to confirm the lineage and differentiate between these possibilities.",
+      "rationale": "High power of lower-left area suggested mixed lymphoid infiltrate with hyalinized vessels; assess for HCL vs SMZL vs reactive."
+    },
+    {
+      "roi_id": "slide_A_x32768_y14336_mag20",
+      "tile_id": "slide_A_x32768_y14336_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 32768,
+      "y": 14336,
+      "level0": {
+        "x": 32768,
+        "y": 14336,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a transition between a cellular proliferation of spindle cells and a dense lymphoid infiltrate. The spindle cells have elongated nuclei and eosinophilic cytoplasm, arranged in fascicles, with scattered pigment.\n\nThe most likely diagnosis is metastatic melanoma. The presence of spindle cells with pigment in a lymphoid background is characteristic of melanoma, particularly in the context of a patient with a history of melanoma and splenomegaly. The differential diagnosis includes other spindle cell neoplasms, such as sarcomas or spindle cell carcinoma, but the presence of pigment strongly favors melanoma.",
+      "rationale": "High power in hemorrhagic/necrotic area to look for true vascular channels vs tumor necrosis/hemorrhage."
+    },
+    {
+      "roi_id": "slide_A_x16384_y32768_mag10",
+      "tile_id": "slide_A_x16384_y32768_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 16384,
+      "y": 32768,
+      "level0": {
+        "x": 16384,
+        "y": 32768,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense cellular infiltrate with a prominent thick-walled vessel and areas of hemorrhage. The infiltrate is composed of small to medium-sized cells with round to irregular nuclei and scant cytoplasm.\n\nThe most likely diagnosis is metastatic melanoma. The presence of a dense cellular infiltrate with areas of hemorrhage and the clinical history of melanoma are highly suggestive. The brownish-black pigment seen grossly is consistent with melanin.\n\nDifferential diagnoses include other metastatic tumors such as carcinoma or sarcoma, or a primary lymphoproliferative disorder. Immunohistochemical stains for melanoma markers (e.g., S100, SOX10, Melan-A, HMB45) would be essential to confirm the diagnosis and rule out other possibilities.",
+      "rationale": "Inferior area with residual follicles—assess background and infiltration pattern."
+    },
+    {
+      "roi_id": "slide_A_x24576_y9216_mag20",
+      "tile_id": "slide_A_x24576_y9216_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 24576,
+      "y": 9216,
+      "level0": {
+        "x": 24576,
+        "y": 9216,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense infiltrate of large cells with vesicular nuclei and prominent nucleoli, arranged in sheets and nests. There is also an area of necrosis and hemorrhage.\n\nThe most likely diagnosis is metastatic melanoma.\n\nDifferential diagnoses include other large cell malignancies such as large cell lymphoma or metastatic carcinoma, which can be distinguished by immunohistochemical staining.",
+      "rationale": "High power in pigmented region to determine pigment type and cellular lineage (melanocytic vs hemosiderin in vascular tumor)."
+    },
+    {
+      "roi_id": "slide_A_x24576_y8192_mag20",
+      "tile_id": "slide_A_x24576_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 24576,
+      "y": 8192,
+      "level0": {
+        "x": 24576,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a transition from a dense infiltrate of small lymphocytes to a population of larger cells with abundant eosinophilic cytoplasm, vesicular nuclei, and prominent nucleoli, arranged in sheets and nests. Areas of necrosis are also present.\n\nThe morphologic features, particularly the presence of large cells with abundant eosinophilic cytoplasm and prominent nucleoli, are highly suggestive of metastatic melanoma. The clinical history of a 68-year-old man with a history of melanoma and enlarged adrenal glands further supports this diagnosis. The presence of necrosis is also consistent with a high-grade malignancy.\n\nDifferential diagnoses to consider include other metastatic carcinomas, such as renal cell carcinoma or hepatocellular carcinoma, which can also present with large cells and eosinophilic cytoplasm. However, the clinical history of melanoma makes metastatic melanoma the most likely diagnosis. Immunohistochemical stains for melanoma markers (e.g., S100, SOX10, Melan-A, HMB45) would be helpful to confirm the diagnosis.",
+      "rationale": "High power of tumor area for cytology/pigment to compare with lymphoma."
+    },
+    {
+      "roi_id": "slide_A_x43008_y10240_mag10",
+      "tile_id": "slide_A_x43008_y10240_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 43008,
+      "y": 10240,
+      "level0": {
+        "x": 43008,
+        "y": 10240,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords with areas of necrosis. The cells have round to oval nuclei with prominent nucleoli and moderate eosinophilic cytoplasm.\n\nThe most likely diagnosis is metastatic melanoma. The presence of brownish-black pigment in the gross description and the cellular morphology with prominent nucleoli are characteristic features of melanoma. The clinical history of a 68-year-old man with a history of melanoma and splenomegaly further supports this diagnosis.\n\nDifferential diagnoses to consider include other pigmented neoplasms such as pigmented neuroendocrine tumors or pigmented sarcomas, although the morphology is most consistent with melanoma.",
+      "rationale": "Near capsule edge to assess capsular/trabecular involvement and any vasoformative growth."
+    },
+    {
+      "roi_id": "slide_A_x33792_y23552_mag20",
+      "tile_id": "slide_A_x33792_y23552_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 33792,
+      "y": 23552,
+      "level0": {
+        "x": 33792,
+        "y": 23552,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of pleomorphic cells with irregular nuclei and prominent nucleoli, arranged in nests and cords. Scattered brown-black pigment is present within the cytoplasm of some cells.\n\nThe most likely diagnosis is metastatic melanoma. The presence of pleomorphic cells with prominent nucleoli and intracellular brown-black pigment is highly suggestive of melanoma. The clinical history of a 68-year-old man with a known history of melanoma and involvement of the spleen and adrenal glands further supports this diagnosis.\n\nDifferential diagnoses to consider include other pigmented neoplasms such as pigmented neuroendocrine tumors or pigmented sarcomas, although the cellular morphology and clinical context strongly favor melanoma.",
+      "rationale": "High power of nested/cord area; look for melanin, nucleoli, mitoses; exclude vascular tumor."
+    },
+    {
+      "roi_id": "slide_A_x40960_y9216_mag20",
+      "tile_id": "slide_A_x40960_y9216_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 40960,
+      "y": 9216,
+      "level0": {
+        "x": 40960,
+        "y": 9216,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords with moderate eosinophilic cytoplasm and pleomorphic nuclei. Brown pigment is present within the cytoplasm of some cells.\n\nThe most likely diagnosis is metastatic melanoma. The presence of brown pigment within the cytoplasm of the neoplastic cells is a key feature suggestive of melanoma. The cellular morphology, including pleomorphic nuclei and eosinophilic cytoplasm, is also consistent with melanoma. The clinical history of a 68-year-old man with a history of melanoma and involvement of the spleen and adrenal glands further supports this diagnosis.\n\nDifferential diagnoses to consider include other pigmented neoplasms such as pigmented carcinoma or pigmented sarcoma. However, the morphology and clinical history strongly favor metastatic melanoma.",
+      "rationale": "Epithelioid area with prominent nucleoli—evaluate melanoma cytologic features and mitoses."
+    },
+    {
+      "roi_id": "slide_A_x45056_y13312_mag20",
+      "tile_id": "slide_A_x45056_y13312_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 45056,
+      "y": 13312,
+      "level0": {
+        "x": 45056,
+        "y": 13312,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a transition from a cellular area with pleomorphic cells and prominent nucleoli to an area of necrosis. The cellular component is arranged in nests and cords.\n\nThe most likely diagnosis is metastatic melanoma.\n\nDifferential diagnoses include other metastatic tumors with pleomorphic cells and necrosis, such as metastatic carcinoma or high-grade sarcoma.",
+      "rationale": "High power of clear cell/pigmented area; characterize tumor cells and any lymphoid background."
+    },
+    {
+      "roi_id": "slide_A_x49152_y30720_mag20",
+      "tile_id": "slide_A_x49152_y30720_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 49152,
+      "y": 30720,
+      "level0": {
+        "x": 49152,
+        "y": 30720,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles, with prominent hemorrhage and scattered pigment. The cells exhibit mild nuclear pleomorphism.\n\nThe most likely diagnosis is metastatic melanoma.\n\nDifferential diagnoses include other spindle cell neoplasms such as sarcomatoid carcinoma or primary sarcoma, which would typically lack the characteristic melanin pigment and may show different immunohistochemical profiles.",
+      "rationale": "Spindle/hemorrhagic pigmented area—assess pigment type, vasoformative features, atypia."
+    },
+    {
+      "roi_id": "slide_A_x11264_y13312_mag20",
+      "tile_id": "slide_A_x11264_y13312_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 11264,
+      "y": 13312,
+      "level0": {
+        "x": 11264,
+        "y": 13312,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense infiltrate of pleomorphic cells with irregular nuclei and prominent nucleoli, arranged in sheets and nests. Scattered larger cells with abundant eosinophilic cytoplasm are also present.\n\nThe most likely diagnosis is metastatic melanoma. The pleomorphic cells with prominent nucleoli and the presence of scattered larger cells with eosinophilic cytoplasm are characteristic features of melanoma. The clinical history of a 68-year-old man with a history of melanoma and enlarged adrenal glands further supports this diagnosis.\n\nDifferential diagnoses to consider include other metastatic carcinomas, such as renal cell carcinoma or hepatocellular carcinoma, which can also present with pleomorphic cells and eosinophilic cytoplasm. However, the clinical history and the presence of brownish-black pigment in the gross description strongly favor metastatic melanoma.",
+      "rationale": "Small hyperchromatic cell area—exclude lymphoma/small cell carcinoma; check nucleoli/pigment."
+    },
+    {
+      "roi_id": "slide_A_x45056_y8192_mag5",
+      "tile_id": "slide_A_x45056_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 45056,
+      "y": 8192,
+      "level0": {
+        "x": 45056,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a dense cellular infiltrate composed of small to medium-sized cells with scant cytoplasm and hyperchromatic nuclei, arranged in sheets. Scattered larger cells are also present.\n\nThe most likely diagnosis is a lymphoproliferative disorder, such as a lymphoma.\n\nDifferential diagnoses include other small blue cell tumors, such as metastatic melanoma or small cell carcinoma, which can be distinguished by immunohistochemical markers.",
+      "rationale": "Examine extreme peripheral/capsular region for capsular invasion and any vascular channel-rich growth."
+    },
+    {
+      "roi_id": "slide_A_x8192_y34816_mag20",
+      "tile_id": "slide_A_x8192_y34816_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 8192,
+      "y": 34816,
+      "level0": {
+        "x": 8192,
+        "y": 34816,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense cellular infiltrate composed of pleomorphic cells with irregular nuclei and prominent nucleoli, along with scattered larger cells and brown pigment. The background stroma is pink and fibrillar.\n\nThe most likely diagnosis is metastatic melanoma.\n\nDifferential diagnoses include other pigmented neoplasms such as pigmented sarcoma or pigmented carcinoma, and hematolymphoid malignancies with pigment such as pigmented angiosarcoma or pigmented lymphoma.",
+      "rationale": "Further evaluate peripheral lymphoid-rich area for red pulp cords/sinuses, hemophagocytosis, HCL-like cells."
+    },
+    {
+      "roi_id": "slide_A_x30208_y26112_mag20",
+      "tile_id": "slide_A_x30208_y26112_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 30208,
+      "y": 26112,
+      "level0": {
+        "x": 30208,
+        "y": 26112,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a transition from splenic parenchyma with congestion and hemorrhage to a cellular proliferation of pleomorphic cells with irregular nuclei and prominent nucleoli, arranged in nests and cords.\n\nThe most likely diagnosis is metastatic melanoma to the spleen.\n\nDifferential diagnoses include other metastatic tumors such as carcinoma or sarcoma, which would typically show different cellular morphology and growth patterns.",
+      "rationale": "Search for vascular channel formation/angiosarcoma-like features within tumor."
+    },
+    {
+      "roi_id": "slide_A_x48128_y20480_mag10",
+      "tile_id": "slide_A_x48128_y20480_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 48128,
+      "y": 20480,
+      "level0": {
+        "x": 48128,
+        "y": 20480,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of pleomorphic cells with irregular nuclei and prominent nucleoli, arranged in nests and cords, with areas of necrosis and hemorrhage. The cells have eosinophilic cytoplasm and some contain brown pigment.\n\nThe most likely diagnosis is metastatic melanoma.\n\nDifferential diagnoses include other pigmented neoplasms such as pigmented lymphoma or pigmented sarcoma, which would typically show different cellular morphology and immunohistochemical profiles.",
+      "rationale": "Assess trabecular region/large vessels for intravascular growth or sinusoidal involvement."
+    },
+    {
+      "roi_id": "slide_A_x24576_y23552_mag20",
+      "tile_id": "slide_A_x24576_y23552_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 24576,
+      "y": 23552,
+      "level0": {
+        "x": 24576,
+        "y": 23552,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of pleomorphic cells with hyperchromatic nuclei and scant cytoplasm, arranged in nests and cords, adjacent to a large vessel with a thickened wall and associated hemorrhage.\n\nThe most likely diagnosis is metastatic melanoma. The pleomorphic cells with hyperchromatic nuclei and scant cytoplasm, arranged in nests and cords, are characteristic of melanoma. The presence of brownish-black pigment in the gross description further supports this diagnosis. The thickened vessel wall and associated hemorrhage are also consistent with a metastatic process.\n\nDifferential diagnoses to consider include other metastatic carcinomas, such as renal cell carcinoma or hepatocellular carcinoma, which can also present with pleomorphic cells and vascular invasion. However, the presence of pigment and the clinical history of melanoma strongly favor metastatic melanoma.",
+      "rationale": "Representative central nests/cords adjacent to hemorrhage—assess necrosis, mitoses, pigment."
+    },
+    {
+      "roi_id": "slide_A_x13312_y11264_mag10",
+      "tile_id": "slide_A_x13312_y11264_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 13312,
+      "y": 11264,
+      "level0": {
+        "x": 13312,
+        "y": 11264,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation with pleomorphic cells, prominent nucleoli, and scattered brown-black pigment. There is also extensive necrosis and hemorrhage.\n\nThe most likely diagnosis is metastatic melanoma.\n\nDifferential diagnoses include other pigmented neoplasms such as pigmented lymphoma or pigmented sarcoma, which would typically lack the characteristic cytologic features of melanoma and may require immunohistochemistry for definitive diagnosis.",
+      "rationale": "Check other periphery for multifocality or vascular lesion patterns."
+    },
+    {
+      "roi_id": "slide_A_x20992_y24064_mag20",
+      "tile_id": "slide_A_x20992_y24064_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20992,
+      "y": 24064,
+      "level0": {
+        "x": 20992,
+        "y": 24064,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense cellular infiltrate composed of small to medium-sized cells with round to oval nuclei and scant cytoplasm, arranged in sheets and cords within a pink stromal background. Scattered larger cells and brown pigment are also present.\n\nThe most likely diagnosis is metastatic melanoma. The presence of brown pigment is a key feature suggestive of melanoma. The cellular morphology, while not overtly pleomorphic, is consistent with a metastatic neoplasm in the spleen.\n\nDifferential diagnoses include other metastatic tumors with pigment, such as pigmented carcinoma or pigmented sarcoma, and primary splenic neoplasms with pigment, such as a pigmented angiosarcoma. However, the overall morphology and clinical context strongly favor metastatic melanoma.",
+      "rationale": "Look for histiocytes/hemophagocytosis/pigment-laden macrophages in hemorrhagic areas."
+    },
+    {
+      "roi_id": "slide_A_x19968_y14848_mag20",
+      "tile_id": "slide_A_x19968_y14848_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 19968,
+      "y": 14848,
+      "level0": {
+        "x": 19968,
+        "y": 14848,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a highly cellular proliferation of epithelioid cells with round to oval nuclei, prominent nucleoli, and moderate eosinophilic cytoplasm. The cells are arranged in sheets and nests with a delicate vascular network.\n\nThe most likely diagnosis is metastatic melanoma. The epithelioid morphology, prominent nucleoli, and the presence of brownish-black pigment in the gross description are characteristic features of melanoma. The clinical history of a 68-year-old man with a history of melanoma and involvement of the spleen and adrenal glands further supports this diagnosis.\n\nDifferential diagnoses to consider include other epithelioid malignancies such as epithelioid angiosarcoma or epithelioid sarcoma, which can also present with epithelioid cells and prominent nucleoli. However, the presence of pigment and the clinical history strongly favor melanoma. Immunohistochemical stains for melanoma markers (e.g., S100, SOX10, Melan-A, HMB45) would be helpful to confirm the diagnosis.",
+      "rationale": "Search for obvious melanin pigment-laden tumor cells/melanophages in a different field."
+    },
+    {
+      "roi_id": "slide_A_x10240_y30208_mag20",
+      "tile_id": "slide_A_x10240_y30208_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 10240,
+      "y": 30208,
+      "level0": {
+        "x": 10240,
+        "y": 30208,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense cellular infiltrate composed of small to medium-sized cells with round to oval nuclei and scant cytoplasm, arranged in sheets and cords. Scattered larger cells and prominent blood vessels are also present.\n\nThe most likely diagnosis is metastatic melanoma. The presence of a dense cellular infiltrate in the spleen, along with the clinical history of melanoma and the gross finding of brownish-black pigment, is highly suggestive of metastatic melanoma. The cellular morphology, while not overtly pleomorphic, is consistent with a metastatic neoplasm.\n\nDifferential diagnoses include other metastatic tumors such as lymphoma or carcinoma, or a primary splenic process like a lymphoma or myeloproliferative neoplasm. However, the clinical history and gross findings strongly favor metastatic melanoma.",
+      "rationale": "Specifically look for hemophagocytosis/histiocytic aggregates in non-tumor red pulp."
+    },
+    {
+      "roi_id": "slide_A_x50176_y29696_mag10",
+      "tile_id": "slide_A_x50176_y29696_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 50176,
+      "y": 29696,
+      "level0": {
+        "x": 50176,
+        "y": 29696,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a transition from a cellular proliferation of pleomorphic cells with hyperchromatic nuclei and scant cytoplasm arranged in nests and cords, to a dense fibrous stroma with inflammation and hemorrhage. The cellular component exhibits features of a high-grade neoplasm.\n\nThe most likely diagnosis is metastatic melanoma. The presence of pleomorphic cells with hyperchromatic nuclei and scant cytoplasm, along with the clinical history of melanoma, supports this diagnosis. The brownish-black pigment seen grossly is also consistent with melanin.\n\nDifferential diagnoses include other metastatic carcinomas or sarcomas, but the cellular morphology and clinical history strongly favor melanoma. Immunohistochemical stains for melanoma markers (e.g., S100, SOX10, Melan-A, HMB45) would be helpful to confirm the diagnosis.",
+      "rationale": "Further evaluate hemorrhagic/spindle area for anastomosing vascular channels (angiosarcoma) or sinusoidal pattern."
+    },
+    {
+      "roi_id": "slide_A_x50176_y30720_mag10",
+      "tile_id": "slide_A_x50176_y30720_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 50176,
+      "y": 30720,
+      "level0": {
+        "x": 50176,
+        "y": 30720,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with prominent hemorrhage and scattered pigment. The cells are arranged in fascicles and sheets.\n\nThe most likely diagnosis is metastatic melanoma.\n\nDifferential diagnoses include other pigmented spindle cell neoplasms such as pigmented schwannoma or pigmented neurofibroma, which would typically show different architectural patterns and immunohistochemical profiles.",
+      "rationale": "Far right lower region to look for residual spleen and sinusoidal infiltration pattern that might suggest HCL/hepatosplenic T-cell lymphoma."
+    },
+    {
+      "roi_id": "slide_A_x14336_y29696_mag10",
+      "tile_id": "slide_A_x14336_y29696_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 14336,
+      "y": 29696,
+      "level0": {
+        "x": 14336,
+        "y": 29696,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense cellular infiltrate with a mixed population of small lymphocytes and larger cells, along with prominent vascular spaces and areas of hemorrhage. The cellular infiltrate appears to efface the normal splenic architecture.\n\nThe most likely diagnosis is metastatic melanoma. The presence of a mixed cellular population, including larger cells, and the clinical history of melanoma are key features. The brownish-black pigment seen grossly is also consistent with melanin.\n\nDifferential diagnoses include other metastatic tumors such as carcinoma or sarcoma, or a primary splenic lymphoma. However, the clinical history of melanoma strongly favors metastatic melanoma. Immunohistochemical stains for melanoma markers (e.g., S100, SOX10, Melan-A, HMB45) would be helpful to confirm the diagnosis.",
+      "rationale": "Search for diffuse lymphoid pattern/white pulp replacement suggestive of lymphoma."
+    },
+    {
+      "roi_id": "slide_A_x52224_y30208_mag20",
+      "tile_id": "slide_A_x52224_y30208_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 52224,
+      "y": 30208,
+      "level0": {
+        "x": 52224,
+        "y": 30208,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a thickened fibrous capsule with a dense inflammatory infiltrate and numerous congested vessels. The underlying tissue is composed of spindle cells and inflammatory cells.\n\nThe most likely diagnosis is a lymphoid neoplasm, such as a lymphoma, given the dense lymphoid infiltrate and the clinical context of splenomegaly and enlarged adrenal glands in a patient with a history of melanoma.\n\nDifferential diagnoses include other lymphoid neoplasms (e.g., Hodgkin lymphoma) and reactive lymphoid hyperplasia, which can be distinguished by the presence of characteristic Reed-Sternberg cells in Hodgkin lymphoma and the overall architectural pattern in reactive processes.",
+      "rationale": "High power in that area for sinusoidal pattern, atypical lymphocytes, hemophagocytosis."
+    },
+    {
+      "roi_id": "slide_A_x29696_y18432_mag10",
+      "tile_id": "slide_A_x29696_y18432_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 29696,
+      "y": 18432,
+      "level0": {
+        "x": 29696,
+        "y": 18432,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of pleomorphic cells with irregular nuclei and prominent nucleoli, arranged in nests and cords with areas of necrosis and a prominent lymphocytic infiltrate.\n\nThe most likely diagnosis is metastatic melanoma.\n\nDifferential diagnoses include other metastatic tumors such as poorly differentiated carcinoma or lymphoma, which can be distinguished by immunohistochemical staining.",
+      "rationale": "Look for histiocytic sarcoma-like discohesive large cells/hemophagocytosis and pigment in macrophages."
+    },
+    {
+      "roi_id": "slide_A_x44544_y12800_mag20",
+      "tile_id": "slide_A_x44544_y12800_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 44544,
+      "y": 12800,
+      "level0": {
+        "x": 44544,
+        "y": 12800,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation with pleomorphic cells, irregular nuclei, and prominent nucleoli, arranged in nests and cords, with associated necrosis and inflammation. The cells have eosinophilic cytoplasm and some contain brown pigment.\n\nThe most likely diagnosis is metastatic melanoma.\n\nDifferential diagnoses include other pigmented neoplasms such as pigmented carcinoma or pigmented sarcoma, which would typically lack the characteristic nuclear features and nesting pattern of melanoma.",
+      "rationale": "High power in another area to check for vasoformation/erythrophagocytosis vs melanoma nests."
+    },
+    {
+      "roi_id": "slide_A_x11776_y35840_mag20",
+      "tile_id": "slide_A_x11776_y35840_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 11776,
+      "y": 35840,
+      "level0": {
+        "x": 11776,
+        "y": 35840,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense cellular infiltrate composed of small to medium-sized cells with round to irregular nuclei and scant cytoplasm, along with scattered larger cells. Prominent blood vessels with thickened walls are also present.\n\nThe morphologic features are consistent with a lymphoid neoplasm. Given the clinical history of melanoma, a metastatic melanoma should be considered in the differential diagnosis, as it can present with similar cellular morphology and vascular changes.",
+      "rationale": "High power in area with residual follicles to assess infiltration pattern and rule out lymphoma."
+    },
+    {
+      "roi_id": "slide_A_x40448_y9216_mag20",
+      "tile_id": "slide_A_x40448_y9216_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 40448,
+      "y": 9216,
+      "level0": {
+        "x": 40448,
+        "y": 9216,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords with moderate eosinophilic cytoplasm and pleomorphic nuclei. There is a prominent lymphocytic infiltrate and areas of necrosis.\n\nThe most likely diagnosis is metastatic melanoma. The presence of pleomorphic cells with eosinophilic cytoplasm, arranged in nests and cords, along with the clinical history of melanoma and the gross finding of brownish-black pigment, are highly suggestive. The prominent lymphocytic infiltrate is also a common feature in melanoma.\n\nDifferential diagnoses to consider include other metastatic carcinomas, such as renal cell carcinoma or hepatocellular carcinoma, which can also present with eosinophilic cytoplasm and a nested pattern. However, the presence of pigment and the clinical history strongly favor melanoma. Immunohistochemical stains for melanoma markers (e.g., S100, SOX10, Melan-A, HMB45) would be helpful to confirm the diagnosis.",
+      "rationale": "Confirm cytology and intracytoplasmic pigment; assess mitoses/necrosis."
+    },
+    {
+      "roi_id": "slide_A_x48640_y30720_mag20",
+      "tile_id": "slide_A_x48640_y30720_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 48640,
+      "y": 30720,
+      "level0": {
+        "x": 48640,
+        "y": 30720,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a large vessel with a thickened wall and a lumen filled with erythrocytes. The vessel wall is infiltrated by atypical cells with pleomorphic nuclei and prominent nucleoli, and there is associated hemorrhage and inflammation.\n\nThe most likely diagnosis is metastatic melanoma involving a splenic vessel.\n\nDifferential diagnoses include other metastatic tumors with vascular invasion, such as angiosarcoma or metastatic carcinoma, which would typically show different cellular morphology and growth patterns.",
+      "rationale": "Evaluate spindle/fascicular area to exclude sarcoma/vascular tumor."
+    },
+    {
+      "roi_id": "slide_A_x7680_y31744_mag20",
+      "tile_id": "slide_A_x7680_y31744_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 7680,
+      "y": 31744,
+      "level0": {
+        "x": 7680,
+        "y": 31744,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense cellular infiltrate composed of small lymphocytes and larger cells with eosinophilic cytoplasm and vesicular nuclei, along with scattered multinucleated giant cells and brown pigment. The background stroma is fibrotic.\n\nThe morphologic features are consistent with a lymphoproliferative process involving the spleen. Given the clinical history of melanoma, metastatic melanoma is a strong consideration. Other possibilities include other types of lymphoma or metastatic carcinoma.",
+      "rationale": "Review peripheral lymphoid-rich area to exclude lymphoma/white pulp-based process."
+    },
+    {
+      "roi_id": "slide_A_x23552_y23552_mag10",
+      "tile_id": "slide_A_x23552_y23552_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 23552,
+      "y": 23552,
+      "level0": {
+        "x": 23552,
+        "y": 23552,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of small cells with hyperchromatic nuclei and scant cytoplasm arranged in nests and cords, adjacent to splenic tissue with hemorrhage and necrosis. The interface between the two components is irregular.\n\nThe most likely diagnosis is metastatic melanoma to the spleen.\n\nDifferential diagnoses include other small blue cell tumors such as lymphoma or neuroendocrine carcinoma, which can be distinguished by immunohistochemical staining.",
+      "rationale": "Assess overall architecture, necrosis/hemorrhage and interface with residual spleen."
+    }
+  ]
+}

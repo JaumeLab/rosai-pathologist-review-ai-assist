@@ -1,0 +1,103 @@
+{
+  "study_id": "rosai-ai-assist-correct-v1",
+  "generated_at": "2026-05-22T09:49:08.321483+00:00",
+  "seed": 42,
+  "cases_per_reviewer": 13,
+  "total_cases_in_pool": 61,
+  "filter": "slideseek_exact_top1",
+  "reviewers": [
+    {
+      "id": "reviewer_1",
+      "name": "Pathologist 1"
+    },
+    {
+      "id": "reviewer_2",
+      "name": "Pathologist 2"
+    },
+    {
+      "id": "reviewer_3",
+      "name": "Pathologist 3"
+    },
+    {
+      "id": "reviewer_4",
+      "name": "Pathologist 4"
+    },
+    {
+      "id": "reviewer_5",
+      "name": "Pathologist 5"
+    }
+  ],
+  "assignments": {
+    "reviewer_1": [
+      "sem1132_case8",
+      "sem1141_case2",
+      "sem1176_case2",
+      "sem1180_case5",
+      "sem1334_case8",
+      "sem1450_case15",
+      "sem1451_case2",
+      "sem1452_case13",
+      "sem1457_case3",
+      "sem145_case1",
+      "sem219_case2",
+      "sem222_case10",
+      "sem581_case23"
+    ],
+    "reviewer_2": [
+      "sem1015_case11",
+      "sem1123_case8",
+      "sem1128_case9",
+      "sem1133_case10",
+      "sem1158_case3",
+      "sem1179_case1",
+      "sem1450_case1",
+      "sem1451_case3",
+      "sem1454_case3",
+      "sem1454_case5",
+      "sem1454_case9",
+      "sem70_case3"
+    ],
+    "reviewer_3": [
+      "sem1128_case2",
+      "sem1397_case2",
+      "sem1452_case5",
+      "sem1469_case11",
+      "sem259_case11",
+      "sem38_case1",
+      "sem546_case9",
+      "sem554_case12",
+      "sem582_case22",
+      "sem70_case5",
+      "sem94_case16",
+      "sem975_case1"
+    ],
+    "reviewer_4": [
+      "sem1053_case4",
+      "sem1131_case6",
+      "sem1139_case1",
+      "sem1448_case10",
+      "sem1450_case2",
+      "sem1451_case13",
+      "sem1454_case17",
+      "sem1454_case19",
+      "sem1457_case12",
+      "sem355_case3",
+      "sem560_case6",
+      "sem922_case1"
+    ],
+    "reviewer_5": [
+      "sem1120_case9",
+      "sem1125_case10",
+      "sem1129_case3",
+      "sem1161_case6",
+      "sem1176_case4",
+      "sem1319_case1",
+      "sem1452_case3",
+      "sem1454_case16",
+      "sem1469_case3",
+      "sem38_case15",
+      "sem577_case4",
+      "sem580_case5"
+    ]
+  }
+}

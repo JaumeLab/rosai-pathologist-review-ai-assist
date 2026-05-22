@@ -1,0 +1,1085 @@
+{
+  "case_id": "sem581_case23",
+  "source": "slideseek-ai-assist",
+  "model": "gpt-5.4",
+  "generated_at": "2026-05-22T09:30:55.246695+00:00",
+  "organ": "GI Tract",
+  "primary_dx": "Pneumatosis Intestinalis (Pneumatosis Cystoides Coli) With Foreign-Body Giant Cell Reaction",
+  "differential_dx": [
+    "Emphysematous Infectious Colitis (Clostridial-Type) / Phlegmonous Colitis",
+    "Ischemic Colitis With Secondary Intramural Gas"
+  ],
+  "microscopic_findings": [
+    {
+      "text": "Numerous variably sized **empty gas cysts** expand the **subserosa** and dissect into **outer muscularis propria** between smooth muscle…",
+      "roi_ids": [
+        "slide_A_x20480_y8192_mag10",
+        "slide_A_x30720_y8192_mag5"
+      ]
+    },
+    {
+      "text": "Cyst walls show **fibrous thickening** with chronic-active inflammation and prominent **foreign-body giant cells** / histiocytic reaction.",
+      "roi_ids": [
+        "slide_A_x49152_y7680_mag20",
+        "slide_A_x48640_y8192_mag20"
+      ]
+    },
+    {
+      "text": "Some spaces are bordered by **flattened lining cells** over dense fibrous stroma, supporting organized chronic **pneumatosis cysts**.",
+      "roi_ids": [
+        "slide_A_x14336_y14336_mag10",
+        "slide_A_x24576_y12800_mag20"
+      ]
+    },
+    {
+      "text": "Limited mucosa shows **surface ulceration**, dense lamina propria-submucosal inflammation, and congestion consistent with **ischemic-type…",
+      "roi_ids": [
+        "slide_A_x40448_y13312_mag20"
+      ]
+    }
+  ],
+  "interpretation": "The findings are classic for **pneumatosis intestinalis (pneumatosis cystoides coli)**, characterized by **subserosal/intramural gas cysts** with surrounding **foreign-body giant cell reaction** and fibrosis. The scant mucosal changes support a secondary **ischemic-type injury** background rather than a primary mucosal process. **Emphysematous infectious colitis** is less favored because reviewed sections lack convincing bacterial colonies, diffuse suppurative myonecrosis, or other overt **necrotizing infectious change**.",
+  "num_rois": 65,
+  "tiles": [
+    {
+      "roi_id": "slide_A_x4096_y4096_mag2",
+      "tile_id": "slide_A_x4096_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 4096,
+      "y": 4096,
+      "level0": {
+        "x": 4096,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a thickened serosal surface with underlying adipose tissue and inflammation. Numerous clear, cystic spaces are present within the adipose tissue.\n\nThe most likely diagnosis is pneumatosis intestinalis, characterized by the presence of gas-filled cysts within the bowel wall. Differential diagnoses include pneumatosis coli, which is a specific form of pneumatosis intestinalis, and pneumatosis cystoides intestinalis, which can be associated with various conditions such as bowel ischemia, obstruction, or inflammatory bowel disease.",
+      "rationale": "Left side low-power survey including serosa and wall."
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag2",
+      "tile_id": "slide_A_x8192_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a large clear space within the wall of the gastrointestinal tract, surrounded by dense fibrous tissue and chronic inflammation. Adjacent structures include adipose tissue and bundles of smooth muscle.\n\nThe most likely diagnosis is pneumatosis intestinalis, characterized by the presence of gas-filled cysts within the bowel wall. Differential diagnoses include pneumatosis coli, which is a specific form of pneumatosis intestinalis, and pneumatosis cystoides intestinalis, which can be associated with various underlying conditions such as bowel ischemia, obstruction, or inflammatory bowel disease.",
+      "rationale": "Left portion overview; assess mucosa vs deeper wall changes"
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag1",
+      "tile_id": "slide_A_x8192_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a large, irregular cystic space within the wall of the gastrointestinal tract, surrounded by dense fibrous tissue and adipose tissue. The cystic space is lined by flattened cells and contains amorphous material and red blood cells.\n\nThe most likely diagnosis is pneumatosis intestinalis, characterized by the presence of gas-filled cysts within the wall of the gastrointestinal tract. The differential diagnosis includes pneumatosis coli, which is a specific form of pneumatosis intestinalis occurring in the colon, and pneumatosis cystoides intestinalis, which is a rare condition characterized by multiple gas-filled cysts in the submucosa and subserosa of the gastrointestinal tract.",
+      "rationale": "Low-power scan left side to identify serosal/subserosal cystic spaces."
+    },
+    {
+      "roi_id": "slide_A_x20480_y8192_mag2",
+      "tile_id": "slide_A_x20480_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 20480,
+      "y": 8192,
+      "level0": {
+        "x": 20480,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a large, irregular cystic space within the wall of the gastrointestinal tract, surrounded by dense fibrous tissue and smooth muscle. The cyst is lined by flattened cells and contains amorphous material and red blood cells.\n\nThe most likely diagnosis is pneumatosis intestinalis, characterized by the presence of gas-filled cysts within the wall of the gastrointestinal tract. The differential diagnosis includes pneumatosis coli, which is a specific form of pneumatosis intestinalis occurring in the colon, and pneumatosis cystoides intestinalis, which is a rare condition characterized by multiple gas-filled cysts in the submucosa and subserosa of the gastrointestinal tract.",
+      "rationale": "Mid-left low-power survey for cystic spaces/blebs."
+    },
+    {
+      "roi_id": "slide_A_x24576_y8192_mag2",
+      "tile_id": "slide_A_x24576_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 24576,
+      "y": 8192,
+      "level0": {
+        "x": 24576,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a thickened muscularis propria with a large artifactual space and surrounding adipose tissue containing congested vessels. The serosal surface exhibits clear, cystic, air-filled blebs.\n\nThe most likely diagnosis is pneumatosis intestinalis, characterized by the presence of gas-filled cysts within the bowel wall.\n\nDifferential diagnoses include pneumatosis coli, which is a specific form of pneumatosis intestinalis, and pneumatosis cystoides intestinalis, which is a rare condition characterized by gas-filled cysts in the submucosa and subserosa.",
+      "rationale": "Mid portion overview; look for ulceration/necrosis patterns"
+    },
+    {
+      "roi_id": "slide_A_x24576_y8192_mag1",
+      "tile_id": "slide_A_x24576_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 24576,
+      "y": 8192,
+      "level0": {
+        "x": 24576,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows numerous clear, cystic spaces within the subserosal tissue of the gastrointestinal tract. These spaces are consistent with gas-filled blebs.\n\nThe most likely diagnosis is pneumatosis intestinalis.\n\nDifferential diagnoses include pneumatosis coli and pneumatosis cystoides intestinalis. Pneumatosis coli is typically associated with bowel obstruction and dilation, while pneumatosis cystoides intestinalis is often seen in patients with underlying lung disease or connective tissue disorders.",
+      "rationale": "Low-power scan mid-left segment for bleb-like empty spaces."
+    },
+    {
+      "roi_id": "slide_A_x32768_y8192_mag1",
+      "tile_id": "slide_A_x32768_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 32768,
+      "y": 8192,
+      "level0": {
+        "x": 32768,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a large, irregular cystic structure containing amorphous material and surrounded by a thick fibrous wall. Adjacent tissue includes skeletal muscle and adipose tissue.\n\nThe most likely diagnosis is pneumatosis intestinalis, characterized by the presence of gas-filled cysts within the bowel wall.\n\nDifferential diagnoses include pneumatosis coli, which is a specific form of pneumatosis intestinalis, and pneumatosis cystoides intestinalis, which is a rare condition characterized by multiple gas-filled cysts in the bowel wall.",
+      "rationale": "Low-power scan central segment near serosa for cysts."
+    },
+    {
+      "roi_id": "slide_A_x40960_y8192_mag2",
+      "tile_id": "slide_A_x40960_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 40960,
+      "y": 8192,
+      "level0": {
+        "x": 40960,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows large, irregular clear spaces within the subserosal tissue, surrounded by a dense inflammatory infiltrate and fibrosis. The overlying muscularis propria appears thickened.\n\nThe most likely diagnosis is pneumatosis intestinalis, characterized by the presence of gas-filled cysts in the bowel wall.\n\nDifferential diagnoses include pneumatosis coli, which is a specific form of pneumatosis intestinalis, and pneumatosis cystoides intestinalis, which is a rare condition characterized by gas-filled cysts in the submucosa and subserosa.",
+      "rationale": "Right portion overview; evaluate mucosa and serosa for cystic change"
+    },
+    {
+      "roi_id": "slide_A_x32768_y8192_mag2",
+      "tile_id": "slide_A_x32768_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 32768,
+      "y": 8192,
+      "level0": {
+        "x": 32768,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a large clear space adjacent to the muscularis propria, consistent with a gas bubble. The muscularis propria appears thickened and disorganized, with associated inflammation and fibrosis.\n\nThe most likely diagnosis is pneumatosis intestinalis, characterized by the presence of gas-filled cysts within the bowel wall. This finding is often associated with underlying conditions such as ischemia, infection, or mechanical obstruction.\n\nDifferential diagnoses include pneumatosis coli, which is a specific form of pneumatosis intestinalis, and pneumatosis cystoides intestinalis, which is a rare condition characterized by multiple gas-filled cysts in the bowel wall.",
+      "rationale": "Mid low-power survey across bowel wall and serosa."
+    },
+    {
+      "roi_id": "slide_A_x49152_y8192_mag1",
+      "tile_id": "slide_A_x49152_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 49152,
+      "y": 8192,
+      "level0": {
+        "x": 49152,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows numerous clear, cystic spaces within the subserosal tissue of the colon, consistent with gas-filled blebs. The overlying colonic wall appears thickened and distorted.\n\nThe most likely diagnosis is pneumatosis coli, characterized by the presence of gas-filled cysts in the subserosal tissue of the colon. Differential diagnoses include pneumatosis intestinalis, which is a more generalized condition, and pneumatosis cystoides intestinalis, which can be associated with various underlying conditions such as bowel ischemia, obstruction, or inflammatory bowel disease.",
+      "rationale": "Low-power scan right side where thumbnail suggests large clear cysts."
+    },
+    {
+      "roi_id": "slide_A_x45056_y8192_mag2",
+      "tile_id": "slide_A_x45056_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 45056,
+      "y": 8192,
+      "level0": {
+        "x": 45056,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows large, irregular clear spaces within the subserosal tissue, surrounded by a dense inflammatory infiltrate and fibrosis. The overlying muscularis propria appears relatively preserved.\n\nThe most likely diagnosis is pneumatosis intestinalis, characterized by the presence of gas-filled cysts within the bowel wall.\n\nDifferential diagnoses include ischemic colitis, which can show mucosal necrosis and inflammation, and perforated diverticulum, which would typically show a diverticular outpouching with associated inflammation and potential abscess formation.",
+      "rationale": "Right side low-power survey including serosal surface."
+    },
+    {
+      "roi_id": "slide_A_x14336_y4096_mag5",
+      "tile_id": "slide_A_x14336_y4096_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 14336,
+      "y": 4096,
+      "level0": {
+        "x": 14336,
+        "y": 4096,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a thin-walled structure lined by flattened cells, with underlying fibrous tissue and adipose tissue. The wall is thin and lacks a muscular layer.\n\nThe most likely diagnosis is pneumatosis intestinalis, characterized by the presence of gas-filled cysts within the bowel wall.\n\nDifferential diagnoses include pneumatosis coli, which is a specific form of pneumatosis intestinalis, and pneumatosis cystoides intestinalis, which is a rare condition characterized by multiple gas-filled cysts in the bowel wall.",
+      "rationale": "Sample mucosa in upper aspect to look for ischemic injury/ulceration/pseudomembranes"
+    },
+    {
+      "roi_id": "slide_A_x53248_y8192_mag2",
+      "tile_id": "slide_A_x53248_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 53248,
+      "y": 8192,
+      "level0": {
+        "x": 53248,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows large, clear, cystic spaces within the tissue, surrounded by a cellular stroma with inflammation and fibrosis. These spaces are consistent with gas-filled cysts.\n\nThe most likely diagnosis is pneumatosis intestinalis.\n\nDifferential diagnoses include:\n- Pneumoperitoneum: This would be gas within the peritoneal cavity, not within the bowel wall.\n- Gas-forming infection: This would typically show organisms and associated acute inflammation, which are not prominent here.",
+      "rationale": "Far-right edge to assess for perforation/necrosis and serosal blebs."
+    },
+    {
+      "roi_id": "slide_A_x24576_y8192_mag5",
+      "tile_id": "slide_A_x24576_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 24576,
+      "y": 8192,
+      "level0": {
+        "x": 24576,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a transition from adipose tissue to muscularis propria with a large vessel containing thrombus. The muscularis propria exhibits disorganization and separation of muscle bundles by clear spaces.\n\nThe most likely diagnosis is pneumatosis intestinalis, characterized by the presence of gas-filled cysts within the bowel wall. The clear spaces seen in the muscularis propria are consistent with these cysts. The associated thrombus in the large vessel suggests a potential underlying cause such as vascular compromise or ischemia.",
+      "rationale": "Evaluate multiple subserosal cystic spaces—location and wall at intermediate power."
+    },
+    {
+      "roi_id": "slide_A_x30720_y4096_mag5",
+      "tile_id": "slide_A_x30720_y4096_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 30720,
+      "y": 4096,
+      "level0": {
+        "x": 30720,
+        "y": 4096,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows mature adipose tissue with numerous clear, cystic spaces of varying size. A thin fibrous layer is present at the bottom.\n\nThe most likely diagnosis is pneumatosis intestinalis, characterized by the presence of gas-filled cysts within the bowel wall.\n\nDifferential diagnoses include pneumatosis cystoides intestinalis, which is a specific form of pneumatosis intestinalis, and pneumatosis coli, which is a form of pneumatosis intestinalis occurring in the colon.",
+      "rationale": "Another mucosal area for comparison; assess crypt architecture and lamina propria changes"
+    },
+    {
+      "roi_id": "slide_A_x47104_y4096_mag5",
+      "tile_id": "slide_A_x47104_y4096_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 47104,
+      "y": 4096,
+      "level0": {
+        "x": 47104,
+        "y": 4096,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a transition from mature adipose tissue to a thickened muscular layer composed of smooth muscle bundles. The smooth muscle bundles are separated by fibrous septa and contain scattered inflammatory cells.\n\nThe morphologic features are consistent with a thickened muscularis propria. In the context of the clinical history and gross findings, this could represent a segment of the colon affected by ischemia or inflammation, potentially related to the perforated sigmoid ulcer and associated peritonitis. The thickened muscularis propria may be a reactive change or part of the wall of a diverticulum. The presence of scattered inflammatory cells within the muscle layer suggests an inflammatory process.",
+      "rationale": "Right-side mucosa; evaluate for necrosis, hemorrhage, inflammation"
+    },
+    {
+      "roi_id": "slide_A_x49152_y8192_mag5",
+      "tile_id": "slide_A_x49152_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 49152,
+      "y": 8192,
+      "level0": {
+        "x": 49152,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows large clear spaces within the tissue, surrounded by a dense inflammatory infiltrate including numerous multinucleated giant cells. The surrounding stroma is fibrotic and contains congested blood vessels.\n\nThe most likely diagnosis is pneumatosis intestinalis, characterized by the presence of gas-filled cysts within the bowel wall. The associated inflammation and giant cells suggest a reactive process to the gas.\n\nDifferential diagnoses include emphysematous enteritis, which is a severe form of pneumatosis intestinalis often associated with infection, and pneumatosis cystoides intestinalis, which is a rare condition characterized by multiple gas-filled cysts in the bowel wall, often associated with underlying lung disease or bowel ischemia.",
+      "rationale": "Right-sided prominent blebs—assess relation to serosa and inflammation."
+    },
+    {
+      "roi_id": "slide_A_x4096_y8192_mag10",
+      "tile_id": "slide_A_x4096_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 4096,
+      "y": 8192,
+      "level0": {
+        "x": 4096,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows numerous clear, cystic spaces within the subserosal tissue, consistent with gas-filled blebs. There is also a mixed inflammatory infiltrate and congested blood vessels.\n\nThe most likely diagnosis is pneumatosis intestinalis, characterized by the presence of gas-filled cysts in the bowel wall.\n\nDifferential diagnoses include pneumatosis coli, which is a specific form of pneumatosis intestinalis, and pneumatosis cystoides intestinalis, which is a rare condition characterized by gas-filled cysts in the submucosa and subserosa.",
+      "rationale": "Assess subserosal cystic spaces and inflammation seen on left overview."
+    },
+    {
+      "roi_id": "slide_A_x20480_y8192_mag10",
+      "tile_id": "slide_A_x20480_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 20480,
+      "y": 8192,
+      "level0": {
+        "x": 20480,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a thickened muscularis propria with prominent, irregular, clear spaces within the muscle bundles. These spaces are consistent with gas bubbles.\n\nThe most likely diagnosis is pneumatosis intestinalis.\n\nDifferential diagnoses include gas gangrene, which typically shows necrosis and bacterial colonies, and artifactual gas, which would not be associated with the clinical presentation of perforation and peritonitis.",
+      "rationale": "Examine lining of large intramural cystic space for histiocytes/giant cells vs acute inflammation."
+    },
+    {
+      "roi_id": "slide_A_x32768_y8192_mag5",
+      "tile_id": "slide_A_x32768_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 32768,
+      "y": 8192,
+      "level0": {
+        "x": 32768,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cross-section of the gastrointestinal tract wall with distinct layers including adipose tissue, muscularis propria, and serosa. The serosa contains numerous clear, cystic spaces.\n\nThe most likely diagnosis is pneumatosis intestinalis, characterized by the presence of gas-filled cysts within the bowel wall, particularly in the subserosal layer.\n\nDifferential diagnoses include pneumatosis coli, which is a specific form of pneumatosis intestinalis affecting the colon, and pneumatosis cystoides intestinalis, which is a rare condition characterized by the presence of gas-filled cysts in the bowel wall.",
+      "rationale": "Thick-walled irregular cyst—check for fibrosis/hemorrhage/necrosis."
+    },
+    {
+      "roi_id": "slide_A_x26624_y12288_mag5",
+      "tile_id": "slide_A_x26624_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 26624,
+      "y": 12288,
+      "level0": {
+        "x": 26624,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a large ulcerated area with a dense inflammatory infiltrate containing numerous multinucleated giant cells. Adjacent tissue exhibits fibrosis and chronic inflammation.\n\nThe most likely diagnosis is pneumatosis intestinalis, characterized by the presence of gas-filled cysts within the bowel wall. The associated ulceration and inflammation are consistent with a perforated diverticulum.\n\nDifferential diagnoses include ischemic colitis, which can also present with ulceration and inflammation, but typically lacks the characteristic gas-filled cysts.",
+      "rationale": "Try to capture full-thickness wall including mucosa/submucosa for ischemic colitis features"
+    },
+    {
+      "roi_id": "slide_A_x32768_y8192_mag10",
+      "tile_id": "slide_A_x32768_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 32768,
+      "y": 8192,
+      "level0": {
+        "x": 32768,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a transition from mature adipose tissue to bundles of smooth muscle. The smooth muscle bundles are separated by fibrous stroma and contain numerous small blood vessels.\n\nThe morphologic features are consistent with the muscularis propria of the gastrointestinal tract. The presence of mature adipose tissue adjacent to the muscularis propria is also noted.",
+      "rationale": "Evaluate gas bubble adjacent to muscularis; look for ischemic injury/hemorrhage."
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag5",
+      "tile_id": "slide_A_x8192_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a thickened serosal layer with dense fibrous tissue, chronic inflammation, and entrapped adipose tissue. The underlying muscularis propria is also thickened and shows inflammation.\n\nThe most likely diagnosis is pneumatosis intestinalis, characterized by the presence of gas-filled cysts within the bowel wall. The associated findings of a perforated sigmoid ulcer, abscesses, and peritonitis are consistent with a severe inflammatory process leading to bowel wall compromise and gas formation.\n\nDifferential diagnoses include ischemic colitis, which can cause bowel wall thickening and inflammation but typically lacks the characteristic gas-filled cysts of pneumatosis intestinalis. Other considerations include infectious colitis or diverticulitis, which can also cause inflammation and perforation but would not typically present with pneumatosis intestinalis.",
+      "rationale": "Left-sided large cystic space—assess lining and adjacent tissue reaction."
+    },
+    {
+      "roi_id": "slide_A_x36864_y12288_mag5",
+      "tile_id": "slide_A_x36864_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 36864,
+      "y": 12288,
+      "level0": {
+        "x": 36864,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a large, irregular cystic structure with a thickened wall composed of dense fibrous tissue and chronic inflammation. The lumen contains amorphous material and cellular debris.\n\nThe most likely diagnosis is pneumatosis intestinalis, characterized by the presence of gas-filled cysts within the bowel wall. The associated findings of a perforated sigmoid ulcer, abscesses, and peritonitis are consistent with a complication of this condition.\n\nDifferential diagnoses include pneumatosis coli, which is a specific form of pneumatosis intestinalis, and pneumatosis cystoides intestinalis, which is a rare condition characterized by multiple gas-filled cysts in the bowel wall.",
+      "rationale": "Another full-thickness area; look for hemorrhage, withered crypts, necrosis"
+    },
+    {
+      "roi_id": "slide_A_x45056_y8192_mag10",
+      "tile_id": "slide_A_x45056_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 45056,
+      "y": 8192,
+      "level0": {
+        "x": 45056,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows large, clear, cystic spaces within the tissue, surrounded by a mixed inflammatory infiltrate including multinucleated giant cells. The overlying tissue appears thickened and fibrotic.\n\nThe most likely diagnosis is pneumatosis intestinalis, characterized by the presence of gas-filled cysts within the bowel wall.\n\nDifferential diagnoses include emphysematous enteritis, which is a severe form of pneumatosis intestinalis often associated with infection, and pneumatosis cystoides intestinalis, which is a rare condition characterized by multiple gas-filled cysts in the submucosa and subserosa.",
+      "rationale": "Assess inflammatory stroma around subserosal cysts; search for suppurative changes."
+    },
+    {
+      "roi_id": "slide_A_x53248_y8192_mag10",
+      "tile_id": "slide_A_x53248_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 53248,
+      "y": 8192,
+      "level0": {
+        "x": 53248,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a thickened wall with dense fibrous tissue, chronic inflammation, and numerous clear spaces within the wall. The inner surface is lined by flattened cells.\n\nThe most likely diagnosis is pneumatosis intestinalis, characterized by the presence of gas-filled cysts within the bowel wall.\n\nDifferential diagnoses include pneumatosis coli, which is a specific form of pneumatosis intestinalis, and pneumatosis cystoides intestinalis, which is a rare condition characterized by multiple gas-filled cysts in the bowel wall.",
+      "rationale": "Far-right cystic spaces; check for bacteria/necrosis."
+    },
+    {
+      "roi_id": "slide_A_x10240_y12288_mag5",
+      "tile_id": "slide_A_x10240_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 10240,
+      "y": 12288,
+      "level0": {
+        "x": 10240,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a large, thin-walled cystic structure lined by flattened cells, with a wall composed of dense fibrous tissue and smooth muscle. The lumen contains amorphous material and cellular debris.\n\nThe most likely diagnosis is pneumatosis cystoides intestinalis. This condition is characterized by the presence of gas-filled cysts within the wall of the gastrointestinal tract, often associated with underlying conditions such as ischemia, infection, or mechanical obstruction. The clinical presentation of sudden abdominal distention, pain, fever, and hypotension in this patient is consistent with a severe underlying process that could lead to pneumatosis cystoides intestinalis.\n\nDifferential diagnoses to consider include a simple colonic diverticulum, which is typically lined by colonic epithelium and surrounded by muscularis propria, and a colonic pseudodiverticulum, which is an outpouching of the colonic wall containing all layers but lacking a muscularis propria. However, the thin-walled, cystic nature of the structure in the image, along with the clinical context of pneumatosis cystoides intestinalis, makes these less likely.",
+      "rationale": "Left-side full-thickness including mucosa"
+    },
+    {
+      "roi_id": "slide_A_x48640_y8192_mag20",
+      "tile_id": "slide_A_x48640_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 48640,
+      "y": 8192,
+      "level0": {
+        "x": 48640,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows numerous multinucleated giant cells, many containing refractile foreign material, within a background of mixed inflammation and amorphous eosinophilic material. The presence of foreign body giant cells containing refractile material is a key feature.\n\nThe most likely diagnosis is pneumatosis intestinalis, characterized by the presence of gas-filled cysts in the bowel wall. The foreign body giant cells likely represent a reaction to the gas or associated necrotic debris.\n\nDifferential diagnoses include foreign body granuloma, which would show similar giant cells but typically lacks the characteristic cystic spaces of pneumatosis intestinalis. Other considerations could include granulomatous inflammation from other causes, but the refractile material within the giant cells strongly suggests a reaction to gas or foreign material.",
+      "rationale": "High power of cyst wall with giant cell reaction to characterize lining and inflammation; look for organisms."
+    },
+    {
+      "roi_id": "slide_A_x45056_y8192_mag20",
+      "tile_id": "slide_A_x45056_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 45056,
+      "y": 8192,
+      "level0": {
+        "x": 45056,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows large, multinucleated cells with abundant eosinophilic cytoplasm and multiple nuclei, consistent with syncytiotrophoblasts, within a fibrous stroma. These cells are often associated with clear spaces.\n\nThe most likely diagnosis is a retroperitoneal or abdominal implant of syncytiotrophoblasts. This finding is often associated with a history of gestational trophoblastic disease, such as a molar pregnancy or choriocarcinoma, or rarely, a non-gestational source.\n\nDifferential diagnoses include other types of germ cell tumors or metastatic carcinoma with syncytiotrophoblastic differentiation. However, the morphology is highly characteristic of syncytiotrophoblasts.",
+      "rationale": "High power on giant cell/inflammatory lining around cysts; look for acute neutrophils and organisms."
+    },
+    {
+      "roi_id": "slide_A_x24576_y8192_mag20",
+      "tile_id": "slide_A_x24576_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 24576,
+      "y": 8192,
+      "level0": {
+        "x": 24576,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a blood vessel with a thickened wall and luminal contents, surrounded by adipose tissue and skeletal muscle. There is also a mild perivascular inflammatory infiltrate.\n\nThe morphologic features in this single tile are not specific for a particular diagnosis. The presence of a thickened vessel wall and inflammation could be seen in various conditions, including reactive changes or inflammation. The surrounding adipose tissue and skeletal muscle are normal components of the gastrointestinal tract wall. Without additional context or specific findings, it is challenging to suggest a definitive diagnosis based solely on this image. Further evaluation of the entire slide, including the mucosa, submucosa, and other layers, would be necessary to assess for specific pathological processes such as ischemia, inflammation, or other conditions.",
+      "rationale": "High power of muscularis/adventitia clear spaces and thrombosed vessel to assess ischemic injury and nature of spaces."
+    },
+    {
+      "roi_id": "slide_A_x26624_y12288_mag20",
+      "tile_id": "slide_A_x26624_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 26624,
+      "y": 12288,
+      "level0": {
+        "x": 26624,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows large, irregular clear spaces within the tissue, surrounded by a mixed inflammatory infiltrate and reactive stromal changes. These spaces are consistent with gas within the tissue.\n\nThe most likely diagnosis is pneumatosis intestinalis, characterized by the presence of gas within the wall of the intestine.\n\nDifferential diagnoses include emphysematous enteritis, which is a severe form of pneumatosis intestinalis often associated with infection, and pneumatosis cystoides intestinalis, which typically presents with multiple cystic spaces in the submucosa and subserosa.",
+      "rationale": "High power in ulcerated/inflamed area to assess for ischemic mucosal changes and pseudomembranes/necrosis"
+    },
+    {
+      "roi_id": "slide_A_x32768_y8192_mag20",
+      "tile_id": "slide_A_x32768_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 32768,
+      "y": 8192,
+      "level0": {
+        "x": 32768,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows mature adipose tissue with prominent blood vessels and a transition to skeletal muscle. The presence of mature adipose tissue in the gastrointestinal tract wall is an abnormal finding.\n\nThe most likely diagnosis is a lipoma, which is a benign tumor composed of mature adipose tissue. The differential diagnosis includes other benign mesenchymal tumors such as a fibrolipoma or a hamartoma, which would contain additional components like fibrous tissue or other mesenchymal elements.",
+      "rationale": "High power of subserosal cysts to assess lining (histiocytes/giant cells) and fibrosis."
+    },
+    {
+      "roi_id": "slide_A_x23040_y15360_mag20",
+      "tile_id": "slide_A_x23040_y15360_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 23040,
+      "y": 15360,
+      "level0": {
+        "x": 23040,
+        "y": 15360,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a thickened submucosa with a dense mixed inflammatory infiltrate, including multinucleated giant cells, and numerous large, round to oval structures with thick walls and internal contents.",
+      "rationale": "Search for residual mucosa/crypts near injury for withering, hyalinization, hemorrhage"
+    },
+    {
+      "roi_id": "slide_A_x4096_y8192_mag20",
+      "tile_id": "slide_A_x4096_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 4096,
+      "y": 8192,
+      "level0": {
+        "x": 4096,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows adipose tissue with numerous clear, cystic spaces of varying size, consistent with gas bubbles. There is also a prominent blood vessel filled with erythrocytes and surrounding fibrous stroma.\n\nThe most likely diagnosis is pneumatosis intestinalis, characterized by the presence of gas-filled cysts within the bowel wall or surrounding tissues. This finding is often associated with underlying conditions such as bowel ischemia, infection, or mechanical obstruction.\n\nDifferential diagnoses to consider include emphysematous peritonitis, which is a severe form of pneumatosis intestinalis involving gas within the peritoneal cavity, and bowel perforation with gas formation. The presence of gas within the bowel wall or surrounding tissues, as seen in this image, is a key feature of pneumatosis intestinalis.",
+      "rationale": "High power in subserosal bleb-rich area to assess inflammation type and any bacteria."
+    },
+    {
+      "roi_id": "slide_A_x34816_y12288_mag10",
+      "tile_id": "slide_A_x34816_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 34816,
+      "y": 12288,
+      "level0": {
+        "x": 34816,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cystic structure lined by flattened cells and surrounded by dense fibrous tissue with chronic inflammation. The lumen contains amorphous material and cellular debris.\n\nThe most likely diagnosis is pneumatosis cystoides intestinalis. This condition is characterized by the presence of gas-filled cysts within the wall of the gastrointestinal tract, often associated with underlying pathology such as ischemia, infection, or obstruction. The clinical presentation of sudden abdominal distention, pain, fever, and hypotension in this patient is consistent with a severe underlying condition that could lead to pneumatosis cystoides intestinalis.\n\nDifferential diagnoses to consider include a simple colonic diverticulum or a colonic pseudodiverticulum. However, the presence of gas within the cystic structure is a key feature that distinguishes pneumatosis cystoides intestinalis from these other entities.",
+      "rationale": "Sample a different area deeper in wall to check for submucosal involvement and mucosal ischemia/necrosis."
+    },
+    {
+      "roi_id": "slide_A_x31744_y11776_mag20",
+      "tile_id": "slide_A_x31744_y11776_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 31744,
+      "y": 11776,
+      "level0": {
+        "x": 31744,
+        "y": 11776,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a layer of flattened cells overlying connective tissue with scattered inflammatory cells. The underlying tissue is composed of spindle-shaped cells and collagen. The presence of clear, cystic, air-filled blebs on the serosal surface is a key feature.\n\nThe most likely diagnosis is pneumatosis intestinalis, characterized by the presence of gas-filled cysts within the wall of the gastrointestinal tract.\n\nDifferential diagnoses include:\n- Pneumoperitoneum: gas in the peritoneal cavity, typically without cystic structures within the bowel wall.\n- Pneumobilia: gas within the biliary tree, usually associated with biliary disease or trauma.",
+      "rationale": "Evaluate lamina propria/submucosa for hemorrhage, necrosis, acute inflammation, organisms"
+    },
+    {
+      "roi_id": "slide_A_x20480_y8192_mag20",
+      "tile_id": "slide_A_x20480_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20480,
+      "y": 8192,
+      "level0": {
+        "x": 20480,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows elongated, eosinophilic cells with prominent transverse striations and centrally located nuclei, arranged in parallel bundles. These features are characteristic of skeletal muscle.\n\nThe most likely diagnosis for this specific histology tile is normal skeletal muscle.\n\nDifferential diagnoses for this morphology could include other striated muscle types, such as cardiac muscle, which typically has branching fibers and intercalated discs, or smooth muscle, which lacks striations and has spindle-shaped cells. However, the presence of distinct transverse striations and the overall morphology strongly favor skeletal muscle.",
+      "rationale": "High power within muscularis with gas spaces to look for myonecrosis, bacteria, vasculitis/thrombi."
+    },
+    {
+      "roi_id": "slide_A_x53248_y8192_mag20",
+      "tile_id": "slide_A_x53248_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 53248,
+      "y": 8192,
+      "level0": {
+        "x": 53248,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a thickened fibrous wall with chronic inflammation and numerous multinucleated giant cells. There are also clear spaces within the tissue.\n\nThe most likely diagnosis is pneumatosis intestinalis, characterized by the presence of gas-filled cysts within the bowel wall.\n\nDifferential diagnoses include ischemic colitis, which can show similar inflammatory changes and fibrosis, and foreign body reaction, which can also feature multinucleated giant cells.",
+      "rationale": "High power at cyst wall/lining to check for organisms/necrosis."
+    },
+    {
+      "roi_id": "slide_A_x36864_y16384_mag5",
+      "tile_id": "slide_A_x36864_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 36864,
+      "y": 16384,
+      "level0": {
+        "x": 36864,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a large, irregular cystic space adjacent to a thickened wall composed of dense fibrous tissue with scattered inflammatory cells. The cystic space contains amorphous material and cellular debris.\n\nThe most likely diagnosis is pneumatosis intestinalis, characterized by the presence of gas-filled cysts within the bowel wall. The thickened fibrous wall and inflammation are consistent with a reactive process, potentially secondary to the underlying pathology.\n\nDifferential diagnoses include pneumatosis coli, which is a specific form of pneumatosis intestinalis, and pneumatosis cystoides intestinalis, which is a rare condition characterized by multiple gas-filled cysts in the bowel wall. The presence of a perforated sigmoid ulcer and generalized peritonitis in the clinical context supports a diagnosis of pneumatosis intestinalis secondary to bowel perforation.",
+      "rationale": "Deeper wall toward mucosa to assess for submucosal cysts and mucosal ischemic change."
+    },
+    {
+      "roi_id": "slide_A_x5120_y9216_mag10",
+      "tile_id": "slide_A_x5120_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 5120,
+      "y": 9216,
+      "level0": {
+        "x": 5120,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a transition from adipose tissue to dense fibrous tissue with inflammation and prominent blood vessels, adjacent to skeletal muscle. The fibrous tissue contains spindle cells and a mixed inflammatory infiltrate.\n\nThe most likely diagnosis for this single tile is ischemic colitis with associated fibrosis and inflammation. The dense fibrous tissue with inflammation and prominent vessels could represent reactive changes secondary to chronic ischemia or inflammation. The presence of skeletal muscle suggests this may be from the muscularis propria or adjacent tissue.\n\nDifferential diagnoses to consider include:\n- Chronic inflammatory bowel disease (e.g., Crohn's disease): This could present with fibrosis and inflammation, but typically shows granulomas and transmural inflammation, which are not evident in this single tile.\n- Post-surgical changes: Given the patient's history of multiple surgeries, fibrosis and inflammation could be related to previous surgical interventions. However, the clinical presentation and gross findings point more towards an acute process like ischemic colitis.",
+      "rationale": "Look for preserved mucosa/crypts at left edge; assess ischemic colitis features"
+    },
+    {
+      "roi_id": "slide_A_x24576_y12288_mag5",
+      "tile_id": "slide_A_x24576_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 24576,
+      "y": 12288,
+      "level0": {
+        "x": 24576,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a large clear space within the tissue, surrounded by a thickened wall composed of dense fibrous tissue and chronic inflammation. Scattered multinucleated giant cells are present within the wall.\n\nThe most likely diagnosis is pneumatosis intestinalis, characterized by the presence of gas-filled cysts within the bowel wall. The associated fibrosis and chronic inflammation suggest a chronic process.\n\nDifferential diagnoses include pneumatosis coli, which is a specific form of pneumatosis intestinalis, and pneumatosis cystoides intestinalis, which is a rare condition characterized by gas-filled cysts in the submucosa and subserosa. The presence of a perforated sigmoid ulcer and generalized peritonitis in the clinical context is consistent with a severe complication of pneumatosis intestinalis.",
+      "rationale": "Survey more luminal/mucosal aspect to look for ischemic necrosis or ulceration with acute inflammation/bacteria."
+    },
+    {
+      "roi_id": "slide_A_x40960_y13312_mag10",
+      "tile_id": "slide_A_x40960_y13312_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 40960,
+      "y": 13312,
+      "level0": {
+        "x": 40960,
+        "y": 13312,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a thickened wall with dense inflammation and fibrosis, and numerous clear spaces within the wall. The lumen contains amorphous material and debris.\n\nThe most likely diagnosis is pneumatosis intestinalis, characterized by the presence of gas-filled cysts within the bowel wall.\n\nDifferential diagnoses include ischemic colitis, which can show mucosal necrosis and inflammation, and perforated diverticulum, which can lead to abscess formation and inflammation.",
+      "rationale": "Evaluate mucosa/submucosa for ischemia/necrosis/inflammation and any intramural gas spaces."
+    },
+    {
+      "roi_id": "slide_A_x18432_y9216_mag10",
+      "tile_id": "slide_A_x18432_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 18432,
+      "y": 9216,
+      "level0": {
+        "x": 18432,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a layer of smooth muscle with elongated, spindle-shaped cells and eosinophilic cytoplasm, arranged in parallel bundles. The nuclei are centrally located and elongated. The outermost layer appears as a thin, wavy structure.\n\nThe morphologic features are consistent with a layer of smooth muscle, likely from the muscularis propria of the gastrointestinal tract. Given the clinical context of a perforated sigmoid ulcer with generalized peritonitis and the presence of air-filled blebs on the serosa, the most likely diagnosis is pneumatosis intestinalis, specifically pneumatosis coli in this case. The air-filled blebs represent gas within the bowel wall, which can be a sign of severe underlying pathology such as ischemia, infection, or perforation. The smooth muscle layer seen in the image is part of the wall of the affected segment of the colon.",
+      "rationale": "Mid-left mucosa if present; check for withering crypts, hyalinized LP, hemorrhage"
+    },
+    {
+      "roi_id": "slide_A_x36864_y14336_mag5",
+      "tile_id": "slide_A_x36864_y14336_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 36864,
+      "y": 14336,
+      "level0": {
+        "x": 36864,
+        "y": 14336,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a large, clear, cystic space adjacent to a thickened, inflamed wall with dense fibrous tissue and chronic inflammation. The cystic space is lined by flattened cells and contains amorphous material.\n\nThe most likely diagnosis is pneumatosis intestinalis, characterized by the presence of gas-filled cysts within the bowel wall.\n\nDifferential diagnoses include pneumatosis coli, which is a specific form of pneumatosis intestinalis, and pneumatosis cystoides intestinalis, which is a rare condition characterized by multiple gas-filled cysts in the bowel wall.",
+      "rationale": "Check for mucosal injury, hemorrhage, or transmural necrosis away from serosal cysts."
+    },
+    {
+      "roi_id": "slide_A_x14336_y14336_mag10",
+      "tile_id": "slide_A_x14336_y14336_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 14336,
+      "y": 14336,
+      "level0": {
+        "x": 14336,
+        "y": 14336,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cystic structure lined by flattened cells with a thickened wall composed of dense fibrous tissue and chronic inflammation. The lumen contains amorphous material and cellular debris.\n\nThe most likely diagnosis is pneumatosis cystoides intestinalis. This condition is characterized by the presence of gas-filled cysts within the wall of the gastrointestinal tract, often associated with underlying pathology such as ischemia, infection, or obstruction. The clinical presentation of sudden abdominal distention, pain, fever, and hypotension in this patient is consistent with a severe underlying condition that could lead to pneumatosis cystoides intestinalis.\n\nDifferential diagnoses to consider include a simple colonic diverticulum or a colonic pseudodiverticulum. However, the presence of gas within the cyst wall, as suggested by the clinical description of clear, cystic, air-filled blebs on the serosal surface, is a key feature that distinguishes pneumatosis cystoides intestinalis from these other entities.",
+      "rationale": "Another segment including mucosa and serosa to see distribution of cysts across layers."
+    },
+    {
+      "roi_id": "slide_A_x53248_y9216_mag10",
+      "tile_id": "slide_A_x53248_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 53248,
+      "y": 9216,
+      "level0": {
+        "x": 53248,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a thickened wall with dense fibrous tissue, chronic inflammation, and prominent blood vessels. There are also areas of amorphous eosinophilic material and clear spaces.\n\nThe most likely diagnosis is pneumatosis intestinalis, characterized by the presence of gas-filled cysts within the bowel wall. The differential diagnosis includes ischemic colitis, which can also present with wall thickening and inflammation, but typically lacks the characteristic clear spaces representing gas.",
+      "rationale": "Far right edge; attempt to find mucosal surface and evaluate injury"
+    },
+    {
+      "roi_id": "slide_A_x12288_y14336_mag5",
+      "tile_id": "slide_A_x12288_y14336_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 12288,
+      "y": 14336,
+      "level0": {
+        "x": 12288,
+        "y": 14336,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a large cystic structure with a thick fibrous wall and a lumen containing amorphous material and debris. The wall is lined by flattened cells and contains scattered inflammatory cells.\n\nThe most likely diagnosis is pneumatosis cystoides intestinalis. This condition is characterized by the presence of gas-filled cysts within the wall of the gastrointestinal tract. The cysts are typically lined by flattened cells and surrounded by a fibrous wall, as seen in the image. The presence of associated inflammation and the clinical context of perforated diverticulum and generalized peritonitis are consistent with this diagnosis.\n\nDifferential diagnoses to consider include a simple colonic diverticulum with secondary changes, such as inflammation or perforation, or a colonic abscess. However, the presence of multiple clear, cystic, air-filled blebs on the serosal surface, as described in the gross findings, is more characteristic of pneumatosis cystoides intestinalis.",
+      "rationale": "Additional area to assess for acute suppurative inflammation or abscess."
+    },
+    {
+      "roi_id": "slide_A_x12288_y6144_mag10",
+      "tile_id": "slide_A_x12288_y6144_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 12288,
+      "y": 6144,
+      "level0": {
+        "x": 12288,
+        "y": 6144,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a layer of flattened cells overlying dense fibrous tissue with chronic inflammation and congested vessels, adjacent to adipose tissue. The flattened cell layer is consistent with mesothelial cells.\n\nThe most likely diagnosis for this single tile is a normal or reactive mesothelial lining overlying fibrous tissue with chronic inflammation.\n\nDifferential diagnoses to consider include:\n- Peritoneal carcinomatosis: This would typically show atypical cells forming clusters or glands, which are not seen in this image.\n- Metastatic carcinoma: Similar to carcinomatosis, this would show malignant cells, which are absent here.\n- Reactive mesothelial hyperplasia: This could be considered if there were more prominent mesothelial cells, but the image shows a relatively flat layer.",
+      "rationale": "Search very superficial edge for mucosa/crypts"
+    },
+    {
+      "roi_id": "slide_A_x40960_y13312_mag20",
+      "tile_id": "slide_A_x40960_y13312_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 40960,
+      "y": 13312,
+      "level0": {
+        "x": 40960,
+        "y": 13312,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense inflammatory infiltrate in the lamina propria and submucosa, with distorted and atrophic crypts. There is also evidence of fibrosis and vascular congestion.\n\nThe most likely diagnosis is ischemic colitis. Differential diagnoses include infectious colitis, which typically shows more neutrophilic inflammation and crypt abscesses, and inflammatory bowel disease, which usually presents with chronic changes and architectural distortion.",
+      "rationale": "High power of inflamed fibrotic wall with multiple clear spaces to look for ischemic necrosis/organisms."
+    },
+    {
+      "roi_id": "slide_A_x45568_y9728_mag20",
+      "tile_id": "slide_A_x45568_y9728_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 45568,
+      "y": 9728,
+      "level0": {
+        "x": 45568,
+        "y": 9728,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a large, irregular clear space adjacent to inflamed tissue with a mixed inflammatory infiltrate and scattered multinucleated giant cells. The clear space is consistent with gas within the tissue.\n\nThe most likely diagnosis is pneumatosis intestinalis, characterized by the presence of gas within the wall of the intestine.\n\nDifferential diagnoses include emphysematous enteritis, which is pneumatosis intestinalis associated with infection, and pneumatosis cystoides intestinalis, which is a specific type of pneumatosis intestinalis characterized by cystic spaces.",
+      "rationale": "Re-check inflamed cyst wall at different field for neutrophils, bacterial colonies."
+    },
+    {
+      "roi_id": "slide_A_x25600_y2048_mag10",
+      "tile_id": "slide_A_x25600_y2048_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 25600,
+      "y": 2048,
+      "level0": {
+        "x": 25600,
+        "y": 2048,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a medium-sized artery with marked wall thickening and luminal narrowing, surrounded by mature adipose tissue. The vessel wall exhibits concentric layers of eosinophilic material and spindle cells.\n\nThe most likely diagnosis for this specific vessel is arteriosclerosis, characterized by thickened arterial walls due to hyaline deposition and smooth muscle proliferation. However, the clinical context of a patient with sudden abdominal symptoms, perforated sigmoid ulcer, and generalized peritonitis suggests a severe underlying condition. The presence of air-filled blebs on the serosal surface of the colon is a critical finding, indicative of pneumatosis intestinalis, which is often associated with ischemic injury or perforation. The combination of these findings points towards a severe ischemic process in the colon, likely secondary to the perforated ulcer and subsequent peritonitis.",
+      "rationale": "Another superficial band; look for surface epithelium/pseudomembrane"
+    },
+    {
+      "roi_id": "slide_A_x34816_y12288_mag20",
+      "tile_id": "slide_A_x34816_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 34816,
+      "y": 12288,
+      "level0": {
+        "x": 34816,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a thickened wall with dense fibrous tissue, scattered chronic inflammation, and a prominent linear foreign body. The inner surface is lined by flattened cells.\n\nThe morphologic features are consistent with a foreign body reaction in the gastrointestinal tract wall. The presence of a linear foreign body within the thickened, fibrotic wall is a key finding. This could represent a suture or other foreign material introduced during a prior surgical procedure, such as a laminectomy or hysterectomy, which are noted in the patient's history. The surrounding fibrosis and chronic inflammation are reactive changes to the foreign material. The clinical presentation of sudden abdominal distention, pain, fever, and hypotension, along with the autopsy findings of perforation, abscesses, and peritonitis, are consistent with a complication of a foreign body reaction, such as a perforated suture granuloma. The clear cystic air-filled blebs on the serosa seen grossly are characteristic of pneumatosis intestinalis, which can be associated with bowel ischemia or perforation.",
+      "rationale": "High power of cystic structure to confirm lining histiocytes/giant cells and fibrosis."
+    },
+    {
+      "roi_id": "slide_A_x12288_y15872_mag20",
+      "tile_id": "slide_A_x12288_y15872_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 12288,
+      "y": 15872,
+      "level0": {
+        "x": 12288,
+        "y": 15872,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a layer of flattened cells overlying a fibrous stroma with scattered inflammatory cells and multinucleated giant cells. The superficial layer contains amorphous material and cellular debris.\n\nThe most likely diagnosis is pneumatosis intestinalis, characterized by the presence of gas-filled cysts within the bowel wall. The associated findings of a perforated sigmoid ulcer, abscesses, and peritonitis are consistent with a severe inflammatory process leading to bowel wall compromise and gas formation.\n\nDifferential diagnoses include other causes of bowel wall gas, such as bowel ischemia or necrosis, which can also lead to pneumatosis intestinalis. However, the presence of a perforated ulcer and abscesses strongly suggests an inflammatory etiology in this case.",
+      "rationale": "High power of cyst wall with debris to assess for organisms/suppuration/necrosis."
+    },
+    {
+      "roi_id": "slide_A_x37888_y2048_mag10",
+      "tile_id": "slide_A_x37888_y2048_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 37888,
+      "y": 2048,
+      "level0": {
+        "x": 37888,
+        "y": 2048,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows mature adipose tissue with areas of hemorrhage and inflammation. A prominent nerve bundle is also present. The presence of air-filled blebs on the serosal surface is a key feature.\n\nThe most likely diagnosis is pneumatosis intestinalis, characterized by the presence of gas-filled cysts within the bowel wall.\n\nDifferential diagnoses include pneumatosis coli, which is a specific form of pneumatosis intestinalis, and pneumatosis cystoides intestinalis, which is a rare condition characterized by the presence of gas-filled cysts in the submucosa and subserosa of the gastrointestinal tract.",
+      "rationale": "Right superficial edge for mucosa"
+    },
+    {
+      "roi_id": "slide_A_x14336_y14336_mag20",
+      "tile_id": "slide_A_x14336_y14336_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 14336,
+      "y": 14336,
+      "level0": {
+        "x": 14336,
+        "y": 14336,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows large, clear, round to oval spaces within the tissue, consistent with gas bubbles. These are surrounded by a mixed inflammatory infiltrate and reactive stromal changes.\n\nThe most likely diagnosis is pneumatosis intestinalis, characterized by the presence of gas within the bowel wall.\n\nDifferential diagnoses include emphysematous enteritis, which is a severe form of pneumatosis intestinalis often associated with infection, and bowel ischemia, which can lead to tissue necrosis and gas formation.",
+      "rationale": "Another cyst wall at high power to assess lining cells and inflammation."
+    },
+    {
+      "roi_id": "slide_A_x24576_y12800_mag20",
+      "tile_id": "slide_A_x24576_y12800_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 24576,
+      "y": 12800,
+      "level0": {
+        "x": 24576,
+        "y": 12800,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cystic structure lined by flattened cells and containing amorphous material, surrounded by fibrous tissue with scattered inflammatory cells. The presence of air-filled cysts in the serosa is a key feature.\n\nThe most likely diagnosis is pneumatosis cystoides intestinalis.\n\nDifferential diagnoses include:\n- Pneumoperitoneum: This would typically show free air in the peritoneal cavity without the formation of cystic structures.\n- Colonic diverticulitis with perforation: This would show inflammation and necrosis associated with diverticula, which is not seen in this image.",
+      "rationale": "High power of fibrous wall/chronic inflammation to look for bacteria or vasculitis."
+    },
+    {
+      "roi_id": "slide_A_x35840_y13312_mag20",
+      "tile_id": "slide_A_x35840_y13312_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 35840,
+      "y": 13312,
+      "level0": {
+        "x": 35840,
+        "y": 13312,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a thickened, inflamed serosal layer with numerous clear, cystic spaces. These spaces are lined by flattened cells and contain amorphous material.\n\nThe most likely diagnosis is pneumatosis intestinalis, characterized by the presence of gas-filled cysts within the bowel wall.\n\nDifferential diagnoses include pneumatosis coli, which is a specific form of pneumatosis intestinalis, and pneumatosis cystoides intestinalis, which is a rare condition characterized by gas-filled cysts in the submucosa and subserosa.",
+      "rationale": "High power of lining cells/giant cells; look for acute inflammation and bacteria."
+    },
+    {
+      "roi_id": "slide_A_x28672_y4096_mag5",
+      "tile_id": "slide_A_x28672_y4096_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 28672,
+      "y": 4096,
+      "level0": {
+        "x": 28672,
+        "y": 4096,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows mature adipose tissue with numerous blood vessels, some containing red blood cells, and a dense fibrous layer. The presence of gas-filled cysts within the adipose tissue is a key feature.\n\nThe most likely diagnosis is pneumatosis intestinalis, characterized by the presence of gas-filled cysts within the bowel wall.\n\nDifferential diagnoses include pneumatosis coli, which is a specific form of pneumatosis intestinalis affecting the colon, and pneumatosis cystoides intestinalis, which is a rare condition characterized by the presence of gas-filled cysts in the submucosa, subserosa, or mesentery.",
+      "rationale": "Look for mucosa/submucosa in upper part of section; assess ischemic-type injury and acute inflammation."
+    },
+    {
+      "roi_id": "slide_A_x38912_y4096_mag5",
+      "tile_id": "slide_A_x38912_y4096_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 38912,
+      "y": 4096,
+      "level0": {
+        "x": 38912,
+        "y": 4096,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a transition from adipose tissue and blood vessels to a thick layer of smooth muscle. The smooth muscle bundles are arranged in fascicles with elongated, blunt-ended nuclei.\n\nThe most likely diagnosis for this specific histology tile is normal muscularis propria of the gastrointestinal tract.\n\nDifferential diagnoses for the overall clinical presentation include:\n1. Acute ischemic colitis: This would show mucosal necrosis, hemorrhage, and inflammation, which are not evident in this specific image.\n2. Perforated diverticulum: This would show a defect in the bowel wall with associated inflammation and abscess formation, which are not seen in this image.",
+      "rationale": "Another mucosal area to evaluate for necrosis/ulceration, bacterial overgrowth."
+    },
+    {
+      "roi_id": "slide_A_x16384_y4096_mag5",
+      "tile_id": "slide_A_x16384_y4096_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 16384,
+      "y": 4096,
+      "level0": {
+        "x": 16384,
+        "y": 4096,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a thin layer of fibrous tissue with scattered inflammatory cells and small vessels, overlying adipose tissue. The fibrous layer appears discontinuous and fragmented.\n\nThe morphologic features are consistent with a serosal reaction, likely secondary to inflammation or injury. Given the clinical context of perforated sigmoid ulcer and generalized peritonitis, this could represent a reactive serosal change or a component of the inflammatory process.",
+      "rationale": "Check for mucosal injury and any transmural inflammation."
+    },
+    {
+      "roi_id": "slide_A_x49152_y4096_mag5",
+      "tile_id": "slide_A_x49152_y4096_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 49152,
+      "y": 4096,
+      "level0": {
+        "x": 49152,
+        "y": 4096,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a transition from adipose tissue to muscularis propria, with a layer of smooth muscle bundles oriented in various directions. The outermost layer of smooth muscle appears thickened.\n\nThe morphologic features are consistent with the muscularis propria of the gastrointestinal tract. The thickened outer muscle layer may represent hypertrophy or hyperplasia, which can be seen in conditions causing increased intraluminal pressure or chronic obstruction. Given the clinical context of a perforated sigmoid ulcer and generalized peritonitis, the observed muscularis propria is part of the affected bowel segment. The presence of air-filled blebs on the serosa, as noted in the gross description, is a critical finding suggestive of pneumatosis intestinalis, which can be associated with bowel ischemia or perforation.",
+      "rationale": "Assess serosa/muscularis away from biggest cysts for vasculitis/thrombi/necrosis."
+    },
+    {
+      "roi_id": "slide_A_x24064_y8192_mag20",
+      "tile_id": "slide_A_x24064_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 24064,
+      "y": 8192,
+      "level0": {
+        "x": 24064,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a transition from adipose tissue to smooth muscle bundles, with a prominent nerve bundle and scattered inflammatory cells. The smooth muscle bundles appear somewhat disorganized.\n\nThe morphologic features in this single tile are not specific for a particular diagnosis. The presence of smooth muscle, adipose tissue, and nerve bundles is consistent with the wall of the gastrointestinal tract. The scattered inflammatory cells suggest some degree of inflammation, but the overall picture is not diagnostic of a specific pathology. The clinical context of a perforated sigmoid ulcer with abscesses and generalized peritonitis is consistent with a severe inflammatory process, but the specific cause cannot be determined from this single histology tile. The presence of clear, cystic, air-filled blebs on the serosal surface of the ascending and transverse colon, as described in the gross findings, is a key feature of pneumatosis intestinalis, which can be associated with various conditions including ischemia, infection, and inflammatory bowel disease. However, this specific feature is not visible in the provided histology image.",
+      "rationale": "Assess reported thrombus and adjacent pneumatosis wall reaction; exclude necrosis/organisms."
+    },
+    {
+      "roi_id": "slide_A_x49152_y7680_mag20",
+      "tile_id": "slide_A_x49152_y7680_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 49152,
+      "y": 7680,
+      "level0": {
+        "x": 49152,
+        "y": 7680,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a large clear space within the tissue, surrounded by a mixed inflammatory infiltrate including lymphocytes, plasma cells, and multinucleated giant cells. The surrounding stroma is fibrotic.\n\nThe most likely diagnosis is pneumatosis intestinalis, characterized by the presence of gas-filled cysts within the bowel wall. The associated inflammation and giant cells are consistent with a reaction to the gas.\n\nDifferential diagnoses include ischemic colitis, which can also present with inflammation and necrosis, and perforated diverticulum, which can lead to peritonitis and inflammation. However, the presence of the clear spaces is the key feature pointing towards pneumatosis intestinalis.",
+      "rationale": "High power of cyst walls with giant cell reaction; confirm pneumatosis cystoides pattern."
+    },
+    {
+      "roi_id": "slide_A_x40448_y13312_mag20",
+      "tile_id": "slide_A_x40448_y13312_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 40448,
+      "y": 13312,
+      "level0": {
+        "x": 40448,
+        "y": 13312,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense inflammatory infiltrate in the lamina propria and submucosa, with scattered clear spaces within the tissue. The surface epithelium is disrupted.\n\nThe most likely diagnosis is pneumatosis intestinalis, characterized by the presence of gas-filled cysts within the bowel wall. The associated inflammation and ulceration suggest an underlying inflammatory or ischemic process.\n\nDifferential diagnoses include ischemic colitis, which can cause mucosal injury and inflammation, and diverticulitis, which can lead to perforation and abscess formation.",
+      "rationale": "Look for any preserved mucosa/ischemic injury and characterize inflammation."
+    },
+    {
+      "roi_id": "slide_A_x30720_y8192_mag5",
+      "tile_id": "slide_A_x30720_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 30720,
+      "y": 8192,
+      "level0": {
+        "x": 30720,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a layer of mature adipose tissue with numerous clear, cystic spaces, consistent with pneumatosis, overlying a layer of smooth muscle. The smooth muscle layer appears thickened and disorganized.\n\nThe most likely diagnosis is pneumatosis intestinalis, characterized by the presence of gas-filled cysts within the bowel wall.\n\nDifferential diagnoses include pneumatosis coli, which is a specific form of pneumatosis intestinalis, and pneumatosis cystoides intestinalis, which is a rare condition characterized by gas-filled cysts in the submucosa and subserosa.",
+      "rationale": "Broader pattern and depth of gas spaces within wall (subserosa vs submucosa)."
+    }
+  ]
+}

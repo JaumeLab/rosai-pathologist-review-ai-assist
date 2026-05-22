@@ -1,0 +1,862 @@
+{
+  "case_id": "sem1131_case6",
+  "source": "slideseek-ai-assist",
+  "model": "gpt-5.4",
+  "generated_at": "2026-05-22T09:20:23.868814+00:00",
+  "organ": "Lung-Mediastinum",
+  "primary_dx": "Solitary Fibrous Tumor, Pleural-Based, Without Overt Malignant Features",
+  "differential_dx": [
+    "Inflammatory Myofibroblastic Tumor",
+    "Monophasic Synovial Sarcoma / Other Spindle Cell Sarcoma Or Sarcomatoid Carcinoma"
+  ],
+  "microscopic_findings": [
+    {
+      "text": "Tumor shows a **patternless spindle-cell proliferation** with short fascicles/whorls and **alternating cellularity**.",
+      "roi_ids": [
+        "slide_A_x25600_y17408_mag20",
+        "slide_A_x24576_y32768_mag2"
+      ]
+    },
+    {
+      "text": "Stroma contains abundant **ropy collagen** with **perivascular hyalinization**, a classic fibrosclerotic background.",
+      "roi_ids": [
+        "slide_A_x23552_y16384_mag10",
+        "slide_A_x24576_y6144_mag20"
+      ]
+    },
+    {
+      "text": "Numerous **branching staghorn vessels** and variably **thick-walled vascular channels** traverse the lesion.",
+      "roi_ids": [
+        "slide_A_x8192_y16384_mag10",
+        "slide_A_x40960_y28672_mag20"
+      ]
+    },
+    {
+      "text": "Neoplastic cells are **bland spindle to ovoid cells** without necrosis or **brisk mitotic activity** in sampled ROIs.",
+      "roi_ids": [
+        "slide_A_x16896_y13824_mag20",
+        "slide_A_x12032_y25088_mag40"
+      ]
+    }
+  ],
+  "interpretation": "The combination of a **pleural-based spindle-cell neoplasm**, **patternless architecture**, collagenized/hyalinized stroma, and **staghorn vasculature** is most consistent with **solitary fibrous tumor**. The cytology is predominantly bland, and reviewed regions do not show overt necrosis or brisk mitotic activity, arguing against an overtly malignant example in sampled tissue. Lack of an epithelial component and absence of a prominent inflammatory myofibroblastic pattern help exclude **sarcomatoid carcinoma/synovial sarcoma** and **inflammatory myofibroblastic tumor**.",
+  "num_rois": 51,
+  "tiles": [
+    {
+      "roi_id": "slide_A_x24576_y16384_mag1",
+      "tile_id": "slide_A_x24576_y16384_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 24576,
+      "y": 16384,
+      "level0": {
+        "x": 24576,
+        "y": 16384,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with prominent thick-walled blood vessels and areas of hyalinized stroma. The most likely diagnosis is a solitary fibrous tumor. Differential diagnoses include inflammatory myofibroblastic tumor and sarcomatoid carcinoma, which can be distinguished by their different cellular morphology and immunohistochemical profiles.",
+      "rationale": "Global overview of tumor vs lung and pleural surface"
+    },
+    {
+      "roi_id": "slide_A_x24576_y16384_mag2",
+      "tile_id": "slide_A_x24576_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 24576,
+      "y": 16384,
+      "level0": {
+        "x": 24576,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with prominent thick-walled blood vessels and areas of stromal hyalinization. The most likely diagnosis is a solitary fibrous tumor. Differential diagnoses include inflammatory myofibroblastic tumor and sarcomatoid carcinoma, which can be distinguished by their different cellular morphology and immunohistochemical profiles.",
+      "rationale": "Low-power survey of central tumor for overall architecture and cellularity."
+    },
+    {
+      "roi_id": "slide_A_x4096_y4096_mag2",
+      "tile_id": "slide_A_x4096_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 4096,
+      "y": 4096,
+      "level0": {
+        "x": 4096,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with prominent, irregular, thin-walled vessels. The spindle cells are arranged in fascicles and whorls.\n\nThe most likely diagnosis is a solitary fibrous tumor.\n\nDifferential diagnoses include inflammatory myofibroblastic tumor, which typically shows a more prominent inflammatory infiltrate, and sarcomatoid carcinoma, which would show cytologic atypia and potentially epithelial markers on immunohistochemistry.",
+      "rationale": "Pleural edge/outer interface for capsule and subpleural growth"
+    },
+    {
+      "roi_id": "slide_A_x8192_y16384_mag2",
+      "tile_id": "slide_A_x8192_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 8192,
+      "y": 16384,
+      "level0": {
+        "x": 8192,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with prominent, thick-walled blood vessels. The cells have elongated, wavy nuclei.\n\nThe most likely diagnosis is a solitary fibrous tumor.\n\nDifferential diagnoses include inflammatory myofibroblastic tumor, which typically shows a more prominent inflammatory infiltrate, and leiomyoma, which would have more eosinophilic cytoplasm and blunt-ended nuclei.",
+      "rationale": "Survey left-central portion where thumbnail shows darker/cellular area."
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag1",
+      "tile_id": "slide_A_x8192_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a well-circumscribed, cellular lesion composed of spindle cells arranged in fascicles and whorls, with prominent, thick-walled blood vessels. The lesion is sharply demarcated from the surrounding tissue.\n\nThe most likely diagnosis is a solitary fibrous tumor.\n\nDifferential diagnoses include inflammatory myofibroblastic tumor, which typically shows a more prominent inflammatory infiltrate, and leiomyoma, which would show more uniform spindle cells with eosinophilic cytoplasm and blunt-ended nuclei.",
+      "rationale": "Assess pleural edge and any subpleural mass relationship (upper left)"
+    },
+    {
+      "roi_id": "slide_A_x24576_y4096_mag2",
+      "tile_id": "slide_A_x24576_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 24576,
+      "y": 4096,
+      "level0": {
+        "x": 24576,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a transition from a hypocellular, hyalinized area with scattered vessels to a more cellular region with spindle cells, prominent vessels, and a dense inflammatory infiltrate. The interface between these areas is irregular.\n\nThe most likely diagnosis is a solitary fibrous tumor.\n\nDifferential diagnoses include inflammatory myofibroblastic tumor, which typically shows a more uniform spindle cell proliferation with a prominent inflammatory infiltrate, and desmoid-type fibromatosis, which is characterized by a more uniform spindle cell proliferation with less prominent inflammation and more collagenous stroma.",
+      "rationale": "Superior pleural aspect—look for thickened pleura and attachment"
+    },
+    {
+      "roi_id": "slide_A_x49152_y8192_mag1",
+      "tile_id": "slide_A_x49152_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 49152,
+      "y": 8192,
+      "level0": {
+        "x": 49152,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with prominent thick-walled blood vessels and areas of hyalinization. The most likely diagnosis is a solitary fibrous tumor. Differential diagnoses include inflammatory myofibroblastic tumor and sarcomatoid carcinoma, which can be distinguished by their different cellular morphology and immunohistochemical profiles.",
+      "rationale": "Assess pleural edge and peripheral tumor (upper right)"
+    },
+    {
+      "roi_id": "slide_A_x36864_y20480_mag2",
+      "tile_id": "slide_A_x36864_y20480_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 36864,
+      "y": 20480,
+      "level0": {
+        "x": 36864,
+        "y": 20480,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with prominent branching, thin-walled vessels and areas of stromal hyalinization. The most likely diagnosis is a solitary fibrous tumor. Differential diagnoses include inflammatory myofibroblastic tumor and sarcomatoid carcinoma, which can be distinguished by their different cellular morphology and immunohistochemical profiles.",
+      "rationale": "Survey right-central portion for heterogeneity/necrosis."
+    },
+    {
+      "roi_id": "slide_A_x49152_y32768_mag1",
+      "tile_id": "slide_A_x49152_y32768_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 49152,
+      "y": 32768,
+      "level0": {
+        "x": 49152,
+        "y": 32768,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a well-circumscribed, densely cellular lesion composed of spindle cells arranged in fascicles and whorls, with prominent vascularity.\n\nThe most likely diagnosis is a solitary fibrous tumor.\n\nDifferential diagnoses include inflammatory myofibroblastic tumor and sarcomatoid carcinoma, which can be distinguished by their different cellular morphology and immunohistochemical profiles.",
+      "rationale": "Assess pleural edge and peripheral tumor (lower right)"
+    },
+    {
+      "roi_id": "slide_A_x40960_y28672_mag2",
+      "tile_id": "slide_A_x40960_y28672_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 40960,
+      "y": 28672,
+      "level0": {
+        "x": 40960,
+        "y": 28672,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with prominent, thick-walled blood vessels. The cells have elongated nuclei and scant cytoplasm.\n\nThe most likely diagnosis is Solitary Fibrous Tumor (SFT).\n\nDifferential diagnoses include:\n- Synovial Sarcoma: Typically shows a biphasic pattern with epithelial and spindle cell components, and often has a characteristic t(X;18) translocation.\n- Malignant Peripheral Nerve Sheath Tumor (MPNST): Usually shows more nuclear pleomorphism, hyperchromasia, and mitotic activity, and may have a fascicular growth pattern.",
+      "rationale": "Deep parenchymal edge—assess infiltrative vs pushing border"
+    },
+    {
+      "roi_id": "slide_A_x24576_y8192_mag2",
+      "tile_id": "slide_A_x24576_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 24576,
+      "y": 8192,
+      "level0": {
+        "x": 24576,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a spindle cell proliferation with variable cellularity, prominent thick-walled blood vessels, and a background of fibrosis and chronic inflammation. The spindle cells are arranged in fascicles and whorls.\n\nThe most likely diagnosis is a solitary fibrous tumor.\n\nDifferential diagnoses include inflammatory myofibroblastic tumor, which typically shows a more prominent inflammatory infiltrate and often has ALK rearrangement, and leiomyoma, which would show more uniform spindle cells with eosinophilic cytoplasm and blunt-ended nuclei.",
+      "rationale": "Survey subpleural/upper edge for interface and capsule."
+    },
+    {
+      "roi_id": "slide_A_x8192_y32768_mag1",
+      "tile_id": "slide_A_x8192_y32768_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 8192,
+      "y": 32768,
+      "level0": {
+        "x": 8192,
+        "y": 32768,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a well-circumscribed lesion with a thick fibrous capsule and a cellular proliferation of spindle cells arranged in fascicles and whorls, with prominent vascularity.\n\nThe most likely diagnosis is a solitary fibrous tumor.\n\nDifferential diagnoses include inflammatory myofibroblastic tumor, which typically shows a more prominent inflammatory infiltrate, and leiomyoma, which would show smooth muscle differentiation.",
+      "rationale": "Assess pleural edge and peripheral tumor (lower left)"
+    },
+    {
+      "roi_id": "slide_A_x24576_y32768_mag2",
+      "tile_id": "slide_A_x24576_y32768_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 24576,
+      "y": 32768,
+      "level0": {
+        "x": 24576,
+        "y": 32768,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in a patternless pattern with prominent, thick-walled blood vessels. The cells have bland nuclei and scant cytoplasm.\n\nThe most likely diagnosis is Solitary Fibrous Tumor (SFT).\n\nDifferential diagnoses include:\n- Synovial Sarcoma: Typically shows a biphasic pattern with epithelial and spindle cell components, and often has a characteristic t(X;18) translocation.\n- Malignant Peripheral Nerve Sheath Tumor (MPNST): Usually shows more nuclear pleomorphism, hyperchromasia, and mitotic activity, and may have a fascicular growth pattern.",
+      "rationale": "Survey lower edge for interface and any reactive lung/necrosis."
+    },
+    {
+      "roi_id": "slide_A_x16384_y20480_mag5",
+      "tile_id": "slide_A_x16384_y20480_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 16384,
+      "y": 20480,
+      "level0": {
+        "x": 16384,
+        "y": 20480,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a large, irregular, blood-filled space surrounded by a cellular proliferation of spindle cells arranged in fascicles and whorls. The spindle cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a Solitary Fibrous Tumor (SFT). The presence of a spindle cell proliferation with a patternless architecture, often associated with prominent, irregular, blood-filled spaces (staghorn vessels), is characteristic of SFT. The location in the lung/mediastinum is also a common site for this tumor.\n\nDifferential diagnoses include other spindle cell neoplasms such as leiomyoma or schwannoma. Leiomyoma would typically show more uniform spindle cells with blunt-ended nuclei and eosinophilic cytoplasm, often arranged in intersecting fascicles. Schwannoma would show spindle cells with wavy nuclei and may have areas of nuclear palisading (Antoni A areas) and myxoid change (Antoni B areas). Immunohistochemistry would be helpful in differentiating these entities, with SFT typically positive for CD34 and STAT6, while leiomyoma is positive for smooth muscle actin and desmin, and schwannoma is positive for S100.",
+      "rationale": "Small region 1 likely tumor focus—screen for higher cellularity/diagnostic pattern"
+    },
+    {
+      "roi_id": "slide_A_x24576_y16384_mag5",
+      "tile_id": "slide_A_x24576_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 24576,
+      "y": 16384,
+      "level0": {
+        "x": 24576,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with prominent thick-walled blood vessels and areas of stromal hyalinization. The cells have elongated, wavy nuclei.\n\nThe most likely diagnosis is a solitary fibrous tumor.\n\nDifferential diagnoses include:\n- Solitary fibrous tumor: characterized by spindle cells, prominent vessels, and stromal hyalinization.\n- Synovial sarcoma: typically shows a biphasic pattern with epithelial and spindle cell components, but monophasic variants exist.\n- Malignant peripheral nerve sheath tumor: often shows more nuclear pleomorphism and mitotic activity.",
+      "rationale": "Tumor center to confirm patternless architecture, vessels, necrosis"
+    },
+    {
+      "roi_id": "slide_A_x24576_y16384_mag10",
+      "tile_id": "slide_A_x24576_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 24576,
+      "y": 16384,
+      "level0": {
+        "x": 24576,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with prominent dilated, branching blood vessels and a background of hyalinized stroma. The spindle cells have elongated nuclei and scant cytoplasm.\n\nThe most likely diagnosis is Solitary Fibrous Tumor (SFT).\n\nDifferential diagnoses include:\n- Synovial Sarcoma: Typically shows a biphasic pattern with epithelial and spindle cell components, and often has a characteristic t(X;18) translocation.\n- Malignant Peripheral Nerve Sheath Tumor (MPNST): Usually shows more nuclear pleomorphism, hyperchromasia, and mitotic activity, and may have areas of necrosis.",
+      "rationale": "Assess cytology/architecture in central cellular area."
+    },
+    {
+      "roi_id": "slide_A_x8192_y32768_mag5",
+      "tile_id": "slide_A_x8192_y32768_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 8192,
+      "y": 32768,
+      "level0": {
+        "x": 8192,
+        "y": 32768,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a thickened pleura with a dense inflammatory infiltrate and a large area of amorphous eosinophilic material. The underlying tissue is composed of dense, wavy collagen bundles.\n\nThe most likely diagnosis is a pleural inflammatory process, possibly related to the adjacent mass. Differential diagnoses include organizing pleuritis or a pleural reaction to an underlying neoplasm.",
+      "rationale": "Capsule/pleura-adjacent edge to assess relationship to pleura and interface"
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag10",
+      "tile_id": "slide_A_x8192_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a spindle cell proliferation with variable cellularity, arranged in fascicles and whorls, within a collagenous stroma. Prominent, thick-walled blood vessels are also present.\n\nThe most likely diagnosis is Solitary Fibrous Tumor (SFT).\n\nDifferential diagnoses include:\n- Inflammatory Myofibroblastic Tumor (IMT): Typically shows a more prominent inflammatory infiltrate, often with plasma cells and eosinophils, and may have a more myxoid stroma.\n- Schwannoma: Characterized by Antoni A and B areas, Verocay bodies, and S100 positivity.",
+      "rationale": "Pleural-based area (ROI slide_A_x4096_y4096_mag2) at higher power to confirm staghorn/patternless and collagen"
+    },
+    {
+      "roi_id": "slide_A_x25600_y6144_mag10",
+      "tile_id": "slide_A_x25600_y6144_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 25600,
+      "y": 6144,
+      "level0": {
+        "x": 25600,
+        "y": 6144,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of bland spindle cells within a dense collagenous stroma, accompanied by numerous thin-walled blood vessels and a mild chronic inflammatory infiltrate.\n\nThe most likely diagnosis is a solitary fibrous tumor.\n\nDifferential diagnoses include inflammatory myofibroblastic tumor, which typically shows more prominent inflammation and myofibroblastic cells, and desmoid-type fibromatosis, which is characterized by more uniform spindle cells in a less collagenous stroma.",
+      "rationale": "Hypocellular hyalinized zone vs cellular zone (ROI slide_A_x24576_y4096_mag2) for SFT features and inflammation"
+    },
+    {
+      "roi_id": "slide_A_x8192_y16384_mag10",
+      "tile_id": "slide_A_x8192_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 8192,
+      "y": 16384,
+      "level0": {
+        "x": 8192,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of bland spindle cells in a collagenous stroma with prominent, irregular, branching blood vessels. The spindle cells are arranged in short fascicles and whorls.\n\nThe most likely diagnosis is Solitary Fibrous Tumor (SFT).\n\nDifferential diagnoses include:\n- Inflammatory Myofibroblastic Tumor (IMT): Typically shows a more prominent inflammatory infiltrate, often with plasma cells and lymphocytes, and may have a storiform pattern.\n- Synovial Sarcoma: Usually shows a biphasic pattern with epithelial and spindle cell components, or a monophasic spindle cell pattern, often with more cellular atypia and mitotic activity.",
+      "rationale": "Assess left cellular area for pattern and stromal features."
+    },
+    {
+      "roi_id": "slide_A_x49152_y8192_mag5",
+      "tile_id": "slide_A_x49152_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 49152,
+      "y": 8192,
+      "level0": {
+        "x": 49152,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with a prominent inflammatory infiltrate and areas of hemorrhage. The spindle cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is an inflammatory myofibroblastic tumor. This diagnosis is supported by the presence of spindle cells with myofibroblastic features, a prominent inflammatory infiltrate, and areas of hemorrhage.\n\nDifferential diagnoses include solitary fibrous tumor and sarcomatoid carcinoma. Solitary fibrous tumor typically shows a more patternless architecture and lacks the prominent inflammatory infiltrate. Sarcomatoid carcinoma would show more significant nuclear atypia and mitotic activity, and would be positive for epithelial markers on immunohistochemistry.",
+      "rationale": "Peripheral tumor with possible lung interface/vascular features"
+    },
+    {
+      "roi_id": "slide_A_x40960_y28672_mag10",
+      "tile_id": "slide_A_x40960_y28672_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 40960,
+      "y": 28672,
+      "level0": {
+        "x": 40960,
+        "y": 28672,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle to ovoid cells with hyperchromatic nuclei and scant cytoplasm, arranged in sheets and fascicles. Prominent, irregular, branching blood vessels are a notable feature.\n\nThe most likely diagnosis is Solitary Fibrous Tumor (SFT).\n\nDifferential diagnoses include:\n- Synovial Sarcoma: Typically shows a biphasic pattern with epithelial and spindle cell components, and often has a more uniform cellularity.\n- Malignant Peripheral Nerve Sheath Tumor (MPNST): Usually demonstrates more pronounced nuclear pleomorphism, mitotic activity, and often a fascicular growth pattern with wavy nuclei.",
+      "rationale": "Deep edge (ROI slide_A_x40960_y28672_mag2) to assess cytology, vessels, infiltration"
+    },
+    {
+      "roi_id": "slide_A_x36864_y20480_mag10",
+      "tile_id": "slide_A_x36864_y20480_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 36864,
+      "y": 20480,
+      "level0": {
+        "x": 36864,
+        "y": 20480,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with prominent, thick-walled blood vessels. The spindle cells have elongated nuclei and scant cytoplasm.\n\nThe most likely diagnosis is Solitary Fibrous Tumor (SFT).\n\nDifferential diagnoses include:\n- Synovial Sarcoma: Typically shows a biphasic pattern with epithelial and spindle cell components, and often has a characteristic t(X;18) translocation.\n- Malignant Peripheral Nerve Sheath Tumor (MPNST): Usually shows more nuclear pleomorphism, hyperchromasia, and mitotic activity, and may have areas of necrosis.",
+      "rationale": "Assess right-central area for vascular pattern (staghorn) and atypia."
+    },
+    {
+      "roi_id": "slide_A_x34816_y22528_mag5",
+      "tile_id": "slide_A_x34816_y22528_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 34816,
+      "y": 22528,
+      "level0": {
+        "x": 34816,
+        "y": 22528,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with prominent, thick-walled blood vessels. The stroma is collagenous with areas of hyalinization.\n\nThe most likely diagnosis is Solitary Fibrous Tumor (SFT).\n\nDifferential diagnoses include:\n- Synovial Sarcoma: Typically shows a biphasic pattern with epithelial and spindle cell components, and often has a characteristic t(X;18) translocation.\n- Malignant Peripheral Nerve Sheath Tumor (MPNST): Usually shows more nuclear pleomorphism, hyperchromasia, and mitotic activity, and may have areas of necrosis.",
+      "rationale": "Search for hemorrhage/necrosis/myxoid change in mid-peripheral area"
+    },
+    {
+      "roi_id": "slide_A_x24576_y8192_mag10",
+      "tile_id": "slide_A_x24576_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 24576,
+      "y": 8192,
+      "level0": {
+        "x": 24576,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a spindle cell proliferation with variable cellularity, arranged in fascicles and whorls, with prominent thick-walled blood vessels and a collagenous stroma.\n\nThe most likely diagnosis is Solitary Fibrous Tumor.\n\nDifferential diagnoses include:\n- Synovial Sarcoma: typically shows more uniform cellularity, less prominent vessels, and may have epithelial components.\n- Schwannoma: often shows Antoni A and B areas, Verocay bodies, and S100 positivity.",
+      "rationale": "Assess subpleural/upper edge for capsule and interface/inflammation."
+    },
+    {
+      "roi_id": "slide_A_x16384_y20480_mag20",
+      "tile_id": "slide_A_x16384_y20480_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 16384,
+      "y": 20480,
+      "level0": {
+        "x": 16384,
+        "y": 20480,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a large area of hemorrhage adjacent to a wall composed of spindle cells and fibrous tissue. The interface between the hemorrhage and the wall is irregular.\n\nThe most likely diagnosis is a pulmonary hamartoma with extensive hemorrhage. The presence of a spindle cell and fibrous wall is consistent with the mesenchymal component of a hamartoma, and the large area of hemorrhage is a common secondary change. \n\nDifferential diagnoses include a solitary fibrous tumor, which can also present as a spindle cell lesion in the lung, and a pulmonary infarct, which would show coagulative necrosis of lung parenchyma in addition to hemorrhage.",
+      "rationale": "Region 1 at high power to assess nuclear features/mitoses/necrosis and exclude smooth muscle/neural"
+    },
+    {
+      "roi_id": "slide_A_x14336_y20480_mag5",
+      "tile_id": "slide_A_x14336_y20480_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 14336,
+      "y": 20480,
+      "level0": {
+        "x": 14336,
+        "y": 20480,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a spindle cell proliferation with prominent, thick-walled blood vessels and areas of hemorrhage. The spindle cells are arranged in fascicles and whorls.\n\nThe most likely diagnosis is a solitary fibrous tumor.\n\nDifferential diagnoses include:\n- Solitary fibrous tumor: characterized by spindle cells, prominent vessels, and often a patternless architecture.\n- Synovial sarcoma: typically shows a biphasic pattern with epithelial and spindle cell components, but monophasic variants exist.\n- Malignant peripheral nerve sheath tumor: often shows more nuclear pleomorphism and mitotic activity.",
+      "rationale": "Another peripheral area to assess uniformity vs heterogeneity"
+    },
+    {
+      "roi_id": "slide_A_x24576_y31744_mag10",
+      "tile_id": "slide_A_x24576_y31744_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 24576,
+      "y": 31744,
+      "level0": {
+        "x": 24576,
+        "y": 31744,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with prominent, thick-walled blood vessels and a collagenous stroma. The cells have elongated, wavy nuclei.\n\nThe most likely diagnosis is Solitary Fibrous Tumor (SFT).\n\nDifferential diagnoses include:\n- Synovial Sarcoma: Typically shows a biphasic pattern with epithelial and spindle cell components, and often has a characteristic t(X;18) translocation.\n- Malignant Peripheral Nerve Sheath Tumor (MPNST): Usually shows more nuclear pleomorphism, hyperchromasia, and mitotic activity, and may have a history of neurofibromatosis.",
+      "rationale": "Assess lower edge for necrosis/mitoses/hypercellular foci."
+    },
+    {
+      "roi_id": "slide_A_x12288_y12288_mag10",
+      "tile_id": "slide_A_x12288_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 12288,
+      "y": 12288,
+      "level0": {
+        "x": 12288,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of bland spindle cells arranged in intersecting fascicles and whorls within a collagenous stroma. Prominent, thick-walled blood vessels are also present.\n\nThe most likely diagnosis is Solitary Fibrous Tumor (SFT).\n\nDifferential diagnoses include:\n- Inflammatory Myofibroblastic Tumor (IMT): Typically shows a more prominent inflammatory infiltrate, often with plasma cells and eosinophils, and may have a more myxoid stroma.\n- Schwannoma: Characterized by Antoni A and B areas, Verocay bodies, and S100 positivity.",
+      "rationale": "Sample additional interior tumor away from pleura to confirm patternless architecture and exclude glandular/neuroendocrine features"
+    },
+    {
+      "roi_id": "slide_A_x9216_y32768_mag10",
+      "tile_id": "slide_A_x9216_y32768_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 9216,
+      "y": 32768,
+      "level0": {
+        "x": 9216,
+        "y": 32768,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a thickened, hyalinized fibrous wall with scattered spindle cells and chronic inflammation. The inner surface is lined by amorphous eosinophilic material and red blood cells.\n\nThe most likely diagnosis is a hydatid cyst. The thickened fibrous wall and the amorphous eosinophilic material lining the inner surface are characteristic features. Differential diagnoses include a simple cyst or a fibrous pleural plaque, but the presence of the eosinophilic lining material strongly favors a hydatid cyst.",
+      "rationale": "Pleura/capsule interface—look for attachment, invasion, mesothelial reaction"
+    },
+    {
+      "roi_id": "slide_A_x25600_y17408_mag20",
+      "tile_id": "slide_A_x25600_y17408_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 25600,
+      "y": 17408,
+      "level0": {
+        "x": 25600,
+        "y": 17408,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of bland spindle cells arranged in fascicles and whorls, with prominent branching vessels and a collagenous stroma. The cells have elongated nuclei and scant cytoplasm.\n\nThe most likely diagnosis is a solitary fibrous tumor.\n\nDifferential diagnoses include inflammatory myofibroblastic tumor, which typically shows a more prominent inflammatory infiltrate, and leiomyoma, which would have more eosinophilic cytoplasm and blunt-ended nuclei.",
+      "rationale": "High power in central area to assess nuclear atypia, mitoses, necrosis."
+    },
+    {
+      "roi_id": "slide_A_x29696_y17408_mag10",
+      "tile_id": "slide_A_x29696_y17408_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 29696,
+      "y": 17408,
+      "level0": {
+        "x": 29696,
+        "y": 17408,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with prominent thick-walled blood vessels and areas of hyalinized stroma.\n\nThe most likely diagnosis is Solitary Fibrous Tumor (SFT).\n\nDifferential diagnoses include:\n- Synovial Sarcoma: Typically shows a biphasic pattern with epithelial and spindle cell components, and often has a characteristic t(X;18) translocation.\n- Malignant Peripheral Nerve Sheath Tumor (MPNST): Usually demonstrates more pronounced nuclear atypia, mitotic activity, and often association with a nerve.",
+      "rationale": "Central tumor—look for hyalinized rosettes, necrosis, increased atypia (malignant SFT)"
+    },
+    {
+      "roi_id": "slide_A_x23552_y16384_mag10",
+      "tile_id": "slide_A_x23552_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 23552,
+      "y": 16384,
+      "level0": {
+        "x": 23552,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with prominent perivascular hyalinization and a mixed inflammatory infiltrate. The spindle cells have elongated, wavy nuclei.\n\nThe most likely diagnosis is a solitary fibrous tumor.\n\nDifferential diagnoses include inflammatory myofibroblastic tumor, which typically shows more prominent inflammation and lacks the characteristic perivascular hyalinization, and sarcomatoid carcinoma, which would show more significant nuclear atypia and mitotic activity.",
+      "rationale": "Tumor center—confirm patternless architecture and vascular pattern"
+    },
+    {
+      "roi_id": "slide_A_x16896_y13824_mag20",
+      "tile_id": "slide_A_x16896_y13824_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 16896,
+      "y": 13824,
+      "level0": {
+        "x": 16896,
+        "y": 13824,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of bland spindle cells within a dense collagenous stroma, accompanied by numerous thin-walled blood vessels. The spindle cells are arranged in short fascicles and whorls.\n\nThe most likely diagnosis is Solitary Fibrous Tumor (SFT).\n\nDifferential diagnoses include:\n- Inflammatory Myofibroblastic Tumor (IMT): Typically shows a more prominent inflammatory infiltrate and often has ALK gene rearrangements.\n- Desmoid-type Fibromatosis: Characterized by long sweeping fascicles of spindle cells and infiltrative growth, often associated with mutations in the CTNNB1 gene.",
+      "rationale": "High power in upper-central darker focus for hypercellularity/mitotic hot spot."
+    },
+    {
+      "roi_id": "slide_A_x47104_y8192_mag10",
+      "tile_id": "slide_A_x47104_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 47104,
+      "y": 8192,
+      "level0": {
+        "x": 47104,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a spindle cell proliferation with bland nuclei and a prominent collagenous stroma. There are numerous thin-walled blood vessels, some with perivascular hyalinization, and a patchy inflammatory infiltrate.\n\nThe most likely diagnosis is a solitary fibrous tumor. Differential diagnoses include inflammatory myofibroblastic tumor and desmoid-type fibromatosis, which can be distinguished by their different cellular morphology and stromal patterns.",
+      "rationale": "Inflammation/hemorrhage-rich focus—assess for IMT-like areas vs SFT"
+    },
+    {
+      "roi_id": "slide_A_x35840_y22016_mag20",
+      "tile_id": "slide_A_x35840_y22016_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 35840,
+      "y": 22016,
+      "level0": {
+        "x": 35840,
+        "y": 22016,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with elongated nuclei and scant cytoplasm. There is a prominent collagenous stroma and numerous small blood vessels.\n\nThe most likely diagnosis is a solitary fibrous tumor.\n\nDifferential diagnoses include:\n- Solitary fibrous tumor: characterized by spindle cells, collagenous stroma, and prominent vasculature, often with a 'patternless pattern' and staghorn vessels.\n- Synovial sarcoma: typically shows a biphasic pattern with epithelial and spindle cell components, but monophasic variants exist.\n- Malignant peripheral nerve sheath tumor: often shows more nuclear pleomorphism, hyperchromasia, and mitotic activity.\n- Leiomyosarcoma: composed of spindle cells with eosinophilic cytoplasm and blunt-ended nuclei, often arranged in intersecting fascicles.",
+      "rationale": "Area near elongated green mark (possible vessel/whorled zone) to assess staghorn vasculature and cytology"
+    },
+    {
+      "roi_id": "slide_A_x32768_y24064_mag20",
+      "tile_id": "slide_A_x32768_y24064_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 32768,
+      "y": 24064,
+      "level0": {
+        "x": 32768,
+        "y": 24064,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated nuclei and eosinophilic cytoplasm, arranged in intersecting fascicles and whorls within a collagenous stroma. Scattered small blood vessels are present.\n\nThe most likely diagnosis is a solitary fibrous tumor.\n\nDifferential diagnoses include:\n- Solitary fibrous tumor: characterized by spindle cells in a collagenous stroma with prominent vasculature, often with a patternless pattern or fascicular arrangement.\n- Inflammatory myofibroblastic tumor: typically shows a mixture of spindle cells and inflammatory cells, often with a myxoid or collagenous stroma.\n- Synovial sarcoma: can have a spindle cell component, but usually shows a biphasic pattern with epithelial elements or a monophasic pattern with specific translocations.",
+      "rationale": "High power in right-lower cellular focus near vessels to look for staghorn, atypia."
+    },
+    {
+      "roi_id": "slide_A_x34816_y22528_mag10",
+      "tile_id": "slide_A_x34816_y22528_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 34816,
+      "y": 22528,
+      "level0": {
+        "x": 34816,
+        "y": 22528,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with prominent, thick-walled blood vessels and a collagenous stroma. The spindle cells have elongated nuclei and scant cytoplasm.\n\nThe most likely diagnosis is Solitary Fibrous Tumor (SFT).\n\nDifferential diagnoses include:\n- Synovial Sarcoma: Typically shows a biphasic pattern with epithelial and spindle cell components, and often has a characteristic t(X;18) translocation.\n- Malignant Peripheral Nerve Sheath Tumor (MPNST): Usually shows more nuclear pleomorphism, hyperchromasia, and mitotic activity, and may have areas of necrosis.",
+      "rationale": "Representative mid-peripheral tumor for heterogeneity/necrosis"
+    },
+    {
+      "roi_id": "slide_A_x8192_y25088_mag20",
+      "tile_id": "slide_A_x8192_y25088_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 8192,
+      "y": 25088,
+      "level0": {
+        "x": 8192,
+        "y": 25088,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of bland spindle cells arranged in short fascicles and whorls within a collagenous stroma. Prominent, thick-walled blood vessels are also present.\n\nThe most likely diagnosis is Solitary Fibrous Tumor (SFT).\n\nDifferential diagnoses include:\n- Inflammatory Myofibroblastic Tumor (IMT): Typically shows a more prominent inflammatory infiltrate, often with plasma cells and eosinophils, and may have a more myxoid stroma.\n- Synovial Sarcoma: Usually shows a biphasic pattern with both spindle cells and epithelial components, and often has a more cellular and mitotically active appearance.",
+      "rationale": "Peripheral darker cellular area to evaluate mitotic activity/atypia vs bland SFT"
+    },
+    {
+      "roi_id": "slide_A_x13312_y20480_mag10",
+      "tile_id": "slide_A_x13312_y20480_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 13312,
+      "y": 20480,
+      "level0": {
+        "x": 13312,
+        "y": 20480,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a spindle cell proliferation with a prominent vascular pattern, including branching vessels, and a mixed inflammatory infiltrate. The spindle cells have elongated nuclei and are arranged in fascicles and whorls.\n\nThe most likely diagnosis is a solitary fibrous tumor.\n\nDifferential diagnoses include inflammatory myofibroblastic tumor, which typically shows more prominent inflammation and often has ALK rearrangement, and leiomyoma, which would show more uniform spindle cells with blunt-ended nuclei and positive smooth muscle markers.",
+      "rationale": "Hemorrhagic focus—check for necrosis, cystic change, atypia"
+    },
+    {
+      "roi_id": "slide_A_x8704_y15872_mag20",
+      "tile_id": "slide_A_x8704_y15872_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 8704,
+      "y": 15872,
+      "level0": {
+        "x": 8704,
+        "y": 15872,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of bland spindle cells within a collagenous stroma, featuring prominent, thick-walled blood vessels and a mixed inflammatory infiltrate.\n\nThe most likely diagnosis is Solitary Fibrous Tumor (SFT).\n\nDifferential diagnoses include:\n- Inflammatory Myofibroblastic Tumor (IMT): Typically shows more prominent myofibroblastic cells and a more diffuse inflammatory infiltrate, often with plasma cells.\n- Desmoid-type Fibromatosis: Characterized by more uniform spindle cells in long fascicles with less prominent vasculature and inflammation.",
+      "rationale": "High power in left-central area to evaluate collagenous stroma vs myxoid and inflammation."
+    },
+    {
+      "roi_id": "slide_A_x25088_y9216_mag20",
+      "tile_id": "slide_A_x25088_y9216_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 25088,
+      "y": 9216,
+      "level0": {
+        "x": 25088,
+        "y": 9216,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated nuclei and eosinophilic cytoplasm, arranged in intersecting fascicles and whorls within a collagenous stroma. Prominent blood vessels with thickened walls are also present.\n\nThe most likely diagnosis is a solitary fibrous tumor.\n\nDifferential diagnoses include:\n- Solitary fibrous tumor: characterized by spindle cells, collagenous stroma, and prominent thick-walled vessels, as seen in the image.\n- Synovial sarcoma: typically shows a biphasic pattern with epithelial and spindle cell components, which is not evident in this image.\n- Malignant peripheral nerve sheath tumor: often shows more nuclear pleomorphism and mitotic activity, and may have a fascicular growth pattern, but lacks the prominent thick-walled vessels seen here.",
+      "rationale": "High power near pleural/subpleural region for interface, capsular collagen, inflammation/necrosis."
+    },
+    {
+      "roi_id": "slide_A_x29696_y17408_mag20",
+      "tile_id": "slide_A_x29696_y17408_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 29696,
+      "y": 17408,
+      "level0": {
+        "x": 29696,
+        "y": 17408,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated nuclei and eosinophilic cytoplasm, arranged in intersecting fascicles and whorls within a collagenous stroma. Scattered inflammatory cells and extravasated red blood cells are also present.\n\nThe most likely diagnosis is a solitary fibrous tumor. Differential diagnoses include inflammatory myofibroblastic tumor and leiomyoma, which can be distinguished by their characteristic immunohistochemical profiles and specific morphological features.",
+      "rationale": "Hypercellular-appearing central ROI at higher power to look for atypia/mitoses/necrosis (malignant SFT) vs bland"
+    },
+    {
+      "roi_id": "slide_A_x24576_y6144_mag20",
+      "tile_id": "slide_A_x24576_y6144_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 24576,
+      "y": 6144,
+      "level0": {
+        "x": 24576,
+        "y": 6144,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a hypocellular proliferation of spindle cells with wavy nuclei embedded in a dense, collagenous stroma. Scattered inflammatory cells and small vessels are also present.\n\nThe most likely diagnosis is a solitary fibrous tumor.\n\nDifferential diagnoses include neurofibroma, which typically shows more prominent wavy nuclei and a looser, myxoid stroma, and desmoid-type fibromatosis, which is more cellular and infiltrative.",
+      "rationale": "Hyalinized zone near pleura at high power—look for ropey collagen, keloid-like hyalinization, perivascular fibrosis"
+    },
+    {
+      "roi_id": "slide_A_x23040_y19968_mag20",
+      "tile_id": "slide_A_x23040_y19968_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 23040,
+      "y": 19968,
+      "level0": {
+        "x": 23040,
+        "y": 19968,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of bland spindle cells within a collagenous stroma, featuring prominent, irregular, branching vascular spaces. A mixed inflammatory infiltrate is also present.\n\nThe most likely diagnosis is Solitary Fibrous Tumor (SFT).\n\nDifferential diagnoses include:\n- Inflammatory Myofibroblastic Tumor (IMT): Typically shows a more prominent inflammatory component and often has ALK rearrangement.\n- Synovial Sarcoma: Usually presents with a biphasic pattern or monophasic spindle cells, and is characterized by the presence of the SS18-SSX fusion gene.",
+      "rationale": "Sample another hypercellular focus within central tumor for mitotic count/atypia."
+    },
+    {
+      "roi_id": "slide_A_x40960_y28672_mag20",
+      "tile_id": "slide_A_x40960_y28672_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 40960,
+      "y": 28672,
+      "level0": {
+        "x": 40960,
+        "y": 28672,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle to ovoid cells with hyperchromatic nuclei and scant cytoplasm, arranged in a haphazard pattern with prominent vascularity and areas of hemorrhage. The stroma is variably collagenous and myxoid.\n\nThe most likely diagnosis is Solitary Fibrous Tumor (SFT).\n\nDifferential diagnoses include:\n- Synovial Sarcoma: Typically shows a biphasic pattern with epithelial and spindle cell components, and often has a characteristic t(X;18) translocation.\n- Malignant Peripheral Nerve Sheath Tumor (MPNST): Usually shows more pronounced nuclear pleomorphism, mitotic activity, and often association with a nerve.",
+      "rationale": "Deep edge at high power—assess cytologic atypia, mitotic rate, necrosis"
+    },
+    {
+      "roi_id": "slide_A_x29184_y14848_mag20",
+      "tile_id": "slide_A_x29184_y14848_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 29184,
+      "y": 14848,
+      "level0": {
+        "x": 29184,
+        "y": 14848,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of bland spindle cells arranged in intersecting fascicles and whorls within a collagenous stroma. Prominent, thick-walled blood vessels are also present.\n\nThe most likely diagnosis is Solitary Fibrous Tumor (SFT).\n\nDifferential diagnoses include:\n- Inflammatory Myofibroblastic Tumor (IMT): Typically shows a more prominent inflammatory infiltrate and often has ALK rearrangement.\n- Synovial Sarcoma: Usually presents with a biphasic pattern or monophasic spindle cells with more nuclear atypia and mitotic activity.",
+      "rationale": "Check a different vascular-rich area for atypia/necrosis."
+    },
+    {
+      "roi_id": "slide_A_x12032_y25088_mag40",
+      "tile_id": "slide_A_x12032_y25088_mag40",
+      "mag": "high",
+      "magnification": 40.0,
+      "x": 12032,
+      "y": 25088,
+      "level0": {
+        "x": 12032,
+        "y": 25088,
+        "width": 512,
+        "height": 512
+      },
+      "description": "The image shows a cellular proliferation of bland spindle cells arranged in fascicles and whorls, with prominent, thick-walled blood vessels and a collagenous stroma. The cells have elongated, wavy nuclei.\n\nThe most likely diagnosis is Solitary Fibrous Tumor (SFT).\n\nDifferential diagnoses include:\n- Schwannoma: Typically shows Antoni A and B areas, Verocay bodies, and S100 positivity.\n- Synovial Sarcoma: Often has a biphasic pattern with epithelial and spindle cell components, and is positive for cytokeratins and EMA.",
+      "rationale": "High mag cytology to distinguish SFT vs leiomyoma vs schwannoma; look for blunt cigar nuclei, palisading, etc"
+    },
+    {
+      "roi_id": "slide_A_x11776_y22016_mag20",
+      "tile_id": "slide_A_x11776_y22016_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 11776,
+      "y": 22016,
+      "level0": {
+        "x": 11776,
+        "y": 22016,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with prominent thick-walled blood vessels and a collagenous stroma. The spindle cells have elongated, wavy nuclei.\n\nThe most likely diagnosis is a solitary fibrous tumor.\n\nDifferential diagnoses include:\n- Solitary fibrous tumor: characterized by spindle cells, prominent thick-walled vessels, and a collagenous stroma.\n- Synovial sarcoma: typically shows a biphasic pattern with epithelial and spindle cell components, but monophasic variants exist.\n- Malignant peripheral nerve sheath tumor: often shows more nuclear pleomorphism and mitotic activity, and may have areas of necrosis.",
+      "rationale": "Assess peripheral tumor area for necrosis or increased pleomorphism."
+    },
+    {
+      "roi_id": "slide_A_x40960_y11776_mag20",
+      "tile_id": "slide_A_x40960_y11776_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 40960,
+      "y": 11776,
+      "level0": {
+        "x": 40960,
+        "y": 11776,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of bland spindle cells within a dense collagenous stroma, accompanied by numerous small blood vessels. The spindle cells have elongated, wavy nuclei and are arranged in intersecting fascicles.\n\nThe most likely diagnosis is a solitary fibrous tumor.\n\nDifferential diagnoses include:\n- Schwannoma: Typically shows Antoni A and B areas, Verocay bodies, and S100 positivity.\n- Solitary fibrous tumor: Characterized by bland spindle cells, dense collagen, and prominent vasculature, often CD34 positive.\n- Neurofibroma: Composed of wavy spindle cells in a myxoid or collagenous stroma, often with mast cells, and S100 positive.",
+      "rationale": "Right-upper pale zone to exclude necrosis/myxoid change or epithelial component."
+    },
+    {
+      "roi_id": "slide_A_x7168_y26112_mag20",
+      "tile_id": "slide_A_x7168_y26112_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 7168,
+      "y": 26112,
+      "level0": {
+        "x": 7168,
+        "y": 26112,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a transition from dense, hyalinized fibrous tissue to a cellular area with a prominent inflammatory infiltrate. The fibrous tissue contains scattered spindle cells and small vessels.\n\nThe most likely diagnosis for this lung-mediastinum mass is a solitary fibrous tumor. The dense, hyalinized fibrous tissue with scattered spindle cells is characteristic of this entity. The presence of a prominent inflammatory infiltrate at the periphery is also a feature that can be seen in solitary fibrous tumors.\n\nDifferential diagnoses to consider include inflammatory myofibroblastic tumor, which typically shows a more prominent myofibroblastic component and often has a more diffuse inflammatory infiltrate. Another consideration is a desmoid-type fibromatosis, which is characterized by a more uniform proliferation of spindle cells in a collagenous stroma, often with a more infiltrative growth pattern.",
+      "rationale": "Inferior-left region for hemorrhage/necrosis and mitotic hot spot."
+    }
+  ]
+}

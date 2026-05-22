@@ -1,0 +1,1229 @@
+{
+  "case_id": "sem1450_case15",
+  "source": "slideseek-ai-assist",
+  "model": "gpt-5.4",
+  "generated_at": "2026-05-22T09:24:38.890094+00:00",
+  "organ": "Hepatobiliary-Pancreas",
+  "primary_dx": "Gallbladder Adenosquamous Carcinoma",
+  "differential_dx": [
+    "Squamous Cell Carcinoma Of Gallbladder With Focal Glandular Differentiation",
+    "Conventional Gallbladder Adenocarcinoma With Extensive Squamous Differentiation"
+  ],
+  "microscopic_findings": [
+    {
+      "text": "Invasive nests and cords of atypical squamous cells show **keratin pearls**, **intercellular bridges**, and marked cytologic atypia.",
+      "roi_ids": [
+        "slide_A_x41984_y13312_mag20",
+        "slide_A_x48640_y6144_mag20"
+      ]
+    },
+    {
+      "text": "Separate infiltrative **angulated malignant glands** with nuclear stratification are embedded in **desmoplastic stroma**.",
+      "roi_ids": [
+        "slide_A_x47104_y21504_mag20",
+        "slide_A_x12288_y24576_mag20"
+      ]
+    },
+    {
+      "text": "The tumor is **biphasic**, with juxtaposed squamous and gland-forming malignant elements within the same fibrotic invasive process.",
+      "roi_ids": [
+        "slide_A_x12288_y24576_mag10"
+      ]
+    },
+    {
+      "text": "Background gallbladder wall shows **fibrinopurulent exudate**, **necrosis**, and dense chronic-active inflammation with fibrosis.",
+      "roi_ids": [
+        "slide_A_x30720_y6144_mag20",
+        "slide_A_x30208_y6656_mag20"
+      ]
+    }
+  ],
+  "interpretation": "The slide shows **gallbladder adenosquamous carcinoma** composed of an invasive **keratinizing squamous component** and a distinct **gland-forming adenocarcinoma component** in a desmoplastic stroma. The coexistence of both unequivocal malignant lineages supports adenosquamous carcinoma over pure squamous carcinoma with only limited glandular change. Extensive **acute-on-chronic cholecystitis/empyema** and mural fibrosis are present in the background but do not account for the deeply invasive biphasic carcinoma.",
+  "num_rois": 74,
+  "tiles": [
+    {
+      "roi_id": "slide_A_x24576_y16384_mag1",
+      "tile_id": "slide_A_x24576_y16384_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 24576,
+      "y": 16384,
+      "level0": {
+        "x": 24576,
+        "y": 16384,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a papillary neoplasm with complex branching structures lined by atypical epithelium. There is associated stromal reaction and areas of necrosis and hemorrhage.\n\nThe most likely diagnosis is a papillary adenocarcinoma of the gallbladder.\n\nDifferential diagnoses include a papillary adenoma, which would lack significant cytologic atypia and stromal invasion, and a reactive papillary hyperplasia, which would show bland epithelium and lack complex architecture.",
+      "rationale": "Low-power survey of entire section to orient: mucosal papillary component vs thickened wall/abscess."
+    },
+    {
+      "roi_id": "slide_A_x28672_y16384_mag2",
+      "tile_id": "slide_A_x28672_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 28672,
+      "y": 16384,
+      "level0": {
+        "x": 28672,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a papillary neoplasm with fibrovascular cores lined by atypical epithelium, associated with extensive necrosis and inflammation. The surrounding tissue exhibits fibrosis and chronic inflammation.\n\nThe most likely diagnosis is a papillary adenocarcinoma of the gallbladder.\n\nDifferential diagnoses include:\n- Intraductal papillary neoplasm of the bile duct (IPNB): Typically arises in the bile ducts rather than the gallbladder.\n- Metastatic papillary carcinoma: Clinical history and immunohistochemistry would be needed to rule out a metastasis from another primary site.",
+      "rationale": "Low-power overview of central wall to identify abscess cavities and mass-like inflammatory nodules."
+    },
+    {
+      "roi_id": "slide_A_x20480_y8192_mag2",
+      "tile_id": "slide_A_x20480_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 20480,
+      "y": 8192,
+      "level0": {
+        "x": 20480,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a thickened gallbladder wall with extensive fibrosis and chronic inflammation. There is also a large area of amorphous, eosinophilic material consistent with necrosis or fibrinoid change.\n\nThe most likely diagnosis is chronic cholecystitis with abscess formation. The extensive fibrosis and chronic inflammation are characteristic of chronic cholecystitis, while the large area of necrosis or fibrinoid change suggests an abscess. The clinical history of a gallbladder abscess extending into the subphrenic space supports this diagnosis.\n\nDifferential diagnoses to consider include xanthogranulomatous cholecystitis, which can also present with chronic inflammation and fibrosis, and gallbladder carcinoma, which can cause wall thickening and necrosis. However, the lack of atypical cells or glandular structures in this image makes carcinoma less likely.",
+      "rationale": "Low-power overview of target region 1 to locate papillary mucosa and wall."
+    },
+    {
+      "roi_id": "slide_A_x40960_y8192_mag2",
+      "tile_id": "slide_A_x40960_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 40960,
+      "y": 8192,
+      "level0": {
+        "x": 40960,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows infiltrating nests and cords of epithelial cells with squamous differentiation within a dense desmoplastic stroma. Prominent keratin pearls and cystic spaces are also present.\n\nThe most likely diagnosis is squamous cell carcinoma of the gallbladder.\n\nDifferential diagnoses include metastatic squamous cell carcinoma from another primary site (e.g., lung, esophagus) and adenosquamous carcinoma, which would show a significant glandular component.",
+      "rationale": "Survey right-superior thickened area where papillary/gray tissue may be represented; look for ulceration/necrosis."
+    },
+    {
+      "roi_id": "slide_A_x12288_y4096_mag5",
+      "tile_id": "slide_A_x12288_y4096_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 12288,
+      "y": 4096,
+      "level0": {
+        "x": 12288,
+        "y": 4096,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a thickened gallbladder wall with a dense inflammatory infiltrate and areas of necrosis. The surface is covered by a layer of fibrin and inflammatory cells.\n\nThe most likely diagnosis is acute cholecystitis with necrosis. Differential diagnoses include chronic cholecystitis with acute exacerbation and gallbladder carcinoma with secondary inflammation.",
+      "rationale": "Scan for papillary projections/complex glands at intermediate power."
+    },
+    {
+      "roi_id": "slide_A_x40960_y12288_mag2",
+      "tile_id": "slide_A_x40960_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 40960,
+      "y": 12288,
+      "level0": {
+        "x": 40960,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows infiltrative nests and cords of epithelial cells with squamous differentiation, including keratin pearls, within a desmoplastic stroma. There are also cystic spaces containing necrotic debris and hemorrhage.\n\nThe most likely diagnosis is squamous cell carcinoma of the gallbladder. The presence of infiltrative nests of squamous cells with keratin pearls is characteristic of this malignancy. The desmoplastic stromal reaction is also typical. The cystic spaces with necrotic debris and hemorrhage may represent areas of tumor necrosis or cystic degeneration.\n\nDifferential diagnoses to consider include metastatic squamous cell carcinoma from another primary site (e.g., lung, esophagus) and adenosquamous carcinoma of the gallbladder. Metastatic squamous cell carcinoma would require clinical correlation and potentially immunohistochemical studies to rule out a primary site elsewhere. Adenosquamous carcinoma would show a component of glandular differentiation in addition to the squamous component, which is not evident in this image.",
+      "rationale": "Survey right-upper thick wall where desmoplasia/invasion may be."
+    },
+    {
+      "roi_id": "slide_A_x26624_y6144_mag5",
+      "tile_id": "slide_A_x26624_y6144_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 26624,
+      "y": 6144,
+      "level0": {
+        "x": 26624,
+        "y": 6144,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows fragments of gallbladder wall with a surface covered by a friable, pale-gray material. There is also a large area of hemorrhage.\n\nThe most likely diagnosis is a gallbladder abscess with associated hemorrhage.\n\nDifferential diagnoses include a gallbladder adenocarcinoma with extensive necrosis and hemorrhage, or a gallbladder infarct.",
+      "rationale": "Look for areas of ulceration/abscess or invasive-appearing glands in thick wall."
+    },
+    {
+      "roi_id": "slide_A_x12288_y24576_mag2",
+      "tile_id": "slide_A_x12288_y24576_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 24576,
+      "level0": {
+        "x": 12288,
+        "y": 24576,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a thickened gallbladder wall with dense fibrosis and chronic inflammation. There are irregular glandular structures infiltrating the fibrotic stroma, along with areas of hemorrhage and necrosis.\n\nThe most likely diagnosis is adenocarcinoma of the gallbladder. The presence of infiltrating irregular glands within a desmoplastic stroma is characteristic of malignancy. The clinical history of a mass lesion and the gross description of papillary projections further support this diagnosis.\n\nDifferential diagnoses include chronic cholecystitis with reactive atypia, which can show glandular proliferation and fibrosis but lacks the infiltrative pattern and significant cytologic atypia of adenocarcinoma. Another consideration is metastatic adenocarcinoma to the gallbladder, which would require clinical correlation and potentially immunohistochemical studies to rule out.",
+      "rationale": "Survey left-inferior wall for transmural fibrosis and xanthogranulomatous foci."
+    },
+    {
+      "roi_id": "slide_A_x22528_y12288_mag5",
+      "tile_id": "slide_A_x22528_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 22528,
+      "y": 12288,
+      "level0": {
+        "x": 22528,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a thickened gallbladder wall with a dense inflammatory infiltrate and extensive hemorrhage. The lumen contains amorphous material and cellular debris.\n\nThe most likely diagnosis is acute cholecystitis with abscess formation. The differential diagnosis includes chronic cholecystitis with acute exacerbation, but the presence of a large abscess is more indicative of acute inflammation.",
+      "rationale": "Evaluate deeper wall for xanthogranulomatous inflammation or irregular glands."
+    },
+    {
+      "roi_id": "slide_A_x16384_y24576_mag2",
+      "tile_id": "slide_A_x16384_y24576_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 16384,
+      "y": 24576,
+      "level0": {
+        "x": 16384,
+        "y": 24576,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a transition from a papillary epithelial proliferation to a dense, hyalinized stroma with entrapped glands. The epithelial component exhibits complex architecture and cellular atypia.\n\nThe most likely diagnosis is a papillary neoplasm of the gallbladder with associated stromal reaction.\n\nDifferential diagnoses include:\n- Invasive adenocarcinoma: Distinguished by clear evidence of stromal invasion beyond the papillary component.\n- Reactive papillary hyperplasia: Typically lacks significant cellular atypia and complex architecture.",
+      "rationale": "Survey left-lower wall and serosal aspect for invasion/abscess."
+    },
+    {
+      "roi_id": "slide_A_x30720_y8192_mag5",
+      "tile_id": "slide_A_x30720_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 30720,
+      "y": 8192,
+      "level0": {
+        "x": 30720,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cystic structure lined by stratified squamous epithelium with keratinization and a fibrous wall. There is also a dense inflammatory infiltrate and areas of necrosis.\n\nThe most likely diagnosis is a squamous-lined cystic lesion, such as a squamous metaplasia of the gallbladder or a squamous-lined cyst. The presence of keratinization and stratified squamous epithelium is characteristic. Differential diagnoses include a squamous cell carcinoma, which would show more significant cellular atypia and invasive growth, and a simple cyst, which would lack the squamous lining.",
+      "rationale": "Examine papillary mucosal area suggested by gross; look for ICPN/adenoma and any stromal invasion."
+    },
+    {
+      "roi_id": "slide_A_x17408_y3072_mag10",
+      "tile_id": "slide_A_x17408_y3072_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 17408,
+      "y": 3072,
+      "level0": {
+        "x": 17408,
+        "y": 3072,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a thickened gallbladder wall with a dense fibrous stroma and scattered inflammatory cells. There are also areas of amorphous eosinophilic material and dark granular deposits.\n\nThe most likely diagnosis is chronic cholecystitis with fibrosis and inflammation. The differential diagnosis includes xanthogranulomatous cholecystitis, which would show foamy macrophages and cholesterol clefts, and gallbladder carcinoma, which would show atypical epithelial cells.",
+      "rationale": "Search mucosal surface for papillary epithelial proliferation/ICPN."
+    },
+    {
+      "roi_id": "slide_A_x36864_y24576_mag2",
+      "tile_id": "slide_A_x36864_y24576_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 36864,
+      "y": 24576,
+      "level0": {
+        "x": 36864,
+        "y": 24576,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a transition from squamous epithelium with keratinization to irregular glandular structures within a dense fibrous stroma. The glandular component exhibits variable size and shape, with some areas showing cribriform architecture.\n\nThe most likely diagnosis is adenosquamous carcinoma of the gallbladder. This diagnosis is supported by the presence of both squamous and glandular components within the same lesion. The squamous component shows features of keratinization, while the glandular component forms irregular structures with cribriform areas. The dense fibrous stroma is also a common feature of invasive carcinomas.\n\nDifferential diagnoses to consider include:\n1. Metastatic adenosquamous carcinoma: This would require clinical correlation to rule out a primary tumor elsewhere, such as the lung or esophagus.\n2. Collision tumor: This would involve two separate primary tumors (e.g., squamous cell carcinoma and adenocarcinoma) occurring in the same location, which is less likely than a single adenosquamous carcinoma.",
+      "rationale": "Check inferior curved edge for serosal abscess extension and pericholecystic inflammation."
+    },
+    {
+      "roi_id": "slide_A_x28672_y2048_mag10",
+      "tile_id": "slide_A_x28672_y2048_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 28672,
+      "y": 2048,
+      "level0": {
+        "x": 28672,
+        "y": 2048,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a papillary proliferation of epithelial cells with abundant clear cytoplasm and small, hyperchromatic nuclei. The papillae are supported by delicate fibrovascular cores.\n\nThe most likely diagnosis is clear cell papillary adenocarcinoma of the gallbladder.\n\nDifferential diagnoses include clear cell carcinoma of the gallbladder and metastatic clear cell carcinoma, particularly from the kidney. Clear cell carcinoma of the gallbladder typically shows more significant nuclear atypia and lacks the characteristic papillary architecture with delicate fibrovascular cores seen here. Metastatic clear cell carcinoma from the kidney would require clinical correlation and immunohistochemical studies for confirmation.",
+      "rationale": "Check another mucosal area for papillary/tubular neoplasm vs denuded mucosa."
+    },
+    {
+      "roi_id": "slide_A_x41984_y13312_mag10",
+      "tile_id": "slide_A_x41984_y13312_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 41984,
+      "y": 13312,
+      "level0": {
+        "x": 41984,
+        "y": 13312,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows infiltrating nests of atypical squamous cells with keratinization and keratin pearls within a desmoplastic stroma. The cells exhibit nuclear pleomorphism and hyperchromasia.\n\nThe most likely diagnosis is squamous cell carcinoma of the gallbladder.\n\nDifferential diagnoses include metastatic squamous cell carcinoma from another primary site (e.g., lung, esophagus) and adenosquamous carcinoma, which would show a glandular component.",
+      "rationale": "Detail of infiltrative nests/cords in desmoplastic stroma; assess invasion pattern and depth."
+    },
+    {
+      "roi_id": "slide_A_x28672_y16384_mag10",
+      "tile_id": "slide_A_x28672_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 28672,
+      "y": 16384,
+      "level0": {
+        "x": 28672,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a transition from stratified squamous epithelium to an area of extensive hemorrhage and necrosis containing numerous anucleated squamous cells. The squamous epithelium exhibits acanthosis and parakeratosis.\n\nThe most likely diagnosis is a squamous cell carcinoma of the gallbladder.\n\nDifferential diagnoses include squamous metaplasia, which would lack the invasive component and significant cellular atypia, and a keratinizing cyst, which would be a benign lesion without the malignant features.",
+      "rationale": "Assess central papillary/necrotic area for abscess, xanthogranulomatous inflammation vs tumor-associated necrosis."
+    },
+    {
+      "roi_id": "slide_A_x23552_y8192_mag10",
+      "tile_id": "slide_A_x23552_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 23552,
+      "y": 8192,
+      "level0": {
+        "x": 23552,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a thickened gallbladder wall with dense fibrous tissue and a prominent inflammatory infiltrate. There is also a large area of amorphous, eosinophilic material consistent with necrosis or fibrinoid change.\n\nThe most likely diagnosis is chronic cholecystitis with abscess formation. The thickened fibrous wall and inflammatory infiltrate are characteristic of chronic inflammation, while the necrotic/fibrinoid material suggests an abscess. Differential diagnoses include acute cholecystitis with necrosis or a gallbladder carcinoma with extensive necrosis.",
+      "rationale": "Assess interface of necrotic debris with underlying wall for invasive glands."
+    },
+    {
+      "roi_id": "slide_A_x41984_y12800_mag20",
+      "tile_id": "slide_A_x41984_y12800_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 41984,
+      "y": 12800,
+      "level0": {
+        "x": 41984,
+        "y": 12800,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows infiltrating nests of atypical squamous cells with keratinization within a dense desmoplastic stroma. The cells exhibit nuclear pleomorphism and hyperchromasia.\n\nThe most likely diagnosis is squamous cell carcinoma.\n\nDifferential diagnoses include metastatic squamous cell carcinoma from another primary site, such as the lung, and adenosquamous carcinoma, which would show a glandular component.",
+      "rationale": "High power for keratinization, cytologic atypia, stromal desmoplasia, LVI/PNI."
+    },
+    {
+      "roi_id": "slide_A_x18432_y24576_mag10",
+      "tile_id": "slide_A_x18432_y24576_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 18432,
+      "y": 24576,
+      "level0": {
+        "x": 18432,
+        "y": 24576,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a papillary proliferation of atypical epithelial cells with nuclear pleomorphism and hyperchromasia, associated with a dense desmoplastic stroma and areas of necrosis and hemorrhage.\n\nThe most likely diagnosis is adenocarcinoma of the gallbladder.\n\nDifferential diagnoses include metastatic adenocarcinoma to the gallbladder, which would require clinical correlation and potentially immunohistochemical studies to rule out a primary tumor elsewhere.",
+      "rationale": "Evaluate transition zone with hyalinized stroma/entrapped glands; look for invasive glands vs Rokitansky-Aschoff sinuses."
+    },
+    {
+      "roi_id": "slide_A_x12288_y24576_mag10",
+      "tile_id": "slide_A_x12288_y24576_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 12288,
+      "y": 24576,
+      "level0": {
+        "x": 12288,
+        "y": 24576,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a biphasic neoplasm with nests of squamous cells and irregular glandular structures embedded in a dense fibrous stroma. The squamous component exhibits keratinization and intercellular bridges, while the glandular component forms irregular lumens.\n\nThe most likely diagnosis is adenosquamous carcinoma. This diagnosis is supported by the presence of both malignant squamous and glandular components within the same lesion. The dense fibrous stroma is also a common feature of this tumor type.\n\nDifferential diagnoses include:\n1. Squamous cell carcinoma with glandular differentiation: This would be considered if the glandular component were interpreted as entrapped benign glands rather than a true malignant glandular component.\n2. Metastatic carcinoma: A metastasis from another primary site (e.g., lung, pancreas) could present with a similar biphasic morphology, although the clinical history and location make a primary adenosquamous carcinoma more likely.",
+      "rationale": "Evaluate thickened fibrotic wall for RA sinuses, foamy macrophages, cholesterol clefts, bile extravasation."
+    },
+    {
+      "roi_id": "slide_A_x17920_y25088_mag20",
+      "tile_id": "slide_A_x17920_y25088_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 17920,
+      "y": 25088,
+      "level0": {
+        "x": 17920,
+        "y": 25088,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows infiltrating nests and cords of atypical epithelial cells with nuclear pleomorphism and prominent nucleoli within a dense desmoplastic stroma. Some cells exhibit clear or vacuolated cytoplasm.\n\nThe most likely diagnosis is adenocarcinoma of the gallbladder.\n\nDifferential diagnoses include metastatic adenocarcinoma to the gallbladder, which would require clinical correlation and potentially immunohistochemical studies to rule out a primary tumor elsewhere.",
+      "rationale": "High power at transition zone for infiltrative glands, desmoplasia, inflammatory/xanthogranulomatous change."
+    },
+    {
+      "roi_id": "slide_A_x14336_y10240_mag10",
+      "tile_id": "slide_A_x14336_y10240_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 14336,
+      "y": 10240,
+      "level0": {
+        "x": 14336,
+        "y": 10240,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a transition from a cellular area with necrosis and inflammation to a dense, hyalinized fibrous area. The cellular component contains large, pleomorphic cells with abundant eosinophilic cytoplasm and irregular nuclei, some with prominent nucleoli, arranged in nests and cords.\n\nThe most likely diagnosis is a malignant neoplasm, specifically a carcinoma, given the presence of pleomorphic cells with features of malignancy and the clinical context of a mass lesion in the gallbladder.\n\nDifferential diagnoses include:\n- Adenocarcinoma of the gallbladder: This is the most common malignant tumor of the gallbladder and would be expected to show glandular differentiation, which is not clearly evident in this field.\n- Metastatic carcinoma: Given the patient's history of upper respiratory symptoms and the presence of a mass, a metastatic carcinoma from another primary site (e.g., lung, breast) should be considered. Immunohistochemistry would be helpful in determining the primary site.\n- Sarcoma: While less common, a sarcoma could present as a mass in the gallbladder. The cellular morphology in this field is more suggestive of a carcinoma, but a sarcoma cannot be entirely ruled out based on this single image.",
+      "rationale": "Look for Rokitansky-Aschoff sinuses/xanthogranulomatous inflammation in deeper wall."
+    },
+    {
+      "roi_id": "slide_A_x36864_y24576_mag10",
+      "tile_id": "slide_A_x36864_y24576_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 36864,
+      "y": 24576,
+      "level0": {
+        "x": 36864,
+        "y": 24576,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows infiltrating nests and cords of epithelial cells with squamous differentiation, including keratin pearls, within a dense desmoplastic stroma. There is also a prominent inflammatory infiltrate and areas of necrosis.\n\nThe most likely diagnosis is squamous cell carcinoma of the gallbladder.\n\nDifferential diagnoses include metastatic squamous cell carcinoma from another site (e.g., lung, head and neck) and adenosquamous carcinoma of the gallbladder.",
+      "rationale": "Assess inferior edge with mixed squamous/glandular-looking area for inflammation/abscess mimicking invasion."
+    },
+    {
+      "roi_id": "slide_A_x28160_y2048_mag20",
+      "tile_id": "slide_A_x28160_y2048_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 28160,
+      "y": 2048,
+      "level0": {
+        "x": 28160,
+        "y": 2048,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a papillary proliferation of cells with abundant clear cytoplasm and small, hyperchromatic nuclei. The cells are arranged in a papillary pattern with delicate fibrovascular cores.\n\nThe most likely diagnosis is clear cell carcinoma of the gallbladder. The differential diagnosis includes metastatic clear cell renal cell carcinoma, which can have a similar morphology but would typically show a different immunoprofile.",
+      "rationale": "High power of papillary epithelial proliferation to characterize ICPN vs adenocarcinoma vs pyloric gland adenoma."
+    },
+    {
+      "roi_id": "slide_A_x40960_y8192_mag10",
+      "tile_id": "slide_A_x40960_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 40960,
+      "y": 8192,
+      "level0": {
+        "x": 40960,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows infiltrating nests and cords of atypical squamous cells with eosinophilic cytoplasm and keratinization within a desmoplastic stroma. Features include keratin pearls and individual cell keratinization.\n\nThe most likely diagnosis is squamous cell carcinoma of the gallbladder.\n\nDifferential diagnoses include metastatic squamous cell carcinoma from another primary site (e.g., lung, esophagus) and adenosquamous carcinoma, which would show a glandular component.",
+      "rationale": "Assess right-superior area with keratinizing nests for adjacent inflammatory reaction and any xanthogranulomatous foci."
+    },
+    {
+      "roi_id": "slide_A_x29696_y8192_mag10",
+      "tile_id": "slide_A_x29696_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 29696,
+      "y": 8192,
+      "level0": {
+        "x": 29696,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a large area of hemorrhage adjacent to a thickened wall composed of dense fibrous tissue with scattered inflammatory cells and irregular spaces. The interface between the hemorrhage and the wall is irregular.\n\nThe most likely diagnosis is a gallbladder abscess with associated hemorrhage. The thickened fibrous wall and inflammatory infiltrate are consistent with chronic inflammation and abscess formation, while the hemorrhage indicates bleeding into the abscess cavity. The clinical history of a nonfunctioning gallbladder and extrinsic lesion of the duodenum, along with the operative findings of multiple adhesions and a large abscess, supports this diagnosis.\n\nDifferential diagnoses to consider include a gallbladder carcinoma with central necrosis and hemorrhage, or a large hematoma with secondary inflammation. However, the absence of overt malignant cells in this field and the clinical context of an abscess make these less likely.",
+      "rationale": "Assess squamous-lined/cystic area: metaplasia vs adenosquamous carcinoma component."
+    },
+    {
+      "roi_id": "slide_A_x29184_y1536_mag20",
+      "tile_id": "slide_A_x29184_y1536_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 29184,
+      "y": 1536,
+      "level0": {
+        "x": 29184,
+        "y": 1536,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a background of amorphous material with scattered dark granular deposits. There is no discernible tissue architecture or cellular detail.\n\nThe morphologic features are insufficient for a specific diagnosis. The amorphous material and granular deposits could represent necrotic debris, calcification, or other non-specific findings. Further evaluation of additional tissue sections and clinical correlation are necessary for a definitive diagnosis.",
+      "rationale": "Another focus within papillary lesion for cytologic atypia/mitoses/necrosis."
+    },
+    {
+      "roi_id": "slide_A_x14336_y10240_mag20",
+      "tile_id": "slide_A_x14336_y10240_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 14336,
+      "y": 10240,
+      "level0": {
+        "x": 14336,
+        "y": 10240,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense, eosinophilic matrix with scattered cells, including numerous large, round to oval structures with thick walls and internal contents, and smaller, dark, round structures.\n\nThe most likely diagnosis is a hydatid cyst, consistent with the presence of protoscolices and calcareous corpuscles within a laminated cyst wall.\n\nDifferential diagnoses include other parasitic infections (e.g., cysticercosis) or fungal infections, which can be distinguished by the specific morphology of the organisms and the nature of the surrounding tissue reaction.",
+      "rationale": "High power of pleomorphic/nested cells area to determine true carcinoma vs reactive histiocytes/xanthogranulomatous inflammation."
+    },
+    {
+      "roi_id": "slide_A_x9216_y12288_mag10",
+      "tile_id": "slide_A_x9216_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 9216,
+      "y": 12288,
+      "level0": {
+        "x": 9216,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows extensive necrosis with scattered large, eosinophilic cells and a dense inflammatory infiltrate. The background is amorphous and eosinophilic.\n\nThe most likely diagnosis is a necrotic neoplasm, such as a hepatocellular carcinoma with extensive necrosis.\n\nDifferential diagnoses include a necrotic metastatic carcinoma or a necrotic benign lesion like a necrotic adenoma.",
+      "rationale": "Look for classic xanthogranulomatous cholecystitis away from obvious tumor: foamy histiocytes, cholesterol clefts, abscess, RA sinuses."
+    },
+    {
+      "roi_id": "slide_A_x29696_y8192_mag20",
+      "tile_id": "slide_A_x29696_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 29696,
+      "y": 8192,
+      "level0": {
+        "x": 29696,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a transition from a dense collection of erythrocytes to a fibrous tissue layer containing spindle cells, collagen, and scattered inflammatory cells. The interface between these areas is irregular.\n\nThe morphologic features are consistent with a fibrous capsule surrounding a collection of blood, likely representing a hematoma or abscess. The presence of fibrous tissue and spindle cells suggests a chronic process. Given the clinical history of a gallbladder abscess and the location in the hepatobiliary-pancreas, a subphrenic hematoma or abscess is a strong consideration. Differential diagnoses could include a resolving hematoma or an organizing abscess.",
+      "rationale": "High power of hemorrhage/fibrous wall area to see if tumor cells present along abscess cavity."
+    },
+    {
+      "roi_id": "slide_A_x15360_y9728_mag20",
+      "tile_id": "slide_A_x15360_y9728_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 15360,
+      "y": 9728,
+      "level0": {
+        "x": 15360,
+        "y": 9728,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a thickened gallbladder wall with a dense, eosinophilic, acellular matrix containing scattered cells with small, dark nuclei. There is also a large clear space adjacent to the wall.\n\nThe most likely diagnosis is a gallbladder abscess. The dense, acellular material is consistent with necrotic debris and fibrin, and the scattered cells are likely inflammatory cells. The clear space may represent a collection of purulent fluid.\n\nDifferential diagnoses include a gallbladder wall with extensive fibrosis or hyalinization, which can appear similar but would lack the inflammatory component and purulent fluid.",
+      "rationale": "Look for foamy macrophages, bile, cholesterol clefts, Rokitansky-Aschoff sinuses."
+    },
+    {
+      "roi_id": "slide_A_x47104_y17408_mag10",
+      "tile_id": "slide_A_x47104_y17408_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 47104,
+      "y": 17408,
+      "level0": {
+        "x": 47104,
+        "y": 17408,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows fragments of gallbladder wall with a papillary surface lined by stratified squamous epithelium. The underlying stroma contains abundant amorphous eosinophilic material, hemorrhage, and scattered inflammatory cells.\n\nThe most likely diagnosis is a squamous papilloma of the gallbladder. The presence of a papillary growth lined by stratified squamous epithelium is characteristic. Differential diagnoses include squamous metaplasia, which typically lacks the papillary architecture, and squamous cell carcinoma, which would show significant cellular atypia and invasion.",
+      "rationale": "Sample far right mid-wall for abscess cavities and bile extravasation/foamy macrophages."
+    },
+    {
+      "roi_id": "slide_A_x34816_y16384_mag5",
+      "tile_id": "slide_A_x34816_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 34816,
+      "y": 16384,
+      "level0": {
+        "x": 34816,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows infiltrating nests and cords of atypical squamous cells with keratinization, including keratin pearls, within a desmoplastic stroma. There is also associated inflammation and hemorrhage.\n\nThe most likely diagnosis is squamous cell carcinoma of the gallbladder.\n\nDifferential diagnoses include metastatic squamous cell carcinoma from another primary site (e.g., lung, esophagus) and adenosquamous carcinoma, which would show a glandular component.",
+      "rationale": "Survey mid-wall for muscularis/serosa and search for invasive front."
+    },
+    {
+      "roi_id": "slide_A_x21504_y28672_mag10",
+      "tile_id": "slide_A_x21504_y28672_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 21504,
+      "y": 28672,
+      "level0": {
+        "x": 21504,
+        "y": 28672,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of spindle cells within a dense collagenous stroma, accompanied by numerous blood vessels, some with thickened walls. Scattered inflammatory cells are also present.\n\nThe morphologic features are consistent with a fibroblastic/myofibroblastic proliferation. Given the clinical context of a firm gallbladder wall with papillary projections and the presence of an abscess, a reactive process such as an inflammatory pseudotumor or fibromatosis-like lesion should be considered. Other possibilities include a desmoid-type fibromatosis or a low-grade spindle cell sarcoma, although the latter is less likely given the bland cytology.",
+      "rationale": "Sample left-inferior serosal side for pericholecystic inflammation/abscess extension."
+    },
+    {
+      "roi_id": "slide_A_x34816_y20480_mag10",
+      "tile_id": "slide_A_x34816_y20480_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 34816,
+      "y": 20480,
+      "level0": {
+        "x": 34816,
+        "y": 20480,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cystic structure lined by stratified squamous epithelium with abundant eosinophilic cytoplasm and prominent keratinization, including keratin pearls. The lumen contains amorphous material and red blood cells.\n\nThe most likely diagnosis is a squamous-lined cystic lesion, such as a squamous metaplasia of the gallbladder or a squamous-lined cyst. The presence of keratin pearls and stratified squamous epithelium is characteristic of squamous differentiation.\n\nDifferential diagnoses include squamous cell carcinoma, which would typically show more significant cellular atypia, pleomorphism, and invasive growth, and a simple cyst with squamous metaplasia, which would lack the complex architecture and keratinization seen here.",
+      "rationale": "Assess deeper wall at mid-lower area for invasion into muscularis/serosa and any LVI/PNI."
+    },
+    {
+      "roi_id": "slide_A_x30720_y6144_mag10",
+      "tile_id": "slide_A_x30720_y6144_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 30720,
+      "y": 6144,
+      "level0": {
+        "x": 30720,
+        "y": 6144,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a thickened gallbladder wall with a dense inflammatory infiltrate and a large collection of erythrocytes and fibrin. The surface is irregular with papillary projections.\n\nThe most likely diagnosis is acute cholecystitis with abscess formation.\n\nDifferential diagnoses include chronic cholecystitis with acute exacerbation and empyema of the gallbladder.",
+      "rationale": "Sample upper central mucosa for ulceration with neutrophils and possible cholesterol clefts."
+    },
+    {
+      "roi_id": "slide_A_x27648_y2560_mag20",
+      "tile_id": "slide_A_x27648_y2560_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 27648,
+      "y": 2560,
+      "level0": {
+        "x": 27648,
+        "y": 2560,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cystic structure lined by flattened cells with a thickened wall containing dense fibrous tissue, chronic inflammation, and scattered multinucleated giant cells. The lumen contains amorphous material and cellular debris.\n\nThe most likely diagnosis is a hydatid cyst, consistent with the clinical history of a parasitic infection. The presence of a cystic structure with a thickened fibrous wall and chronic inflammation, along with the clinical context of a nonfunctioning gallbladder and extrinsic lesion, supports this diagnosis. The multinucleated giant cells are likely a reaction to the parasitic material.\n\nDifferential diagnoses include other cystic lesions of the gallbladder such as a simple gallbladder cyst or a mucinous cystic neoplasm. However, the thickened fibrous wall and chronic inflammation are more characteristic of a hydatid cyst.",
+      "rationale": "Papillary lesion adjacent area to assess dysplasia grade and rule out invasion."
+    },
+    {
+      "roi_id": "slide_A_x47104_y21504_mag10",
+      "tile_id": "slide_A_x47104_y21504_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 47104,
+      "y": 21504,
+      "level0": {
+        "x": 47104,
+        "y": 21504,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows irregular glandular structures embedded in a dense, desmoplastic stroma. The glands are lined by atypical columnar epithelium with nuclear stratification and pleomorphism.\n\nThe most likely diagnosis is adenocarcinoma of the gallbladder.\n\nDifferential diagnoses include metastatic adenocarcinoma to the gallbladder, which can be morphologically similar. Clinical history and immunohistochemical studies would be helpful to distinguish between a primary and metastatic tumor.",
+      "rationale": "Check far right-lower edge (possible serosa) for tumor reaching subserosa/serosa."
+    },
+    {
+      "roi_id": "slide_A_x30720_y6144_mag20",
+      "tile_id": "slide_A_x30720_y6144_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 30720,
+      "y": 6144,
+      "level0": {
+        "x": 30720,
+        "y": 6144,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a thickened gallbladder wall with a dense inflammatory infiltrate and a layer of fibrin and inflammatory cells on the surface. There is also a collection of red blood cells.\n\nThe most likely diagnosis is acute cholecystitis with abscess formation.\n\nDifferential diagnoses include chronic cholecystitis with acute exacerbation and empyema of the gallbladder.",
+      "rationale": "High power to confirm abscess: neutrophils, fibrin, necrosis; look for foamy histiocytes/cholesterol clefts."
+    },
+    {
+      "roi_id": "slide_A_x27136_y3584_mag20",
+      "tile_id": "slide_A_x27136_y3584_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 27136,
+      "y": 3584,
+      "level0": {
+        "x": 27136,
+        "y": 3584,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows dense fibrous tissue with scattered spindle cells and a prominent inflammatory infiltrate composed of lymphocytes and plasma cells. There are also dilated vascular spaces and areas of amorphous eosinophilic material.\n\nThe morphologic features are consistent with chronic inflammation and fibrosis, likely representing a chronic inflammatory process such as chronic cholecystitis or a chronic abscess. The presence of dense fibrous tissue and chronic inflammatory cells supports a long-standing process. The dilated vascular spaces and amorphous material may represent reactive changes or remnants of an abscess.\n\nDifferential diagnoses to consider include chronic cholecystitis, which typically shows fibrosis and chronic inflammation, and a chronic abscess, which would also show fibrosis and chronic inflammation, often with residual amorphous material representing necrotic debris or purulent exudate. The presence of amorphous material and dilated spaces in this image could favor a chronic abscess.",
+      "rationale": "Look for pyloric-type tightly packed glands vs papillary fronds; check mucin."
+    },
+    {
+      "roi_id": "slide_A_x47104_y21504_mag20",
+      "tile_id": "slide_A_x47104_y21504_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 47104,
+      "y": 21504,
+      "level0": {
+        "x": 47104,
+        "y": 21504,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows irregular glandular structures with nuclear pleomorphism and stratification embedded in a dense desmoplastic stroma. There is also evidence of hemorrhage and inflammation.\n\nThe most likely diagnosis is adenocarcinoma of the gallbladder.\n\nDifferential diagnoses include reactive atypia secondary to inflammation or abscess, which can mimic malignancy, and metastatic adenocarcinoma from another primary site.",
+      "rationale": "High power of irregular glands in desmoplastic stroma near edge; assess depth and LVI/PNI."
+    },
+    {
+      "roi_id": "slide_A_x12288_y9728_mag20",
+      "tile_id": "slide_A_x12288_y9728_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 12288,
+      "y": 9728,
+      "level0": {
+        "x": 12288,
+        "y": 9728,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows numerous large, round to oval structures with thick, refractile walls and internal granular material, set within a background of necrotic debris and inflammatory cells. These structures are consistent with parasitic ova.\n\nThe most likely diagnosis is a parasitic infection, specifically schistosomiasis, given the presence of characteristic ova.\n\nDifferential diagnoses include other parasitic infections that produce ova, such as fascioliasis or echinococcosis, although the morphology of the ova in this case is most consistent with schistosomiasis.",
+      "rationale": "Deeper wall suspicious area: search for xanthogranulomatous inflammation or invasive carcinoma glands."
+    },
+    {
+      "roi_id": "slide_A_x21504_y28672_mag20",
+      "tile_id": "slide_A_x21504_y28672_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 21504,
+      "y": 28672,
+      "level0": {
+        "x": 21504,
+        "y": 28672,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of spindle cells with elongated, wavy nuclei embedded in a dense, collagenous stroma. Scattered blood vessels are present, some with thickened walls.\n\nThe most likely diagnosis is a benign mesenchymal neoplasm, such as a fibroma or a benign nerve sheath tumor (e.g., neurofibroma).\n\nDifferential diagnoses include:\n- Fibroma: characterized by bland spindle cells in a dense collagenous stroma, as seen here.\n- Neurofibroma: would show similar spindle cells but typically with more prominent wavy nuclei and potentially associated with nerve fibers, which are not clearly evident in this image.\n- Leiomyoma: would show spindle cells with blunt-ended nuclei and eosinophilic cytoplasm, often arranged in fascicles, which is not the predominant pattern here.",
+      "rationale": "High power of spindle/fibrotic area for xanthogranulomatous inflammation (foamy macrophages, giant cells) vs reactive fibrosis."
+    },
+    {
+      "roi_id": "slide_A_x34816_y20480_mag20",
+      "tile_id": "slide_A_x34816_y20480_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 34816,
+      "y": 20480,
+      "level0": {
+        "x": 34816,
+        "y": 20480,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a papillary proliferation of squamous epithelium with abundant eosinophilic cytoplasm and prominent intercellular bridges. The cells are arranged in nests and cords with associated hemorrhage and inflammation.\n\nThe most likely diagnosis is squamous cell carcinoma of the gallbladder. The differential diagnosis includes squamous metaplasia, which would lack the significant cellular atypia and invasive growth pattern seen here.",
+      "rationale": "High power of cystic squamous-lined structure to see if true invasion vs metaplasia/RA sinus."
+    },
+    {
+      "roi_id": "slide_A_x19968_y9728_mag20",
+      "tile_id": "slide_A_x19968_y9728_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 19968,
+      "y": 9728,
+      "level0": {
+        "x": 19968,
+        "y": 9728,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense, eosinophilic matrix with scattered cells and irregular clear spaces. The matrix appears fibrillar and amorphous in areas.\n\nThe most likely diagnosis is a hyaline fibrous lesion, such as a hyalinized scar or fibrous pseudotumor.\n\nDifferential diagnoses include amyloidosis, which typically shows more uniform eosinophilic material and may exhibit apple-green birefringence with Congo red stain, and a hyalinized neoplasm, which would require identification of neoplastic cells within the hyalinized stroma.",
+      "rationale": "Interface of mucosa and inflamed wall to identify Rokitansky-Aschoff sinuses vs invasion."
+    },
+    {
+      "roi_id": "slide_A_x24576_y28672_mag2",
+      "tile_id": "slide_A_x24576_y28672_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 24576,
+      "y": 28672,
+      "level0": {
+        "x": 24576,
+        "y": 28672,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows infiltrating nests and cords of epithelial cells with squamous differentiation, including keratin pearls, within a dense desmoplastic stroma. The epithelial cells exhibit nuclear pleomorphism and hyperchromasia.\n\nThe most likely diagnosis is squamous cell carcinoma of the gallbladder.\n\nDifferential diagnoses include metastatic squamous cell carcinoma from another primary site (e.g., lung, esophagus) and adenosquamous carcinoma of the gallbladder.",
+      "rationale": "Survey bottom edge for serosa/adipose and any tumor extension."
+    },
+    {
+      "roi_id": "slide_A_x47104_y17408_mag20",
+      "tile_id": "slide_A_x47104_y17408_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 47104,
+      "y": 17408,
+      "level0": {
+        "x": 47104,
+        "y": 17408,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a papillary proliferation of squamous epithelium with keratinization and associated hemorrhage. The underlying stroma is edematous and contains scattered inflammatory cells.\n\nThe most likely diagnosis is squamous cell carcinoma of the gallbladder. The presence of a papillary growth pattern composed of keratinizing squamous epithelium is characteristic. Differential diagnoses include squamous metaplasia, which would lack significant cytologic atypia and invasive features, and other papillary neoplasms of the gallbladder, which would have different epithelial lining (e.g., biliary or mucinous).",
+      "rationale": "High power of papillary squamous-lined area to assess whether reactive metaplasia over inflammation/abscess; check for invasion mimic."
+    },
+    {
+      "roi_id": "slide_A_x24576_y28672_mag10",
+      "tile_id": "slide_A_x24576_y28672_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 24576,
+      "y": 28672,
+      "level0": {
+        "x": 24576,
+        "y": 28672,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of spindle cells in a collagenous stroma with numerous dilated, congested blood vessels and a mixed inflammatory infiltrate. The spindle cells have elongated nuclei and are arranged in fascicles and haphazardly.\n\nThe most likely diagnosis is a reactive process such as granulation tissue or organizing abscess.\n\nDifferential diagnoses include inflammatory myofibroblastic tumor, which typically shows more prominent inflammatory cells and may have ALK rearrangement, and desmoid-type fibromatosis, which is characterized by more uniform spindle cells in long fascicles and lacks significant inflammation.",
+      "rationale": "Look for tumor at serosal surface, subserosal fat, and vascular/perineural invasion."
+    },
+    {
+      "roi_id": "slide_A_x12288_y24576_mag20",
+      "tile_id": "slide_A_x12288_y24576_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 12288,
+      "y": 24576,
+      "level0": {
+        "x": 12288,
+        "y": 24576,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a biphasic neoplasm with areas of squamous differentiation and glandular structures embedded in a dense fibrous stroma. The squamous component exhibits keratinization and intercellular bridges, while the glandular component forms irregular lumens.\n\nThe most likely diagnosis is adenosquamous carcinoma. This diagnosis is supported by the presence of both malignant squamous and glandular components within the same lesion. Differential diagnoses include squamous cell carcinoma with glandular metaplasia or collision tumor, but the intimate admixture of the two components favors adenosquamous carcinoma.",
+      "rationale": "High power in thickened wall area to specifically search for foamy histiocytes, cholesterol clefts, bile extravasation/RA sinuses."
+    },
+    {
+      "roi_id": "slide_A_x30208_y6656_mag20",
+      "tile_id": "slide_A_x30208_y6656_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 30208,
+      "y": 6656,
+      "level0": {
+        "x": 30208,
+        "y": 6656,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a thick layer of amorphous, eosinophilic material with scattered inflammatory cells and entrapped red blood cells, overlying a thin layer of flattened cells.\n\nThe most likely diagnosis is a fibrinous exudate, consistent with an abscess wall.\n\nDifferential diagnoses include a thrombus, which would typically show more organized fibrin and entrapped blood cells, and a hyaline membrane, which would be associated with underlying lung tissue and lack the inflammatory component.",
+      "rationale": "Another high-power in abscessy area to look for foamy macrophages/cholesterol clefts and bile pigment."
+    },
+    {
+      "roi_id": "slide_A_x45056_y13312_mag10",
+      "tile_id": "slide_A_x45056_y13312_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 45056,
+      "y": 13312,
+      "level0": {
+        "x": 45056,
+        "y": 13312,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cystic structure lined by stratified squamous epithelium with keratinization and parakeratosis. The lumen contains keratin debris and inflammatory cells. The surrounding stroma is fibrotic with inflammation.\n\nThe most likely diagnosis is a squamous-lined cyst. Differential diagnoses include a dermoid cyst, which would contain adnexal structures, and a metaplastic squamous cyst, which would lack adnexal structures.",
+      "rationale": "Map invasive component extent in right-upper thick wall; look for muscularis and serosa landmarks."
+    },
+    {
+      "roi_id": "slide_A_x9216_y12288_mag20",
+      "tile_id": "slide_A_x9216_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 9216,
+      "y": 12288,
+      "level0": {
+        "x": 9216,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows extensive necrosis with scattered large, eosinophilic cells exhibiting degenerative changes and pyknotic nuclei. A mixed inflammatory infiltrate is also present.\n\nThe most likely diagnosis is a necrotic neoplasm, such as a necrotic adenocarcinoma.\n\nDifferential diagnoses include necrotic squamous cell carcinoma or a necrotic metastatic tumor.",
+      "rationale": "High power in necrotic/inflamed left-upper area for xanthogranulomatous (foamy histiocytes) or cholesterol clefts."
+    },
+    {
+      "roi_id": "slide_A_x43008_y16384_mag10",
+      "tile_id": "slide_A_x43008_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 43008,
+      "y": 16384,
+      "level0": {
+        "x": 43008,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a papillary proliferation of squamous epithelium with acanthosis and surface parakeratosis. There is also a dense inflammatory infiltrate in the underlying stroma.\n\nThe most likely diagnosis is squamous cell carcinoma of the gallbladder.\n\nDifferential diagnoses include squamous metaplasia, which would lack the significant cellular atypia and invasive features seen in carcinoma.",
+      "rationale": "Check adjacent deeper wall for infiltrative glands/nests and possible perineural/vascular invasion."
+    },
+    {
+      "roi_id": "slide_A_x29696_y24576_mag10",
+      "tile_id": "slide_A_x29696_y24576_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 29696,
+      "y": 24576,
+      "level0": {
+        "x": 29696,
+        "y": 24576,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a transition from dense fibrous tissue to a cellular proliferation of atypical squamous cells with keratinization and keratin pearls. The interface is irregular.\n\nThe most likely diagnosis is squamous cell carcinoma of the gallbladder.\n\nDifferential diagnoses include metastatic squamous cell carcinoma from another site (e.g., lung, head and neck) and adenosquamous carcinoma.",
+      "rationale": "Assess mid-lower area where abscess/granulation transitions to tumor; determine if invasion into deeper wall."
+    },
+    {
+      "roi_id": "slide_A_x25088_y29184_mag20",
+      "tile_id": "slide_A_x25088_y29184_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 25088,
+      "y": 29184,
+      "level0": {
+        "x": 25088,
+        "y": 29184,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of spindle cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles and whorls, with numerous dilated, congested blood vessels. The stroma is collagenous.\n\nThe most likely diagnosis is a reactive spindle cell proliferation, such as granulation tissue or a reactive fibroblastic/myofibroblastic process, given the clinical context of inflammation and abscess formation.\n\nDifferential diagnoses include inflammatory myofibroblastic tumor, which typically shows a more prominent inflammatory infiltrate, and solitary fibrous tumor, which often has a more patternless architecture and characteristic staghorn vessels.",
+      "rationale": "Search in fibrotic serosal area for bile extravasation with foamy macrophages/giant cells typical of XGC."
+    },
+    {
+      "roi_id": "slide_A_x12288_y12288_mag10",
+      "tile_id": "slide_A_x12288_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 12288,
+      "y": 12288,
+      "level0": {
+        "x": 12288,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a transition from a cellular area with eosinophilic cells and ghost cells to an area of necrosis and inflammation. The cellular component exhibits cells with eosinophilic cytoplasm and some nuclear pleomorphism.\n\nThe morphologic features are consistent with a pilomatrixoma. The presence of ghost cells and eosinophilic cells is characteristic. Differential diagnoses include other adnexal tumors with squamous differentiation, but the combination of ghost cells and eosinophilic cells strongly favors pilomatrixoma.",
+      "rationale": "Examine left-upper portion for papillary lesion base and any early lamina propria invasion."
+    },
+    {
+      "roi_id": "slide_A_x33280_y20992_mag20",
+      "tile_id": "slide_A_x33280_y20992_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 33280,
+      "y": 20992,
+      "level0": {
+        "x": 33280,
+        "y": 20992,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a papillary proliferation of squamous epithelium with keratinization and parakeratosis, overlying a fibrovascular stroma with inflammation and hemorrhage. The epithelial cells exhibit nuclear pleomorphism and hyperchromasia.\n\nThe most likely diagnosis is squamous cell carcinoma of the gallbladder.\n\nDifferential diagnoses include squamous metaplasia, which would lack significant nuclear atypia and invasive features, and adenocarcinoma with squamous differentiation, which would show glandular components.",
+      "rationale": "Sample mid-wall away from obvious carcinoma to assess for RA sinuses and xanthogranulomatous nodules."
+    },
+    {
+      "roi_id": "slide_A_x12288_y12288_mag2",
+      "tile_id": "slide_A_x12288_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 12288,
+      "level0": {
+        "x": 12288,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows extensive necrosis and inflammation with a dense infiltrate of neutrophils and lymphocytes. There is also amorphous eosinophilic material and dark granular deposits.\n\nThe most likely diagnosis is acute cholecystitis with abscess formation. The extensive necrosis, inflammation, and abscess formation are consistent with a severe inflammatory process in the gallbladder wall. The presence of a gallbladder stone and the clinical history of a nonfunctioning gallbladder support this diagnosis. Differential diagnoses could include other causes of acute inflammation or infection in the gallbladder, such as empyema or phlegmonous cholecystitis, but the presence of a stone and the clinical history strongly favor acute cholecystitis.",
+      "rationale": "Re-orient left-upper area flagged; confirm tissue type and locate mucosa/papillae vs necrotic debris."
+    },
+    {
+      "roi_id": "slide_A_x11776_y11776_mag20",
+      "tile_id": "slide_A_x11776_y11776_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 11776,
+      "y": 11776,
+      "level0": {
+        "x": 11776,
+        "y": 11776,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows abundant amorphous eosinophilic material with scattered inflammatory cells and numerous large, round to oval, eosinophilic structures, some with internal detail.",
+      "rationale": "High power of left-upper cellular/necrotic area; determine if keratinizing SCC with ghost cells vs artifact/necrosis."
+    },
+    {
+      "roi_id": "slide_A_x6144_y4096_mag5",
+      "tile_id": "slide_A_x6144_y4096_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 6144,
+      "y": 4096,
+      "level0": {
+        "x": 6144,
+        "y": 4096,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a low-power view of a gallbladder wall with a thickened, fibrotic appearance and scattered inflammatory cells. There are also areas of amorphous, eosinophilic material.\n\nThe most likely diagnosis is chronic cholecystitis with fibrosis and inflammation. The thickened, fibrotic wall and scattered inflammatory cells are consistent with chronic inflammation. The amorphous eosinophilic material could represent inspissated bile or proteinaceous debris.\n\nDifferential diagnoses to consider include xanthogranulomatous cholecystitis, which would show foamy macrophages and cholesterol clefts, and gallbladder carcinoma, which would show infiltrative malignant cells.",
+      "rationale": "Survey far left fragment to identify mucosa and possible RA sinuses/invasion."
+    },
+    {
+      "roi_id": "slide_A_x49152_y6144_mag5",
+      "tile_id": "slide_A_x49152_y6144_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 49152,
+      "y": 6144,
+      "level0": {
+        "x": 49152,
+        "y": 6144,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows infiltrating nests of squamous cells with keratinization and keratin pearls within a dense desmoplastic stroma. The squamous cells exhibit nuclear pleomorphism and hyperchromasia.\n\nThe most likely diagnosis is squamous cell carcinoma of the gallbladder.\n\nDifferential diagnoses include metastatic squamous cell carcinoma from another primary site (e.g., lung, esophagus) and adenosquamous carcinoma of the gallbladder.",
+      "rationale": "Survey far right-upper edge for serosa and invasive carcinoma extension."
+    },
+    {
+      "roi_id": "slide_A_x41984_y13312_mag20",
+      "tile_id": "slide_A_x41984_y13312_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 41984,
+      "y": 13312,
+      "level0": {
+        "x": 41984,
+        "y": 13312,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows infiltrating nests of atypical squamous cells with keratinization and intercellular bridges within a desmoplastic stroma. The cells exhibit nuclear pleomorphism and hyperchromasia.\n\nThe most likely diagnosis is squamous cell carcinoma of the gallbladder.\n\nDifferential diagnoses include metastatic squamous cell carcinoma from another primary site (e.g., lung, esophagus) and adenosquamous carcinoma, which would show a glandular component.",
+      "rationale": "Revisit classic SCC nests in desmoplasia; search for PNI/LVI at high power."
+    },
+    {
+      "roi_id": "slide_A_x46592_y21504_mag20",
+      "tile_id": "slide_A_x46592_y21504_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 46592,
+      "y": 21504,
+      "level0": {
+        "x": 46592,
+        "y": 21504,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows irregular glandular structures with papillary infoldings lined by atypical columnar epithelium exhibiting nuclear stratification and pleomorphism. The surrounding stroma is cellular and fibrotic.\n\nThe most likely diagnosis is adenocarcinoma of the gallbladder.\n\nDifferential diagnoses include reactive atypia secondary to inflammation or cholecystitis, which can show some nuclear atypia and stromal changes, but typically lacks the complex glandular architecture and significant nuclear pleomorphism seen here.",
+      "rationale": "Assess glandular invasive focus for LVI/PNI and stromal response; estimate depth."
+    },
+    {
+      "roi_id": "slide_A_x29696_y24576_mag20",
+      "tile_id": "slide_A_x29696_y24576_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 29696,
+      "y": 24576,
+      "level0": {
+        "x": 29696,
+        "y": 24576,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a transition from dense fibrous tissue to a cellular proliferation of atypical squamous cells with eosinophilic cytoplasm and vesicular nuclei, arranged in nests and cords. A prominent cleft is present between the two components.\n\nThe most likely diagnosis is squamous cell carcinoma of the gallbladder.\n\nDifferential diagnoses include metastatic squamous cell carcinoma from another site (e.g., lung, esophagus) and adenosquamous carcinoma.",
+      "rationale": "High power at squamous invasion front near fibrous/abscess; look for true invasion and vascular/perineural involvement."
+    },
+    {
+      "roi_id": "slide_A_x7680_y4608_mag20",
+      "tile_id": "slide_A_x7680_y4608_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 7680,
+      "y": 4608,
+      "level0": {
+        "x": 7680,
+        "y": 4608,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows amorphous, granular material with scattered cellular debris and inflammatory cells. The background is relatively clear.\n\nThe morphologic features are consistent with necrotic debris and inflammatory exudate, which can be seen in the context of an abscess. Given the clinical history of a gallbladder abscess, the findings in this single tile are consistent with the expected contents of such a lesion.",
+      "rationale": "High power in fibrotic chronic cholecystitis area to identify RA sinuses vs invasive glands and any xanthogranulomatous change."
+    },
+    {
+      "roi_id": "slide_A_x24576_y28672_mag20",
+      "tile_id": "slide_A_x24576_y28672_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 24576,
+      "y": 28672,
+      "level0": {
+        "x": 24576,
+        "y": 28672,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of spindle cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles, with numerous dilated, congested blood vessels. The stroma is collagenous.\n\nThe most likely diagnosis is a reactive spindle cell proliferation, such as granulation tissue or fibroblastic/myofibroblastic proliferation, in the context of inflammation or injury.\n\nDifferential diagnoses include inflammatory myofibroblastic tumor, which typically shows a more prominent inflammatory infiltrate, and leiomyoma, which would have more uniform spindle cells with blunt-ended nuclei and less prominent vascularity.",
+      "rationale": "High power of granulation tissue region at bottom edge to see if tumor present near serosa/adipose."
+    },
+    {
+      "roi_id": "slide_A_x49152_y6144_mag20",
+      "tile_id": "slide_A_x49152_y6144_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 49152,
+      "y": 6144,
+      "level0": {
+        "x": 49152,
+        "y": 6144,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a biphasic pattern with a spindle cell component and an epithelial component exhibiting squamous differentiation. The spindle cells are arranged in fascicles and whorls within a collagenous stroma.\n\nThe most likely diagnosis is sarcomatoid carcinoma, a biphasic tumor with both epithelial and mesenchymal components. The spindle cell component represents the sarcomatoid differentiation, while the epithelial component shows squamous differentiation.\n\nDifferential diagnoses include carcinosarcoma, which is a malignant tumor with both carcinomatous and sarcomatous components, and spindle cell carcinoma, which is a variant of squamous cell carcinoma with a predominant spindle cell morphology.",
+      "rationale": "High power near far right-upper SCC area to look for perineural/vascular invasion and depth cues (subserosa/fat)."
+    },
+    {
+      "roi_id": "slide_A_x47104_y24576_mag5",
+      "tile_id": "slide_A_x47104_y24576_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 47104,
+      "y": 24576,
+      "level0": {
+        "x": 47104,
+        "y": 24576,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a transition from papillary epithelial proliferation to dense, hyalinized stroma with scattered inflammatory cells and necrotic debris. The epithelial component exhibits complex architecture and cellular atypia.\n\nThe most likely diagnosis is adenocarcinoma of the gallbladder, likely with a papillary component.\n\nDifferential diagnoses include:\n- Metastatic adenocarcinoma: Clinical history and immunohistochemistry would be needed to rule out a primary tumor elsewhere.\n- Severe chronic cholecystitis with reactive atypia: The degree of cellular atypia and complex architecture favors malignancy over reactive changes.",
+      "rationale": "Look for serosal fat/adventitia at right-lower where glands seen; orient depth."
+    },
+    {
+      "roi_id": "slide_A_x47104_y23552_mag10",
+      "tile_id": "slide_A_x47104_y23552_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 47104,
+      "y": 23552,
+      "level0": {
+        "x": 47104,
+        "y": 23552,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a papillary proliferation of atypical epithelium with nuclear stratification and pleomorphism, associated with a dense desmoplastic stroma and luminal necrotic debris. The papillary architecture and cellular atypia are key features.\n\nThe most likely diagnosis is papillary adenocarcinoma of the gallbladder.\n\nDifferential diagnoses include:\n- Intraductal papillary neoplasm of the bile duct (IPNB): Typically arises in the bile ducts, not the gallbladder, and may show different architectural patterns.\n- Metastatic papillary carcinoma: Clinical history and immunohistochemistry would be needed to rule out metastasis from another primary site, such as the breast or thyroid.",
+      "rationale": "Assess if invasive glands reach subserosal connective tissue/fat or serosal surface."
+    },
+    {
+      "roi_id": "slide_A_x24576_y6144_mag5",
+      "tile_id": "slide_A_x24576_y6144_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 24576,
+      "y": 6144,
+      "level0": {
+        "x": 24576,
+        "y": 6144,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows fragments of gallbladder wall with a thickened, hyalinized fibrous layer and a surface covered by amorphous material and cellular debris. There is also a large, irregular fragment of dense, eosinophilic material.\n\nThe morphologic features are consistent with a gallbladder wall exhibiting chronic inflammation and fibrosis, likely secondary to chronic cholecystitis and associated with a large gallstone. The dense eosinophilic material may represent inspissated bile or calcified debris.\n\nDifferential diagnoses to consider include chronic cholecystitis with fibrosis and calcification, and potentially a gallbladder wall with a large gallstone causing chronic irritation and inflammation.",
+      "rationale": "Search for mucosal papillary lesion base and possible lamina propria invasion vs in situ."
+    },
+    {
+      "roi_id": "slide_A_x41472_y13312_mag20",
+      "tile_id": "slide_A_x41472_y13312_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 41472,
+      "y": 13312,
+      "level0": {
+        "x": 41472,
+        "y": 13312,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a biphasic pattern with nests of epithelial cells exhibiting squamous differentiation and keratinization, alongside a proliferation of spindle cells arranged in fascicles.\n\nThe most likely diagnosis is adenosquamous carcinoma. The presence of both squamous and spindle cell components is characteristic of this entity. Differential diagnoses include squamous cell carcinoma with sarcomatoid features and spindle cell carcinoma, which would require further evaluation of the epithelial component and immunohistochemistry to confirm the presence of both glandular and squamous differentiation.",
+      "rationale": "Confirm keratinizing squamous nests/pearls and stromal desmoplasia described by Explorer 2"
+    },
+    {
+      "roi_id": "slide_A_x47104_y20992_mag20",
+      "tile_id": "slide_A_x47104_y20992_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 47104,
+      "y": 20992,
+      "level0": {
+        "x": 47104,
+        "y": 20992,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a biphasic neoplasm with a prominent desmoplastic stromal component and infiltrating nests of epithelial cells exhibiting squamous differentiation.",
+      "rationale": "Confirm malignant gland-forming component and assess for adenosquamous features"
+    },
+    {
+      "roi_id": "slide_A_x28672_y1536_mag20",
+      "tile_id": "slide_A_x28672_y1536_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 28672,
+      "y": 1536,
+      "level0": {
+        "x": 28672,
+        "y": 1536,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a papillary proliferation of cells with abundant clear cytoplasm and small, dark nuclei, arranged in a delicate, branching pattern. The stroma is delicate and fibrovascular.\n\nThe most likely diagnosis is clear cell carcinoma of the gallbladder. The clear cell morphology and papillary architecture are characteristic features. Differential diagnoses include metastatic clear cell carcinoma (e.g., renal cell carcinoma) and clear cell adenocarcinoma of other origins, which would require clinical correlation and immunohistochemistry for definitive distinction.",
+      "rationale": "Review papillary mucosal lesion described by Explorer 1; assess dysplasia grade and relation to invasive tumor"
+    },
+    {
+      "roi_id": "slide_A_x48640_y6144_mag20",
+      "tile_id": "slide_A_x48640_y6144_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 48640,
+      "y": 6144,
+      "level0": {
+        "x": 48640,
+        "y": 6144,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows infiltrating nests of atypical squamous cells with keratinization and intercellular bridges within a desmoplastic stroma. There is also a prominent inflammatory infiltrate.\n\nThe most likely diagnosis is squamous cell carcinoma of the gallbladder.\n\nDifferential diagnoses include metastatic squamous cell carcinoma from another site (e.g., lung, esophagus) and adenosquamous carcinoma, which would show a glandular component.",
+      "rationale": "Assess possible sarcomatoid/spindle component vs reactive granulation tissue"
+    }
+  ]
+}

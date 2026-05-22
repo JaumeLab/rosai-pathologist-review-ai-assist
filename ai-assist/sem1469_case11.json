@@ -1,0 +1,1166 @@
+{
+  "case_id": "sem1469_case11",
+  "source": "slideseek-ai-assist",
+  "model": "gpt-5.4",
+  "generated_at": "2026-05-22T09:27:40.357265+00:00",
+  "organ": "Gynecologic",
+  "primary_dx": "Ovarian Clear Cell Carcinoma In Fibrous/Adenofibromatous Background",
+  "differential_dx": [
+    "Endometrioid Adenocarcinoma With Clear Cell Change",
+    "Metastatic Clear Cell Renal Cell Carcinoma"
+  ],
+  "microscopic_findings": [
+    {
+      "text": "Irregular **tubulocystic and cribriform glands** are lined by cells with **clear cytoplasm** and focal eosinophilic change.",
+      "roi_ids": [
+        "slide_A_x20480_y12288_mag10",
+        "slide_A_x32768_y13312_mag20"
+      ]
+    },
+    {
+      "text": "Many glands show conspicuous **hobnail cells** with apically protruding nuclei and moderate **nuclear atypia**.",
+      "roi_ids": [
+        "slide_A_x25600_y9216_mag20",
+        "slide_A_x29696_y14336_mag20"
+      ]
+    },
+    {
+      "text": "Lumina contain dense **eosinophilic secretions** and cellular debris within variably dilated **cystic spaces**.",
+      "roi_ids": [
+        "slide_A_x24064_y12288_mag20",
+        "slide_A_x30720_y11776_mag20"
+      ]
+    },
+    {
+      "text": "Haphazard angulated glands infiltrate **desmoplastic/hyalinized stroma**, supporting **destructive stromal invasion**.",
+      "roi_ids": [
+        "slide_A_x6144_y14336_mag10",
+        "slide_A_x11264_y13312_mag10"
+      ]
+    }
+  ],
+  "interpretation": "The tumor is best classified as **ovarian clear cell carcinoma**, based on **tubulocystic/cribriform architecture**, clear-to-eosinophilic cytoplasm, and frequent **hobnail cells**. Irregular infiltrative glands within fibrous to desmoplastic stroma confirm invasive carcinoma arising in an **adenofibromatous/fibrous background**. Lack of typical endometrioid glands or squamous morules argues against **endometrioid adenocarcinoma with clear cell change**, and the pattern is not that of metastatic clear cell RCC.",
+  "num_rois": 70,
+  "tiles": [
+    {
+      "roi_id": "slide_A_x8192_y4096_mag2",
+      "tile_id": "slide_A_x8192_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 8192,
+      "y": 4096,
+      "level0": {
+        "x": 8192,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cystic structure lined by flattened to cuboidal epithelium with a thickened wall. The wall contains numerous variably sized cystic spaces and tubular structures, some with eosinophilic material, within a fibrous stroma.\n\nThe most likely diagnosis is a serous cystadenoma of the ovary. The differential diagnosis includes a serous borderline tumor, which would show more complex architecture and cellular atypia, and a serous cystadenocarcinoma, which would demonstrate destructive stromal invasion.",
+      "rationale": "overview left portion for cyst wall and any nodules"
+    },
+    {
+      "roi_id": "slide_A_x20480_y12288_mag2",
+      "tile_id": "slide_A_x20480_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 20480,
+      "y": 12288,
+      "level0": {
+        "x": 20480,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a neoplasm with a prominent tubulocystic pattern, featuring variably sized cysts and tubules within a fibrous stroma. The epithelial lining is cuboidal to low columnar, with some areas showing hobnail cells and eosinophilic material in lumens.\n\nThe most likely diagnosis is clear cell carcinoma of the ovary. The tubulocystic pattern, hobnail cells, and eosinophilic luminal material are characteristic features of this tumor type. Differential diagnoses include serous carcinoma, which typically shows papillary architecture and psammoma bodies, and endometrioid carcinoma, which often has glandular or solid patterns and squamous differentiation.",
+      "rationale": "Initial low-power survey of central tissue to orient and find cyst lumen/lining and papillary excrescences."
+    },
+    {
+      "roi_id": "slide_A_x24576_y8192_mag1",
+      "tile_id": "slide_A_x24576_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 24576,
+      "y": 8192,
+      "level0": {
+        "x": 24576,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a cystic lesion with a thickened wall containing numerous variably sized cystic spaces and solid areas. The cystic spaces are lined by flattened to cuboidal cells, and the solid areas are composed of cells with eosinophilic cytoplasm and round nuclei, arranged in nests and cords.\n\nThe most likely diagnosis is a serous cystadenoma with areas of solid growth. The cystic spaces lined by flattened to cuboidal cells are characteristic of a serous cystadenoma. The solid areas with eosinophilic cytoplasm and round nuclei arranged in nests and cords are consistent with a solid component within the cystadenoma.\n\nDifferential diagnoses include serous borderline tumor or low-grade serous carcinoma, which would typically show more complex papillary architecture, nuclear atypia, and potentially stromal invasion. Endometrioid adenofibroma could also be considered, but the lining cells in this case are more consistent with serous differentiation.",
+      "rationale": "Central overview to orient architecture and identify luminal surface vs wall and any nodules."
+    },
+    {
+      "roi_id": "slide_A_x20480_y8192_mag2",
+      "tile_id": "slide_A_x20480_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 20480,
+      "y": 8192,
+      "level0": {
+        "x": 20480,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a neoplasm with a prominent tubulocystic pattern, featuring variably sized cysts and tubules within a dense fibrous stroma. The cysts are lined by cuboidal to low columnar cells with eosinophilic cytoplasm and some contain eosinophilic material.\n\nThe most likely diagnosis is clear cell carcinoma of the ovary. The tubulocystic pattern, dense stroma, and eosinophilic cytoplasm are characteristic features. Differential diagnoses include serous carcinoma, which typically shows papillary architecture and hobnail cells, and endometrioid carcinoma, which often has glandular or solid patterns and squamous differentiation.",
+      "rationale": "overview central portion including thicker wall region"
+    },
+    {
+      "roi_id": "slide_A_x32768_y4096_mag2",
+      "tile_id": "slide_A_x32768_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 32768,
+      "y": 4096,
+      "level0": {
+        "x": 32768,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a biphasic tumor with a prominent spindle cell stromal component and scattered epithelial glands. The stroma is dense and cellular, with areas of hyalinization and fascicular arrangement.\n\nThe most likely diagnosis is a mixed epithelial and stromal tumor (MEST) of the ovary. The biphasic pattern with a cellular spindle cell stroma and epithelial glands is characteristic. Differential diagnoses include fibroma/thecoma with entrapped glands and adenosarcoma, which can be distinguished by the degree of stromal cellularity and atypia, and the presence of a periglandular cuffing pattern in adenosarcoma.",
+      "rationale": "Survey right-upper thicker/nodular area suggested on thumbnail."
+    },
+    {
+      "roi_id": "slide_A_x8192_y16384_mag1",
+      "tile_id": "slide_A_x8192_y16384_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 8192,
+      "y": 16384,
+      "level0": {
+        "x": 8192,
+        "y": 16384,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a neoplasm with a prominent desmoplastic stroma and infiltrating glands and nests of epithelial cells. The epithelial cells exhibit nuclear atypia and some cells have clear cytoplasm.\n\nThe most likely diagnosis is a clear cell carcinoma of the ovary.\n\nDifferential diagnoses include endometrioid carcinoma and serous carcinoma. Endometrioid carcinoma typically shows more glandular differentiation and less prominent clear cell change. Serous carcinoma often has papillary architecture and psammoma bodies, which are not seen here.",
+      "rationale": "Left half low-power survey for papillary excrescences/solid areas/hemorrhage."
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag2",
+      "tile_id": "slide_A_x8192_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cystic lesion with a complex papillary and glandular architecture. The lining epithelium is cuboidal to columnar with eosinophilic cytoplasm and round nuclei, and the stroma is fibrous.\n\nThe most likely diagnosis is a serous cystadenoma of the ovary. Differential diagnoses include serous borderline tumor and low-grade serous carcinoma, which would show more complex architecture, cellular stratification, and nuclear atypia.",
+      "rationale": "Survey left side broad wall for epithelial lining remnants."
+    },
+    {
+      "roi_id": "slide_A_x12288_y4096_mag2",
+      "tile_id": "slide_A_x12288_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 4096,
+      "level0": {
+        "x": 12288,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cystic structure lined by flattened cells with a thickened wall containing numerous variably sized cystic spaces filled with eosinophilic material, separated by fibrous stroma.\n\nThe most likely diagnosis is a serous cystadenoma of the ovary.\n\nDifferential diagnoses include serous cystadenocarcinoma, which would show more complex architecture, cellular atypia, and stromal invasion, and mucinous cystadenoma, which would have cysts filled with mucin and lined by mucinous epithelium.",
+      "rationale": "Survey left-side cyst wall for additional epithelial proliferations and invasion fronts."
+    },
+    {
+      "roi_id": "slide_A_x32768_y8192_mag2",
+      "tile_id": "slide_A_x32768_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 32768,
+      "y": 8192,
+      "level0": {
+        "x": 32768,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a biphasic pattern with a dense fibrous stroma and epithelial structures forming glands and cysts. The epithelial component exhibits variable architecture, including cystic dilation and complex branching.\n\nThe most likely diagnosis is a serous borderline tumor of the ovary. The presence of a biphasic pattern with a fibrous stroma and epithelial structures forming glands and cysts, along with variable architecture, is characteristic of this entity. The cystic dilation and complex branching of the epithelial component are also consistent features. \n\nDifferential diagnoses include serous cystadenoma, which typically shows simple cystic spaces lined by a single layer of bland epithelium, and serous carcinoma, which would demonstrate destructive stromal invasion and higher-grade cytologic atypia.",
+      "rationale": "overview right portion where wall appears thickened"
+    },
+    {
+      "roi_id": "slide_A_x28672_y16384_mag2",
+      "tile_id": "slide_A_x28672_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 28672,
+      "y": 16384,
+      "level0": {
+        "x": 28672,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a proliferation of variably sized glands and cysts within a fibrous stroma, with some glands containing eosinophilic material. The glands are lined by cuboidal to low columnar cells with clear cytoplasm.\n\nThe most likely diagnosis is clear cell carcinoma of the ovary. The differential diagnosis includes endometrioid carcinoma, which typically shows more complex glandular architecture and squamous differentiation, and serous carcinoma, which often exhibits papillary structures and psammoma bodies.",
+      "rationale": "Survey lower-right wall near edge for epithelial-stromal interface and possible desmoplasia."
+    },
+    {
+      "roi_id": "slide_A_x32768_y16384_mag2",
+      "tile_id": "slide_A_x32768_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 32768,
+      "y": 16384,
+      "level0": {
+        "x": 32768,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a proliferation of variably sized glands and cysts within a fibrous stroma, with some glands containing eosinophilic material. The glands are lined by cuboidal to low columnar cells with bland nuclei.\n\nThe most likely diagnosis is a serous neoplasm of the ovary, such as a serous cystadenoma or borderline tumor. The differential diagnosis includes endometrioid adenofibroma, which can also show glandular structures in a fibrous stroma, but typically has more complex glandular architecture and may show squamous differentiation.",
+      "rationale": "Survey right-lower portion where wall appears thickened/irregular."
+    },
+    {
+      "roi_id": "slide_A_x32768_y16384_mag1",
+      "tile_id": "slide_A_x32768_y16384_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 32768,
+      "y": 16384,
+      "level0": {
+        "x": 32768,
+        "y": 16384,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a well-circumscribed lesion composed of numerous variably sized glands and cysts embedded in a fibrous stroma. The glands are lined by cuboidal to low columnar cells with eosinophilic cytoplasm and round nuclei, and some contain eosinophilic material.\n\nThe most likely diagnosis is a benign endometrioid adenofibroma of the ovary. This diagnosis is supported by the well-circumscribed nature of the lesion, the presence of numerous glands and cysts, and the fibrous stroma. The glandular epithelium shows features consistent with endometrioid differentiation.\n\nDifferential diagnoses include serous cystadenoma, which typically has a more complex papillary architecture and lacks the prominent fibrous stroma seen here. Another consideration is a mucinous cystadenoma, which would show mucin-producing epithelium, which is not evident in this image.",
+      "rationale": "Right half low-power survey; thumbnail suggests thicker, more cellular area here."
+    },
+    {
+      "roi_id": "slide_A_x20480_y16384_mag2",
+      "tile_id": "slide_A_x20480_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 20480,
+      "y": 16384,
+      "level0": {
+        "x": 20480,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a neoplasm with a prominent tubulocystic pattern and a dense fibrous stroma. The tubules and cysts are lined by cuboidal to low columnar cells with eosinophilic cytoplasm and round nuclei, and some lumens contain eosinophilic material.\n\nThe most likely diagnosis is clear cell carcinoma of the ovary. The tubulocystic pattern, dense stroma, and eosinophilic cytoplasm are characteristic features. Differential diagnoses include serous carcinoma, which typically shows papillary architecture and hobnail cells, and endometrioid carcinoma, which often has glandular or solid patterns and squamous differentiation.",
+      "rationale": "overview deeper/inferior tissue for invasive foci or mucin pools"
+    },
+    {
+      "roi_id": "slide_A_x28672_y4096_mag2",
+      "tile_id": "slide_A_x28672_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 28672,
+      "y": 4096,
+      "level0": {
+        "x": 28672,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a biphasic tumor with a prominent fibromatous stroma and numerous epithelial structures, including cystic spaces and smaller glands. The epithelial lining is generally bland, with some areas showing hobnail cells.\n\nThe most likely diagnosis is a serous cystadenofibroma. This diagnosis is supported by the biphasic pattern of a fibromatous stroma and epithelial-lined cystic and glandular spaces, which is characteristic of this benign tumor.\n\nDifferential diagnoses include serous borderline tumor or low-grade serous carcinoma, which would typically show more complex architecture, increased epithelial stratification, and nuclear atypia. A fibroma would lack the epithelial component.",
+      "rationale": "Upper/right superficial band—possible cyst lining/papillary projections along luminal surface."
+    },
+    {
+      "roi_id": "slide_A_x20480_y12288_mag10",
+      "tile_id": "slide_A_x20480_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 20480,
+      "y": 12288,
+      "level0": {
+        "x": 20480,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a neoplasm with a predominant tubulocystic pattern, featuring irregular glands and cysts lined by cells with clear cytoplasm and hobnail morphology, set within a fibrous stroma. Intraluminal eosinophilic material is also present.\n\nThe most likely diagnosis is clear cell carcinoma of the ovary.\n\nDifferential diagnoses include endometrioid carcinoma with clear cell change and metastatic clear cell carcinoma from another site (e.g., kidney). Endometrioid carcinoma typically shows more glandular differentiation and squamous differentiation, while metastatic clear cell carcinoma would require clinical correlation and potentially immunohistochemistry to confirm the primary site.",
+      "rationale": "At 10x evaluate tubulocystic/hobnail area for epithelial-stromal interface and possible invasion/desmoplasia."
+    },
+    {
+      "roi_id": "slide_A_x20480_y8192_mag10",
+      "tile_id": "slide_A_x20480_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 20480,
+      "y": 8192,
+      "level0": {
+        "x": 20480,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows irregular glandular structures with clear cell morphology embedded in a dense fibrous stroma. The glands vary in size and shape, with some containing eosinophilic material and lined by cells with clear cytoplasm and basally oriented nuclei.\n\nThe most likely diagnosis is clear cell carcinoma of the ovary. The irregular glandular pattern, clear cell morphology, and dense fibrous stroma are characteristic features. Differential diagnoses include endometrioid carcinoma with clear cell change and metastatic clear cell carcinoma from another site, such as the kidney.",
+      "rationale": "evaluate tubulocystic area for clear cell vs endometrioid; look for hobnail cells, hyalinized stroma"
+    },
+    {
+      "roi_id": "slide_A_x16384_y4096_mag2",
+      "tile_id": "slide_A_x16384_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 16384,
+      "y": 4096,
+      "level0": {
+        "x": 16384,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cystic lesion with a thickened wall containing numerous variably sized cystic spaces filled with eosinophilic material, lined by flattened to cuboidal cells, and surrounded by dense fibrous stroma.\n\nThe most likely diagnosis is a mucinous cystadenoma of the ovary.\n\nDifferential diagnoses include mucinous cystadenocarcinoma, which would show more complex architecture, cellular atypia, and stromal invasion, and serous cystadenoma, which typically has smaller cysts lined by ciliated columnar epithelium.",
+      "rationale": "Upper/central area with small cystic spaces—assess lining and any papillary fronds."
+    },
+    {
+      "roi_id": "slide_A_x28672_y16384_mag10",
+      "tile_id": "slide_A_x28672_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 28672,
+      "y": 16384,
+      "level0": {
+        "x": 28672,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a neoplasm with tubulocystic and papillary architecture, featuring cells with clear cytoplasm and hobnail morphology. The stroma is fibrous and hyalinized.\n\nThe most likely diagnosis is clear cell carcinoma of the ovary.\n\nDifferential diagnoses include serous carcinoma, which typically shows papillary structures with psammoma bodies and lacks the prominent clear cell and hobnail features, and endometrioid carcinoma, which usually has glandular architecture and lacks the characteristic clear cell morphology.",
+      "rationale": "At 10x assess clear-cell appearing glands for destructive invasion vs borderline/adenofibromatous pattern."
+    },
+    {
+      "roi_id": "slide_A_x20480_y16384_mag10",
+      "tile_id": "slide_A_x20480_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 20480,
+      "y": 16384,
+      "level0": {
+        "x": 20480,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a neoplasm with a tubulocystic pattern, featuring irregular glands and cysts lined by cells with clear cytoplasm and hobnail morphology, set within a dense fibrous stroma.\n\nThe most likely diagnosis is clear cell carcinoma of the ovary.\n\nDifferential diagnoses include endometrioid carcinoma with clear cell change and metastatic clear cell carcinoma from another site (e.g., kidney).",
+      "rationale": "deeper tubulocystic area; check for invasion, necrosis, mucin"
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag10",
+      "tile_id": "slide_A_x8192_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a neoplasm with a predominant tubulocystic pattern, featuring variably sized tubules and cysts lined by cuboidal to low columnar cells with eosinophilic cytoplasm and hobnail cells. Intraluminal eosinophilic material is present within many spaces.\n\nThe most likely diagnosis is clear cell carcinoma of the ovary. The tubulocystic pattern, presence of hobnail cells, and eosinophilic intraluminal material are characteristic features of this tumor type. Differential diagnoses include serous carcinoma, which typically shows papillary architecture and psammoma bodies, and endometrioid carcinoma, which often exhibits glandular patterns and squamous differentiation.",
+      "rationale": "Follow up papillary/glandular area on left-mid to assess serous vs other epithelial type and atypia."
+    },
+    {
+      "roi_id": "slide_A_x32768_y8192_mag10",
+      "tile_id": "slide_A_x32768_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 32768,
+      "y": 8192,
+      "level0": {
+        "x": 32768,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a biphasic pattern with epithelial structures embedded in a dense, cellular stroma. The epithelial component forms tubules and cysts, some containing eosinophilic material, while the stroma is composed of spindle cells and collagen.\n\nThe most likely diagnosis is a mixed epithelial and stromal tumor of the ovary. Differential diagnoses include serous cystadenoma with prominent stromal component and endometrioid adenofibroma.",
+      "rationale": "right thickened wall; look for mucinous/intestinal-type glands, dirty necrosis"
+    },
+    {
+      "roi_id": "slide_A_x32768_y4096_mag10",
+      "tile_id": "slide_A_x32768_y4096_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 32768,
+      "y": 4096,
+      "level0": {
+        "x": 32768,
+        "y": 4096,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense proliferation of spindle cells arranged in intersecting fascicles and whorls, with scattered glandular structures. The spindle cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a fibrothecoma with entrapped glands. The spindle cell component is consistent with a fibrothecoma, and the glandular structures represent entrapped endometriosis.\n\nDifferential diagnoses include a cellular fibroma, which would lack the glandular component, and a sclerosing stromal tumor, which typically has a more prominent vascular pattern and a biphasic cell population.",
+      "rationale": "Assess biphasic stromal/glandular area; rule out adenofibroma vs mixed tumor vs entrapped glands."
+    },
+    {
+      "roi_id": "slide_A_x6144_y14336_mag5",
+      "tile_id": "slide_A_x6144_y14336_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 6144,
+      "y": 14336,
+      "level0": {
+        "x": 6144,
+        "y": 14336,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows an infiltrative neoplasm with irregular glands and nests of cells within a dense desmoplastic stroma. The neoplastic cells have eosinophilic cytoplasm and round to oval nuclei, with some cells showing clear cytoplasm. \n\nThe most likely diagnosis is clear cell carcinoma of the ovary. \n\nDifferential diagnoses include endometrioid carcinoma and serous carcinoma, which can also present with glandular patterns and desmoplasia, but typically lack the prominent clear cell component and characteristic hobnail cells seen in clear cell carcinoma.",
+      "rationale": "Left-sided area previously suggested desmoplastic/infiltrative glands at 1.25x—verify architecture at 5x."
+    },
+    {
+      "roi_id": "slide_A_x9216_y6144_mag10",
+      "tile_id": "slide_A_x9216_y6144_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 9216,
+      "y": 6144,
+      "level0": {
+        "x": 9216,
+        "y": 6144,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cystic structure lined by flattened cells with an underlying proliferation of irregular glands and tubules, some containing eosinophilic material, within a fibrous stroma.\n\nThe most likely diagnosis is clear cell carcinoma of the ovary.\n\nDifferential diagnoses include endometrioid carcinoma and serous carcinoma, which can also present with glandular patterns but typically show different cytologic features and architectural patterns.",
+      "rationale": "left cyst lining; assess epithelial atypia and stromal involvement"
+    },
+    {
+      "roi_id": "slide_A_x12288_y4096_mag10",
+      "tile_id": "slide_A_x12288_y4096_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 12288,
+      "y": 4096,
+      "level0": {
+        "x": 12288,
+        "y": 4096,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cystic structure lined by flattened to cuboidal epithelium with focal papillary projections. The wall is fibrous with scattered glands and cystic spaces containing eosinophilic material.\n\nThe most likely diagnosis is a serous cystadenoma of the ovary. Differential diagnoses include serous borderline tumor, which would show more complex papillary architecture and cellular atypia, and serous carcinoma, which would exhibit destructive stromal invasion.",
+      "rationale": "At 10x check left cyst wall lining for borderline-type epithelial proliferation vs bland cystadenoma; look for papillae/micropapillary."
+    },
+    {
+      "roi_id": "slide_A_x32768_y16384_mag10",
+      "tile_id": "slide_A_x32768_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 32768,
+      "y": 16384,
+      "level0": {
+        "x": 32768,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of irregular glands and tubules with variable size and shape, some containing eosinophilic material. The cells lining these structures are cuboidal to columnar with clear cytoplasm and hobnail features, set within a fibrous stroma.\n\nThe most likely diagnosis is clear cell carcinoma of the ovary. The irregular glandular and tubular architecture, clear cell morphology, and hobnail features are characteristic of this entity. Differential diagnoses include endometrioid carcinoma with clear cell change and metastatic clear cell carcinoma from another site, such as the kidney.",
+      "rationale": "Assess right-lower gland/cyst area for lining type, atypia, stromal invasion."
+    },
+    {
+      "roi_id": "slide_A_x32768_y14336_mag5",
+      "tile_id": "slide_A_x32768_y14336_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 32768,
+      "y": 14336,
+      "level0": {
+        "x": 32768,
+        "y": 14336,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a proliferation of irregular glands and tubules with variable size and shape, including cystic dilation, set within a prominent fibrous stroma. The epithelial cells lining these structures are cuboidal to columnar with eosinophilic cytoplasm and round to oval nuclei.\n\nThe morphologic features are consistent with a serous neoplasm of the ovary. The differential diagnosis includes serous adenofibroma, serous borderline tumor, and low-grade serous carcinoma. The presence of irregular glandular architecture and prominent stroma suggests a serous adenofibroma or borderline tumor. The distinction between these entities and low-grade serous carcinoma often relies on the degree of epithelial proliferation, nuclear atypia, and the presence of stromal invasion, which may not be fully appreciated in a single low-power field.",
+      "rationale": "Right-sided gland/cyst-rich fibrous area—assess adenofibromatous vs invasive pattern."
+    },
+    {
+      "roi_id": "slide_A_x10752_y8192_mag20",
+      "tile_id": "slide_A_x10752_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 10752,
+      "y": 8192,
+      "level0": {
+        "x": 10752,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows irregular glandular structures with clear cell morphology embedded in a dense fibrous stroma. The glands contain eosinophilic material and red blood cells, with some areas showing cribriform architecture.\n\nThe most likely diagnosis is clear cell carcinoma of the ovary. Differential diagnoses include endometrioid carcinoma with clear cell change and metastatic clear cell carcinoma from another site, such as the kidney.",
+      "rationale": "high-power search in left-mid tumor for mucin, goblet/signet ring cells"
+    },
+    {
+      "roi_id": "slide_A_x20480_y12288_mag20",
+      "tile_id": "slide_A_x20480_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20480,
+      "y": 12288,
+      "level0": {
+        "x": 20480,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows irregular glandular structures with clear cell morphology, including hobnail cells, within a dense fibrous stroma. Luminal eosinophilic material is also present.\n\nThe most likely diagnosis is clear cell carcinoma of the ovary.\n\nDifferential diagnoses include endometrioid carcinoma with clear cell change and metastatic clear cell carcinoma from another site (e.g., kidney).",
+      "rationale": "High power on tubulocystic/hobnail area to document cytology, atypia, mitoses."
+    },
+    {
+      "roi_id": "slide_A_x25600_y9728_mag20",
+      "tile_id": "slide_A_x25600_y9728_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 25600,
+      "y": 9728,
+      "level0": {
+        "x": 25600,
+        "y": 9728,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows irregular glandular structures with clear cell morphology, including hobnail cells and eosinophilic luminal material, within a fibrous stroma. The glands vary in size and shape, with some areas showing crowding and cribriform architecture.\n\nThe most likely diagnosis is clear cell carcinoma of the ovary. The clear cell morphology, hobnail cells, and cribriform pattern are characteristic features. Differential diagnoses include endometrioid carcinoma with clear cell change and metastatic clear cell carcinoma from another site, such as the kidney.",
+      "rationale": "high-power in central tumor glands for dirty necrosis/intestinal differentiation"
+    },
+    {
+      "roi_id": "slide_A_x28672_y4096_mag5",
+      "tile_id": "slide_A_x28672_y4096_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 28672,
+      "y": 4096,
+      "level0": {
+        "x": 28672,
+        "y": 4096,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a biphasic pattern with cystic and glandular epithelial structures embedded in a dense fibrous stroma. The epithelial component exhibits variable morphology, including cystic dilation and areas with a cribriform pattern.\n\nThe most likely diagnosis is a serous borderline tumor of the ovary. The presence of cystic and glandular structures with a cribriform pattern within a fibrous stroma is characteristic. The epithelial cells show mild to moderate atypia without destructive stromal invasion, which is typical of a borderline tumor.\n\nDifferential diagnoses include serous cystadenoma, which would lack the complex architecture and epithelial proliferation seen here, and serous carcinoma, which would show destructive stromal invasion and higher-grade cytologic atypia.",
+      "rationale": "Upper right superficial band with possible hobnailing/papillary excrescences—evaluate cyst lining complexity."
+    },
+    {
+      "roi_id": "slide_A_x28672_y16384_mag20",
+      "tile_id": "slide_A_x28672_y16384_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 28672,
+      "y": 16384,
+      "level0": {
+        "x": 28672,
+        "y": 16384,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows irregular glandular structures with clear cell morphology, including cells with clear cytoplasm and hobnail features, embedded in a fibrous stroma. Lumens contain eosinophilic material and red blood cells.\n\nThe most likely diagnosis is clear cell carcinoma of the ovary. Differential diagnoses include endometrioid carcinoma with clear cell change and metastatic clear cell carcinoma from another site, such as the kidney.",
+      "rationale": "High power on second clear-cell area with papillary/tubulocystic pattern; look for infiltrative glands, stromal response."
+    },
+    {
+      "roi_id": "slide_A_x17408_y11264_mag10",
+      "tile_id": "slide_A_x17408_y11264_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 17408,
+      "y": 11264,
+      "level0": {
+        "x": 17408,
+        "y": 11264,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a neoplasm with a predominant tubulocystic pattern, featuring irregular glands and cysts lined by cells with clear cytoplasm and hobnail morphology. The stroma is dense and fibrous.\n\nThe most likely diagnosis is clear cell carcinoma of the ovary.\n\nDifferential diagnoses include endometrioid carcinoma with clear cell change and metastatic clear cell carcinoma from another site (e.g., kidney).",
+      "rationale": "Sample additional interface near central thickening (unexplored) for invasion/microinvasion."
+    },
+    {
+      "roi_id": "slide_A_x20480_y8192_mag5",
+      "tile_id": "slide_A_x20480_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 20480,
+      "y": 8192,
+      "level0": {
+        "x": 20480,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a proliferation of variably sized glands and cysts embedded in a dense fibrous stroma. The glands are lined by cuboidal to columnar cells with clear cytoplasm and some contain eosinophilic material. The stroma is dense and fibrous.\n\nThe morphologic features are consistent with a clear cell carcinoma of the ovary. The differential diagnosis includes endometrioid carcinoma, which can also have clear cell change, but typically shows more complex glandular architecture and squamous differentiation. Serous carcinoma is another consideration, but it usually exhibits papillary structures and psammoma bodies.",
+      "rationale": "Central thickened wall/solid area—look for solid nests, invasion, necrosis or hemorrhage."
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag20",
+      "tile_id": "slide_A_x8192_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a neoplasm with a predominant tubulocystic pattern, featuring irregular glands and cysts lined by cells with clear cytoplasm and hobnail morphology. Intraluminal eosinophilic material and cellular debris are present within the spaces.\n\nThe most likely diagnosis is clear cell carcinoma of the ovary. The tubulocystic pattern, clear cell morphology, and hobnail cells are characteristic features of this tumor type. The presence of intraluminal eosinophilic material and cellular debris further supports this diagnosis.\n\nDifferential diagnoses include endometrioid carcinoma with clear cell change and serous carcinoma. Endometrioid carcinoma typically shows more glandular architecture and lacks the prominent hobnail cells and eosinophilic material. Serous carcinoma often exhibits papillary architecture and psammoma bodies, which are not seen here.",
+      "rationale": "High power confirmation of epithelial type and any papillary/solid areas."
+    },
+    {
+      "roi_id": "slide_A_x35328_y10752_mag20",
+      "tile_id": "slide_A_x35328_y10752_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 35328,
+      "y": 10752,
+      "level0": {
+        "x": 35328,
+        "y": 10752,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of spindle cells with elongated nuclei and eosinophilic cytoplasm, arranged in intersecting fascicles within a collagenous stroma. Prominent, thick-walled blood vessels are also present.\n\nThe most likely diagnosis is a benign mesenchymal tumor, such as a leiomyoma or fibroma.\n\nDifferential diagnoses include:\n- Leiomyoma: characterized by intersecting fascicles of spindle cells with blunt-ended nuclei and eosinophilic cytoplasm, often with thick-walled vessels.\n- Fibroma: composed of spindle cells in a collagenous stroma, typically with less prominent vessels and more uniform nuclei.\n- Gastrointestinal stromal tumor (GIST): can occur in the ovary and show spindle cell morphology, but usually has more prominent nucleoli and may show perivascular hyalinization.",
+      "rationale": "high-power in right thickened area for metastatic GI features and stromal reaction"
+    },
+    {
+      "roi_id": "slide_A_x12288_y2048_mag5",
+      "tile_id": "slide_A_x12288_y2048_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 12288,
+      "y": 2048,
+      "level0": {
+        "x": 12288,
+        "y": 2048,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cystic structure lined by flattened to cuboidal cells with a fibrous wall. The lumen contains amorphous material and scattered cells.\n\nThe most likely diagnosis is a serous cystadenoma of the ovary. Differential diagnoses include a mucinous cystadenoma, which would typically show columnar epithelium with mucin, and a benign cystic teratoma, which would contain elements from multiple germ layers.",
+      "rationale": "Upper left edge near surface—look for papillary projections/luminal surface irregularity."
+    },
+    {
+      "roi_id": "slide_A_x32768_y16384_mag20",
+      "tile_id": "slide_A_x32768_y16384_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 32768,
+      "y": 16384,
+      "level0": {
+        "x": 32768,
+        "y": 16384,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a neoplasm with tubulocystic and papillary architecture. The cells lining the spaces have clear cytoplasm and hobnail morphology, with eosinophilic material in the lumens. A fibrous stroma is also present.\n\nThe most likely diagnosis is clear cell carcinoma of the ovary.\n\nDifferential diagnoses include endometrioid carcinoma with clear cell change and serous carcinoma. Endometrioid carcinoma typically shows more glandular architecture and lacks the prominent hobnail cells and clear cytoplasm. Serous carcinoma often has papillary structures with psammoma bodies and lacks the clear cell morphology.",
+      "rationale": "High power in right-lower area to assess for stromal invasion/desmoplasia and nuclear grade."
+    },
+    {
+      "roi_id": "slide_A_x23040_y4608_mag20",
+      "tile_id": "slide_A_x23040_y4608_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 23040,
+      "y": 4608,
+      "level0": {
+        "x": 23040,
+        "y": 4608,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles and whorls, with interspersed clear spaces. The stroma is collagenous with areas of hyalinization.\n\nThe most likely diagnosis is a cellular fibroma. Differential diagnoses include fibrosarcoma, which would show increased cellularity, nuclear atypia, and mitotic activity, and leiomyoma, which would have more uniform spindle cells with blunt-ended nuclei and intersecting fascicles.",
+      "rationale": "near surface/edge to assess surface involvement/implants and papillary excrescences"
+    },
+    {
+      "roi_id": "slide_A_x25600_y9216_mag10",
+      "tile_id": "slide_A_x25600_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 25600,
+      "y": 9216,
+      "level0": {
+        "x": 25600,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of irregular glands and tubules with variable size and shape, including cystic dilation, set within a fibrous stroma. The epithelial cells lining these structures are cuboidal to columnar with eosinophilic cytoplasm and round to oval nuclei, some with prominent nucleoli.\n\nThe most likely diagnosis is clear cell carcinoma of the ovary. The irregular glandular and tubular architecture, along with the presence of cells with eosinophilic cytoplasm and prominent nucleoli, are characteristic features of this tumor type. The fibrous stroma is also a common finding.\n\nDifferential diagnoses to consider include endometrioid carcinoma and serous carcinoma. Endometrioid carcinoma typically shows more complex glandular patterns and may have squamous differentiation, which is not evident here. Serous carcinoma often exhibits papillary architecture and psammoma bodies, which are not prominent in this image.",
+      "rationale": "Sample right mid area along septum-like boundary; look for epithelial nests infiltrating fibrous stroma/desmoplasia."
+    },
+    {
+      "roi_id": "slide_A_x28672_y4096_mag10",
+      "tile_id": "slide_A_x28672_y4096_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 28672,
+      "y": 4096,
+      "level0": {
+        "x": 28672,
+        "y": 4096,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows cystic spaces lined by flattened to cuboidal epithelium within a dense fibrous stroma. Some cysts contain eosinophilic material and cellular debris. The stroma is composed of spindle cells and collagen.\n\nThe morphologic features are consistent with a serous cystadenoma. The differential diagnosis includes serous borderline tumor, which would show more complex architecture and epithelial proliferation, and serous carcinoma, which would exhibit significant nuclear atypia and stromal invasion.",
+      "rationale": "Sample top central/right area to look for any papillary serous-like excrescences/psammoma bodies not yet seen."
+    },
+    {
+      "roi_id": "slide_A_x13312_y4096_mag10",
+      "tile_id": "slide_A_x13312_y4096_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 13312,
+      "y": 4096,
+      "level0": {
+        "x": 13312,
+        "y": 4096,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cystic structure lined by flattened to cuboidal epithelium with a fibrous wall. The lumen contains eosinophilic material and cellular debris, with some areas showing papillary projections.\n\nThe most likely diagnosis is a serous cystadenoma of the ovary. Differential diagnoses include serous borderline tumor or low-grade serous carcinoma, which would show more complex papillary architecture and cellular atypia.",
+      "rationale": "Sample top left ridge for better preserved cyst lining/papillae; look for mucinous/endometrioid features."
+    },
+    {
+      "roi_id": "slide_A_x14848_y11776_mag20",
+      "tile_id": "slide_A_x14848_y11776_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 14848,
+      "y": 11776,
+      "level0": {
+        "x": 14848,
+        "y": 11776,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows irregular glandular structures with clear cell morphology, including hobnail cells, within a fibrous stroma. Lumens contain eosinophilic material and red blood cells.\n\nThe most likely diagnosis is clear cell carcinoma of the ovary. Differential diagnoses include endometrioid carcinoma with clear cell change and metastatic clear cell carcinoma from another site.",
+      "rationale": "sample additional epithelial component in central-lower region; look for mucin/goblet/signet ring, dirty necrosis"
+    },
+    {
+      "roi_id": "slide_A_x6144_y14336_mag10",
+      "tile_id": "slide_A_x6144_y14336_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 6144,
+      "y": 14336,
+      "level0": {
+        "x": 6144,
+        "y": 14336,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows irregular glandular structures infiltrating a dense desmoplastic stroma. The glands are lined by cells with clear to eosinophilic cytoplasm and pleomorphic nuclei, with some containing intraluminal material.\n\nThe most likely diagnosis is clear cell carcinoma of the ovary.\n\nDifferential diagnoses include endometrioid carcinoma and serous carcinoma. Endometrioid carcinoma typically shows more uniform glands and squamous differentiation, while serous carcinoma often exhibits papillary architecture and psammoma bodies.",
+      "rationale": "Increase magnification in infiltrative/desmoplastic area to confirm destructive invasion and cell type (hobnail/clear cells)."
+    },
+    {
+      "roi_id": "slide_A_x23552_y12288_mag10",
+      "tile_id": "slide_A_x23552_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 23552,
+      "y": 12288,
+      "level0": {
+        "x": 23552,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a neoplasm with a mixed architectural pattern including tubulocystic, papillary, and solid areas. The cells lining the structures are cuboidal to columnar with clear cytoplasm and hobnail features, and the lumens contain eosinophilic material.\n\nThe most likely diagnosis is clear cell carcinoma of the ovary. The differential diagnosis includes serous carcinoma, which typically shows more prominent papillary architecture and psammoma bodies, and endometrioid carcinoma, which usually has more glandular differentiation and lacks the characteristic clear cell and hobnail features.",
+      "rationale": "Target central area around prior 20x boxes to find epithelial-stromal boundary; assess for destructive invasion vs adenofibromatous pattern."
+    },
+    {
+      "roi_id": "slide_A_x29184_y13312_mag20",
+      "tile_id": "slide_A_x29184_y13312_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 29184,
+      "y": 13312,
+      "level0": {
+        "x": 29184,
+        "y": 13312,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows irregular glandular structures lined by cells with clear cytoplasm and hobnail morphology, embedded in a cellular stroma. The glands exhibit variable size and shape, with some containing eosinophilic material.\n\nThe most likely diagnosis is clear cell carcinoma of the ovary. The presence of clear cells, hobnail cells, and irregular glandular architecture are characteristic features. Differential diagnoses include endometrioid carcinoma with clear cell change and metastatic clear cell carcinoma from another site, such as the kidney.",
+      "rationale": "right-lower epithelial-stromal interface to assess destructive invasion vs benign stroma; search for signet ring"
+    },
+    {
+      "roi_id": "slide_A_x4096_y16384_mag2",
+      "tile_id": "slide_A_x4096_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 4096,
+      "y": 16384,
+      "level0": {
+        "x": 4096,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a neoplasm with a prominent desmoplastic stroma and infiltrating nests, cords, and tubules of epithelial cells. The cells have eosinophilic cytoplasm and round to oval nuclei, with some tubules containing eosinophilic material.\n\nThe most likely diagnosis is a malignant epithelial neoplasm, likely a carcinoma, given the infiltrative pattern and desmoplastic stroma. The tubular and cord-like architecture suggests an adenocarcinoma.\n\nDifferential diagnoses include metastatic carcinoma (e.g., from colon, breast, or endometrium) and primary ovarian carcinoma (e.g., serous or endometrioid type). The presence of eosinophilic material within tubules and the patient's history of colon polyps raise suspicion for a metastatic adenocarcinoma, possibly from the colon.",
+      "rationale": "Far left inferior area (ROI 26 vicinity) to see if hemorrhage/necrosis or solid nodule present at low power."
+    },
+    {
+      "roi_id": "slide_A_x27648_y4096_mag10",
+      "tile_id": "slide_A_x27648_y4096_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 27648,
+      "y": 4096,
+      "level0": {
+        "x": 27648,
+        "y": 4096,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows multiple cystic spaces lined by flattened to cuboidal epithelium within a dense fibrous stroma. The cysts contain eosinophilic material and red blood cells.\n\nThe most likely diagnosis is a serous cystadenoma of the ovary. The differential diagnosis includes a serous borderline tumor, which would show more complex architecture and epithelial proliferation, and a serous cystadenocarcinoma, which would exhibit significant cytologic atypia and stromal invasion.",
+      "rationale": "Upper right borderline-appearing cribriform/glandular area—assess epithelial stratification/atypia."
+    },
+    {
+      "roi_id": "slide_A_x24064_y12288_mag20",
+      "tile_id": "slide_A_x24064_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 24064,
+      "y": 12288,
+      "level0": {
+        "x": 24064,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a tubulocystic pattern with cysts lined by cells exhibiting clear cytoplasm and hobnail morphology. The lumens contain eosinophilic material, and the stroma is fibrous.\n\nThe most likely diagnosis is clear cell carcinoma of the ovary.\n\nDifferential diagnoses include serous carcinoma, which typically shows papillary architecture and psammoma bodies, and endometrioid carcinoma, which often has glandular structures and squamous differentiation.",
+      "rationale": "High power at same central area to look for stromal reaction/desmoplasia and infiltrative glands/single cells."
+    },
+    {
+      "roi_id": "slide_A_x12288_y12288_mag2",
+      "tile_id": "slide_A_x12288_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 12288,
+      "level0": {
+        "x": 12288,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a neoplasm with a prominent desmoplastic stroma and irregular glandular structures. The glands vary in size and shape, with some containing eosinophilic material, and the epithelial cells exhibit nuclear pleomorphism and hyperchromasia.\n\nThe most likely diagnosis is a malignant epithelial neoplasm, likely an adenocarcinoma, given the glandular morphology and desmoplastic stroma. The differential diagnosis includes primary ovarian carcinoma (e.g., serous or endometrioid type) and metastatic adenocarcinoma, particularly from the gastrointestinal tract, given the patient's history of colon polyps and ascites.",
+      "rationale": "Mid-left wall parenchyma to look for transition from benign cystadenofibroma to invasive component."
+    },
+    {
+      "roi_id": "slide_A_x30720_y12288_mag10",
+      "tile_id": "slide_A_x30720_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 30720,
+      "y": 12288,
+      "level0": {
+        "x": 30720,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of irregular glands and tubules within a dense fibrous stroma. The glands are lined by cuboidal to columnar cells with clear cytoplasm and hobnail features, and some contain eosinophilic luminal material.\n\nThe most likely diagnosis is clear cell carcinoma of the ovary. The irregular glandular architecture, clear cell morphology, and hobnail features are characteristic. Differential diagnoses include endometrioid carcinoma with clear cell change and metastatic clear cell carcinoma from another site, such as the kidney.",
+      "rationale": "Sample right-central region with multiple ROIs on map; evaluate interface and any papillary/micropapillary/cribriform proliferation."
+    },
+    {
+      "roi_id": "slide_A_x25600_y21504_mag10",
+      "tile_id": "slide_A_x25600_y21504_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 25600,
+      "y": 21504,
+      "level0": {
+        "x": 25600,
+        "y": 21504,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a neoplasm with a predominant tubulocystic pattern, featuring irregular glands and cysts within a dense fibrous stroma. The epithelial cells lining these structures are cuboidal to columnar with eosinophilic cytoplasm and round to oval nuclei, some with prominent nucleoli.\n\nThe most likely diagnosis is clear cell carcinoma of the ovary. The tubulocystic pattern, dense stroma, and the described cellular morphology are characteristic features of this tumor type. \n\nDifferential diagnoses include endometrioid carcinoma, which can also have glandular patterns but typically shows more squamous differentiation and less prominent stromal hyalinization. Serous carcinoma is another consideration, but it usually exhibits papillary architecture and psammoma bodies, which are not prominent here.",
+      "rationale": "inferior edge for surface involvement/implants and any extraovarian tissue"
+    },
+    {
+      "roi_id": "slide_A_x32768_y14336_mag10",
+      "tile_id": "slide_A_x32768_y14336_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 32768,
+      "y": 14336,
+      "level0": {
+        "x": 32768,
+        "y": 14336,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of irregular glands and tubules with variable size and shape, including cystic dilation, set within a fibrous stroma. The epithelial cells lining these structures are cuboidal to columnar with eosinophilic cytoplasm and round to oval nuclei, often with prominent nucleoli.\n\nThe most likely diagnosis is clear cell carcinoma of the ovary. The irregular glandular and tubular architecture, along with the characteristic clear to eosinophilic cytoplasm and prominent nucleoli of the lining cells, are features consistent with this entity. The fibrous stroma is also a common finding.\n\nDifferential diagnoses to consider include endometrioid carcinoma and serous carcinoma. Endometrioid carcinoma typically shows more complex glandular patterns and may have squamous differentiation, which is not evident here. Serous carcinoma often exhibits papillary architecture and psammoma bodies, which are not prominent in this image.",
+      "rationale": "Right-sided adenofibromatous area—look for invasion vs benign glands in fibrous stroma."
+    },
+    {
+      "roi_id": "slide_A_x30720_y11776_mag20",
+      "tile_id": "slide_A_x30720_y11776_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 30720,
+      "y": 11776,
+      "level0": {
+        "x": 30720,
+        "y": 11776,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of irregular glands and tubules within a fibrous stroma. The glands are lined by cells with clear cytoplasm and hobnail morphology, and some lumens contain eosinophilic material.\n\nThe most likely diagnosis is clear cell carcinoma of the ovary. The differential diagnosis includes endometrioid carcinoma with clear cell change, which typically lacks the prominent hobnail cells and hyalinized stroma seen here.",
+      "rationale": "High power in right-central region for invasion (haphazard glands, confluent growth, necrosis) vs borderline."
+    },
+    {
+      "roi_id": "slide_A_x25600_y10240_mag10",
+      "tile_id": "slide_A_x25600_y10240_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 25600,
+      "y": 10240,
+      "level0": {
+        "x": 25600,
+        "y": 10240,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of irregular glands and tubules with variable size and shape, some containing eosinophilic material. The lining cells are cuboidal to columnar with clear cytoplasm and hobnail features, set within a fibrous stroma.\n\nThe most likely diagnosis is clear cell carcinoma of the ovary. The differential diagnosis includes endometrioid carcinoma, which typically shows more glandular differentiation and lacks the prominent clear cell and hobnail features.",
+      "rationale": "Target mid-upper central area on map to look for papillary excrescences and assess epithelial proliferation."
+    },
+    {
+      "roi_id": "slide_A_x24576_y12288_mag2",
+      "tile_id": "slide_A_x24576_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 24576,
+      "y": 12288,
+      "level0": {
+        "x": 24576,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a proliferation of variably sized glands and cysts within a fibrous stroma, with many glands containing eosinophilic material. The glands are lined by cuboidal to low columnar cells with clear cytoplasm.\n\nThe most likely diagnosis is clear cell carcinoma of the ovary. The differential diagnosis includes endometrioid carcinoma, which typically shows more complex glandular architecture and squamous differentiation, and serous carcinoma, which often exhibits papillary structures and hobnail cells.",
+      "rationale": "Midline along fibrous septum/possible capsule to assess interface and any surface papillary growth."
+    },
+    {
+      "roi_id": "slide_A_x35840_y6144_mag20",
+      "tile_id": "slide_A_x35840_y6144_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 35840,
+      "y": 6144,
+      "level0": {
+        "x": 35840,
+        "y": 6144,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense fibrous stroma with scattered spindle cells and chronic inflammation. There is also a focus of dark granular material.\n\nThe most likely diagnosis is a benign serous cystadenoma with reactive changes.\n\nDifferential diagnoses include a fibrous scar or a fibroinflammatory process. The presence of a cystic structure and the clinical history of an ovarian cyst support the diagnosis of a benign serous cystadenoma.",
+      "rationale": "right-upper near thickened wall to find epithelial lining adjacent to spindle stroma; check for mucinous/intestinal type glands"
+    },
+    {
+      "roi_id": "slide_A_x36864_y4096_mag2",
+      "tile_id": "slide_A_x36864_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 36864,
+      "y": 4096,
+      "level0": {
+        "x": 36864,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a spindle cell proliferation with variable cellularity and collagen deposition, along with scattered glandular structures. The spindle cells are arranged in fascicles and whorls.\n\nThe most likely diagnosis is a fibrothecoma. Differential diagnoses include fibroma and cellular fibroma, which typically lack the prominent glandular component seen here.",
+      "rationale": "Upper right tip of tissue (gross nodular thickening?) to evaluate nodular glistening area."
+    },
+    {
+      "roi_id": "slide_A_x19456_y8192_mag10",
+      "tile_id": "slide_A_x19456_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 19456,
+      "y": 8192,
+      "level0": {
+        "x": 19456,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows irregular glandular structures with clear cell morphology embedded in a dense fibrous stroma. The glands vary in size and shape, with some containing eosinophilic material and lined by cells with clear cytoplasm and nuclear atypia.\n\nThe most likely diagnosis is clear cell carcinoma of the ovary. The irregular glandular pattern, clear cell morphology, and dense stroma are characteristic features. Differential diagnoses include endometrioid carcinoma with clear cell change and metastatic clear cell carcinoma from another site, such as the kidney.",
+      "rationale": "Central area with clear cytoplasm—assess glandular patterns, hyalinized stroma, necrosis."
+    },
+    {
+      "roi_id": "slide_A_x15360_y5120_mag10",
+      "tile_id": "slide_A_x15360_y5120_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 15360,
+      "y": 5120,
+      "level0": {
+        "x": 15360,
+        "y": 5120,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of variably sized cystic and glandular spaces within a dense fibrous stroma. The spaces are lined by flattened to cuboidal cells and contain eosinophilic material, red blood cells, and cellular debris.\n\nThe most likely diagnosis is clear cell carcinoma of the ovary. The differential diagnosis includes endometrioid carcinoma, which typically shows more complex glandular architecture and squamous differentiation, and serous carcinoma, which often exhibits papillary structures and psammoma bodies.",
+      "rationale": "Left-upper wall where small papillae noted; check for serous borderline features (hierarchical branching, micropapillary) and absence/presence of invasion."
+    },
+    {
+      "roi_id": "slide_A_x25600_y9216_mag20",
+      "tile_id": "slide_A_x25600_y9216_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 25600,
+      "y": 9216,
+      "level0": {
+        "x": 25600,
+        "y": 9216,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows irregular glandular structures with clear cell morphology, including hobnail cells and eosinophilic luminal material, within a fibrous stroma. The glands vary in size and shape, with some appearing dilated.\n\nThe most likely diagnosis is clear cell carcinoma of the ovary. The clear cell morphology, hobnail cells, and eosinophilic luminal material are characteristic features. The irregular glandular architecture and fibrous stroma are also consistent with this diagnosis.\n\nDifferential diagnoses include endometrioid carcinoma with clear cell change and serous carcinoma. Endometrioid carcinoma typically shows more uniform glands and lacks the prominent hobnail cells and eosinophilic luminal material. Serous carcinoma often exhibits papillary architecture and psammoma bodies, which are not seen here.",
+      "rationale": "If papillary lining present, assess cytology/atypia/mitoses and look for psammoma bodies."
+    },
+    {
+      "roi_id": "slide_A_x36864_y16384_mag2",
+      "tile_id": "slide_A_x36864_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 36864,
+      "y": 16384,
+      "level0": {
+        "x": 36864,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a proliferation of crowded glands and tubules with variable size and shape, some containing eosinophilic material, within a fibrous stroma. The glands are lined by cuboidal to low columnar cells with basally oriented nuclei.\n\nThe most likely diagnosis is a serous neoplasm of the ovary, specifically a serous borderline tumor or low-grade serous carcinoma.\n\nDifferential diagnoses include endometrioid adenocarcinoma, which typically shows more complex glandular architecture and squamous differentiation, and metastatic carcinoma, which would require clinical correlation and potentially immunohistochemistry for confirmation.",
+      "rationale": "Far right inferior area—assess for solid invasive nodule or necrosis."
+    },
+    {
+      "roi_id": "slide_A_x35840_y5120_mag10",
+      "tile_id": "slide_A_x35840_y5120_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 35840,
+      "y": 5120,
+      "level0": {
+        "x": 35840,
+        "y": 5120,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of spindle cells arranged in intersecting fascicles and whorls within a dense collagenous stroma. The spindle cells have elongated, wavy nuclei and scant cytoplasm.\n\nThe most likely diagnosis is a benign fibrous tumor, such as a fibroma or fibrothecoma.\n\nDifferential diagnoses include leiomyoma, which typically shows more eosinophilic cytoplasm and blunt-ended nuclei, and solitary fibrous tumor, which often has a more haphazard pattern and prominent vasculature.",
+      "rationale": "Sample right-upper nodular thickening region for possible invasive carcinoma component."
+    },
+    {
+      "roi_id": "slide_A_x35840_y5120_mag20",
+      "tile_id": "slide_A_x35840_y5120_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 35840,
+      "y": 5120,
+      "level0": {
+        "x": 35840,
+        "y": 5120,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of spindle cells with elongated, wavy nuclei arranged in intersecting fascicles and whorls within a dense collagenous stroma. Cellularity is variable, and there is no significant nuclear atypia or mitotic activity.\n\nThe most likely diagnosis is a benign fibrous tumor, such as a fibroma or fibrothecoma.\n\nDifferential diagnoses include leiomyoma, which typically shows more eosinophilic cytoplasm and blunt-ended nuclei, and solitary fibrous tumor, which often has a more prominent hemangiopericytoma-like vascular pattern.",
+      "rationale": "High power of right-upper thickening for tumor cell type and invasion."
+    },
+    {
+      "roi_id": "slide_A_x15360_y17408_mag10",
+      "tile_id": "slide_A_x15360_y17408_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 15360,
+      "y": 17408,
+      "level0": {
+        "x": 15360,
+        "y": 17408,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows irregular glandular structures with clear cell morphology infiltrating a dense fibrous stroma. The glands vary in size and shape, with some containing eosinophilic material and exhibiting cribriform architecture.\n\nThe most likely diagnosis is clear cell carcinoma of the ovary. The clear cell morphology, irregular glandular pattern, and dense stromal reaction are characteristic features. Differential diagnoses include endometrioid carcinoma with clear cell change and metastatic clear cell carcinoma from another site, such as the kidney.",
+      "rationale": "Sample lower central thick wall to evaluate for invasion/desmoplasia vs adenofibromatous stroma."
+    },
+    {
+      "roi_id": "slide_A_x29696_y14336_mag10",
+      "tile_id": "slide_A_x29696_y14336_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 29696,
+      "y": 14336,
+      "level0": {
+        "x": 29696,
+        "y": 14336,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows irregular glandular structures with clear cell morphology embedded in a dense fibrous stroma. The glands vary in size and shape, with some containing eosinophilic material.\n\nThe most likely diagnosis is clear cell carcinoma of the ovary. The irregular glandular pattern, clear cell morphology, and dense fibrous stroma are characteristic features. Differential diagnoses include endometrioid carcinoma with clear cell change and metastatic clear cell carcinoma from another site, such as the kidney.",
+      "rationale": "Undersampled lower-right thickened area on map; look for infiltrative edge, stromal desmoplasia or surface involvement."
+    },
+    {
+      "roi_id": "slide_A_x29696_y14336_mag20",
+      "tile_id": "slide_A_x29696_y14336_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 29696,
+      "y": 14336,
+      "level0": {
+        "x": 29696,
+        "y": 14336,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows irregular glandular structures lined by cells with clear cytoplasm and hobnail morphology, embedded in a fibrous stroma. Lumens contain eosinophilic material and red blood cells.\n\nThe most likely diagnosis is clear cell carcinoma of the ovary. The presence of clear cells, hobnail cells, and irregular glandular architecture are characteristic features. Differential diagnoses include endometrioid carcinoma with clear cell change and metastatic clear cell carcinoma from another site, such as the kidney.",
+      "rationale": "High power of same for destructive invasion (irregular angulated glands, nests, single cells) and stromal response."
+    },
+    {
+      "roi_id": "slide_A_x32768_y13312_mag10",
+      "tile_id": "slide_A_x32768_y13312_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 32768,
+      "y": 13312,
+      "level0": {
+        "x": 32768,
+        "y": 13312,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of irregular glands and tubules with variable size and shape, including areas of crowding and cribriform architecture. The glands are lined by cuboidal to columnar cells with eosinophilic cytoplasm and round to oval nuclei, set within a fibrous stroma.\n\nThe morphologic features are consistent with a clear cell carcinoma. The irregular glandular and tubular architecture, along with the cellular morphology, are characteristic of this entity. The presence of a fibrous stroma is also typical. Differential diagnoses to consider include endometrioid carcinoma and serous carcinoma, which can have overlapping features but typically show different architectural patterns and cellular characteristics.",
+      "rationale": "Far right-lower wall near edge; check for invasion front and any papillary excrescences."
+    },
+    {
+      "roi_id": "slide_A_x32768_y13312_mag20",
+      "tile_id": "slide_A_x32768_y13312_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 32768,
+      "y": 13312,
+      "level0": {
+        "x": 32768,
+        "y": 13312,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of irregular glands and tubules with variable size and shape, lined by cells with clear to eosinophilic cytoplasm and hobnail morphology. The stroma is fibrous and cellular.\n\nThe most likely diagnosis is clear cell carcinoma of the ovary.\n\nDifferential diagnoses include endometrioid carcinoma with clear cell change and serous carcinoma. Endometrioid carcinoma typically shows more uniform glandular architecture and lacks the prominent hobnail cells and clear cytoplasm. Serous carcinoma often exhibits papillary architecture and psammoma bodies, which are not seen here.",
+      "rationale": "High power there for microinvasion vs infiltrative carcinoma."
+    },
+    {
+      "roi_id": "slide_A_x11264_y13312_mag10",
+      "tile_id": "slide_A_x11264_y13312_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 11264,
+      "y": 13312,
+      "level0": {
+        "x": 11264,
+        "y": 13312,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows irregular glandular structures with clear cell morphology infiltrating a dense, desmoplastic stroma. The glands vary in size and shape, with some containing eosinophilic material.\n\nThe most likely diagnosis is clear cell carcinoma of the ovary. The clear cell morphology and infiltrative pattern within a desmoplastic stroma are characteristic features. Differential diagnoses include endometrioid carcinoma with clear cell change and metastatic clear cell carcinoma from another site, such as the kidney.",
+      "rationale": "Lower-left cyst wall (less explored) to exclude separate borderline/benign lining and search for invasion."
+    }
+  ]
+}

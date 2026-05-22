@@ -1,0 +1,766 @@
+{
+  "case_id": "sem219_case2",
+  "source": "slideseek-ai-assist",
+  "model": "gpt-5.4",
+  "generated_at": "2026-05-22T09:28:20.568659+00:00",
+  "organ": "Genitourinary",
+  "primary_dx": "Sertoli-Cell-Only Syndrome With Diffuse Seminiferous Tubular Atrophy/Sclerosis And Microlithiasis",
+  "differential_dx": [
+    "Diffuse Maturation Arrest",
+    "Severe Hypospermatogenesis"
+  ],
+  "microscopic_findings": [
+    {
+      "text": "Seminiferous tubules show a **Sertoli cell-only pattern** with **complete absence of germ cells** throughout sampled profiles.",
+      "roi_ids": [
+        "slide_A_x2048_y3072_mag10",
+        "slide_A_x5120_y4096_mag20"
+      ]
+    },
+    {
+      "text": "Many tubules have **marked basement membrane thickening** and **hyalinized tubular atrophy/sclerosis** with reduced epithelial cellularity.",
+      "roi_ids": [
+        "slide_A_x4096_y3072_mag20",
+        "slide_A_x2560_y6656_mag20"
+      ]
+    },
+    {
+      "text": "Tubular lumina contain frequent **laminated microliths** with **eosinophilic luminal material** and occasional refractile cleft-like debris.",
+      "roi_ids": [
+        "slide_A_x2048_y2048_mag20",
+        "slide_A_x2048_y3072_mag20"
+      ]
+    },
+    {
+      "text": "The interstitium is expanded by **fibrosis** with scattered relatively prominent **Leydig cells** and no mass-forming proliferation.",
+      "roi_ids": [
+        "slide_A_x2048_y7168_mag10",
+        "slide_A_x5120_y6144_mag20"
+      ]
+    }
+  ],
+  "interpretation": "The biopsy shows **Sertoli-cell-only syndrome** characterized by diffuse **germ cell aplasia** within seminiferous tubules lined only by Sertoli cells. Accompanying **tubular atrophy/sclerosis**, peritubular basement membrane thickening, interstitial fibrosis, and intratubular microlithiasis support advanced nonobstructive spermatogenic failure. **Diffuse maturation arrest** and **severe hypospermatogenesis** are disfavored because no germ cells of any stage or residual spermatogenesis are identified in the examined tubules.",
+  "num_rois": 45,
+  "tiles": [
+    {
+      "roi_id": "slide_A_x2048_y4096_mag5",
+      "tile_id": "slide_A_x2048_y4096_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 2048,
+      "y": 4096,
+      "level0": {
+        "x": 2048,
+        "y": 4096,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows seminiferous tubules with markedly reduced cellularity and thickened basement membranes. The interstitial tissue is expanded with increased fibrous tissue and scattered Leydig cells.\n\nThe most likely diagnosis is Sertoli cell-only syndrome. This condition is characterized by the absence of germ cells in the seminiferous tubules, leaving only Sertoli cells lining the tubules. The thickened basement membranes and interstitial fibrosis are also consistent findings.\n\nDifferential diagnoses to consider include severe hypospermatogenesis, where some germ cells are present but significantly reduced, and testicular atrophy due to other causes such as hormonal imbalances or vascular compromise. However, the complete absence of germ cells in the tubules strongly favors Sertoli cell-only syndrome.",
+      "rationale": "Central overview to assess overall tubular pattern and interstitium"
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag1",
+      "tile_id": "slide_A_x8192_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows seminiferous tubules with markedly reduced cellularity and thickened basement membranes. The interstitial tissue is expanded with increased cellularity and fibrosis.\n\nThe most likely diagnosis is Sertoli cell-only syndrome. This condition is characterized by the absence of germ cells within the seminiferous tubules, leaving only Sertoli cells lining the tubules. The thickened basement membranes and interstitial fibrosis are also consistent findings.\n\nDifferential diagnoses to consider include severe hypospermatogenesis, where some germ cells are present but significantly reduced, and testicular atrophy, which can be due to various causes such as hormonal imbalances or vascular compromise. However, the complete absence of germ cells in the tubules strongly favors Sertoli cell-only syndrome.",
+      "rationale": "Whole-fragment low-power scan for overall architecture, tubule density, interstitium, scars."
+    },
+    {
+      "roi_id": "slide_A_x4096_y4096_mag2",
+      "tile_id": "slide_A_x4096_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 4096,
+      "y": 4096,
+      "level0": {
+        "x": 4096,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows seminiferous tubules with variable size and shape, some appearing atrophic, and others dilated. The interstitial tissue is expanded and contains increased fibrous tissue and scattered inflammatory cells.\n\nThe most likely diagnosis is Sertoli Cell-Only Syndrome (SCO). This diagnosis is supported by the absence of germ cells within the seminiferous tubules, which are lined only by Sertoli cells. The clinical presentation of azoospermia and elevated FSH and LH levels is consistent with this condition.\n\nDifferential diagnoses to consider include other causes of male infertility such as hypospermatogenesis or maturation arrest, which would show some degree of spermatogenesis, and Klinefelter syndrome, which would typically show tubular atrophy and interstitial fibrosis but would require clinical correlation and genetic testing for confirmation.",
+      "rationale": "Low-power survey of overall tubule distribution and any geographic sclerosis/hyalinization."
+    },
+    {
+      "roi_id": "slide_A_x8192_y16384_mag1",
+      "tile_id": "slide_A_x8192_y16384_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 8192,
+      "y": 16384,
+      "level0": {
+        "x": 8192,
+        "y": 16384,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows seminiferous tubules with markedly reduced cellularity, containing only Sertoli cells and lacking germ cells. The interstitial tissue is expanded with increased cellularity and fibrosis.\n\nThe most likely diagnosis is Sertoli cell-only syndrome. This condition is characterized by the absence of germ cells in the seminiferous tubules, leaving only Sertoli cells. The clinical presentation of azoospermia and elevated FSH and LH levels is consistent with this diagnosis. Differential diagnoses could include severe hypospermatogenesis or maturation arrest, but these typically show some presence of germ cells, albeit reduced.",
+      "rationale": "Upper portion overview for focal scarring/nodules and tubular distribution."
+    },
+    {
+      "roi_id": "slide_A_x2048_y2048_mag5",
+      "tile_id": "slide_A_x2048_y2048_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 2048,
+      "y": 2048,
+      "level0": {
+        "x": 2048,
+        "y": 2048,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows seminiferous tubules with markedly reduced cellularity and prominent luminal spaces. The interstitial tissue is expanded by fibrosis and contains scattered Leydig cells.\n\nThe most likely diagnosis is Sertoli cell-only syndrome. This condition is characterized by the absence of germ cells in the seminiferous tubules, leaving only Sertoli cells lining the tubules. The clinical presentation of azoospermia and elevated FSH and LH levels is consistent with this diagnosis.\n\nDifferential diagnoses to consider include severe hypospermatogenesis, where some germ cells are present but significantly reduced, and testicular atrophy, which can be due to various causes such as hormonal imbalances or vascular compromise. However, the complete absence of germ cells in the tubules, as seen in this image, strongly favors Sertoli cell-only syndrome.",
+      "rationale": "Upper-left area where tubules look variably dilated; check for hyalinization/interstitial expansion"
+    },
+    {
+      "roi_id": "slide_A_x8192_y4096_mag2",
+      "tile_id": "slide_A_x8192_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 8192,
+      "y": 4096,
+      "level0": {
+        "x": 8192,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows seminiferous tubules with markedly reduced cellularity and thickened basement membranes. The interstitial tissue is expanded with increased cellularity and fibrosis.\n\nThe most likely diagnosis is Sertoli cell-only syndrome. This condition is characterized by the absence of germ cells in the seminiferous tubules, leaving only Sertoli cells lining the tubules. The thickened basement membranes and interstitial fibrosis are also consistent findings.\n\nDifferential diagnoses to consider include severe hypospermatogenesis, where some germ cells are present but significantly reduced, and testicular atrophy, which can be due to various causes such as hormonal imbalances or vascular compromise. However, the complete absence of germ cells in the tubules strongly favors Sertoli cell-only syndrome.",
+      "rationale": "Survey upper portion for atrophic or hyalinized tubules vs preserved."
+    },
+    {
+      "roi_id": "slide_A_x3000_y9000_mag1",
+      "tile_id": "slide_A_x3000_y9000_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 3000,
+      "y": 9000,
+      "level0": {
+        "x": 3000,
+        "y": 9000,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows seminiferous tubules with markedly reduced cellularity and thickened basement membranes. The interstitial tissue is expanded with increased cellularity and fibrosis.\n\nThe most likely diagnosis is Sertoli cell-only syndrome. This condition is characterized by the absence of germ cells within the seminiferous tubules, leaving only Sertoli cells lining the tubules. The thickened basement membranes and interstitial fibrosis are also consistent findings.\n\nDifferential diagnoses to consider include severe hypospermatogenesis, where some germ cells are present but significantly reduced, and testicular atrophy, which can be due to various causes such as hormonal imbalances or vascular compromise. However, the complete absence of germ cells in the tubules strongly favors Sertoli cell-only syndrome.",
+      "rationale": "Lower portion overview for atrophy/hyalinization gradients."
+    },
+    {
+      "roi_id": "slide_A_x4096_y2048_mag5",
+      "tile_id": "slide_A_x4096_y2048_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 4096,
+      "y": 2048,
+      "level0": {
+        "x": 4096,
+        "y": 2048,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows seminiferous tubules with markedly reduced cellularity and thickened basement membranes, along with interstitial fibrosis. These findings are consistent with severe hypospermatogenesis.\n\nThe most likely diagnosis is severe hypospermatogenesis, which is a cause of azoospermia.\n\nDifferential diagnoses include Sertoli cell-only syndrome, which would show seminiferous tubules lined only by Sertoli cells without germ cells, and maturation arrest, which would show a block in germ cell development at a specific stage.",
+      "rationale": "Upper-right area near edge; assess interstitium and any inflammation/fibrosis"
+    },
+    {
+      "roi_id": "slide_A_x4096_y8192_mag2",
+      "tile_id": "slide_A_x4096_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 4096,
+      "y": 8192,
+      "level0": {
+        "x": 4096,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows seminiferous tubules with variable size and shape, including some with thickened basement membranes and others with luminal dilation. The interstitial tissue is expanded with increased cellularity and fibrosis.\n\nThe most likely diagnosis is Sertoli cell-only syndrome. This diagnosis is supported by the absence of germ cells within the seminiferous tubules, which are lined only by Sertoli cells. The thickened basement membranes and interstitial fibrosis are also consistent findings. Differential diagnoses include other causes of azoospermia such as hypospermatogenesis or maturation arrest, but these would show some presence of germ cells at various stages of maturation.",
+      "rationale": "Left peripheral edge to assess subcapsular fibrosis and tubular crowding/atrophy."
+    },
+    {
+      "roi_id": "slide_A_x4096_y8192_mag5",
+      "tile_id": "slide_A_x4096_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 4096,
+      "y": 8192,
+      "level0": {
+        "x": 4096,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows seminiferous tubules with variable size and shape, some appearing atrophic, and others dilated. The interstitial tissue is expanded with increased cellularity and fibrosis.\n\nThe most likely diagnosis is Sertoli cell-only syndrome. This is characterized by the absence of germ cells within the seminiferous tubules, leaving only Sertoli cells lining the tubules. The clinical presentation of azoospermia and elevated FSH and LH levels is consistent with this diagnosis.\n\nDifferential diagnoses to consider include severe hypospermatogenesis, where some germ cells are present but significantly reduced, and testicular atrophy due to other causes such as hormonal imbalances or prior injury. However, the absence of germ cells in the tubules is the key feature pointing towards Sertoli cell-only syndrome.",
+      "rationale": "Lower portion where tubules appear more crowded; assess for atrophy/hyalinization"
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag2",
+      "tile_id": "slide_A_x8192_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows seminiferous tubules with markedly reduced cellularity and thickened basement membranes. The interstitial tissue is expanded with increased cellularity and fibrosis.\n\nThe most likely diagnosis is Sertoli cell-only syndrome. This condition is characterized by the absence of germ cells in the seminiferous tubules, leaving only Sertoli cells lining the tubules. The thickened basement membranes and interstitial fibrosis are also consistent findings.\n\nDifferential diagnoses to consider include severe hypospermatogenesis, where some germ cells are present but significantly reduced, and testicular atrophy, which can be due to various causes such as hormonal imbalances or vascular compromise. However, the complete absence of germ cells in the tubules strongly favors Sertoli cell-only syndrome.",
+      "rationale": "Right peripheral edge to assess any focal interstitial expansion or scars."
+    },
+    {
+      "roi_id": "slide_A_x2048_y3072_mag10",
+      "tile_id": "slide_A_x2048_y3072_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 2048,
+      "y": 3072,
+      "level0": {
+        "x": 2048,
+        "y": 3072,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The seminiferous tubules are lined by Sertoli cells and lack germ cells. The interstitial tissue contains fibroblasts and scattered Leydig cells.\n\nThe most likely diagnosis is Sertoli cell-only syndrome.\n\nDifferential diagnoses include maturation arrest (presence of germ cells at a specific stage) and hypospermatogenesis (presence of germ cells but reduced numbers).",
+      "rationale": "Sample left-mid area tubules for cellularity and germ cells."
+    },
+    {
+      "roi_id": "slide_A_x4096_y3072_mag10",
+      "tile_id": "slide_A_x4096_y3072_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 4096,
+      "y": 3072,
+      "level0": {
+        "x": 4096,
+        "y": 3072,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows seminiferous tubules with markedly reduced cellularity and thickened basement membranes. The interstitial tissue is expanded by fibrosis and contains scattered inflammatory cells.\n\nThe most likely diagnosis is Sertoli cell-only syndrome. This condition is characterized by the absence of germ cells within the seminiferous tubules, leaving only Sertoli cells lining the tubules. The thickened basement membranes and interstitial fibrosis are also consistent findings.\n\nDifferential diagnoses to consider include severe hypospermatogenesis, where some germ cells are present but significantly reduced, and testicular atrophy due to other causes such as hormonal imbalances or vascular compromise. However, the complete absence of germ cells in the tubules strongly favors Sertoli cell-only syndrome.",
+      "rationale": "Sample central-upper area for comparison; look for any foci of spermatogenesis."
+    },
+    {
+      "roi_id": "slide_A_x2048_y2048_mag20",
+      "tile_id": "slide_A_x2048_y2048_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 2048,
+      "y": 2048,
+      "level0": {
+        "x": 2048,
+        "y": 2048,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows seminiferous tubules with variable cellularity and luminal contents, including numerous round, laminated structures. The interstitium is expanded by fibrosis and contains scattered inflammatory cells.\n\nThe most likely diagnosis is Sertoli cell-only syndrome with associated microlithiasis.\n\nDifferential diagnoses include other causes of azoospermia such as maturation arrest or hypospermatogenesis, which would show different patterns of germ cell depletion or presence.",
+      "rationale": "High power of upper region to evaluate interstitium for Leydig hyperplasia/fibrosis/inflammation"
+    },
+    {
+      "roi_id": "slide_A_x2048_y6144_mag5",
+      "tile_id": "slide_A_x2048_y6144_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 2048,
+      "y": 6144,
+      "level0": {
+        "x": 2048,
+        "y": 6144,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows seminiferous tubules with markedly reduced cellularity, primarily lined by Sertoli cells, and a prominent interstitial compartment with increased fibrous tissue.",
+      "rationale": "Central field to gauge overall tubule caliber variability and interstitial expansion."
+    },
+    {
+      "roi_id": "slide_A_x3072_y5120_mag20",
+      "tile_id": "slide_A_x3072_y5120_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 3072,
+      "y": 5120,
+      "level0": {
+        "x": 3072,
+        "y": 5120,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The seminiferous tubules show a Sertoli cell-only pattern with absence of germ cells. The interstitial tissue contains numerous clear, refractile, needle-shaped spaces.\n\nThe most likely diagnosis is Sertoli cell-only syndrome. Differential diagnoses include other causes of azoospermia such as hypospermatogenesis or maturation arrest, which would show different patterns of germ cell loss or maturation.",
+      "rationale": "Central region at 20x to assess Leydig cells and look for ITGCN within tubules"
+    },
+    {
+      "roi_id": "slide_A_x5120_y5120_mag10",
+      "tile_id": "slide_A_x5120_y5120_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 5120,
+      "y": 5120,
+      "level0": {
+        "x": 5120,
+        "y": 5120,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows seminiferous tubules with thickened basement membranes and reduced cellularity, along with interstitial fibrosis and inflammation. There are also numerous round, laminated structures in the interstitium.\n\nThe most likely diagnosis is testicular microlithiasis.\n\nDifferential diagnoses include:\n- Sertoli cell-only syndrome: characterized by seminiferous tubules lined only by Sertoli cells, lacking germ cells, but without the prominent interstitial microliths.\n- Testicular atrophy: can show reduced tubular cellularity and interstitial fibrosis, but typically lacks the characteristic microliths.",
+      "rationale": "Sample central region around prior low-power view; assess hyalinization vs atrophy."
+    },
+    {
+      "roi_id": "slide_A_x4096_y4096_mag5",
+      "tile_id": "slide_A_x4096_y4096_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 4096,
+      "y": 4096,
+      "level0": {
+        "x": 4096,
+        "y": 4096,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows seminiferous tubules with markedly reduced cellularity and thickened basement membranes. The interstitial tissue is expanded by fibrosis and contains scattered Leydig cells.\n\nThe most likely diagnosis is Sertoli cell-only syndrome. This condition is characterized by the absence of germ cells in the seminiferous tubules, leaving only Sertoli cells lining the tubules. The thickened basement membranes and interstitial fibrosis are also consistent findings.\n\nDifferential diagnoses to consider include severe hypospermatogenesis, where some germ cells are present but significantly reduced, and testicular atrophy, which can be due to various causes such as hormonal imbalances or vascular compromise. However, the complete absence of germ cells in the tubules strongly favors Sertoli cell-only syndrome.",
+      "rationale": "Upper-central to check for focal hyalinized/ghost tubules or scarring."
+    },
+    {
+      "roi_id": "slide_A_x4096_y2560_mag20",
+      "tile_id": "slide_A_x4096_y2560_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 4096,
+      "y": 2560,
+      "level0": {
+        "x": 4096,
+        "y": 2560,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows seminiferous tubules with thickened basement membranes and reduced cellularity, along with interstitial fibrosis and inflammation. There are also numerous clear, refractile, circular structures present.\n\nThe most likely diagnosis is Sertoli cell-only syndrome, characterized by the absence of germ cells and presence of only Sertoli cells lining the seminiferous tubules.\n\nDifferential diagnoses include other causes of hypospermatogenesis or maturation arrest, which would show some degree of spermatogenesis, and testicular atrophy due to other causes, which would typically show more prominent interstitial fibrosis and Leydig cell hyperplasia.",
+      "rationale": "Upper-right region at 20x for interstitial features and any atypical intratubular cells"
+    },
+    {
+      "roi_id": "slide_A_x2048_y7168_mag10",
+      "tile_id": "slide_A_x2048_y7168_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 2048,
+      "y": 7168,
+      "level0": {
+        "x": 2048,
+        "y": 7168,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The seminiferous tubules are lined by Sertoli cells only, with a notable absence of germ cells. The interstitial tissue shows increased fibrosis and scattered inflammatory cells.\n\nThe most likely diagnosis is Sertoli cell-only syndrome. Differential diagnoses include severe hypospermatogenesis or maturation arrest, which would show some germ cells, and testicular atrophy, which would show tubular atrophy and interstitial fibrosis but not the complete absence of germ cells.",
+      "rationale": "Sample left-lower region; look for preserved tubules or sclerosis."
+    },
+    {
+      "roi_id": "slide_A_x4096_y8192_mag20",
+      "tile_id": "slide_A_x4096_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 4096,
+      "y": 8192,
+      "level0": {
+        "x": 4096,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows seminiferous tubules with markedly reduced cellularity and thickened basement membranes, along with interstitial fibrosis and inflammation. The most likely diagnosis is Sertoli cell-only syndrome. Differential diagnoses include severe hypospermatogenesis or maturation arrest.",
+      "rationale": "Lower region at 20x to assess degree of tubular sclerosis and interstitial Leydig prominence"
+    },
+    {
+      "roi_id": "slide_A_x6144_y2048_mag5",
+      "tile_id": "slide_A_x6144_y2048_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 6144,
+      "y": 2048,
+      "level0": {
+        "x": 6144,
+        "y": 2048,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows seminiferous tubules with markedly reduced cellularity and thickened basement membranes. The interstitial tissue is expanded with increased cellularity and fibrosis.\n\nThe most likely diagnosis is Sertoli cell-only syndrome. This condition is characterized by the absence of germ cells within the seminiferous tubules, leaving only Sertoli cells lining the tubules. The thickened basement membranes and interstitial fibrosis are also consistent findings.\n\nDifferential diagnoses to consider include severe hypospermatogenesis, where some germ cells are present but significantly reduced, and testicular atrophy, which can be due to various causes such as hormonal imbalances or vascular compromise. However, the complete absence of germ cells in the tubules strongly favors Sertoli cell-only syndrome.",
+      "rationale": "Upper-right to assess peripheral/subcapsular changes and tubule atrophy."
+    },
+    {
+      "roi_id": "slide_A_x4096_y9216_mag10",
+      "tile_id": "slide_A_x4096_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 4096,
+      "y": 9216,
+      "level0": {
+        "x": 4096,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows seminiferous tubules with variable morphology, including some with thickened basement membranes and others with luminal dilation. The interstitial tissue is expanded by fibrosis and contains scattered inflammatory cells.\n\nThe most likely diagnosis is Sertoli cell-only syndrome. This diagnosis is supported by the presence of seminiferous tubules lacking germ cells, with only Sertoli cells lining the basement membrane. The thickened basement membranes and interstitial fibrosis are also consistent with this condition.\n\nDifferential diagnoses to consider include other causes of azoospermia such as hypospermatogenesis or maturation arrest, which would show different patterns of germ cell loss or maturation defects within the tubules.",
+      "rationale": "Sample lower tip; assess interstitial expansion/Leydig cells and any germ cells."
+    },
+    {
+      "roi_id": "slide_A_x6144_y8192_mag5",
+      "tile_id": "slide_A_x6144_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 6144,
+      "y": 8192,
+      "level0": {
+        "x": 6144,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows seminiferous tubules with markedly reduced cellularity and thickened basement membranes. The interstitial tissue is expanded with increased fibrous tissue and scattered Leydig cells.\n\nThe most likely diagnosis is Sertoli cell-only syndrome. This condition is characterized by the absence of germ cells in the seminiferous tubules, leaving only Sertoli cells lining the tubules. The thickened basement membranes and interstitial fibrosis are also consistent findings.\n\nDifferential diagnoses to consider include severe hypospermatogenesis, where some germ cells are present but significantly reduced, and testicular atrophy due to other causes such as hormonal imbalances or vascular compromise. However, the complete absence of germ cells in the tubules strongly favors Sertoli cell-only syndrome.",
+      "rationale": "Lower-right to assess for patchy sclerosis/hyalinization and interstitial prominence."
+    },
+    {
+      "roi_id": "slide_A_x5120_y5120_mag20",
+      "tile_id": "slide_A_x5120_y5120_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 5120,
+      "y": 5120,
+      "level0": {
+        "x": 5120,
+        "y": 5120,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows seminiferous tubules with thickened basement membranes and reduced cellularity, along with interstitial fibrosis and inflammation. The most likely diagnosis is Sertoli cell-only syndrome. Differential diagnoses include other causes of hypospermatogenesis or testicular atrophy.",
+      "rationale": "High power in central region with laminated structures to confirm microliths vs other material and assess tubules for germ cells."
+    },
+    {
+      "roi_id": "slide_A_x1024_y3584_mag20",
+      "tile_id": "slide_A_x1024_y3584_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 1024,
+      "y": 3584,
+      "level0": {
+        "x": 1024,
+        "y": 3584,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The seminiferous tubules are lined by Sertoli cells and lack germ cells. The interstitial tissue contains Leydig cells and scattered inflammatory cells.\n\nThe most likely diagnosis is Sertoli cell-only syndrome.\n\nDifferential diagnoses include maturation arrest (presence of germ cells at a specific stage) and hypospermatogenesis (presence of germ cells but reduced numbers).",
+      "rationale": "Left-mid region not yet sampled at 20x; assess interstitium for Leydig hyperplasia/inflammation and tubules for ITGCN"
+    },
+    {
+      "roi_id": "slide_A_x2048_y3072_mag20",
+      "tile_id": "slide_A_x2048_y3072_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 2048,
+      "y": 3072,
+      "level0": {
+        "x": 2048,
+        "y": 3072,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The seminiferous tubules are lined by Sertoli cells and lack germ cells. The tubular lumens contain abundant eosinophilic material with numerous refractile crystals.\n\nThe most likely diagnosis is Sertoli cell-only syndrome. Differential diagnoses include maturation arrest or severe hypospermatogenesis, which would show some germ cells, and testicular atrophy, which would show tubular atrophy and interstitial fibrosis.",
+      "rationale": "High power of left-mid tubules to confirm Sertoli-only and look for any spermatogonia."
+    },
+    {
+      "roi_id": "slide_A_x2048_y8192_mag5",
+      "tile_id": "slide_A_x2048_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 2048,
+      "y": 8192,
+      "level0": {
+        "x": 2048,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows seminiferous tubules with variable morphology, including some with open lumens and others with thickened walls and reduced cellularity. The interstitial tissue is expanded with increased cellularity and fibrosis.\n\nThe most likely diagnosis is Sertoli cell-only syndrome. This is characterized by seminiferous tubules lined only by Sertoli cells, with a complete absence of germ cells. The variable tubular morphology seen in the image, with some tubules appearing relatively normal and others showing thickened walls and reduced cellularity, is consistent with this diagnosis. The interstitial expansion and fibrosis are also commonly seen in this condition.\n\nDifferential diagnoses to consider include other causes of male infertility such as hypospermatogenesis or maturation arrest. However, these conditions would typically show some degree of spermatogenesis, which is absent in Sertoli cell-only syndrome.",
+      "rationale": "Lower-central near tapered end for possible scar/atrophy gradient."
+    },
+    {
+      "roi_id": "slide_A_x5120_y4096_mag20",
+      "tile_id": "slide_A_x5120_y4096_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 5120,
+      "y": 4096,
+      "level0": {
+        "x": 5120,
+        "y": 4096,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows seminiferous tubules with a Sertoli cell-only pattern and absence of germ cells. The interstitial tissue contains scattered Leydig cells and numerous refractile crystalline structures.\n\nThe most likely diagnosis is Sertoli cell-only syndrome. Differential diagnoses include other causes of azoospermia such as maturation arrest or hypospermatogenesis, which would show different patterns of germ cell development or presence.",
+      "rationale": "Right-mid peripheral region; check for better-preserved tubules and possible ITGCN"
+    },
+    {
+      "roi_id": "slide_A_x4096_y3072_mag20",
+      "tile_id": "slide_A_x4096_y3072_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 4096,
+      "y": 3072,
+      "level0": {
+        "x": 4096,
+        "y": 3072,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The seminiferous tubules show thickened basement membranes and are lined by Sertoli cells with a marked reduction or absence of germ cells. The interstitium contains scattered Leydig cells and inflammatory cells.\n\nThe most likely diagnosis is Sertoli cell-only syndrome.\n\nDifferential diagnoses include severe hypospermatogenesis or maturation arrest, which would show some residual germ cells, and testicular atrophy, which would show tubular atrophy and fibrosis.",
+      "rationale": "High power of central-upper tubules for any focal maturation arrest/hypospermatogenesis."
+    },
+    {
+      "roi_id": "slide_A_x2560_y6656_mag20",
+      "tile_id": "slide_A_x2560_y6656_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 2560,
+      "y": 6656,
+      "level0": {
+        "x": 2560,
+        "y": 6656,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The seminiferous tubules show marked hyalinization and thickening of the basement membrane, with a significant reduction in germ cells and Sertoli cells. The interstitial tissue is expanded by fibrosis and contains scattered Leydig cells.\n\nThe most likely diagnosis is Sertoli cell-only syndrome. This condition is characterized by the absence of germ cells in the seminiferous tubules, leaving only Sertoli cells lining the tubules. The hyalinization and thickening of the basement membrane are also consistent with this diagnosis.\n\nDifferential diagnoses to consider include severe hypospermatogenesis, where some germ cells are present but significantly reduced, and testicular atrophy, which can be due to various causes such as hormonal imbalances or vascular compromise. However, the complete absence of germ cells in the tubules strongly favors Sertoli cell-only syndrome.",
+      "rationale": "Lower-central region; evaluate thickened basement membranes/hyalinized tubules and interstitial Leydig prominence"
+    },
+    {
+      "roi_id": "slide_A_x5120_y6144_mag10",
+      "tile_id": "slide_A_x5120_y6144_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 5120,
+      "y": 6144,
+      "level0": {
+        "x": 5120,
+        "y": 6144,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The seminiferous tubules are lined by Sertoli cells and lack germ cells. The interstitium contains Leydig cells and scattered inflammatory cells.\n\nThe most likely diagnosis is Sertoli cell-only syndrome.\n\nDifferential diagnoses include maturation arrest (presence of germ cells at a specific stage) and hypospermatogenesis (presence of germ cells but reduced numbers).",
+      "rationale": "Area with prominent interstitium to characterize fibrosis vs Leydig hyperplasia pattern at low-intermediate power."
+    },
+    {
+      "roi_id": "slide_A_x4096_y9216_mag20",
+      "tile_id": "slide_A_x4096_y9216_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 4096,
+      "y": 9216,
+      "level0": {
+        "x": 4096,
+        "y": 9216,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows seminiferous tubules with thickened basement membranes and reduced cellularity, along with interstitial fibrosis and inflammation. A large, laminated calcified structure is also present.\n\nThe most likely diagnosis is testicular atrophy with calcification.\n\nDifferential diagnoses include:\n- Sertoli cell-only syndrome: characterized by seminiferous tubules lined only by Sertoli cells, lacking germ cells.\n- Testicular microlithiasis: characterized by the presence of multiple small calcifications within the seminiferous tubules, often associated with tubular atrophy.",
+      "rationale": "High power of lower area to evaluate interstitium for Leydig hyperplasia and check for germ cells/GCNIS."
+    },
+    {
+      "roi_id": "slide_A_x5120_y7168_mag20",
+      "tile_id": "slide_A_x5120_y7168_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 5120,
+      "y": 7168,
+      "level0": {
+        "x": 5120,
+        "y": 7168,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The seminiferous tubules are lined by Sertoli cells with a notable absence of germ cells. The interstitial tissue contains scattered Leydig cells and fibrous stroma.\n\nThe most likely diagnosis is Sertoli cell-only syndrome.\n\nDifferential diagnoses include:\n- Germ cell aplasia: Similar histology, but typically associated with a history of cryptorchidism or other developmental abnormalities.\n- Maturation arrest: Presence of germ cells at various stages of maturation, but not reaching the final stage of spermatozoa.",
+      "rationale": "Lower-right region; search for any focal ITGCN or inflammatory process"
+    },
+    {
+      "roi_id": "slide_A_x2048_y7168_mag20",
+      "tile_id": "slide_A_x2048_y7168_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 2048,
+      "y": 7168,
+      "level0": {
+        "x": 2048,
+        "y": 7168,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The seminiferous tubules show a Sertoli cell-only pattern with thickened basement membranes and luminal eosinophilic material. The interstitium contains scattered Leydig cells and inflammatory cells.\n\nThe most likely diagnosis is Sertoli cell-only syndrome.\n\nDifferential diagnoses include other causes of azoospermia such as maturation arrest or hypospermatogenesis, which would show different patterns of germ cell development or presence.",
+      "rationale": "High power left-lower tubules to assess degree of atrophy/hyalinization and look for residual germ cells."
+    },
+    {
+      "roi_id": "slide_A_x1024_y7168_mag10",
+      "tile_id": "slide_A_x1024_y7168_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 1024,
+      "y": 7168,
+      "level0": {
+        "x": 1024,
+        "y": 7168,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows seminiferous tubules with markedly reduced cellularity and thickened basement membranes. The interstitial tissue is expanded by fibrosis and contains scattered inflammatory cells.\n\nThe most likely diagnosis is Sertoli cell-only syndrome. This condition is characterized by the absence of germ cells within the seminiferous tubules, leaving only Sertoli cells lining the tubules. The thickened basement membranes and interstitial fibrosis are also consistent findings.\n\nDifferential diagnoses to consider include severe hypospermatogenesis, where some germ cells are present but significantly reduced, and testicular atrophy, which can be due to various causes such as hormonal imbalances or vascular compromise. However, the complete absence of germ cells in the tubules strongly favors Sertoli cell-only syndrome.",
+      "rationale": "Left-lower region to evaluate suspected tubular atrophy/hyalinization and any ghost tubules."
+    },
+    {
+      "roi_id": "slide_A_x1024_y2048_mag10",
+      "tile_id": "slide_A_x1024_y2048_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 1024,
+      "y": 2048,
+      "level0": {
+        "x": 1024,
+        "y": 2048,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows seminiferous tubules with markedly reduced cellularity and thickened basement membranes, along with interstitial fibrosis and inflammation. The most likely diagnosis is Sertoli cell-only syndrome. Differential diagnoses include severe hypospermatogenesis or maturation arrest.",
+      "rationale": "Sample extreme upper-left region not previously targeted; check for any preserved spermatogenesis or complete sclerosis."
+    },
+    {
+      "roi_id": "slide_A_x4096_y2048_mag10",
+      "tile_id": "slide_A_x4096_y2048_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 4096,
+      "y": 2048,
+      "level0": {
+        "x": 4096,
+        "y": 2048,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows seminiferous tubules with markedly reduced cellularity and thickened basement membranes. The interstitial tissue is expanded by fibrosis and contains scattered Leydig cells.\n\nThe most likely diagnosis is Sertoli cell-only syndrome. This condition is characterized by the absence of germ cells within the seminiferous tubules, leaving only Sertoli cells lining the tubules. The thickened basement membranes and interstitial fibrosis are also consistent findings.\n\nDifferential diagnoses to consider include severe hypospermatogenesis, where some germ cells are present but significantly reduced, and testicular atrophy, which can be due to various causes such as hormonal imbalances or vascular compromise. However, the complete absence of germ cells in the tubules strongly favors Sertoli cell-only syndrome.",
+      "rationale": "Sample upper-right region; assess for heterogeneity and possible GCNIS."
+    },
+    {
+      "roi_id": "slide_A_x5120_y9216_mag10",
+      "tile_id": "slide_A_x5120_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 5120,
+      "y": 9216,
+      "level0": {
+        "x": 5120,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The seminiferous tubules are lined by Sertoli cells and lack germ cells. The interstitial tissue contains Leydig cells and fibrous stroma.\n\nThe most likely diagnosis is Sertoli cell-only syndrome.\n\nDifferential diagnoses include maturation arrest (presence of germ cells at a specific stage) and hypospermatogenesis (presence of germ cells but reduced numbers).",
+      "rationale": "Lower-right tip to assess most abnormal looking region for diffuse sclerosis or hyalinized tubules."
+    },
+    {
+      "roi_id": "slide_A_x2048_y8192_mag10",
+      "tile_id": "slide_A_x2048_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 2048,
+      "y": 8192,
+      "level0": {
+        "x": 2048,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows seminiferous tubules with markedly reduced cellularity and thickened basement membranes. The interstitial tissue is expanded by fibrosis and contains scattered inflammatory cells.\n\nThe most likely diagnosis is Sertoli cell-only syndrome. This condition is characterized by the absence of germ cells within the seminiferous tubules, leaving only Sertoli cells lining the tubules. The thickened basement membranes and interstitial fibrosis are also consistent findings.\n\nDifferential diagnoses to consider include severe hypospermatogenesis, where some germ cells are present but significantly reduced, and testicular atrophy, which can be due to various causes such as hormonal imbalances or vascular compromise. However, the complete absence of germ cells in the tubules strongly favors Sertoli cell-only syndrome.",
+      "rationale": "Sample extreme lower-left; look for hyalinized tubules."
+    },
+    {
+      "roi_id": "slide_A_x5120_y8192_mag10",
+      "tile_id": "slide_A_x5120_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 5120,
+      "y": 8192,
+      "level0": {
+        "x": 5120,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The seminiferous tubules are lined by Sertoli cells and lack germ cells. The interstitial tissue contains Leydig cells and scattered refractile crystalline structures.\n\nThe most likely diagnosis is Sertoli cell-only syndrome.\n\nDifferential diagnoses include maturation arrest (presence of germ cells at a specific stage) and hypospermatogenesis (presence of germ cells but reduced numbers).",
+      "rationale": "Sample extreme lower-right; look for any foci of spermatogenesis/obstruction."
+    },
+    {
+      "roi_id": "slide_A_x3072_y4096_mag20",
+      "tile_id": "slide_A_x3072_y4096_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 3072,
+      "y": 4096,
+      "level0": {
+        "x": 3072,
+        "y": 4096,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The seminiferous tubules are lined by Sertoli cells and lack germ cells. The interstitial tissue contains Leydig cells and scattered inflammatory cells.\n\nThe most likely diagnosis is Sertoli cell-only syndrome.\n\nDifferential diagnoses include maturation arrest (presence of germ cells at a specific stage) and hypospermatogenesis (presence of germ cells but reduced numbers).",
+      "rationale": "Target new mid-upper area between prior ROIs to ensure no focal spermatogenesis/maturation arrest."
+    },
+    {
+      "roi_id": "slide_A_x3072_y6144_mag20",
+      "tile_id": "slide_A_x3072_y6144_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 3072,
+      "y": 6144,
+      "level0": {
+        "x": 3072,
+        "y": 6144,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The seminiferous tubules are lined by Sertoli cells only, with a notable absence of germ cells. The interstitial tissue shows increased fibrosis and scattered inflammatory cells.\n\nThe most likely diagnosis is Sertoli cell-only syndrome. Differential diagnoses include severe hypospermatogenesis or maturation arrest, which would show some germ cells, and testicular atrophy, which would show tubular atrophy and interstitial fibrosis but not the complete absence of germ cells.",
+      "rationale": "Target mid-lower central area to look for any residual germ cells or completely hyalinized tubules."
+    },
+    {
+      "roi_id": "slide_A_x1536_y5120_mag20",
+      "tile_id": "slide_A_x1536_y5120_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 1536,
+      "y": 5120,
+      "level0": {
+        "x": 1536,
+        "y": 5120,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows seminiferous tubules with markedly reduced cellularity, containing only Sertoli cells and lacking germ cells. The interstitial tissue is expanded with increased fibrous tissue and scattered inflammatory cells.\n\nThe most likely diagnosis is Sertoli cell-only syndrome. This condition is characterized by the absence of germ cells in the seminiferous tubules, leaving only Sertoli cells lining the tubules. The clinical presentation of azoospermia and infertility in a young man is consistent with this diagnosis. The elevated FSH and LH levels are also typical findings in Sertoli cell-only syndrome, reflecting primary testicular failure. The interstitial fibrosis and inflammation seen in the image may be secondary changes related to the underlying pathology.",
+      "rationale": "Target left-central region for high-power assessment of germ cells/GCNIS."
+    },
+    {
+      "roi_id": "slide_A_x5120_y6144_mag20",
+      "tile_id": "slide_A_x5120_y6144_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 5120,
+      "y": 6144,
+      "level0": {
+        "x": 5120,
+        "y": 6144,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The seminiferous tubules are lined by Sertoli cells with a notable absence of germ cells. The interstitial tissue contains scattered Leydig cells and prominent refractile crystalline structures.\n\nThe most likely diagnosis is Sertoli cell-only syndrome. This condition is characterized by the presence of only Sertoli cells lining the seminiferous tubules, with a complete absence of germ cells, leading to azoospermia. The clinical presentation of infertility and azoospermia in a young man, along with elevated FSH and LH levels, is consistent with this diagnosis. The refractile crystalline structures in the interstitial tissue are an incidental finding and do not alter the primary diagnosis.",
+      "rationale": "Target right-central region for high-power assessment; evaluate interstitium/Leydig cells."
+    }
+  ]
+}

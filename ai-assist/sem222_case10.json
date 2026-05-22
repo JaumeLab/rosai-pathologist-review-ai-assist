@@ -1,0 +1,1086 @@
+{
+  "case_id": "sem222_case10",
+  "source": "slideseek-ai-assist",
+  "model": "gpt-5.4",
+  "generated_at": "2026-05-22T09:28:35.822612+00:00",
+  "organ": "Head-Neck",
+  "primary_dx": "Adenoid Cystic Carcinoma, Cribriform/Tubular Predominant",
+  "differential_dx": [
+    "Carcinoma Ex Pleomorphic Adenoma With ACC-Type Carcinoma",
+    "Basal Cell Adenocarcinoma With Cribriform Areas"
+  ],
+  "microscopic_findings": [
+    {
+      "text": "Nests of basaloid cells show **cribriform architecture** with **pseudocystic spaces** filled by eosinophilic **hyaline material**.",
+      "roi_ids": [
+        "slide_A_x22528_y8192_mag20",
+        "slide_A_x20992_y14848_mag20"
+      ]
+    },
+    {
+      "text": "Tumor forms **tubular structures** and cords in a dense **hyalinized stroma**, supporting salivary-type ACC differentiation.",
+      "roi_ids": [
+        "slide_A_x40960_y14336_mag20",
+        "slide_A_x27648_y14336_mag20"
+      ]
+    },
+    {
+      "text": "Cells are relatively uniform and **basaloid** with scant cytoplasm and **hyperchromatic angulated nuclei** without marked pleomorphism.",
+      "roi_ids": [
+        "slide_A_x34816_y12288_mag20",
+        "slide_A_x36864_y12800_mag20"
+      ]
+    },
+    {
+      "text": "Focal **chondromyxoid stroma** with spindle/stellate myoepithelial-appearing cells suggests possible residual pleomorphic adenoma-like…",
+      "roi_ids": [
+        "slide_A_x32768_y28672_mag10",
+        "slide_A_x14848_y27136_mag20"
+      ]
+    }
+  ],
+  "interpretation": "The dominant morphology is **Adenoid Cystic Carcinoma** with classic **cribriform/tubular growth** and **basement membrane-like hyaline pseudocysts** in a basaloid salivary neoplasm. Focal chondromyxoid stroma raises consideration of **carcinoma ex pleomorphic adenoma**, but unequivocal residual benign pleomorphic adenoma is not established in the reviewed regions. **Basal cell adenocarcinoma** is less favored because the pervasive hyaline pseudocystic cribriform pattern is more characteristic of ACC.",
+  "num_rois": 65,
+  "tiles": [
+    {
+      "roi_id": "slide_A_x8192_y8192_mag5",
+      "tile_id": "slide_A_x8192_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with areas of hyalinization and scattered clear spaces. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is Pleomorphic Adenoma. Differential diagnoses include Myoepithelioma and Adenoid Cystic Carcinoma, which can also show spindle cell morphology and hyalinization, but typically have different architectural patterns and cellular features.",
+      "rationale": "Left-superior lobules to assess architecture and septation."
+    },
+    {
+      "roi_id": "slide_A_x24576_y16384_mag1",
+      "tile_id": "slide_A_x24576_y16384_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 24576,
+      "y": 16384,
+      "level0": {
+        "x": 24576,
+        "y": 16384,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a neoplasm with a nodular growth pattern composed of cells with abundant eosinophilic cytoplasm and round nuclei, arranged in nests and cords. There is also a component of cystic and glandular structures.\n\nThe most likely diagnosis is Acinic Cell Carcinoma.\n\nDifferential diagnoses include Mucoepidermoid Carcinoma, which typically shows a mixture of mucous, intermediate, and epidermoid cells, and Pleomorphic Adenoma, which would have a prominent chondromyxoid stromal component.",
+      "rationale": "Global low-power survey of lobulation/septa and any capsule/invasion."
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag2",
+      "tile_id": "slide_A_x8192_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with areas of hyalinization and myxoid change. The surface is irregular and ulcerated.\n\nThe most likely diagnosis is a pleomorphic adenoma with malignant transformation (carcinoma ex pleomorphic adenoma).\n\nDifferential diagnoses include:\n- Pleomorphic adenoma: typically lacks the cellular atypia and infiltrative growth seen here.\n- Myoepithelioma: usually lacks the chondromyxoid stromal component and the infiltrative pattern.",
+      "rationale": "Left-sided lobules—assess border/capsule and lobulation"
+    },
+    {
+      "roi_id": "slide_A_x22528_y8192_mag5",
+      "tile_id": "slide_A_x22528_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 22528,
+      "y": 8192,
+      "level0": {
+        "x": 22528,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a neoplasm with a mixed architectural pattern, including tubular and cribriform structures, composed of cells with eosinophilic cytoplasm and round to oval nuclei. The stroma is fibrous and contains areas of hemorrhage.\n\nThe most likely diagnosis is Adenoid Cystic Carcinoma.\n\nDifferential diagnoses include Polymorphous Adenocarcinoma, which typically shows a more uniform architectural pattern and lacks the prominent cribriform areas, and Basal Cell Adenoma, which is usually well-circumscribed and lacks the infiltrative growth pattern seen here.",
+      "rationale": "Central-superior area with prominent septa for possible invasion/PVI."
+    },
+    {
+      "roi_id": "slide_A_x32768_y8192_mag2",
+      "tile_id": "slide_A_x32768_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 32768,
+      "y": 8192,
+      "level0": {
+        "x": 32768,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a neoplasm with a prominent cribriform pattern and tubular structures, along with areas of necrosis and hemorrhage. The tumor infiltrates surrounding tissues, including bone.\n\nThe most likely diagnosis is adenoid cystic carcinoma. Differential diagnoses include polymorphous adenocarcinoma and basal cell adenocarcinoma, which can also show cribriform patterns but typically lack the prominent tubular structures and infiltrative growth seen here.",
+      "rationale": "Assess superior-right lobulated area for different histology/necrosis."
+    },
+    {
+      "roi_id": "slide_A_x34816_y12288_mag5",
+      "tile_id": "slide_A_x34816_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 34816,
+      "y": 12288,
+      "level0": {
+        "x": 34816,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a neoplasm with a prominent cribriform pattern and nests of cells with clear cytoplasm, separated by fibrous stroma. The tumor infiltrates bone and soft tissue.\n\nThe most likely diagnosis is adenoid cystic carcinoma.\n\nDifferential diagnoses include pleomorphic adenoma, which typically shows a mixture of epithelial and myoepithelial cells in a chondromyxoid stroma, and basal cell adenoma, which is usually well-circumscribed and lacks the infiltrative growth pattern seen here.",
+      "rationale": "Right-superior lobulated tumor for representative cellularity."
+    },
+    {
+      "roi_id": "slide_A_x32768_y28672_mag2",
+      "tile_id": "slide_A_x32768_y28672_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 32768,
+      "y": 28672,
+      "level0": {
+        "x": 32768,
+        "y": 28672,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a neoplasm with a biphasic pattern, featuring both epithelial and mesenchymal components. The epithelial component forms ducts and nests, while the mesenchymal component is chondromyxoid.",
+      "rationale": "Assess inferior-right area where possible cystic/hemorrhagic change suggested on thumbnail."
+    },
+    {
+      "roi_id": "slide_A_x36864_y8192_mag2",
+      "tile_id": "slide_A_x36864_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 36864,
+      "y": 8192,
+      "level0": {
+        "x": 36864,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a neoplasm with a mixed architectural pattern including tubular, cribriform, and solid areas, infiltrating bone and soft tissue. The tumor cells are relatively uniform with eosinophilic cytoplasm and round to oval nuclei.\n\nThe most likely diagnosis is adenoid cystic carcinoma. This diagnosis is supported by the characteristic mixed architectural patterns (tubular, cribriform, solid) and the infiltrative growth into bone and soft tissue. The relatively uniform cytology is also typical. Differential diagnoses include polymorphous adenocarcinoma, which can have similar architectural patterns but typically lacks the prominent cribriform pattern and perineural invasion seen in adenoid cystic carcinoma. Basal cell adenocarcinoma is another consideration, but it usually shows more basaloid cells and lacks the cribriform pattern.",
+      "rationale": "Right upper lobules—check for infiltrative edges, stromal type"
+    },
+    {
+      "roi_id": "slide_A_x12288_y24576_mag5",
+      "tile_id": "slide_A_x12288_y24576_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 12288,
+      "y": 24576,
+      "level0": {
+        "x": 12288,
+        "y": 24576,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a transition from a cellular area with nests and cords of cells in a fibrous stroma to a less cellular area with abundant eosinophilic, hyalinized stroma and scattered cells. The cellular component exhibits nuclear pleomorphism and hyperchromasia.\n\nThe morphologic features are consistent with a pleomorphic adenoma, a common benign salivary gland tumor. The presence of both epithelial and stromal components, with the stromal component showing hyalinization, is characteristic. The cellular pleomorphism and hyperchromasia are likely reactive changes within the tumor. Differential diagnoses include myoepithelioma, which is composed predominantly of myoepithelial cells, and adenoid cystic carcinoma, which typically shows cribriform or tubular patterns and perineural invasion.",
+      "rationale": "Left-inferior region; look for myxoid/hyaline matrix or cystic change."
+    },
+    {
+      "roi_id": "slide_A_x32768_y24576_mag2",
+      "tile_id": "slide_A_x32768_y24576_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 32768,
+      "y": 24576,
+      "level0": {
+        "x": 32768,
+        "y": 24576,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a neoplasm with a biphasic pattern, featuring both solid cellular areas and cystic/glandular structures within a fibrous stroma. The cellular component consists of cells with eosinophilic cytoplasm and round nuclei, while the cystic areas contain eosinophilic material.\n\nThe most likely diagnosis is Pleomorphic Adenoma. This diagnosis is supported by the biphasic morphology, featuring both epithelial and myoepithelial components within a stromal background. The presence of solid cellular areas and cystic/glandular structures is characteristic of this tumor type.\n\nDifferential diagnoses to consider include Adenoid Cystic Carcinoma, which can also show a biphasic pattern with cribriform architecture, and Basal Cell Adenoma, which typically presents as a well-circumscribed tumor with basaloid cells. However, the presence of a prominent stromal component and the specific cellular morphology in this case are more consistent with Pleomorphic Adenoma.",
+      "rationale": "Right lower aspect—look for satellite nodules/edge behavior"
+    },
+    {
+      "roi_id": "slide_A_x30720_y26624_mag5",
+      "tile_id": "slide_A_x30720_y26624_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 30720,
+      "y": 26624,
+      "level0": {
+        "x": 30720,
+        "y": 26624,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a biphasic neoplasm with epithelial and mesenchymal components. The epithelial component forms nests and cords, while the mesenchymal component is chondromyxoid with cells in lacunae.\n\nThe most likely diagnosis is pleomorphic adenoma. Differential diagnoses include myoepithelioma, which lacks the chondromyxoid stroma, and adenoid cystic carcinoma, which typically shows cribriform architecture and perineural invasion.",
+      "rationale": "Right-inferior region; look for necrosis, capsule/periphery, nerves/vessels."
+    },
+    {
+      "roi_id": "slide_A_x24576_y16384_mag5",
+      "tile_id": "slide_A_x24576_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 24576,
+      "y": 16384,
+      "level0": {
+        "x": 24576,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a neoplasm with a prominent cribriform pattern composed of nests of cells forming pseudocysts containing eosinophilic material, separated by fibrous stroma. The tumor infiltrates surrounding tissues.\n\nThe most likely diagnosis is Adenoid Cystic Carcinoma.\n\nDifferential diagnoses include Polymorphous Adenocarcinoma, which typically shows a more varied architectural pattern and lacks the prominent cribriform pattern with pseudocysts, and Basal Cell Adenoma, which is usually well-circumscribed and lacks the infiltrative growth seen here.",
+      "rationale": "Central ROI to confirm cell type (acinic vs oncocytic vs myoepithelial) and architecture."
+    },
+    {
+      "roi_id": "slide_A_x20480_y20480_mag2",
+      "tile_id": "slide_A_x20480_y20480_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 20480,
+      "y": 20480,
+      "level0": {
+        "x": 20480,
+        "y": 20480,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a transition from normal salivary gland tissue to a neoplasm composed of nests and cords of cells with eosinophilic cytoplasm and prominent intracellular and extracellular hyaline material. The tumor infiltrates the surrounding tissue.\n\nThe most likely diagnosis is Hyalinizing Clear Cell Carcinoma.\n\nDifferential diagnoses include Acinic Cell Carcinoma, which typically shows cells with granular cytoplasm and lacks the prominent hyaline material, and Mucoepidermoid Carcinoma, which contains mucous, intermediate, and epidermoid cells.",
+      "rationale": "Central broad fibrous band—assess septa and any vascular/duct structures"
+    },
+    {
+      "roi_id": "slide_A_x7168_y8192_mag10",
+      "tile_id": "slide_A_x7168_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 7168,
+      "y": 8192,
+      "level0": {
+        "x": 7168,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a neoplasm with a prominent myxoid stroma containing scattered epithelial cells arranged in cords and nests. The cells have small, hyperchromatic nuclei and scant cytoplasm.\n\nThe most likely diagnosis is Adenoid Cystic Carcinoma.\n\nDifferential diagnoses include Pleomorphic Adenoma, which typically shows a more varied stroma with chondromyxoid or hyaline areas and larger, more pleomorphic epithelial cells, and Polymorphous Adenocarcinoma, which usually has a more infiltrative growth pattern and less prominent myxoid stroma.",
+      "rationale": "Left ROI to evaluate for pleomorphic adenoma stroma/myoepithelial cells and any malignant transformation."
+    },
+    {
+      "roi_id": "slide_A_x22528_y8192_mag10",
+      "tile_id": "slide_A_x22528_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 22528,
+      "y": 8192,
+      "level0": {
+        "x": 22528,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a neoplasm with a prominent cribriform pattern composed of nests and cords of basaloid cells surrounding pseudocysts containing eosinophilic material. The cells have scant cytoplasm and hyperchromatic nuclei.\n\nThe most likely diagnosis is Adenoid Cystic Carcinoma.\n\nDifferential diagnoses include Polymorphous Adenocarcinoma, which typically shows a more varied architectural pattern and lacks the prominent cribriform pattern with hyaline globules, and Basal Cell Adenoma, which is usually well-circumscribed and lacks the infiltrative growth and cribriform pattern seen here.",
+      "rationale": "Cribriform/tubular area—define architecture and stromal material."
+    },
+    {
+      "roi_id": "slide_A_x32768_y8192_mag10",
+      "tile_id": "slide_A_x32768_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 32768,
+      "y": 8192,
+      "level0": {
+        "x": 32768,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords within a prominent hyalinized stroma. The cells have round to oval nuclei and moderate eosinophilic cytoplasm, with some areas showing a cribriform pattern.\n\nThe most likely diagnosis is Pleomorphic Adenoma. This diagnosis is supported by the characteristic biphasic pattern of epithelial/myoepithelial cells in nests and cords within a chondromyxoid or hyalinized stroma, which is typical for this benign salivary gland tumor. The clinical history of a persistent mass in the parotid region is also consistent with this diagnosis.\n\nDifferential diagnoses to consider include Adenoid Cystic Carcinoma, which can also show a cribriform pattern and hyalinized stroma, but typically exhibits more infiltrative growth and perineural invasion. Basal Cell Adenoma is another consideration, but it usually lacks the prominent chondromyxoid stroma seen here.",
+      "rationale": "Superior-right ROI to assess cribriform/tubular basaloid tumor and check for hyaline globules/perineural invasion."
+    },
+    {
+      "roi_id": "slide_A_x34816_y12288_mag10",
+      "tile_id": "slide_A_x34816_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 34816,
+      "y": 12288,
+      "level0": {
+        "x": 34816,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords within a prominent hyalinized stroma. The cells have small, hyperchromatic nuclei and scant cytoplasm, with scattered clear spaces.\n\nThe most likely diagnosis is Adenoid Cystic Carcinoma.\n\nDifferential diagnoses include Pleomorphic Adenoma, which typically shows a more prominent chondromyxoid stroma and a mixture of epithelial and myoepithelial cells, and Basal Cell Adenoma, which is usually well-circumscribed and lacks the prominent hyalinized stroma and infiltrative pattern seen here.",
+      "rationale": "Cribriform nests with reported infiltration—assess interface and possible bone."
+    },
+    {
+      "roi_id": "slide_A_x8192_y24576_mag1",
+      "tile_id": "slide_A_x8192_y24576_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 8192,
+      "y": 24576,
+      "level0": {
+        "x": 8192,
+        "y": 24576,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a neoplasm with a lobulated architecture, composed of nests and cords of cells with eosinophilic cytoplasm and round nuclei, separated by fibrous stroma. Areas of necrosis and cystic change are also present.\n\nThe most likely diagnosis is Pleomorphic Adenoma.\n\nDifferential diagnoses include Adenoid Cystic Carcinoma, which typically shows cribriform and tubular patterns with hyaline globules, and Basal Cell Adenoma, which is composed of basaloid cells in various patterns.",
+      "rationale": "Scan left-lower quadrant for overall border/capsule and any bone/soft tissue interface"
+    },
+    {
+      "roi_id": "slide_A_x32768_y28672_mag10",
+      "tile_id": "slide_A_x32768_y28672_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 32768,
+      "y": 28672,
+      "level0": {
+        "x": 32768,
+        "y": 28672,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a biphasic neoplasm with a chondromyxoid stromal component and an epithelial component forming ducts and nests. The epithelial cells have round to oval nuclei and moderate cytoplasm.\n\nThe most likely diagnosis is pleomorphic adenoma.\n\nDifferential diagnoses include myoepithelioma, which would lack the epithelial component, and adenoid cystic carcinoma, which typically shows cribriform architecture and perineural invasion.",
+      "rationale": "Inferior-right ROI with mixed epithelial-stromal appearance; assess for true chondromyxoid stroma vs pseudocysts."
+    },
+    {
+      "roi_id": "slide_A_x8192_y9216_mag10",
+      "tile_id": "slide_A_x8192_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 8192,
+      "y": 9216,
+      "level0": {
+        "x": 8192,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle and epithelioid cells within a prominent myxoid stroma, featuring numerous clear spaces and scattered calcifications. The cells exhibit mild to moderate nuclear pleomorphism.\n\nThe most likely diagnosis is Pleomorphic Adenoma, a common benign salivary gland tumor characterized by a mixture of epithelial and myoepithelial cells in a chondromyxoid stroma.\n\nDifferential diagnoses include Myoepithelioma, which is composed predominantly of myoepithelial cells and lacks the ductal epithelial component, and Myxoid Chondrosarcoma, which typically shows more pronounced nuclear atypia and lacks the characteristic epithelial/myoepithelial elements.",
+      "rationale": "Spindle/whorled area—assess myoepithelial component vs basaloid."
+    },
+    {
+      "roi_id": "slide_A_x38912_y14336_mag5",
+      "tile_id": "slide_A_x38912_y14336_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 38912,
+      "y": 14336,
+      "level0": {
+        "x": 38912,
+        "y": 14336,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a neoplasm with a mixed architectural pattern including tubular, cribriform, and solid areas, composed of cells with eosinophilic cytoplasm and round nuclei, within a fibrous stroma. The cribriform spaces contain eosinophilic material.\n\nThe most likely diagnosis is Adenoid Cystic Carcinoma.\n\nDifferential diagnoses include Polymorphous Adenocarcinoma, which typically lacks the prominent cribriform pattern and perineural invasion, and Basal Cell Adenoma, which is usually well-circumscribed and lacks the infiltrative growth pattern seen here.",
+      "rationale": "Higher power low (5x) in right upper area where cribriform/tubular pattern suggested—confirm architecture at low power"
+    },
+    {
+      "roi_id": "slide_A_x30720_y26624_mag10",
+      "tile_id": "slide_A_x30720_y26624_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 30720,
+      "y": 26624,
+      "level0": {
+        "x": 30720,
+        "y": 26624,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a neoplasm with a biphasic pattern, featuring epithelial structures forming tubules and nests within a prominent stromal component that varies from myxoid to chondroid.",
+      "rationale": "Chondromyxoid-appearing stroma area—evaluate matrix and epithelial component."
+    },
+    {
+      "roi_id": "slide_A_x12288_y24576_mag10",
+      "tile_id": "slide_A_x12288_y24576_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 12288,
+      "y": 24576,
+      "level0": {
+        "x": 12288,
+        "y": 24576,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of basaloid cells arranged in nests and cords within a dense, hyalinized stroma. The cells have scant cytoplasm and hyperchromatic nuclei, with some nests showing peripheral palisading and central degeneration.\n\nThe most likely diagnosis is adenoid cystic carcinoma. The differential diagnosis includes basal cell adenoma, which typically lacks the infiltrative growth pattern and prominent stromal hyalinization seen here.",
+      "rationale": "Transition/hyalinized stroma—look for invasion or atypia."
+    },
+    {
+      "roi_id": "slide_A_x20480_y20480_mag5",
+      "tile_id": "slide_A_x20480_y20480_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 20480,
+      "y": 20480,
+      "level0": {
+        "x": 20480,
+        "y": 20480,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a transition from a cellular area with glandular structures to a dense, hyalinized stroma containing scattered spindle cells and numerous refractile crystalline structures. The glandular component exhibits a cribriform pattern.\n\nThe morphologic features are consistent with adenoid cystic carcinoma. The cribriform pattern and the presence of hyalinized stroma with refractile crystalline structures are characteristic findings. The infiltrative growth pattern into bone and soft tissues is also typical of this tumor type. Differential diagnoses to consider include pleomorphic adenoma, which can have a similar biphasic appearance but typically lacks the infiltrative growth and prominent cribriform pattern, and basal cell adenoma, which is usually well-circumscribed and lacks the cribriform pattern and stromal hyalinization.",
+      "rationale": "5x over central fibrous septum to evaluate stromal characteristics and duct-like spaces"
+    },
+    {
+      "roi_id": "slide_A_x12288_y26624_mag5",
+      "tile_id": "slide_A_x12288_y26624_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 12288,
+      "y": 26624,
+      "level0": {
+        "x": 12288,
+        "y": 26624,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a transition from a cellular area with nests and cords of cells in a hyalinized stroma to a less cellular, hyalinized area with scattered cells and calcifications. The cellular component exhibits a cribriform pattern.\n\nThe most likely diagnosis is Adenoid Cystic Carcinoma.\n\nDifferential diagnoses include Polymorphous Adenocarcinoma, which typically lacks the prominent cribriform pattern and hyalinized stroma, and Basal Cell Adenoma, which is usually well-circumscribed and lacks the infiltrative growth pattern and stromal hyalinization seen here.",
+      "rationale": "Large left-inferior lobule not yet sampled at higher power; look for cystic/mucous/epidermoid elements (MEC) or solid basaloid."
+    },
+    {
+      "roi_id": "slide_A_x28672_y22528_mag10",
+      "tile_id": "slide_A_x28672_y22528_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 28672,
+      "y": 22528,
+      "level0": {
+        "x": 28672,
+        "y": 22528,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a neoplasm with a mixed growth pattern including tubular, cribriform, and solid areas within a prominent hyalinized stroma. The tumor cells have relatively uniform nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is Adenoid Cystic Carcinoma.\n\nDifferential diagnoses include Polymorphous Adenocarcinoma, which typically lacks the prominent hyalinized stroma and cribriform pattern seen here, and Basal Cell Adenoma, which is usually well-circumscribed and lacks the infiltrative growth pattern.",
+      "rationale": "Inferior-central/right lobules: assess for invasion, necrosis, perineural, cribriform vs myxoid stroma."
+    },
+    {
+      "roi_id": "slide_A_x32768_y30720_mag5",
+      "tile_id": "slide_A_x32768_y30720_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 32768,
+      "y": 30720,
+      "level0": {
+        "x": 32768,
+        "y": 30720,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular neoplasm with a prominent chondromyxoid matrix and areas of calcification. The tumor cells are arranged in nests and cords within the matrix, with some areas showing a more solid growth pattern.\n\nThe most likely diagnosis is Pleomorphic Adenoma. This diagnosis is supported by the presence of a chondromyxoid matrix, the arrangement of tumor cells in nests and cords, and the clinical presentation of a slow-growing mass in the head and neck region.\n\nDifferential diagnoses to consider include Myoepithelioma, which can also show a chondromyxoid matrix but typically lacks the epithelial component seen in pleomorphic adenoma. Another consideration is Chondrosarcoma, which would show more overtly malignant features and lack the epithelial component.",
+      "rationale": "5x right lower region—look for myxoid/chondroid stroma vs solid basaloid nests and necrosis"
+    },
+    {
+      "roi_id": "slide_A_x22528_y8192_mag20",
+      "tile_id": "slide_A_x22528_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 22528,
+      "y": 8192,
+      "level0": {
+        "x": 22528,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a neoplasm with a cribriform pattern composed of nests of basaloid cells surrounding spaces containing eosinophilic material. The cells have scant cytoplasm and hyperchromatic nuclei.\n\nThe most likely diagnosis is Adenoid Cystic Carcinoma.\n\nDifferential diagnoses include Polymorphous Adenocarcinoma, which typically shows a more varied architectural pattern and lacks the prominent cribriform spaces with hyaline material, and Basal Cell Adenoma, which is usually well-circumscribed and lacks the infiltrative growth pattern and cribriform architecture seen here.",
+      "rationale": "High-power cytology in classic cribriform/pseudocystic area."
+    },
+    {
+      "roi_id": "slide_A_x35840_y11264_mag10",
+      "tile_id": "slide_A_x35840_y11264_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 35840,
+      "y": 11264,
+      "level0": {
+        "x": 35840,
+        "y": 11264,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords within a prominent hyalinized stroma, with areas of cystic change and hemorrhage. The cells have small, hyperchromatic nuclei and scant cytoplasm.\n\nThe most likely diagnosis is Adenoid Cystic Carcinoma.\n\nDifferential diagnoses include Pleomorphic Adenoma, which typically shows a more prominent chondromyxoid stroma and a mixture of epithelial and myoepithelial cells, and Basal Cell Adenoma, which is usually well-circumscribed and lacks the prominent hyalinized stroma and cystic change seen here.",
+      "rationale": "Far right upper area: check for perineural invasion and bone involvement/hyaline globules."
+    },
+    {
+      "roi_id": "slide_A_x4096_y6144_mag5",
+      "tile_id": "slide_A_x4096_y6144_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 4096,
+      "y": 6144,
+      "level0": {
+        "x": 4096,
+        "y": 6144,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a low-power view of a head and neck tissue sample with a large, irregular mass. The mass is composed of a mixture of cellular and stromal elements, with areas of increased cellularity and stromal changes.\n\nThe most likely diagnosis is a pleomorphic adenoma. This diagnosis is supported by the presence of a mixed cellular and stromal component, which is characteristic of this benign salivary gland tumor. The irregular surface and infiltrative growth pattern seen in the gross description are also consistent with a pleomorphic adenoma.\n\nDifferential diagnoses to consider include a myoepithelioma, which can also present as a mixed cellular and stromal lesion, and a carcinoma ex pleomorphic adenoma, which would show areas of malignant transformation within a pleomorphic adenoma.",
+      "rationale": "5x left upper irregular surface—assess if ulcerated mucosa/skin and tumor relationship"
+    },
+    {
+      "roi_id": "slide_A_x34816_y12288_mag20",
+      "tile_id": "slide_A_x34816_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 34816,
+      "y": 12288,
+      "level0": {
+        "x": 34816,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of small cells with hyperchromatic nuclei and scant cytoplasm arranged in nests and cords within a prominent hyalinized stroma. The cells exhibit a basaloid appearance with peripheral palisading.\n\nThe most likely diagnosis is Adenoid Cystic Carcinoma.\n\nDifferential diagnoses include Basal Cell Adenoma and Pleomorphic Adenoma. Basal Cell Adenoma typically lacks the prominent hyalinized stroma and cribriform pattern seen here. Pleomorphic Adenoma would show a more prominent chondromyxoid stroma and a mixture of epithelial and myoepithelial cells.",
+      "rationale": "High-power in hyalinized stroma with basaloid nests; assess mitoses/necrosis."
+    },
+    {
+      "roi_id": "slide_A_x20992_y14848_mag20",
+      "tile_id": "slide_A_x20992_y14848_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20992,
+      "y": 14848,
+      "level0": {
+        "x": 20992,
+        "y": 14848,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a neoplasm with a cribriform pattern composed of nests of basaloid cells surrounding spaces containing eosinophilic material. The cells have hyperchromatic nuclei and scant cytoplasm, with peripheral palisading.\n\nThe most likely diagnosis is Adenoid Cystic Carcinoma.\n\nDifferential diagnoses include Polymorphous Adenocarcinoma, which typically shows a more varied architectural pattern and lacks the prominent cribriform spaces with hyaline material, and Basal Cell Adenoma, which is usually well-circumscribed and lacks the infiltrative growth pattern and cribriform architecture seen here.",
+      "rationale": "High power on cribriform pseudocysts area to confirm adenoid cystic features (basaloid cells, hyaline basement-membrane material) and mitoses."
+    },
+    {
+      "roi_id": "slide_A_x12288_y24576_mag20",
+      "tile_id": "slide_A_x12288_y24576_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 12288,
+      "y": 24576,
+      "level0": {
+        "x": 12288,
+        "y": 24576,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle and epithelioid cells within a dense, hyalinized stroma. Scattered psammoma bodies and areas of calcification are also present.\n\nThe most likely diagnosis is a pleomorphic adenoma with extensive stromal hyalinization and calcification.\n\nDifferential diagnoses include adenoid cystic carcinoma, which typically shows cribriform or tubular patterns and lacks the prominent hyalinized stroma and psammoma bodies seen here.",
+      "rationale": "Basaloid nests with palisading/degeneration—rule out basal cell adenoma vs ACC; check atypia."
+    },
+    {
+      "roi_id": "slide_A_x8192_y8704_mag20",
+      "tile_id": "slide_A_x8192_y8704_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 8192,
+      "y": 8704,
+      "level0": {
+        "x": 8192,
+        "y": 8704,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle and stellate cells within a prominent myxoid matrix, with scattered clear spaces. The cells have small, dark nuclei and scant cytoplasm.\n\nThe most likely diagnosis is a myxoid neoplasm, such as a myxoma or myxoid chondrosarcoma.\n\nDifferential diagnoses include myxoid liposarcoma, which would show lipoblasts, and myxofibrosarcoma, which would have more pleomorphism and curvilinear vessels.",
+      "rationale": "High power in myxoid-appearing region to distinguish true chondromyxoid stroma of PA vs ACC pseudocysts/myxoid change."
+    },
+    {
+      "roi_id": "slide_A_x30720_y26624_mag20",
+      "tile_id": "slide_A_x30720_y26624_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 30720,
+      "y": 26624,
+      "level0": {
+        "x": 30720,
+        "y": 26624,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a neoplasm with a biphasic pattern composed of epithelial and myoepithelial cells within a stromal background. The stroma is variable, including myxoid, chondroid, and hyalinized areas.\n\nThe most likely diagnosis is pleomorphic adenoma. This diagnosis is supported by the characteristic biphasic morphology with epithelial and myoepithelial components and the presence of diverse stromal elements. The clinical history of a slow-growing mass in the parotid gland also aligns with this diagnosis.\n\nDifferential diagnoses include adenoid cystic carcinoma, which typically shows cribriform or tubular patterns and lacks the prominent stromal diversity seen here, and myoepithelioma, which is composed predominantly of myoepithelial cells and may lack the epithelial component.",
+      "rationale": "Biphasic/myxochondroid-appearing area; look for true pleomorphic adenoma component vs hyaline pseudocysts."
+    },
+    {
+      "roi_id": "slide_A_x40960_y16384_mag5",
+      "tile_id": "slide_A_x40960_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 40960,
+      "y": 16384,
+      "level0": {
+        "x": 40960,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a neoplasm with a mixed architectural pattern, including cribriform and tubular structures, within a fibrous stroma. The cells are relatively uniform with scant cytoplasm and hyperchromatic nuclei.\n\nThe most likely diagnosis is Adenoid Cystic Carcinoma.\n\nDifferential diagnoses include Polymorphous Adenocarcinoma, which typically shows more varied architectural patterns and less prominent cribriform areas, and Basal Cell Adenoma, which is usually well-circumscribed and lacks the infiltrative growth pattern seen here.",
+      "rationale": "Map cribriform/tubular regions on right side for extent at low power"
+    },
+    {
+      "roi_id": "slide_A_x30720_y21504_mag10",
+      "tile_id": "slide_A_x30720_y21504_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 30720,
+      "y": 21504,
+      "level0": {
+        "x": 30720,
+        "y": 21504,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a neoplasm with a biphasic pattern composed of epithelial and myoepithelial cells within a stromal background, featuring cribriform, tubular, and solid growth patterns. The stroma is variable, including myxoid and hyalinized areas.\n\nThe most likely diagnosis is Pleomorphic Adenoma.\n\nDifferential diagnoses include Adenoid Cystic Carcinoma, which typically shows a more infiltrative growth pattern and lacks the prominent myxoid stroma seen here, and Basal Cell Adenoma, which is usually more circumscribed and lacks the stromal diversity of pleomorphic adenoma.",
+      "rationale": "Search septal/peripheral area for nerves/vessels (PVI/LVI)."
+    },
+    {
+      "roi_id": "slide_A_x30720_y12288_mag5",
+      "tile_id": "slide_A_x30720_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 30720,
+      "y": 12288,
+      "level0": {
+        "x": 30720,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a transition from normal salivary gland tissue to a neoplasm composed of nests and cords of cells with eosinophilic cytoplasm and round nuclei, embedded in a prominent hyalinized stroma. The tumor infiltrates bone and soft tissue.\n\nThe most likely diagnosis is Pleomorphic Adenoma with malignant transformation (Carcinoma ex Pleomorphic Adenoma).\n\nDifferential diagnoses include:\n- Adenoid Cystic Carcinoma: typically shows cribriform, tubular, and solid patterns with hyaline globules, often with perineural invasion.\n- Basal Cell Adenocarcinoma: characterized by nests and cords of basaloid cells with peripheral palisading and stromal retraction, often infiltrative.",
+      "rationale": "Assess upper-central lobules for ductal structures vs solid nests"
+    },
+    {
+      "roi_id": "slide_A_x12288_y18432_mag5",
+      "tile_id": "slide_A_x12288_y18432_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 12288,
+      "y": 18432,
+      "level0": {
+        "x": 12288,
+        "y": 18432,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a biphasic neoplasm with epithelial and mesenchymal components, including areas of chondroid matrix and calcification. The epithelial cells form nests and cords within a fibrous stroma.\n\nThe most likely diagnosis is pleomorphic adenoma. Differential diagnoses include adenoid cystic carcinoma, which typically shows cribriform architecture and perineural invasion, and myoepithelioma, which lacks the prominent chondroid matrix.",
+      "rationale": "Left central area—look for necrosis/cystic change and stromal pattern"
+    },
+    {
+      "roi_id": "slide_A_x33792_y16896_mag20",
+      "tile_id": "slide_A_x33792_y16896_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 33792,
+      "y": 16896,
+      "level0": {
+        "x": 33792,
+        "y": 16896,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a neoplasm with a cribriform pattern composed of nests of cells surrounding spaces containing pale, amorphous material. The cells have small, hyperchromatic nuclei and scant cytoplasm, with a prominent fibrous stroma.\n\nThe most likely diagnosis is Adenoid Cystic Carcinoma.\n\nDifferential diagnoses include Polymorphous Adenocarcinoma, which typically shows a more varied architectural pattern and lacks the prominent cribriform spaces with hyaline material, and Basal Cell Adenoma, which is usually well-circumscribed and lacks the infiltrative growth and cribriform pattern seen here.",
+      "rationale": "Sample additional right-upper/mid area for perineural invasion and solid ACC areas."
+    },
+    {
+      "roi_id": "slide_A_x27648_y14336_mag10",
+      "tile_id": "slide_A_x27648_y14336_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 27648,
+      "y": 14336,
+      "level0": {
+        "x": 27648,
+        "y": 14336,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords with a prominent cribriform pattern. The cells are small with hyperchromatic nuclei and scant cytoplasm, separated by abundant hyalinized stroma.\n\nThe most likely diagnosis is Adenoid Cystic Carcinoma.\n\nDifferential diagnoses include Polymorphous Adenocarcinoma, which typically shows more varied architectural patterns and less prominent hyalinized stroma, and Basal Cell Adenoma, which is usually well-circumscribed and lacks the infiltrative growth and prominent cribriform pattern seen here.",
+      "rationale": "Unexplored right-upper lobule near periphery—look for infiltrative edge/PNI."
+    },
+    {
+      "roi_id": "slide_A_x36864_y12800_mag20",
+      "tile_id": "slide_A_x36864_y12800_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 36864,
+      "y": 12800,
+      "level0": {
+        "x": 36864,
+        "y": 12800,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a neoplasm with a cribriform pattern composed of nests of cells surrounding spaces filled with eosinophilic hyaline material. The cells have small, hyperchromatic nuclei and scant cytoplasm, with a prominent hyalinized stroma.\n\nThe most likely diagnosis is Adenoid Cystic Carcinoma.\n\nDifferential diagnoses include Polymorphous Adenocarcinoma, which typically shows a more varied architectural pattern and lacks the prominent cribriform spaces filled with hyaline material. Basal Cell Adenoma can also have a cribriform pattern but usually lacks the infiltrative growth and prominent hyaline material seen here.",
+      "rationale": "Edge of tumor where invasion suspected; look for infiltrative tongues, bone/soft tissue invasion."
+    },
+    {
+      "roi_id": "slide_A_x32768_y20480_mag2",
+      "tile_id": "slide_A_x32768_y20480_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 32768,
+      "y": 20480,
+      "level0": {
+        "x": 32768,
+        "y": 20480,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a neoplasm with a lobulated architecture separated by fibrous septa. The tumor cells are arranged in nests and cords within a prominent hyalinized stroma, with some areas showing cystic spaces.\n\nThe most likely diagnosis is Pleomorphic Adenoma. This diagnosis is supported by the characteristic biphasic pattern of epithelial/myoepithelial cells within a chondromyxoid or hyalinized stroma, often arranged in nests and cords. The lobulated architecture and prominent stromal component are also typical features.\n\nDifferential diagnoses to consider include Adenoid Cystic Carcinoma, which can also show a cribriform pattern and hyalinized stroma, but typically has more infiltrative growth and perineural invasion. Basal Cell Adenoma is another consideration, but it usually lacks the prominent chondromyxoid stroma seen here.",
+      "rationale": "Right mid area—search for bone trabeculae/entrapment at interface"
+    },
+    {
+      "roi_id": "slide_A_x40960_y14336_mag10",
+      "tile_id": "slide_A_x40960_y14336_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 40960,
+      "y": 14336,
+      "level0": {
+        "x": 40960,
+        "y": 14336,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a neoplasm with a mixed growth pattern including tubular and cribriform structures within a fibrous stroma. The cells are relatively uniform with round to oval nuclei and scant cytoplasm, and some lumens contain eosinophilic material.\n\nThe most likely diagnosis is Adenoid Cystic Carcinoma.\n\nDifferential diagnoses include Polymorphous Adenocarcinoma, which typically shows a more varied architectural pattern and often lacks the prominent cribriform areas, and Basal Cell Adenoma, which is usually well-circumscribed and lacks the infiltrative growth and perineural invasion often seen in Adenoid Cystic Carcinoma.",
+      "rationale": "Far right edge—search for capsule breach, soft tissue/bone interface, vessels/nerves."
+    },
+    {
+      "roi_id": "slide_A_x11776_y10240_mag20",
+      "tile_id": "slide_A_x11776_y10240_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 11776,
+      "y": 10240,
+      "level0": {
+        "x": 11776,
+        "y": 10240,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular neoplasm with a prominent myxoid stroma and scattered cells, including some with eosinophilic cytoplasm. The tumor infiltrates bone and soft tissues.\n\nThe most likely diagnosis is myoepithelioma. Differential diagnoses include pleomorphic adenoma, which typically has a more prominent chondromyxoid stroma and epithelial components, and myxoid chondrosarcoma, which would show more overtly malignant features and a different growth pattern.",
+      "rationale": "Left upper region to confirm whether myxoid area is PA stroma vs ACC with stromal myxoid change."
+    },
+    {
+      "roi_id": "slide_A_x16384_y28672_mag2",
+      "tile_id": "slide_A_x16384_y28672_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 16384,
+      "y": 28672,
+      "level0": {
+        "x": 16384,
+        "y": 28672,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a transition from normal salivary gland tissue to a neoplasm composed of nests and cords of cells with eosinophilic cytoplasm and round nuclei, embedded in a prominent hyalinized stroma. The tumor infiltrates surrounding tissues.\n\nThe most likely diagnosis is Pleomorphic Adenoma. The differential diagnosis includes Adenoid Cystic Carcinoma, which typically shows cribriform and tubular patterns with more infiltrative growth and perineural invasion.",
+      "rationale": "Left lower edge—assess margin for infiltration vs pushing and any capsule"
+    },
+    {
+      "roi_id": "slide_A_x25600_y31744_mag10",
+      "tile_id": "slide_A_x25600_y31744_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 25600,
+      "y": 31744,
+      "level0": {
+        "x": 25600,
+        "y": 31744,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a neoplasm with a biphasic pattern composed of epithelial and mesenchymal components, including chondromyxoid stroma and areas of necrosis.",
+      "rationale": "Lower central-right periphery—possible invasion and neurovascular bundles."
+    },
+    {
+      "roi_id": "slide_A_x14848_y27136_mag20",
+      "tile_id": "slide_A_x14848_y27136_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 14848,
+      "y": 27136,
+      "level0": {
+        "x": 14848,
+        "y": 27136,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells within a prominent myxoid stroma, featuring numerous scattered clear spaces and a swirling pattern. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is Pleomorphic Adenoma, a common benign salivary gland tumor characterized by a mixture of epithelial and myoepithelial cells in a chondromyxoid stroma.\n\nDifferential diagnoses include Myoepithelioma, which is composed predominantly of myoepithelial cells and lacks the epithelial component, and Myxoid Neurofibroma, which typically shows wavy nuclei and lacks the epithelial/myoepithelial elements.",
+      "rationale": "Left lower area to exclude mucoepidermoid (mucocytes) or acinic cell carcinoma."
+    },
+    {
+      "roi_id": "slide_A_x15360_y30720_mag10",
+      "tile_id": "slide_A_x15360_y30720_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 15360,
+      "y": 30720,
+      "level0": {
+        "x": 15360,
+        "y": 30720,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a neoplasm with a prominent cribriform pattern composed of nests of cells surrounding pseudocysts containing eosinophilic material, set within a fibrous stroma. The cells are relatively uniform with small, hyperchromatic nuclei.\n\nThe most likely diagnosis is Adenoid Cystic Carcinoma.\n\nDifferential diagnoses include Polymorphous Adenocarcinoma, which typically shows a more varied architectural pattern and lacks the prominent cribriform pattern with hyaline material, and Basal Cell Adenoma, which is usually well-circumscribed and lacks the infiltrative growth and cribriform pattern seen here.",
+      "rationale": "Lower left-central region—look for necrosis, atypical solid areas."
+    },
+    {
+      "roi_id": "slide_A_x22528_y16384_mag20",
+      "tile_id": "slide_A_x22528_y16384_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 22528,
+      "y": 16384,
+      "level0": {
+        "x": 22528,
+        "y": 16384,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a neoplasm with a prominent cribriform pattern composed of nests of basaloid cells surrounding spaces filled with eosinophilic hyaline material. The cells have small, hyperchromatic nuclei and scant cytoplasm.\n\nThe most likely diagnosis is Adenoid Cystic Carcinoma.\n\nDifferential diagnoses include Polymorphous Adenocarcinoma, which typically shows a more varied architectural pattern and lacks the prominent cribriform spaces with hyaline material, and Basal Cell Adenoma, which is usually well-circumscribed and lacks the infiltrative growth and cribriform pattern seen here.",
+      "rationale": "High power in septal area to identify perineural/lymphovascular invasion."
+    },
+    {
+      "roi_id": "slide_A_x40960_y4096_mag2",
+      "tile_id": "slide_A_x40960_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 40960,
+      "y": 4096,
+      "level0": {
+        "x": 40960,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular neoplasm with a prominent cribriform pattern and nests of cells within a fibrous stroma. The tumor cells have round to oval nuclei and moderate cytoplasm, with some areas showing a more solid growth pattern.\n\nThe most likely diagnosis is Adenoid Cystic Carcinoma.\n\nDifferential diagnoses include Polymorphous Adenocarcinoma, which typically shows a more varied architectural pattern including tubular, solid, and cribriform areas, and often lacks the prominent hyaline globules seen in Adenoid Cystic Carcinoma. Basal Cell Adenoma can also show a cribriform pattern but usually has a more circumscribed border and lacks the infiltrative growth and perineural invasion often seen in Adenoid Cystic Carcinoma.",
+      "rationale": "Top-right edge—look for capsule vs infiltrative margin and any adjacent tissue/bone"
+    },
+    {
+      "roi_id": "slide_A_x40960_y32768_mag2",
+      "tile_id": "slide_A_x40960_y32768_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 40960,
+      "y": 32768,
+      "level0": {
+        "x": 40960,
+        "y": 32768,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a neoplasm with a lobulated architecture composed of nests and cords of cells within a prominent hyalinized stroma. The cells have eosinophilic cytoplasm and round to oval nuclei, with some areas showing cystic change.\n\nThe most likely diagnosis is Pleomorphic Adenoma. This diagnosis is supported by the characteristic biphasic pattern of epithelial/myoepithelial cells in a chondromyxoid or hyalinized stroma, which is typical for this benign salivary gland tumor. The lobulated architecture and the presence of hyalinized stroma are also consistent features.\n\nDifferential diagnoses to consider include Adenoid Cystic Carcinoma, which can also show a cribriform pattern and hyalinized stroma, but typically has more infiltrative growth and perineural invasion. Basal Cell Adenoma is another consideration, but it usually lacks the prominent chondromyxoid stroma seen here.",
+      "rationale": "Bottom-right edge—evaluate margin and search for bone trabeculae/entrapment"
+    },
+    {
+      "roi_id": "slide_A_x4096_y32768_mag2",
+      "tile_id": "slide_A_x4096_y32768_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 4096,
+      "y": 32768,
+      "level0": {
+        "x": 4096,
+        "y": 32768,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a neoplasm with a biphasic pattern, featuring cellular areas with nests and cords of cells and a prominent stromal component with chondromyxoid change. The tumor infiltrates bone and soft tissue.\n\nThe most likely diagnosis is pleomorphic adenoma. Differential diagnoses include myoepithelioma and adenoid cystic carcinoma, which can also show biphasic patterns but typically lack the prominent chondromyxoid stroma seen here.",
+      "rationale": "Bottom-left edge—assess margin and any host tissue reaction"
+    },
+    {
+      "roi_id": "slide_A_x25600_y31744_mag20",
+      "tile_id": "slide_A_x25600_y31744_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 25600,
+      "y": 31744,
+      "level0": {
+        "x": 25600,
+        "y": 31744,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of epithelioid cells with eosinophilic cytoplasm and vesicular nuclei, arranged in nests and cords within a prominent myxoid stroma. Scattered multinucleated giant cells are also present.\n\nThe most likely diagnosis is myoepithelioma. The presence of epithelioid cells in a myxoid background is characteristic. Differential diagnoses include pleomorphic adenoma, which typically shows a more prominent chondromyxoid stroma and ductal differentiation, and myxoid chondrosarcoma, which would show more overtly malignant features and a different stromal pattern.",
+      "rationale": "Clarify reported necrosis/myxoid change at this ROI; evaluate cytology and mitoses."
+    },
+    {
+      "roi_id": "slide_A_x8192_y16384_mag2",
+      "tile_id": "slide_A_x8192_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 8192,
+      "y": 16384,
+      "level0": {
+        "x": 8192,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a transition from normal salivary gland tissue to a neoplasm composed of nests and cords of cells within a prominent myxoid stroma, with areas of necrosis and hemorrhage.\n\nThe most likely diagnosis is a myoepithelial tumor of the salivary gland, such as myoepithelioma or myoepithelial carcinoma.\n\nDifferential diagnoses include pleomorphic adenoma, which typically shows a mixture of epithelial and myoepithelial components and chondromyxoid stroma, and adenoid cystic carcinoma, which often exhibits cribriform or tubular patterns and perineural invasion.",
+      "rationale": "Left mid—look for cystic/necrotic zones at low power"
+    },
+    {
+      "roi_id": "slide_A_x40960_y14336_mag20",
+      "tile_id": "slide_A_x40960_y14336_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 40960,
+      "y": 14336,
+      "level0": {
+        "x": 40960,
+        "y": 14336,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows nests and cords of basaloid cells with cribriform and tubular patterns within a dense fibrous stroma. The cells have scant cytoplasm and hyperchromatic nuclei, with some lumens containing eosinophilic material.\n\nThe most likely diagnosis is Adenoid Cystic Carcinoma.\n\nDifferential diagnoses include Polymorphous Adenocarcinoma, which typically shows more varied architectural patterns and less prominent cribriform areas, and Basal Cell Adenoma, which is usually well-circumscribed and lacks the infiltrative growth and prominent cribriform pattern seen here.",
+      "rationale": "High power at far right edge—look for PNI/LVI and infiltrative pattern."
+    },
+    {
+      "roi_id": "slide_A_x20480_y12288_mag2",
+      "tile_id": "slide_A_x20480_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 20480,
+      "y": 12288,
+      "level0": {
+        "x": 20480,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a neoplasm with a mixed pattern of tubular and cribriform structures, along with solid areas and cystic spaces containing eosinophilic material. The tumor infiltrates bone and soft tissue.\n\nThe most likely diagnosis is adenoid cystic carcinoma.\n\nDifferential diagnoses include pleomorphic adenoma, which typically shows a more prominent chondromyxoid stroma and lacks the infiltrative growth pattern, and basal cell adenoma, which is usually well-circumscribed and lacks the cribriform pattern.",
+      "rationale": "Upper central fibrous septa—check for hemorrhage/necrosis and overall pattern"
+    },
+    {
+      "roi_id": "slide_A_x27648_y14336_mag20",
+      "tile_id": "slide_A_x27648_y14336_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 27648,
+      "y": 14336,
+      "level0": {
+        "x": 27648,
+        "y": 14336,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords within a prominent hyalinized stroma. The cells have small, hyperchromatic nuclei and scant cytoplasm, with some areas showing clear cell change.\n\nThe most likely diagnosis is Adenoid Cystic Carcinoma.\n\nDifferential diagnoses include Pleomorphic Adenoma, which typically shows a more prominent chondromyxoid stroma and a mixture of epithelial and myoepithelial cells, and Basal Cell Adenoma, which is usually well-circumscribed and lacks the prominent hyalinized stroma and infiltrative growth pattern seen here.",
+      "rationale": "High power in cribriform basaloid nests—mitoses, atypia, luminal material."
+    },
+    {
+      "roi_id": "slide_A_x33792_y11776_mag20",
+      "tile_id": "slide_A_x33792_y11776_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 33792,
+      "y": 11776,
+      "level0": {
+        "x": 33792,
+        "y": 11776,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cystic structure lined by a single layer of cuboidal to low columnar epithelium with basally oriented nuclei and eosinophilic cytoplasm, surrounded by dense fibrous stroma. The lumen contains amorphous eosinophilic material.\n\nThe most likely diagnosis is a salivary duct cyst. The differential diagnosis includes a mucocele, which typically shows a lining of granulation tissue and mucin within the lumen, and a cystic neoplasm, which would show more complex architecture and cellular atypia.",
+      "rationale": "Area earlier suggested bone invasion—confirm presence of bone/osteoid and invasion."
+    },
+    {
+      "roi_id": "slide_A_x15360_y30720_mag20",
+      "tile_id": "slide_A_x15360_y30720_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 15360,
+      "y": 30720,
+      "level0": {
+        "x": 15360,
+        "y": 30720,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a neoplasm with a prominent cribriform pattern composed of nests of cells surrounding pseudocysts filled with eosinophilic material, embedded in a hyalinized stroma. The cells have small, hyperchromatic nuclei.\n\nThe most likely diagnosis is Adenoid Cystic Carcinoma.\n\nDifferential diagnoses include Polymorphous Adenocarcinoma, which typically shows a more infiltrative growth pattern and lacks the prominent cribriform architecture, and Basal Cell Adenoma, which is usually well-circumscribed and lacks the infiltrative growth and cribriform pattern seen here.",
+      "rationale": "Another cribriform area—check for comedonecrosis/solid high-grade change."
+    },
+    {
+      "roi_id": "slide_A_x36864_y4096_mag2",
+      "tile_id": "slide_A_x36864_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 36864,
+      "y": 4096,
+      "level0": {
+        "x": 36864,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a neoplasm with a mixed pattern of tubular and solid areas, infiltrating surrounding tissue. The cells are relatively uniform with eosinophilic cytoplasm and round nuclei, and there is associated stromal reaction and hemorrhage.\n\nThe most likely diagnosis is Adenoid Cystic Carcinoma. This diagnosis is supported by the characteristic mixed tubular and solid growth patterns, the relatively uniform cell morphology, and the infiltrative nature of the tumor. The presence of stromal reaction and hemorrhage is also consistent with this entity.\n\nDifferential diagnoses to consider include Polymorphous Adenocarcinoma, which can also show a mixed pattern but typically has more varied architectural patterns and less prominent stromal reaction. Basal Cell Adenocarcinoma is another possibility, but it usually lacks the prominent tubular and solid patterns seen here.",
+      "rationale": "Right upper periphery—search for bone trabeculae/cartilage and evaluate invasion at edge"
+    },
+    {
+      "roi_id": "slide_A_x6144_y32768_mag5",
+      "tile_id": "slide_A_x6144_y32768_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 6144,
+      "y": 32768,
+      "level0": {
+        "x": 6144,
+        "y": 32768,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a transition from a cellular area with nests and cords of cells to a large area of extensive necrosis and hyalinization. The cellular component exhibits pleomorphic cells with eosinophilic cytoplasm and hyperchromatic nuclei.\n\nThe most likely diagnosis is a high-grade malignant neoplasm, such as a carcinoma, given the cellular pleomorphism and extensive necrosis. Differential diagnoses include other high-grade malignancies like sarcoma or melanoma, which can also present with pleomorphic cells and necrosis.",
+      "rationale": "Bottom-left edge at higher low-power—look for infiltrative tongues into host tissue/bone"
+    },
+    {
+      "roi_id": "slide_A_x36864_y30720_mag5",
+      "tile_id": "slide_A_x36864_y30720_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 36864,
+      "y": 30720,
+      "level0": {
+        "x": 36864,
+        "y": 30720,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a neoplasm with a lobulated architecture separated by fibrous septa. The tumor cells are arranged in nests and cords within a prominent myxoid stroma, with some areas showing a cribriform pattern.\n\nThe most likely diagnosis is Pleomorphic Adenoma. This diagnosis is supported by the characteristic lobulated growth pattern, the presence of a prominent myxoid stroma, and the arrangement of tumor cells in nests and cords. The cribriform pattern is also a feature that can be seen in pleomorphic adenomas.\n\nDifferential diagnoses to consider include Adenoid Cystic Carcinoma, which can also show a cribriform pattern and infiltrative growth, and Myoepithelioma, which can have a similar stromal component. However, the overall architecture and cellular morphology in this image are more consistent with a pleomorphic adenoma.",
+      "rationale": "Bottom-right edge—check for bone involvement and pattern at interface"
+    },
+    {
+      "roi_id": "slide_A_x26624_y16384_mag5",
+      "tile_id": "slide_A_x26624_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 26624,
+      "y": 16384,
+      "level0": {
+        "x": 26624,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a neoplasm with a prominent cribriform pattern and tubular structures, composed of cells with eosinophilic cytoplasm and round nuclei, separated by fibrous stroma. The tumor infiltrates adjacent skeletal muscle and salivary gland tissue.\n\nThe most likely diagnosis is Adenoid Cystic Carcinoma.\n\nDifferential diagnoses include Polymorphous Adenocarcinoma, which typically shows a more varied architectural pattern and lacks the prominent cribriform component, and Basal Cell Adenoma, which is usually well-circumscribed and lacks the infiltrative growth seen here.",
+      "rationale": "Central area near broad septum—look for entrapped skeletal muscle/adipose or bone"
+    },
+    {
+      "roi_id": "slide_A_x12288_y12288_mag5",
+      "tile_id": "slide_A_x12288_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 12288,
+      "y": 12288,
+      "level0": {
+        "x": 12288,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a transition from a cellular area with nests and cords of cells in a fibrous stroma to a less cellular area with abundant hyalinized stroma and scattered cells. The cellular component exhibits nuclear pleomorphism and hyperchromasia.\n\nThe morphologic features are consistent with a pleomorphic adenoma, a common benign salivary gland tumor. The presence of both epithelial and stromal components, along with the described cellular and stromal variations, supports this diagnosis. Differential diagnoses include adenoid cystic carcinoma, which typically shows cribriform or tubular patterns and perineural invasion, and myoepithelioma, which is composed predominantly of myoepithelial cells.",
+      "rationale": "Left upper quadrant—check for residual normal gland and infiltrative border"
+    }
+  ]
+}

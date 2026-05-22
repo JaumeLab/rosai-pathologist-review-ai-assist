@@ -1,0 +1,541 @@
+{
+  "case_id": "sem1454_case9",
+  "source": "slideseek-ai-assist",
+  "model": "gpt-5.4",
+  "generated_at": "2026-05-22T09:27:00.634272+00:00",
+  "organ": "Head-Neck",
+  "primary_dx": "Cardiac Myxoma With Prominent Hemorrhage/Blood Lakes And Focal Surface Thrombus",
+  "differential_dx": [
+    "Organizing Mural Thrombus / Organized Hematoma",
+    "Papillary Fibroelastoma"
+  ],
+  "microscopic_findings": [
+    {
+      "text": "Hypocellular lesion of bland **stellate and spindle cells** in abundant **myxoid/hyalinized stroma**.",
+      "roi_ids": [
+        "slide_A_x52224_y3584_mag20",
+        "slide_A_x15360_y24576_mag20"
+      ]
+    },
+    {
+      "text": "Prominent **hemorrhagic blood lakes** and entrapped erythrocytes create a **spongy stromal appearance**.",
+      "roi_ids": [
+        "slide_A_x16384_y24576_mag10",
+        "slide_A_x25600_y31232_mag20"
+      ]
+    },
+    {
+      "text": "Scattered **irregular vascular channels** are present within the myxoid matrix around bland lesional cells.",
+      "roi_ids": [
+        "slide_A_x17408_y26112_mag20"
+      ]
+    },
+    {
+      "text": "Surface shows **fibrin-rich thrombus** with mild **organization/inflammation** superimposed on the lesion.",
+      "roi_ids": [
+        "slide_A_x47104_y9216_mag20",
+        "slide_A_x14848_y23552_mag20"
+      ]
+    }
+  ],
+  "interpretation": "The findings support **cardiac myxoma**, showing a **hypocellular myxoid neoplasm** of bland stellate/spindle cells with irregular vascular spaces and conspicuous hemorrhagic blood lakes. The focal surface fibrin and organizing clot are best interpreted as **superimposed thrombus** rather than the entirety of the lesion. An organizing mural thrombus is less favored because there is bona fide lesional myxoid stroma with embedded bland tumor cells. **Papillary fibroelastoma** is excluded by the absence of true papillary fronds with fibroelastic cores.",
+  "num_rois": 31,
+  "tiles": [
+    {
+      "roi_id": "slide_A_x28672_y8192_mag2",
+      "tile_id": "slide_A_x28672_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 28672,
+      "y": 8192,
+      "level0": {
+        "x": 28672,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a mass composed of a myxoid matrix with scattered spindle cells and numerous clear spaces. The mass is attached to a dense fibrous structure.\n\nThe most likely diagnosis is a myxoma.\n\nDifferential diagnoses include myxoid liposarcoma, which typically shows lipoblasts and a more prominent plexiform vascular pattern, and myxoid chondrosarcoma, which would have chondrocytes within lacunae.",
+      "rationale": "Low-power overview of central portion of Region 0 to identify tissue type and dominant lesion."
+    },
+    {
+      "roi_id": "slide_A_x16384_y20480_mag2",
+      "tile_id": "slide_A_x16384_y20480_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 16384,
+      "y": 20480,
+      "level0": {
+        "x": 16384,
+        "y": 20480,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a large, irregular mass composed of interlacing bands of fibrous tissue with areas of hemorrhage and necrosis. The mass is attached to the atrial wall by a broad base.\n\nThe most likely diagnosis is a left atrial myxoma. Differential diagnoses include organizing thrombus, which typically lacks the prominent fibrous stroma and myxoid areas, and a papillary fibroelastoma, which is usually smaller and has a distinct frond-like architecture.",
+      "rationale": "Region 1 low power survey for tissue type and overall architecture"
+    },
+    {
+      "roi_id": "slide_A_x24576_y30720_mag5",
+      "tile_id": "slide_A_x24576_y30720_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 24576,
+      "y": 30720,
+      "level0": {
+        "x": 24576,
+        "y": 30720,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a fragmented tissue sample with a prominent papillary architecture composed of branching structures lined by cells with eosinophilic cytoplasm and round to oval nuclei. The cores of the papillae are fibrovascular.\n\nThe most likely diagnosis is a papillary neoplasm, such as a papillary adenoma or papillary carcinoma, depending on the degree of cellular atypia and mitotic activity.\n\nDifferential diagnoses include other papillary lesions such as papillary thyroid carcinoma (if from the thyroid) or papillary renal cell carcinoma (if from the kidney). The specific tissue site and clinical context are crucial for narrowing the differential diagnosis.",
+      "rationale": "Region 3 overview to determine tissue type and architecture."
+    },
+    {
+      "roi_id": "slide_A_x18432_y24576_mag5",
+      "tile_id": "slide_A_x18432_y24576_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 18432,
+      "y": 24576,
+      "level0": {
+        "x": 18432,
+        "y": 24576,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a large, irregular mass composed of a mixture of dense eosinophilic material, cellular areas with spindle cells, and areas of hemorrhage and necrosis. The mass is attached to the atrial wall by a broad base.\n\nThe most likely diagnosis is a myxoma. Differential diagnoses include organizing thrombus, which typically lacks the cellular component and characteristic myxoid stroma, and a papillary fibroelastoma, which is usually smaller and has a distinct papillary architecture.",
+      "rationale": "Region 1 mid power to localize inflammation/necrosis/ducts"
+    },
+    {
+      "roi_id": "slide_A_x49152_y4096_mag2",
+      "tile_id": "slide_A_x49152_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 49152,
+      "y": 4096,
+      "level0": {
+        "x": 49152,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a large, irregular mass composed of dense fibrous tissue with areas of hemorrhage and necrosis, attached to the atrial wall. The mass is covered by flattened cells and contains scattered inflammatory cells and small vessels.\n\nThe most likely diagnosis is a left atrial myxoma. Differential diagnoses include organizing thrombus, which typically lacks the prominent fibrous stroma and cellular components seen here, and a papillary fibroelastoma, which is usually smaller and has a distinct frond-like architecture.",
+      "rationale": "Low-power survey of right-sided portion of Region 0 where tissue appears more cellular/hemorrhagic."
+    },
+    {
+      "roi_id": "slide_A_x25600_y30720_mag10",
+      "tile_id": "slide_A_x25600_y30720_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 25600,
+      "y": 30720,
+      "level0": {
+        "x": 25600,
+        "y": 30720,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a fragmented tissue sample with a prominent papillary architecture composed of fibrovascular cores lined by cells. The cells have eosinophilic cytoplasm and round to oval nuclei, with areas of hemorrhage and necrosis.\n\nThe most likely diagnosis is a papillary neoplasm, such as a papillary adenoma or carcinoma, depending on the specific organ site and cellular features. Differential diagnoses include other papillary lesions like papillary thyroid carcinoma or papillary renal cell carcinoma, which would be distinguished by their characteristic cellular morphology and immunohistochemical profile.",
+      "rationale": "Region 3 intermediate power to look for ducts/acini vs clot/granulation/tumor."
+    },
+    {
+      "roi_id": "slide_A_x16384_y24576_mag10",
+      "tile_id": "slide_A_x16384_y24576_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 16384,
+      "y": 24576,
+      "level0": {
+        "x": 16384,
+        "y": 24576,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a myxoid matrix with scattered cells, some in lacunae, and prominent irregular vascular channels. The cells are bland with small nuclei.\n\nThe most likely diagnosis is a cardiac myxoma.\n\nDifferential diagnoses include myxoid sarcoma, which would show more cellular atypia and mitotic activity, and organizing thrombus, which would lack the characteristic myxoid stroma and vascular pattern.",
+      "rationale": "Region 2 initial assessment; may represent focal lesion within region 1"
+    },
+    {
+      "roi_id": "slide_A_x12288_y16384_mag2",
+      "tile_id": "slide_A_x12288_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 16384,
+      "level0": {
+        "x": 12288,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a large, irregular mass composed of interlacing bands of connective tissue with areas of hemorrhage and necrosis. The mass is attached to the atrial wall by a broad base.\n\nThe most likely diagnosis is a left atrial myxoma. Differential diagnoses include organizing thrombus, which typically lacks the prominent myxoid stroma and cellular components seen here, and a papillary fibroelastoma, which is usually smaller and has a distinct frond-like architecture.",
+      "rationale": "Low-power survey of left-inferior portion of Region 0 for comparison and to locate abscess/necrosis if present."
+    },
+    {
+      "roi_id": "slide_A_x25600_y31232_mag20",
+      "tile_id": "slide_A_x25600_y31232_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 25600,
+      "y": 31232,
+      "level0": {
+        "x": 25600,
+        "y": 31232,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a mass composed of interlacing bands of eosinophilic material with entrapped red blood cells and scattered inflammatory cells. The mass is attached to a surface by a broad base.\n\nThe most likely diagnosis is a myxoma. Differential diagnoses include thrombus, which typically lacks the prominent myxoid stroma and interlacing pattern, and papillary fibroelastoma, which has a more delicate, frond-like architecture.",
+      "rationale": "Region 3 high power for cytologic detail and inflammation."
+    },
+    {
+      "roi_id": "slide_A_x40960_y10240_mag5",
+      "tile_id": "slide_A_x40960_y10240_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 40960,
+      "y": 10240,
+      "level0": {
+        "x": 40960,
+        "y": 10240,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a large, irregular mass composed of interlacing bands of connective tissue with areas of hemorrhage and necrosis. The mass is attached to the atrial wall by a broad base.\n\nThe most likely diagnosis is a left atrial myxoma. Differential diagnoses include organizing thrombus, which typically lacks the prominent myxoid stroma and cellular components seen here, and a papillary fibroelastoma, which is usually smaller and has a distinct frond-like architecture.",
+      "rationale": "Intermediate power evaluation of matrix/cellular architecture in central mass; confirm tissue type and look for glandular/lymphoid elements."
+    },
+    {
+      "roi_id": "slide_A_x8192_y16384_mag2",
+      "tile_id": "slide_A_x8192_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 8192,
+      "y": 16384,
+      "level0": {
+        "x": 8192,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a large, irregular mass composed of interlacing bands of greenish-gray connective tissue with interspersed lakes of blood and spongy material. The mass is attached to the left atrial wall by a broad base.\n\nThe most likely diagnosis is a left atrial myxoma. Differential diagnoses include organizing thrombus, which typically lacks the characteristic myxoid stroma and interlacing bands seen in myxomas, and papillary fibroelastoma, which is usually smaller and has a distinct papillary architecture.",
+      "rationale": "Region 1 more peripheral low power to confirm tissue type (head/neck vs cardiac) and look for salivary gland/inflammation"
+    },
+    {
+      "roi_id": "slide_A_x23552_y28672_mag10",
+      "tile_id": "slide_A_x23552_y28672_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 23552,
+      "y": 28672,
+      "level0": {
+        "x": 23552,
+        "y": 28672,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a mass composed of interlacing bands of connective tissue with interspersed lakes of blood and spongy material. The surface is smooth, and the cut surface is greenish-gray and moist.\n\nThe most likely diagnosis is a left atrial myxoma. Differential diagnoses include organizing thrombus, which typically lacks the prominent myxoid stroma and interlacing bands seen here, and papillary fibroelastoma, which is usually smaller and has a distinct papillary architecture.",
+      "rationale": "Sample left side of Region 3 fragment to confirm architecture (papillary vs clot) and tissue context."
+    },
+    {
+      "roi_id": "slide_A_x49152_y7168_mag10",
+      "tile_id": "slide_A_x49152_y7168_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 49152,
+      "y": 7168,
+      "level0": {
+        "x": 49152,
+        "y": 7168,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a mass composed of dense fibrous tissue with entrapped red blood cells and scattered inflammatory cells. The mass is attached to the atrial wall by a broad base.\n\nThe most likely diagnosis is a left atrial myxoma. Differential diagnoses include organizing thrombus, which typically lacks the prominent fibrous stroma and cellular components seen here, and a papillary fibroelastoma, which is usually smaller and has a distinct frond-like architecture.",
+      "rationale": "Higher intermediate power in right-sided hemorrhagic area to assess for suppurative inflammation vs thrombus/necrosis and lining."
+    },
+    {
+      "roi_id": "slide_A_x10240_y21504_mag10",
+      "tile_id": "slide_A_x10240_y21504_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 10240,
+      "y": 21504,
+      "level0": {
+        "x": 10240,
+        "y": 21504,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a large, irregular mass composed of interlacing bands of connective tissue with interspersed blood and spongy material. The mass is attached to the left atrial wall by a broad base.\n\nThe most likely diagnosis is a left atrial myxoma. Differential diagnoses include organizing thrombus, which typically lacks the prominent myxoid stroma and interlacing bands seen here, and papillary fibroelastoma, which is usually smaller and has a distinct frond-like architecture.",
+      "rationale": "Region 1 higher power in hemorrhagic area to assess if thrombus/hematoma vs inflamed tissue"
+    },
+    {
+      "roi_id": "slide_A_x25600_y28672_mag10",
+      "tile_id": "slide_A_x25600_y28672_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 25600,
+      "y": 28672,
+      "level0": {
+        "x": 25600,
+        "y": 28672,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a mass composed of interlacing bands of connective tissue with abundant entrapped red blood cells. The mass is attached to the atrial wall by a broad base.\n\nThe most likely diagnosis is a left atrial myxoma. Differential diagnoses include thrombus, which typically lacks the prominent myxoid stroma and interlacing bands seen here, and organizing hematoma, which would show more prominent fibroblastic proliferation and less myxoid change.",
+      "rationale": "Sample right side of Region 3 fragment to assess heterogeneity and exclude edge artifact."
+    },
+    {
+      "roi_id": "slide_A_x15360_y24576_mag20",
+      "tile_id": "slide_A_x15360_y24576_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 15360,
+      "y": 24576,
+      "level0": {
+        "x": 15360,
+        "y": 24576,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a hypocellular lesion with scattered spindle and stellate cells embedded in a dense, hyalinized matrix. The cells have small, dark nuclei and are often surrounded by clear spaces. The matrix is eosinophilic and fibrillar.\n\nThe most likely diagnosis is a cardiac myxoma. The differential diagnosis includes organizing thrombus, which typically shows more cellularity and lacks the characteristic stellate cells and myxoid matrix.",
+      "rationale": "Region 2 high power to evaluate cellular detail, inflammation, fibrin/organization"
+    },
+    {
+      "roi_id": "slide_A_x25600_y30720_mag20",
+      "tile_id": "slide_A_x25600_y30720_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 25600,
+      "y": 30720,
+      "level0": {
+        "x": 25600,
+        "y": 30720,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a mass composed of interlacing bands of connective tissue with entrapped red blood cells and fibrin. The surface is smooth, and the cut surface is greenish-gray and spongy.\n\nThe most likely diagnosis is a left atrial myxoma. Differential diagnoses include organizing thrombus, which typically lacks the prominent myxoid stroma and interlacing pattern, and papillary fibroelastoma, which is usually smaller and has a distinct papillary architecture.",
+      "rationale": "Higher power in central area to look for lining cells/endothelial vs epithelial, myxoid stroma, fibrin, inflammation."
+    },
+    {
+      "roi_id": "slide_A_x15360_y15360_mag10",
+      "tile_id": "slide_A_x15360_y15360_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 15360,
+      "y": 15360,
+      "level0": {
+        "x": 15360,
+        "y": 15360,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a mass composed of interlacing bands of fibrous tissue with areas of hemorrhage and necrosis. Scattered dark brown pigment is also present.\n\nThe most likely diagnosis is a cardiac myxoma, specifically a left atrial myxoma given the location and gross description. Differential diagnoses include organizing thrombus, which would lack the characteristic myxoid stroma and prominent fibrous bands, and a papillary fibroelastoma, which typically presents as a smaller, more delicate lesion.",
+      "rationale": "Intermediate-high power in left portion to evaluate for abscess, ductal structures, or lymph node architecture."
+    },
+    {
+      "roi_id": "slide_A_x24064_y31232_mag20",
+      "tile_id": "slide_A_x24064_y31232_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 24064,
+      "y": 31232,
+      "level0": {
+        "x": 24064,
+        "y": 31232,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a mass composed of interlacing bands of connective tissue with areas of hemorrhage and a smooth surface. The mass is attached to the left atrial wall by a broad base.\n\nThe most likely diagnosis is a left atrial myxoma. Differential diagnoses include organizing thrombus, which typically lacks the characteristic myxoid stroma and interlacing bands, and papillary fibroelastoma, which is usually smaller and has a different attachment pattern.",
+      "rationale": "High power at base/attachment area to check for surface lining, granulation tissue, fibrin thrombus features."
+    },
+    {
+      "roi_id": "slide_A_x20992_y25600_mag20",
+      "tile_id": "slide_A_x20992_y25600_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20992,
+      "y": 25600,
+      "level0": {
+        "x": 20992,
+        "y": 25600,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a mass composed of interlacing bands of fibrous tissue with entrapped red blood cells and areas of hemorrhage. The mass is attached to the atrial wall by a broad base.\n\nThe most likely diagnosis is a left atrial myxoma. Differential diagnoses include organizing thrombus, which typically lacks the prominent fibrous stroma and myxoid matrix seen here, and papillary fibroelastoma, which is usually smaller and has a distinct frond-like architecture.",
+      "rationale": "Region 1 high power in more cellular area to assess for atypia/mitoses vs bland myxoma cells"
+    },
+    {
+      "roi_id": "slide_A_x52224_y3584_mag20",
+      "tile_id": "slide_A_x52224_y3584_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 52224,
+      "y": 3584,
+      "level0": {
+        "x": 52224,
+        "y": 3584,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a myxoid matrix with scattered spindle and stellate cells, prominent vascular channels, and areas of hemorrhage. The cells have small, dark nuclei and are embedded within the myxoid stroma.\n\nThe most likely diagnosis is a myxoma. Differential diagnoses include myxoid liposarcoma, which would show lipoblasts and a more prominent plexiform vascular pattern, and myxoid chondrosarcoma, which would have chondrocytes within lacunae.",
+      "rationale": "High power in right superior area to assess cellular details of lesion (myxoid stroma, tumor cells, inflammation)."
+    },
+    {
+      "roi_id": "slide_A_x30208_y8192_mag20",
+      "tile_id": "slide_A_x30208_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 30208,
+      "y": 8192,
+      "level0": {
+        "x": 30208,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a hypocellular lesion composed of bland spindle cells within a dense, hyalinized collagenous matrix. Scattered clear spaces are also present.\n\nThe most likely diagnosis is a fibroma.\n\nDifferential diagnoses include desmoid-type fibromatosis, which typically shows more cellularity and infiltrative growth, and a solitary fibrous tumor, which often has a more prominent vascular pattern and characteristic immunohistochemical staining.",
+      "rationale": "High power in central paler myxoid area to look for characteristic myxoma cells, vascular pattern, hemorrhage."
+    },
+    {
+      "roi_id": "slide_A_x28672_y23552_mag10",
+      "tile_id": "slide_A_x28672_y23552_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 28672,
+      "y": 23552,
+      "level0": {
+        "x": 28672,
+        "y": 23552,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a large, irregular mass composed of interlacing bands of connective tissue with areas of hemorrhage and spongy material. The mass is attached to the atrial wall by a broad base.\n\nThe most likely diagnosis is a left atrial myxoma. Differential diagnoses include organizing thrombus, which typically lacks the prominent myxoid stroma and interlacing bands seen here, and a papillary fibroelastoma, which is usually smaller and has a more delicate, frond-like architecture.",
+      "rationale": "Region 1 towards interface with wall/base to look for endocardium/attachment and rule out organizing thrombus"
+    },
+    {
+      "roi_id": "slide_A_x16384_y24576_mag5",
+      "tile_id": "slide_A_x16384_y24576_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 16384,
+      "y": 24576,
+      "level0": {
+        "x": 16384,
+        "y": 24576,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a mass composed of a myxoid matrix with scattered cells, some within lacunae, and areas of hemorrhage. The mass is attached to a thickened wall.\n\nThe most likely diagnosis is a myxoma.\n\nDifferential diagnoses include organizing thrombus, which typically lacks the prominent myxoid matrix and lacunar cells, and a myxoid sarcoma, which would show more cellular atypia and mitotic activity.",
+      "rationale": "Region 2 low-mid power to see if represents hemorrhagic lake vs distinct abscess/inflammation"
+    },
+    {
+      "roi_id": "slide_A_x13824_y15872_mag20",
+      "tile_id": "slide_A_x13824_y15872_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 13824,
+      "y": 15872,
+      "level0": {
+        "x": 13824,
+        "y": 15872,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a mass composed of interlacing bands of connective tissue with areas of hemorrhage and necrosis. Scattered dark granular material is also present.\n\nThe most likely diagnosis is a cardiac myxoma.\n\nDifferential diagnoses include organizing thrombus, which typically lacks the prominent myxoid stroma and characteristic cellular components of a myxoma, and a papillary fibroelastoma, which is usually smaller and has a distinct papillary architecture.",
+      "rationale": "High power in left inferior more hemorrhagic area to evaluate for organizing thrombus vs myxoma and look for suppurative change."
+    },
+    {
+      "roi_id": "slide_A_x16384_y25088_mag20",
+      "tile_id": "slide_A_x16384_y25088_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 16384,
+      "y": 25088,
+      "level0": {
+        "x": 16384,
+        "y": 25088,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a myxoid matrix with scattered spindle and stellate cells, prominent vascular channels, and areas of hemorrhage. The cells are arranged in cords and nests within the myxoid background.\n\nThe most likely diagnosis is a cardiac myxoma, specifically a left atrial myxoma given the location and gross description. Differential diagnoses include myxoid sarcoma, which would typically show more cellular atypia and mitotic activity, and organizing thrombus, which would lack the characteristic myxoid stroma and cellular arrangement.",
+      "rationale": "Region 2 high power for inflammation vs thrombus vs myxoma cellular details"
+    },
+    {
+      "roi_id": "slide_A_x14848_y23552_mag20",
+      "tile_id": "slide_A_x14848_y23552_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 14848,
+      "y": 23552,
+      "level0": {
+        "x": 14848,
+        "y": 23552,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a mass composed of dense fibrous tissue with scattered spindle cells and areas of hemorrhage. The surface is irregular and covered by fibrin and inflammatory cells.\n\nThe most likely diagnosis is a left atrial myxoma. Differential diagnoses include organizing thrombus, which typically lacks the prominent fibrous stroma and spindle cells, and a papillary fibroelastoma, which is usually smaller and has a distinct frond-like architecture.",
+      "rationale": "Sample adjacent area in Region 2 to look for fibrin, hemosiderin, organization, neutrophils"
+    },
+    {
+      "roi_id": "slide_A_x45568_y2560_mag20",
+      "tile_id": "slide_A_x45568_y2560_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 45568,
+      "y": 2560,
+      "level0": {
+        "x": 45568,
+        "y": 2560,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a mass composed of a myxoid matrix with scattered spindle cells and prominent hemorrhage. The mass is attached to a surface lined by flattened cells.\n\nThe most likely diagnosis is a cardiac myxoma, specifically a left atrial myxoma given the location and morphology. Differential diagnoses include organizing thrombus, which typically lacks the myxoid matrix and spindle cells, and a papillary fibroelastoma, which has a different architecture and cellularity.",
+      "rationale": "Sample superficial/edge area to look for lining endocardium, surface thrombus, inflammation."
+    },
+    {
+      "roi_id": "slide_A_x17408_y26112_mag20",
+      "tile_id": "slide_A_x17408_y26112_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 17408,
+      "y": 26112,
+      "level0": {
+        "x": 17408,
+        "y": 26112,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a myxoid matrix with scattered cells, including spindle and stellate forms, and prominent vascular channels. The cells have small, dark nuclei and are embedded within the myxoid stroma.\n\nThe most likely diagnosis is a myxoma. Differential diagnoses include myxoid liposarcoma, which typically shows lipoblasts and a more prominent plexiform vascular pattern, and myxoid chondrosarcoma, which would have chondrocytes within lacunae.",
+      "rationale": "Sample edge of Region 2 for interface with wall/endocardium; search for surface thrombus or inflammation"
+    },
+    {
+      "roi_id": "slide_A_x47104_y9216_mag20",
+      "tile_id": "slide_A_x47104_y9216_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 47104,
+      "y": 9216,
+      "level0": {
+        "x": 47104,
+        "y": 9216,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a mass composed of a mixture of fibrin, red blood cells, and inflammatory cells, with areas of organization and hemosiderin deposition. The mass is attached to the atrial wall by a broad base.\n\nThe most likely diagnosis is a thrombus. Differential diagnoses include a myxoma, which would typically show a more prominent myxoid stroma and characteristic stromal cells, and a papillary fibroelastoma, which would have a more organized papillary architecture.",
+      "rationale": "Sample more cellular/vascular zone to confirm myxoma-type stellate cells vs sarcoma."
+    },
+    {
+      "roi_id": "slide_A_x32768_y12288_mag20",
+      "tile_id": "slide_A_x32768_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 32768,
+      "y": 12288,
+      "level0": {
+        "x": 32768,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a hypocellular lesion composed of bland spindle cells within a dense, hyalinized collagenous matrix. The cells have elongated nuclei and are arranged in a haphazard pattern.\n\nThe most likely diagnosis is a cardiac fibroma. Differential diagnoses include fibromatosis, which typically shows more cellularity and infiltrative growth, and a scar, which would lack the organized, dense collagenous matrix seen here.",
+      "rationale": "Sample dense hyalinized collagenous area to assess for organizing thrombus/fibrosis and calcification."
+    }
+  ]
+}

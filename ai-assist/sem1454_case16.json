@@ -1,0 +1,1133 @@
+{
+  "case_id": "sem1454_case16",
+  "source": "slideseek-ai-assist",
+  "model": "gpt-5.4",
+  "generated_at": "2026-05-22T09:26:14.823021+00:00",
+  "organ": "Head-Neck",
+  "primary_dx": "Cardiac Myxoma, Papillary/Villous Type With Prominent Surface Fibrin and Hemorrhage",
+  "differential_dx": [
+    "Papillary Fibroelastoma",
+    "Organizing Mural Thrombus / Thrombotic Endocardial Lesion"
+  ],
+  "microscopic_findings": [
+    {
+      "text": "Abundant **myxoid matrix** contains sparse bland **stellate/spindle cells**, focally in short cords and strands.",
+      "roi_ids": [
+        "slide_A_x8192_y15360_mag20",
+        "slide_A_x5120_y15360_mag20"
+      ]
+    },
+    {
+      "text": "Stroma shows numerous thin-walled **curvilinear vascular channels** and irregular intrinsic **small vessels**.",
+      "roi_ids": [
+        "slide_A_x4096_y8704_mag20",
+        "slide_A_x2560_y9216_mag20"
+      ]
+    },
+    {
+      "text": "The lesion surface is coated by **fibrin** with extensive **hemorrhage** and superimposed thrombotic material.",
+      "roi_ids": [
+        "slide_A_x38912_y4096_mag20",
+        "slide_A_x40448_y2048_mag20"
+      ]
+    },
+    {
+      "text": "Tumor cells are cytologically bland, with occasional **vacuolated cytoplasm** and no **brisk mitotic activity** or marked atypia.",
+      "roi_ids": [
+        "slide_A_x30208_y12288_mag20"
+      ]
+    }
+  ],
+  "interpretation": "The findings support **cardiac myxoma** of **papillary/villous type**, based on hypocellular myxoid stroma with embedded bland stellate-spindle cells and intrinsic curvilinear vessels. Extensive **surface fibrin/hemorrhage** represents superimposed thrombus rather than the entirety of the lesion. The presence of an intrinsic myxoid neoplasm with lesional cells and vessels argues against **organizing mural thrombus**, while the absence of dense fibroelastic avascular papillae argues against **papillary fibroelastoma**.",
+  "num_rois": 68,
+  "tiles": [
+    {
+      "roi_id": "slide_A_x24576_y12288_mag2",
+      "tile_id": "slide_A_x24576_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 24576,
+      "y": 12288,
+      "level0": {
+        "x": 24576,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a myxoid stroma with scattered spindle cells, prominent hemorrhage, and irregular vascular spaces. The stroma is loose and edematous with areas of hyalinization.\n\nThe most likely diagnosis is a cardiac myxoma. Differential diagnoses include organizing thrombus, which typically lacks the characteristic myxoid stroma and spindle cells, and myxoid sarcoma, which would show more cellular atypia and mitotic activity.",
+      "rationale": "Low-power survey of main mass to orient and find base/attachment area"
+    },
+    {
+      "roi_id": "slide_A_x24576_y8192_mag2",
+      "tile_id": "slide_A_x24576_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 24576,
+      "y": 8192,
+      "level0": {
+        "x": 24576,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a myxoid stroma with scattered spindle cells and prominent hemorrhage. The tumor is composed of smooth polypoid projections with a pale gray-tan to brown to dark red appearance.\n\nThe most likely diagnosis is a cardiac myxoma. Differential diagnoses include organizing thrombus, which typically lacks the myxoid stroma and characteristic spindle cells, and a myxoid sarcoma, which would show more cellular atypia and mitotic activity.",
+      "rationale": "Low-power survey of main mass and identify peripheral fronded edges."
+    },
+    {
+      "roi_id": "slide_A_x24576_y8192_mag1",
+      "tile_id": "slide_A_x24576_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 24576,
+      "y": 8192,
+      "level0": {
+        "x": 24576,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a polypoid mass with a surface layer of flattened cells, underlying fibrous stroma, and areas of hemorrhage and necrosis. The base is attached to thickened endocardium.\n\nThe most likely diagnosis is a papillary fibroelastoma.\n\nDifferential diagnoses include myxoma, which typically has a more myxoid stroma and less prominent calcification, and thrombus, which lacks the organized papillary architecture and cellular lining.",
+      "rationale": "Global low-power survey of main mass to pick representative areas and attachment zone"
+    },
+    {
+      "roi_id": "slide_A_x32768_y8192_mag2",
+      "tile_id": "slide_A_x32768_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 32768,
+      "y": 8192,
+      "level0": {
+        "x": 32768,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a polypoid lesion with a myxoid stroma containing scattered spindle cells and prominent hemorrhage. The surface is irregular with areas of necrosis and calcification.\n\nThe most likely diagnosis is a cardiac myxoma. Differential diagnoses include organizing thrombus, which typically lacks the myxoid stroma and characteristic spindle cells, and a myxoid sarcoma, which would show more cellular atypia and mitotic activity.",
+      "rationale": "Survey right-sided broad pink area; possible attachment/base with thickened endocardium/calcification"
+    },
+    {
+      "roi_id": "slide_A_x8192_y12288_mag2",
+      "tile_id": "slide_A_x8192_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 8192,
+      "y": 12288,
+      "level0": {
+        "x": 8192,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a polypoid mass with a myxoid stroma containing scattered spindle cells and prominent vascular structures. The surface is irregular with areas of hemorrhage and necrosis.\n\nThe most likely diagnosis is a cardiac myxoma. Differential diagnoses include organizing thrombus, which typically lacks the characteristic myxoid stroma and prominent vasculature, and myxoid sarcoma, which would show more cellular atypia and mitotic activity.",
+      "rationale": "Survey left-side frond-rich periphery for papillary/villous projections."
+    },
+    {
+      "roi_id": "slide_A_x40960_y4096_mag2",
+      "tile_id": "slide_A_x40960_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 40960,
+      "y": 4096,
+      "level0": {
+        "x": 40960,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a large, polypoid mass with a surface layer of fibrin and hemorrhage, underlying myxoid stroma with scattered cells, and a deeper layer of dense fibrous tissue. The morphology is consistent with a myxoma.\n\nThe most likely diagnosis is a cardiac myxoma.\n\nDifferential diagnoses include organizing thrombus, which typically lacks the characteristic myxoid stroma and scattered cells seen in myxoma, and papillary fibroelastoma, which is usually smaller and has a more delicate, avascular papillary architecture.",
+      "rationale": "Right-sided solid/hemorrhagic-appearing area on thumbnail—check for necrosis/hypercellularity"
+    },
+    {
+      "roi_id": "slide_A_x12288_y16384_mag2",
+      "tile_id": "slide_A_x12288_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 16384,
+      "level0": {
+        "x": 12288,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a hypocellular lesion with a prominent myxoid matrix containing scattered spindle cells and numerous small vessels. The surface is irregular and frond-like.\n\nThe most likely diagnosis is a cardiac myxoma.\n\nDifferential diagnoses include myxoid sarcoma, which would typically show higher cellularity, nuclear atypia, and mitotic activity, and myxoid liposarcoma, which would contain lipoblasts.",
+      "rationale": "Survey left-inferior frond-rich edge where tumor may meet endocardium/thrombus"
+    },
+    {
+      "roi_id": "slide_A_x36864_y4096_mag2",
+      "tile_id": "slide_A_x36864_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 36864,
+      "y": 4096,
+      "level0": {
+        "x": 36864,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a polypoid mass with a surface layer of fibrin and hemorrhage, underlying myxoid stroma with scattered cells, and deeper areas of dense fibrous tissue with chronic inflammation. The morphology is consistent with a myxoma.\n\nThe most likely diagnosis is a cardiac myxoma.\n\nDifferential diagnoses include organizing thrombus, which typically lacks the characteristic myxoid stroma and scattered cells of a myxoma, and a fibroma, which would be composed predominantly of dense fibrous tissue without the myxoid areas.",
+      "rationale": "Survey extreme right tip with hemorrhagic/red focus for surface/endothelialization/thrombus"
+    },
+    {
+      "roi_id": "slide_A_x8192_y4096_mag2",
+      "tile_id": "slide_A_x8192_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 8192,
+      "y": 4096,
+      "level0": {
+        "x": 8192,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a polypoid mass with a myxoid stroma containing scattered spindle cells and prominent vascular channels. The surface is irregular and covered by fibrin and inflammatory cells.\n\nThe most likely diagnosis is a cardiac myxoma. Differential diagnoses include organizing thrombus, which typically lacks the characteristic myxoid stroma and prominent vascular channels, and a myxoid sarcoma, which would show more cellular atypia and mitotic activity.",
+      "rationale": "Small separate tissue fragment (region 1) to assess for different histology/edge fronds"
+    },
+    {
+      "roi_id": "slide_A_x4096_y16384_mag2",
+      "tile_id": "slide_A_x4096_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 4096,
+      "y": 16384,
+      "level0": {
+        "x": 4096,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a polypoid mass with a myxoid stroma containing scattered spindle cells and prominent vascularity. The surface is irregular with areas of hemorrhage and fibrin.\n\nThe most likely diagnosis is a cardiac myxoma. Differential diagnoses include organizing thrombus, which typically lacks the characteristic myxoid stroma and spindle cells, and a myxoid sarcoma, which would show more cellular atypia and mitotic activity.",
+      "rationale": "Left/peripheral fronded edge region—look for papillary/villous architecture"
+    },
+    {
+      "roi_id": "slide_A_x5120_y10240_mag10",
+      "tile_id": "slide_A_x5120_y10240_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 5120,
+      "y": 10240,
+      "level0": {
+        "x": 5120,
+        "y": 10240,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a myxoid stroma with scattered spindle cells and prominent hemorrhage. The stroma is loose and edematous with areas of hyalinization and scattered inflammatory cells.\n\nThe most likely diagnosis is a cardiac myxoma. Differential diagnoses include organizing thrombus, which typically lacks the characteristic myxoid stroma and spindle cells, and myxoid sarcoma, which would show more cellular atypia and mitotic activity.",
+      "rationale": "Target left fronded periphery to assess papillary/villous architecture and surface lining at intermediate power."
+    },
+    {
+      "roi_id": "slide_A_x32768_y12288_mag5",
+      "tile_id": "slide_A_x32768_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 32768,
+      "y": 12288,
+      "level0": {
+        "x": 32768,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a myxoid stroma with scattered spindle cells, prominent hemorrhage, and hemosiderin deposition. The surface is irregular and appears to be covered by fibrin.\n\nThe most likely diagnosis is a cardiac myxoma. Differential diagnoses include organizing thrombus, which typically lacks the characteristic myxoid stroma and spindle cells, and myxoid sarcoma, which would show more cellular atypia and mitotic activity.",
+      "rationale": "Central deeper portion near suspected base to look for endocardium/myocardium and calcification"
+    },
+    {
+      "roi_id": "slide_A_x30720_y12288_mag5",
+      "tile_id": "slide_A_x30720_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 30720,
+      "y": 12288,
+      "level0": {
+        "x": 30720,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a myxoid stroma with scattered spindle cells, prominent hemorrhage, and hemosiderin deposition. The surface is irregular with areas of hyalinization and calcification.\n\nThe most likely diagnosis is a cardiac myxoma. Differential diagnoses include organizing thrombus, which typically lacks the characteristic myxoid stroma and spindle cells, and myxoid sarcoma, which would show more cellular atypia and mitotic activity.",
+      "rationale": "Sample central solid/myxoid zone for overall architecture and cellularity"
+    },
+    {
+      "roi_id": "slide_A_x8192_y15360_mag10",
+      "tile_id": "slide_A_x8192_y15360_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 8192,
+      "y": 15360,
+      "level0": {
+        "x": 8192,
+        "y": 15360,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a myxoid stroma with scattered spindle and stellate cells, prominent curvilinear vessels, and areas of hemorrhage and inflammation. The morphology is consistent with a myxoma.\n\nThe most likely diagnosis is cardiac myxoma.\n\nDifferential diagnoses include myxoid sarcoma, which typically shows more cellular atypia and mitotic activity, and myxoid liposarcoma, which contains lipoblasts.",
+      "rationale": "Another frond-rich peripheral area to compare; look for papillary fibroelastoma-like fronds vs myxoid fronds vs fibrin."
+    },
+    {
+      "roi_id": "slide_A_x37888_y3072_mag10",
+      "tile_id": "slide_A_x37888_y3072_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 37888,
+      "y": 3072,
+      "level0": {
+        "x": 37888,
+        "y": 3072,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a transition from extensive hemorrhage to a myxoid stroma containing scattered cells with vacuolated cytoplasm and eccentric nuclei, some resembling physaliferous cells. The stroma is loose and myxoid.\n\nThe most likely diagnosis is a cardiac myxoma, specifically a left ventricular myxoma given the clinical context of a large tumor in the left ventricle with embolic history.\n\nDifferential diagnoses include myxoid sarcoma, which would typically show more cellular atypia and mitotic activity, and myxoid liposarcoma, which would contain lipoblasts.",
+      "rationale": "Right-sided hemorrhagic area—evaluate for necrosis, atypical hypercellular foci"
+    },
+    {
+      "roi_id": "slide_A_x38912_y4096_mag10",
+      "tile_id": "slide_A_x38912_y4096_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 38912,
+      "y": 4096,
+      "level0": {
+        "x": 38912,
+        "y": 4096,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a transition from a cellular area with cells in a myxoid matrix to extensive hemorrhage. The cellular component contains cells with clear to vacuolated cytoplasm and eccentric nuclei, some with a physaliphorous appearance.\n\nThe most likely diagnosis is cardiac myxoma. The presence of a myxoid matrix, cells with clear/vacuolated cytoplasm, and the clinical history of embolic events and a large left ventricular mass are characteristic features. Differential diagnoses include myxoid sarcoma, which typically shows more cellular atypia and mitotic activity, and organizing thrombus, which lacks the characteristic cellular component.",
+      "rationale": "Right superior hemorrhagic/frayed edge to evaluate for fibrin cap/endothelium and frond cores."
+    },
+    {
+      "roi_id": "slide_A_x29696_y10240_mag10",
+      "tile_id": "slide_A_x29696_y10240_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 29696,
+      "y": 10240,
+      "level0": {
+        "x": 29696,
+        "y": 10240,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a myxoid stroma with scattered spindle cells, prominent hemorrhage, and hemosiderin pigment. A large vessel with thickened walls is also present.\n\nThe most likely diagnosis is a cardiac myxoma, specifically a left ventricular myxoma given the clinical history of emboli and the gross description of a large tumor in the left ventricle.\n\nDifferential diagnoses include organizing thrombus, which can have a myxoid appearance but typically lacks the characteristic stellate calcification and prominent hemorrhage seen here. Other mesenchymal tumors like myxoid sarcoma are less likely given the bland cytology and clinical context.",
+      "rationale": "Higher mag of central area to assess cellularity/architecture (ring structures, vessels) and any invasion"
+    },
+    {
+      "roi_id": "slide_A_x24576_y12288_mag10",
+      "tile_id": "slide_A_x24576_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 24576,
+      "y": 12288,
+      "level0": {
+        "x": 24576,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a myxoid stroma with scattered spindle cells and prominent hemorrhage. A large vessel with thickened walls is also present.\n\nThe most likely diagnosis is a cardiac myxoma.\n\nDifferential diagnoses include organizing thrombus, which typically lacks the characteristic myxoid stroma and spindle cells, and myxoid sarcoma, which would show more cellular atypia and mitotic activity.",
+      "rationale": "Central area near surface irregularity to see if organized thrombus overlies tumor."
+    },
+    {
+      "roi_id": "slide_A_x5120_y15360_mag10",
+      "tile_id": "slide_A_x5120_y15360_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 5120,
+      "y": 15360,
+      "level0": {
+        "x": 5120,
+        "y": 15360,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a myxoid stroma with scattered spindle and stellate cells, prominent curvilinear vessels, and areas of hemorrhage. The surface is irregular with associated inflammatory cells.\n\nThe most likely diagnosis is cardiac myxoma. Differential diagnoses include myxoid sarcoma, which typically shows more cellular atypia and mitotic activity, and organizing thrombus, which lacks the characteristic myxoid stroma and curvilinear vessels.",
+      "rationale": "Peripheral fronded edge—assess for papillary fibroelastoma-like fronds vs myxoma surface changes"
+    },
+    {
+      "roi_id": "slide_A_x34816_y9216_mag10",
+      "tile_id": "slide_A_x34816_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 34816,
+      "y": 9216,
+      "level0": {
+        "x": 34816,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a myxoid stroma with scattered cells, including some with vacuolated cytoplasm, and prominent hemorrhage with hemosiderin pigment. The morphology is consistent with a myxoma.\n\nThe most likely diagnosis is cardiac myxoma.\n\nDifferential diagnoses include myxoid sarcoma, which would typically show more cellular atypia and mitotic activity, and organizing thrombus, which would lack the characteristic myxoid stroma and cellular features of a myxoma.",
+      "rationale": "Right-upper portion where calcification/endocardial thickening was suggested at low power"
+    },
+    {
+      "roi_id": "slide_A_x9216_y5120_mag10",
+      "tile_id": "slide_A_x9216_y5120_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 9216,
+      "y": 5120,
+      "level0": {
+        "x": 9216,
+        "y": 5120,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a myxoid stroma with scattered spindle cells and prominent hemorrhage. The tumor is composed of smooth polypoid projections with a pale gray-tan to brown to dark red appearance.\n\nThe most likely diagnosis is a cardiac myxoma. Differential diagnoses include organizing thrombus, which typically lacks the characteristic myxoid stroma and spindle cells, and myxoid sarcoma, which would show more cellular atypia and mitotic activity.",
+      "rationale": "Region 1: check for vascular channels, thrombus organization, or distinct neoplasm"
+    },
+    {
+      "roi_id": "slide_A_x36864_y5120_mag10",
+      "tile_id": "slide_A_x36864_y5120_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 36864,
+      "y": 5120,
+      "level0": {
+        "x": 36864,
+        "y": 5120,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a myxoid stroma with scattered cells, including some with vacuolated cytoplasm, and abundant extravasated red blood cells. Scattered dark brown pigment is also present.\n\nThe most likely diagnosis is a cardiac myxoma, specifically a left ventricular myxoma given the clinical history of emboli and the gross description of a large tumor in the left ventricle.\n\nDifferential diagnoses include organizing thrombus, which can have a myxoid appearance and entrapped cells, but typically lacks the characteristic stellate calcification and the specific cellular morphology seen here. Another consideration is a myxoid sarcoma, which would show more cellular atypia and mitotic activity.",
+      "rationale": "Right tip hemorrhagic/fibrinous surface to evaluate for thrombus organization vs tumor surface"
+    },
+    {
+      "roi_id": "slide_A_x4096_y8704_mag20",
+      "tile_id": "slide_A_x4096_y8704_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 4096,
+      "y": 8704,
+      "level0": {
+        "x": 4096,
+        "y": 8704,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a myxoid stroma with scattered spindle cells and prominent curvilinear vessels. Scattered inflammatory cells and hemosiderin pigment are also present.\n\nThe most likely diagnosis is Cardiac Myxoma.\n\nDifferential diagnoses include Myxoid Sarcoma, which typically shows more cellular atypia and mitotic activity, and Myxoid Liposarcoma, which would contain lipoblasts.",
+      "rationale": "High power at peripheral frond area to confirm surface lining and frond core composition (myxoid vs fibroelastic vs fibrin)."
+    },
+    {
+      "roi_id": "slide_A_x35840_y3584_mag20",
+      "tile_id": "slide_A_x35840_y3584_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 35840,
+      "y": 3584,
+      "level0": {
+        "x": 35840,
+        "y": 3584,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a myxoid stroma with scattered spindle and stellate cells, prominent hemorrhage, and hemosiderin pigment. The cells are arranged in cords and clusters.\n\nThe most likely diagnosis is a cardiac myxoma.\n\nDifferential diagnoses include organizing thrombus, which typically lacks the characteristic myxoid stroma and cellular arrangement, and myxoid sarcoma, which would show more significant cellular atypia and mitotic activity.",
+      "rationale": "High-power in hemorrhage-to-myxoid transition to assess atypia/mitoses/necrosis"
+    },
+    {
+      "roi_id": "slide_A_x8192_y15360_mag20",
+      "tile_id": "slide_A_x8192_y15360_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 8192,
+      "y": 15360,
+      "level0": {
+        "x": 8192,
+        "y": 15360,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a myxoid stroma with scattered spindle and stellate cells, some arranged in cords, and prominent thin-walled vessels. The stroma is loose and edematous with areas of hyalinization.\n\nThe most likely diagnosis is cardiac myxoma. Differential diagnoses include myxoid sarcoma, which would show more cellular atypia and mitotic activity, and myxoid liposarcoma, which would contain lipoblasts.",
+      "rationale": "High power of stellate/spindle cells in myxoid matrix and vessels within fronds."
+    },
+    {
+      "roi_id": "slide_A_x30208_y12288_mag20",
+      "tile_id": "slide_A_x30208_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 30208,
+      "y": 12288,
+      "level0": {
+        "x": 30208,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a myxoid stroma with scattered spindle and stellate cells, some with vacuolated cytoplasm, and prominent brown-black pigment granules.",
+      "rationale": "High-power in central myxoid area to look for stellate myxoma cells, mitotic activity"
+    },
+    {
+      "roi_id": "slide_A_x20480_y14336_mag5",
+      "tile_id": "slide_A_x20480_y14336_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 20480,
+      "y": 14336,
+      "level0": {
+        "x": 20480,
+        "y": 14336,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a myxoid stroma with scattered spindle cells, prominent hemorrhage, and hemosiderin deposition. A large irregular space is also present.\n\nThe most likely diagnosis is a cardiac myxoma.\n\nDifferential diagnoses include organizing thrombus, which typically lacks the characteristic myxoid stroma and spindle cells, and myxoid sarcoma, which would show more cellular atypia and mitotic activity.",
+      "rationale": "Scan left-central area near potential attachment interface not yet sampled; look for endocardium/myocardium transition"
+    },
+    {
+      "roi_id": "slide_A_x38912_y4096_mag20",
+      "tile_id": "slide_A_x38912_y4096_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 38912,
+      "y": 4096,
+      "level0": {
+        "x": 38912,
+        "y": 4096,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a tumor composed of cells with clear to vacuolated cytoplasm and small, hyperchromatic nuclei embedded in a myxoid matrix, with areas of hemorrhage. The morphology is consistent with a myxoma.\n\nThe most likely diagnosis is cardiac myxoma.\n\nDifferential diagnoses include myxoid sarcoma, which typically shows more cellular atypia and mitotic activity, and myxoid liposarcoma, which contains lipoblasts.",
+      "rationale": "High power of right edge with hemorrhage and vacuolated cells; assess for true tumor cells vs artifact; look for endothelial covering/fibrin."
+    },
+    {
+      "roi_id": "slide_A_x15360_y17408_mag10",
+      "tile_id": "slide_A_x15360_y17408_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 15360,
+      "y": 17408,
+      "level0": {
+        "x": 15360,
+        "y": 17408,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a myxoid stroma with scattered spindle cells and prominent hemorrhage. A large irregular space contains amorphous material and dark granular deposits.\n\nThe most likely diagnosis is a cardiac myxoma. Differential diagnoses include organizing thrombus, which typically lacks the characteristic myxoid stroma and spindle cells, and myxoid sarcoma, which would show more cellular atypia and mitotic activity.",
+      "rationale": "Target left-inferior portion with denser pink tissue—possible myocardium/endocardium at base"
+    },
+    {
+      "roi_id": "slide_A_x5120_y15360_mag20",
+      "tile_id": "slide_A_x5120_y15360_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 5120,
+      "y": 15360,
+      "level0": {
+        "x": 5120,
+        "y": 15360,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a myxoid stroma with scattered spindle and stellate cells, some arranged in cords and strands. There is also a mixed inflammatory infiltrate and prominent blood vessels.\n\nThe most likely diagnosis is a cardiac myxoma, specifically a left ventricular myxoma given the clinical context of a large tumor in the left ventricle with embolic events.\n\nDifferential diagnoses include myxoid sarcoma, which would typically show more cellular atypia and mitotic activity, and organizing thrombus, which would lack the characteristic myxoid stroma and cellular arrangement seen here.",
+      "rationale": "High-power in peripheral fronds—evaluate for papillary fibroelastoma-type avascular cores vs myxoma surface fibrin"
+    },
+    {
+      "roi_id": "slide_A_x30720_y16384_mag5",
+      "tile_id": "slide_A_x30720_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 30720,
+      "y": 16384,
+      "level0": {
+        "x": 30720,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a polypoid mass with a myxoid stroma containing scattered spindle cells and prominent vascularity. The surface is irregular with areas of hemorrhage and inflammation.\n\nThe most likely diagnosis is a cardiac myxoma. Differential diagnoses include organizing thrombus, which typically lacks the characteristic myxoid stroma and spindle cells, and a papillary fibroelastoma, which is usually smaller and has a more fibrous core.",
+      "rationale": "Locate base/attachment zone deeper in mass for calcification/organized thrombus; then target at higher power."
+    },
+    {
+      "roi_id": "slide_A_x25600_y17408_mag10",
+      "tile_id": "slide_A_x25600_y17408_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 25600,
+      "y": 17408,
+      "level0": {
+        "x": 25600,
+        "y": 17408,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a myxoid stroma with scattered spindle cells, prominent hemorrhage, and hemosiderin pigment. A vessel with thickened walls is also present.\n\nThe most likely diagnosis is a cardiac myxoma.\n\nDifferential diagnoses include organizing thrombus, which typically lacks the characteristic myxoid stroma and spindle cells, and myxoid sarcoma, which would show more cellular atypia and mitotic activity.",
+      "rationale": "Search additional mid-lower area for any hypercellular solid foci not yet sampled"
+    },
+    {
+      "roi_id": "slide_A_x16896_y16384_mag20",
+      "tile_id": "slide_A_x16896_y16384_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 16896,
+      "y": 16384,
+      "level0": {
+        "x": 16896,
+        "y": 16384,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a myxoid stroma with scattered spindle and stellate cells, prominent thin-walled vessels, and areas of hemorrhage. The cells have elongated nuclei and are embedded in a pale pink matrix.\n\nThe most likely diagnosis is a cardiac myxoma, specifically a left ventricular myxoma given the clinical context of a large tumor in the left ventricle with embolic history.\n\nDifferential diagnoses include myxoid sarcoma, which would typically show more cellular atypia and mitotic activity, and organizing thrombus, which would lack the characteristic myxoid stroma and cellular morphology.",
+      "rationale": "High-power of suspected base to assess invasion, calcification, organizing thrombus, myxoma cells"
+    },
+    {
+      "roi_id": "slide_A_x28672_y16384_mag10",
+      "tile_id": "slide_A_x28672_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 28672,
+      "y": 16384,
+      "level0": {
+        "x": 28672,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a myxoid stroma with scattered spindle cells, prominent hemorrhage, and hemosiderin-laden macrophages. The tissue edge is irregular.\n\nThe most likely diagnosis is a cardiac myxoma. Differential diagnoses include organizing thrombus, which typically lacks the characteristic myxoid stroma and spindle cells, and myxoid sarcoma, which would show more cellular atypia and mitotic activity.",
+      "rationale": "Further search for calcification or dense fibrous tissue near base."
+    },
+    {
+      "roi_id": "slide_A_x13312_y2048_mag10",
+      "tile_id": "slide_A_x13312_y2048_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 13312,
+      "y": 2048,
+      "level0": {
+        "x": 13312,
+        "y": 2048,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a myxoid stroma with scattered spindle and stellate cells, some exhibiting nuclear atypia. There are also areas of hemorrhage and hemosiderin deposition.\n\nThe most likely diagnosis is a cardiac myxoma, specifically a left ventricular myxoma given the clinical context of a large tumor in the left ventricle with embolic events.\n\nDifferential diagnoses include myxoid sarcoma, which would typically show more cellular atypia and mitotic activity, and organizing thrombus, which would lack the characteristic myxoid stroma and cellular morphology.",
+      "rationale": "Region 1 upper area—look for distinct lesion or attachment/endocardium changes"
+    },
+    {
+      "roi_id": "slide_A_x33792_y8192_mag20",
+      "tile_id": "slide_A_x33792_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 33792,
+      "y": 8192,
+      "level0": {
+        "x": 33792,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a myxoid stroma with scattered cells, including spindle and stellate forms, and numerous hemosiderin-laden macrophages. There are also areas of hemorrhage and clear spaces.\n\nThe most likely diagnosis is a cardiac myxoma, specifically a left ventricular myxoma given the clinical history of emboli and the gross description of a large tumor in the left ventricle.\n\nDifferential diagnoses include organizing thrombus, which would typically show more fibrin and lack the characteristic myxoid stroma and cellular morphology of a myxoma. Another consideration is a myxoid sarcoma, which would show more cellular atypia and mitotic activity.",
+      "rationale": "High-power of area with suggested calcification/necrosis to confirm calcification and assess adjacent interface"
+    },
+    {
+      "roi_id": "slide_A_x3072_y9216_mag10",
+      "tile_id": "slide_A_x3072_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 3072,
+      "y": 9216,
+      "level0": {
+        "x": 3072,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a myxoid stroma with scattered spindle cells and prominent thin-walled vessels. There is also a mixed inflammatory infiltrate and areas of hemorrhage.\n\nThe most likely diagnosis is a cardiac myxoma. Differential diagnoses include organizing thrombus, which typically lacks the characteristic myxoid stroma and prominent vessels, and myxoid sarcoma, which would show more cellular atypia and mitotic activity.",
+      "rationale": "Extreme peripheral fronds at far left edge to assess papillary cores/lining; look for fibroelastoma-type sea-anemone fronds."
+    },
+    {
+      "roi_id": "slide_A_x23552_y20480_mag10",
+      "tile_id": "slide_A_x23552_y20480_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 23552,
+      "y": 20480,
+      "level0": {
+        "x": 23552,
+        "y": 20480,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a hypocellular lesion with abundant myxoid matrix and scattered spindle cells. There are also areas of hemorrhage and hemosiderin deposition.\n\nThe most likely diagnosis is a cardiac myxoma. Differential diagnoses include organizing thrombus, which typically lacks the characteristic myxoid stroma and spindle cells, and myxoid sarcoma, which would show increased cellularity and atypia.",
+      "rationale": "Inferior attachment/base zone near myocardium/endocardium—look for invasion, calcification, thrombus organization"
+    },
+    {
+      "roi_id": "slide_A_x26624_y15360_mag10",
+      "tile_id": "slide_A_x26624_y15360_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 26624,
+      "y": 15360,
+      "level0": {
+        "x": 26624,
+        "y": 15360,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a myxoid stroma with scattered spindle cells and prominent hemorrhage. The stroma is loose and edematous with areas of hyalinization and scattered inflammatory cells.\n\nThe most likely diagnosis is a cardiac myxoma. Differential diagnoses include organizing thrombus, which typically lacks the characteristic myxoid stroma and spindle cells, and myxoid sarcoma, which would show more cellular atypia and mitotic activity.",
+      "rationale": "Inferior-central band near edge of explored ROIs; look for endocardial thickening/myocardium at attachment"
+    },
+    {
+      "roi_id": "slide_A_x25088_y19968_mag20",
+      "tile_id": "slide_A_x25088_y19968_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 25088,
+      "y": 19968,
+      "level0": {
+        "x": 25088,
+        "y": 19968,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a myxoid stroma with scattered spindle cells and prominent dark brown granular material. The myxoid background and spindle cells are characteristic features.\n\nThe most likely diagnosis is a cardiac myxoma. Differential diagnoses include organizing thrombus, which typically lacks the myxoid stroma and characteristic spindle cells, and myxoid sarcoma, which would show more cellular atypia and mitotic activity.",
+      "rationale": "High-power at base for atypia, infiltrative growth, mitoses, necrosis"
+    },
+    {
+      "roi_id": "slide_A_x2560_y9216_mag20",
+      "tile_id": "slide_A_x2560_y9216_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 2560,
+      "y": 9216,
+      "level0": {
+        "x": 2560,
+        "y": 9216,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a myxoid stroma with scattered spindle cells and numerous small vessels. There is also a mixed inflammatory infiltrate and extravasated red blood cells.\n\nThe most likely diagnosis is a cardiac myxoma. Differential diagnoses include organizing thrombus, which typically lacks the characteristic myxoid stroma and prominent vessels, and myxoid sarcoma, which would show more cellular atypia and mitotic activity.",
+      "rationale": "High power on far-left frond tip for endothelial lining vs fibrin; core composition."
+    },
+    {
+      "roi_id": "slide_A_x28160_y17408_mag20",
+      "tile_id": "slide_A_x28160_y17408_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 28160,
+      "y": 17408,
+      "level0": {
+        "x": 28160,
+        "y": 17408,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a myxoid stroma with scattered spindle cells and numerous small vessels. There is also evidence of hemorrhage and hemosiderin deposition.\n\nThe most likely diagnosis is a cardiac myxoma. Differential diagnoses include organizing thrombus, which typically lacks the characteristic myxoid stroma and spindle cells, and myxoid sarcoma, which would show more cellular atypia and mitotic activity.",
+      "rationale": "More inferior area possibly closer to base; assess for myocardium, fibrosis, calcification"
+    },
+    {
+      "roi_id": "slide_A_x40960_y2048_mag10",
+      "tile_id": "slide_A_x40960_y2048_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 40960,
+      "y": 2048,
+      "level0": {
+        "x": 40960,
+        "y": 2048,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a large, irregular mass composed of amorphous eosinophilic material with entrapped red blood cells and scattered inflammatory cells, adjacent to a thickened endocardial surface.\n\nThe most likely diagnosis is a left ventricular papillary fibroelastoma.\n\nDifferential diagnoses include thrombus, which typically lacks the characteristic papillary architecture and stellate calcification, and myxoma, which usually has a more myxoid stroma and characteristic stromal cells.",
+      "rationale": "Extreme right tip—check for necrosis, hypercellularity, surface fibrin/thrombus"
+    },
+    {
+      "roi_id": "slide_A_x24576_y20480_mag5",
+      "tile_id": "slide_A_x24576_y20480_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 24576,
+      "y": 20480,
+      "level0": {
+        "x": 24576,
+        "y": 20480,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a polypoid structure with a surface layer of flattened cells and underlying stroma containing spindle cells, scattered inflammatory cells, and dark brown pigment. The stroma is edematous and myxoid in areas.\n\nThe most likely diagnosis is a cardiac myxoma, specifically a papillary variant given the polypoid morphology. Differential diagnoses include organizing thrombus, which would lack the characteristic myxoid stroma and spindle cells, and a fibroma, which would be more densely collagenous and less myxoid.",
+      "rationale": "Inferior/base region for calcification/attachment zone; may show dense fibrous tissue or dystrophic calcification."
+    },
+    {
+      "roi_id": "slide_A_x23552_y17408_mag10",
+      "tile_id": "slide_A_x23552_y17408_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 23552,
+      "y": 17408,
+      "level0": {
+        "x": 23552,
+        "y": 17408,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a myxoid stroma with scattered spindle cells, prominent hemorrhage, and hemosiderin pigment. The stroma is loose and edematous with scattered inflammatory cells.\n\nThe most likely diagnosis is a cardiac myxoma. Differential diagnoses include organizing thrombus, which typically lacks the characteristic myxoid stroma and spindle cells, and myxoid sarcoma, which would show more cellular atypia and mitotic activity.",
+      "rationale": "Left-inferior central zone to search for true attachment interface (endocardium over myocardium)"
+    },
+    {
+      "roi_id": "slide_A_x41984_y1536_mag20",
+      "tile_id": "slide_A_x41984_y1536_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 41984,
+      "y": 1536,
+      "level0": {
+        "x": 41984,
+        "y": 1536,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a myxoid stroma with scattered cells, including some with vacuolated cytoplasm, and prominent dark brown granular pigment.",
+      "rationale": "High-power at right tip to assess malignant features vs hemorrhage"
+    },
+    {
+      "roi_id": "slide_A_x24576_y19456_mag10",
+      "tile_id": "slide_A_x24576_y19456_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 24576,
+      "y": 19456,
+      "level0": {
+        "x": 24576,
+        "y": 19456,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a myxoid stroma with scattered spindle cells and prominent dark brown pigment. The morphology is consistent with a myxoma, and the pigment likely represents hemosiderin from prior emboli.",
+      "rationale": "If calcification/organization present, examine at higher power."
+    },
+    {
+      "roi_id": "slide_A_x31232_y9216_mag20",
+      "tile_id": "slide_A_x31232_y9216_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 31232,
+      "y": 9216,
+      "level0": {
+        "x": 31232,
+        "y": 9216,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a myxoid stroma with scattered spindle cells, prominent hemorrhage, and hemosiderin pigment. The stroma is loose and edematous with a fibrillary matrix.\n\nThe most likely diagnosis is a cardiac myxoma. Differential diagnoses include organizing thrombus, which typically lacks the characteristic myxoid stroma and spindle cells, and myxoid sarcoma, which would show more cellular atypia and mitotic activity.",
+      "rationale": "Central-right area for any ring structures, perivascular cuffing, and exclude sarcoma features"
+    },
+    {
+      "roi_id": "slide_A_x15360_y9216_mag10",
+      "tile_id": "slide_A_x15360_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 15360,
+      "y": 9216,
+      "level0": {
+        "x": 15360,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a myxoid stroma with scattered spindle cells, inflammatory cells, and hemosiderin pigment. The morphology is consistent with a myxoma.\n\nThe most likely diagnosis is a cardiac myxoma.\n\nDifferential diagnoses include organizing thrombus, which typically lacks the characteristic myxoid stroma and stellate cells of a myxoma, and myxoid sarcoma, which would show more cellular atypia and mitotic activity.",
+      "rationale": "Left-central area not yet sampled heavily—search for hypercellular nodules"
+    },
+    {
+      "roi_id": "slide_A_x27648_y17408_mag10",
+      "tile_id": "slide_A_x27648_y17408_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 27648,
+      "y": 17408,
+      "level0": {
+        "x": 27648,
+        "y": 17408,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a myxoid stroma with scattered spindle cells, prominent hemorrhage, and a mixed inflammatory infiltrate. The surface is irregular and covered by fibrin and inflammatory cells.\n\nThe most likely diagnosis is a cardiac myxoma, specifically a left ventricular myxoma given the clinical history of emboli and the gross description of a large tumor in the left ventricle.\n\nDifferential diagnoses include organizing thrombus, which can have a myxoid appearance but typically lacks the characteristic stellate calcification and prominent hemorrhage seen here. Another consideration is a myxoid sarcoma, which would show more cellular atypia and mitotic activity.",
+      "rationale": "Second inferior-base area to search for calcification and endocardium/myocardium interface."
+    },
+    {
+      "roi_id": "slide_A_x28672_y12288_mag2",
+      "tile_id": "slide_A_x28672_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 28672,
+      "y": 12288,
+      "level0": {
+        "x": 28672,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a myxoid stroma with scattered spindle cells and prominent hemorrhage. The surface is irregular and lacks an epithelial lining.\n\nThe most likely diagnosis is a cardiac myxoma. Differential diagnoses include organizing thrombus, which typically lacks the myxoid stroma and characteristic spindle cells, and myxoid sarcoma, which would show more cellular atypia and mitotic activity.",
+      "rationale": "Re-orient to central pale whorled area that may represent attachment/base; choose more inferior-central zone for interface"
+    },
+    {
+      "roi_id": "slide_A_x28672_y13312_mag10",
+      "tile_id": "slide_A_x28672_y13312_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 28672,
+      "y": 13312,
+      "level0": {
+        "x": 28672,
+        "y": 13312,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a hypocellular lesion with scattered spindle cells embedded in a prominent myxoid matrix. Numerous small blood vessels and scattered hemosiderin pigment are also present.\n\nThe most likely diagnosis is a cardiac myxoma. The differential diagnosis includes myxoid sarcoma, which would typically show increased cellularity, nuclear atypia, and mitotic activity, features not seen in this image.",
+      "rationale": "Evaluate same suspected base area for endocardial thickening, fibrosis, calcification, thrombus organization"
+    },
+    {
+      "roi_id": "slide_A_x12800_y1536_mag20",
+      "tile_id": "slide_A_x12800_y1536_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 12800,
+      "y": 1536,
+      "level0": {
+        "x": 12800,
+        "y": 1536,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a myxoid stroma with scattered cells, including spindle and stellate forms, and prominent dark brown pigment. The stroma is loose and edematous with areas of hyalinization.\n\nThe most likely diagnosis is a cardiac myxoma, specifically a left ventricular myxoma given the clinical context of a large tumor in the left ventricle with embolic events.\n\nDifferential diagnoses include myxoid sarcoma, which would typically show more cellular atypia and mitotic activity, and organizing thrombus, which would lack the characteristic myxoid stroma and cellular components.",
+      "rationale": "Region 1 area with noted nuclear atypia at 10x—confirm degree of atypia/mitoses"
+    },
+    {
+      "roi_id": "slide_A_x24576_y19456_mag20",
+      "tile_id": "slide_A_x24576_y19456_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 24576,
+      "y": 19456,
+      "level0": {
+        "x": 24576,
+        "y": 19456,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a myxoid stroma with scattered spindle cells and numerous hemosiderin-laden macrophages. The spindle cells have elongated nuclei and are arranged in a loose pattern.\n\nThe most likely diagnosis is a cardiac myxoma, specifically a left ventricular myxoma given the clinical context of a large tumor in the left ventricle with embolic events.\n\nDifferential diagnoses include organizing thrombus, which would typically show more prominent fibrin and lack the characteristic myxoid stroma and spindle cells of a myxoma. Another consideration is a myxoid sarcoma, which would show more cellular atypia and mitotic activity.",
+      "rationale": "High power at inferior/base region previously viewed at 10x to look for calcification and organization vs myxoid tumor."
+    },
+    {
+      "roi_id": "slide_A_x40448_y2048_mag20",
+      "tile_id": "slide_A_x40448_y2048_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 40448,
+      "y": 2048,
+      "level0": {
+        "x": 40448,
+        "y": 2048,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense collection of erythrocytes with scattered dark granular material. The underlying tissue is not clearly visible.\n\nThe morphologic features are not sufficient to suggest a specific diagnosis or differential diagnoses.",
+      "rationale": "Right tip amorphous eosinophilic/fibrin area—exclude sarcoma/epithelioid malignancy; check for tumor cells"
+    },
+    {
+      "roi_id": "slide_A_x28672_y13312_mag20",
+      "tile_id": "slide_A_x28672_y13312_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 28672,
+      "y": 13312,
+      "level0": {
+        "x": 28672,
+        "y": 13312,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a hypocellular lesion with scattered spindle and stellate cells embedded in an abundant myxoid matrix. Prominent thin-walled blood vessels and scattered hemosiderin pigment are also present.\n\nThe most likely diagnosis is a cardiac myxoma. Differential diagnoses include myxoid sarcoma, which would typically show increased cellularity, nuclear atypia, and mitotic activity, and myxoid liposarcoma, which would contain lipoblasts.",
+      "rationale": "High-power assessment for myxoma ring structures, cytologic atypia/mitoses, or myocardium invasion"
+    },
+    {
+      "roi_id": "slide_A_x23040_y10752_mag20",
+      "tile_id": "slide_A_x23040_y10752_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 23040,
+      "y": 10752,
+      "level0": {
+        "x": 23040,
+        "y": 10752,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a myxoid stroma with scattered spindle cells and numerous small vessels. There are also areas of hemorrhage and hemosiderin pigment.\n\nThe most likely diagnosis is a cardiac myxoma.\n\nDifferential diagnoses include organizing thrombus, which typically lacks the prominent myxoid stroma and characteristic spindle cells, and myxoid sarcoma, which would show more cellular atypia and mitotic activity.",
+      "rationale": "Central area—look carefully for mitoses, necrosis, hyperchromasia"
+    },
+    {
+      "roi_id": "slide_A_x27648_y17408_mag20",
+      "tile_id": "slide_A_x27648_y17408_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 27648,
+      "y": 17408,
+      "level0": {
+        "x": 27648,
+        "y": 17408,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a myxoid stroma with scattered spindle cells and abundant extravasated red blood cells. Scattered hemosiderin-laden macrophages are also present.\n\nThe most likely diagnosis is a cardiac myxoma, specifically a left ventricular myxoma given the clinical history of emboli and the gross description of a large tumor in the left ventricle with villous projections.\n\nDifferential diagnoses include organizing thrombus, which can have a myxoid appearance and hemorrhage, but typically lacks the characteristic stellate calcification and the presence of myxoma cells. Another consideration is a myxoid sarcoma, which would show more cellular atypia and mitotic activity.",
+      "rationale": "High power of irregular surface with fibrin—assess whether true endothelial lining present and exclude pure thrombus."
+    },
+    {
+      "roi_id": "slide_A_x29696_y14336_mag10",
+      "tile_id": "slide_A_x29696_y14336_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 29696,
+      "y": 14336,
+      "level0": {
+        "x": 29696,
+        "y": 14336,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a myxoid stroma with scattered spindle and stellate cells, prominent vascularity, and areas of hemorrhage. Scattered brown pigment is also present.\n\nThe most likely diagnosis is a cardiac myxoma.\n\nDifferential diagnoses include myxoid sarcoma, which would typically show more cellular atypia and mitotic activity, and organizing thrombus, which would lack the characteristic myxoid stroma and cellular morphology.",
+      "rationale": "Adjacent area at potential attachment margin; look for transition into dense fibrous endocardium/myocardium"
+    },
+    {
+      "roi_id": "slide_A_x26112_y13824_mag20",
+      "tile_id": "slide_A_x26112_y13824_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 26112,
+      "y": 13824,
+      "level0": {
+        "x": 26112,
+        "y": 13824,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a myxoid stroma with scattered spindle cells and prominent hemorrhage. The spindle cells have elongated nuclei and are embedded within a pale pink matrix.\n\nThe most likely diagnosis is a cardiac myxoma. Differential diagnoses include organizing thrombus, which typically lacks the characteristic myxoid stroma and spindle cells, and myxoid sarcoma, which would show more cellular atypia and mitotic activity.",
+      "rationale": "Interface of myxoid and more solid pink stroma—exclude malignant transformation"
+    },
+    {
+      "roi_id": "slide_A_x24576_y12288_mag20",
+      "tile_id": "slide_A_x24576_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 24576,
+      "y": 12288,
+      "level0": {
+        "x": 24576,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a myxoid stroma with scattered spindle cells and prominent hemorrhage. A large vessel with thickened walls and perivascular inflammation is also present.\n\nThe most likely diagnosis is a cardiac myxoma, specifically a left ventricular myxoma given the clinical history of emboli and the gross description of a large tumor in the left ventricle.\n\nDifferential diagnoses include organizing thrombus, which typically lacks the prominent myxoid stroma and characteristic spindle cells, and myxoid sarcoma, which would show more cellular atypia and mitotic activity.",
+      "rationale": "High power central-surface area with thick-walled vessel noted at 10x; assess vascular channels and tumor cells."
+    },
+    {
+      "roi_id": "slide_A_x22528_y22528_mag5",
+      "tile_id": "slide_A_x22528_y22528_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 22528,
+      "y": 22528,
+      "level0": {
+        "x": 22528,
+        "y": 22528,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a large, polypoid mass with a smooth surface and a central stellate calcification. The mass is composed of a myxoid matrix with scattered cells and is attached to the endocardium.\n\nThe most likely diagnosis is a cardiac myxoma, specifically a left ventricular myxoma given the location and clinical presentation of emboli.\n\nDifferential diagnoses include papillary fibroelastoma, which typically has a more delicate, frond-like appearance, and organizing thrombus, which would lack the characteristic myxoid stroma and stellate calcification.",
+      "rationale": "Deeper inferior aspect where attachment/base likely; search for dystrophic calcification (stellate) and dense endocardium/myocardium."
+    },
+    {
+      "roi_id": "slide_A_x20480_y20480_mag10",
+      "tile_id": "slide_A_x20480_y20480_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 20480,
+      "y": 20480,
+      "level0": {
+        "x": 20480,
+        "y": 20480,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a myxoid stroma with scattered spindle and stellate cells, some with vacuolated cytoplasm, and prominent thin-walled vessels. The surface is irregular and frayed.\n\nThe most likely diagnosis is a cardiac myxoma. Differential diagnoses include myxoid sarcoma, which would typically show more cellular atypia and mitotic activity, and organizing thrombus, which lacks the characteristic myxoid stroma and cellular components.",
+      "rationale": "Evaluate any basilar dense fibrous areas for calcification/organization."
+    },
+    {
+      "roi_id": "slide_A_x19456_y20480_mag10",
+      "tile_id": "slide_A_x19456_y20480_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 19456,
+      "y": 20480,
+      "level0": {
+        "x": 19456,
+        "y": 20480,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a myxoid stroma with scattered spindle and stellate cells, some with vacuolated cytoplasm, and prominent curvilinear vessels. The cellularity is low to moderate.\n\nThe most likely diagnosis is cardiac myxoma.\n\nDifferential diagnoses include myxoid sarcoma, which would typically show higher cellularity, nuclear atypia, and mitotic activity, and myxoid liposarcoma, which would contain lipoblasts.",
+      "rationale": "Alternative base zone; look for calcified focus or organizing thrombus at interface."
+    },
+    {
+      "roi_id": "slide_A_x18944_y20480_mag20",
+      "tile_id": "slide_A_x18944_y20480_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 18944,
+      "y": 20480,
+      "level0": {
+        "x": 18944,
+        "y": 20480,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a myxoid stroma with scattered spindle and stellate cells, some arranged in cords, and prominent clear spaces. The cells have bland nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a cardiac myxoma, specifically a left ventricular myxoma given the clinical context of a large tumor in the left ventricle with embolic history.\n\nDifferential diagnoses include myxoid sarcoma, which would typically show more cellular atypia and mitotic activity, and myxoid liposarcoma, which would contain lipoblasts.",
+      "rationale": "High power for calcification and thrombus organization if present."
+    },
+    {
+      "roi_id": "slide_A_x15360_y21504_mag10",
+      "tile_id": "slide_A_x15360_y21504_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 15360,
+      "y": 21504,
+      "level0": {
+        "x": 15360,
+        "y": 21504,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a myxoid stroma with scattered spindle and stellate cells, some with vacuolated cytoplasm, and a prominent inflammatory infiltrate. The surface is irregular and associated with hemorrhage and hemosiderin.\n\nThe most likely diagnosis is a cardiac myxoma, specifically a left ventricular myxoma given the clinical context of a large tumor in the left ventricle with embolic history.\n\nDifferential diagnoses include organizing thrombus, which typically lacks the characteristic myxoid stroma and cellular morphology of myxoma, and myxoid sarcoma, which would show more significant cellular atypia and mitotic activity.",
+      "rationale": "Left-inferior edge; sometimes attachment with endocardium present; search for calcification and laminated thrombus."
+    },
+    {
+      "roi_id": "slide_A_x22528_y20480_mag20",
+      "tile_id": "slide_A_x22528_y20480_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 22528,
+      "y": 20480,
+      "level0": {
+        "x": 22528,
+        "y": 20480,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a hypocellular lesion composed of scattered spindle cells within a prominent myxoid matrix. The spindle cells have elongated, wavy nuclei and are arranged in a loose, haphazard pattern.\n\nThe most likely diagnosis is a cardiac myxoma. The differential diagnosis includes myxoid sarcoma, which would typically show increased cellularity, nuclear atypia, and mitotic activity, features not seen in this image.",
+      "rationale": "Directly sample the stellate calcification at base seen on 5x to document calcification/attachment histology."
+    },
+    {
+      "roi_id": "slide_A_x23040_y20480_mag20",
+      "tile_id": "slide_A_x23040_y20480_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 23040,
+      "y": 20480,
+      "level0": {
+        "x": 23040,
+        "y": 20480,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a hypocellular lesion composed of scattered spindle cells within a prominent myxoid matrix. Scattered dark brown pigment is also present.\n\nThe most likely diagnosis is a cardiac myxoma. Differential diagnoses include myxoid sarcoma, which would typically show increased cellularity, nuclear atypia, and mitotic activity, and myxoid liposarcoma, which would contain lipoblasts.",
+      "rationale": "Adjacent base tissue to calcification—look for endocardial thickening, organizing thrombus, or myocardium."
+    }
+  ]
+}

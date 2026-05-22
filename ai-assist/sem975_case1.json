@@ -1,0 +1,1166 @@
+{
+  "case_id": "sem975_case1",
+  "source": "slideseek-ai-assist",
+  "model": "gpt-5.4",
+  "generated_at": "2026-05-22T09:32:19.222645+00:00",
+  "organ": "Hepatobiliary-Pancreas",
+  "primary_dx": "Combined Hepatocellular Carcinoma-Cholangiocarcinoma With Marked Post-TACE Treatment Effect In Cirrhotic Liver",
+  "differential_dx": [
+    "Intrahepatic Cholangiocarcinoma With Entrapped/Adjacent Hepatocellular Proliferation",
+    "Hepatocellular Carcinoma, Scirrhous/Sclerosing Or Treatment-Altered"
+  ],
+  "microscopic_findings": [
+    {
+      "text": "Irregular **angulated glands** and small epithelial nests infiltrate dense **desmoplastic stroma** with cytologic atypia.",
+      "roi_ids": [
+        "slide_A_x36864_y20480_mag10",
+        "slide_A_x33280_y25600_mag20"
+      ]
+    },
+    {
+      "text": "Separate tumor areas show **thickened cords** and nests of polygonal cells with **eosinophilic cytoplasm** and prominent nucleoli.",
+      "roi_ids": [
+        "slide_A_x20480_y17408_mag20",
+        "slide_A_x11776_y8192_mag20"
+      ]
+    },
+    {
+      "text": "Large zones of **geographic coagulative necrosis** with hemorrhage and **hyalinized stroma** indicate marked treatment effect.",
+      "roi_ids": [
+        "slide_A_x24576_y15360_mag10",
+        "slide_A_x28160_y26112_mag20"
+      ]
+    },
+    {
+      "text": "Background liver shows established **cirrhosis** with broad fibrous septa, chronic inflammation, and **ductular reaction**.",
+      "roi_ids": [
+        "slide_A_x8192_y8192_mag2",
+        "slide_A_x6656_y6144_mag20"
+      ]
+    }
+  ],
+  "interpretation": "The tumor shows dual viable components: a **cholangiocarcinoma-like** infiltrative gland-forming population in desmoplastic stroma and a **hepatocellular-like** population in thickened cords/nests of polygonal eosinophilic cells. In the setting of cirrhosis, this biphenotypic morphology supports **combined hepatocellular carcinoma-cholangiocarcinoma**. Extensive **post-TACE necrosis** and hyalinizing fibrosis limit assessment but do not account for the distinct glandular component. Pure **scirrhous HCC** or metastatic adenocarcinoma is less favored on morphology alone.",
+  "num_rois": 70,
+  "tiles": [
+    {
+      "roi_id": "slide_A_x24576_y16384_mag1",
+      "tile_id": "slide_A_x24576_y16384_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 24576,
+      "y": 16384,
+      "level0": {
+        "x": 24576,
+        "y": 16384,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a neoplasm with a prominent central area of necrosis and hemorrhage, surrounded by a dense desmoplastic stroma. The tumor cells are arranged in nests and cords with eosinophilic cytoplasm and round to oval nuclei.\n\nThe most likely diagnosis is hepatocellular carcinoma, given the clinical history of chronic hepatitis C and the morphologic features of a malignant neoplasm with a desmoplastic stroma and central necrosis.\n\nDifferential diagnoses include cholangiocarcinoma, which typically shows glandular differentiation, and metastatic carcinoma, which would require clinical correlation and potentially immunohistochemistry for confirmation.",
+      "rationale": "Global low-power overview across dominant central pale area and surrounding parenchyma to orient; identify non-tumor areas."
+    },
+    {
+      "roi_id": "slide_A_x22528_y16384_mag5",
+      "tile_id": "slide_A_x22528_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 22528,
+      "y": 16384,
+      "level0": {
+        "x": 22528,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a transition from a cellular area with irregular glands and nests to a dense, hyalinized stroma. The cellular component exhibits nuclear pleomorphism and hyperchromasia.\n\nThe most likely diagnosis is a hepatobiliary malignancy, such as cholangiocarcinoma, given the glandular and nested architecture and the dense stromal reaction. The history of chronic hepatitis C and prior chemoembolization are also relevant clinical factors.\n\nDifferential diagnoses include metastatic adenocarcinoma, which can present with similar morphology and stromal reaction, and hepatocellular carcinoma with glandular differentiation, although the latter is less common.",
+      "rationale": "Intermediate power around central pale area with circled focus on thumbnail—possible vessel thrombus."
+    },
+    {
+      "roi_id": "slide_A_x28672_y16384_mag2",
+      "tile_id": "slide_A_x28672_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 28672,
+      "y": 16384,
+      "level0": {
+        "x": 28672,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a transition from dense fibrous tissue with areas of necrosis and hemorrhage to a cellular proliferation arranged in nests and cords. The cells have eosinophilic cytoplasm and round to oval nuclei.\n\nThe most likely diagnosis is hepatocellular carcinoma, given the clinical history of chronic liver disease and the morphologic features of a cellular proliferation with eosinophilic cytoplasm and a trabecular/nested pattern.\n\nDifferential diagnoses include metastatic carcinoma, which can mimic HCC, and cholangiocarcinoma, which typically shows glandular differentiation. Immunohistochemistry for markers such as HepPar1, Arginase-1, and CK7/CK19 would be helpful in distinguishing these entities.",
+      "rationale": "Survey central pale area likely post-TACE necrosis."
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag2",
+      "tile_id": "slide_A_x8192_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a nodular architecture with broad fibrous septa separating regenerative nodules. There is significant inflammation and bile ductular proliferation within the septa.\n\nThe most likely diagnosis is cirrhosis with regenerative nodules.\n\nDifferential diagnoses include:\n- Hepatocellular carcinoma: would show cytologic atypia, thickened trabeculae, and potentially vascular invasion.\n- Focal nodular hyperplasia: typically has a central scar and lacks the diffuse fibrosis and inflammation seen here.",
+      "rationale": "Left upper parenchyma away from central mass for background architecture/cirrhosis."
+    },
+    {
+      "roi_id": "slide_A_x28672_y20480_mag2",
+      "tile_id": "slide_A_x28672_y20480_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 28672,
+      "y": 20480,
+      "level0": {
+        "x": 28672,
+        "y": 20480,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a transition from dense fibrous tissue to a cellular proliferation forming irregular glands and nests within a desmoplastic stroma. The cells have eosinophilic cytoplasm and round to oval nuclei, with areas of necrosis and hemorrhage.\n\nThe most likely diagnosis is cholangiocarcinoma, given the glandular architecture, desmoplastic stroma, and location in the hepatobiliary-pancreas region. The history of chronic hepatitis C and prior chemoembolization are also consistent with this diagnosis.\n\nDifferential diagnoses include metastatic adenocarcinoma, which can have a similar appearance, and hepatocellular carcinoma with glandular differentiation, which would typically show more prominent trabecular or solid growth patterns and different cytologic features.",
+      "rationale": "Survey right lobe portion with multiple nodules to find vascular structures with tumor thrombus."
+    },
+    {
+      "roi_id": "slide_A_x36864_y20480_mag2",
+      "tile_id": "slide_A_x36864_y20480_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 36864,
+      "y": 20480,
+      "level0": {
+        "x": 36864,
+        "y": 20480,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a neoplasm with irregular glandular structures infiltrating a dense desmoplastic stroma. The glands vary in size and shape, with some areas showing cribriform architecture and intraluminal necrotic debris.\n\nThe most likely diagnosis is cholangiocarcinoma. The infiltrative glandular pattern within a prominent desmoplastic stroma is characteristic of this malignancy. The presence of cribriform architecture and intraluminal necrosis further supports this diagnosis.\n\nDifferential diagnoses include metastatic adenocarcinoma, which can also present with glandular morphology and desmoplasia. However, the location within the liver and the clinical history of chronic liver disease and transplantation make a primary cholangiocarcinoma more likely.",
+      "rationale": "Right-sided nodular areas on thumbnail—possible viable satellite tumor."
+    },
+    {
+      "roi_id": "slide_A_x36864_y8192_mag2",
+      "tile_id": "slide_A_x36864_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 36864,
+      "y": 8192,
+      "level0": {
+        "x": 36864,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a neoplasm with irregular glandular and cribriform patterns infiltrating a dense desmoplastic stroma. There is also a large area of necrosis and hemorrhage.\n\nThe most likely diagnosis is cholangiocarcinoma.\n\nDifferential diagnoses include metastatic adenocarcinoma, which can have similar glandular morphology and desmoplastic stroma, and hepatocellular carcinoma with glandular differentiation, which is less common but can occur.",
+      "rationale": "Right upper parenchyma—appears nodular; assess cirrhosis/regenerative nodules."
+    },
+    {
+      "roi_id": "slide_A_x12288_y12288_mag2",
+      "tile_id": "slide_A_x12288_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 12288,
+      "level0": {
+        "x": 12288,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a transition from cirrhotic liver parenchyma to a neoplastic process characterized by irregular glands and nests within a dense desmoplastic stroma. The neoplastic cells exhibit nuclear pleomorphism and hyperchromasia.\n\nThe most likely diagnosis is cholangiocarcinoma, likely arising in the setting of chronic liver disease and cirrhosis.\n\nDifferential diagnoses include metastatic adenocarcinoma, which can also present as a desmoplastic process in the liver, and hepatocellular carcinoma with glandular differentiation, although the morphology here is more typical of a biliary origin.",
+      "rationale": "Survey left/upper area for portal tracts and possible intravascular tumor."
+    },
+    {
+      "roi_id": "slide_A_x12288_y8192_mag2",
+      "tile_id": "slide_A_x12288_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 8192,
+      "level0": {
+        "x": 12288,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a transition from liver parenchyma to a neoplasm characterized by irregular glandular structures within a prominent desmoplastic stroma. The interface between the liver and the neoplasm is irregular.\n\nThe most likely diagnosis is cholangiocarcinoma. The presence of irregular glands within a desmoplastic stroma is characteristic of this malignancy. The history of chronic hepatitis C and prior chemoembolization are also relevant clinical factors.\n\nDifferential diagnoses include metastatic adenocarcinoma, which can also present with glandular structures and desmoplasia. However, the location within the liver and the clinical history favor a primary cholangiocarcinoma.",
+      "rationale": "Left-upper parenchyma for background cirrhosis and tumor interface."
+    },
+    {
+      "roi_id": "slide_A_x32768_y24576_mag2",
+      "tile_id": "slide_A_x32768_y24576_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 32768,
+      "y": 24576,
+      "level0": {
+        "x": 32768,
+        "y": 24576,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a neoplasm with a predominant papillary architecture and complex glandular structures within a dense fibrous stroma. The cells are cuboidal to columnar with eosinophilic cytoplasm and round to oval nuclei.\n\nThe most likely diagnosis is Intraductal Papillary Neoplasm of the Bile Duct (IPNB) with associated invasive carcinoma.\n\nDifferential diagnoses include:\n- Cholangiocarcinoma, conventional type: Typically lacks the prominent papillary architecture seen here.\n- Metastatic adenocarcinoma: Would require clinical correlation and potentially immunohistochemistry to rule out a primary tumor elsewhere.",
+      "rationale": "Right lower parenchyma near capsule for background changes vs infarct."
+    },
+    {
+      "roi_id": "slide_A_x12288_y24576_mag2",
+      "tile_id": "slide_A_x12288_y24576_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 24576,
+      "level0": {
+        "x": 12288,
+        "y": 24576,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a neoplasm with a predominant papillary architecture and complex glandular structures within a dense desmoplastic stroma. The tumor cells are cuboidal to columnar with eosinophilic cytoplasm and round to oval nuclei, and there is a prominent inflammatory infiltrate.\n\nThe most likely diagnosis is Intraductal Papillary Neoplasm of the Bile Duct (IPNB) with associated invasive carcinoma.\n\nDifferential diagnoses include:\n- Cholangiocarcinoma, conventional type: Typically lacks the prominent papillary architecture and often has a more infiltrative growth pattern.\n- Metastatic adenocarcinoma: Clinical history and immunohistochemistry would be necessary to rule out a metastasis from another primary site.",
+      "rationale": "Left lower parenchyma away from central scar/necrosis to assess cirrhosis."
+    },
+    {
+      "roi_id": "slide_A_x36864_y20480_mag10",
+      "tile_id": "slide_A_x36864_y20480_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 36864,
+      "y": 20480,
+      "level0": {
+        "x": 36864,
+        "y": 20480,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows irregular glandular structures infiltrating a dense, desmoplastic stroma. The glands are lined by atypical epithelial cells with nuclear pleomorphism and hyperchromasia.\n\nThe most likely diagnosis is cholangiocarcinoma.\n\nDifferential diagnoses include metastatic adenocarcinoma, which can also present with glandular structures in a desmoplastic stroma. Immunohistochemistry for markers such as CK7, CK19, and CEA can help differentiate between primary cholangiocarcinoma and metastatic adenocarcinoma.",
+      "rationale": "Assess right-sided gland-forming tumor and desmoplasia at higher mag."
+    },
+    {
+      "roi_id": "slide_A_x22528_y16384_mag10",
+      "tile_id": "slide_A_x22528_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 22528,
+      "y": 16384,
+      "level0": {
+        "x": 22528,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense, hyalinized stroma with scattered spindle cells and a mixed inflammatory infiltrate. There are also nests and cords of epithelial cells with eosinophilic cytoplasm and vesicular nuclei, some showing squamous differentiation.\n\nThe most likely diagnosis is a cholangiocarcinoma with squamous differentiation.\n\nDifferential diagnoses include:\n- Metastatic squamous cell carcinoma: This would be considered if there is a known primary squamous cell carcinoma elsewhere. The presence of a dominant mass in the liver and the history of chemoembolization would favor a primary liver tumor.\n- Hepatocellular carcinoma with squamous differentiation: This is a rare variant of HCC. However, the prominent desmoplastic stroma and the pattern of epithelial nests and cords are more characteristic of cholangiocarcinoma.",
+      "rationale": "Clarify whether circled focus represents portal vein with tumor thrombus; evaluate intravascular component vs stroma."
+    },
+    {
+      "roi_id": "slide_A_x20992_y15360_mag20",
+      "tile_id": "slide_A_x20992_y15360_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20992,
+      "y": 15360,
+      "level0": {
+        "x": 20992,
+        "y": 15360,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a central area of necrosis surrounded by a dense inflammatory infiltrate and reactive stroma. Adjacent to the necrosis, there are nests of atypical epithelial cells with eosinophilic cytoplasm and vesicular nuclei.\n\nThe most likely diagnosis is hepatocellular carcinoma with treatment effect.\n\nDifferential diagnoses include metastatic carcinoma with treatment effect or a high-grade cholangiocarcinoma.",
+      "rationale": "High power of suspected intravascular tumor to assess cytology (trabecular vs glandular) and treatment effect."
+    },
+    {
+      "roi_id": "slide_A_x12288_y8192_mag10",
+      "tile_id": "slide_A_x12288_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 12288,
+      "y": 8192,
+      "level0": {
+        "x": 12288,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a transition from relatively preserved liver parenchyma to a neoplastic process characterized by irregular glands and nests of cells within a dense desmoplastic stroma. The neoplastic cells exhibit nuclear pleomorphism and hyperchromasia.\n\nThe most likely diagnosis is cholangiocarcinoma, given the glandular architecture and prominent desmoplastic stroma in the context of an explanted liver with a dominant mass and satellite nodules.\n\nDifferential diagnoses include metastatic adenocarcinoma, which can also present with glandular morphology and desmoplasia, and hepatocellular carcinoma with glandular differentiation, although the latter typically shows more hepatocellular features.",
+      "rationale": "Evaluate tumor-liver interface left upper: glands vs trabeculae, stromal reaction."
+    },
+    {
+      "roi_id": "slide_A_x24576_y17408_mag10",
+      "tile_id": "slide_A_x24576_y17408_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 24576,
+      "y": 17408,
+      "level0": {
+        "x": 24576,
+        "y": 17408,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a transition from a cellular area with spindle cells and inflammation to a hypocellular area with dense hyalinized collagen and scattered spindle cells. The cellular area contains a mixed inflammatory infiltrate.\n\nThe most likely diagnosis is a post-treatment effect of chemoembolization in a hepatocellular carcinoma.\n\nDifferential diagnoses include a scar from a previous biopsy or other localized injury, or a desmoplastic reaction associated with a different type of tumor.",
+      "rationale": "Sample adjacent pale necrotic area for TACE-related necrosis/embolization material."
+    },
+    {
+      "roi_id": "slide_A_x28672_y16384_mag10",
+      "tile_id": "slide_A_x28672_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 28672,
+      "y": 16384,
+      "level0": {
+        "x": 28672,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a paucicellular area with abundant eosinophilic, hyalinized matrix and scattered spindle cells. There are also areas of hemorrhage and necrosis.\n\nThe most likely diagnosis is a paucicellular variant of hepatocellular carcinoma, likely post-treatment effect.\n\nDifferential diagnoses include post-treatment changes in a benign lesion such as a hepatic adenoma or focal nodular hyperplasia, or a paucicellular mesenchymal neoplasm.",
+      "rationale": "Interrogate central transition zone around necrosis for viable tumor pattern post-TACE."
+    },
+    {
+      "roi_id": "slide_A_x6144_y6144_mag10",
+      "tile_id": "slide_A_x6144_y6144_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 6144,
+      "y": 6144,
+      "level0": {
+        "x": 6144,
+        "y": 6144,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a transition from relatively preserved liver parenchyma to a region with dense fibrosis, chronic inflammation, and numerous small ductular structures. The interface between these areas is irregular.\n\nThe most likely diagnosis for this area is a ductular reaction, which is a common finding in chronic liver injury and cirrhosis. This represents a proliferation of small bile ductules in response to injury.\n\nDifferential diagnoses to consider include:\n1. Well-differentiated cholangiocarcinoma: This would typically show more cytologic atypia, infiltrative growth, and potentially desmoplastic stroma, which are not prominent features in this image.\n2. Metastatic adenocarcinoma: While possible, the morphology here is more consistent with a reactive process. Metastatic adenocarcinoma would typically show more cytologic atypia and architectural disarray.",
+      "rationale": "Background cirrhotic parenchyma in left upper area—assess portal inflammation, septa, ductular reaction."
+    },
+    {
+      "roi_id": "slide_A_x25600_y23552_mag10",
+      "tile_id": "slide_A_x25600_y23552_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 25600,
+      "y": 23552,
+      "level0": {
+        "x": 25600,
+        "y": 23552,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a transition from a cellular area with pleomorphic cells and hemorrhage to a dense fibrous stroma with inflammation and necrosis. The cellular component exhibits features of a high-grade neoplasm.\n\nThe most likely diagnosis is hepatocellular carcinoma, given the clinical history of chronic liver disease and the morphologic features of a high-grade neoplasm in the liver.\n\nDifferential diagnoses include metastatic carcinoma, which can present as a high-grade neoplasm in the liver, and cholangiocarcinoma, which typically shows glandular differentiation and a desmoplastic stroma.",
+      "rationale": "Examine one of the elongated luminal structures inferior-right (possible vessel/duct) for tumor thrombus."
+    },
+    {
+      "roi_id": "slide_A_x24576_y15360_mag10",
+      "tile_id": "slide_A_x24576_y15360_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 24576,
+      "y": 15360,
+      "level0": {
+        "x": 24576,
+        "y": 15360,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a transition from a cellular area with necrosis and inflammation to a dense, hyalinized stroma. The cellular component contains nests and cords of cells with eosinophilic cytoplasm and pleomorphic nuclei, along with scattered multinucleated giant cells.\n\nThe most likely diagnosis is hepatocellular carcinoma, given the clinical history of chronic liver disease and the presence of a dominant mass with satellite nodules. The morphologic features, including the cellular arrangement in nests and cords, eosinophilic cytoplasm, and pleomorphic nuclei, are consistent with hepatocellular carcinoma. The dense hyalinized stroma may represent a desmoplastic reaction or post-treatment changes.\n\nDifferential diagnoses to consider include metastatic carcinoma, particularly from a primary site with eosinophilic cytoplasm such as renal cell carcinoma or adrenal cortical carcinoma. Immunohistochemical stains for hepatocellular markers (e.g., HepPar1, Arginase-1) and markers for other potential primary sites would be helpful in confirming the diagnosis.",
+      "rationale": "Sample central pale necrotic area to characterize coagulative necrosis/hemorrhage from TACE."
+    },
+    {
+      "roi_id": "slide_A_x6656_y6144_mag20",
+      "tile_id": "slide_A_x6656_y6144_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 6656,
+      "y": 6144,
+      "level0": {
+        "x": 6656,
+        "y": 6144,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a transition from hepatocellular parenchyma to a dense fibrous stroma containing a mixed inflammatory infiltrate and numerous small ductular structures. The interface between the parenchyma and stroma is irregular.\n\nThe most likely diagnosis for this single tile is a ductular reaction, which is a common finding in chronic liver injury and cirrhosis, particularly in the context of chronic hepatitis C and prior chemoembolization.\n\nDifferential diagnoses to consider include:\n1. Intrahepatic cholangiocarcinoma: This would typically show more significant cytologic atypia and architectural disarray within the ductular structures, often with desmoplastic stroma.\n2. Metastatic adenocarcinoma: This would also show cytologic atypia and potentially mucin production, and the clinical history would be crucial for this consideration.",
+      "rationale": "Higher power in same background area for interface hepatitis, bile duct injury, steatosis, cholestasis."
+    },
+    {
+      "roi_id": "slide_A_x26112_y24064_mag20",
+      "tile_id": "slide_A_x26112_y24064_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 26112,
+      "y": 24064,
+      "level0": {
+        "x": 26112,
+        "y": 24064,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows infiltrating nests and cords of atypical epithelial cells with pleomorphic nuclei and prominent nucleoli within a desmoplastic stroma. There is also a dense inflammatory infiltrate and areas of necrosis.\n\nThe most likely diagnosis is cholangiocarcinoma. The infiltrative growth pattern, desmoplastic stroma, and cellular atypia are characteristic features of this malignancy. The history of chronic hepatitis C and prior chemoembolization are also relevant clinical factors.\n\nDifferential diagnoses include metastatic adenocarcinoma, which can present with similar morphology and desmoplastic stroma. Immunohistochemical stains for markers such as CK7, CK19, and HepPar1 would be helpful in distinguishing between primary cholangiocarcinoma and metastatic adenocarcinoma.",
+      "rationale": "High power of same elongated structure to confirm endothelial-lined vein and tumor within lumen."
+    },
+    {
+      "roi_id": "slide_A_x33792_y12288_mag10",
+      "tile_id": "slide_A_x33792_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 33792,
+      "y": 12288,
+      "level0": {
+        "x": 33792,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a transition from dense, hyalinized stroma to a cellular area with nests and cords of epithelial cells exhibiting nuclear pleomorphism and prominent nucleoli, accompanied by a mixed inflammatory infiltrate.\n\nThe most likely diagnosis is a hepatocellular carcinoma with a prominent desmoplastic stromal reaction.\n\nDifferential diagnoses include cholangiocarcinoma, which typically shows glandular differentiation, and metastatic carcinoma, which would require clinical correlation and potentially immunohistochemistry for confirmation.",
+      "rationale": "Sample upper mid-right nodule for possible distinct component (HCC vs CC)"
+    },
+    {
+      "roi_id": "slide_A_x11264_y27648_mag10",
+      "tile_id": "slide_A_x11264_y27648_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 11264,
+      "y": 27648,
+      "level0": {
+        "x": 11264,
+        "y": 27648,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows infiltrating glandular structures with nuclear pleomorphism and prominent nucleoli within a dense desmoplastic stroma. There is also a significant inflammatory infiltrate.\n\nThe most likely diagnosis is cholangiocarcinoma.\n\nDifferential diagnoses include metastatic adenocarcinoma, which can have similar glandular morphology and desmoplastic stroma. Immunohistochemistry for markers like CK7, CK19, and CDX2 can help distinguish between primary cholangiocarcinoma and metastatic adenocarcinoma.",
+      "rationale": "Left lower parenchyma ROI 12 area—confirm cirrhosis and look for dysplastic nodules/large cell change."
+    },
+    {
+      "roi_id": "slide_A_x11264_y27648_mag20",
+      "tile_id": "slide_A_x11264_y27648_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 11264,
+      "y": 27648,
+      "level0": {
+        "x": 11264,
+        "y": 27648,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows infiltrating nests and cords of atypical epithelial cells with pleomorphic nuclei and prominent nucleoli within a desmoplastic stroma. Some cells exhibit clear cytoplasmic vacuoles.\n\nThe most likely diagnosis is cholangiocarcinoma.\n\nDifferential diagnoses include metastatic adenocarcinoma, which can have similar morphology, and hepatocellular carcinoma, which typically shows different architectural patterns and cellular features.",
+      "rationale": "High power left lower for lobular activity, ballooning, iron pigment."
+    },
+    {
+      "roi_id": "slide_A_x39936_y9216_mag10",
+      "tile_id": "slide_A_x39936_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 39936,
+      "y": 9216,
+      "level0": {
+        "x": 39936,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a paucicellular area with dense, hyalinized collagen and scattered spindle cells. There is also a large artifactual space.\n\nThe morphologic features are consistent with a paucicellular scar, likely representing a treated tumor bed. The dense hyalinized collagen and scattered spindle cells are characteristic of a fibrotic response to therapy. The artifactual space is likely related to the chemoembolization procedure.\n\nDifferential diagnoses include a treated hepatocellular carcinoma or a treated metastatic carcinoma. The paucicellular nature and dense hyalinization are more typical of a treated primary liver tumor like hepatocellular carcinoma, but a treated metastatic carcinoma could also present with similar features.",
+      "rationale": "Right upper peripheral parenchyma away from obvious tumor—evaluate background nodules; exclude tumor involvement."
+    },
+    {
+      "roi_id": "slide_A_x24064_y16896_mag20",
+      "tile_id": "slide_A_x24064_y16896_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 24064,
+      "y": 16896,
+      "level0": {
+        "x": 24064,
+        "y": 16896,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle-shaped cells with elongated nuclei embedded in a dense, hyalinized stroma. Scattered inflammatory cells and small vessels are also present.\n\nThe most likely diagnosis is a spindle cell neoplasm, such as a sarcoma or a sarcomatoid carcinoma.\n\nDifferential diagnoses include:\n- Inflammatory myofibroblastic tumor: characterized by spindle cells, inflammatory infiltrate, and often ALK rearrangement.\n- Solitary fibrous tumor: typically shows a patternless architecture, prominent branching vessels, and CD34 positivity.\n- Leiomyosarcoma: composed of spindle cells with eosinophilic cytoplasm and blunt-ended nuclei, positive for smooth muscle markers.\n- Sarcomatoid carcinoma: a biphasic tumor with both epithelial and mesenchymal components, often showing keratin positivity in the epithelial component.",
+      "rationale": "High power within circled region to identify true portal vein branch lumen and confirm tumor thrombus vs perivascular stroma."
+    },
+    {
+      "roi_id": "slide_A_x35840_y20480_mag20",
+      "tile_id": "slide_A_x35840_y20480_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 35840,
+      "y": 20480,
+      "level0": {
+        "x": 35840,
+        "y": 20480,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows dense fibrous stroma with scattered spindle cells and prominent dark granular material. There are also clusters of epithelial cells with eosinophilic cytoplasm and round nuclei.\n\nThe most likely diagnosis is a cholangiocarcinoma, given the dense desmoplastic stroma and the presence of epithelial cell clusters. The dark granular material is consistent with chemoembolization material.\n\nDifferential diagnoses include metastatic adenocarcinoma, which can also present with desmoplastic stroma and epithelial cell clusters. However, the clinical history of chemoembolization and the location in the liver make cholangiocarcinoma more likely.",
+      "rationale": "High-mag cytology of gland-forming area to confirm cholangiocarcinoma features (mucin, polarity)."
+    },
+    {
+      "roi_id": "slide_A_x23552_y16384_mag10",
+      "tile_id": "slide_A_x23552_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 23552,
+      "y": 16384,
+      "level0": {
+        "x": 23552,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular aggregate with pleomorphic cells and eosinophilic material within a dense, hyalinized stroma. There is a prominent inflammatory infiltrate and areas of necrosis.\n\nThe most likely diagnosis is a high-grade malignant neoplasm, consistent with a hepatocellular carcinoma, given the clinical context of an explanted liver with a dominant mass and satellite nodules.\n\nDifferential diagnoses include metastatic carcinoma, which can present with similar morphology and stromal reaction, and a high-grade cholangiocarcinoma, although the cellular morphology and eosinophilic material are more suggestive of hepatocellular origin.",
+      "rationale": "Context around circled region to see vessel wall, lumen, and attachment."
+    },
+    {
+      "roi_id": "slide_A_x33792_y12288_mag20",
+      "tile_id": "slide_A_x33792_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 33792,
+      "y": 12288,
+      "level0": {
+        "x": 33792,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense, hyalinized stroma with scattered spindle cells and a mixed inflammatory infiltrate. There are also entrapped epithelial structures and a focus of calcification.\n\nThe most likely diagnosis is a sclerosing variant of cholangiocarcinoma. This diagnosis is supported by the dense desmoplastic stroma, scattered spindle cells, and entrapped epithelial structures, which are characteristic features of this variant. The clinical history of a dominant mass in the explanted liver and treatment with chemoembolization further supports this diagnosis.\n\nDifferential diagnoses to consider include other sclerosing neoplasms such as sclerosing hepatocellular carcinoma or sclerosing mesenchymal tumors. However, the presence of entrapped epithelial structures and the clinical context favor a cholangiocarcinoma.",
+      "rationale": "High-mag of nested/cord area to look for hepatocellular differentiation (bile, trabeculae, endothelial wrapping)."
+    },
+    {
+      "roi_id": "slide_A_x31744_y25600_mag10",
+      "tile_id": "slide_A_x31744_y25600_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 31744,
+      "y": 25600,
+      "level0": {
+        "x": 31744,
+        "y": 25600,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows irregular glandular structures infiltrating a dense, desmoplastic stroma. The glands are lined by atypical epithelial cells with nuclear pleomorphism and hyperchromasia, and there is a prominent inflammatory infiltrate.\n\nThe most likely diagnosis is cholangiocarcinoma, given the glandular morphology and desmoplastic stroma in the context of an explanted liver with a dominant mass and portal vein involvement.\n\nDifferential diagnoses include metastatic adenocarcinoma, which can also present with glandular morphology and desmoplasia, and hepatocellular carcinoma with glandular differentiation, although the latter is less common.",
+      "rationale": "Evaluate right-inferior nodular area for large portal vein branches and possible intravascular tumor."
+    },
+    {
+      "roi_id": "slide_A_x8192_y16384_mag5",
+      "tile_id": "slide_A_x8192_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 8192,
+      "y": 16384,
+      "level0": {
+        "x": 8192,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a transition from relatively preserved liver parenchyma to an area of dense fibrosis with chronic inflammation and scattered atypical glandular structures. The interface between the parenchyma and fibrosis is irregular.\n\nThe most likely diagnosis is cholangiocarcinoma, given the presence of atypical glandular structures within a fibrotic stroma in the context of an explanted liver with a dominant mass and satellite nodules.\n\nDifferential diagnoses include metastatic adenocarcinoma, which can also present with glandular structures in a fibrotic background, and hepatocellular carcinoma with glandular differentiation, although the latter is less common.",
+      "rationale": "Map shows underexplored central-left parenchyma adjacent to septa but away from obvious tumor; look for cirrhotic nodules."
+    },
+    {
+      "roi_id": "slide_A_x25088_y15360_mag20",
+      "tile_id": "slide_A_x25088_y15360_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 25088,
+      "y": 15360,
+      "level0": {
+        "x": 25088,
+        "y": 15360,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense, hyalinized stroma with scattered spindle cells and a prominent inflammatory infiltrate. The stroma is arranged in a swirling pattern.\n\nThe most likely diagnosis is a sclerosing variant of cholangiocarcinoma.\n\nDifferential diagnoses include inflammatory myofibroblastic tumor, which typically shows a more prominent myofibroblastic component and less dense hyalinization, and sclerosing hemangioma, which would show vascular spaces within the sclerotic stroma.",
+      "rationale": "High-mag of necrosis/treatment effect zone to characterize coagulative necrosis vs hyalinization/ghost cells."
+    },
+    {
+      "roi_id": "slide_A_x33280_y25600_mag20",
+      "tile_id": "slide_A_x33280_y25600_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 33280,
+      "y": 25600,
+      "level0": {
+        "x": 33280,
+        "y": 25600,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows irregular glandular structures with nuclear pleomorphism and prominent nucleoli embedded in a dense desmoplastic stroma. There is also a mixed inflammatory infiltrate and a nerve bundle.\n\nThe most likely diagnosis is cholangiocarcinoma.\n\nDifferential diagnoses include metastatic adenocarcinoma, which can also present with glandular structures and desmoplasia, and hepatocellular carcinoma with glandular differentiation, which would typically show more hepatocellular features and lack the prominent desmoplastic stroma.",
+      "rationale": "High power of any vascular spaces in right-inferior area to look for tumor within lumen, fibrin/RBC thrombus."
+    },
+    {
+      "roi_id": "slide_A_x9216_y16384_mag10",
+      "tile_id": "slide_A_x9216_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 9216,
+      "y": 16384,
+      "level0": {
+        "x": 9216,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of polygonal cells with eosinophilic cytoplasm and round nuclei, arranged in thickened cords and nests. There is a prominent inflammatory infiltrate and areas of necrosis.\n\nThe most likely diagnosis is hepatocellular carcinoma. The thickened cords and nests of polygonal cells with eosinophilic cytoplasm and round nuclei are characteristic features. The presence of necrosis and inflammation further supports a malignant process. The history of chronic hepatitis C and end-stage liver disease is a significant risk factor for hepatocellular carcinoma.\n\nDifferential diagnoses include metastatic carcinoma, which can also present as a cellular proliferation in the liver. However, the polygonal cell morphology and arrangement in thickened cords are more typical of hepatocellular carcinoma. Immunohistochemical stains for hepatocellular markers (e.g., HepPar1, Arginase-1) and markers for common metastatic carcinomas (e.g., CK7, CK20, TTF-1) would be helpful to confirm the diagnosis.",
+      "rationale": "Same area higher power for hepatitis activity/duct injury."
+    },
+    {
+      "roi_id": "slide_A_x12288_y8192_mag20",
+      "tile_id": "slide_A_x12288_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 12288,
+      "y": 8192,
+      "level0": {
+        "x": 12288,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a transition from liver parenchyma to a dense fibrous stroma containing scattered epithelial cells. The epithelial cells are arranged in small clusters and cords within the stroma.\n\nThe most likely diagnosis is cholangiocarcinoma, given the presence of epithelial cells within a prominent desmoplastic stroma in the context of an explanted liver with a dominant mass and satellite nodules.\n\nDifferential diagnoses include metastatic adenocarcinoma, which can also present with a desmoplastic stromal reaction, and hepatocellular carcinoma with a prominent stromal component, although the morphology of the epithelial cells in this image is more consistent with biliary differentiation.",
+      "rationale": "High-mag of interface area with glands in desmoplastic stroma; assess invasion pattern."
+    },
+    {
+      "roi_id": "slide_A_x9216_y6144_mag10",
+      "tile_id": "slide_A_x9216_y6144_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 9216,
+      "y": 6144,
+      "level0": {
+        "x": 9216,
+        "y": 6144,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a transition from relatively preserved liver parenchyma to a dense fibrous stroma containing a mixed inflammatory infiltrate and scattered epithelial structures. The interface between the parenchyma and stroma is irregular.\n\nThe most likely diagnosis for this single tile is a cholangiocarcinoma, given the presence of a dense fibrous stroma with epithelial structures and the clinical history of a dominant mass in the explanted liver.\n\nDifferential diagnoses to consider include a metastatic adenocarcinoma, which can also present with a desmoplastic stromal reaction and epithelial structures. However, the presence of a dominant mass in the liver and the history of chemoembolization make a primary cholangiocarcinoma more likely. Further evaluation of the entire slide and additional immunohistochemical stains would be necessary to confirm the diagnosis and rule out other possibilities.",
+      "rationale": "Check left-upper explored area for portal tracts/veins; look for vascular invasion."
+    },
+    {
+      "roi_id": "slide_A_x18432_y28672_mag5",
+      "tile_id": "slide_A_x18432_y28672_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 18432,
+      "y": 28672,
+      "level0": {
+        "x": 18432,
+        "y": 28672,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a transition from dense fibrous tissue to a cellular area with hemorrhage and necrosis. The cellular component consists of pleomorphic cells with eosinophilic cytoplasm and hyperchromatic nuclei, arranged in nests and cords, with evidence of vascular invasion.\n\nThe most likely diagnosis is hepatocellular carcinoma, given the clinical history of chronic liver disease and the morphologic features of a malignant epithelial neoplasm with hepatoid differentiation and vascular invasion.\n\nDifferential diagnoses include metastatic carcinoma, particularly from a primary site with hepatoid features (e.g., gastric carcinoma), and cholangiocarcinoma, although the cellular morphology and pattern are more consistent with hepatocellular carcinoma.",
+      "rationale": "Inferior central parenchyma in larger blue box—seek viable non-tumor liver and check for cholestasis/steatosis."
+    },
+    {
+      "roi_id": "slide_A_x29696_y22528_mag10",
+      "tile_id": "slide_A_x29696_y22528_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 29696,
+      "y": 22528,
+      "level0": {
+        "x": 29696,
+        "y": 22528,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a transition from dense fibrous tissue to a cellular area with irregular glandular structures and nests of pleomorphic cells within a desmoplastic stroma. Inflammation and necrosis are also present.\n\nThe most likely diagnosis is cholangiocarcinoma, given the glandular morphology and desmoplastic stroma in the context of an explanted liver with a dominant mass and portal vein involvement.\n\nDifferential diagnoses include metastatic adenocarcinoma, which can have similar morphology, and hepatocellular carcinoma with glandular differentiation, although the latter is less common.",
+      "rationale": "Search for vascular space with tumor thrombus/vascular invasion in lower central-right regions."
+    },
+    {
+      "roi_id": "slide_A_x17408_y27648_mag10",
+      "tile_id": "slide_A_x17408_y27648_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 17408,
+      "y": 27648,
+      "level0": {
+        "x": 17408,
+        "y": 27648,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense, hyalinized fibrous stroma with scattered spindle cells and a mixed inflammatory infiltrate. There are also areas of amorphous eosinophilic material and cellular debris.\n\nThe most likely diagnosis is a post-treatment effect, such as post-chemoembolization changes, given the clinical history. The dense fibrosis and inflammation are consistent with treatment-induced injury. The amorphous eosinophilic material and cellular debris could represent necrosis or fibrin deposition.\n\nDifferential diagnoses to consider include:\n- Residual or recurrent tumor with treatment effect: The presence of spindle cells and inflammation could be reactive, but atypical cells or residual tumor cells would need to be excluded.\n- Organizing thrombus: The amorphous eosinophilic material could represent fibrin, and the spindle cells could be fibroblasts involved in organization. However, the overall pattern is more suggestive of a reactive process rather than a thrombus.",
+      "rationale": "Higher power for lobular inflammation, hepatocyte changes, pigment."
+    },
+    {
+      "roi_id": "slide_A_x28672_y24576_mag5",
+      "tile_id": "slide_A_x28672_y24576_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 28672,
+      "y": 24576,
+      "level0": {
+        "x": 28672,
+        "y": 24576,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a neoplasm with a large central cystic space and surrounding irregular glandular structures within a dense fibrous stroma. The neoplastic cells are cuboidal to columnar with eosinophilic cytoplasm and round to oval nuclei, exhibiting focal stratification and papillary projections.\n\nThe most likely diagnosis is Intrahepatic Cholangiocarcinoma, specifically the cystic variant.\n\nDifferential diagnoses include:\n- Metastatic adenocarcinoma: This is less likely given the patient's history of chronic hepatitis C and the presence of a dominant mass in the explanted liver, which is more consistent with a primary liver malignancy.\n- Hepatocellular carcinoma with glandular differentiation: This is less likely due to the predominantly glandular architecture and the presence of a large cystic space, which are more characteristic of cholangiocarcinoma.",
+      "rationale": "Target elongated luminal structure on right-lower (green outline on thumbnail) to confirm if portal vein branch with tumor thrombus."
+    },
+    {
+      "roi_id": "slide_A_x24576_y28672_mag5",
+      "tile_id": "slide_A_x24576_y28672_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 24576,
+      "y": 28672,
+      "level0": {
+        "x": 24576,
+        "y": 28672,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows infiltrating nests and cords of epithelial cells within a dense, desmoplastic stroma. The epithelial cells exhibit nuclear pleomorphism and hyperchromasia.\n\nThe most likely diagnosis is cholangiocarcinoma. The infiltrative growth pattern of atypical epithelial cells within a prominent desmoplastic stroma is characteristic of this malignancy. The clinical history of chronic hepatitis C and the presence of a dominant mass with satellite nodules in the explanted liver further support this diagnosis.\n\nDifferential diagnoses include metastatic adenocarcinoma, which can also present with infiltrating glands and a desmoplastic reaction. However, the location within the liver and the clinical history make cholangiocarcinoma more likely. Another consideration is hepatocellular carcinoma with a prominent stromal reaction, but the morphology of the infiltrating cells is more consistent with biliary differentiation.",
+      "rationale": "Inferior mid-right parenchyma near hemorrhagic area—exclude infarct, assess background changes."
+    },
+    {
+      "roi_id": "slide_A_x37376_y20992_mag20",
+      "tile_id": "slide_A_x37376_y20992_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 37376,
+      "y": 20992,
+      "level0": {
+        "x": 37376,
+        "y": 20992,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a transition from dense, hyalinized stroma to a cellular area with irregular glandular structures and nests of cells exhibiting nuclear pleomorphism and hyperchromasia. Scattered inflammatory cells are present.\n\nThe morphologic features are consistent with a malignant epithelial neoplasm, likely an adenocarcinoma, arising in the context of chronic liver disease and prior chemoembolization. Given the location in the liver and the patient's history, a primary hepatobiliary-pancreatic adenocarcinoma is the most likely diagnosis. Differential diagnoses include metastatic adenocarcinoma from another primary site, such as the gastrointestinal tract or breast, which would require clinical correlation and potentially immunohistochemical studies for confirmation.",
+      "rationale": "High-mag on right-lower nodule to confirm gland formation vs hepatocellular pattern; assess mucin/dirty necrosis."
+    },
+    {
+      "roi_id": "slide_A_x28672_y24576_mag10",
+      "tile_id": "slide_A_x28672_y24576_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 28672,
+      "y": 24576,
+      "level0": {
+        "x": 28672,
+        "y": 24576,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a transition from squamous epithelium to infiltrating nests and cords of atypical epithelial cells with eosinophilic cytoplasm and nuclear pleomorphism within a desmoplastic stroma. Features of keratinization and necrosis are also present.\n\nThe most likely diagnosis is a combined hepatocellular-cholangiocarcinoma with squamous differentiation.\n\nDifferential diagnoses include squamous cell carcinoma, which would lack the glandular component, and metastatic squamous cell carcinoma, which would require clinical correlation to rule out a primary site elsewhere.",
+      "rationale": "Assess lumen contents (tumor vs bland thrombus) and vessel wall."
+    },
+    {
+      "roi_id": "slide_A_x39936_y17408_mag10",
+      "tile_id": "slide_A_x39936_y17408_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 39936,
+      "y": 17408,
+      "level0": {
+        "x": 39936,
+        "y": 17408,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a neoplasm with mixed architectural patterns including glandular and solid areas. The cells are large with abundant eosinophilic cytoplasm and prominent nucleoli, with some areas showing clear cell change.\n\nThe most likely diagnosis is hepatocellular carcinoma, given the patient's history of chronic hepatitis C and liver transplantation. The mixed architectural patterns and cellular features are consistent with this diagnosis.\n\nDifferential diagnoses include cholangiocarcinoma, which typically shows more uniform glandular architecture and less prominent nucleoli, and metastatic carcinoma, which would require clinical correlation and potentially immunohistochemistry for confirmation.",
+      "rationale": "Upper-right area near ROI 27: look for viable tumor vs necrosis and architecture."
+    },
+    {
+      "roi_id": "slide_A_x28672_y24576_mag20",
+      "tile_id": "slide_A_x28672_y24576_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 28672,
+      "y": 24576,
+      "level0": {
+        "x": 28672,
+        "y": 24576,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of atypical epithelial cells forming irregular glands and nests within a dense, desmoplastic stroma. The cells exhibit nuclear pleomorphism and hyperchromasia.\n\nThe most likely diagnosis is cholangiocarcinoma, given the glandular architecture and desmoplastic stroma in the context of a liver mass in a patient with chronic liver disease and history of chemoembolization.\n\nDifferential diagnoses include metastatic adenocarcinoma, which can also present with glandular morphology and desmoplasia, and hepatocellular carcinoma with glandular differentiation, although the latter typically shows more hepatocellular features.",
+      "rationale": "High power for cytology and fibrin/RBC composition within presumed portal vein thrombus."
+    },
+    {
+      "roi_id": "slide_A_x20480_y17408_mag10",
+      "tile_id": "slide_A_x20480_y17408_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 20480,
+      "y": 17408,
+      "level0": {
+        "x": 20480,
+        "y": 17408,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords within a prominent desmoplastic stroma. The cells have eosinophilic cytoplasm and round to oval nuclei with visible nucleoli. Areas of hemorrhage and necrosis are also present.\n\nThe most likely diagnosis is hepatocellular carcinoma, given the patient's history of chronic hepatitis C and the presence of a dominant mass in the explanted liver. The morphologic features, including the trabecular pattern and cellular characteristics, are consistent with this diagnosis.\n\nDifferential diagnoses to consider include metastatic carcinoma, particularly from a primary site with a similar morphology such as the pancreas or stomach. Immunohistochemical stains for markers like HepPar1, Arginase-1, and Glypican-3 would be helpful to confirm hepatocellular differentiation and distinguish it from metastatic carcinoma.",
+      "rationale": "Midsection around interface of necrotic core and viable rim: estimate % necrosis and pattern."
+    },
+    {
+      "roi_id": "slide_A_x26624_y22528_mag5",
+      "tile_id": "slide_A_x26624_y22528_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 26624,
+      "y": 22528,
+      "level0": {
+        "x": 26624,
+        "y": 22528,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a transition from dense fibrous tissue to a cellular area with extensive necrosis and hemorrhage. The cellular component consists of pleomorphic cells with irregular nuclei and eosinophilic cytoplasm, arranged in nests and cords.\n\nThe most likely diagnosis is hepatocellular carcinoma, given the clinical history of chronic hepatitis C and the morphologic features of pleomorphic cells in nests and cords with associated necrosis and hemorrhage.\n\nDifferential diagnoses include metastatic carcinoma, which can present with similar morphology and necrosis, and cholangiocarcinoma, which typically shows glandular differentiation and desmoplastic stroma.",
+      "rationale": "Second elongated structure nearby; evaluate for vascular invasion."
+    },
+    {
+      "roi_id": "slide_A_x5120_y9216_mag10",
+      "tile_id": "slide_A_x5120_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 5120,
+      "y": 9216,
+      "level0": {
+        "x": 5120,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a transition from relatively preserved liver parenchyma to an area of dense fibrosis with a prominent ductular reaction and chronic inflammation. The interface between the parenchyma and the fibrotic area is irregular.\n\nThe most likely diagnosis for this area is a ductular reaction, which is a common finding in chronic liver injury and cirrhosis, particularly in the context of chronic hepatitis C and prior chemoembolization.\n\nDifferential diagnoses to consider include:\n1. Intrahepatic cholangiocarcinoma: This would typically show more significant cytologic atypia and architectural disarray within the ductular structures, often with desmoplastic stroma.\n2. Metastatic adenocarcinoma: This would also show cytologic atypia and potentially glandular formation, but the pattern of ductular reaction and associated fibrosis is less typical.",
+      "rationale": "Upper left blue-box area likely background cirrhosis; sample a different portal tract than prior to assess HCV activity."
+    },
+    {
+      "roi_id": "slide_A_x28672_y26112_mag20",
+      "tile_id": "slide_A_x28672_y26112_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 28672,
+      "y": 26112,
+      "level0": {
+        "x": 28672,
+        "y": 26112,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a transition from an area of necrosis to viable tumor cells arranged in nests and cords within a desmoplastic stroma. The tumor cells exhibit nuclear pleomorphism, prominent nucleoli, and eosinophilic cytoplasm.\n\nThe most likely diagnosis is hepatocellular carcinoma.\n\nDifferential diagnoses include metastatic carcinoma, which can also present as a mass in the liver with desmoplasia. Immunohistochemical stains for hepatocellular markers (e.g., HepPar1, Arginase-1) and markers for common metastatic sites (e.g., CK7, CK20, TTF-1) would be helpful to confirm the diagnosis.",
+      "rationale": "Lower central-right: search for vascular invasion/tumor thrombus; examine any large-caliber vessel lumina."
+    },
+    {
+      "roi_id": "slide_A_x26624_y23040_mag20",
+      "tile_id": "slide_A_x26624_y23040_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 26624,
+      "y": 23040,
+      "level0": {
+        "x": 26624,
+        "y": 23040,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a transition from a cellular area with spindle cells and inflammation to a dense, hyalinized stroma with scattered cells. Multinucleated giant cells are also present.\n\nThe morphologic features are consistent with a hepatocellular carcinoma, particularly in the context of a patient with chronic liver disease and a history of chemoembolization. The dense hyalinized stroma and multinucleated giant cells are features that can be seen in treated or regressed hepatocellular carcinoma.\n\nDifferential diagnoses to consider include other spindle cell lesions of the liver such as inflammatory myofibroblastic tumor or sarcomatoid carcinoma. However, the clinical history and the presence of residual cellular areas with features suggestive of hepatocellular differentiation favor hepatocellular carcinoma.",
+      "rationale": "High power evaluation for endothelial-lined lumen and tumor attachment."
+    },
+    {
+      "roi_id": "slide_A_x16384_y28672_mag10",
+      "tile_id": "slide_A_x16384_y28672_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 16384,
+      "y": 28672,
+      "level0": {
+        "x": 16384,
+        "y": 28672,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows dense fibrous stroma with scattered spindle cells and a mixed inflammatory infiltrate. There are also irregular vascular spaces and a large artifactual space.\n\nThe most likely diagnosis is a fibrotic or scarred area, possibly related to prior chemoembolization or a regressed tumor.\n\nDifferential diagnoses include a fibrotic scar from prior injury or treatment, or a regressed hepatocellular carcinoma.",
+      "rationale": "Lower-left parenchyma: background liver (cirrhosis, HCV changes) and any satellite tumor."
+    },
+    {
+      "roi_id": "slide_A_x5120_y9728_mag20",
+      "tile_id": "slide_A_x5120_y9728_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 5120,
+      "y": 9728,
+      "level0": {
+        "x": 5120,
+        "y": 9728,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a transition from relatively preserved liver parenchyma to a region of dense fibrosis with a prominent ductular reaction and mixed inflammation. Scattered hepatocytes exhibit macrovesicular steatosis.\n\nThe morphologic features are consistent with a reactive process, likely secondary to prior chemoembolization. The dense fibrosis, ductular reaction, and inflammation are characteristic of a reparative response to injury. The presence of steatosis in adjacent hepatocytes may reflect underlying liver disease or treatment effects. Given the clinical history of chemoembolization and the gross findings of a dominant mass with satellite nodules, this reactive process could be occurring in the setting of a treated or regressing tumor. The most likely diagnosis for this specific field is a reactive process, likely post-chemoembolization.\n\nDifferential diagnoses to consider include:\n- **Reactive ductular proliferation:** This is a strong possibility given the clinical history and morphology.\n- **Cholangiocarcinoma:** While the morphology is not typical for cholangiocarcinoma, it remains a consideration in the context of a dominant mass and portal vein involvement. Further sampling and immunohistochemistry would be necessary to rule this out definitively.",
+      "rationale": "High power same for interface hepatitis, bile duct injury, lobular inflammation, steatosis."
+    },
+    {
+      "roi_id": "slide_A_x15360_y5120_mag10",
+      "tile_id": "slide_A_x15360_y5120_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 15360,
+      "y": 5120,
+      "level0": {
+        "x": 15360,
+        "y": 5120,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a neoplasm with mixed architectural patterns including glandular and solid areas. The cells are large with abundant eosinophilic cytoplasm, vesicular nuclei, and prominent nucleoli, with some showing intracytoplasmic vacuoles.\n\nThe most likely diagnosis is hepatocellular carcinoma with glandular differentiation.\n\nDifferential diagnoses include cholangiocarcinoma, which typically shows more uniform glandular architecture and less prominent eosinophilic cytoplasm, and metastatic adenocarcinoma, which would require clinical correlation and potentially immunohistochemistry for confirmation.",
+      "rationale": "Upper central-left area that looks less tumor-dense; evaluate fibrous septa/regenerative nodules."
+    },
+    {
+      "roi_id": "slide_A_x24576_y16384_mag2",
+      "tile_id": "slide_A_x24576_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 24576,
+      "y": 16384,
+      "level0": {
+        "x": 24576,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a transition from a cellular area with irregular nests and cords of cells to a dense, hyalinized stroma with scattered inflammation and necrosis. The cellular component exhibits features of malignancy.\n\nThe most likely diagnosis is hepatocellular carcinoma, given the clinical history of chronic liver disease and the morphologic features of a malignant neoplasm in the liver.\n\nDifferential diagnoses include metastatic carcinoma, which can present with similar morphology, and cholangiocarcinoma, which typically shows glandular differentiation.",
+      "rationale": "Re-orient around central region to locate a definitive portal vein branch lumen (given gross portal vein tumor thrombus)."
+    },
+    {
+      "roi_id": "slide_A_x14848_y5120_mag20",
+      "tile_id": "slide_A_x14848_y5120_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 14848,
+      "y": 5120,
+      "level0": {
+        "x": 14848,
+        "y": 5120,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords with prominent pseudoglandular spaces. The cells have abundant eosinophilic cytoplasm, pleomorphic nuclei, and prominent nucleoli. A desmoplastic stromal reaction is also present.\n\nThe most likely diagnosis is hepatocellular carcinoma, given the hepatobiliary-pancreas tissue site and the patient's history of chronic hepatitis C and liver transplantation. The pseudoglandular pattern and cellular features are consistent with this diagnosis.\n\nDifferential diagnoses include metastatic adenocarcinoma, which can also present with glandular patterns and desmoplasia. Immunohistochemical stains for hepatocellular markers (e.g., HepPar1, Arginase-1) and biliary/pancreatic markers (e.g., CK7, CK19) would be helpful to distinguish between these possibilities.",
+      "rationale": "High power for portal tract features incl lymphoid aggregates."
+    },
+    {
+      "roi_id": "slide_A_x24576_y16384_mag5",
+      "tile_id": "slide_A_x24576_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 24576,
+      "y": 16384,
+      "level0": {
+        "x": 24576,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a transition from a cellular area with necrosis and inflammation to a dense, hyalinized fibrous stroma with scattered spindle cells and chronic inflammation. The interface between these areas is irregular.\n\nThe most likely diagnosis is a hepatocellular carcinoma with treatment effect, given the history of chemoembolization and the presence of necrosis and fibrosis.\n\nDifferential diagnoses include a treated metastatic carcinoma or a treated benign lesion such as a sclerosing hemangioma.",
+      "rationale": "Search for endothelial-lined vascular space adjacent to treated tumor for thrombus."
+    },
+    {
+      "roi_id": "slide_A_x9216_y24576_mag10",
+      "tile_id": "slide_A_x9216_y24576_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 9216,
+      "y": 24576,
+      "level0": {
+        "x": 9216,
+        "y": 24576,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a transition from glandular structures to a dense desmoplastic stroma with infiltrating nests and cords of pleomorphic cells. Features include nuclear atypia, prominent nucleoli, and scattered multinucleated cells.\n\nThe most likely diagnosis is cholangiocarcinoma, given the glandular differentiation and desmoplastic stroma in the context of a liver mass in a patient with chronic liver disease.\n\nDifferential diagnoses include metastatic adenocarcinoma, which can also present with glandular morphology and desmoplasia, and hepatocellular carcinoma with glandular differentiation, although the latter typically shows more hepatocellular features.",
+      "rationale": "Left lower large area (ROI12 region) target away from tumor foci to find true non-neoplastic parenchyma."
+    },
+    {
+      "roi_id": "slide_A_x24576_y20480_mag5",
+      "tile_id": "slide_A_x24576_y20480_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 24576,
+      "y": 20480,
+      "level0": {
+        "x": 24576,
+        "y": 20480,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a transition from a cellular area with inflammation and hemorrhage to a dense, hyalinized stroma with scattered spindle cells and entrapped structures. The stroma is consistent with a treated neoplasm.\n\nThe most likely diagnosis is a treated hepatocellular carcinoma.\n\nDifferential diagnoses include a treated cholangiocarcinoma or a treated metastatic carcinoma, which can also show significant stromal changes and entrapped structures.",
+      "rationale": "Sample area between central bed and right side where portal branches likely course; look for large-caliber vein with intraluminal mass."
+    },
+    {
+      "roi_id": "slide_A_x25600_y20480_mag10",
+      "tile_id": "slide_A_x25600_y20480_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 25600,
+      "y": 20480,
+      "level0": {
+        "x": 25600,
+        "y": 20480,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense, hyalinized stroma with scattered spindle cells and a prominent inflammatory infiltrate. There are also areas of amorphous eosinophilic material.\n\nThe most likely diagnosis is a sclerosing variant of hepatocellular carcinoma.\n\nDifferential diagnoses include inflammatory myofibroblastic tumor and sclerosing cholangiocarcinoma. Inflammatory myofibroblastic tumor typically shows a more prominent myofibroblastic proliferation and lacks the characteristic hepatocellular features. Sclerosing cholangiocarcinoma would show malignant glandular structures within the dense stroma.",
+      "rationale": "Confirm intraluminal tumor vs duct at higher power."
+    },
+    {
+      "roi_id": "slide_A_x20480_y18432_mag5",
+      "tile_id": "slide_A_x20480_y18432_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 20480,
+      "y": 18432,
+      "level0": {
+        "x": 20480,
+        "y": 18432,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords with eosinophilic cytoplasm and round nuclei, infiltrating a dense fibrous stroma with associated inflammation. The interface with the surrounding tissue is irregular.\n\nThe most likely diagnosis is hepatocellular carcinoma.\n\nDifferential diagnoses include metastatic carcinoma, which can also present as a cellular proliferation in the liver, and cholangiocarcinoma, which typically shows glandular differentiation and a desmoplastic stroma.",
+      "rationale": "Inferior-central band may contain portal vein branch; look for lumen with thrombus."
+    },
+    {
+      "roi_id": "slide_A_x4096_y10240_mag5",
+      "tile_id": "slide_A_x4096_y10240_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 4096,
+      "y": 10240,
+      "level0": {
+        "x": 4096,
+        "y": 10240,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a transition from relatively preserved liver parenchyma to an area of dense fibrosis and inflammation with a prominent ductular reaction. There is also a focus of increased cellularity with atypical cells.\n\nThe most likely diagnosis is cholangiocarcinoma, given the dense fibrosis, inflammation, ductular reaction, and presence of atypical cells. The history of chronic liver disease and chemoembolization is also consistent with this diagnosis.\n\nDifferential diagnoses include metastatic adenocarcinoma, which can also present with a desmoplastic stromal reaction and atypical cells. Primary hepatocellular carcinoma is less likely given the prominent ductular reaction and fibrosis.",
+      "rationale": "Try to find true background parenchyma within left upper region away from tumor; low-intermediate power to confirm cirrhotic nodules."
+    },
+    {
+      "roi_id": "slide_A_x2048_y12288_mag5",
+      "tile_id": "slide_A_x2048_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 2048,
+      "y": 12288,
+      "level0": {
+        "x": 2048,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a dense cellular infiltrate composed of small cells with hyperchromatic nuclei and scant cytoplasm, arranged in sheets. There is a sharp interface with the adjacent tissue.\n\nThe most likely diagnosis is a high-grade neuroendocrine carcinoma, such as small cell carcinoma.\n\nDifferential diagnoses include lymphoma, which can also present as a dense infiltrate of small cells, and poorly differentiated carcinoma, which may have overlapping features.",
+      "rationale": "Far left edge parenchyma (thin extension) likely non-tumor; assess cirrhosis and inflammation."
+    },
+    {
+      "roi_id": "slide_A_x3072_y10240_mag10",
+      "tile_id": "slide_A_x3072_y10240_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 3072,
+      "y": 10240,
+      "level0": {
+        "x": 3072,
+        "y": 10240,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a transition from relatively preserved liver parenchyma to an area of dense fibrosis and inflammation with associated ductular reaction. The interface between these areas is irregular.\n\nThe most likely diagnosis for this single tile is a fibrotic and inflammatory process, possibly related to the patient's history of chronic hepatitis C, chemoembolization, or a reactive change. The presence of dense fibrosis, inflammation, and ductular reaction suggests a response to injury or a chronic process.\n\nDifferential diagnoses to consider include:\n1. Chronic hepatitis C with fibrosis: The patient's history of chronic hepatitis C makes this a strong possibility. The fibrosis and inflammation could be related to the underlying disease.\n2. Post-chemoembolization changes: The patient's history of chemoembolization could explain the fibrosis and inflammation, as these are common findings in treated tumors.\n3. Reactive changes: The irregular interface and ductular reaction could also be a response to injury or inflammation, such as from the explantation procedure or other factors.\n\nFurther evaluation of the entire slide and correlation with clinical information would be necessary to arrive at a definitive diagnosis.",
+      "rationale": "Higher power far left edge for portal inflammation/interface hepatitis/steatosis."
+    },
+    {
+      "roi_id": "slide_A_x3584_y10752_mag20",
+      "tile_id": "slide_A_x3584_y10752_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 3584,
+      "y": 10752,
+      "level0": {
+        "x": 3584,
+        "y": 10752,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a transition from normal liver parenchyma to a cellular proliferation of small, irregular glands and tubules within a fibrous stroma. The cells lining these structures have round to oval nuclei and moderate eosinophilic cytoplasm.\n\nThe most likely diagnosis is cholangiocarcinoma, given the glandular/tubular morphology and fibrous stroma in the context of an explanted liver with a dominant mass and satellite nodules.\n\nDifferential diagnoses include metastatic adenocarcinoma, which can have a similar glandular pattern, and hepatocellular carcinoma with glandular differentiation, which would typically show more hepatocellular features and a different growth pattern.",
+      "rationale": "High power far left edge for lobular activity, bile duct injury, cholestasis, iron."
+    },
+    {
+      "roi_id": "slide_A_x12288_y30720_mag5",
+      "tile_id": "slide_A_x12288_y30720_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 12288,
+      "y": 30720,
+      "level0": {
+        "x": 12288,
+        "y": 30720,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows infiltrative nests and cords of epithelial cells within a dense desmoplastic stroma. The cells exhibit nuclear pleomorphism and hyperchromasia, with some areas showing squamous differentiation.\n\nThe most likely diagnosis is cholangiocarcinoma, given the infiltrative growth pattern, desmoplastic stroma, and cellular atypia in the context of a liver mass in a patient with chronic liver disease and history of chemoembolization.\n\nDifferential diagnoses include metastatic adenocarcinoma, which can also present with infiltrative growth and desmoplasia, and hepatocellular carcinoma, although the morphology is less typical for HCC.",
+      "rationale": "Inferior left (ROI12) look for background away from obvious tumor; low power to identify regenerative nodules vs tumor."
+    },
+    {
+      "roi_id": "slide_A_x36864_y20992_mag20",
+      "tile_id": "slide_A_x36864_y20992_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 36864,
+      "y": 20992,
+      "level0": {
+        "x": 36864,
+        "y": 20992,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense, hyalinized stroma with scattered spindle cells and a small cluster of epithelial cells. The epithelial cells have round to oval nuclei and moderate cytoplasm, arranged in a small glandular or ductal structure.\n\nThe most likely diagnosis is a well-differentiated adenocarcinoma, consistent with a cholangiocarcinoma given the location and morphology. The dense stroma and small glandular structures are characteristic features.\n\nDifferential diagnoses include metastatic adenocarcinoma, which can have a similar appearance, and a reactive ductular proliferation, which would typically lack the dense hyalinized stroma and show more uniform ductular structures.",
+      "rationale": "Confirm gland-forming/desmoplastic (cholangiocarcinoma-like) component cytology and mucinous features."
+    },
+    {
+      "roi_id": "slide_A_x28160_y26112_mag20",
+      "tile_id": "slide_A_x28160_y26112_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 28160,
+      "y": 26112,
+      "level0": {
+        "x": 28160,
+        "y": 26112,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a transition from viable tissue to a large area of necrosis with ghost cells and cellular debris. There is a dense inflammatory infiltrate at the interface.\n\nThe most likely diagnosis is hepatocellular carcinoma with extensive necrosis, likely post-treatment effect.\n\nDifferential diagnoses include other primary liver tumors with necrosis or metastatic carcinoma with treatment effect.",
+      "rationale": "Assess hepatocellular-like component at high power for trabeculae, bile, endothelial wrapping, intracytoplasmic inclusions."
+    },
+    {
+      "roi_id": "slide_A_x20480_y17408_mag20",
+      "tile_id": "slide_A_x20480_y17408_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20480,
+      "y": 17408,
+      "level0": {
+        "x": 20480,
+        "y": 17408,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords within a fibrous stroma. The cells have eosinophilic cytoplasm and round to oval nuclei with prominent nucleoli. There is also a dense lymphocytic infiltrate.\n\nThe most likely diagnosis is hepatocellular carcinoma.\n\nDifferential diagnoses include metastatic carcinoma, which can have similar morphology, and cholangiocarcinoma, which typically shows more glandular differentiation and desmoplastic stroma.",
+      "rationale": "Look for transition zone between components / further characterize HCC-like area."
+    },
+    {
+      "roi_id": "slide_A_x11776_y8192_mag20",
+      "tile_id": "slide_A_x11776_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 11776,
+      "y": 8192,
+      "level0": {
+        "x": 11776,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a transition from relatively preserved liver parenchyma to a cellular proliferation of hepatocytes arranged in thickened cords. The cells have eosinophilic cytoplasm and round nuclei, with some showing mild atypia and scattered steatosis.\n\nThe most likely diagnosis is hepatocellular carcinoma, well-differentiated. The thickened cords and mild cellular atypia are characteristic features. Differential diagnoses include high-grade dysplastic nodule, which can show similar features but typically lacks definitive invasion, and regenerative nodule, which would lack significant atypia and architectural distortion.",
+      "rationale": "Additional high-power of biliary-type glands and desmoplasia to support combined tumor."
+    }
+  ]
+}

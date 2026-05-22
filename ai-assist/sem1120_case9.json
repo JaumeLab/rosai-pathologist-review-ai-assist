@@ -1,0 +1,1038 @@
+{
+  "case_id": "sem1120_case9",
+  "source": "slideseek-ai-assist",
+  "model": "gpt-5.4",
+  "generated_at": "2026-05-22T09:19:23.827414+00:00",
+  "organ": "GI Tract",
+  "primary_dx": "Diffuse Intestinal Ganglioneuromatosis Of Small Bowel With Fibromuscular Hypertrophy And Fibrosing Stricture",
+  "differential_dx": [
+    "Plexiform Neurofibroma / NF1-Associated Neuromatous Proliferation Involving Bowel Wall",
+    "Crohn Disease-Associated Fibrosing Stricture With Secondary Neuromuscular Hyperplasia"
+  ],
+  "microscopic_findings": [
+    {
+      "text": "Mural spindle proliferation shows **wavy Schwannian nuclei** with scattered **mature ganglion cells** in fibrous stroma.",
+      "roi_ids": [
+        "slide_A_x23552_y15360_mag20",
+        "slide_A_x17408_y23552_mag20"
+      ]
+    },
+    {
+      "text": "Prominent **hypertrophic nerve bundles** permeate the thickened submucosa and muscularis, supporting diffuse neuromatous involvement.",
+      "roi_ids": [
+        "slide_A_x47104_y12288_mag10",
+        "slide_A_x14336_y8192_mag10"
+      ]
+    },
+    {
+      "text": "There is marked **smooth muscle hypertrophy** and **disorganized muscularis propria** with intervening fibrosis.",
+      "roi_ids": [
+        "slide_A_x44544_y14848_mag20",
+        "slide_A_x47104_y20480_mag10"
+      ]
+    },
+    {
+      "text": "The spindle cells remain **cytologically bland** without **necrosis or brisk mitoses**, arguing against a primary malignant spindle…",
+      "roi_ids": [
+        "slide_A_x53760_y15360_mag20",
+        "slide_A_x54272_y12288_mag10"
+      ]
+    }
+  ],
+  "interpretation": "The bowel wall shows a diffuse **ganglioneuromatous proliferation** composed of bland Schwannian spindle cells, prominent nerve bundles, and admixed ganglion cells, establishing **diffuse intestinal ganglioneuromatosis**. Associated **fibromuscular hypertrophy** and fibrosis remodel the mural layers into a stricture, explaining obstruction. The presence of ganglion cells and lack of significant atypia, necrosis, or brisk mitotic activity argue against **GIST or other primary spindle cell neoplasm**. Although plexiform neurofibroma and Crohn-related neuromuscular hyperplasia enter consideration, the diffuse ganglion cell-rich neuromatous process is most supportive here.",
+  "num_rois": 62,
+  "tiles": [
+    {
+      "roi_id": "slide_A_x40960_y16384_mag1",
+      "tile_id": "slide_A_x40960_y16384_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 40960,
+      "y": 16384,
+      "level0": {
+        "x": 40960,
+        "y": 16384,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a thickened bowel wall with prominent fibrosis and chronic inflammation, including lymphoid aggregates, extending into the mesentery. There is also evidence of neural hyperplasia.\n\nThe most likely diagnosis is sclerosing mesenteritis, given the fibrosis, chronic inflammation, and neural hyperplasia in the mesentery and bowel wall.\n\nDifferential diagnoses include Crohn's disease, which can also cause transmural inflammation and fibrosis, and mesenteric ischemia, which can lead to bowel wall thickening and fibrosis.",
+      "rationale": "Low-power overview of region 0 to assess overall architecture, distribution of lesion, wall thickening/stricture vs mass."
+    },
+    {
+      "roi_id": "slide_A_x16384_y16384_mag1",
+      "tile_id": "slide_A_x16384_y16384_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 16384,
+      "y": 16384,
+      "level0": {
+        "x": 16384,
+        "y": 16384,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a thickened bowel wall with a prominent, disorganized proliferation of neural tissue in the submucosa and muscularis propria, accompanied by fibrosis and chronic inflammation.\n\nThe most likely diagnosis is a ganglioneuroma, a benign neural tumor composed of mature ganglion cells and Schwann cells.\n\nDifferential diagnoses include neurofibroma, which typically lacks ganglion cells, and schwannoma, which usually presents as a well-circumscribed mass.",
+      "rationale": "Region 1 overview to localize stricture/mass and mucosal vs mural process."
+    },
+    {
+      "roi_id": "slide_A_x53248_y8192_mag2",
+      "tile_id": "slide_A_x53248_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 53248,
+      "y": 8192,
+      "level0": {
+        "x": 53248,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a thickened bowel wall with prominent hypertrophy of the muscularis propria and a dense lymphoid aggregate in the submucosa. The muscularis propria exhibits disorganized smooth muscle bundles.\n\nThe most likely diagnosis is a neuromuscular disorder of the bowel, such as a form of intestinal pseudo-obstruction. The hypertrophy and disorganization of the muscularis propria are key features. Differential diagnoses include other causes of bowel wall thickening such as chronic inflammation or fibrosis, but the prominent muscular hypertrophy and disorganization are more suggestive of a neuromuscular process.",
+      "rationale": "Survey mucosal surface/possible ulceration in region 0 at slightly higher power."
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag2",
+      "tile_id": "slide_A_x8192_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a small fragment of tissue with a pinkish-purple matrix and scattered dark purple structures. The tissue is too small and fragmented to provide specific morphologic details.\n\nGiven the limited tissue and lack of specific morphologic features, a definitive diagnosis cannot be made from this single tile. Further evaluation of additional tissue sections and clinical correlation are necessary for a comprehensive assessment.",
+      "rationale": "Proximal portion of Region 1 to assess mucosal surface and wall thickness."
+    },
+    {
+      "roi_id": "slide_A_x49152_y20480_mag2",
+      "tile_id": "slide_A_x49152_y20480_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 49152,
+      "y": 20480,
+      "level0": {
+        "x": 49152,
+        "y": 20480,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a thickened bowel wall with prominent hypertrophy of the muscularis propria and increased cellularity within the muscularis propria and submucosa, including scattered ganglion cells.\n\nThe most likely diagnosis is a ganglioneuroma, a benign neural tumor composed of mature ganglion cells and Schwann cells.\n\nDifferential diagnoses include ganglioneuromatosis, which is a diffuse proliferation of ganglion cells and Schwann cells, and neurofibroma, which is a benign tumor of peripheral nerve sheath cells.",
+      "rationale": "Low-power sweep of deeper mesenteric fat/serosal edge in region 0."
+    },
+    {
+      "roi_id": "slide_A_x24576_y8192_mag2",
+      "tile_id": "slide_A_x24576_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 24576,
+      "y": 8192,
+      "level0": {
+        "x": 24576,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a thickened bowel wall with dense fibrous tissue, chronic inflammation, and scattered dilated spaces. The muscularis propria is thickened and disorganized.\n\nThe most likely diagnosis is sclerosing mesenteritis, given the fibrosis and chronic inflammation in the mesentery and bowel wall. Other considerations include inflammatory myofibroblastic tumor or IgG4-related disease, which would require further investigation with immunohistochemistry.",
+      "rationale": "Central/right portion of Region 1 to look for ulceration, polypoid lesion, or transmural changes."
+    },
+    {
+      "roi_id": "slide_A_x57344_y20480_mag2",
+      "tile_id": "slide_A_x57344_y20480_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 57344,
+      "y": 20480,
+      "level0": {
+        "x": 57344,
+        "y": 20480,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows mature adipose tissue with scattered fibrous septa and blood vessels. There is no evidence of lipoblasts or significant cellular atypia.\n\nThe most likely diagnosis is a lipoma.\n\nDifferential diagnoses include:\n- Liposarcoma: Would show lipoblasts and significant cellular atypia, which are absent in this image.\n- Mesenteric fat: This is a normal finding in the mesentery, but the clinical context of a mass causing obstruction suggests a neoplastic process.",
+      "rationale": "Survey deeper wall/serosa and any transmural process or mesenteric involvement in region 0."
+    },
+    {
+      "roi_id": "slide_A_x12288_y8192_mag2",
+      "tile_id": "slide_A_x12288_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 8192,
+      "level0": {
+        "x": 12288,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a thickened bowel wall with a prominent fibrous layer and underlying adipose tissue. There is also a dense inflammatory infiltrate in the deeper layers.\n\nThe most likely diagnosis is sclerosing mesenteritis, characterized by fibrosis and inflammation in the mesentery.\n\nDifferential diagnoses include mesenteric panniculitis, which typically shows more prominent fat necrosis, and inflammatory myofibroblastic tumor, which would show a more cellular spindle cell proliferation.",
+      "rationale": "Low-power overview of region 1 for mesenteric/serosal pathology."
+    },
+    {
+      "roi_id": "slide_A_x12288_y28672_mag2",
+      "tile_id": "slide_A_x12288_y28672_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 28672,
+      "level0": {
+        "x": 12288,
+        "y": 28672,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a spindle cell proliferation with intersecting fascicles and whorls, associated with a prominent lymphoid aggregate. The spindle cells have elongated, wavy nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a ganglioneuroma. This is supported by the presence of spindle cells with wavy nuclei and the associated lymphoid aggregate, which can represent a neural component.\n\nDifferential diagnoses include schwannoma, which typically shows Antoni A and B areas and Verocay bodies, and neurofibroma, which is more diffuse and lacks the prominent lymphoid aggregate.",
+      "rationale": "Distal/deeper portion of Region 1 including submucosa/serosa to assess fibrosis/creeping fat/mesenteric inflammation."
+    },
+    {
+      "roi_id": "slide_A_x20480_y24576_mag2",
+      "tile_id": "slide_A_x20480_y24576_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 20480,
+      "y": 24576,
+      "level0": {
+        "x": 20480,
+        "y": 24576,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a polypoid lesion with a thickened fibrovascular core and irregular glandular structures. The glands are lined by columnar epithelium with goblet cells and show some architectural distortion.\n\nThe most likely diagnosis is a Peutz-Jeghers polyp. This diagnosis is supported by the characteristic arborizing pattern of smooth muscle within the polyp core and the presence of irregular glands lined by columnar epithelium with goblet cells.\n\nDifferential diagnoses include other types of hamartomatous polyps or adenomas. However, the prominent smooth muscle core is a key feature distinguishing Peutz-Jeghers polyps from other types.",
+      "rationale": "Low-power sweep of region 1 distal serosa/mesentery to find vascular lesions or fat necrosis."
+    },
+    {
+      "roi_id": "slide_A_x49152_y16384_mag5",
+      "tile_id": "slide_A_x49152_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 49152,
+      "y": 16384,
+      "level0": {
+        "x": 49152,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a thickened bowel wall with prominent smooth muscle bundles and areas of increased cellularity and fibrosis. There is also a large artifactual space.\n\nThe most likely diagnosis is chronic inflammatory bowel disease, such as Crohn's disease, given the bowel wall thickening and fibrosis. Other considerations include chronic ischemic enteritis or post-inflammatory changes from other causes.",
+      "rationale": "Medium power review of area with apparent mural fibrosis/chronic inflammation to assess transmural pattern, lymphoid aggregates, fissures."
+    },
+    {
+      "roi_id": "slide_A_x54272_y12288_mag10",
+      "tile_id": "slide_A_x54272_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 54272,
+      "y": 12288,
+      "level0": {
+        "x": 54272,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of spindle cells arranged in intersecting fascicles with elongated, wavy nuclei and eosinophilic cytoplasm. Scattered ganglion cells are also present.\n\nThe most likely diagnosis is ganglioneuroma.\n\nDifferential diagnoses include leiomyoma, which would lack ganglion cells, and schwannoma, which typically shows Verocay bodies and S100 positivity.",
+      "rationale": "Evaluate mucosa/submucosa for ulceration, crypt architecture, pyloric metaplasia, granulomas, diaphragm-like stricture."
+    },
+    {
+      "roi_id": "slide_A_x10240_y10240_mag5",
+      "tile_id": "slide_A_x10240_y10240_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 10240,
+      "y": 10240,
+      "level0": {
+        "x": 10240,
+        "y": 10240,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a thickened bowel wall with a dense inflammatory infiltrate and fibrosis. The inflammation is transmural, extending through the wall.\n\nThe most likely diagnosis is Crohn's disease. The transmural inflammation and fibrosis are characteristic features of this condition. Other differential diagnoses include infectious enteritis, which typically shows more superficial inflammation, and ischemic enteritis, which may show necrosis and hyalinization.",
+      "rationale": "Examine mesenteric fat/serosal side in left tissue (map squares 3/8 area) for fat necrosis/fibrosis."
+    },
+    {
+      "roi_id": "slide_A_x47104_y20480_mag10",
+      "tile_id": "slide_A_x47104_y20480_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 47104,
+      "y": 20480,
+      "level0": {
+        "x": 47104,
+        "y": 20480,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows thickened smooth muscle bundles with intervening fibrous tissue and scattered ganglion cells. There is also a mixed inflammatory infiltrate and dilated vessels.\n\nThe most likely diagnosis is ganglioneuromatosis.\n\nDifferential diagnoses include neurofibroma, which typically lacks ganglion cells, and leiomyoma, which is composed of smooth muscle without the prominent neural component.",
+      "rationale": "Assess subserosa/mesenteric interface for fat wrapping, fibrosis, vasculitis/ischemic-type changes."
+    },
+    {
+      "roi_id": "slide_A_x16384_y6144_mag5",
+      "tile_id": "slide_A_x16384_y6144_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 16384,
+      "y": 6144,
+      "level0": {
+        "x": 16384,
+        "y": 6144,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a thickened fibrous wall with chronic inflammation and adjacent mature adipose tissue. The interface between the fibrous wall and adipose tissue is irregular.\n\nThe most likely diagnosis is sclerosing mesenteritis, characterized by fibrosis and chronic inflammation in the mesentery. Differential diagnoses include mesenteric fibromatosis, which typically shows more uniform spindle cells and less inflammation, and desmoid-type fibromatosis, which is a more aggressive fibroblastic proliferation.",
+      "rationale": "Explore mid-left area (map box 6) for dominant lesion/stricture component."
+    },
+    {
+      "roi_id": "slide_A_x14336_y8192_mag10",
+      "tile_id": "slide_A_x14336_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 14336,
+      "y": 8192,
+      "level0": {
+        "x": 14336,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a thickened fibrous wall with scattered chronic inflammation and prominent nerve bundles. The inner surface is lined by flattened cells.\n\nThe morphologic features are consistent with a fibrous pseudotumor of the small bowel.\n\nDifferential diagnoses include inflammatory myofibroblastic tumor and desmoid-type fibromatosis, which can be distinguished by the presence of spindle cells and specific immunohistochemical markers.",
+      "rationale": "Higher power in same area to look for foamy macrophages, chronic inflammation, fibrosis, IgG4-like features."
+    },
+    {
+      "roi_id": "slide_A_x20480_y16384_mag5",
+      "tile_id": "slide_A_x20480_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 20480,
+      "y": 16384,
+      "level0": {
+        "x": 20480,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a proliferation of spindle cells with wavy nuclei and scattered ganglion cells within a fibrous and adipose stroma. There is also a prominent inflammatory infiltrate.\n\nThe most likely diagnosis is ganglioneuroma. Differential diagnoses include neurofibroma, which typically lacks ganglion cells, and schwannoma, which often shows Antoni A and B areas and Verocay bodies.",
+      "rationale": "Explore central area near transition (map box 4) for mucosal injury/tumor."
+    },
+    {
+      "roi_id": "slide_A_x30720_y10240_mag5",
+      "tile_id": "slide_A_x30720_y10240_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 30720,
+      "y": 10240,
+      "level0": {
+        "x": 30720,
+        "y": 10240,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows small bowel mucosa with blunted villi, crypt hyperplasia, and a dense mixed inflammatory infiltrate in the lamina propria. The submucosa is expanded by fibrosis and inflammation.\n\nThe most likely diagnosis is Crohn's disease. Differential diagnoses include other causes of chronic inflammatory bowel disease, such as ulcerative colitis, and infectious enteritis.",
+      "rationale": "Explore right-upper tissue (map box 2) for lesion/lymphoid aggregates or mass."
+    },
+    {
+      "roi_id": "slide_A_x55296_y12800_mag20",
+      "tile_id": "slide_A_x55296_y12800_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 55296,
+      "y": 12800,
+      "level0": {
+        "x": 55296,
+        "y": 12800,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of spindle cells with elongated, blunt-ended nuclei arranged in intersecting fascicles. The cells have abundant eosinophilic cytoplasm and are embedded in a fibrillary matrix.\n\nThe most likely diagnosis is a leiomyoma. Differential diagnoses include gastrointestinal stromal tumor (GIST) and schwannoma. GISTs typically show more cellular pleomorphism and may have a different growth pattern, while schwannomas often have Verocay bodies and a more myxoid background.",
+      "rationale": "High power of neural/spindle cell proliferation with ganglion cells to confirm ganglioneuromatous lesion and exclude malignancy."
+    },
+    {
+      "roi_id": "slide_A_x16384_y12288_mag5",
+      "tile_id": "slide_A_x16384_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 16384,
+      "y": 12288,
+      "level0": {
+        "x": 16384,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a thickened bowel wall with a prominent proliferation of spindle cells arranged in intersecting fascicles and whorls, along with scattered inflammatory cells and entrapped adipose tissue.\n\nThe most likely diagnosis is a mesenchymal neoplasm, such as a gastrointestinal stromal tumor (GIST).\n\nDifferential diagnoses include leiomyoma or leiomyosarcoma, which would typically show more uniform spindle cells with eosinophilic cytoplasm and blunt-ended nuclei, and schwannoma, which would exhibit Antoni A and B areas and Verocay bodies.",
+      "rationale": "Evaluate central left tissue near serosal surface for nodules, tumor implants, granulomas."
+    },
+    {
+      "roi_id": "slide_A_x43008_y12288_mag5",
+      "tile_id": "slide_A_x43008_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 43008,
+      "y": 12288,
+      "level0": {
+        "x": 43008,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a thickened bowel wall with dense fibrosis, chronic inflammation, and prominent hypertrophic nerve bundles. The muscularis propria is also thickened.\n\nThe most likely diagnosis is chronic inflammatory bowel disease, such as Crohn's disease, given the transmural inflammation, fibrosis, and hypertrophic nerves.\n\nDifferential diagnoses include other causes of chronic bowel wall thickening, such as chronic ischemic enteritis or radiation enteritis, which can also show fibrosis and inflammation. However, the presence of hypertrophic nerves is more characteristic of chronic inflammatory bowel disease.",
+      "rationale": "Right tissue superior area (map square 2) to assess serosa/mesentery for sclerosis, inflammation, metastatic deposits."
+    },
+    {
+      "roi_id": "slide_A_x28672_y20480_mag5",
+      "tile_id": "slide_A_x28672_y20480_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 28672,
+      "y": 20480,
+      "level0": {
+        "x": 28672,
+        "y": 20480,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows mature adipose tissue with scattered inflammatory cells and a small fragment of small bowel wall. The bowel wall exhibits a thickened muscularis propria and a prominent lymphoid aggregate.\n\nThe most likely diagnosis is a mesenteric lipoma with associated lymphoid hyperplasia. The presence of mature adipose tissue is characteristic of a lipoma, and the lymphoid aggregate is a common finding in the small bowel. The thickened bowel wall could be related to the lipoma or represent a separate process.\n\nDifferential diagnoses include mesenteric lymphoid hyperplasia, which would show more prominent lymphoid tissue without significant adipose tissue, and a liposarcoma, which would show atypical adipocytes and lipoblasts.",
+      "rationale": "Explore right-lower tissue (map box 7) for fibrosis, ischemic changes, or neoplasm."
+    },
+    {
+      "roi_id": "slide_A_x50688_y15360_mag20",
+      "tile_id": "slide_A_x50688_y15360_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 50688,
+      "y": 15360,
+      "level0": {
+        "x": 50688,
+        "y": 15360,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of spindle cells arranged in fascicles with elongated, blunt-ended nuclei and eosinophilic cytoplasm. There is also a prominent inflammatory infiltrate composed of lymphocytes and plasma cells.\n\nThe most likely diagnosis is a leiomyoma, a benign smooth muscle tumor. The spindle cell morphology with blunt-ended nuclei and eosinophilic cytoplasm is characteristic of smooth muscle differentiation. The presence of a prominent inflammatory infiltrate is also noted.\n\nDifferential diagnoses include gastrointestinal stromal tumor (GIST), which can also present as a spindle cell lesion in the GI tract. However, GISTs typically have more uniform nuclei and may show perinuclear vacuoles. Inflammatory myofibroblastic tumor (IMT) is another consideration, but it usually has a more prominent inflammatory component and myofibroblastic spindle cells.",
+      "rationale": "High power of thickened wall/fibrosis/inflammation to look for granulomas, active inflammation, ischemic-type changes."
+    },
+    {
+      "roi_id": "slide_A_x51200_y26624_mag5",
+      "tile_id": "slide_A_x51200_y26624_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 51200,
+      "y": 26624,
+      "level0": {
+        "x": 51200,
+        "y": 26624,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows mature adipose tissue with scattered fibrous septa and a prominent nerve bundle. The adipocytes are uniform with no atypia.\n\nThe most likely diagnosis is a lipoma, a benign tumor composed of mature adipose tissue. The presence of a prominent nerve bundle is an unusual feature for a typical lipoma but does not exclude the diagnosis.\n\nDifferential diagnoses include lipomatosis, which is a diffuse proliferation of mature adipose tissue, and a well-differentiated liposarcoma, which would show atypical adipocytes and fibrous septa with atypical stromal cells.",
+      "rationale": "Right tissue inferior (map squares 5/7) to assess mesenteric fat and vessels for thrombosis/vasculitis."
+    },
+    {
+      "roi_id": "slide_A_x53248_y9216_mag20",
+      "tile_id": "slide_A_x53248_y9216_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 53248,
+      "y": 9216,
+      "level0": {
+        "x": 53248,
+        "y": 9216,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows smooth muscle bundles with elongated, blunt-ended nuclei and eosinophilic cytoplasm, separated by connective tissue. There is no significant inflammation or necrosis.\n\nThe most likely diagnosis is normal smooth muscle of the bowel wall. Differential diagnoses include leiomyoma, which would show a well-circumscribed proliferation of smooth muscle cells, and leiomyosarcoma, which would exhibit increased cellularity, nuclear atypia, and mitotic activity.",
+      "rationale": "High power of mucosa/submucosa near lumen to assess for ulceration, crypt distortion, dysplasia/neoplasm, parasites."
+    },
+    {
+      "roi_id": "slide_A_x12288_y12288_mag10",
+      "tile_id": "slide_A_x12288_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 12288,
+      "y": 12288,
+      "level0": {
+        "x": 12288,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a thickened wall with dense fibrous tissue, scattered chronic inflammation, and prominent nerve bundles. The surface is lined by flattened cells.\n\nThe most likely diagnosis is chronic fibrosing enteritis.\n\nDifferential diagnoses include:\n- Sclerosing mesenteritis: typically involves the mesentery with fat necrosis and inflammation, but can extend into the bowel wall.\n- Chronic radiation enteritis: would show fibrosis, inflammation, and vascular changes, often with a history of radiation exposure.",
+      "rationale": "ROI 16 area: evaluate suspected transmural inflammation/fibrosis; look for fissures, granulomas, lymphoid aggregates."
+    },
+    {
+      "roi_id": "slide_A_x59392_y12288_mag5",
+      "tile_id": "slide_A_x59392_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 59392,
+      "y": 12288,
+      "level0": {
+        "x": 59392,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows mature adipose tissue with a prominent inflammatory infiltrate composed of lymphocytes and plasma cells, along with small blood vessels.\n\nThe most likely diagnosis is mesenteric inflammation, likely related to the patient's bowel obstruction and resection.\n\nDifferential diagnoses include mesenteric panniculitis or other forms of inflammatory processes affecting the mesentery.",
+      "rationale": "Sample additional area within region 0 away from prior neural-appearing focus to see if there is ulcer/stricture or mass-forming lesion."
+    },
+    {
+      "roi_id": "slide_A_x20480_y16384_mag10",
+      "tile_id": "slide_A_x20480_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 20480,
+      "y": 16384,
+      "level0": {
+        "x": 20480,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of spindle cells with wavy nuclei, interspersed with mature adipocytes and thickened blood vessels. There is also a prominent perivascular inflammatory infiltrate.\n\nThe most likely diagnosis is a ganglioneuroma, characterized by the presence of mature ganglion cells, Schwann cells, and adipose tissue.\n\nDifferential diagnoses include neurofibroma, which typically lacks ganglion cells, and lipoma, which would not contain the neural elements.",
+      "rationale": "ROI 4/central: characterize neural/spindle proliferation vs inflammatory/fibrosing process; exclude infiltrative neoplasm."
+    },
+    {
+      "roi_id": "slide_A_x58368_y8192_mag10",
+      "tile_id": "slide_A_x58368_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 58368,
+      "y": 8192,
+      "level0": {
+        "x": 58368,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a transition from muscularis propria to subserosal adipose tissue. There is a prominent inflammatory infiltrate, predominantly lymphocytes and plasma cells, at the interface and within the fat.\n\nThe most likely diagnosis is chronic inflammation of the bowel wall, consistent with chronic enteritis. The differential diagnoses include inflammatory bowel disease (such as Crohn's disease) and chronic ischemic enteritis. Distinguishing features would include the pattern and distribution of inflammation, presence of granulomas, and evidence of vascular compromise.",
+      "rationale": "Explore region 0 superior right (box 1/2) to assess serosa/mesenteric fat and look for sclerosis, fat necrosis, tumor implants."
+    },
+    {
+      "roi_id": "slide_A_x16384_y6144_mag10",
+      "tile_id": "slide_A_x16384_y6144_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 16384,
+      "y": 6144,
+      "level0": {
+        "x": 16384,
+        "y": 6144,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a thickened fibrous layer with scattered chronic inflammation and small vessels adjacent to mature adipose tissue. The fibrous tissue appears dense and hyalinized in areas.\n\nThe morphologic features are consistent with a fibrous pseudotumor. Differential diagnoses include inflammatory myofibroblastic tumor, which typically shows a more prominent inflammatory infiltrate and spindle cell proliferation, and desmoid-type fibromatosis, which is characterized by infiltrative growth and a more uniform spindle cell population.",
+      "rationale": "ROI 6: assess subserosal/mesenteric fibrosis and fat wrapping; look for IgG4-like lymphoplasmacytic infiltrate/obliterative phlebitis."
+    },
+    {
+      "roi_id": "slide_A_x60416_y7168_mag10",
+      "tile_id": "slide_A_x60416_y7168_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 60416,
+      "y": 7168,
+      "level0": {
+        "x": 60416,
+        "y": 7168,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows mature adipose tissue with large, clear adipocytes and thin fibrous septa. Small blood vessels are also present within the septa.\n\nThe most likely diagnosis for this histology tile is mesenteric fat.\n\nDifferential diagnoses to consider include:\n- Lipoma: A benign tumor composed of mature adipose tissue, which can be difficult to distinguish from normal mesenteric fat on histology alone.\n- Well-differentiated liposarcoma: A malignant tumor of adipose tissue, which would typically show atypical stromal cells, lipoblasts, or fibrous septa with atypical cells, features not seen in this image.",
+      "rationale": "Check mucosal surface for erosions/ulceration, crypt distortion, pyloric metaplasia typical of Crohn/NSAID."
+    },
+    {
+      "roi_id": "slide_A_x55808_y13824_mag20",
+      "tile_id": "slide_A_x55808_y13824_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 55808,
+      "y": 13824,
+      "level0": {
+        "x": 55808,
+        "y": 13824,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of spindle cells arranged in intersecting fascicles with elongated, blunt-ended nuclei and eosinophilic cytoplasm. There is also a mild inflammatory infiltrate and adipose tissue.\n\nThe most likely diagnosis is leiomyoma. Differential diagnoses include gastrointestinal stromal tumor (GIST) and schwannoma, which can be distinguished by immunohistochemistry (e.g., CD117, DOG1 for GIST; S100 for schwannoma).",
+      "rationale": "High power at interface of fibrosis/inflammation to evaluate for spindle cell lesion vs sclerosing mesenteritis; look for IgG4-like storiform fibrosis, obliterative phlebitis."
+    },
+    {
+      "roi_id": "slide_A_x58368_y17408_mag10",
+      "tile_id": "slide_A_x58368_y17408_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 58368,
+      "y": 17408,
+      "level0": {
+        "x": 58368,
+        "y": 17408,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows mature adipose tissue composed of large, univacuolated adipocytes with peripherally located nuclei. Delicate fibrovascular septa are present.\n\nThe most likely diagnosis for this histology tile is a lipoma. The differential diagnosis includes normal mesenteric fat, which can be difficult to distinguish based on morphology alone.",
+      "rationale": "Assess submucosa/muscularis for concentric fibrosis/diaphragm-like narrowing vs neuromuscular hyperplasia."
+    },
+    {
+      "roi_id": "slide_A_x29696_y9216_mag10",
+      "tile_id": "slide_A_x29696_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 29696,
+      "y": 9216,
+      "level0": {
+        "x": 29696,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a thickened bowel wall with dense fibrosis and a prominent chronic inflammatory infiltrate. There is also evidence of mucosal ulceration and distorted glandular structures.\n\nThe most likely diagnosis is chronic inflammatory bowel disease, such as Crohn's disease, given the transmural inflammation, fibrosis, and architectural distortion. Other considerations include chronic ischemic enteritis or post-infectious changes, although the pattern of inflammation and fibrosis is more suggestive of IBD.",
+      "rationale": "ROI 2: mucosal changes—architectural distortion, pyloric metaplasia, aphthous ulcers; consider NSAID diaphragm disease vs Crohn."
+    },
+    {
+      "roi_id": "slide_A_x59392_y24576_mag5",
+      "tile_id": "slide_A_x59392_y24576_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 59392,
+      "y": 24576,
+      "level0": {
+        "x": 59392,
+        "y": 24576,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows mature adipose tissue with scattered fibrous septa and small vessels. The adipocytes are uniform with clear cytoplasm and peripherally located nuclei.\n\nThe most likely diagnosis for this histology tile is mesenteric fat. This is consistent with the gross description of a segment of small bowel with attached mesentery. The uniform appearance of the adipocytes and the presence of fibrous septa are typical features of normal mesenteric fat.",
+      "rationale": "Review serosa/mesenteric fat for fat wrapping, fibrosis (sclerosing mesenteritis), vasculitis or ischemic change."
+    },
+    {
+      "roi_id": "slide_A_x54272_y27648_mag10",
+      "tile_id": "slide_A_x54272_y27648_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 54272,
+      "y": 27648,
+      "level0": {
+        "x": 54272,
+        "y": 27648,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows mature adipose tissue with prominent fibrous septa containing blood vessels and scattered inflammatory cells. The adipocytes are uniform with no atypia.\n\nThe most likely diagnosis is mesenteric lipomatosis. This is characterized by an increase in mature adipose tissue within the mesentery, which can lead to bowel wall thickening and obstruction.\n\nDifferential diagnoses include lipoma, which is a benign tumor of mature adipocytes, and well-differentiated liposarcoma, which would show atypical adipocytes and fibrous septa with atypical stromal cells.",
+      "rationale": "Mesenteric fat in inferior right for fat necrosis, chronic inflammation, liposarcoma-like atypia, or vascular lesions."
+    },
+    {
+      "roi_id": "slide_A_x28672_y21504_mag10",
+      "tile_id": "slide_A_x28672_y21504_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 28672,
+      "y": 21504,
+      "level0": {
+        "x": 28672,
+        "y": 21504,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows mature adipose tissue with large, clear adipocytes and peripherally located nuclei. There is also a small focus of fibrous tissue with scattered inflammatory cells.\n\nThe most likely diagnosis for this single tile is mesenteric fat. This is consistent with the location in the mesentery and the presence of mature adipose tissue. The small focus of fibrous tissue with inflammation could represent a reactive process or a minor component of a mesenteric lesion.\n\nDifferential diagnoses to consider include:\n1. Mesenteric lipoma: A benign tumor composed of mature adipose tissue, which would be consistent with the findings in this single tile.\n2. Mesenteric fibromatosis: A benign but locally aggressive fibroblastic proliferation that can occur in the mesentery. This would typically show more prominent fibrous tissue and spindle cells, which are not the predominant features in this image.",
+      "rationale": "ROI 7: evaluate lymphoid aggregate/muscular hypertrophy; exclude lymphoma."
+    },
+    {
+      "roi_id": "slide_A_x50176_y30208_mag20",
+      "tile_id": "slide_A_x50176_y30208_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 50176,
+      "y": 30208,
+      "level0": {
+        "x": 50176,
+        "y": 30208,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows mature adipose tissue with scattered inflammatory cells and small vessels. The adipocytes appear uniform with no significant atypia.\n\nThe most likely diagnosis for this single tile is mesenteric fat. This is consistent with the location in the mesentery and the presence of mature adipose tissue.\n\nDifferential diagnoses to consider include lipoma, which would show a well-circumscribed mass of mature adipose tissue, and liposarcoma, which would exhibit atypical adipocytes and lipoblasts. However, the uniform appearance of adipocytes in this image makes these less likely.",
+      "rationale": "High power search for thrombosis/vasculitis in mesenteric vessels."
+    },
+    {
+      "roi_id": "slide_A_x57344_y8192_mag1",
+      "tile_id": "slide_A_x57344_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 57344,
+      "y": 8192,
+      "level0": {
+        "x": 57344,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a thickened bowel wall with prominent muscularis propria and submucosa containing lymphoid aggregates. There is also a large amount of adipose tissue.\n\nThe most likely diagnosis is a mesenteric process causing bowel wall thickening, such as mesenteric fibromatosis or a desmoid tumor.\n\nDifferential diagnoses include inflammatory myofibroblastic tumor, which can also present as a mesenteric mass with thickening of the bowel wall, and lymphoma, which can cause lymphoid aggregates and bowel wall thickening.",
+      "rationale": "Re-orient within region 0: identify bowel wall vs mesentery and target mucosa/submucosa rather than fat."
+    },
+    {
+      "roi_id": "slide_A_x15360_y29696_mag10",
+      "tile_id": "slide_A_x15360_y29696_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 15360,
+      "y": 29696,
+      "level0": {
+        "x": 15360,
+        "y": 29696,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a transition from normal small bowel mucosa to a dense, cellular stroma with spindle cells, prominent nerve bundles, and scattered ganglion cells. There is also a mixed inflammatory infiltrate and dilated vessels.\n\nThe most likely diagnosis is ganglioneuroma. This is supported by the presence of mature ganglion cells within a background of spindle cells and nerve bundles.\n\nDifferential diagnoses include neurofibroma, which typically lacks ganglion cells, and schwannoma, which often shows Antoni A and B areas and Verocay bodies, features not seen here.",
+      "rationale": "Left tissue inferior mesentery/serosa for panniculitis/sclerosing mesenteritis or vascular lesions."
+    },
+    {
+      "roi_id": "slide_A_x51200_y10240_mag5",
+      "tile_id": "slide_A_x51200_y10240_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 51200,
+      "y": 10240,
+      "level0": {
+        "x": 51200,
+        "y": 10240,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows thickened smooth muscle bundles with intervening fibrous stroma and a prominent lymphoid aggregate. These features are consistent with a fibroinflammatory process.\n\nMost likely diagnosis: Fibromatosis (Desmoid Tumor)\n\nDifferential diagnoses:\n1. Inflammatory Myofibroblastic Tumor: Typically shows a more prominent inflammatory infiltrate and myofibroblastic spindle cells.\n2. Gastrointestinal Stromal Tumor (GIST): Usually composed of spindle cells with a different growth pattern and often positive for CD117 and DOG1.",
+      "rationale": "Target luminal side/mucosa in region 0 to evaluate for ulceration, diaphragm-like stricture, crypt changes."
+    },
+    {
+      "roi_id": "slide_A_x23552_y15360_mag10",
+      "tile_id": "slide_A_x23552_y15360_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 23552,
+      "y": 15360,
+      "level0": {
+        "x": 23552,
+        "y": 15360,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of spindle cells and numerous dilated, thin-walled vessels within a fibrous stroma. Scattered ganglion cells are also present.\n\nThe most likely diagnosis is ganglioneuroma.\n\nDifferential diagnoses include neurofibroma, which typically lacks ganglion cells, and schwannoma, which shows Antoni A and B areas and Verocay bodies.",
+      "rationale": "Un/less explored central-large block (around ROI22) to assess dominant obstructing process and mural architecture."
+    },
+    {
+      "roi_id": "slide_A_x23552_y15360_mag20",
+      "tile_id": "slide_A_x23552_y15360_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 23552,
+      "y": 15360,
+      "level0": {
+        "x": 23552,
+        "y": 15360,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of spindle cells with wavy nuclei and scattered ganglion cells within a fibrous stroma. There is also a mixed inflammatory infiltrate and dilated vessels.\n\nThe most likely diagnosis is ganglioneuroma.\n\nDifferential diagnoses include neurofibroma, which typically lacks ganglion cells, and schwannoma, which often shows Antoni A and B areas and Verocay bodies.",
+      "rationale": "High power within central lesion to look for granulomas, malignancy, neural hyperplasia, vasculitis/thrombi."
+    },
+    {
+      "roi_id": "slide_A_x47104_y12288_mag10",
+      "tile_id": "slide_A_x47104_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 47104,
+      "y": 12288,
+      "level0": {
+        "x": 47104,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a transition from muscularis propria to a thickened submucosa with dense fibrosis, scattered ganglion cells, and prominent nerve bundles. The muscularis propria appears hypertrophied.\n\nThe most likely diagnosis is ganglioneuromatosis.\n\nDifferential diagnoses include:\n- Schwannoma: Typically a well-circumscribed lesion composed of spindle cells with wavy nuclei and Verocay bodies, lacking the diffuse fibrosis and ganglion cells seen here.\n- Neurofibroma: Usually a more cellular lesion with a mixture of Schwann cells, fibroblasts, and mast cells, often with a myxoid background, and lacks the prominent ganglion cells.",
+      "rationale": "Examine area closer to bowel wall (avoid mesenteric fat) for transmural inflammation, lymphoid aggregates, fibrosis."
+    },
+    {
+      "roi_id": "slide_A_x9216_y15360_mag10",
+      "tile_id": "slide_A_x9216_y15360_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 9216,
+      "y": 15360,
+      "level0": {
+        "x": 9216,
+        "y": 15360,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a thickened wall composed of dense fibrous tissue and prominent bundles of smooth muscle. Scattered blood vessels and a mild inflammatory infiltrate are also present.\n\nThe most likely diagnosis is fibromuscular hyperplasia of the bowel wall.\n\nDifferential diagnoses include inflammatory myofibroblastic tumor, which would typically show more prominent spindle cells and a mixed inflammatory infiltrate, and leiomyoma, which would consist of well-formed smooth muscle bundles without significant fibrosis.",
+      "rationale": "Unexplored left mid area near serosa/mesentery to look for panniculitis/sclerosis or tumor implants."
+    },
+    {
+      "roi_id": "slide_A_x17408_y23552_mag10",
+      "tile_id": "slide_A_x17408_y23552_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 17408,
+      "y": 23552,
+      "level0": {
+        "x": 17408,
+        "y": 23552,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of spindle cells arranged in fascicles and whorls, with scattered large ganglion cells and a background of fibrosis and chronic inflammation. The spindle cells have elongated, wavy nuclei.\n\nThe most likely diagnosis is ganglioneuroma.\n\nDifferential diagnoses include schwannoma, which typically lacks ganglion cells and shows Verocay bodies, and neurofibroma, which is more diffuse and lacks the prominent ganglion cells.",
+      "rationale": "Inferior-central bowel wall (around ROI10/25 area) to assess submucosal fibrosis/diaphragm-like stricture vs ischemic-type fibrosis."
+    },
+    {
+      "roi_id": "slide_A_x44544_y14848_mag20",
+      "tile_id": "slide_A_x44544_y14848_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 44544,
+      "y": 14848,
+      "level0": {
+        "x": 44544,
+        "y": 14848,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a transition from dense fibrous tissue with scattered spindle cells and inflammatory cells to bundles of smooth muscle. The smooth muscle bundles are separated by fibrous stroma.\n\nThe morphologic features are consistent with fibrosis and smooth muscle hypertrophy. The most likely diagnosis is fibrosis of the bowel wall. Differential diagnoses include inflammatory myofibroblastic tumor, which would show more prominent inflammation and spindle cell proliferation, and leiomyoma, which would consist of well-circumscribed smooth muscle bundles.",
+      "rationale": "High power on mucosa/lamina propria to look for active enteritis, granulomas, dysplasia or lymphoma involvement."
+    },
+    {
+      "roi_id": "slide_A_x25600_y9216_mag20",
+      "tile_id": "slide_A_x25600_y9216_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 25600,
+      "y": 9216,
+      "level0": {
+        "x": 25600,
+        "y": 9216,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of spindle cells with wavy nuclei arranged in fascicles and whorls, along with scattered mature adipocytes and a mild inflammatory infiltrate. The spindle cells are consistent with Schwann cells.\n\nThe most likely diagnosis is a ganglioneuroma, a benign neural tumor composed of mature ganglion cells, Schwann cells, and nerve fibers.\n\nDifferential diagnoses include neurofibroma, which typically lacks ganglion cells and has a more diffuse growth pattern, and schwannoma, which often shows Antoni A and B areas and Verocay bodies.",
+      "rationale": "High power left upper central fibrotic/serosal edge to look for granulomas, mesothelial reaction, metastatic carcinoma."
+    },
+    {
+      "roi_id": "slide_A_x17408_y23552_mag20",
+      "tile_id": "slide_A_x17408_y23552_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 17408,
+      "y": 23552,
+      "level0": {
+        "x": 17408,
+        "y": 23552,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of spindle cells arranged in intersecting fascicles with elongated, wavy nuclei and eosinophilic cytoplasm. There is a prominent inflammatory infiltrate and areas of stromal hyalinization.\n\nThe most likely diagnosis is an inflammatory fibroid polyp. Differential diagnoses include gastrointestinal stromal tumor (GIST) and leiomyoma, which can be distinguished by immunohistochemical staining (e.g., CD34, DOG1, SMA, desmin).",
+      "rationale": "High power in inferior-central to look for ischemic changes (hyalinized lamina propria, withered crypts), CMV, amyloid, etc."
+    },
+    {
+      "roi_id": "slide_A_x47104_y16384_mag10",
+      "tile_id": "slide_A_x47104_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 47104,
+      "y": 16384,
+      "level0": {
+        "x": 47104,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a thickened muscularis propria with disorganized smooth muscle bundles and increased interstitial cellularity. The overlying mucosa is ulcerated.\n\nThe most likely diagnosis is chronic ischemic enteritis. The thickened muscularis propria with disorganized smooth muscle and increased interstitial cellularity are features of chronic injury and repair. The ulceration of the overlying mucosa is also consistent with ischemic damage.\n\nDifferential diagnoses include inflammatory bowel disease (Crohn's disease) and radiation enteritis. Inflammatory bowel disease can cause transmural inflammation and fibrosis, but typically shows granulomas and crypt architectural distortion. Radiation enteritis can cause fibrosis and vascular changes, but often has characteristic vascular changes and atypical stromal cells.",
+      "rationale": "Right tissue mid interface with fat to assess for fat necrosis/sclerosing mesenteritis and vascular changes."
+    },
+    {
+      "roi_id": "slide_A_x32768_y16384_mag10",
+      "tile_id": "slide_A_x32768_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 32768,
+      "y": 16384,
+      "level0": {
+        "x": 32768,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of spindle cells with wavy nuclei and eosinophilic cytoplasm, arranged in fascicles and whorls, with interspersed mature adipocytes and thickened blood vessels. A mild chronic inflammatory infiltrate is also present.\n\nThe most likely diagnosis is a ganglioneuroma, a benign neural tumor composed of mature ganglion cells, Schwann cells, and fibroblasts.\n\nDifferential diagnoses include schwannoma, which typically shows Antoni A and B areas and Verocay bodies, and neurofibroma, which is more diffuse and lacks the prominent ganglion cells seen here.",
+      "rationale": "Right mid region (around ROI24/33/35) to evaluate muscularis/mucosa transition and exclude adenoca/NET or lymphoma."
+    },
+    {
+      "roi_id": "slide_A_x59392_y10240_mag5",
+      "tile_id": "slide_A_x59392_y10240_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 59392,
+      "y": 10240,
+      "level0": {
+        "x": 59392,
+        "y": 10240,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows mature adipose tissue with a prominent inflammatory infiltrate composed of lymphocytes and plasma cells, along with small blood vessels.\n\nThe most likely diagnosis is mesenteric inflammation, likely related to the patient's bowel obstruction and resection.\n\nDifferential diagnoses include mesenteric panniculitis and inflammatory myofibroblastic tumor. Mesenteric panniculitis would show more extensive fat necrosis and inflammation, while inflammatory myofibroblastic tumor would have a more prominent spindle cell component.",
+      "rationale": "Try to capture mucosa in right-hand bowel wall (region 0) rather than mesenteric fat; look for ulcer/diaphragm/crypt changes."
+    },
+    {
+      "roi_id": "slide_A_x59904_y13824_mag20",
+      "tile_id": "slide_A_x59904_y13824_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 59904,
+      "y": 13824,
+      "level0": {
+        "x": 59904,
+        "y": 13824,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows mature adipose tissue with scattered inflammatory cells and small vessels. The adipocytes appear uniform with no significant atypia.\n\nThe most likely diagnosis for this single tile is mesenteric fat with inflammation. This finding is consistent with the clinical history of bowel obstruction and partial resection, where inflammation can be present in the mesentery. The uniform appearance of adipocytes suggests a benign process.\n\nDifferential diagnoses to consider include mesenteric fat necrosis or a low-grade lipomatous neoplasm. However, the lack of significant atypia and the presence of inflammation favor a reactive process over a neoplastic one.",
+      "rationale": "High power right peripheral mesenteric fat for vasculitis/thrombi or atypical spindle cell proliferation."
+    },
+    {
+      "roi_id": "slide_A_x58368_y10240_mag10",
+      "tile_id": "slide_A_x58368_y10240_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 58368,
+      "y": 10240,
+      "level0": {
+        "x": 58368,
+        "y": 10240,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows mature adipose tissue with a prominent inflammatory infiltrate composed of lymphocytes and plasma cells, along with small blood vessels.\n\nThe most likely diagnosis for this single tile is mesenteric inflammation, which could be related to the patient's bowel obstruction and the thickened bowel wall. Differential diagnoses include mesenteric panniculitis or a reactive inflammatory process secondary to the bowel pathology.",
+      "rationale": "Higher power on suspected mucosal edge/transition area for architectural distortion, inflammation, erosions."
+    },
+    {
+      "roi_id": "slide_A_x59392_y14336_mag5",
+      "tile_id": "slide_A_x59392_y14336_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 59392,
+      "y": 14336,
+      "level0": {
+        "x": 59392,
+        "y": 14336,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows mature adipose tissue with scattered small blood vessels. The adipocytes are uniform with clear cytoplasm and peripherally located nuclei.\n\nThe most likely diagnosis for this histology tile is a lipoma. The differential diagnosis includes normal mesenteric fat, which would be expected in the context of a resected bowel segment.",
+      "rationale": "Sample another bowel wall segment to see if any mass lesion/lymphoma or adenoca present."
+    },
+    {
+      "roi_id": "slide_A_x57344_y28672_mag10",
+      "tile_id": "slide_A_x57344_y28672_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 57344,
+      "y": 28672,
+      "level0": {
+        "x": 57344,
+        "y": 28672,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows mature adipose tissue with prominent fibrous septa containing scattered inflammatory cells and red blood cells. The adipocytes appear relatively uniform.\n\nThe most likely diagnosis for this single histology tile is mesenteric fibromatosis. This diagnosis is supported by the presence of mature adipose tissue with prominent fibrous septa and scattered inflammatory cells, which are characteristic features of this condition. Differential diagnoses to consider include inflammatory myofibroblastic tumor and desmoid-type fibromatosis, which can also present with fibrous tissue and inflammation. However, the relatively uniform appearance of the adipocytes and the lack of significant cellular atypia or mitotic activity in this image make mesenteric fibromatosis the most likely diagnosis.",
+      "rationale": "Inferior right peripheral fat to evaluate for fat necrosis, fibrosis, and any implants."
+    },
+    {
+      "roi_id": "slide_A_x53760_y15360_mag20",
+      "tile_id": "slide_A_x53760_y15360_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 53760,
+      "y": 15360,
+      "level0": {
+        "x": 53760,
+        "y": 15360,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of spindle cells arranged in intersecting fascicles with elongated, wavy nuclei and eosinophilic cytoplasm. There is also a focus of ganglion cells and scattered inflammatory cells.\n\nThe most likely diagnosis is a ganglioneuroma.\n\nDifferential diagnoses include gastrointestinal stromal tumor (GIST), which typically lacks ganglion cells and has different immunohistochemical staining (CD117, DOG1 positive). Schwannoma is another possibility, but it usually shows Antoni A and B areas and Verocay bodies, and lacks ganglion cells.",
+      "rationale": "High power on prominent lymphoid aggregate area to assess for reactive vs lymphoma (monomorphous cells, atypia)."
+    },
+    {
+      "roi_id": "slide_A_x8192_y16384_mag10",
+      "tile_id": "slide_A_x8192_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 8192,
+      "y": 16384,
+      "level0": {
+        "x": 8192,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a thickened bowel wall with dense fibrous tissue, prominent smooth muscle bundles, and a significant inflammatory infiltrate. The serosal surface is irregular and covered by fibrin.\n\nThe most likely diagnosis is sclerosing mesenteritis, characterized by fibrosis and inflammation of the mesentery and bowel wall.\n\nDifferential diagnoses include inflammatory myofibroblastic tumor, which typically shows a more cellular proliferation of spindle cells, and desmoid-type fibromatosis, which is characterized by infiltrative growth of bland spindle cells in a collagenous stroma.",
+      "rationale": "Left-mid bowel wall (unexplored) to assess for true mucosal Crohn changes vs reactive; look for ulcers, granulomas."
+    },
+    {
+      "roi_id": "slide_A_x8192_y16384_mag20",
+      "tile_id": "slide_A_x8192_y16384_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 8192,
+      "y": 16384,
+      "level0": {
+        "x": 8192,
+        "y": 16384,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a thickened bowel wall with dense fibrous tissue, scattered chronic inflammation, and prominent congested blood vessels. The surface is lined by flattened cells.\n\nThe most likely diagnosis is chronic inflammation and fibrosis of the bowel wall, consistent with a stricture.\n\nDifferential diagnoses include inflammatory bowel disease (e.g., Crohn's disease) and post-surgical or post-radiation changes.",
+      "rationale": "High power left-mid for granulomas, cryptitis, CMV, amyloid, vasculitis."
+    },
+    {
+      "roi_id": "slide_A_x10240_y16384_mag10",
+      "tile_id": "slide_A_x10240_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 10240,
+      "y": 16384,
+      "level0": {
+        "x": 10240,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of spindle cells arranged in intersecting fascicles with elongated, blunt-ended nuclei and eosinophilic cytoplasm. The cells are separated by a collagenous stroma.\n\nThe most likely diagnosis is a leiomyoma. Differential diagnoses include gastrointestinal stromal tumor (GIST) and schwannoma, which can be distinguished by immunohistochemical staining for markers such as CD117, DOG1, and S100.",
+      "rationale": "Left-central deeper wall to see if neural proliferation is diffuse and transmural; check myenteric plexus/nerve hypertrophy."
+    },
+    {
+      "roi_id": "slide_A_x10240_y16384_mag20",
+      "tile_id": "slide_A_x10240_y16384_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 10240,
+      "y": 16384,
+      "level0": {
+        "x": 10240,
+        "y": 16384,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of spindle cells with elongated, blunt-ended nuclei arranged in intersecting fascicles. There is a prominent swirling pattern and scattered small blood vessels.\n\nThe most likely diagnosis is leiomyoma. Differential diagnoses include gastrointestinal stromal tumor (GIST) and schwannoma, which can be distinguished by immunohistochemistry (e.g., CD117, DOG1 for GIST; S100 for schwannoma).",
+      "rationale": "High power left-central: confirm ganglion cells, Schwannian stroma; exclude spindle cell sarcoma/GIST."
+    },
+    {
+      "roi_id": "slide_A_x20480_y22528_mag10",
+      "tile_id": "slide_A_x20480_y22528_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 20480,
+      "y": 22528,
+      "level0": {
+        "x": 20480,
+        "y": 22528,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows small bowel mucosa with blunted villi, expanded lamina propria with mixed inflammation, and crypts exhibiting goblet cell depletion and regenerative changes. The submucosa is thickened by fibrosis and inflammation.\n\nThe morphologic features are consistent with chronic inflammatory bowel disease, such as Crohn's disease. Differential diagnoses include other causes of chronic enteritis, such as infectious etiologies or ischemic injury, which would require clinical correlation and potentially further testing to exclude.",
+      "rationale": "Lower-central/right area near serosa (less sampled) to assess mesenteric fibrosis, fat necrosis, thrombosis/ischemia."
+    }
+  ]
+}

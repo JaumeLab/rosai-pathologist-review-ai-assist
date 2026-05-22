@@ -1,0 +1,1149 @@
+{
+  "case_id": "sem259_case11",
+  "source": "slideseek-ai-assist",
+  "model": "gpt-5.4",
+  "generated_at": "2026-05-22T09:28:51.446916+00:00",
+  "organ": "GI Tract",
+  "primary_dx": "Necrotizing Enterocolitis With Pneumatosis Intestinalis",
+  "differential_dx": [
+    "Ischemic Enteritis/Infarction Due To Volvulus Or Focal Vascular Occlusion",
+    "Hirschsprung-Associated Enterocolitis"
+  ],
+  "microscopic_findings": [
+    {
+      "text": "Mucosa shows **coagulative necrosis** with epithelial sloughing and **loss of villous/crypt architecture**.",
+      "roi_ids": [
+        "slide_A_x7168_y8192_mag10",
+        "slide_A_x10240_y8704_mag20"
+      ]
+    },
+    {
+      "text": "Lamina propria and submucosa are expanded by **hemorrhage**, edema, and dense **acute inflammation**.",
+      "roi_ids": [
+        "slide_A_x16384_y11264_mag10",
+        "slide_A_x26624_y12800_mag20"
+      ]
+    },
+    {
+      "text": "Submucosa contains large empty **gas cysts** consistent with **pneumatosis intestinalis**, with adjacent hemorrhagic injury.",
+      "roi_ids": [
+        "slide_A_x20480_y7168_mag10",
+        "slide_A_x33792_y7168_mag10"
+      ]
+    },
+    {
+      "text": "There is focal **deep mural hemorrhagic necrosis** beneath the **muscularis propria**, indicating severe wall involvement.",
+      "roi_ids": [
+        "slide_A_x14848_y10752_mag20"
+      ]
+    }
+  ],
+  "interpretation": "The findings support **necrotizing enterocolitis with pneumatosis intestinalis**, characterized by **necro-hemorrhagic mucosal and submucosal injury** with acute inflammation and definite submucosal gas. Focal extension into the deeper wall indicates severe disease. This pattern favors **NEC** over ischemic infarction from focal vascular compromise, which more often shows uniform transmural coagulative necrosis or identifiable thrombo-occlusive change. The histology also argues against **Hirschsprung-associated enterocolitis**, as the dominant abnormalities are pneumatosis and necrotizing hemorrhagic injury rather than aganglionosis-related changes.",
+  "num_rois": 69,
+  "tiles": [
+    {
+      "roi_id": "slide_A_x4096_y8192_mag2",
+      "tile_id": "slide_A_x4096_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 4096,
+      "y": 8192,
+      "level0": {
+        "x": 4096,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a segment of bowel with a transition from relatively preserved mucosa to an area with significant architectural distortion, loss of villi, and hemorrhage. The submucosa is thickened and congested.\n\nThe most likely diagnosis is necrotizing enterocolitis, given the clinical context of a neonate and the observed morphologic features of mucosal injury, hemorrhage, and architectural changes.\n\nDifferential diagnoses to consider include ischemic enteritis, which can also cause mucosal necrosis and hemorrhage, and severe infectious enteritis, which might show inflammation and mucosal damage, but typically lacks the extensive necrosis and architectural distortion seen here.",
+      "rationale": "Left portion of region 0 for low-power overview; assess overall mucosal/serosal integrity and hemorrhage."
+    },
+    {
+      "roi_id": "slide_A_x32768_y8192_mag1",
+      "tile_id": "slide_A_x32768_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 32768,
+      "y": 8192,
+      "level0": {
+        "x": 32768,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a segment of bowel with a transition from relatively preserved mucosa to an area with significant architectural distortion, loss of villi, and inflammation. The underlying submucosa and muscularis propria are thickened and show inflammation and hemorrhage.\n\nThe most likely diagnosis is necrotizing enterocolitis. The key features supporting this diagnosis include the abrupt transition from normal to severely damaged mucosa, villous atrophy, inflammation, and hemorrhage in the submucosa and muscularis propria. The clinical context of a neonate with necrotizing enterocolitis further supports this diagnosis.\n\nDifferential diagnoses to consider include ischemic enteritis, which can also cause mucosal necrosis and inflammation, and severe infectious enteritis, which can cause villous atrophy and inflammation. However, the abrupt transition and the clinical context of a neonate with necrotizing enterocolitis strongly favor NEC.",
+      "rationale": "Region 1 overview; orient mucosa vs serosa and look for discontinuity/blebs/exudate."
+    },
+    {
+      "roi_id": "slide_A_x8192_y4096_mag2",
+      "tile_id": "slide_A_x8192_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 8192,
+      "y": 4096,
+      "level0": {
+        "x": 8192,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a segment of bowel with a transition from relatively preserved mucosa to an area with significant architectural distortion, loss of villi, and inflammation. The underlying submucosa and muscularis propria are thickened and show inflammation and fibrosis.\n\nThe most likely diagnosis is necrotizing enterocolitis. The key features supporting this diagnosis include the abrupt transition from normal to abnormal mucosa, significant architectural distortion, loss of villi, and inflammation extending into the submucosa and muscularis propria. The clinical context of a neonate with a history of necrotizing enterocolitis further supports this diagnosis.\n\nDifferential diagnoses to consider include ischemic enteritis, which can also cause mucosal necrosis and inflammation, and severe infectious enteritis, which can cause significant inflammation and architectural changes. However, the abrupt transition and the clinical context of necrotizing enterocolitis make NEC the most likely diagnosis.",
+      "rationale": "Low-mag overview of Region 2 to orient along bowel wall and identify mucosa/serosa and any necrotic/pneumatosis areas."
+    },
+    {
+      "roi_id": "slide_A_x12288_y4096_mag2",
+      "tile_id": "slide_A_x12288_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 4096,
+      "level0": {
+        "x": 12288,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a segment of bowel with a thickened wall and significant mucosal injury, including necrosis and ulceration. There is also a dense inflammatory infiltrate in the lamina propria and submucosa.\n\nThe most likely diagnosis is necrotizing enterocolitis. Differential diagnoses include ischemic enteritis and severe infectious enteritis, which can also cause mucosal necrosis and inflammation.",
+      "rationale": "Survey additional low-mag area within Region 2 for heterogeneity, hemorrhage, thinning, or transmural injury."
+    },
+    {
+      "roi_id": "slide_A_x16384_y12288_mag2",
+      "tile_id": "slide_A_x16384_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 16384,
+      "y": 12288,
+      "level0": {
+        "x": 16384,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a segment of bowel with a transition from relatively preserved mucosa to an area with significant architectural distortion, loss of villi, and increased cellularity in the lamina propria. The submucosa is thickened and congested.\n\nThe most likely diagnosis is necrotizing enterocolitis. The key features supporting this include the abrupt transition from normal to abnormal mucosa, the loss of villi, and the inflammatory changes in the lamina propria. The clinical context of a neonate with NEC is also highly supportive.\n\nDifferential diagnoses to consider include ischemic enteritis, which can also cause mucosal necrosis and inflammation, and severe infectious enteritis, which can cause villous atrophy and inflammation. However, the abrupt transition and the clinical context strongly favor NEC.",
+      "rationale": "Central portion of region 0 for low-power overview; look for pneumatosis-like cystic spaces or mural splitting."
+    },
+    {
+      "roi_id": "slide_A_x40960_y8192_mag1",
+      "tile_id": "slide_A_x40960_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 40960,
+      "y": 8192,
+      "level0": {
+        "x": 40960,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a segment of bowel with a transition from relatively preserved mucosa to an area of significant architectural distortion, loss of villi, and inflammation. The underlying submucosa and muscularis propria are thickened and show inflammation and hemorrhage.\n\nThe most likely diagnosis is necrotizing enterocolitis. This diagnosis is supported by the clinical history of a neonate with NEC and the histological findings of mucosal injury, inflammation, and hemorrhage in the bowel wall. Differential diagnoses could include other causes of severe enteritis or ischemia in a neonate, but the combination of clinical presentation and histological findings strongly favors NEC.",
+      "rationale": "Region 1 mid; screen for serosal changes and hemorrhage."
+    },
+    {
+      "roi_id": "slide_A_x32768_y12288_mag2",
+      "tile_id": "slide_A_x32768_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 32768,
+      "y": 12288,
+      "level0": {
+        "x": 32768,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows significant mucosal injury with blunted and fused villi, along with crypt hyperplasia and inflammation in the lamina propria. The submucosa is expanded by edema and inflammation.\n\nThe most likely diagnosis is necrotizing enterocolitis. Differential diagnoses include ischemic enteritis and severe infectious enteritis, which can also cause mucosal necrosis and inflammation.",
+      "rationale": "Right portion of region 0 for low-power overview; search for perforation, necrosis, or hemorrhagic serosa."
+    },
+    {
+      "roi_id": "slide_A_x32768_y16384_mag1",
+      "tile_id": "slide_A_x32768_y16384_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 32768,
+      "y": 16384,
+      "level0": {
+        "x": 32768,
+        "y": 16384,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a segment of bowel with a transition from relatively preserved mucosa to an area with significant architectural distortion, loss of villi, and inflammation. The lamina propria is expanded by inflammatory cells, and there is evidence of hemorrhage and necrosis.\n\nThe most likely diagnosis is necrotizing enterocolitis. This diagnosis is supported by the clinical history of a neonate with NEC and the morphological findings of mucosal necrosis, inflammation, and architectural disruption. Differential diagnoses could include ischemic enteritis or severe infectious enterocolitis, but the combination of clinical context and histological findings strongly favors NEC.",
+      "rationale": "Region 1 right; look for possible perforation edge and subserosal pneumatosis."
+    },
+    {
+      "roi_id": "slide_A_x16384_y8192_mag2",
+      "tile_id": "slide_A_x16384_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 16384,
+      "y": 8192,
+      "level0": {
+        "x": 16384,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a segment of bowel with a transition from relatively preserved mucosa to an area with marked mucosal necrosis, hemorrhage, and inflammation. The underlying submucosa and muscularis propria appear thickened and fibrotic.\n\nThe most likely diagnosis is necrotizing enterocolitis (NEC). The key features supporting this diagnosis are the abrupt transition from viable to necrotic mucosa, the presence of hemorrhage, and inflammation. The thickened submucosa and muscularis propria suggest a chronic or healing process.\n\nDifferential diagnoses to consider include ischemic enteritis, which can also show mucosal necrosis and hemorrhage, and severe infectious enteritis, which can cause mucosal damage and inflammation. However, the abrupt transition and the clinical context of a neonate with NEC strongly favor this diagnosis.",
+      "rationale": "Check distal portion of Region 2 for serosal changes, pneumatosis blebs, or perforation adjacent to edges."
+    },
+    {
+      "roi_id": "slide_A_x40960_y16384_mag1",
+      "tile_id": "slide_A_x40960_y16384_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 40960,
+      "y": 16384,
+      "level0": {
+        "x": 40960,
+        "y": 16384,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a segment of bowel with marked mucosal injury, including necrosis and sloughing, and significant hemorrhage in the lamina propria and submucosa. The muscularis propria appears relatively preserved.\n\nThe most likely diagnosis is necrotizing enterocolitis (NEC). This diagnosis is supported by the clinical history of a neonate with NEC and the observed histological features of severe mucosal necrosis and hemorrhage. Differential diagnoses could include ischemic enteritis or severe infectious enterocolitis, but the clinical context strongly favors NEC.",
+      "rationale": "Region 1 far right/inferior; assess serosa and any adhesions/exudate."
+    },
+    {
+      "roi_id": "slide_A_x10240_y8192_mag5",
+      "tile_id": "slide_A_x10240_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 10240,
+      "y": 8192,
+      "level0": {
+        "x": 10240,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a segment of bowel with a sharp transition from relatively preserved mucosa to an area of extensive mucosal necrosis and sloughing. The underlying submucosa is expanded by edema and hemorrhage.\n\nThe most likely diagnosis is necrotizing enterocolitis. Differential diagnoses include ischemic enteritis and severe infectious enteritis, which can also cause mucosal necrosis and inflammation.",
+      "rationale": "Upper-left long strip: check for pneumatosis (submucosal cystic spaces) and transmural hemorrhage."
+    },
+    {
+      "roi_id": "slide_A_x6144_y1024_mag10",
+      "tile_id": "slide_A_x6144_y1024_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 6144,
+      "y": 1024,
+      "level0": {
+        "x": 6144,
+        "y": 1024,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows severe mucosal injury with necrosis and ulceration, accompanied by a dense inflammatory infiltrate and hemorrhage. The underlying submucosa and muscularis propria are thickened and fibrotic.\n\nThe most likely diagnosis is necrotizing enterocolitis. Differential diagnoses include ischemic enteritis and severe infectious enteritis, which can also cause mucosal necrosis and inflammation.",
+      "rationale": "Proximal end of Region 2: assess villous/crypt architecture and mucosal viability."
+    },
+    {
+      "roi_id": "slide_A_x14336_y12288_mag5",
+      "tile_id": "slide_A_x14336_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 14336,
+      "y": 12288,
+      "level0": {
+        "x": 14336,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a segment of bowel wall with a thickened, hyalinized outer layer and a cellular inner layer with inflammation and hemorrhage. The inner layer appears necrotic with loss of cellular detail.\n\nThe most likely diagnosis is necrotizing enterocolitis, given the clinical context of a neonate and the morphological features of bowel wall necrosis and inflammation.\n\nDifferential diagnoses could include ischemic enteritis or severe infectious enterocolitis, but the clinical presentation and specific histological findings strongly favor necrotizing enterocolitis.",
+      "rationale": "Central circled area: possible focal perforation/ulceration; evaluate low-mid power."
+    },
+    {
+      "roi_id": "slide_A_x9216_y4096_mag10",
+      "tile_id": "slide_A_x9216_y4096_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 9216,
+      "y": 4096,
+      "level0": {
+        "x": 9216,
+        "y": 4096,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows extensive hemorrhage and necrosis of the mucosa and submucosa, with a dense inflammatory infiltrate. The muscularis propria appears thickened and disorganized.\n\nThe most likely diagnosis is necrotizing enterocolitis.\n\nDifferential diagnoses include ischemic enteritis, which can also show mucosal necrosis and hemorrhage, and severe infectious enteritis, which may present with inflammation and necrosis. However, the clinical context of a neonate with a history of NEC strongly supports this diagnosis.",
+      "rationale": "Mid Region 2: evaluate transition zone and depth of injury."
+    },
+    {
+      "roi_id": "slide_A_x26624_y12288_mag5",
+      "tile_id": "slide_A_x26624_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 26624,
+      "y": 12288,
+      "level0": {
+        "x": 26624,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows significant mucosal injury with blunted villi, crypt distortion, and a dense inflammatory infiltrate in the lamina propria. There is also evidence of hemorrhage and necrosis.\n\nThe most likely diagnosis is necrotizing enterocolitis. Differential diagnoses include ischemic enteritis and severe infectious enteritis, which can also cause mucosal necrosis and inflammation.",
+      "rationale": "Right-lower area where map indicates unexplored; look for hemorrhagic/necrotic mucosa and mural splitting."
+    },
+    {
+      "roi_id": "slide_A_x15360_y5120_mag10",
+      "tile_id": "slide_A_x15360_y5120_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 15360,
+      "y": 5120,
+      "level0": {
+        "x": 15360,
+        "y": 5120,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows significant mucosal injury with necrosis and sloughing, along with a dense mixed inflammatory infiltrate in the lamina propria and submucosa. There is also evidence of hemorrhage and vascular congestion.\n\nThe most likely diagnosis is necrotizing enterocolitis. Differential diagnoses include ischemic enteritis and severe infectious enteritis, which can also cause mucosal necrosis and inflammation.",
+      "rationale": "More distal within Region 2: check for ulceration, hemorrhage, transmural inflammation."
+    },
+    {
+      "roi_id": "slide_A_x30720_y6144_mag5",
+      "tile_id": "slide_A_x30720_y6144_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 30720,
+      "y": 6144,
+      "level0": {
+        "x": 30720,
+        "y": 6144,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows significant mucosal injury with blunted and fused villi, loss of surface epithelium, and a dense inflammatory infiltrate in the lamina propria. The submucosa is thickened and edematous.\n\nThe most likely diagnosis is necrotizing enterocolitis.\n\nDifferential diagnoses include ischemic enteritis and severe infectious enteritis. Ischemic enteritis can show similar mucosal necrosis and inflammation, but often has a more patchy distribution and may show hyalinization of the submucosa. Severe infectious enteritis can cause mucosal damage and inflammation, but typically lacks the extensive necrosis and villous blunting seen here.",
+      "rationale": "Upper aspect of Region 1; examine serosal surface for fibrin, acute inflammation, subserosal clear spaces."
+    },
+    {
+      "roi_id": "slide_A_x20480_y7168_mag10",
+      "tile_id": "slide_A_x20480_y7168_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 20480,
+      "y": 7168,
+      "level0": {
+        "x": 20480,
+        "y": 7168,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a large submucosal gas bubble with overlying mucosa exhibiting necrosis and inflammation. The muscularis propria is also visible.\n\nThe most likely diagnosis is necrotizing enterocolitis (NEC).\n\nDifferential diagnoses include ischemic enteritis, which can also show mucosal necrosis and inflammation, but typically lacks the prominent submucosal gas bubbles seen in NEC.",
+      "rationale": "Near distal/edge of Region 2: look for serosal abnormalities/pneumatosis and full-thickness necrosis."
+    },
+    {
+      "roi_id": "slide_A_x32768_y8192_mag5",
+      "tile_id": "slide_A_x32768_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 32768,
+      "y": 8192,
+      "level0": {
+        "x": 32768,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a segment of bowel with a central lumen surrounded by mucosa, submucosa, and muscularis propria. The mucosa exhibits villiform architecture with crypts and a cellular lamina propria. The submucosa is cellular and vascular, and the muscularis propria is thickened.\n\nThe most likely diagnosis is necrotizing enterocolitis (NEC). The clinical history of a neonate with NEC and the gross description of dusky/hemorrhagic serosa are consistent with this diagnosis. The histological findings of a thickened muscularis propria and cellular submucosa are also supportive. Differential diagnoses could include other causes of bowel ischemia or inflammation, but the clinical context strongly favors NEC.",
+      "rationale": "Mid Region 1; look for subserosal pneumatosis-like cysts and hemorrhage."
+    },
+    {
+      "roi_id": "slide_A_x7168_y8192_mag10",
+      "tile_id": "slide_A_x7168_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 7168,
+      "y": 8192,
+      "level0": {
+        "x": 7168,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows mucosal necrosis with loss of epithelial lining and hemorrhage in the lamina propria. The submucosa is expanded by edema, hemorrhage, and a mixed inflammatory infiltrate.\n\nThe most likely diagnosis is necrotizing enterocolitis. Differential diagnoses include ischemic enteritis and severe infectious enteritis, which can also cause mucosal necrosis and inflammation.",
+      "rationale": "Top-left segment at higher power to confirm mucosal coagulative necrosis vs ulcer/slough and assess inflammation."
+    },
+    {
+      "roi_id": "slide_A_x36864_y10240_mag5",
+      "tile_id": "slide_A_x36864_y10240_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 36864,
+      "y": 10240,
+      "level0": {
+        "x": 36864,
+        "y": 10240,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows extensive mucosal necrosis and ulceration with loss of crypt architecture. There is a dense mixed inflammatory infiltrate and hemorrhage in the lamina propria and submucosa.\n\nThe most likely diagnosis is necrotizing enterocolitis. Differential diagnoses include ischemic enteritis and severe infectious enteritis, which can also cause mucosal necrosis and inflammation.",
+      "rationale": "Right mid/inferior; assess for serosal disruption/perforation edge or exudate."
+    },
+    {
+      "roi_id": "slide_A_x19968_y7168_mag20",
+      "tile_id": "slide_A_x19968_y7168_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 19968,
+      "y": 7168,
+      "level0": {
+        "x": 19968,
+        "y": 7168,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a layer of necrotic epithelium with loss of nuclear detail and eosinophilic cytoplasm, overlying a layer of spindle cells and connective tissue with scattered inflammatory cells and red blood cells.\n\nThe most likely diagnosis is necrotizing enterocolitis, given the clinical context of a neonate with severe illness and the presence of necrotic epithelium.\n\nDifferential diagnoses could include ischemic enteritis or other causes of severe mucosal injury, but the clinical history strongly favors NEC.",
+      "rationale": "Detail of suspected submucosal gas (pneumatosis) and overlying mucosal necrosis."
+    },
+    {
+      "roi_id": "slide_A_x10240_y8704_mag20",
+      "tile_id": "slide_A_x10240_y8704_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 10240,
+      "y": 8704,
+      "level0": {
+        "x": 10240,
+        "y": 8704,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows significant mucosal injury with necrosis and sloughing, along with a dense mixed inflammatory infiltrate in the lamina propria. There is also evidence of hemorrhage and scattered dark granular material.\n\nThe most likely diagnosis is necrotizing enterocolitis, given the clinical context of a neonate and the observed severe mucosal necrosis and inflammation. Differential diagnoses could include other causes of severe infectious enteritis or ischemic injury, but the combination of clinical history and histological findings strongly supports NEC.",
+      "rationale": "Area with extensive mucosal necrosis at 5x; at 20x assess for coagulative necrosis, bacterial colonies, pneumatosis lining."
+    },
+    {
+      "roi_id": "slide_A_x38912_y10240_mag5",
+      "tile_id": "slide_A_x38912_y10240_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 38912,
+      "y": 10240,
+      "level0": {
+        "x": 38912,
+        "y": 10240,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows extensive mucosal necrosis with loss of crypt architecture and a dense inflammatory infiltrate. There is also evidence of hemorrhage and fibrin deposition.\n\nThe most likely diagnosis is necrotizing enterocolitis. Differential diagnoses include ischemic enteritis and severe infectious enteritis, which can also cause mucosal necrosis and inflammation.",
+      "rationale": "Far right; sample serosa/subserosa for blebs and inflammation."
+    },
+    {
+      "roi_id": "slide_A_x9216_y4096_mag20",
+      "tile_id": "slide_A_x9216_y4096_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 9216,
+      "y": 4096,
+      "level0": {
+        "x": 9216,
+        "y": 4096,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows extensive hemorrhage and necrosis with loss of normal tissue architecture. There is a dense inflammatory infiltrate composed of neutrophils and lymphocytes, along with scattered dark granular material.\n\nThe most likely diagnosis is necrotizing enterocolitis. Differential diagnoses include ischemic enteritis and severe infectious enteritis, which can also present with necrosis and inflammation but may have different patterns of injury or associated findings.",
+      "rationale": "High-power look at mucosal/submucosal necrosis and inflammation; assess for bacterial overgrowth/translocation."
+    },
+    {
+      "roi_id": "slide_A_x16384_y11264_mag10",
+      "tile_id": "slide_A_x16384_y11264_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 16384,
+      "y": 11264,
+      "level0": {
+        "x": 16384,
+        "y": 11264,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows severe mucosal injury with necrosis and sloughing, along with significant hemorrhage and a dense inflammatory infiltrate in the lamina propria and submucosa. The muscularis propria appears thickened.\n\nThe most likely diagnosis is necrotizing enterocolitis.\n\nDifferential diagnoses include ischemic enteritis, which can also show mucosal necrosis and hemorrhage, and severe infectious enteritis, which may present with inflammation and mucosal damage. However, the combination of severe necrosis, hemorrhage, and the clinical context of a neonate strongly favors necrotizing enterocolitis.",
+      "rationale": "Central circled area at 10x: evaluate for transmural necrosis, perforation, pneumatosis, hemorrhage."
+    },
+    {
+      "roi_id": "slide_A_x39936_y9216_mag10",
+      "tile_id": "slide_A_x39936_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 39936,
+      "y": 9216,
+      "level0": {
+        "x": 39936,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows extensive hemorrhage and necrosis with loss of normal architecture. There is a dense mixed inflammatory infiltrate and scattered multinucleated giant cells.\n\nThe most likely diagnosis is necrotizing enterocolitis. Differential diagnoses include ischemic enteritis and severe infectious enteritis, which can also cause necrosis and inflammation but may have different patterns of injury or associated features.",
+      "rationale": "Highish power screening at far right for subserosal gas cysts and acute serositis."
+    },
+    {
+      "roi_id": "slide_A_x14848_y10752_mag20",
+      "tile_id": "slide_A_x14848_y10752_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 14848,
+      "y": 10752,
+      "level0": {
+        "x": 14848,
+        "y": 10752,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a layer of spindle cells with elongated nuclei, overlying a region of extensive hemorrhage and necrosis. The hemorrhage is characterized by abundant red blood cells and scattered inflammatory cells.\n\nThe most likely diagnosis is necrotizing enterocolitis (NEC). The presence of hemorrhage and necrosis in the bowel wall, particularly in the context of a neonate with a history of stress and prematurity, is characteristic of NEC. The spindle cell layer likely represents the muscularis propria, which can be involved in severe cases of NEC.\n\nDifferential diagnoses to consider include ischemic enteritis, which can also present with hemorrhage and necrosis, and infectious enteritis, which may show inflammation and necrosis but typically lacks the extensive hemorrhage seen here.",
+      "rationale": "Central area with hyalinized outer layer; at 20x check for transmural necrosis, hemorrhage, thrombi."
+    },
+    {
+      "roi_id": "slide_A_x15360_y5120_mag20",
+      "tile_id": "slide_A_x15360_y5120_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 15360,
+      "y": 5120,
+      "level0": {
+        "x": 15360,
+        "y": 5120,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows extensive mucosal necrosis with loss of epithelial lining and underlying stromal changes. There is a dense inflammatory infiltrate and scattered dark brown pigment.\n\nThe most likely diagnosis is necrotizing enterocolitis. Differential diagnoses include ischemic enteritis and severe infectious enteritis, which can also cause mucosal necrosis and inflammation.",
+      "rationale": "Check vessels for fibrin thrombi/vascular occlusion and depth of injury."
+    },
+    {
+      "roi_id": "slide_A_x22528_y13312_mag10",
+      "tile_id": "slide_A_x22528_y13312_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 22528,
+      "y": 13312,
+      "level0": {
+        "x": 22528,
+        "y": 13312,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows significant mucosal injury with necrosis and hemorrhage, along with a dense mixed inflammatory infiltrate in the lamina propria and submucosa. The muscularis propria appears thickened and fibrotic.\n\nThe most likely diagnosis is necrotizing enterocolitis (NEC).\n\nDifferential diagnoses include ischemic enteritis, which can also show mucosal necrosis and hemorrhage, and severe infectious enteritis, which may present with inflammation and mucosal damage. However, the combination of clinical context (neonate, low birth weight, stress) and the specific pattern of injury seen here strongly favors NEC.",
+      "rationale": "Mid-right segment at 10x: look for submucosal gas cysts/mural splitting and bacterial overgrowth."
+    },
+    {
+      "roi_id": "slide_A_x26624_y12800_mag20",
+      "tile_id": "slide_A_x26624_y12800_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 26624,
+      "y": 12800,
+      "level0": {
+        "x": 26624,
+        "y": 12800,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows blunted and fused villi with epithelial necrosis and sloughing. The lamina propria is expanded by edema, hemorrhage, and a mixed inflammatory infiltrate.\n\nThe most likely diagnosis is necrotizing enterocolitis. Differential diagnoses include ischemic enteritis and severe infectious enteritis, which can show similar features of mucosal necrosis and inflammation.",
+      "rationale": "Right-lower inflamed/necrotic mucosa; at 20x look for bacterial overgrowth, neutrophils, pneumatosis."
+    },
+    {
+      "roi_id": "slide_A_x6144_y1024_mag20",
+      "tile_id": "slide_A_x6144_y1024_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 6144,
+      "y": 1024,
+      "level0": {
+        "x": 6144,
+        "y": 1024,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows severe mucosal injury with necrosis, hemorrhage, and a dense inflammatory infiltrate. There is also evidence of submucosal edema and vascular congestion.\n\nThe most likely diagnosis is necrotizing enterocolitis.\n\nDifferential diagnoses include ischemic enteritis and severe infectious enteritis. Ischemic enteritis can show similar mucosal necrosis and hemorrhage, but the clinical context of a neonate with stress is more typical of NEC. Severe infectious enteritis might show inflammation and necrosis, but the pattern of injury and clinical presentation would differ.",
+      "rationale": "Assess for coagulative necrosis pattern vs acute inflammation; look for crypt ghosting and hemorrhage."
+    },
+    {
+      "roi_id": "slide_A_x31744_y9216_mag10",
+      "tile_id": "slide_A_x31744_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 31744,
+      "y": 9216,
+      "level0": {
+        "x": 31744,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows significant mucosal injury with loss of crypt architecture, dense inflammation, and hemorrhage. The lamina propria is expanded by edema and a mixed inflammatory infiltrate.\n\nThe most likely diagnosis is necrotizing enterocolitis. Differential diagnoses include ischemic enteritis and severe infectious enteritis, which can also cause mucosal necrosis and inflammation.",
+      "rationale": "Far-right upper strip at 10x: survey for vascular thrombosis and degree of necrosis."
+    },
+    {
+      "roi_id": "slide_A_x39424_y9728_mag20",
+      "tile_id": "slide_A_x39424_y9728_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 39424,
+      "y": 9728,
+      "level0": {
+        "x": 39424,
+        "y": 9728,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows necrotic debris, inflammatory cells, and dark brown pigment. A curved structure with internal detail is also present.\n\nThe most likely diagnosis is necrotizing enterocolitis, given the clinical context of a neonate with severe illness and the presence of necrosis and inflammation in the gastrointestinal tract.\n\nDifferential diagnoses to consider include other causes of necrotizing enterocolitis, such as ischemic enteritis or infectious enterocolitis, which may show similar features of necrosis and inflammation.",
+      "rationale": "High power at far right where necrosis/hemorrhage noted; specifically assess serosa/subserosa for pneumatosis (empty cystic spaces), acute serositis, bacteria."
+    },
+    {
+      "roi_id": "slide_A_x18432_y8192_mag5",
+      "tile_id": "slide_A_x18432_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 18432,
+      "y": 8192,
+      "level0": {
+        "x": 18432,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a segment of bowel with a thickened wall and a central lumen. The mucosa exhibits significant inflammation and necrosis, with loss of normal architecture and associated hemorrhage.\n\nThe most likely diagnosis is necrotizing enterocolitis. Differential diagnoses include ischemic enteritis and severe infectious enteritis, which can also cause mucosal necrosis and inflammation.",
+      "rationale": "Check less-sampled mid-upper strip for pneumatosis/gas cysts or mural splitting."
+    },
+    {
+      "roi_id": "slide_A_x38912_y9728_mag20",
+      "tile_id": "slide_A_x38912_y9728_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 38912,
+      "y": 9728,
+      "level0": {
+        "x": 38912,
+        "y": 9728,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows extensive necrosis of the mucosa with loss of epithelial lining and a dense mixed inflammatory infiltrate. There is also evidence of hemorrhage and scattered dark granular material.\n\nThe most likely diagnosis is necrotizing enterocolitis (NEC). The key features supporting this diagnosis are the extensive mucosal necrosis and the dense inflammatory infiltrate, which are characteristic of this condition. Differential diagnoses could include ischemic enteritis or infectious enteritis, but the clinical context of a neonate with a history of NEC strongly favors this diagnosis.",
+      "rationale": "High power on area with fibrin deposition at 5x; look for fibrinopurulent serositis, transmural necrosis, perforation."
+    },
+    {
+      "roi_id": "slide_A_x5120_y8192_mag10",
+      "tile_id": "slide_A_x5120_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 5120,
+      "y": 8192,
+      "level0": {
+        "x": 5120,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows severe mucosal injury with necrosis, hemorrhage, and a dense inflammatory infiltrate. The muscularis propria appears relatively preserved.\n\nThe most likely diagnosis is necrotizing enterocolitis.\n\nDifferential diagnoses include ischemic enteritis and severe infectious enteritis. Ischemic enteritis can show similar mucosal necrosis and hemorrhage, but often with more prominent vascular changes. Severe infectious enteritis may show inflammation and necrosis, but typically with a more prominent neutrophilic infiltrate and less extensive mucosal destruction.",
+      "rationale": "Unexplored lower-left of Region 2 to assess whether any mucosa remains viable vs diffuse necrosis."
+    },
+    {
+      "roi_id": "slide_A_x18432_y9216_mag10",
+      "tile_id": "slide_A_x18432_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 18432,
+      "y": 9216,
+      "level0": {
+        "x": 18432,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows extensive mucosal necrosis and sloughing with a dense inflammatory infiltrate in the lamina propria. There is also evidence of hemorrhage and vascular congestion.\n\nThe most likely diagnosis is necrotizing enterocolitis. Differential diagnoses include ischemic enteritis and severe infectious enteritis, which can also cause mucosal necrosis and inflammation.",
+      "rationale": "Sample mid-upper strip at 10x for vascular congestion/thrombi and mucosal viability."
+    },
+    {
+      "roi_id": "slide_A_x36864_y9728_mag20",
+      "tile_id": "slide_A_x36864_y9728_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 36864,
+      "y": 9728,
+      "level0": {
+        "x": 36864,
+        "y": 9728,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows extensive necrosis of the mucosa with loss of crypt architecture, a dense inflammatory infiltrate, and abundant dark granular material. The submucosa is edematous and congested.\n\nThe most likely diagnosis is necrotizing enterocolitis.\n\nDifferential diagnoses include ischemic enteritis and severe infectious enteritis. Ischemic enteritis can show similar necrosis and inflammation, but the clinical context of a neonate with stress is more typical of NEC. Severe infectious enteritis might show inflammation and necrosis, but the pattern of injury and clinical presentation would differ.",
+      "rationale": "High power on ulcerated/necrotic segment; evaluate depth of necrosis to serosa and presence of bacterial colonies."
+    },
+    {
+      "roi_id": "slide_A_x5632_y8704_mag20",
+      "tile_id": "slide_A_x5632_y8704_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 5632,
+      "y": 8704,
+      "level0": {
+        "x": 5632,
+        "y": 8704,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a layer of spindle cells with elongated nuclei and eosinophilic cytoplasm, consistent with muscularis propria, overlying a layer of connective tissue with inflammation and hemorrhage. The presence of inflammation and hemorrhage in the connective tissue layer is a key feature.\n\nThe most likely diagnosis is necrotizing enterocolitis (NEC). The inflammation and hemorrhage in the connective tissue layer are consistent with the inflammatory process seen in NEC. Differential diagnoses could include other causes of acute enterocolitis or ischemic injury, but the clinical context of a neonate with a history of NEC strongly supports this diagnosis.",
+      "rationale": "High-power in lower-left Region 2: look for bacterial colonies/translocation and lamina propria changes."
+    },
+    {
+      "roi_id": "slide_A_x28672_y12288_mag5",
+      "tile_id": "slide_A_x28672_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 28672,
+      "y": 12288,
+      "level0": {
+        "x": 28672,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows significant mucosal injury with blunted and fused villi, crypt hyperplasia, and a dense inflammatory infiltrate in the lamina propria. The submucosa is expanded by edema and inflammation.\n\nThe most likely diagnosis is necrotizing enterocolitis. Differential diagnoses include ischemic enteritis and severe infectious enteritis, which can also cause mucosal necrosis and inflammation.",
+      "rationale": "Right-mid strip where gaps remain; look for submucosal clear spaces (pneumatosis) and hemorrhage."
+    },
+    {
+      "roi_id": "slide_A_x35840_y8192_mag10",
+      "tile_id": "slide_A_x35840_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 35840,
+      "y": 8192,
+      "level0": {
+        "x": 35840,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a necrotic mucosal surface with sloughing and loss of epithelium, along with underlying hemorrhage and inflammation. The presence of necrotic debris and inflammatory cells in the lumen is also noted.\n\nThe most likely diagnosis is necrotizing enterocolitis (NEC). This diagnosis is supported by the clinical history of a neonate with NEC and the observed histological features of mucosal necrosis, hemorrhage, and inflammation. Differential diagnoses could include ischemic enteritis or infectious enteritis, but the clinical context strongly favors NEC.",
+      "rationale": "Additional 10x along outer wall to better visualize serosal surface/subserosa for gas cysts/blebs."
+    },
+    {
+      "roi_id": "slide_A_x28672_y13312_mag20",
+      "tile_id": "slide_A_x28672_y13312_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 28672,
+      "y": 13312,
+      "level0": {
+        "x": 28672,
+        "y": 13312,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows blunted and fused villi with epithelial necrosis and sloughing. There is a dense mixed inflammatory infiltrate in the lamina propria and submucosa, along with hemorrhage and hemosiderin pigment.\n\nThe most likely diagnosis is necrotizing enterocolitis. Differential diagnoses include ischemic enteritis and severe infectious enteritis, which can show similar features of mucosal necrosis and inflammation.",
+      "rationale": "Detail of right-mid strip: confirm pneumatosis vs edema; look for bacteria."
+    },
+    {
+      "roi_id": "slide_A_x20480_y6144_mag10",
+      "tile_id": "slide_A_x20480_y6144_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 20480,
+      "y": 6144,
+      "level0": {
+        "x": 20480,
+        "y": 6144,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows extensive mucosal necrosis with loss of epithelial lining and sloughing, along with a dense inflammatory infiltrate in the lamina propria and submucosa. The muscularis propria appears relatively preserved.\n\nThe most likely diagnosis is necrotizing enterocolitis (NEC).\n\nDifferential diagnoses include ischemic enteritis, which can also show mucosal necrosis and inflammation, but typically has a different clinical presentation and distribution. Severe infectious enteritis could also be considered, but the pattern of necrosis and inflammation seen here is more characteristic of NEC.",
+      "rationale": "Upper-right portion of Region 2: check for any relatively preserved mucosa and compare injury distribution."
+    },
+    {
+      "roi_id": "slide_A_x33792_y7168_mag10",
+      "tile_id": "slide_A_x33792_y7168_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 33792,
+      "y": 7168,
+      "level0": {
+        "x": 33792,
+        "y": 7168,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a large submucosal gas bubble with surrounding hemorrhage and inflammation. The overlying mucosa exhibits necrosis and inflammation, and the muscularis propria is thickened.\n\nThe most likely diagnosis is necrotizing enterocolitis (NEC).\n\nDifferential diagnoses include ischemic enteritis, which can also show mucosal necrosis and hemorrhage, and infectious enteritis, which may present with inflammation and mucosal damage. However, the presence of a submucosal gas bubble is a key feature favoring NEC.",
+      "rationale": "10x in mid Region 1 to find any subserosal clear spaces suggestive of pneumatosis."
+    },
+    {
+      "roi_id": "slide_A_x19968_y5120_mag20",
+      "tile_id": "slide_A_x19968_y5120_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 19968,
+      "y": 5120,
+      "level0": {
+        "x": 19968,
+        "y": 5120,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows fragmented tissue with extensive necrosis and loss of normal architecture. There is a dense inflammatory infiltrate and scattered dark brown pigment.\n\nThe most likely diagnosis is necrotizing enterocolitis. Differential diagnoses include ischemic enteritis and severe infectious enteritis, which can also cause necrosis and inflammation but may have different patterns of injury or associated features.",
+      "rationale": "High-power upper-right Region 2: evaluate villous/crypt details, inflammation, and vessels for thrombi."
+    },
+    {
+      "roi_id": "slide_A_x35840_y10240_mag10",
+      "tile_id": "slide_A_x35840_y10240_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 35840,
+      "y": 10240,
+      "level0": {
+        "x": 35840,
+        "y": 10240,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows extensive mucosal necrosis with loss of crypt architecture and a dense inflammatory infiltrate in the lamina propria. There is also evidence of hemorrhage and fibrin deposition.\n\nThe most likely diagnosis is necrotizing enterocolitis. Differential diagnoses include ischemic enteritis and severe infectious enteritis, which can also cause mucosal necrosis and inflammation.",
+      "rationale": "Per map, sample a more peripheral/outer wall area to look specifically for serosa/subserosa and any exudate."
+    },
+    {
+      "roi_id": "slide_A_x17408_y8192_mag20",
+      "tile_id": "slide_A_x17408_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 17408,
+      "y": 8192,
+      "level0": {
+        "x": 17408,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows extensive mucosal necrosis with loss of epithelial lining and a dense mixed inflammatory infiltrate in the lamina propria. There is also evidence of hemorrhage and scattered brown pigment.\n\nThe most likely diagnosis is necrotizing enterocolitis. Differential diagnoses include ischemic enteritis and severe infectious enteritis, which can also cause mucosal necrosis and inflammation.",
+      "rationale": "Evaluate suspected pneumatosis focus at higher power including cyst wall and adjacent vessels/inflammation."
+    },
+    {
+      "roi_id": "slide_A_x34304_y8192_mag20",
+      "tile_id": "slide_A_x34304_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 34304,
+      "y": 8192,
+      "level0": {
+        "x": 34304,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dilated vessel filled with erythrocytes and dark brown pigment, surrounded by a thickened wall with spindle cells and inflammatory cells. The adjacent tissue is edematous with scattered inflammatory cells.\n\nThe morphologic features are consistent with a vascular lesion, likely a venous malformation, in the context of necrotizing enterocolitis. Differential diagnoses include other vascular anomalies or reactive vascular changes secondary to inflammation.",
+      "rationale": "High power on previously identified submucosal gas bubble vicinity to confirm pneumatosis (empty space) vs processing artifact; assess inflammatory rim."
+    },
+    {
+      "roi_id": "slide_A_x18432_y9216_mag20",
+      "tile_id": "slide_A_x18432_y9216_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 18432,
+      "y": 9216,
+      "level0": {
+        "x": 18432,
+        "y": 9216,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows necrotic and sloughed intestinal epithelium with associated inflammation and hemorrhage. There is also a dense inflammatory infiltrate in the lamina propria and submucosa.\n\nThe most likely diagnosis is necrotizing enterocolitis. Differential diagnoses include ischemic enteritis and severe infectious enteritis, which can also cause mucosal necrosis and inflammation.",
+      "rationale": "Adjacent area around gas cyst to look for bacterial translocation into submucosa/muscularis and necrosis depth."
+    },
+    {
+      "roi_id": "slide_A_x33280_y6656_mag20",
+      "tile_id": "slide_A_x33280_y6656_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 33280,
+      "y": 6656,
+      "level0": {
+        "x": 33280,
+        "y": 6656,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows extensive hemorrhage and necrosis of the mucosa with loss of crypt architecture. There is a dense inflammatory infiltrate in the lamina propria and submucosa, along with a prominent band of eosinophilic material.\n\nThe most likely diagnosis is necrotizing enterocolitis. Differential diagnoses include ischemic enteritis and severe infectious enteritis, which can also cause mucosal necrosis and inflammation.",
+      "rationale": "High power slightly adjacent to gas bubble to look for additional cysts and whether they extend to subserosa."
+    },
+    {
+      "roi_id": "slide_A_x11776_y3072_mag20",
+      "tile_id": "slide_A_x11776_y3072_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 11776,
+      "y": 3072,
+      "level0": {
+        "x": 11776,
+        "y": 3072,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows extensive mucosal necrosis with loss of epithelial lining and sloughing, along with a mixed inflammatory infiltrate in the lamina propria. The underlying submucosa appears edematous and congested.\n\nThe most likely diagnosis is necrotizing enterocolitis. Differential diagnoses include ischemic enteritis and severe infectious enteritis, which can also cause mucosal necrosis and inflammation.",
+      "rationale": "Search for vascular occlusion/fibrin thrombi in submucosal vessels near necrotic mucosa."
+    },
+    {
+      "roi_id": "slide_A_x38912_y9216_mag10",
+      "tile_id": "slide_A_x38912_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 38912,
+      "y": 9216,
+      "level0": {
+        "x": 38912,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows extensive hemorrhage and necrosis with a dense mixed inflammatory infiltrate. There is also evidence of vascular congestion and fibrin deposition.\n\nThe most likely diagnosis is necrotizing enterocolitis. Differential diagnoses include ischemic enteritis and severe infectious enterocolitis, which can also present with necrosis and inflammation but may have different patterns of injury or associated findings.",
+      "rationale": "10x on far right upper to evaluate serosal surface for fibrinopurulent exudate/perforation."
+    },
+    {
+      "roi_id": "slide_A_x8704_y4608_mag20",
+      "tile_id": "slide_A_x8704_y4608_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 8704,
+      "y": 4608,
+      "level0": {
+        "x": 8704,
+        "y": 4608,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows extensive hemorrhage and necrosis with loss of normal architecture. There is a dense mixed inflammatory infiltrate and scattered dark brown pigment.\n\nThe most likely diagnosis is necrotizing enterocolitis. Differential diagnoses include ischemic enteritis and severe infectious enteritis, which can also cause necrosis and inflammation but may have different patterns of injury or associated features.",
+      "rationale": "Assess muscularis/serosa for transmural necrosis or perforation; look for subserosal gas."
+    },
+    {
+      "roi_id": "slide_A_x39424_y8704_mag20",
+      "tile_id": "slide_A_x39424_y8704_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 39424,
+      "y": 8704,
+      "level0": {
+        "x": 39424,
+        "y": 8704,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows extensive hemorrhage, necrosis, and a mixed inflammatory infiltrate. There is also a focus of granulomatous inflammation with epithelioid histiocytes and multinucleated giant cells.\n\nThe most likely diagnosis is necrotizing enterocolitis. Differential diagnoses include other causes of severe enterocolitis or bowel ischemia, such as infectious enterocolitis or vascular compromise.",
+      "rationale": "20x at same site if serosa present: check for acute serositis, fibrin, bacteria."
+    },
+    {
+      "roi_id": "slide_A_x19456_y7168_mag10",
+      "tile_id": "slide_A_x19456_y7168_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 19456,
+      "y": 7168,
+      "level0": {
+        "x": 19456,
+        "y": 7168,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a large submucosal gas bubble with surrounding hemorrhage and inflammation. The overlying mucosa exhibits architectural distortion and inflammation.\n\nThe most likely diagnosis is necrotizing enterocolitis (NEC).\n\nDifferential diagnoses include ischemic enteritis and infectious enteritis. Ischemic enteritis can show similar mucosal changes and hemorrhage, but typically lacks the prominent submucosal gas bubbles seen in NEC. Infectious enteritis may show inflammation and mucosal changes, but the presence of submucosal gas is less common.",
+      "rationale": "Revisit pneumatosis area at 10x to locate cyst lumen/wall and surrounding submucosa for targeted 20x review."
+    },
+    {
+      "roi_id": "slide_A_x34304_y6656_mag20",
+      "tile_id": "slide_A_x34304_y6656_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 34304,
+      "y": 6656,
+      "level0": {
+        "x": 34304,
+        "y": 6656,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows severe mucosal injury with extensive hemorrhage, necrosis, and a dense inflammatory infiltrate. There is also evidence of vascular congestion and edema.\n\nThe most likely diagnosis is necrotizing enterocolitis.\n\nDifferential diagnoses include ischemic enteritis and severe infectious enteritis. Ischemic enteritis can show similar necrosis and hemorrhage, but the clinical context of a neonate with stress is more typical of NEC. Severe infectious enteritis might show more prominent neutrophilic infiltrate and potentially organisms, which are not apparent here.",
+      "rationale": "Return to pneumatosis focus seen at 10x (submucosal gas bubble). Try nearby coordinate to capture the cyst wall and surrounding tissue."
+    },
+    {
+      "roi_id": "slide_A_x19456_y7168_mag20",
+      "tile_id": "slide_A_x19456_y7168_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 19456,
+      "y": 7168,
+      "level0": {
+        "x": 19456,
+        "y": 7168,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a layer of necrotic epithelium with loss of nuclear detail and eosinophilic cytoplasm, overlying a layer of granulation tissue with inflammation and hemorrhage. The underlying tissue is edematous with scattered inflammatory cells.\n\nThe most likely diagnosis is necrotizing enterocolitis, given the clinical context of a neonate and the presence of necrotic epithelium and underlying granulation tissue. Differential diagnoses could include ischemic enteritis or severe infectious enteritis, but the combination of clinical history and histological findings strongly favors NEC.",
+      "rationale": "High power on pneumatosis: confirm gas cyst (empty space) with histiocytic lining, assess for adjacent necrosis/inflammation/bacteria."
+    },
+    {
+      "roi_id": "slide_A_x33792_y6656_mag20",
+      "tile_id": "slide_A_x33792_y6656_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 33792,
+      "y": 6656,
+      "level0": {
+        "x": 33792,
+        "y": 6656,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows extensive hemorrhage and necrosis of the mucosa with loss of crypt architecture and a dense inflammatory infiltrate. The submucosa is thickened and fibrotic with scattered inflammatory cells.\n\nThe most likely diagnosis is necrotizing enterocolitis.\n\nDifferential diagnoses include ischemic enteritis, which can also show mucosal necrosis and hemorrhage, and severe infectious enteritis, which may cause mucosal damage and inflammation.",
+      "rationale": "Adjacent to above; look for additional gas cysts and whether subserosal component is present."
+    },
+    {
+      "roi_id": "slide_A_x13824_y4608_mag20",
+      "tile_id": "slide_A_x13824_y4608_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 13824,
+      "y": 4608,
+      "level0": {
+        "x": 13824,
+        "y": 4608,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows extensive mucosal necrosis with loss of epithelial lining and sloughing of necrotic debris. The underlying lamina propria is edematous and contains scattered inflammatory cells.\n\nThe most likely diagnosis is necrotizing enterocolitis. Differential diagnoses include ischemic enteritis and severe infectious enteritis, which can also cause mucosal necrosis and inflammation.",
+      "rationale": "Target submucosal vessels in mid Region 2 for fibrin thrombi/vascular occlusion and ischemic changes."
+    },
+    {
+      "roi_id": "slide_A_x35328_y7168_mag20",
+      "tile_id": "slide_A_x35328_y7168_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 35328,
+      "y": 7168,
+      "level0": {
+        "x": 35328,
+        "y": 7168,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a layer of necrotic epithelium with loss of nuclear detail and eosinophilic cytoplasm, overlying a layer of spindle cells. Scattered inflammatory cells and debris are present in the underlying tissue.\n\nThe most likely diagnosis is necrotizing enterocolitis, given the clinical context of a neonate with severe illness and the presence of necrotic epithelium. Differential diagnoses could include ischemic enteritis or severe infectious enteritis, but the clinical presentation strongly favors NEC.",
+      "rationale": "Adjacent; confirm pneumatosis vs retraction artifact; look for macrophage/giant cell lining."
+    },
+    {
+      "roi_id": "slide_A_x10752_y8704_mag20",
+      "tile_id": "slide_A_x10752_y8704_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 10752,
+      "y": 8704,
+      "level0": {
+        "x": 10752,
+        "y": 8704,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows severe mucosal injury with necrosis, hemorrhage, and inflammatory infiltrate. There is also evidence of epithelial regeneration and crypt distortion.\n\nThe most likely diagnosis is necrotizing enterocolitis.\n\nDifferential diagnoses include ischemic enteritis and severe infectious enteritis. Ischemic enteritis can show similar necrosis and hemorrhage, but the clinical context of a neonate with stress is more suggestive of NEC. Severe infectious enteritis might show more prominent neutrophilic infiltrate and crypt abscesses.",
+      "rationale": "Examine serosa/muscularis region for subserosal gas, transmural necrosis, or perforation-associated inflammation."
+    },
+    {
+      "roi_id": "slide_A_x35840_y7168_mag10",
+      "tile_id": "slide_A_x35840_y7168_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 35840,
+      "y": 7168,
+      "level0": {
+        "x": 35840,
+        "y": 7168,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a large ulcerated area with loss of the mucosal surface and underlying submucosal edema and inflammation. There is also evidence of hemorrhage and necrosis.\n\nThe most likely diagnosis is necrotizing enterocolitis (NEC).\n\nDifferential diagnoses include ischemic enteritis and severe infectious enteritis. Ischemic enteritis can also show mucosal necrosis and ulceration, but the clinical context of a neonate with stress and the typical distribution of NEC favor this diagnosis. Severe infectious enteritis might show inflammation and ulceration, but the pattern of necrosis and the clinical presentation are more characteristic of NEC.",
+      "rationale": "Scan outer wall at 10x to identify any true serosal surface with exudate or perforation."
+    },
+    {
+      "roi_id": "slide_A_x36864_y8192_mag10",
+      "tile_id": "slide_A_x36864_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 36864,
+      "y": 8192,
+      "level0": {
+        "x": 36864,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a necrotic mucosal surface with loss of epithelial lining and underlying stromal changes including edema, hemorrhage, and inflammation. The most likely diagnosis is necrotizing enterocolitis. Differential diagnoses include ischemic enteritis and severe infectious enteritis, which can show similar features of mucosal necrosis and inflammation.",
+      "rationale": "More rightward; search for serosal surface and subserosal blebs."
+    },
+    {
+      "roi_id": "slide_A_x32768_y7168_mag10",
+      "tile_id": "slide_A_x32768_y7168_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 32768,
+      "y": 7168,
+      "level0": {
+        "x": 32768,
+        "y": 7168,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a large submucosal gas bubble with surrounding hemorrhage and inflammation. The overlying mucosa exhibits necrosis and inflammation, while the muscularis propria appears relatively preserved.\n\nThe most likely diagnosis is necrotizing enterocolitis (NEC).\n\nDifferential diagnoses include ischemic enteritis, which can also show mucosal necrosis and hemorrhage, but typically lacks the prominent submucosal gas bubbles seen in NEC. Other considerations could include severe infectious enteritis or inflammatory bowel disease, but the presence of gas and the clinical context strongly favor NEC.",
+      "rationale": "Revisit ROI where pneumatosis was suggested; localize exact empty cystic space at intermediate power."
+    },
+    {
+      "roi_id": "slide_A_x32768_y6656_mag20",
+      "tile_id": "slide_A_x32768_y6656_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 32768,
+      "y": 6656,
+      "level0": {
+        "x": 32768,
+        "y": 6656,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a necrotic surface layer with underlying dense inflammation, hemorrhage, and edema. The deeper tissue exhibits fibrosis and chronic inflammation.\n\nThe most likely diagnosis is necrotizing enterocolitis.\n\nDifferential diagnoses include ischemic enteritis and severe infectious enteritis. Ischemic enteritis can show similar necrosis and inflammation, but often has a more patchy distribution. Severe infectious enteritis may show inflammation and necrosis, but typically has a prominent neutrophilic infiltrate and may show specific organisms.",
+      "rationale": "Confirm pneumatosis cyst wall (histiocytes/giant cells) and distinguish from tissue retraction."
+    },
+    {
+      "roi_id": "slide_A_x32256_y6656_mag20",
+      "tile_id": "slide_A_x32256_y6656_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 32256,
+      "y": 6656,
+      "level0": {
+        "x": 32256,
+        "y": 6656,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a denuded surface with a layer of necrotic debris and inflammatory cells. The underlying tissue exhibits a dense mixed inflammatory infiltrate, hemorrhage, and edema.\n\nThe most likely diagnosis is necrotizing enterocolitis. Differential diagnoses include ischemic enteritis and severe infectious enteritis, which can also present with mucosal necrosis and inflammation.",
+      "rationale": "Adjacent field to catch lumen of gas cyst if missed."
+    },
+    {
+      "roi_id": "slide_A_x34816_y6656_mag20",
+      "tile_id": "slide_A_x34816_y6656_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 34816,
+      "y": 6656,
+      "level0": {
+        "x": 34816,
+        "y": 6656,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows severe mucosal injury with necrosis, hemorrhage, and a dense inflammatory infiltrate. The underlying submucosa is thickened and fibrotic with scattered inflammation and pigment deposition.\n\nThe most likely diagnosis is necrotizing enterocolitis. Differential diagnoses include ischemic enteritis and severe infectious enteritis, which can also cause mucosal necrosis and inflammation.",
+      "rationale": "Adjacent field to catch edge of gas cyst; check for bacteria."
+    },
+    {
+      "roi_id": "slide_A_x32768_y6144_mag10",
+      "tile_id": "slide_A_x32768_y6144_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 32768,
+      "y": 6144,
+      "level0": {
+        "x": 32768,
+        "y": 6144,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows significant mucosal injury with necrosis and sloughing, along with a dense mixed inflammatory infiltrate in the lamina propria and submucosa. The muscularis propria appears thickened.\n\nThe most likely diagnosis is necrotizing enterocolitis.\n\nDifferential diagnoses include ischemic enteritis, which can also show mucosal necrosis and inflammation, and severe infectious enteritis, which may present with inflammation and ulceration.",
+      "rationale": "More peripheral margin to try to identify true serosa/subserosa for exudate or pneumatosis."
+    }
+  ]
+}

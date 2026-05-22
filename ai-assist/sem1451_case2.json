@@ -1,0 +1,1613 @@
+{
+  "case_id": "sem1451_case2",
+  "source": "slideseek-ai-assist",
+  "model": "gpt-5.4",
+  "generated_at": "2026-05-22T09:25:14.951710+00:00",
+  "organ": "CNS-Endocrine",
+  "primary_dx": "Uveal (Choroidal) Melanoma, Predominantly Spindle-Cell Type",
+  "differential_dx": [
+    "Choroidal Schwannoma",
+    "RPE Adenoma/Adenocarcinoma Or Metastatic Clear Cell Carcinoma"
+  ],
+  "microscopic_findings": [
+    {
+      "text": "Choroidal tumor is densely cellular with **intersecting fascicles**, **whorls**, and focal storiform spindle-cell growth.",
+      "roi_ids": [
+        "slide_A_x29696_y9216_mag10",
+        "slide_A_x32768_y9216_mag20"
+      ]
+    },
+    {
+      "text": "Neoplastic cells show **elongated hyperchromatic nuclei** and **scant cytoplasm**, supporting spindle-cell melanoma cytology.",
+      "roi_ids": [
+        "slide_A_x31744_y6144_mag20",
+        "slide_A_x24064_y14848_mag20"
+      ]
+    },
+    {
+      "text": "Scattered coarse brown granular **melanin pigment** is present within the spindle-cell neoplasm.",
+      "roi_ids": [
+        "slide_A_x32256_y10752_mag20"
+      ]
+    },
+    {
+      "text": "Separate peripapillary lesion forms **lobules** of **clear/vacuolated cells** in nests and cords with thin fibrovascular septa.",
+      "roi_ids": [
+        "slide_A_x46592_y30208_mag20",
+        "slide_A_x47104_y29696_mag10"
+      ]
+    }
+  ],
+  "interpretation": "The dominant choroidal mass shows a **spindle-cell melanocytic neoplasm** with **intersecting fascicles**, whorls, elongated hyperchromatic nuclei, and focal melanin pigment, supporting **uveal melanoma, spindle-cell type**. No convincing **epithelial/glandular differentiation** is identified in the main tumor, arguing against RPE adenocarcinoma or metastatic clear cell carcinoma for the dominant lesion. A distinct peripapillary **clear-cell lobulated focus** is morphologically separate and atypical for the main spindle-cell melanoma, raising consideration of a second process such as schwannoma or clear-cell epithelial/metastatic mimic.",
+  "num_rois": 98,
+  "tiles": [
+    {
+      "roi_id": "slide_A_x24576_y24576_mag1",
+      "tile_id": "slide_A_x24576_y24576_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 24576,
+      "y": 24576,
+      "level0": {
+        "x": 24576,
+        "y": 24576,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a large, pigmented, lobulated mass arising from the choroid, with a detached retina. The mass is composed of spindle-shaped cells with abundant melanin pigment.\n\nThe most likely diagnosis is choroidal melanoma. Differential diagnoses include choroidal nevus, which is typically smaller and less pigmented, and metastatic melanoma, which would require clinical correlation.",
+      "rationale": "Whole-globe overview to locate tumor, sclera, optic nerve, anterior segment"
+    },
+    {
+      "roi_id": "slide_A_x24576_y8192_mag2",
+      "tile_id": "slide_A_x24576_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 24576,
+      "y": 8192,
+      "level0": {
+        "x": 24576,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a densely cellular proliferation of spindle-shaped cells arranged in intersecting fascicles and whorls. The cells have elongated, wavy nuclei and scant cytoplasm, with scattered small blood vessels.\n\nThe most likely diagnosis is a spindle cell neoplasm, such as a schwannoma or neurofibroma. Differential diagnoses include other spindle cell tumors like leiomyoma or solitary fibrous tumor, which can be distinguished by their characteristic growth patterns and immunohistochemical profiles.",
+      "rationale": "Low-power overview of superior dome-shaped lesion seen on thumbnail—likely tumor."
+    },
+    {
+      "roi_id": "slide_A_x28672_y8192_mag2",
+      "tile_id": "slide_A_x28672_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 28672,
+      "y": 8192,
+      "level0": {
+        "x": 28672,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a densely cellular neoplasm with a diffuse growth pattern and scattered linear structures. The cells are relatively uniform with scant cytoplasm and hyperchromatic nuclei.\n\nThe most likely diagnosis is a choroidal melanoma, specifically a spindle cell type. Differential diagnoses include metastatic carcinoma or lymphoma, which would typically show different cellular morphology and growth patterns.",
+      "rationale": "Superior mass-like area on thumbnail—likely tumor; confirm location and attachment."
+    },
+    {
+      "roi_id": "slide_A_x40960_y28672_mag2",
+      "tile_id": "slide_A_x40960_y28672_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 40960,
+      "y": 28672,
+      "level0": {
+        "x": 40960,
+        "y": 28672,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a densely cellular neoplasm with a lobulated architecture, composed of cells with round to oval nuclei and abundant eosinophilic cytoplasm, separated by fibrous septa. A large nerve bundle is also present.\n\nThe most likely diagnosis is a choroidal melanoma, specifically a spindle cell type given the cellular morphology and architecture.\n\nDifferential diagnoses include metastatic carcinoma, which would typically show more pleomorphism and different architectural patterns, and a choroidal nevus, which would be less cellular and have less prominent fibrous septa.",
+      "rationale": "Optic nerve stump region on right to assess margin grossly"
+    },
+    {
+      "roi_id": "slide_A_x40960_y20480_mag2",
+      "tile_id": "slide_A_x40960_y20480_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 40960,
+      "y": 20480,
+      "level0": {
+        "x": 40960,
+        "y": 20480,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a large, lobulated mass with a fibrous capsule and a cellular component composed of spindle cells arranged in fascicles and whorls. The cells have elongated nuclei and eosinophilic cytoplasm, with areas of hyalinization and calcification.\n\nThe most likely diagnosis is a choroidal neoplasm, such as a choroidal melanoma, given the location and morphology. Differential diagnoses include choroidal schwannoma, which can also present as a spindle cell lesion, and metastatic carcinoma, which would typically show different cellular morphology and growth patterns.",
+      "rationale": "Overview of posterior pole/optic nerve region to assess extension and choroid."
+    },
+    {
+      "roi_id": "slide_A_x45056_y24576_mag2",
+      "tile_id": "slide_A_x45056_y24576_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 45056,
+      "y": 24576,
+      "level0": {
+        "x": 45056,
+        "y": 24576,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a well-circumscribed, lobulated mass composed of cells with abundant eosinophilic cytoplasm and round nuclei, separated by fibrous septa. The mass is surrounded by a fibrous capsule.\n\nThe most likely diagnosis is a choroidal nevus. Differential diagnoses include choroidal melanoma, which would typically show more cellular atypia, pleomorphism, and mitotic activity, and choroidal metastasis, which would have a different cellular morphology depending on the primary tumor.",
+      "rationale": "Optic nerve head/retrobulbar region on right—assess for invasion."
+    },
+    {
+      "roi_id": "slide_A_x32768_y8192_mag2",
+      "tile_id": "slide_A_x32768_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 32768,
+      "y": 8192,
+      "level0": {
+        "x": 32768,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a densely cellular tumor with a sharp interface to the sclera. The tumor is composed of cells with small, dark nuclei and scant cytoplasm, arranged in sheets and nests.\n\nThe most likely diagnosis is a choroidal melanoma, specifically a spindle cell type. Differential diagnoses include metastatic carcinoma or lymphoma, which would typically show different cellular morphology and growth patterns.",
+      "rationale": "Superior/posterior pole where large tumor mass appears to abut sclera"
+    },
+    {
+      "roi_id": "slide_A_x12288_y24576_mag2",
+      "tile_id": "slide_A_x12288_y24576_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 24576,
+      "level0": {
+        "x": 12288,
+        "y": 24576,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a large, lobulated, lightly pigmented tumor arising from the choroid, with areas of necrosis and hemorrhage. The retina is detached superiorly and nasally.\n\nThe most likely diagnosis is choroidal melanoma. Differential diagnoses include choroidal nevus, which is typically smaller and less pigmented, and metastatic carcinoma, which would lack the characteristic pigmentation and lobulated architecture.",
+      "rationale": "Overview of anterior segment/ciliary body region for possible origin or second lesion."
+    },
+    {
+      "roi_id": "slide_A_x8192_y28672_mag2",
+      "tile_id": "slide_A_x8192_y28672_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 8192,
+      "y": 28672,
+      "level0": {
+        "x": 8192,
+        "y": 28672,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a large, lobulated, lightly pigmented mass arising from the choroid, with areas of necrosis and hemorrhage. The overlying retina is detached.\n\nThe most likely diagnosis is choroidal melanoma.\n\nDifferential diagnoses include choroidal nevus, which is typically smaller and less pigmented, and choroidal metastasis, which often presents as a more discrete mass.",
+      "rationale": "Anterior segment/cornea removed area to check ciliary body/iris involvement"
+    },
+    {
+      "roi_id": "slide_A_x4096_y28672_mag2",
+      "tile_id": "slide_A_x4096_y28672_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 4096,
+      "y": 28672,
+      "level0": {
+        "x": 4096,
+        "y": 28672,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a large, lobulated, lightly pigmented tumor arising from the choroid, with associated retinal detachment. The tumor is composed of spindle and epithelioid cells with varying degrees of pigmentation.\n\nThe most likely diagnosis is choroidal melanoma. Differential diagnoses include choroidal nevus, which is typically smaller and less pigmented, and metastatic melanoma, which would require clinical correlation.",
+      "rationale": "Anterior segment/lens region on left—check ciliary body involvement."
+    },
+    {
+      "roi_id": "slide_A_x28672_y9216_mag10",
+      "tile_id": "slide_A_x28672_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 28672,
+      "y": 9216,
+      "level0": {
+        "x": 28672,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a highly cellular proliferation of spindle cells arranged in intersecting fascicles and whorls. The cells have elongated, wavy nuclei and scant cytoplasm, with scattered small blood vessels.\n\nThe most likely diagnosis is a spindle cell neoplasm, such as a spindle cell melanoma or a spindle cell carcinoma. Differential diagnoses include schwannoma or other mesenchymal tumors, which can be distinguished by their characteristic architectural patterns and immunohistochemical profiles.",
+      "rationale": "Tumor center architecture—look for vascular channels vs fascicles/nests."
+    },
+    {
+      "roi_id": "slide_A_x29696_y9216_mag10",
+      "tile_id": "slide_A_x29696_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 29696,
+      "y": 9216,
+      "level0": {
+        "x": 29696,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a highly cellular proliferation of spindle cells arranged in intersecting fascicles and whorls. The cells have elongated, wavy nuclei and scant cytoplasm, with areas of nuclear palisading and Verocay bodies.\n\nThe most likely diagnosis is a schwannoma. Differential diagnoses include neurofibroma, which typically shows a more haphazard arrangement of spindle cells and lacks Verocay bodies, and leiomyoma, which has blunt-ended nuclei and eosinophilic cytoplasm.",
+      "rationale": "Tumor core to evaluate architecture/pattern and pigmentation."
+    },
+    {
+      "roi_id": "slide_A_x47104_y24576_mag5",
+      "tile_id": "slide_A_x47104_y24576_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 47104,
+      "y": 24576,
+      "level0": {
+        "x": 47104,
+        "y": 24576,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a densely cellular tumor with a lobulated architecture, composed of cells with round to oval nuclei and scant cytoplasm, separated by fibrous septa. The tumor is located in the choroid and extends into the sclera.\n\nThe most likely diagnosis is a choroidal melanoma, specifically a spindle cell type given the cellular morphology and growth pattern.\n\nDifferential diagnoses include metastatic carcinoma, which would typically show more pleomorphism and potentially glandular or squamous differentiation, and a choroidal nevus, which would be less cellular and more circumscribed.",
+      "rationale": "Optic nerve stump margin at higher power to assess for tumor invasion"
+    },
+    {
+      "roi_id": "slide_A_x23552_y9216_mag10",
+      "tile_id": "slide_A_x23552_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 23552,
+      "y": 9216,
+      "level0": {
+        "x": 23552,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a highly cellular proliferation of spindle-shaped cells arranged in intersecting fascicles and whorls. The cells have elongated, hyperchromatic nuclei and scant cytoplasm, with scattered blood vessels.\n\nThe most likely diagnosis is a spindle cell neoplasm, such as a spindle cell melanoma. Differential diagnoses include other spindle cell tumors like schwannoma or leiomyoma, which can be distinguished by their characteristic architectural patterns and immunohistochemical profiles.",
+      "rationale": "Tumor edge interface with choroid/retina; assess circumscription/capsule."
+    },
+    {
+      "roi_id": "slide_A_x27648_y11264_mag10",
+      "tile_id": "slide_A_x27648_y11264_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 27648,
+      "y": 11264,
+      "level0": {
+        "x": 27648,
+        "y": 11264,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a highly cellular proliferation of spindle cells arranged in intersecting fascicles and whorls. The cells have elongated, wavy nuclei and scant cytoplasm, with scattered small blood vessels.\n\nThe most likely diagnosis is a spindle cell neoplasm, such as a spindle cell melanoma or a spindle cell carcinoma. Differential diagnoses include schwannoma or other mesenchymal tumors, which would typically show different architectural patterns or cellular features.",
+      "rationale": "Tumor base/attachment to choroid—assess infiltration and Bruch’s membrane."
+    },
+    {
+      "roi_id": "slide_A_x32768_y9216_mag10",
+      "tile_id": "slide_A_x32768_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 32768,
+      "y": 9216,
+      "level0": {
+        "x": 32768,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a highly cellular proliferation of spindle cells arranged in intersecting fascicles and whorls. The cells have elongated, wavy nuclei and scant cytoplasm, with scattered pigment granules.\n\nThe most likely diagnosis is choroidal melanoma, spindle cell type. Differential diagnoses include choroidal nevus (typically less cellular and with more prominent pigment) and metastatic spindle cell carcinoma (which would lack pigment and have different nuclear features).",
+      "rationale": "Another tumor area to see heterogeneity (Antoni A/B, epithelioid areas, vessels)."
+    },
+    {
+      "roi_id": "slide_A_x46080_y30720_mag10",
+      "tile_id": "slide_A_x46080_y30720_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 46080,
+      "y": 30720,
+      "level0": {
+        "x": 46080,
+        "y": 30720,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a lobulated tumor with a prominent reticular pattern formed by cells with clear to vacuolated cytoplasm and small, dark nuclei, separated by thin fibrovascular septa.\n\nThe most likely diagnosis is a retinal pigment epithelium (RPE) adenoma. The reticular pattern and clear/vacuolated cytoplasm are characteristic features of this benign tumor. Differential diagnoses include metastatic clear cell carcinoma, which would typically show more nuclear atypia and mitotic activity, and choroidal melanoma, which would have more prominent pigmentation and different cellular morphology.",
+      "rationale": "Optic nerve parenchyma/sheath—look for perineural/meningeal involvement"
+    },
+    {
+      "roi_id": "slide_A_x31744_y6144_mag20",
+      "tile_id": "slide_A_x31744_y6144_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 31744,
+      "y": 6144,
+      "level0": {
+        "x": 31744,
+        "y": 6144,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a highly cellular proliferation of spindle-shaped cells arranged in intersecting fascicles and whorls. The cells have elongated, hyperchromatic nuclei and scant cytoplasm, with scattered pigment granules.\n\nThe most likely diagnosis is choroidal melanoma, spindle cell type. Differential diagnoses include choroidal nevus (typically less cellular and with more uniform nuclei) and metastatic melanoma (requires clinical correlation).",
+      "rationale": "High power tumor cytology for spindle vs epithelioid and mitoses."
+    },
+    {
+      "roi_id": "slide_A_x36864_y8192_mag5",
+      "tile_id": "slide_A_x36864_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 36864,
+      "y": 8192,
+      "level0": {
+        "x": 36864,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a large, pigmented, lobulated mass arising from the choroid, with areas of necrosis and hemorrhage. The overlying retina is detached.\n\nThe most likely diagnosis is choroidal melanoma.\n\nDifferential diagnoses include choroidal nevus, which is typically smaller and less pigmented, and metastatic melanoma, which would require clinical correlation.",
+      "rationale": "Tumor-sclera interface superiorly—assess intrascleral spread/extraocular extension"
+    },
+    {
+      "roi_id": "slide_A_x41984_y21504_mag10",
+      "tile_id": "slide_A_x41984_y21504_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 41984,
+      "y": 21504,
+      "level0": {
+        "x": 41984,
+        "y": 21504,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle-shaped cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles and whorls, with interspersed clear spaces. The cells exhibit mild nuclear pleomorphism.\n\nThe most likely diagnosis is a choroidal nevus. Differential diagnoses include choroidal melanoma, which would typically show more significant nuclear pleomorphism, mitotic activity, and potentially necrosis, and choroidal metastasis, which would have a different cellular morphology depending on the primary tumor.",
+      "rationale": "Posterior segment/optic nerve region—exclude invasion and look for metastasis-like nests."
+    },
+    {
+      "roi_id": "slide_A_x24576_y16384_mag5",
+      "tile_id": "slide_A_x24576_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 24576,
+      "y": 16384,
+      "level0": {
+        "x": 24576,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a densely cellular neoplasm composed of spindle-shaped cells arranged in fascicles and whorls, with scattered blood vessels. The tumor appears to arise from the choroid and extends into the sclera.\n\nThe most likely diagnosis is a choroidal melanoma, spindle cell type. Differential diagnoses include choroidal nevus, which is typically less cellular and lacks the infiltrative growth pattern, and metastatic carcinoma, which would show different cellular morphology and growth patterns.",
+      "rationale": "Retina overlying tumor—assess detachment and invasion."
+    },
+    {
+      "roi_id": "slide_A_x30720_y10240_mag10",
+      "tile_id": "slide_A_x30720_y10240_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 30720,
+      "y": 10240,
+      "level0": {
+        "x": 30720,
+        "y": 10240,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a highly cellular proliferation of spindle cells arranged in intersecting fascicles and whorls. The cells have elongated, wavy nuclei and scant cytoplasm, with scattered small blood vessels.\n\nThe most likely diagnosis is a spindle cell neoplasm, such as a spindle cell melanoma or a spindle cell sarcoma. Differential diagnoses include schwannoma or neurofibroma, which typically show less cellularity and different architectural patterns.",
+      "rationale": "Tumor base near sclera—look for emissary channel/vortex vein invasion"
+    },
+    {
+      "roi_id": "slide_A_x10240_y24576_mag10",
+      "tile_id": "slide_A_x10240_y24576_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 10240,
+      "y": 24576,
+      "level0": {
+        "x": 10240,
+        "y": 24576,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a large, lobulated, lightly pigmented tumor arising from the choroid, with areas of necrosis and hemorrhage. The retina is detached superiorly and nasally.\n\nThe most likely diagnosis is choroidal melanoma. Differential diagnoses include choroidal nevus, which is typically smaller and less pigmented, and metastatic carcinoma, which would lack the characteristic pigmentation and lobulated architecture.",
+      "rationale": "Anterior segment/ciliary body and any secondary lesion; look for RPE adenoma patterns."
+    },
+    {
+      "roi_id": "slide_A_x12288_y32768_mag5",
+      "tile_id": "slide_A_x12288_y32768_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 12288,
+      "y": 32768,
+      "level0": {
+        "x": 12288,
+        "y": 32768,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a large, lobulated, lightly pigmented choroidal mass with a central area of necrosis. The tumor is composed of spindle-shaped cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles and whorls.\n\nThe most likely diagnosis is a choroidal melanoma, spindle cell type. Differential diagnoses include choroidal nevus, which is typically smaller and less cellular, and choroidal metastasis, which often shows different cellular morphology and growth patterns.",
+      "rationale": "Anterior segment/ciliary body region—check for extension into ciliary body/iris root"
+    },
+    {
+      "roi_id": "slide_A_x45056_y24576_mag10",
+      "tile_id": "slide_A_x45056_y24576_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 45056,
+      "y": 24576,
+      "level0": {
+        "x": 45056,
+        "y": 24576,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a lobulated tumor composed of cells with abundant clear to vacuolated cytoplasm and small, round nuclei, separated by fibrous septa. The tumor is located adjacent to the optic nerve.\n\nThe most likely diagnosis is a clear cell tumor of the choroid, such as a clear cell melanoma.\n\nDifferential diagnoses include metastatic clear cell carcinoma (e.g., renal cell carcinoma) and clear cell sarcoma of the uvea. Distinguishing features would include immunohistochemical staining for melanocytic markers (e.g., HMB-45, Melan-A) and epithelial markers (e.g., cytokeratins).",
+      "rationale": "Optic nerve head region to check for invasion/extension."
+    },
+    {
+      "roi_id": "slide_A_x28672_y9216_mag20",
+      "tile_id": "slide_A_x28672_y9216_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 28672,
+      "y": 9216,
+      "level0": {
+        "x": 28672,
+        "y": 9216,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a highly cellular proliferation of spindle cells arranged in intersecting fascicles and whorls. The cells have elongated, wavy nuclei and scant cytoplasm, with scattered small blood vessels.\n\nThe most likely diagnosis is a spindle cell neoplasm, such as a spindle cell melanoma or a spindle cell carcinoma. Differential diagnoses include schwannoma or leiomyoma, which would typically show different architectural patterns and immunohistochemical profiles.",
+      "rationale": "High power cytology in tumor center; look for Verocay bodies vs melanoma features."
+    },
+    {
+      "roi_id": "slide_A_x45568_y31744_mag20",
+      "tile_id": "slide_A_x45568_y31744_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 45568,
+      "y": 31744,
+      "level0": {
+        "x": 45568,
+        "y": 31744,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle-shaped cells with prominent nucleoli and abundant cytoplasm, arranged in fascicles and nests. There is also a large cystic space containing amorphous material and cellular debris.\n\nThe most likely diagnosis is choroidal melanoma, spindle cell type. Differential diagnoses include metastatic melanoma or metastatic carcinoma, which would typically show different cellular morphology and growth patterns.",
+      "rationale": "Optic nerve stump/sheath detail—confirm/deny tumor infiltration suggested near ON region"
+    },
+    {
+      "roi_id": "slide_A_x23552_y9216_mag20",
+      "tile_id": "slide_A_x23552_y9216_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 23552,
+      "y": 9216,
+      "level0": {
+        "x": 23552,
+        "y": 9216,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a highly cellular proliferation of spindle-shaped cells with elongated nuclei and eosinophilic cytoplasm, arranged in intersecting fascicles and whorls. Scattered blood vessels are present.\n\nThe most likely diagnosis is a spindle cell neoplasm, such as a spindle cell melanoma. Differential diagnoses include schwannoma and leiomyoma, which can be distinguished by their characteristic architectural patterns and immunohistochemical profiles.",
+      "rationale": "High power at tumor edge/interface; assess capsule, infiltration, vascular pattern."
+    },
+    {
+      "roi_id": "slide_A_x26624_y13312_mag10",
+      "tile_id": "slide_A_x26624_y13312_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 26624,
+      "y": 13312,
+      "level0": {
+        "x": 26624,
+        "y": 13312,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a highly cellular proliferation of spindle cells arranged in intersecting fascicles and whorls. The cells have elongated, wavy nuclei and scant cytoplasm, with scattered blood vessels.\n\nThe most likely diagnosis is a spindle cell neoplasm, such as a spindle cell melanoma or a spindle cell sarcoma. Differential diagnoses include schwannoma or neurofibroma, which would typically show different architectural patterns and nuclear features.",
+      "rationale": "Tumor-sclera interface to confirm scleral invasion vs compression."
+    },
+    {
+      "roi_id": "slide_A_x44032_y29696_mag20",
+      "tile_id": "slide_A_x44032_y29696_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 44032,
+      "y": 29696,
+      "level0": {
+        "x": 44032,
+        "y": 29696,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated nuclei arranged in fascicles and whorls, with prominent eosinophilic hyalinized structures. The background stroma is fibrillary.\n\nThe most likely diagnosis is a spindle cell neoplasm, such as a schwannoma or neurofibroma, given the spindle cell morphology and hyalinized structures. Other considerations include a solitary fibrous tumor or a spindle cell melanoma, although the latter is less likely given the clinical history of malignant melanoma.",
+      "rationale": "Peripapillary sclera/lamina cribrosa region—look for optic nerve head invasion"
+    },
+    {
+      "roi_id": "slide_A_x32768_y9216_mag20",
+      "tile_id": "slide_A_x32768_y9216_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 32768,
+      "y": 9216,
+      "level0": {
+        "x": 32768,
+        "y": 9216,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a highly cellular proliferation of spindle cells arranged in intersecting fascicles and whorls. The cells have elongated, wavy nuclei and scant cytoplasm, with scattered pigment granules.\n\nThe most likely diagnosis is choroidal melanoma, spindle cell type. Differential diagnoses include choroidal schwannoma, which typically shows nuclear palisading and Verocay bodies, and choroidal leiomyoma, which would have more eosinophilic cytoplasm and blunt-ended nuclei.",
+      "rationale": "High power in pigmented focus; assess melanin, nucleoli, mitoses."
+    },
+    {
+      "roi_id": "slide_A_x24064_y14848_mag20",
+      "tile_id": "slide_A_x24064_y14848_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 24064,
+      "y": 14848,
+      "level0": {
+        "x": 24064,
+        "y": 14848,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a highly cellular proliferation of spindle-shaped cells arranged in intersecting fascicles and whorls. The cells have elongated, hyperchromatic nuclei and scant cytoplasm, with scattered pigment granules.\n\nThe most likely diagnosis is choroidal melanoma, spindle cell type. Differential diagnoses include metastatic spindle cell carcinoma or sarcoma, which would typically lack the characteristic pigment and may show different growth patterns or cellular features.",
+      "rationale": "High power at tumor base to look for vascular loops, mitoses, necrosis."
+    },
+    {
+      "roi_id": "slide_A_x41984_y21504_mag20",
+      "tile_id": "slide_A_x41984_y21504_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 41984,
+      "y": 21504,
+      "level0": {
+        "x": 41984,
+        "y": 21504,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle-shaped cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles and whorls. Scattered dark brown pigment granules are present within the cells and stroma.\n\nThe most likely diagnosis is choroidal melanoma, spindle cell type. The presence of spindle-shaped cells with eosinophilic cytoplasm and scattered melanin pigment is characteristic of this tumor type. Differential diagnoses include other spindle cell neoplasms of the uvea, such as spindle cell carcinoma or sarcoma, which would lack the melanin pigment.",
+      "rationale": "Posterior segment spindle cell area; confirm if same lesion and exclude optic nerve invasion/metastasis."
+    },
+    {
+      "roi_id": "slide_A_x25600_y17408_mag10",
+      "tile_id": "slide_A_x25600_y17408_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 25600,
+      "y": 17408,
+      "level0": {
+        "x": 25600,
+        "y": 17408,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a densely cellular proliferation of spindle-shaped cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles and whorls. Scattered blood vessels are present within the tumor.\n\nThe most likely diagnosis is a choroidal melanoma, spindle cell type. Differential diagnoses include choroidal nevus, which is typically less cellular and lacks the prominent vascularity seen here, and metastatic melanoma, which would require clinical correlation and potentially immunohistochemistry for confirmation.",
+      "rationale": "Overlying retina/subretinal space to assess retinal detachment and tumor invasion."
+    },
+    {
+      "roi_id": "slide_A_x39936_y11264_mag10",
+      "tile_id": "slide_A_x39936_y11264_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 39936,
+      "y": 11264,
+      "level0": {
+        "x": 39936,
+        "y": 11264,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle-shaped cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles and haphazardly. Scattered red blood cells are also present.\n\nThe most likely diagnosis is a spindle cell neoplasm, such as a spindle cell melanoma or a spindle cell carcinoma.\n\nDifferential diagnoses include spindle cell melanoma, spindle cell carcinoma, and other spindle cell sarcomas. Immunohistochemical stains for melanocytic markers (e.g., S100, HMB45, Melan-A) and epithelial markers (e.g., cytokeratins) would be helpful to differentiate between these possibilities.",
+      "rationale": "Tumor-sclera interface at another point—assess intrascleral spread/emissary channels"
+    },
+    {
+      "roi_id": "slide_A_x47104_y26624_mag5",
+      "tile_id": "slide_A_x47104_y26624_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 47104,
+      "y": 26624,
+      "level0": {
+        "x": 47104,
+        "y": 26624,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords within a fibrous stroma, with cells exhibiting round to oval nuclei and moderate cytoplasm. A prominent cleft-like space is also present.\n\nThe most likely diagnosis is a choroidal nevus. Differential diagnoses include choroidal melanoma, which would typically show more significant cellular atypia, pleomorphism, and mitotic activity, and metastatic carcinoma, which would have different cellular morphology and growth patterns.",
+      "rationale": "Optic nerve and peripapillary sclera overview for extension."
+    },
+    {
+      "roi_id": "slide_A_x40960_y11776_mag20",
+      "tile_id": "slide_A_x40960_y11776_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 40960,
+      "y": 11776,
+      "level0": {
+        "x": 40960,
+        "y": 11776,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle-shaped cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles and bundles. Scattered red blood cells are also present.\n\nThe most likely diagnosis is a spindle cell neoplasm, such as a spindle cell melanoma or a spindle cell carcinoma.\n\nDifferential diagnoses include spindle cell melanoma, spindle cell carcinoma, and other spindle cell tumors like schwannoma or leiomyoma. Immunohistochemical stains would be helpful to differentiate these entities.",
+      "rationale": "High power at sclera interface—look for extrascleral extension or vascular invasion"
+    },
+    {
+      "roi_id": "slide_A_x29696_y11264_mag10",
+      "tile_id": "slide_A_x29696_y11264_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 29696,
+      "y": 11264,
+      "level0": {
+        "x": 29696,
+        "y": 11264,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a highly cellular proliferation of spindle cells arranged in intersecting fascicles and whorls. The cells have elongated, wavy nuclei and scant cytoplasm, with areas of hyalinized stroma and prominent vascularity.\n\nThe most likely diagnosis is a spindle cell neoplasm, such as a spindle cell melanoma or a spindle cell sarcoma. Differential diagnoses include schwannoma, which typically shows nuclear palisading and Verocay bodies, and leiomyosarcoma, which would have more eosinophilic cytoplasm and blunt-ended nuclei.",
+      "rationale": "Search for any cavernous vascular channels suggesting hemangioma."
+    },
+    {
+      "roi_id": "slide_A_x11264_y33792_mag10",
+      "tile_id": "slide_A_x11264_y33792_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 11264,
+      "y": 33792,
+      "level0": {
+        "x": 11264,
+        "y": 33792,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a lightly pigmented, pedunculated, lobulated choroidal tumor with a shadow effect. The retina is detached superiorly and nasally, likely an artifact of delayed fixation.\n\nThe most likely diagnosis is malignant melanoma of the choroid. Differential diagnoses include metastatic melanoma or metastatic carcinoma, which would require clinical correlation and potentially immunohistochemical studies for confirmation.",
+      "rationale": "Ciliary body/pars plana region—evaluate anterior extension"
+    },
+    {
+      "roi_id": "slide_A_x48128_y25600_mag20",
+      "tile_id": "slide_A_x48128_y25600_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 48128,
+      "y": 25600,
+      "level0": {
+        "x": 48128,
+        "y": 25600,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle-shaped cells with elongated nuclei arranged in intersecting fascicles. Scattered dark brown pigment granules are present within the cytoplasm of some cells.\n\nThe most likely diagnosis is choroidal melanoma, spindle cell type. The presence of spindle cells with elongated nuclei and intracellular pigment is characteristic of this tumor type. Differential diagnoses include other spindle cell neoplasms of the uvea, such as spindle cell carcinoma or spindle cell sarcoma, which would lack the characteristic intracellular pigment.",
+      "rationale": "High power of clear-cell appearing area near optic nerve to clarify cytology (melanoma vs metastasis/artifact)."
+    },
+    {
+      "roi_id": "slide_A_x30720_y8192_mag10",
+      "tile_id": "slide_A_x30720_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 30720,
+      "y": 8192,
+      "level0": {
+        "x": 30720,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a highly cellular proliferation of spindle cells arranged in intersecting fascicles and whorls. The cells have elongated, wavy nuclei and scant cytoplasm, with scattered pigment granules.\n\nThe most likely diagnosis is choroidal melanoma, spindle cell type. Differential diagnoses include choroidal schwannoma, which typically shows nuclear palisading and Verocay bodies, and choroidal leiomyoma, which would have more eosinophilic cytoplasm and blunt-ended nuclei.",
+      "rationale": "Look for Antoni A/B pattern and any palisading/Verocay bodies to support schwannoma mimic."
+    },
+    {
+      "roi_id": "slide_A_x48128_y26624_mag10",
+      "tile_id": "slide_A_x48128_y26624_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 48128,
+      "y": 26624,
+      "level0": {
+        "x": 48128,
+        "y": 26624,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a large, lobulated, lightly pigmented tumor arising from the choroid, composed of spindle-shaped cells with elongated nuclei and eosinophilic cytoplasm arranged in fascicles and whorls. The tumor is associated with retinal detachment.\n\nThe most likely diagnosis is choroidal melanoma, spindle cell type. Differential diagnoses include choroidal nevus, which is typically smaller and less cellular, and choroidal metastasis, which often shows different cellular morphology and growth patterns.",
+      "rationale": "More distal optic nerve stump margin (inked edge if present) to assess for tumor within nerve/sheath"
+    },
+    {
+      "roi_id": "slide_A_x32768_y10240_mag5",
+      "tile_id": "slide_A_x32768_y10240_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 32768,
+      "y": 10240,
+      "level0": {
+        "x": 32768,
+        "y": 10240,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a highly cellular proliferation of spindle cells arranged in intersecting fascicles and whorls. The cells have elongated, wavy nuclei and scant cytoplasm, with scattered pigment granules.\n\nThe most likely diagnosis is choroidal melanoma, spindle cell type. Differential diagnoses include choroidal nevus (typically less cellular and less pleomorphic) and metastatic spindle cell carcinoma (requires clinical history and immunohistochemistry).",
+      "rationale": "Broader view of main tumor to confirm pedunculated configuration and any necrosis/hemorrhage."
+    },
+    {
+      "roi_id": "slide_A_x30720_y8192_mag20",
+      "tile_id": "slide_A_x30720_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 30720,
+      "y": 8192,
+      "level0": {
+        "x": 30720,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a highly cellular proliferation of spindle-shaped cells arranged in intersecting fascicles with elongated, wavy nuclei and scant cytoplasm. There is a suggestion of a storiform pattern in some areas.\n\nThe most likely diagnosis is a spindle cell neoplasm, such as a spindle cell melanoma or a spindle cell sarcoma.\n\nDifferential diagnoses include spindle cell melanoma, which would typically show melanin pigment (though amelanotic variants exist) and may have associated epithelioid cells. A spindle cell sarcoma, such as leiomyosarcoma or fibrosarcoma, would lack melanin pigment and may show specific immunohistochemical markers.",
+      "rationale": "High power at same area for palisading, basement membrane, cytoplasmic quality."
+    },
+    {
+      "roi_id": "slide_A_x47616_y24064_mag20",
+      "tile_id": "slide_A_x47616_y24064_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 47616,
+      "y": 24064,
+      "level0": {
+        "x": 47616,
+        "y": 24064,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle-shaped cells with elongated nuclei arranged in fascicles, interspersed with abundant dark brown pigment granules. The cells exhibit mild nuclear pleomorphism.\n\nThe most likely diagnosis is choroidal melanoma, spindle cell type. Differential diagnoses include choroidal nevus, which typically shows less cellularity, less nuclear pleomorphism, and more uniform pigmentation, and metastatic melanoma, which may have different cellular morphology and growth patterns.",
+      "rationale": "Optic nerve sheath/episcleral tissue immediately adjacent—look for extrascleral extension"
+    },
+    {
+      "roi_id": "slide_A_x32768_y10752_mag20",
+      "tile_id": "slide_A_x32768_y10752_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 32768,
+      "y": 10752,
+      "level0": {
+        "x": 32768,
+        "y": 10752,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a highly cellular proliferation of spindle-shaped cells arranged in intersecting fascicles. The cells have elongated, hyperchromatic nuclei and scant cytoplasm, with scattered brown pigment granules.\n\nThe most likely diagnosis is choroidal melanoma, spindle cell type. Differential diagnoses include metastatic spindle cell carcinoma or sarcoma, which would typically lack the characteristic brown pigment.",
+      "rationale": "High power to verify true Verocay bodies vs melanoma fascicles; check nucleoli/mitoses."
+    },
+    {
+      "roi_id": "slide_A_x26624_y10240_mag10",
+      "tile_id": "slide_A_x26624_y10240_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 26624,
+      "y": 10240,
+      "level0": {
+        "x": 26624,
+        "y": 10240,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a highly cellular proliferation of spindle cells arranged in intersecting fascicles and whorls. The cells have elongated, wavy nuclei and scant cytoplasm, with scattered blood vessels.\n\nThe most likely diagnosis is a spindle cell neoplasm, such as a spindle cell melanoma or a spindle cell sarcoma. Differential diagnoses include schwannoma or neurofibroma, which typically show less cellularity and different architectural patterns.",
+      "rationale": "Search for prominent cavernous vascular spaces (hemangioma) vs solid spindle tumor."
+    },
+    {
+      "roi_id": "slide_A_x29696_y15360_mag10",
+      "tile_id": "slide_A_x29696_y15360_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 29696,
+      "y": 15360,
+      "level0": {
+        "x": 29696,
+        "y": 15360,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a densely cellular proliferation of spindle-shaped cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles and whorls, with associated hemorrhage and necrosis. The tumor abuts the retina, which shows detachment and a dense inflammatory infiltrate.\n\nThe most likely diagnosis is choroidal melanoma, spindle cell type. Differential diagnoses include metastatic melanoma or metastatic carcinoma, which would typically show different cellular morphology and growth patterns.",
+      "rationale": "Assess choroid/sclera interface and potential scleral invasion."
+    },
+    {
+      "roi_id": "slide_A_x33792_y6144_mag10",
+      "tile_id": "slide_A_x33792_y6144_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 33792,
+      "y": 6144,
+      "level0": {
+        "x": 33792,
+        "y": 6144,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a densely cellular proliferation of spindle-shaped cells arranged in fascicles, with elongated, hyperchromatic nuclei and scant cytoplasm. The cells are embedded in a pink, fibrillar matrix.\n\nThe most likely diagnosis is a spindle cell neoplasm, such as a spindle cell melanoma or a spindle cell sarcoma.\n\nDifferential diagnoses include spindle cell melanoma, which would typically show melanin pigment (though amelanotic variants exist), and spindle cell sarcoma, which would lack melanin and potentially show different immunohistochemical markers.",
+      "rationale": "Superior sclera external surface overlying tumor apex—exclude episcleral/extrabulbar extension"
+    },
+    {
+      "roi_id": "slide_A_x44032_y25600_mag10",
+      "tile_id": "slide_A_x44032_y25600_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 44032,
+      "y": 25600,
+      "level0": {
+        "x": 44032,
+        "y": 25600,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a lobulated architecture with cellular areas separated by fibrous septa. The cellular areas contain cells with round to oval nuclei and moderate cytoplasm, along with scattered pigment granules.\n\nThe most likely diagnosis is a choroidal nevus. Differential diagnoses include choroidal melanoma, which would typically show more significant cellular atypia, pleomorphism, and mitotic activity, and choroidal metastasis, which would have a different cellular morphology depending on the primary tumor.",
+      "rationale": "Peripapillary region/optic nerve head to evaluate extension along sclera/nerve."
+    },
+    {
+      "roi_id": "slide_A_x33792_y6144_mag20",
+      "tile_id": "slide_A_x33792_y6144_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 33792,
+      "y": 6144,
+      "level0": {
+        "x": 33792,
+        "y": 6144,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a highly cellular proliferation of spindle-shaped cells arranged in intersecting fascicles. The cells have elongated, hyperchromatic nuclei and scant cytoplasm, with areas of nuclear palisading.\n\nThe most likely diagnosis is a spindle cell neoplasm, such as a spindle cell melanoma or a spindle cell sarcoma. Differential diagnoses include schwannoma, which typically shows nuclear palisading and Verocay bodies, and leiomyosarcoma, which would show smooth muscle differentiation.",
+      "rationale": "High power of scleral external surface—look for melanoma cells in episclera/vessels"
+    },
+    {
+      "roi_id": "slide_A_x27136_y10240_mag20",
+      "tile_id": "slide_A_x27136_y10240_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 27136,
+      "y": 10240,
+      "level0": {
+        "x": 27136,
+        "y": 10240,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a highly cellular proliferation of spindle cells arranged in intersecting fascicles and whorls. The cells have elongated, wavy nuclei and scant cytoplasm, with areas of nuclear palisading and Verocay bodies.\n\nThe most likely diagnosis is a schwannoma. Differential diagnoses include neurofibroma, which typically shows a more haphazard arrangement of spindle cells and lacks Verocay bodies, and leiomyoma, which has blunt-ended nuclei and eosinophilic cytoplasm.",
+      "rationale": "High power to characterize vessels (endothelium-lined channels) and RBC content."
+    },
+    {
+      "roi_id": "slide_A_x33792_y10240_mag10",
+      "tile_id": "slide_A_x33792_y10240_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 33792,
+      "y": 10240,
+      "level0": {
+        "x": 33792,
+        "y": 10240,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle-shaped cells arranged in intersecting fascicles and whorls, with scattered brown pigment granules. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is choroidal melanoma, spindle cell type.\n\nDifferential diagnoses include metastatic spindle cell carcinoma or sarcoma, which would typically lack the characteristic brown pigment seen in this case.",
+      "rationale": "Check for epithelial nests/tubules and heavy pigmentation suggesting RPE adenoma/adenocarcinoma."
+    },
+    {
+      "roi_id": "slide_A_x26624_y12288_mag5",
+      "tile_id": "slide_A_x26624_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 26624,
+      "y": 12288,
+      "level0": {
+        "x": 26624,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a highly cellular proliferation of spindle cells arranged in intersecting fascicles and whorls. The cells have elongated, wavy nuclei and scant cytoplasm, with scattered small blood vessels.\n\nThe most likely diagnosis is a spindle cell neoplasm of the choroid, such as a spindle cell melanoma. Differential diagnoses include schwannoma and leiomyoma, which can be distinguished by their characteristic architectural patterns and immunohistochemical profiles.",
+      "rationale": "Tumor base at equator—look for scleral canal/emissary channel involvement"
+    },
+    {
+      "roi_id": "slide_A_x47104_y30208_mag20",
+      "tile_id": "slide_A_x47104_y30208_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 47104,
+      "y": 30208,
+      "level0": {
+        "x": 47104,
+        "y": 30208,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a lobulated architecture with nests of cells separated by fibrous septa. The cells have abundant clear to finely vacuolated cytoplasm and small, round nuclei.\n\nThe most likely diagnosis is a clear cell neoplasm, such as a clear cell carcinoma or metastatic clear cell renal cell carcinoma.\n\nDifferential diagnoses include clear cell melanoma, which would typically show melanin pigment, and clear cell sarcoma, which would have a different immunohistochemical profile.",
+      "rationale": "High power of optic nerve/peripapillary lesion to check for melanoma cells, necrosis, or other tumor type."
+    },
+    {
+      "roi_id": "slide_A_x47104_y34816_mag5",
+      "tile_id": "slide_A_x47104_y34816_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 47104,
+      "y": 34816,
+      "level0": {
+        "x": 47104,
+        "y": 34816,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a large, lobulated, lightly pigmented tumor arising from the choroid, with areas of necrosis and hemorrhage. The tumor is associated with retinal detachment.\n\nThe most likely diagnosis is choroidal melanoma.\n\nDifferential diagnoses include choroidal nevus, which is typically smaller, less pigmented, and lacks necrosis and hemorrhage, and metastatic carcinoma, which would show different cellular morphology and lack the characteristic pigmentation of melanoma.",
+      "rationale": "Distal optic nerve stump cut edge and surrounding meningeal sheath—confirm margin status"
+    },
+    {
+      "roi_id": "slide_A_x47104_y29696_mag10",
+      "tile_id": "slide_A_x47104_y29696_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 47104,
+      "y": 29696,
+      "level0": {
+        "x": 47104,
+        "y": 29696,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a lobulated tumor with a prominent reticular pattern and cells exhibiting clear to vacuolated cytoplasm. The tumor is surrounded by a fibrous capsule.\n\nThe most likely diagnosis is a retinal pigment epithelium (RPE) adenoma. The lobulated architecture, reticular pattern, and clear/vacuolated cytoplasm are characteristic features of this benign tumor. The fibrous capsule further supports a benign process.\n\nDifferential diagnoses include metastatic clear cell carcinoma, which can also show clear cells and a reticular pattern, but typically lacks the lobulated architecture and fibrous capsule seen here. Another consideration is a choroidal melanoma with clear cell features, but these tumors usually show more pleomorphism and mitotic activity.",
+      "rationale": "Context for clear-cell lobulated area near optic nerve—determine if distinct second lesion vs artifact/part of tumor."
+    },
+    {
+      "roi_id": "slide_A_x47104_y33280_mag20",
+      "tile_id": "slide_A_x47104_y33280_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 47104,
+      "y": 33280,
+      "level0": {
+        "x": 47104,
+        "y": 33280,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle-shaped cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles. Scattered dark brown pigment granules are present within the cells and stroma.\n\nThe most likely diagnosis is choroidal melanoma, spindle cell type. Differential diagnoses include choroidal nevus, which typically shows less cellularity and less prominent nucleoli, and metastatic melanoma, which may have different cytologic features depending on the primary site.",
+      "rationale": "High power at ON cut margin—exclude tumor cells within nerve or sheath vessels"
+    },
+    {
+      "roi_id": "slide_A_x28672_y12288_mag10",
+      "tile_id": "slide_A_x28672_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 28672,
+      "y": 12288,
+      "level0": {
+        "x": 28672,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a highly cellular proliferation of spindle-shaped cells arranged in intersecting fascicles and whorls. The cells have elongated, hyperchromatic nuclei and scant cytoplasm, with scattered blood vessels.\n\nThe most likely diagnosis is a spindle cell neoplasm, such as a spindle cell melanoma. Differential diagnoses include other spindle cell tumors like schwannoma or leiomyoma, which can be distinguished by their characteristic architectural patterns and immunohistochemical profiles.",
+      "rationale": "Area below main tumor to look for hemorrhage/inflammation and retinal detachment interface."
+    },
+    {
+      "roi_id": "slide_A_x45056_y28672_mag2",
+      "tile_id": "slide_A_x45056_y28672_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 45056,
+      "y": 28672,
+      "level0": {
+        "x": 45056,
+        "y": 28672,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a well-circumscribed, lobulated mass composed of spindle cells with wavy nuclei arranged in fascicles and whorls, separated by prominent hyalinized stroma. The periphery is surrounded by a thick fibrous capsule.\n\nThe most likely diagnosis is a schwannoma. Differential diagnoses include neurofibroma, which typically lacks the prominent hyalinized stroma and well-defined capsule, and meningioma, which can have a similar whorled pattern but usually shows psammoma bodies and a different location.",
+      "rationale": "Low power around optic nerve to see continuity with choroid tumor and evaluate for invasion."
+    },
+    {
+      "roi_id": "slide_A_x45056_y25600_mag10",
+      "tile_id": "slide_A_x45056_y25600_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 45056,
+      "y": 25600,
+      "level0": {
+        "x": 45056,
+        "y": 25600,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a lobulated architecture with cellular areas separated by prominent fibrous septa. The cellular areas contain cells with small, dark nuclei and scattered larger cells with pale cytoplasm.\n\nThe most likely diagnosis is a choroidal nevus. Differential diagnoses include choroidal melanoma, which typically shows more cellular pleomorphism, and metastatic carcinoma, which would have different cellular morphology.",
+      "rationale": "Peripapillary choroid/sclera adjacent to optic nerve—check for intrascleral spread/laminar invasion"
+    },
+    {
+      "roi_id": "slide_A_x29184_y12288_mag20",
+      "tile_id": "slide_A_x29184_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 29184,
+      "y": 12288,
+      "level0": {
+        "x": 29184,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a highly cellular proliferation of spindle-shaped cells arranged in intersecting fascicles and whorls. The cells have elongated, hyperchromatic nuclei and scant cytoplasm, with scattered small blood vessels.\n\nThe most likely diagnosis is a spindle cell neoplasm, such as a spindle cell melanoma. Differential diagnoses include other spindle cell tumors like schwannoma or leiomyoma, which can be distinguished by their characteristic architectural patterns and immunohistochemical profiles.",
+      "rationale": "High power for hemorrhage, macrophages, inflammatory infiltrate."
+    },
+    {
+      "roi_id": "slide_A_x26112_y14848_mag20",
+      "tile_id": "slide_A_x26112_y14848_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 26112,
+      "y": 14848,
+      "level0": {
+        "x": 26112,
+        "y": 14848,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a highly cellular proliferation of spindle-shaped cells arranged in intersecting fascicles and whorls. The cells have elongated, hyperchromatic nuclei and scant cytoplasm, with scattered blood vessels.\n\nThe most likely diagnosis is a spindle cell neoplasm, such as a spindle cell melanoma. Differential diagnoses include other spindle cell tumors like schwannoma or leiomyoma, which can be distinguished by their characteristic architectural patterns and immunohistochemical profiles.",
+      "rationale": "Search for mitoses/necrosis and confirm melanoma cytology at active interface."
+    },
+    {
+      "roi_id": "slide_A_x22528_y6144_mag5",
+      "tile_id": "slide_A_x22528_y6144_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 22528,
+      "y": 6144,
+      "level0": {
+        "x": 22528,
+        "y": 6144,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a densely cellular proliferation of spindle-shaped cells arranged in intersecting fascicles and whorls, with scattered pigment granules. The cells have elongated nuclei and scant cytoplasm.\n\nThe most likely diagnosis is choroidal melanoma, spindle cell type. Differential diagnoses include choroidal nevus (typically less cellular and with more prominent pigment) and metastatic melanoma (requires clinical correlation).",
+      "rationale": "Opposite scleral surface away from tumor—ensure no unexpected extrascleral extension"
+    },
+    {
+      "roi_id": "slide_A_x35840_y8192_mag10",
+      "tile_id": "slide_A_x35840_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 35840,
+      "y": 8192,
+      "level0": {
+        "x": 35840,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense, acellular, eosinophilic structure with prominent parallel striations, consistent with corneal stroma. A linear, dark purple structure is present along the inner surface.\n\nThe most likely diagnosis for this specific image is normal corneal tissue. The differential diagnosis for the linear structure could include a foreign body or artifact.",
+      "rationale": "Tumor near sclera to assess invasion/capsule and rule out hemangioma-like vascular spaces."
+    },
+    {
+      "roi_id": "slide_A_x22528_y7168_mag20",
+      "tile_id": "slide_A_x22528_y7168_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 22528,
+      "y": 7168,
+      "level0": {
+        "x": 22528,
+        "y": 7168,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a highly cellular proliferation of spindle-shaped cells arranged in intersecting fascicles and whorls. The cells have elongated, pleomorphic nuclei with prominent nucleoli and scattered brown pigment.\n\nThe most likely diagnosis is malignant melanoma of the choroid.\n\nDifferential diagnoses include metastatic spindle cell carcinoma and spindle cell sarcoma. The presence of melanin pigment strongly favors melanoma.",
+      "rationale": "High power episclera/external sclera away from tumor—look for melanocytic infiltration or vascular invasion"
+    },
+    {
+      "roi_id": "slide_A_x23552_y16384_mag10",
+      "tile_id": "slide_A_x23552_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 23552,
+      "y": 16384,
+      "level0": {
+        "x": 23552,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a densely cellular proliferation of spindle-shaped cells arranged in intersecting fascicles and whorls, with scattered blood vessels. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a spindle cell neoplasm, such as a spindle cell melanoma or a spindle cell carcinoma.\n\nDifferential diagnoses include spindle cell melanoma, spindle cell carcinoma, and other spindle cell sarcomas. Spindle cell melanoma would typically show melanin pigment, which is not evident here. Spindle cell carcinoma would show epithelial markers on immunohistochemistry. Spindle cell sarcomas would show specific markers depending on the subtype.",
+      "rationale": "Overlying retina/subretinal space to assess invasion vs detachment only."
+    },
+    {
+      "roi_id": "slide_A_x35840_y8192_mag20",
+      "tile_id": "slide_A_x35840_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 35840,
+      "y": 8192,
+      "level0": {
+        "x": 35840,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense, acellular, eosinophilic structure with prominent parallel striations, consistent with corneal stroma. Adjacent to this is a less dense, amorphous area with scattered blue-staining material.\n\nThe most likely diagnosis for this specific image is normal corneal tissue. The differential diagnosis for the adjacent amorphous material could include lens material or other extracellular deposits, but the dense, striated structure is characteristic of the cornea.",
+      "rationale": "High power at scleral interface for infiltration, vascular pattern."
+    },
+    {
+      "roi_id": "slide_A_x45056_y26624_mag10",
+      "tile_id": "slide_A_x45056_y26624_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 45056,
+      "y": 26624,
+      "level0": {
+        "x": 45056,
+        "y": 26624,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a lobulated architecture with cellular areas separated by prominent, thickened fibrous septa. The cellular areas contain cells with small, dark nuclei and scattered larger cells with clear cytoplasm.\n\nThe most likely diagnosis is a choroidal nevus. Differential diagnoses include choroidal melanoma, which typically shows more cellular atypia, mitotic activity, and often necrosis, and metastatic carcinoma, which would show epithelial morphology.",
+      "rationale": "Posterior tissue near optic nerve to check for metastatic carcinoma nests/glands and inflammation."
+    },
+    {
+      "roi_id": "slide_A_x34816_y12288_mag10",
+      "tile_id": "slide_A_x34816_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 34816,
+      "y": 12288,
+      "level0": {
+        "x": 34816,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle-shaped cells with elongated nuclei and scattered brown pigment, arranged in fascicles and whorls. The cells are seen adjacent to a large cystic space.\n\nThe most likely diagnosis is choroidal melanoma, spindle cell type.\n\nDifferential diagnoses include choroidal nevus, which is typically less cellular and lacks the prominent cystic change seen here.",
+      "rationale": "Sclera immediately external to tumor base—look for episcleral extension"
+    },
+    {
+      "roi_id": "slide_A_x35328_y11776_mag20",
+      "tile_id": "slide_A_x35328_y11776_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 35328,
+      "y": 11776,
+      "level0": {
+        "x": 35328,
+        "y": 11776,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle-shaped cells arranged in fascicles with scattered brown pigment. Prominent dilated vascular spaces filled with erythrocytes are also present.\n\nThe most likely diagnosis is choroidal melanoma, spindle cell type.\n\nDifferential diagnoses include metastatic melanoma to the choroid and spindle cell carcinoma.",
+      "rationale": "High power external sclera/episclera for melanoma cells or vascular invasion"
+    },
+    {
+      "roi_id": "slide_A_x41984_y26624_mag10",
+      "tile_id": "slide_A_x41984_y26624_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 41984,
+      "y": 26624,
+      "level0": {
+        "x": 41984,
+        "y": 26624,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle-shaped cells with elongated nuclei arranged in fascicles and whorls, with prominent hyalinized blood vessels and areas of hemorrhage. The cells have scant cytoplasm and lack significant pleomorphism or mitotic activity.\n\nThe most likely diagnosis is a schwannoma. Differential diagnoses include neurofibroma, which typically shows a more haphazard arrangement of cells and lacks the prominent hyalinized vessels and Verocay bodies seen here.",
+      "rationale": "Optic nerve head/lamina region—confirm if any peripapillary invasion"
+    },
+    {
+      "roi_id": "slide_A_x41472_y27136_mag20",
+      "tile_id": "slide_A_x41472_y27136_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 41472,
+      "y": 27136,
+      "level0": {
+        "x": 41472,
+        "y": 27136,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated nuclei arranged in fascicles and whorls, with prominent hyalinized blood vessels. The background stroma is fibrillary.\n\nThe most likely diagnosis is a meningioma, specifically a transitional or fibroblastic subtype.\n\nDifferential diagnoses include schwannoma, which typically shows Antoni A and B areas and Verocay bodies, and solitary fibrous tumor, which often has a more haphazard pattern and prominent staghorn vessels.",
+      "rationale": "Detail at lamina cribrosa/nerve for tumor tracking"
+    },
+    {
+      "roi_id": "slide_A_x15360_y34816_mag10",
+      "tile_id": "slide_A_x15360_y34816_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 15360,
+      "y": 34816,
+      "level0": {
+        "x": 15360,
+        "y": 34816,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a densely cellular proliferation of spindle-shaped cells with hyperchromatic nuclei and scant cytoplasm, arranged in fascicles and sheets. There is a large, thick-walled blood vessel within the tumor.\n\nThe most likely diagnosis is a spindle cell neoplasm, such as a spindle cell melanoma. Differential diagnoses include other spindle cell tumors like schwannoma or leiomyoma, which can be distinguished by their characteristic architectural patterns and immunohistochemical profiles.",
+      "rationale": "Ciliary body/pars plana-sclera junction—exclude anterior scleral invasion"
+    },
+    {
+      "roi_id": "slide_A_x49152_y28672_mag5",
+      "tile_id": "slide_A_x49152_y28672_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 49152,
+      "y": 28672,
+      "level0": {
+        "x": 49152,
+        "y": 28672,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a pigmented tumor arising from the choroid, composed of spindle and epithelioid cells with abundant melanin pigment. The tumor is associated with a large retinal detachment and thickened sclera.\n\nThe most likely diagnosis is choroidal melanoma. Differential diagnoses include choroidal nevus, which is typically smaller and less pigmented, and metastatic melanoma, which would require clinical correlation.",
+      "rationale": "Very distal optic nerve stump cut edge (far right) for margin assessment"
+    },
+    {
+      "roi_id": "slide_A_x49152_y29184_mag20",
+      "tile_id": "slide_A_x49152_y29184_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 49152,
+      "y": 29184,
+      "level0": {
+        "x": 49152,
+        "y": 29184,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle-shaped cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles. Scattered brown pigment is present within the tumor cells and stroma.\n\nThe most likely diagnosis is choroidal melanoma, spindle cell type. The presence of spindle cells with eosinophilic cytoplasm and scattered melanin pigment is characteristic of this tumor type. Differential diagnoses include other spindle cell neoplasms of the uvea, such as spindle cell carcinoma or sarcoma, which would lack the melanin pigment.",
+      "rationale": "High power at ON cut edge—exclude tumor in nerve/sheath or vascular spaces"
+    },
+    {
+      "roi_id": "slide_A_x40960_y11264_mag10",
+      "tile_id": "slide_A_x40960_y11264_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 40960,
+      "y": 11264,
+      "level0": {
+        "x": 40960,
+        "y": 11264,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle-shaped cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles and haphazardly. Scattered red blood cells are also present.\n\nThe most likely diagnosis is a spindle cell neoplasm, such as a spindle cell melanoma or a spindle cell carcinoma.\n\nDifferential diagnoses include spindle cell melanoma, spindle cell carcinoma, and other spindle cell sarcomas. Immunohistochemical stains for melanocytic markers (e.g., S100, HMB45, Melan-A) and epithelial markers (e.g., cytokeratins) would be helpful to differentiate between these possibilities.",
+      "rationale": "Episclera/external sclera over tumor apex (superior) to assess extraocular extension"
+    },
+    {
+      "roi_id": "slide_A_x40448_y10240_mag20",
+      "tile_id": "slide_A_x40448_y10240_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 40448,
+      "y": 10240,
+      "level0": {
+        "x": 40448,
+        "y": 10240,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle-shaped cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles and haphazardly, with scattered red blood cells.\n\nThe most likely diagnosis is choroidal melanoma, spindle cell type.\n\nDifferential diagnoses include choroidal nevus (typically smaller, less cellular, and with less nuclear atypia) and metastatic melanoma (requires clinical history of a primary melanoma elsewhere).",
+      "rationale": "High power external sclera/episclera for melanoma cells in scleral emissary channels"
+    },
+    {
+      "roi_id": "slide_A_x6144_y23552_mag10",
+      "tile_id": "slide_A_x6144_y23552_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 6144,
+      "y": 23552,
+      "level0": {
+        "x": 6144,
+        "y": 23552,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a densely cellular proliferation of spindle-shaped cells arranged in intersecting fascicles. The cells have elongated, hyperchromatic nuclei and scant cytoplasm, with areas of hyalinization and artifactual cracking.\n\nThe most likely diagnosis is a spindle cell neoplasm, such as a spindle cell melanoma. Differential diagnoses include other spindle cell tumors like schwannoma or leiomyoma, which can be distinguished by their characteristic architectural patterns and immunohistochemical profiles.",
+      "rationale": "Anterior segment near limbus/ciliary body (left) away from tumor—check for extension"
+    },
+    {
+      "roi_id": "slide_A_x47104_y32768_mag10",
+      "tile_id": "slide_A_x47104_y32768_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 47104,
+      "y": 32768,
+      "level0": {
+        "x": 47104,
+        "y": 32768,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle-shaped cells arranged in fascicles with abundant brown pigment. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is choroidal melanoma.\n\nDifferential diagnoses include choroidal nevus, which is typically less cellular and lacks the prominent pigmentation and fascicular growth pattern seen here.",
+      "rationale": "True optic nerve stump cut margin more inferior—ensure margin not missed"
+    },
+    {
+      "roi_id": "slide_A_x47616_y33280_mag20",
+      "tile_id": "slide_A_x47616_y33280_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 47616,
+      "y": 33280,
+      "level0": {
+        "x": 47616,
+        "y": 33280,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle-shaped cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles. Scattered dark brown pigment granules are present within the cells and stroma.\n\nThe most likely diagnosis is choroidal melanoma, spindle cell type. The presence of spindle-shaped cells with eosinophilic cytoplasm and scattered melanin pigment is characteristic of this tumor type. Differential diagnoses include other spindle cell neoplasms of the uvea, such as spindle cell carcinoma or sarcoma, which would lack the melanin pigment.",
+      "rationale": "High power ON cut edge/sheath vessels for invasion"
+    },
+    {
+      "roi_id": "slide_A_x44032_y30720_mag10",
+      "tile_id": "slide_A_x44032_y30720_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 44032,
+      "y": 30720,
+      "level0": {
+        "x": 44032,
+        "y": 30720,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles and whorls, with scattered clear spaces. A dense fibrous layer is also present.\n\nThe most likely diagnosis is a choroidal neoplasm, such as a choroidal melanoma.\n\nDifferential diagnoses include choroidal schwannoma, which typically shows Antoni A and B areas and Verocay bodies, and choroidal metastasis, which would show features of the primary tumor.",
+      "rationale": "Lamina cribrosa/optic disc junction—look for tumor tracking into nerve head"
+    },
+    {
+      "roi_id": "slide_A_x44544_y30720_mag20",
+      "tile_id": "slide_A_x44544_y30720_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 44544,
+      "y": 30720,
+      "level0": {
+        "x": 44544,
+        "y": 30720,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle-shaped cells with elongated nuclei arranged in fascicles and whorls, with areas of hyalinization and scattered eosinophilic structures. The most likely diagnosis is a spindle cell neoplasm, such as a schwannoma or neurofibroma. Differential diagnoses include other spindle cell tumors like leiomyoma or solitary fibrous tumor, which can be distinguished by their characteristic growth patterns and immunohistochemical profiles.",
+      "rationale": "Detail at lamina for melanoma cells in nerve bundles"
+    },
+    {
+      "roi_id": "slide_A_x45056_y28672_mag10",
+      "tile_id": "slide_A_x45056_y28672_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 45056,
+      "y": 28672,
+      "level0": {
+        "x": 45056,
+        "y": 28672,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated nuclei arranged in fascicles and whorls, with prominent hyalinized blood vessels. The background stroma is fibrillary.\n\nThe most likely diagnosis is a spindle cell neoplasm, such as a schwannoma or neurofibroma. Differential diagnoses include other spindle cell tumors like leiomyoma or solitary fibrous tumor, which can be distinguished by their characteristic growth patterns and immunohistochemical profiles.",
+      "rationale": "Peripapillary sclera and episclera adjacent to ON—assess extraocular extension near nerve"
+    },
+    {
+      "roi_id": "slide_A_x10240_y26624_mag5",
+      "tile_id": "slide_A_x10240_y26624_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 10240,
+      "y": 26624,
+      "level0": {
+        "x": 10240,
+        "y": 26624,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a large, lobulated, lightly pigmented tumor arising from the choroid, with areas of necrosis and hemorrhage. The retina is detached superiorly and nasally.\n\nThe most likely diagnosis is choroidal melanoma. Differential diagnoses include choroidal nevus, which is typically smaller and less pigmented, and metastatic carcinoma, which would lack the characteristic pigmentation and lobulated architecture.",
+      "rationale": "Anterior uvea/iris root-ciliary body band to confirm no anterior segment invasion"
+    },
+    {
+      "roi_id": "slide_A_x9216_y27648_mag20",
+      "tile_id": "slide_A_x9216_y27648_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 9216,
+      "y": 27648,
+      "level0": {
+        "x": 9216,
+        "y": 27648,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a densely cellular proliferation of spindle-shaped cells with elongated nuclei arranged in fascicles. Scattered dark granules are present within the tumor.\n\nThe most likely diagnosis is a spindle cell neoplasm, consistent with a spindle cell melanoma.\n\nDifferential diagnoses include other spindle cell tumors such as schwannoma or leiomyoma, which can be distinguished by their characteristic architectural patterns and immunohistochemical profiles.",
+      "rationale": "High power ciliary body/iris stroma for infiltrating melanoma cells"
+    },
+    {
+      "roi_id": "slide_A_x9216_y24576_mag10",
+      "tile_id": "slide_A_x9216_y24576_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 9216,
+      "y": 24576,
+      "level0": {
+        "x": 9216,
+        "y": 24576,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a large, pigmented, lobulated mass arising from the choroid, with areas of necrosis and hemorrhage. The overlying retina is detached.\n\nThe most likely diagnosis is choroidal melanoma. Differential diagnoses include choroidal nevus, which is typically smaller and less pigmented, and metastatic melanoma, which would require clinical correlation.",
+      "rationale": "Trabecular meshwork/angle region—exclude invasion or vascular involvement"
+    },
+    {
+      "roi_id": "slide_A_x18432_y30720_mag10",
+      "tile_id": "slide_A_x18432_y30720_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 18432,
+      "y": 30720,
+      "level0": {
+        "x": 18432,
+        "y": 30720,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a densely cellular proliferation of spindle-shaped cells with hyperchromatic nuclei and scant cytoplasm, arranged in fascicles and sheets. There is a sharp interface with the adjacent tissue.\n\nThe most likely diagnosis is a spindle cell neoplasm, such as a spindle cell melanoma. Differential diagnoses include other spindle cell tumors like schwannoma or leiomyoma, which can be distinguished by their characteristic architectural patterns and immunohistochemical profiles.",
+      "rationale": "Vortex vein region in equator inferior—evaluate for vascular invasion"
+    },
+    {
+      "roi_id": "slide_A_x18432_y30208_mag20",
+      "tile_id": "slide_A_x18432_y30208_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 18432,
+      "y": 30208,
+      "level0": {
+        "x": 18432,
+        "y": 30208,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a densely cellular proliferation of spindle-shaped cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles. Scattered dark granules are also present.\n\nThe most likely diagnosis is a spindle cell neoplasm, such as a spindle cell melanoma.\n\nDifferential diagnoses include other spindle cell tumors of the eye, such as a schwannoma or a fibrous histiocytoma. Immunohistochemical stains for melanocytic markers (e.g., Melan-A, HMB-45) would be helpful to confirm the diagnosis of melanoma.",
+      "rationale": "High power of large vessel for intravascular tumor thrombus"
+    },
+    {
+      "roi_id": "slide_A_x29696_y17408_mag10",
+      "tile_id": "slide_A_x29696_y17408_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 29696,
+      "y": 17408,
+      "level0": {
+        "x": 29696,
+        "y": 17408,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a densely cellular proliferation of spindle-shaped cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles and whorls. The cells are embedded in a pink, fibrillary matrix.\n\nThe most likely diagnosis is a spindle cell neoplasm, such as a spindle cell melanoma or a spindle cell carcinoma.\n\nDifferential diagnoses include spindle cell melanoma, spindle cell carcinoma, and schwannoma. Spindle cell melanoma would typically show melanin pigment, which is not evident here. Spindle cell carcinoma would show epithelial markers on immunohistochemistry. Schwannoma would show S100 positivity and lack the cellularity and atypia seen here.",
+      "rationale": "Mid-sclera inferior/nasal to tumor—search for vascular channels/vortex veins and intravascular tumor"
+    },
+    {
+      "roi_id": "slide_A_x30208_y17408_mag20",
+      "tile_id": "slide_A_x30208_y17408_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 30208,
+      "y": 17408,
+      "level0": {
+        "x": 30208,
+        "y": 17408,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle-shaped cells arranged in intersecting fascicles and whorls. The cells have elongated, wavy nuclei and eosinophilic cytoplasm, with scattered small blood vessels.\n\nThe most likely diagnosis is a spindle cell neoplasm, such as a schwannoma or neurofibroma. Differential diagnoses include other spindle cell tumors like leiomyoma or solitary fibrous tumor, which can be distinguished by their characteristic growth patterns and immunohistochemical profiles.",
+      "rationale": "High power of candidate vascular structures for tumor thrombus"
+    },
+    {
+      "roi_id": "slide_A_x40960_y20480_mag10",
+      "tile_id": "slide_A_x40960_y20480_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 40960,
+      "y": 20480,
+      "level0": {
+        "x": 40960,
+        "y": 20480,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle-shaped cells arranged in fascicles and whorls, with areas of hyalinization and scattered blood vessels. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a spindle cell neoplasm, such as a spindle cell melanoma or a schwannoma.\n\nDifferential diagnoses include spindle cell melanoma, which would typically show melanin pigment and potentially epithelioid cells, and schwannoma, which would show Antoni A and B areas and Verocay bodies.",
+      "rationale": "Scleral emissary/vortex vein region posterior to tumor—common route for extraocular spread"
+    },
+    {
+      "roi_id": "slide_A_x40960_y19968_mag20",
+      "tile_id": "slide_A_x40960_y19968_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 40960,
+      "y": 19968,
+      "level0": {
+        "x": 40960,
+        "y": 19968,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle-shaped cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles. Scattered dark brown pigment granules are present within the cells and stroma.\n\nThe most likely diagnosis is choroidal melanoma, spindle cell type. Differential diagnoses include choroidal nevus, which typically shows less cellularity and less prominent nucleoli, and metastatic melanoma, which may have different cytologic features depending on the primary site.",
+      "rationale": "Assess vessel lumen for intravascular melanoma cells"
+    },
+    {
+      "roi_id": "slide_A_x36864_y15360_mag20",
+      "tile_id": "slide_A_x36864_y15360_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 36864,
+      "y": 15360,
+      "level0": {
+        "x": 36864,
+        "y": 15360,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a pigmented layer with dark brown granules and a cellular layer with cells exhibiting clear to vacuolated cytoplasm and eccentric nuclei. The underlying tissue is eosinophilic and fibrillar.\n\nThe most likely diagnosis is choroidal melanoma, specifically a clear cell variant. The presence of pigmented cells and clear cells with eccentric nuclei in the choroid is characteristic. Differential diagnoses include metastatic clear cell carcinoma, which would typically lack the pigmented component, and clear cell sarcoma, which would require molecular testing for confirmation.",
+      "rationale": "Focused high power along scleral interface to identify intrascleral vascular invasion"
+    },
+    {
+      "roi_id": "slide_A_x46592_y30208_mag20",
+      "tile_id": "slide_A_x46592_y30208_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 46592,
+      "y": 30208,
+      "level0": {
+        "x": 46592,
+        "y": 30208,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a lobulated tumor composed of cells with abundant clear to vacuolated cytoplasm and small, dark nuclei, separated by thin fibrovascular septa. The cells are arranged in nests and cords.\n\nThe most likely diagnosis is a clear cell neoplasm, such as a clear cell carcinoma or metastatic clear cell carcinoma.\n\nDifferential diagnoses include clear cell melanoma, which would typically show melanin pigment, and clear cell sarcoma, which would have a different immunohistochemical profile.",
+      "rationale": "Clarify peripapillary clear-cell lobulated focus; assess cytology (clear cells vs granular), pigmentation, mitoses, capsule."
+    },
+    {
+      "roi_id": "slide_A_x26624_y10240_mag20",
+      "tile_id": "slide_A_x26624_y10240_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 26624,
+      "y": 10240,
+      "level0": {
+        "x": 26624,
+        "y": 10240,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a highly cellular proliferation of spindle cells arranged in intersecting fascicles and whorls. The cells have elongated, wavy nuclei and scant cytoplasm, with scattered blood vessels.\n\nThe most likely diagnosis is a spindle cell neoplasm, such as a spindle cell melanoma or a spindle cell carcinoma. Differential diagnoses include schwannoma or other spindle cell sarcomas, which can be distinguished by their characteristic growth patterns and immunohistochemical profiles.",
+      "rationale": "Revisit focal palisading/Verocay-like area to evaluate schwannoma vs melanoma features."
+    },
+    {
+      "roi_id": "slide_A_x32256_y10752_mag20",
+      "tile_id": "slide_A_x32256_y10752_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 32256,
+      "y": 10752,
+      "level0": {
+        "x": 32256,
+        "y": 10752,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a highly cellular proliferation of spindle-shaped cells arranged in intersecting fascicles. The cells have elongated, hyperchromatic nuclei and scant cytoplasm, with scattered brown pigment granules.\n\nThe most likely diagnosis is choroidal melanoma, spindle cell type. Differential diagnoses include metastatic spindle cell carcinoma or sarcoma, which would typically lack the characteristic brown pigment.",
+      "rationale": "High power of main tumor to confirm melanocytic features, nucleoli, mitoses."
+    },
+    {
+      "roi_id": "slide_A_x39936_y11264_mag20",
+      "tile_id": "slide_A_x39936_y11264_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 39936,
+      "y": 11264,
+      "level0": {
+        "x": 39936,
+        "y": 11264,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle-shaped cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles and haphazardly, with scattered red blood cells.\n\nThe most likely diagnosis is a spindle cell neoplasm, such as a spindle cell melanoma.\n\nDifferential diagnoses include other spindle cell tumors like schwannoma or leiomyoma, which can be distinguished by their characteristic architectural patterns and immunohistochemical profiles.",
+      "rationale": "Tumor-sclera interface at high power to check intrascleral invasion."
+    }
+  ]
+}

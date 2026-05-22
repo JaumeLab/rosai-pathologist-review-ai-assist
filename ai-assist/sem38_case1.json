@@ -1,0 +1,1469 @@
+{
+  "case_id": "sem38_case1",
+  "source": "slideseek-ai-assist",
+  "model": "gpt-5.4",
+  "generated_at": "2026-05-22T09:29:18.896792+00:00",
+  "organ": "Breast",
+  "primary_dx": "Fibrocystic Change With Prominent Sclerosing Adenosis And Focal Lobular Neoplasia, Favored LCIS",
+  "differential_dx": [
+    "Atypical Lobular Hyperplasia",
+    "Atypical Ductal Hyperplasia / Low-Grade DCIS Arising In Fibrocystic Change"
+  ],
+  "microscopic_findings": [
+    {
+      "text": "Dilated ducts/cysts show **apocrine metaplasia** with **apical snouts** and papillary epithelial infoldings without marked atypia.",
+      "roi_ids": [
+        "slide_A_x12288_y4096_mag20"
+      ]
+    },
+    {
+      "text": "Lobulocentric proliferation of crowded small acini in dense **sclerotic stroma** retains a **double cell layer**, supporting sclerosing…",
+      "roi_ids": [
+        "slide_A_x8192_y16384_mag20",
+        "slide_A_x10240_y16384_mag20"
+      ]
+    },
+    {
+      "text": "Expanded lobules are filled by **discohesive uniform cells** with scant cytoplasm, producing **lobular unit distention** favored as LCIS.",
+      "roi_ids": [
+        "slide_A_x6144_y4096_mag20",
+        "slide_A_x30720_y12288_mag20"
+      ]
+    },
+    {
+      "text": "Suspicious epithelial cells form **nests and cords** in fibrous stroma, but there is no **comedo necrosis** or high-grade cytology.",
+      "roi_ids": [
+        "slide_A_x24576_y16384_mag20",
+        "slide_A_x28672_y8192_mag20"
+      ]
+    }
+  ],
+  "interpretation": "The biopsy shows **fibrocystic change** with cyst formation/duct ectasia, **apocrine metaplasia**, and prominent **sclerosing adenosis** with preserved dual cell layers. Separate foci show expanded lobular units filled by small discohesive cells, supporting **focal lobular neoplasia, favored LCIS** on morphology. **ALH** remains a consideration if involvement is quantitatively limited. **ADH/low-grade DCIS** is less favored given the lobulocentric discohesive pattern and absence of **comedo necrosis** or high-grade atypia.",
+  "num_rois": 89,
+  "tiles": [
+    {
+      "roi_id": "slide_A_x4096_y4096_mag2",
+      "tile_id": "slide_A_x4096_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 4096,
+      "y": 4096,
+      "level0": {
+        "x": 4096,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows breast tissue with prominent lobular units and ducts embedded in fibrous stroma. There is a large cystic structure and areas of increased cellularity within the lobules.\n\nThe most likely diagnosis is fibrocystic changes of the breast. The presence of cysts, fibrosis, and increased cellularity within the lobules are characteristic features. Differential diagnoses include fibroadenoma, which typically presents as a discrete mass, and sclerosing adenosis, which shows more pronounced stromal sclerosis and distorted glandular architecture.",
+      "rationale": "Low-power scan left-upper cellular area for inflammation/granulomas"
+    },
+    {
+      "roi_id": "slide_A_x16384_y16384_mag1",
+      "tile_id": "slide_A_x16384_y16384_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 16384,
+      "y": 16384,
+      "level0": {
+        "x": 16384,
+        "y": 16384,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows breast tissue with prominent cystic dilation of ducts and lobules, along with areas of epithelial hyperplasia and increased stromal fibrosis.",
+      "rationale": "Whole-section low-power overview for dominant architecture."
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag2",
+      "tile_id": "slide_A_x8192_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows breast tissue with prominent cystic dilation of ducts and acini, along with areas of epithelial hyperplasia and stromal fibrosis.",
+      "rationale": "Sample upper-left quadrant with dense purple lobulated tissue on thumbnail."
+    },
+    {
+      "roi_id": "slide_A_x16384_y12288_mag2",
+      "tile_id": "slide_A_x16384_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 16384,
+      "y": 12288,
+      "level0": {
+        "x": 16384,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows breast tissue with prominent fibrous stroma, scattered cysts, and areas of epithelial proliferation with papillary architecture. The stroma is dense and fibrous with scattered adipose tissue.\n\nThe most likely diagnosis is fibrocystic changes with epithelial hyperplasia. Differential diagnoses include fibroadenoma, which typically presents as a discrete mass, and papilloma, which is usually a solitary lesion.",
+      "rationale": "Low-power overview of central tissue to identify dominant lesion patterns."
+    },
+    {
+      "roi_id": "slide_A_x8192_y4096_mag2",
+      "tile_id": "slide_A_x8192_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 8192,
+      "y": 4096,
+      "level0": {
+        "x": 8192,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows breast tissue with prominent cystic spaces and areas of dense stromal fibrosis. There is also a proliferation of epithelial cells forming nests and cords within the stroma.\n\nThe most likely diagnosis is fibrocystic change with epithelial hyperplasia. Differential diagnoses include fibroadenoma and phyllodes tumor, which typically present as discrete masses and have different stromal and epithelial patterns.",
+      "rationale": "Survey upper-left quadrant for circumscribed nodules or papillary/cystic change."
+    },
+    {
+      "roi_id": "slide_A_x20480_y4096_mag2",
+      "tile_id": "slide_A_x20480_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 20480,
+      "y": 4096,
+      "level0": {
+        "x": 20480,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a large cystic structure lined by pseudostratified columnar epithelium with papillary infoldings, surrounded by fibrofatty tissue containing smaller ducts and lobules. The stroma is fibrofatty with scattered chronic inflammation.\n\nThe most likely diagnosis is a large breast cyst with associated fibrocystic changes. The presence of a large cyst and surrounding fibrofatty tissue with smaller ducts and lobules is characteristic of fibrocystic changes. The papillary infoldings in the cyst lining are also a common feature.\n\nDifferential diagnoses to consider include a simple breast cyst and a fibroadenoma. A simple cyst would lack the surrounding fibrofatty tissue and smaller ducts/lobules. A fibroadenoma would typically show a more cellular stromal component and a more uniform epithelial proliferation.",
+      "rationale": "Low-power scan central-upper region with darker foci on thumbnail"
+    },
+    {
+      "roi_id": "slide_A_x28672_y8192_mag2",
+      "tile_id": "slide_A_x28672_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 28672,
+      "y": 8192,
+      "level0": {
+        "x": 28672,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows breast tissue with fibrofatty stroma, scattered cysts, and a prominent lobular proliferation with increased cellularity and altered architecture. The lobules appear enlarged and distorted.\n\nThe most likely diagnosis is Lobular Carcinoma In Situ (LCIS). The key features supporting this are the expanded and distorted lobules filled with a proliferation of relatively uniform cells, which efface the normal acinar architecture. The cells appear discohesive, a characteristic feature of lobular neoplasia.\n\nDifferential diagnoses include Atypical Lobular Hyperplasia (ALH) and Ductal Carcinoma In Situ (DCIS). ALH shares similar cytologic features but involves less than 50% of the acini within a lobule. DCIS typically shows more architectural patterns (cribriform, solid, micropapillary) and often has more pleomorphic cells.",
+      "rationale": "Low-power scan right-upper dense purple lobulated area"
+    },
+    {
+      "roi_id": "slide_A_x28672_y12288_mag2",
+      "tile_id": "slide_A_x28672_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 28672,
+      "y": 12288,
+      "level0": {
+        "x": 28672,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows breast tissue with expanded lobules containing a proliferation of small, uniform cells with scant cytoplasm and round nuclei, filling and distending the acini. The surrounding stroma is fibrous and adipose.\n\nThe most likely diagnosis is Lobular Carcinoma In Situ (LCIS). The key features supporting this diagnosis are the expanded lobules filled with a monomorphic population of small, uniform cells with scant cytoplasm and round nuclei, distending the acini. The cells lack significant pleomorphism or mitotic activity, and the lobular architecture is preserved.\n\nDifferential diagnoses include Atypical Lobular Hyperplasia (ALH), which shares similar cytologic features but involves less than 50% of the acini within a lobule, and Ductal Carcinoma In Situ (DCIS), which typically shows more cellular pleomorphism, architectural patterns (cribriform, solid, micropapillary), and often necrosis.",
+      "rationale": "Survey right-sided darker lobulated area on thumbnail for epithelial proliferation/DCIS"
+    },
+    {
+      "roi_id": "slide_A_x12288_y4096_mag2",
+      "tile_id": "slide_A_x12288_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 4096,
+      "level0": {
+        "x": 12288,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows dilated ducts and cysts with papillary epithelial proliferation, along with areas of stromal fibrosis and chronic inflammation.",
+      "rationale": "Survey upper-left darker focus for possible sclerosing lesion or carcinoma"
+    },
+    {
+      "roi_id": "slide_A_x8192_y20480_mag2",
+      "tile_id": "slide_A_x8192_y20480_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 8192,
+      "y": 20480,
+      "level0": {
+        "x": 8192,
+        "y": 20480,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a mixture of fibrous stroma, adipose tissue, and glandular elements. There is a prominent area of dense, hyalinized stroma with entrapped glands and a large cystic space.\n\nThe most likely diagnosis is fibroadenoma. The differential diagnosis includes sclerosing adenosis, which can show stromal sclerosis and glandular proliferation, but typically lacks the well-circumscribed, biphasic pattern of fibroadenoma.",
+      "rationale": "Sample lower-left quadrant with prominent pink fibrous area on thumbnail."
+    },
+    {
+      "roi_id": "slide_A_x8192_y16384_mag2",
+      "tile_id": "slide_A_x8192_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 8192,
+      "y": 16384,
+      "level0": {
+        "x": 8192,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a central area of dense fibrosis with entrapped ducts and lobules, surrounded by adipose tissue. There is also a focus of increased cellularity with small, crowded glands and stromal reaction.\n\nThe most likely diagnosis is sclerosing adenosis. The central fibrosis with entrapped glands and the surrounding area of increased cellularity with crowded glands are characteristic features. Differential diagnoses include tubular carcinoma, which typically shows angulated tubules infiltrating the stroma, and radial scar, which has a central fibroelastotic core with radiating ducts and lobules.",
+      "rationale": "Low-power scan left-lower pink area for fat necrosis/hemorrhage"
+    },
+    {
+      "roi_id": "slide_A_x28672_y20480_mag2",
+      "tile_id": "slide_A_x28672_y20480_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 28672,
+      "y": 20480,
+      "level0": {
+        "x": 28672,
+        "y": 20480,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows breast tissue with prominent fibrous stroma and scattered lobules. Some lobules are enlarged and distorted, with increased cellularity and small lumens. The stroma is dense and fibrous.\n\nThe most likely diagnosis is fibrocystic change with sclerosing adenosis. The key features supporting this are the prominent fibrous stroma, scattered cysts, and the presence of enlarged and distorted lobules with increased cellularity and small lumens, consistent with sclerosing adenosis.\n\nDifferential diagnoses to consider include fibroadenoma, which typically presents as a discrete mass with a biphasic pattern of stromal and epithelial proliferation, and tubular carcinoma, which is characterized by well-formed tubules infiltrating the stroma.",
+      "rationale": "Survey lower-right quadrant for stellate scar/radial scar-like focus or adenosis."
+    },
+    {
+      "roi_id": "slide_A_x20480_y16384_mag2",
+      "tile_id": "slide_A_x20480_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 20480,
+      "y": 16384,
+      "level0": {
+        "x": 20480,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a large cystic space, dense fibrous stroma, and lobules with increased cellularity and altered architecture. Scattered chronic inflammation is also present.\n\nThe most likely diagnosis is fibrocystic changes of the breast, specifically cystic hypersecretory hyperplasia.\n\nDifferential diagnoses include fibroadenoma, which typically presents as a well-circumscribed mass with a biphasic pattern of stromal and epithelial proliferation, and ductal carcinoma in situ, which would show atypical epithelial cells confined within ducts.",
+      "rationale": "Low-power scan central-lower area around apparent cystic spaces"
+    },
+    {
+      "roi_id": "slide_A_x12288_y20480_mag2",
+      "tile_id": "slide_A_x12288_y20480_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 20480,
+      "level0": {
+        "x": 12288,
+        "y": 20480,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows breast tissue with fibrofatty stroma, scattered lobules, and a large cystic space. The lobules appear increased in number and size, and the cystic space is lined by flattened epithelium.\n\nThe most likely diagnosis is fibrocystic change with adenosis. The presence of cysts, fibrofatty stroma, and increased lobular tissue are characteristic features. The large cystic space and the increased number and size of lobules suggest adenosis.\n\nDifferential diagnoses include fibroadenoma, which typically presents as a discrete mass with a biphasic pattern of stromal and epithelial proliferation, and phyllodes tumor, which shows a leaf-like architecture and stromal overgrowth.",
+      "rationale": "Survey lower-left quadrant for fibrous nodule vs cysts."
+    },
+    {
+      "roi_id": "slide_A_x28672_y12288_mag10",
+      "tile_id": "slide_A_x28672_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 28672,
+      "y": 12288,
+      "level0": {
+        "x": 28672,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows fibrofatty tissue with dense fibrous stroma, scattered chronic inflammation, and prominent nerve bundles. There is no evidence of malignancy.\n\nThe most likely diagnosis is fibroadenoma with prominent nerve bundles. Differential diagnoses include neurofibroma, which would show a more diffuse proliferation of spindle cells and wavy nuclei, and fibrocystic changes, which would show cysts and epithelial hyperplasia.",
+      "rationale": "Evaluate right-sided lobular expansion suspicious for LCIS vs ALH; assess acinar filling, preservation, and exclude DCIS/invasion"
+    },
+    {
+      "roi_id": "slide_A_x30720_y12288_mag5",
+      "tile_id": "slide_A_x30720_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 30720,
+      "y": 12288,
+      "level0": {
+        "x": 30720,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a transition from fibrofatty tissue to a dense cellular proliferation arranged in nests and cords within a fibrous stroma. The cells are relatively uniform with round to oval nuclei and scant cytoplasm.\n\nThe most likely diagnosis is Lobular Carcinoma In Situ (LCIS). The proliferation of uniform cells in nests and cords within a fibrous stroma is characteristic of LCIS. The lack of significant pleomorphism or necrosis supports this diagnosis. Differential diagnoses include Ductal Carcinoma In Situ (DCIS), which typically shows more architectural complexity and cellular atypia, and invasive lobular carcinoma, which would show infiltration into the surrounding stroma.",
+      "rationale": "Interrogate upper-right dense cellular/cribriform-appearing focus seen at 2.5x for true ductal lesion vs hyperplasia."
+    },
+    {
+      "roi_id": "slide_A_x28672_y8192_mag10",
+      "tile_id": "slide_A_x28672_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 28672,
+      "y": 8192,
+      "level0": {
+        "x": 28672,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows breast tissue with fibrous stroma and adipose tissue. There are nests and cords of cells with hyperchromatic nuclei and scant cytoplasm infiltrating the stroma, with some areas showing a cribriform pattern.\n\nThe most likely diagnosis is invasive carcinoma of the breast, likely invasive ductal carcinoma given the infiltrative pattern and cellular morphology. A differential diagnosis could include lobular carcinoma, which typically shows a more discohesive growth pattern and single-file infiltration, or a high-grade ductal carcinoma in situ with microinvasion, which would require evaluation of the entire lesion to assess for invasion.",
+      "rationale": "Evaluate dense lobular purple focus—rule out granulomatous lobulitis/abscess vs lobular neoplasia"
+    },
+    {
+      "roi_id": "slide_A_x28672_y12288_mag20",
+      "tile_id": "slide_A_x28672_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 28672,
+      "y": 12288,
+      "level0": {
+        "x": 28672,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows fibrofatty tissue with dense fibrous stroma, scattered chronic inflammation, and small blood vessels. There is no evidence of a discrete mass or significant epithelial proliferation.\n\nThe most likely diagnosis is fibroadenoma, specifically a fibroadenomatoid change, given the fibrofatty background and lack of a discrete mass. A key differential diagnosis is sclerosing adenosis, which would show more prominent epithelial proliferation and stromal sclerosis.",
+      "rationale": "High power of same area to assess cytology (dyscohesion), mitoses, necrosis; look for myoepithelial layer intact"
+    },
+    {
+      "roi_id": "slide_A_x20480_y4096_mag10",
+      "tile_id": "slide_A_x20480_y4096_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 20480,
+      "y": 4096,
+      "level0": {
+        "x": 20480,
+        "y": 4096,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cystic structure lined by pseudostratified columnar epithelium with apical cilia and basally oriented nuclei, surrounded by fibrofatty stroma. The cyst lumen contains amorphous material.\n\nThe most likely diagnosis is a benign breast cyst. The presence of a cyst lined by benign epithelium and surrounded by fibrofatty tissue is characteristic. Differential diagnoses include fibrocystic changes, which can present with cysts and stromal changes, and a simple cyst, which is a common benign finding.",
+      "rationale": "Assess large cyst/duct ectasia region for periductal mastitis/plasma cells"
+    },
+    {
+      "roi_id": "slide_A_x28672_y8192_mag5",
+      "tile_id": "slide_A_x28672_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 28672,
+      "y": 8192,
+      "level0": {
+        "x": 28672,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows breast tissue with fibrofatty stroma and a dense cellular proliferation arranged in nests and cords. The cells have small, hyperchromatic nuclei and scant cytoplasm, with some areas showing a cribriform pattern.\n\nThe most likely diagnosis is Lobular Carcinoma In Situ (LCIS). The proliferation of small, uniform cells filling and expanding the lobules is characteristic of LCIS. The lack of significant stromal reaction and the presence of a cribriform pattern in some areas are also consistent features.\n\nDifferential diagnoses include Atypical Lobular Hyperplasia (ALH) and Ductal Carcinoma In Situ (DCIS). ALH shares similar cytologic features but involves less than 50% of the acini in a lobule. DCIS typically shows more pleomorphism, larger cells, and often forms more distinct architectural patterns like solid, micropapillary, or comedo necrosis.",
+      "rationale": "Further evaluate lobular proliferation area; distinguish adenosis vs LCIS/DCIS vs hyperplasia."
+    },
+    {
+      "roi_id": "slide_A_x8192_y20480_mag5",
+      "tile_id": "slide_A_x8192_y20480_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 8192,
+      "y": 20480,
+      "level0": {
+        "x": 8192,
+        "y": 20480,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows fibrofatty tissue with prominent fibrous stroma and scattered small cysts. There are also areas of increased cellularity with small, uniform cells arranged in nests and cords.\n\nThe most likely diagnosis is fibrocystic change with sclerosing adenosis. The presence of fibrofatty tissue, cysts, and sclerotic stroma are characteristic of fibrocystic change. The areas of increased cellularity with small, uniform cells arranged in nests and cords are consistent with sclerosing adenosis.\n\nDifferential diagnoses include tubular carcinoma, which can also show small nests and cords of cells in a fibrous stroma, but typically lacks the cystic changes and the uniformity of cells seen here. Another consideration is invasive lobular carcinoma, which can present with small, uniform cells in a single-file pattern, but usually lacks the prominent fibrous stroma and cystic changes seen in this case.",
+      "rationale": "Evaluate lower-left hyalinized stroma with entrapped glands for circumscription/radial scar vs fibroadenomatoid change."
+    },
+    {
+      "roi_id": "slide_A_x8192_y16384_mag10",
+      "tile_id": "slide_A_x8192_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 8192,
+      "y": 16384,
+      "level0": {
+        "x": 8192,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of small, round to oval tubules embedded in a dense, fibrous stroma. The tubules are lined by a double layer of cells and lack a myoepithelial layer. The stroma is dense and collagenous with scattered chronic inflammatory cells.\n\nThe most likely diagnosis is tubular adenoma. This benign lesion is characterized by a proliferation of small, round to oval tubules lined by a double layer of cells, embedded in a dense, fibrous stroma. The absence of a myoepithelial layer is a key feature distinguishing it from other benign breast lesions.\n\nDifferential diagnoses include sclerosing adenosis and microglandular adenosis. Sclerosing adenosis typically shows more compressed and distorted tubules within a sclerotic stroma, often with a preserved myoepithelial layer. Microglandular adenosis is characterized by small, round tubules lacking a myoepithelial layer, but the tubules are often more irregular and angulated, and the stroma is less dense and fibrous than in tubular adenoma.",
+      "rationale": "Assess fibrotic focus for fat necrosis/inflammation/radial scar-associated inflammation"
+    },
+    {
+      "roi_id": "slide_A_x28672_y20480_mag5",
+      "tile_id": "slide_A_x28672_y20480_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 28672,
+      "y": 20480,
+      "level0": {
+        "x": 28672,
+        "y": 20480,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows breast tissue with prominent fibrous stroma and scattered lobules. Some lobules are enlarged and contain cells with small, uniform nuclei and scant cytoplasm, filling the acini.\n\nThe most likely diagnosis is Lobular Carcinoma In Situ (LCIS). The key features supporting this are the enlarged lobules filled with a population of small, uniform cells with scant cytoplasm, which is characteristic of LCIS. The cells appear discohesive, a feature often seen in LCIS due to loss of E-cadherin expression.\n\nDifferential diagnoses include Atypical Lobular Hyperplasia (ALH) and Ductal Carcinoma In Situ (DCIS). ALH is similar to LCIS but involves less than 50% of the acini in a lobule. DCIS typically shows more architectural distortion and cellular atypia, often with necrosis or calcifications, and the cells are usually cohesive.",
+      "rationale": "Assess lower-right lobular expansion area for sclerosing adenosis vs invasive pattern."
+    },
+    {
+      "roi_id": "slide_A_x12288_y4096_mag10",
+      "tile_id": "slide_A_x12288_y4096_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 12288,
+      "y": 4096,
+      "level0": {
+        "x": 12288,
+        "y": 4096,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dilated duct lined by pseudostratified columnar epithelium with apical snouts and papillary infoldings. The surrounding stroma is fibrofatty with scattered chronic inflammation.\n\nThe most likely diagnosis is fibrocystic change with apocrine metaplasia. The presence of a dilated duct with apocrine metaplasia and surrounding fibrofatty stroma is characteristic of this benign condition. The clinical history of a lump and pain, along with the gross findings of fibrofatty tissue and cysts, further support this diagnosis.",
+      "rationale": "Assess papillary epithelial proliferation in dilated ducts/cysts for ADH/DCIS or papilloma with atypia"
+    },
+    {
+      "roi_id": "slide_A_x20480_y12288_mag2",
+      "tile_id": "slide_A_x20480_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 20480,
+      "y": 12288,
+      "level0": {
+        "x": 20480,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows breast tissue with a prominent lobular unit exhibiting increased cellularity and a solid growth pattern, along with surrounding fibrous stroma and adipose tissue. The most likely diagnosis is lobular carcinoma in situ. Differential diagnoses include ductal carcinoma in situ and sclerosing adenosis.",
+      "rationale": "Central overview at slightly higher mag to look for radial scar pattern/duct ectasia/cysts distribution."
+    },
+    {
+      "roi_id": "slide_A_x16384_y12288_mag5",
+      "tile_id": "slide_A_x16384_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 16384,
+      "y": 12288,
+      "level0": {
+        "x": 16384,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a large cystic space lined by pseudostratified columnar epithelium with cilia, surrounded by dense fibrous stroma and adipose tissue. Scattered smaller ducts and lobules are also present.\n\nThe most likely diagnosis is a large breast cyst. The presence of a large cystic space lined by ciliated epithelium is characteristic. Differential diagnoses include fibrocystic changes, which typically show smaller cysts and stromal changes, and a simple cyst, which lacks the ciliated lining.",
+      "rationale": "Assess papillary/cystic proliferative area for papilloma vs usual ductal hyperplasia."
+    },
+    {
+      "roi_id": "slide_A_x6144_y4096_mag10",
+      "tile_id": "slide_A_x6144_y4096_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 6144,
+      "y": 4096,
+      "level0": {
+        "x": 6144,
+        "y": 4096,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows expanded lobules filled with a proliferation of small, uniform cells with round nuclei and scant cytoplasm, separated by fibrous stroma. The cells fill and distend the acini.\n\nThe most likely diagnosis is Lobular Carcinoma In Situ (LCIS).\n\nDifferential diagnoses include Atypical Lobular Hyperplasia (ALH) and Ductal Carcinoma In Situ (DCIS). ALH is distinguished by less than 50% involvement of the acini within a lobule, while DCIS typically shows more pleomorphic cells and architectural patterns like cribriform or solid filling of ducts.",
+      "rationale": "Check lobules/ducts for chronic inflammation or granulomas"
+    },
+    {
+      "roi_id": "slide_A_x29696_y10240_mag10",
+      "tile_id": "slide_A_x29696_y10240_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 29696,
+      "y": 10240,
+      "level0": {
+        "x": 29696,
+        "y": 10240,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows dense fibrous stroma with scattered adipocytes and a prominent nerve bundle. There is no evidence of malignancy.\n\nThe most likely diagnosis for this single tile is fibroadenoma, given the dense fibrous stroma and scattered adipocytes. However, the absence of a discrete mass and the presence of hypertrophied lobules in the gross description suggest a fibroadenomatoid change or a complex fibroadenoma.",
+      "rationale": "Sample additional right-upper cellular focus not yet characterized; screen for DCIS patterns/necrosis"
+    },
+    {
+      "roi_id": "slide_A_x12288_y20480_mag5",
+      "tile_id": "slide_A_x12288_y20480_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 12288,
+      "y": 20480,
+      "level0": {
+        "x": 12288,
+        "y": 20480,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a transition from dense fibrous stroma to adipose tissue, with scattered small ducts and lobules embedded within the stroma. The lobules appear increased in number and size.\n\nThe most likely diagnosis is fibrocystic change with adenosis. The presence of increased and hypertrophied lobules within a fibrous stroma is characteristic of adenosis, a common benign finding in fibrocystic change. The clinical history of a palpable lump and pain, along with the gross findings of fibrofatty tissue and scattered cysts, further support this diagnosis.\n\nDifferential diagnoses to consider include fibroadenoma, which typically presents as a discrete mass with a biphasic pattern of stromal and epithelial proliferation, and phyllodes tumor, which is characterized by a leaf-like architecture and stromal overgrowth. However, the lack of a discrete mass and the presence of scattered lobules and cysts in this image are more consistent with fibrocystic change.",
+      "rationale": "Evaluate cyst with surrounding lobules; look for apocrine metaplasia, adenosis, papilloma."
+    },
+    {
+      "roi_id": "slide_A_x30720_y15360_mag10",
+      "tile_id": "slide_A_x30720_y15360_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 30720,
+      "y": 15360,
+      "level0": {
+        "x": 30720,
+        "y": 15360,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows mature adipose tissue with prominent fibrous septa containing small blood vessels and scattered chronic inflammatory cells. The adipocytes are uniform in size and shape.\n\nThe most likely diagnosis is fibroadenoma with fatty change. The presence of fibrous stroma and adipose tissue is consistent with this diagnosis. Differential diagnoses include lipoma, which would show predominantly adipose tissue without significant fibrous stroma, and fibrocystic changes, which would show cystic spaces and epithelial hyperplasia.",
+      "rationale": "Sample right-mid cellular area adjacent to previously reviewed site to ensure no DCIS/invasion"
+    },
+    {
+      "roi_id": "slide_A_x29184_y8704_mag20",
+      "tile_id": "slide_A_x29184_y8704_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 29184,
+      "y": 8704,
+      "level0": {
+        "x": 29184,
+        "y": 8704,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows breast tissue with dense fibrous stroma and scattered adipocytes. There are clusters of epithelial cells forming small ducts and acini, some with lumens, embedded within the stroma.\n\nThe most likely diagnosis is fibrocystic changes of the breast, specifically sclerosing adenosis. This is supported by the presence of increased stromal fibrosis and proliferation of small ducts and acini.\n\nDifferential diagnoses include fibroadenoma, which typically presents as a discrete mass with a more uniform stromal and epithelial component, and tubular carcinoma, which would show infiltrative, angulated tubules with desmoplastic stroma and lack a myoepithelial layer.",
+      "rationale": "High power of infiltrative-looking right-upper focus to assess for inflammatory/granulomatous component vs carcinoma"
+    },
+    {
+      "roi_id": "slide_A_x8192_y4096_mag5",
+      "tile_id": "slide_A_x8192_y4096_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 8192,
+      "y": 4096,
+      "level0": {
+        "x": 8192,
+        "y": 4096,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows breast tissue with lobules and ducts embedded in fibrous stroma. There is a proliferation of small, uniform cells filling and expanding the acini and ductules, with some ducts showing papillary infoldings.\n\nThe most likely diagnosis is Lobular Carcinoma In Situ (LCIS). The proliferation of small, uniform cells filling and expanding the acini and ductules is characteristic of LCIS. The lack of significant pleomorphism or necrosis helps distinguish it from Ductal Carcinoma In Situ (DCIS).",
+      "rationale": "Check upper-left cystic/fibrotic area for radial scar/CSL or fibroadenoma-like nodule."
+    },
+    {
+      "roi_id": "slide_A_x32768_y8192_mag2",
+      "tile_id": "slide_A_x32768_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 32768,
+      "y": 8192,
+      "level0": {
+        "x": 32768,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows breast tissue with fibrofatty stroma, ducts, and lobules. There is a prominent lobule with increased cellularity and a solid growth pattern, along with scattered small cysts.\n\nThe most likely diagnosis is Lobular Carcinoma In Situ (LCIS). The key features supporting this are the expanded lobule with increased cellularity and a solid growth pattern, which is characteristic of LCIS. The cells are relatively uniform and fill the acini without significant architectural distortion or necrosis.\n\nDifferential diagnoses include Atypical Lobular Hyperplasia (ALH) and Ductal Carcinoma In Situ (DCIS). ALH shares similar cytologic features but involves less than 50% of the acini in a lobule. DCIS typically shows more architectural patterns (cribriform, micropapillary, solid) and often has necrosis or calcifications.",
+      "rationale": "Sample extreme upper-right corner not yet assessed for discrete duct lesion/papilloma or in situ change."
+    },
+    {
+      "roi_id": "slide_A_x6144_y4096_mag20",
+      "tile_id": "slide_A_x6144_y4096_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 6144,
+      "y": 4096,
+      "level0": {
+        "x": 6144,
+        "y": 4096,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows expanded lobules filled with a proliferation of relatively uniform cells with round to oval nuclei and scant cytoplasm, separated by fibrous stroma. The cells fill and distend the acini.\n\nThe most likely diagnosis is Lobular Carcinoma In Situ (LCIS).\n\nDifferential diagnoses include Atypical Lobular Hyperplasia (ALH) and Ductal Carcinoma In Situ (DCIS). ALH is distinguished by partial involvement of lobules, while DCIS typically shows more pleomorphism and architectural patterns like cribriform or solid filling of ducts.",
+      "rationale": "High power of expanded lobules to look for lobulocentric granulomatous inflammation, neutrophils, giant cells"
+    },
+    {
+      "roi_id": "slide_A_x28672_y20480_mag10",
+      "tile_id": "slide_A_x28672_y20480_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 28672,
+      "y": 20480,
+      "level0": {
+        "x": 28672,
+        "y": 20480,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows breast tissue with a prominent fibrous stroma and numerous small, round to oval glandular structures. These glands are lined by a double layer of cells and are embedded within the dense stroma.\n\nThe most likely diagnosis is fibroadenoma. This benign breast tumor is characterized by a proliferation of both glandular and stromal elements, which is consistent with the features observed in the image. The presence of a double layer of cells lining the glandular structures is a key feature supporting this diagnosis.\n\nDifferential diagnoses to consider include sclerosing adenosis and tubular adenoma. Sclerosing adenosis also shows increased stromal fibrosis and glandular proliferation, but the glands are typically compressed and distorted, and the stroma is often more cellular. Tubular adenoma is characterized by a proliferation of small, round tubules lined by a single layer of epithelial cells, without the prominent stromal component seen in fibroadenoma.",
+      "rationale": "Review large right-lower pink/solid area for invasive carcinoma or sclerosing lesion"
+    },
+    {
+      "roi_id": "slide_A_x32768_y8192_mag5",
+      "tile_id": "slide_A_x32768_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 32768,
+      "y": 8192,
+      "level0": {
+        "x": 32768,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows breast tissue with fibrofatty stroma and multiple lobules. Some lobules exhibit increased cellularity and distortion, while others appear normal. There is also a duct with epithelial proliferation.\n\nThe most likely diagnosis is fibrocystic changes with epithelial hyperplasia. The presence of fibrofatty stroma, cysts, and lobular changes are characteristic of fibrocystic changes. The increased cellularity and distortion in some lobules suggest epithelial hyperplasia.\n\nDifferential diagnoses include fibroadenoma, which typically presents as a discrete mass, and sclerosing adenosis, which shows more prominent stromal sclerosis and distorted acini.",
+      "rationale": "Higher mag of same upper-right to check for ductal architecture, cyst contents, papillary fronds, necrosis."
+    },
+    {
+      "roi_id": "slide_A_x20480_y4096_mag20",
+      "tile_id": "slide_A_x20480_y4096_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20480,
+      "y": 4096,
+      "level0": {
+        "x": 20480,
+        "y": 4096,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cyst lined by pseudostratified columnar epithelium with cilia and goblet cells, surrounded by fibrous stroma with scattered inflammatory cells. The cyst lumen contains amorphous material and cellular debris.\n\nThe most likely diagnosis is a benign breast cyst with associated inflammation. The presence of a cyst lined by ciliated epithelium and the surrounding inflammatory infiltrate are consistent with this diagnosis. Differential diagnoses include other benign cystic lesions of the breast, such as a simple cyst or a fibrocystic change, which may also show epithelial lining and stromal changes.",
+      "rationale": "High power around cyst lining and pericyst stroma for periductal mastitis/plasma cells/foamy histiocytes"
+    },
+    {
+      "roi_id": "slide_A_x29696_y9216_mag10",
+      "tile_id": "slide_A_x29696_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 29696,
+      "y": 9216,
+      "level0": {
+        "x": 29696,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows dense fibrous stroma with scattered adipocytes and a prominent nerve bundle. There is no evidence of malignancy.\n\nThe most likely diagnosis is fibroadenoma, a benign breast lesion characterized by a mixture of stromal and epithelial components. The dense fibrous stroma and scattered adipocytes are consistent with this diagnosis. The absence of malignant features supports a benign process.",
+      "rationale": "Higher power in right-sided lobular proliferation to assess for adenosis vs lobular neoplasia; check cohesion and acinar architecture."
+    },
+    {
+      "roi_id": "slide_A_x7168_y9216_mag10",
+      "tile_id": "slide_A_x7168_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 7168,
+      "y": 9216,
+      "level0": {
+        "x": 7168,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows breast tissue with dense fibrous stroma, scattered small cysts, and lobules with increased cellularity and small acini. The most likely diagnosis is fibrocystic change with associated lobular hyperplasia. Differential diagnoses include fibroadenoma and sclerosing adenosis, which can be distinguished by the presence of a discrete mass and specific stromal patterns, respectively.",
+      "rationale": "Review left-upper cellular area for DCIS/ADH within fibrocystic change"
+    },
+    {
+      "roi_id": "slide_A_x16384_y8192_mag2",
+      "tile_id": "slide_A_x16384_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 16384,
+      "y": 8192,
+      "level0": {
+        "x": 16384,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows breast tissue with dilated ducts and cysts, prominent stromal fibrosis, and areas of epithelial hyperplasia. The stroma is dense and fibrous with scattered adipose tissue.\n\nThe most likely diagnosis is fibrocystic change with epithelial hyperplasia. Differential diagnoses include fibroadenoma, which typically presents as a discrete mass, and sclerosing adenosis, which shows more pronounced stromal sclerosis and distorted acini.",
+      "rationale": "Assess central-upper dense purple region for radial scar/complex sclerosing lesion pattern."
+    },
+    {
+      "roi_id": "slide_A_x12288_y21504_mag10",
+      "tile_id": "slide_A_x12288_y21504_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 12288,
+      "y": 21504,
+      "level0": {
+        "x": 12288,
+        "y": 21504,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows fibrofatty tissue with dense fibrous stroma and scattered small ducts. There is a prominent inflammatory infiltrate composed of lymphocytes and plasma cells, with some periductal accentuation.\n\nThe most likely diagnosis is chronic mastitis. The presence of dense fibrous stroma, scattered ducts, and a prominent lymphoplasmacytic infiltrate are consistent with this diagnosis. The periductal inflammation is a key feature. Differential diagnoses include fibrocystic changes, which can also show fibrosis and inflammation, but typically have more prominent cysts and epithelial hyperplasia.",
+      "rationale": "Review lower-central area with cysts/fibrosis for sclerosing adenosis/radial scar and epithelial atypia"
+    },
+    {
+      "roi_id": "slide_A_x28672_y21504_mag10",
+      "tile_id": "slide_A_x28672_y21504_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 28672,
+      "y": 21504,
+      "level0": {
+        "x": 28672,
+        "y": 21504,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows breast tissue with dense fibrous stroma and scattered lobules. Some lobules exhibit increased cellularity with small, uniform cells filling the acini, while others show dilated ducts and cysts.\n\nThe most likely diagnosis is Lobular Carcinoma In Situ (LCIS) involving the breast tissue.\n\nDifferential diagnoses include:\n- Atypical Lobular Hyperplasia (ALH): Similar cellular proliferation but less extensive involvement of lobules.\n- Ductal Carcinoma In Situ (DCIS): Typically shows more pleomorphic cells and architectural patterns like cribriform or micropapillary.",
+      "rationale": "Assess suspected adenosis/sclerosing focus for lobulocentric pattern, myoepithelium, and any radial scar features."
+    },
+    {
+      "roi_id": "slide_A_x16384_y10240_mag5",
+      "tile_id": "slide_A_x16384_y10240_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 16384,
+      "y": 10240,
+      "level0": {
+        "x": 16384,
+        "y": 10240,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows breast tissue with a prominent fibrous stroma and scattered adipose tissue. There are numerous small ducts and lobules, some with epithelial hyperplasia, and a large duct with papillary infoldings.\n\nThe most likely diagnosis is fibroadenoma with epithelial hyperplasia. The differential diagnosis includes sclerosing adenosis, which can also show increased stromal fibrosis and distorted ducts, but typically lacks the well-circumscribed nature of a fibroadenoma.",
+      "rationale": "Higher mag of central-upper dense region to evaluate lobular expansion/sclerosing adenosis vs epithelial proliferation."
+    },
+    {
+      "roi_id": "slide_A_x10240_y17408_mag20",
+      "tile_id": "slide_A_x10240_y17408_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 10240,
+      "y": 17408,
+      "level0": {
+        "x": 10240,
+        "y": 17408,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows breast tissue with a prominent fibrous stroma and numerous small, round to oval glandular structures. These glands are lined by cuboidal to low columnar epithelium with basally oriented nuclei and some contain eosinophilic luminal material.\n\nThe most likely diagnosis is fibrocystic change, specifically the sclerosing adenosis variant. This is supported by the proliferation of small glands embedded in a dense fibrous stroma, which is characteristic of sclerosing adenosis. The clinical history of a palpable lump and the gross findings of fibrofatty tissue with increased resistance and scattered cysts are also consistent with fibrocystic changes.\n\nDifferential diagnoses to consider include tubular carcinoma, which can also present with small, angulated tubules in a desmoplastic stroma, and microglandular adenosis, which typically lacks a myoepithelial layer. However, the presence of a myoepithelial layer in the glands seen here, along with the overall architectural pattern, favors sclerosing adenosis.",
+      "rationale": "Sample left-lower pink area for fat necrosis (lipophages, giant cells, cholesterol clefts) and acute inflammation"
+    },
+    {
+      "roi_id": "slide_A_x24576_y16384_mag2",
+      "tile_id": "slide_A_x24576_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 24576,
+      "y": 16384,
+      "level0": {
+        "x": 24576,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows breast tissue with prominent lobular hyperplasia and increased stromal fibrosis. There is also a large duct with epithelial proliferation and a focus of calcification.\n\nThe most likely diagnosis is fibrocystic changes with associated lobular hyperplasia and ductal epithelial proliferation. Differential diagnoses include fibroadenoma, which typically presents as a discrete mass, and sclerosing adenosis, which shows more pronounced stromal sclerosis and distorted glandular architecture.",
+      "rationale": "Assess central-right area with multiple small clear spaces for duct ectasia/cysts distribution."
+    },
+    {
+      "roi_id": "slide_A_x29696_y19456_mag10",
+      "tile_id": "slide_A_x29696_y19456_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 29696,
+      "y": 19456,
+      "level0": {
+        "x": 29696,
+        "y": 19456,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of small, round to oval glandular structures embedded in a dense, fibrous stroma. The glands are lined by a double layer of cells and lack a myoepithelial layer.\n\nThe most likely diagnosis is sclerosing adenosis. This benign proliferative lesion is characterized by distorted and compressed acini within a sclerotic stroma, often with a double layer of epithelial and myoepithelial cells. The absence of a myoepithelial layer in the glands seen in this image is a key feature that helps distinguish it from invasive carcinoma.",
+      "rationale": "Survey right-lower dense focus for any abscess/granulomas"
+    },
+    {
+      "roi_id": "slide_A_x16384_y12288_mag10",
+      "tile_id": "slide_A_x16384_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 16384,
+      "y": 12288,
+      "level0": {
+        "x": 16384,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cystic structure lined by pseudostratified columnar epithelium with apical cilia and goblet cells, surrounded by dense fibrous stroma and adipose tissue. The cyst lumen contains amorphous material and cellular debris.\n\nThe most likely diagnosis is a benign breast cyst with apocrine metaplasia. The presence of a cyst lined by pseudostratified columnar epithelium with apical cilia and goblet cells is characteristic of apocrine metaplasia, a common benign finding in breast cysts. The surrounding fibrous stroma and adipose tissue are also typical of breast tissue.\n\nDifferential diagnoses to consider include:\n- Fibrocystic changes: This is a broad category that includes cysts, fibrosis, and epithelial hyperplasia. The presence of apocrine metaplasia and fibrous stroma fits within this category.\n- Cystic hypersecretory hyperplasia: This is a rare benign lesion characterized by cysts filled with abundant eosinophilic secretions. While the cyst lumen contains amorphous material, the epithelial lining in this image is more consistent with apocrine metaplasia rather than the typical lining of cystic hypersecretory hyperplasia.",
+      "rationale": "Interrogate cyst lining described as ciliated; confirm apocrine/metaplasia vs papilloma."
+    },
+    {
+      "roi_id": "slide_A_x8192_y16384_mag20",
+      "tile_id": "slide_A_x8192_y16384_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 8192,
+      "y": 16384,
+      "level0": {
+        "x": 8192,
+        "y": 16384,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of small, round to oval glandular structures embedded in a dense, fibrous stroma. The glands are lined by a double layer of cells, and the stroma contains scattered chronic inflammatory cells.\n\nThe most likely diagnosis is sclerosing adenosis. This benign proliferative lesion is characterized by increased numbers of small, compressed glands within a dense, fibrous stroma, often with a double layer of epithelial and myoepithelial cells. The presence of chronic inflammation is also common.\n\nDifferential diagnoses include tubular carcinoma, which typically shows angulated, infiltrative tubules with a single layer of epithelial cells and lacks a myoepithelial layer, and fibroadenoma, which usually presents as a well-circumscribed mass with a more uniform stromal component and less prominent glandular proliferation.",
+      "rationale": "High-power on sclerosing/tubular lesion tile to verify myoepithelial layer and exclude tubular carcinoma/microglandular adenosis"
+    },
+    {
+      "roi_id": "slide_A_x30720_y12288_mag10",
+      "tile_id": "slide_A_x30720_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 30720,
+      "y": 12288,
+      "level0": {
+        "x": 30720,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows breast tissue with fibrofatty stroma and lobules containing acini filled with cells exhibiting round to oval nuclei and scant cytoplasm. The stroma is dense and fibrous with scattered chronic inflammation.\n\nThe most likely diagnosis is Lobular Carcinoma In Situ (LCIS). The key features supporting this diagnosis are the distended lobules filled with a monomorphic population of cells with round to oval nuclei and scant cytoplasm, which is characteristic of LCIS. The cells appear to fill and expand the acini without significant architectural distortion or stromal invasion.\n\nDifferential diagnoses to consider include Atypical Lobular Hyperplasia (ALH) and Ductal Carcinoma In Situ (DCIS). ALH shares similar cytologic features but involves less than 50% of the acini within a lobule. DCIS typically shows more architectural complexity and cytologic atypia, often with necrosis or calcifications, and involves ducts rather than lobules.",
+      "rationale": "Check for papillary lesion/UDH in periductal area on right mid."
+    },
+    {
+      "roi_id": "slide_A_x28672_y20480_mag20",
+      "tile_id": "slide_A_x28672_y20480_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 28672,
+      "y": 20480,
+      "level0": {
+        "x": 28672,
+        "y": 20480,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows breast tissue with prominent stromal fibrosis and scattered ducts and lobules. The ducts and lobules are lined by epithelial cells with round to oval nuclei and eosinophilic cytoplasm, and some lumens contain eosinophilic material.\n\nThe most likely diagnosis is fibrocystic change, specifically the fibrotic variant. This is supported by the prominent stromal fibrosis and the presence of scattered ducts and lobules. The clinical history of a lump, pain, and the gross findings of fibrofatty tissue with increased resistance and scattered cysts are also consistent with this diagnosis.\n\nDifferential diagnoses to consider include fibroadenoma, which typically presents as a discrete mass and shows a biphasic proliferation of both stromal and epithelial components, and sclerosing adenosis, which is characterized by increased stromal fibrosis and distorted, compressed ducts and lobules.",
+      "rationale": "High-power on gland-rich fibrous area to assess cytologic atypia, necrosis, mitoses; confirm benign double layer"
+    },
+    {
+      "roi_id": "slide_A_x4096_y2048_mag10",
+      "tile_id": "slide_A_x4096_y2048_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 4096,
+      "y": 2048,
+      "level0": {
+        "x": 4096,
+        "y": 2048,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows breast tissue with multiple lobules composed of acini lined by cells with round to oval nuclei and scant cytoplasm, embedded in fibrous stroma. The lobules vary in size and shape, with some appearing expanded.\n\nThe most likely diagnosis is fibrocystic change with lobular hyperplasia. The presence of multiple lobules with varying sizes and shapes, some appearing expanded, is consistent with lobular hyperplasia, a common finding in fibrocystic change. The fibrous stroma and scattered small cysts further support this diagnosis.\n\nDifferential diagnoses to consider include:\n- Lobular carcinoma in situ (LCIS): This would typically show a more uniform population of cells with loss of cohesion, often with intracytoplasmic vacuoles, and would lack the cystic changes seen in fibrocystic change.\n- Sclerosing adenosis: This would show distorted and compressed acini within a dense, sclerotic stroma, often with a swirling pattern, which is not the predominant feature in this image.",
+      "rationale": "Check extreme upper-left where acute inflammation/hemorrhage suggested on thumbnail for abscess/fat necrosis"
+    },
+    {
+      "roi_id": "slide_A_x9216_y4096_mag10",
+      "tile_id": "slide_A_x9216_y4096_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 9216,
+      "y": 4096,
+      "level0": {
+        "x": 9216,
+        "y": 4096,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows breast tissue with dilated ducts and acini lined by a bilayered epithelium, surrounded by fibrous stroma. There is also a prominent lymphocytic infiltrate in the stroma.\n\nThe most likely diagnosis is fibrocystic change with chronic inflammation. The dilated ducts and acini, along with the fibrous stroma, are characteristic of fibrocystic change. The prominent lymphocytic infiltrate suggests chronic inflammation.\n\nDifferential diagnoses include sclerosing adenosis, which can show increased stromal fibrosis and distorted acini, and ductal carcinoma in situ, which would show atypical epithelial proliferation within the ducts.",
+      "rationale": "Evaluate left upper lesion area for radial scar/complex sclerosing lesion pattern."
+    },
+    {
+      "roi_id": "slide_A_x7168_y9216_mag20",
+      "tile_id": "slide_A_x7168_y9216_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 7168,
+      "y": 9216,
+      "level0": {
+        "x": 7168,
+        "y": 9216,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows breast tissue with dense fibrous stroma, scattered chronic inflammation, and ducts with epithelial hyperplasia. There is no evidence of malignancy.\n\nThe most likely diagnosis is fibrocystic changes of the breast, specifically the fibrous and epithelial hyperplasia components.\n\nDifferential diagnoses include fibroadenoma, which typically presents as a discrete mass, and sclerosing adenosis, which shows more prominent stromal sclerosis and distorted glandular architecture.",
+      "rationale": "High-power on lobular hyperplasia-like focus to exclude LCIS/ALH (dyscohesion) or DCIS"
+    },
+    {
+      "roi_id": "slide_A_x12288_y12288_mag2",
+      "tile_id": "slide_A_x12288_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 12288,
+      "level0": {
+        "x": 12288,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows breast tissue with prominent fibrous stroma, scattered cysts, and areas of epithelial proliferation with papillary architecture. The stroma is dense and fibrous with scattered adipose tissue.\n\nThe most likely diagnosis is fibrocystic changes with papillary hyperplasia. Differential diagnoses include fibroadenoma, which typically presents as a discrete mass, and papilloma, which is usually a solitary lesion.",
+      "rationale": "Evaluate central stellate/hyalinized area for radial scar/complex sclerosing lesion pattern (under-sampled)."
+    },
+    {
+      "roi_id": "slide_A_x14336_y14336_mag5",
+      "tile_id": "slide_A_x14336_y14336_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 14336,
+      "y": 14336,
+      "level0": {
+        "x": 14336,
+        "y": 14336,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a large cystic structure lined by pseudostratified columnar epithelium with papillary projections, surrounded by dense fibrous stroma. Smaller ducts and lobules are also present in the surrounding tissue.\n\nThe most likely diagnosis is a large breast cyst with associated fibrosis and papillary hyperplasia.\n\nDifferential diagnoses include fibrocystic changes with papillary apocrine metaplasia and intraductal papilloma. The absence of a discrete mass and the presence of multiple cysts and fibrosis favor fibrocystic changes.",
+      "rationale": "Higher mag of same central area to look for entrapped angulated ducts, elastosis, and radiating fibrosis."
+    },
+    {
+      "roi_id": "slide_A_x15360_y10240_mag10",
+      "tile_id": "slide_A_x15360_y10240_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 15360,
+      "y": 10240,
+      "level0": {
+        "x": 15360,
+        "y": 10240,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows breast tissue with dense fibrous stroma, scattered adipocytes, and numerous small ducts and lobules. Some ducts are dilated and contain eosinophilic material, while others show epithelial proliferation with cellular crowding and stratification.\n\nThe most likely diagnosis is fibrocystic changes of the breast, specifically involving sclerosing adenosis and epithelial hyperplasia. The dense stroma, small ducts, and lobules are consistent with sclerosing adenosis, while the epithelial proliferation with crowding and stratification represents epithelial hyperplasia. The dilated ducts with eosinophilic material may represent cysts or apocrine metaplasia, which are also part of the spectrum of fibrocystic changes.\n\nDifferential diagnoses to consider include tubular carcinoma, which can mimic sclerosing adenosis due to the presence of small tubules in a fibrous stroma, and low-grade ductal carcinoma in situ (DCIS), which can show epithelial proliferation with stratification. However, tubular carcinoma typically lacks the lobular architecture and myoepithelial cells seen in sclerosing adenosis, and low-grade DCIS would show more significant architectural and cytologic atypia.",
+      "rationale": "Sample central darker stromal area between lobules for granulomas or duct ectasia-associated inflammation"
+    },
+    {
+      "roi_id": "slide_A_x12288_y4096_mag20",
+      "tile_id": "slide_A_x12288_y4096_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 12288,
+      "y": 4096,
+      "level0": {
+        "x": 12288,
+        "y": 4096,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cystic structure lined by pseudostratified columnar epithelium with apical cilia and basally oriented nuclei, surrounded by dense fibrous stroma. The epithelium forms papillary projections into the lumen.\n\nThe most likely diagnosis is a mammary duct cyst with apocrine metaplasia. The presence of a cystic structure lined by pseudostratified columnar epithelium with apical cilia and basally oriented nuclei is characteristic of apocrine metaplasia, a common benign finding in the breast. The surrounding dense fibrous stroma is also consistent with a benign process.\n\nDifferential diagnoses to consider include a fibroadenoma with apocrine metaplasia, which would typically show a more prominent stromal component and a more organized epithelial proliferation. Another possibility is a papillary lesion, such as an intraductal papilloma, which would show a more complex papillary architecture and potentially a myoepithelial layer.",
+      "rationale": "High-power on apocrine/papillary cyst lining to exclude ADH/DCIS or papilloma with atypia"
+    },
+    {
+      "roi_id": "slide_A_x12288_y16384_mag2",
+      "tile_id": "slide_A_x12288_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 16384,
+      "level0": {
+        "x": 12288,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows breast tissue with prominent fibrous stroma, scattered cysts, and areas of epithelial proliferation with papillary architecture. The epithelial cells exhibit nuclear atypia.\n\nThe most likely diagnosis is papillary carcinoma in situ. The presence of papillary structures with atypical epithelial cells within ducts is characteristic. Differential diagnoses include atypical ductal hyperplasia (ADH) and ductal carcinoma in situ (DCIS), solid or cribriform type, which can also show atypical epithelial proliferation but lack the distinct papillary architecture.",
+      "rationale": "Assess mid-left area for inflammation/abscess sequelae given prior acute inflammation."
+    },
+    {
+      "roi_id": "slide_A_x27136_y7168_mag20",
+      "tile_id": "slide_A_x27136_y7168_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 27136,
+      "y": 7168,
+      "level0": {
+        "x": 27136,
+        "y": 7168,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows mature adipose tissue with prominent fibrous septa containing scattered spindle cells and small blood vessels. There is no evidence of atypical cells or significant inflammation.\n\nThe most likely diagnosis for this single tile is fibroadenoma, specifically a fibroadenoma with prominent adipose tissue component (lipofibroadenoma). The presence of fibrous stroma and scattered spindle cells is consistent with this diagnosis. However, the absence of a discrete mass and the presence of fibrofatty tissue in the gross description suggest that this may be a component of a larger lesion, such as a hamartoma.",
+      "rationale": "High power of right upper lobular proliferation to confirm/exclude LCIS (discohesive cells) vs UDH/adenosis with intact myoepithelium."
+    },
+    {
+      "roi_id": "slide_A_x17408_y12288_mag10",
+      "tile_id": "slide_A_x17408_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 17408,
+      "y": 12288,
+      "level0": {
+        "x": 17408,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows mature adipose tissue with scattered fibrous septa and a small ductal structure. There is no evidence of malignancy or significant inflammation.\n\nThe most likely diagnosis for this single tile is normal breast tissue with fibroadipose stroma and a small ductal structure. The absence of significant inflammation, atypia, or malignancy is noted.",
+      "rationale": "Assess central region with mixed pink/purple for possible inflammation/necrosis"
+    },
+    {
+      "roi_id": "slide_A_x12288_y21504_mag20",
+      "tile_id": "slide_A_x12288_y21504_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 12288,
+      "y": 21504,
+      "level0": {
+        "x": 12288,
+        "y": 21504,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows mature adipose tissue interspersed with dense, hyalinized fibrous stroma. Scattered chronic inflammatory cells are present within the stroma.\n\nThe most likely diagnosis is fibroadenoma with prominent stromal hyalinization. The presence of dense, hyalinized stroma and mature adipose tissue is consistent with a fibroadenoma, particularly one with significant stromal changes. The scattered chronic inflammatory cells are a non-specific finding.\n\nDifferential diagnoses to consider include sclerosing adenosis, which typically shows distorted glandular structures within a sclerotic stroma, and a fibroadenoma with fat necrosis, which would show foamy macrophages and inflammatory cells within the adipose tissue.",
+      "rationale": "High-power on lymphoplasmacytic periductal inflammation to exclude associated epithelial atypia or invasive carcinoma"
+    },
+    {
+      "roi_id": "slide_A_x10240_y16384_mag5",
+      "tile_id": "slide_A_x10240_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 10240,
+      "y": 16384,
+      "level0": {
+        "x": 10240,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a proliferation of small, round to oval glandular structures embedded in a dense, fibrous stroma. The glands are lined by a double layer of cells and lack significant atypia.\n\nThe most likely diagnosis is sclerosing adenosis. This benign proliferative lesion is characterized by distorted and compressed acini within a sclerotic stroma, often mimicking malignancy. The presence of a double cell layer and lack of significant atypia are key features supporting this diagnosis.\n\nDifferential diagnoses include tubular carcinoma, which typically shows angulated tubules infiltrating the stroma, and invasive lobular carcinoma, which is characterized by single-file infiltration of cells.",
+      "rationale": "Higher mag mid-left for lymphoplasmacytic infiltrate, duct ectasia, granulomatous change."
+    },
+    {
+      "roi_id": "slide_A_x24576_y5120_mag20",
+      "tile_id": "slide_A_x24576_y5120_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 24576,
+      "y": 5120,
+      "level0": {
+        "x": 24576,
+        "y": 5120,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows fibrofatty tissue with prominent fibrous septa and scattered chronic inflammatory cells. A small blood vessel is also present.\n\nThe most likely diagnosis is fibrocystic change of the breast. This is supported by the presence of fibrofatty tissue, fibrous septa, and chronic inflammation, which are common findings in fibrocystic change. The clinical history of a lump, pain, and the gross description of scattered small cysts and hypertrophied lobules further support this diagnosis.\n\nDifferential diagnoses to consider include fibroadenoma, which typically presents as a discrete mass, and phyllodes tumor, which would show a biphasic pattern with stromal overgrowth.",
+      "rationale": "High power in right-upper quadrant away from cyst to look for lobulocentric inflammation"
+    },
+    {
+      "roi_id": "slide_A_x28160_y20480_mag20",
+      "tile_id": "slide_A_x28160_y20480_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 28160,
+      "y": 20480,
+      "level0": {
+        "x": 28160,
+        "y": 20480,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows breast tissue with prominent stromal fibrosis and scattered lobules exhibiting increased cellularity and acinar proliferation. The acini are lined by cells with round to oval nuclei and moderate cytoplasm, often with visible lumens.\n\nThe most likely diagnosis is fibrocystic change with adenosis. The combination of stromal fibrosis and lobular proliferation with increased acinar units is characteristic of this benign condition. The clinical history of a palpable lump and pain, along with the gross findings of fibrofatty tissue and cysts, further supports this diagnosis.\n\nDifferential diagnoses to consider include sclerosing adenosis and tubular adenoma. Sclerosing adenosis also shows increased acinar proliferation and stromal fibrosis, but typically with more prominent stromal sclerosis and distortion of the acini. Tubular adenoma is a benign neoplasm characterized by a well-circumscribed proliferation of tubules, which is not evident in this image.",
+      "rationale": "High power of right lower lobulocentric lesion to evaluate sclerosing adenosis vs lobular neoplasia; look for acini compression, myoepithelium, basement membrane."
+    },
+    {
+      "roi_id": "slide_A_x20480_y20480_mag2",
+      "tile_id": "slide_A_x20480_y20480_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 20480,
+      "y": 20480,
+      "level0": {
+        "x": 20480,
+        "y": 20480,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows breast tissue with prominent stromal fibrosis and scattered cystic spaces. There is also a focus of increased cellularity with small, crowded glands.\n\nThe most likely diagnosis is sclerosing adenosis. This is supported by the presence of increased cellularity with small, crowded glands embedded in a fibrotic stroma, which can mimic malignancy.\n\nDifferential diagnoses include tubular carcinoma, which typically shows angulated tubules infiltrating the stroma, and microglandular adenosis, which lacks a myoepithelial layer.",
+      "rationale": "Sample lower-central/right interface where pale fibrosis meets darker lobules; check for discrete lesion edge."
+    },
+    {
+      "roi_id": "slide_A_x14336_y21504_mag10",
+      "tile_id": "slide_A_x14336_y21504_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 14336,
+      "y": 21504,
+      "level0": {
+        "x": 14336,
+        "y": 21504,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows breast tissue with lobules embedded in fibrous stroma and adipose tissue, along with a large cystic space. The lobules appear increased in number and size, with some acini showing increased cellularity.\n\nThe most likely diagnosis is lobular hyperplasia. This is supported by the increased number and size of lobules and acini, along with the clinical history of a palpable lump and pain.\n\nDifferential diagnoses include fibroadenoma, which typically presents as a discrete mass with a biphasic pattern of stromal and epithelial proliferation, and sclerosing adenosis, which shows distorted acini within a sclerotic stroma.",
+      "rationale": "Lower-central area with adipose and fibrosis—look for fat necrosis/lipogranulomas"
+    },
+    {
+      "roi_id": "slide_A_x16384_y11776_mag20",
+      "tile_id": "slide_A_x16384_y11776_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 16384,
+      "y": 11776,
+      "level0": {
+        "x": 16384,
+        "y": 11776,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cystic structure lined by pseudostratified columnar epithelium with apical cilia and basally oriented nuclei, surrounded by dense fibrous stroma and adipose tissue. The epithelial lining shows some nuclear crowding and stratification.\n\nThe most likely diagnosis is a benign breast cyst. The presence of a cystic structure lined by benign-appearing epithelium with cilia and the absence of significant cellular atypia or proliferative changes support this diagnosis. Differential diagnoses could include a fibrocystic change with apocrine metaplasia, although the prominent cilia are more characteristic of a simple cyst.",
+      "rationale": "High power cyst lining to characterize metaplasia (apocrine/ciliated) and rule out papillary lesion."
+    },
+    {
+      "roi_id": "slide_A_x12288_y16384_mag10",
+      "tile_id": "slide_A_x12288_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 12288,
+      "y": 16384,
+      "level0": {
+        "x": 12288,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows dense fibrous stroma with scattered adipocytes and a prominent nerve bundle. There is also a ductal structure with epithelial cells exhibiting some nuclear pleomorphism and hyperchromasia.\n\nThe most likely diagnosis for this single tile is fibroadenoma with associated epithelial atypia. The dense fibrous stroma and scattered adipocytes are consistent with a fibroadenoma, while the ductal epithelial changes suggest atypia. Differential diagnoses include fibrocystic changes with atypia or a phyllodes tumor, which would require evaluation of the overall lesion architecture and stromal cellularity.",
+      "rationale": "Sample central fibrous area for radial scar/complex sclerosing lesion features (stellate fibrosis, entrapped glands, elastosis)."
+    },
+    {
+      "roi_id": "slide_A_x11264_y12288_mag10",
+      "tile_id": "slide_A_x11264_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 11264,
+      "y": 12288,
+      "level0": {
+        "x": 11264,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows fibrofatty tissue with dense, hyalinized collagen bundles and scattered mature adipocytes. There is a mild chronic inflammatory infiltrate and small blood vessels.\n\nThe most likely diagnosis is fibroadenoma, specifically a fibroadenoma with prominent stromal hyalinization. The differential diagnosis includes sclerosing adenosis, which typically shows more prominent glandular proliferation and stromal sclerosis, and a phyllodes tumor, which would exhibit leaf-like architecture and increased stromal cellularity.",
+      "rationale": "Explore mid-central unreviewed stromal area to exclude focal granulomatous inflammation/abscess"
+    },
+    {
+      "roi_id": "slide_A_x20480_y10240_mag5",
+      "tile_id": "slide_A_x20480_y10240_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 20480,
+      "y": 10240,
+      "level0": {
+        "x": 20480,
+        "y": 10240,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows breast tissue with fibrofatty stroma, cystic spaces, and lobules with increased cellularity and architectural distortion. The cells within the lobules are relatively uniform with round nuclei and scant cytoplasm.\n\nThe most likely diagnosis is Lobular Carcinoma In Situ (LCIS). The key features supporting this diagnosis are the increased cellularity and architectural distortion within the lobules, composed of relatively uniform cells with round nuclei and scant cytoplasm. The cells appear to fill and expand the acini without significant pleomorphism or necrosis.\n\nDifferential diagnoses include Atypical Lobular Hyperplasia (ALH) and Ductal Carcinoma In Situ (DCIS). ALH shares similar cytologic features but involves less than 50% of the acini in a lobule. DCIS typically shows more significant architectural patterns (e.g., cribriform, micropapillary) and often has more pleomorphic cells.",
+      "rationale": "Search mid-central for any circumscribed biphasic nodule suggestive of fibroadenoma/phyllodes."
+    },
+    {
+      "roi_id": "slide_A_x11776_y12800_mag20",
+      "tile_id": "slide_A_x11776_y12800_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 11776,
+      "y": 12800,
+      "level0": {
+        "x": 11776,
+        "y": 12800,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows dense, hyalinized fibrous stroma with scattered mature adipocytes and spindle-shaped fibroblasts. There is no evidence of epithelial proliferation or malignancy.\n\nThe most likely diagnosis for this single tile is fibroadenoma, specifically a fibroadenoma with prominent stromal hyalinization. The dense fibrous stroma and scattered adipocytes are consistent with this diagnosis. However, the absence of epithelial elements in this field makes it difficult to definitively diagnose fibroadenoma based solely on this image. Other possibilities include a fibrous hamartoma or a scar, but these are less likely given the clinical context of a palpable mass.",
+      "rationale": "High power in same mid-central zone for epithelioid histiocytes/giant cells/neutrophils"
+    },
+    {
+      "roi_id": "slide_A_x25600_y14336_mag10",
+      "tile_id": "slide_A_x25600_y14336_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 25600,
+      "y": 14336,
+      "level0": {
+        "x": 25600,
+        "y": 14336,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of small, uniform cells arranged in nests and cords within a fibrous stroma. The cells have round to oval nuclei and scant cytoplasm, with some nests showing small central lumens.\n\nThe most likely diagnosis is Lobular Carcinoma In Situ (LCIS). The proliferation of small, uniform cells in nests and cords, often with a lack of cohesion, is characteristic of LCIS. The cells typically have round to oval nuclei and scant cytoplasm, and the nests may show small central lumens. The absence of a discrete mass and the presence of scattered small cysts are also consistent with LCIS.\n\nDifferential diagnoses include Atypical Lobular Hyperplasia (ALH) and Ductal Carcinoma In Situ (DCIS). ALH shares similar cytologic features but involves less than 50% of the acini in a lobule. DCIS typically shows more architectural patterns (e.g., cribriform, solid) and often has more pleomorphic cells.",
+      "rationale": "Explore mid-right purple region not yet sampled for inflammatory foci"
+    },
+    {
+      "roi_id": "slide_A_x26112_y13824_mag20",
+      "tile_id": "slide_A_x26112_y13824_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 26112,
+      "y": 13824,
+      "level0": {
+        "x": 26112,
+        "y": 13824,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of small, uniform cells with round nuclei and scant cytoplasm arranged in nests and cords within a fibrous stroma. The cells fill and expand the acini of the lobules.\n\nThe most likely diagnosis is Lobular Carcinoma In Situ (LCIS).\n\nDifferential diagnoses include:\n- Atypical Lobular Hyperplasia (ALH): Similar cytology but less extensive involvement of the lobules.\n- Ductal Carcinoma In Situ (DCIS), solid type: Typically shows more pleomorphism and architectural patterns like cribriform or micropapillary.",
+      "rationale": "High power mid-right to assess for granulomas/organisms/necrosis"
+    },
+    {
+      "roi_id": "slide_A_x21504_y20480_mag10",
+      "tile_id": "slide_A_x21504_y20480_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 21504,
+      "y": 20480,
+      "level0": {
+        "x": 21504,
+        "y": 20480,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a transition from adipose tissue to dense fibrous stroma containing scattered ducts and lobules. There is a prominent chronic inflammatory infiltrate, particularly around the ducts and lobules.\n\nThe most likely diagnosis is fibrocystic change with chronic inflammation. The presence of dense fibrous stroma, scattered ducts and lobules, and chronic inflammation are characteristic features. The clinical history of a lump, pain, and the gross findings of fibrofatty tissue with increased resistance and scattered cysts further support this diagnosis.\n\nDifferential diagnoses to consider include sclerosing adenosis, which can present with dense stroma and distorted ducts, and a fibroadenoma, which typically presents as a discrete mass. However, the lack of a discrete mass and the presence of chronic inflammation favor fibrocystic change.",
+      "rationale": "Explore lower-right region around cystic spaces for duct ectasia/periductal inflammation"
+    },
+    {
+      "roi_id": "slide_A_x21504_y20480_mag20",
+      "tile_id": "slide_A_x21504_y20480_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 21504,
+      "y": 20480,
+      "level0": {
+        "x": 21504,
+        "y": 20480,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows dense, hyalinized fibrous stroma with scattered spindle cells and entrapped adipocytes. There is also a mild chronic inflammatory infiltrate.\n\nThe most likely diagnosis is fibroadenoma, specifically a sclerosing fibroadenoma given the dense stromal hyalinization. A fibroadenoma is a benign biphasic tumor of the breast composed of both stromal and epithelial elements. The sclerosing variant is characterized by prominent stromal hyalinization and fibrosis, which can entrap adipocytes and epithelial elements, leading to a firm, rubbery consistency. The clinical presentation of a firm, rubbery, freely movable mass in a young woman is also consistent with fibroadenoma.\n\nDifferential diagnoses to consider include:\n- Sclerosing adenosis: This benign proliferative lesion also shows stromal sclerosis and entrapped glands, but typically has a more lobulocentric pattern and lacks the well-circumscribed nature of a fibroadenoma.\n- Phyllodes tumor: This is a fibroepithelial neoplasm that can have a similar biphasic appearance but is distinguished by stromal overgrowth, increased cellularity, and often leaf-like architecture, which are not seen in this image.",
+      "rationale": "High power of chronic periductal/lobular inflammation area—assess for plasma cells, neutrophils, granulomas"
+    },
+    {
+      "roi_id": "slide_A_x23552_y22528_mag10",
+      "tile_id": "slide_A_x23552_y22528_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 23552,
+      "y": 22528,
+      "level0": {
+        "x": 23552,
+        "y": 22528,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows breast tissue with prominent fibrous stroma and scattered lobules. Some lobules exhibit increased cellularity and distorted acini, while others appear atrophic. A large duct is also present.\n\nThe most likely diagnosis is fibrocystic changes of the breast, specifically the sclerosing variant. This is supported by the presence of fibrous stroma, scattered cysts, and distorted lobules.\n\nDifferential diagnoses include sclerosing adenosis, which can show similar distorted lobules and increased cellularity, and a fibroadenoma, which typically presents as a well-circumscribed mass with a biphasic pattern of stromal and epithelial proliferation.",
+      "rationale": "Sample far lower-right edge region not yet reviewed for fat necrosis or abscess"
+    },
+    {
+      "roi_id": "slide_A_x17408_y22528_mag10",
+      "tile_id": "slide_A_x17408_y22528_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 17408,
+      "y": 22528,
+      "level0": {
+        "x": 17408,
+        "y": 22528,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows dense, hyalinized fibrous stroma with scattered spindle cells and small blood vessels. Adipose tissue is also present.\n\nThe most likely diagnosis for this single tile is fibroadenoma, given the dense fibrous stroma and scattered spindle cells. However, the clinical history and gross findings suggest a more complex lesion, such as a fibroadenoma with associated changes or a complex fibroadenoma.",
+      "rationale": "Sample inferior central region unreviewed for lipogranulomas/fat necrosis"
+    },
+    {
+      "roi_id": "slide_A_x3072_y12288_mag10",
+      "tile_id": "slide_A_x3072_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 3072,
+      "y": 12288,
+      "level0": {
+        "x": 3072,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows breast tissue with expanded lobules containing a proliferation of small, uniform cells with round nuclei and scant cytoplasm, filling and distending the acini. The surrounding stroma is dense and fibrous.\n\nThe most likely diagnosis is Lobular Carcinoma In Situ (LCIS). The key features supporting this diagnosis are the expanded lobules filled with a monotonous population of small, uniform cells with round nuclei and scant cytoplasm, which distend the acini. The cells lack significant pleomorphism or mitotic activity. The surrounding stroma is dense and fibrous, which is a common finding in LCIS.\n\nDifferential diagnoses to consider include Atypical Lobular Hyperplasia (ALH) and Ductal Carcinoma In Situ (DCIS). ALH is characterized by a similar proliferation of small, uniform cells but involves less than 50% of the acini within a lobule. DCIS typically shows more cellular pleomorphism, architectural patterns such as cribriform or micropapillary, and often has necrosis or calcifications, which are not seen in this image.",
+      "rationale": "Sample mid-left region unreviewed for inflammatory foci"
+    },
+    {
+      "roi_id": "slide_A_x32768_y12288_mag10",
+      "tile_id": "slide_A_x32768_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 32768,
+      "y": 12288,
+      "level0": {
+        "x": 32768,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows breast tissue with expanded lobules filled by a proliferation of relatively uniform cells with round nuclei and scant cytoplasm, separated by fibrous stroma. The adjacent tissue is fibrofatty with scattered small cysts.\n\nThe most likely diagnosis is Lobular Carcinoma In Situ (LCIS). The key features supporting this diagnosis are the expanded lobules filled with a monomorphic population of cells exhibiting round nuclei and scant cytoplasm, which is characteristic of LCIS. The cells appear discohesive, a feature often seen in LCIS due to loss of E-cadherin expression. The surrounding fibrous stroma and the presence of small cysts in the adjacent fibrofatty tissue are also consistent with this diagnosis.\n\nDifferential diagnoses to consider include Atypical Lobular Hyperplasia (ALH) and Ductal Carcinoma In Situ (DCIS). ALH shares similar cytologic features but involves less than 50% of the acini within a lobule. DCIS typically shows more architectural patterns (e.g., cribriform, solid, micropapillary) and often has more pleomorphic cells. Immunohistochemistry for E-cadherin would be helpful to confirm the diagnosis, as LCIS typically shows loss of E-cadherin expression.",
+      "rationale": "Sample far right mid region unreviewed for inflammation/granulomas"
+    },
+    {
+      "roi_id": "slide_A_x20480_y4096_mag5",
+      "tile_id": "slide_A_x20480_y4096_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 20480,
+      "y": 4096,
+      "level0": {
+        "x": 20480,
+        "y": 4096,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cystic structure lined by pseudostratified columnar epithelium with apical cilia and goblet cells, surrounded by fibrofatty tissue. Adjacent breast tissue contains ducts and lobules.\n\nThe most likely diagnosis is a mammary duct cyst. The presence of a cystic structure lined by pseudostratified columnar epithelium with cilia and goblet cells is characteristic of a duct cyst. The surrounding fibrofatty tissue and adjacent breast tissue with ducts and lobules are consistent with breast parenchyma.\n\nDifferential diagnoses include:\n- Fibrocystic changes: This is a common benign condition characterized by cysts, fibrosis, and epithelial hyperplasia. The presence of multiple small cysts in the gross description supports this possibility.\n- Cystic hypersecretory hyperplasia: This is a rare benign condition characterized by cysts lined by columnar epithelium with abundant eosinophilic secretions. The absence of significant secretions in this image makes this less likely.",
+      "rationale": "Revisit large cyst/duct ectasia region at intermediate power to find any periductal inflammatory cuffing"
+    },
+    {
+      "roi_id": "slide_A_x20992_y5120_mag20",
+      "tile_id": "slide_A_x20992_y5120_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20992,
+      "y": 5120,
+      "level0": {
+        "x": 20992,
+        "y": 5120,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows mature adipose tissue with scattered fibrous stroma and small blood vessels. There is no evidence of malignancy or significant inflammation.\n\nThe most likely diagnosis for this single tile is normal breast tissue with fibrofatty changes. The absence of significant inflammation or malignancy in this field is consistent with the clinical history of a lump that subsided without treatment.",
+      "rationale": "High power periductal area around cyst to assess for plasma cells/foamy histiocytes"
+    },
+    {
+      "roi_id": "slide_A_x18432_y16384_mag5",
+      "tile_id": "slide_A_x18432_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 18432,
+      "y": 16384,
+      "level0": {
+        "x": 18432,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cystic structure lined by flattened to cuboidal epithelium, surrounded by dense fibrous stroma with scattered chronic inflammation and adipose tissue. The cyst lumen contains amorphous material.\n\nThe most likely diagnosis is a simple breast cyst. Differential diagnoses include fibrocystic changes, which would show more prominent stromal fibrosis and epithelial hyperplasia, and a fibroadenoma, which would have a more cellular stromal component.",
+      "rationale": "Scan central-lower region with multiple cystic spaces for duct ectasia and inflammation"
+    },
+    {
+      "roi_id": "slide_A_x17920_y15872_mag20",
+      "tile_id": "slide_A_x17920_y15872_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 17920,
+      "y": 15872,
+      "level0": {
+        "x": 17920,
+        "y": 15872,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows dense fibrous stroma with scattered spindle cells and small blood vessels. There is also a mild chronic inflammatory infiltrate and scattered dark granular material.\n\nThe most likely diagnosis for this single tile is fibrocystic changes of the breast, specifically the fibrous component. The dense fibrous stroma and scattered spindle cells are consistent with this diagnosis. The mild chronic inflammation and dark granular material may represent hemosiderin from prior hemorrhage or other benign changes.\n\nDifferential diagnoses to consider include fibroadenoma, which typically shows a more organized stromal and epithelial proliferation, and sclerosing adenosis, which would show distorted and compressed glandular structures within the fibrous stroma.",
+      "rationale": "High power on any periductal inflammation in central-lower cystic region"
+    },
+    {
+      "roi_id": "slide_A_x6144_y6144_mag5",
+      "tile_id": "slide_A_x6144_y6144_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 6144,
+      "y": 6144,
+      "level0": {
+        "x": 6144,
+        "y": 6144,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a proliferation of small, uniform cells filling and expanding lobular units, with some areas showing a solid growth pattern. The cells have round nuclei and scant cytoplasm, and the surrounding stroma is dense and fibrous.\n\nThe most likely diagnosis is Lobular Carcinoma In Situ (LCIS). The key features supporting this diagnosis are the proliferation of small, uniform cells filling and expanding the lobular units, often with a solid growth pattern, and the characteristic dense, fibrous stroma. The cells have round nuclei and scant cytoplasm, which is typical for LCIS.\n\nDifferential diagnoses to consider include Atypical Lobular Hyperplasia (ALH) and Ductal Carcinoma In Situ (DCIS). ALH is similar to LCIS but involves less than 50% of the acini in a lobule. DCIS typically shows more architectural patterns (cribriform, micropapillary, solid) and often has more pleomorphic cells with higher nuclear grade.",
+      "rationale": "Scan left-upper cyst/lobule region for periductal mastitis pattern"
+    },
+    {
+      "roi_id": "slide_A_x30720_y12288_mag20",
+      "tile_id": "slide_A_x30720_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 30720,
+      "y": 12288,
+      "level0": {
+        "x": 30720,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of small, uniform cells with round nuclei and scant cytoplasm, arranged in nests and cords within a dense fibrous stroma. The cells exhibit a discohesive pattern.\n\nThe most likely diagnosis is Lobular Carcinoma In Situ (LCIS).\n\nDifferential diagnoses include:\n- Ductal Carcinoma In Situ (DCIS), particularly solid or cribriform types, which typically show more cohesive cells and often have more pleomorphism and necrosis.\n- Atypical Lobular Hyperplasia (ALH), which shares similar cytologic features but involves less than 50% of the acini in a lobule.",
+      "rationale": "Evaluate suspicious solid/cribriform epithelial proliferation vs UDH/ADH/DCIS/LCIS."
+    },
+    {
+      "roi_id": "slide_A_x28672_y8192_mag20",
+      "tile_id": "slide_A_x28672_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 28672,
+      "y": 8192,
+      "level0": {
+        "x": 28672,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows breast tissue with dense fibrous stroma and adipose tissue, along with lobules containing acini filled with cells exhibiting round to oval nuclei and moderate cytoplasm. The lobules appear expanded and distorted by the surrounding stroma.\n\nThe most likely diagnosis is fibrocystic change with lobular hyperplasia. The presence of dense fibrous stroma, adipose tissue, and lobules with increased cellularity and distortion are characteristic features. The clinical history of a lump and pain, along with the gross findings of fibrofatty tissue and cysts, further support this diagnosis.\n\nDifferential diagnoses to consider include fibroadenoma, which typically presents as a discrete mass with a biphasic pattern of stromal and epithelial proliferation, and sclerosing adenosis, which shows increased acini and stromal sclerosis but usually with more prominent distortion and compression of the acini.",
+      "rationale": "High-power cytology of expanded TDLU/ducts in right upper area."
+    },
+    {
+      "roi_id": "slide_A_x24576_y16384_mag20",
+      "tile_id": "slide_A_x24576_y16384_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 24576,
+      "y": 16384,
+      "level0": {
+        "x": 24576,
+        "y": 16384,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of small, uniform cells with round nuclei and scant cytoplasm arranged in nests and cords within a fibrous stroma. The cells exhibit a solid growth pattern with some areas showing small lumens.\n\nThe most likely diagnosis is Lobular Carcinoma In Situ (LCIS).\n\nDifferential diagnoses include:\n- Atypical Lobular Hyperplasia (ALH): Similar cytology and growth pattern, but typically involves less than 50% of acini in a lobule.\n- Ductal Carcinoma In Situ (DCIS), solid type: Usually shows more pleomorphism, larger cells, and often forms more distinct ductal structures.",
+      "rationale": "Assess lobular expansion area; look for discohesive cells, pagetoid spread, necrosis."
+    },
+    {
+      "roi_id": "slide_A_x6656_y9216_mag20",
+      "tile_id": "slide_A_x6656_y9216_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 6656,
+      "y": 9216,
+      "level0": {
+        "x": 6656,
+        "y": 9216,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows breast tissue with dense fibrous stroma and scattered small ducts and lobules. A large cystic space is lined by flattened to cuboidal epithelium. The stroma contains scattered chronic inflammatory cells.\n\nThe morphologic features are consistent with fibrocystic changes of the breast. The presence of dense stroma, small ducts and lobules, and a large cyst are characteristic findings. The scattered chronic inflammation is also commonly seen in fibrocystic changes. The clinical history of a lump, pain, and the gross findings of fibrofatty tissue with cysts and hypertrophied lobules further support this diagnosis.",
+      "rationale": "Check hypercellular foci for atypia; confirm benign hyperplasia vs in situ carcinoma."
+    },
+    {
+      "roi_id": "slide_A_x10240_y16384_mag20",
+      "tile_id": "slide_A_x10240_y16384_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 10240,
+      "y": 16384,
+      "level0": {
+        "x": 10240,
+        "y": 16384,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of small, round to oval glandular structures embedded in a dense, fibrous stroma. The glands are lined by a double layer of cells, and some contain eosinophilic luminal material.\n\nThe most likely diagnosis is sclerosing adenosis. This benign proliferative lesion is characterized by increased numbers of small, compressed acini within a dense, sclerotic stroma, often with a preserved myoepithelial layer. The presence of a double cell layer lining the glands is a key feature distinguishing it from invasive carcinoma.\n\nDifferential diagnoses include tubular carcinoma, which typically shows angulated tubules infiltrating the stroma without a myoepithelial layer, and microglandular adenosis, which lacks a myoepithelial layer and often has a more infiltrative pattern.",
+      "rationale": "Confirm sclerosing adenosis vs tubular carcinoma: myoepithelial layer, architecture."
+    }
+  ]
+}

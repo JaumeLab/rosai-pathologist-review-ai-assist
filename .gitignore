@@ -1,0 +1,7 @@
+.DS_Store
+*.log
+backend/.venv/
+backend/data/
+backend/__pycache__/
+backend/reviewer_passcodes.env
+backend/reviewer_passcodes.txt

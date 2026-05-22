@@ -1,0 +1,1422 @@
+{
+  "case_id": "sem1452_case3",
+  "source": "slideseek-ai-assist",
+  "model": "gpt-5.4",
+  "generated_at": "2026-05-22T09:25:51.117792+00:00",
+  "organ": "Bone-Soft Tissue",
+  "primary_dx": "Spindle Cell / Embryonal Rhabdomyosarcoma",
+  "differential_dx": [
+    "Leiomyosarcoma",
+    "MPNST With Heterologous Rhabdomyoblastic Differentiation"
+  ],
+  "microscopic_findings": [
+    {
+      "text": "Hypercellular malignant spindle-cell proliferation forms intersecting **fascicles** and **whorls** with elongated hyperchromatic nuclei.",
+      "roi_ids": [
+        "slide_A_x20480_y16384_mag10",
+        "slide_A_x19968_y15872_mag20"
+      ]
+    },
+    {
+      "text": "Scattered large **rhabdomyoblast-like cells** show abundant dense eosinophilic cytoplasm and **eccentric nuclei** amid the spindle tumor.",
+      "roi_ids": [
+        "slide_A_x11776_y8192_mag20",
+        "slide_A_x12288_y8192_mag10"
+      ]
+    },
+    {
+      "text": "Occasional **strap cells** and **multinucleated pleomorphic cells** support skeletal muscle differentiation despite absent definite…",
+      "roi_ids": [
+        "slide_A_x14336_y20480_mag20",
+        "slide_A_x40960_y12288_mag10"
+      ]
+    },
+    {
+      "text": "Tumor shows focal **myxoid/hyalinized stroma** with **necrosis/hemorrhage**, without alveolar spaces or small round blue cell sheets.",
+      "roi_ids": [
+        "slide_A_x22528_y8192_mag20",
+        "slide_A_x4096_y16384_mag2"
+      ]
+    }
+  ],
+  "interpretation": "The lesion is best classified as **spindle cell / embryonal rhabdomyosarcoma** based on a malignant **fascicular spindle-cell proliferation** admixed with conspicuous **rhabdomyoblasts/strap cells** showing dense eosinophilic cytoplasm. The absence of an alveolar or diffuse small round blue cell pattern supports placement in the spindle cell/embryonal spectrum. **Leiomyosarcoma** and **malignant Triton tumor** remain considerations for a spindle sarcoma with eosinophilic cells, but the morphologically evident rhabdomyoblastic differentiation and lack of convincing nerve sheath features favor **rhabdomyosarcoma**.",
+  "num_rois": 86,
+  "tiles": [
+    {
+      "roi_id": "slide_A_x20480_y16384_mag2",
+      "tile_id": "slide_A_x20480_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 20480,
+      "y": 16384,
+      "level0": {
+        "x": 20480,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with areas of myxoid change and scattered larger cells. The tumor is well-encapsulated and infiltrates surrounding structures.\n\nThe most likely diagnosis is a malignant mesenchymal neoplasm, such as a rhabdomyosarcoma, given the patient's age and the aggressive clinical course with metastasis.\n\nDifferential diagnoses include other spindle cell sarcomas like leiomyosarcoma or fibrosarcoma, which can be distinguished by immunohistochemical staining for muscle markers (e.g., desmin, myogenin) or other lineage-specific markers.",
+      "rationale": "Low-power orientation; identify viable vs necrotic zones."
+    },
+    {
+      "roi_id": "slide_A_x24576_y16384_mag1",
+      "tile_id": "slide_A_x24576_y16384_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 24576,
+      "y": 16384,
+      "level0": {
+        "x": 24576,
+        "y": 16384,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with areas of myxoid change and cystic degeneration. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a malignant mesenchymal neoplasm, such as a rhabdomyosarcoma, given the spindle cell morphology and aggressive clinical course.\n\nDifferential diagnoses include other spindle cell sarcomas like leiomyosarcoma or fibrosarcoma, which can be distinguished by specific immunohistochemical markers (e.g., desmin, myogenin for rhabdomyosarcoma; smooth muscle actin for leiomyosarcoma).",
+      "rationale": "Low-power overview of central tumor to assess architecture/necrosis"
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag1",
+      "tile_id": "slide_A_x8192_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a cellular neoplasm with a prominent fascicular and whorled growth pattern. The cells are spindle-shaped with elongated nuclei and eosinophilic cytoplasm, arranged in intersecting bundles and whorls.\n\nThe most likely diagnosis is a malignant mesenchymal neoplasm, such as a rhabdomyosarcoma, given the patient's age and the aggressive clinical course with metastasis.\n\nDifferential diagnoses include other spindle cell sarcomas like leiomyosarcoma or fibrosarcoma, which can have similar fascicular patterns but typically show different cellular morphology and immunohistochemical profiles.",
+      "rationale": "Survey left-upper portion for capsule, hemorrhage, or different pattern"
+    },
+    {
+      "roi_id": "slide_A_x20480_y8192_mag2",
+      "tile_id": "slide_A_x20480_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 20480,
+      "y": 8192,
+      "level0": {
+        "x": 20480,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with areas of stromal hyalinization and myxoid change. Scattered larger cells with eosinophilic cytoplasm are also present.\n\nThe morphologic features are consistent with a malignant mesenchymal neoplasm. Given the clinical context of a young child with a rapidly growing abdominal mass and metastatic disease, a diagnosis of embryonal rhabdomyosarcoma is strongly considered.\n\nDifferential diagnoses include other spindle cell sarcomas such as leiomyosarcoma or fibrosarcoma, which would typically lack the characteristic rhabdomyoblasts and would require immunohistochemical studies for definitive classification.",
+      "rationale": "Sample superior central tumor for lobulation, stroma, necrosis."
+    },
+    {
+      "roi_id": "slide_A_x12288_y8192_mag2",
+      "tile_id": "slide_A_x12288_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 8192,
+      "level0": {
+        "x": 12288,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular neoplasm composed of a mixture of spindle cells and larger, pleomorphic cells with abundant eosinophilic cytoplasm, some resembling rhabdomyoblasts. The tumor is arranged in fascicles and sheets with areas of necrosis and hemorrhage.\n\nThe most likely diagnosis is embryonal rhabdomyosarcoma, given the presence of rhabdomyoblast-like cells and the clinical context of a rapidly growing mass in a young child.\n\nDifferential diagnoses include other small round blue cell tumors such as neuroblastoma or Ewing sarcoma, which can be distinguished by immunohistochemistry (e.g., desmin, myogenin for rhabdomyosarcoma; synaptophysin, chromogranin for neuroblastoma; CD99 for Ewing sarcoma).",
+      "rationale": "Survey upper-left portion for different growth patterns."
+    },
+    {
+      "roi_id": "slide_A_x32768_y8192_mag1",
+      "tile_id": "slide_A_x32768_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 32768,
+      "y": 8192,
+      "level0": {
+        "x": 32768,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with areas of hyalinization and myxoid change. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a malignant spindle cell neoplasm, such as a sarcoma.\n\nDifferential diagnoses include leiomyosarcoma, which typically shows intersecting fascicles of spindle cells with blunt-ended nuclei, and malignant peripheral nerve sheath tumor, which can have a similar spindle cell morphology but often shows more nuclear pleomorphism and may have areas of necrosis or myxoid change.",
+      "rationale": "Survey right-upper portion for stromal reaction/desmoplasia or bone interface"
+    },
+    {
+      "roi_id": "slide_A_x12288_y20480_mag2",
+      "tile_id": "slide_A_x12288_y20480_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 20480,
+      "level0": {
+        "x": 12288,
+        "y": 20480,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with areas of hyalinization and myxoid change. The cells have elongated, wavy nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a malignant peripheral nerve sheath tumor (MPNST).\n\nDifferential diagnoses include leiomyosarcoma, which typically shows more prominent eosinophilic cytoplasm and blunt-ended nuclei, and fibrosarcoma, which often has a herringbone pattern and less prominent myxoid change.",
+      "rationale": "Sample left-central area where texture appears heterogeneous for architecture."
+    },
+    {
+      "roi_id": "slide_A_x32768_y8192_mag2",
+      "tile_id": "slide_A_x32768_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 32768,
+      "y": 8192,
+      "level0": {
+        "x": 32768,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with areas of myxoid change and scattered larger cells. The tumor is well-encapsulated and infiltrates surrounding structures.\n\nThe most likely diagnosis is a malignant mesenchymal neoplasm, such as a rhabdomyosarcoma, given the patient's age and the aggressive clinical course with metastasis.\n\nDifferential diagnoses include other spindle cell sarcomas like leiomyosarcoma or fibrosarcoma, which can be distinguished by immunohistochemical staining for muscle markers (e.g., desmin, myogenin) and other lineage-specific markers.",
+      "rationale": "Survey upper-right portion; look for capsule/bone interface."
+    },
+    {
+      "roi_id": "slide_A_x32768_y20480_mag2",
+      "tile_id": "slide_A_x32768_y20480_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 32768,
+      "y": 20480,
+      "level0": {
+        "x": 32768,
+        "y": 20480,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with areas of hyalinization and scattered larger cells. The tumor is well-circumscribed and encapsulated.\n\nThe most likely diagnosis is a rhabdomyosarcoma, specifically the embryonal subtype, given the patient's age and the morphologic features of spindle cells and scattered larger cells.\n\nDifferential diagnoses include other spindle cell sarcomas such as leiomyosarcoma or fibrosarcoma, which can be distinguished by their characteristic cellular morphology and immunohistochemical profile.",
+      "rationale": "Sample right-central/peripheral area; assess capsule/periphery and stromal bands."
+    },
+    {
+      "roi_id": "slide_A_x8192_y32768_mag1",
+      "tile_id": "slide_A_x8192_y32768_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 8192,
+      "y": 32768,
+      "level0": {
+        "x": 8192,
+        "y": 32768,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a cellular proliferation of spindle-shaped cells arranged in intersecting fascicles and whorls, with areas of hyalinization and cystic change. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a malignant mesenchymal neoplasm, such as a sarcoma. Given the patient's age and the location, a rhabdomyosarcoma is a strong consideration.\n\nDifferential diagnoses include other spindle cell sarcomas like leiomyosarcoma or fibrosarcoma, and benign entities like leiomyoma or fibroma, although the cellularity and clinical context favor a malignant process.",
+      "rationale": "Survey left-lower portion for necrosis/vascular invasion"
+    },
+    {
+      "roi_id": "slide_A_x12288_y28672_mag2",
+      "tile_id": "slide_A_x12288_y28672_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 28672,
+      "level0": {
+        "x": 12288,
+        "y": 28672,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with areas of stromal hyalinization and myxoid change. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a malignant mesenchymal neoplasm, such as a rhabdomyosarcoma, given the spindle cell morphology and the clinical context of a rapidly growing mass in a young child.\n\nDifferential diagnoses include other spindle cell sarcomas like leiomyosarcoma or fibrosarcoma, and benign entities like leiomyoma or fibroma, which would typically show less cellularity, atypia, and mitotic activity.",
+      "rationale": "Survey lower-left for hemorrhage/necrosis/viable tumor."
+    },
+    {
+      "roi_id": "slide_A_x20480_y24576_mag2",
+      "tile_id": "slide_A_x20480_y24576_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 20480,
+      "y": 24576,
+      "level0": {
+        "x": 20480,
+        "y": 24576,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with areas of myxoid change and scattered larger cells. The tumor is well-encapsulated and infiltrates surrounding structures.\n\nThe most likely diagnosis is a malignant mesenchymal neoplasm, such as a rhabdomyosarcoma, given the patient's age and the aggressive clinical course with metastasis.\n\nDifferential diagnoses include other spindle cell sarcomas like leiomyosarcoma or fibrosarcoma, which can be distinguished by immunohistochemical staining for muscle markers (e.g., desmin, myogenin) or other lineage-specific markers.",
+      "rationale": "Inferior central area; look for necrosis/hemorrhage/cystic change suggested by paler foci."
+    },
+    {
+      "roi_id": "slide_A_x32768_y28672_mag2",
+      "tile_id": "slide_A_x32768_y28672_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 32768,
+      "y": 28672,
+      "level0": {
+        "x": 32768,
+        "y": 28672,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a well-encapsulated mass composed of spindle cells arranged in fascicles with a prominent inflammatory infiltrate. The tumor is highly cellular and infiltrative.\n\nThe most likely diagnosis is a malignant spindle cell neoplasm, such as a malignant peripheral nerve sheath tumor (MPNST).\n\nDifferential diagnoses include other spindle cell sarcomas like leiomyosarcoma or fibrosarcoma, which can be distinguished by their specific cellular morphology and immunohistochemical profiles.",
+      "rationale": "Survey lower-right for viable cellular areas."
+    },
+    {
+      "roi_id": "slide_A_x22528_y8192_mag5",
+      "tile_id": "slide_A_x22528_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 22528,
+      "y": 8192,
+      "level0": {
+        "x": 22528,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with scattered larger cells exhibiting abundant eosinophilic cytoplasm and eccentric nuclei. Areas of hemorrhage and necrosis are also present.\n\nThe morphologic features are consistent with a malignant mesenchymal neoplasm showing skeletal muscle differentiation. The most likely diagnosis is rhabdomyosarcoma.\n\nDifferential diagnoses include other spindle cell sarcomas such as leiomyosarcoma or fibrosarcoma, which would lack the characteristic rhabdomyoblasts and would typically show different immunohistochemical profiles.",
+      "rationale": "5x in upper-central area to look for rosettes/perivascular pattern or desmoplastic stroma"
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag2",
+      "tile_id": "slide_A_x8192_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with scattered larger cells and areas of myxoid change. The tumor is well-encapsulated and infiltrates surrounding structures.\n\nThe most likely diagnosis is embryonal rhabdomyosarcoma, spindle cell type.\n\nDifferential diagnoses include leiomyosarcoma, which typically shows more eosinophilic cytoplasm and cigar-shaped nuclei, and malignant peripheral nerve sheath tumor, which may show nuclear palisading and Verocay bodies.",
+      "rationale": "Upper-left peripheral region to assess capsule and any interface with adjacent tissue/bone."
+    },
+    {
+      "roi_id": "slide_A_x32768_y14336_mag5",
+      "tile_id": "slide_A_x32768_y14336_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 32768,
+      "y": 14336,
+      "level0": {
+        "x": 32768,
+        "y": 14336,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with scattered larger cells exhibiting abundant eosinophilic cytoplasm and eccentric nuclei. The background stroma is collagenous with areas of hyalinization.\n\nThe morphologic features are consistent with a malignant mesenchymal neoplasm showing skeletal muscle differentiation. The presence of spindle cells and larger cells with eosinophilic cytoplasm and eccentric nuclei suggests rhabdomyoblastic differentiation. Given the patient's age and the aggressive clinical course with metastatic disease, a diagnosis of rhabdomyosarcoma is strongly considered.\n\nDifferential diagnoses include other spindle cell sarcomas such as leiomyosarcoma or fibrosarcoma, but the presence of cells with rhabdomyoblastic features makes rhabdomyosarcoma the most likely diagnosis. Immunohistochemical stains for skeletal muscle markers (e.g., desmin, myogenin, MyoD1) would be helpful to confirm the diagnosis.",
+      "rationale": "5x right-mid area where stroma seems denser; assess for alveolar pattern"
+    },
+    {
+      "roi_id": "slide_A_x20480_y16384_mag10",
+      "tile_id": "slide_A_x20480_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 20480,
+      "y": 16384,
+      "level0": {
+        "x": 20480,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles with elongated, wavy nuclei and eosinophilic cytoplasm. Scattered larger cells with abundant eosinophilic cytoplasm and eccentric nuclei are also present.\n\nThe most likely diagnosis is rhabdomyosarcoma, spindle cell type.\n\nDifferential diagnoses include leiomyosarcoma, which typically shows more uniform spindle cells with blunt-ended nuclei and lacks the scattered larger cells, and malignant peripheral nerve sheath tumor, which often has a more myxoid background and characteristic wavy nuclei.",
+      "rationale": "Central viable-appearing cellular area; assess architecture and pick spots for 20x."
+    },
+    {
+      "roi_id": "slide_A_x19968_y15872_mag20",
+      "tile_id": "slide_A_x19968_y15872_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 19968,
+      "y": 15872,
+      "level0": {
+        "x": 19968,
+        "y": 15872,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles. The cells have elongated, wavy nuclei and eosinophilic cytoplasm, with scattered larger, pleomorphic cells and areas of hemorrhage.\n\nThe morphologic features are consistent with a malignant spindle cell neoplasm. Given the clinical context of a young child with a rapidly growing abdominal mass and metastatic disease, a diagnosis of rhabdomyosarcoma, specifically the spindle cell variant, is strongly considered. Differential diagnoses include other spindle cell sarcomas such as leiomyosarcoma or fibrosarcoma, which would typically lack the characteristic rhabdomyoblastic differentiation.",
+      "rationale": "High power cytology from central viable area."
+    },
+    {
+      "roi_id": "slide_A_x36864_y8192_mag2",
+      "tile_id": "slide_A_x36864_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 36864,
+      "y": 8192,
+      "level0": {
+        "x": 36864,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with areas of hyalinization and scattered larger cells. The tumor is well-encapsulated and infiltrates surrounding tissues.\n\nThe most likely diagnosis is a malignant mesenchymal neoplasm, such as a rhabdomyosarcoma, given the patient's age and the aggressive clinical course with metastasis.\n\nDifferential diagnoses include other spindle cell sarcomas like leiomyosarcoma or fibrosarcoma, which can be distinguished by specific immunohistochemical markers (e.g., desmin, myogenin for rhabdomyosarcoma; smooth muscle actin for leiomyosarcoma).",
+      "rationale": "Upper-right peripheral region; look for capsule, septa, vascular pattern."
+    },
+    {
+      "roi_id": "slide_A_x11776_y8192_mag20",
+      "tile_id": "slide_A_x11776_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 11776,
+      "y": 8192,
+      "level0": {
+        "x": 11776,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells and scattered large, pleomorphic cells with abundant eosinophilic cytoplasm and eccentric nuclei, some resembling rhabdomyoblasts. The background stroma is fibrillary.\n\nThe most likely diagnosis is embryonal rhabdomyosarcoma, spindle cell type.\n\nDifferential diagnoses include other spindle cell sarcomas such as leiomyosarcoma or fibrosarcoma, which would lack the characteristic rhabdomyoblasts and would typically show different immunohistochemical profiles.",
+      "rationale": "High power cytology upper-left area; look for rhabdomyoblasts/striations."
+    },
+    {
+      "roi_id": "slide_A_x36864_y24576_mag2",
+      "tile_id": "slide_A_x36864_y24576_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 36864,
+      "y": 24576,
+      "level0": {
+        "x": 36864,
+        "y": 24576,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a well-circumscribed, encapsulated mass composed of spindle cells arranged in fascicles and whorls. The cells have elongated nuclei and eosinophilic cytoplasm, with areas of cystic degeneration.\n\nThe most likely diagnosis is a benign mesenchymal tumor, such as a leiomyoma or fibroma.\n\nDifferential diagnoses include other spindle cell neoplasms like schwannoma or solitary fibrous tumor, which can be distinguished by their characteristic architectural patterns and immunohistochemical profiles.",
+      "rationale": "Right-inferior region near edge for encapsulation/invasion and any necrosis."
+    },
+    {
+      "roi_id": "slide_A_x12288_y8192_mag10",
+      "tile_id": "slide_A_x12288_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 12288,
+      "y": 8192,
+      "level0": {
+        "x": 12288,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular neoplasm composed of spindle cells and large, pleomorphic cells with abundant eosinophilic cytoplasm and eccentric nuclei, some resembling rhabdomyoblasts. The background stroma is loose and myxoid in areas.\n\nThe morphologic features are consistent with a malignant mesenchymal neoplasm showing skeletal muscle differentiation. The most likely diagnosis is rhabdomyosarcoma, specifically the embryonal subtype given the presence of primitive spindle cells and rhabdomyoblasts.\n\nDifferential diagnoses include other spindle cell sarcomas such as leiomyosarcoma or undifferentiated pleomorphic sarcoma, which would lack the characteristic rhabdomyoblasts and would typically show different immunohistochemical profiles.",
+      "rationale": "Upper-left sampled area; confirm cytology in different zone."
+    },
+    {
+      "roi_id": "slide_A_x14336_y20480_mag5",
+      "tile_id": "slide_A_x14336_y20480_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 14336,
+      "y": 20480,
+      "level0": {
+        "x": 14336,
+        "y": 20480,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular neoplasm composed of spindle cells and scattered large, pleomorphic cells with abundant eosinophilic cytoplasm and eccentric nuclei, some resembling rhabdomyoblasts. The background stroma is variable, with areas of myxoid change and hyalinization.\n\nThe morphologic features, particularly the presence of large, pleomorphic cells with eosinophilic cytoplasm resembling rhabdomyoblasts, are highly suggestive of a rhabdomyosarcoma. Given the patient's age and the location of the tumor, embryonal rhabdomyosarcoma is the most likely diagnosis.\n\nDifferential diagnoses to consider include other spindle cell sarcomas such as leiomyosarcoma or undifferentiated pleomorphic sarcoma. However, the presence of cells with features suggestive of skeletal muscle differentiation points towards rhabdomyosarcoma. Immunohistochemical stains for skeletal muscle markers such as desmin, myogenin, and MyoD1 would be helpful to confirm the diagnosis.",
+      "rationale": "5x central area with paler foci to assess necrosis/hemorrhage and pattern change"
+    },
+    {
+      "roi_id": "slide_A_x10240_y26624_mag5",
+      "tile_id": "slide_A_x10240_y26624_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 10240,
+      "y": 26624,
+      "level0": {
+        "x": 10240,
+        "y": 26624,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with scattered larger cells and areas of hemorrhage. The tumor is well-encapsulated and infiltrates surrounding tissues.\n\nThe most likely diagnosis is a malignant mesenchymal neoplasm, such as a rhabdomyosarcoma, given the patient's age and the aggressive clinical course with metastasis.\n\nDifferential diagnoses include other spindle cell sarcomas like leiomyosarcoma or fibrosarcoma, which can be distinguished by specific immunohistochemical markers.",
+      "rationale": "5x lower-left area to assess bone/soft tissue interface and vascular invasion"
+    },
+    {
+      "roi_id": "slide_A_x12288_y32768_mag2",
+      "tile_id": "slide_A_x12288_y32768_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 32768,
+      "level0": {
+        "x": 12288,
+        "y": 32768,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular proliferation of spindle-shaped cells arranged in intersecting fascicles and whorls, with areas of hyalinization and cystic change. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a malignant mesenchymal neoplasm, such as a rhabdomyosarcoma, given the spindle cell morphology and aggressive clinical course.\n\nDifferential diagnoses include other spindle cell sarcomas like leiomyosarcoma or fibrosarcoma, and potentially a malignant peripheral nerve sheath tumor. Immunohistochemical stains for muscle markers (e.g., desmin, myogenin) and nerve sheath markers (e.g., S100) would be helpful in distinguishing these entities.",
+      "rationale": "Inferior-left tip/edge for capsule, hemorrhage, bone/soft tissue interface."
+    },
+    {
+      "roi_id": "slide_A_x32768_y8192_mag10",
+      "tile_id": "slide_A_x32768_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 32768,
+      "y": 8192,
+      "level0": {
+        "x": 32768,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with scattered larger cells exhibiting abundant eosinophilic cytoplasm and eccentric nuclei. The background stroma is fibrillary and contains areas of hyalinization and myxoid change.\n\nThe morphologic features are consistent with a malignant mesenchymal neoplasm showing rhabdomyoblastic differentiation. The most likely diagnosis is rhabdomyosarcoma, specifically the embryonal subtype given the patient's age and the presence of spindle cells and rhabdomyoblasts.\n\nDifferential diagnoses include other spindle cell sarcomas such as leiomyosarcoma or fibrosarcoma, which would lack the characteristic rhabdomyoblasts and would typically show different immunohistochemical profiles.",
+      "rationale": "Upper-right zone; look for different differentiation."
+    },
+    {
+      "roi_id": "slide_A_x32768_y8704_mag20",
+      "tile_id": "slide_A_x32768_y8704_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 32768,
+      "y": 8704,
+      "level0": {
+        "x": 32768,
+        "y": 8704,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles, with scattered larger cells exhibiting abundant eosinophilic cytoplasm and eccentric nuclei. The background stroma is loose and edematous with scattered inflammatory cells.\n\nThe morphologic features are consistent with a malignant mesenchymal neoplasm showing features of rhabdomyoblastic differentiation. The spindle cell component and the presence of larger cells with eosinophilic cytoplasm and eccentric nuclei are characteristic of rhabdomyoblasts.\n\nDifferential diagnoses include other spindle cell sarcomas such as leiomyosarcoma or fibrosarcoma, but the presence of rhabdomyoblasts strongly favors a rhabdomyosarcoma. Immunohistochemistry for skeletal muscle markers such as desmin, myogenin, and MyoD1 would be helpful to confirm the diagnosis.",
+      "rationale": "High power cytology upper-right; check nucleoli, mitoses, cytoplasm."
+    },
+    {
+      "roi_id": "slide_A_x22528_y18432_mag5",
+      "tile_id": "slide_A_x22528_y18432_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 22528,
+      "y": 18432,
+      "level0": {
+        "x": 22528,
+        "y": 18432,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with areas of myxoid change and scattered larger cells. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is embryonal rhabdomyosarcoma.\n\nDifferential diagnoses include leiomyosarcoma, which typically shows more uniform spindle cells with blunt-ended nuclei and lacks the myxoid change and scattered larger cells seen here. Another consideration is fibrosarcoma, which usually has a more herringbone pattern and lacks the rhabdomyoblastic differentiation.",
+      "rationale": "Central area at higher low-power to evaluate for alveolar pattern, rosettes, and stromal characteristics."
+    },
+    {
+      "roi_id": "slide_A_x31744_y25600_mag20",
+      "tile_id": "slide_A_x31744_y25600_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 31744,
+      "y": 25600,
+      "level0": {
+        "x": 31744,
+        "y": 25600,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated nuclei arranged in fascicles, along with a prominent blood vessel. The tumor is well-encapsulated and shows areas of cystic degeneration.\n\nThe most likely diagnosis is a malignant mesenchymal tumor, such as a rhabdomyosarcoma, given the spindle cell morphology and clinical context of a rapidly growing mass in a young child.\n\nDifferential diagnoses include other spindle cell sarcomas like leiomyosarcoma or fibrosarcoma, and benign entities like leiomyoma or fibroma, which would typically show less cellularity and mitotic activity.",
+      "rationale": "High power cytology lower-right; clarify spindle vs round cell nature."
+    },
+    {
+      "roi_id": "slide_A_x31744_y25600_mag10",
+      "tile_id": "slide_A_x31744_y25600_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 31744,
+      "y": 25600,
+      "level0": {
+        "x": 31744,
+        "y": 25600,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated nuclei and eosinophilic cytoplasm, arranged in intersecting fascicles. Scattered larger cells with abundant cytoplasm and eccentric nuclei are also present.\n\nThe morphologic features are consistent with a malignant spindle cell neoplasm. Given the clinical context of a large retroperitoneal mass in a young child with aggressive behavior and metastatic disease, a diagnosis of rhabdomyosarcoma, specifically the spindle cell subtype, is strongly considered.\n\nDifferential diagnoses include other spindle cell sarcomas such as leiomyosarcoma or fibrosarcoma, and benign entities like leiomyoma or fibroma. Immunohistochemical stains for muscle markers (e.g., desmin, myogenin) would be essential to confirm the diagnosis of rhabdomyosarcoma.",
+      "rationale": "Lower-right zone with inflammation/possible nerve sheath; check for small round cells vs spindle."
+    },
+    {
+      "roi_id": "slide_A_x22528_y8192_mag20",
+      "tile_id": "slide_A_x22528_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 22528,
+      "y": 8192,
+      "level0": {
+        "x": 22528,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles. There are also areas of necrosis and hemorrhage.\n\nThe most likely diagnosis is rhabdomyosarcoma, specifically the embryonal subtype, given the patient's age and the morphologic features of spindle cells with eosinophilic cytoplasm.\n\nDifferential diagnoses include other spindle cell sarcomas such as leiomyosarcoma or fibrosarcoma, which can be distinguished by their different cellular morphology and immunohistochemical profiles.",
+      "rationale": "High power in ROI with suspected rhabdomyoblasts; look for strap cells/cross-striations, mitoses, necrosis"
+    },
+    {
+      "roi_id": "slide_A_x12288_y28672_mag20",
+      "tile_id": "slide_A_x12288_y28672_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 12288,
+      "y": 28672,
+      "level0": {
+        "x": 12288,
+        "y": 28672,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles and whorls, with scattered larger cells and a prominent inflammatory infiltrate. The stroma is collagenous with areas of hyalinization.\n\nThe morphologic features are consistent with a malignant mesenchymal neoplasm. Given the clinical context of a young child with a rapidly growing abdominal mass and metastatic disease, the most likely diagnosis is embryonal rhabdomyosarcoma.\n\nDifferential diagnoses include other spindle cell sarcomas such as leiomyosarcoma or fibrosarcoma, and inflammatory myofibroblastic tumor. Immunohistochemistry for muscle markers (e.g., desmin, myogenin) would be essential to confirm the diagnosis of rhabdomyosarcoma.",
+      "rationale": "High power cytology lower-left; evaluate stroma and any tumor cells."
+    },
+    {
+      "roi_id": "slide_A_x14336_y20480_mag20",
+      "tile_id": "slide_A_x14336_y20480_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 14336,
+      "y": 20480,
+      "level0": {
+        "x": 14336,
+        "y": 20480,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles with scattered large, pleomorphic cells exhibiting abundant eosinophilic cytoplasm and eccentric nuclei, some with prominent nucleoli. The background stroma is fibrillary.\n\nThe morphologic features are consistent with a malignant mesenchymal neoplasm showing rhabdomyoblastic differentiation.\n\nDifferential diagnoses include other spindle cell sarcomas with rhabdomyoblastic differentiation, such as embryonal rhabdomyosarcoma, and other pleomorphic sarcomas. Immunohistochemistry for muscle markers (e.g., desmin, myogenin, MyoD1) would be helpful to confirm rhabdomyoblastic differentiation.",
+      "rationale": "High power central region with pleomorphic eosinophilic cells; evaluate cytology and any rosettes/perivascular arrangement"
+    },
+    {
+      "roi_id": "slide_A_x12288_y28672_mag10",
+      "tile_id": "slide_A_x12288_y28672_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 12288,
+      "y": 28672,
+      "level0": {
+        "x": 12288,
+        "y": 28672,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with areas of stromal hyalinization and a prominent inflammatory infiltrate. The spindle cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe morphologic features are consistent with a malignant spindle cell neoplasm. Given the clinical context of a large retroperitoneal mass in a young child with aggressive behavior and metastatic disease, a diagnosis of embryonal rhabdomyosarcoma, spindle cell type, is strongly considered.\n\nDifferential diagnoses include other spindle cell sarcomas such as leiomyosarcoma or fibrosarcoma, and inflammatory myofibroblastic tumor. Immunohistochemical stains for muscle markers (e.g., desmin, myogenin) would be helpful to confirm rhabdomyosarcoma.",
+      "rationale": "Lower-left zone; evaluate myxoid/hyalinized areas and necrosis."
+    },
+    {
+      "roi_id": "slide_A_x24576_y18432_mag5",
+      "tile_id": "slide_A_x24576_y18432_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 24576,
+      "y": 18432,
+      "level0": {
+        "x": 24576,
+        "y": 18432,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with scattered larger cells exhibiting abundant eosinophilic cytoplasm and eccentric nuclei. The background stroma is variably collagenous and myxoid.\n\nThe morphologic features are consistent with a malignant mesenchymal neoplasm showing skeletal muscle differentiation. The presence of spindle cells and larger cells with eosinophilic cytoplasm and eccentric nuclei suggests rhabdomyoblastic differentiation.\n\nDifferential diagnoses include other spindle cell sarcomas such as leiomyosarcoma or fibrosarcoma, which would lack the characteristic rhabdomyoblastic features. Immunohistochemistry for skeletal muscle markers (e.g., desmin, myogenin, MyoD1) would be helpful to confirm the diagnosis.",
+      "rationale": "Look for any hemangiopericytoma-like/staghorn vascular pattern and septation in mid-tumor."
+    },
+    {
+      "roi_id": "slide_A_x32768_y14336_mag20",
+      "tile_id": "slide_A_x32768_y14336_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 32768,
+      "y": 14336,
+      "level0": {
+        "x": 32768,
+        "y": 14336,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles with elongated, wavy nuclei and eosinophilic cytoplasm. Scattered larger, pleomorphic cells with abundant eosinophilic cytoplasm and eccentric nuclei are also present.\n\nThe most likely diagnosis is rhabdomyosarcoma, spindle cell type. The presence of spindle cells with eosinophilic cytoplasm and scattered larger, pleomorphic cells with eccentric nuclei is characteristic of this entity. The clinical presentation of a large retroperitoneal mass in a young child is also consistent with this diagnosis.\n\nDifferential diagnoses include leiomyosarcoma, which typically shows more uniform spindle cells with blunt-ended nuclei and lacks the pleomorphic rhabdomyoblasts. Another consideration is malignant peripheral nerve sheath tumor, which can have a similar spindle cell morphology but usually lacks the eosinophilic cytoplasm and rhabdomyoblasts.",
+      "rationale": "High power in collagenous/hyalinized area to assess desmoplasia vs fascicles and any alveolar pattern"
+    },
+    {
+      "roi_id": "slide_A_x20480_y24576_mag5",
+      "tile_id": "slide_A_x20480_y24576_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 20480,
+      "y": 24576,
+      "level0": {
+        "x": 20480,
+        "y": 24576,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with scattered larger cells exhibiting abundant eosinophilic cytoplasm and eccentric nuclei. The background stroma is variably collagenous and myxoid.\n\nThe morphologic features are consistent with a malignant mesenchymal neoplasm showing features of skeletal muscle differentiation. The presence of spindle cells and larger cells with eosinophilic cytoplasm and eccentric nuclei suggests rhabdomyoblastic differentiation.\n\nDifferential diagnoses include other spindle cell sarcomas such as leiomyosarcoma or fibrosarcoma, which would lack the characteristic rhabdomyoblastic cells. Immunohistochemistry for skeletal muscle markers (e.g., desmin, myogenin, MyoD1) would be helpful to confirm the diagnosis.",
+      "rationale": "Evaluate pale/clefted region for necrosis vs myxoid/cystic change."
+    },
+    {
+      "roi_id": "slide_A_x26112_y20992_mag20",
+      "tile_id": "slide_A_x26112_y20992_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 26112,
+      "y": 20992,
+      "level0": {
+        "x": 26112,
+        "y": 20992,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells and scattered large, pleomorphic cells with abundant eosinophilic cytoplasm and eccentric nuclei, some resembling rhabdomyoblasts. The background stroma is loose and myxoid in areas.\n\nThe most likely diagnosis is embryonal rhabdomyosarcoma, specifically the botryoid subtype, given the presence of rhabdomyoblasts and the clinical context of a retroperitoneal mass in a young child.\n\nDifferential diagnoses include other spindle cell sarcomas such as leiomyosarcoma or undifferentiated pleomorphic sarcoma, which would lack the characteristic rhabdomyoblasts and would typically show different immunohistochemical profiles.",
+      "rationale": "Previously planned mid-lower region; ensure ROI obtained for rosette/neuropil search."
+    },
+    {
+      "roi_id": "slide_A_x10240_y26624_mag20",
+      "tile_id": "slide_A_x10240_y26624_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 10240,
+      "y": 26624,
+      "level0": {
+        "x": 10240,
+        "y": 26624,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells and large, pleomorphic cells with abundant eosinophilic cytoplasm and eccentric nuclei, some resembling rhabdomyoblasts. A mixed inflammatory infiltrate is also present.\n\nThe morphologic features are consistent with a malignant mesenchymal neoplasm showing rhabdomyoblastic differentiation.\n\nDifferential diagnoses include rhabdomyosarcoma, particularly the pleomorphic subtype, and other pleomorphic sarcomas. Immunohistochemistry for muscle markers such as desmin, myogenin, and MyoD1 would be helpful to confirm rhabdomyoblastic differentiation.",
+      "rationale": "High power near apparent capsule/infiltration; assess for lymphovascular invasion and necrosis/hemorrhage"
+    },
+    {
+      "roi_id": "slide_A_x25600_y21504_mag10",
+      "tile_id": "slide_A_x25600_y21504_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 25600,
+      "y": 21504,
+      "level0": {
+        "x": 25600,
+        "y": 21504,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells and scattered large, pleomorphic cells with abundant eosinophilic cytoplasm and eccentric nuclei, some resembling rhabdomyoblasts. The background stroma is loose and myxoid in areas.\n\nThe most likely diagnosis is embryonal rhabdomyosarcoma, given the presence of rhabdomyoblast-like cells and the clinical context of a rapidly growing mass in a young child.\n\nDifferential diagnoses include other sarcomas with pleomorphic features, such as pleomorphic rhabdomyosarcoma or undifferentiated pleomorphic sarcoma, which would require immunohistochemical studies for definitive classification.",
+      "rationale": "Context for same region at 10x."
+    },
+    {
+      "roi_id": "slide_A_x32768_y12288_mag5",
+      "tile_id": "slide_A_x32768_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 32768,
+      "y": 12288,
+      "level0": {
+        "x": 32768,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with scattered larger cells exhibiting abundant eosinophilic cytoplasm and eccentric nuclei. Areas of hemorrhage and necrosis are also present.\n\nThe morphologic features are consistent with a malignant mesenchymal neoplasm showing skeletal muscle differentiation. The most likely diagnosis is rhabdomyosarcoma.\n\nDifferential diagnoses include leiomyosarcoma, which typically shows more uniform spindle cells with blunt-ended nuclei and lacks the rhabdomyoblasts, and malignant peripheral nerve sheath tumor, which often has a more fascicular pattern and may show nuclear palisading.",
+      "rationale": "Peripheral region at 5x to assess capsule thickness and interface; any lobulation."
+    },
+    {
+      "roi_id": "slide_A_x20992_y24064_mag20",
+      "tile_id": "slide_A_x20992_y24064_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20992,
+      "y": 24064,
+      "level0": {
+        "x": 20992,
+        "y": 24064,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles, with scattered larger cells exhibiting abundant eosinophilic cytoplasm and eccentric nuclei. The background stroma is fibrillary.\n\nThe morphologic features are consistent with a malignant mesenchymal neoplasm showing rhabdomyoblastic differentiation.\n\nDifferential diagnoses include other spindle cell sarcomas such as leiomyosarcoma or fibrosarcoma, which would lack the characteristic rhabdomyoblasts.",
+      "rationale": "Sample additional viable area away from prior ROIs to assess heterogeneity/mitotic rate."
+    },
+    {
+      "roi_id": "slide_A_x12288_y12288_mag5",
+      "tile_id": "slide_A_x12288_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 12288,
+      "y": 12288,
+      "level0": {
+        "x": 12288,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular neoplasm composed of a mixture of small round cells and larger cells with abundant eosinophilic cytoplasm and eccentric nuclei, some resembling rhabdomyoblasts. The tumor is arranged in nests and cords within a fibrous stroma.\n\nThe most likely diagnosis is a rhabdomyosarcoma, specifically the embryonal subtype, given the presence of rhabdomyoblasts and the patient's age.\n\nDifferential diagnoses include other small round blue cell tumors such as neuroblastoma or Ewing sarcoma, which can be distinguished by their characteristic immunohistochemical profiles and molecular alterations.",
+      "rationale": "Left-upper tumor region at 5x to assess pattern (herringbone vs whorled), collagen bands, vascularity."
+    },
+    {
+      "roi_id": "slide_A_x24576_y15360_mag10",
+      "tile_id": "slide_A_x24576_y15360_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 24576,
+      "y": 15360,
+      "level0": {
+        "x": 24576,
+        "y": 15360,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles with elongated, wavy nuclei. Scattered larger cells with abundant eosinophilic cytoplasm and eccentric nuclei are also present.\n\nThe most likely diagnosis is embryonal rhabdomyosarcoma, spindle cell type.\n\nDifferential diagnoses include leiomyosarcoma, which typically shows more uniform spindle cells with blunt-ended nuclei and lacks the scattered larger cells, and malignant peripheral nerve sheath tumor, which often has a more myxoid background and characteristic wavy nuclei.",
+      "rationale": "Mid-tumor at 10x to look for rosettes/perivascular pseudorosettes or alveolar architecture"
+    },
+    {
+      "roi_id": "slide_A_x34816_y14848_mag20",
+      "tile_id": "slide_A_x34816_y14848_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 34816,
+      "y": 14848,
+      "level0": {
+        "x": 34816,
+        "y": 14848,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated, wavy nuclei arranged in fascicles, with scattered larger, pleomorphic cells. Adjacent to this is a less cellular area of dense, hyalinized collagenous tissue.\n\nThe morphologic features are consistent with a malignant spindle cell neoplasm. Given the clinical context of a rapidly growing mass in a young child with extensive metastatic disease, a diagnosis of embryonal rhabdomyosarcoma, spindle cell type, is strongly considered. Differential diagnoses include other spindle cell sarcomas such as leiomyosarcoma or fibrosarcoma, which would typically lack the characteristic rhabdomyoblastic differentiation.",
+      "rationale": "Peripheral upper-right near capsule; look for bone/soft tissue interface or different differentiation."
+    },
+    {
+      "roi_id": "slide_A_x27648_y21504_mag10",
+      "tile_id": "slide_A_x27648_y21504_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 27648,
+      "y": 21504,
+      "level0": {
+        "x": 27648,
+        "y": 21504,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular neoplasm composed of spindle cells arranged in fascicles and sheets of large, pleomorphic cells with abundant eosinophilic cytoplasm and eccentric nuclei. The large cells exhibit features suggestive of rhabdomyoblastic differentiation.\n\nThe most likely diagnosis is rhabdomyosarcoma, specifically the pleomorphic subtype given the presence of large, pleomorphic cells with rhabdomyoblastic features.\n\nDifferential diagnoses include other pleomorphic sarcomas such as undifferentiated pleomorphic sarcoma or leiomyosarcoma, which would lack the specific rhabdomyoblastic differentiation.",
+      "rationale": "Central-lower area at 10x to assess necrosis and any perivascular growth pattern"
+    },
+    {
+      "roi_id": "slide_A_x14336_y26624_mag5",
+      "tile_id": "slide_A_x14336_y26624_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 14336,
+      "y": 26624,
+      "level0": {
+        "x": 14336,
+        "y": 26624,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular neoplasm with a biphasic pattern composed of spindle cells and larger, pleomorphic cells with abundant eosinophilic cytoplasm. The spindle cells are arranged in fascicles, while the larger cells are more loosely arranged.\n\nThe most likely diagnosis is rhabdomyosarcoma, specifically the embryonal subtype, given the presence of spindle cells and larger cells with eosinophilic cytoplasm.\n\nDifferential diagnoses include other spindle cell sarcomas such as leiomyosarcoma or fibrosarcoma, which would typically lack the larger, pleomorphic cells with eosinophilic cytoplasm seen in this case.",
+      "rationale": "Inferior-left/central for any necrosis, hemorrhage, or bony trabeculae."
+    },
+    {
+      "roi_id": "slide_A_x8192_y17920_mag20",
+      "tile_id": "slide_A_x8192_y17920_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 8192,
+      "y": 17920,
+      "level0": {
+        "x": 8192,
+        "y": 17920,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells and scattered large, pleomorphic cells with abundant eosinophilic cytoplasm and eccentric nuclei, some resembling rhabdomyoblasts. The background stroma is fibrillary.\n\nThe morphologic features are consistent with a malignant mesenchymal neoplasm showing rhabdomyoblastic differentiation.\n\nDifferential diagnoses include rhabdomyosarcoma, particularly the embryonal subtype, and other pleomorphic sarcomas. The presence of cells with eosinophilic cytoplasm and eccentric nuclei resembling rhabdomyoblasts strongly favors rhabdomyosarcoma.",
+      "rationale": "Peripheral left side; check for small round blue cell component or necrosis."
+    },
+    {
+      "roi_id": "slide_A_x35840_y10240_mag10",
+      "tile_id": "slide_A_x35840_y10240_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 35840,
+      "y": 10240,
+      "level0": {
+        "x": 35840,
+        "y": 10240,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles, with scattered large, pleomorphic cells exhibiting abundant eosinophilic cytoplasm and eccentric nuclei, some with strap-like morphology. There is also a background inflammatory infiltrate and areas of hemorrhage.\n\nThe morphologic features are consistent with a malignant mesenchymal neoplasm showing skeletal muscle differentiation. The presence of spindle cells and large, pleomorphic cells with eosinophilic cytoplasm and strap-like morphology strongly suggests rhabdomyosarcoma. Given the patient's age and the location of the tumor, embryonal rhabdomyosarcoma is the most likely subtype.\n\nDifferential diagnoses to consider include other spindle cell sarcomas such as leiomyosarcoma or undifferentiated pleomorphic sarcoma. However, the presence of cells with clear skeletal muscle differentiation, particularly the strap cells, is a key feature favoring rhabdomyosarcoma. Immunohistochemical stains for skeletal muscle markers such as desmin, myogenin, and MyoD1 would be helpful to confirm the diagnosis.",
+      "rationale": "Right-upper area at 10x to check for desmoplastic stroma or nested pattern"
+    },
+    {
+      "roi_id": "slide_A_x26624_y12288_mag5",
+      "tile_id": "slide_A_x26624_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 26624,
+      "y": 12288,
+      "level0": {
+        "x": 26624,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with areas of nuclear palisading and Verocay bodies. The cells have elongated, wavy nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a schwannoma. Differential diagnoses include neurofibroma, which typically lacks Verocay bodies and has a more diffuse growth pattern, and leiomyoma, which has blunt-ended nuclei and lacks the characteristic nuclear palisading and Verocay bodies.",
+      "rationale": "Top-central area not yet emphasized; assess for septation/lobulation and necrosis."
+    },
+    {
+      "roi_id": "slide_A_x9216_y6144_mag20",
+      "tile_id": "slide_A_x9216_y6144_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 9216,
+      "y": 6144,
+      "level0": {
+        "x": 9216,
+        "y": 6144,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular neoplasm composed of large, pleomorphic cells with abundant eosinophilic cytoplasm and eccentric nuclei, some with prominent nucleoli, interspersed with smaller cells. The background stroma is loose and myxoid.\n\nThe most likely diagnosis is embryonal rhabdomyosarcoma.\n\nDifferential diagnoses include other small round blue cell tumors such as Ewing sarcoma/PNET, which typically lacks the prominent rhabdomyoblasts and myxoid stroma seen here. Alveolar rhabdomyosarcoma is another subtype, but it usually shows a more distinct alveolar pattern and often harbors specific translocations.",
+      "rationale": "Unexplored upper-left viable area; look for small round blue cells/rosettes or epithelial elements."
+    },
+    {
+      "roi_id": "slide_A_x12288_y12288_mag10",
+      "tile_id": "slide_A_x12288_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 12288,
+      "y": 12288,
+      "level0": {
+        "x": 12288,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells and scattered large, pleomorphic cells with abundant eosinophilic cytoplasm and eccentric nuclei, some resembling rhabdomyoblasts. The background stroma is fibrous with a prominent inflammatory infiltrate.\n\nThe morphologic features are consistent with a malignant mesenchymal neoplasm showing rhabdomyoblastic differentiation. The most likely diagnosis is rhabdomyosarcoma.\n\nDifferential diagnoses include other pleomorphic sarcomas such as undifferentiated pleomorphic sarcoma or leiomyosarcoma, which would lack the characteristic rhabdomyoblastic morphology.",
+      "rationale": "Left-upper area at 10x to evaluate for small round blue cell components/rosettes"
+    },
+    {
+      "roi_id": "slide_A_x30720_y16384_mag5",
+      "tile_id": "slide_A_x30720_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 30720,
+      "y": 16384,
+      "level0": {
+        "x": 30720,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with scattered larger cells exhibiting abundant eosinophilic cytoplasm and eccentric nuclei. The background stroma is collagenous with areas of hyalinization.\n\nThe morphologic features are consistent with a malignant mesenchymal neoplasm showing features of skeletal muscle differentiation. The most likely diagnosis is rhabdomyosarcoma.\n\nDifferential diagnoses include leiomyosarcoma, which typically shows more uniform spindle cells with blunt-ended nuclei and lacks the larger, more pleomorphic cells with eosinophilic cytoplasm. Other spindle cell sarcomas could also be considered, but the presence of cells with features suggestive of rhabdomyoblasts points towards rhabdomyosarcoma.",
+      "rationale": "Mid-right area to look for vascular pattern and any alveolar/nested architecture."
+    },
+    {
+      "roi_id": "slide_A_x17920_y7168_mag20",
+      "tile_id": "slide_A_x17920_y7168_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 17920,
+      "y": 7168,
+      "level0": {
+        "x": 17920,
+        "y": 7168,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles, with scattered large, pleomorphic cells exhibiting abundant eosinophilic cytoplasm and eccentric nuclei. A mixed inflammatory infiltrate is also present.\n\nThe morphologic features are consistent with a malignant mesenchymal neoplasm showing rhabdomyoblastic differentiation.\n\nDifferential diagnoses include other spindle cell sarcomas such as leiomyosarcoma or undifferentiated pleomorphic sarcoma, which would lack the characteristic rhabdomyoblastic cells.",
+      "rationale": "Upper-central region; check for different cytology."
+    },
+    {
+      "roi_id": "slide_A_x24064_y11776_mag20",
+      "tile_id": "slide_A_x24064_y11776_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 24064,
+      "y": 11776,
+      "level0": {
+        "x": 24064,
+        "y": 11776,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles, with scattered larger cells exhibiting abundant eosinophilic cytoplasm and eccentric nuclei. There is also a background inflammatory infiltrate.\n\nThe morphologic features are consistent with a malignant mesenchymal neoplasm showing rhabdomyoblastic differentiation.\n\nDifferential diagnoses include other spindle cell sarcomas, such as leiomyosarcoma or fibrosarcoma, which would lack the characteristic rhabdomyoblasts.",
+      "rationale": "Mid-upper region; search for alveolar pattern or rosettes."
+    },
+    {
+      "roi_id": "slide_A_x16384_y16384_mag5",
+      "tile_id": "slide_A_x16384_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 16384,
+      "y": 16384,
+      "level0": {
+        "x": 16384,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with scattered larger cells exhibiting abundant eosinophilic cytoplasm and eccentric nuclei. The background stroma is collagenous.\n\nThe morphologic features are consistent with a malignant mesenchymal neoplasm showing features of skeletal muscle differentiation. The most likely diagnosis is rhabdomyosarcoma.\n\nDifferential diagnoses include leiomyosarcoma, which typically shows more uniform spindle cells with blunt-ended nuclei and lacks the rhabdomyoblasts, and fibrosarcoma, which is characterized by a herringbone pattern and lacks skeletal muscle differentiation.",
+      "rationale": "Mid-left/central to verify absence of rosettes and assess stromal change."
+    },
+    {
+      "roi_id": "slide_A_x7168_y21504_mag10",
+      "tile_id": "slide_A_x7168_y21504_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 7168,
+      "y": 21504,
+      "level0": {
+        "x": 7168,
+        "y": 21504,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles with elongated, wavy nuclei. Scattered larger cells with abundant eosinophilic cytoplasm and eccentric nuclei are also present.\n\nThe most likely diagnosis is rhabdomyosarcoma, specifically the spindle cell subtype.\n\nDifferential diagnoses include leiomyosarcoma, which typically shows more eosinophilic cytoplasm and blunt-ended nuclei, and malignant peripheral nerve sheath tumor, which often has more nuclear pleomorphism and may show Verocay bodies.",
+      "rationale": "Left-mid peripheral area not yet sampled; look for desmoplastic stroma, bone interface, or alternate (small round blue) morphology"
+    },
+    {
+      "roi_id": "slide_A_x37888_y10752_mag20",
+      "tile_id": "slide_A_x37888_y10752_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 37888,
+      "y": 10752,
+      "level0": {
+        "x": 37888,
+        "y": 10752,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles with elongated, wavy nuclei and eosinophilic cytoplasm. Scattered larger, pleomorphic cells with abundant eosinophilic cytoplasm and occasional multinucleation are also present.\n\nThe most likely diagnosis is embryonal rhabdomyosarcoma, spindle cell type.\n\nDifferential diagnoses include leiomyosarcoma, which typically shows more uniform spindle cells with blunt-ended nuclei and lacks the pleomorphic rhabdomyoblasts, and malignant peripheral nerve sheath tumor, which often has a more myxoid background and characteristic wavy nuclei.",
+      "rationale": "Far upper-right edge; evaluate for capsule/bone involvement or different component."
+    },
+    {
+      "roi_id": "slide_A_x24576_y30720_mag5",
+      "tile_id": "slide_A_x24576_y30720_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 24576,
+      "y": 30720,
+      "level0": {
+        "x": 24576,
+        "y": 30720,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a transition from a cellular area with spindle cells and scattered larger cells to a less cellular area with dense fibrous tissue. The cellular component contains cells with eosinophilic cytoplasm and eccentric nuclei, some resembling rhabdomyoblasts.\n\nThe morphologic features are consistent with a malignant mesenchymal neoplasm showing skeletal muscle differentiation. The most likely diagnosis is rhabdomyosarcoma.\n\nDifferential diagnoses include other spindle cell sarcomas such as leiomyosarcoma or fibrosarcoma, which would lack the characteristic rhabdomyoblasts and would typically show different immunohistochemical profiles.",
+      "rationale": "Lower-central/right to look for cystic degeneration/necrosis and interface."
+    },
+    {
+      "roi_id": "slide_A_x34816_y21504_mag10",
+      "tile_id": "slide_A_x34816_y21504_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 34816,
+      "y": 21504,
+      "level0": {
+        "x": 34816,
+        "y": 21504,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles with interspersed clear spaces and numerous blood vessels. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a malignant mesenchymal neoplasm, such as a rhabdomyosarcoma, given the spindle cell morphology and the clinical context of a rapidly growing mass in a young child.\n\nDifferential diagnoses include other spindle cell sarcomas like leiomyosarcoma or fibrosarcoma, and benign entities like leiomyoma or fibroma, which would typically show less cellularity, less pleomorphism, and lack the aggressive clinical behavior seen here.",
+      "rationale": "Right-lower peripheral area; assess for vascular invasion/necrosis and any alveolar pattern"
+    },
+    {
+      "roi_id": "slide_A_x8192_y24576_mag5",
+      "tile_id": "slide_A_x8192_y24576_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 8192,
+      "y": 24576,
+      "level0": {
+        "x": 8192,
+        "y": 24576,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with areas of increased cellularity and scattered larger cells. The tumor is well-encapsulated and shows areas of cystic degeneration.\n\nThe most likely diagnosis is a malignant mesenchymal neoplasm, such as a rhabdomyosarcoma, given the spindle cell morphology and the clinical context of a rapidly growing mass in a young child.\n\nDifferential diagnoses include other spindle cell sarcomas like leiomyosarcoma or fibrosarcoma, and benign entities like leiomyoma or fibroma, which would typically show less cellularity, less pleomorphism, and lack the aggressive clinical behavior seen here.",
+      "rationale": "Left-mid lower to evaluate any bone/soft tissue interface and capsule."
+    },
+    {
+      "roi_id": "slide_A_x7680_y23552_mag20",
+      "tile_id": "slide_A_x7680_y23552_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 7680,
+      "y": 23552,
+      "level0": {
+        "x": 7680,
+        "y": 23552,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles with elongated, wavy nuclei and eosinophilic cytoplasm. Scattered larger cells with abundant eosinophilic cytoplasm and eccentric nuclei are also present.\n\nThe morphologic features are consistent with a malignant spindle cell neoplasm. Given the clinical context of a large retroperitoneal mass in a young child with aggressive behavior and metastatic disease, the most likely diagnosis is a malignant peripheral nerve sheath tumor (MPNST).\n\nDifferential diagnoses include rhabdomyosarcoma, particularly the spindle cell variant, and leiomyosarcoma. Rhabdomyosarcoma would typically show more pleomorphism and potentially rhabdomyoblasts, while leiomyosarcoma would show more prominent eosinophilic cytoplasm and blunt-ended nuclei. Immunohistochemistry would be essential for definitive classification.",
+      "rationale": "Lower-left edge near capsule; check for bone/marrow or desmoplasia."
+    },
+    {
+      "roi_id": "slide_A_x13312_y31744_mag10",
+      "tile_id": "slide_A_x13312_y31744_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 13312,
+      "y": 31744,
+      "level0": {
+        "x": 13312,
+        "y": 31744,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles with elongated, wavy nuclei and eosinophilic cytoplasm. Scattered larger cells with abundant eosinophilic cytoplasm and eccentric nuclei are also present.\n\nThe most likely diagnosis is a malignant peripheral nerve sheath tumor (MPNST).\n\nDifferential diagnoses include leiomyosarcoma, which typically shows more eosinophilic cytoplasm and blunt-ended nuclei, and fibrosarcoma, which is characterized by a herringbone pattern and lacks the wavy nuclei and scattered larger cells seen here.",
+      "rationale": "Inferior tip where bone/soft tissue may be present; look for bone trabeculae and invasion"
+    },
+    {
+      "roi_id": "slide_A_x40960_y12288_mag10",
+      "tile_id": "slide_A_x40960_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 40960,
+      "y": 12288,
+      "level0": {
+        "x": 40960,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with scattered large, pleomorphic cells, some multinucleated, and a background of inflammatory cells. The tumor is well-encapsulated.\n\nThe most likely diagnosis is a malignant mesenchymal neoplasm, such as a rhabdomyosarcoma, given the presence of spindle cells and pleomorphic cells with features suggestive of rhabdomyoblastic differentiation.\n\nDifferential diagnoses include other spindle cell sarcomas or a malignant peripheral nerve sheath tumor, which would typically lack the characteristic rhabdomyoblastic features.",
+      "rationale": "Far right edge; evaluate capsule and any lymphovascular spaces"
+    },
+    {
+      "roi_id": "slide_A_x32768_y23552_mag10",
+      "tile_id": "slide_A_x32768_y23552_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 32768,
+      "y": 23552,
+      "level0": {
+        "x": 32768,
+        "y": 23552,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles with elongated, wavy nuclei and eosinophilic cytoplasm. There is a prominent inflammatory infiltrate and areas of hemorrhage.\n\nThe morphologic features are consistent with a malignant spindle cell neoplasm. Given the clinical context of a large retroperitoneal mass in a young child with aggressive behavior and metastatic disease, the most likely diagnosis is a malignant peripheral nerve sheath tumor (MPNST).\n\nDifferential diagnoses include other spindle cell sarcomas such as leiomyosarcoma or fibrosarcoma, which can be distinguished by their specific cellular morphology and immunohistochemical profiles.",
+      "rationale": "Right-lower area possibly containing bone/soft tissue interface; evaluate for bone trabeculae/marrow replacement."
+    },
+    {
+      "roi_id": "slide_A_x40960_y16384_mag2",
+      "tile_id": "slide_A_x40960_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 40960,
+      "y": 16384,
+      "level0": {
+        "x": 40960,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with areas of hyalinization and scattered inflammatory cells. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a malignant spindle cell neoplasm, such as a sarcoma.\n\nDifferential diagnoses include leiomyosarcoma, which typically shows intersecting fascicles of spindle cells with blunt-ended nuclei, and malignant peripheral nerve sheath tumor, which can have a similar spindle cell morphology but often shows more nuclear pleomorphism and may have areas of necrosis or myxoid change.",
+      "rationale": "Far right edge not well sampled; assess capsule/infiltration and any adjacent non-neoplastic tissue/bone."
+    },
+    {
+      "roi_id": "slide_A_x4096_y16384_mag2",
+      "tile_id": "slide_A_x4096_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 4096,
+      "y": 16384,
+      "level0": {
+        "x": 4096,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular neoplasm composed of spindle cells arranged in fascicles and whorls, with areas of necrosis and hemorrhage. The tumor is well-encapsulated and infiltrates surrounding tissues.\n\nThe most likely diagnosis is a malignant mesenchymal neoplasm, such as a rhabdomyosarcoma, given the patient's age and the aggressive clinical course.\n\nDifferential diagnoses include other spindle cell sarcomas like leiomyosarcoma or fibrosarcoma, which can be distinguished by specific immunohistochemical markers.",
+      "rationale": "Far left edge; check for capsule and any attached soft tissue/bone marrow."
+    },
+    {
+      "roi_id": "slide_A_x32256_y25088_mag20",
+      "tile_id": "slide_A_x32256_y25088_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 32256,
+      "y": 25088,
+      "level0": {
+        "x": 32256,
+        "y": 25088,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense fibrous capsule composed of spindle cells with elongated nuclei and abundant eosinophilic cytoplasm, arranged in fascicles. Scattered small blood vessels are present within the capsule.\n\nThe morphologic features are consistent with a fibrous capsule of a tumor. Given the clinical history of a large retroperitoneal mass in a young child, the most likely diagnosis is a fibrous capsule of a rhabdomyosarcoma, specifically the embryonal subtype, which is common in this age group and location.\n\nDifferential diagnoses could include other spindle cell tumors such as a fibrosarcoma or a leiomyosarcoma, but the clinical context strongly favors a rhabdomyosarcoma.",
+      "rationale": "High power at same right-lower area to confirm bone involvement and cytology."
+    },
+    {
+      "roi_id": "slide_A_x20480_y32768_mag2",
+      "tile_id": "slide_A_x20480_y32768_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 20480,
+      "y": 32768,
+      "level0": {
+        "x": 20480,
+        "y": 32768,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with areas of hemorrhage and necrosis. The tumor is well-circumscribed and encapsulated.\n\nThe most likely diagnosis is a malignant mesenchymal neoplasm, such as a leiomyosarcoma or fibrosarcoma.\n\nDifferential diagnoses include other spindle cell sarcomas like malignant peripheral nerve sheath tumor or synovial sarcoma, which can be distinguished by specific immunohistochemical markers and molecular studies.",
+      "rationale": "Bottom edge/tip; look for interface with bone/soft tissue and necrosis."
+    },
+    {
+      "roi_id": "slide_A_x13312_y31744_mag20",
+      "tile_id": "slide_A_x13312_y31744_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 13312,
+      "y": 31744,
+      "level0": {
+        "x": 13312,
+        "y": 31744,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles with elongated, wavy nuclei and eosinophilic cytoplasm. Scattered larger cells with abundant eosinophilic cytoplasm and eccentric nuclei are also present.\n\nThe morphologic features are consistent with a malignant spindle cell neoplasm. Given the clinical context of a large retroperitoneal mass in a young child with aggressive behavior and metastatic disease, a diagnosis of rhabdomyosarcoma, specifically the spindle cell subtype, is strongly considered.\n\nDifferential diagnoses include other spindle cell sarcomas such as leiomyosarcoma or fibrosarcoma, which can be distinguished by immunohistochemical staining for muscle markers (e.g., desmin, myogenin, MyoD1) and other lineage-specific markers.",
+      "rationale": "High power in inferior region to check for bone trabeculae/osteoid and confirm cell type; assess for LVI"
+    },
+    {
+      "roi_id": "slide_A_x35840_y20480_mag10",
+      "tile_id": "slide_A_x35840_y20480_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 35840,
+      "y": 20480,
+      "level0": {
+        "x": 35840,
+        "y": 20480,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles, with areas of hemorrhage and necrosis. The tumor is well-encapsulated and infiltrates surrounding tissue.\n\nThe most likely diagnosis is rhabdomyosarcoma, specifically the embryonal subtype, given the spindle cell morphology and the clinical context of a rapidly growing mass in a young child.\n\nDifferential diagnoses include other spindle cell sarcomas such as leiomyosarcoma or fibrosarcoma, but the presence of rhabdomyoblasts (not clearly visible in this image but characteristic of rhabdomyosarcoma) and the clinical presentation strongly favor rhabdomyosarcoma.",
+      "rationale": "Far right edge; look for any bony fragments/calcification."
+    },
+    {
+      "roi_id": "slide_A_x40960_y16384_mag5",
+      "tile_id": "slide_A_x40960_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 40960,
+      "y": 16384,
+      "level0": {
+        "x": 40960,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles and whorls, with areas of hyalinization and cystic change. The tumor is well-encapsulated and shows a pushing border.\n\nThe most likely diagnosis is a malignant peripheral nerve sheath tumor (MPNST).\n\nDifferential diagnoses include leiomyosarcoma, which typically shows more prominent eosinophilic cytoplasm and cigar-shaped nuclei, and synovial sarcoma, which often has a biphasic pattern or monophasic spindle cell pattern with more uniform nuclei.",
+      "rationale": "Higher low-power of far right edge for capsule thickness and any invasion."
+    },
+    {
+      "roi_id": "slide_A_x34816_y21504_mag20",
+      "tile_id": "slide_A_x34816_y21504_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 34816,
+      "y": 21504,
+      "level0": {
+        "x": 34816,
+        "y": 21504,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles, with scattered blood vessels and areas of hemorrhage. The morphology is consistent with a spindle cell neoplasm.\n\nThe most likely diagnosis is a malignant spindle cell neoplasm, such as a sarcoma.\n\nDifferential diagnoses include leiomyosarcoma, which typically shows intersecting fascicles of spindle cells with blunt-ended nuclei, and malignant peripheral nerve sheath tumor, which can have a more variable morphology including spindle cells and may show areas of necrosis or hemorrhage.",
+      "rationale": "High power in vascular-rich area to assess for perivascular pseudorosettes vs LVI and cytology"
+    },
+    {
+      "roi_id": "slide_A_x35840_y20992_mag20",
+      "tile_id": "slide_A_x35840_y20992_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 35840,
+      "y": 20992,
+      "level0": {
+        "x": 35840,
+        "y": 20992,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense fibrous capsule with scattered spindle cells and blood vessels, adjacent to a less cellular area with wavy, eosinophilic material and scattered spindle cells.\n\nThe morphologic features are consistent with a fibrous capsule of a tumor. Given the clinical history of a large retroperitoneal mass in a young child, the most likely diagnosis is a retroperitoneal tumor with a fibrous capsule, such as a rhabdomyosarcoma.\n\nDifferential diagnoses include other pediatric retroperitoneal tumors with a fibrous component, such as Wilms tumor or neuroblastoma, which would typically show different cellular morphology and architectural patterns.",
+      "rationale": "High power far right edge for bone/osteoid or marrow."
+    },
+    {
+      "roi_id": "slide_A_x40960_y12288_mag20",
+      "tile_id": "slide_A_x40960_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 40960,
+      "y": 12288,
+      "level0": {
+        "x": 40960,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular area with spindle cells and inflammatory cells adjacent to a less cellular, hyalinized area with wavy collagen bundles and clear spaces. The tumor is well-encapsulated.\n\nThe most likely diagnosis is a desmoplastic small round cell tumor.\n\nDifferential diagnoses include other small round blue cell tumors such as Ewing sarcoma/PNET, rhabdomyosarcoma, and neuroblastoma, which can be distinguished by their characteristic morphology and immunohistochemical profiles.",
+      "rationale": "High power at capsule edge to look for lymphovascular invasion and margin infiltration"
+    },
+    {
+      "roi_id": "slide_A_x4096_y18432_mag5",
+      "tile_id": "slide_A_x4096_y18432_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 4096,
+      "y": 18432,
+      "level0": {
+        "x": 4096,
+        "y": 18432,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation of spindle-shaped cells arranged in fascicles with a prominent inflammatory infiltrate. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a malignant mesenchymal neoplasm, such as a rhabdomyosarcoma, given the spindle cell morphology and the patient's age and clinical presentation.\n\nDifferential diagnoses include other spindle cell sarcomas like leiomyosarcoma or fibrosarcoma, and inflammatory myofibroblastic tumor. Immunohistochemical stains for muscle markers (e.g., desmin, myogenin) would be helpful to confirm rhabdomyosarcoma.",
+      "rationale": "Higher low-power far left edge to assess capsule and adjacent tissue reaction."
+    },
+    {
+      "roi_id": "slide_A_x23552_y31744_mag10",
+      "tile_id": "slide_A_x23552_y31744_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 23552,
+      "y": 31744,
+      "level0": {
+        "x": 23552,
+        "y": 31744,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles with scattered multinucleated giant cells and numerous blood vessels. The cells have elongated, wavy nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a malignant peripheral nerve sheath tumor (MPNST).\n\nDifferential diagnoses include leiomyosarcoma, which typically shows more eosinophilic cytoplasm and blunt-ended nuclei, and fibrosarcoma, which lacks the characteristic wavy nuclei and multinucleated giant cells.",
+      "rationale": "Inferior portion near tip; check for bone or necrosis."
+    },
+    {
+      "roi_id": "slide_A_x27648_y21504_mag20",
+      "tile_id": "slide_A_x27648_y21504_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 27648,
+      "y": 21504,
+      "level0": {
+        "x": 27648,
+        "y": 21504,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in fascicles with elongated, wavy nuclei and eosinophilic cytoplasm. Scattered larger cells with abundant eosinophilic cytoplasm and eccentric nuclei are also present.\n\nThe morphologic features are consistent with a malignant mesenchymal neoplasm showing skeletal muscle differentiation. The most likely diagnosis is rhabdomyosarcoma.\n\nDifferential diagnoses include leiomyosarcoma, which typically shows blunt-ended nuclei and lacks the rhabdomyoblasts, and malignant peripheral nerve sheath tumor, which often has wavy nuclei but lacks the eosinophilic cytoplasm and rhabdomyoblasts.",
+      "rationale": "High power in pleomorphic area to look for strap cells/rhabdomyoblasts, mitoses/apoptosis"
+    },
+    {
+      "roi_id": "slide_A_x23552_y31232_mag20",
+      "tile_id": "slide_A_x23552_y31232_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 23552,
+      "y": 31232,
+      "level0": {
+        "x": 23552,
+        "y": 31232,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles, with scattered larger cells and prominent blood vessels. The morphology is consistent with a spindle cell neoplasm.\n\nThe most likely diagnosis is a malignant spindle cell neoplasm, such as a sarcoma.\n\nDifferential diagnoses include leiomyosarcoma, which would show smooth muscle differentiation, and malignant peripheral nerve sheath tumor, which would show S100 positivity.",
+      "rationale": "Per map, inferior central/left area less sampled; check for bone trabeculae/marrow and cytology."
+    },
+    {
+      "roi_id": "slide_A_x28160_y28672_mag20",
+      "tile_id": "slide_A_x28160_y28672_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 28160,
+      "y": 28672,
+      "level0": {
+        "x": 28160,
+        "y": 28672,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated, wavy nuclei arranged in fascicles, with scattered larger cells and a background of inflammatory cells. The tumor is well-encapsulated.\n\nThe most likely diagnosis is a malignant peripheral nerve sheath tumor (MPNST).\n\nDifferential diagnoses include leiomyosarcoma, which typically shows more eosinophilic cytoplasm and blunt-ended nuclei, and fibrosarcoma, which has a more herringbone pattern.",
+      "rationale": "Inferior central/right area; look for bone involvement or different morphology."
+    },
+    {
+      "roi_id": "slide_A_x17408_y33792_mag10",
+      "tile_id": "slide_A_x17408_y33792_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 17408,
+      "y": 33792,
+      "level0": {
+        "x": 17408,
+        "y": 33792,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cystic structure lined by flattened cells, with a wall composed of dense fibrous tissue and spindle cells. The lumen contains amorphous eosinophilic material and dark granular pigment.\n\nThe morphologic features are consistent with a cystic lesion. Given the clinical context of a large retroperitoneal mass in a young child, a cystic nephroma is a strong consideration. Other possibilities include a cystic teratoma or a cystic component of a Wilms tumor.",
+      "rationale": "Bottom tip additional check for bone trabeculae/cartilage matrix"
+    },
+    {
+      "roi_id": "slide_A_x41984_y8192_mag10",
+      "tile_id": "slide_A_x41984_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 41984,
+      "y": 8192,
+      "level0": {
+        "x": 41984,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with scattered large, pleomorphic cells exhibiting abundant eosinophilic cytoplasm and eccentric nuclei, some with a strap-like appearance. A mixed inflammatory infiltrate is also present.\n\nThe morphologic features are consistent with a malignant mesenchymal neoplasm showing skeletal muscle differentiation.\n\nDifferential diagnoses include rhabdomyosarcoma, particularly the embryonal subtype, and other spindle cell sarcomas. The presence of strap cells and eosinophilic cytoplasm strongly favors rhabdomyosarcoma.",
+      "rationale": "Extreme right-upper edge; evaluate for lymphovascular invasion, capsule, or alternate morphology"
+    },
+    {
+      "roi_id": "slide_A_x11264_y28672_mag20",
+      "tile_id": "slide_A_x11264_y28672_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 11264,
+      "y": 28672,
+      "level0": {
+        "x": 11264,
+        "y": 28672,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles and haphazardly, with scattered multinucleated giant cells. The background stroma is collagenous and hyalinized.\n\nThe morphologic features are consistent with a malignant mesenchymal neoplasm. Given the clinical context of a large retroperitoneal mass in a young child with aggressive behavior and metastatic disease, the most likely diagnosis is a malignant rhabdoid tumor.\n\nDifferential diagnoses include other aggressive pediatric sarcomas such as embryonal rhabdomyosarcoma or undifferentiated pleomorphic sarcoma. Immunohistochemistry for markers like INI1, desmin, and myogenin would be helpful in distinguishing between these entities.",
+      "rationale": "Very inferior-left tip; potential bone fragment; evaluate."
+    },
+    {
+      "roi_id": "slide_A_x40960_y11776_mag20",
+      "tile_id": "slide_A_x40960_y11776_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 40960,
+      "y": 11776,
+      "level0": {
+        "x": 40960,
+        "y": 11776,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles, with a prominent inflammatory infiltrate. The tumor is well-encapsulated.\n\nThe most likely diagnosis is a malignant spindle cell neoplasm, such as a rhabdomyosarcoma, given the patient's age and the aggressive clinical course.\n\nDifferential diagnoses include other spindle cell sarcomas like leiomyosarcoma or fibrosarcoma, and inflammatory myofibroblastic tumor. Immunohistochemistry for muscle markers (e.g., desmin, myogenin) would be helpful to confirm rhabdomyosarcoma.",
+      "rationale": "Far right edge near label on map; look for bone/soft tissue interface."
+    },
+    {
+      "roi_id": "slide_A_x5120_y15360_mag10",
+      "tile_id": "slide_A_x5120_y15360_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 5120,
+      "y": 15360,
+      "level0": {
+        "x": 5120,
+        "y": 15360,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular neoplasm composed of large, pleomorphic cells with abundant eosinophilic cytoplasm and eccentric nuclei, some with prominent nucleoli, arranged in sheets and nests. There is a background of smaller cells and a desmoplastic stromal reaction.\n\nThe morphologic features are consistent with a malignant mesenchymal neoplasm showing rhabdomyoblastic differentiation. The most likely diagnosis is rhabdomyosarcoma, specifically the pleomorphic subtype given the cellular pleomorphism and large cell size.\n\nDifferential diagnoses include other pleomorphic sarcomas such as undifferentiated pleomorphic sarcoma or leiomyosarcoma, which would lack the characteristic rhabdomyoblastic features. Immunohistochemistry for muscle markers (e.g., desmin, myogenin, MyoD1) would be essential to confirm the diagnosis.",
+      "rationale": "Extreme left edge; look for adjacent normal tissue/bone and invasion"
+    },
+    {
+      "roi_id": "slide_A_x31744_y25088_mag20",
+      "tile_id": "slide_A_x31744_y25088_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 31744,
+      "y": 25088,
+      "level0": {
+        "x": 31744,
+        "y": 25088,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated, wavy nuclei arranged in fascicles, along with scattered larger cells and prominent blood vessels. The morphology is consistent with a spindle cell neoplasm.\n\nThe most likely diagnosis is a malignant peripheral nerve sheath tumor (MPNST).\n\nDifferential diagnoses include leiomyosarcoma, which typically shows more eosinophilic cytoplasm and blunt-ended nuclei, and fibrosarcoma, which often has a herringbone pattern. Immunohistochemistry for S100 protein would be helpful to confirm the neural origin of the tumor.",
+      "rationale": "Far lower-right edge; check for bone/marrow replacement."
+    }
+  ]
+}

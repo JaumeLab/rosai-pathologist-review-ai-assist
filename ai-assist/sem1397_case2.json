@@ -1,0 +1,1164 @@
+{
+  "case_id": "sem1397_case2",
+  "source": "slideseek-ai-assist",
+  "model": "gpt-5.4",
+  "generated_at": "2026-05-22T09:23:32.039844+00:00",
+  "organ": "Lung-Mediastinum",
+  "primary_dx": "Congenital Pulmonary Airway Malformation, Predominantly Type 2 Pattern",
+  "differential_dx": [
+    "CPAM Type 1, Mixed Type 1-2 Pattern",
+    "Bronchogenic Cyst"
+  ],
+  "microscopic_findings": [
+    {
+      "text": "Numerous variably sized **microcystic airspaces** are separated by thin **fibrovascular septa**, creating a diffuse spongy pattern.",
+      "roi_ids": [
+        "slide_A_x24576_y12288_mag10"
+      ]
+    },
+    {
+      "text": "Cysts are lined by **cuboidal to low columnar epithelium** with basally oriented nuclei in closely packed bronchiolar-type tubules.",
+      "roi_ids": [
+        "slide_A_x40960_y16384_mag20"
+      ]
+    },
+    {
+      "text": "Foci show **pseudostratified ciliated epithelium** with scattered **goblet cells** and focal **papillary infoldings**.",
+      "roi_ids": [
+        "slide_A_x15360_y14848_mag20",
+        "slide_A_x12288_y16384_mag20"
+      ]
+    },
+    {
+      "text": "Cyst walls contain focal **smooth muscle** but lack **cartilage** and **submucosal glands**, arguing against a bronchogenic cyst.",
+      "roi_ids": [
+        "slide_A_x26112_y21504_mag20",
+        "slide_A_x45056_y8192_mag10"
+      ]
+    }
+  ],
+  "interpretation": "The lesion is a **multicystic bronchiolar-type malformation** composed of diffuse small irregular cysts lined by bland respiratory epithelium, supporting **congenital pulmonary airway malformation, predominantly type 2**. Focal ciliated pseudostratified lining and papillary infolding allow limited overlap with **type 1 features**, but there is no dominant large cyst. Absence of **cartilage and bronchial glands** disfavors bronchogenic cyst, and no **primitive mesenchymal/cambium-like component** is identified to suggest pleuropulmonary blastoma.",
+  "num_rois": 70,
+  "tiles": [
+    {
+      "roi_id": "slide_A_x24576_y16384_mag1",
+      "tile_id": "slide_A_x24576_y16384_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 24576,
+      "y": 16384,
+      "level0": {
+        "x": 24576,
+        "y": 16384,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a cystic lesion with numerous variably sized cystic spaces separated by thin septa. The cysts are lined by flattened to cuboidal epithelium, and the septa contain fibrovascular tissue with scattered inflammatory cells.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 1. This diagnosis is supported by the presence of large cysts (typically >2 cm) and the clinical presentation in a newborn.\n\nDifferential diagnoses include Congenital Cystic Adenomatoid Malformation (CCAM), which is now classified under CPAM, and Congenital Lobar Emphysema, which typically presents with overinflation of a lobe rather than a discrete mass.",
+      "rationale": "Central overview of main tissue to assess global cystic architecture and pleura"
+    },
+    {
+      "roi_id": "slide_A_x24576_y16384_mag2",
+      "tile_id": "slide_A_x24576_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 24576,
+      "y": 16384,
+      "level0": {
+        "x": 24576,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cystic lesion with numerous variably sized cystic spaces separated by thin septa. The cysts are lined by cuboidal to low columnar epithelium, and the septa contain fibrovascular tissue with scattered inflammatory cells.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 1. This diagnosis is supported by the presence of large cysts (typically >2 cm) and the clinical presentation in a newborn.\n\nDifferential diagnoses include Congenital Cystic Adenomatoid Malformation (CCAM), which is now classified under CPAM, and Congenital Lobar Emphysema, which typically presents with overinflation of a lobe rather than a discrete mass.",
+      "rationale": "Low-power survey of main tissue to find thick-walled cysts/airways."
+    },
+    {
+      "roi_id": "slide_A_x24576_y12288_mag2",
+      "tile_id": "slide_A_x24576_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 24576,
+      "y": 12288,
+      "level0": {
+        "x": 24576,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cystic lesion in the lung with numerous variably sized cysts lined by cuboidal to low columnar epithelium. The cysts are separated by thin fibrovascular septa, and some cysts contain eosinophilic material.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 1.\n\nDifferential diagnoses include Congenital Cystic Adenomatoid Malformation (CCAM), Type 1, and Congenital Lobar Emphysema. CPAM Type 1 is characterized by large cysts (>2 cm) lined by bronchial-type epithelium, which is consistent with the findings in the image. CCAM Type 1 is now considered synonymous with CPAM Type 1. Congenital Lobar Emphysema typically presents as overinflation of a lobe with enlarged airspaces but lacks the distinct cystic architecture seen here.",
+      "rationale": "Central portion of main tissue to survey overall cyst distribution"
+    },
+    {
+      "roi_id": "slide_A_x12288_y16384_mag2",
+      "tile_id": "slide_A_x12288_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 16384,
+      "level0": {
+        "x": 12288,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cystic lesion in the lung with numerous variably sized cysts separated by thin septa. The cysts are lined by cuboidal to low columnar epithelium, and the septa contain fibrovascular tissue with scattered inflammatory cells.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 1. This diagnosis is supported by the presence of large cysts (typically >2 cm) and the clinical presentation in a newborn.\n\nDifferential diagnoses include CPAM Type 2, which typically has smaller cysts (1-2 cm) and more prominent bronchial-type epithelium, and CPAM Type 3, which is characterized by smaller cysts and solid areas.",
+      "rationale": "Left fragment with dense cystic change to identify representative cysts"
+    },
+    {
+      "roi_id": "slide_A_x8192_y16384_mag1",
+      "tile_id": "slide_A_x8192_y16384_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 8192,
+      "y": 16384,
+      "level0": {
+        "x": 8192,
+        "y": 16384,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a well-circumscribed lesion composed of numerous variably sized cystic spaces separated by thin septa. The cysts are lined by flattened to cuboidal epithelium, and the septa contain fibrovascular tissue with scattered inflammatory cells.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 1. This diagnosis is supported by the presence of large cysts (typically >2 cm) and the clinical presentation in a newborn with respiratory distress and a cystic mass in the lung.\n\nDifferential diagnoses include CPAM Type 2, which typically has smaller cysts (1-2 cm) and more prominent bronchial-like structures, and CPAM Type 3, which is characterized by smaller, more uniform cysts (1-3 mm) and a more solid appearance.",
+      "rationale": "Left fragment overview to compare cyst distribution/solid areas"
+    },
+    {
+      "roi_id": "slide_A_x40960_y8192_mag1",
+      "tile_id": "slide_A_x40960_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 40960,
+      "y": 8192,
+      "level0": {
+        "x": 40960,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a transition from normal lung parenchyma to a lesion composed of numerous small cysts lined by cuboidal epithelium, separated by thin septa. A large bronchus is also present.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 2.\n\nDifferential diagnoses include CPAM, Type 1 (characterized by larger cysts) and CPAM, Type 3 (characterized by smaller cysts and more solid areas).",
+      "rationale": "Right upper portion/edge for pleura and any large airway structures"
+    },
+    {
+      "roi_id": "slide_A_x40960_y16384_mag2",
+      "tile_id": "slide_A_x40960_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 40960,
+      "y": 16384,
+      "level0": {
+        "x": 40960,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a proliferation of variably sized cystic spaces separated by thin septa. The cysts are lined by flattened to cuboidal epithelium, and the septa contain fibrovascular tissue with scattered inflammatory cells.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 1. This diagnosis is supported by the presence of large cysts (typically >2 cm) and the clinical presentation in a newborn with respiratory distress and a mediastinal mass.\n\nDifferential diagnoses include CPAM Type 2, which typically has smaller cysts (1-2 cm) and more prominent bronchial-like structures, and CPAM Type 3, which is characterized by numerous small cysts (<1 cm) and a more solid appearance.",
+      "rationale": "Right fragment to look for larger cysts/bronchial structures"
+    },
+    {
+      "roi_id": "slide_A_x36864_y16384_mag2",
+      "tile_id": "slide_A_x36864_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 36864,
+      "y": 16384,
+      "level0": {
+        "x": 36864,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a proliferation of small, uniform, round to oval glands and tubules with open lumens, lined by cuboidal to low columnar cells with basally oriented nuclei. The stroma is scant and delicate.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 1.\n\nDifferential diagnoses include:\n- Congenital Pulmonary Airway Malformation (CPAM), Type 2: Characterized by smaller cysts (less than 2 cm) and more prominent stroma.\n- Congenital Pulmonary Airway Malformation (CPAM), Type 3: Characterized by solid nests of cells with minimal cystic change.\n- Congenital Pulmonary Airway Malformation (CPAM), Type 4: Characterized by small, irregular cysts and solid areas with primitive bronchiolar epithelium.",
+      "rationale": "Survey right portion for hilum-like structures/cartilage."
+    },
+    {
+      "roi_id": "slide_A_x49152_y16384_mag2",
+      "tile_id": "slide_A_x49152_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 49152,
+      "y": 16384,
+      "level0": {
+        "x": 49152,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cystic lesion in the lung with a thickened wall and adjacent lung parenchyma exhibiting alveolar spaces and bronchioles. The cystic spaces are lined by flattened to cuboidal epithelium.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 1.\n\nDifferential diagnoses include Congenital Cystic Adenomatoid Malformation (CCAM), Type 1, and Congenital Lobar Emphysema. CPAM Type 1 is characterized by large cysts (>2 cm) lined by bronchial epithelium, while CCAM Type 1 has smaller cysts (<2 cm) lined by cuboidal epithelium. Congenital Lobar Emphysema typically presents as overinflation of a lobe without cyst formation.",
+      "rationale": "Small separate region 1 overview to identify tissue type (airway/vascular/lymphoid)"
+    },
+    {
+      "roi_id": "slide_A_x24576_y24576_mag2",
+      "tile_id": "slide_A_x24576_y24576_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 24576,
+      "y": 24576,
+      "level0": {
+        "x": 24576,
+        "y": 24576,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cystic lesion with a thickened wall and complex papillary projections lined by cuboidal to columnar epithelium. The cystic spaces contain eosinophilic material and cellular debris.\n\nThe most likely diagnosis is a congenital pulmonary airway malformation (CPAM), specifically type 1, given the large cystic spaces and papillary architecture.\n\nDifferential diagnoses include bronchogenic cyst and type 2 CPAM. Bronchogenic cysts typically have a more uniform lining and lack the complex papillary projections seen here. Type 2 CPAM is characterized by smaller cysts and more prominent cartilage, which is not evident in this image.",
+      "rationale": "Survey inferior portion for pleura and vessels."
+    },
+    {
+      "roi_id": "slide_A_x24576_y12288_mag10",
+      "tile_id": "slide_A_x24576_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 24576,
+      "y": 12288,
+      "level0": {
+        "x": 24576,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of variably sized cystic spaces lined by cuboidal to low columnar epithelium, separated by thin fibrovascular septa. The cysts contain eosinophilic material and scattered red blood cells.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 1. This diagnosis is supported by the presence of large cysts lined by respiratory epithelium, which is characteristic of this type of CPAM. The clinical presentation of a cystic mass in the lung of a newborn with respiratory distress is also consistent with this diagnosis.\n\nDifferential diagnoses to consider include Congenital Cystic Adenomatoid Malformation (CCAM), which is now classified under CPAM, and Congenital Lobar Emphysema, which typically presents as overinflation of a lobe rather than a discrete mass.",
+      "rationale": "Assess architecture and locate representative cyst linings for high power exam (central ROI)"
+    },
+    {
+      "roi_id": "slide_A_x38912_y13312_mag10",
+      "tile_id": "slide_A_x38912_y13312_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 38912,
+      "y": 13312,
+      "level0": {
+        "x": 38912,
+        "y": 13312,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of small, closely packed tubular structures lined by cuboidal to low columnar cells with basally oriented nuclei. The lumens are open and contain eosinophilic material.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 3.\n\nDifferential diagnoses include:\n- Congenital Pulmonary Airway Malformation (CPAM), Type 1: Characterized by larger cysts (>2 cm) and often associated with cartilage.\n- Congenital Lobar Emphysema: Typically involves overinflation of a lobe with enlarged air spaces, but lacks the distinct proliferation of small tubules seen here.",
+      "rationale": "Focus on right-upper area where larger airway-like profile may be present; look for cartilage/glands."
+    },
+    {
+      "roi_id": "slide_A_x32768_y16384_mag2",
+      "tile_id": "slide_A_x32768_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 32768,
+      "y": 16384,
+      "level0": {
+        "x": 32768,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a proliferation of variably sized cystic spaces separated by thin septa. The cysts are lined by cuboidal to low columnar epithelium with basally oriented nuclei and eosinophilic cytoplasm. The septa contain fibrovascular tissue.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 1. This diagnosis is supported by the presence of large cysts (typically >2 cm) lined by bronchial-type epithelium, separated by thin fibrovascular septa. The clinical presentation of a cystic mass in the lung of a newborn is also consistent with CPAM.\n\nDifferential diagnoses include Congenital Cystic Adenomatoid Malformation (CCAM), which is now considered part of the CPAM spectrum, and Congenital Lobar Emphysema, which typically presents as overinflation of a lobe without the characteristic cystic architecture seen here.",
+      "rationale": "Sample mid-right parenchyma to assess uniformity of cysts and any solid areas"
+    },
+    {
+      "roi_id": "slide_A_x12288_y16384_mag10",
+      "tile_id": "slide_A_x12288_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 12288,
+      "y": 16384,
+      "level0": {
+        "x": 12288,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of cystic and glandular structures lined by cuboidal to columnar epithelium with focal papillary infoldings. The stroma is cellular and contains a prominent lymphoid infiltrate.\n\nThe most likely diagnosis is a congenital pulmonary airway malformation (CPAM), specifically type 2, given the cystic and glandular architecture with papillary infoldings and the clinical context of a newborn with a cystic lung mass.\n\nDifferential diagnoses include bronchogenic cyst and type 1 CPAM. Bronchogenic cysts are typically solitary and lined by ciliated pseudostratified columnar epithelium, often with cartilage, smooth muscle, and mucous glands in the wall, which are not seen here. Type 1 CPAM is characterized by large cysts (>2 cm) lined by flattened to cuboidal epithelium, which is also not the predominant pattern in this image.",
+      "rationale": "Left ROI with numerous small cysts—evaluate lining and any bronchiolar features"
+    },
+    {
+      "roi_id": "slide_A_x41984_y15360_mag10",
+      "tile_id": "slide_A_x41984_y15360_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 41984,
+      "y": 15360,
+      "level0": {
+        "x": 41984,
+        "y": 15360,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows lung tissue with numerous variably sized cystic spaces separated by thickened septa. The septa are lined by cuboidal to low columnar epithelium and contain a cellular stroma with spindle cells and scattered inflammatory cells.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 2. This diagnosis is supported by the presence of numerous small cysts (0.2-1.0 cm) lined by cuboidal to low columnar epithelium and separated by thickened septa containing cellular stroma. The clinical presentation of a cystic mass in the lung of a newborn is also consistent with CPAM.\n\nDifferential diagnoses include Congenital Cystic Adenomatoid Malformation (CCAM), which is now classified under CPAM, and Congenital Lobar Emphysema, which typically presents as overinflation of a lobe rather than a discrete mass.",
+      "rationale": "Right-mid area with tubular structures; assess bronchial wall elements."
+    },
+    {
+      "roi_id": "slide_A_x40960_y16384_mag10",
+      "tile_id": "slide_A_x40960_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 40960,
+      "y": 16384,
+      "level0": {
+        "x": 40960,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows lung tissue with numerous cystic spaces separated by thickened septa. The septa are lined by cuboidal to columnar epithelium and contain fibrovascular tissue with scattered inflammatory cells.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 2. This diagnosis is supported by the presence of multiple cysts lined by bronchiolar-type epithelium and the clinical presentation of a cystic mass in a newborn.\n\nDifferential diagnoses include CPAM Type 1, which typically presents with larger cysts (>2 cm) and CPAM Type 3, characterized by smaller cysts (<1 cm) and more solid areas.",
+      "rationale": "Right ROI—look for bronchial wall elements, cartilage, mucous cells"
+    },
+    {
+      "roi_id": "slide_A_x43008_y14336_mag5",
+      "tile_id": "slide_A_x43008_y14336_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 43008,
+      "y": 14336,
+      "level0": {
+        "x": 43008,
+        "y": 14336,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a proliferation of variably sized cystic spaces separated by thin septa. The cysts are lined by cuboidal to low columnar epithelium, and the septa contain fibrovascular tissue with scattered inflammatory cells.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 2. This diagnosis is supported by the presence of numerous small cysts (0.2-1.0 cm) lined by cuboidal to low columnar epithelium, separated by thin fibrovascular septa. The clinical presentation of a cystic mass in the lung of a newborn with respiratory distress is also consistent with CPAM.\n\nDifferential diagnoses include Congenital Pulmonary Airway Malformation (CPAM), Type 1, which typically presents with larger cysts (>2 cm) and a more prominent fibrous stroma, and Congenital Cystic Adenomatoid Malformation (CCAM), which is now considered synonymous with CPAM.",
+      "rationale": "Evaluate suspected larger airway/bronchus area for cartilage and branching structures"
+    },
+    {
+      "roi_id": "slide_A_x46080_y17408_mag10",
+      "tile_id": "slide_A_x46080_y17408_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 46080,
+      "y": 17408,
+      "level0": {
+        "x": 46080,
+        "y": 17408,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows lung parenchyma with thickened alveolar septa and a large cystic space lined by flattened cells. The cystic space contains amorphous material and red blood cells.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 1. This diagnosis is supported by the presence of large cystic spaces and thickened alveolar septa in the lung parenchyma. The clinical presentation of respiratory distress in a newborn and the gross description of a large cystic mass in the upper lobe are also consistent with this diagnosis.\n\nDifferential diagnoses to consider include Congenital Lobar Emphysema, which typically presents as overinflation of a lobe without cyst formation, and Congenital Pulmonary Airway Malformation (CPAM), Type 2, which is characterized by smaller cysts and more prominent bronchial structures.",
+      "rationale": "Near right edge/pleura for systemic vessels or bronchogenic cyst wall."
+    },
+    {
+      "roi_id": "slide_A_x12288_y16384_mag20",
+      "tile_id": "slide_A_x12288_y16384_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 12288,
+      "y": 16384,
+      "level0": {
+        "x": 12288,
+        "y": 16384,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cystic lesion in the lung with cysts lined by pseudostratified columnar epithelium and fibrovascular cores. The cysts are separated by thin septa.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 1.\n\nDifferential diagnoses include Congenital Cystic Adenomatoid Malformation (CCAM), Type 1, and Congenital Lobar Emphysema. CPAM Type 1 is characterized by large cysts lined by bronchial-type epithelium, which is consistent with the findings in the image. CCAM Type 1 is now considered synonymous with CPAM Type 1. Congenital Lobar Emphysema typically presents as overinflation of a lobe without discrete cysts.",
+      "rationale": "High power on left ROI with papillary infoldings to define epithelial type and look for mucous cells/atypia"
+    },
+    {
+      "roi_id": "slide_A_x30720_y22528_mag5",
+      "tile_id": "slide_A_x30720_y22528_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 30720,
+      "y": 22528,
+      "level0": {
+        "x": 30720,
+        "y": 22528,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a proliferation of variably sized cystic spaces lined by cuboidal to columnar epithelium, separated by thin fibrovascular septa. The cysts are lined by a single layer of cells with basally oriented nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 1. This diagnosis is supported by the presence of large cysts lined by bronchiolar-type epithelium, which is characteristic of CPAM Type 1. The clinical presentation of a cystic mass in the mediastinum and the surgical findings of a fleshy cystic tumor mass further support this diagnosis.\n\nDifferential diagnoses to consider include Congenital Cystic Adenomatoid Malformation (CCAM), which is now classified under CPAM, and Congenital Pulmonary Airway Malformation (CPAM), Type 2, which typically presents with smaller cysts and more prominent bronchial structures.",
+      "rationale": "Inferior portion for pleura/subpleural cysts and hemorrhage/inflammation"
+    },
+    {
+      "roi_id": "slide_A_x26624_y21504_mag10",
+      "tile_id": "slide_A_x26624_y21504_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 26624,
+      "y": 21504,
+      "level0": {
+        "x": 26624,
+        "y": 21504,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cystic lesion in the lung with multiple cysts lined by pseudostratified columnar epithelium and fibrovascular cores. The cysts are separated by thin septa.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 1.\n\nDifferential diagnoses include Congenital Cystic Adenomatoid Malformation (CCAM), Type 1, and Congenital Lobar Emphysema. CPAM Type 1 is characterized by large cysts lined by respiratory epithelium, which is consistent with the findings in the image. CCAM Type 1 is now considered synonymous with CPAM Type 1. Congenital Lobar Emphysema typically presents as overinflation of a lobe without discrete cysts.",
+      "rationale": "Inferior thick-walled cystic area noted on 2.5x; examine wall for smooth muscle/cartilage/glands."
+    },
+    {
+      "roi_id": "slide_A_x24576_y12288_mag20",
+      "tile_id": "slide_A_x24576_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 24576,
+      "y": 12288,
+      "level0": {
+        "x": 24576,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cystic lesion in the lung with cysts lined by cuboidal to columnar epithelium and containing eosinophilic material. The cyst walls are thickened by fibrous tissue and smooth muscle.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 2.\n\nDifferential diagnoses include Congenital Cystic Adenomatoid Malformation (CCAM), which is now classified under CPAM, and Congenital Lobar Emphysema, which typically shows enlarged airspaces without the prominent cystic architecture seen here.",
+      "rationale": "High power on central ROI to characterize cyst lining and contents"
+    },
+    {
+      "roi_id": "slide_A_x10240_y14336_mag5",
+      "tile_id": "slide_A_x10240_y14336_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 10240,
+      "y": 14336,
+      "level0": {
+        "x": 10240,
+        "y": 14336,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cystic lesion in the lung with numerous variably sized cysts lined by cuboidal to columnar epithelium, separated by thin fibrovascular septa. The cysts contain eosinophilic material and red blood cells.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 1. This diagnosis is supported by the presence of large cysts lined by respiratory epithelium, which is characteristic of CPAM Type 1. The clinical presentation of a cystic mass in the mediastinum and the patient's age are also consistent with this diagnosis.\n\nDifferential diagnoses to consider include Congenital Cystic Adenomatoid Malformation (CCAM), which is now classified under CPAM, and Congenital Pulmonary Airway Malformation (CPAM), Type 2, which typically presents with smaller cysts and more prominent smooth muscle in the septa.",
+      "rationale": "Left fragment higher power for cyst size distribution and intervening stroma"
+    },
+    {
+      "roi_id": "slide_A_x40960_y16384_mag20",
+      "tile_id": "slide_A_x40960_y16384_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 40960,
+      "y": 16384,
+      "level0": {
+        "x": 40960,
+        "y": 16384,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of small, closely packed tubular structures lined by cuboidal to low columnar cells with basally oriented nuclei. The lumens are open and contain eosinophilic material.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 3.\n\nDifferential diagnoses include:\n- Congenital Cystic Adenomatoid Malformation (CCAM), Type 3: This is synonymous with CPAM Type 3.\n- Congenital Cystic Adenomatoid Malformation (CCAM), Type 1: This type is characterized by larger cysts (typically >2 cm) and lacks the small tubular structures seen here.",
+      "rationale": "High power on right ROI to look for cilia, cartilage/bronchial wall elements, and mesenchymal cuffing"
+    },
+    {
+      "roi_id": "slide_A_x26112_y21504_mag20",
+      "tile_id": "slide_A_x26112_y21504_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 26112,
+      "y": 21504,
+      "level0": {
+        "x": 26112,
+        "y": 21504,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cystic structure lined by pseudostratified columnar epithelium with cilia and goblet cells, surrounded by fibrovascular stroma. The cyst wall contains smooth muscle and scattered inflammatory cells.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 1.\n\nDifferential diagnoses include Congenital Cystic Adenomatoid Malformation (CCAM), Type 1, and Congenital Lobar Emphysema. CPAM Type 1 is characterized by large cysts lined by bronchial-type epithelium, which is consistent with the findings in the image. CCAM Type 1 is now considered synonymous with CPAM Type 1. Congenital Lobar Emphysema typically presents as overinflation of a lobe without cyst formation.",
+      "rationale": "Higher power of same thick-walled cyst for cartilage plates, glands, and epithelium type."
+    },
+    {
+      "roi_id": "slide_A_x35840_y18432_mag20",
+      "tile_id": "slide_A_x35840_y18432_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 35840,
+      "y": 18432,
+      "level0": {
+        "x": 35840,
+        "y": 18432,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of small, irregular cystic spaces lined by cuboidal to low columnar epithelium with basally oriented nuclei. The intervening stroma is scant and fibrovascular.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 2.\n\nDifferential diagnoses include Congenital Cystic Adenomatoid Malformation (CCAM), which is now classified under CPAM, and Congenital Lobar Emphysema, which typically presents as overinflation of a lobe without the cystic architecture seen here.",
+      "rationale": "Sample additional right-sided cysts not yet examined at high power—confirm epithelial type and check for mucous cells"
+    },
+    {
+      "roi_id": "slide_A_x45056_y8192_mag5",
+      "tile_id": "slide_A_x45056_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 45056,
+      "y": 8192,
+      "level0": {
+        "x": 45056,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cystic structure lined by pseudostratified columnar epithelium with cilia, adjacent to lung parenchyma with thickened alveolar septa and inflammation. The cystic structure is consistent with a bronchus.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 1.\n\nDifferential diagnoses include Congenital Cystic Adenomatoid Malformation (CCAM), Type 1, and Bronchogenic Cyst. CPAM Type 1 is characterized by large cysts lined by bronchial epithelium, while CCAM Type 1 is characterized by smaller cysts lined by cuboidal to columnar epithelium. Bronchogenic cysts are typically lined by respiratory epithelium and may contain cartilage, smooth muscle, and mucous glands.",
+      "rationale": "Far right apical area—check pleural surface/subpleural cysts and any solid condensation"
+    },
+    {
+      "roi_id": "slide_A_x20480_y15360_mag10",
+      "tile_id": "slide_A_x20480_y15360_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 20480,
+      "y": 15360,
+      "level0": {
+        "x": 20480,
+        "y": 15360,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of cystic and glandular structures lined by cuboidal to columnar epithelium with focal papillary infoldings. The stroma is fibrovascular and contains scattered inflammatory cells.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 2. This diagnosis is supported by the presence of numerous small cysts lined by bronchiolar-type epithelium, often with papillary infoldings, and a fibrovascular stroma. The clinical presentation of a cystic mass in the lung of a newborn is also consistent with CPAM.\n\nDifferential diagnoses include Congenital Cystic Adenomatoid Malformation (CCAM), which is now considered part of the CPAM spectrum, and Congenital Lobar Emphysema, which typically presents as overinflation of a lobe rather than a discrete mass.",
+      "rationale": "Central area near apparent airway/vascular profiles; look for bronchus with cartilage."
+    },
+    {
+      "roi_id": "slide_A_x30208_y16896_mag20",
+      "tile_id": "slide_A_x30208_y16896_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 30208,
+      "y": 16896,
+      "level0": {
+        "x": 30208,
+        "y": 16896,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of small, irregular cystic spaces lined by cuboidal to low columnar epithelium with basally oriented nuclei. The intervening stroma is cellular and fibrovascular.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 2.\n\nDifferential diagnoses include Congenital Cystic Adenomatoid Malformation (CCAM), which is now classified under CPAM, and Congenital Lobar Emphysema, which typically presents as a diffuse enlargement of a lobe rather than a discrete mass.",
+      "rationale": "Examine septal stroma around cysts for primitive mesenchyme/cambium layer (exclude PPB)"
+    },
+    {
+      "roi_id": "slide_A_x40960_y16384_mag5",
+      "tile_id": "slide_A_x40960_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 40960,
+      "y": 16384,
+      "level0": {
+        "x": 40960,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a proliferation of variably sized cystic spaces separated by thin septa. The cysts are lined by cuboidal to low columnar epithelium with some areas showing papillary infoldings.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 1.\n\nDifferential diagnoses include:\n- Congenital Cystic Adenomatoid Malformation (CCAM), Type 1: This is synonymous with CPAM Type 1.\n- Congenital Pulmonary Airway Malformation (CPAM), Type 2: This type typically shows smaller cysts (less than 2 cm) and more prominent bronchial-like structures, which are not seen here.\n- Congenital Pulmonary Airway Malformation (CPAM), Type 3: This type is characterized by numerous small cysts (less than 1 cm) and a more solid appearance, which is not seen here.",
+      "rationale": "Mid-right deeper parenchyma—look for bronchiolar structures/cartilage, uniformity of cysts"
+    },
+    {
+      "roi_id": "slide_A_x15360_y14848_mag20",
+      "tile_id": "slide_A_x15360_y14848_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 15360,
+      "y": 14848,
+      "level0": {
+        "x": 15360,
+        "y": 14848,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cystic lesion lined by pseudostratified columnar epithelium with cilia and goblet cells, supported by fibrovascular stroma. The cysts are separated by thin septa.\n\nThe most likely diagnosis is a congenital pulmonary airway malformation (CPAM), specifically type 1, given the large cysts and the clinical presentation in a newborn.\n\nDifferential diagnoses include bronchogenic cyst and type 2 CPAM. Bronchogenic cysts are typically solitary and lined by respiratory epithelium, but lack the complex branching pattern seen here. Type 2 CPAM is characterized by smaller cysts and more prominent smooth muscle in the septa.",
+      "rationale": "High power on left-mid fragment to confirm presence/absence of cilia and papillary infoldings across lesion"
+    },
+    {
+      "roi_id": "slide_A_x20480_y14848_mag20",
+      "tile_id": "slide_A_x20480_y14848_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20480,
+      "y": 14848,
+      "level0": {
+        "x": 20480,
+        "y": 14848,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of small, irregular cystic spaces lined by cuboidal to low columnar epithelium with basally oriented nuclei. The intervening stroma is cellular and fibrous.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 2.\n\nDifferential diagnoses include Congenital Cystic Adenomatoid Malformation (CCAM), Type 2, and Congenital Lobar Emphysema. CPAM Type 2 is characterized by small cysts lined by bronchiolar-type epithelium, which is consistent with the morphology seen here. Congenital Lobar Emphysema typically presents as overinflation of a lobe with enlarged air spaces, but lacks the distinct cystic proliferation seen in CPAM.",
+      "rationale": "High power to confirm cartilage plates/bronchial glands if present."
+    },
+    {
+      "roi_id": "slide_A_x24576_y10240_mag5",
+      "tile_id": "slide_A_x24576_y10240_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 24576,
+      "y": 10240,
+      "level0": {
+        "x": 24576,
+        "y": 10240,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows lung parenchyma with numerous variably sized cystic spaces lined by flattened to cuboidal epithelium, separated by thin septa. A large blood vessel with a thickened wall is also present.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 1.\n\nDifferential diagnoses include:\n- Congenital Cystic Adenomatoid Malformation (CCAM), Type 1: Similar to CPAM Type 1, but the term CCAM is less commonly used.\n- Congenital Lobar Emphysema: Characterized by overinflation of a lobe, but typically lacks the prominent cystic spaces seen here.",
+      "rationale": "Central upper region—assess for bronchial wall/cartilage and relationship to cysts"
+    },
+    {
+      "roi_id": "slide_A_x29696_y14336_mag10",
+      "tile_id": "slide_A_x29696_y14336_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 29696,
+      "y": 14336,
+      "level0": {
+        "x": 29696,
+        "y": 14336,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of variably sized cystic spaces lined by cuboidal to low columnar epithelium, separated by thin fibrovascular septa. The cysts contain eosinophilic material and scattered red blood cells.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 2. This diagnosis is supported by the presence of numerous small cysts lined by cuboidal to low columnar epithelium, separated by thin septa, and the clinical presentation of a cystic mass in a newborn.\n\nDifferential diagnoses include Congenital Pulmonary Airway Malformation (CPAM), Type 1, which typically presents with larger cysts (>2 cm) and Congenital Cystic Adenomatoid Malformation (CCAM), which is now considered part of the CPAM spectrum.",
+      "rationale": "Central-right transition zone with thicker septa; search for bronchial wall elements."
+    },
+    {
+      "roi_id": "slide_A_x47104_y16384_mag5",
+      "tile_id": "slide_A_x47104_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 47104,
+      "y": 16384,
+      "level0": {
+        "x": 47104,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cystic lesion in the mediastinum with a thickened wall and adjacent lung parenchyma exhibiting alveolar spaces and a bronchiole. The cystic structure is lined by flattened to cuboidal epithelium.\n\nThe most likely diagnosis is a congenital pulmonary airway malformation (CPAM), specifically type 1, given the presence of a large cystic lesion in the mediastinum of a newborn with respiratory distress.\n\nDifferential diagnoses include bronchogenic cyst and congenital lobar emphysema. Bronchogenic cysts are typically lined by ciliated pseudostratified columnar epithelium and may contain cartilage or smooth muscle, which are not seen here. Congenital lobar emphysema is characterized by overinflation of a lobe, which is not the primary finding in this image.",
+      "rationale": "Region 1 at 5x—evaluate if this is bronchus/vascular/pleura/lymphoid and any cartilage"
+    },
+    {
+      "roi_id": "slide_A_x30208_y13824_mag20",
+      "tile_id": "slide_A_x30208_y13824_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 30208,
+      "y": 13824,
+      "level0": {
+        "x": 30208,
+        "y": 13824,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of small, irregular cystic spaces lined by cuboidal to low columnar epithelium with basally oriented nuclei. The intervening stroma is scant and fibrovascular.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 2.\n\nDifferential diagnoses include Congenital Cystic Adenomatoid Malformation (CCAM), which is now classified under CPAM, and Congenital Lobar Emphysema, which typically presents as diffuse overinflation of a lobe rather than a discrete mass.",
+      "rationale": "Confirm any smooth muscle/glands/cartilage."
+    },
+    {
+      "roi_id": "slide_A_x15360_y18432_mag10",
+      "tile_id": "slide_A_x15360_y18432_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 15360,
+      "y": 18432,
+      "level0": {
+        "x": 15360,
+        "y": 18432,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cystic lesion in the lung with cysts lined by cuboidal to columnar epithelium and thickened septa containing fibrovascular tissue and smooth muscle. The cysts are separated by thin septa.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 2.\n\nDifferential diagnoses include Congenital Cystic Adenomatoid Malformation (CCAM), which is now classified under CPAM, and Congenital Lobar Emphysema, which typically shows enlarged airspaces without the prominent cystic architecture seen here.",
+      "rationale": "Left-mid tissue with larger structures; assess for cartilage-containing bronchus."
+    },
+    {
+      "roi_id": "slide_A_x49152_y16384_mag1",
+      "tile_id": "slide_A_x49152_y16384_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 49152,
+      "y": 16384,
+      "level0": {
+        "x": 49152,
+        "y": 16384,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows lung parenchyma with numerous variably sized cystic spaces and thickened interstitial septa. A bronchiole is also present.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 1.\n\nDifferential diagnoses include Congenital Lobar Emphysema, which typically involves overinflation of a lobe without cyst formation, and Congenital Cystic Adenomatoid Malformation (CCAM), which is now classified under CPAM.",
+      "rationale": "True low-power context of region 1 (separate small fragment) to see if airway/pleura/lymph node"
+    },
+    {
+      "roi_id": "slide_A_x49152_y8192_mag1",
+      "tile_id": "slide_A_x49152_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 49152,
+      "y": 8192,
+      "level0": {
+        "x": 49152,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a cystic lesion in the lung with numerous variably sized cysts lined by flattened to cuboidal epithelium, separated by thin septa. The surrounding lung parenchyma appears compressed.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 1.\n\nDifferential diagnoses include Congenital Cystic Adenomatoid Malformation (CCAM), Type 1, and Congenital Lobar Emphysema. CPAM Type 1 is characterized by large cysts (>2 cm) lined by bronchial epithelium, while CCAM Type 1 has smaller cysts (<2 cm) lined by cuboidal or columnar epithelium. Congenital Lobar Emphysema typically presents as overinflation of a lobe without discrete cysts.",
+      "rationale": "Low-power at junction near region 1 to see relationship to main lesion and pleura"
+    },
+    {
+      "roi_id": "slide_A_x47104_y11264_mag10",
+      "tile_id": "slide_A_x47104_y11264_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 47104,
+      "y": 11264,
+      "level0": {
+        "x": 47104,
+        "y": 11264,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cystic structure lined by pseudostratified columnar epithelium with cilia, adjacent to lung parenchyma with alveolar spaces and areas of hemorrhage. The cyst wall contains smooth muscle and connective tissue.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 1.\n\nDifferential diagnoses include Congenital Cystic Adenomatoid Malformation (CCAM), Type 1, and Congenital Lobar Emphysema. CPAM Type 1 is characterized by large cysts lined by bronchial-type epithelium, often with cartilage or smooth muscle in the wall, which is consistent with the findings in the image. CCAM Type 1 is a synonym for CPAM Type 1. Congenital Lobar Emphysema typically presents as overinflation of a lobe without discrete cysts.",
+      "rationale": "Unexplored right-upper quadrant near periphery; look for a bronchus with cartilage/glands."
+    },
+    {
+      "roi_id": "slide_A_x46080_y16384_mag10",
+      "tile_id": "slide_A_x46080_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 46080,
+      "y": 16384,
+      "level0": {
+        "x": 46080,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows lung parenchyma with thickened alveolar septa and a large cystic space lined by flattened cells. The cystic space contains proteinaceous material and red blood cells.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 1.\n\nDifferential diagnoses include Congenital Cystic Adenomatoid Malformation (CCAM), Type 1, and Congenital Lobar Emphysema. CPAM Type 1 is characterized by large cysts (>2 cm) lined by flattened epithelium, while CCAM Type 1 typically has smaller cysts (<2 cm) lined by cuboidal or columnar epithelium. Congenital Lobar Emphysema presents as overinflation of a lobe without true cyst formation.",
+      "rationale": "Higher power screen for cartilage/mucous glands/smooth muscle in wall of cystic structure"
+    },
+    {
+      "roi_id": "slide_A_x47104_y11776_mag20",
+      "tile_id": "slide_A_x47104_y11776_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 47104,
+      "y": 11776,
+      "level0": {
+        "x": 47104,
+        "y": 11776,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows cystic spaces lined by flattened to cuboidal epithelium, with some areas showing pseudostratified columnar epithelium. The cyst walls are thin and contain scattered red blood cells.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 1. This diagnosis is supported by the presence of large cystic spaces lined by respiratory-type epithelium, which is characteristic of CPAM Type 1. The clinical presentation of a cystic mass in the lung of a newborn with respiratory distress is also consistent with this diagnosis.\n\nDifferential diagnoses to consider include Congenital Lobar Emphysema, which typically presents as overinflation of a lobe without true cyst formation, and Congenital Pulmonary Airway Malformation Type 2, which is characterized by smaller cysts and more prominent bronchial structures.",
+      "rationale": "If airway present, confirm cartilage plates/bronchial glands."
+    },
+    {
+      "roi_id": "slide_A_x45056_y8192_mag10",
+      "tile_id": "slide_A_x45056_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 45056,
+      "y": 8192,
+      "level0": {
+        "x": 45056,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cystic structure lined by pseudostratified columnar epithelium with cilia, adjacent to lung parenchyma with thickened alveolar septa and inflammation. The cyst wall contains smooth muscle and connective tissue.\n\nThe most likely diagnosis is a congenital pulmonary airway malformation (CPAM), likely type 1 given the large cystic spaces.\n\nDifferential diagnoses include bronchogenic cyst and congenital lobar emphysema. Bronchogenic cysts are typically lined by respiratory epithelium and contain cartilage, smooth muscle, and mucous glands, which are not prominent here. Congenital lobar emphysema is characterized by overinflation of a lobe, which is not the primary feature in this image.",
+      "rationale": "Higher power of bronchus-like structure to look specifically for cartilage plates or submucosal glands"
+    },
+    {
+      "roi_id": "slide_A_x40960_y10240_mag10",
+      "tile_id": "slide_A_x40960_y10240_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 40960,
+      "y": 10240,
+      "level0": {
+        "x": 40960,
+        "y": 10240,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows lung tissue with numerous variably sized cystic spaces separated by thin septa. The septa are lined by cuboidal to low columnar epithelium and contain capillaries and scattered inflammatory cells.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 1. This diagnosis is supported by the presence of large cysts (typically >2 cm) lined by bronchial-type epithelium, which is consistent with the morphology seen in the image. The clinical presentation of a cystic mass in the lung of a newborn is also characteristic.\n\nDifferential diagnoses to consider include Congenital Lobar Emphysema, which typically presents as overinflation of a lobe without true cyst formation, and Congenital Pulmonary Airway Malformation, Type 2, which is characterized by smaller cysts (typically <2 cm) and more prominent bronchial structures within the septa.",
+      "rationale": "Superior central region; search for hilar bronchial wall elements."
+    },
+    {
+      "roi_id": "slide_A_x40960_y10752_mag20",
+      "tile_id": "slide_A_x40960_y10752_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 40960,
+      "y": 10752,
+      "level0": {
+        "x": 40960,
+        "y": 10752,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of small, closely packed tubular structures lined by cuboidal to low columnar cells with basally oriented nuclei. The lumens are small and contain eosinophilic material.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 3.\n\nDifferential diagnoses include:\n- Congenital Cystic Adenomatoid Malformation (CCAM), Type 3: This is synonymous with CPAM Type 3.\n- Congenital Pulmonary Airway Malformation (CPAM), Type 1: This type is characterized by larger cysts (typically >2 cm) and lacks the small tubular structures seen here.\n- Congenital Pulmonary Airway Malformation (CPAM), Type 2: This type has larger cysts (1-2 cm) and is lined by columnar epithelium with cilia, which is not seen in this image.",
+      "rationale": "Confirm any cartilage/glands vs just smooth muscle."
+    },
+    {
+      "roi_id": "slide_A_x47104_y18432_mag5",
+      "tile_id": "slide_A_x47104_y18432_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 47104,
+      "y": 18432,
+      "level0": {
+        "x": 47104,
+        "y": 18432,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cystic lesion with a thickened wall and adjacent lung parenchyma exhibiting thickened alveolar septa and interstitial inflammation. The cystic spaces are lined by flattened to cuboidal epithelium.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 1.\n\nDifferential diagnoses include Congenital Cystic Adenomatoid Malformation (CCAM), Type 1, and Congenital Lobar Emphysema. CPAM Type 1 is characterized by large cysts (>2 cm) lined by bronchial epithelium, often with cartilage and smooth muscle in the wall, which is consistent with the features observed. CCAM Type 1 is similar but typically lacks cartilage and smooth muscle. Congenital Lobar Emphysema presents as overinflation of a lobe with enlarged airspaces but lacks the distinct cystic lesion and thickened wall seen here.",
+      "rationale": "Region 1 deeper at 5x to look for bronchial wall elements, cartilage, glands, vessels"
+    },
+    {
+      "roi_id": "slide_A_x8192_y15360_mag10",
+      "tile_id": "slide_A_x8192_y15360_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 8192,
+      "y": 15360,
+      "level0": {
+        "x": 8192,
+        "y": 15360,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of cystic and tubular structures lined by cuboidal to columnar epithelium with focal papillary infoldings. The stroma is loose and edematous with scattered red blood cells.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 1. This diagnosis is supported by the presence of large cysts lined by bronchiolar-type epithelium, which is characteristic of CPAM Type 1. The clinical presentation of a cystic mass in the lung of a newborn is also consistent with this diagnosis.\n\nDifferential diagnoses to consider include Congenital Cystic Adenomatoid Malformation (CCAM), which is now classified under CPAM, and Congenital Lobar Emphysema, which typically presents as overinflation of a lobe rather than a discrete mass.",
+      "rationale": "Far left tissue fragment; look for larger conducting airway structures."
+    },
+    {
+      "roi_id": "slide_A_x49152_y18432_mag5",
+      "tile_id": "slide_A_x49152_y18432_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 49152,
+      "y": 18432,
+      "level0": {
+        "x": 49152,
+        "y": 18432,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows lung tissue with numerous variably sized cystic spaces lined by flattened to cuboidal epithelium, separated by thin septa. The septa contain fibrovascular tissue with scattered inflammatory cells and areas of hemorrhage.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 1. This diagnosis is supported by the presence of large cysts (typically >2 cm) lined by respiratory epithelium, which is characteristic of CPAM Type 1. The clinical presentation of a cystic mass in the mediastinum and the surgical findings of a fleshy cystic tumor mass in the right upper lobe are also consistent with this diagnosis.\n\nDifferential diagnoses to consider include Congenital Lobar Emphysema, which typically presents as overinflation of a lobe with enlarged airways and alveoli, and Congenital Pulmonary Airway Malformation (CPAM), Type 2, which is characterized by smaller cysts (typically <2 cm) and more prominent bronchial structures.",
+      "rationale": "Region 1 edge/subpleural aspect for pleura and cyst relationship"
+    },
+    {
+      "roi_id": "slide_A_x45056_y16384_mag5",
+      "tile_id": "slide_A_x45056_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 45056,
+      "y": 16384,
+      "level0": {
+        "x": 45056,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cystic lesion composed of numerous variably sized cysts separated by thin septa. The cysts are lined by flattened to cuboidal epithelium, and the septa contain fibrovascular tissue with scattered inflammatory cells.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 1. This diagnosis is supported by the presence of large cysts (typically >2 cm) and the clinical presentation in a newborn with respiratory distress and a cystic mass in the lung.\n\nDifferential diagnoses include Congenital Cystic Adenomatoid Malformation (CCAM), which is now classified under CPAM, and Congenital Lobar Emphysema, which typically presents as overinflation of a lobe without discrete cysts.",
+      "rationale": "Near interface of region 0 and 1 to check for any systemic artery/large vessel suggestive of sequestration"
+    },
+    {
+      "roi_id": "slide_A_x47104_y11264_mag20",
+      "tile_id": "slide_A_x47104_y11264_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 47104,
+      "y": 11264,
+      "level0": {
+        "x": 47104,
+        "y": 11264,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows cystic spaces lined by pseudostratified columnar epithelium with cilia and goblet cells, along with areas of hemorrhage and inflammation. The cyst walls are thin and fibrovascular.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 1.\n\nDifferential diagnoses include Congenital Cystic Adenomatoid Malformation (CCAM), Type 1, and Congenital Lobar Emphysema. CPAM Type 1 is characterized by large cysts lined by respiratory epithelium, which is consistent with the findings in the image. CCAM Type 1 is now considered synonymous with CPAM Type 1. Congenital Lobar Emphysema typically presents as overinflation of a lobe without discrete cysts.",
+      "rationale": "Revisit cyst with pseudostratified ciliated lining; specifically search in wall for cartilage plates/bronchial glands."
+    },
+    {
+      "roi_id": "slide_A_x26624_y21504_mag20",
+      "tile_id": "slide_A_x26624_y21504_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 26624,
+      "y": 21504,
+      "level0": {
+        "x": 26624,
+        "y": 21504,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows multiple cystic spaces lined by pseudostratified columnar epithelium with cilia and goblet cells, separated by fibrovascular septa. The cysts contain eosinophilic material and red blood cells.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 1.\n\nDifferential diagnoses include Congenital Cystic Adenomatoid Malformation (CCAM), Type 1, and Congenital Lobar Emphysema. CPAM Type 1 is characterized by large cysts lined by bronchial-type epithelium, which is consistent with the findings in the image. CCAM Type 1 is now considered synonymous with CPAM Type 1. Congenital Lobar Emphysema typically presents as overinflation of a lobe without cyst formation.",
+      "rationale": "Thick-walled cyst with ciliated pseudostratified epithelium; check for cartilage or submucosal glands."
+    },
+    {
+      "roi_id": "slide_A_x47104_y14336_mag5",
+      "tile_id": "slide_A_x47104_y14336_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 47104,
+      "y": 14336,
+      "level0": {
+        "x": 47104,
+        "y": 14336,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a large cystic space lined by flattened to cuboidal epithelium, adjacent to lung parenchyma with alveolar spaces and a bronchiole. The cyst wall is composed of fibrous tissue with scattered inflammatory cells.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 1. This diagnosis is supported by the presence of a large cystic lesion in the lung of a newborn, with the cyst wall lined by epithelium and surrounded by fibrous tissue. The clinical presentation of respiratory distress and the gross description of a spongy lung with numerous cystic spaces are also consistent with CPAM.\n\nDifferential diagnoses include Congenital Lobar Emphysema, which typically presents as overinflation of a lobe without a discrete mass, and Congenital Pulmonary Airway Malformation, Type 2, which is characterized by smaller cysts (less than 2 cm) and more prominent bronchial structures within the cyst wall.",
+      "rationale": "Right mid area at 5x for any solid cellular zones (exclude PPB)"
+    },
+    {
+      "roi_id": "slide_A_x15360_y18432_mag20",
+      "tile_id": "slide_A_x15360_y18432_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 15360,
+      "y": 18432,
+      "level0": {
+        "x": 15360,
+        "y": 18432,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows numerous cystic spaces lined by cuboidal to columnar epithelium with focal papillary projections. The cyst walls are thickened by fibrous tissue and smooth muscle.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 2.\n\nDifferential diagnoses include Congenital Cystic Adenomatoid Malformation (CCAM), Type 2, and Congenital Lobar Emphysema. CPAM Type 2 is characterized by multiple small cysts lined by bronchiolar-type epithelium, often with papillary infoldings, and thickened cyst walls containing smooth muscle and fibrous tissue, which are features seen in the image. Congenital Lobar Emphysema typically presents as overinflation of a lobe with enlarged air spaces but lacks the distinct cystic architecture and epithelial lining seen here.",
+      "rationale": "Area with reported smooth muscle in septa; look for cartilage and glandular structures."
+    },
+    {
+      "roi_id": "slide_A_x30720_y23040_mag20",
+      "tile_id": "slide_A_x30720_y23040_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 30720,
+      "y": 23040,
+      "level0": {
+        "x": 30720,
+        "y": 23040,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cystic lesion composed of numerous variably sized cysts lined by cuboidal to low columnar epithelium with focal papillary infoldings. The cysts are separated by thin fibrovascular septa.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 1.\n\nDifferential diagnoses include Congenital Cystic Adenomatoid Malformation (CCAM), Type 1, and Congenital Lobar Emphysema. CCAM is now considered synonymous with CPAM. Congenital Lobar Emphysema typically presents as overinflation of a lobe without discrete cysts.",
+      "rationale": "Inferior/pleural edge for abnormal systemic-type vessels suggestive of sequestration."
+    },
+    {
+      "roi_id": "slide_A_x38912_y13312_mag20",
+      "tile_id": "slide_A_x38912_y13312_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 38912,
+      "y": 13312,
+      "level0": {
+        "x": 38912,
+        "y": 13312,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of small, closely packed tubular structures lined by cuboidal to low columnar cells with basally oriented nuclei. The lumens are open and contain eosinophilic material.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 3.\n\nDifferential diagnoses include:\n- Congenital Pulmonary Airway Malformation (CPAM), Type 1: Characterized by larger cysts (>2 cm) lined by ciliated columnar epithelium, often with cartilage.\n- Congenital Lobar Emphysema: Characterized by overinflation of a lobe with enlarged air spaces, but typically lacks the distinct proliferation of small tubules seen here.",
+      "rationale": "Compact tubules (type 3-like); exclude bronchial wall elements."
+    },
+    {
+      "roi_id": "slide_A_x24576_y16384_mag5",
+      "tile_id": "slide_A_x24576_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 24576,
+      "y": 16384,
+      "level0": {
+        "x": 24576,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a proliferation of variably sized cystic spaces lined by cuboidal to columnar epithelium, separated by thin fibrovascular septa. The cysts are lined by a single layer of cells with basally oriented nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 1. This diagnosis is supported by the presence of large cysts lined by bronchiolar-type epithelium, which is characteristic of CPAM Type 1. The clinical presentation of a cystic mass in the mediastinum and the gross description of a spongy mass with numerous cysts further support this diagnosis.\n\nDifferential diagnoses to consider include Congenital Cystic Adenomatoid Malformation (CCAM), which is now classified under CPAM, and Congenital Pulmonary Airway Malformation (CPAM), Type 2, which typically presents with smaller cysts and more prominent cartilage.",
+      "rationale": "Broader scan around central hilum-like area to find any true bronchus with cartilage or atresia."
+    },
+    {
+      "roi_id": "slide_A_x23552_y15360_mag10",
+      "tile_id": "slide_A_x23552_y15360_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 23552,
+      "y": 15360,
+      "level0": {
+        "x": 23552,
+        "y": 15360,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of cystic and tubular structures lined by cuboidal to columnar epithelium with focal papillary infoldings. The stroma is cellular and contains a prominent lymphocytic infiltrate.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 2.\n\nDifferential diagnoses include Congenital Cystic Adenomatoid Malformation (CCAM), which is now classified under CPAM, and Congenital Lobar Emphysema, which typically shows enlarged airspaces without the epithelial proliferation seen here.",
+      "rationale": "If a larger airway is present, evaluate for blind-ending bronchus/mucus plugging (bronchial atresia)."
+    },
+    {
+      "roi_id": "slide_A_x32768_y16384_mag5",
+      "tile_id": "slide_A_x32768_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 32768,
+      "y": 16384,
+      "level0": {
+        "x": 32768,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a proliferation of variably sized cystic spaces separated by thin septa. The cysts are lined by cuboidal to low columnar epithelium with basally oriented nuclei and eosinophilic cytoplasm, and some contain eosinophilic material.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 1. This diagnosis is supported by the presence of large cysts (typically >2 cm) lined by bronchiolar-type epithelium, which is consistent with the morphology seen in the image. The clinical presentation of a cystic mass in the mediastinum and the patient's age (newborn) are also characteristic of CPAM.\n\nDifferential diagnoses include Congenital Cystic Adenomatoid Malformation (CCAM), which is now considered part of the CPAM spectrum, and Congenital Pulmonary Airway Malformation (CPAM), Type 2, which typically presents with smaller cysts (1-2 cm) and more prominent bronchial-type epithelium.",
+      "rationale": "Scan central-right for possible larger airway or vessel bundle."
+    },
+    {
+      "roi_id": "slide_A_x32768_y15360_mag10",
+      "tile_id": "slide_A_x32768_y15360_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 32768,
+      "y": 15360,
+      "level0": {
+        "x": 32768,
+        "y": 15360,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of small, closely packed tubular structures lined by cuboidal to low columnar epithelium with scant intervening stroma. The tubules are uniform in size and shape.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 1.\n\nDifferential diagnoses include:\n- Congenital Pulmonary Airway Malformation (CPAM), Type 2: Characterized by larger cysts (1-2 cm) and more prominent stroma.\n- Congenital Pulmonary Airway Malformation (CPAM), Type 3: Characterized by smaller cysts (1-3 mm) and more prominent stroma.\n- Congenital Pulmonary Airway Malformation (CPAM), Type 4: Characterized by solid areas with small cysts and prominent stroma.",
+      "rationale": "Assess for bronchial atresia features or cartilage."
+    },
+    {
+      "roi_id": "slide_A_x22528_y20480_mag5",
+      "tile_id": "slide_A_x22528_y20480_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 22528,
+      "y": 20480,
+      "level0": {
+        "x": 22528,
+        "y": 20480,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cystic lesion with a large central cyst and smaller peripheral cysts, lined by cuboidal to columnar epithelium. The surrounding lung parenchyma exhibits thickened alveolar septa and interstitial inflammation.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 1. This diagnosis is supported by the presence of large cysts lined by respiratory epithelium and the associated interstitial changes in the surrounding lung.\n\nDifferential diagnoses include Congenital Cystic Adenomatoid Malformation (CCAM), which is now classified under CPAM, and Congenital Lobar Emphysema, which typically presents as overinflation of a lobe without cyst formation.",
+      "rationale": "Scan mid-inferior central tissue where septa converge; look for pleura/vessels (sequestration) or atretic bronchus."
+    },
+    {
+      "roi_id": "slide_A_x26624_y10240_mag5",
+      "tile_id": "slide_A_x26624_y10240_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 26624,
+      "y": 10240,
+      "level0": {
+        "x": 26624,
+        "y": 10240,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cystic lesion in the lung with numerous variably sized cysts lined by cuboidal to low columnar epithelium. The cysts are separated by thin fibrovascular septa, and there is a thickened fibrous wall at the periphery.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 1.\n\nDifferential diagnoses include Congenital Cystic Adenomatoid Malformation (CCAM), Type 1, and Congenital Lobar Emphysema. CPAM Type 1 is characterized by large cysts (>2 cm) lined by bronchial-type epithelium, which is consistent with the findings here. CCAM Type 1 is now considered synonymous with CPAM Type 1. Congenital Lobar Emphysema typically presents as overinflation of a lobe with enlarged airspaces but lacks the distinct cystic structure seen in this lesion.",
+      "rationale": "Un/less-sampled superior-central area above prior ROIs; look for bronchus cross-section or cartilage."
+    },
+    {
+      "roi_id": "slide_A_x26624_y10240_mag10",
+      "tile_id": "slide_A_x26624_y10240_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 26624,
+      "y": 10240,
+      "level0": {
+        "x": 26624,
+        "y": 10240,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cystic lesion with numerous variably sized cysts lined by cuboidal to low columnar epithelium, separated by fibrous stroma. The cysts contain eosinophilic material and scattered cells.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 1.\n\nDifferential diagnoses include Congenital Cystic Adenomatoid Malformation (CCAM), Type 1, and Congenital Lobar Emphysema. CPAM Type 1 is characterized by large cysts lined by bronchial-type epithelium, which is consistent with the findings in the image. CCAM Type 1 is now considered synonymous with CPAM Type 1. Congenital Lobar Emphysema typically presents as overinflation of a lobe with enlarged airspaces but lacks the distinct cystic architecture seen here.",
+      "rationale": "Evaluate any larger airway for cartilage plates/submucosal glands; assess atresia."
+    },
+    {
+      "roi_id": "slide_A_x26112_y10240_mag20",
+      "tile_id": "slide_A_x26112_y10240_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 26112,
+      "y": 10240,
+      "level0": {
+        "x": 26112,
+        "y": 10240,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cystic lesion with numerous variably sized cystic spaces lined by cuboidal to low columnar epithelium. The cyst walls are thickened by fibrous tissue and contain a mixed inflammatory infiltrate.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 1. This diagnosis is supported by the presence of large cysts lined by respiratory epithelium and the clinical presentation of a cystic mass in a newborn.\n\nDifferential diagnoses include Congenital Cystic Adenomatoid Malformation (CCAM), which is now considered part of the CPAM spectrum, and Congenital Lobar Emphysema, which typically presents as overinflation of a lobe rather than a discrete mass.",
+      "rationale": "High power to confirm cartilage vs smooth muscle only."
+    },
+    {
+      "roi_id": "slide_A_x20480_y10240_mag5",
+      "tile_id": "slide_A_x20480_y10240_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 20480,
+      "y": 10240,
+      "level0": {
+        "x": 20480,
+        "y": 10240,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cystic lesion with a thickened wall and papillary projections lined by pseudostratified columnar epithelium. The surrounding lung parenchyma exhibits thickened alveolar septa and interstitial inflammation.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 1. This diagnosis is supported by the presence of a large cystic lesion with thickened walls and papillary projections lined by respiratory-type epithelium, which is characteristic of CPAM Type 1. The clinical presentation of a newborn with respiratory distress and a cystic mass in the lung further supports this diagnosis.\n\nDifferential diagnoses to consider include Congenital Cystic Adenomatoid Malformation (CCAM), which is now classified under CPAM, and Congenital Lobar Emphysema, which typically presents as overinflation of a lobe rather than a discrete cystic mass.",
+      "rationale": "Superior left-central region near tissue bridge; search for bronchial wall elements."
+    },
+    {
+      "roi_id": "slide_A_x21504_y11264_mag10",
+      "tile_id": "slide_A_x21504_y11264_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 21504,
+      "y": 11264,
+      "level0": {
+        "x": 21504,
+        "y": 11264,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cystic structure lined by pseudostratified columnar epithelium with cilia and goblet cells, surrounded by thickened fibrous tissue. Adjacent lung parenchyma exhibits thickened alveolar septa and interstitial inflammation.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 1. This diagnosis is supported by the presence of a large cystic lesion lined by respiratory epithelium and the clinical presentation of a newborn with respiratory distress and a cystic mass in the lung.\n\nDifferential diagnoses include Congenital Cystic Adenomatoid Malformation (CCAM), which is now classified under CPAM, and Congenital Lobar Emphysema, which typically presents as overinflation of a lobe rather than a discrete cystic mass.",
+      "rationale": "Check for bronchial glands/cartilage and mucus plugging."
+    },
+    {
+      "roi_id": "slide_A_x10240_y24576_mag5",
+      "tile_id": "slide_A_x10240_y24576_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 10240,
+      "y": 24576,
+      "level0": {
+        "x": 10240,
+        "y": 24576,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cystic lesion with numerous variably sized cysts lined by cuboidal to columnar epithelium, separated by thin fibrovascular septa. The cysts contain eosinophilic material and scattered red blood cells.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 1.\n\nDifferential diagnoses include Congenital Cystic Adenomatoid Malformation (CCAM), Type 1, and Congenital Lobar Emphysema. CPAM Type 1 is characterized by large cysts lined by bronchial-type epithelium, which is consistent with the findings in this image. CCAM Type 1 is now considered synonymous with CPAM Type 1. Congenital Lobar Emphysema typically presents as overinflation of a lobe with enlarged air spaces, but lacks the distinct cystic architecture seen here.",
+      "rationale": "Underexplored inferior-left edge; evaluate pleura and look for aberrant systemic vessel."
+    },
+    {
+      "roi_id": "slide_A_x11264_y25600_mag10",
+      "tile_id": "slide_A_x11264_y25600_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 11264,
+      "y": 25600,
+      "level0": {
+        "x": 11264,
+        "y": 25600,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of small, closely packed cystic spaces lined by cuboidal to low columnar epithelium. The cysts are separated by thin fibrovascular septa.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 2.\n\nDifferential diagnoses include Congenital Cystic Adenomatoid Malformation (CCAM), which is now classified as CPAM, and Congenital Lobar Emphysema, which typically presents as overinflation of a lobe without discrete cysts.",
+      "rationale": "Detail any vessel caliber/wall thickness; search for bronchial cartilage."
+    },
+    {
+      "roi_id": "slide_A_x10752_y25600_mag20",
+      "tile_id": "slide_A_x10752_y25600_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 10752,
+      "y": 25600,
+      "level0": {
+        "x": 10752,
+        "y": 25600,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of small, closely packed tubular structures lined by cuboidal to low columnar epithelium with basally oriented nuclei. The stroma is scant and fibrovascular.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 3.\n\nDifferential diagnoses include:\n- Congenital Cystic Adenomatoid Malformation (CCAM), Type 3: This is synonymous with CPAM Type 3.\n- Bronchopulmonary Sequestration: Typically shows a connection to the tracheobronchial tree and systemic arterial supply, which is not evident in this image.",
+      "rationale": "Confirm vessel type (muscular artery vs pulmonary) and any glands/cartilage."
+    },
+    {
+      "roi_id": "slide_A_x45056_y14336_mag5",
+      "tile_id": "slide_A_x45056_y14336_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 45056,
+      "y": 14336,
+      "level0": {
+        "x": 45056,
+        "y": 14336,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cystic lesion composed of numerous variably sized cysts lined by flattened to cuboidal epithelium, separated by thin fibrous septa. The cysts contain eosinophilic material and scattered red blood cells.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 1. This diagnosis is supported by the presence of large cysts (typically >2 cm) lined by respiratory epithelium, which is characteristic of CPAM Type 1. The clinical presentation of a cystic mass in the lung of a newborn with respiratory distress is also consistent with this diagnosis.\n\nDifferential diagnoses to consider include Congenital Cystic Adenomatoid Malformation (CCAM), which is now classified under CPAM, and Congenital Lobar Emphysema, which typically presents as overinflation of a lobe rather than a discrete cystic mass.",
+      "rationale": "Right lobe superior periphery near pleura—look for bronchogenic cyst wall/cartilage plates."
+    },
+    {
+      "roi_id": "slide_A_x45056_y15360_mag10",
+      "tile_id": "slide_A_x45056_y15360_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 45056,
+      "y": 15360,
+      "level0": {
+        "x": 45056,
+        "y": 15360,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of small, closely packed cystic spaces lined by cuboidal to low columnar epithelium, separated by thin fibrovascular septa. The cysts are uniform in size and shape.\n\nThe most likely diagnosis is Congenital Pulmonary Airway Malformation (CPAM), Type 1.\n\nDifferential diagnoses include:\n- Congenital Cystic Adenomatoid Malformation (CCAM), Type 1 (historical term for CPAM Type 1)\n- Congenital Pulmonary Airway Malformation (CPAM), Type 2 (distinguished by larger cysts and more prominent bronchial structures)\n- Congenital Pulmonary Airway Malformation (CPAM), Type 3 (distinguished by smaller cysts and more prominent alveolar-like structures)\n- Congenital Pulmonary Airway Malformation (CPAM), Type 4 (distinguished by solid or microcystic areas with primitive bronchial structures)",
+      "rationale": "Assess any larger airway-like structure for cartilage/glands."
+    }
+  ]
+}

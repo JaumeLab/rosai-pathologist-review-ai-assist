@@ -1,0 +1,638 @@
+{
+  "case_id": "sem1448_case10",
+  "source": "slideseek-ai-assist",
+  "model": "gpt-5.4",
+  "generated_at": "2026-05-22T09:23:57.620084+00:00",
+  "organ": "Gynecologic",
+  "primary_dx": "Benign Serous Cystadenofibroma Of Ovary",
+  "differential_dx": [
+    "Ovarian Fibroma With Entrapped Cortical Inclusion Cysts",
+    "Serous Cystadenoma With Marked Secondary Stromal Fibrosis"
+  ],
+  "microscopic_findings": [
+    {
+      "text": "Multiple variably sized **epithelial-lined cysts** are distributed throughout a **dominant fibromatous stroma**, establishing a biphasic…",
+      "roi_ids": [
+        "slide_A_x24576_y16384_mag2",
+        "slide_A_x16384_y16384_mag2"
+      ]
+    },
+    {
+      "text": "Cysts are lined by a single layer of bland **cuboidal to low columnar epithelium** with **basally oriented nuclei** and no stratification.",
+      "roi_ids": [
+        "slide_A_x22016_y13312_mag20",
+        "slide_A_x22528_y13312_mag20"
+      ]
+    },
+    {
+      "text": "The stromal component shows bland **spindle cells** in fascicles and whorls within dense **collagenous/hyalinized stroma**.",
+      "roi_ids": [
+        "slide_A_x21504_y15360_mag20",
+        "slide_A_x26112_y13312_mag20"
+      ]
+    },
+    {
+      "text": "No **micropapillae**, significant **cytologic atypia**, or mitotic activity is identified in the sampled epithelial component.",
+      "roi_ids": [
+        "slide_A_x15360_y12288_mag20",
+        "slide_A_x28160_y20480_mag20"
+      ]
+    }
+  ],
+  "interpretation": "The lesion is a biphasic ovarian neoplasm composed of a **dominant fibromatous stroma** containing numerous cysts lined by bland serous-type epithelium, supporting **benign serous cystadenofibroma**. The multiplicity and distribution of epithelial-lined cysts throughout the fibrous tumor favor this over fibroma with incidental entrapped inclusion cysts. Absence of **epithelial stratification**, **micropapillary complexity**, and significant atypia argues against a borderline serous tumor or malignancy. No **transitional nests or hyaline plaques** are present to support Brenner tumor.",
+  "num_rois": 37,
+  "tiles": [
+    {
+      "roi_id": "slide_A_x22528_y13312_mag10",
+      "tile_id": "slide_A_x22528_y13312_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 22528,
+      "y": 13312,
+      "level0": {
+        "x": 22528,
+        "y": 13312,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cystic structure lined by a single layer of cuboidal to low columnar epithelium with basally oriented nuclei. The cyst lumen contains abundant eosinophilic, amorphous material with linear striations.\n\nThe most likely diagnosis is a serous cystadenoma of the ovary. The differential diagnosis includes a mucinous cystadenoma, which would typically show columnar epithelium with apical mucin and mucinous material in the lumen.",
+      "rationale": "Survey cyst lining and any projections in target region 1."
+    },
+    {
+      "roi_id": "slide_A_x16384_y16384_mag1",
+      "tile_id": "slide_A_x16384_y16384_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 16384,
+      "y": 16384,
+      "level0": {
+        "x": 16384,
+        "y": 16384,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a biphasic lesion composed of variably sized cystic glands embedded within a dense, fibrous stroma. The glands are lined by flattened to cuboidal epithelium and contain eosinophilic material.\n\nThe most likely diagnosis is a fibroepithelial stromal polyp. Differential diagnoses include adenofibroma and adenomyoma, which can be distinguished by the presence of smooth muscle in the stroma (adenomyoma) or a more prominent epithelial component (adenofibroma).",
+      "rationale": "Global low-power survey of entire tissue to orient and identify solid vs cystic zones."
+    },
+    {
+      "roi_id": "slide_A_x16384_y12288_mag2",
+      "tile_id": "slide_A_x16384_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 16384,
+      "y": 12288,
+      "level0": {
+        "x": 16384,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a biphasic lesion composed of cystic epithelial structures embedded within a cellular spindle cell stroma. The stroma is dense and arranged in fascicles and whorls.\n\nThe most likely diagnosis is a benign mixed tumor of the ovary, also known as a cystadenofibroma.\n\nDifferential diagnoses include a fibroma with entrapped epithelial elements and a borderline or malignant mixed tumor. The absence of significant stromal atypia, mitotic activity, and complex epithelial proliferation helps distinguish this benign entity.",
+      "rationale": "Low-power survey center to orient to cysts and surrounding solid C-shaped stroma"
+    },
+    {
+      "roi_id": "slide_A_x23552_y13312_mag10",
+      "tile_id": "slide_A_x23552_y13312_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 23552,
+      "y": 13312,
+      "level0": {
+        "x": 23552,
+        "y": 13312,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cystic structure lined by a single layer of flattened to cuboidal cells, with a wall composed of dense fibrous tissue. The lumen contains amorphous eosinophilic material.\n\nThe most likely diagnosis is a simple ovarian cyst. Differential diagnoses include a follicular cyst, which would typically show a more prominent granulosa cell layer, and a corpus luteum cyst, which would have a more convoluted lining and luteinized cells.",
+      "rationale": "Survey cyst lining and projections in target region 2 (adjacent focus)."
+    },
+    {
+      "roi_id": "slide_A_x24576_y16384_mag2",
+      "tile_id": "slide_A_x24576_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 24576,
+      "y": 16384,
+      "level0": {
+        "x": 24576,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows multiple cystic spaces of varying sizes within a dense, fibrous stroma. The cysts are lined by flattened to cuboidal epithelium and contain eosinophilic material.\n\nThe most likely diagnosis is a benign cystic lesion of the ovary, such as a serous cystadenoma or a benign cystic teratoma. The presence of multiple cysts within a fibrous stroma is characteristic of these entities. Differential diagnoses include a mucinous cystadenoma, which would typically show mucinous epithelium, and a cystic corpus luteum, which would have a more cellular stroma with luteinized cells.",
+      "rationale": "Right-sided larger cystic region with possible nodular projections per thumbnail."
+    },
+    {
+      "roi_id": "slide_A_x28672_y12288_mag2",
+      "tile_id": "slide_A_x28672_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 28672,
+      "y": 12288,
+      "level0": {
+        "x": 28672,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows multiple cystic spaces of varying sizes within a dense, fibrous stroma. The cysts are lined by flattened to cuboidal epithelium, and the stroma is composed of spindle cells arranged in fascicles and whorls.\n\nThe most likely diagnosis is a benign cystic lesion of the ovary, such as a serous cystadenoma or a cystic corpus luteum. The presence of multiple cysts and the dense fibrous stroma are consistent with these possibilities. Differential diagnoses include a cystic teratoma, which would typically show elements from multiple germ layers, and a cystic endometrioma, which would have endometrial glands and stroma.",
+      "rationale": "Low-power survey along right side where cysts/projections likely cluster"
+    },
+    {
+      "roi_id": "slide_A_x22528_y12288_mag5",
+      "tile_id": "slide_A_x22528_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 22528,
+      "y": 12288,
+      "level0": {
+        "x": 22528,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cystic structure lined by flattened to cuboidal epithelium, surrounded by a dense, cellular fibrous stroma with spindle cells arranged in fascicles and whorls. The stroma is relatively acellular and lacks significant mitotic activity.\n\nThe most likely diagnosis is a benign cystic lesion of the ovary, such as a serous cystadenoma or a simple cyst. The presence of a dense fibrous stroma surrounding the cyst is also noted.\n\nDifferential diagnoses include a fibroma or thecoma, which are typically solid tumors composed of spindle cells, and a cystadenofibroma, which would show a more prominent epithelial component.",
+      "rationale": "Lower mag context for relationship of cysts to fibrous stroma."
+    },
+    {
+      "roi_id": "slide_A_x16384_y16384_mag2",
+      "tile_id": "slide_A_x16384_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 16384,
+      "y": 16384,
+      "level0": {
+        "x": 16384,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a biphasic lesion composed of cystic epithelial structures embedded within a dense, cellular spindle cell stroma. The stroma is arranged in fascicles and whorls.\n\nThe most likely diagnosis is a benign mixed tumor of the ovary, also known as an adenofibroma.\n\nDifferential diagnoses include a fibroma, which would lack the epithelial component, and a cystadenoma, which would lack the prominent stromal component.",
+      "rationale": "Central parenchyma to assess stroma quality (fibrous vs cellular) and small cysts."
+    },
+    {
+      "roi_id": "slide_A_x8192_y16384_mag2",
+      "tile_id": "slide_A_x8192_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 8192,
+      "y": 16384,
+      "level0": {
+        "x": 8192,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a biphasic lesion composed of benign epithelial glands embedded within a cellular spindle cell stroma. The stroma is arranged in fascicles and whorls, with some areas showing a storiform pattern.\n\nThe most likely diagnosis is a benign mixed tumor (BMT), also known as adenosarcoma, of the ovary. This diagnosis is supported by the biphasic nature of the lesion with benign epithelial elements and a cellular stromal component.\n\nDifferential diagnoses include fibroma/thecoma with entrapped glands and endometriosis. Fibroma/thecoma would typically have a less cellular stroma and lack the prominent whorled pattern. Endometriosis would show endometrial glands and stroma, often with hemosiderin-laden macrophages, which are not seen here.",
+      "rationale": "Low-power survey left/basal area for dominant solid stromal zone away from cysts"
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag2",
+      "tile_id": "slide_A_x8192_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a dense fibrous stroma with scattered epithelial-lined cystic spaces. The stroma is composed of spindle cells arranged in fascicles and whorls.\n\nThe most likely diagnosis is a benign fibroepithelial tumor of the ovary, such as a fibroma or fibrothecoma with cystic changes.\n\nDifferential diagnoses include a cystadenofibroma, which would have more prominent epithelial components, and a serous cystadenoma, which would lack the dense fibrous stroma.",
+      "rationale": "Upper-left cortex/capsular edge to assess relationship to ovarian cortex and surface involvement."
+    },
+    {
+      "roi_id": "slide_A_x22528_y13312_mag20",
+      "tile_id": "slide_A_x22528_y13312_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 22528,
+      "y": 13312,
+      "level0": {
+        "x": 22528,
+        "y": 13312,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cystic structure lined by a single layer of flattened to cuboidal cells, with a lumen containing amorphous material and cellular debris. The wall is composed of dense fibrous tissue.\n\nThe most likely diagnosis is a simple cyst. Differential diagnoses include a follicular cyst or a corpus luteum cyst, which would typically show more complex lining epithelium and/or luteinized cells, respectively.",
+      "rationale": "Higher power of lining to look for cilia/serous features and any atypia/stratification."
+    },
+    {
+      "roi_id": "slide_A_x22528_y18432_mag5",
+      "tile_id": "slide_A_x22528_y18432_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 22528,
+      "y": 18432,
+      "level0": {
+        "x": 22528,
+        "y": 18432,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cystic structure lined by epithelium and surrounded by a cellular spindle cell stroma arranged in intersecting fascicles and whorls. The stroma is dense and fibrous.\n\nThe most likely diagnosis is a benign cystic neoplasm of the ovary, such as a serous cystadenoma or a cystadenofibroma.\n\nDifferential diagnoses include a fibroma with cystic change or a borderline tumor with prominent stromal component. The presence of a cellular spindle cell stroma and the cystic nature of the lesion are key features to consider.",
+      "rationale": "Inferior-right region where clustered cysts/excrescences appear in thumbnail."
+    },
+    {
+      "roi_id": "slide_A_x23552_y13312_mag20",
+      "tile_id": "slide_A_x23552_y13312_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 23552,
+      "y": 13312,
+      "level0": {
+        "x": 23552,
+        "y": 13312,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense, eosinophilic, acellular matrix with scattered small, dark nuclei and prominent linear cracks. The matrix appears hyalinized.\n\nThe most likely diagnosis is a corpus albicans, which is a regressed corpus luteum composed of dense hyalinized connective tissue.\n\nDifferential diagnoses include a corpus fibrosum, which is also a regressed corpus luteum but typically has more fibrous tissue and less hyalinization, and a fibroma, which is a benign tumor of fibroblasts and collagen but usually lacks the characteristic hyalinization and linear cracks seen here.",
+      "rationale": "Higher power of flattened/cuboidal lining to assess type and atypia."
+    },
+    {
+      "roi_id": "slide_A_x15360_y12288_mag10",
+      "tile_id": "slide_A_x15360_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 15360,
+      "y": 12288,
+      "level0": {
+        "x": 15360,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cystic structure lined by a single layer of cuboidal to low columnar epithelium with basally oriented nuclei, surrounded by a dense, fibrous stroma composed of spindle cells in fascicles.\n\nThe most likely diagnosis is a serous cystadenoma of the ovary. The differential diagnosis includes a serous cystadenofibroma, which would show a more prominent fibrous stromal component, and a serous borderline tumor, which would exhibit epithelial stratification and nuclear atypia.",
+      "rationale": "10x: sample solid whorled stromal area near central cysts"
+    },
+    {
+      "roi_id": "slide_A_x23040_y13824_mag20",
+      "tile_id": "slide_A_x23040_y13824_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 23040,
+      "y": 13824,
+      "level0": {
+        "x": 23040,
+        "y": 13824,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense, eosinophilic, acellular matrix with scattered small, dark nuclei. Irregular clear spaces are also present.\n\nThe most likely diagnosis is a corpus albicans, which is a regressed corpus luteum composed of dense collagenous tissue.\n\nDifferential diagnoses include a corpus fibrosum, which is also a regressed corpus luteum but typically has more prominent fibroblasts and less dense collagen, and a fibroma, which is a benign tumor of fibroblasts and collagen but usually lacks the characteristic features of a corpus albicans.",
+      "rationale": "Check for papillary/nodular projection epithelium if present near lumen contents."
+    },
+    {
+      "roi_id": "slide_A_x21504_y15360_mag10",
+      "tile_id": "slide_A_x21504_y15360_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 21504,
+      "y": 15360,
+      "level0": {
+        "x": 21504,
+        "y": 15360,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense proliferation of spindle cells arranged in intersecting fascicles and whorls, with scattered small cystic spaces. The cells have elongated, wavy nuclei and scant cytoplasm.\n\nThe most likely diagnosis is a fibroma with cystic change. Differential diagnoses include a cellular fibroma or a fibrothecoma, which would show more prominent cellularity or luteinized cells, respectively.",
+      "rationale": "10x: sample more cellular stromal zone adjacent to cyst lining/projections"
+    },
+    {
+      "roi_id": "slide_A_x28672_y16384_mag5",
+      "tile_id": "slide_A_x28672_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 28672,
+      "y": 16384,
+      "level0": {
+        "x": 28672,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows multiple cystic spaces lined by flattened to cuboidal epithelium, embedded within a dense, fibrous stroma. The cysts contain eosinophilic material and are surrounded by thickened, hyalinized stroma.\n\nThe most likely diagnosis is a benign cystic lesion of the ovary, such as a serous cystadenoma or a simple cyst. The presence of multiple cysts with flattened to cuboidal lining and dense fibrous stroma is consistent with these entities.\n\nDifferential diagnoses include a cystic corpus luteum, which typically has a more cellular stroma and prominent luteinized cells, and a cystic endometrioma, which would show endometrial glands and stroma within the cyst wall.",
+      "rationale": "Focus on large right-sided cyst wall to see if papillary/nodular excrescences are present at low power."
+    },
+    {
+      "roi_id": "slide_A_x10240_y18432_mag10",
+      "tile_id": "slide_A_x10240_y18432_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 10240,
+      "y": 18432,
+      "level0": {
+        "x": 10240,
+        "y": 18432,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells arranged in intersecting fascicles and whorls, with areas of nuclear palisading and Verocay bodies. A cystic structure lined by epithelium is also present.\n\nThe most likely diagnosis is a benign stromal tumor of the ovary, such as a fibroma or thecoma, with associated cystic changes.\n\nDifferential diagnoses include a cellular fibroma or thecoma, which are common benign ovarian stromal tumors. A fibrothecoma could also be considered if there are areas with theca-like cells. A leiomyoma is less likely given the lack of prominent smooth muscle differentiation.",
+      "rationale": "10x: sample peripheral solid zone away from cysts to assess pure stromal tumor features"
+    },
+    {
+      "roi_id": "slide_A_x24576_y14336_mag5",
+      "tile_id": "slide_A_x24576_y14336_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 24576,
+      "y": 14336,
+      "level0": {
+        "x": 24576,
+        "y": 14336,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cystic structure lined by flattened to cuboidal epithelium, surrounded by dense fibrous stroma. The lumen contains amorphous eosinophilic material with linear structures.\n\nThe most likely diagnosis is a serous cystadenoma of the ovary. The differential diagnosis includes a mucinous cystadenoma, which would typically show columnar epithelium with mucin production, and a simple cyst, which would lack the epithelial lining.",
+      "rationale": "Area with apparent intracystic nodules in mid-right region."
+    },
+    {
+      "roi_id": "slide_A_x22016_y13312_mag20",
+      "tile_id": "slide_A_x22016_y13312_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 22016,
+      "y": 13312,
+      "level0": {
+        "x": 22016,
+        "y": 13312,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cystic structure lined by a single layer of cuboidal to low columnar epithelium with basally oriented nuclei, surrounded by dense fibrous stroma. The lumen contains amorphous eosinophilic material.\n\nThe most likely diagnosis is a serous cystadenoma of the ovary. The differential diagnosis includes a serous cystadenofibroma, which would show more prominent stromal proliferation, and a mucinous cystadenoma, which would have columnar epithelium with apical mucin.",
+      "rationale": "Search adjacent lining for cilia/serous-type, tufting or stratification."
+    },
+    {
+      "roi_id": "slide_A_x22528_y12800_mag20",
+      "tile_id": "slide_A_x22528_y12800_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 22528,
+      "y": 12800,
+      "level0": {
+        "x": 22528,
+        "y": 12800,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cystic structure lined by a single layer of flattened to cuboidal epithelium. The cyst wall is composed of dense fibrous tissue with scattered spindle cells.\n\nThe most likely diagnosis is a simple ovarian cyst. Differential diagnoses include a serous cystadenoma, which would typically show a more complex papillary or glandular lining, and a mucinous cystadenoma, which would have a lining of tall columnar mucin-producing cells.",
+      "rationale": "Examine another cyst lining segment for epithelial type and atypia."
+    },
+    {
+      "roi_id": "slide_A_x12288_y6144_mag5",
+      "tile_id": "slide_A_x12288_y6144_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 12288,
+      "y": 6144,
+      "level0": {
+        "x": 12288,
+        "y": 6144,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a dense fibrous stroma with spindle cells arranged in fascicles and whorls, containing scattered cystic spaces lined by epithelium. The stroma is cellular and shows areas of hyalinization.\n\nThe most likely diagnosis is a benign fibroepithelial tumor of the ovary, such as a fibroma or thecoma with cystic changes.\n\nDifferential diagnoses include a fibrothecoma, which would show more prominent luteinized stromal cells, and a cystadenofibroma, which would have more prominent epithelial components.",
+      "rationale": "Upper left solid stroma to look for whorling, calcifications, or cortical inclusion cysts."
+    },
+    {
+      "roi_id": "slide_A_x23552_y14336_mag10",
+      "tile_id": "slide_A_x23552_y14336_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 23552,
+      "y": 14336,
+      "level0": {
+        "x": 23552,
+        "y": 14336,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a large, eosinophilic, acellular structure with a laminated appearance and scattered dark granules. The periphery is irregular with some linear structures.\n\nThe most likely diagnosis is a corpus albicans, which is a regressed corpus luteum. The laminated appearance and acellular nature are characteristic features. Differential diagnoses could include a hyalinized scar or a calcified structure, but the overall morphology is most consistent with a corpus albicans.",
+      "rationale": "Look for nodular projection/papillary excrescence in this vicinity."
+    },
+    {
+      "roi_id": "slide_A_x16384_y20480_mag5",
+      "tile_id": "slide_A_x16384_y20480_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 16384,
+      "y": 20480,
+      "level0": {
+        "x": 16384,
+        "y": 20480,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a proliferation of bland spindle cells arranged in intersecting fascicles and whorls, with scattered benign-appearing glandular structures. The stroma is dense and collagenous.\n\nThe most likely diagnosis is a benign stromal tumor with entrapped glands, such as a fibroma or fibrothecoma.\n\nDifferential diagnoses include adenofibroma, which would have more prominent glandular elements, and a cellular fibroma, which would have increased cellularity and mitotic activity.",
+      "rationale": "Lower central area with multiple small cysts—assess distribution and any papillary architecture."
+    },
+    {
+      "roi_id": "slide_A_x21504_y15360_mag20",
+      "tile_id": "slide_A_x21504_y15360_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 21504,
+      "y": 15360,
+      "level0": {
+        "x": 21504,
+        "y": 15360,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of spindle cells arranged in intersecting fascicles and whorls within a dense collagenous stroma. The cells have elongated, wavy nuclei and scant cytoplasm, with scattered small blood vessels.\n\nThe most likely diagnosis is a fibroma. Differential diagnoses include leiomyoma, which typically shows more eosinophilic cytoplasm and blunt-ended nuclei, and cellular fibroma, which would have increased cellularity and mitotic activity.",
+      "rationale": "20x on representative solid spindle-cell area to assess cytology/atypia/mitoses/collagen"
+    },
+    {
+      "roi_id": "slide_A_x15360_y12288_mag20",
+      "tile_id": "slide_A_x15360_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 15360,
+      "y": 12288,
+      "level0": {
+        "x": 15360,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cystic structure lined by a single layer of cuboidal to low columnar epithelium with basally oriented nuclei, surrounded by dense fibrous stroma. The cyst lumen contains amorphous material.\n\nThe most likely diagnosis is a serous cystadenoma of the ovary. The differential diagnosis includes a serous cystadenofibroma, which would show more prominent stromal proliferation, and a mucinous cystadenoma, which would have tall columnar epithelium with apical mucin.",
+      "rationale": "20x on cyst + adjacent stroma to assess epithelium type and any borderline features"
+    },
+    {
+      "roi_id": "slide_A_x10240_y18432_mag20",
+      "tile_id": "slide_A_x10240_y18432_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 10240,
+      "y": 18432,
+      "level0": {
+        "x": 10240,
+        "y": 18432,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of spindle cells arranged in intersecting fascicles and whorls within a dense collagenous stroma. The cells have elongated, wavy nuclei and scant cytoplasm.\n\nThe most likely diagnosis is a fibroma. Differential diagnoses include fibrothecoma, which would show areas of luteinized cells, and leiomyoma, which would have more eosinophilic cytoplasm and blunt-ended nuclei.",
+      "rationale": "20x on more cellular whorled area to look for theca-like lipidization/luteinization and mitoses"
+    },
+    {
+      "roi_id": "slide_A_x23552_y12288_mag10",
+      "tile_id": "slide_A_x23552_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 23552,
+      "y": 12288,
+      "level0": {
+        "x": 23552,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cystic structure lined by flattened cells, surrounded by dense fibrous stroma with spindle cells and collagen. The cyst lumen contains amorphous material.\n\nThe most likely diagnosis is a simple ovarian cyst. Differential diagnoses include a corpus luteum cyst, which would typically show luteinized cells and a more complex lining, and a follicular cyst, which would have a granulosa cell lining.",
+      "rationale": "Scan area with multiple small glands/cysts for possible Brenner nests/hyalinization"
+    },
+    {
+      "roi_id": "slide_A_x25600_y16384_mag10",
+      "tile_id": "slide_A_x25600_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 25600,
+      "y": 16384,
+      "level0": {
+        "x": 25600,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cystic structure lined by flattened cells, surrounded by dense fibrous stroma with spindle cells arranged in fascicles. The lumen contains amorphous eosinophilic material.\n\nThe most likely diagnosis is a corpus albicans, a regressed corpus luteum.\n\nDifferential diagnoses include a simple ovarian cyst or a fibrothecoma, which would typically show different lining epithelium or stromal cellularity and arrangement.",
+      "rationale": "Evaluate more nodular/projection area for epithelial nests or calcifications"
+    },
+    {
+      "roi_id": "slide_A_x19456_y10240_mag10",
+      "tile_id": "slide_A_x19456_y10240_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 19456,
+      "y": 10240,
+      "level0": {
+        "x": 19456,
+        "y": 10240,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of spindle cells arranged in intersecting fascicles and whorls, with areas of hyalinization and scattered blood vessels. The cells have elongated, wavy nuclei and scant cytoplasm.\n\nThe most likely diagnosis is a fibroma, a benign stromal tumor of the ovary. Differential diagnoses include thecoma, which typically has more abundant eosinophilic cytoplasm and lipid droplets, and leiomyoma, which shows intersecting fascicles of smooth muscle cells with blunt-ended nuclei.",
+      "rationale": "Another stromal-epithelial interface to search for transitional-type epithelium"
+    },
+    {
+      "roi_id": "slide_A_x17408_y14336_mag10",
+      "tile_id": "slide_A_x17408_y14336_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 17408,
+      "y": 14336,
+      "level0": {
+        "x": 17408,
+        "y": 14336,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cystic structure lined by epithelium and a surrounding cellular stroma composed of spindle cells arranged in fascicles and whorls. A prominent thick-walled blood vessel is also present.\n\nThe most likely diagnosis is a cystic lesion of the ovary with a prominent fibromatous stromal component, such as a cystic fibroma or a cystadenofibroma.\n\nDifferential diagnoses include a cystic fibroma, which is typically composed of bland spindle cells in a collagenous stroma, and a cystadenofibroma, which would have an epithelial lining and a fibromatous stroma. The presence of a prominent thick-walled blood vessel is also a feature that can be seen in fibromas.",
+      "rationale": "Assess any papillary/nodular projections into cyst lumens for borderline change"
+    },
+    {
+      "roi_id": "slide_A_x22528_y13824_mag20",
+      "tile_id": "slide_A_x22528_y13824_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 22528,
+      "y": 13824,
+      "level0": {
+        "x": 22528,
+        "y": 13824,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense, eosinophilic, acellular matrix with scattered small, dark punctate structures. A large, irregular clear space is also present.\n\nThe most likely diagnosis is a corpus albicans, which is a regressed corpus luteum composed of dense, hyalinized connective tissue.\n\nDifferential diagnoses include a corpus fibrosum, which is also a regressed corpus luteum but typically has more prominent fibrous tissue and less hyalinization, and a fibroma, which is a benign stromal tumor composed of spindle cells and collagen.",
+      "rationale": "High power on epithelial-lined spaces to look for cilia/serous type vs endometrioid/mucinous and to exclude atypia/stratification"
+    },
+    {
+      "roi_id": "slide_A_x11776_y14848_mag20",
+      "tile_id": "slide_A_x11776_y14848_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 11776,
+      "y": 14848,
+      "level0": {
+        "x": 11776,
+        "y": 14848,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of spindle cells arranged in intersecting fascicles and whorls, with areas of nuclear palisading and Verocay bodies. The cells have elongated, wavy nuclei and scant cytoplasm within a collagenous stroma.\n\nThe most likely diagnosis is a benign spindle cell neoplasm, such as a schwannoma or neurofibroma.\n\nDifferential diagnoses include leiomyoma, which typically shows intersecting fascicles of spindle cells with blunt-ended nuclei, and fibroma, which is composed of bland spindle cells in a collagenous stroma without the characteristic nuclear palisading and Verocay bodies seen here.",
+      "rationale": "Search for endometriosis/hemosiderin macrophages or sex-cord like tubules in stroma"
+    },
+    {
+      "roi_id": "slide_A_x30208_y16896_mag20",
+      "tile_id": "slide_A_x30208_y16896_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 30208,
+      "y": 16896,
+      "level0": {
+        "x": 30208,
+        "y": 16896,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows dense fibrous tissue with wavy collagen bundles and scattered spindle cells, along with clear spaces. The fibrous tissue appears to surround the clear spaces.\n\nThe most likely diagnosis is a cystic lesion of the ovary with a prominent fibrous wall.\n\nDifferential diagnoses include a simple ovarian cyst with a thickened fibrous wall or a cystic neoplasm with a significant stromal component.",
+      "rationale": "Assess lining and any papillary/nodular excrescences near larger cysts on right side; exclude borderline serous changes."
+    },
+    {
+      "roi_id": "slide_A_x28160_y20480_mag20",
+      "tile_id": "slide_A_x28160_y20480_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 28160,
+      "y": 20480,
+      "level0": {
+        "x": 28160,
+        "y": 20480,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cystic structure lined by a single layer of cuboidal to low columnar epithelium with basally oriented nuclei, surrounded by dense fibrous stroma. The lumen contains amorphous material and cellular debris.\n\nThe most likely diagnosis is a serous cystadenoma of the ovary. The differential diagnosis includes a serous cystadenofibroma, which would show more prominent stromal proliferation, and a mucinous cystadenoma, which would have columnar epithelium with apical mucin.",
+      "rationale": "Sample another cyst/solid interface for epithelial complexity and stromal cellularity."
+    },
+    {
+      "roi_id": "slide_A_x11776_y20992_mag20",
+      "tile_id": "slide_A_x11776_y20992_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 11776,
+      "y": 20992,
+      "level0": {
+        "x": 11776,
+        "y": 20992,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense, hyalinized fibrous stroma with scattered spindle cells and a cystic structure lined by columnar epithelium. The stroma exhibits a prominent swirling pattern.\n\nThe most likely diagnosis is a benign cystic lesion of the ovary, such as a serous cystadenoma or a simple cyst, given the presence of a cystic structure lined by epithelium within a fibrous stroma.\n\nDifferential diagnoses include a fibroma or theca-lutein cyst, which can also present with a fibrous stroma and cystic changes. However, the presence of a distinct epithelial lining favors a cystadenoma.",
+      "rationale": "High power of solid fibrous zone to confirm bland fibroma-like stroma, mitotic activity."
+    },
+    {
+      "roi_id": "slide_A_x26112_y13312_mag20",
+      "tile_id": "slide_A_x26112_y13312_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 26112,
+      "y": 13312,
+      "level0": {
+        "x": 26112,
+        "y": 13312,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular stroma composed of spindle cells arranged in intersecting fascicles, with areas of hyalinization and scattered inflammatory cells. The surface is lined by flattened to cuboidal cells.\n\nThe most likely diagnosis is a benign cystic lesion of the ovary, such as a serous cystadenoma or a benign cystic teratoma with a prominent stromal component.\n\nDifferential diagnoses include a fibroma or thecoma, which would typically show less cellularity and lack the prominent cystic spaces and surface lining seen here.",
+      "rationale": "Search for Brenner nests/hyaline plaques in fibrous stroma near cysts."
+    }
+  ]
+}

@@ -1,0 +1,829 @@
+{
+  "case_id": "sem560_case6",
+  "source": "slideseek-ai-assist",
+  "model": "gpt-5.4",
+  "generated_at": "2026-05-22T09:30:13.536394+00:00",
+  "organ": "CNS-Endocrine",
+  "primary_dx": "Choroid Plexus Papilloma, WHO CNS Grade 1",
+  "differential_dx": [
+    "Atypical Choroid Plexus Papilloma, WHO CNS Grade 2",
+    "Choroid Plexus Carcinoma, WHO CNS Grade 3"
+  ],
+  "microscopic_findings": [
+    {
+      "text": "Delicate branching papillae contain **fibrovascular cores** lined by a largely **single-layered cuboidal epithelium**.",
+      "roi_ids": [
+        "slide_A_x30720_y22528_mag20",
+        "slide_A_x17408_y12288_mag20"
+      ]
+    },
+    {
+      "text": "Tumor cells are cytologically bland with **round-oval nuclei**, fine chromatin, and only **mild focal pseudostratification**.",
+      "roi_ids": [
+        "slide_A_x29696_y25088_mag20",
+        "slide_A_x44032_y22528_mag20"
+      ]
+    },
+    {
+      "text": "Papillary cores show **psammomatous calcifications** with accompanying **hemorrhagic stroma**.",
+      "roi_ids": [
+        "slide_A_x16896_y22528_mag20",
+        "slide_A_x29696_y9216_mag20"
+      ]
+    },
+    {
+      "text": "Some papillae display **apical cilia** along **columnar epithelial lining** cells, supporting choroid plexus differentiation.",
+      "roi_ids": [
+        "slide_A_x5120_y13312_mag20"
+      ]
+    }
+  ],
+  "interpretation": "The lesion is a **choroid plexus papilloma** characterized by **true fibrovascular papillae** lined by bland cuboidal to low columnar epithelium with only focal mild stratification. Psammomatous calcification and hemorrhagic stromal change are present, but there is no convincing brisk mitotic activity, solid growth, necrosis, or invasion in the reviewed material. These findings support **WHO CNS grade 1** and argue against **atypical choroid plexus papilloma** and **choroid plexus carcinoma**.",
+  "num_rois": 49,
+  "tiles": [
+    {
+      "roi_id": "slide_A_x49152_y14336_mag10",
+      "tile_id": "slide_A_x49152_y14336_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 49152,
+      "y": 14336,
+      "level0": {
+        "x": 49152,
+        "y": 14336,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a papillary neoplasm with fibrovascular cores lined by cuboidal to columnar cells. The stroma is edematous and contains inflammatory cells and hemorrhage.\n\nThe most likely diagnosis is choroid plexus papilloma. Differential diagnoses include choroid plexus carcinoma, which would show increased cellularity, nuclear pleomorphism, and mitotic activity, and metastatic papillary carcinoma, which would typically have a different immunoprofile.",
+      "rationale": "Survey architecture in region 4 (papillary fronds, stroma, calcification) at 10x"
+    },
+    {
+      "roi_id": "slide_A_x16384_y8192_mag2",
+      "tile_id": "slide_A_x16384_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 16384,
+      "y": 8192,
+      "level0": {
+        "x": 16384,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a neoplasm with a prominent papillary architecture composed of fibrovascular cores lined by cuboidal to columnar cells. Psammoma bodies are also present.\n\nThe most likely diagnosis is choroid plexus papilloma.\n\nDifferential diagnoses include papillary meningioma, which typically shows meningothelial whorls and lacks the prominent papillary architecture and psammoma bodies seen here. Metastatic papillary carcinoma could also be considered, but the location and clinical presentation are more consistent with a primary CNS tumor.",
+      "rationale": "Low-power architectural survey of main tissue fragment (Region 0)."
+    },
+    {
+      "roi_id": "slide_A_x28672_y24576_mag2",
+      "tile_id": "slide_A_x28672_y24576_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 28672,
+      "y": 24576,
+      "level0": {
+        "x": 28672,
+        "y": 24576,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a neoplasm with a prominent papillary architecture, featuring fibrovascular cores lined by cuboidal to columnar cells. The cells have eosinophilic cytoplasm and round to oval nuclei, with areas of hemorrhage and necrosis.\n\nThe most likely diagnosis is choroid plexus papilloma. Differential diagnoses include choroid plexus carcinoma, which would show increased cellularity, nuclear pleomorphism, and mitotic activity, and metastatic papillary carcinoma, which would typically have a different cellular morphology and immunoprofile.",
+      "rationale": "Low-power survey of target region 10 to assess overall architecture and locate papillary vs solid areas."
+    },
+    {
+      "roi_id": "slide_A_x39936_y19456_mag10",
+      "tile_id": "slide_A_x39936_y19456_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 39936,
+      "y": 19456,
+      "level0": {
+        "x": 39936,
+        "y": 19456,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a papillary neoplasm with fibrovascular cores lined by cuboidal to columnar cells. The cells have round to oval nuclei with finely dispersed chromatin and eosinophilic cytoplasm. Psammoma bodies are also present.\n\nThe most likely diagnosis is choroid plexus papilloma. Differential diagnoses include choroid plexus carcinoma, which would show increased cellularity, nuclear pleomorphism, and mitotic activity, and metastatic papillary carcinoma, which would typically have more prominent nucleoli and different immunohistochemical staining.",
+      "rationale": "Survey architecture in region 5 at 10x"
+    },
+    {
+      "roi_id": "slide_A_x28672_y8192_mag2",
+      "tile_id": "slide_A_x28672_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 28672,
+      "y": 8192,
+      "level0": {
+        "x": 28672,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a neoplasm with a prominent papillary architecture composed of fibrovascular cores lined by cuboidal to columnar cells. Psammoma bodies are also present.\n\nThe most likely diagnosis is choroid plexus papilloma.\n\nDifferential diagnoses include papillary meningioma, which typically shows meningothelial whorls and lacks the prominent papillary architecture and psammoma bodies seen here. Metastatic papillary carcinoma could also be considered, but the location and clinical presentation are more consistent with a primary CNS tumor.",
+      "rationale": "Low-power survey of Region 1 for papillary vs solid pattern."
+    },
+    {
+      "roi_id": "slide_A_x28672_y24576_mag5",
+      "tile_id": "slide_A_x28672_y24576_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 28672,
+      "y": 24576,
+      "level0": {
+        "x": 28672,
+        "y": 24576,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a neoplasm with a prominent papillary architecture, featuring fibrovascular cores lined by cuboidal to columnar cells with eosinophilic cytoplasm and round to oval nuclei. Psammoma bodies are also present.\n\nThe most likely diagnosis is choroid plexus papilloma.\n\nDifferential diagnoses include papillary meningioma, which typically shows meningothelial whorls and lacks the prominent papillary architecture and psammoma bodies seen here. Metastatic papillary carcinoma could also be considered, but the location and clinical presentation are more consistent with a primary CNS tumor.",
+      "rationale": "Slightly higher power to evaluate papillary patterns and pick diagnostic foci in region 10."
+    },
+    {
+      "roi_id": "slide_A_x44032_y22528_mag10",
+      "tile_id": "slide_A_x44032_y22528_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 44032,
+      "y": 22528,
+      "level0": {
+        "x": 44032,
+        "y": 22528,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a papillary neoplasm with fibrovascular cores lined by cuboidal to columnar cells. The cells have round to oval nuclei with finely dispersed chromatin and eosinophilic cytoplasm. Psammoma bodies are also present.\n\nThe most likely diagnosis is choroid plexus papilloma. Differential diagnoses include choroid plexus carcinoma, which would show increased cellularity, nuclear pleomorphism, and mitotic activity, and metastatic papillary carcinoma, which would typically have more prominent nucleoli and different immunohistochemical profile.",
+      "rationale": "Survey architecture in region 6 at 10x"
+    },
+    {
+      "roi_id": "slide_A_x4096_y12288_mag2",
+      "tile_id": "slide_A_x4096_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 4096,
+      "y": 12288,
+      "level0": {
+        "x": 4096,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a neoplasm with a prominent papillary architecture composed of fibrovascular cores lined by cuboidal to columnar cells. The cells have round to oval nuclei with finely dispersed chromatin and eosinophilic cytoplasm. Psammoma bodies are also present.\n\nThe most likely diagnosis is choroid plexus papilloma. The differential diagnosis includes choroid plexus carcinoma, which would show increased cellularity, nuclear pleomorphism, mitotic activity, and necrosis, and metastatic papillary carcinoma, which would typically have more significant nuclear atypia and potentially other features depending on the primary site.",
+      "rationale": "Low-power survey of Region 2; look for calcification/necrosis and architecture."
+    },
+    {
+      "roi_id": "slide_A_x16384_y24576_mag2",
+      "tile_id": "slide_A_x16384_y24576_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 16384,
+      "y": 24576,
+      "level0": {
+        "x": 16384,
+        "y": 24576,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a papillary neoplasm with fibrovascular cores lined by cuboidal to columnar cells. The cells have round to oval nuclei with finely dispersed chromatin and eosinophilic cytoplasm. Psammoma bodies are also present.\n\nThe most likely diagnosis is choroid plexus papilloma. Differential diagnoses include choroid plexus carcinoma, which would show increased cellularity, nuclear pleomorphism, and mitotic activity, and metastatic papillary carcinoma, which would typically have more prominent nucleoli and different immunohistochemical profile.",
+      "rationale": "Low-power survey of target region 11 to assess architecture and look for solid sheets/whorls/calcifications."
+    },
+    {
+      "roi_id": "slide_A_x17408_y21504_mag10",
+      "tile_id": "slide_A_x17408_y21504_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 17408,
+      "y": 21504,
+      "level0": {
+        "x": 17408,
+        "y": 21504,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a papillary neoplasm with fibrovascular cores lined by cuboidal to columnar cells. There is also extensive hemorrhage and necrosis.\n\nThe most likely diagnosis is choroid plexus papilloma.\n\nDifferential diagnoses include choroid plexus carcinoma, which would show increased cellularity, nuclear pleomorphism, and mitotic activity, and metastatic papillary carcinoma, which would typically have a different immunoprofile.",
+      "rationale": "Check region 7 for interface/possible brain invasion at 10x"
+    },
+    {
+      "roi_id": "slide_A_x28672_y20480_mag2",
+      "tile_id": "slide_A_x28672_y20480_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 28672,
+      "y": 20480,
+      "level0": {
+        "x": 28672,
+        "y": 20480,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a neoplasm with a prominent papillary architecture composed of fibrovascular cores lined by cuboidal to columnar cells. The cells have round to oval nuclei with finely dispersed chromatin and eosinophilic cytoplasm. Psammoma bodies are also present.\n\nThe most likely diagnosis is choroid plexus papilloma. The differential diagnosis includes papillary meningioma, which typically shows meningothelial whorls and lacks the characteristic papillary architecture and psammoma bodies seen here.",
+      "rationale": "Low-power survey of Region 3 for any different growth pattern (solid/ependymal rosettes)."
+    },
+    {
+      "roi_id": "slide_A_x16384_y22528_mag5",
+      "tile_id": "slide_A_x16384_y22528_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 16384,
+      "y": 22528,
+      "level0": {
+        "x": 16384,
+        "y": 22528,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a neoplasm with a prominent papillary architecture and areas of solid growth. The papillae are lined by cuboidal to columnar cells with eosinophilic cytoplasm and round to oval nuclei, and there is associated hemorrhage and necrosis.\n\nThe most likely diagnosis is choroid plexus papilloma. Differential diagnoses include choroid plexus carcinoma, which would show increased cellularity, nuclear pleomorphism, and mitotic activity, and metastatic papillary carcinoma, which would typically have a different cellular morphology and immunoprofile.",
+      "rationale": "5x scan for selecting areas suspicious for meningioma, ependymoma, neurocytoma, or pineal papillary tumor features."
+    },
+    {
+      "roi_id": "slide_A_x5120_y21504_mag10",
+      "tile_id": "slide_A_x5120_y21504_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 5120,
+      "y": 21504,
+      "level0": {
+        "x": 5120,
+        "y": 21504,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a papillary structure lined by pseudostratified columnar epithelium with cilia and goblet cells, supported by a fibrovascular core. Adjacent brain parenchyma exhibits reactive changes and hemorrhage.\n\nThe most likely diagnosis is a papillary glioneuronal tumor. Differential diagnoses include choroid plexus papilloma and ependymoma, which can be distinguished by their characteristic epithelial lining and location.",
+      "rationale": "Check region 8 for representative papillae at 10x"
+    },
+    {
+      "roi_id": "slide_A_x17408_y12288_mag10",
+      "tile_id": "slide_A_x17408_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 17408,
+      "y": 12288,
+      "level0": {
+        "x": 17408,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a papillary neoplasm with fibrovascular cores lined by cuboidal to columnar cells. The stroma is edematous and hemorrhagic with scattered psammoma bodies.\n\nThe most likely diagnosis is choroid plexus papilloma. Differential diagnoses include choroid plexus carcinoma, which would show increased cellularity, nuclear pleomorphism, and mitotic activity, and metastatic papillary carcinoma, which would typically have a different immunoprofile.",
+      "rationale": "Confirm true papillae, epithelial lining, nuclear features; look for mitoses/necrosis."
+    },
+    {
+      "roi_id": "slide_A_x16384_y22528_mag10",
+      "tile_id": "slide_A_x16384_y22528_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 16384,
+      "y": 22528,
+      "level0": {
+        "x": 16384,
+        "y": 22528,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a neoplasm with a prominent papillary architecture, featuring fibrovascular cores lined by cuboidal to columnar cells with round to oval nuclei. Psammoma bodies are also present.\n\nThe most likely diagnosis is choroid plexus papilloma.\n\nDifferential diagnoses include papillary meningioma, which typically shows meningothelial whorls and lacks the prominent papillary architecture and psammoma bodies seen here. Metastatic papillary carcinoma could also be considered, but the location and clinical presentation are more consistent with a primary CNS tumor.",
+      "rationale": "Assess any solid areas noted at 5x for sheets/rosettes/neuropil, and look for perinuclear halos or calcifications."
+    },
+    {
+      "roi_id": "slide_A_x29696_y9216_mag10",
+      "tile_id": "slide_A_x29696_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 29696,
+      "y": 9216,
+      "level0": {
+        "x": 29696,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a papillary neoplasm with fibrovascular cores lined by cuboidal to columnar cells. There is significant hemorrhage and necrosis in the background.\n\nThe most likely diagnosis is choroid plexus papilloma. Differential diagnoses include choroid plexus carcinoma and metastatic papillary carcinoma, which can be distinguished by increased cellularity, nuclear atypia, and mitotic activity in carcinoma, and the presence of a primary tumor elsewhere in metastatic carcinoma.",
+      "rationale": "Assess papillary lining; exclude meningioma whorls/pseudorosettes."
+    },
+    {
+      "roi_id": "slide_A_x49152_y22528_mag10",
+      "tile_id": "slide_A_x49152_y22528_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 49152,
+      "y": 22528,
+      "level0": {
+        "x": 49152,
+        "y": 22528,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a papillary neoplasm with fibrovascular cores lined by cuboidal to columnar cells. Psammoma bodies are present within the papillae. The stroma is edematous and hemorrhagic.\n\nThe most likely diagnosis is choroid plexus papilloma. Differential diagnoses include choroid plexus carcinoma, which would show increased cellularity, nuclear pleomorphism, and mitotic activity, and metastatic papillary carcinoma, which would typically have a different immunoprofile.",
+      "rationale": "Region 9 not yet reviewed in outputs; look for higher cellularity/atypia"
+    },
+    {
+      "roi_id": "slide_A_x16896_y22528_mag20",
+      "tile_id": "slide_A_x16896_y22528_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 16896,
+      "y": 22528,
+      "level0": {
+        "x": 16896,
+        "y": 22528,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a papillary neoplasm with fibrovascular cores lined by cuboidal to columnar cells. Psammoma bodies are also present.\n\nThe most likely diagnosis is choroid plexus papilloma.\n\nDifferential diagnoses include papillary meningioma, which typically shows meningothelial whorls and lacks the prominent papillary architecture and psammoma bodies seen here.",
+      "rationale": "High-power cytology in region 11: evaluate for neurocytoma-like round cells/halos, ependymal features, or meningothelial whorls/psammoma bodies."
+    },
+    {
+      "roi_id": "slide_A_x5120_y13312_mag10",
+      "tile_id": "slide_A_x5120_y13312_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 5120,
+      "y": 13312,
+      "level0": {
+        "x": 5120,
+        "y": 13312,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a papillary neoplasm with fibrovascular cores lined by cuboidal to columnar cells. Psammoma bodies are also present.\n\nThe most likely diagnosis is choroid plexus papilloma.\n\nDifferential diagnoses include papillary meningioma, which typically shows meningothelial whorls and lacks the prominent papillary architecture and psammoma bodies seen here.",
+      "rationale": "Look closely for calcifications/psammoma bodies and any necrosis or increased atypia."
+    },
+    {
+      "roi_id": "slide_A_x49664_y14336_mag20",
+      "tile_id": "slide_A_x49664_y14336_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 49664,
+      "y": 14336,
+      "level0": {
+        "x": 49664,
+        "y": 14336,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a papillary neoplasm with fibrovascular cores lined by cuboidal to columnar cells. The stroma is edematous and contains inflammatory cells and hemorrhage.\n\nThe most likely diagnosis is choroid plexus papilloma. Differential diagnoses include choroid plexus carcinoma, which would show increased cellularity, nuclear pleomorphism, and mitotic activity, and metastatic papillary carcinoma, which would typically have a different immunoprofile.",
+      "rationale": "High power assessment of epithelial lining atypia/mitoses in region 4"
+    },
+    {
+      "roi_id": "slide_A_x28672_y24576_mag10",
+      "tile_id": "slide_A_x28672_y24576_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 28672,
+      "y": 24576,
+      "level0": {
+        "x": 28672,
+        "y": 24576,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a papillary neoplasm with fibrovascular cores lined by cuboidal to columnar cells. The cells have round to oval nuclei with finely dispersed chromatin and eosinophilic cytoplasm. Psammoma bodies are also present.\n\nThe most likely diagnosis is choroid plexus papilloma. Differential diagnoses include choroid plexus carcinoma, which would show increased cellularity, nuclear pleomorphism, and mitotic activity, and metastatic papillary carcinoma, which would typically have more prominent nucleoli and different immunohistochemical profile.",
+      "rationale": "Evaluate papillary lining and cores; look specifically for meningothelial whorls, perivascular pseudorosettes, and any true ependymal rosettes."
+    },
+    {
+      "roi_id": "slide_A_x39936_y18944_mag20",
+      "tile_id": "slide_A_x39936_y18944_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 39936,
+      "y": 18944,
+      "level0": {
+        "x": 39936,
+        "y": 18944,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a papillary neoplasm with fibrovascular cores lined by cuboidal to columnar cells. The cells have round to oval nuclei with finely dispersed chromatin and eosinophilic cytoplasm. There is also evidence of hemorrhage and necrosis.\n\nThe most likely diagnosis is choroid plexus papilloma. Differential diagnoses include choroid plexus carcinoma, which would show increased cellularity, nuclear pleomorphism, and mitotic activity, and metastatic papillary carcinoma, which would typically have more prominent nucleoli and different immunohistochemical staining.",
+      "rationale": "High power: assess papillary lining cells, cilia, pleomorphism, mitoses"
+    },
+    {
+      "roi_id": "slide_A_x30720_y22528_mag10",
+      "tile_id": "slide_A_x30720_y22528_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 30720,
+      "y": 22528,
+      "level0": {
+        "x": 30720,
+        "y": 22528,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a papillary neoplasm with fibrovascular cores lined by cuboidal to columnar cells. The cells have round to oval nuclei with finely dispersed chromatin and occasional nuclear inclusions. Psammoma bodies are also present.\n\nThe most likely diagnosis is choroid plexus papilloma.\n\nDifferential diagnoses include papillary meningioma, which typically shows meningothelial whorls and psammoma bodies but lacks the characteristic papillary architecture of choroid plexus papilloma. Metastatic papillary carcinoma could also be considered, but the clinical history and location are more consistent with a primary CNS tumor.",
+      "rationale": "Check for any ependymoma-like perivascular pseudorosettes/solid sheets."
+    },
+    {
+      "roi_id": "slide_A_x28672_y24576_mag20",
+      "tile_id": "slide_A_x28672_y24576_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 28672,
+      "y": 24576,
+      "level0": {
+        "x": 28672,
+        "y": 24576,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a papillary neoplasm with fibrovascular cores lined by cuboidal to columnar cells exhibiting round to oval nuclei and eosinophilic cytoplasm. The papillae are delicate and branching.\n\nThe most likely diagnosis is choroid plexus papilloma.\n\nDifferential diagnoses include choroid plexus carcinoma, which would show increased cellularity, nuclear pleomorphism, mitotic activity, and necrosis, and metastatic papillary carcinoma, which would typically have more significant nuclear atypia and potentially psammoma bodies.",
+      "rationale": "High-power to look for EMA dot-like staining surrogates (microlumina), cilia/blepharoplasts (ependymal), and cytologic monotony vs pleomorphism."
+    },
+    {
+      "roi_id": "slide_A_x44032_y22528_mag20",
+      "tile_id": "slide_A_x44032_y22528_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 44032,
+      "y": 22528,
+      "level0": {
+        "x": 44032,
+        "y": 22528,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a papillary neoplasm with fibrovascular cores lined by cuboidal to columnar cells exhibiting nuclear crowding and stratification. The stroma is edematous and contains scattered red blood cells.\n\nThe most likely diagnosis is choroid plexus papilloma. Differential diagnoses include choroid plexus carcinoma, which would show increased cellularity, nuclear pleomorphism, and mitotic activity, and metastatic papillary carcinoma, which would typically have a different immunoprofile.",
+      "rationale": "High power: assess cytology and any necrosis/mitoses"
+    },
+    {
+      "roi_id": "slide_A_x17408_y21504_mag20",
+      "tile_id": "slide_A_x17408_y21504_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 17408,
+      "y": 21504,
+      "level0": {
+        "x": 17408,
+        "y": 21504,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a papillary neoplasm with fibrovascular cores lined by cuboidal to columnar cells exhibiting nuclear pleomorphism and hyperchromasia. Psammoma bodies are also present.\n\nThe most likely diagnosis is choroid plexus papilloma.\n\nDifferential diagnoses include papillary meningioma, which typically shows meningothelial whorls and lacks the prominent papillary architecture and psammoma bodies seen here. Metastatic papillary carcinoma could also be considered, but the clinical context and location are more consistent with a primary choroid plexus tumor.",
+      "rationale": "High power at interface/hemorrhage to evaluate true necrosis vs artifact and invasion"
+    },
+    {
+      "roi_id": "slide_A_x16384_y23552_mag10",
+      "tile_id": "slide_A_x16384_y23552_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 16384,
+      "y": 23552,
+      "level0": {
+        "x": 16384,
+        "y": 23552,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a papillary neoplasm with fibrovascular cores lined by cuboidal to columnar cells. Psammoma bodies are present within the papillae, and there is associated hemorrhage and inflammation.\n\nThe most likely diagnosis is choroid plexus papilloma. Differential diagnoses include choroid plexus carcinoma, which would show increased cellularity, nuclear pleomorphism, and mitotic activity, and metastatic papillary carcinoma, which would typically have a different immunoprofile.",
+      "rationale": "Sample a different part of region 11 to ensure no neurocytoma-like solid sheets/neuropil islands or ependymal pseudorosettes are missed."
+    },
+    {
+      "roi_id": "slide_A_x17408_y12288_mag20",
+      "tile_id": "slide_A_x17408_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 17408,
+      "y": 12288,
+      "level0": {
+        "x": 17408,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a papillary neoplasm with fibrovascular cores lined by cuboidal to columnar cells. The stroma is edematous and contains numerous blood vessels, hemorrhage, and hemosiderin pigment.\n\nThe most likely diagnosis is choroid plexus papilloma. Differential diagnoses include choroid plexus carcinoma, which would show increased cellularity, nuclear pleomorphism, and mitotic activity, and metastatic papillary carcinoma, which would typically have a different immunoprofile.",
+      "rationale": "High power to assess cytology, mitotic activity, necrosis; confirm epithelial lining and absence of significant atypia."
+    },
+    {
+      "roi_id": "slide_A_x16384_y24064_mag20",
+      "tile_id": "slide_A_x16384_y24064_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 16384,
+      "y": 24064,
+      "level0": {
+        "x": 16384,
+        "y": 24064,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a papillary neoplasm with fibrovascular cores lined by cuboidal to columnar cells exhibiting eosinophilic cytoplasm and round to oval nuclei. Psammoma bodies are also present.\n\nThe most likely diagnosis is choroid plexus papilloma.\n\nDifferential diagnoses include papillary meningioma, which typically shows meningothelial whorls and lacks the prominent papillary architecture and psammoma bodies seen here. Metastatic papillary carcinoma could also be considered, but the clinical context and location are more consistent with a primary CNS tumor.",
+      "rationale": "High-power check for perinuclear halos, neuronal differentiation/neuropil, or dot-like lumina suggestive of ependymoma."
+    },
+    {
+      "roi_id": "slide_A_x29696_y9216_mag20",
+      "tile_id": "slide_A_x29696_y9216_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 29696,
+      "y": 9216,
+      "level0": {
+        "x": 29696,
+        "y": 9216,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows papillary structures with fibrovascular cores lined by cuboidal to columnar cells with round to oval nuclei. There is also abundant hemorrhage in the background.\n\nThe most likely diagnosis is choroid plexus papilloma. Differential diagnoses include choroid plexus carcinoma, which would show increased cellularity, nuclear pleomorphism, and mitotic activity, and metastatic papillary carcinoma, which would typically have more atypical cytology and lack the characteristic papillary architecture of choroid plexus tumors.",
+      "rationale": "High power in hemorrhagic/necrotic-appearing background to determine if true necrosis vs artifact; check mitoses."
+    },
+    {
+      "roi_id": "slide_A_x29696_y24576_mag10",
+      "tile_id": "slide_A_x29696_y24576_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 29696,
+      "y": 24576,
+      "level0": {
+        "x": 29696,
+        "y": 24576,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a neoplasm with a prominent papillary architecture composed of fibrovascular cores lined by cuboidal to columnar cells with round to oval nuclei. Psammoma bodies are also present.\n\nThe most likely diagnosis is choroid plexus papilloma.\n\nDifferential diagnoses include papillary meningioma, which typically shows meningothelial whorls and lacks the prominent papillary architecture and psammoma bodies seen here. Metastatic papillary carcinoma could also be considered, but the location and clinical presentation are more consistent with a primary CNS tumor.",
+      "rationale": "Look for any solid/meningothelial areas at periphery of papillary tumor in region 10."
+    },
+    {
+      "roi_id": "slide_A_x5120_y13312_mag20",
+      "tile_id": "slide_A_x5120_y13312_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 5120,
+      "y": 13312,
+      "level0": {
+        "x": 5120,
+        "y": 13312,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows papillary structures lined by pseudostratified columnar epithelium with basally oriented nuclei and apical cilia. The cores are fibrovascular with hemorrhage and scattered calcifications.\n\nThe most likely diagnosis is choroid plexus papilloma. Differential diagnoses include choroid plexus carcinoma, which would show increased cellularity, nuclear pleomorphism, and mitotic activity, and ependymoma, which typically has perivascular pseudorosettes and true ependymal rosettes.",
+      "rationale": "High power to characterize calcifications (psammoma) and look for atypia/mitoses."
+    },
+    {
+      "roi_id": "slide_A_x5120_y21504_mag20",
+      "tile_id": "slide_A_x5120_y21504_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 5120,
+      "y": 21504,
+      "level0": {
+        "x": 5120,
+        "y": 21504,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a papillary structure lined by columnar to cuboidal cells with basally oriented nuclei, surrounded by a dense, fibrillary stroma. The stroma contains scattered cells and areas of hemorrhage.\n\nThe most likely diagnosis is Subependymal Giant Cell Astrocytoma (SEGA).\n\nDifferential diagnoses include:\n- Ependymoma: Typically shows perivascular pseudorosettes and true ependymal rosettes, which are not seen here.\n- Papillary ependymoma: Characterized by papillary architecture but usually lacks the prominent fibrillary stroma and the specific cellular morphology seen in this image.",
+      "rationale": "Revisit region 8 at 20x to verify true cilia/goblet cells vs artifact; rule out ependymoma/PGNT mimic"
+    },
+    {
+      "roi_id": "slide_A_x29696_y25088_mag20",
+      "tile_id": "slide_A_x29696_y25088_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 29696,
+      "y": 25088,
+      "level0": {
+        "x": 29696,
+        "y": 25088,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a papillary neoplasm with fibrovascular cores lined by cuboidal to columnar cells exhibiting round to oval nuclei and eosinophilic cytoplasm. Psammoma bodies are also present.\n\nThe most likely diagnosis is choroid plexus papilloma.\n\nDifferential diagnoses include papillary meningioma, which typically shows meningothelial whorls and psammoma bodies, and metastatic papillary carcinoma, which would show more significant nuclear atypia and mitotic activity.",
+      "rationale": "High-power of any solid focus to assess for whorls, EMA-like microlumina, or ependymal cytology."
+    },
+    {
+      "roi_id": "slide_A_x30720_y22528_mag20",
+      "tile_id": "slide_A_x30720_y22528_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 30720,
+      "y": 22528,
+      "level0": {
+        "x": 30720,
+        "y": 22528,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a papillary neoplasm with fibrovascular cores lined by cuboidal to columnar cells exhibiting nuclear pleomorphism and hyperchromasia. Psammoma bodies are also present.\n\nThe most likely diagnosis is choroid plexus papilloma.\n\nDifferential diagnoses include papillary meningioma, which typically shows meningothelial whorls and lacks the prominent papillary architecture and psammoma bodies seen here. Metastatic papillary carcinoma could also be considered, but the location and clinical presentation are more consistent with a primary CNS tumor.",
+      "rationale": "High power to exclude ependymal perivascular pseudorosettes and assess nuclear features."
+    },
+    {
+      "roi_id": "slide_A_x4096_y20480_mag5",
+      "tile_id": "slide_A_x4096_y20480_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 4096,
+      "y": 20480,
+      "level0": {
+        "x": 4096,
+        "y": 20480,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a papillary neoplasm with fibrovascular cores lined by cuboidal to columnar cells, along with areas of hemorrhage and necrosis. The presence of a central whitish core and surrounding papillae is noted.\n\nThe most likely diagnosis is choroid plexus papilloma.\n\nDifferential diagnoses include papillary meningioma, which typically shows meningothelial whorls and psammoma bodies, and metastatic papillary carcinoma, which would show cytologic atypia and mitotic activity.",
+      "rationale": "Lower power context around region 8 to see if adjacent brain parenchyma present and interface pattern"
+    },
+    {
+      "roi_id": "slide_A_x16384_y21504_mag10",
+      "tile_id": "slide_A_x16384_y21504_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 16384,
+      "y": 21504,
+      "level0": {
+        "x": 16384,
+        "y": 21504,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a papillary neoplasm with fibrovascular cores lined by cuboidal to columnar cells. The cells have round to oval nuclei with finely dispersed chromatin and eosinophilic cytoplasm. Psammoma bodies are also present.\n\nThe most likely diagnosis is choroid plexus papilloma.\n\nDifferential diagnoses include papillary meningioma, which typically shows meningothelial whorls and psammoma bodies, and metastatic papillary carcinoma, which would show more significant nuclear atypia and mitotic activity.",
+      "rationale": "Step back in region 7 to evaluate whether 'necrosis' corresponds to infarction/hemorrhage or true tumor necrosis"
+    },
+    {
+      "roi_id": "slide_A_x49152_y14336_mag20",
+      "tile_id": "slide_A_x49152_y14336_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 49152,
+      "y": 14336,
+      "level0": {
+        "x": 49152,
+        "y": 14336,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a papillary neoplasm with fibrovascular cores lined by cuboidal to columnar cells. The stroma is edematous and contains a mixed inflammatory infiltrate with scattered brown pigment.\n\nThe most likely diagnosis is choroid plexus papilloma. Differential diagnoses include choroid plexus carcinoma, which would show increased cellularity, nuclear pleomorphism, and mitotic activity, and metastatic papillary carcinoma, which would typically have a different cellular morphology and immunoprofile.",
+      "rationale": "Look carefully for mitotic figures and multilayering at 20x in representative papillae"
+    },
+    {
+      "roi_id": "slide_A_x49152_y22528_mag20",
+      "tile_id": "slide_A_x49152_y22528_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 49152,
+      "y": 22528,
+      "level0": {
+        "x": 49152,
+        "y": 22528,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a papillary neoplasm with fibrovascular cores lined by cuboidal to columnar cells. The stroma is edematous and hemorrhagic with scattered inflammatory cells and hemosiderin pigment.\n\nThe most likely diagnosis is choroid plexus papilloma. Differential diagnoses include choroid plexus carcinoma and metastatic papillary carcinoma, which would show increased cellularity, nuclear atypia, and mitotic activity.",
+      "rationale": "High power in region 9 to assess atypia/mitoses in more cellular area"
+    },
+    {
+      "roi_id": "slide_A_x17920_y23040_mag20",
+      "tile_id": "slide_A_x17920_y23040_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 17920,
+      "y": 23040,
+      "level0": {
+        "x": 17920,
+        "y": 23040,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows papillary structures lined by cuboidal to columnar cells with round to oval nuclei and eosinophilic cytoplasm. Psammoma bodies are present within the papillae, and there is associated hemorrhage and inflammation.\n\nThe most likely diagnosis is choroid plexus papilloma. Differential diagnoses include papillary meningioma, which typically shows meningothelial whorls and lacks the prominent papillary architecture and psammoma bodies seen here.",
+      "rationale": "Search for mitoses and true tumor necrosis in hemorrhagic region 7"
+    },
+    {
+      "roi_id": "slide_A_x16896_y20480_mag20",
+      "tile_id": "slide_A_x16896_y20480_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 16896,
+      "y": 20480,
+      "level0": {
+        "x": 16896,
+        "y": 20480,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a papillary neoplasm with fibrovascular cores lined by cuboidal to columnar cells. There is extensive hemorrhage and necrosis in the background.\n\nThe most likely diagnosis is choroid plexus papilloma. Differential diagnoses include choroid plexus carcinoma and metastatic papillary carcinoma, which can be distinguished by increased cellularity, nuclear atypia, and mitotic activity in carcinoma, and the presence of a primary tumor elsewhere in metastatic carcinoma.",
+      "rationale": "Second high-power field in region 7 to confirm/deny necrosis and assess cytologic atypia"
+    },
+    {
+      "roi_id": "slide_A_x46080_y20992_mag20",
+      "tile_id": "slide_A_x46080_y20992_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 46080,
+      "y": 20992,
+      "level0": {
+        "x": 46080,
+        "y": 20992,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a papillary neoplasm with fibrovascular cores lined by cuboidal to columnar cells. Psammoma bodies are also present.\n\nThe most likely diagnosis is choroid plexus papilloma.\n\nDifferential diagnoses include papillary meningioma, which typically shows meningothelial whorls and lacks the prominent papillary architecture and psammoma bodies seen here.",
+      "rationale": "High power in region 6 near psammoma bodies; assess stratification/mitoses"
+    },
+    {
+      "roi_id": "slide_A_x43008_y20992_mag20",
+      "tile_id": "slide_A_x43008_y20992_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 43008,
+      "y": 20992,
+      "level0": {
+        "x": 43008,
+        "y": 20992,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a papillary neoplasm with fibrovascular cores lined by cuboidal to columnar epithelium. The epithelial cells have round to oval nuclei with finely dispersed chromatin and occasional nuclear grooves. The stroma is edematous and contains red blood cells.\n\nThe most likely diagnosis is choroid plexus papilloma. Differential diagnoses include choroid plexus carcinoma, which would show increased cellularity, nuclear pleomorphism, and mitotic activity, and metastatic papillary carcinoma, which would typically have more prominent nucleoli and different immunohistochemical staining.",
+      "rationale": "Another HPF in region 6 to look for mitotic figures"
+    },
+    {
+      "roi_id": "slide_A_x5120_y22016_mag20",
+      "tile_id": "slide_A_x5120_y22016_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 5120,
+      "y": 22016,
+      "level0": {
+        "x": 5120,
+        "y": 22016,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a papillary structure with a central fibrovascular core lined by cuboidal to columnar cells. The surrounding tissue is fibrillary with scattered glial cells and areas of hemorrhage.\n\nThe most likely diagnosis is subependymal giant cell astrocytoma (SEGA).\n\nDifferential diagnoses include ependymoma, which typically shows perivascular pseudorosettes and true ependymal rosettes, and choroid plexus papilloma, which has a more prominent vascular core and cuboidal to columnar lining cells.",
+      "rationale": "HPF at edge of region 8 to check for brain interface/invasion and ependymal rosettes/pseudorosettes"
+    },
+    {
+      "roi_id": "slide_A_x6144_y21504_mag10",
+      "tile_id": "slide_A_x6144_y21504_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 6144,
+      "y": 21504,
+      "level0": {
+        "x": 6144,
+        "y": 21504,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a papillary lesion with fibrovascular cores lined by cuboidal to columnar cells, along with areas of hemorrhage and necrosis. The surrounding tissue is fibrillary and contains scattered cells.\n\nThe most likely diagnosis is subependymal giant cell astrocytoma (SEGA).\n\nDifferential diagnoses include ependymoma, which typically shows perivascular pseudorosettes and true ependymal rosettes, and choroid plexus papilloma, which is lined by cuboidal to columnar epithelium and often contains psammoma bodies.",
+      "rationale": "Assess brain-tumor interface around region 8; confirm whether fibrillary tissue is entrapped brain vs stromal core"
+    },
+    {
+      "roi_id": "slide_A_x5632_y22016_mag20",
+      "tile_id": "slide_A_x5632_y22016_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 5632,
+      "y": 22016,
+      "level0": {
+        "x": 5632,
+        "y": 22016,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a papillary structure lined by pseudostratified columnar epithelium with cilia and goblet cells, supported by a fibrovascular core. The surrounding tissue is fibrillary with scattered glial cells.\n\nThe most likely diagnosis is a papillary glioneuronal tumor. Differential diagnoses include choroid plexus papilloma and ependymoma, which can be distinguished by their characteristic epithelial lining and perivascular pseudorosettes, respectively.",
+      "rationale": "High power at interface for invasion/ependymal pseudorosettes"
+    },
+    {
+      "roi_id": "slide_A_x17408_y23552_mag10",
+      "tile_id": "slide_A_x17408_y23552_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 17408,
+      "y": 23552,
+      "level0": {
+        "x": 17408,
+        "y": 23552,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a papillary neoplasm with fibrovascular cores lined by cuboidal to columnar cells. Psammoma bodies are present within the papillae, and there is associated hemorrhage and inflammation.\n\nThe most likely diagnosis is choroid plexus papilloma. Differential diagnoses include papillary meningioma, which typically shows meningothelial whorls and lacks the prominent papillary architecture and psammoma bodies seen here.",
+      "rationale": "Look for attached brain parenchyma in region 7 at periphery"
+    },
+    {
+      "roi_id": "slide_A_x15872_y23552_mag20",
+      "tile_id": "slide_A_x15872_y23552_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 15872,
+      "y": 23552,
+      "level0": {
+        "x": 15872,
+        "y": 23552,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a papillary neoplasm with fibrovascular cores lined by cuboidal to columnar cells. Psammoma bodies are also present.\n\nThe most likely diagnosis is choroid plexus papilloma.\n\nDifferential diagnoses include papillary meningioma, which typically shows meningothelial whorls and lacks the prominent papillary architecture and psammoma bodies seen here.",
+      "rationale": "High power for invasion and mitoses at periphery"
+    },
+    {
+      "roi_id": "slide_A_x38912_y20480_mag10",
+      "tile_id": "slide_A_x38912_y20480_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 38912,
+      "y": 20480,
+      "level0": {
+        "x": 38912,
+        "y": 20480,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a papillary neoplasm with fibrovascular cores lined by cuboidal to columnar cells. The stroma is fibrous with areas of hemorrhage and inflammation.\n\nThe most likely diagnosis is choroid plexus papilloma. Differential diagnoses include choroid plexus carcinoma, which would show increased cellularity, nuclear pleomorphism, and mitotic activity, and metastatic papillary carcinoma, which would typically have a different immunoprofile.",
+      "rationale": "Search for any solid growth areas (loss of papillary architecture) suggestive of carcinoma"
+    }
+  ]
+}

@@ -1,0 +1,782 @@
+{
+  "case_id": "sem1158_case3",
+  "source": "slideseek-ai-assist",
+  "model": "gpt-5.4",
+  "generated_at": "2026-05-22T09:21:32.532167+00:00",
+  "organ": "Head-Neck",
+  "primary_dx": "Primary Thyroid Lymphoplasmacytic Neoplasm, Favor MALT Lymphoma With Prominent Plasmacytic Differentiation",
+  "differential_dx": [
+    "Extramedullary Plasmacytoma",
+    "Lymphoplasmacytic Lymphoma Involving Thyroid"
+  ],
+  "microscopic_findings": [
+    {
+      "text": "Diffuse **small lymphoid infiltrate** nearly completely **effaces thyroid parenchyma** with only scant trapped follicles.",
+      "roi_ids": [
+        "slide_A_x56320_y23552_mag10",
+        "slide_A_x13312_y14336_mag10"
+      ]
+    },
+    {
+      "text": "The neoplasm shows abundant **plasma cells/plasmacytoid cells** with **eccentric nuclei** and amphophilic to eosinophilic cytoplasm.",
+      "roi_ids": [
+        "slide_A_x61952_y15872_mag20",
+        "slide_A_x25088_y10752_mag20"
+      ]
+    },
+    {
+      "text": "A mixed population of **small lymphocytes** and plasma cells is present rather than confluent monotonous **pure plasma cell sheets**.",
+      "roi_ids": [
+        "slide_A_x58880_y23040_mag20",
+        "slide_A_x23040_y16896_mag20"
+      ]
+    },
+    {
+      "text": "Separate areas show **necrosis/hemorrhage** with **granulomatous giant-cell reaction** and residual follicles, interpreted as secondary…",
+      "roi_ids": [
+        "slide_A_x5120_y23552_mag10",
+        "slide_A_x4096_y24576_mag20"
+      ]
+    }
+  ],
+  "interpretation": "The thyroid is replaced by a **lymphoplasmacytic infiltrate** composed of small B-cell-appearing lymphocytes admixed with numerous plasma cells, supporting **primary thyroid MALT lymphoma with plasmacytic differentiation**. The mixed small-lymphocyte and plasma-cell population favors this over **extramedullary plasmacytoma**, which more often forms diffuse pure plasma cell sheets. **Lymphoplasmacytic lymphoma** remains a consideration, but on morphology alone the localization and pattern are most in keeping with a thyroid **extranodal marginal zone lymphoma**. No convincing **high-grade transformation**, epithelial carcinoma pattern, or amyloid deposition is identified in the reviewed H&E sections.",
+  "num_rois": 46,
+  "tiles": [
+    {
+      "roi_id": "slide_A_x49152_y24576_mag1",
+      "tile_id": "slide_A_x49152_y24576_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 49152,
+      "y": 24576,
+      "level0": {
+        "x": 49152,
+        "y": 24576,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The low power view shows a diffuse infiltrate of lymphoid cells with effacement of normal architecture. There are scattered paler areas and prominent blood vessels.\n\nThe most likely diagnosis is a low-grade B-cell lymphoma, such as extranodal marginal zone lymphoma (MALT lymphoma).\n\nDifferential diagnoses include other low-grade lymphomas like follicular lymphoma or small lymphocytic lymphoma, and reactive lymphoid hyperplasia.",
+      "rationale": "Low-power scan of central region 1 for overall architecture and fibrosis/necrosis"
+    },
+    {
+      "roi_id": "slide_A_x4096_y24576_mag2",
+      "tile_id": "slide_A_x4096_y24576_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 4096,
+      "y": 24576,
+      "level0": {
+        "x": 4096,
+        "y": 24576,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a dense cellular infiltrate with areas of necrosis and hemorrhage. There is also a large cystic space containing amorphous material and dark pigment.\n\nThe most likely diagnosis is a high-grade lymphoma, such as diffuse large B-cell lymphoma, given the dense cellular infiltrate and necrosis. Other possibilities include anaplastic thyroid carcinoma or metastatic carcinoma, which can also present with necrosis and cystic change.",
+      "rationale": "Low-power orientation of region 2 edge/fragment; assess interface/capsule and overall pattern."
+    },
+    {
+      "roi_id": "slide_A_x24576_y16384_mag1",
+      "tile_id": "slide_A_x24576_y16384_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 24576,
+      "y": 16384,
+      "level0": {
+        "x": 24576,
+        "y": 16384,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a dense cellular infiltrate with a diffuse pattern, effacing the normal thyroid architecture. The infiltrate is composed of a mixed population of cells, including small lymphocytes and scattered larger cells.\n\nThe most likely diagnosis is a lymphoproliferative disorder, such as a low-grade B-cell lymphoma (e.g., MALT lymphoma). The diffuse infiltrate of small lymphocytes with scattered larger cells is characteristic of this category.\n\nDifferential diagnoses include reactive lymphoid hyperplasia and other types of lymphoma (e.g., follicular lymphoma, diffuse large B-cell lymphoma). Reactive lymphoid hyperplasia would typically show preserved follicular architecture and a more polymorphous infiltrate. Follicular lymphoma would show a nodular pattern, while diffuse large B-cell lymphoma would have a diffuse pattern with a predominance of large cells.",
+      "rationale": "Region 0 overview to assess overall architecture and distribution of lesion."
+    },
+    {
+      "roi_id": "slide_A_x57344_y16384_mag1",
+      "tile_id": "slide_A_x57344_y16384_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 57344,
+      "y": 16384,
+      "level0": {
+        "x": 57344,
+        "y": 16384,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The tissue shows a diffuse infiltrate of small lymphocytes with scattered larger cells and ill-defined lymphoid aggregates. There is also a prominent fibrous stroma.\n\nThe most likely diagnosis is extranodal marginal zone lymphoma of MALT type.\n\nDifferential diagnoses include reactive lymphoid hyperplasia, which would typically show well-formed germinal centers and a more polymorphous infiltrate, and follicular lymphoma, which would show a nodular pattern of neoplastic follicles.",
+      "rationale": "Low-power scan of superior region 1 for infiltrative borders, residual thyroid"
+    },
+    {
+      "roi_id": "slide_A_x2048_y24576_mag5",
+      "tile_id": "slide_A_x2048_y24576_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 2048,
+      "y": 24576,
+      "level0": {
+        "x": 2048,
+        "y": 24576,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows fragmented tissue with extensive necrosis and inflammation. There is abundant dark brown to black granular pigment present within the tissue fragments.\n\nThe most likely diagnosis is a necrotic thyroid neoplasm with pigment deposition. The presence of extensive necrosis and inflammation suggests a rapidly growing or aggressive process. The dark pigment could represent hemosiderin from hemorrhage or potentially melanin, although the latter is less common in thyroid neoplasms.\n\nDifferential diagnoses include:\n1. Anaplastic thyroid carcinoma: This is a highly aggressive thyroid malignancy that often presents with rapid growth, necrosis, and inflammation. The pigment could be hemosiderin from hemorrhage.\n2. Medullary thyroid carcinoma: This neuroendocrine tumor can sometimes have areas of necrosis and inflammation. The pigment could be hemosiderin or potentially melanin, although the latter is rare.",
+      "rationale": "Intermediate power scan of upper portion of region 2 for residual thyroid follicles or inflammatory interface."
+    },
+    {
+      "roi_id": "slide_A_x12288_y12288_mag2",
+      "tile_id": "slide_A_x12288_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 12288,
+      "level0": {
+        "x": 12288,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular proliferation with a prominent lymphoid infiltrate and areas of hemorrhage. Residual thyroid follicles are present within the lesion.\n\nThe most likely diagnosis is a lymphoepithelial lesion of the thyroid, such as Hashimoto's thyroiditis or a Warthin-like variant of papillary thyroid carcinoma.\n\nDifferential diagnoses include other thyroid neoplasms with lymphoid stroma, such as medullary thyroid carcinoma or lymphoma.",
+      "rationale": "Upper-left portion of Region 0 to compare texture; look for fibrosis vs cellular areas."
+    },
+    {
+      "roi_id": "slide_A_x65536_y32768_mag1",
+      "tile_id": "slide_A_x65536_y32768_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 65536,
+      "y": 32768,
+      "level0": {
+        "x": 65536,
+        "y": 32768,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The low power view shows a diffuse cellular infiltrate with scattered pale areas. The infiltrate appears to efface the normal thyroid architecture.\n\nThe most likely diagnosis is a lymphoproliferative disorder, such as lymphoma, given the diffuse infiltrate and effacement of normal architecture.\n\nDifferential diagnoses include Hashimoto's thyroiditis, which can also show a diffuse lymphocytic infiltrate, and metastatic carcinoma, which would typically show nests or cords of atypical epithelial cells.",
+      "rationale": "Low-power scan of inferior/lateral region 1 for different pattern or necrosis"
+    },
+    {
+      "roi_id": "slide_A_x36864_y8192_mag2",
+      "tile_id": "slide_A_x36864_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 36864,
+      "y": 8192,
+      "level0": {
+        "x": 36864,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a diffuse infiltrate of small lymphoid cells with scattered larger cells and prominent vascularity. The normal thyroid architecture is effaced.\n\nThe most likely diagnosis is extranodal marginal zone lymphoma of MALT type.\n\nDifferential diagnoses include reactive lymphoid hyperplasia and other low-grade lymphomas such as follicular lymphoma or small lymphocytic lymphoma.",
+      "rationale": "Upper-central portion of Region 0 to evaluate for nodularity/necrosis."
+    },
+    {
+      "roi_id": "slide_A_x4096_y26624_mag5",
+      "tile_id": "slide_A_x4096_y26624_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 4096,
+      "y": 26624,
+      "level0": {
+        "x": 4096,
+        "y": 26624,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cystic structure lined by stratified squamous epithelium with abundant dark brown pigment. The cyst wall contains dense lymphoid tissue and fibrous stroma.\n\nThe most likely diagnosis is a thyroglossal duct cyst. The presence of a cystic structure lined by stratified squamous epithelium, associated lymphoid tissue, and fibrous stroma in the head and neck region is characteristic. The dark brown pigment is likely hemosiderin from prior hemorrhage.\n\nDifferential diagnoses include a branchial cleft cyst, which typically lacks the prominent lymphoid tissue and is lined by respiratory or squamous epithelium. A dermoid cyst would contain adnexal structures like hair follicles or sebaceous glands, which are not seen here.",
+      "rationale": "Intermediate power scan of lower/right portion of region 2 for fibrosis, vessels, infiltrate."
+    },
+    {
+      "roi_id": "slide_A_x32768_y24576_mag2",
+      "tile_id": "slide_A_x32768_y24576_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 32768,
+      "y": 24576,
+      "level0": {
+        "x": 32768,
+        "y": 24576,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The tissue shows a diffuse infiltrate of small lymphoid cells with scattered larger cells and prominent vascularity. The normal thyroid architecture is effaced.\n\nThe most likely diagnosis is extranodal marginal zone lymphoma of MALT type.\n\nDifferential diagnoses include reactive lymphoid hyperplasia and other low-grade lymphomas such as follicular lymphoma or small lymphocytic lymphoma.",
+      "rationale": "Lower-central portion of Region 0 to evaluate for residual thyroid follicles/colloid and inflammation."
+    },
+    {
+      "roi_id": "slide_A_x56320_y23552_mag10",
+      "tile_id": "slide_A_x56320_y23552_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 56320,
+      "y": 23552,
+      "level0": {
+        "x": 56320,
+        "y": 23552,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a diffuse infiltrate of small to medium-sized lymphoid cells with round to oval nuclei and scant cytoplasm, effacing the normal thyroid architecture. Scattered larger cells and prominent blood vessels are also present.\n\nThe most likely diagnosis is extranodal marginal zone lymphoma of MALT type.\n\nDifferential diagnoses include other low-grade B-cell lymphomas such as follicular lymphoma or small lymphocytic lymphoma, which can be distinguished by their characteristic architectural patterns and immunophenotype.",
+      "rationale": "Assess lymphoid pattern: follicles vs diffuse; look for lymphoepithelial lesions/residual thyroid"
+    },
+    {
+      "roi_id": "slide_A_x4096_y24576_mag10",
+      "tile_id": "slide_A_x4096_y24576_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 4096,
+      "y": 24576,
+      "level0": {
+        "x": 4096,
+        "y": 24576,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows fragmented tissue with extensive necrosis and a dense inflammatory infiltrate. Scattered dark brown to black granular material is also present.\n\nThe most likely diagnosis is anaplastic thyroid carcinoma, given the extensive necrosis and inflammation in the context of a thyroid mass in an elderly patient.\n\nDifferential diagnoses include other high-grade thyroid malignancies such as poorly differentiated thyroid carcinoma, or even a necrotic metastatic tumor to the thyroid.",
+      "rationale": "Closer look at left-most edge for possible capsule/adjacent soft tissue or thyroid remnants."
+    },
+    {
+      "roi_id": "slide_A_x61440_y17408_mag10",
+      "tile_id": "slide_A_x61440_y17408_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 61440,
+      "y": 17408,
+      "level0": {
+        "x": 61440,
+        "y": 17408,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a diffuse infiltrate of small to medium-sized lymphoid cells with round to irregular nuclei and scant cytoplasm, effacing the normal thyroid architecture. Scattered larger cells and small blood vessels are also present.\n\nThe most likely diagnosis is extranodal marginal zone lymphoma of MALT type.\n\nDifferential diagnoses include other low-grade B-cell lymphomas such as follicular lymphoma or small lymphocytic lymphoma, which can be distinguished by their characteristic architectural patterns and immunophenotype.",
+      "rationale": "Sample area with more fibrosis for possible Riedel/Hashimoto vs lymphoma with sclerosis"
+    },
+    {
+      "roi_id": "slide_A_x64512_y28672_mag10",
+      "tile_id": "slide_A_x64512_y28672_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 64512,
+      "y": 28672,
+      "level0": {
+        "x": 64512,
+        "y": 28672,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense, diffuse infiltrate of small to medium-sized cells with round to oval nuclei and scant cytoplasm, effacing the normal thyroid architecture. Scattered larger cells and small blood vessels are also present.\n\nThe most likely diagnosis is a low-grade B-cell lymphoma, such as extranodal marginal zone lymphoma (MALT lymphoma).\n\nDifferential diagnoses include other small B-cell lymphomas (e.g., follicular lymphoma, mantle cell lymphoma) and reactive lymphoid hyperplasia. Immunohistochemistry and flow cytometry would be necessary to confirm the diagnosis and subtype the lymphoma.",
+      "rationale": "Evaluate paler areas for necrosis, large cell transformation, or epithelial component"
+    },
+    {
+      "roi_id": "slide_A_x5120_y25600_mag10",
+      "tile_id": "slide_A_x5120_y25600_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 5120,
+      "y": 25600,
+      "level0": {
+        "x": 5120,
+        "y": 25600,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense cellular infiltrate with scattered larger cells and areas of necrosis. There is also a large vessel with thickened walls and surrounding inflammation.\n\nThe most likely diagnosis is anaplastic thyroid carcinoma. The presence of a dense cellular infiltrate with scattered larger cells and areas of necrosis is consistent with a high-grade malignancy. The thickened vessel wall and surrounding inflammation may represent angioinvasion, a common feature of anaplastic thyroid carcinoma.\n\nDifferential diagnoses include poorly differentiated thyroid carcinoma and metastatic carcinoma. Poorly differentiated thyroid carcinoma typically shows a more uniform cellular population and less necrosis. Metastatic carcinoma would require clinical correlation and potentially immunohistochemical studies to confirm the primary site.",
+      "rationale": "Evaluate cyst lining/lymphoid wall at higher power to confirm squamous/respiratory epithelium vs necrotic tumor."
+    },
+    {
+      "roi_id": "slide_A_x18432_y14336_mag5",
+      "tile_id": "slide_A_x18432_y14336_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 18432,
+      "y": 14336,
+      "level0": {
+        "x": 18432,
+        "y": 14336,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a dense cellular infiltrate with areas of necrosis and hemorrhage. The infiltrate is composed of small cells with hyperchromatic nuclei and scant cytoplasm, arranged in sheets and nests.\n\nThe most likely diagnosis is a high-grade lymphoma, such as diffuse large B-cell lymphoma or Burkitt lymphoma, given the dense infiltrate of small to medium-sized cells with high nuclear-to-cytoplasmic ratio and areas of necrosis.\n\nDifferential diagnoses include poorly differentiated carcinoma, which can also present as a dense cellular infiltrate, and anaplastic thyroid carcinoma, which can have areas of necrosis and hemorrhage. Immunohistochemistry would be necessary to differentiate between these possibilities.",
+      "rationale": "Sample central Region 0 at intermediate power to assess diffuse vs nodular pattern, fibrosis, residual follicles."
+    },
+    {
+      "roi_id": "slide_A_x4096_y24576_mag20",
+      "tile_id": "slide_A_x4096_y24576_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 4096,
+      "y": 24576,
+      "level0": {
+        "x": 4096,
+        "y": 24576,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense inflammatory infiltrate composed of lymphocytes and plasma cells, along with scattered multinucleated giant cells and amorphous eosinophilic material. Dark brown to black granular pigment is also present.\n\nThe morphologic features are consistent with a granulomatous inflammatory process. Given the clinical context of a thyroid mass, a primary thyroid granulomatous disease such as subacute thyroiditis (de Quervain's) is a strong consideration. Other possibilities include infectious granulomatous thyroiditis or a foreign body reaction to material within the thyroid.",
+      "rationale": "High-power on necrotic/inflammatory area to look for viable tumor cells (lymphoma vs anaplastic carcinoma) and pigment nature (hemosiderin/melanin)."
+    },
+    {
+      "roi_id": "slide_A_x13312_y14336_mag10",
+      "tile_id": "slide_A_x13312_y14336_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 13312,
+      "y": 14336,
+      "level0": {
+        "x": 13312,
+        "y": 14336,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense lymphoid infiltrate with scattered thyroid follicles and areas of hemorrhage. The infiltrate is composed of small lymphocytes with scattered larger cells.\n\nThe most likely diagnosis is extranodal marginal zone lymphoma of mucosa-associated lymphoid tissue (MALT lymphoma) of the thyroid.\n\nDifferential diagnoses include Hashimoto's thyroiditis, which can also show a dense lymphoid infiltrate, but typically has a more prominent germinal center formation and a mixed inflammatory infiltrate including plasma cells and eosinophils. Other low-grade lymphomas, such as follicular lymphoma, would show a different architectural pattern.",
+      "rationale": "Higher power in area with possible residual follicles/hemorrhage to assess thyroiditis vs lymphoma and look for lymphoepithelial lesions."
+    },
+    {
+      "roi_id": "slide_A_x58880_y23040_mag20",
+      "tile_id": "slide_A_x58880_y23040_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 58880,
+      "y": 23040,
+      "level0": {
+        "x": 58880,
+        "y": 23040,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a diffuse infiltrate of small to medium-sized lymphoid cells with irregular nuclei and scant cytoplasm, along with scattered larger cells and increased vascularity. The background thyroid parenchyma is effaced.\n\nThe most likely diagnosis is extranodal marginal zone lymphoma of mucosa-associated lymphoid tissue (MALT lymphoma) of the thyroid.\n\nDifferential diagnoses include other low-grade B-cell lymphomas such as follicular lymphoma or small lymphocytic lymphoma, which can be distinguished by their characteristic architectural patterns and immunophenotype.",
+      "rationale": "High power in representative lymphoid area to assess cytology and lymphoepithelial lesions"
+    },
+    {
+      "roi_id": "slide_A_x5120_y24576_mag10",
+      "tile_id": "slide_A_x5120_y24576_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 5120,
+      "y": 24576,
+      "level0": {
+        "x": 5120,
+        "y": 24576,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense cellular infiltrate with areas of necrosis and hemorrhage. The cells are large with irregular nuclei and prominent nucleoli, arranged in sheets and nests.\n\nThe most likely diagnosis is anaplastic thyroid carcinoma. The differential diagnosis includes poorly differentiated thyroid carcinoma, which typically shows more preserved follicular architecture and less pleomorphism.",
+      "rationale": "Sample adjacent stromal area for fibrosis, thyroid follicles, Hashimoto/Riedel interface."
+    },
+    {
+      "roi_id": "slide_A_x38912_y8192_mag5",
+      "tile_id": "slide_A_x38912_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 38912,
+      "y": 8192,
+      "level0": {
+        "x": 38912,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a diffuse infiltrate of small lymphoid cells with scattered larger cells and prominent blood vessels. The normal thyroid architecture is effaced.\n\nThe most likely diagnosis is extranodal marginal zone lymphoma of MALT type.\n\nDifferential diagnoses include reactive lymphoid hyperplasia and other low-grade lymphomas. Reactive hyperplasia would typically show preserved follicular architecture and a mixed inflammatory infiltrate, while other low-grade lymphomas may have different cytologic features or growth patterns.",
+      "rationale": "Upper-central Region 0 to confirm diffuse lymphoid infiltrate and look for germinal centers."
+    },
+    {
+      "roi_id": "slide_A_x61952_y15872_mag20",
+      "tile_id": "slide_A_x61952_y15872_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 61952,
+      "y": 15872,
+      "level0": {
+        "x": 61952,
+        "y": 15872,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a diffuse infiltrate of small to medium-sized cells with eccentric nuclei and abundant eosinophilic cytoplasm, consistent with plasma cells. Scattered larger cells and small vessels are also present.\n\nThe most likely diagnosis is plasmacytoma.\n\nDifferential diagnoses include lymphoplasmacytic lymphoma and marginal zone lymphoma with extensive plasmacytic differentiation. These entities can show a similar cellular composition, but the predominance of plasma cells and the clinical presentation of a solitary thyroid mass favor plasmacytoma.",
+      "rationale": "High power in fibrotic/vascular area to look for plasma cells, sclerosis, epithelial nests"
+    },
+    {
+      "roi_id": "slide_A_x45056_y18432_mag10",
+      "tile_id": "slide_A_x45056_y18432_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 45056,
+      "y": 18432,
+      "level0": {
+        "x": 45056,
+        "y": 18432,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense infiltrate of small lymphoid cells with scattered larger cells and prominent fibrosis. The infiltrate effaces the normal thyroid architecture.\n\nThe most likely diagnosis is extranodal marginal zone lymphoma of MALT type.\n\nDifferential diagnoses include reactive lymphoid hyperplasia and other low-grade lymphomas. Reactive hyperplasia would typically show preserved follicular architecture and a mixed inflammatory infiltrate, while other lymphomas may have different cytologic features or growth patterns.",
+      "rationale": "Rightward portion within Region 0 to look for variability, fibrosis, necrosis, atypical large cells."
+    },
+    {
+      "roi_id": "slide_A_x68096_y26112_mag20",
+      "tile_id": "slide_A_x68096_y26112_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 68096,
+      "y": 26112,
+      "level0": {
+        "x": 68096,
+        "y": 26112,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a diffuse infiltrate of small to medium-sized cells with eccentric nuclei and abundant eosinophilic cytoplasm, consistent with plasma cells. Scattered larger cells and prominent blood vessels are also present.\n\nThe most likely diagnosis is plasmacytoma.\n\nDifferential diagnoses include lymphoma, which typically shows a more monotonous population of lymphoid cells, and metastatic carcinoma, which would exhibit epithelial morphology.",
+      "rationale": "High power near edge to evaluate capsule/border and exclude anaplastic carcinoma/metastasis"
+    },
+    {
+      "roi_id": "slide_A_x5120_y23552_mag10",
+      "tile_id": "slide_A_x5120_y23552_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 5120,
+      "y": 23552,
+      "level0": {
+        "x": 5120,
+        "y": 23552,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows extensive necrosis and hemorrhage with a dense inflammatory infiltrate. Scattered residual thyroid follicles are present, some containing colloid, along with dark granular material.\n\nThe most likely diagnosis is anaplastic thyroid carcinoma. The extensive necrosis, hemorrhage, and dense inflammatory infiltrate are characteristic features of this aggressive malignancy. The presence of residual thyroid follicles suggests origin from the thyroid gland.\n\nDifferential diagnoses include poorly differentiated thyroid carcinoma, which can also show necrosis and inflammation but typically retains some follicular architecture, and metastatic carcinoma to the thyroid, which would require clinical correlation and potentially immunohistochemistry to rule out.",
+      "rationale": "True extreme edge of region 2 to look for residual thyroid follicles/capsule or adjacent soft tissue."
+    },
+    {
+      "roi_id": "slide_A_x6144_y26624_mag10",
+      "tile_id": "slide_A_x6144_y26624_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 6144,
+      "y": 26624,
+      "level0": {
+        "x": 6144,
+        "y": 26624,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense cellular infiltrate composed of small to medium-sized cells with round to irregular nuclei and scant cytoplasm, arranged in sheets and nests. There is a prominent fibrous capsule and areas of necrosis.\n\nThe most likely diagnosis is a high-grade lymphoma, such as diffuse large B-cell lymphoma. The dense cellular infiltrate of atypical lymphoid cells is characteristic. Differential diagnoses include poorly differentiated carcinoma or anaplastic thyroid carcinoma, which can also present as a high-grade neoplasm in the thyroid. Immunohistochemistry would be necessary to confirm the lymphoid lineage and subtype.",
+      "rationale": "Lower edge of fragment to evaluate for fibrosis (Riedel), thyroiditis, or epithelial cyst lining."
+    },
+    {
+      "roi_id": "slide_A_x25088_y10752_mag20",
+      "tile_id": "slide_A_x25088_y10752_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 25088,
+      "y": 10752,
+      "level0": {
+        "x": 25088,
+        "y": 10752,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense infiltrate of cells with eccentric nuclei and abundant eosinophilic cytoplasm, consistent with plasma cells. Scattered larger cells and areas of hemorrhage are also present.\n\nThe most likely diagnosis is plasmacytoma. Differential diagnoses include lymphoma, which typically shows a more diffuse infiltrate of lymphocytes, and metastatic carcinoma, which would exhibit epithelial morphology.",
+      "rationale": "High power in upper central Region 0 to characterize cytology (lymphoma vs thyroiditis vs carcinoma) and look for lymphoepithelial lesions."
+    },
+    {
+      "roi_id": "slide_A_x52224_y31232_mag20",
+      "tile_id": "slide_A_x52224_y31232_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 52224,
+      "y": 31232,
+      "level0": {
+        "x": 52224,
+        "y": 31232,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense infiltrate of small to medium-sized cells with eccentric nuclei and abundant eosinophilic cytoplasm, consistent with plasma cells. Scattered larger cells are also present.\n\nThe most likely diagnosis is plasmacytoma.\n\nDifferential diagnoses include lymphoma, which typically shows a more monotonous population of lymphoid cells, and metastatic carcinoma, which would exhibit epithelial morphology.",
+      "rationale": "Sample additional uninvolved-looking area to look for residual thyroid follicles and lymphoepithelial lesions (Hashimoto/MALT) vs pure plasmacytoma"
+    },
+    {
+      "roi_id": "slide_A_x12800_y14336_mag20",
+      "tile_id": "slide_A_x12800_y14336_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 12800,
+      "y": 14336,
+      "level0": {
+        "x": 12800,
+        "y": 14336,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense lymphoid infiltrate with scattered larger cells and areas of hemorrhage and necrosis. Residual thyroid follicles are present within the infiltrate.\n\nThe most likely diagnosis is extranodal marginal zone lymphoma of MALT type.\n\nDifferential diagnoses include reactive lymphoid hyperplasia and other low-grade lymphomas. Reactive processes typically show a more polymorphous infiltrate and lack the destructive pattern seen here. Other low-grade lymphomas may have different cytologic features or growth patterns.",
+      "rationale": "High power in area with residual follicles to assess follicular epithelial changes (Hurthle), LELs, plasma cells."
+    },
+    {
+      "roi_id": "slide_A_x70656_y20480_mag20",
+      "tile_id": "slide_A_x70656_y20480_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 70656,
+      "y": 20480,
+      "level0": {
+        "x": 70656,
+        "y": 20480,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense infiltrate of plasma cells with eccentric nuclei and abundant cytoplasm, along with scattered larger cells and prominent fibrosis.\n\nThe most likely diagnosis is plasmacytoma.\n\nDifferential diagnoses include lymphoma, which would typically show a more monotonous population of lymphoid cells, and metastatic carcinoma, which would exhibit epithelial morphology.",
+      "rationale": "Far right edge of region 1 to exclude epithelial malignancy/metastasis; check for invasion pattern"
+    },
+    {
+      "roi_id": "slide_A_x2048_y25600_mag20",
+      "tile_id": "slide_A_x2048_y25600_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 2048,
+      "y": 25600,
+      "level0": {
+        "x": 2048,
+        "y": 25600,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cystic structure lined by flattened cells with abundant dark brown pigment. The lumen contains amorphous eosinophilic material and a dense inflammatory infiltrate.\n\nThe most likely diagnosis is a thyroglossal duct cyst. The presence of a cystic structure lined by flattened epithelium and containing inflammatory cells and debris is characteristic. The dark brown pigment may represent hemosiderin from prior hemorrhage or melanin.\n\nDifferential diagnoses include a branchial cleft cyst, which can also present as a neck mass and have a cystic appearance, but typically lacks the prominent pigment and is lined by respiratory or squamous epithelium. A cystic degeneration within a thyroid neoplasm is another possibility, but the lining would be thyroid follicular epithelium.",
+      "rationale": "High power in most cellular viable-appearing area to decide lymphoma vs carcinoma; look for cohesive cells vs discohesive lymphoid."
+    },
+    {
+      "roi_id": "slide_A_x64512_y28672_mag20",
+      "tile_id": "slide_A_x64512_y28672_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 64512,
+      "y": 28672,
+      "level0": {
+        "x": 64512,
+        "y": 28672,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense infiltrate of cells with eccentric nuclei and abundant eosinophilic cytoplasm, consistent with plasma cells. There is also a background of smaller lymphocytes and scattered larger cells.\n\nThe most likely diagnosis is plasmacytoma. Differential diagnoses include lymphoplasmacytic lymphoma and other lymphoid neoplasms with plasmacytic differentiation.",
+      "rationale": "Inferior portion to look for necrosis, large cell areas, or amyloid"
+    },
+    {
+      "roi_id": "slide_A_x45568_y18432_mag20",
+      "tile_id": "slide_A_x45568_y18432_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 45568,
+      "y": 18432,
+      "level0": {
+        "x": 45568,
+        "y": 18432,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense infiltrate of plasma cells with eccentric nuclei and abundant cytoplasm, along with scattered larger cells and prominent blood vessels. The morphology is consistent with a plasma cell neoplasm.\n\nMost likely diagnosis: Plasmacytoma\n\nDifferential diagnoses:\n1. Lymphoplasmacytic lymphoma: This would typically show a mixture of lymphocytes, plasmacytoid lymphocytes, and plasma cells, often with a more diffuse pattern and less prominent plasma cell differentiation.\n2. Reactive plasmacytosis: This would be expected to show a more polymorphous infiltrate with a mixture of inflammatory cells, including lymphocytes, eosinophils, and neutrophils, and would lack the monotonous appearance of a neoplastic process.",
+      "rationale": "High power in fibrotic right-sided area to look for desmoplasia, spindle/giant cells (anaplastic), amyloid (medullary) vs lymphoid infiltrate."
+    },
+    {
+      "roi_id": "slide_A_x3584_y24576_mag20",
+      "tile_id": "slide_A_x3584_y24576_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 3584,
+      "y": 24576,
+      "level0": {
+        "x": 3584,
+        "y": 24576,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense inflammatory infiltrate with numerous multinucleated giant cells and abundant dark brown to black granular material. Amorphous eosinophilic material and refractile structures are also present.\n\nThe most likely diagnosis is a foreign body reaction, likely to suture material.\n\nDifferential diagnoses include other causes of granulomatous inflammation such as infectious etiologies (e.g., mycobacterial or fungal infections) or other foreign body reactions (e.g., to keratin or other endogenous material).",
+      "rationale": "High power to assess pigment (hemosiderin vs melanin), giant cells, granulomatous inflammation."
+    },
+    {
+      "roi_id": "slide_A_x18944_y14848_mag20",
+      "tile_id": "slide_A_x18944_y14848_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 18944,
+      "y": 14848,
+      "level0": {
+        "x": 18944,
+        "y": 14848,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of small cells with round, hyperchromatic nuclei and scant cytoplasm, arranged in nests and cords, with associated hemorrhage and fibrin. The cells have a plasmacytoid appearance.\n\nThe most likely diagnosis is Medullary Thyroid Carcinoma.\n\nDifferential diagnoses include:\n- Follicular neoplasm: Typically shows follicular architecture and lacks the plasmacytoid appearance.\n- Paraganglioma: Usually has a nested (zellballen) pattern with sustentacular cells, which are not seen here.\n- Metastatic neuroendocrine tumor: Clinical history and immunohistochemistry would be needed for differentiation.",
+      "rationale": "High power in more cellular area with necrosis/hemorrhage mentioned at 5x to assess for large cell transformation/mitotic activity/necrosis."
+    },
+    {
+      "roi_id": "slide_A_x8192_y13824_mag20",
+      "tile_id": "slide_A_x8192_y13824_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 8192,
+      "y": 13824,
+      "level0": {
+        "x": 8192,
+        "y": 13824,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense lymphoid infiltrate with scattered larger cells and prominent eosinophilic material. The background is composed of small lymphocytes and plasma cells.\n\nThe most likely diagnosis is Extranodal Marginal Zone Lymphoma of Mucosa-Associated Lymphoid Tissue (MALT Lymphoma).\n\nDifferential diagnoses include Hashimoto's thyroiditis, which can have a similar lymphoid infiltrate, and other low-grade B-cell lymphomas.",
+      "rationale": "Far left/upper area of Region 0 to confirm whether plasma cell-rich vs lymphoid vs thyroiditis; check for Hurthle cells/follicles."
+    },
+    {
+      "roi_id": "slide_A_x31744_y6144_mag20",
+      "tile_id": "slide_A_x31744_y6144_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 31744,
+      "y": 6144,
+      "level0": {
+        "x": 31744,
+        "y": 6144,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense infiltrate of plasma cells with eccentric nuclei and abundant cytoplasm, along with scattered larger cells and areas of hemorrhage. The background stroma is pink and fibrillar.\n\nThe most likely diagnosis is plasmacytoma.\n\nDifferential diagnoses include:\n- Lymphoma with plasmacytic differentiation: Look for a more prominent lymphoid component and immunophenotyping.\n- Reactive plasmacytosis: Typically shows a mixed inflammatory infiltrate and lacks the monotonous plasma cell population.",
+      "rationale": "Top of Region 0 to evaluate for germinal centers, LELs, large cell component."
+    },
+    {
+      "roi_id": "slide_A_x41984_y11776_mag20",
+      "tile_id": "slide_A_x41984_y11776_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 41984,
+      "y": 11776,
+      "level0": {
+        "x": 41984,
+        "y": 11776,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense infiltrate of plasma cells with eccentric nuclei and abundant cytoplasm, arranged in sheets and cords, with prominent vascularity and areas of hemorrhage.\n\nThe most likely diagnosis is plasmacytoma.\n\nDifferential diagnoses include lymphoma, which typically shows a more diffuse infiltrate of lymphocytes, and metastatic carcinoma, which would exhibit epithelial morphology.",
+      "rationale": "Right upper area of Region 0 to assess cytology; exclude anaplastic carcinoma/medullary; look for amyloid."
+    },
+    {
+      "roi_id": "slide_A_x29696_y21504_mag10",
+      "tile_id": "slide_A_x29696_y21504_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 29696,
+      "y": 21504,
+      "level0": {
+        "x": 29696,
+        "y": 21504,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a diffuse infiltrate of small lymphocytes with scattered larger cells and prominent blood vessels. The normal thyroid architecture is effaced.\n\nThe most likely diagnosis is extranodal marginal zone lymphoma of MALT type.\n\nDifferential diagnoses include reactive lymphoid hyperplasia and other low-grade lymphomas.",
+      "rationale": "Lower central Region 0 at 10x to assess fibrosis, follicle remnants, pattern heterogeneity."
+    },
+    {
+      "roi_id": "slide_A_x23040_y16896_mag20",
+      "tile_id": "slide_A_x23040_y16896_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 23040,
+      "y": 16896,
+      "level0": {
+        "x": 23040,
+        "y": 16896,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a diffuse infiltrate of small to medium-sized lymphoid cells with round to oval nuclei, dense chromatin, and scant cytoplasm. Scattered larger cells and small blood vessels are also present.\n\nThe most likely diagnosis is a low-grade B-cell lymphoma, such as extranodal marginal zone lymphoma (MALT lymphoma).\n\nDifferential diagnoses include other small B-cell lymphomas like follicular lymphoma or small lymphocytic lymphoma, and reactive lymphoid hyperplasia. Distinguishing features would include the presence of follicular structures in follicular lymphoma, and the presence of a mixed population of small lymphocytes, plasma cells, and prolymphocytes in small lymphocytic lymphoma.",
+      "rationale": "Target around prior 1.25x central ROI to confirm cytology and look for lymphoepithelial lesions; assess mixture small lymphocytes vs plasma cells."
+    },
+    {
+      "roi_id": "slide_A_x26112_y23040_mag20",
+      "tile_id": "slide_A_x26112_y23040_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 26112,
+      "y": 23040,
+      "level0": {
+        "x": 26112,
+        "y": 23040,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a diffuse infiltrate of small to medium-sized cells with eccentric nuclei and abundant eosinophilic cytoplasm, consistent with plasma cells. Scattered larger cells and small vessels are also present.\n\nThe most likely diagnosis is plasmacytoma.\n\nDifferential diagnoses include lymphoplasmacytic lymphoma and marginal zone lymphoma with extensive plasmacytic differentiation. These entities can show a similar cellular composition, but the predominance of plasma cells and the clinical presentation of a solitary thyroid mass favor plasmacytoma.",
+      "rationale": "Lower-central area to check for Hashimoto background (Hurthle cells/germinal centers) vs lymphoma."
+    },
+    {
+      "roi_id": "slide_A_x33792_y14848_mag20",
+      "tile_id": "slide_A_x33792_y14848_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 33792,
+      "y": 14848,
+      "level0": {
+        "x": 33792,
+        "y": 14848,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense infiltrate of plasma cells with eccentric nuclei and abundant cytoplasm, along with prominent stromal fibrosis. The cells are arranged in sheets and cords.\n\nThe most likely diagnosis is plasmacytoma.\n\nDifferential diagnoses include:\n- Lymphoma: Typically shows a more diffuse infiltrate of lymphocytes, often with a different immunophenotype.\n- Medullary thyroid carcinoma: Can have a plasmacytoid appearance but usually shows amyloid deposition and positive staining for calcitonin.",
+      "rationale": "Mid-right within Region0 to look for epithelial nests/spindling/giant cells; exclude anaplastic/medullary."
+    },
+    {
+      "roi_id": "slide_A_x30976_y12032_mag40",
+      "tile_id": "slide_A_x30976_y12032_mag40",
+      "mag": "high",
+      "magnification": 40.0,
+      "x": 30976,
+      "y": 12032,
+      "level0": {
+        "x": 30976,
+        "y": 12032,
+        "width": 512,
+        "height": 512
+      },
+      "description": "The image shows a diffuse infiltrate of small to medium-sized lymphoid cells with round to oval nuclei and scant cytoplasm, effacing the normal thyroid architecture. Scattered larger cells and residual thyroid follicles are also present.\n\nThe most likely diagnosis is extranodal marginal zone lymphoma of MALT type.\n\nDifferential diagnoses include other low-grade B-cell lymphomas such as follicular lymphoma or small lymphocytic lymphoma, which can be distinguished by their characteristic architectural patterns and immunophenotype.",
+      "rationale": "Very high power to better characterize plasma cells vs plasmacytoid carcinoma cells; look for Russell bodies, Dutcher bodies, mitoses."
+    },
+    {
+      "roi_id": "slide_A_x35840_y14336_mag20",
+      "tile_id": "slide_A_x35840_y14336_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 35840,
+      "y": 14336,
+      "level0": {
+        "x": 35840,
+        "y": 14336,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense infiltrate of plasma cells with eccentric nuclei and abundant cytoplasm, along with scattered larger cells and prominent blood vessels. The background stroma is pink and fibrillar.\n\nThe most likely diagnosis is plasmacytoma.\n\nDifferential diagnoses include:\n- Lymphoplasmacytic lymphoma: typically shows a mixed population of lymphocytes, plasmacytoid lymphocytes, and plasma cells, often with a more prominent lymphocytic component.\n- Reactive plasmacytosis: usually associated with a mixed inflammatory infiltrate and often shows a more heterogeneous population of plasma cells.",
+      "rationale": "Look for lymphoepithelial lesions/Hashimoto background and assess monotonous vs polymorphous infiltrate."
+    },
+    {
+      "roi_id": "slide_A_x60928_y19968_mag20",
+      "tile_id": "slide_A_x60928_y19968_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 60928,
+      "y": 19968,
+      "level0": {
+        "x": 60928,
+        "y": 19968,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a diffuse infiltrate of small to medium-sized cells with eccentric nuclei and abundant eosinophilic cytoplasm, consistent with plasma cells. Scattered larger cells are also present.\n\nThe most likely diagnosis is plasmacytoma.\n\nDifferential diagnoses include lymphoma, which typically shows a more monotonous population of lymphoid cells, and metastatic carcinoma, which would exhibit epithelial morphology.",
+      "rationale": "Assess for sheets of plasma cells vs mixed small B-cells; check for large cell component/mitoses."
+    },
+    {
+      "roi_id": "slide_A_x5120_y25088_mag20",
+      "tile_id": "slide_A_x5120_y25088_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 5120,
+      "y": 25088,
+      "level0": {
+        "x": 5120,
+        "y": 25088,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense infiltrate of small, round cells with hyperchromatic nuclei and scant cytoplasm, along with scattered larger cells and amorphous eosinophilic material. The cellular infiltrate is diffuse and interstitial.\n\nThe most likely diagnosis is a lymphoproliferative disorder, such as lymphoma, given the dense infiltrate of small, round cells. Other possibilities include chronic lymphocytic thyroiditis or metastatic small cell carcinoma, which would require further investigation with immunohistochemistry to differentiate.",
+      "rationale": "Reassess viable tumor vs reactive/necrotic edge; exclude carcinoma with epithelioid/spindle cells."
+    }
+  ]
+}

@@ -1,0 +1,1518 @@
+{
+  "case_id": "sem1454_case5",
+  "source": "slideseek-ai-assist",
+  "model": "gpt-5.4",
+  "generated_at": "2026-05-22T09:26:53.104721+00:00",
+  "organ": "Head-Neck",
+  "primary_dx": "Extra-Adrenal Paraganglioma, Parotid/Upper Neck",
+  "differential_dx": [
+    "Neuroendocrine Carcinoma, Primary Salivary Or Metastatic",
+    "Adenoid Cystic Carcinoma, Solid/Cribriform Pattern"
+  ],
+  "microscopic_findings": [
+    {
+      "text": "Tumor shows classic **zellballen** with nested-trabecular cords in a delicate **fibrovascular stroma**.",
+      "roi_ids": [
+        "slide_A_x24576_y12288_mag10",
+        "slide_A_x32768_y16384_mag5"
+      ]
+    },
+    {
+      "text": "Cells are relatively uniform and epithelioid with **finely granular chromatin** and moderate **eosinophilic cytoplasm**.",
+      "roi_ids": [
+        "slide_A_x39424_y9216_mag20",
+        "slide_A_x43008_y13824_mag20"
+      ]
+    },
+    {
+      "text": "Focal **clear cell** change and spindle morphology are present, but there is no convincing **gland formation** or keratinization.",
+      "roi_ids": [
+        "slide_A_x16384_y20480_mag20",
+        "slide_A_x31744_y23040_mag20"
+      ]
+    },
+    {
+      "text": "Multifocal **hemorrhage** with cystic-degenerative change is present within the prominently **vascular** tumor.",
+      "roi_ids": [
+        "slide_A_x39936_y9216_mag10",
+        "slide_A_x11264_y17408_mag10"
+      ]
+    }
+  ],
+  "interpretation": "The dominant **paraganglioma** pattern is supported by **zellballen architecture**, rich vascular septation, and uniform cells with neuroendocrine-type chromatin. Focal clear cell, spindle, and cribriform-hyalinized areas create overlap with salivary mimics, but the overall morphology lacks convincing **true ductal/cribriform adenoid cystic carcinoma** features. Absence of definite gland formation or keratinizing epithelial differentiation also argues against **neuroendocrine carcinoma** or other salivary carcinomas. Histology does not establish metastasis.",
+  "num_rois": 92,
+  "tiles": [
+    {
+      "roi_id": "slide_A_x8192_y4096_mag2",
+      "tile_id": "slide_A_x8192_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 8192,
+      "y": 4096,
+      "level0": {
+        "x": 8192,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a low power view of a head and neck tissue fragment with a nodular pattern and areas of cystic change. The lesion is composed of a cellular proliferation with associated stroma and hemorrhage.\n\nThe most likely diagnosis is a salivary gland neoplasm, such as a pleomorphic adenoma or a malignant salivary gland tumor like mucoepidermoid carcinoma or adenoid cystic carcinoma.\n\nDifferential diagnoses include lymph node metastasis from a primary head and neck carcinoma or a primary lymph node malignancy like lymphoma.",
+      "rationale": "Left portion overview for architecture and cystic/hemorrhagic areas."
+    },
+    {
+      "roi_id": "slide_A_x24576_y16384_mag1",
+      "tile_id": "slide_A_x24576_y16384_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 24576,
+      "y": 16384,
+      "level0": {
+        "x": 24576,
+        "y": 16384,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a cellular neoplasm with a prominent nodular and lobular architecture separated by fibrous septa. The tumor cells are relatively uniform with round to oval nuclei and scant cytoplasm, arranged in nests and cords.\n\nThe most likely diagnosis is a salivary gland neoplasm, specifically a pleomorphic adenoma, given the nodular architecture and cellular morphology. Differential diagnoses include other benign salivary gland tumors such as Warthin tumor or basal cell adenoma, and malignant tumors like adenoid cystic carcinoma or mucoepidermoid carcinoma, which would typically show more cellular atypia, infiltrative growth, or specific architectural patterns.",
+      "rationale": "Global low-power survey of entire section for architecture, nodularity, capsule, cystic/hemorrhage."
+    },
+    {
+      "roi_id": "slide_A_x24576_y8192_mag2",
+      "tile_id": "slide_A_x24576_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 24576,
+      "y": 8192,
+      "level0": {
+        "x": 24576,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a neoplasm with a nested growth pattern (zellballen) separated by a prominent vascular stroma. The cells have moderate eosinophilic cytoplasm and round to oval nuclei.",
+      "rationale": "Central-upper overview to find nodules/solid vs stroma."
+    },
+    {
+      "roi_id": "slide_A_x24576_y14336_mag5",
+      "tile_id": "slide_A_x24576_y14336_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 24576,
+      "y": 14336,
+      "level0": {
+        "x": 24576,
+        "y": 14336,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular neoplasm with a prominent nested pattern (zellballen) separated by a rich vascular network. The cells have round to oval nuclei and moderate eosinophilic cytoplasm.\n\nThe most likely diagnosis is paraganglioma.\n\nDifferential diagnoses include other neuroendocrine tumors such as medullary thyroid carcinoma or metastatic neuroendocrine carcinoma, which can also show nested patterns but typically have different cytologic features and immunohistochemical profiles.",
+      "rationale": "Mid-power survey of central tissue for nodal capsule/sinuses or tumor."
+    },
+    {
+      "roi_id": "slide_A_x12288_y8192_mag2",
+      "tile_id": "slide_A_x12288_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 8192,
+      "level0": {
+        "x": 12288,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a neoplasm with a prominent nodular pattern composed of nests and cords of cells within a fibrous stroma. The cells have eosinophilic cytoplasm and round to oval nuclei, with some areas showing cystic spaces.\n\nThe most likely diagnosis is a salivary gland neoplasm, specifically a pleomorphic adenoma, given the nodular architecture, cellular morphology, and presence of cystic spaces. A differential diagnosis could include a basal cell adenoma, which also presents with a nodular pattern but typically lacks the prominent stromal component and cystic changes seen here.",
+      "rationale": "Scan left third where nodularity appears on thumbnail; look for residual PA-like stroma."
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag2",
+      "tile_id": "slide_A_x8192_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a neoplasm with a nodular pattern composed of nests and cords of cells within a fibrous stroma. The cells have eosinophilic cytoplasm and round to oval nuclei, with some areas showing cystic spaces.\n\nThe most likely diagnosis is a salivary gland neoplasm, such as a pleomorphic adenoma or a carcinoma ex pleomorphic adenoma, given the nodular architecture and cellular morphology.\n\nDifferential diagnoses include other salivary gland tumors like adenoid cystic carcinoma or mucoepidermoid carcinoma, which can have overlapping features but typically show different architectural patterns and cellular characteristics.",
+      "rationale": "Left/anterior end—assess edge for capsule/infiltration and nodularity."
+    },
+    {
+      "roi_id": "slide_A_x40960_y8192_mag2",
+      "tile_id": "slide_A_x40960_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 40960,
+      "y": 8192,
+      "level0": {
+        "x": 40960,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular neoplasm with a prominent nested and trabecular pattern, separated by a delicate fibrovascular stroma. The cells are relatively uniform with round to oval nuclei and moderate eosinophilic cytoplasm.\n\nThe most likely diagnosis is a paraganglioma. The nested pattern (zellballen) and uniform cell morphology are characteristic features. Differential diagnoses include other neuroendocrine tumors such as medullary thyroid carcinoma or metastatic neuroendocrine carcinoma, which can also show nested patterns but may have different cytologic features or require specific immunohistochemical markers for distinction.",
+      "rationale": "Right-upper overview; look for infiltrative edge."
+    },
+    {
+      "roi_id": "slide_A_x32768_y14336_mag5",
+      "tile_id": "slide_A_x32768_y14336_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 32768,
+      "y": 14336,
+      "level0": {
+        "x": 32768,
+        "y": 14336,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular neoplasm with a prominent nested and trabecular pattern, separated by a delicate fibrovascular stroma. The cells are relatively uniform with round to oval nuclei and moderate eosinophilic cytoplasm.\n\nThe most likely diagnosis is a paraganglioma.\n\nDifferential diagnoses include:\n- Medullary thyroid carcinoma: typically shows a more infiltrative growth pattern and may have amyloid deposition.\n- Neuroendocrine carcinoma: usually exhibits more significant nuclear atypia and mitotic activity.",
+      "rationale": "Survey right-central area for possible nodal tissue or metastatic deposit."
+    },
+    {
+      "roi_id": "slide_A_x24576_y4096_mag2",
+      "tile_id": "slide_A_x24576_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 24576,
+      "y": 4096,
+      "level0": {
+        "x": 24576,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a neoplasm with a prominent nodular and nested growth pattern, featuring cells with clear to eosinophilic cytoplasm and round nuclei, separated by fibrous stroma. Areas of hemorrhage and cystic change are also present.\n\nThe most likely diagnosis is a paraganglioma, specifically a carotid body tumor given the location and clinical presentation.\n\nDifferential diagnoses include metastatic renal cell carcinoma, which can also show clear cell morphology and a nested pattern, and a clear cell variant of squamous cell carcinoma, which would typically show more overt squamous differentiation.",
+      "rationale": "Scan central superior area for pale myxoid/chondroid foci."
+    },
+    {
+      "roi_id": "slide_A_x16384_y20480_mag2",
+      "tile_id": "slide_A_x16384_y20480_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 16384,
+      "y": 20480,
+      "level0": {
+        "x": 16384,
+        "y": 20480,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular neoplasm with a nodular pattern and areas of cystic change, adjacent to a thickened fibrous capsule. The tumor cells are arranged in nests and cords within a fibrous stroma.\n\nThe most likely diagnosis is a paraganglioma, specifically a carotid body tumor given the location and morphology. Differential diagnoses include other neuroendocrine tumors or metastatic carcinoma, which would typically show different architectural patterns or cytologic features.",
+      "rationale": "Central-lower overview; search for cystic spaces/necrosis."
+    },
+    {
+      "roi_id": "slide_A_x45056_y24576_mag2",
+      "tile_id": "slide_A_x45056_y24576_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 45056,
+      "y": 24576,
+      "level0": {
+        "x": 45056,
+        "y": 24576,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular neoplasm with a nested and trabecular pattern separated by delicate fibrovascular septa. The cells have abundant clear to finely vacuolated cytoplasm and round to oval nuclei. Prominent vascularity is noted.\n\nThe most likely diagnosis is paraganglioma.\n\nDifferential diagnoses include clear cell carcinoma and metastatic renal cell carcinoma, which can also show clear cell morphology and a nested pattern. However, the characteristic zellballen pattern and prominent vascularity are more typical of paraganglioma. Immunohistochemistry for neuroendocrine markers (e.g., synaptophysin, chromogranin) and S100 (highlighting sustentacular cells) would be helpful in confirming the diagnosis.",
+      "rationale": "Right/inferior edge—assess interface for infiltrative tongues vs pushing border."
+    },
+    {
+      "roi_id": "slide_A_x14336_y12288_mag5",
+      "tile_id": "slide_A_x14336_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 14336,
+      "y": 12288,
+      "level0": {
+        "x": 14336,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular neoplasm with a prominent nested pattern (zellballen) separated by a rich vascular stroma. The tumor cells have round to oval nuclei and moderate eosinophilic cytoplasm, with areas of hemorrhage and necrosis.\n\nThe most likely diagnosis is paraganglioma.\n\nDifferential diagnoses include:\n- Medullary thyroid carcinoma: can have a nested pattern but typically shows amyloid deposition and calcitonin positivity.\n- Alveolar soft part sarcoma: also has a nested pattern but usually shows larger cells with prominent nucleoli and characteristic PAS-positive diastase-resistant crystals.",
+      "rationale": "Survey left-central area for lymphoid tissue."
+    },
+    {
+      "roi_id": "slide_A_x40960_y16384_mag2",
+      "tile_id": "slide_A_x40960_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 40960,
+      "y": 16384,
+      "level0": {
+        "x": 40960,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular neoplasm with a prominent nested and trabecular pattern, separated by a delicate fibrovascular stroma. The cells are relatively uniform with round to oval nuclei and moderate eosinophilic cytoplasm.\n\nThe most likely diagnosis is a paraganglioma. The nested pattern (zellballen) and uniform cell morphology are characteristic features. Differential diagnoses include other neuroendocrine tumors such as medullary thyroid carcinoma or metastatic neuroendocrine carcinoma, which can have similar morphology but typically show different architectural patterns or cytologic features.",
+      "rationale": "Scan right inferior region where broad eosinophilic area may represent carcinoma; look for adjacent PA."
+    },
+    {
+      "roi_id": "slide_A_x40960_y20480_mag2",
+      "tile_id": "slide_A_x40960_y20480_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 40960,
+      "y": 20480,
+      "level0": {
+        "x": 40960,
+        "y": 20480,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular neoplasm with a prominent nested and trabecular pattern separated by fibrous stroma. The cells have round to oval nuclei and moderate eosinophilic cytoplasm, with areas of hemorrhage and cystic change.\n\nThe most likely diagnosis is a paraganglioma.\n\nDifferential diagnoses include other neuroendocrine tumors such as medullary thyroid carcinoma or metastatic neuroendocrine carcinoma, which can show similar nested patterns but typically have different cytologic features or clinical presentations.",
+      "rationale": "Right-lower overview; check interface and hemorrhage."
+    },
+    {
+      "roi_id": "slide_A_x28672_y8192_mag2",
+      "tile_id": "slide_A_x28672_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 28672,
+      "y": 8192,
+      "level0": {
+        "x": 28672,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular neoplasm arranged in nests and cords separated by fibrous stroma. The cells have round to oval nuclei and moderate eosinophilic cytoplasm, with areas of hemorrhage and necrosis.\n\nThe most likely diagnosis is a paraganglioma. Differential diagnoses include other neuroendocrine tumors such as medullary thyroid carcinoma or metastatic neuroendocrine carcinoma, which can be distinguished by their typical location and immunohistochemical profile.",
+      "rationale": "Upper central—look for cystic/hemorrhagic spaces suggested grossly."
+    },
+    {
+      "roi_id": "slide_A_x24576_y8192_mag10",
+      "tile_id": "slide_A_x24576_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 24576,
+      "y": 8192,
+      "level0": {
+        "x": 24576,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular neoplasm with a prominent vascular pattern, including dilated vessels and areas of hemorrhage. The tumor cells are arranged in nests and cords within a fibrous stroma.\n\nThe most likely diagnosis is a paraganglioma. Differential diagnoses include other neuroendocrine tumors or vascular neoplasms, which can be distinguished by their specific architectural patterns and immunohistochemical profiles.",
+      "rationale": "Central-upper nested area; assess cytology/atypia and necrosis."
+    },
+    {
+      "roi_id": "slide_A_x20480_y20480_mag2",
+      "tile_id": "slide_A_x20480_y20480_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 20480,
+      "y": 20480,
+      "level0": {
+        "x": 20480,
+        "y": 20480,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular neoplasm with a nodular pattern, composed of cells with eosinophilic cytoplasm and round to oval nuclei, separated by fibrous septa. The tumor is well-demarcated with areas of hemorrhage and cystic change.\n\nThe most likely diagnosis is a paraganglioma. Differential diagnoses include other neuroendocrine tumors or metastatic carcinoma, which would typically show different architectural patterns or cytologic features.",
+      "rationale": "Lower central—evaluate internal nodularity/heterogeneity and stromal bands."
+    },
+    {
+      "roi_id": "slide_A_x25600_y9216_mag10",
+      "tile_id": "slide_A_x25600_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 25600,
+      "y": 9216,
+      "level0": {
+        "x": 25600,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of epithelioid cells with eosinophilic cytoplasm and vesicular nuclei, arranged in nests and cords within a prominent vascular stroma. Scattered multinucleated cells and areas of hemorrhage are also present.\n\nThe most likely diagnosis is a paraganglioma.\n\nDifferential diagnoses include:\n- Metastatic carcinoma: typically shows more pleomorphism and lacks the characteristic nested pattern (zellballen) and prominent vascular stroma.\n- Malignant melanoma: can have epithelioid morphology but usually shows more nuclear atypia and mitotic activity, and lacks the nested pattern and vascular stroma.",
+      "rationale": "Examine upper-central area where thumbnail shows focal pale/clefting that could represent nodal hilum or focus."
+    },
+    {
+      "roi_id": "slide_A_x8192_y10240_mag5",
+      "tile_id": "slide_A_x8192_y10240_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 8192,
+      "y": 10240,
+      "level0": {
+        "x": 8192,
+        "y": 10240,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular neoplasm with a prominent desmoplastic stroma and infiltrative growth pattern. The tumor cells are arranged in nests, cords, and single cells, with some areas showing a cribriform pattern. The cells have round to oval nuclei and moderate cytoplasm.\n\nThe most likely diagnosis is Adenoid Cystic Carcinoma.\n\nDifferential diagnoses include Polymorphous Adenocarcinoma, which typically shows a more uniform cellular population and less prominent desmoplasia, and Basal Cell Adenocarcinoma, which usually lacks the cribriform pattern and infiltrative growth seen here.",
+      "rationale": "Left-mid lobulated area; look for myxochondroid stroma/ducts typical of PA."
+    },
+    {
+      "roi_id": "slide_A_x39936_y9216_mag10",
+      "tile_id": "slide_A_x39936_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 39936,
+      "y": 9216,
+      "level0": {
+        "x": 39936,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords within a prominent vascular stroma. The cells have round to oval nuclei and moderate eosinophilic cytoplasm, with areas of hemorrhage and necrosis.\n\nThe most likely diagnosis is a paraganglioma. Differential diagnoses include other neuroendocrine tumors such as medullary thyroid carcinoma or metastatic neuroendocrine carcinoma, which can be distinguished by their typical location and immunohistochemical profile.",
+      "rationale": "Right-upper nested/trabecular area; evaluate cell type and mitotic activity."
+    },
+    {
+      "roi_id": "slide_A_x16384_y12288_mag5",
+      "tile_id": "slide_A_x16384_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 16384,
+      "y": 12288,
+      "level0": {
+        "x": 16384,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular neoplasm with a prominent nested pattern (zellballen) separated by a rich vascular network. The cells have round to oval nuclei and moderate eosinophilic cytoplasm, with areas of hemorrhage and necrosis.\n\nThe most likely diagnosis is paraganglioma.\n\nDifferential diagnoses include:\n- Medullary thyroid carcinoma: can have a nested pattern but typically shows amyloid deposition and calcitonin positivity.\n- Alveolar soft part sarcoma: has a nested pattern but usually shows larger cells with prominent nucleoli and characteristic PAS-positive diastase-resistant crystals.",
+      "rationale": "Central area near septa; assess for hyalinized/myxoid PA stroma."
+    },
+    {
+      "roi_id": "slide_A_x4096_y4096_mag2",
+      "tile_id": "slide_A_x4096_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 4096,
+      "y": 4096,
+      "level0": {
+        "x": 4096,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a fragment of tissue with a papillary architecture lined by stratified squamous epithelium. The underlying stroma is fibrovascular with inflammation and hemorrhage.\n\nThe most likely diagnosis is a papillary squamous cell carcinoma. Differential diagnoses include benign papilloma, which would lack significant cellular atypia and stromal invasion, and verrucous carcinoma, which typically shows a broad pushing border and minimal cytologic atypia.",
+      "rationale": "Far left superior edge—assess capsule/interface and any residual salivary tissue."
+    },
+    {
+      "roi_id": "slide_A_x45056_y12288_mag2",
+      "tile_id": "slide_A_x45056_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 45056,
+      "y": 12288,
+      "level0": {
+        "x": 45056,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular neoplasm with a prominent trabecular and nested pattern, separated by fibrous stroma. The cells are relatively uniform with round to oval nuclei and moderate eosinophilic cytoplasm.\n\nThe most likely diagnosis is a paraganglioma. Differential diagnoses include other neuroendocrine tumors such as medullary thyroid carcinoma or metastatic neuroendocrine carcinoma, which can have similar morphology but typically show different architectural patterns or cytologic features.",
+      "rationale": "Survey far-right tissue for possible lymph node separate from main tumor."
+    },
+    {
+      "roi_id": "slide_A_x16384_y20480_mag10",
+      "tile_id": "slide_A_x16384_y20480_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 16384,
+      "y": 20480,
+      "level0": {
+        "x": 16384,
+        "y": 20480,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of epithelioid cells with clear to eosinophilic cytoplasm and round nuclei, arranged in nests and cords within a fibrous stroma. There is also a dense fibrous layer with associated inflammation and hemorrhage.\n\nThe most likely diagnosis is epithelioid hemangioendothelioma. This diagnosis is supported by the presence of epithelioid cells with clear to eosinophilic cytoplasm arranged in nests and cords within a fibrous stroma, which is characteristic of this vascular neoplasm. The dense fibrous layer with inflammation and hemorrhage may represent the tumor's interface with surrounding tissue or a reactive process.\n\nDifferential diagnoses to consider include metastatic carcinoma, particularly renal cell carcinoma, which can also present with clear cells and a nested pattern. However, the presence of a fibrous stroma and the clinical context of a head and neck mass favor a primary vascular tumor. Another consideration is epithelioid sarcoma, which can have similar morphology but typically shows more nuclear pleomorphism and necrosis. Immunohistochemical stains for vascular markers (e.g., CD31, CD34, ERG) would be helpful in confirming the diagnosis.",
+      "rationale": "Central-lower area near capsule/cystic change; look for infiltrative growth and stromal type."
+    },
+    {
+      "roi_id": "slide_A_x26624_y14336_mag5",
+      "tile_id": "slide_A_x26624_y14336_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 26624,
+      "y": 14336,
+      "level0": {
+        "x": 26624,
+        "y": 14336,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular neoplasm with a prominent nested and cord-like pattern separated by fibrous stroma. The cells are relatively uniform with round to oval nuclei and moderate eosinophilic cytoplasm.\n\nThe most likely diagnosis is a paraganglioma. The nested pattern (zellballen) and uniform cell morphology are characteristic features. Differential diagnoses include other neuroendocrine tumors such as medullary thyroid carcinoma or metastatic neuroendocrine carcinoma, which can also show nested patterns but may have different cytologic features or require specific immunohistochemical markers for distinction.",
+      "rationale": "Central-inferior region with possible cystic/hemorrhagic change; search for PA remnants at periphery of malignant nodules."
+    },
+    {
+      "roi_id": "slide_A_x4096_y20480_mag2",
+      "tile_id": "slide_A_x4096_y20480_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 4096,
+      "y": 20480,
+      "level0": {
+        "x": 4096,
+        "y": 20480,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a well-circumscribed lesion with a fibrous capsule and a nodular growth pattern composed of nests and cords of cells within a fibrous stroma. The cells have eosinophilic cytoplasm and round to oval nuclei.\n\nThe most likely diagnosis is a paraganglioma.\n\nDifferential diagnoses include:\n- Adenoid cystic carcinoma: typically shows cribriform, tubular, or solid patterns with hyaline stroma and perineural invasion.\n- Pleomorphic adenoma: characterized by a mixture of epithelial and myoepithelial cells within a chondromyxoid or hyaline stroma.",
+      "rationale": "Far left inferior edge—look for invasion into fat/muscle."
+    },
+    {
+      "roi_id": "slide_A_x43008_y20480_mag5",
+      "tile_id": "slide_A_x43008_y20480_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 43008,
+      "y": 20480,
+      "level0": {
+        "x": 43008,
+        "y": 20480,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular neoplasm with a prominent nested and trabecular growth pattern, separated by a rich vascular network. The cells have round to oval nuclei and moderate eosinophilic cytoplasm.\n\nThe most likely diagnosis is a paraganglioma.\n\nDifferential diagnoses include other neuroendocrine tumors such as medullary thyroid carcinoma or metastatic neuroendocrine carcinoma, which can also show nested patterns and rich vascularity. However, the classic 'zellballen' pattern and the clinical context of a head and neck mass in a 59-year-old female are highly suggestive of paraganglioma.",
+      "rationale": "Examine right-lower area (boxes 12/15) for lymphoid tissue vs tumor."
+    },
+    {
+      "roi_id": "slide_A_x40960_y20480_mag10",
+      "tile_id": "slide_A_x40960_y20480_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 40960,
+      "y": 20480,
+      "level0": {
+        "x": 40960,
+        "y": 20480,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular neoplasm arranged in nests and cords separated by a prominent fibrovascular stroma. The cells have round to oval nuclei and moderate eosinophilic cytoplasm, with areas of hemorrhage and necrosis.\n\nThe most likely diagnosis is a paraganglioma. Differential diagnoses include other neuroendocrine tumors such as medullary thyroid carcinoma or metastatic neuroendocrine carcinoma, which can have similar morphology but typically show different immunohistochemical profiles.",
+      "rationale": "Right-lower area with hemorrhage/cysts; look for high-grade carcinoma features."
+    },
+    {
+      "roi_id": "slide_A_x36864_y8192_mag5",
+      "tile_id": "slide_A_x36864_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 36864,
+      "y": 8192,
+      "level0": {
+        "x": 36864,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular neoplasm with a prominent nested and trabecular pattern, separated by a delicate fibrovascular stroma. The cells are relatively uniform with round to oval nuclei and moderate eosinophilic cytoplasm.\n\nThe most likely diagnosis is a paraganglioma.\n\nDifferential diagnoses include:\n- Medullary thyroid carcinoma: typically shows amyloid deposition and calcitonin positivity.\n- Neuroendocrine carcinoma: usually exhibits more significant nuclear atypia and mitotic activity.",
+      "rationale": "Right-superior region; check for chondromyxoid stroma or benign ducts adjacent to more cellular carcinoma."
+    },
+    {
+      "roi_id": "slide_A_x39936_y15360_mag10",
+      "tile_id": "slide_A_x39936_y15360_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 39936,
+      "y": 15360,
+      "level0": {
+        "x": 39936,
+        "y": 15360,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular neoplasm arranged in nests and cords separated by a prominent vascular stroma. The cells have round to oval nuclei and moderate eosinophilic cytoplasm, with areas of hemorrhage.\n\nThe most likely diagnosis is a paraganglioma. Differential diagnoses include other neuroendocrine tumors such as medullary thyroid carcinoma or metastatic neuroendocrine carcinoma, which can have similar morphology but typically show different architectural patterns or immunohistochemical profiles.",
+      "rationale": "Examine right-mid area (box 14) for nodal architecture or metastasis focus."
+    },
+    {
+      "roi_id": "slide_A_x16384_y12288_mag2",
+      "tile_id": "slide_A_x16384_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 16384,
+      "y": 12288,
+      "level0": {
+        "x": 16384,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular neoplasm with a prominent nodular and nested growth pattern separated by fibrous stroma. The cells are relatively uniform with round to oval nuclei and moderate eosinophilic cytoplasm, with some areas showing a more solid growth pattern.\n\nThe most likely diagnosis is a paraganglioma. The nested (zellballen) pattern of uniform cells with eosinophilic cytoplasm separated by fibrous stroma is characteristic. Differential diagnoses include other neuroendocrine tumors such as medullary thyroid carcinoma or metastatic neuroendocrine tumor, which can have similar morphology but typically show different architectural patterns or cytologic features.",
+      "rationale": "Mid-left internal nodules—confirm lobulated architecture; look for myxoid/chondroid stroma."
+    },
+    {
+      "roi_id": "slide_A_x10240_y6144_mag10",
+      "tile_id": "slide_A_x10240_y6144_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 10240,
+      "y": 6144,
+      "level0": {
+        "x": 10240,
+        "y": 6144,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords within a fibrous stroma, with cells exhibiting eosinophilic cytoplasm and round to oval nuclei. The tumor is well-demarcated with areas of cystic change and hemorrhage.\n\nThe most likely diagnosis is a paraganglioma. Differential diagnoses include other neuroendocrine tumors or metastatic carcinoma, which can be distinguished by immunohistochemical staining for neuroendocrine markers and specific markers for paraganglioma.",
+      "rationale": "Left portion with nodularity/cystic change; search for pleomorphic adenoma component/chondromyxoid stroma."
+    },
+    {
+      "roi_id": "slide_A_x43008_y18432_mag5",
+      "tile_id": "slide_A_x43008_y18432_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 43008,
+      "y": 18432,
+      "level0": {
+        "x": 43008,
+        "y": 18432,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular neoplasm with a prominent nested and trabecular pattern, often referred to as zellballen, separated by a rich vascular network. The tumor cells have round to oval nuclei and moderate eosinophilic cytoplasm.\n\nThe most likely diagnosis is a paraganglioma.\n\nDifferential diagnoses include other neuroendocrine tumors such as medullary thyroid carcinoma or metastatic neuroendocrine carcinoma, which can also show nested patterns but typically have different cytologic features and immunohistochemical profiles.",
+      "rationale": "Right-inferior region; evaluate infiltrative edge for residual PA entrapped."
+    },
+    {
+      "roi_id": "slide_A_x28672_y12288_mag2",
+      "tile_id": "slide_A_x28672_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 28672,
+      "y": 12288,
+      "level0": {
+        "x": 28672,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular neoplasm with a prominent nested and trabecular growth pattern separated by fibrous septa. The cells are relatively uniform with round to oval nuclei and moderate eosinophilic cytoplasm, with areas of hemorrhage and necrosis.\n\nThe most likely diagnosis is a paraganglioma. Differential diagnoses include other neuroendocrine tumors such as medullary thyroid carcinoma or metastatic neuroendocrine carcinoma, which can have similar morphology but typically show different immunohistochemical profiles.",
+      "rationale": "Central banded fibrous septa area—evaluate for hyalinized stroma vs capsule and necrosis."
+    },
+    {
+      "roi_id": "slide_A_x8192_y16384_mag5",
+      "tile_id": "slide_A_x8192_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 8192,
+      "y": 16384,
+      "level0": {
+        "x": 8192,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a neoplasm with a prominent cribriform pattern and nests of cells within a dense fibrous stroma. The cells have round to oval nuclei and moderate cytoplasm, with some areas showing a more solid growth pattern.\n\nThe most likely diagnosis is Adenoid Cystic Carcinoma.\n\nDifferential diagnoses include Polymorphous Adenocarcinoma, which typically shows a more varied architectural pattern including tubular, solid, and cribriform areas, and often has a less dense stroma. Basal Cell Adenoma can also show a cribriform pattern but usually has a more uniform cellular appearance and lacks the infiltrative growth seen here.",
+      "rationale": "Examine left-mid area (box 13) for lymph node."
+    },
+    {
+      "roi_id": "slide_A_x36864_y4096_mag2",
+      "tile_id": "slide_A_x36864_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 36864,
+      "y": 4096,
+      "level0": {
+        "x": 36864,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular neoplasm with a prominent nested and trabecular pattern, often referred to as \"zellballen,\" separated by a rich vascular network. The tumor cells have moderate eosinophilic cytoplasm and round to oval nuclei.\n\nThe most likely diagnosis is paraganglioma.\n\nDifferential diagnoses include:\n- Medullary thyroid carcinoma: can have a nested pattern but typically shows amyloid deposition and positive staining for calcitonin.\n- Neuroendocrine carcinoma: usually shows more significant nuclear atypia and mitotic activity, and may have a different growth pattern.",
+      "rationale": "Right superior—sample different morphology area; check for cribriform/microcystic or ductal patterns."
+    },
+    {
+      "roi_id": "slide_A_x8192_y9216_mag10",
+      "tile_id": "slide_A_x8192_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 8192,
+      "y": 9216,
+      "level0": {
+        "x": 8192,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells in a fibrous stroma with prominent perivascular pseudorosettes and areas of myxoid change. The cells have elongated nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a high-grade spindle cell neoplasm, such as a sarcoma or malignant peripheral nerve sheath tumor.\n\nDifferential diagnoses include schwannoma, which typically shows Antoni A and B areas and Verocay bodies, and leiomyosarcoma, which would show more prominent eosinophilic cytoplasm and cigar-shaped nuclei.",
+      "rationale": "Examine left-upper area (box 1/2) for possible nodal capsule/follicles."
+    },
+    {
+      "roi_id": "slide_A_x24576_y8192_mag20",
+      "tile_id": "slide_A_x24576_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 24576,
+      "y": 8192,
+      "level0": {
+        "x": 24576,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles and whorls, with prominent dilated vascular spaces containing red blood cells.\n\nThe most likely diagnosis is a paraganglioma, specifically a carotid body tumor given the location. The spindle cell morphology and prominent vascularity are characteristic features. Differential diagnoses include schwannoma and solitary fibrous tumor, which can also present as spindle cell lesions with prominent vessels, but typically lack the nested or zellballen pattern seen in paragangliomas.",
+      "rationale": "High power cytology of nested cells; assess neuroendocrine vs ductal/myoepithelial features, mitoses."
+    },
+    {
+      "roi_id": "slide_A_x6144_y20480_mag5",
+      "tile_id": "slide_A_x6144_y20480_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 6144,
+      "y": 20480,
+      "level0": {
+        "x": 6144,
+        "y": 20480,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular neoplasm with a prominent fibrous capsule and a nested growth pattern. The cells have round to oval nuclei and moderate cytoplasm, with areas of hemorrhage and necrosis.\n\nThe most likely diagnosis is a paraganglioma, specifically a carotid body tumor given the location and morphology. Differential diagnoses include metastatic carcinoma, which would typically show more pleomorphism and lack the characteristic nested pattern, and a schwannoma, which would have spindle cells and Verocay bodies.",
+      "rationale": "Inferior-left area (less explored) to search for residual PA myxochondroid stroma/ducts."
+    },
+    {
+      "roi_id": "slide_A_x39424_y9216_mag20",
+      "tile_id": "slide_A_x39424_y9216_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 39424,
+      "y": 9216,
+      "level0": {
+        "x": 39424,
+        "y": 9216,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords within a prominent vascular stroma. The cells have round to oval nuclei with granular chromatin and moderate eosinophilic cytoplasm, with areas of hemorrhage.\n\nThe most likely diagnosis is a paraganglioma. Differential diagnoses include other neuroendocrine tumors such as medullary thyroid carcinoma or metastatic neuroendocrine carcinoma, which can be distinguished by their typical location and immunohistochemical profile.",
+      "rationale": "High power in area with reported necrosis/hemorrhage; look for high-grade features."
+    },
+    {
+      "roi_id": "slide_A_x11264_y17408_mag10",
+      "tile_id": "slide_A_x11264_y17408_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 11264,
+      "y": 17408,
+      "level0": {
+        "x": 11264,
+        "y": 17408,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular neoplasm with a prominent vascular network and areas of hemorrhage. The tumor cells are arranged in nests and cords within a fibrous stroma, with some cells exhibiting clear cytoplasm.\n\nThe most likely diagnosis is a paraganglioma. The characteristic features include the nested architecture (zellballen pattern), prominent vascularity, and the presence of cells with clear cytoplasm. The clinical presentation of a neck mass with facial nerve involvement and rapid growth is also consistent with this diagnosis.\n\nDifferential diagnoses to consider include metastatic renal cell carcinoma, which can also present with clear cells and a rich vascular network, and other neuroendocrine tumors. Immunohistochemical stains for neuroendocrine markers (e.g., synaptophysin, chromogranin) and S100 (highlighting sustentacular cells) would be helpful in confirming the diagnosis.",
+      "rationale": "Mid-left around septa; look for benign ductal structures within chondromyxoid matrix."
+    },
+    {
+      "roi_id": "slide_A_x45056_y20480_mag2",
+      "tile_id": "slide_A_x45056_y20480_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 45056,
+      "y": 20480,
+      "level0": {
+        "x": 45056,
+        "y": 20480,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular neoplasm with a prominent nested and trabecular pattern separated by fibrous stroma. The cells have round to oval nuclei and moderate eosinophilic cytoplasm, with areas of hemorrhage and cystic change.\n\nThe most likely diagnosis is a paraganglioma, given the nested architecture and cellular morphology. Differential diagnoses include other neuroendocrine tumors such as medullary thyroid carcinoma or metastatic neuroendocrine carcinoma, which would typically show different architectural patterns or cytologic features.",
+      "rationale": "Right mid-lower near edge not yet sampled—verify infiltrative growth into adjacent soft tissue/fat."
+    },
+    {
+      "roi_id": "slide_A_x16384_y20480_mag20",
+      "tile_id": "slide_A_x16384_y20480_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 16384,
+      "y": 20480,
+      "level0": {
+        "x": 16384,
+        "y": 20480,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of large cells with clear to eosinophilic cytoplasm and prominent nucleoli, arranged in nests and cords within a fibrous stroma. There is also evidence of vascular invasion.\n\nThe most likely diagnosis is paraganglioma.\n\nDifferential diagnoses include metastatic renal cell carcinoma, which can also show clear cells and a nested pattern, and metastatic melanoma, which can have large cells with prominent nucleoli. Immunohistochemistry would be helpful to distinguish these entities.",
+      "rationale": "High power at fibrous interface; check for invasion, perineural/vascular, cell morphology."
+    },
+    {
+      "roi_id": "slide_A_x4096_y8192_mag2",
+      "tile_id": "slide_A_x4096_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 4096,
+      "y": 8192,
+      "level0": {
+        "x": 4096,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a well-demarcated lesion with a peripheral nodular pattern, composed of nests and cords of cells within a fibrous stroma. The cells have eosinophilic cytoplasm and round to oval nuclei, with some areas showing cystic spaces.\n\nThe most likely diagnosis is a salivary gland neoplasm, such as a pleomorphic adenoma or a low-grade carcinoma. Differential diagnoses include other benign or malignant salivary gland tumors, and potentially a metastatic lesion, although the well-demarcated nature and lack of significant atypia favor a primary salivary gland process.",
+      "rationale": "Check extreme left-upper edge for separate lymph node tissue/capsule."
+    },
+    {
+      "roi_id": "slide_A_x24576_y24576_mag2",
+      "tile_id": "slide_A_x24576_y24576_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 24576,
+      "y": 24576,
+      "level0": {
+        "x": 24576,
+        "y": 24576,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a well-circumscribed tumor composed of cells with abundant clear cytoplasm arranged in nests and cords separated by delicate fibrovascular septa. The tumor is surrounded by a fibrous capsule.\n\nThe most likely diagnosis is clear cell carcinoma of the parotid gland.\n\nDifferential diagnoses include metastatic renal cell carcinoma, which can also present with clear cells and a nested pattern, and mucoepidermoid carcinoma with clear cell features. Immunohistochemistry and clinical correlation would be helpful in distinguishing these entities.",
+      "rationale": "Lower central edge—look for capsule and extracapsular extension along septa."
+    },
+    {
+      "roi_id": "slide_A_x20480_y20480_mag10",
+      "tile_id": "slide_A_x20480_y20480_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 20480,
+      "y": 20480,
+      "level0": {
+        "x": 20480,
+        "y": 20480,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with eosinophilic cytoplasm and oval nuclei, arranged in fascicles and whorls, with areas of hemorrhage and necrosis. The tumor is seen infiltrating adjacent skeletal muscle.\n\nThe most likely diagnosis is a malignant mesenchymal neoplasm, such as a leiomyosarcoma, given the spindle cell morphology and infiltrative growth pattern.\n\nDifferential diagnoses include other spindle cell sarcomas like fibrosarcoma or malignant peripheral nerve sheath tumor, and potentially a spindle cell carcinoma or melanoma, which would require immunohistochemical studies to differentiate.",
+      "rationale": "Inferior-central near cystic/hemorrhagic change; assess for PA remnants at interface."
+    },
+    {
+      "roi_id": "slide_A_x10240_y6144_mag20",
+      "tile_id": "slide_A_x10240_y6144_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 10240,
+      "y": 6144,
+      "level0": {
+        "x": 10240,
+        "y": 6144,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords within a fibrous stroma. The cells have round to oval nuclei with visible nucleoli and moderate eosinophilic cytoplasm. The tumor is well-demarcated.\n\nThe most likely diagnosis is a paraganglioma.\n\nDifferential diagnoses include:\n- Adenoid cystic carcinoma: typically shows cribriform, tubular, or solid patterns with hyaline globules and perineural invasion.\n- Metastatic carcinoma: would show features of the primary tumor and often have a more infiltrative growth pattern.",
+      "rationale": "Search for chondromyxoid stroma or biphasic pleomorphic adenoma-like component at high power."
+    },
+    {
+      "roi_id": "slide_A_x4096_y16384_mag2",
+      "tile_id": "slide_A_x4096_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 4096,
+      "y": 16384,
+      "level0": {
+        "x": 4096,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a well-circumscribed lesion with a nodular pattern composed of nests and cords of cells within a fibrous stroma. The cells have eosinophilic cytoplasm and round to oval nuclei, with some areas showing cystic change.\n\nThe most likely diagnosis is a paraganglioma. Differential diagnoses include other neuroendocrine tumors such as medullary thyroid carcinoma or metastatic neuroendocrine carcinoma, which would typically show different architectural patterns and cellular features.",
+      "rationale": "Check extreme left-mid/lower for possible nodal tissue separate from tumor."
+    },
+    {
+      "roi_id": "slide_A_x29696_y8192_mag10",
+      "tile_id": "slide_A_x29696_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 29696,
+      "y": 8192,
+      "level0": {
+        "x": 29696,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular neoplasm arranged in nests and cords within a fibrous stroma, with areas of necrosis and calcification. The cells have round to oval nuclei and moderate eosinophilic cytoplasm.\n\nThe most likely diagnosis is a paraganglioma.\n\nDifferential diagnoses include:\n- Medullary thyroid carcinoma: typically shows amyloid deposition and calcitonin positivity.\n- Metastatic neuroendocrine tumor: would require clinical history of a primary elsewhere and may show different architectural patterns.",
+      "rationale": "Superior-central/right near apparent lobules; focus on any pale myxoid nodules."
+    },
+    {
+      "roi_id": "slide_A_x12288_y16384_mag2",
+      "tile_id": "slide_A_x12288_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 16384,
+      "level0": {
+        "x": 12288,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a neoplasm with a prominent nodular pattern composed of nests and cords of cells within a fibrous stroma. The cells have eosinophilic cytoplasm and round to oval nuclei, with some areas showing cystic spaces.\n\nThe most likely diagnosis is a salivary gland neoplasm, specifically a pleomorphic adenoma, given the nodular architecture, cellular morphology, and presence of cystic spaces. A differential diagnosis could include other benign salivary gland tumors such as Warthin tumor or oncocytoma, which would show different cellular and architectural features.",
+      "rationale": "Mid-left lower—check for residual salivary gland, lymphoid tissue, or different tumor component."
+    },
+    {
+      "roi_id": "slide_A_x40960_y20480_mag20",
+      "tile_id": "slide_A_x40960_y20480_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 40960,
+      "y": 20480,
+      "level0": {
+        "x": 40960,
+        "y": 20480,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular neoplasm arranged in nests and cords separated by a prominent vascular stroma. The cells have round to oval nuclei with finely granular chromatin and moderate eosinophilic cytoplasm.\n\nThe most likely diagnosis is a paraganglioma. Differential diagnoses include other neuroendocrine tumors such as medullary thyroid carcinoma or metastatic neuroendocrine carcinoma, which can be distinguished by their typical location and immunohistochemical profile.",
+      "rationale": "High power in hemorrhagic/cystic area to assess necrosis and mitoses."
+    },
+    {
+      "roi_id": "slide_A_x24576_y20480_mag2",
+      "tile_id": "slide_A_x24576_y20480_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 24576,
+      "y": 20480,
+      "level0": {
+        "x": 24576,
+        "y": 20480,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular neoplasm with a prominent nodular architecture separated by fibrous septa. The tumor cells are arranged in nests and cords with a rich vascular network.\n\nThe most likely diagnosis is a paraganglioma.\n\nDifferential diagnoses include other neuroendocrine tumors such as medullary thyroid carcinoma or metastatic neuroendocrine carcinoma, which can also show nested patterns and vascularity. However, the classic zellballen pattern and rich vascular network are highly suggestive of paraganglioma.",
+      "rationale": "Check bottom-central area where there are broad pale bands—could represent capsule/hilum or node."
+    },
+    {
+      "roi_id": "slide_A_x41984_y12288_mag10",
+      "tile_id": "slide_A_x41984_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 41984,
+      "y": 12288,
+      "level0": {
+        "x": 41984,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords with a prominent vascular network. The cells have round to oval nuclei and moderate eosinophilic cytoplasm, with areas of hemorrhage.\n\nThe most likely diagnosis is a paraganglioma. Differential diagnoses include other neuroendocrine tumors or metastatic carcinoma, which can be distinguished by immunohistochemical staining for neuroendocrine markers and other lineage-specific markers.",
+      "rationale": "Far right superior edge; check capsule and any entrapped benign PA."
+    },
+    {
+      "roi_id": "slide_A_x16384_y8192_mag5",
+      "tile_id": "slide_A_x16384_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 16384,
+      "y": 8192,
+      "level0": {
+        "x": 16384,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular neoplasm with a prominent nested and cord-like growth pattern within a dense fibrous stroma. The cells are relatively uniform with round to oval nuclei and moderate eosinophilic cytoplasm, with some areas showing cystic change.\n\nThe most likely diagnosis is a paraganglioma. The nested architecture (zellballen pattern) and uniform cell morphology are characteristic features. Differential diagnoses include other neuroendocrine tumors such as medullary thyroid carcinoma or metastatic neuroendocrine carcinoma, which can also show nested patterns but typically have different cytologic features or clinical presentations.",
+      "rationale": "Mid-left nodule at higher mag to confirm zellballen vs ductal/cribriform, and look for myxoid matrix."
+    },
+    {
+      "roi_id": "slide_A_x28672_y4096_mag2",
+      "tile_id": "slide_A_x28672_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 28672,
+      "y": 4096,
+      "level0": {
+        "x": 28672,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a neoplasm with a prominent nested and trabecular pattern, composed of cells with eosinophilic cytoplasm and round nuclei, separated by a rich vascular network. Areas of hemorrhage and necrosis are also present.\n\nThe most likely diagnosis is a paraganglioma.\n\nDifferential diagnoses include:\n- Medullary thyroid carcinoma: can have a nested pattern but typically shows amyloid deposition and calcitonin positivity.\n- Alveolar soft part sarcoma: characterized by large cells with abundant eosinophilic cytoplasm and prominent nucleoli, often with a sinusoidal vascular pattern.\n- Renal cell carcinoma: can have a nested pattern and rich vascularity, but typically shows clear cells and is positive for PAX8 and RCC markers.",
+      "rationale": "Check top-central tip region for lymph node."
+    },
+    {
+      "roi_id": "slide_A_x30720_y13312_mag10",
+      "tile_id": "slide_A_x30720_y13312_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 30720,
+      "y": 13312,
+      "level0": {
+        "x": 30720,
+        "y": 13312,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords within a prominent fibrous stroma. The cells have round to oval nuclei and moderate eosinophilic cytoplasm, with areas of hemorrhage and necrosis.\n\nThe most likely diagnosis is a paraganglioma. Differential diagnoses include other neuroendocrine tumors or metastatic carcinoma, which can be distinguished by immunohistochemical staining for neuroendocrine markers and specific markers for paraganglioma.",
+      "rationale": "Mid-tumor pale stroma area to look for ductal structures/cribriform or chondromyxoid matrix."
+    },
+    {
+      "roi_id": "slide_A_x6144_y6144_mag5",
+      "tile_id": "slide_A_x6144_y6144_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 6144,
+      "y": 6144,
+      "level0": {
+        "x": 6144,
+        "y": 6144,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a fragment of tissue with a papillary architecture lined by epithelial cells. The stroma is fibrovascular and contains scattered inflammatory cells.\n\nThe most likely diagnosis is a papillary neoplasm of the head and neck region, such as a papillary carcinoma of the salivary gland or thyroid.\n\nDifferential diagnoses include papillary thyroid carcinoma, which typically shows nuclear features like clearing and grooves, and papillary squamous cell carcinoma, which would show squamous differentiation.",
+      "rationale": "Left superior area with squamous/papillary appearance—clarify if true squamous-lined cyst/papillae vs artifact."
+    },
+    {
+      "roi_id": "slide_A_x45056_y12288_mag5",
+      "tile_id": "slide_A_x45056_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 45056,
+      "y": 12288,
+      "level0": {
+        "x": 45056,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a small fragment of tissue with a cellular infiltrate and associated stromal reaction. The cells are pleomorphic with irregular nuclei and eosinophilic cytoplasm, arranged in nests and cords.\n\nThe most likely diagnosis is a malignant neoplasm, likely a carcinoma given the cellular morphology and arrangement. Differential diagnoses include metastatic carcinoma, given the history of a large neck mass and the presence of a lymph node, and a primary salivary gland carcinoma, considering the location in the head and neck region.",
+      "rationale": "Right-upper edge focus for lymphoid follicles/subcapsular sinus."
+    },
+    {
+      "roi_id": "slide_A_x6144_y8192_mag10",
+      "tile_id": "slide_A_x6144_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 6144,
+      "y": 8192,
+      "level0": {
+        "x": 6144,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation with a prominent vascular pattern, including dilated spaces and solid areas, within a fibrous stroma. The cells are pleomorphic with hyperchromatic nuclei and eosinophilic cytoplasm, arranged in nests and cords.\n\nThe most likely diagnosis is a vascular neoplasm, such as angiosarcoma. The differential diagnosis includes other spindle cell or epithelioid neoplasms with prominent vascularity, such as Kaposi sarcoma or epithelioid hemangioendothelioma.",
+      "rationale": "Underexplored far-left superior area; look for classic PA chondromyxoid stroma/ducts."
+    },
+    {
+      "roi_id": "slide_A_x43008_y14336_mag10",
+      "tile_id": "slide_A_x43008_y14336_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 43008,
+      "y": 14336,
+      "level0": {
+        "x": 43008,
+        "y": 14336,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular neoplasm arranged in nests and cords with a prominent vascular network. The cells have round to oval nuclei and moderate eosinophilic cytoplasm, with areas of hemorrhage and necrosis.\n\nThe most likely diagnosis is a paraganglioma. Differential diagnoses include other neuroendocrine tumors such as medullary thyroid carcinoma or metastatic neuroendocrine carcinoma, which can be distinguished by immunohistochemistry and clinical context.",
+      "rationale": "Far right edge to assess infiltrative border/perineural invasion."
+    },
+    {
+      "roi_id": "slide_A_x28672_y23552_mag10",
+      "tile_id": "slide_A_x28672_y23552_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 28672,
+      "y": 23552,
+      "level0": {
+        "x": 28672,
+        "y": 23552,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with prominent vascularity and areas of hemorrhage, adjacent to a dense fibrous capsule. The spindle cells are arranged in fascicles and whorls.\n\nThe most likely diagnosis is a paraganglioma, specifically a carotid body tumor given the location and morphology. Differential diagnoses include schwannoma and solitary fibrous tumor, which can also present as spindle cell lesions with prominent vascularity.",
+      "rationale": "Inferior-central area with thick fibrous septa; check for carcinoma component."
+    },
+    {
+      "roi_id": "slide_A_x6144_y8192_mag20",
+      "tile_id": "slide_A_x6144_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 6144,
+      "y": 8192,
+      "level0": {
+        "x": 6144,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with elongated nuclei and eosinophilic cytoplasm, arranged in fascicles and whorls, with prominent vascularity and areas of hemorrhage. The surface is irregular and appears ulcerated.\n\nThe most likely diagnosis is a malignant spindle cell neoplasm, such as a sarcoma or a spindle cell carcinoma.\n\nDifferential diagnoses include:\n- Spindle cell carcinoma: would show epithelial differentiation, often with areas of conventional carcinoma.\n- Sarcoma: would lack epithelial markers and show specific lineage differentiation (e.g., leiomyosarcoma, fibrosarcoma).\n- Malignant peripheral nerve sheath tumor: would show S100 positivity and often association with a nerve.",
+      "rationale": "If PA-like stroma present at 10x, confirm at high power for ducts/plasmacytoid myoepithelial cells."
+    },
+    {
+      "roi_id": "slide_A_x43008_y13824_mag20",
+      "tile_id": "slide_A_x43008_y13824_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 43008,
+      "y": 13824,
+      "level0": {
+        "x": 43008,
+        "y": 13824,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords within a prominent vascular stroma. The cells have round to oval nuclei with finely granular chromatin and moderate eosinophilic cytoplasm, with areas of hemorrhage.\n\nThe most likely diagnosis is a paraganglioma. Differential diagnoses include other neuroendocrine tumors such as medullary thyroid carcinoma or metastatic neuroendocrine carcinoma, which can be distinguished by their typical location and immunohistochemical profile.",
+      "rationale": "Clarify suspicious right-upper edge fragment for lymph node vs tumor; look for lymphoid tissue, capsule, sinuses."
+    },
+    {
+      "roi_id": "slide_A_x6144_y13312_mag10",
+      "tile_id": "slide_A_x6144_y13312_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 6144,
+      "y": 13312,
+      "level0": {
+        "x": 6144,
+        "y": 13312,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a nested growth pattern of cells with clear to vacuolated cytoplasm separated by a prominent fibrous stroma. The cells have round to oval nuclei with visible nucleoli.\n\nThe most likely diagnosis is a paraganglioma.\n\nDifferential diagnoses include clear cell carcinoma and metastatic renal cell carcinoma, which can also show clear cell morphology and a nested pattern. However, the characteristic nested pattern (zellballen) and the prominent fibrous stroma are more typical of paraganglioma. Immunohistochemistry for neuroendocrine markers (e.g., synaptophysin, chromogranin) and S100 (highlighting sustentacular cells) would be helpful in confirming the diagnosis.",
+      "rationale": "Left-mid region for alternative morphology; seek residual pleomorphic adenoma/chondromyxoid stroma."
+    },
+    {
+      "roi_id": "slide_A_x9216_y7168_mag10",
+      "tile_id": "slide_A_x9216_y7168_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 9216,
+      "y": 7168,
+      "level0": {
+        "x": 9216,
+        "y": 7168,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation of spindle cells with eosinophilic cytoplasm and vesicular nuclei, arranged in fascicles and whorls, with prominent irregular vascular spaces and areas of hemorrhage. The stroma is variably collagenous and myxoid.\n\nThe most likely diagnosis is a malignant mesenchymal neoplasm, such as a sarcoma. The differential diagnosis includes spindle cell carcinoma, given the head and neck location and potential for spindle cell morphology.",
+      "rationale": "Left-superior nodular zone; search for residual benign PA nodules separate from malignant areas."
+    },
+    {
+      "roi_id": "slide_A_x22528_y12288_mag5",
+      "tile_id": "slide_A_x22528_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 22528,
+      "y": 12288,
+      "level0": {
+        "x": 22528,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular neoplasm with a prominent nodular pattern and areas of hemorrhage. The tumor cells are arranged in nests and cords within a fibrous stroma, with some cells exhibiting clear cytoplasm.\n\nThe most likely diagnosis is a malignant salivary gland neoplasm, such as a carcinoma ex pleomorphic adenoma. The nodular pattern and cellular morphology are consistent with a carcinoma arising in a pre-existing benign tumor.\n\nDifferential diagnoses include other high-grade salivary gland carcinomas, such as salivary duct carcinoma or adenoid cystic carcinoma, which can also present with a nodular growth pattern and cellular atypia.",
+      "rationale": "Central tumor parenchyma—assess for biphasic PA-like stroma vs neuroendocrine zellballen; look for ductal structures."
+    },
+    {
+      "roi_id": "slide_A_x41984_y13312_mag10",
+      "tile_id": "slide_A_x41984_y13312_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 41984,
+      "y": 13312,
+      "level0": {
+        "x": 41984,
+        "y": 13312,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular neoplasm with a prominent sinusoidal pattern, composed of cells with round to oval nuclei and moderate cytoplasm, arranged in nests and cords within a vascular stroma. Areas of hemorrhage are also present.\n\nThe most likely diagnosis is a paraganglioma.\n\nDifferential diagnoses include:\n- Medullary thyroid carcinoma: typically shows amyloid deposition and calcitonin positivity.\n- Metastatic renal cell carcinoma: often has clear cells and a rich vascular network, but usually lacks the characteristic sinusoidal pattern and sustentacular cells.",
+      "rationale": "Context around right-upper edge fragment to see architecture and boundaries."
+    },
+    {
+      "roi_id": "slide_A_x9216_y6656_mag20",
+      "tile_id": "slide_A_x9216_y6656_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 9216,
+      "y": 6656,
+      "level0": {
+        "x": 9216,
+        "y": 6656,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle-shaped cells with eosinophilic cytoplasm and oval nuclei, arranged in fascicles and whorls, with areas of hemorrhage and necrosis. The cells exhibit mild to moderate nuclear pleomorphism.\n\nThe most likely diagnosis is a malignant mesenchymal neoplasm, such as a sarcoma. Given the location in the head and neck and the spindle cell morphology, a leiomyosarcoma is a strong consideration.\n\nDifferential diagnoses include other spindle cell sarcomas such as fibrosarcoma or malignant peripheral nerve sheath tumor, as well as spindle cell carcinoma or melanoma. Immunohistochemical stains would be necessary to confirm the diagnosis and differentiate between these possibilities.",
+      "rationale": "High power confirmation for PA ducts/myoepithelial cells in left-superior nodularity."
+    },
+    {
+      "roi_id": "slide_A_x32768_y16384_mag5",
+      "tile_id": "slide_A_x32768_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 32768,
+      "y": 16384,
+      "level0": {
+        "x": 32768,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular neoplasm with a prominent nested and trabecular pattern, separated by delicate fibrovascular stroma. The cells are relatively uniform with round to oval nuclei and moderate eosinophilic cytoplasm.\n\nThe most likely diagnosis is a paraganglioma. The nested architecture (zellballen pattern) and uniform cell morphology are characteristic features. Differential diagnoses include other neuroendocrine tumors such as medullary thyroid carcinoma or metastatic neuroendocrine carcinoma, which can also show nested patterns but may have different cytologic features or immunohistochemical profiles.",
+      "rationale": "Central-right—look for solid high-grade component vs nested pattern; search for comedonecrosis."
+    },
+    {
+      "roi_id": "slide_A_x45056_y8192_mag2",
+      "tile_id": "slide_A_x45056_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 45056,
+      "y": 8192,
+      "level0": {
+        "x": 45056,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a low power view of a large, well-demarcated mass with a somewhat peripheral nodular pattern, soft but not friable, pink with foci of dark red hemorrhage and cystic spaces. The lesion is attached to surrounding tissues.\n\nThe most likely diagnosis is a benign salivary gland neoplasm, such as a pleomorphic adenoma, given the well-demarcated nature and nodular pattern. Differential diagnoses include other benign salivary gland tumors like Warthin tumor or oncocytoma, or a low-grade malignant tumor like mucoepidermoid carcinoma, which can also present as a well-circumscribed mass.",
+      "rationale": "Low power to see if this is a discrete node with capsule and surrounding fat."
+    },
+    {
+      "roi_id": "slide_A_x20992_y12288_mag20",
+      "tile_id": "slide_A_x20992_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20992,
+      "y": 12288,
+      "level0": {
+        "x": 20992,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular neoplasm with a nested and cord-like pattern within a prominent fibrous stroma. The cells have round to oval nuclei with visible nucleoli and moderate eosinophilic cytoplasm, with some areas showing clear cell change.\n\nThe most likely diagnosis is a paraganglioma. The nested pattern (zellballen) and the presence of a prominent fibrous stroma are characteristic features. The cellular morphology, including the round to oval nuclei with visible nucleoli and moderate eosinophilic cytoplasm, is also consistent with paraganglioma. The clear cell change seen in some areas is a recognized variant.\n\nDifferential diagnoses to consider include other neuroendocrine tumors such as medullary thyroid carcinoma or metastatic neuroendocrine carcinoma. Medullary thyroid carcinoma can have a nested pattern and eosinophilic cytoplasm, but typically shows amyloid deposition in the stroma and is positive for calcitonin. Metastatic neuroendocrine carcinoma would require clinical correlation to identify a primary site.",
+      "rationale": "High power in a different cellular area to confirm cytologic phenotype and mitotic rate."
+    },
+    {
+      "roi_id": "slide_A_x34816_y2048_mag10",
+      "tile_id": "slide_A_x34816_y2048_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 34816,
+      "y": 2048,
+      "level0": {
+        "x": 34816,
+        "y": 2048,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular neoplasm with a prominent trabecular and nested pattern, separated by a delicate fibrovascular stroma. The cells are relatively uniform with round to oval nuclei and moderate eosinophilic cytoplasm.\n\nThe most likely diagnosis is a paraganglioma.\n\nDifferential diagnoses include other neuroendocrine tumors such as medullary thyroid carcinoma or metastatic neuroendocrine carcinoma, which can have similar architectural patterns but typically show different cytologic features or immunohistochemical profiles.",
+      "rationale": "Right-superior tip near edge (likely less sampled); check for hyalinized/chondroid PA component."
+    },
+    {
+      "roi_id": "slide_A_x32768_y4096_mag2",
+      "tile_id": "slide_A_x32768_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 32768,
+      "y": 4096,
+      "level0": {
+        "x": 32768,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular neoplasm with a prominent nested and trabecular pattern, separated by a rich vascular network. The cells have moderate eosinophilic cytoplasm and round to oval nuclei.\n\nThe most likely diagnosis is a paraganglioma.\n\nDifferential diagnoses include other neuroendocrine tumors such as medullary thyroid carcinoma or metastatic neuroendocrine carcinoma, which can also show a nested pattern but typically have different cytologic features and immunohistochemical profiles.",
+      "rationale": "Survey top-right tip for any discrete lymph node tissue."
+    },
+    {
+      "roi_id": "slide_A_x10240_y10240_mag5",
+      "tile_id": "slide_A_x10240_y10240_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 10240,
+      "y": 10240,
+      "level0": {
+        "x": 10240,
+        "y": 10240,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a neoplasm with a prominent cribriform pattern and nests of cells within a dense fibrous stroma. The cells have round to oval nuclei and moderate cytoplasm, with some areas showing a more solid growth pattern.\n\nThe most likely diagnosis is Adenoid Cystic Carcinoma.\n\nDifferential diagnoses include Polymorphous Adenocarcinoma, which typically shows a more varied architectural pattern including tubular, solid, and cribriform areas, and often has a less dense stroma. Basal Cell Adenoma can also show cribriform areas but usually has a more uniform cellular population and lacks the infiltrative growth pattern seen here.",
+      "rationale": "Mid-left—look for chondromyxoid or hyalinized stroma typical of pleomorphic adenoma."
+    },
+    {
+      "roi_id": "slide_A_x26624_y18432_mag5",
+      "tile_id": "slide_A_x26624_y18432_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 26624,
+      "y": 18432,
+      "level0": {
+        "x": 26624,
+        "y": 18432,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords separated by prominent fibrovascular septa. The cells have round to oval nuclei and moderate eosinophilic cytoplasm, with areas of hemorrhage and cystic change.\n\nThe most likely diagnosis is a paraganglioma. Differential diagnoses include other neuroendocrine tumors or metastatic carcinoma, which would typically show different architectural patterns or cytologic features.",
+      "rationale": "Lower central—evaluate cystic change/hemorrhage and any glandular lumina."
+    },
+    {
+      "roi_id": "slide_A_x20480_y4096_mag2",
+      "tile_id": "slide_A_x20480_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 20480,
+      "y": 4096,
+      "level0": {
+        "x": 20480,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a neoplasm with a prominent nodular growth pattern composed of nests and cords of cells separated by fibrous stroma. The cells have eosinophilic cytoplasm and round to oval nuclei, with some areas showing cystic spaces.\n\nThe most likely diagnosis is a salivary gland neoplasm, specifically a pleomorphic adenoma, given the nodular architecture and cellular morphology. Differential diagnoses include other benign salivary gland tumors such as Warthin tumor or oncocytoma, which can have overlapping features but typically show different cellular characteristics or stromal components.",
+      "rationale": "Survey top-central for discrete node."
+    },
+    {
+      "roi_id": "slide_A_x47104_y24576_mag5",
+      "tile_id": "slide_A_x47104_y24576_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 47104,
+      "y": 24576,
+      "level0": {
+        "x": 47104,
+        "y": 24576,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation with a prominent vascular network and areas of hemorrhage. The cells have abundant eosinophilic cytoplasm and round to oval nuclei, arranged in nests and cords.\n\nThe most likely diagnosis is a paraganglioma. Differential diagnoses include other neuroendocrine tumors or metastatic carcinoma, which would typically show different architectural patterns or cytologic features.",
+      "rationale": "Far right inferior tip near edge not yet high-power; search for benign PA-like myxoid/chondroid stroma adjacent to tumor."
+    },
+    {
+      "roi_id": "slide_A_x8192_y14336_mag5",
+      "tile_id": "slide_A_x8192_y14336_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 8192,
+      "y": 14336,
+      "level0": {
+        "x": 8192,
+        "y": 14336,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a neoplasm with a prominent nested and trabecular growth pattern within a dense fibrous stroma. The tumor cells are relatively uniform with round to oval nuclei and moderate eosinophilic cytoplasm.\n\nThe most likely diagnosis is a paraganglioma. The nested architecture (zellballen pattern) and the uniform cell population are characteristic features. Differential diagnoses include other neuroendocrine tumors such as medullary thyroid carcinoma or metastatic neuroendocrine carcinoma, which can also show nested patterns but typically have different cytologic features or clinical presentations.",
+      "rationale": "Left-lower—search for lymphoid tissue or normal parotid acini/ducts."
+    },
+    {
+      "roi_id": "slide_A_x47104_y24576_mag20",
+      "tile_id": "slide_A_x47104_y24576_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 47104,
+      "y": 24576,
+      "level0": {
+        "x": 47104,
+        "y": 24576,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation with prominent vascularity, hemorrhage, and areas of necrosis. The cells are pleomorphic with eosinophilic cytoplasm and vesicular nuclei, arranged in nests and cords.\n\nThe most likely diagnosis is a high-grade malignant neoplasm, such as a pleomorphic carcinoma or sarcoma.\n\nDifferential diagnoses include:\n- Pleomorphic carcinoma: characterized by pleomorphic cells, often with squamous differentiation, and prominent vascularity.\n- Sarcoma: characterized by pleomorphic spindle cells, often with a fascicular or storiform pattern, and prominent vascularity.\n- Malignant melanoma: characterized by pleomorphic cells with prominent nucleoli and often melanin pigment, although amelanotic variants exist.",
+      "rationale": "High power at far right inferior tip for ducts/plasmacytoid myoepithelial cells in myxoid stroma (PA remnants)."
+    },
+    {
+      "roi_id": "slide_A_x36864_y12288_mag2",
+      "tile_id": "slide_A_x36864_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 36864,
+      "y": 12288,
+      "level0": {
+        "x": 36864,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular neoplasm with a prominent nested and trabecular pattern, separated by a delicate fibrovascular stroma. The cells are relatively uniform with round to oval nuclei and moderate eosinophilic cytoplasm.\n\nThe most likely diagnosis is a paraganglioma. The nested pattern (zellballen) and uniform cell morphology are characteristic features. Differential diagnoses include other neuroendocrine tumors such as medullary thyroid carcinoma or metastatic neuroendocrine carcinoma, which can have similar morphology but typically show different architectural patterns or cytologic features.",
+      "rationale": "Target additional unexplored upper-mid/right area from map to look for discrete lymph node."
+    },
+    {
+      "roi_id": "slide_A_x32768_y22528_mag5",
+      "tile_id": "slide_A_x32768_y22528_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 32768,
+      "y": 22528,
+      "level0": {
+        "x": 32768,
+        "y": 22528,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular neoplasm with a nested and trabecular pattern separated by fibrovascular stroma. The cells have round to oval nuclei and moderate eosinophilic cytoplasm, with areas of hemorrhage and necrosis.\n\nThe most likely diagnosis is a paraganglioma. Differential diagnoses include other neuroendocrine tumors such as medullary thyroid carcinoma or metastatic neuroendocrine carcinoma, which can have similar morphology but typically show different immunohistochemical profiles.",
+      "rationale": "Inferior-right central area between septa; look for hyalinized/myxoid nodules suggestive of old PA."
+    },
+    {
+      "roi_id": "slide_A_x36864_y16384_mag2",
+      "tile_id": "slide_A_x36864_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 36864,
+      "y": 16384,
+      "level0": {
+        "x": 36864,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular neoplasm with a prominent nested and trabecular pattern separated by fibrous stroma. The cells are relatively uniform with round to oval nuclei and moderate eosinophilic cytoplasm.\n\nThe most likely diagnosis is a paraganglioma. Differential diagnoses include other neuroendocrine tumors such as medullary thyroid carcinoma or metastatic neuroendocrine carcinoma, which can have similar nested patterns but often show different cytologic features or associated findings.",
+      "rationale": "Target mid-right lower area for nodal tissue/fat."
+    },
+    {
+      "roi_id": "slide_A_x32768_y8192_mag2",
+      "tile_id": "slide_A_x32768_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 32768,
+      "y": 8192,
+      "level0": {
+        "x": 32768,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular neoplasm with a prominent nested and trabecular pattern, separated by a rich vascular network. The cells have moderate eosinophilic cytoplasm and round to oval nuclei.\n\nThe most likely diagnosis is a paraganglioma.\n\nDifferential diagnoses include other neuroendocrine tumors such as medullary thyroid carcinoma or metastatic neuroendocrine carcinoma, which can also show a nested pattern and rich vascularity. However, the classic zellballen pattern and the clinical presentation in the head and neck region are highly suggestive of paraganglioma.",
+      "rationale": "Target pale cystic/hemorrhagic region in upper-middle suggested by map for cystic spaces."
+    },
+    {
+      "roi_id": "slide_A_x31744_y23040_mag20",
+      "tile_id": "slide_A_x31744_y23040_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 31744,
+      "y": 23040,
+      "level0": {
+        "x": 31744,
+        "y": 23040,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of epithelioid cells with clear to eosinophilic cytoplasm and round nuclei, arranged in nests and cords, with prominent vascular spaces and hemorrhage. The cells exhibit mild to moderate nuclear pleomorphism.\n\nThe most likely diagnosis is epithelioid hemangioendothelioma.\n\nDifferential diagnoses include metastatic renal cell carcinoma, which can also show clear cells and a nested pattern, and epithelioid angiosarcoma, which typically shows more significant nuclear atypia and mitotic activity.",
+      "rationale": "Confirm at high power whether true PA ducts/myoepithelial cells present."
+    },
+    {
+      "roi_id": "slide_A_x32768_y12288_mag2",
+      "tile_id": "slide_A_x32768_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 32768,
+      "y": 12288,
+      "level0": {
+        "x": 32768,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular neoplasm with a prominent nodular and nested growth pattern separated by fibrous septa. The cells are relatively uniform with round to oval nuclei and moderate eosinophilic cytoplasm, with areas of hemorrhage and necrosis.\n\nThe most likely diagnosis is a paraganglioma, specifically a carotid body tumor given the location and clinical presentation. Differential diagnoses include other neuroendocrine tumors such as medullary thyroid carcinoma or metastatic neuroendocrine carcinoma, which can be distinguished by immunohistochemical markers and clinical context.",
+      "rationale": "Target central upper area for possible lymphoid aggregate."
+    },
+    {
+      "roi_id": "slide_A_x20480_y16384_mag2",
+      "tile_id": "slide_A_x20480_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 20480,
+      "y": 16384,
+      "level0": {
+        "x": 20480,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular neoplasm with a prominent nodular pattern separated by fibrous septa. The tumor cells are relatively uniform with round to oval nuclei and scant cytoplasm, arranged in nests and cords.\n\nThe most likely diagnosis is a paraganglioma. The nodular architecture, uniform cell population, and arrangement in nests and cords are characteristic features. Differential diagnoses include other neuroendocrine tumors such as medullary thyroid carcinoma or metastatic neuroendocrine carcinoma, which would typically show different architectural patterns and cytologic features.",
+      "rationale": "Search for lymphoid tissue or intraparotid LN near midsection."
+    },
+    {
+      "roi_id": "slide_A_x23552_y12288_mag10",
+      "tile_id": "slide_A_x23552_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 23552,
+      "y": 12288,
+      "level0": {
+        "x": 23552,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular neoplasm with a nested pattern (zellballen) separated by a prominent vascular network. The cells have round to oval nuclei and moderate eosinophilic cytoplasm, with areas of hemorrhage and necrosis.\n\nThe most likely diagnosis is paraganglioma.\n\nDifferential diagnoses include:\n- Medullary thyroid carcinoma: typically shows amyloid deposition and calcitonin positivity.\n- Alveolar soft part sarcoma: characterized by large cells with abundant eosinophilic cytoplasm and PAS-positive crystalline inclusions.",
+      "rationale": "Central area around interface of different patterns; specifically search for chondromyxoid matrix or benign ducts."
+    },
+    {
+      "roi_id": "slide_A_x12288_y12288_mag2",
+      "tile_id": "slide_A_x12288_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 12288,
+      "level0": {
+        "x": 12288,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a neoplasm with a prominent nodular pattern composed of nests and cords of cells within a fibrous stroma. The cells have eosinophilic cytoplasm and round to oval nuclei, with some areas showing cystic spaces.\n\nThe most likely diagnosis is a salivary gland neoplasm, specifically a pleomorphic adenoma, given the nodular architecture, cellular morphology, and presence of cystic spaces. Differential diagnoses include other benign salivary gland tumors such as Warthin tumor or oncocytoma, which can have overlapping features but typically lack the prominent stromal component and cystic changes seen here.",
+      "rationale": "Target left-central for nodal architecture."
+    },
+    {
+      "roi_id": "slide_A_x4096_y12288_mag2",
+      "tile_id": "slide_A_x4096_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 4096,
+      "y": 12288,
+      "level0": {
+        "x": 4096,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a neoplasm with a nodular pattern composed of nests and cords of cells within a fibrous stroma. The cells have eosinophilic cytoplasm and round to oval nuclei, with some areas showing cystic change.\n\nThe most likely diagnosis is a paraganglioma, specifically a jugulotympanic paraganglioma given the location and clinical presentation.\n\nDifferential diagnoses include other neuroendocrine tumors such as medullary thyroid carcinoma or metastatic neuroendocrine carcinoma, which can have similar morphology but typically show different immunohistochemical profiles and clinical presentations.",
+      "rationale": "Left mid edge—look for adjacent salivary gland/ducts and lymphoid tissue."
+    },
+    {
+      "roi_id": "slide_A_x40960_y11264_mag10",
+      "tile_id": "slide_A_x40960_y11264_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 40960,
+      "y": 11264,
+      "level0": {
+        "x": 40960,
+        "y": 11264,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords separated by a prominent vascular network. The cells have round to oval nuclei and moderate eosinophilic cytoplasm, with areas of hemorrhage.\n\nThe most likely diagnosis is a paraganglioma. Differential diagnoses include other neuroendocrine tumors or metastatic carcinoma, which can be distinguished by immunohistochemical staining for neuroendocrine markers and other lineage-specific markers.",
+      "rationale": "Zoom any small pale focus near upper-right that could represent gray-white metastatic focus in node."
+    },
+    {
+      "roi_id": "slide_A_x45056_y16384_mag2",
+      "tile_id": "slide_A_x45056_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 45056,
+      "y": 16384,
+      "level0": {
+        "x": 45056,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a cellular neoplasm with a prominent nodular and trabecular growth pattern, composed of cells with eosinophilic cytoplasm and round to oval nuclei, separated by fibrous stroma. The tumor is well-demarcated with areas of hemorrhage and cystic change.\n\nThe most likely diagnosis is a paraganglioma, specifically a carotid body tumor given the location in the head and neck region and the characteristic nested (zellballen) pattern with intervening fibrous stroma.\n\nDifferential diagnoses include other neuroendocrine tumors such as medullary thyroid carcinoma, which can also show a nested pattern but typically has amyloid stroma and different immunohistochemical profile. Metastatic renal cell carcinoma could also be considered, but the morphology is less typical.",
+      "rationale": "Right mid—evaluate for cystic change and any lymphoid background (Warthin-like)."
+    },
+    {
+      "roi_id": "slide_A_x24576_y12288_mag10",
+      "tile_id": "slide_A_x24576_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 24576,
+      "y": 12288,
+      "level0": {
+        "x": 24576,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular neoplasm with a nested and cord-like growth pattern separated by a prominent vascular network. The cells have round to oval nuclei and moderate eosinophilic cytoplasm, with areas of hemorrhage and necrosis.\n\nThe most likely diagnosis is a paraganglioma.\n\nDifferential diagnoses include other neuroendocrine tumors such as medullary thyroid carcinoma or metastatic neuroendocrine carcinoma, which can have similar nested patterns but typically show different cytologic features or immunohistochemical profiles.",
+      "rationale": "Representative tumor lobule—better assess microarchitecture (zellballen vs cribriform/ductal) at low-high power."
+    }
+  ]
+}

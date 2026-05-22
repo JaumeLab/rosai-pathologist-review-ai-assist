@@ -1,0 +1,1373 @@
+{
+  "case_id": "sem355_case3",
+  "source": "slideseek-ai-assist",
+  "model": "gpt-5.4",
+  "generated_at": "2026-05-22T09:29:10.576008+00:00",
+  "organ": "GI Tract",
+  "primary_dx": "Crohn Disease, Chronic Active Transmural Ileocolitis With Penetrating Fistulizing Complication",
+  "differential_dx": [
+    "Perforated Acute Appendicitis With Periappendiceal Abscess and Secondary Cecal/Terminal Ileal Inflammation",
+    "Infectious Ileocolitis Mimicking Crohn Disease, Especially Intestinal Tuberculosis or Yersinia"
+  ],
+  "microscopic_findings": [
+    {
+      "text": "Mucosa shows **crypt architectural distortion** with **cryptitis/crypt abscesses** and patchy chronic-active lamina propria inflammation.",
+      "roi_ids": [
+        "slide_A_x30720_y20480_mag20",
+        "slide_A_x40960_y16384_mag10"
+      ]
+    },
+    {
+      "text": "Bowel wall demonstrates **transmural chronic inflammation** with prominent **lymphoid aggregates** and marked **fibrosis**.",
+      "roi_ids": [
+        "slide_A_x30720_y17408_mag10",
+        "slide_A_x24576_y16896_mag20"
+      ]
+    },
+    {
+      "text": "A deep **fistula tract** is lined by **granulation tissue** and accompanied by necroinflammatory debris and hemorrhage.",
+      "roi_ids": [
+        "slide_A_x43008_y15360_mag20"
+      ]
+    },
+    {
+      "text": "Serosal/periintestinal soft tissue shows **suppurative inflammation**, **fibrin-hemorrhagic exudate**, and abscess-type change.",
+      "roi_ids": [
+        "slide_A_x52224_y17408_mag20",
+        "slide_A_x47104_y16384_mag10"
+      ]
+    }
+  ],
+  "interpretation": "The constellation of **chronic active ileocolitis** with **crypt distortion**, **transmural lymphoid-rich inflammation/fibrosis**, and a deep **penetrating fistula tract** supports **Crohn disease**. The accompanying suppurative serositis/periappendiceal abscess is best interpreted as a complication of this penetrating process. No well-formed granulomas are identified, but their absence does not exclude **Crohn disease**. The morphology is less supportive of **primary acute appendicitis** or **infectious ileocolitis** as the sole process.",
+  "num_rois": 83,
+  "tiles": [
+    {
+      "roi_id": "slide_A_x28672_y16384_mag2",
+      "tile_id": "slide_A_x28672_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 28672,
+      "y": 16384,
+      "level0": {
+        "x": 28672,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a transition from colonic mucosa to a dense inflammatory process characterized by prominent lymphoid aggregates, fibrosis, and scattered granulomas. The inflammation extends into the adjacent tissue.\n\nThe most likely diagnosis is Crohn's disease. The presence of transmural inflammation, fibrosis, and non-caseating granulomas are characteristic features. The clinical presentation of abdominal pain, fever, and the finding of a fistula tract further support this diagnosis.\n\nDifferential diagnoses include infectious colitis (e.g., tuberculosis, Yersinia) and other forms of inflammatory bowel disease (e.g., ulcerative colitis). However, the presence of granulomas and transmural inflammation are more suggestive of Crohn's disease.",
+      "rationale": "Low-power overview of main tissue to orient and identify deep ulcer/fistula/serosa."
+    },
+    {
+      "roi_id": "slide_A_x24576_y16384_mag1",
+      "tile_id": "slide_A_x24576_y16384_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 24576,
+      "y": 16384,
+      "level0": {
+        "x": 24576,
+        "y": 16384,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a transition from colonic mucosa with inflammation to a thickened wall with dense fibrosis and prominent lymphoid aggregates. There is also a fistula tract extending through the wall.\n\nThe most likely diagnosis is Crohn's disease with fistula formation.\n\nDifferential diagnoses include other causes of chronic inflammatory bowel disease with fistula formation, such as severe ulcerative colitis, or infectious etiologies like tuberculosis or Yersinia infection, which can also cause transmural inflammation and fistulas.",
+      "rationale": "Low-power overview to orient; locate ulcer bed vs intact mucosa and edges."
+    },
+    {
+      "roi_id": "slide_A_x36864_y16384_mag5",
+      "tile_id": "slide_A_x36864_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 36864,
+      "y": 16384,
+      "level0": {
+        "x": 36864,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a transition from relatively preserved mucosa to an area with distorted crypt architecture, expanded lamina propria with inflammation, and significant submucosal fibrosis and inflammation. The muscularis propria is thickened and fibrotic.\n\nThe most likely diagnosis is Crohn's disease, given the transmural inflammation, fibrosis, and architectural distortion. Differential diagnoses include ischemic colitis, which can also cause transmural changes and fibrosis, and infectious colitis, which typically shows more acute inflammation and less fibrosis.",
+      "rationale": "Survey darker inflamed mucosa/submucosa region for granulomas/suppuration."
+    },
+    {
+      "roi_id": "slide_A_x34816_y18432_mag5",
+      "tile_id": "slide_A_x34816_y18432_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 34816,
+      "y": 18432,
+      "level0": {
+        "x": 34816,
+        "y": 18432,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows distorted crypt architecture with branching and irregularity, expanded lamina propria with mixed inflammation, and a prominent lymphoid aggregate. The submucosa is thickened by fibrosis and inflammation.\n\nThe most likely diagnosis is Crohn's disease. Differential diagnoses include infectious colitis and ischemic colitis, which can also cause inflammation and architectural distortion, but typically lack the transmural inflammation and fibrosis seen here.",
+      "rationale": "Intermediate power over central thickened wall to assess transmural inflammation/fibrosis."
+    },
+    {
+      "roi_id": "slide_A_x36864_y16384_mag2",
+      "tile_id": "slide_A_x36864_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 36864,
+      "y": 16384,
+      "level0": {
+        "x": 36864,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a transition from normal-appearing mucosa to an area with distorted architecture, irregular glands, and a dense inflammatory infiltrate. There is also a prominent lymphoid aggregate.\n\nThe morphologic features are consistent with a chronic inflammatory process, likely related to the clinical presentation of severe abdominal pain, fever, and the presence of a fistula tract. The differential diagnosis includes Crohn's disease, which can present with transmural inflammation, fistula formation, and architectural distortion, and infectious colitis, which can cause ulceration and inflammation. However, the presence of a fistula and the clinical context strongly favor Crohn's disease.",
+      "rationale": "Survey central darker mucosa for ulceration/edge."
+    },
+    {
+      "roi_id": "slide_A_x26624_y18432_mag5",
+      "tile_id": "slide_A_x26624_y18432_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 26624,
+      "y": 18432,
+      "level0": {
+        "x": 26624,
+        "y": 18432,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows dense lymphoid aggregates, fibrosis, and inflammation in the bowel wall. There is also a large area of necrosis and hemorrhage.\n\nThe most likely diagnosis is Crohn's disease with fistula formation.\n\nDifferential diagnoses include other causes of chronic inflammatory bowel disease, such as ulcerative colitis, and infectious etiologies like tuberculosis or Yersinia infection.",
+      "rationale": "Check pale fibrotic wall/serosa for fistula tract and transmural inflammation."
+    },
+    {
+      "roi_id": "slide_A_x24576_y21504_mag10",
+      "tile_id": "slide_A_x24576_y21504_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 24576,
+      "y": 21504,
+      "level0": {
+        "x": 24576,
+        "y": 21504,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense inflammatory infiltrate composed of lymphocytes and plasma cells, along with prominent fibrosis and a fistula tract. The adjacent mucosa exhibits edema and broad, flat folds.\n\nThe most likely diagnosis is Crohn's disease with fistula formation. Differential diagnoses include other causes of chronic inflammation and fibrosis in the GI tract, such as chronic ischemic injury or infectious etiologies, but the presence of a fistula tract strongly favors Crohn's disease.",
+      "rationale": "Higher power near suspected tract/abscess area for neutrophils/granulation tissue."
+    },
+    {
+      "roi_id": "slide_A_x41984_y13312_mag10",
+      "tile_id": "slide_A_x41984_y13312_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 41984,
+      "y": 13312,
+      "level0": {
+        "x": 41984,
+        "y": 13312,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a lymphoid aggregate with a prominent germinal center and a central area of necrosis. Surrounding adipose tissue and fibrous stroma are also present.\n\nThe morphologic features are consistent with a reactive lymphoid aggregate with central necrosis. This finding, in the context of the clinical presentation and gross findings, suggests a reactive process, likely secondary to inflammation or infection. Differential diagnoses include reactive lymphoid hyperplasia with necrosis and potentially an infectious etiology such as Yersinia enterocolitica infection, which can cause mesenteric lymphadenitis and necrosis.",
+      "rationale": "Examine possible ulcer base/necrotic debris area for organisms and suppurative granulomas."
+    },
+    {
+      "roi_id": "slide_A_x16384_y16384_mag2",
+      "tile_id": "slide_A_x16384_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 16384,
+      "y": 16384,
+      "level0": {
+        "x": 16384,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows dense fibrosis and chronic inflammation with prominent lymphoid aggregates and scattered adipocytes. There is also evidence of vascular changes.\n\nThe morphologic features are consistent with chronic inflammation and fibrosis in the gastrointestinal tract. Given the clinical context of a young man with severe abdominal pain, fever, and a history of appendicitis, the findings are most suggestive of a chronic inflammatory process, potentially related to Crohn's disease or a complication of previous appendicitis.\n\nDifferential diagnoses to consider include Crohn's disease, which can present with transmural inflammation, fibrosis, and lymphoid aggregates, and chronic appendicitis with fistula formation, which can lead to similar changes in the adjacent bowel wall.",
+      "rationale": "Survey left side mucosa/serosa for additional edges or pseudopolyps."
+    },
+    {
+      "roi_id": "slide_A_x40960_y12288_mag10",
+      "tile_id": "slide_A_x40960_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 40960,
+      "y": 12288,
+      "level0": {
+        "x": 40960,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows dense fibrous tissue with scattered adipocytes and a prominent chronic inflammatory infiltrate. There is also a dense lymphoid aggregate.\n\nThe morphologic features are consistent with chronic inflammation and fibrosis in the bowel wall and mesentery, which can be seen in conditions like Crohn's disease or chronic ischemic injury. The presence of a fistula tract and ulceration in the gross description further supports a chronic inflammatory process.",
+      "rationale": "Assess serosal surface/mesenteric fat edge for serositis, fat necrosis, abscess."
+    },
+    {
+      "roi_id": "slide_A_x45056_y16384_mag2",
+      "tile_id": "slide_A_x45056_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 45056,
+      "y": 16384,
+      "level0": {
+        "x": 45056,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a deep ulceration with associated acute and chronic inflammation, fibrosis, and hemorrhage. A fistula tract is also present.\n\nThe most likely diagnosis is a deep ulcer with fistula formation.\n\nDifferential diagnoses include Crohn's disease, which can present with deep ulcers and fistulas, and ischemic colitis, which can cause deep ulcers and necrosis.",
+      "rationale": "Survey right side including possible fistula tract/appendiceal area."
+    },
+    {
+      "roi_id": "slide_A_x21504_y13312_mag10",
+      "tile_id": "slide_A_x21504_y13312_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 21504,
+      "y": 13312,
+      "level0": {
+        "x": 21504,
+        "y": 13312,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a transition from dense fibrous tissue to inflamed and edematous tissue with a mixed inflammatory infiltrate, including lymphocytes, plasma cells, and neutrophils, along with prominent blood vessels and a nerve bundle.\n\nThe morphologic features are consistent with chronic inflammation and fibrosis in the gastrointestinal tract, likely representing a chronic inflammatory process with associated tissue damage and repair.\n\nDifferential diagnoses include chronic inflammatory bowel disease (such as Crohn's disease) and chronic ischemic injury. Chronic inflammatory bowel disease often presents with transmural inflammation, fibrosis, and granulomas, while chronic ischemic injury typically shows mucosal ulceration, submucosal fibrosis, and vascular changes.",
+      "rationale": "Examine serosal/mesenteric edge for abscesses, sulfur granules, granulomas."
+    },
+    {
+      "roi_id": "slide_A_x18432_y12288_mag10",
+      "tile_id": "slide_A_x18432_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 18432,
+      "y": 12288,
+      "level0": {
+        "x": 18432,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a transition from dense lymphoid tissue to adipose tissue with prominent fibrosis and a mixed inflammatory infiltrate. The adipose tissue exhibits thickened fibrous septa and scattered inflammatory cells.\n\nThe most likely diagnosis is Crohn's disease with fistula formation. The presence of transmural inflammation, fibrosis, and fistula formation are characteristic features of Crohn's disease. The clinical presentation of abdominal pain, fever, and periumbilical tenderness, along with the gross findings of bowel thickening, fibrosis, and fistula, further support this diagnosis.\n\nDifferential diagnoses to consider include other causes of chronic inflammatory bowel disease, such as ulcerative colitis, which typically shows continuous inflammation limited to the mucosa and submucosa, and infectious colitis, which may present with acute inflammation and ulceration but usually lacks the chronic changes and fistula formation seen here.",
+      "rationale": "Assess opposite wall/less inflamed region for baseline architecture, lymphoid aggregates."
+    },
+    {
+      "roi_id": "slide_A_x34816_y20480_mag5",
+      "tile_id": "slide_A_x34816_y20480_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 34816,
+      "y": 20480,
+      "level0": {
+        "x": 34816,
+        "y": 20480,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows distorted crypt architecture with branching and irregular spacing, along with a dense mixed inflammatory infiltrate in the lamina propria. There is also evidence of cryptitis and crypt abscess formation.\n\nThe most likely diagnosis is Crohn's disease. Differential diagnoses include infectious colitis, which typically shows more acute inflammation and less architectural distortion, and ulcerative colitis, which usually presents with continuous inflammation and lacks the transmural involvement and fistula formation seen in Crohn's disease.",
+      "rationale": "Sample ulcer edge/adjacent mucosa in central-lower area to assess chronic active colitis/ileitis and fissuring."
+    },
+    {
+      "roi_id": "slide_A_x41984_y13312_mag20",
+      "tile_id": "slide_A_x41984_y13312_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 41984,
+      "y": 13312,
+      "level0": {
+        "x": 41984,
+        "y": 13312,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense lymphoid aggregate with a germinal center surrounded by a mantle zone, adjacent to adipose tissue and fibrous stroma. The lymphoid tissue is hyperplastic.\n\nThe most likely diagnosis is reactive lymphoid hyperplasia.\n\nDifferential diagnoses include lymphoma, which would typically show effacement of the normal lymphoid architecture and a monotonous population of atypical lymphocytes.",
+      "rationale": "High power of necrotizing lymphoid aggregate to assess for suppurative granuloma (Yersinia) vs TB vs nonspecific necrosis; look for organisms."
+    },
+    {
+      "roi_id": "slide_A_x45056_y18432_mag5",
+      "tile_id": "slide_A_x45056_y18432_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 45056,
+      "y": 18432,
+      "level0": {
+        "x": 45056,
+        "y": 18432,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a transition from relatively preserved mucosa to an area of extensive ulceration, hemorrhage, and necrosis with a dense inflammatory infiltrate. The adjacent mucosa exhibits edema and architectural distortion.\n\nThe most likely diagnosis is ischemic colitis with perforation. The extensive ulceration, hemorrhage, and necrosis are consistent with ischemic injury, while the presence of a fistula tract and surrounding inflammation suggests perforation. The adjacent mucosal changes may represent reactive changes or early ischemic injury.\n\nDifferential diagnoses include inflammatory bowel disease (e.g., Crohn's disease) with perforation, which can also present with ulceration and fistula formation. However, the pattern of injury and the clinical context of acute onset pain and fever are more suggestive of ischemia.",
+      "rationale": "Right-sided deep ulcer/fistula region—look for fissure-like ulcer, transmural lymphoid aggregates."
+    },
+    {
+      "roi_id": "slide_A_x26624_y23552_mag10",
+      "tile_id": "slide_A_x26624_y23552_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 26624,
+      "y": 23552,
+      "level0": {
+        "x": 26624,
+        "y": 23552,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a transition from dense lymphoid tissue to a fibrotic and inflamed area with prominent blood vessels and a mixed inflammatory infiltrate. The interface between these areas is irregular.\n\nThe most likely diagnosis is Crohn's disease with fistula formation. The presence of dense lymphoid tissue, fibrosis, inflammation, and a fistula tract extending through the bowel wall are characteristic features of Crohn's disease. The clinical history of abdominal pain, fever, and the finding of a fistula on laparotomy further support this diagnosis.\n\nDifferential diagnoses to consider include other causes of chronic inflammation and fistula formation, such as tuberculosis or diverticulitis. However, the specific pattern of inflammation, fibrosis, and the presence of a fistula extending through the bowel wall are more consistent with Crohn's disease.",
+      "rationale": "Deeper wall toward serosa where tract/abscess may extend; look for neutrophilic microabscess, granulation, fistula lining."
+    },
+    {
+      "roi_id": "slide_A_x26624_y18432_mag20",
+      "tile_id": "slide_A_x26624_y18432_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 26624,
+      "y": 18432,
+      "level0": {
+        "x": 26624,
+        "y": 18432,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense inflammatory infiltrate composed of lymphocytes and plasma cells, along with spindle cells and fibrosis. There is also a focus of amorphous eosinophilic material consistent with necrosis.\n\nThe most likely diagnosis is Crohn's disease with fistula formation. The presence of transmural inflammation, fibrosis, and a fistula tract are characteristic features of Crohn's disease. The necrosis may represent an area of ulceration or abscess formation.\n\nDifferential diagnoses to consider include infectious enterocolitis (e.g., tuberculosis, Yersinia) and ischemic colitis. Infectious etiologies can cause transmural inflammation and necrosis, but typically lack the prominent fibrosis and chronic inflammatory infiltrate seen here. Ischemic colitis can cause necrosis and inflammation, but usually presents with a more acute picture and lacks the chronic changes of fibrosis and fistula formation.",
+      "rationale": "High power of area described as necrosis/hemorrhage to evaluate for abscess, granulomas, actinomycosis, parasites."
+    },
+    {
+      "roi_id": "slide_A_x28672_y14336_mag5",
+      "tile_id": "slide_A_x28672_y14336_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 28672,
+      "y": 14336,
+      "level0": {
+        "x": 28672,
+        "y": 14336,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows dense lymphoid aggregates with reactive germinal centers and prominent fibrosis. There is also a focus of granulomatous inflammation with epithelioid histiocytes and multinucleated giant cells.\n\nThe most likely diagnosis is Crohn's disease. The presence of granulomatous inflammation, transmural fibrosis, and lymphoid aggregates are characteristic features of Crohn's disease. The clinical presentation of abdominal pain, fever, and the finding of a fistula tract on gross examination further support this diagnosis.\n\nDifferential diagnoses to consider include infectious etiologies such as tuberculosis or Yersinia infection, which can also cause granulomatous inflammation in the gastrointestinal tract. However, the presence of transmural fibrosis and the clinical context make Crohn's disease more likely.",
+      "rationale": "Central area with distorted glands/lymphoid aggregate—evaluate architectural distortion and activity."
+    },
+    {
+      "roi_id": "slide_A_x29696_y25600_mag10",
+      "tile_id": "slide_A_x29696_y25600_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 29696,
+      "y": 25600,
+      "level0": {
+        "x": 29696,
+        "y": 25600,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a transition from dense lymphoid tissue to a region of fibrosis and inflammation with spindle cells and mixed inflammatory infiltrate. The interface is irregular, and there is a focus of amorphous eosinophilic material.\n\nThe morphologic features are consistent with a chronic inflammatory process with fibrosis and ulceration. Given the clinical context of a young man with severe abdominal pain, fever, and a history of appendicitis, the findings are most suggestive of a chronic inflammatory condition of the appendix and surrounding tissues, such as a chronic abscess or fistula.\n\nDifferential diagnoses to consider include Crohn's disease, which can present with transmural inflammation, fibrosis, and fistula formation, and infectious etiologies such as tuberculosis or fungal infections, which can cause chronic inflammation and granuloma formation.",
+      "rationale": "Most serosal aspect near inferior edge to evaluate serositis, fat necrosis, abscess pockets."
+    },
+    {
+      "roi_id": "slide_A_x33792_y17408_mag10",
+      "tile_id": "slide_A_x33792_y17408_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 33792,
+      "y": 17408,
+      "level0": {
+        "x": 33792,
+        "y": 17408,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a transition from colonic mucosa with crypts and inflammation to a thickened submucosa with dense fibrosis, chronic inflammation, and prominent nerve bundles. A dense lymphoid aggregate is also present.\n\nThe morphologic features are consistent with chronic inflammation and fibrosis in the bowel wall, which can be seen in conditions like Crohn's disease or chronic ischemic injury. The presence of prominent nerve bundles and fibrosis in the submucosa is a key finding. Given the clinical context of severe abdominal pain, fever, and the presence of a fistula tract, Crohn's disease is a strong consideration. Other possibilities include chronic ischemic colitis or other forms of chronic inflammatory bowel disease.",
+      "rationale": "Search mucosa/submucosa around distorted crypts for noncaseating granulomas."
+    },
+    {
+      "roi_id": "slide_A_x24576_y14336_mag5",
+      "tile_id": "slide_A_x24576_y14336_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 24576,
+      "y": 14336,
+      "level0": {
+        "x": 24576,
+        "y": 14336,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a dense inflammatory infiltrate composed of lymphocytes and plasma cells, along with fibrosis and thickened blood vessels. There is also a focus of amorphous eosinophilic material.\n\nThe morphologic features are consistent with chronic inflammation and fibrosis, likely secondary to an infectious process. Given the clinical context of a young man with severe abdominal pain, fever, and a history of appendicitis, the findings are most suggestive of a chronic inflammatory process, possibly related to a fistula or abscess formation.\n\nDifferential diagnoses to consider include chronic inflammatory bowel disease (such as Crohn's disease) and chronic infection (such as tuberculosis or fungal infection). Chronic inflammatory bowel disease would typically show more prominent granulomas or crypt architectural distortion, while chronic infection would require special stains or cultures for confirmation.",
+      "rationale": "More proximal intact mucosa to compare: check for chronicity, basal plasmacytosis, Paneth metaplasia."
+    },
+    {
+      "roi_id": "slide_A_x32768_y14848_mag20",
+      "tile_id": "slide_A_x32768_y14848_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 32768,
+      "y": 14848,
+      "level0": {
+        "x": 32768,
+        "y": 14848,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense infiltrate of small lymphocytes with scattered larger cells and prominent fibrosis. The lymphoid infiltrate is diffuse and effaces the normal tissue architecture.\n\nThe most likely diagnosis is a low-grade B-cell lymphoma, such as extranodal marginal zone lymphoma (MALT lymphoma).\n\nDifferential diagnoses include reactive lymphoid hyperplasia, which would typically show preserved architecture and a mixed population of lymphocytes, and other low-grade lymphomas like follicular lymphoma, which would show a follicular pattern.",
+      "rationale": "High power within inflammatory focus to confirm/deny granulomas, look for vasculitis."
+    },
+    {
+      "roi_id": "slide_A_x30720_y20480_mag10",
+      "tile_id": "slide_A_x30720_y20480_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 30720,
+      "y": 20480,
+      "level0": {
+        "x": 30720,
+        "y": 20480,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense mixed inflammatory infiltrate in the lamina propria with cryptitis and crypt abscesses. There is also surface ulceration and a prominent lymphoid aggregate.\n\nThe most likely diagnosis is acute appendicitis with perforation and associated cecal ulceration.\n\nDifferential diagnoses include Crohn's disease, which can present with similar features but typically shows transmural inflammation, non-caseating granulomas, and skip lesions. Infection should also be considered, but the prominent lymphoid aggregate and clinical presentation are more suggestive of appendicitis.",
+      "rationale": "Evaluate deeper wall/serosa for fistula tract lining, granulation tissue, foreign material, granulomas."
+    },
+    {
+      "roi_id": "slide_A_x24576_y16896_mag20",
+      "tile_id": "slide_A_x24576_y16896_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 24576,
+      "y": 16896,
+      "level0": {
+        "x": 24576,
+        "y": 16896,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense lymphoid aggregate adjacent to a fibrotic stroma with scattered inflammatory cells and dark granular material. The fibrotic stroma contains spindle cells and collagen.\n\nThe most likely diagnosis is a fistula tract associated with chronic inflammation and fibrosis.\n\nDifferential diagnoses include a reactive lymphoid aggregate with associated fibrosis and inflammation, or a lymphoid aggregate with adjacent granulomatous inflammation.",
+      "rationale": "High power at lymphoid aggregate/submucosa to assess neural hyperplasia and granulomas."
+    },
+    {
+      "roi_id": "slide_A_x43008_y17408_mag20",
+      "tile_id": "slide_A_x43008_y17408_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 43008,
+      "y": 17408,
+      "level0": {
+        "x": 43008,
+        "y": 17408,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense mixed inflammatory infiltrate with prominent hemorrhage and fibrin deposition. There is also evidence of granulation tissue formation.\n\nThe most likely diagnosis is acute inflammation with hemorrhage and granulation tissue, consistent with a perforated appendiceal diverticulum.\n\nDifferential diagnoses include other causes of acute inflammation and hemorrhage in the GI tract, such as acute diverticulitis or ischemic colitis.",
+      "rationale": "High power at mesenteric fat edge for granulomas, suppurative inflammation, organisms."
+    },
+    {
+      "roi_id": "slide_A_x28672_y14336_mag20",
+      "tile_id": "slide_A_x28672_y14336_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 28672,
+      "y": 14336,
+      "level0": {
+        "x": 28672,
+        "y": 14336,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense lymphoid infiltrate with scattered larger cells and prominent hyalinized vessels. The surrounding stroma is fibrotic.\n\nThe most likely diagnosis is a low-grade B-cell lymphoma, such as extranodal marginal zone lymphoma (MALT lymphoma).\n\nDifferential diagnoses include reactive lymphoid hyperplasia, which typically shows a more polymorphous infiltrate and well-formed germinal centers, and other low-grade lymphomas like follicular lymphoma, which would show a follicular pattern.",
+      "rationale": "High-power on suspected granulomatous focus/lymphoid aggregate to confirm granuloma, look for necrosis/organisms."
+    },
+    {
+      "roi_id": "slide_A_x47104_y16384_mag10",
+      "tile_id": "slide_A_x47104_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 47104,
+      "y": 16384,
+      "level0": {
+        "x": 47104,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows dense fibrous tissue with a prominent mixed inflammatory infiltrate, including neutrophils, lymphocytes, and plasma cells, along with areas of hemorrhage and congested vessels. These features are consistent with chronic inflammation and tissue reaction.\n\nThe most likely diagnosis for this histology tile is chronic inflammation with acute exacerbation, likely related to the described fistula tract and surrounding inflammatory reaction.\n\nDifferential diagnoses to consider include:\n1. Inflammatory bowel disease (e.g., Crohn's disease) - characterized by transmural inflammation, granulomas, and fibrosis, which may be present in other areas of the specimen.\n2. Infectious colitis - can cause acute inflammation and ulceration, but typically lacks the extensive fibrosis and chronic inflammatory changes seen here.",
+      "rationale": "Check right-sided wall/serosa for abscess pockets and any sulfur granules."
+    },
+    {
+      "roi_id": "slide_A_x34816_y20480_mag20",
+      "tile_id": "slide_A_x34816_y20480_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 34816,
+      "y": 20480,
+      "level0": {
+        "x": 34816,
+        "y": 20480,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows colonic mucosa with architectural distortion, cryptitis, and a dense mixed inflammatory infiltrate in the lamina propria. These features are consistent with chronic active colitis.\n\nThe most likely diagnosis is Crohn's disease. Differential diagnoses include ulcerative colitis, which typically shows continuous inflammation and lacks transmural involvement, and infectious colitis, which may show acute inflammation but usually lacks the chronic architectural changes seen here.",
+      "rationale": "High-power on crypt distortion area to assess cryptitis/abscesses, chronicity features (basal plasmacytosis, Paneth metaplasia)."
+    },
+    {
+      "roi_id": "slide_A_x36864_y18432_mag5",
+      "tile_id": "slide_A_x36864_y18432_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 36864,
+      "y": 18432,
+      "level0": {
+        "x": 36864,
+        "y": 18432,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows marked thickening and fibrosis of the bowel wall with a dense mixed inflammatory infiltrate. There is also architectural distortion of the crypts and a prominent lymphoid aggregate.\n\nThe most likely diagnosis is Crohn's disease. Differential diagnoses include infectious colitis and ischemic colitis, which can also cause inflammation and architectural changes, but typically lack the transmural fibrosis and chronicity seen here.",
+      "rationale": "Bridge area between mucosa and serosa to confirm transmural pattern and look for fissuring ulcer trajectory."
+    },
+    {
+      "roi_id": "slide_A_x43008_y15360_mag20",
+      "tile_id": "slide_A_x43008_y15360_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 43008,
+      "y": 15360,
+      "level0": {
+        "x": 43008,
+        "y": 15360,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a fistula tract lined by granulation tissue and surrounded by dense inflammation and fibrosis. There is also evidence of hemorrhage and necrosis in the surrounding tissue.\n\nThe most likely diagnosis is a fistula tract associated with an inflammatory process, such as Crohn's disease or an abscess.\n\nDifferential diagnoses include an abscess tract or a fistula tract from other causes of chronic inflammation, such as diverticulitis or infection.",
+      "rationale": "High power in right-center inflamed zone to search for granulomas/organisms."
+    },
+    {
+      "roi_id": "slide_A_x45056_y18432_mag20",
+      "tile_id": "slide_A_x45056_y18432_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 45056,
+      "y": 18432,
+      "level0": {
+        "x": 45056,
+        "y": 18432,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a thickened blood vessel with concentric wall thickening and luminal narrowing, surrounded by dense fibrosis and a mixed inflammatory infiltrate. There is also extensive hemorrhage and necrosis in the surrounding tissue.\n\nThe most likely diagnosis is ischemic injury with associated vasculitis and tissue necrosis. The concentric thickening of the vessel wall and luminal narrowing are consistent with vasculitis, which can lead to ischemia and subsequent necrosis and hemorrhage in the surrounding tissue. The fibrosis and inflammatory infiltrate are reactive changes to the injury.\n\nDifferential diagnoses to consider include other causes of vasculitis, such as polyarteritis nodosa or microscopic polyangiitis, which can also cause vessel wall thickening and luminal narrowing. However, the presence of extensive hemorrhage and necrosis in the surrounding tissue is more suggestive of ischemic injury secondary to vasculitis.",
+      "rationale": "High-power on ulcer bed to characterize necrosis, hemorrhage, fibrin, organisms; assess ischemic-type withered crypts vs IBD-related ulcer."
+    },
+    {
+      "roi_id": "slide_A_x32768_y20480_mag10",
+      "tile_id": "slide_A_x32768_y20480_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 32768,
+      "y": 20480,
+      "level0": {
+        "x": 32768,
+        "y": 20480,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows distorted crypt architecture with irregular spacing and branching, expanded lamina propria with mixed inflammation, and cryptitis. These features are consistent with chronic active colitis.\n\nThe most likely diagnosis is Crohn's disease.\n\nDifferential diagnoses include ulcerative colitis, which typically shows continuous inflammation and crypt distortion, and infectious colitis, which may show acute inflammation but usually lacks significant architectural distortion.",
+      "rationale": "Near central deep wall where tract likely courses; look for fissure, granulation tissue, abscess."
+    },
+    {
+      "roi_id": "slide_A_x22528_y21504_mag10",
+      "tile_id": "slide_A_x22528_y21504_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 22528,
+      "y": 21504,
+      "level0": {
+        "x": 22528,
+        "y": 21504,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows dense fibrous tissue with a prominent inflammatory infiltrate composed of lymphocytes, plasma cells, and neutrophils. There are also areas of tissue disruption and necrosis.\n\nThe most likely diagnosis is a chronic inflammatory process with acute exacerbation, consistent with a fistula tract and surrounding inflammation.\n\nDifferential diagnoses include Crohn's disease, which can present with transmural inflammation, fibrosis, and fistula formation, and an infectious process such as tuberculosis, which can cause chronic inflammation and fibrosis with necrosis.",
+      "rationale": "Sample another ulcer edge/fissure region inferiorly to look for fissuring ulcer, pseudopolyps, transmural inflammation."
+    },
+    {
+      "roi_id": "slide_A_x45056_y13312_mag10",
+      "tile_id": "slide_A_x45056_y13312_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 45056,
+      "y": 13312,
+      "level0": {
+        "x": 45056,
+        "y": 13312,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows extensive hemorrhage with extravasated red blood cells and a mixed inflammatory infiltrate. There is also evidence of fibrosis and thickened vessel walls.\n\nThe most likely diagnosis is hemorrhagic intestinal infarction. Differential diagnoses include severe ischemic colitis or inflammatory bowel disease with hemorrhage, but the presence of extensive hemorrhage and fibrosis is more suggestive of infarction.",
+      "rationale": "Right-sided serosa/mesenteric fat to assess for serositis, abscess pockets (periappendiceal)."
+    },
+    {
+      "roi_id": "slide_A_x31744_y16384_mag20",
+      "tile_id": "slide_A_x31744_y16384_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 31744,
+      "y": 16384,
+      "level0": {
+        "x": 31744,
+        "y": 16384,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense inflammatory infiltrate composed of lymphocytes and plasma cells, with scattered neutrophils, surrounding and infiltrating bundles of smooth muscle. The smooth muscle bundles appear thickened and disorganized.\n\nThe most likely diagnosis is Crohn's disease with fistula formation. The presence of transmural inflammation, fibrosis, and a fistula tract extending through the bowel wall into the mesentery are characteristic features of Crohn's disease. The dense lymphoplasmacytic infiltrate and scattered neutrophils are consistent with chronic and active inflammation.\n\nDifferential diagnoses to consider include other causes of transmural inflammation and fistula formation, such as infectious enterocolitis (e.g., tuberculosis, Yersinia) or ischemic colitis. However, the chronicity suggested by the fibrosis and the specific pattern of inflammation and fistula formation are more typical of Crohn's disease.",
+      "rationale": "High power in central mucosa/submucosa near lymphoid aggregates for noncaseating granulomas."
+    },
+    {
+      "roi_id": "slide_A_x30208_y23040_mag20",
+      "tile_id": "slide_A_x30208_y23040_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 30208,
+      "y": 23040,
+      "level0": {
+        "x": 30208,
+        "y": 23040,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The lamina propria is expanded by a dense mixed inflammatory infiltrate with prominent eosinophils. There is also a large lymphoid aggregate and dilated blood vessels.\n\nThe most likely diagnosis is eosinophilic gastroenteritis. Differential diagnoses include parasitic infection, drug reaction, and inflammatory bowel disease.",
+      "rationale": "Deep wall/serosa near suspected fistula tract for granulomatous reaction or actinomyces."
+    },
+    {
+      "roi_id": "slide_A_x31232_y13824_mag20",
+      "tile_id": "slide_A_x31232_y13824_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 31232,
+      "y": 13824,
+      "level0": {
+        "x": 31232,
+        "y": 13824,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense infiltrate of small lymphocytes with scattered larger cells and prominent fibrosis. The lymphoid infiltrate is diffuse and effaces the normal architecture.\n\nThe most likely diagnosis is a low-grade B-cell lymphoma, such as extranodal marginal zone lymphoma (MALT lymphoma).\n\nDifferential diagnoses include reactive lymphoid hyperplasia, which would typically show preserved architecture and a mixed inflammatory cell population, and other low-grade lymphomas like follicular lymphoma, which would show a follicular pattern.",
+      "rationale": "High power in mucosa/submucosa to evaluate chronicity, cryptitis/abscess, granulomas."
+    },
+    {
+      "roi_id": "slide_A_x29696_y24064_mag20",
+      "tile_id": "slide_A_x29696_y24064_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 29696,
+      "y": 24064,
+      "level0": {
+        "x": 29696,
+        "y": 24064,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense mixed inflammatory infiltrate with prominent fibrosis and thickened blood vessels. There is also a focus of spindle cells arranged in fascicles.\n\nThe morphologic features are consistent with chronic inflammation and fibrosis, likely secondary to a fistula tract. The spindle cell proliferation could represent reactive fibroblasts or smooth muscle.\n\nDifferential diagnoses include inflammatory myofibroblastic tumor, which would typically show more prominent spindle cells and potentially ALK rearrangement, and desmoid-type fibromatosis, which would show more uniform spindle cells in a collagenous stroma.",
+      "rationale": "High power in serosa/tract edge for granulomas, neutrophils, foreign-body reaction, vasculitis."
+    },
+    {
+      "roi_id": "slide_A_x25600_y13824_mag20",
+      "tile_id": "slide_A_x25600_y13824_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 25600,
+      "y": 13824,
+      "level0": {
+        "x": 25600,
+        "y": 13824,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows dense fibrous tissue with a prominent inflammatory infiltrate composed of lymphocytes, plasma cells, and scattered eosinophils. There is also evidence of vascular congestion and hemorrhage.\n\nThe morphologic features, in the context of the clinical presentation and gross findings, are consistent with a diagnosis of Crohn's disease with fistula formation. The dense fibrosis and chronic inflammation are characteristic of long-standing inflammatory bowel disease. The presence of a fistula tract extending through the bowel wall into the mesentery is a known complication of Crohn's disease. The serpiginous ulceration and adjacent mucosal changes further support this diagnosis.\n\nDifferential diagnoses to consider include other causes of chronic inflammation and fibrosis in the bowel, such as infectious colitis (e.g., tuberculosis, fungal infections) or ischemic colitis. However, the presence of a fistula and the specific pattern of inflammation and fibrosis are more typical of Crohn's disease.",
+      "rationale": "Left-center mucosa/ulcer edge to look for epithelioid granulomas and crypt rupture granulomas."
+    },
+    {
+      "roi_id": "slide_A_x30720_y17408_mag10",
+      "tile_id": "slide_A_x30720_y17408_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 30720,
+      "y": 17408,
+      "level0": {
+        "x": 30720,
+        "y": 17408,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a transition from inflamed mucosa with crypts to a thickened wall composed of dense fibrous tissue and smooth muscle bundles, with a prominent inflammatory infiltrate. A dense lymphoid aggregate is also present.\n\nThe morphologic features are consistent with a chronic inflammatory process involving the bowel wall, leading to fibrosis and thickening. The presence of a fistula tract extending through the wall into the mesentery, along with the clinical history of severe abdominal pain, fever, and a cecal ulceration, strongly suggests a diagnosis of Crohn's disease with fistula formation.\n\nDifferential diagnoses to consider include other causes of chronic inflammatory bowel disease, such as ulcerative colitis, which typically involves the mucosa and submucosa and does not form fistulas, and infectious etiologies, which may cause acute inflammation but usually lack the degree of fibrosis and chronic changes seen here.",
+      "rationale": "Target mucosa adjacent to ulcer edge (center) to assess distribution/skip areas and crypt architecture."
+    },
+    {
+      "roi_id": "slide_A_x32768_y15360_mag20",
+      "tile_id": "slide_A_x32768_y15360_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 32768,
+      "y": 15360,
+      "level0": {
+        "x": 32768,
+        "y": 15360,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense inflammatory infiltrate composed of lymphocytes and plasma cells, with prominent fibrosis and thickened blood vessels. There is also a focus of amorphous eosinophilic material.\n\nThe morphologic features are consistent with chronic inflammation and fibrosis, likely secondary to a fistula tract. The presence of a fistula tract, as described in the gross findings, is a key feature. The amorphous eosinophilic material could represent necrotic debris or exudate.\n\nDifferential diagnoses to consider include Crohn's disease, which can present with chronic inflammation, fibrosis, and fistula formation, and infectious etiologies such as tuberculosis or Yersinia, which can also cause chronic inflammation and fistula formation in the GI tract.",
+      "rationale": "High-power at ulcer margin for granulomas, crypt abscesses, pyloric gland metaplasia; confirm true granuloma vs lymphoid aggregate."
+    },
+    {
+      "roi_id": "slide_A_x50176_y16896_mag20",
+      "tile_id": "slide_A_x50176_y16896_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 50176,
+      "y": 16896,
+      "level0": {
+        "x": 50176,
+        "y": 16896,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense inflammatory infiltrate composed of lymphocytes, plasma cells, and neutrophils within the muscularis propria, with associated edema and separation of muscle fibers. There is also evidence of fibrosis.\n\nThe morphologic features are consistent with chronic inflammation and fibrosis in the muscularis propria, likely secondary to a fistula tract. The presence of a fistula tract extending through the bowel wall and into the mesentery, along with the clinical history of severe abdominal pain, fever, and a cecal ulceration, strongly suggests a diagnosis of Crohn's disease with fistula formation.\n\nDifferential diagnoses to consider include other causes of chronic inflammation and fibrosis in the bowel wall, such as infectious enteritis (e.g., tuberculosis, Yersinia) or ischemic injury. However, the presence of a fistula tract and the specific pattern of inflammation and fibrosis are highly suggestive of Crohn's disease.",
+      "rationale": "Far right fibrotic/hemorrhagic area—evaluate for abscess with sulfur granules, bacteria, parasites."
+    },
+    {
+      "roi_id": "slide_A_x5120_y20480_mag10",
+      "tile_id": "slide_A_x5120_y20480_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 5120,
+      "y": 20480,
+      "level0": {
+        "x": 5120,
+        "y": 20480,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a transition from dense fibrous tissue to inflamed adipose tissue with a mixed inflammatory infiltrate, including lymphocytes, plasma cells, and neutrophils, along with fibrosis and thickened blood vessels.\n\nThe morphologic features are consistent with chronic inflammation and fibrosis in the mesentery, likely representing a chronic inflammatory process such as sclerosing mesenteritis.\n\nDifferential diagnoses include mesenteric panniculitis and IgG4-related disease, which can present with similar features of inflammation and fibrosis in the mesentery.",
+      "rationale": "Left peripheral serosal/fatty area less sampled; check for serositis, abscess, granulomas."
+    },
+    {
+      "roi_id": "slide_A_x40960_y16384_mag10",
+      "tile_id": "slide_A_x40960_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 40960,
+      "y": 16384,
+      "level0": {
+        "x": 40960,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows distorted crypt architecture with branching and irregular spacing, along with a dense mixed inflammatory infiltrate in the lamina propria. There is also evidence of cryptitis and crypt abscess formation.\n\nThe most likely diagnosis is Crohn's disease. Differential diagnoses include infectious colitis, which typically shows more acute inflammation and less architectural distortion, and ulcerative colitis, which usually presents with continuous inflammation and lacks the transmural involvement and fistula formation seen in Crohn's disease.",
+      "rationale": "Sample right-sided mucosa near ulceration for withered crypts/ischemic pattern vs chronic IBD changes."
+    },
+    {
+      "roi_id": "slide_A_x9216_y12288_mag10",
+      "tile_id": "slide_A_x9216_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 9216,
+      "y": 12288,
+      "level0": {
+        "x": 9216,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows mature adipose tissue with prominent, thickened fibrous septa containing scattered inflammatory cells. The adipocytes appear relatively uniform.\n\nThe morphologic features are consistent with a lipoma with prominent fibrous septa. Differential diagnoses include fibrolipoma and well-differentiated liposarcoma. Fibrolipoma would show similar features but typically lacks the prominent inflammation seen here. Well-differentiated liposarcoma would show atypical stromal cells and lipoblasts, which are not present in this image.",
+      "rationale": "Left-upper wall to assess for muscularis propria thickening, neural hyperplasia, lymphoid aggregates."
+    },
+    {
+      "roi_id": "slide_A_x40960_y11776_mag20",
+      "tile_id": "slide_A_x40960_y11776_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 40960,
+      "y": 11776,
+      "level0": {
+        "x": 40960,
+        "y": 11776,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows dense fibrous tissue with scattered adipocytes and a prominent perivascular inflammatory infiltrate composed of lymphocytes and plasma cells.",
+      "rationale": "Revisit necrotic lymphoid focus edge to look specifically for granulomatous rim/caseation/AFB-like bacilli."
+    },
+    {
+      "roi_id": "slide_A_x25600_y16384_mag10",
+      "tile_id": "slide_A_x25600_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 25600,
+      "y": 16384,
+      "level0": {
+        "x": 25600,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense lymphoid aggregate adjacent to a thickened, fibrotic wall with a prominent inflammatory infiltrate. The interface between the lymphoid tissue and the fibrotic wall is irregular.\n\nThe most likely diagnosis is a fistula tract associated with chronic inflammation and fibrosis, consistent with a chronic inflammatory process in the gastrointestinal tract.\n\nDifferential diagnoses include Crohn's disease, which can present with fistulae and transmural inflammation, and an inflammatory pseudotumor, which can also show dense lymphoid aggregates and fibrosis.",
+      "rationale": "Sample left-sided mucosa away from main ulcer to check for background chronic colitis/ileitis and lymphoid aggregates."
+    },
+    {
+      "roi_id": "slide_A_x11776_y25088_mag20",
+      "tile_id": "slide_A_x11776_y25088_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 11776,
+      "y": 25088,
+      "level0": {
+        "x": 11776,
+        "y": 25088,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense mixed inflammatory infiltrate with prominent neutrophils and lymphocytes, along with reactive stromal changes and areas of necrosis. These features are consistent with acute inflammation and tissue injury.\n\nThe most likely diagnosis is acute appendicitis with perforation and associated peritonitis. The presence of a dense neutrophilic infiltrate and necrosis supports an acute inflammatory process, while the clinical history of severe abdominal pain, fever, and elevated white blood cell count with a high percentage of neutrophils further supports this diagnosis. The gross findings of a fistula tract and multiple pockets of pus around the appendix are also consistent with perforated appendicitis.\n\nDifferential diagnoses to consider include other causes of acute abdominal pain and inflammation, such as diverticulitis or inflammatory bowel disease (e.g., Crohn's disease). However, the specific findings of a fistula tract and multiple pockets of pus around the appendix strongly favor perforated appendicitis.",
+      "rationale": "Inferior left edge serosa for suppuration or granulomas."
+    },
+    {
+      "roi_id": "slide_A_x38912_y14336_mag20",
+      "tile_id": "slide_A_x38912_y14336_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 38912,
+      "y": 14336,
+      "level0": {
+        "x": 38912,
+        "y": 14336,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows intestinal crypts with reactive epithelial changes and a dense mixed inflammatory infiltrate in the lamina propria. There is also evidence of cryptitis and crypt abscess formation.\n\nThe most likely diagnosis is acute infectious colitis, consistent with the clinical presentation of acute abdomen and fever. The presence of cryptitis and crypt abscesses supports an active inflammatory process.\n\nDifferential diagnoses include inflammatory bowel disease (such as Crohn's disease), which can present with similar features, and ischemic colitis, which may show similar epithelial changes and inflammation. However, the clinical context of acute onset and the presence of a fistula tract favor an infectious etiology.",
+      "rationale": "Sample additional lymphoid aggregate not yet checked for granulomas or necrotizing lymphadenitis (Yersinia/TB)."
+    },
+    {
+      "roi_id": "slide_A_x28672_y19968_mag20",
+      "tile_id": "slide_A_x28672_y19968_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 28672,
+      "y": 19968,
+      "level0": {
+        "x": 28672,
+        "y": 19968,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense inflammatory infiltrate composed of neutrophils and lymphocytes, along with hemorrhage and necrotic debris. There is also a fragment of epithelial tissue with associated inflammation.\n\nThe most likely diagnosis is acute appendicitis with perforation and abscess formation.\n\nDifferential diagnoses include other causes of acute inflammation in the gastrointestinal tract, such as diverticulitis or ischemic colitis, but the presence of a fistula tract and the clinical context strongly favor appendicitis.",
+      "rationale": "Sample ulcer bed/crypt abscess area for crypt-rupture granulomas and organisms."
+    },
+    {
+      "roi_id": "slide_A_x52224_y21504_mag10",
+      "tile_id": "slide_A_x52224_y21504_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 52224,
+      "y": 21504,
+      "level0": {
+        "x": 52224,
+        "y": 21504,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a thickened muscularis propria with disorganized smooth muscle bundles and increased interstitial cellularity. The serosa is thickened and fibrotic with a shaggy appearance.\n\nThe most likely diagnosis is Crohn's disease with fistula formation. The key features supporting this include the transmural inflammation, fibrosis, and the presence of a fistula tract. Differential diagnoses to consider include other causes of transmural inflammation such as infectious enterocolitis or ischemic colitis, but the chronic changes and fistula formation are more characteristic of Crohn's disease.",
+      "rationale": "Far right/inferior tissue edge to look for periappendiceal abscess/suppurative serositis."
+    },
+    {
+      "roi_id": "slide_A_x50688_y13312_mag20",
+      "tile_id": "slide_A_x50688_y13312_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 50688,
+      "y": 13312,
+      "level0": {
+        "x": 50688,
+        "y": 13312,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a thickened vessel wall with a dense perivascular inflammatory infiltrate composed of lymphocytes and plasma cells. The lumen contains red blood cells and inflammatory cells.\n\nThe morphologic features are consistent with vasculitis, characterized by inflammation of the vessel wall. Given the clinical context of a young man with abdominal pain, fever, and findings suggestive of bowel ischemia, a vasculitic process affecting the mesenteric vasculature is a strong consideration. Differential diagnoses include other causes of mesenteric ischemia such as thromboembolism or non-vasculitic inflammatory conditions, but the presence of inflammation within the vessel wall points towards vasculitis.",
+      "rationale": "High power in hemorrhagic area to distinguish ischemia vs active inflammation; assess vessels for vasculitis/thrombosis and search organisms."
+    },
+    {
+      "roi_id": "slide_A_x47104_y14848_mag20",
+      "tile_id": "slide_A_x47104_y14848_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 47104,
+      "y": 14848,
+      "level0": {
+        "x": 47104,
+        "y": 14848,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows dense, wavy collagen bundles with scattered fibroblasts and a mild chronic inflammatory infiltrate. There is also a small vessel with thickened walls.\n\nThe morphologic features are consistent with fibrosis and chronic inflammation. Given the clinical context of a young man with severe abdominal pain, fever, and a right hemicolectomy specimen showing thickened and fibrotic bowel and mesentery, the most likely diagnosis is chronic inflammatory bowel disease, specifically Crohn's disease. The presence of fibrosis, chronic inflammation, and the clinical history of abdominal pain and fever are characteristic of this condition. The finding of a fistula tract extending through the ileal wall into the mesentery further supports this diagnosis. Other differential diagnoses to consider include chronic ischemic enteritis or radiation enteritis, which can also cause fibrosis and chronic inflammation, but the clinical presentation and the presence of a fistula are more suggestive of Crohn's disease.",
+      "rationale": "Search abscess-like serosal area for actinomyces colonies/sulfur granules."
+    },
+    {
+      "roi_id": "slide_A_x52224_y17408_mag10",
+      "tile_id": "slide_A_x52224_y17408_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 52224,
+      "y": 17408,
+      "level0": {
+        "x": 52224,
+        "y": 17408,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows thickened muscularis propria with a prominent inflammatory infiltrate composed of lymphocytes, plasma cells, and neutrophils. There is also evidence of fibrosis and edema.\n\nThe most likely diagnosis is Crohn's disease with fistula formation. The presence of transmural inflammation, fibrosis, and a fistula tract extending through the bowel wall into the mesentery are characteristic features of Crohn's disease. The clinical presentation of abdominal pain, fever, and periumbilical tenderness, along with the finding of a cecal ulceration and fistula on gross examination, further supports this diagnosis.\n\nDifferential diagnoses to consider include other causes of inflammatory bowel disease, such as ulcerative colitis, which typically presents with continuous colonic involvement and lacks transmural inflammation and fistula formation. Infectious colitis could also be considered, but the chronicity of the symptoms and the presence of fibrosis and fistula formation make this less likely.",
+      "rationale": "Far right mucosa/edge not yet well sampled—look for appendiceal-type acute inflammation vs chronic changes."
+    },
+    {
+      "roi_id": "slide_A_x32768_y23552_mag20",
+      "tile_id": "slide_A_x32768_y23552_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 32768,
+      "y": 23552,
+      "level0": {
+        "x": 32768,
+        "y": 23552,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense mixed inflammatory infiltrate in the lamina propria with cryptitis and crypt abscesses. There is also surface epithelial damage and ulceration.\n\nThe most likely diagnosis is acute self-limited colitis. Differential diagnoses include inflammatory bowel disease (e.g., Crohn's disease) and infectious colitis.",
+      "rationale": "Area with prominent eosinophils—exclude parasite structures/ova and assess for eosinophilic phlegmon."
+    },
+    {
+      "roi_id": "slide_A_x12288_y17408_mag10",
+      "tile_id": "slide_A_x12288_y17408_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 12288,
+      "y": 17408,
+      "level0": {
+        "x": 12288,
+        "y": 17408,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows dense fibrosis with a mixed inflammatory infiltrate, including lymphocytes and plasma cells, along with scattered adipocytes and thickened blood vessels. A nerve bundle is also present.\n\nThe morphologic features are consistent with chronic inflammation and fibrosis in the gastrointestinal tract. Given the clinical context of a young man with severe abdominal pain, fever, and a history of appendicitis, the findings are most suggestive of chronic appendicitis with associated fibrosis and inflammation.\n\nDifferential diagnoses to consider include other causes of chronic inflammation and fibrosis in the GI tract, such as Crohn's disease or chronic ischemic injury. However, the clinical history strongly favors a complication of appendicitis.",
+      "rationale": "Far left mucosa away from ulcer to assess background chronicity and skip lesions."
+    },
+    {
+      "roi_id": "slide_A_x32256_y14848_mag20",
+      "tile_id": "slide_A_x32256_y14848_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 32256,
+      "y": 14848,
+      "level0": {
+        "x": 32256,
+        "y": 14848,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense infiltrate of small lymphocytes with scattered larger cells and prominent blood vessels. The surrounding tissue is thickened and fibrotic.\n\nThe most likely diagnosis is a low-grade B-cell lymphoma, such as extranodal marginal zone lymphoma (MALT lymphoma).\n\nDifferential diagnoses include reactive lymphoid hyperplasia and other low-grade lymphomas. Reactive lymphoid hyperplasia would typically show a more polymorphous infiltrate with well-formed germinal centers, while other low-grade lymphomas may have different cytologic features or architectural patterns.",
+      "rationale": "Revisit ROI called lymphoma-like; confirm if reactive lymphoid aggregate vs true lymphoma in context of Crohn."
+    },
+    {
+      "roi_id": "slide_A_x41984_y20480_mag20",
+      "tile_id": "slide_A_x41984_y20480_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 41984,
+      "y": 20480,
+      "level0": {
+        "x": 41984,
+        "y": 20480,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows colonic mucosa with crypts lined by columnar epithelium and goblet cells, surrounded by lamina propria with a mixed inflammatory infiltrate. The crypt architecture appears relatively preserved.\n\nThe most likely diagnosis for this single histology tile is normal colonic mucosa with mild inflammation. The key features are the presence of well-formed crypts lined by columnar epithelium and goblet cells, and the lamina propria containing a mixed inflammatory infiltrate. The crypt architecture is relatively preserved, which is characteristic of normal colonic mucosa. The mild inflammation in the lamina propria is a non-specific finding and can be seen in various conditions, including mild inflammatory bowel disease or reactive changes. However, without additional context or clinical information, it is difficult to determine the exact cause of the inflammation.",
+      "rationale": "High-power in ulcer bed to search for granulomas, CMV inclusions, organisms, and characterize necrosis."
+    },
+    {
+      "roi_id": "slide_A_x23552_y17408_mag10",
+      "tile_id": "slide_A_x23552_y17408_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 23552,
+      "y": 17408,
+      "level0": {
+        "x": 23552,
+        "y": 17408,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows dense fibrous tissue with a prominent inflammatory infiltrate composed of lymphocytes, plasma cells, and neutrophils. There are also areas of necrosis and amorphous material.\n\nThe most likely diagnosis is a chronic inflammatory process with acute exacerbation, consistent with a fistula tract and surrounding inflammation.\n\nDifferential diagnoses include Crohn's disease, which can present with transmural inflammation, fistula formation, and fibrosis, and an infectious process such as tuberculosis, which can cause chronic inflammation, fibrosis, and necrosis.",
+      "rationale": "Unexplored left-central bowel wall to look for granulomas away from fistula/ulcer."
+    },
+    {
+      "roi_id": "slide_A_x30720_y13824_mag20",
+      "tile_id": "slide_A_x30720_y13824_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 30720,
+      "y": 13824,
+      "level0": {
+        "x": 30720,
+        "y": 13824,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense infiltrate of small lymphocytes with scattered larger cells and prominent fibrosis. The lymphoid infiltrate is diffuse and effaces the normal architecture.\n\nThe most likely diagnosis is a low-grade B-cell lymphoma, such as extranodal marginal zone lymphoma (MALT lymphoma).\n\nDifferential diagnoses include reactive lymphoid hyperplasia, which would typically show preserved architecture and a mixed cell population, and other low-grade lymphomas like follicular lymphoma, which would show a follicular pattern.",
+      "rationale": "High power in mucosa/submucosa to look for epithelioid granulomas, crypt abscesses, neural hyperplasia."
+    },
+    {
+      "roi_id": "slide_A_x30720_y20480_mag20",
+      "tile_id": "slide_A_x30720_y20480_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 30720,
+      "y": 20480,
+      "level0": {
+        "x": 30720,
+        "y": 20480,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense mixed inflammatory infiltrate in the lamina propria with cryptitis and crypt abscesses. There is also surface ulceration and reactive epithelial changes.\n\nThe most likely diagnosis is Crohn's disease with active inflammation and ulceration.\n\nDifferential diagnoses include infectious colitis (e.g., Yersinia, Tuberculosis) and ischemic colitis. Infectious colitis may show similar inflammation and ulceration but often has a more acute presentation and specific organisms. Ischemic colitis typically shows more prominent mucosal necrosis and hyalinization of the lamina propria.",
+      "rationale": "High-power at active mucosa region for crypt abscesses and possible granulomas."
+    },
+    {
+      "roi_id": "slide_A_x23552_y16896_mag20",
+      "tile_id": "slide_A_x23552_y16896_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 23552,
+      "y": 16896,
+      "level0": {
+        "x": 23552,
+        "y": 16896,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense inflammatory infiltrate composed of lymphocytes, plasma cells, and neutrophils within the muscularis propria, along with fibrosis and edema. A small vessel is surrounded by inflammation.\n\nThe most likely diagnosis is Crohn's disease with fistula formation.\n\nDifferential diagnoses include infectious enterocolitis (e.g., Yersinia, tuberculosis) and ischemic colitis, which can also cause transmural inflammation and fibrosis. However, the presence of a fistula and the clinical context of chronic symptoms and imaging findings favor Crohn's disease.",
+      "rationale": "High power same area for epithelioid granulomas/caseation."
+    },
+    {
+      "roi_id": "slide_A_x18432_y17408_mag10",
+      "tile_id": "slide_A_x18432_y17408_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 18432,
+      "y": 17408,
+      "level0": {
+        "x": 18432,
+        "y": 17408,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows dense fibrosis with a prominent chronic inflammatory infiltrate, including lymphoid aggregates, and scattered multinucleated giant cells.",
+      "rationale": "Far left mucosa/submucosa to assess for granulomas/vasculitis."
+    },
+    {
+      "roi_id": "slide_A_x50176_y13312_mag20",
+      "tile_id": "slide_A_x50176_y13312_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 50176,
+      "y": 13312,
+      "level0": {
+        "x": 50176,
+        "y": 13312,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows dense fibrous tissue with a mixed inflammatory infiltrate, including lymphocytes, plasma cells, and neutrophils, along with dilated vessels containing red blood cells. These features are consistent with chronic inflammation and fibrosis.\n\nThe most likely diagnosis for this histology tile is chronic inflammation and fibrosis, likely secondary to an underlying inflammatory process.\n\nDifferential diagnoses to consider include:\n1. Chronic inflammatory bowel disease (e.g., Crohn's disease): This would typically show transmural inflammation, granulomas, and architectural distortion, which are not evident in this single tile.\n2. Chronic infection (e.g., tuberculosis): This would show caseating granulomas, which are not present in this image.",
+      "rationale": "Evaluate vessel with perivascular inflammation for true vasculitis vs reactive perivascular cuffing/thrombosis."
+    },
+    {
+      "roi_id": "slide_A_x11264_y25088_mag20",
+      "tile_id": "slide_A_x11264_y25088_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 11264,
+      "y": 25088,
+      "level0": {
+        "x": 11264,
+        "y": 25088,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense inflammatory infiltrate composed predominantly of neutrophils, with associated hemorrhage and edema. The infiltrate is diffuse and surrounds blood vessels.\n\nThe most likely diagnosis is acute inflammation, consistent with acute appendicitis and associated peritonitis.\n\nDifferential diagnoses include other causes of acute inflammation in the gastrointestinal tract, such as diverticulitis or ischemic colitis, which would typically show different patterns of inflammation and associated tissue changes.",
+      "rationale": "High power in suppurative serositis/necrosis to assess for organisms, foreign body, perforation-related changes."
+    },
+    {
+      "roi_id": "slide_A_x17920_y16896_mag20",
+      "tile_id": "slide_A_x17920_y16896_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 17920,
+      "y": 16896,
+      "level0": {
+        "x": 17920,
+        "y": 16896,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows dense fibrous tissue with a prominent inflammatory infiltrate composed of lymphocytes, plasma cells, and scattered neutrophils. The fibrous tissue is arranged in intersecting fascicles.\n\nThe morphologic features are consistent with chronic inflammation and fibrosis. Given the clinical context of a young man with severe abdominal pain, fever, and a right hemicolectomy specimen showing thickened bowel and mesentery with fibrosis and ulceration, the findings are most consistent with a chronic inflammatory process, likely related to Crohn's disease.\n\nDifferential diagnoses to consider include chronic ischemic enterocolitis, which can also cause fibrosis and ulceration, and chronic infectious colitis, although the pattern of fibrosis and inflammation seen here is more typical of Crohn's disease.",
+      "rationale": "High power for granulomas/organisms."
+    },
+    {
+      "roi_id": "slide_A_x29184_y14848_mag20",
+      "tile_id": "slide_A_x29184_y14848_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 29184,
+      "y": 14848,
+      "level0": {
+        "x": 29184,
+        "y": 14848,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense infiltrate of small lymphocytes with scattered larger cells and prominent fibrous stroma. The lymphoid infiltrate is diffuse and effaces the normal architecture.\n\nThe most likely diagnosis is a low-grade B-cell lymphoma, such as extranodal marginal zone lymphoma (MALT lymphoma).\n\nDifferential diagnoses include other small B-cell lymphomas like follicular lymphoma or mantle cell lymphoma, which can be distinguished by their characteristic architectural patterns and immunophenotype.",
+      "rationale": "Revisit area previously thought granulomatous at 5x; confirm granuloma vs reactive lymphoid aggregate at higher power."
+    },
+    {
+      "roi_id": "slide_A_x24064_y16896_mag20",
+      "tile_id": "slide_A_x24064_y16896_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 24064,
+      "y": 16896,
+      "level0": {
+        "x": 24064,
+        "y": 16896,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows dense fibrous tissue with a prominent mixed inflammatory infiltrate, including lymphocytes, plasma cells, and neutrophils, along with scattered dark granular material. These features are consistent with chronic inflammation and fibrosis.\n\nThe most likely diagnosis is chronic appendicitis with perforation and fistula formation. The presence of dense fibrosis, chronic inflammation, and a fistula tract extending into the mesentery are characteristic findings in this condition. The dark granular material may represent foreign material or pigment related to the inflammatory process.\n\nDifferential diagnoses to consider include other causes of chronic inflammation and fibrosis in the gastrointestinal tract, such as Crohn's disease or chronic ischemic injury. However, the presence of a fistula tract and the clinical history of acute abdominal pain and fever strongly favor chronic appendicitis with perforation.",
+      "rationale": "Examine area adjacent to lymphoid aggregate/fibrosis for granulomas or nerve hypertrophy."
+    },
+    {
+      "roi_id": "slide_A_x52224_y12288_mag10",
+      "tile_id": "slide_A_x52224_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 52224,
+      "y": 12288,
+      "level0": {
+        "x": 52224,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows thickened muscularis propria with interstitial edema and a mixed inflammatory infiltrate. There is also evidence of fibrosis and scattered adipocytes.\n\nThe morphologic features are consistent with chronic inflammation and fibrosis in the bowel wall. Given the clinical context of a young man with severe abdominal pain, fever, and a history of appendicitis, the findings are most suggestive of chronic appendicitis with associated fibrosis and inflammation extending into the bowel wall.\n\nDifferential diagnoses to consider include Crohn's disease, which can present with transmural inflammation and fibrosis, and ischemic colitis, which can cause bowel wall thickening and fibrosis, although the clinical presentation and gross findings are less typical for these conditions.",
+      "rationale": "Right-upper edge/serosa near region with appendiceal abscess grossly—search for actinomyces colonies or granulomas."
+    },
+    {
+      "roi_id": "slide_A_x27136_y12800_mag20",
+      "tile_id": "slide_A_x27136_y12800_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 27136,
+      "y": 12800,
+      "level0": {
+        "x": 27136,
+        "y": 12800,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows dense fibrous tissue with a prominent inflammatory infiltrate composed of lymphocytes, plasma cells, and neutrophils. There is also evidence of edema and vascular congestion.\n\nThe morphologic features are consistent with chronic inflammation and fibrosis, likely secondary to a fistula tract. The presence of a fistula tract extending through the bowel wall and into the mesentery, along with the clinical history of severe abdominal pain, fever, and a cecal ulceration, strongly suggests a diagnosis of a fistula tract, likely related to Crohn's disease.\n\nDifferential diagnoses to consider include other causes of chronic inflammation and fibrosis in the bowel, such as chronic ischemic injury or radiation enteritis. However, the clinical context and the presence of a fistula tract make Crohn's disease the most likely underlying etiology.",
+      "rationale": "Search adjacent submucosa for discrete noncaseating granulomas away from crypt injury."
+    },
+    {
+      "roi_id": "slide_A_x45056_y15872_mag20",
+      "tile_id": "slide_A_x45056_y15872_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 45056,
+      "y": 15872,
+      "level0": {
+        "x": 45056,
+        "y": 15872,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows extensive hemorrhage and a mixed inflammatory infiltrate within the submucosa and muscularis propria. There is also evidence of fibrosis and edema.\n\nThe most likely diagnosis is ischemic colitis with hemorrhage. Differential diagnoses include inflammatory bowel disease (Crohn's disease) and infectious colitis, which can also present with inflammation and ulceration, but the prominent hemorrhage and fibrosis are more suggestive of ischemia.",
+      "rationale": "Ulcer edge/right side: evaluate for ischemic-type mucosal injury (withered crypts, hyalinized LP) vs IBD; look for fibrin thrombi/vasculitis."
+    },
+    {
+      "roi_id": "slide_A_x18432_y17408_mag20",
+      "tile_id": "slide_A_x18432_y17408_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 18432,
+      "y": 17408,
+      "level0": {
+        "x": 18432,
+        "y": 17408,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows dense fibrous tissue with scattered spindle cells and a prominent inflammatory infiltrate composed of lymphocytes and plasma cells.",
+      "rationale": "Follow up area with reported scattered giant cells to determine if true epithelioid granulomas and whether necrotizing."
+    },
+    {
+      "roi_id": "slide_A_x52224_y17408_mag20",
+      "tile_id": "slide_A_x52224_y17408_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 52224,
+      "y": 17408,
+      "level0": {
+        "x": 52224,
+        "y": 17408,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a transition from dense fibrous tissue to an area of acute inflammation with numerous neutrophils and hemorrhage. The fibrous tissue contains spindle cells and collagen.\n\nThe morphologic features are consistent with acute inflammation and fibrosis in the gastrointestinal tract. The most likely diagnosis is acute appendicitis with perforation and associated peritonitis. Differential diagnoses include other causes of acute inflammation and fibrosis in the GI tract, such as Crohn's disease or ischemic injury, but the clinical presentation and gross findings strongly favor acute appendicitis.",
+      "rationale": "Far right transmural inflammation: look for neural hyperplasia, granulomas, organisms."
+    },
+    {
+      "roi_id": "slide_A_x18432_y17408_mag40",
+      "tile_id": "slide_A_x18432_y17408_mag40",
+      "mag": "high",
+      "magnification": 40.0,
+      "x": 18432,
+      "y": 17408,
+      "level0": {
+        "x": 18432,
+        "y": 17408,
+        "width": 512,
+        "height": 512
+      },
+      "description": "The image shows dense fibrosis and a prominent chronic inflammatory infiltrate with lymphoid aggregates and perivascular cuffing. There is also evidence of vascular changes and scattered multinucleated giant cells.\n\nThe most likely diagnosis is Crohn's disease, given the transmural inflammation, fibrosis, and presence of granulomas (represented by giant cells). Other considerations include infectious colitis (e.g., tuberculosis, Yersinia) and ischemic colitis, which can also cause transmural inflammation and fibrosis, but the presence of granulomas strongly favors Crohn's disease.",
+      "rationale": "Highest power to confirm granuloma composition and exclude foreign material/organisms."
+    },
+    {
+      "roi_id": "slide_A_x24064_y11776_mag20",
+      "tile_id": "slide_A_x24064_y11776_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 24064,
+      "y": 11776,
+      "level0": {
+        "x": 24064,
+        "y": 11776,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "There is a dense inflammatory infiltrate composed of lymphocytes and plasma cells, with scattered neutrophils, within the muscularis propria. The surrounding smooth muscle bundles appear separated and show degenerative changes.\n\nThe most likely diagnosis is Crohn's disease with fistula formation. The presence of transmural inflammation, fibrosis, and a fistula tract extending through the bowel wall into the mesentery are characteristic features of Crohn's disease. The ulceration and edema of the adjacent mucosa are also consistent with this diagnosis.\n\nDifferential diagnoses to consider include infectious enterocolitis (e.g., Yersinia, tuberculosis) and ischemic colitis. However, the presence of a fistula and the pattern of transmural inflammation and fibrosis are more typical of Crohn's disease.",
+      "rationale": "Sample upper mucosa/submucosa away from necrosis to search for small noncaseating granulomas typical of Crohn."
+    },
+    {
+      "roi_id": "slide_A_x24064_y12032_mag40",
+      "tile_id": "slide_A_x24064_y12032_mag40",
+      "mag": "high",
+      "magnification": 40.0,
+      "x": 24064,
+      "y": 12032,
+      "level0": {
+        "x": 24064,
+        "y": 12032,
+        "width": 512,
+        "height": 512
+      },
+      "description": "The image shows a dense inflammatory infiltrate composed of lymphocytes, plasma cells, and neutrophils within a background of fibrotic stroma. There is also a prominent vessel with thickened walls and perivascular inflammation.\n\nThe morphologic features, including dense inflammation, fibrosis, and vascular changes, in the context of a patient with a history of abdominal pain, fever, and a right hemicolectomy specimen showing ulceration and fistula formation, are consistent with a chronic inflammatory process. Given the clinical history of a fistula tract extending through the ileal wall into the mesentery, a diagnosis of Crohn's disease with fistula formation is strongly considered.\n\nDifferential diagnoses to consider include other causes of chronic inflammation and fistula formation in the gastrointestinal tract, such as infectious etiologies (e.g., tuberculosis, Yersinia) or ischemic injury. However, the presence of transmural inflammation, fibrosis, and a fistula tract extending into the mesentery are highly suggestive of Crohn's disease.",
+      "rationale": "High power for granuloma detail/organisms."
+    },
+    {
+      "roi_id": "slide_A_x52224_y12288_mag20",
+      "tile_id": "slide_A_x52224_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 52224,
+      "y": 12288,
+      "level0": {
+        "x": 52224,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a transition from smooth muscle bundles to dense fibrous tissue with scattered chronic inflammation and small vessels. The fibrous tissue exhibits thickened, hyalinized collagen bundles.\n\nThe morphologic features are consistent with chronic inflammation and fibrosis. Given the clinical context of a young man with severe abdominal pain, fever, and a right hemicolectomy specimen showing thickened bowel and mesentery with fibrosis and ulceration, the findings are most consistent with chronic inflammatory bowel disease, specifically Crohn's disease.\n\nDifferential diagnoses to consider include chronic ischemic enterocolitis, which can also cause fibrosis and ulceration, and chronic radiation enteritis, which would require a history of radiation exposure.",
+      "rationale": "Re-examine suspected appendiceal/abscess region at higher power for actinomyces colonies/sulfur granules."
+    },
+    {
+      "roi_id": "slide_A_x36096_y15104_mag40",
+      "tile_id": "slide_A_x36096_y15104_mag40",
+      "mag": "high",
+      "magnification": 40.0,
+      "x": 36096,
+      "y": 15104,
+      "level0": {
+        "x": 36096,
+        "y": 15104,
+        "width": 512,
+        "height": 512
+      },
+      "description": "The image shows distorted crypt architecture with irregular spacing and branching, along with a dense mixed inflammatory infiltrate in the lamina propria and submucosa. There is also evidence of cryptitis and crypt abscess formation.\n\nThe most likely diagnosis is Crohn's disease. Differential diagnoses include infectious colitis and ischemic colitis, which can also present with inflammation and architectural distortion, but typically lack the transmural inflammation and fibrosis seen in Crohn's disease.",
+      "rationale": "Highest power in central inflamed zone to look for organisms (actinomyces, fungi) and granuloma detail."
+    },
+    {
+      "roi_id": "slide_A_x41984_y15872_mag40",
+      "tile_id": "slide_A_x41984_y15872_mag40",
+      "mag": "high",
+      "magnification": 40.0,
+      "x": 41984,
+      "y": 15872,
+      "level0": {
+        "x": 41984,
+        "y": 15872,
+        "width": 512,
+        "height": 512
+      },
+      "description": "The image shows a transition from relatively preserved colonic mucosa to an area of ulceration with associated acute inflammation, hemorrhage, and necrosis. The adjacent mucosa exhibits edema and architectural distortion.\n\nThe most likely diagnosis is acute ischemic colitis with ulceration. The presence of mucosal ulceration, acute inflammation, and hemorrhage in the context of a patient with severe abdominal pain, fever, and a history of bowel rigidity and rebound tenderness is highly suggestive of ischemic injury. The adjacent edema and architectural distortion are also consistent with acute injury.\n\nDifferential diagnoses to consider include infectious colitis (e.g., Clostridioides difficile, Shigella, Salmonella) and inflammatory bowel disease (e.g., Crohn's disease). However, the clinical presentation of acute onset severe abdominal pain and the presence of a fistula tract extending into the mesentery are more characteristic of ischemic injury.",
+      "rationale": "40x along fistula tract/granulation tissue to exclude colonies/sulfur granules."
+    },
+    {
+      "roi_id": "slide_A_x28416_y19968_mag40",
+      "tile_id": "slide_A_x28416_y19968_mag40",
+      "mag": "high",
+      "magnification": 40.0,
+      "x": 28416,
+      "y": 19968,
+      "level0": {
+        "x": 28416,
+        "y": 19968,
+        "width": 512,
+        "height": 512
+      },
+      "description": "The image shows a dense inflammatory infiltrate in the lamina propria and submucosa, with surface ulceration and associated hemorrhage. The crypt architecture is distorted.\n\nThe most likely diagnosis is Crohn's disease with ulceration and fistula formation.\n\nDifferential diagnoses include infectious colitis (e.g., Yersinia, Tuberculosis) and ischemic colitis. Infectious colitis may show similar inflammation and ulceration but typically lacks the chronic changes like fibrosis and fistula formation. Ischemic colitis often shows coagulative necrosis and hyalinization of the lamina propria, which are not prominent here.",
+      "rationale": "40x in necrotic/abscess debris to look for bacterial colonies, fungal elements, parasites."
+    },
+    {
+      "roi_id": "slide_A_x40960_y11776_mag40",
+      "tile_id": "slide_A_x40960_y11776_mag40",
+      "mag": "high",
+      "magnification": 40.0,
+      "x": 40960,
+      "y": 11776,
+      "level0": {
+        "x": 40960,
+        "y": 11776,
+        "width": 512,
+        "height": 512
+      },
+      "description": "The image shows a transition from dense fibrous tissue with chronic inflammation to a dense lymphoid aggregate. The lymphoid aggregate contains a prominent germinal center and is surrounded by a mixed inflammatory infiltrate.\n\nThe morphologic features are consistent with a reactive lymphoid aggregate, likely representing a lymphoid follicle within the gastrointestinal tract wall. This finding is often associated with chronic inflammation or infection.\n\nDifferential diagnoses include a reactive lymphoid follicle and a low-grade lymphoma, such as extranodal marginal zone lymphoma (MALT lymphoma). The presence of a well-formed germinal center and surrounding mixed inflammatory infiltrate favors a reactive process. Further evaluation with immunohistochemistry for B-cell and T-cell markers, as well as assessment of the overall architecture and cellular morphology in the context of the entire specimen, would be necessary to definitively rule out lymphoma.",
+      "rationale": "40x perivascular inflammation area to assess for vasculitis (fibrinoid necrosis) and organisms."
+    },
+    {
+      "roi_id": "slide_A_x41984_y13312_mag40",
+      "tile_id": "slide_A_x41984_y13312_mag40",
+      "mag": "high",
+      "magnification": 40.0,
+      "x": 41984,
+      "y": 13312,
+      "level0": {
+        "x": 41984,
+        "y": 13312,
+        "width": 512,
+        "height": 512
+      },
+      "description": "The image shows dense lymphoid aggregates, fibrous stroma, and scattered adipocytes. There is a prominent inflammatory infiltrate composed of lymphocytes, plasma cells, and neutrophils, with areas of hemorrhage and necrosis.\n\nThe morphologic features are consistent with a chronic inflammatory process with acute exacerbation. Given the clinical context of a young man with severe abdominal pain, fever, and a history of bowel rigidity, the findings are most suggestive of Crohn's disease with acute inflammation and fistula formation.\n\nDifferential diagnoses include other causes of chronic inflammatory bowel disease, such as ulcerative colitis, which typically lacks transmural inflammation and fistula formation, and infectious colitis, which would require microbiological studies for confirmation.",
+      "rationale": "40x within reactive lymphoid aggregate/necrosis region to assess for necrotizing granuloma and AFB-like rods."
+    }
+  ]
+}

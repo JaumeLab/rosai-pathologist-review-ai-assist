@@ -1,0 +1,974 @@
+{
+  "case_id": "sem1141_case2",
+  "source": "slideseek-ai-assist",
+  "model": "gpt-5.4",
+  "generated_at": "2026-05-22T09:20:53.686696+00:00",
+  "organ": "GI Tract",
+  "primary_dx": "Gastric Hyperplastic Polyp With Reactive/Regenerative Atypia",
+  "differential_dx": [
+    "Foveolar-Type Gastric Adenoma",
+    "Hamartomatous Polyp With Fibromuscular Stromal Proliferation"
+  ],
+  "microscopic_findings": [
+    {
+      "text": "Fronds show **papillary/villiform architecture** lined by **foveolar-type mucinous epithelium** with preserved apical mucin caps.",
+      "roi_ids": [
+        "slide_A_x8192_y10240_mag10",
+        "slide_A_x45056_y10240_mag10"
+      ]
+    },
+    {
+      "text": "Lining cells have mild **reactive nuclear stratification** and hyperchromasia amid **mixed lamina propria inflammation** and edema.",
+      "roi_ids": [
+        "slide_A_x8192_y16384_mag20",
+        "slide_A_x40960_y3584_mag20"
+      ]
+    },
+    {
+      "text": "Focal **cystic gland dilation** and elongated tortuous foveolae are present within inflamed edematous fibrovascular cores.",
+      "roi_ids": [
+        "slide_A_x51712_y8192_mag20",
+        "slide_A_x22528_y34304_mag20"
+      ]
+    },
+    {
+      "text": "The stalk shows **fibrovascular/fibrotic stroma** with vessels and glands, without **desmoplastic invasion** or submucosal spindle neoplasm.",
+      "roi_ids": [
+        "slide_A_x27648_y23552_mag10",
+        "slide_A_x28160_y22528_mag20"
+      ]
+    }
+  ],
+  "interpretation": "The lesion is most consistent with **gastric hyperplastic polyp with reactive/regenerative atypia** based on **papillary-villiform foveolar proliferation**, edematous inflamed fibrovascular cores, and only mild inflammation-associated cytologic atypia. The preserved mucinous foveolar differentiation and lack of unequivocal high-grade cytologic dysplasia argue against **foveolar-type adenoma** in the examined tissue. There is no convincing **desmoplastic stromal response**, infiltrative growth, or other features of invasive carcinoma in the sampled ROIs.",
+  "num_rois": 58,
+  "tiles": [
+    {
+      "roi_id": "slide_A_x28672_y20480_mag2",
+      "tile_id": "slide_A_x28672_y20480_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 28672,
+      "y": 20480,
+      "level0": {
+        "x": 28672,
+        "y": 20480,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a polypoid lesion with complex glandular architecture, including papillary and cribriform patterns, lined by columnar epithelium with nuclear stratification and hyperchromasia. The stroma is fibrotic and contains dilated glands.\n\nThe most likely diagnosis is a gastric adenoma, specifically a foveolar type given the columnar epithelium and complex architecture. Differential diagnoses include hyperplastic polyp and well-differentiated adenocarcinoma.",
+      "rationale": "Low-mag overview of central stalk/core to assess architecture and depth"
+    },
+    {
+      "roi_id": "slide_A_x8192_y10240_mag5",
+      "tile_id": "slide_A_x8192_y10240_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 8192,
+      "y": 10240,
+      "level0": {
+        "x": 8192,
+        "y": 10240,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a polypoid lesion with a complex papillary and villiform architecture. The epithelium is composed of tall columnar cells with abundant apical mucin and basally oriented nuclei, with some areas showing nuclear stratification and hyperchromasia.\n\nThe most likely diagnosis is a gastric foveolar-type adenoma. The complex papillary and villiform architecture lined by tall columnar cells with apical mucin is characteristic of this entity. The presence of nuclear stratification and hyperchromasia suggests low-grade dysplasia.\n\nDifferential diagnoses include a hyperplastic polyp, which typically shows elongated and tortuous glands with reactive epithelial changes, and a gastric adenocarcinoma, which would demonstrate more significant architectural complexity, loss of polarity, and higher-grade cytologic atypia.",
+      "rationale": "Region 1 peripheral fronds overview for architecture/epithelium."
+    },
+    {
+      "roi_id": "slide_A_x26624_y24576_mag5",
+      "tile_id": "slide_A_x26624_y24576_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 26624,
+      "y": 24576,
+      "level0": {
+        "x": 26624,
+        "y": 24576,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a polypoid lesion with a complex glandular architecture, including areas of crowding and irregular shapes, set within a fibrotic stroma. The glands are lined by columnar epithelium with basally oriented nuclei and apical mucin.\n\nThe most likely diagnosis is a gastric adenoma, specifically of the foveolar type, given the complex glandular proliferation and the clinical context of a large gastric polyp.\n\nDifferential diagnoses include hyperplastic polyp, which typically shows more irregular glands and lacks the complex architecture, and well-differentiated adenocarcinoma, which would show more significant cytologic atypia and stromal invasion.",
+      "rationale": "Sample central core for stromal pattern, vessels, inflammation"
+    },
+    {
+      "roi_id": "slide_A_x40960_y4096_mag5",
+      "tile_id": "slide_A_x40960_y4096_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 40960,
+      "y": 4096,
+      "level0": {
+        "x": 40960,
+        "y": 4096,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a polypoid lesion with a complex papillary and villiform architecture. The papillae are lined by columnar epithelium with abundant apical mucin and basally oriented nuclei, supported by fibrovascular cores with inflammation.\n\nThe most likely diagnosis is a gastric hyperplastic polyp. Differential diagnoses include a gastric adenoma, which would show epithelial dysplasia, and a gastric adenocarcinoma, which would demonstrate invasive growth.",
+      "rationale": "Region 2 peripheral fronds overview for architecture/epithelium."
+    },
+    {
+      "roi_id": "slide_A_x28672_y22528_mag10",
+      "tile_id": "slide_A_x28672_y22528_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 28672,
+      "y": 22528,
+      "level0": {
+        "x": 28672,
+        "y": 22528,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a polypoid lesion with a prominent fibrovascular stroma containing numerous dilated blood vessels and scattered glands. The glands are lined by cuboidal to low columnar epithelium with basally oriented nuclei and some contain eosinophilic material.\n\nThe most likely diagnosis is a gastric hyperplastic polyp. The prominent fibrovascular stroma, dilated vessels, and scattered glands are characteristic features. The epithelium lining the glands is bland, lacking significant atypia or architectural complexity that would suggest dysplasia or malignancy.\n\nDifferential diagnoses include a gastric adenoma, which would typically show more complex glandular architecture and epithelial dysplasia, and a gastric adenocarcinoma, which would demonstrate infiltrative growth and significant cytologic atypia.",
+      "rationale": "Evaluate central stalk at higher power for desmoplasia, irregular glands, single cells."
+    },
+    {
+      "roi_id": "slide_A_x6144_y15360_mag10",
+      "tile_id": "slide_A_x6144_y15360_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 6144,
+      "y": 15360,
+      "level0": {
+        "x": 6144,
+        "y": 15360,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a polypoid lesion with a papillary architecture lined by tall columnar cells with abundant apical mucin and basally oriented nuclei. The stroma is edematous with inflammation.\n\nThe most likely diagnosis is a gastric foveolar-type adenoma.\n\nDifferential diagnoses include a hyperplastic polyp, which typically shows more irregular glandular architecture and less prominent papillary features, and a gastric adenocarcinoma, which would demonstrate significant cytologic atypia and invasion.",
+      "rationale": "Peripheral fronds in region 3—look for high-grade dysplasia/ulceration."
+    },
+    {
+      "roi_id": "slide_A_x30720_y20480_mag5",
+      "tile_id": "slide_A_x30720_y20480_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 30720,
+      "y": 20480,
+      "level0": {
+        "x": 30720,
+        "y": 20480,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a polypoid lesion with complex, branching glands lined by tall columnar epithelium exhibiting nuclear stratification and hyperchromasia. The stroma is fibrotic with inflammation and prominent blood vessels.\n\nThe most likely diagnosis is a gastric adenoma, intestinal type.\n\nDifferential diagnoses include:\n- Gastric hyperplastic polyp: typically shows foveolar hyperplasia and edematous stroma, lacking the complex glandular architecture and significant epithelial atypia seen here.\n- Gastric adenocarcinoma: would show more pronounced cytologic atypia, loss of polarity, and potentially invasion into the submucosa, which is not evident in this image.",
+      "rationale": "Another area of stalk to look for submucosal tumor/spindle cell lesion"
+    },
+    {
+      "roi_id": "slide_A_x45056_y10240_mag5",
+      "tile_id": "slide_A_x45056_y10240_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 45056,
+      "y": 10240,
+      "level0": {
+        "x": 45056,
+        "y": 10240,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a polypoid lesion with complex papillary and villiform architecture. The epithelium is composed of tall columnar cells with abundant apical mucin and basally oriented nuclei, with some areas showing nuclear stratification and hyperchromasia.\n\nThe most likely diagnosis is a gastric adenoma, foveolar type. This diagnosis is supported by the papillary and villiform architecture and the foveolar-type epithelium with apical mucin. The presence of nuclear stratification and hyperchromasia suggests low-grade dysplasia.\n\nDifferential diagnoses include hyperplastic polyp, which typically shows more irregular glands and lacks significant dysplasia, and intestinal-type adenoma, which would show intestinal metaplasia with goblet cells and brush borders.",
+      "rationale": "Region 4 peripheral fronds overview for architecture/epithelium."
+    },
+    {
+      "roi_id": "slide_A_x22528_y34816_mag10",
+      "tile_id": "slide_A_x22528_y34816_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 22528,
+      "y": 34816,
+      "level0": {
+        "x": 22528,
+        "y": 34816,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a polypoid lesion with a papillary and villiform architecture. The epithelium is composed of tall columnar cells with abundant apical mucin and basally oriented nuclei, with a prominent inflammatory infiltrate in the lamina propria.\n\nThe most likely diagnosis is a gastric foveolar-type adenoma. Differential diagnoses include a hyperplastic polyp, which typically shows more irregular glands and less prominent papillary architecture, and a pyloric gland adenoma, which is characterized by glands lined by cells with pale, clear cytoplasm and basal nuclei.",
+      "rationale": "Deep fragment region 6—assess deepest aspects for invasion/signet ring."
+    },
+    {
+      "roi_id": "slide_A_x22528_y34816_mag5",
+      "tile_id": "slide_A_x22528_y34816_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 22528,
+      "y": 34816,
+      "level0": {
+        "x": 22528,
+        "y": 34816,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a polypoid lesion with a complex papillary and villiform architecture. The papillae are lined by tall columnar epithelium with abundant apical mucin and basally oriented nuclei, supported by fibrovascular cores.\n\nThe most likely diagnosis is a gastric foveolar-type adenoma. The complex papillary and villiform architecture lined by tall columnar epithelium with abundant apical mucin and basally oriented nuclei is characteristic of this entity. The fibrovascular cores support the papillary structures.\n\nDifferential diagnoses include gastric hyperplastic polyp, which typically shows elongated and tortuous foveolae with edematous and inflamed stroma, and gastric adenocarcinoma, which would show significant cytologic atypia, loss of polarity, and potentially invasion.",
+      "rationale": "Target region 6 suspected deeper stalk/submucosa for lesion"
+    },
+    {
+      "roi_id": "slide_A_x8192_y16384_mag5",
+      "tile_id": "slide_A_x8192_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 8192,
+      "y": 16384,
+      "level0": {
+        "x": 8192,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a polypoid lesion with a complex papillary and villiform architecture. The epithelium is composed of tall columnar cells with abundant apical mucin and basally oriented nuclei, with some areas showing nuclear stratification and hyperchromasia.\n\nThe most likely diagnosis is a gastric foveolar-type adenoma. The complex papillary and villiform architecture lined by tall columnar cells with apical mucin is characteristic of this entity. The presence of nuclear stratification and hyperchromasia suggests low-grade dysplasia.\n\nDifferential diagnoses include a hyperplastic polyp, which typically shows elongated and tortuous foveolae with edematous and inflamed lamina propria, and a gastric adenocarcinoma, which would show more significant cytologic atypia, loss of polarity, and potentially invasion.",
+      "rationale": "Region 5 peripheral fronds overview for architecture/epithelium."
+    },
+    {
+      "roi_id": "slide_A_x43008_y9216_mag10",
+      "tile_id": "slide_A_x43008_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 43008,
+      "y": 9216,
+      "level0": {
+        "x": 43008,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a polypoid lesion with a complex papillary and villiform architecture. The epithelium is composed of tall columnar cells with abundant apical mucin and basally oriented nuclei, with some areas showing nuclear stratification and hyperchromasia.\n\nThe most likely diagnosis is a gastric foveolar-type adenoma. The complex papillary and villiform architecture lined by tall columnar cells with apical mucin is characteristic of this entity. The presence of nuclear stratification and hyperchromasia suggests low-grade dysplasia.\n\nDifferential diagnoses include a hyperplastic polyp, which typically shows elongated and tortuous foveolae with edematous stroma and inflammation, and a pyloric gland adenoma, which is composed of cells resembling pyloric glands with clear to pale eosinophilic cytoplasm and basal nuclei.",
+      "rationale": "Another peripheral frond-rich area to survey for cribriforming/necrosis."
+    },
+    {
+      "roi_id": "slide_A_x28672_y25600_mag10",
+      "tile_id": "slide_A_x28672_y25600_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 28672,
+      "y": 25600,
+      "level0": {
+        "x": 28672,
+        "y": 25600,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a polypoid lesion with complex glandular architecture, including papillary and cribriform patterns. The glands are lined by tall columnar cells with abundant apical mucin and basally oriented nuclei, with a fibrovascular stroma.\n\nThe most likely diagnosis is a gastric adenoma, intestinal type. Differential diagnoses include hyperplastic polyp and well-differentiated adenocarcinoma.",
+      "rationale": "10x review of core/stalk to look for fibromuscular proliferation, submucosal component"
+    },
+    {
+      "roi_id": "slide_A_x8192_y10240_mag10",
+      "tile_id": "slide_A_x8192_y10240_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 8192,
+      "y": 10240,
+      "level0": {
+        "x": 8192,
+        "y": 10240,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a polypoid lesion with a papillary surface and elongated, tortuous glands lined by tall columnar cells with abundant apical mucin. The lamina propria is expanded by edema and inflammation.\n\nThe most likely diagnosis is a gastric hyperplastic polyp. Differential diagnoses include a gastric adenoma, which would show epithelial dysplasia, and a gastric adenocarcinoma, which would show invasive carcinoma.",
+      "rationale": "Region 1 at 10x to better assess villous/tubulovillous pattern and surface maturation."
+    },
+    {
+      "roi_id": "slide_A_x8192_y10240_mag20",
+      "tile_id": "slide_A_x8192_y10240_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 8192,
+      "y": 10240,
+      "level0": {
+        "x": 8192,
+        "y": 10240,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows gastric foveolar epithelium with nuclear stratification and hyperchromasia, along with a dense mixed inflammatory infiltrate in the lamina propria. The surface epithelium exhibits a papillary configuration.\n\nThe most likely diagnosis is a gastric hyperplastic polyp with reactive epithelial changes.\n\nDifferential diagnoses include:\n- Gastric adenoma: Typically shows more pronounced architectural distortion and cytologic atypia.\n- Gastric adenocarcinoma: Would demonstrate invasive growth and higher-grade cytologic features.",
+      "rationale": "Region 1 at 20x for cytologic dysplasia (nuclear stratification, mitoses) and cell type (foveolar vs intestinal)."
+    },
+    {
+      "roi_id": "slide_A_x28672_y23552_mag20",
+      "tile_id": "slide_A_x28672_y23552_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 28672,
+      "y": 23552,
+      "level0": {
+        "x": 28672,
+        "y": 23552,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of irregular glands embedded in a dense fibrous stroma, with some glands containing eosinophilic material. There is also a large, congested blood vessel.\n\nThe most likely diagnosis is a gastric adenoma, specifically a pyloric gland adenoma, given the irregular glandular architecture and dense stroma.\n\nDifferential diagnoses include a well-differentiated adenocarcinoma, which would show more significant cytologic atypia and infiltrative growth, and a hyperplastic polyp, which typically has more regular glands and less dense stroma.",
+      "rationale": "20x detail in stalk for IFP onion-skin/eosinophils or spindle cell lesion"
+    },
+    {
+      "roi_id": "slide_A_x28672_y22528_mag20",
+      "tile_id": "slide_A_x28672_y22528_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 28672,
+      "y": 22528,
+      "level0": {
+        "x": 28672,
+        "y": 22528,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a polypoid lesion with a prominent fibrovascular stroma containing numerous small glands and a mixed inflammatory infiltrate. The glands are lined by cuboidal to low columnar epithelium with basally oriented nuclei.\n\nThe most likely diagnosis is a gastric hyperplastic polyp. The presence of a fibrovascular stroma with numerous small glands and a mixed inflammatory infiltrate is characteristic of this entity. The glands are lined by cuboidal to low columnar epithelium with basally oriented nuclei, which is consistent with the foveolar epithelium typically seen in hyperplastic polyps. The absence of significant cytologic atypia or complex glandular architecture helps to distinguish it from adenomatous polyps or well-differentiated adenocarcinoma.",
+      "rationale": "High power in central stalk area to confirm/deny invasion and assess cytologic grade."
+    },
+    {
+      "roi_id": "slide_A_x8192_y16384_mag10",
+      "tile_id": "slide_A_x8192_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 8192,
+      "y": 16384,
+      "level0": {
+        "x": 8192,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a polypoid lesion with a papillary architecture lined by tall columnar epithelium with abundant apical mucin. The lamina propria is expanded by a mixed inflammatory infiltrate.\n\nThe most likely diagnosis is a gastric hyperplastic polyp. Differential diagnoses include a gastric adenoma, which would show epithelial dysplasia, and a gastric adenocarcinoma, which would show invasive carcinoma.",
+      "rationale": "Region 5 at 10x for architecture and inflammation/erosion."
+    },
+    {
+      "roi_id": "slide_A_x30208_y21504_mag20",
+      "tile_id": "slide_A_x30208_y21504_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 30208,
+      "y": 21504,
+      "level0": {
+        "x": 30208,
+        "y": 21504,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a transition from dense fibrous stroma with prominent vessels to glandular structures lined by columnar epithelium with basally oriented nuclei and apical mucin. The stroma contains scattered inflammatory cells.\n\nThe most likely diagnosis is a gastric polyp, likely an adenomatous polyp given the glandular proliferation. Differential diagnoses include hyperplastic polyp and inflammatory polyp, which can be distinguished by the specific type of glandular epithelium and stromal changes.",
+      "rationale": "20x another stalk area for vessels, muscularis mucosae, atypia/invasion"
+    },
+    {
+      "roi_id": "slide_A_x40960_y4096_mag10",
+      "tile_id": "slide_A_x40960_y4096_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 40960,
+      "y": 4096,
+      "level0": {
+        "x": 40960,
+        "y": 4096,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a polypoid lesion with a papillary surface lined by foveolar epithelium. The lamina propria is expanded by edema and a mixed inflammatory infiltrate, with some glands showing cystic dilation.\n\nThe most likely diagnosis is a gastric hyperplastic polyp. Differential diagnoses include a gastric adenoma, which would show epithelial dysplasia, and a gastric adenocarcinoma, which would show invasive carcinoma.",
+      "rationale": "Region 2 at 10x to clarify hyperplastic vs adenomatous features."
+    },
+    {
+      "roi_id": "slide_A_x6144_y15360_mag20",
+      "tile_id": "slide_A_x6144_y15360_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 6144,
+      "y": 15360,
+      "level0": {
+        "x": 6144,
+        "y": 15360,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a polypoid lesion with papillary architecture lined by tall columnar cells exhibiting abundant apical mucin and basally oriented nuclei. The stroma is edematous with scattered inflammatory cells.\n\nThe most likely diagnosis is a gastric foveolar-type adenoma. The papillary architecture and tall columnar cells with apical mucin are characteristic features. Differential diagnoses include a hyperplastic polyp, which typically shows more irregular glandular architecture and less prominent papillary formation, and a gastric adenocarcinoma, which would show more significant cytologic atypia and architectural complexity.",
+      "rationale": "High power in region 3 fronds to assess for high-grade dysplasia (cribriforming, loss of polarity, mitoses)."
+    },
+    {
+      "roi_id": "slide_A_x8192_y16384_mag20",
+      "tile_id": "slide_A_x8192_y16384_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 8192,
+      "y": 16384,
+      "level0": {
+        "x": 8192,
+        "y": 16384,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows gastric foveolar epithelium with nuclear stratification and hyperchromasia, along with a dense mixed inflammatory infiltrate in the lamina propria. The surface epithelium is irregular and focally denuded.\n\nThe most likely diagnosis is a gastric adenoma, foveolar type. The presence of nuclear stratification and hyperchromasia in the foveolar epithelium is characteristic of dysplasia, which is the defining feature of an adenoma. The inflammatory infiltrate is a common accompanying feature.\n\nDifferential diagnoses include reactive gastropathy, which can show foveolar hyperplasia and inflammation but lacks the significant nuclear atypia and stratification seen here. Another consideration is a hyperplastic polyp, which typically shows elongated and tortuous foveolae with edema and inflammation, but without the degree of epithelial dysplasia observed in this image.",
+      "rationale": "Region 5 at 20x for dysplasia grading and look for goblet cells/brush border, erosion, acute inflammation."
+    },
+    {
+      "roi_id": "slide_A_x23040_y34304_mag20",
+      "tile_id": "slide_A_x23040_y34304_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 23040,
+      "y": 34304,
+      "level0": {
+        "x": 23040,
+        "y": 34304,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows elongated, branching glands lined by tall columnar epithelium with abundant apical mucin and basally oriented nuclei. The lamina propria is expanded by a mixed inflammatory infiltrate.\n\nThe most likely diagnosis is a gastric hyperplastic polyp. Differential diagnoses include a gastric adenoma, which would show epithelial dysplasia, and a gastric adenocarcinoma, which would demonstrate invasive growth.",
+      "rationale": "20x in region 6 to assess fibrovascular cores vs true submucosal mass, look for spindle cells/eosinophils"
+    },
+    {
+      "roi_id": "slide_A_x45056_y10240_mag10",
+      "tile_id": "slide_A_x45056_y10240_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 45056,
+      "y": 10240,
+      "level0": {
+        "x": 45056,
+        "y": 10240,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a polypoid lesion with a villiform architecture lined by tall columnar cells with abundant apical mucin. The lamina propria contains a mixed inflammatory infiltrate.\n\nThe most likely diagnosis is a gastric hyperplastic polyp.\n\nDifferential diagnoses include a gastric adenoma, which would show epithelial dysplasia, and a gastric adenocarcinoma, which would demonstrate invasive growth.",
+      "rationale": "Region 4 at 10x for architecture/dysplasia."
+    },
+    {
+      "roi_id": "slide_A_x22528_y34816_mag20",
+      "tile_id": "slide_A_x22528_y34816_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 22528,
+      "y": 34816,
+      "level0": {
+        "x": 22528,
+        "y": 34816,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows elongated and tortuous foveolae lined by tall columnar epithelium with abundant apical mucin. The lamina propria is expanded by a dense mixed inflammatory infiltrate.\n\nThe most likely diagnosis is a gastric hyperplastic polyp. Differential diagnoses include a gastric adenoma, which would show epithelial dysplasia, and a gastric inflammatory polyp, which typically has less prominent foveolar hyperplasia.",
+      "rationale": "High power in deep fragment for irregular infiltrative glands, signet ring cells, desmoplasia."
+    },
+    {
+      "roi_id": "slide_A_x40960_y3584_mag20",
+      "tile_id": "slide_A_x40960_y3584_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 40960,
+      "y": 3584,
+      "level0": {
+        "x": 40960,
+        "y": 3584,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows gastric foveolar epithelium with reactive changes and a lamina propria expanded by edema and a mixed inflammatory infiltrate. The surface epithelium is irregular with some nuclear stratification and hyperchromasia.\n\nThe most likely diagnosis is a hyperplastic polyp. The key features supporting this are the foveolar hyperplasia, edematous lamina propria, and mixed inflammatory infiltrate. The reactive epithelial changes are also consistent with this diagnosis.\n\nDifferential diagnoses include a gastric adenoma, which would show more significant epithelial dysplasia, and a fundic gland polyp, which typically has cystic dilatation of glands and lacks the prominent foveolar hyperplasia and inflammation seen here.",
+      "rationale": "Region 2 at 20x for epithelial details; check for foveolar hyperplasia vs adenoma; look for H pylori-associated changes."
+    },
+    {
+      "roi_id": "slide_A_x43008_y9216_mag20",
+      "tile_id": "slide_A_x43008_y9216_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 43008,
+      "y": 9216,
+      "level0": {
+        "x": 43008,
+        "y": 9216,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows elongated foveolae lined by tall columnar epithelium with abundant apical mucin and basally oriented nuclei. The lamina propria is expanded by edema and a mixed inflammatory infiltrate.\n\nThe most likely diagnosis is a gastric hyperplastic polyp. Differential diagnoses include a gastric adenoma, which would show epithelial dysplasia, and a gastric adenocarcinoma, which would show invasive carcinoma.",
+      "rationale": "High power in complex fronds to look for high-grade dysplasia/necrosis."
+    },
+    {
+      "roi_id": "slide_A_x45056_y10240_mag20",
+      "tile_id": "slide_A_x45056_y10240_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 45056,
+      "y": 10240,
+      "level0": {
+        "x": 45056,
+        "y": 10240,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows elongated, finger-like projections lined by tall columnar epithelium with basally oriented nuclei and abundant apical mucin. The lamina propria is expanded by a mixed inflammatory infiltrate.\n\nThe most likely diagnosis is a gastric hyperplastic polyp. Differential diagnoses include a gastric adenoma, which would show epithelial dysplasia, and a gastric adenocarcinoma, which would show invasive carcinoma.",
+      "rationale": "Region 4 at 20x to assess dysplasia, intestinal differentiation, surface maturation."
+    },
+    {
+      "roi_id": "slide_A_x24576_y25600_mag10",
+      "tile_id": "slide_A_x24576_y25600_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 24576,
+      "y": 25600,
+      "level0": {
+        "x": 24576,
+        "y": 25600,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of irregular, crowded glands lined by tall columnar cells with abundant apical mucin and basally oriented nuclei. The stroma is fibrotic with inflammation.\n\nThe most likely diagnosis is a gastric adenoma, foveolar type.\n\nDifferential diagnoses include hyperplastic polyp, which typically shows more regular glands and lacks significant architectural distortion, and well-differentiated adenocarcinoma, which would show infiltrative growth and cytologic atypia.",
+      "rationale": "Different part of central core to assess for fibromuscular stalk or submucosal lesion"
+    },
+    {
+      "roi_id": "slide_A_x32768_y25600_mag10",
+      "tile_id": "slide_A_x32768_y25600_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 32768,
+      "y": 25600,
+      "level0": {
+        "x": 32768,
+        "y": 25600,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a polypoid lesion with complex papillary and villiform architecture. The epithelium is composed of tall columnar cells with abundant apical mucin and basally oriented nuclei, with some areas showing nuclear stratification and hyperchromasia.\n\nThe most likely diagnosis is a gastric adenoma, foveolar type. The complex papillary and villiform architecture lined by tall columnar cells with apical mucin is characteristic of this entity. The presence of nuclear stratification and hyperchromasia suggests low-grade dysplasia.\n\nDifferential diagnoses include hyperplastic polyp, which typically shows more irregular glandular architecture and lacks significant nuclear atypia, and intestinal-type adenoma, which would show goblet cells and a different nuclear morphology.",
+      "rationale": "Opposite side of core for edema/inflammation and vessel pattern"
+    },
+    {
+      "roi_id": "slide_A_x52224_y8192_mag10",
+      "tile_id": "slide_A_x52224_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 52224,
+      "y": 8192,
+      "level0": {
+        "x": 52224,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows elongated and tortuous foveolae lined by tall columnar epithelium with abundant apical mucin. The lamina propria is expanded by edema and a mixed inflammatory infiltrate.\n\nThe most likely diagnosis is a gastric hyperplastic polyp. Differential diagnoses include a gastric adenoma, which would show epithelial dysplasia, and a gastric adenocarcinoma, which would show invasive carcinoma.",
+      "rationale": "Additional peripheral fronds on right side; look for focal high-grade dysplasia/cribriforming or necrosis."
+    },
+    {
+      "roi_id": "slide_A_x28672_y28672_mag10",
+      "tile_id": "slide_A_x28672_y28672_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 28672,
+      "y": 28672,
+      "level0": {
+        "x": 28672,
+        "y": 28672,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a polypoid lesion with complex papillary and villiform architecture. The epithelium is columnar with abundant apical mucin and basally oriented nuclei, and the stroma contains a prominent inflammatory infiltrate.\n\nThe most likely diagnosis is a gastric adenoma, foveolar type. This diagnosis is supported by the papillary and villiform architecture lined by foveolar-type epithelium with abundant apical mucin and basally oriented nuclei. The prominent stromal inflammation is also a common feature.\n\nDifferential diagnoses include hyperplastic polyp, which typically shows more irregular glandular architecture and less prominent papillary/villiform growth, and intestinal-type adenoma, which would show intestinal metaplasia with goblet cells and brush borders.",
+      "rationale": "Deeper core toward base for muscularis mucosae/submucosa"
+    },
+    {
+      "roi_id": "slide_A_x52224_y8192_mag20",
+      "tile_id": "slide_A_x52224_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 52224,
+      "y": 8192,
+      "level0": {
+        "x": 52224,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows gastric foveolar epithelium with reactive changes, including nuclear enlargement and stratification, and a prominent mixed inflammatory infiltrate in the lamina propria. The surface epithelium is irregular with some papillary projections.\n\nThe most likely diagnosis is a gastric hyperplastic polyp. This is supported by the foveolar hyperplasia, reactive epithelial changes, and the prominent inflammatory infiltrate. The papillary surface projections are also consistent with this diagnosis.\n\nDifferential diagnoses include a gastric adenoma, which would show more significant dysplasia, and a gastric adenocarcinoma, which would demonstrate invasive growth.",
+      "rationale": "High power follow-up for cytologic atypia, mitotic activity, necrosis."
+    },
+    {
+      "roi_id": "slide_A_x10240_y17408_mag10",
+      "tile_id": "slide_A_x10240_y17408_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 10240,
+      "y": 17408,
+      "level0": {
+        "x": 10240,
+        "y": 17408,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a polypoid lesion with a papillary and villiform architecture. The glands are lined by tall columnar cells with abundant apical mucin and basally oriented nuclei, and the lamina propria is expanded by a mixed inflammatory infiltrate.\n\nThe most likely diagnosis is a gastric hyperplastic polyp. Differential diagnoses include a gastric adenoma, which would show epithelial dysplasia, and a gastric adenocarcinoma, which would demonstrate invasive growth.",
+      "rationale": "Left lower frond area; assess for ulceration and atypical glands."
+    },
+    {
+      "roi_id": "slide_A_x10240_y16896_mag20",
+      "tile_id": "slide_A_x10240_y16896_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 10240,
+      "y": 16896,
+      "level0": {
+        "x": 10240,
+        "y": 16896,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows gastric foveolar epithelium with tall columnar cells, apical mucin, and basally oriented nuclei. The lamina propria contains a mixed inflammatory infiltrate. The surface epithelium appears intact.\n\nThe most likely diagnosis is a gastric hyperplastic polyp. This is supported by the presence of foveolar epithelium and the mixed inflammatory infiltrate in the lamina propria, which are characteristic features of this type of polyp. The intact surface epithelium is also consistent with a benign process.\n\nDifferential diagnoses to consider include a gastric adenoma, which would typically show dysplastic changes in the epithelium, and a gastric adenocarcinoma, which would demonstrate invasive growth and cytologic atypia.",
+      "rationale": "High power in left lower fronds for HGD features and invasion."
+    },
+    {
+      "roi_id": "slide_A_x28672_y25088_mag20",
+      "tile_id": "slide_A_x28672_y25088_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 28672,
+      "y": 25088,
+      "level0": {
+        "x": 28672,
+        "y": 25088,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows irregular glandular structures embedded in a cellular stroma with prominent inflammation and congested blood vessels. The glands are lined by columnar epithelium with basally oriented nuclei and apical mucin.\n\nThe most likely diagnosis is a gastric polyp, likely an inflammatory or hyperplastic polyp, given the prominent stromal inflammation and irregular glandular architecture. Other possibilities include a gastric adenoma or a well-differentiated adenocarcinoma, which would require assessment of nuclear atypia and architectural complexity beyond this single image.",
+      "rationale": "High mag in central core to assess inflammation type, eosinophils, onion-skin, spindle cells"
+    },
+    {
+      "roi_id": "slide_A_x27136_y26112_mag20",
+      "tile_id": "slide_A_x27136_y26112_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 27136,
+      "y": 26112,
+      "level0": {
+        "x": 27136,
+        "y": 26112,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows irregular glandular structures lined by columnar epithelium with nuclear stratification and hyperchromasia, set within a cellular stroma with inflammation. The glands exhibit variable size and shape, including branching and budding.\n\nThe most likely diagnosis is a gastric adenoma, specifically of the foveolar type, given the glandular architecture and epithelial features.\n\nDifferential diagnoses include reactive gastropathy, which typically shows less architectural distortion and nuclear atypia, and well-differentiated adenocarcinoma, which would demonstrate more significant architectural complexity and stromal invasion.",
+      "rationale": "High mag for potential muscularis mucosae bundles/arborization and any atypical stromal cells"
+    },
+    {
+      "roi_id": "slide_A_x31232_y26112_mag20",
+      "tile_id": "slide_A_x31232_y26112_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 31232,
+      "y": 26112,
+      "level0": {
+        "x": 31232,
+        "y": 26112,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows papillary structures lined by tall columnar epithelium with abundant apical mucin and basally oriented nuclei. The stroma is fibrovascular with scattered inflammatory cells.\n\nThe most likely diagnosis is a gastric adenoma, foveolar type.\n\nDifferential diagnoses include:\n- Gastric hyperplastic polyp: typically shows edematous stroma and cystic glands, often with inflammation.\n- Gastric adenocarcinoma: would show more significant nuclear atypia, loss of polarity, and potentially invasion.",
+      "rationale": "High mag near large vessels to look for IFP perivascular concentric fibrosis or GIST-like cells"
+    },
+    {
+      "roi_id": "slide_A_x3072_y13312_mag10",
+      "tile_id": "slide_A_x3072_y13312_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 3072,
+      "y": 13312,
+      "level0": {
+        "x": 3072,
+        "y": 13312,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a polypoid lesion with a complex glandular architecture, lined by tall columnar cells with abundant apical mucin and basally oriented nuclei. The stroma is expanded by a mixed inflammatory infiltrate.\n\nThe most likely diagnosis is a gastric hyperplastic polyp. Differential diagnoses include a gastric adenoma, which would show epithelial dysplasia, and a gastric adenocarcinoma, which would demonstrate invasive growth.",
+      "rationale": "Region 3 additional fronds; look for erosions/ulceration and dysplasia."
+    },
+    {
+      "roi_id": "slide_A_x3584_y13312_mag20",
+      "tile_id": "slide_A_x3584_y13312_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 3584,
+      "y": 13312,
+      "level0": {
+        "x": 3584,
+        "y": 13312,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows irregular glandular structures lined by columnar epithelium with nuclear stratification and hyperchromasia. The stroma is expanded by a dense mixed inflammatory infiltrate and congested capillaries.\n\nThe most likely diagnosis is a gastric adenoma, foveolar type. The irregular glandular architecture and epithelial atypia are characteristic of an adenoma. The presence of columnar epithelium with apical mucin suggests foveolar differentiation. The inflammatory infiltrate is a common reactive change.\n\nDifferential diagnoses include hyperplastic polyp, which typically shows more regular glands and lacks significant epithelial atypia, and gastric adenocarcinoma, which would show more pronounced architectural distortion and cytologic atypia, often with invasion.",
+      "rationale": "High power to assess cytologic grade/mitoses and exclude intramucosal carcinoma."
+    },
+    {
+      "roi_id": "slide_A_x23552_y33792_mag10",
+      "tile_id": "slide_A_x23552_y33792_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 23552,
+      "y": 33792,
+      "level0": {
+        "x": 23552,
+        "y": 33792,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a polypoid lesion with papillary and villiform architecture lined by tall columnar epithelium with abundant apical mucin. The stroma is edematous with inflammation and congested vessels.\n\nThe most likely diagnosis is a gastric adenoma, foveolar type.\n\nDifferential diagnoses include hyperplastic polyp, which typically shows more irregular glands and less prominent papillary architecture, and well-differentiated adenocarcinoma, which would show more significant cytologic atypia and invasion.",
+      "rationale": "Region 6 at 10x to assess if deeper stalk/submucosa with muscularis mucosae or submucosal lesion present"
+    },
+    {
+      "roi_id": "slide_A_x6144_y16384_mag10",
+      "tile_id": "slide_A_x6144_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 6144,
+      "y": 16384,
+      "level0": {
+        "x": 6144,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a polypoid lesion with a complex papillary and villiform architecture. The epithelium is composed of tall columnar cells with abundant apical mucin and basally oriented nuclei, with some areas showing nuclear stratification and hyperchromasia.\n\nThe most likely diagnosis is a gastric adenoma, specifically a foveolar type given the morphology. Differential diagnoses include hyperplastic polyp and well-differentiated adenocarcinoma. Hyperplastic polyps typically lack the complex architecture and significant nuclear atypia seen here. Well-differentiated adenocarcinoma would show more pronounced nuclear atypia, loss of polarity, and potentially invasion, which are not evident in this single field.",
+      "rationale": "Another area within region 3 cluster for heterogeneity."
+    },
+    {
+      "roi_id": "slide_A_x24576_y35840_mag20",
+      "tile_id": "slide_A_x24576_y35840_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 24576,
+      "y": 35840,
+      "level0": {
+        "x": 24576,
+        "y": 35840,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a polypoid structure lined by tall columnar epithelium with abundant apical mucin and basally oriented nuclei. The underlying stroma contains a mixed inflammatory infiltrate.\n\nThe most likely diagnosis is a gastric hyperplastic polyp. Differential diagnoses include a gastric adenoma, which would show epithelial dysplasia, and a gastric adenocarcinoma, which would demonstrate invasive growth.",
+      "rationale": "High mag in region 6 to look for smooth muscle arborization, edema, IFP features, spindle cells"
+    },
+    {
+      "roi_id": "slide_A_x6144_y16896_mag20",
+      "tile_id": "slide_A_x6144_y16896_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 6144,
+      "y": 16896,
+      "level0": {
+        "x": 6144,
+        "y": 16896,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows gastric foveolar epithelium with abundant apical mucin and basally oriented nuclei, forming papillary structures. The lamina propria contains a mixed inflammatory infiltrate.\n\nThe most likely diagnosis is a gastric hyperplastic polyp. Differential diagnoses include a gastric adenoma, which would show epithelial dysplasia, and a gastric adenocarcinoma, which would show invasive carcinoma.",
+      "rationale": "High power follow-up for HGD features."
+    },
+    {
+      "roi_id": "slide_A_x22528_y33792_mag20",
+      "tile_id": "slide_A_x22528_y33792_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 22528,
+      "y": 33792,
+      "level0": {
+        "x": 22528,
+        "y": 33792,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows gastric foveolar epithelium with elongated, tortuous glands lined by tall columnar cells with apical mucin. The lamina propria is expanded by a mixed inflammatory infiltrate.\n\nThe most likely diagnosis is a gastric hyperplastic polyp. Differential diagnoses include a gastric adenoma, which would show epithelial dysplasia, and a gastric adenocarcinoma, which would show invasive carcinoma.",
+      "rationale": "Another high mag focus for eosinophils/onion-skin or desmoplasia/invasion"
+    },
+    {
+      "roi_id": "slide_A_x24576_y34816_mag5",
+      "tile_id": "slide_A_x24576_y34816_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 24576,
+      "y": 34816,
+      "level0": {
+        "x": 24576,
+        "y": 34816,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a polypoid lesion with complex papillary and villiform architecture. The epithelium is composed of tall columnar cells with abundant apical mucin and basally oriented nuclei, with some areas showing nuclear stratification and hyperchromasia.\n\nThe most likely diagnosis is a gastric adenoma, foveolar type. This diagnosis is supported by the papillary and villiform architecture lined by foveolar-type epithelium with apical mucin and basally oriented nuclei. The presence of nuclear stratification and hyperchromasia suggests dysplasia.\n\nDifferential diagnoses include hyperplastic polyp, which typically shows elongated, tortuous glands with edematous stroma and inflammation, and lacks the complex papillary architecture and significant dysplasia seen here. Another consideration is a well-differentiated adenocarcinoma, which would show more pronounced cytologic atypia, loss of polarity, and potentially invasion, features not prominent in this image.",
+      "rationale": "Context in region 6 to locate deepest aspect/base and any suspicious infiltrative edges."
+    },
+    {
+      "roi_id": "slide_A_x25600_y35840_mag10",
+      "tile_id": "slide_A_x25600_y35840_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 25600,
+      "y": 35840,
+      "level0": {
+        "x": 25600,
+        "y": 35840,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a polypoid lesion with a complex, branching architecture lined by tall columnar cells with abundant apical mucin. The stroma is expanded by a mixed inflammatory infiltrate.\n\nThe most likely diagnosis is a gastric hyperplastic polyp. Differential diagnoses include a gastric adenoma, which would show epithelial dysplasia, and a gastric adenocarcinoma, which would demonstrate invasive growth.",
+      "rationale": "Another part of region 6 fragment; assess for infiltrative glands/desmoplasia."
+    },
+    {
+      "roi_id": "slide_A_x24576_y36352_mag20",
+      "tile_id": "slide_A_x24576_y36352_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 24576,
+      "y": 36352,
+      "level0": {
+        "x": 24576,
+        "y": 36352,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a polypoid lesion with papillary and villiform architecture lined by tall columnar cells with abundant apical mucin and basally oriented nuclei. The lamina propria is expanded by edema and inflammation.\n\nThe most likely diagnosis is a gastric foveolar-type adenoma. Differential diagnoses include hyperplastic polyp and intestinal-type adenoma, which can be distinguished by the type of epithelial lining and architectural patterns.",
+      "rationale": "High power for single cells/signet ring, marked atypia, mitoses."
+    },
+    {
+      "roi_id": "slide_A_x21504_y32768_mag10",
+      "tile_id": "slide_A_x21504_y32768_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 21504,
+      "y": 32768,
+      "level0": {
+        "x": 21504,
+        "y": 32768,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a polypoid lesion with complex papillary and villiform architecture. The epithelium is composed of tall columnar cells with abundant apical mucin and basally oriented nuclei, with some areas showing nuclear stratification and hyperchromasia.\n\nThe most likely diagnosis is a gastric foveolar-type adenoma. The complex papillary and villiform architecture lined by tall columnar cells with apical mucin and basally oriented nuclei is characteristic of this entity. The presence of nuclear stratification and hyperchromasia in some areas suggests low-grade dysplasia.\n\nDifferential diagnoses include a hyperplastic polyp, which typically shows elongated and tortuous foveolae with edematous stroma and inflammation, and a pyloric gland adenoma, which is composed of cells resembling pyloric glands with clear to pale eosinophilic cytoplasm and round nuclei.",
+      "rationale": "Opposite edge of region 6 to sample heterogeneity; look for invasive front."
+    },
+    {
+      "roi_id": "slide_A_x21504_y32768_mag20",
+      "tile_id": "slide_A_x21504_y32768_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 21504,
+      "y": 32768,
+      "level0": {
+        "x": 21504,
+        "y": 32768,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows elongated, branching glands lined by tall columnar epithelium with abundant apical mucin and basally oriented nuclei. The stroma contains a mixed inflammatory infiltrate.\n\nThe most likely diagnosis is a gastric foveolar adenoma. The differential diagnosis includes a hyperplastic polyp, which typically shows more irregular glandular architecture and less prominent mucin production.",
+      "rationale": "High power follow-up on edge for invasion."
+    },
+    {
+      "roi_id": "slide_A_x51712_y8192_mag20",
+      "tile_id": "slide_A_x51712_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 51712,
+      "y": 8192,
+      "level0": {
+        "x": 51712,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cystic structure lined by columnar epithelium with basally oriented nuclei and apical mucin. The surrounding stroma is edematous and contains a mixed inflammatory infiltrate.\n\nThe most likely diagnosis is a gastric hyperplastic polyp. Differential diagnoses include a gastric adenoma, which would show epithelial dysplasia, and a gastric adenocarcinoma, which would show invasive carcinoma.",
+      "rationale": "High-power check of surface epithelium for true dysplasia vs reactive change in prominent fronds"
+    },
+    {
+      "roi_id": "slide_A_x41472_y3584_mag20",
+      "tile_id": "slide_A_x41472_y3584_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 41472,
+      "y": 3584,
+      "level0": {
+        "x": 41472,
+        "y": 3584,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows gastric foveolar epithelium with reactive changes and a lamina propria expanded by edema and a mixed inflammatory infiltrate. Prominent, dilated capillaries are also present.\n\nThe most likely diagnosis is a hyperplastic polyp of the stomach.\n\nDifferential diagnoses include a gastric adenoma, which would show dysplastic epithelial changes, and a gastric inflammatory polyp, which typically has less prominent foveolar hyperplasia and more prominent inflammation.",
+      "rationale": "Assess area with cystic gland dilation for juvenile-type changes or dysplasia"
+    },
+    {
+      "roi_id": "slide_A_x28160_y23552_mag20",
+      "tile_id": "slide_A_x28160_y23552_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 28160,
+      "y": 23552,
+      "level0": {
+        "x": 28160,
+        "y": 23552,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of spindle cells with elongated, wavy nuclei arranged in fascicles within a collagenous stroma. Scattered inflammatory cells and prominent blood vessels are also present.\n\nThe most likely diagnosis is a benign mesenchymal tumor, such as a leiomyoma or schwannoma.\n\nDifferential diagnoses include gastrointestinal stromal tumor (GIST) and solitary fibrous tumor (SFT). GISTs typically show more uniform spindle cells and may have a different growth pattern. SFTs often have a more prominent hemangiopericytoma-like vascular pattern and may show CD34 positivity.",
+      "rationale": "Evaluate stalk/base for invasion or submucosal component"
+    },
+    {
+      "roi_id": "slide_A_x22528_y34304_mag20",
+      "tile_id": "slide_A_x22528_y34304_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 22528,
+      "y": 34304,
+      "level0": {
+        "x": 22528,
+        "y": 34304,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows elongated, tortuous glands lined by tall columnar epithelium with abundant apical mucin and basally oriented nuclei. The lamina propria is expanded by a mixed inflammatory infiltrate.\n\nThe most likely diagnosis is a gastric hyperplastic polyp. Differential diagnoses include a gastric adenoma, which would show epithelial dysplasia, and a gastric adenocarcinoma, which would demonstrate invasive growth.",
+      "rationale": "Confirm no spindle cell lesion; assess deeper aspect"
+    },
+    {
+      "roi_id": "slide_A_x27648_y23552_mag10",
+      "tile_id": "slide_A_x27648_y23552_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 27648,
+      "y": 23552,
+      "level0": {
+        "x": 27648,
+        "y": 23552,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a polypoid lesion with a prominent fibromuscular stroma containing numerous dilated blood vessels and scattered glands. The glands are lined by columnar epithelium with basally oriented nuclei and apical mucin.\n\nThe most likely diagnosis is a gastric Peutz-Jeghers polyp. The characteristic features include the prominent fibromuscular stroma and the presence of dilated blood vessels. The glands are lined by benign-appearing columnar epithelium. Differential diagnoses include hyperplastic polyp, which typically shows foveolar hyperplasia and edematous stroma, and adenoma, which would show dysplastic epithelium.",
+      "rationale": "Verify whether apparent spindle-cell proliferation at mag20 is true lesion vs muscularis mucosae/artefact; assess context at lower mag"
+    },
+    {
+      "roi_id": "slide_A_x27648_y23552_mag20",
+      "tile_id": "slide_A_x27648_y23552_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 27648,
+      "y": 23552,
+      "level0": {
+        "x": 27648,
+        "y": 23552,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a polypoid lesion with a prominent fibromuscular stroma containing numerous blood vessels and scattered inflammatory cells. Glandular structures are present at the periphery.\n\nThe most likely diagnosis is a gastric leiomyoma.\n\nDifferential diagnoses include gastrointestinal stromal tumor (GIST) and inflammatory fibroid polyp. GISTs typically show spindle cells with more prominent nuclear atypia and mitotic activity, and are positive for CD117 and DOG1. Inflammatory fibroid polyps have a more prominent inflammatory infiltrate, often with eosinophils, and a less organized stromal pattern.",
+      "rationale": "Recheck same ROI for smooth muscle bundles vs true mesenchymal tumor; look for Verocay bodies, perinuclear vacuoles, mitoses"
+    },
+    {
+      "roi_id": "slide_A_x28160_y22528_mag20",
+      "tile_id": "slide_A_x28160_y22528_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 28160,
+      "y": 22528,
+      "level0": {
+        "x": 28160,
+        "y": 22528,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a polypoid lesion with a prominent fibrovascular stroma containing numerous small glands and a large, congested blood vessel. The glands are lined by cuboidal to low columnar epithelium with basally oriented nuclei and eosinophilic cytoplasm.\n\nThe most likely diagnosis is a gastric hyperplastic polyp. The presence of a fibrovascular stroma with numerous small glands and a large, congested blood vessel is characteristic of this entity. The epithelial lining of the glands is also consistent with gastric foveolar epithelium.\n\nDifferential diagnoses include a gastric adenoma, which would typically show more complex glandular architecture and cytologic atypia, and a gastric adenocarcinoma, which would demonstrate invasive growth and significant cytologic atypia.",
+      "rationale": "Adjacent area of stalk to compare and assess muscularis mucosae extension"
+    },
+    {
+      "roi_id": "slide_A_x30720_y25600_mag20",
+      "tile_id": "slide_A_x30720_y25600_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 30720,
+      "y": 25600,
+      "level0": {
+        "x": 30720,
+        "y": 25600,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows elongated, branching glands lined by tall columnar epithelium with abundant apical mucin and basally oriented nuclei. The stroma is edematous with scattered inflammatory cells.\n\nThe most likely diagnosis is a gastric adenoma, foveolar type. This diagnosis is supported by the presence of elongated, branching glands lined by foveolar-type epithelium with abundant apical mucin and basally oriented nuclei, which are characteristic features of this type of adenoma. The edematous stroma with scattered inflammatory cells is also consistent with this diagnosis.\n\nDifferential diagnoses to consider include hyperplastic polyp and gastric adenocarcinoma. Hyperplastic polyps typically show irregular, cystic glands lined by foveolar epithelium with less prominent apical mucin and more prominent stromal inflammation. Gastric adenocarcinoma would show more significant cytologic atypia, architectural complexity, and invasion into the lamina propria or deeper layers.",
+      "rationale": "Another stalk focus to confirm absence of submucosal tumor and invasion"
+    }
+  ]
+}

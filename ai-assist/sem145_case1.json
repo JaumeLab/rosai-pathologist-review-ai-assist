@@ -1,0 +1,1870 @@
+{
+  "case_id": "sem145_case1",
+  "source": "slideseek-ai-assist",
+  "model": "gpt-5.4",
+  "generated_at": "2026-05-22T09:27:24.562900+00:00",
+  "organ": "Breast",
+  "primary_dx": "Breast Coccidioidomycosis With Suppurative Granulomatous Mastitis And Draining Sinus Tracts",
+  "differential_dx": [
+    "Tuberculous Or Atypical Mycobacterial Mastitis",
+    "Actinomycotic Mastitis"
+  ],
+  "microscopic_findings": [
+    {
+      "text": "Necrosuppurative foci contain numerous **thick-walled spherules** packed with **endospores**, diagnostic of fungal infection.",
+      "roi_ids": [
+        "slide_A_x9728_y11776_mag20",
+        "slide_A_x9216_y12288_mag20"
+      ]
+    },
+    {
+      "text": "Inflammation is **suppurative and granulomatous** with **multinucleated giant cells** surrounding necrotic debris.",
+      "roi_ids": [
+        "slide_A_x8192_y16384_mag10",
+        "slide_A_x24576_y16384_mag5"
+      ]
+    },
+    {
+      "text": "Ducts show **squamous metaplasia** with luminal **keratin debris** and adjacent foreign-body giant cell reaction.",
+      "roi_ids": [
+        "slide_A_x24576_y16384_mag10",
+        "slide_A_x16384_y12288_mag20"
+      ]
+    },
+    {
+      "text": "Ulcer-associated soft tissue shows chronic abscess formation with **draining sinus tracts** extending through inflamed fibrotic stroma.",
+      "roi_ids": [
+        "slide_A_x6144_y12288_mag5",
+        "slide_A_x8192_y12288_mag2"
+      ]
+    }
+  ],
+  "interpretation": "The biopsy shows **breast coccidioidomycosis** manifested by **suppurative granulomatous mastitis** containing numerous **thick-walled spherules with endospores**, which is morphologically characteristic of Coccidioides. Associated **draining sinus tracts** and chronic abscesses account for the destructive inflammatory process. Concurrent SMOLD-type ductal **squamous metaplasia** with keratin-associated giant cell reaction is present as a secondary associated change. The findings argue against **tuberculous/mycobacterial infection** and **actinomycosis**, as no caseating granulomas, sulfur granules, or filamentous colonies are identified on reviewed H&E.",
+  "num_rois": 114,
+  "tiles": [
+    {
+      "roi_id": "slide_A_x16384_y12288_mag2",
+      "tile_id": "slide_A_x16384_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 16384,
+      "y": 12288,
+      "level0": {
+        "x": 16384,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows breast tissue with dense fibrous stroma, adipose tissue, and glandular structures. There is a prominent inflammatory infiltrate, including lymphoid aggregates, and a large vessel with thickened walls.\n\nThe morphologic features are consistent with chronic inflammation and fibrosis in the breast. Given the clinical history of draining sinuses and the presence of inflammation and fibrosis, a diagnosis of chronic mastitis is suggested. The differential diagnosis includes infectious mastitis, such as tuberculous mastitis, which would require identification of acid-fast bacilli or granulomas, and other chronic inflammatory conditions.",
+      "rationale": "Low-power central survey for abscess cavities/sinus tracts/granulomas"
+    },
+    {
+      "roi_id": "slide_A_x16384_y8192_mag1",
+      "tile_id": "slide_A_x16384_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 16384,
+      "y": 8192,
+      "level0": {
+        "x": 16384,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows breast tissue with dense fibrous stroma, adipose tissue, and lobules. There is a prominent inflammatory infiltrate, particularly around ducts and lobules, with associated stromal changes and areas of necrosis.\n\nThe morphologic features are consistent with a chronic inflammatory process involving the breast tissue, likely infectious in nature. Given the clinical history of draining sinuses and the presence of abscesses and sinus tract formation, the most likely diagnosis is chronic mastitis with abscess formation.\n\nDifferential diagnoses to consider include:\n- Tuberculous mastitis: Supported by the clinical history of acid-fast organisms and radiologic findings suggestive of osteomyelitis. Histologically, caseating granulomas would be expected.\n- Other infectious mastitis (e.g., bacterial, fungal): The presence of abscesses and sinus tracts is common to various infectious etiologies. Special stains for organisms (e.g., Gram, GMS, PAS) would be helpful to identify the specific pathogen.",
+      "rationale": "Low-power central survey for overall architecture and any mass-forming lesion."
+    },
+    {
+      "roi_id": "slide_A_x14336_y10240_mag5",
+      "tile_id": "slide_A_x14336_y10240_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 14336,
+      "y": 10240,
+      "level0": {
+        "x": 14336,
+        "y": 10240,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows dense fibrous tissue with chronic inflammation, prominent blood vessels, and areas of fat necrosis. There is also a focus of amorphous eosinophilic material.\n\nThe most likely diagnosis is fat necrosis with associated chronic inflammation and fibrosis.\n\nDifferential diagnoses include:\n- Tuberculosis: The clinical history of suspected tuberculosis and acid-fast organisms in drainage material raises this possibility. However, the histology lacks the characteristic granulomas with caseous necrosis.\n- Chronic abscess: The presence of abscesses and sinus tracts in the gross description supports this, but the histology does not show the typical features of a chronic abscess.",
+      "rationale": "Central pale area on thumbnail—likely abscess/sinus; localize luminal contents."
+    },
+    {
+      "roi_id": "slide_A_x4096_y4096_mag2",
+      "tile_id": "slide_A_x4096_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 4096,
+      "y": 4096,
+      "level0": {
+        "x": 4096,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a section of skin with epidermal acanthosis and irregular rete ridges, overlying dermis with dense fibrosis and chronic inflammation. The epidermis is detached from the underlying dermis in some areas.\n\nThe morphologic features are consistent with a chronic inflammatory process involving the skin and underlying tissue, with features of chronic inflammation and fibrosis. Given the clinical history of draining sinuses and the presence of abscesses and sinus tract formation, the most likely diagnosis is a chronic inflammatory condition, potentially infectious in nature.\n\nDifferential diagnoses to consider include chronic bacterial infection (such as atypical mycobacterial infection, given the history of acid-fast organisms), fungal infection, or a chronic inflammatory condition like hidradenitis suppurativa. The presence of abscesses and sinus tracts strongly favors an infectious etiology.",
+      "rationale": "Low-power left-superior area—look for necrosis or granulomatous nodules"
+    },
+    {
+      "roi_id": "slide_A_x8192_y12288_mag2",
+      "tile_id": "slide_A_x8192_y12288_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 8192,
+      "y": 12288,
+      "level0": {
+        "x": 8192,
+        "y": 12288,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a deep ulcer with undermined edges and a dense inflammatory infiltrate in the dermis and subcutaneous tissue, including granulomatous inflammation with giant cells. There is also evidence of necrosis and fibrosis.\n\nThe most likely diagnosis is a deep fungal infection, such as blastomycosis, given the clinical history of a chronic draining sinus in a young female from a region where such infections are endemic.\n\nDifferential diagnoses include tuberculosis, which was initially suspected clinically, and other deep fungal infections like coccidioidomycosis or histoplasmosis. Special stains for fungi (e.g., GMS, PAS) and acid-fast bacilli (AFB) would be helpful to confirm the presence of fungal organisms and rule out mycobacterial infection.",
+      "rationale": "Left half appears more solid/dark; likely inflammation/abscess—assess architecture"
+    },
+    {
+      "roi_id": "slide_A_x6144_y8192_mag5",
+      "tile_id": "slide_A_x6144_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 6144,
+      "y": 8192,
+      "level0": {
+        "x": 6144,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a skin biopsy with epidermal acanthosis, hyperkeratosis, and irregular rete ridges. The dermis contains a dense inflammatory infiltrate, predominantly lymphocytes and plasma cells, with associated fibrosis and dilated vessels.\n\nThe morphologic features are consistent with a chronic inflammatory process. Given the clinical history of draining sinuses and the presence of abscesses and sinus tracts in the gross specimen, the most likely diagnosis is a chronic inflammatory condition, potentially infectious in nature.\n\nDifferential diagnoses include:\n1. Chronic bacterial infection (e.g., Staphylococcus aureus) - typically presents with abscesses and sinus tracts, often with a mixed inflammatory infiltrate.\n2. Tuberculosis - the clinical history mentions acid-fast organisms and a radiologic impression of tuberculous osteomyelitis, but the histology is not specific for tuberculosis.\n3. Fungal infection - certain fungal infections can present with chronic inflammation and abscess formation, although special stains would be needed to identify fungal elements.",
+      "rationale": "Left-sided denser inflammatory region—look for abscess cavities."
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag1",
+      "tile_id": "slide_A_x8192_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a large ulcerated area with undermined edges and a dense inflammatory infiltrate in the underlying stroma. There is also evidence of chronic inflammation and fibrosis in the surrounding tissue.\n\nThe most likely diagnosis is a chronic inflammatory process, such as a chronic abscess or sinus tract, potentially related to the patient's history of draining sinuses and prior treatment for tuberculosis.\n\nDifferential diagnoses to consider include:\n1. Tuberculous mastitis: Given the patient's history of treated tuberculosis and the presence of abscesses and sinus tracts, this remains a possibility, although the lack of demonstrable acid-fast organisms in the current specimen is a limitation.\n2. Chronic bacterial mastitis: This could be due to other bacterial pathogens, such as Staphylococcus aureus, which can cause chronic abscesses and sinus tracts in the breast.\n3. Fungal mastitis: Certain fungal infections, such as sporotrichosis, can present with chronic abscesses and sinus tracts, particularly in immunocompromised individuals or those with a history of exposure to contaminated material.",
+      "rationale": "Low-power scan of left portion where inflammation appears dense on thumbnail."
+    },
+    {
+      "roi_id": "slide_A_x24576_y8192_mag2",
+      "tile_id": "slide_A_x24576_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 24576,
+      "y": 8192,
+      "level0": {
+        "x": 24576,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows breast tissue with a lobulocentric pattern of inflammation and fibrosis, featuring dense lymphocytic infiltrates and prominent stromal sclerosis. Scattered ducts and lobules are present within the inflammatory process.\n\nThe most likely diagnosis is granulomatous mastitis. This diagnosis is supported by the lobulocentric inflammation, dense lymphocytic infiltrate, and stromal sclerosis. The clinical history of draining sinuses and the presence of abscesses and sinus tracts further support this diagnosis.\n\nDifferential diagnoses include tuberculous mastitis and other infectious mastitides. Tuberculous mastitis would typically show caseating granulomas, which are not evident in this image. Other infectious mastitides, such as those caused by fungi or atypical mycobacteria, could also present with granulomatous inflammation and would require special stains or cultures for identification.",
+      "rationale": "Right half shows lobulated fibroadipose with linear bands—look for ducts/sinus or granulomas"
+    },
+    {
+      "roi_id": "slide_A_x20480_y10240_mag5",
+      "tile_id": "slide_A_x20480_y10240_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 20480,
+      "y": 10240,
+      "level0": {
+        "x": 20480,
+        "y": 10240,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows breast tissue with dense fibrous stroma and adipose tissue, along with a prominent inflammatory infiltrate and areas of necrosis. The inflammatory infiltrate is composed of lymphocytes, plasma cells, and histiocytes, with scattered multinucleated giant cells.\n\nThe most likely diagnosis is granulomatous mastitis. The presence of granulomatous inflammation with multinucleated giant cells and necrosis is characteristic. Differential diagnoses include infectious granulomatous mastitis (e.g., tuberculosis, fungal infection) and idiopathic granulomatous mastitis. Special stains for acid-fast bacilli and fungi would be helpful to rule out infectious etiologies.",
+      "rationale": "Right-sided fibrous parenchyma with linear tracts—possible sinus tracts/ducts with debris."
+    },
+    {
+      "roi_id": "slide_A_x24576_y8192_mag1",
+      "tile_id": "slide_A_x24576_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 24576,
+      "y": 8192,
+      "level0": {
+        "x": 24576,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows breast tissue with lobules and ducts embedded in fibrous stroma and adipose tissue. There is a prominent inflammatory infiltrate, particularly around ducts and lobules, with associated stromal fibrosis.\n\nThe morphologic features are consistent with chronic inflammation and abscess formation in the breast tissue. Given the clinical history of draining sinuses and the presence of abscesses and sinus tracts, the most likely diagnosis is chronic abscessing mastitis. The differential diagnosis includes tuberculous mastitis, which was considered clinically, and other infectious causes of chronic mastitis.",
+      "rationale": "Low-power scan of right upper quadrant for fibrosis or infiltrative tumor."
+    },
+    {
+      "roi_id": "slide_A_x24576_y16384_mag2",
+      "tile_id": "slide_A_x24576_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 24576,
+      "y": 16384,
+      "level0": {
+        "x": 24576,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a dense inflammatory infiltrate with granulomatous features, including epithelioid histiocytes and multinucleated giant cells, within a fibrous stroma. There is also a prominent lymphoid aggregate.\n\nThe most likely diagnosis is granulomatous mastitis. The differential diagnoses include infectious granulomatous mastitis (e.g., tuberculosis, fungal infection) and idiopathic granulomatous mastitis. Distinguishing features would include the presence of acid-fast bacilli or fungal organisms on special stains, and clinical correlation with systemic symptoms or travel history.",
+      "rationale": "Low-power right-inferior region—often shows abscess tracts/fat necrosis"
+    },
+    {
+      "roi_id": "slide_A_x16384_y16384_mag2",
+      "tile_id": "slide_A_x16384_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 16384,
+      "y": 16384,
+      "level0": {
+        "x": 16384,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows breast tissue with dense chronic inflammation, fibrosis, and prominent lymphoid aggregates. There are also areas of necrosis and amorphous material.\n\nThe most likely diagnosis is chronic granulomatous mastitis. The differential diagnosis includes tuberculous mastitis, which can be distinguished by the presence of caseating granulomas and positive acid-fast bacilli staining.",
+      "rationale": "Inferior central region near pale adipose with possible cavities—look for abscess/sinus tracts"
+    },
+    {
+      "roi_id": "slide_A_x8192_y16384_mag2",
+      "tile_id": "slide_A_x8192_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 8192,
+      "y": 16384,
+      "level0": {
+        "x": 8192,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a dense inflammatory infiltrate with granulomatous features, including multinucleated giant cells, and areas of necrosis. There is also evidence of fibrosis and vascular changes.\n\nThe most likely diagnosis is granulomatous mastitis. Differential diagnoses include infectious granulomatous mastitis (e.g., tuberculosis, fungal infection) and idiopathic granulomatous mastitis.",
+      "rationale": "Low-power left-inferior region—evaluate inflammation pattern and necrosis"
+    },
+    {
+      "roi_id": "slide_A_x12288_y4096_mag2",
+      "tile_id": "slide_A_x12288_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 4096,
+      "level0": {
+        "x": 12288,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows dense fibrous stroma with chronic inflammation, including lymphoid aggregates and granulomas, and scattered epithelial structures. There is also adipose tissue and areas of hemorrhage.\n\nThe most likely diagnosis is granulomatous mastitis. The presence of granulomas and chronic inflammation in the breast tissue is characteristic of this condition. Differential diagnoses include infectious granulomatous mastitis (e.g., tuberculosis, fungal infection) and sarcoidosis, which can be distinguished by special stains for organisms and clinical correlation.",
+      "rationale": "Superior central region near pale cleft—possible skin/nipple/ulcer region"
+    },
+    {
+      "roi_id": "slide_A_x14336_y16384_mag5",
+      "tile_id": "slide_A_x14336_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 14336,
+      "y": 16384,
+      "level0": {
+        "x": 14336,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows breast tissue with adipose tissue and fibrous stroma containing a large vessel with thickened walls and luminal material, and a smaller vessel with a thickened wall and perivascular inflammation. There is also a focus of dense cellularity.\n\nThe morphologic features suggest a chronic inflammatory process with vascular changes and fibrosis. Given the clinical history of draining sinuses and the presence of abscesses and sinus tracts in the gross specimen, the most likely diagnosis is a chronic inflammatory condition of the breast, such as a chronic abscess or fistula.\n\nDifferential diagnoses to consider include:\n- Tuberculous mastitis: Supported by the clinical history of acid-fast organisms and radiologic findings suggestive of osteomyelitis, although the histology is not specific for tuberculosis.\n- Chronic abscess or fistula: Supported by the clinical history and gross findings of abscesses and sinus tracts.\n- Other chronic inflammatory conditions: Less likely given the specific clinical presentation and gross findings.",
+      "rationale": "Inferior region—search for additional abscesses/necrosis."
+    },
+    {
+      "roi_id": "slide_A_x24576_y16384_mag1",
+      "tile_id": "slide_A_x24576_y16384_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 24576,
+      "y": 16384,
+      "level0": {
+        "x": 24576,
+        "y": 16384,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows breast tissue with a dense inflammatory infiltrate, predominantly lymphocytes, surrounding and infiltrating lobules and ducts. There is also prominent stromal fibrosis and adipose tissue.\n\nThe morphologic features are consistent with a chronic inflammatory process involving the breast parenchyma and stroma. Given the clinical history of draining sinuses and the presence of abscesses and sinus tracts, a diagnosis of chronic mastitis with abscess formation is most likely. The differential diagnosis includes infectious mastitis (bacterial, fungal, or mycobacterial) and inflammatory breast carcinoma. The presence of dense lymphocytic infiltrate and fibrosis, along with the clinical history of draining sinuses and abscesses, favors a chronic inflammatory process over malignancy. Special stains for microorganisms (e.g., Gram, GMS, AFB) and cultures would be helpful to identify a specific infectious etiology.",
+      "rationale": "Low-power scan of right lower quadrant for desmoplastic/infiltrative patterns."
+    },
+    {
+      "roi_id": "slide_A_x24576_y8192_mag10",
+      "tile_id": "slide_A_x24576_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 24576,
+      "y": 8192,
+      "level0": {
+        "x": 24576,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows breast tissue with dense fibrous stroma, chronic inflammation, and distorted ducts and lobules. There is also a large duct with a thickened wall and luminal material.\n\nThe morphologic features are consistent with chronic mastitis and abscess formation. The differential diagnosis includes infectious mastitis (bacterial or fungal) and granulomatous mastitis.",
+      "rationale": "Interrogate reported granulomas; assess for caseation vs lobulocentric noncaseating granulomas/suppuration"
+    },
+    {
+      "roi_id": "slide_A_x15360_y11264_mag10",
+      "tile_id": "slide_A_x15360_y11264_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 15360,
+      "y": 11264,
+      "level0": {
+        "x": 15360,
+        "y": 11264,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a large empty space surrounded by dense fibrous tissue with chronic inflammation and foreign body giant cells. Adjacent adipose tissue is also present.\n\nThe morphologic features are consistent with a foreign body reaction to a large empty space, likely representing a dissolved foreign material. The differential diagnosis includes a reaction to a foreign body such as a suture, implant, or injected material, or a reaction to a parasitic organism.",
+      "rationale": "Increase mag in central pale zone to find abscess lumen/sinus content."
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag5",
+      "tile_id": "slide_A_x8192_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows epidermal acanthosis and hyperkeratosis with irregular rete ridges, and a dense dermal inflammatory infiltrate with fibrosis and adnexal involvement. The most likely diagnosis is a chronic inflammatory process, such as a deep fungal infection or atypical mycobacterial infection, given the clinical history and histological findings.",
+      "rationale": "Sample ulcer/abscess-heavy left-central area for any infiltrating carcinoma mimics."
+    },
+    {
+      "roi_id": "slide_A_x8192_y4096_mag2",
+      "tile_id": "slide_A_x8192_y4096_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 8192,
+      "y": 4096,
+      "level0": {
+        "x": 8192,
+        "y": 4096,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a skin ulcer with irregular epidermal hyperplasia and a dense dermal inflammatory infiltrate. The infiltrate is composed of lymphocytes, plasma cells, and numerous multinucleated giant cells, with associated fibrosis and granuloma formation.\n\nThe most likely diagnosis is a chronic granulomatous inflammatory process, such as tuberculosis or other infectious etiologies.\n\nDifferential diagnoses include:\n- Tuberculosis: Supported by the presence of granulomas and multinucleated giant cells, and the clinical history of acid-fast organisms.\n- Fungal infection: Can also cause granulomatous inflammation and should be considered, especially in endemic areas.\n- Sarcoidosis: Typically non-caseating granulomas, but can present with similar morphology.\n- Foreign body reaction: Granulomas can form around foreign material, though no foreign material is noted in the description.",
+      "rationale": "Upper left quadrant—look for skin/ulcer or sinus tract origins"
+    },
+    {
+      "roi_id": "slide_A_x24576_y16384_mag10",
+      "tile_id": "slide_A_x24576_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 24576,
+      "y": 16384,
+      "level0": {
+        "x": 24576,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows breast tissue with dense fibrous stroma, chronic inflammation, and epithelial structures exhibiting squamous metaplasia and keratinization. There is also a focus of granulomatous inflammation with multinucleated giant cells.\n\nThe most likely diagnosis is squamous metaplasia of lactiferous ducts (SMOLD) with associated granulomatous inflammation.\n\nDifferential diagnoses include:\n- Tuberculous mastitis: This is less likely given the absence of caseating granulomas and the clinical history of negative acid-fast organisms.\n- Idiopathic granulomatous mastitis: This typically lacks the prominent squamous metaplasia and keratinization seen in this case.",
+      "rationale": "Granulomatous area with lymphoid aggregate—look for necrosis, giant cells, organisms"
+    },
+    {
+      "roi_id": "slide_A_x13312_y13312_mag10",
+      "tile_id": "slide_A_x13312_y13312_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 13312,
+      "y": 13312,
+      "level0": {
+        "x": 13312,
+        "y": 13312,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows breast tissue with adipose tissue and dense fibrous stroma containing chronic inflammation and numerous blood vessels. There is also amorphous eosinophilic material and dark granular material.\n\nThe most likely diagnosis is a chronic inflammatory process with abscess formation and sinus tract formation, consistent with a breast abscess.\n\nDifferential diagnoses include:\n- Tuberculous mastitis: This is a consideration given the patient's history of tuberculosis and the presence of acid-fast organisms in drainage material. However, the histology does not show the characteristic granulomas of tuberculosis.\n- Other infectious mastitis: Bacterial or fungal infections could also cause abscess formation and chronic inflammation. Special stains for microorganisms would be helpful to rule out specific pathogens.",
+      "rationale": "Inferior-central area with small pale foci—possible abscesses; search for debris."
+    },
+    {
+      "roi_id": "slide_A_x8192_y16384_mag10",
+      "tile_id": "slide_A_x8192_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 8192,
+      "y": 16384,
+      "level0": {
+        "x": 8192,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows dense fibrous tissue with a mixed inflammatory infiltrate, including lymphocytes, plasma cells, and multinucleated giant cells, along with areas of hemorrhage and necrosis.\n\nThe most likely diagnosis is granulomatous mastitis. Differential diagnoses include tuberculosis and fungal infections, which can also present with granulomatous inflammation and necrosis.",
+      "rationale": "Area with necrosis at low power—clarify type (caseous vs suppurative), look for vasculitis/fat necrosis"
+    },
+    {
+      "roi_id": "slide_A_x16384_y8192_mag5",
+      "tile_id": "slide_A_x16384_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 16384,
+      "y": 8192,
+      "level0": {
+        "x": 16384,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows dense fibrous tissue with chronic inflammation and numerous blood vessels, adjacent to mature adipose tissue. The interface between the fibrous and adipose tissue is irregular.\n\nThe most likely diagnosis for this single histology tile is chronic inflammation and fibrosis, likely secondary to a chronic infectious process.\n\nDifferential diagnoses include:\n1. Chronic inflammatory process secondary to infection (e.g., tuberculosis, fungal infection) - characterized by dense fibrosis, chronic inflammation, and potentially granulomas (not seen in this low-power view).\n2. Chronic inflammatory process secondary to trauma or foreign body reaction - characterized by dense fibrosis and chronic inflammation, but typically lacks the specific features of infection.",
+      "rationale": "Evaluate central fibrotic/inflamed area for desmoplasia or infiltrative glands."
+    },
+    {
+      "roi_id": "slide_A_x4096_y16384_mag2",
+      "tile_id": "slide_A_x4096_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 4096,
+      "y": 16384,
+      "level0": {
+        "x": 4096,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows epidermal acanthosis and hyperkeratosis with a dense dermal inflammatory infiltrate composed of lymphocytes, plasma cells, and histiocytes, including granulomas. There is also dermal fibrosis and thickened collagen bundles.\n\nThe most likely diagnosis is granulomatous mastitis. The presence of granulomas in the breast, along with the clinical history of draining sinuses and abscesses, is characteristic. Differential diagnoses include infectious granulomatous mastitis (e.g., tuberculosis, fungal infection) and sarcoidosis, which can be distinguished by special stains for organisms and clinical correlation.",
+      "rationale": "Lower left—more intensely inflamed region; map abscess cavities and fibrosis"
+    },
+    {
+      "roi_id": "slide_A_x8192_y10240_mag10",
+      "tile_id": "slide_A_x8192_y10240_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 8192,
+      "y": 10240,
+      "level0": {
+        "x": 8192,
+        "y": 10240,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows stratified squamous epithelium with acanthosis and irregular rete ridges overlying a stroma with dense chronic inflammation, fibrosis, and dilated blood vessels. There is also a focus of squamous differentiation with keratinization.\n\nThe most likely diagnosis is squamous metaplasia of lactiferous ducts (SMOLD) with associated inflammation and abscess formation.\n\nDifferential diagnoses include:\n- Tuberculous mastitis: Considered due to the clinical history of draining sinuses and acid-fast organisms, but the histology lacks granulomas.\n- Chronic abscess with reactive epithelial changes: The presence of squamous metaplasia and abscesses could be secondary to chronic inflammation, but the specific pattern of squamous metaplasia is characteristic of SMOLD.",
+      "rationale": "Left dermal/chronic inflamed area—look for sinus tract opening with exudate."
+    },
+    {
+      "roi_id": "slide_A_x24576_y8192_mag5",
+      "tile_id": "slide_A_x24576_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 24576,
+      "y": 8192,
+      "level0": {
+        "x": 24576,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows breast tissue with dense fibrous stroma, chronic inflammation, and epithelial structures exhibiting squamous metaplasia and keratinization. There are also areas of necrosis and calcification.\n\nThe most likely diagnosis is squamous metaplasia of lactiferous ducts (SMOLD) with associated abscess formation and sinus tract.\n\nDifferential diagnoses include:\n- Tuberculous mastitis: Considered due to the patient's history and radiologic findings, but the histology lacks granulomas.\n- Chronic abscess with fistula formation: The presence of abscesses and sinus tracts is consistent, but the prominent squamous metaplasia points towards SMOLD as the primary process.",
+      "rationale": "Assess right upper quadrant parenchyma for atypical epithelial proliferation or invasion."
+    },
+    {
+      "roi_id": "slide_A_x16384_y12288_mag10",
+      "tile_id": "slide_A_x16384_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 16384,
+      "y": 12288,
+      "level0": {
+        "x": 16384,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows adipose tissue with a large irregular space containing amorphous eosinophilic material and cellular debris, surrounded by fibrous tissue and chronic inflammation. The wall of the space is lined by flattened cells.\n\nThe morphologic features are consistent with a sinus tract or abscess formation within the breast tissue. Given the clinical history of draining sinuses and the presence of abscesses and sinus tracts in the gross specimen, the most likely diagnosis is a chronic inflammatory process, potentially infectious in nature.\n\nDifferential diagnoses include:\n1. Tuberculous mastitis: Supported by the clinical history of suspected tuberculosis and the presence of acid-fast organisms in drainage material. The chronic inflammation and sinus tract formation are consistent with this diagnosis.\n2. Chronic bacterial mastitis: Other bacterial infections can cause chronic inflammation, abscesses, and sinus tracts in the breast. The clinical history of treatment with streptomycin suggests a bacterial etiology was considered.",
+      "rationale": "Central fibrotic/inflamed region—evaluate sinus tract/abscess wall for granulomas"
+    },
+    {
+      "roi_id": "slide_A_x16384_y10240_mag5",
+      "tile_id": "slide_A_x16384_y10240_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 16384,
+      "y": 10240,
+      "level0": {
+        "x": 16384,
+        "y": 10240,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows dense fibrous tissue with chronic inflammation and scattered calcifications, adjacent to mature adipose tissue. A small vessel with thickened walls is also present.\n\nThe morphologic features are consistent with chronic inflammation and fibrosis, which can be seen in various conditions including chronic infection, trauma, or other inflammatory processes. Given the clinical history of draining sinuses and the presence of calcifications, a chronic infectious process such as tuberculosis should be considered. However, the absence of granulomas or caseous necrosis in this field makes it difficult to definitively diagnose tuberculosis based on this single image alone. Other chronic inflammatory conditions or sequelae of previous trauma or surgery could also present with similar findings.",
+      "rationale": "Central pale area around prior mark—likely fat necrosis/abscess; better define cavities/tracts"
+    },
+    {
+      "roi_id": "slide_A_x21504_y10240_mag10",
+      "tile_id": "slide_A_x21504_y10240_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 21504,
+      "y": 10240,
+      "level0": {
+        "x": 21504,
+        "y": 10240,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows breast tissue with prominent lobular hyperplasia and dense fibrous stroma. There are also areas of inflammation and necrosis.\n\nThe most likely diagnosis is granulomatous mastitis, likely due to tuberculosis.\n\nDifferential diagnoses include other causes of granulomatous inflammation such as sarcoidosis or fungal infections, which would require special stains for differentiation.",
+      "rationale": "Right granulomatous area—target for necrosis with organisms."
+    },
+    {
+      "roi_id": "slide_A_x24576_y16384_mag5",
+      "tile_id": "slide_A_x24576_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 24576,
+      "y": 16384,
+      "level0": {
+        "x": 24576,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows breast tissue with dense fibrous stroma and chronic inflammation, including granulomas with multinucleated giant cells. There are also areas of necrosis and linear artifacts.\n\nThe most likely diagnosis is granulomatous mastitis, likely infectious in nature given the clinical history of draining sinuses and prior treatment for tuberculosis.\n\nDifferential diagnoses include idiopathic granulomatous mastitis and other infectious causes such as fungal or atypical mycobacterial infections.",
+      "rationale": "Assess right lower quadrant fibrotic bands for infiltrative carcinoma pattern."
+    },
+    {
+      "roi_id": "slide_A_x6144_y1024_mag10",
+      "tile_id": "slide_A_x6144_y1024_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 6144,
+      "y": 1024,
+      "level0": {
+        "x": 6144,
+        "y": 1024,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The epidermis shows acanthosis and hyperkeratosis with irregular rete ridges. The dermis contains thickened collagen bundles, a sparse perivascular lymphocytic infiltrate, and scattered melanophages.\n\nThe most likely diagnosis is a chronic inflammatory process, potentially related to the patient's history of draining sinuses and abscesses. Differential diagnoses include chronic dermatitis, hypertrophic scar, or a reaction to foreign material.",
+      "rationale": "Skin/dermis with chronic inflammation—assess for sinus tract, actinomyces colonies, follicular structures"
+    },
+    {
+      "roi_id": "slide_A_x20480_y6144_mag5",
+      "tile_id": "slide_A_x20480_y6144_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 20480,
+      "y": 6144,
+      "level0": {
+        "x": 20480,
+        "y": 6144,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows breast tissue with prominent lobular hyperplasia and dilated ducts, along with dense fibrous stroma and chronic inflammation. The morphologic features are consistent with a chronic inflammatory process.\n\nThe most likely diagnosis is chronic mastitis with abscess formation and sinus tract formation. The differential diagnosis includes tuberculous mastitis, which can present with similar features, but would typically show granulomatous inflammation and caseous necrosis.",
+      "rationale": "Right superior—evaluate lobulocentric inflammation vs diffuse and look for granulomas"
+    },
+    {
+      "roi_id": "slide_A_x20480_y16384_mag2",
+      "tile_id": "slide_A_x20480_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 20480,
+      "y": 16384,
+      "level0": {
+        "x": 20480,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows breast tissue with dense fibrous stroma, chronic inflammation, and granulomatous inflammation with multinucleated giant cells. There is also a large area of necrosis and inflammation.\n\nThe most likely diagnosis is granulomatous mastitis. Differential diagnoses include infectious granulomatous mastitis (e.g., tuberculosis, fungal) and idiopathic granulomatous mastitis.",
+      "rationale": "Right inferior—assess deep margin and extent of fibrosis/inflammation"
+    },
+    {
+      "roi_id": "slide_A_x14336_y14336_mag5",
+      "tile_id": "slide_A_x14336_y14336_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 14336,
+      "y": 14336,
+      "level0": {
+        "x": 14336,
+        "y": 14336,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows breast tissue with adipose tissue and fibrous stroma, along with a large vessel containing eosinophilic material and a smaller vessel with a thickened wall. There is also amorphous eosinophilic material and scattered inflammatory cells.\n\nThe morphologic features are non-specific and do not provide a definitive diagnosis. The presence of amorphous eosinophilic material and inflammation could be seen in various inflammatory or infectious processes. Given the clinical history of draining sinuses and the radiologic impression of tuberculous osteomyelitis, a granulomatous process such as tuberculosis should be considered. However, the lack of specific granulomas or caseating necrosis in this field makes it difficult to confirm. Other possibilities include chronic inflammation or infection with other organisms. Further evaluation of additional sections and special stains for organisms would be necessary to establish a definitive diagnosis.",
+      "rationale": "Sample lower central area near possible sinus tracts/abscesses."
+    },
+    {
+      "roi_id": "slide_A_x15360_y11264_mag20",
+      "tile_id": "slide_A_x15360_y11264_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 15360,
+      "y": 11264,
+      "level0": {
+        "x": 15360,
+        "y": 11264,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cystic space containing amorphous eosinophilic material and surrounded by dense fibrous tissue with chronic inflammation. The lining of the cystic space is irregular and focally absent.\n\nThe most likely diagnosis is a breast abscess with associated sinus tract formation.\n\nDifferential diagnoses include:\n- Tuberculous mastitis: This would typically show granulomatous inflammation with caseous necrosis, which is not evident in this image.\n- Foreign body reaction: This would show foreign body giant cells and a mixed inflammatory infiltrate, which are not prominent features in this image.",
+      "rationale": "Large cavity/space—check luminal contents for sulfur granules/organisms."
+    },
+    {
+      "roi_id": "slide_A_x24576_y16384_mag20",
+      "tile_id": "slide_A_x24576_y16384_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 24576,
+      "y": 16384,
+      "level0": {
+        "x": 24576,
+        "y": 16384,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows breast tissue with a dense inflammatory infiltrate, predominantly lymphocytes and plasma cells, surrounding and infiltrating ducts and lobules. There is also evidence of stromal fibrosis.\n\nThe morphologic features are consistent with chronic mastitis. Given the clinical history of draining sinuses and the presence of abscesses and sinus tract formation, a specific diagnosis of tuberculous mastitis should be considered. Other differential diagnoses include other infectious mastitides (e.g., bacterial, fungal) or inflammatory conditions like granulomatous mastitis.",
+      "rationale": "High power on squamous metaplasia/keratin focus with granulomatous inflammation—check for keratin granulomas vs caseation; look for AFB-like organisms"
+    },
+    {
+      "roi_id": "slide_A_x16384_y12288_mag20",
+      "tile_id": "slide_A_x16384_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 16384,
+      "y": 12288,
+      "level0": {
+        "x": 16384,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cystic structure lined by stratified squamous epithelium with keratinization and a lumen containing amorphous material. The surrounding stroma is fibrofatty with scattered inflammatory cells.\n\nThe most likely diagnosis is a squamous-lined cyst with associated inflammation. Differential diagnoses include a ruptured epidermal inclusion cyst or a cystic lesion with squamous metaplasia, such as a mucocele-like lesion or a cystic abscess.",
+      "rationale": "High power of sinus tract/abscess wall—look for suppurative granulomas, actinomyces sulfur granules, Splendore-Hoeppli"
+    },
+    {
+      "roi_id": "slide_A_x26624_y6144_mag5",
+      "tile_id": "slide_A_x26624_y6144_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 26624,
+      "y": 6144,
+      "level0": {
+        "x": 26624,
+        "y": 6144,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a dense inflammatory infiltrate with granulomatous features, including multinucleated giant cells, within a background of fibrous stroma. There is also evidence of ductal structures and areas of necrosis.\n\nThe most likely diagnosis is granulomatous mastitis. Differential diagnoses include infectious granulomatous mastitis (e.g., tuberculosis, fungal infection) and sarcoidosis.",
+      "rationale": "Right mid-superior quadrant—seek discrete granulomas/necrosis vs duct-centered inflammation"
+    },
+    {
+      "roi_id": "slide_A_x13312_y13312_mag20",
+      "tile_id": "slide_A_x13312_y13312_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 13312,
+      "y": 13312,
+      "level0": {
+        "x": 13312,
+        "y": 13312,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows dense fibrous tissue with scattered chronic inflammation and prominent, thickened, hyalinized collagen bundles. There is also a small blood vessel with thickened walls.\n\nThe morphologic features are consistent with chronic inflammation and fibrosis, which can be seen in various conditions including chronic infections, inflammatory processes, or reactive changes. Given the clinical history of draining sinuses and the presence of abscesses and sinus tracts in the gross specimen, a chronic infectious process is a strong consideration. The differential diagnosis includes chronic bacterial infection (such as tuberculosis, given the history of acid-fast organisms), fungal infection, or other chronic inflammatory conditions. Further evaluation with special stains for microorganisms (e.g., acid-fast bacilli, fungal stains) and correlation with clinical findings and microbiology results would be necessary to establish a definitive diagnosis.",
+      "rationale": "Area with dark granular material/amorphous eosinophilic debris—possible colonies."
+    },
+    {
+      "roi_id": "slide_A_x23552_y8192_mag10",
+      "tile_id": "slide_A_x23552_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 23552,
+      "y": 8192,
+      "level0": {
+        "x": 23552,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows dense fibrous stroma with chronic inflammation and scattered epithelial structures, including ducts and lobules, some with dilated lumens. A large, irregular structure with a thickened wall is also present.\n\nThe morphologic features are consistent with chronic inflammation and fibrosis in the breast. Given the clinical history of draining sinuses and the presence of abscesses and sinus tracts, the findings are most suggestive of a chronic inflammatory process, potentially infectious in nature.\n\nDifferential diagnoses include chronic mastitis, abscess formation, and granulomatous mastitis. The presence of granulomas would favor granulomatous mastitis, while the absence of granulomas and the clinical history of draining sinuses and abscesses would favor chronic mastitis or abscess formation.",
+      "rationale": "Follow up area with squamous metaplasia/keratinization to ensure no squamous carcinoma or invasive carcinoma."
+    },
+    {
+      "roi_id": "slide_A_x21504_y10240_mag20",
+      "tile_id": "slide_A_x21504_y10240_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 21504,
+      "y": 10240,
+      "level0": {
+        "x": 21504,
+        "y": 10240,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of small, irregular glandular structures embedded in a dense fibrous stroma. The glands are lined by cuboidal to low columnar cells with basally oriented nuclei and eosinophilic cytoplasm, with some lumens containing eosinophilic material.\n\nThe morphologic features are consistent with a benign adenomatous proliferation of the breast, such as a tubular adenoma. The differential diagnosis includes tubular carcinoma, which would typically show infiltrative growth, angulated tubules, and lack of a myoepithelial layer.",
+      "rationale": "Necrosis/inflammation focus—search for fungal/AFB-like organisms."
+    },
+    {
+      "roi_id": "slide_A_x24576_y12288_mag5",
+      "tile_id": "slide_A_x24576_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 24576,
+      "y": 12288,
+      "level0": {
+        "x": 24576,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows breast tissue with lobules and ducts embedded in dense fibrous stroma. There is a prominent inflammatory infiltrate, particularly around ducts and lobules, and some ducts appear dilated.\n\nThe most likely diagnosis is chronic mastitis with abscess formation. The presence of dense fibrous stroma, inflammation, and dilated ducts are consistent with chronic inflammation and abscess formation. The clinical history of draining sinuses and abscesses further supports this diagnosis.\n\nDifferential diagnoses to consider include tuberculous mastitis, which can present with similar features, and other infectious mastitides. Special stains for acid-fast bacilli and cultures would be helpful to rule out tuberculosis.",
+      "rationale": "Right central—evaluate if inflammation is lobulocentric and whether abscesses present"
+    },
+    {
+      "roi_id": "slide_A_x8192_y16384_mag20",
+      "tile_id": "slide_A_x8192_y16384_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 8192,
+      "y": 16384,
+      "level0": {
+        "x": 8192,
+        "y": 16384,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows dense fibrous tissue with a prominent chronic inflammatory infiltrate, including lymphocytes and plasma cells, and scattered multinucleated giant cells. There is also evidence of hemorrhage and vascular congestion.\n\nThe morphologic features are consistent with a chronic inflammatory process, likely infectious in nature, given the presence of giant cells and chronic inflammation. The clinical history of draining sinuses, abscesses, and sinus tract formation in the breast, along with the radiologic findings of destructive bone changes, strongly suggests a chronic infectious process involving both soft tissue and bone.\n\nThe most likely diagnosis is chronic osteomyelitis with associated abscess formation and sinus tract development. The differential diagnosis includes other chronic inflammatory conditions such as a foreign body reaction or a granulomatous process like sarcoidosis, although the clinical context and radiologic findings make osteomyelitis the leading consideration.",
+      "rationale": "High power on necrotic area—distinguish caseous necrosis vs neutrophilic debris; look for vasculitis"
+    },
+    {
+      "roi_id": "slide_A_x18944_y12288_mag20",
+      "tile_id": "slide_A_x18944_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 18944,
+      "y": 12288,
+      "level0": {
+        "x": 18944,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows mature adipose tissue with scattered inflammatory cells and small vessels. The presence of inflammation within adipose tissue is noted.\n\nThe most likely diagnosis for this single tile is fat necrosis with inflammation. The differential diagnosis includes other inflammatory processes such as infectious mastitis or granulomatous inflammation.",
+      "rationale": "Explore additional right-central tracty area for abscess contents not yet sampled."
+    },
+    {
+      "roi_id": "slide_A_x23552_y16384_mag10",
+      "tile_id": "slide_A_x23552_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 23552,
+      "y": 16384,
+      "level0": {
+        "x": 23552,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows breast tissue with dense fibrous stroma and scattered glandular structures. There is a prominent inflammatory infiltrate, including lymphocytes and plasma cells, surrounding the glands and within the stroma.\n\nThe most likely diagnosis is chronic mastitis with abscess formation. The presence of dense fibrosis, chronic inflammation, and glandular structures is consistent with a long-standing inflammatory process in the breast. The clinical history of draining sinuses, abscesses, and sinus tract formation further supports this diagnosis.\n\nDifferential diagnoses to consider include:\n- Tuberculous mastitis: The clinical history of acid-fast organisms and radiologic findings suggestive of osteomyelitis raise the possibility of tuberculosis. However, the histology does not show the characteristic granulomas with caseous necrosis.\n- Idiopathic granulomatous mastitis: This condition can present with chronic inflammation and abscess formation, but typically shows granulomas with multinucleated giant cells, which are not evident in this image.",
+      "rationale": "Follow up granulomatous area; check for infiltrative malignant glands at periphery."
+    },
+    {
+      "roi_id": "slide_A_x24576_y14336_mag5",
+      "tile_id": "slide_A_x24576_y14336_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 24576,
+      "y": 14336,
+      "level0": {
+        "x": 24576,
+        "y": 14336,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows breast tissue with lobules and ducts embedded in dense fibrous stroma. There is a prominent inflammatory infiltrate, including lymphocytes and plasma cells, surrounding the lobules and ducts, with some ducts showing luminal dilation.\n\nThe most likely diagnosis is chronic mastitis with abscess formation. The presence of dense fibrous stroma, chronic inflammation, and ductal changes are consistent with a long-standing inflammatory process. The clinical history of draining sinuses and abscesses further supports this diagnosis.\n\nDifferential diagnoses to consider include granulomatous mastitis, which can present with chronic inflammation and abscesses, and infectious mastitis, particularly given the history of suspected tuberculosis. Special stains for acid-fast bacilli and fungal organisms would be helpful to rule out specific infections.",
+      "rationale": "Right lower central—assess necrosis/abscess cavity architecture"
+    },
+    {
+      "roi_id": "slide_A_x24576_y8192_mag20",
+      "tile_id": "slide_A_x24576_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 24576,
+      "y": 8192,
+      "level0": {
+        "x": 24576,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense inflammatory infiltrate composed of lymphocytes and plasma cells, along with numerous small, irregular glandular structures embedded in a fibrous stroma. A large duct is also present.\n\nThe morphologic features are consistent with a chronic inflammatory process involving the breast tissue, likely infectious in nature. Given the clinical history of draining sinuses, abscesses, and sinus tract formation, the most likely diagnosis is chronic mastitis with abscess formation.\n\nDifferential diagnoses to consider include:\n- Tuberculous mastitis: This is a strong consideration given the clinical history of acid-fast organisms and the radiologic impression of tuberculous osteomyelitis. The presence of granulomas would support this diagnosis.\n- Other infectious mastitis: Bacterial or fungal infections could also cause similar inflammatory changes and abscess formation.\n- Granulomatous mastitis: This condition can present with chronic inflammation and abscesses, but typically shows non-caseating granulomas.",
+      "rationale": "High power in lobulocentric chronic mastitis area—look for epithelioid granulomas, Langhans giant cells, fat necrosis"
+    },
+    {
+      "roi_id": "slide_A_x16384_y8192_mag10",
+      "tile_id": "slide_A_x16384_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 16384,
+      "y": 8192,
+      "level0": {
+        "x": 16384,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows mature adipose tissue with dense fibrous stroma containing scattered chronic inflammatory cells and small blood vessels. The fibrous tissue appears to separate lobules of adipocytes.\n\nThe morphologic features are consistent with chronic inflammation and fibrosis in breast tissue. Given the clinical history of draining sinuses, abscesses, and sinus tract formation, the most likely diagnosis is chronic mastitis with abscess formation and sinus tracts.\n\nDifferential diagnoses to consider include:\n- Tuberculous mastitis: The clinical history of a destructive process in the ribs and radiologic impression of tuberculous osteomyelitis raises suspicion for tuberculosis. However, the histology does not show granulomas or caseating necrosis, which are typical features of tuberculosis.\n- Other infectious mastitis: Bacterial or fungal infections can cause chronic inflammation, abscesses, and sinus tracts. Special stains for microorganisms (e.g., Gram stain, GMS, PAS) would be helpful to rule out specific pathogens.",
+      "rationale": "Central fibrotic-inflamed area: look for desmoplasia and infiltrating ductal carcinoma."
+    },
+    {
+      "roi_id": "slide_A_x15872_y10240_mag20",
+      "tile_id": "slide_A_x15872_y10240_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 15872,
+      "y": 10240,
+      "level0": {
+        "x": 15872,
+        "y": 10240,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows dense fibrous tissue with scattered spindle cells and inflammatory cells, adjacent to mature adipose tissue. There is a transition zone with increased cellularity and inflammation.\n\nThe morphologic features are consistent with chronic inflammation and fibrosis, which can be seen in various conditions including chronic infections, inflammatory processes, or reactive changes. Given the clinical history of draining sinuses and the presence of abscesses and sinus tracts in the gross specimen, a chronic infectious process is a strong consideration. The differential diagnosis includes chronic bacterial infection (such as tuberculosis, given the history of acid-fast organisms), fungal infection, or other chronic inflammatory conditions. Further evaluation with special stains for microorganisms (e.g., AFB, GMS) and correlation with clinical findings and microbiology results would be necessary to establish a definitive diagnosis.",
+      "rationale": "Just superior to prior cavity—look for abscess lumen with granular colonies/sulfur granules."
+    },
+    {
+      "roi_id": "slide_A_x10240_y14336_mag5",
+      "tile_id": "slide_A_x10240_y14336_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 10240,
+      "y": 14336,
+      "level0": {
+        "x": 10240,
+        "y": 14336,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a transition from dense inflammation and necrosis to fibrous tissue and adipose tissue. The inflammatory infiltrate is mixed, including lymphocytes, plasma cells, and neutrophils, with areas of necrosis and hemorrhage.\n\nThe most likely diagnosis is a chronic inflammatory process with abscess formation and sinus tract formation, consistent with a chronic infection or granulomatous disease.\n\nDifferential diagnoses include:\n1. Tuberculosis: Supported by the clinical history of acid-fast organisms and radiologic findings suggestive of osteomyelitis. Histologically, one would look for caseating granulomas, which are not clearly evident in this low-power view.\n2. Chronic bacterial infection: The presence of abscesses and sinus tracts is consistent with a chronic bacterial infection. Special stains for bacteria could be performed to identify the causative organism.\n3. Fungal infection: Given the patient's history of travel to Mexico, a fungal infection such as histoplasmosis or coccidioidomycosis could be considered. Special stains for fungi (e.g., GMS, PAS) would be helpful in identifying fungal elements.",
+      "rationale": "Central-lower area with multiple small green regions—likely abscess/sinus tracts in fat"
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag10",
+      "tile_id": "slide_A_x8192_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows epidermal acanthosis with irregular rete ridges and a dense band-like lymphocytic infiltrate in the superficial dermis. There is also evidence of dermal fibrosis and edema.\n\nThe most likely diagnosis is a chronic inflammatory process, potentially related to the patient's history of draining sinuses and abscesses in the breast.\n\nDifferential diagnoses include chronic mastitis, potentially infectious or related to a foreign body reaction, and a cutaneous manifestation of an underlying systemic disease such as lupus erythematosus.",
+      "rationale": "Skin/ulcer area: exclude invasive squamous carcinoma or dermal lymphatic invasion."
+    },
+    {
+      "roi_id": "slide_A_x14848_y11776_mag20",
+      "tile_id": "slide_A_x14848_y11776_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 14848,
+      "y": 11776,
+      "level0": {
+        "x": 14848,
+        "y": 11776,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows dense fibrous tissue with scattered chronic inflammation and prominent blood vessels. There is also amorphous eosinophilic material and a focus of dark granular material.\n\nThe most likely diagnosis is a chronic inflammatory process with granulomatous features, such as tuberculosis.\n\nDifferential diagnoses include other granulomatous infections (e.g., fungal) and non-infectious granulomatous conditions (e.g., sarcoidosis).",
+      "rationale": "Margin of cystic/abscess space—search for basophilic filamentous bacterial balls with Splendore-Hoeppli."
+    },
+    {
+      "roi_id": "slide_A_x6144_y12288_mag5",
+      "tile_id": "slide_A_x6144_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 6144,
+      "y": 12288,
+      "level0": {
+        "x": 6144,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a skin ulcer with a dense inflammatory infiltrate in the dermis, including lymphocytes, plasma cells, and neutrophils, with associated fibrosis and granulation tissue. The epidermis shows acanthosis and hyperkeratosis.\n\nThe most likely diagnosis is a chronic inflammatory process, likely infectious, given the ulceration and mixed inflammatory infiltrate. Differential diagnoses include tuberculosis, atypical mycobacterial infection, and deep fungal infection.",
+      "rationale": "Left central—look for larger abscesses and possible sinus tract lumina"
+    },
+    {
+      "roi_id": "slide_A_x21504_y13312_mag10",
+      "tile_id": "slide_A_x21504_y13312_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 21504,
+      "y": 13312,
+      "level0": {
+        "x": 21504,
+        "y": 13312,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a lobule with acini and ducts embedded in dense fibrous stroma. The acini are lined by cells with round nuclei and eosinophilic cytoplasm, and some lumens contain eosinophilic material.\n\nThe most likely diagnosis for this specific histology tile is normal breast tissue. The dense fibrous stroma and the appearance of the acini and ducts are consistent with normal breast morphology. However, given the clinical history of draining sinuses and the presence of ulcers and abscesses in the gross specimen, this histology tile may not represent the entire pathology of the case. The differential diagnosis for the clinical presentation would include infectious processes such as tuberculosis or other bacterial infections, as well as inflammatory conditions like granulomatous mastitis.",
+      "rationale": "Unsurveyed mid-right parenchyma near ducts—look for discrete granulomas or necrosis"
+    },
+    {
+      "roi_id": "slide_A_x8704_y11776_mag20",
+      "tile_id": "slide_A_x8704_y11776_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 8704,
+      "y": 11776,
+      "level0": {
+        "x": 8704,
+        "y": 11776,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense inflammatory infiltrate with numerous round to oval structures exhibiting thick walls and internal contents, some with budding. These structures are present within the inflammatory background and associated with necrosis and hemorrhage.\n\nThe most likely diagnosis is a fungal infection, specifically blastomycosis, given the characteristic morphology of the organisms and the clinical context of a chronic draining lesion in the breast.\n\nDifferential diagnoses include other fungal infections such as cryptococcosis (which typically shows narrow-based budding and a prominent capsule) and histoplasmosis (which presents as smaller intracellular yeasts).",
+      "rationale": "Left-mid inflammatory zone (per map ROI cluster)—check for draining sinus content/keratin debris with organisms."
+    },
+    {
+      "roi_id": "slide_A_x19456_y11264_mag10",
+      "tile_id": "slide_A_x19456_y11264_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 19456,
+      "y": 11264,
+      "level0": {
+        "x": 19456,
+        "y": 11264,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows mature adipose tissue with a transition to dense fibrous stroma containing scattered inflammatory cells and small vessels. The adipocytes appear uniform.\n\nThe most likely diagnosis for this single tile is a benign process, such as a fibroadenoma or a reactive fibrous process. The presence of mature adipose tissue and dense fibrous stroma with scattered inflammatory cells and small vessels is consistent with these possibilities.\n\nDifferential diagnoses to consider include a fibroadenoma, which typically shows a mixture of stromal and epithelial components, and a reactive fibrous process, which may show increased fibrosis and inflammation in response to injury or infection. The absence of significant cellular atypia or increased mitotic activity in this single tile makes a malignant process less likely.",
+      "rationale": "Sample additional mid-right parenchyma not yet scrutinized for occult carcinoma."
+    },
+    {
+      "roi_id": "slide_A_x20480_y13824_mag20",
+      "tile_id": "slide_A_x20480_y13824_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20480,
+      "y": 13824,
+      "level0": {
+        "x": 20480,
+        "y": 13824,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows dense fibrous stroma with scattered chronic inflammation and epithelial structures exhibiting squamous metaplasia. The epithelial cells have round to oval nuclei and moderate cytoplasm, arranged in nests and cords.\n\nThe most likely diagnosis is squamous metaplasia of lactiferous ducts (SMOLD) with associated chronic inflammation and fibrosis.\n\nDifferential diagnoses include:\n- Tuberculous mastitis: would show granulomatous inflammation with caseation necrosis, which is not seen here.\n- Invasive squamous cell carcinoma: would show infiltrative growth, cytologic atypia, and desmoplastic stromal reaction, which are not prominent features in this image.",
+      "rationale": "Higher power of same area if granulomas/suppuration present"
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag2",
+      "tile_id": "slide_A_x8192_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a breast tissue section with ulcerated epidermis and underlying dense chronic inflammation, fibrosis, and granulomatous inflammation with foreign body giant cells. There is also evidence of bone destruction.\n\nThe most likely diagnosis is a chronic granulomatous inflammatory process, likely infectious in nature, given the clinical history of draining sinuses and prior treatment for tuberculosis.\n\nDifferential diagnoses include tuberculosis and fungal infections, which can present with similar granulomatous inflammation and bone involvement. Special stains for acid-fast bacilli and fungi would be helpful to differentiate between these possibilities.",
+      "rationale": "Very superior edge to confirm presence/absence of skin and relationship to ulcer/sinus openings"
+    },
+    {
+      "roi_id": "slide_A_x22528_y14848_mag20",
+      "tile_id": "slide_A_x22528_y14848_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 22528,
+      "y": 14848,
+      "level0": {
+        "x": 22528,
+        "y": 14848,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows breast tissue with dense fibrous stroma and scattered glandular structures. There is a prominent inflammatory infiltrate composed of lymphocytes and plasma cells, along with areas of necrosis and amorphous material.\n\nThe morphologic features, including dense fibrosis, chronic inflammation, and necrosis, are consistent with a chronic inflammatory process. Given the clinical history of draining sinuses, abscesses, and sinus tract formation, the most likely diagnosis is a chronic inflammatory condition of the breast, such as a chronic abscess or fistula.\n\nDifferential diagnoses to consider include:\n- Tuberculous mastitis: The clinical history of acid-fast organisms and radiologic findings suggestive of osteomyelitis raise suspicion for tuberculosis. However, the absence of granulomas in this image makes this less likely.\n- Chronic abscess or fistula: The presence of necrosis, inflammation, and sinus tract formation aligns with this diagnosis. The clinical history of draining sinuses and abscesses supports this possibility.",
+      "rationale": "Right-lower ROI cluster—possible abscess; inspect for fungi/Actinomyces."
+    },
+    {
+      "roi_id": "slide_A_x12288_y13312_mag10",
+      "tile_id": "slide_A_x12288_y13312_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 12288,
+      "y": 13312,
+      "level0": {
+        "x": 12288,
+        "y": 13312,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows breast tissue with dense fibrous stroma, chronic inflammation, and prominent blood vessels. There is also a large vessel with a thickened wall and luminal contents.\n\nThe morphologic features are consistent with chronic inflammation and fibrosis in the breast. The presence of prominent vessels and chronic inflammation suggests a reactive process, possibly related to the patient's history of draining sinuses and prior treatments. The large vessel with a thickened wall and luminal contents could represent a thrombosed vessel or a vessel involved in the inflammatory process.\n\nDifferential diagnoses to consider include chronic mastitis, potentially related to the patient's history of draining sinuses and prior treatments. Other possibilities include a reactive process secondary to trauma or infection, or a vascular lesion with secondary inflammation. Further evaluation of the entire specimen and correlation with clinical history would be necessary to arrive at a definitive diagnosis.",
+      "rationale": "Midline area between previously sampled ROIs—search for granulomas/caseation"
+    },
+    {
+      "roi_id": "slide_A_x26624_y12288_mag10",
+      "tile_id": "slide_A_x26624_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 26624,
+      "y": 12288,
+      "level0": {
+        "x": 26624,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows dense fibrous stroma with scattered chronic inflammation and linear dark structures. There are also areas of increased cellularity with small, hyperchromatic nuclei.\n\nThe most likely diagnosis is chronic inflammation with foreign body reaction, likely related to the linear dark structures. The differential diagnosis includes granulomatous inflammation, such as tuberculosis, which would show granulomas and potentially acid-fast bacilli.",
+      "rationale": "Unexplored right-mid area to exclude infiltrative carcinoma in relatively preserved parenchyma."
+    },
+    {
+      "roi_id": "slide_A_x28672_y10240_mag5",
+      "tile_id": "slide_A_x28672_y10240_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 28672,
+      "y": 10240,
+      "level0": {
+        "x": 28672,
+        "y": 10240,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows dense fibrous stroma with scattered chronic inflammation and prominent lymphoid aggregates. There are also areas of amorphous eosinophilic material and linear artifacts.\n\nThe morphologic features are consistent with chronic inflammation and fibrosis, which can be seen in various conditions including chronic infections, autoimmune diseases, or reactive processes. Given the clinical history of draining sinuses and the presence of amorphous eosinophilic material, a chronic infectious process such as tuberculosis should be considered. However, the absence of granulomas or caseous necrosis in this field makes it difficult to definitively diagnose tuberculosis based on this single image alone. Other possibilities include chronic bacterial infections or non-infectious inflammatory conditions. Further evaluation with special stains for microorganisms (e.g., acid-fast bacilli, fungi) and correlation with clinical findings and imaging would be necessary to establish a definitive diagnosis.",
+      "rationale": "Far right edge near presumed deep margin—look for extension or discrete abscess/sinus tracts"
+    },
+    {
+      "roi_id": "slide_A_x24064_y9728_mag20",
+      "tile_id": "slide_A_x24064_y9728_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 24064,
+      "y": 9728,
+      "level0": {
+        "x": 24064,
+        "y": 9728,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of small, irregular glands and tubules embedded in a dense fibrous stroma. The glands are lined by cuboidal to low columnar cells with basally oriented nuclei and eosinophilic cytoplasm, with some containing luminal material.\n\nThe most likely diagnosis is tubular adenoma of the breast. This benign lesion is characterized by a proliferation of small, well-formed tubules lined by a single layer of epithelial cells, often with a surrounding myoepithelial layer, embedded in a fibrous stroma. The presence of luminal material is also a common feature.\n\nDifferential diagnoses to consider include tubular carcinoma, which typically shows angulated tubules infiltrating the stroma without a myoepithelial layer, and sclerosing adenosis, which can have a more complex architecture and stromal sclerosis.",
+      "rationale": "Right-upper tract area—look for necrosis/colonies."
+    },
+    {
+      "roi_id": "slide_A_x5120_y13312_mag10",
+      "tile_id": "slide_A_x5120_y13312_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 5120,
+      "y": 13312,
+      "level0": {
+        "x": 5120,
+        "y": 13312,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The epidermis shows acanthosis, hyperkeratosis, and irregular rete ridges with basal layer hyperpigmentation. The dermis contains a dense inflammatory infiltrate, fibrosis, and dilated vessels.\n\nThe most likely diagnosis is a chronic inflammatory process with features of granulomatous inflammation, such as tuberculosis or other chronic infections.\n\nDifferential diagnoses include:\n- Tuberculosis: Look for caseating granulomas and acid-fast bacilli.\n- Fungal infection: Look for fungal elements and special stains.\n- Sarcoidosis: Look for non-caseating granulomas.\n- Foreign body reaction: Look for foreign material and giant cells.",
+      "rationale": "Far left peripheral tissue edge—check for invasive carcinoma near skin/ulcer tracts."
+    },
+    {
+      "roi_id": "slide_A_x11776_y13312_mag20",
+      "tile_id": "slide_A_x11776_y13312_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 11776,
+      "y": 13312,
+      "level0": {
+        "x": 11776,
+        "y": 13312,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a transition from dense fibrous tissue with chronic inflammation and fibrosis to adipose tissue. There is a prominent mixed inflammatory infiltrate, including lymphocytes and plasma cells, with associated fibrosis and thickened blood vessels.\n\nThe morphologic features are consistent with chronic inflammation and fibrosis. Given the clinical history of draining sinuses and the presence of abscesses and sinus tracts in the gross specimen, the most likely diagnosis is a chronic inflammatory process, such as chronic mastitis or a chronic abscess.\n\nDifferential diagnoses to consider include:\n1. Tuberculous mastitis: The clinical history of a positive tuberculin test and radiologic findings suggestive of tuberculous osteomyelitis raise suspicion for tuberculosis. However, the absence of acid-fast organisms in the histology and negative culture results make this less likely.\n2. Chronic abscess: The presence of multiple abscesses and sinus tracts in the gross specimen supports a diagnosis of chronic abscess. The histology shows chronic inflammation and fibrosis, which are consistent with a chronic inflammatory process.",
+      "rationale": "High power to evaluate necrosis type/giant cells/vasculitis"
+    },
+    {
+      "roi_id": "slide_A_x16384_y20480_mag2",
+      "tile_id": "slide_A_x16384_y20480_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 16384,
+      "y": 20480,
+      "level0": {
+        "x": 16384,
+        "y": 20480,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a dense inflammatory infiltrate with granulomatous features, including epithelioid histiocytes and multinucleated giant cells, associated with fibrosis and necrosis. There is also evidence of fat necrosis and inflammation in the surrounding adipose tissue.\n\nThe most likely diagnosis is granulomatous mastitis. Differential diagnoses include infectious granulomatous mastitis (e.g., tuberculosis, fungal infection) and idiopathic granulomatous mastitis. Distinguishing features would include the presence of acid-fast bacilli or fungal organisms on special stains, and clinical correlation with response to treatment.",
+      "rationale": "Inferior edge/deep aspect—assess fibrosis/inflammation at margin"
+    },
+    {
+      "roi_id": "slide_A_x12288_y3072_mag10",
+      "tile_id": "slide_A_x12288_y3072_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 12288,
+      "y": 3072,
+      "level0": {
+        "x": 12288,
+        "y": 3072,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows dense fibrous stroma with scattered chronic inflammation and numerous small, irregular glandular structures. Some glandular structures are dilated and contain eosinophilic material.\n\nThe most likely diagnosis is tuberculous mastitis. The presence of dense fibrosis, chronic inflammation, and irregular glandular structures is consistent with a chronic inflammatory process. The clinical history of draining sinuses, radiologic findings suggestive of osteomyelitis, and the presence of acid-fast organisms in drainage material support a diagnosis of tuberculosis.\n\nDifferential diagnoses include other chronic inflammatory conditions such as chronic abscess or granulomatous mastitis. However, the clinical context and identification of acid-fast organisms strongly favor tuberculous mastitis.",
+      "rationale": "Upper central tissue—look for ductal carcinoma/infiltrative glands away from abscess."
+    },
+    {
+      "roi_id": "slide_A_x14336_y11264_mag10",
+      "tile_id": "slide_A_x14336_y11264_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 14336,
+      "y": 11264,
+      "level0": {
+        "x": 14336,
+        "y": 11264,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows dense fibrous tissue with chronic inflammation, including lymphocytes and plasma cells, and areas of fat necrosis. There are also dilated spaces containing amorphous eosinophilic material and cellular debris.\n\nThe most likely diagnosis is fat necrosis with associated chronic inflammation and sinus tract formation.\n\nDifferential diagnoses include:\n- Tuberculous mastitis: This would typically show granulomatous inflammation with caseating necrosis, which is not seen here.\n- Chronic abscess: While there is chronic inflammation and abscess formation, the prominent fat necrosis and sinus tracts are more characteristic of fat necrosis.",
+      "rationale": "Representative central necrotic/abscess area to define if true abscess cavity/sinus tract at slightly higher low power"
+    },
+    {
+      "roi_id": "slide_A_x17408_y15360_mag10",
+      "tile_id": "slide_A_x17408_y15360_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 17408,
+      "y": 15360,
+      "level0": {
+        "x": 17408,
+        "y": 15360,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows mature adipose tissue with fibrous septa containing blood vessels and a prominent perivascular inflammatory infiltrate. The inflammation is predominantly lymphocytic.\n\nThe morphologic features are consistent with chronic inflammation, likely secondary to an infectious process. Given the clinical history of draining sinuses and the presence of abscesses and sinus tracts in the gross specimen, the most likely diagnosis is a chronic infectious process, such as tuberculosis or a deep fungal infection.\n\nDifferential diagnoses include:\n- Tuberculosis: Supported by the clinical history of acid-fast organisms and radiologic findings suggestive of osteomyelitis. Histologically, one would look for granulomas, caseous necrosis, and acid-fast bacilli.\n- Deep fungal infection: Supported by the clinical history of a \"faith healer\" and the presence of abscesses and sinus tracts. Histologically, one would look for fungal organisms within the inflammatory infiltrate.",
+      "rationale": "Lower central-right fibrofatty tissue—look for fat necrosis and foreign-body giant cells around keratin debris"
+    },
+    {
+      "roi_id": "slide_A_x8192_y5120_mag10",
+      "tile_id": "slide_A_x8192_y5120_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 8192,
+      "y": 5120,
+      "level0": {
+        "x": 8192,
+        "y": 5120,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The epidermis shows acanthosis with elongated rete ridges and surface hyperkeratosis. The dermis contains thickened collagen bundles, a sparse perivascular lymphocytic infiltrate, and scattered melanophages.\n\nThe most likely diagnosis is a chronic inflammatory process, potentially related to the patient's history of draining sinuses and abscesses. The epidermal changes and dermal inflammation are consistent with a reactive process secondary to chronic irritation or infection.\n\nDifferential diagnoses include chronic dermatitis or a reaction to a foreign body. The presence of melanophages suggests prior hemorrhage or chronic inflammation.",
+      "rationale": "Skin ulcer/granulomatous zone to see tracting and depth"
+    },
+    {
+      "roi_id": "slide_A_x15360_y19456_mag10",
+      "tile_id": "slide_A_x15360_y19456_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 15360,
+      "y": 19456,
+      "level0": {
+        "x": 15360,
+        "y": 19456,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense inflammatory infiltrate composed of lymphocytes and plasma cells, along with a large vessel with a thickened wall and surrounding inflammation. There is also adipose tissue and a large clear space.\n\nThe morphologic features are consistent with a chronic inflammatory process, likely infectious in nature, given the dense lymphoplasmacytic infiltrate and vascular changes. The presence of abscesses and sinus tracts in the gross description further supports an infectious etiology.\n\nDifferential diagnoses include chronic bacterial infection (e.g., staphylococcal or streptococcal) and mycobacterial infection (e.g., tuberculosis). The presence of acid-fast organisms in the drainage material and the radiologic findings favoring tuberculous osteomyelitis would support a mycobacterial etiology.",
+      "rationale": "Lower central deep tissue—exclude infiltrative cords/single cells and lymphovascular invasion."
+    },
+    {
+      "roi_id": "slide_A_x8704_y10752_mag20",
+      "tile_id": "slide_A_x8704_y10752_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 8704,
+      "y": 10752,
+      "level0": {
+        "x": 8704,
+        "y": 10752,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense inflammatory infiltrate with numerous multinucleated giant cells and scattered round to oval structures with thick walls and internal contents. There is also hemorrhage and necrosis.\n\nThe most likely diagnosis is a fungal infection, specifically blastomycosis, given the presence of thick-walled yeast forms within a granulomatous inflammatory background.\n\nDifferential diagnoses include other fungal infections such as coccidioidomycosis or histoplasmosis, which can also present with granulomatous inflammation and yeast forms, but the morphology of the organisms differs. Tuberculosis is also a consideration given the clinical history, but the presence of yeast forms makes it less likely.",
+      "rationale": "Near fungal-appearing ROI to confirm morphology and look for hyphae vs yeast forms."
+    },
+    {
+      "roi_id": "slide_A_x27136_y15360_mag20",
+      "tile_id": "slide_A_x27136_y15360_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 27136,
+      "y": 15360,
+      "level0": {
+        "x": 27136,
+        "y": 15360,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows breast tissue with a dense inflammatory infiltrate, predominantly lymphocytes and plasma cells, surrounding and infiltrating ducts and lobules. There is also stromal fibrosis and some ductal epithelial changes.\n\nThe most likely diagnosis is chronic mastitis with abscess formation. The dense chronic inflammatory infiltrate, stromal fibrosis, and evidence of ductal involvement are consistent with a chronic inflammatory process. The clinical history of draining sinuses and abscesses further supports this diagnosis.\n\nDifferential diagnoses to consider include:\n- Tuberculous mastitis: This is a strong consideration given the clinical history of acid-fast organisms and the radiologic impression of osteomyelitis. However, the absence of granulomas in this image makes it less likely.\n- Idiopathic granulomatous mastitis: This typically shows granulomas with central necrosis, which are not seen in this image.",
+      "rationale": "High power in right lower quadrant to look for cytologic atypia/lymphovascular invasion."
+    },
+    {
+      "roi_id": "slide_A_x9216_y12288_mag20",
+      "tile_id": "slide_A_x9216_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 9216,
+      "y": 12288,
+      "level0": {
+        "x": 9216,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense inflammatory infiltrate with numerous multinucleated giant cells and scattered round to oval structures with thick walls and internal contents. There is also hemorrhage and necrosis.\n\nThe most likely diagnosis is a fungal infection, specifically blastomycosis, given the presence of thick-walled yeast forms within a granulomatous inflammatory background.\n\nDifferential diagnoses include other fungal infections such as histoplasmosis or coccidioidomycosis, which can also present with granulomatous inflammation and yeast forms, but the morphology of the organisms differs. Tuberculosis is also a consideration given the clinical history, but the presence of yeast forms makes it less likely.",
+      "rationale": "Adjacent to fungal ROI; search for additional organisms/Splendore-Hoeppli."
+    },
+    {
+      "roi_id": "slide_A_x14336_y11776_mag20",
+      "tile_id": "slide_A_x14336_y11776_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 14336,
+      "y": 11776,
+      "level0": {
+        "x": 14336,
+        "y": 11776,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows dense fibrous tissue with scattered adipocytes and numerous blood vessels, some congested. There is a mixed inflammatory infiltrate and areas of amorphous eosinophilic material.\n\nThe morphologic features are consistent with chronic inflammation and fibrosis, which can be seen in various conditions including chronic infection, trauma, or inflammatory processes. Given the clinical history of draining sinuses and the presence of amorphous eosinophilic material, a chronic infectious process such as tuberculosis should be considered. Other possibilities include chronic non-specific inflammation or a reaction to foreign material.",
+      "rationale": "Within central cluster of ROIs—target any abscess cavity margin for granulomas/sulfur granules"
+    },
+    {
+      "roi_id": "slide_A_x7680_y11264_mag20",
+      "tile_id": "slide_A_x7680_y11264_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 7680,
+      "y": 11264,
+      "level0": {
+        "x": 7680,
+        "y": 11264,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows stratified squamous epithelium with acanthosis and parakeratosis overlying inflamed stroma with dense mixed inflammation, hemorrhage, and necrosis. The epithelium exhibits nuclear pleomorphism and hyperchromasia.\n\nThe most likely diagnosis is squamous metaplasia of lactiferous ducts (SMOLD) with associated inflammation and necrosis.\n\nDifferential diagnoses include:\n- Squamous cell carcinoma: would show more significant cytologic atypia, invasion, and keratinization.\n- Tuberculosis: would show granulomatous inflammation with caseation necrosis and acid-fast bacilli.",
+      "rationale": "Other nearby abscess content on left; assess for sulfur granules/filamentous bacteria."
+    },
+    {
+      "roi_id": "slide_A_x12288_y3072_mag20",
+      "tile_id": "slide_A_x12288_y3072_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 12288,
+      "y": 3072,
+      "level0": {
+        "x": 12288,
+        "y": 3072,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows dense fibrous stroma with scattered chronic inflammation and prominent clear spaces. There is no evidence of granulomatous inflammation or acid-fast organisms.\n\nThe most likely diagnosis is chronic inflammatory breast disease, likely a form of non-tuberculous mastitis or abscess.\n\nDifferential diagnoses include:\n- Tuberculous mastitis: typically shows granulomatous inflammation and acid-fast organisms, which are absent here.\n- Other infectious mastitis: could be considered, but the lack of specific features makes this less likely.",
+      "rationale": "High power of upper central irregular glands to ensure benign/reactive vs invasive carcinoma."
+    },
+    {
+      "roi_id": "slide_A_x13824_y15360_mag20",
+      "tile_id": "slide_A_x13824_y15360_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 13824,
+      "y": 15360,
+      "level0": {
+        "x": 13824,
+        "y": 15360,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a background of amorphous material with scattered cellular debris and inflammatory cells. Prominent features include refractile, elongated structures and aggregates of granular, reddish-brown material.\n\nThe morphologic features, particularly the presence of refractile structures and granular material, are highly suggestive of a parasitic infection. Given the clinical context of a young female from Latin America with chronic draining sinuses and abscesses in the breast, the findings are most consistent with a diagnosis of cutaneous larva migrans, likely caused by Ancylostoma species.\n\nDifferential diagnoses to consider include other parasitic infections such as cutaneous schistosomiasis, which can also present with granulomatous inflammation and foreign body giant cells around parasitic eggs, or other chronic inflammatory conditions with foreign body reaction. However, the specific morphology of the refractile structures and granular material strongly favors a helminthic etiology.",
+      "rationale": "Inferior-central near suspected sinus tracts—look for suppurative granulomas and necrosis type"
+    },
+    {
+      "roi_id": "slide_A_x14848_y11264_mag20",
+      "tile_id": "slide_A_x14848_y11264_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 14848,
+      "y": 11264,
+      "level0": {
+        "x": 14848,
+        "y": 11264,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a large empty space surrounded by dense fibrous tissue with chronic inflammation and scattered multinucleated giant cells. Amorphous eosinophilic material is present within the space.\n\nThe morphologic features are consistent with a chronic inflammatory process with granulomatous features, likely representing a sinus tract or abscess cavity. Given the clinical history of draining sinuses and the presence of giant cells, a granulomatous inflammation is strongly suggested. The differential diagnosis includes infectious etiologies such as tuberculosis or fungal infection, and non-infectious causes like foreign body reaction or sarcoidosis. The presence of acid-fast organisms in the drainage material and the radiologic findings favor an infectious process, particularly tuberculosis.",
+      "rationale": "Central abscess cavity contents—recheck for actinomycotic granules or AFB-like beading."
+    },
+    {
+      "roi_id": "slide_A_x6144_y6144_mag5",
+      "tile_id": "slide_A_x6144_y6144_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 6144,
+      "y": 6144,
+      "level0": {
+        "x": 6144,
+        "y": 6144,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows skin with epidermal acanthosis, hyperkeratosis, and irregular rete ridges. The dermis contains a dense inflammatory infiltrate and fibrosis.\n\nThe morphologic features are consistent with a chronic inflammatory process involving the skin and underlying tissue. Given the clinical history of draining sinuses and the presence of abscesses and sinus tracts in the gross specimen, the most likely diagnosis is a chronic inflammatory condition, potentially infectious in nature.\n\nDifferential diagnoses include:\n1. Tuberculous mastitis: Supported by the clinical history of acid-fast organisms and radiologic findings suggestive of tuberculous osteomyelitis. The presence of granulomatous inflammation would be a key feature to look for in other sections.\n2. Chronic bacterial mastitis: Could present with abscesses and sinus tracts, but the clinical history of acid-fast organisms makes this less likely.",
+      "rationale": "Left-lower edge near suspected sinus/ulcer cluster—look for actual tract lumina in subcutis"
+    },
+    {
+      "roi_id": "slide_A_x23552_y16384_mag20",
+      "tile_id": "slide_A_x23552_y16384_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 23552,
+      "y": 16384,
+      "level0": {
+        "x": 23552,
+        "y": 16384,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows dense fibrous stroma with scattered chronic inflammation and epithelial structures exhibiting squamous metaplasia. There is also a large dark artifact.\n\nThe most likely diagnosis is squamous metaplasia of lactiferous ducts (SMOLD).\n\nDifferential diagnoses include:\n- Tuberculous mastitis: would show granulomatous inflammation with caseation necrosis.\n- Chronic abscess: would show prominent neutrophilic inflammation and necrosis.",
+      "rationale": "High power of fibrotic/inflamed area with glands to exclude infiltrative ductal carcinoma."
+    },
+    {
+      "roi_id": "slide_A_x23040_y15360_mag20",
+      "tile_id": "slide_A_x23040_y15360_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 23040,
+      "y": 15360,
+      "level0": {
+        "x": 23040,
+        "y": 15360,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows breast tissue with a dense inflammatory infiltrate, predominantly lymphocytes and plasma cells, surrounding and infiltrating ducts and lobules. There is also prominent stromal fibrosis.\n\nThe most likely diagnosis is chronic mastitis with abscess formation. The dense chronic inflammation and fibrosis are consistent with a long-standing inflammatory process. The presence of abscesses and sinus tracts in the gross description supports this diagnosis.\n\nDifferential diagnoses include granulomatous mastitis, which can also present with chronic inflammation and fibrosis, but typically shows granulomas. Tuberculous mastitis is another consideration given the clinical history, but the absence of well-formed granulomas and acid-fast bacilli in the histology makes it less likely.",
+      "rationale": "Right lower quadrant ROI cluster—evaluate for caseation/epithelioid granulomas"
+    },
+    {
+      "roi_id": "slide_A_x12288_y9728_mag20",
+      "tile_id": "slide_A_x12288_y9728_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 12288,
+      "y": 9728,
+      "level0": {
+        "x": 12288,
+        "y": 9728,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows dense fibrous stroma with a prominent inflammatory infiltrate composed of lymphocytes, plasma cells, and neutrophils. There are also areas of necrosis and amorphous eosinophilic material.\n\nThe most likely diagnosis is a chronic inflammatory process with abscess formation and necrosis, consistent with a severe infection.\n\nDifferential diagnoses include:\n- Tuberculosis: Supported by the clinical history of acid-fast organisms and radiologic findings, but the histology lacks granulomas.\n- Fungal infection: Can cause chronic inflammation and abscesses, but specific fungal elements are not seen.\n- Atypical mycobacterial infection: Similar to tuberculosis but often lacks granulomas and may have different clinical presentation.",
+      "rationale": "Upper-central inflammatory focus not yet sampled at 20x—look for granulomas/organisms."
+    },
+    {
+      "roi_id": "slide_A_x26624_y12288_mag20",
+      "tile_id": "slide_A_x26624_y12288_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 26624,
+      "y": 12288,
+      "level0": {
+        "x": 26624,
+        "y": 12288,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows dense, hyalinized collagen bundles with scattered spindle cells and prominent slit-like spaces. There is also a mild perivascular inflammatory infiltrate.\n\nThe morphologic features are consistent with a fibroepithelial lesion, such as a fibroadenoma, with prominent stromal hyalinization and pseudovascular spaces. The slit-like spaces are a key feature to note.\n\nDifferential diagnoses include sclerosing adenosis, which can also show stromal hyalinization and compressed glands, and phyllodes tumor, which typically has more cellular stroma and leaf-like architecture.",
+      "rationale": "High power of cellular fibrous area with linear dark structures to exclude malignant spindle/epithelial cells."
+    },
+    {
+      "roi_id": "slide_A_x6144_y10240_mag5",
+      "tile_id": "slide_A_x6144_y10240_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 6144,
+      "y": 10240,
+      "level0": {
+        "x": 6144,
+        "y": 10240,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a section of breast tissue with a surface ulceration and underlying dense chronic inflammation and fibrosis. The ulceration is covered by a thick layer of fibrin and inflammatory exudate.\n\nThe most likely diagnosis is chronic inflammatory breast disease with abscess formation and sinus tract development.\n\nDifferential diagnoses include:\n- Tuberculous mastitis: Considered due to the patient's history of tuberculosis and radiologic findings, but requires identification of acid-fast bacilli.\n- Chronic bacterial mastitis: Common cause of abscesses and sinus tracts, often due to Staphylococcus aureus.\n- Fungal mastitis: Less common but can present with chronic inflammation and abscesses, especially in immunocompromised patients.",
+      "rationale": "Left mid—bridge between ulcerated skin and deeper parenchyma to identify tract continuity"
+    },
+    {
+      "roi_id": "slide_A_x26112_y9728_mag20",
+      "tile_id": "slide_A_x26112_y9728_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 26112,
+      "y": 9728,
+      "level0": {
+        "x": 26112,
+        "y": 9728,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense inflammatory infiltrate composed of lymphocytes, plasma cells, and histiocytes, with scattered multinucleated giant cells and areas of necrosis. There is also evidence of granulomatous inflammation.\n\nThe most likely diagnosis is granulomatous mastitis. The presence of granulomatous inflammation with necrosis and multinucleated giant cells is characteristic. Differential diagnoses include infectious causes such as tuberculosis or fungal infections, which would require special stains for confirmation.",
+      "rationale": "Right upper ROI cluster—check for granulomas near duct ectasia and inflammation"
+    },
+    {
+      "roi_id": "slide_A_x8192_y16384_mag5",
+      "tile_id": "slide_A_x8192_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 8192,
+      "y": 16384,
+      "level0": {
+        "x": 8192,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a transition from dense fibrous tissue to an area of extensive necrosis and inflammation with numerous multinucleated giant cells. The inflammatory infiltrate is mixed, including lymphocytes and plasma cells.\n\nThe most likely diagnosis is a necrotizing granulomatous process, such as tuberculosis.\n\nDifferential diagnoses include other granulomatous infections (e.g., fungal) and foreign body reaction.",
+      "rationale": "Lower central—multiple small cavities; map sinus tract network/abscesses"
+    },
+    {
+      "roi_id": "slide_A_x5120_y13312_mag20",
+      "tile_id": "slide_A_x5120_y13312_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 5120,
+      "y": 13312,
+      "level0": {
+        "x": 5120,
+        "y": 13312,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows stratified squamous epithelium with prominent hyperkeratosis and acanthosis, along with elongated rete ridges and increased basal layer pigmentation. The underlying dermis contains a dense inflammatory infiltrate and dilated blood vessels.\n\nThe morphologic features are consistent with a chronic inflammatory process involving the skin and underlying tissue. Given the clinical history of draining sinuses, abscesses, and sinus tract formation in the breast, the most likely diagnosis is a chronic inflammatory condition, such as hidradenitis suppurativa or a chronic abscess.\n\nDifferential diagnoses to consider include:\n- Hidradenitis suppurativa: Characterized by chronic inflammation, abscesses, and sinus tracts, often involving apocrine gland-bearing areas.\n- Chronic abscess: A persistent collection of pus due to infection or obstruction, leading to inflammation and tissue destruction.\n- Tuberculous osteomyelitis: Although the radiologic impression favored this, the histology does not show the characteristic granulomas with caseous necrosis typically seen in tuberculosis.",
+      "rationale": "High power at skin edge to exclude dermal lymphatic invasion or invasive squamous carcinoma."
+    },
+    {
+      "roi_id": "slide_A_x16384_y18432_mag5",
+      "tile_id": "slide_A_x16384_y18432_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 16384,
+      "y": 18432,
+      "level0": {
+        "x": 16384,
+        "y": 18432,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows dense chronic inflammation with lymphoid aggregates, fibrosis, and scattered epithelial structures. There is also a large vessel with thickened walls and a large empty space.\n\nThe most likely diagnosis is chronic granulomatous mastitis.\n\nDifferential diagnoses include:\n- Tuberculous mastitis: would show caseating granulomas and positive acid-fast bacilli.\n- Idiopathic granulomatous mastitis: typically shows non-caseating granulomas without infectious organisms.",
+      "rationale": "Lower right-central—assess deep aspect for extension/fibrosis; possible chest wall interface"
+    },
+    {
+      "roi_id": "slide_A_x9728_y11776_mag20",
+      "tile_id": "slide_A_x9728_y11776_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 9728,
+      "y": 11776,
+      "level0": {
+        "x": 9728,
+        "y": 11776,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a mixed inflammatory infiltrate with numerous large, thick-walled spherules containing endospores, along with areas of hemorrhage and necrosis. The presence of these characteristic spherules is highly suggestive of a fungal infection.\n\nMost likely diagnosis: Coccidioidomycosis\n\nDifferential diagnoses:\n1. Blastomycosis: Blastomyces dermatitidis typically presents as broad-based budding yeast forms, which are not seen in this image.\n2. Histoplasmosis: Histoplasma capsulatum appears as small intracellular yeasts, often within macrophages, and lacks the large spherules seen here.",
+      "rationale": "Further sample around left-mid yeast-rich zone to confirm broad-based budding vs spherules."
+    },
+    {
+      "roi_id": "slide_A_x12288_y20480_mag5",
+      "tile_id": "slide_A_x12288_y20480_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 12288,
+      "y": 20480,
+      "level0": {
+        "x": 12288,
+        "y": 20480,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows breast tissue with adipose tissue and fibrous stroma, along with a focus of dense basophilic material and associated inflammatory cells. The presence of dense basophilic material is suggestive of calcification or necrotic debris.\n\nThe most likely diagnosis for this single tile is a chronic inflammatory process with necrosis and calcification, potentially related to an infectious etiology.\n\nDifferential diagnoses to consider include:\n1. Tuberculosis: The presence of dense basophilic material could represent caseous necrosis, which is characteristic of tuberculosis. The clinical history of a draining sinus and radiologic findings of destructive bone changes also support this possibility.\n2. Chronic abscess: The presence of inflammatory cells and necrotic debris could be consistent with a chronic abscess. However, the dense basophilic material is less typical for a simple abscess and more suggestive of caseous necrosis or calcification.",
+      "rationale": "Inferior margin—check for inflammation reaching margin and any skeletal muscle/periosteal-type tissue"
+    },
+    {
+      "roi_id": "slide_A_x9216_y10240_mag20",
+      "tile_id": "slide_A_x9216_y10240_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 9216,
+      "y": 10240,
+      "level0": {
+        "x": 9216,
+        "y": 10240,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense inflammatory infiltrate composed of lymphocytes, plasma cells, and histiocytes, with scattered multinucleated giant cells and areas of necrosis. There is also evidence of granulation tissue and fibrosis.\n\nThe most likely diagnosis is a chronic inflammatory process, such as granulomatous mastitis.\n\nDifferential diagnoses include:\n- Tuberculous mastitis: Characterized by caseating granulomas, which are not clearly evident in this field.\n- Fungal mastitis: May show granulomatous inflammation, but specific fungal organisms would need to be identified.",
+      "rationale": "Adjacent left-upper inflammatory focus—look for filamentous bacteria or Splendore-Hoeppli."
+    },
+    {
+      "roi_id": "slide_A_x10240_y12800_mag20",
+      "tile_id": "slide_A_x10240_y12800_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 10240,
+      "y": 12800,
+      "level0": {
+        "x": 10240,
+        "y": 12800,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows extensive hemorrhage and necrosis with a mixed inflammatory infiltrate and scattered dark brown pigment. There is also a proliferation of spindle cells and a structure resembling a vessel or duct.\n\nThe morphologic features are consistent with a necrotizing inflammatory process with associated hemorrhage and tissue destruction. Given the clinical history of draining sinuses and the presence of dark brown pigment, a diagnosis of necrotizing granulomatous inflammation, such as tuberculosis, is strongly considered. Other differential diagnoses include fungal infections or other granulomatous diseases, which would require special stains for confirmation.",
+      "rationale": "Left-lower near yeast zone—assess if organisms intracellular and size variation."
+    },
+    {
+      "roi_id": "slide_A_x6144_y13824_mag20",
+      "tile_id": "slide_A_x6144_y13824_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 6144,
+      "y": 13824,
+      "level0": {
+        "x": 6144,
+        "y": 13824,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows dense chronic inflammation with lymphocytes and plasma cells, along with areas of necrosis and amorphous eosinophilic material. There is also evidence of granulomatous inflammation with epithelioid histiocytes and multinucleated giant cells.\n\nThe most likely diagnosis is granulomatous mastitis. Differential diagnoses include infectious granulomatous mastitis (e.g., tuberculosis, fungal infection) and non-infectious granulomatous mastitis (idiopathic).",
+      "rationale": "Far left-lower tract area—search for actinomycosis sulfur granules."
+    },
+    {
+      "roi_id": "slide_A_x16896_y13312_mag20",
+      "tile_id": "slide_A_x16896_y13312_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 16896,
+      "y": 13312,
+      "level0": {
+        "x": 16896,
+        "y": 13312,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a large vessel with a thickened wall and luminal thrombus, adjacent to adipose tissue with inflammation and fibrosis. The thrombus contains fibrin, red blood cells, and inflammatory cells.\n\nThe most likely diagnosis is a thrombosed vessel with associated inflammation and fibrosis in the breast tissue.\n\nDifferential diagnoses include:\n- Thrombophlebitis: characterized by inflammation of a vein with thrombus formation.\n- Vasculitis: inflammation of blood vessels, which can lead to thrombosis and surrounding tissue changes.",
+      "rationale": "Evaluate thick-walled vessel area for vasculitis/thrombosis"
+    },
+    {
+      "roi_id": "slide_A_x20992_y14336_mag20",
+      "tile_id": "slide_A_x20992_y14336_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20992,
+      "y": 14336,
+      "level0": {
+        "x": 20992,
+        "y": 14336,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of small, irregular glandular structures embedded in a dense fibrous stroma. The glands are lined by cuboidal to low columnar cells with basally oriented nuclei and eosinophilic cytoplasm, with some lumens containing eosinophilic material.\n\nThe morphologic features are consistent with a benign adenomatous proliferation of breast tissue, such as a tubular adenoma. The dense fibrous stroma and the small, irregular glands with bland cytology support this interpretation. Differential diagnoses to consider include sclerosing adenosis, which can have a similar appearance but typically shows more compressed and distorted glands, and tubular carcinoma, which would exhibit infiltrative growth and cytologic atypia.",
+      "rationale": "Target additional right mid-lower parenchyma away from previously sampled ROIs to ensure no occult invasive carcinoma."
+    },
+    {
+      "roi_id": "slide_A_x28672_y20480_mag2",
+      "tile_id": "slide_A_x28672_y20480_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 28672,
+      "y": 20480,
+      "level0": {
+        "x": 28672,
+        "y": 20480,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a low power view of breast tissue with a dense cellular infiltrate and prominent fibrous stroma. The infiltrate is composed of small cells with dark nuclei, arranged in nests and cords, with areas of necrosis and cystic change.\n\nThe most likely diagnosis is a malignant neoplasm, such as invasive carcinoma, given the dense cellular infiltrate and architectural pattern. The presence of necrosis and cystic change further supports a malignant process.\n\nDifferential diagnoses to consider include other types of invasive carcinoma, such as invasive lobular carcinoma, which can also present with a dense cellular infiltrate and stromal reaction. However, the nesting and cord-like pattern seen here is more typical of invasive ductal carcinoma.",
+      "rationale": "Deep inferior-right edge per map—confirm margin status and whether any skeletal muscle/chest wall involvement"
+    },
+    {
+      "roi_id": "slide_A_x17408_y14336_mag20",
+      "tile_id": "slide_A_x17408_y14336_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 17408,
+      "y": 14336,
+      "level0": {
+        "x": 17408,
+        "y": 14336,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows mature adipose tissue with prominent fibrous septa containing scattered inflammatory cells and small blood vessels. The adipocytes are large and clear with peripherally located nuclei.\n\nThe morphologic features are consistent with normal breast adipose tissue. The presence of fibrous septa and scattered inflammatory cells is within the expected range for this tissue type.",
+      "rationale": "Central-lower abscess/sinus tracts to look for organisms/AFB-like rods."
+    },
+    {
+      "roi_id": "slide_A_x12288_y13312_mag20",
+      "tile_id": "slide_A_x12288_y13312_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 12288,
+      "y": 13312,
+      "level0": {
+        "x": 12288,
+        "y": 13312,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows adipose tissue with a dense inflammatory infiltrate composed of lymphocytes, plasma cells, and neutrophils, along with fibrosis and small vessels. These features are consistent with chronic inflammation and tissue reaction.\n\nThe most likely diagnosis for this histology tile is chronic inflammation and tissue reaction, likely secondary to an infectious process.\n\nDifferential diagnoses to consider include:\n1. Tuberculosis: The presence of acid-fast organisms in drainage material and the clinical suspicion of tuberculous osteomyelitis support this possibility. However, the absence of granulomas in this specific field makes it less likely.\n2. Chronic bacterial infection: Given the history of draining sinuses and abscesses, a chronic bacterial infection could also cause this inflammatory pattern.",
+      "rationale": "Revisit prominent vessel with possible thrombosis; assess for endarteritis/vasculitis"
+    },
+    {
+      "roi_id": "slide_A_x20480_y6144_mag20",
+      "tile_id": "slide_A_x20480_y6144_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20480,
+      "y": 6144,
+      "level0": {
+        "x": 20480,
+        "y": 6144,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows breast tissue with numerous dilated ducts and acini containing abundant eosinophilic material, surrounded by dense fibrous stroma. The epithelial lining is generally cuboidal to low columnar with some areas showing stratification and papillary infoldings.\n\nThe morphologic features are consistent with duct ectasia and periductal mastitis. The presence of dilated ducts filled with eosinophilic material and surrounded by fibrosis is characteristic of duct ectasia. The associated inflammatory infiltrate in the stroma suggests periductal mastitis. Given the clinical history of draining sinuses and the radiologic findings, this could represent a chronic inflammatory process, potentially related to the previously treated condition.",
+      "rationale": "Target right upper parenchyma near fibrous bands to exclude small infiltrative glands."
+    },
+    {
+      "roi_id": "slide_A_x26624_y20480_mag5",
+      "tile_id": "slide_A_x26624_y20480_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 26624,
+      "y": 20480,
+      "level0": {
+        "x": 26624,
+        "y": 20480,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a dense inflammatory infiltrate with areas of necrosis and fibrosis, along with irregular glandular structures. The infiltrate is composed of lymphocytes, plasma cells, and histiocytes, with scattered multinucleated giant cells.\n\nThe most likely diagnosis is granulomatous mastitis. The presence of granulomatous inflammation with necrosis and fibrosis, along with the clinical history of draining sinuses and abscesses, is characteristic. The irregular glandular structures may represent reactive changes or entrapped ducts within the inflammatory process.\n\nDifferential diagnoses include infectious granulomatous mastitis (e.g., tuberculosis, fungal infection) and sarcoidosis. Infectious causes would typically show organisms on special stains, while sarcoidosis would show non-caseating granulomas without significant necrosis.",
+      "rationale": "Same deep edge at higher low power to assess fibrosis/tracts reaching margin"
+    },
+    {
+      "roi_id": "slide_A_x9728_y17408_mag20",
+      "tile_id": "slide_A_x9728_y17408_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 9728,
+      "y": 17408,
+      "level0": {
+        "x": 9728,
+        "y": 17408,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a large, irregular, eosinophilic structure with a laminated appearance, surrounded by dense fibrous tissue and a mixed inflammatory infiltrate. The eosinophilic structure is consistent with a parasitic cyst wall.\n\nThe most likely diagnosis is cysticercosis, a parasitic infection caused by the larval stage of *Taenia solium*.\n\nDifferential diagnoses include:\n- Tuberculosis: The clinical history and radiologic findings initially suggested this, but the presence of a parasitic cyst wall is inconsistent with tuberculosis.\n- Fungal infection: Certain fungal infections can form granulomas, but the laminated eosinophilic structure is not typical of fungal elements.",
+      "rationale": "Target left-lower area of dense inflammation/sinus tracts to exclude carcinoma arising in chronic tract."
+    },
+    {
+      "roi_id": "slide_A_x17408_y15360_mag20",
+      "tile_id": "slide_A_x17408_y15360_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 17408,
+      "y": 15360,
+      "level0": {
+        "x": 17408,
+        "y": 15360,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows mature adipose tissue with a dense inflammatory infiltrate composed of lymphocytes and plasma cells, along with a small blood vessel. The inflammation is associated with fibrous tissue and appears to involve the adipose tissue.\n\nThe morphologic features are consistent with chronic inflammation and fibrosis in the breast tissue. Given the clinical history of draining sinuses, abscesses, and sinus tract formation, the most likely diagnosis is a chronic inflammatory process, such as a chronic abscess or sinus tract.\n\nDifferential diagnoses to consider include:\n1. Chronic abscess: Characterized by dense chronic inflammation, fibrosis, and potentially necrosis, often associated with a history of infection or trauma.\n2. Sinus tract: A channel that connects the surface of the skin to an underlying area of infection or inflammation, often associated with chronic inflammation and fibrosis.",
+      "rationale": "Adipose with perivascular inflammation—look for fat necrosis and vasculitis"
+    },
+    {
+      "roi_id": "slide_A_x20480_y8192_mag2",
+      "tile_id": "slide_A_x20480_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 20480,
+      "y": 8192,
+      "level0": {
+        "x": 20480,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows breast tissue with a dense inflammatory infiltrate, predominantly lymphocytes and plasma cells, surrounding and infiltrating lobules and ducts. There is associated stromal fibrosis and adipose tissue.\n\nThe most likely diagnosis is chronic mastitis with abscess formation. The dense chronic inflammatory infiltrate, stromal fibrosis, and the clinical history of draining sinuses and abscesses are consistent with this diagnosis. The presence of acid-fast organisms in the drainage material suggests a mycobacterial etiology, such as tuberculosis, which should be considered in the differential diagnosis. Other infectious causes, such as bacterial abscesses, could also present with similar features.",
+      "rationale": "Right mid area with fibrous septa—look for diffuse involvement vs localized lobulocentric lesions"
+    },
+    {
+      "roi_id": "slide_A_x9728_y11264_mag20",
+      "tile_id": "slide_A_x9728_y11264_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 9728,
+      "y": 11264,
+      "level0": {
+        "x": 9728,
+        "y": 11264,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a mixed inflammatory infiltrate with numerous large, thick-walled, round to oval structures containing internal material, some with budding. There is also hemorrhage and necrosis.\n\nThe most likely diagnosis is Coccidioidomycosis.\n\nDifferential diagnoses include Blastomycosis, which typically shows broad-based budding yeast, and Cryptococcosis, which presents as smaller yeast with a prominent capsule.",
+      "rationale": "Revisit spherule-rich ROI to assess for any concomitant filamentous bacteria/Splendore-Hoeppli."
+    },
+    {
+      "roi_id": "slide_A_x16384_y20480_mag5",
+      "tile_id": "slide_A_x16384_y20480_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 16384,
+      "y": 20480,
+      "level0": {
+        "x": 16384,
+        "y": 20480,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a dense inflammatory infiltrate with granulomatous features, including epithelioid histiocytes and multinucleated giant cells, along with areas of necrosis and fibrosis. A large vessel with thickened walls is also present.\n\nThe most likely diagnosis is granulomatous mastitis. Differential diagnoses include infectious granulomatous mastitis (e.g., tuberculosis, fungal infection) and idiopathic granulomatous mastitis.",
+      "rationale": "Inferior central band—evaluate for deep extension and pattern of necrosis/abscess"
+    },
+    {
+      "roi_id": "slide_A_x9216_y14848_mag20",
+      "tile_id": "slide_A_x9216_y14848_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 9216,
+      "y": 14848,
+      "level0": {
+        "x": 9216,
+        "y": 14848,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows extensive hemorrhage and necrosis with a dense inflammatory infiltrate composed of lymphocytes, plasma cells, and histiocytes. Scattered dark brown to black granular pigment is also present.\n\nThe most likely diagnosis is a necrotizing granulomatous process, such as tuberculosis, given the clinical history and radiographic findings. Other considerations include fungal infections or atypical mycobacterial infections, which can also present with necrotizing granulomas and require special stains for identification.",
+      "rationale": "Search for fat necrosis/foreign body giant cells around lipid/keratin in inflamed stroma"
+    },
+    {
+      "roi_id": "slide_A_x9216_y11776_mag20",
+      "tile_id": "slide_A_x9216_y11776_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 9216,
+      "y": 11776,
+      "level0": {
+        "x": 9216,
+        "y": 11776,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense inflammatory infiltrate with numerous large, round to oval structures exhibiting thick walls and internal contents, some with budding. There is also evidence of hemorrhage and necrosis.\n\nThe most likely diagnosis is a fungal infection, specifically blastomycosis, given the characteristic morphology of the organisms.\n\nDifferential diagnoses include other fungal infections such as cryptococcosis (which typically shows narrow-based budding and a prominent capsule) and histoplasmosis (which shows smaller yeasts, often within macrophages).",
+      "rationale": "Adjacent yeast/spherule area—check for H&E AFB-like rods (unlikely) and confirm morphology."
+    },
+    {
+      "roi_id": "slide_A_x7680_y10752_mag20",
+      "tile_id": "slide_A_x7680_y10752_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 7680,
+      "y": 10752,
+      "level0": {
+        "x": 7680,
+        "y": 10752,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows stratified squamous epithelium with acanthosis and irregular rete ridges, overlying a stroma with dense chronic inflammation, dilated blood vessels, and hemorrhage. The epithelial surface exhibits parakeratosis and hyperkeratosis.\n\nThe morphologic features are consistent with a chronic inflammatory process involving the skin and underlying tissue, likely representing a chronic ulcer or sinus tract. Given the clinical history of draining sinuses and the presence of multiple ulcers and abscesses in the breast, the findings are most consistent with a chronic inflammatory condition such as hidradenitis suppurativa or a chronic infectious process.\n\nDifferential diagnoses to consider include:\n- Hidradenitis suppurativa: Characterized by chronic inflammation, abscesses, and sinus tracts, often involving apocrine gland-bearing areas.\n- Chronic bacterial infection: Can present with abscesses and sinus tracts, though the clinical history of negative acid-fast organisms and lack of response to streptomycin makes this less likely.\n- Tuberculosis: Although the clinical history mentions acid-fast organisms, the negative culture and lack of response to streptomycin make this less likely, and the histology does not show typical granulomatous inflammation.",
+      "rationale": "Target left-central ulcerated/skin-adjacent zone for dermal lymphatic invasion."
+    },
+    {
+      "roi_id": "slide_A_x20992_y10752_mag20",
+      "tile_id": "slide_A_x20992_y10752_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20992,
+      "y": 10752,
+      "level0": {
+        "x": 20992,
+        "y": 10752,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a transition from dense fibrous stroma to a cellular proliferation of small, irregular glands and nests with hyperchromatic nuclei and scant cytoplasm, infiltrating the stroma. The stroma is dense and fibrous with scattered inflammatory cells.\n\nThe most likely diagnosis is invasive carcinoma of the breast, likely a poorly differentiated type given the cellular morphology and infiltrative pattern. The dense fibrous stroma and inflammatory infiltrate are also noted.\n\nDifferential diagnoses include:\n- Invasive lobular carcinoma: typically shows single-file infiltration and less glandular formation.\n- Metastatic carcinoma: clinical history and immunohistochemistry would be needed to rule this out.",
+      "rationale": "Survey additional mid-right field for granulomas/necrosis and vascular involvement"
+    },
+    {
+      "roi_id": "slide_A_x10752_y11264_mag20",
+      "tile_id": "slide_A_x10752_y11264_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 10752,
+      "y": 11264,
+      "level0": {
+        "x": 10752,
+        "y": 11264,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense inflammatory infiltrate with numerous multinucleated giant cells and areas of necrosis and hemorrhage. There is also a proliferation of spindle cells and fibrosis.\n\nThe most likely diagnosis is granulomatous mastitis. The presence of multinucleated giant cells, necrosis, and chronic inflammation are characteristic features. The differential diagnosis includes infectious granulomatous mastitis (e.g., tuberculosis, fungal infection) and idiopathic granulomatous mastitis. Special stains for microorganisms and clinical correlation are necessary to distinguish between these possibilities.",
+      "rationale": "Edge of necrotic focus near organism-rich region—search for asteroid bodies/Splendore-Hoeppli."
+    },
+    {
+      "roi_id": "slide_A_x14336_y18432_mag5",
+      "tile_id": "slide_A_x14336_y18432_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 14336,
+      "y": 18432,
+      "level0": {
+        "x": 14336,
+        "y": 18432,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows breast tissue with adipose tissue, fibrous stroma, and a prominent lymphoid aggregate. A large vessel with a thickened wall is also present.\n\nThe morphologic features are consistent with chronic inflammation and fibrosis. The presence of a lymphoid aggregate and fibrous stroma suggests a chronic inflammatory process. The large vessel with a thickened wall may indicate vascular involvement or reactive changes. Given the clinical history of draining sinuses, abscesses, and sinus tract formation, the findings are most consistent with a chronic inflammatory condition of the breast, such as chronic mastitis or a chronic abscess.\n\nDifferential diagnoses to consider include:\n- Chronic mastitis: This is supported by the presence of chronic inflammation, fibrosis, and lymphoid aggregates.\n- Tuberculous mastitis: This is a possibility given the clinical history of suspected tuberculosis and the presence of chronic inflammation and fibrosis. However, the absence of granulomas or caseating necrosis in this image makes it less likely.\n- Other chronic infections: Other chronic bacterial or fungal infections could also present with similar features, but the clinical history of tuberculosis makes this less likely.",
+      "rationale": "Inferior central-left—check for any involvement of deep margin and continuity of sinus tracts"
+    },
+    {
+      "roi_id": "slide_A_x7168_y11264_mag20",
+      "tile_id": "slide_A_x7168_y11264_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 7168,
+      "y": 11264,
+      "level0": {
+        "x": 7168,
+        "y": 11264,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows stratified squamous epithelium with acanthosis and surface parakeratosis, overlying inflamed stroma with dilated vessels and a mixed inflammatory infiltrate. A linear foreign body is also present.\n\nThe morphologic features are consistent with a chronic inflammatory process with squamous metaplasia and foreign body reaction. Given the clinical history of draining sinuses and abscesses in the breast, the most likely diagnosis is a chronic inflammatory condition, potentially related to a foreign body reaction or a chronic infection.\n\nDifferential diagnoses include foreign body granuloma and chronic abscess with squamous metaplasia. The presence of a linear foreign body strongly supports a foreign body reaction, while the clinical history of draining sinuses and abscesses points towards a chronic inflammatory process.",
+      "rationale": "Left-upper chronic inflammation—look for sulfur granules/filamentous bacteria not yet seen."
+    }
+  ]
+}

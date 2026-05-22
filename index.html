@@ -1,0 +1,1502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RosAI — Pathologist Review</title>
+  <script src="https://cdn.jsdelivr.net/npm/openseadragon@5.0/build/openseadragon/openseadragon.min.js"></script>
+  <style>
+    :root {
+      --bg: #f4f6f9;
+      --surface: #ffffff;
+      --surface-muted: #eef1f6;
+      --border: #d8dee8;
+      --text: #1a2332;
+      --muted: #5c677a;
+      --accent: #2563eb;
+      --accent-soft: #eff6ff;
+      --success: #15803d;
+      --viewer-bg: #0b0d11;
+      --shadow: 0 8px 30px rgba(16, 24, 40, 0.08);
+      --radius: 12px;
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0; height: 100%; overflow: hidden;
+      font-family: "Segoe UI", system-ui, sans-serif;
+      background: var(--bg); color: var(--text);
+    }
+    .app { display: grid; grid-template-rows: auto 1fr; height: 100vh; }
+    .hidden { display: none !important; }
+    header {
+      display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+      padding: 10px 16px; background: var(--surface);
+      border-bottom: 1px solid var(--border); box-shadow: var(--shadow); z-index: 2;
+    }
+    header .brand { min-width: 150px; }
+    header h1 { margin: 0; font-size: 0.98rem; font-weight: 650; }
+    .nav-group {
+      display: flex; align-items: center; gap: 6px; flex: 1; min-width: 200px;
+    }
+    .header-case-meta {
+      display: flex; align-items: center; flex-wrap: wrap; gap: 0;
+      font-size: 0.78rem; color: var(--muted); max-width: 280px;
+    }
+    .header-meta-sep { margin: 0 6px; opacity: 0.45; user-select: none; }
+    .header-meta-item { white-space: nowrap; }
+    .header-meta-item.done { color: var(--success); font-weight: 650; }
+    .header-meta-item.pending { color: var(--muted); }
+    .case-nav {
+      display: flex; align-items: center; gap: 6px; flex: 1; min-width: 0;
+    }
+    .nav-btn {
+      display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+      height: 38px; min-width: 38px; padding: 0 12px;
+      background: var(--accent-soft); border-color: #93c5fd; color: var(--accent);
+      font-size: 0.84rem; font-weight: 650;
+    }
+    .nav-btn:hover:not(:disabled) { background: #dbeafe; border-color: #60a5fa; }
+    .nav-btn .nav-arrow { font-size: 1.15rem; line-height: 1; font-weight: 700; }
+    .nav-btn .nav-label { display: inline; }
+    .header-actions {
+      display: flex; align-items: center; gap: 8px; margin-left: auto;
+    }
+    .header-actions .btn { height: 36px; }
+    select, .btn {
+      font: inherit; border-radius: 10px; border: 1px solid var(--border);
+    }
+    select {
+      flex: 1; min-width: 140px; max-width: 420px;
+      padding: 8px 10px; background: var(--surface); color: var(--text);
+    }
+    .btn {
+      display: inline-flex; align-items: center; justify-content: center;
+      height: 36px; padding: 0 11px; background: var(--surface);
+      color: var(--text); font-size: 0.86rem; cursor: pointer; white-space: nowrap;
+    }
+    .btn:hover { background: var(--surface-muted); }
+    .btn:disabled { opacity: 0.45; cursor: not-allowed; }
+    .btn.primary { background: var(--accent-soft); border-color: #93c5fd; color: var(--accent); }
+    .reviewer-chip {
+      font-size: 0.78rem; padding: 6px 10px; border-radius: 999px;
+      background: #fef3c7; color: #92400e; border: 1px solid #fcd34d;
+    }
+    .progress-wrap {
+      display: flex; align-items: center; gap: 10px; min-width: 160px;
+    }
+    .progress-bar {
+      width: 80px; height: 7px; border-radius: 999px;
+      background: var(--surface-muted); border: 1px solid var(--border); overflow: hidden;
+    }
+    .progress-fill {
+      height: 100%; width: 0; border-radius: 999px;
+      background: var(--success); transition: width 0.25s ease;
+    }
+    .progress-pill {
+      font-size: 0.76rem; padding: 6px 10px; border-radius: 999px;
+      background: var(--accent-soft); color: var(--accent); border: 1px solid #bfdbfe;
+      white-space: nowrap;
+    }
+    .progress-pill.complete {
+      background: #dcfce7; color: var(--success); border-color: #86efac;
+    }
+    .ai-panel {
+      border: 1px solid #dbeafe; border-radius: var(--radius);
+      background: #f8fafc; overflow: hidden; margin-bottom: 8px;
+      flex: 1; min-height: 0; display: flex; flex-direction: column;
+    }
+    .ai-panel.hidden { display: none; }
+    .ai-panel-heading {
+      margin: 0; padding: 10px 14px;
+      border-bottom: 1px solid #dbeafe; background: #eff6ff;
+      font-size: 0.76rem; letter-spacing: 0.06em; text-transform: uppercase;
+      color: #1e40af; font-weight: 700;
+    }
+    .ai-dx-card { padding: 14px; flex: 1; min-height: 0; overflow: auto; }
+    .ai-findings {
+      margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--border);
+    }
+    .ai-dx-card > .ai-findings:first-child {
+      margin-top: 0; padding-top: 0; border-top: none;
+    }
+    .ai-findings-title {
+      margin: 0 0 8px; font-size: 0.72rem; font-weight: 700;
+      letter-spacing: 0.04em; text-transform: uppercase; color: var(--muted);
+    }
+    .ai-finding {
+      margin: 0 0 8px; font-size: 0.84rem; line-height: 1.45; color: var(--text);
+    }
+    .ai-finding:last-child { margin-bottom: 0; }
+    .ai-finding strong, .ai-interpretation-text strong { font-weight: 700; }
+    .ai-finding-rois { color: var(--muted); font-weight: 500; }
+    .ai-interpretation {
+      margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--border);
+    }
+    .ai-interpretation-text {
+      margin: 0; font-size: 0.84rem; line-height: 1.45; color: var(--text);
+    }
+    .roi-link {
+      display: inline; padding: 1px 6px; margin: 0 1px;
+      border-radius: 6px; border: none; background: #dbeafe;
+      color: #1d4ed8; font: inherit; font-weight: 650; font-size: 0.78rem;
+      cursor: pointer; vertical-align: baseline;
+    }
+    .roi-link:hover { background: #bfdbfe; }
+    .roi-link.active { background: #f59e0b; color: #1a1207; }
+    .roi-tooltip {
+      position: fixed; z-index: 1000;
+      max-width: min(360px, calc(100vw - 24px));
+      max-height: min(260px, calc(100vh - 24px));
+      overflow: auto;
+      padding: 10px 12px;
+      border-radius: 10px;
+      background: #1a2332; color: #f4f6f9;
+      font-size: 0.78rem; line-height: 1.45;
+      box-shadow: 0 8px 28px rgba(0, 0, 0, 0.28);
+      pointer-events: none; white-space: pre-wrap;
+    }
+    .ai-empty { font-size: 0.84rem; color: var(--muted); font-style: italic; padding: 8px 0; }
+    .ai-roi-highlight {
+      border: 3px solid #f59e0b;
+      background: transparent;
+      box-shadow: none;
+      pointer-events: none; position: relative;
+    }
+    .ai-roi-label {
+      position: absolute; top: -26px; left: 0;
+      padding: 2px 8px; border-radius: 6px;
+      background: rgba(245, 158, 11, 0.95); color: #1a1207;
+      font-size: 11px; font-weight: 700; white-space: nowrap;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+    }
+    .clinical-field label {
+      display: block; margin-bottom: 4px;
+      font-size: 0.76rem; color: var(--muted); font-weight: 600;
+    }
+    .chart-drawer-backdrop { display: none; }
+    .case-chart-stack {
+      position: absolute; left: 0; top: 56px; bottom: 40px; z-index: 4;
+      display: flex; flex-direction: row; align-items: stretch;
+    }
+    .case-chart-stack.hidden { display: none; }
+    .case-chart-tab {
+      display: flex; align-items: center; justify-content: center;
+      width: 34px; flex-shrink: 0; padding: 10px 4px;
+      border: 1px solid var(--border); border-left: none;
+      border-radius: 0 10px 10px 0;
+      background: rgba(255, 255, 255, 0.96);
+      box-shadow: 4px 0 14px rgba(0, 0, 0, 0.18);
+      cursor: pointer;
+      font-size: 0.68rem; font-weight: 700; letter-spacing: 0.1em;
+      text-transform: uppercase; color: var(--muted);
+      writing-mode: vertical-rl; transform: rotate(180deg);
+    }
+    .case-chart-tab:hover { color: var(--text); background: #fff; }
+    .case-chart-stack.open .case-chart-tab {
+      color: var(--accent); border-color: #93c5fd; background: #eff6ff;
+    }
+    .case-chart-tab-icon {
+      display: block; margin-top: 6px; font-size: 0.85rem; line-height: 1;
+      letter-spacing: 0; transform: rotate(180deg);
+    }
+    .chart-drawer {
+      width: 0; min-width: 0; overflow: hidden; opacity: 0;
+      background: var(--surface);
+      border: 1px solid var(--border); border-left: none;
+      border-radius: 0 12px 12px 0;
+      box-shadow: 8px 0 28px rgba(0, 0, 0, 0.16);
+      display: flex; flex-direction: column;
+      transition: width 0.22s ease, opacity 0.18s ease;
+    }
+    .case-chart-stack.open .chart-drawer {
+      width: min(360px, calc(100vw - 100px)); opacity: 1;
+    }
+    .chart-drawer-header {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 12px 14px; border-bottom: 1px solid var(--border);
+      background: var(--surface-muted); flex-shrink: 0;
+    }
+    .chart-drawer-header h2 {
+      margin: 0; font-size: 0.76rem; letter-spacing: 0.06em;
+      text-transform: uppercase; color: var(--muted); font-weight: 700;
+    }
+    .chart-drawer-close {
+      height: 32px; min-width: 32px; padding: 0; font-size: 1.2rem; line-height: 1;
+    }
+    .chart-drawer-body {
+      flex: 1; min-height: 0; overflow: auto; padding: 14px;
+    }
+    .chart-drawer-body .text-block {
+      max-height: none; font-size: 0.88rem; line-height: 1.55;
+    }
+    .chart-drawer-body .clinical-field { margin-bottom: 14px; }
+    .chart-drawer-body .clinical-field:last-child { margin-bottom: 0; }
+    .panel-shell {
+      display: flex; flex-direction: column; min-height: 0; height: 100%;
+      background: var(--surface);
+    }
+    .panel-scroll {
+      flex: 1; min-height: 0; overflow: auto; padding: 12px 14px 8px;
+      display: flex; flex-direction: column;
+    }
+    .assessment-sticky {
+      flex-shrink: 0; padding: 12px 16px 16px;
+      border-top: 2px solid var(--border); background: var(--surface);
+      box-shadow: 0 -6px 20px rgba(16, 24, 40, 0.06);
+    }
+    .section-heading {
+      margin: 0 0 10px; font-size: 0.76rem; letter-spacing: 0.06em;
+      text-transform: uppercase; color: var(--text); font-weight: 700;
+    }
+    .dx-compare { display: flex; flex-direction: column; gap: 6px; margin-bottom: 10px; }
+    .dx-compare-row {
+      display: grid; grid-template-columns: 4.8rem 1fr 1fr;
+      gap: 8px; align-items: start;
+    }
+    .dx-compare--no-ai .dx-compare-row { grid-template-columns: 4.8rem 1fr; }
+    .dx-compare--no-ai .dx-compare-ai-col,
+    .dx-compare--no-ai .dx-compare-ai { display: none; }
+    .dx-compare-header span:not(:first-child) {
+      font-size: 0.7rem; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 0.04em; color: var(--muted);
+    }
+    .dx-compare-label {
+      font-size: 0.82rem; font-weight: 600; color: var(--muted); padding-top: 9px;
+    }
+    .dx-compare-yours input { padding: 8px 10px; font-size: 0.84rem; }
+    .ai-dx-readout {
+      display: block; padding: 8px 10px; font-size: 0.82rem; line-height: 1.4;
+      color: var(--text); background: var(--surface-muted);
+      border: 1px solid var(--border); border-radius: 10px; min-height: 36px;
+    }
+    .ai-dx-readout.empty { color: var(--muted); font-style: italic; }
+    .assessment-sticky textarea { min-height: 52px; }
+    .assessment-sticky .form-group { margin-bottom: 0; }
+    .assessment-sticky .form-group label { font-size: 0.82rem; margin-bottom: 5px; }
+    .save-status { font-size: 0.8rem; color: var(--muted); min-width: 72px; text-align: right; }
+    .save-status.saved { color: var(--success); }
+    .main {
+      display: grid;
+      grid-template-columns: minmax(0, 1.55fr) minmax(360px, 460px);
+      min-height: 0;
+    }
+    .viewer-pane { position: relative; background: var(--viewer-bg); border-right: 1px solid var(--border); min-width: 0; }
+    .viewer-toolbar { position: absolute; top: 12px; left: 12px; z-index: 3; display: flex; gap: 6px; }
+    .viewer-toolbar .btn { background: rgba(255,255,255,0.92); height: 34px; min-width: 34px; padding: 0 8px; }
+    .mag-pill {
+      position: absolute; bottom: 14px; left: 14px; z-index: 3;
+      padding: 8px 12px; border-radius: 10px;
+      background: rgba(10,12,16,0.82); color: #fff; font-size: 0.88rem; font-weight: 600;
+    }
+    #viewer { width: 100%; height: 100%; }
+    .text-block {
+      padding: 12px 14px; border-radius: var(--radius);
+      background: var(--surface-muted); border: 1px solid var(--border);
+      font-size: 0.92rem; line-height: 1.55; white-space: pre-wrap;
+    }
+    .text-block.empty { color: var(--muted); font-style: italic; }
+    .form-group { margin-bottom: 14px; }
+    .form-group label { display: block; margin-bottom: 6px; font-size: 0.88rem; font-weight: 600; }
+    .form-group label span { font-weight: 400; color: var(--muted); }
+    input[type="text"], textarea, input[type="password"] {
+      width: 100%; padding: 10px 12px; border-radius: 10px;
+      border: 1px solid var(--border); background: #fff; font: inherit;
+    }
+    input:focus, textarea:focus {
+      outline: none; border-color: #93c5fd; box-shadow: 0 0 0 3px rgba(37,99,235,0.12);
+    }
+    textarea { min-height: 88px; resize: vertical; line-height: 1.45; }
+    .divider { height: 1px; background: var(--border); margin: 20px 0; }
+    .loading-overlay {
+      position: absolute; inset: 0; display: none; align-items: center; justify-content: center;
+      background: rgba(11,13,17,0.45); color: #fff; z-index: 4;
+    }
+    .loading-overlay.visible { display: flex; }
+
+    /* Reviewer gate */
+    .gate {
+      position: fixed; inset: 0; z-index: 100;
+      display: flex; align-items: center; justify-content: center;
+      background: rgba(15, 23, 42, 0.55); backdrop-filter: blur(4px);
+    }
+    .gate.hidden { display: none; }
+    .gate-card {
+      width: min(440px, 92vw); background: var(--surface);
+      border-radius: 16px; padding: 28px 26px; box-shadow: var(--shadow);
+      border: 1px solid var(--border);
+    }
+    .gate-card h2 { margin: 0 0 8px; font-size: 1.2rem; }
+    .gate-card p { margin: 0 0 20px; color: var(--muted); font-size: 0.92rem; line-height: 1.5; }
+    .gate-field { margin-bottom: 16px; }
+    .gate-field label {
+      display: block; margin-bottom: 6px;
+      font-size: 0.85rem; font-weight: 600;
+    }
+    .gate-field input {
+      width: 100%; padding: 10px 12px; border-radius: 10px;
+      border: 1px solid var(--border); background: #fff; font: inherit;
+    }
+    .gate-field input:focus {
+      outline: none; border-color: #93c5fd; box-shadow: 0 0 0 3px rgba(37,99,235,0.12);
+    }
+    .gate-error {
+      margin: 0 0 16px; padding: 10px 12px; border-radius: 10px;
+      background: #fef2f2; border: 1px solid #fecaca; color: #b91c1c;
+      font-size: 0.86rem; line-height: 1.45;
+    }
+    .gate-error.hidden { display: none; }
+    .gate-actions { margin-top: 4px; }
+    .gate-actions .btn { width: 100%; height: 42px; font-weight: 600; }
+
+    @media (max-width: 980px) {
+      .main { grid-template-columns: 1fr; grid-template-rows: 55vh 1fr; }
+      .viewer-pane { border-right: none; border-bottom: 1px solid var(--border); }
+      .nav-btn .nav-label { display: none; }
+      .nav-btn { padding: 0 10px; min-width: 42px; }
+      .header-case-meta { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <div id="gate" class="gate hidden">
+    <div class="gate-card">
+      <h2>Welcome</h2>
+      <p>Sign in as <strong id="gate-reviewer-name">—</strong>. You will review <strong id="gate-case-count">50</strong> assigned cases.</p>
+      <div class="gate-field">
+        <label for="gate-passcode">Password</label>
+        <input type="password" id="gate-passcode" autocomplete="current-password" placeholder="Enter your password" />
+      </div>
+      <p id="gate-error" class="gate-error hidden"></p>
+      <div class="gate-actions">
+        <button class="btn primary" id="gate-start" type="button">Start review</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="app" id="app" hidden>
+    <header>
+      <div class="brand">
+        <h1>RosAI Pathologist Review</h1>
+      </div>
+      <span class="reviewer-chip" id="reviewer-chip">—</span>
+      <div class="nav-group">
+        <div class="case-nav">
+          <button class="btn nav-btn" id="prev-btn" type="button" title="Previous case (←)">
+            <span class="nav-arrow" aria-hidden="true">←</span>
+            <span class="nav-label">Previous</span>
+          </button>
+          <select id="case-select" disabled><option>Loading…</option></select>
+          <button class="btn nav-btn" id="next-btn" type="button" title="Next case (→)">
+            <span class="nav-label">Next</span>
+            <span class="nav-arrow" aria-hidden="true">→</span>
+          </button>
+        </div>
+        <div class="header-case-meta hidden" id="header-case-meta"></div>
+      </div>
+      <div class="progress-wrap" id="progress-wrap" title="Cases with a saved primary diagnosis in the database">
+        <div class="progress-bar" aria-hidden="true"><div class="progress-fill" id="progress-fill"></div></div>
+        <div class="progress-pill" id="progress-pill">0 / 0 diagnosed</div>
+      </div>
+      <div class="header-actions">
+        <button class="btn" id="export-btn" type="button" title="Download your saved responses">Download responses</button>
+        <div class="save-status" id="save-status">—</div>
+      </div>
+    </header>
+
+    <div class="main">
+      <section class="viewer-pane">
+        <div class="viewer-toolbar">
+          <button class="btn" id="zoom-in">+</button>
+          <button class="btn" id="zoom-out">−</button>
+          <button class="btn" id="home-btn">Fit</button>
+        </div>
+        <div id="viewer"></div>
+        <div class="mag-pill" id="mag-label">—×</div>
+        <div class="loading-overlay" id="loading">Opening slide…</div>
+        <div class="case-chart-stack hidden" id="case-chart-stack">
+          <button class="case-chart-tab" id="case-chart-tab" type="button"
+            title="Open patient history &amp; gross description (C)" aria-expanded="false" aria-controls="chart-drawer">
+            Case chart
+            <span class="case-chart-tab-icon" aria-hidden="true">›</span>
+          </button>
+          <aside class="chart-drawer" id="chart-drawer" aria-label="Case chart">
+            <div class="chart-drawer-header">
+              <h2>Case chart</h2>
+              <button class="btn chart-drawer-close" id="chart-drawer-close" type="button" aria-label="Close case chart">×</button>
+            </div>
+            <div class="chart-drawer-body">
+              <div class="clinical-field" id="patient-history-wrap">
+                <label>Patient history</label>
+                <div class="text-block" id="patient-history">—</div>
+              </div>
+              <div class="clinical-field" id="gross-description-wrap">
+                <label>Gross description</label>
+                <div class="text-block" id="gross-description">—</div>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <aside class="panel-shell">
+        <div class="panel-scroll">
+          <section class="ai-panel hidden" id="ai-panel">
+            <h2 class="ai-panel-heading">AI assist</h2>
+            <div class="ai-dx-card" id="ai-content"></div>
+          </section>
+        </div>
+
+        <section class="assessment-sticky" id="assessment-section">
+          <h2 class="section-heading">Your assessment</h2>
+          <div class="dx-compare dx-compare--no-ai" id="dx-compare">
+            <div class="dx-compare-row dx-compare-header">
+              <span></span>
+              <span>Yours</span>
+              <span class="dx-compare-ai-col">AI assist</span>
+            </div>
+            <div class="dx-compare-row">
+              <span class="dx-compare-label">Primary</span>
+              <div class="dx-compare-yours">
+                <input type="text" id="dx-primary" placeholder="Enter your diagnosis…" autocomplete="off" />
+              </div>
+              <div class="dx-compare-ai">
+                <span class="ai-dx-readout empty" id="ai-dx-primary">—</span>
+              </div>
+            </div>
+            <div class="dx-compare-row">
+              <span class="dx-compare-label">Diff 1</span>
+              <div class="dx-compare-yours">
+                <input type="text" id="dx-diff1" placeholder="Optional" autocomplete="off" />
+              </div>
+              <div class="dx-compare-ai">
+                <span class="ai-dx-readout empty" id="ai-dx-diff1">—</span>
+              </div>
+            </div>
+            <div class="dx-compare-row">
+              <span class="dx-compare-label">Diff 2</span>
+              <div class="dx-compare-yours">
+                <input type="text" id="dx-diff2" placeholder="Optional" autocomplete="off" />
+              </div>
+              <div class="dx-compare-ai">
+                <span class="ai-dx-readout empty" id="ai-dx-diff2">—</span>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="comments">Comments</label>
+            <textarea id="comments" placeholder="Notes, reasoning, caveats…"></textarea>
+          </div>
+        </section>
+      </aside>
+    </div>
+  </div>
+
+  <script>
+    const SESSION_KEY = "rosai-reviewer-session-v3";
+    const DEFAULT_NATIVE_MAG = 20;
+    const PATCH_SIZE = 1024;
+    const MAG_FROM_SUFFIX = { 1: 1.25, 2: 2.5, 5: 5, 10: 10, 20: 20 };
+
+    const els = {
+      gate: document.getElementById("gate"),
+      gateReviewerName: document.getElementById("gate-reviewer-name"),
+      gatePasscode: document.getElementById("gate-passcode"),
+      gateError: document.getElementById("gate-error"),
+      gateStart: document.getElementById("gate-start"),
+      gateCaseCount: document.getElementById("gate-case-count"),
+      app: document.getElementById("app"),
+      caseSelect: document.getElementById("case-select"),
+      prevBtn: document.getElementById("prev-btn"),
+      nextBtn: document.getElementById("next-btn"),
+      progressFill: document.getElementById("progress-fill"),
+      progressPill: document.getElementById("progress-pill"),
+      progressWrap: document.getElementById("progress-wrap"),
+      saveStatus: document.getElementById("save-status"),
+      reviewerChip: document.getElementById("reviewer-chip"),
+      headerCaseMeta: document.getElementById("header-case-meta"),
+      caseChartStack: document.getElementById("case-chart-stack"),
+      caseChartTab: document.getElementById("case-chart-tab"),
+      chartDrawer: document.getElementById("chart-drawer"),
+      chartDrawerClose: document.getElementById("chart-drawer-close"),
+      patientHistoryWrap: document.getElementById("patient-history-wrap"),
+      patientHistory: document.getElementById("patient-history"),
+      grossDescriptionWrap: document.getElementById("gross-description-wrap"),
+      grossDescription: document.getElementById("gross-description"),
+      dxCompare: document.getElementById("dx-compare"),
+      aiDxPrimary: document.getElementById("ai-dx-primary"),
+      aiDxDiff1: document.getElementById("ai-dx-diff1"),
+      aiDxDiff2: document.getElementById("ai-dx-diff2"),
+      dxPrimary: document.getElementById("dx-primary"),
+      dxDiff1: document.getElementById("dx-diff1"),
+      dxDiff2: document.getElementById("dx-diff2"),
+      comments: document.getElementById("comments"),
+      magLabel: document.getElementById("mag-label"),
+      loading: document.getElementById("loading"),
+      exportBtn: document.getElementById("export-btn"),
+      aiContent: document.getElementById("ai-content"),
+      aiPanel: document.getElementById("ai-panel"),
+    };
+    const formFields = [els.dxPrimary, els.dxDiff1, els.dxDiff2, els.comments];
+
+    let config = null;
+    let assignments = null;
+    let manifest = null;
+    let allCasesById = new Map();
+    let cases = [];
+    let currentIndex = 0;
+    let viewer = null;
+    let reviewer = null;
+    let reviews = null;
+    let saveTimer = null;
+    let suppressFormEvents = false;
+    let hudFrame = null;
+    let loadedCaseId = null;
+    let reviewerPasscode = "";
+    let lockedReviewerId = null;
+    let aiIndex = null;
+    let aiByCase = new Map();
+    let aiBundleCache = new Map();
+    let currentAiBundle = null;
+    let activeTileId = null;
+    let activeRoiLevel0 = null;
+    let aiOverlayEl = null;
+    let roiById = new Map();
+    let pendingZoomTileId = null;
+    let roiTooltipEl = null;
+
+    function resolveUrl(relativeOrAbsolute) {
+      if (!relativeOrAbsolute) return "";
+      if (/^https?:\/\//i.test(relativeOrAbsolute)) return relativeOrAbsolute;
+      return new URL(relativeOrAbsolute, window.location.href).href;
+    }
+
+    function slideUrl(relativePath) {
+      const base = config?.slides_base_url || new URL("./", window.location.href).href;
+      return new URL(relativePath, base.endsWith("/") ? base : base + "/").href;
+    }
+
+    function aiDataUrl(relativePath) {
+      const configured = config?.ai_base_url || config?.slideseek_base_url || "ai/";
+      const base = /^https?:\/\//i.test(configured)
+        ? configured
+        : new URL(configured, window.location.href).href;
+      return new URL(relativePath, base.endsWith("/") ? base : `${base}/`).href;
+    }
+
+    async function loadAiIndex() {
+      const url = config?.ai_index_url || config?.slideseek_index_url || "ai/index.json";
+      aiIndex = await fetchJson(url);
+      aiByCase = new Map(Object.entries(aiIndex.cases || {}));
+      return aiByCase.size;
+    }
+
+    async function loadAiCase(caseId) {
+      if (aiBundleCache.has(caseId)) {
+        currentAiBundle = aiBundleCache.get(caseId);
+        return currentAiBundle;
+      }
+      const rel = aiByCase.get(caseId);
+      if (!rel) {
+        currentAiBundle = null;
+        rebuildRoiIndex(null);
+        return null;
+      }
+      const bundle = await fetchJson(aiDataUrl(rel));
+      aiBundleCache.set(caseId, bundle);
+      currentAiBundle = bundle;
+      rebuildRoiIndex(bundle);
+      return bundle;
+    }
+
+    function shortRoiLabel(roiId) {
+      const m = String(roiId).match(/x(\d+)_y(\d+)_mag(\d+)$/);
+      if (!m) return roiId;
+      return `${m[3]}× · ${Number(m[1]).toLocaleString()},${Number(m[2]).toLocaleString()}`;
+    }
+
+    function parseRoiId(roiId) {
+      const m = String(roiId).match(/^slide_[A-Z]_x(\d+)_y(\d+)_mag(\d+)$/);
+      if (!m) return null;
+      const suffix = Number(m[3]);
+      return {
+        x: Number(m[1]),
+        y: Number(m[2]),
+        mag: MAG_FROM_SUFFIX[suffix] || suffix,
+        roiId: String(roiId),
+      };
+    }
+
+    function patchLevel0Size(mag) {
+      const scale = DEFAULT_NATIVE_MAG / Number(mag || DEFAULT_NATIVE_MAG);
+      return Math.round(PATCH_SIZE * scale);
+    }
+
+    function level0RectForTile(tileOrId) {
+      if (!tileOrId) return null;
+      const tile = typeof tileOrId === "string" ? roiById.get(tileOrId) : tileOrId;
+      const roiId = tile?.tile_id || tile?.roi_id || (typeof tileOrId === "string" ? tileOrId : null);
+      const parsed = parseRoiId(roiId);
+      const x = tile?.x ?? parsed?.x;
+      const y = tile?.y ?? parsed?.y;
+      const mag = Number(tile?.magnification ?? parsed?.mag ?? 0);
+      if (x == null || y == null || !mag) return tile?.level0 || null;
+      const size = patchLevel0Size(mag);
+      return {
+        x: Math.round(Number(x)),
+        y: Math.round(Number(y)),
+        width: size,
+        height: size,
+      };
+    }
+
+    function slideDimensions() {
+      const c = cases[currentIndex];
+      if (c?.width && c?.height) {
+        return { width: Number(c.width), height: Number(c.height) };
+      }
+      const item = viewer?.world?.getItemAt(0);
+      if (item) {
+        const size = item.getContentSize();
+        return { width: size.x, height: size.y };
+      }
+      return null;
+    }
+
+    function clampLevel0Rect(rect) {
+      const dims = slideDimensions();
+      if (!dims || !rect) return rect;
+      const x = Math.max(0, Math.min(rect.x, dims.width - 1));
+      const y = Math.max(0, Math.min(rect.y, dims.height - 1));
+      const width = Math.max(1, Math.min(rect.width, dims.width - x));
+      const height = Math.max(1, Math.min(rect.height, dims.height - y));
+      return { x, y, width, height };
+    }
+
+    function rebuildRoiIndex(bundle) {
+      roiById = new Map();
+      for (const tile of bundle?.tiles || []) {
+        if (tile.tile_id) roiById.set(tile.tile_id, tile);
+        if (tile.roi_id) roiById.set(tile.roi_id, tile);
+      }
+    }
+
+    function viewerIsReady() {
+      return Boolean(viewer?.world?.getItemCount());
+    }
+
+    function aiAssistContent(bundle) {
+      const primary = String(bundle?.primary_dx || bundle?.prediction || "").trim();
+      let diffs = (bundle?.differential_dx || []).map((d) => String(d || "").trim()).filter(Boolean).slice(0, 2);
+      if (!diffs.length && bundle?.ranked_dx?.length) {
+        diffs = bundle.ranked_dx.slice(1, 3).map((r) => String(r.name || "").trim()).filter(Boolean);
+      }
+
+      let findings = (bundle?.microscopic_findings || []).map((f) => ({
+        text: String(f?.text || "").trim(),
+        rois: (f?.roi_ids || f?.rois || []).map(String).filter(Boolean).slice(0, 2),
+      })).filter((f) => f.text);
+
+      const interpretation = String(bundle?.interpretation || "").trim();
+      return { primary, diffs, findings, interpretation };
+    }
+
+    function roiCaptionText(roiId) {
+      return String(roiById.get(roiId)?.description || "").trim();
+    }
+
+    function hideRoiTooltip() {
+      if (roiTooltipEl) {
+        roiTooltipEl.remove();
+        roiTooltipEl = null;
+      }
+    }
+
+    function showRoiTooltip(anchor, text) {
+      hideRoiTooltip();
+      if (!text) return;
+      roiTooltipEl = document.createElement("div");
+      roiTooltipEl.className = "roi-tooltip";
+      roiTooltipEl.textContent = text;
+      document.body.appendChild(roiTooltipEl);
+      const anchorRect = anchor.getBoundingClientRect();
+      const tipRect = roiTooltipEl.getBoundingClientRect();
+      let left = anchorRect.left;
+      let top = anchorRect.bottom + 8;
+      if (left + tipRect.width > window.innerWidth - 12) {
+        left = Math.max(12, window.innerWidth - tipRect.width - 12);
+      }
+      if (top + tipRect.height > window.innerHeight - 12) {
+        top = Math.max(12, anchorRect.top - tipRect.height - 8);
+      }
+      roiTooltipEl.style.left = `${left}px`;
+      roiTooltipEl.style.top = `${top}px`;
+    }
+
+    function roiLinkHtml(roiId, { withCaption = false } = {}) {
+      const cls = withCaption ? "roi-link roi-link-caption" : "roi-link";
+      return `<button type="button" class="${cls}" data-tile-id="${escapeHtml(roiId)}">${escapeHtml(shortRoiLabel(roiId))}</button>`;
+    }
+
+    function formatAssistText(text) {
+      const src = String(text || "");
+      if (!src) return "";
+      const re = /\*\*(.+?)\*\*|\[\[(slide_[A-Z]_x\d+_y\d+_mag\d+)\]\]/g;
+      let html = "";
+      let last = 0;
+      let m;
+      while ((m = re.exec(src))) {
+        html += escapeHtml(src.slice(last, m.index));
+        if (m[1]) html += `<strong>${escapeHtml(m[1])}</strong>`;
+        else if (m[2]) html += roiLinkHtml(m[2]);
+        last = m.index + m[0].length;
+      }
+      html += escapeHtml(src.slice(last));
+      return html;
+    }
+
+    function formatLinkedText(text) {
+      return formatAssistText(text);
+    }
+
+    function formatRoiParens(rois) {
+      if (!rois.length) return "";
+      const links = rois.map((roiId) => roiLinkHtml(roiId, { withCaption: true })).join("; ");
+      return `<span class="ai-finding-rois"> (${links})</span>`;
+    }
+
+    function updateAiDxMirror({ primary, diffs }, visible) {
+      const values = [primary, diffs[0] || "", diffs[1] || ""];
+      const targets = [els.aiDxPrimary, els.aiDxDiff1, els.aiDxDiff2];
+      els.dxCompare.classList.toggle("dx-compare--no-ai", !visible);
+      targets.forEach((el, i) => {
+        const value = String(values[i] || "").trim();
+        el.textContent = visible ? (value || "—") : "—";
+        el.classList.toggle("empty", visible && !value);
+      });
+    }
+
+    function isCaseChartOpen() {
+      return els.caseChartStack.classList.contains("open");
+    }
+
+    function setCaseChartOpen(open) {
+      els.caseChartStack.classList.toggle("open", open);
+      els.caseChartTab.setAttribute("aria-expanded", open ? "true" : "false");
+      els.caseChartTab.querySelector(".case-chart-tab-icon").textContent = open ? "‹" : "›";
+    }
+
+    function openCaseChart() {
+      if (els.caseChartStack.classList.contains("hidden")) return;
+      setCaseChartOpen(true);
+    }
+
+    function closeCaseChart() {
+      setCaseChartOpen(false);
+    }
+
+    function toggleCaseChart() {
+      if (els.caseChartStack.classList.contains("hidden")) return;
+      if (isCaseChartOpen()) closeCaseChart();
+      else openCaseChart();
+    }
+
+    function renderCaseChart(c) {
+      const hasHistory = setTextBlock(els.patientHistory, c.patient_history, els.patientHistoryWrap);
+      const hasGross = setTextBlock(els.grossDescription, c.gross_description, els.grossDescriptionWrap);
+      const hasClinical = hasHistory || hasGross;
+      els.caseChartStack.classList.toggle("hidden", !hasClinical);
+      if (hasClinical) openCaseChart();
+      else closeCaseChart();
+      return hasClinical;
+    }
+
+    function renderHeaderCaseMeta(c) {
+      const reviewed = isReviewed(c.id);
+      const items = [
+        c.organ && `<span class="header-meta-item">${escapeHtml(c.organ)}</span>`,
+        c.patient_age && `<span class="header-meta-item">${escapeHtml(c.patient_age)}y</span>`,
+        c.patient_sex && `<span class="header-meta-item">${escapeHtml(c.patient_sex)}</span>`,
+        `<span class="header-meta-item ${reviewed ? "done" : "pending"}">${reviewed ? "Diagnosed ✓" : "Not diagnosed"}</span>`,
+      ].filter(Boolean);
+      els.headerCaseMeta.innerHTML = items.join('<span class="header-meta-sep">·</span>');
+      els.headerCaseMeta.classList.toggle("hidden", items.length === 0);
+    }
+
+    function renderMicroscopicFindings(findings) {
+      if (!findings.length) return "";
+      return `
+        <div class="ai-findings">
+          <p class="ai-findings-title">Microscopic findings</p>
+          ${findings.map((f) => `
+            <p class="ai-finding">${formatAssistText(f.text)}${formatRoiParens(f.rois)}</p>`).join("")}
+        </div>`;
+    }
+
+    function renderInterpretation(text) {
+      const cleaned = String(text || "").trim();
+      if (!cleaned) return "";
+      return `
+        <div class="ai-interpretation">
+          <p class="ai-findings-title">Interpretation</p>
+          <p class="ai-interpretation-text">${formatAssistText(cleaned)}</p>
+        </div>`;
+    }
+
+    function bindReportLinks(container) {
+      container.querySelectorAll(".roi-link").forEach((btn) => {
+        btn.addEventListener("click", (event) => {
+          event.preventDefault();
+          hideRoiTooltip();
+          zoomToTile(btn.dataset.tileId);
+        });
+      });
+      container.querySelectorAll(".roi-link-caption").forEach((btn) => {
+        btn.addEventListener("mouseenter", () => {
+          showRoiTooltip(btn, roiCaptionText(btn.dataset.tileId));
+        });
+        btn.addEventListener("mouseleave", hideRoiTooltip);
+        btn.addEventListener("focus", () => {
+          showRoiTooltip(btn, roiCaptionText(btn.dataset.tileId));
+        });
+        btn.addEventListener("blur", hideRoiTooltip);
+      });
+    }
+
+    function clearAiHighlight() {
+      activeTileId = null;
+      activeRoiLevel0 = null;
+      hideRoiTooltip();
+      document.querySelectorAll(".roi-link.active").forEach((el) => el.classList.remove("active"));
+      if (viewer && aiOverlayEl) {
+        viewer.removeOverlay(aiOverlayEl);
+        aiOverlayEl = null;
+      }
+    }
+
+    function applyZoomToTile(tileId) {
+      if (!viewerIsReady()) return false;
+      const tile = roiById.get(tileId);
+      const level0 = clampLevel0Rect(level0RectForTile(tile || tileId));
+      if (!level0) return false;
+
+      clearAiHighlight();
+      activeTileId = tileId;
+      activeRoiLevel0 = level0;
+      document.querySelectorAll(`.roi-link[data-tile-id="${tileId}"]`).forEach((el) => el.classList.add("active"));
+
+      const rect = viewer.viewport.imageToViewportRectangle(
+        level0.x,
+        level0.y,
+        level0.width,
+        level0.height
+      );
+      const elt = document.createElement("div");
+      elt.className = "ai-roi-highlight";
+      const label = document.createElement("span");
+      label.className = "ai-roi-label";
+      label.textContent = shortRoiLabel(tileId);
+      elt.appendChild(label);
+      viewer.addOverlay({ element: elt, location: rect });
+      aiOverlayEl = elt;
+      viewer.viewport.fitBounds(rect, true);
+      scheduleHudUpdate();
+      return true;
+    }
+
+    function zoomToTile(tileId) {
+      if (!tileId) return;
+      pendingZoomTileId = tileId;
+      if (!applyZoomToTile(tileId)) return;
+      pendingZoomTileId = null;
+    }
+
+    function handleViewerCanvasClick(event) {
+      if (isCaseChartOpen()) closeCaseChart();
+      if (!activeTileId || !activeRoiLevel0 || !viewerIsReady()) return;
+      const viewportPoint = viewer.viewport.pointFromPixel(event.position);
+      const imagePoint = viewer.viewport.viewportToImageCoordinates(viewportPoint);
+      const r = activeRoiLevel0;
+      const inside =
+        imagePoint.x >= r.x &&
+        imagePoint.x <= r.x + r.width &&
+        imagePoint.y >= r.y &&
+        imagePoint.y <= r.y + r.height;
+      if (!inside) clearAiHighlight();
+    }
+
+    function setAiPanelVisible(visible) {
+      els.aiPanel.classList.toggle("hidden", !visible);
+    }
+
+    function renderAiPanel(bundle) {
+      if (!bundle) {
+        setAiPanelVisible(false);
+        updateAiDxMirror({ primary: "", diffs: [] }, false);
+        els.aiContent.innerHTML = "";
+        return;
+      }
+
+      const content = aiAssistContent(bundle);
+      const hasDx = Boolean(content.primary || content.diffs.length);
+      const hasBody = Boolean(content.findings.length || content.interpretation);
+
+      if (!hasDx && !hasBody) {
+        setAiPanelVisible(false);
+        updateAiDxMirror(content, false);
+        els.aiContent.innerHTML = "";
+        return;
+      }
+
+      updateAiDxMirror(content, hasDx);
+      setAiPanelVisible(hasBody);
+
+      if (hasBody) {
+        els.aiContent.innerHTML = `${renderMicroscopicFindings(content.findings)}${renderInterpretation(content.interpretation)}`;
+        bindReportLinks(els.aiContent);
+      } else {
+        els.aiContent.innerHTML = "";
+      }
+    }
+
+    function apiUrl(path) {
+      const base = (config?.api_base_url || "").replace(/\/$/, "");
+      if (!base) return "";
+      return `${base}${path.startsWith("/") ? path : `/${path}`}`;
+    }
+
+    function apiHeaders(extra = {}) {
+      const headers = { ...extra };
+      if (reviewerPasscode) headers["X-Reviewer-Passcode"] = reviewerPasscode;
+      return headers;
+    }
+
+    async function apiErrorMessage(resp, fallback) {
+      if (resp.status === 401) return "Wrong password for this reviewer profile";
+      try {
+        const body = await resp.json();
+        if (body?.detail) return String(body.detail);
+      } catch { /* ignore */ }
+      return fallback;
+    }
+
+    async function fetchReviewsFromServer(reviewerId) {
+      const url = apiUrl(`/api/reviews/${config.study_id}/${reviewerId}`);
+      const resp = await fetch(url, { headers: apiHeaders() });
+      if (!resp.ok) {
+        throw new Error(await apiErrorMessage(resp, `Load reviews failed (${resp.status})`));
+      }
+      return resp.json();
+    }
+
+    async function saveReviewToServer(caseId, row, { keepalive = false } = {}) {
+      const url = apiUrl(`/api/reviews/${config.study_id}/${reviewer.id}/${caseId}`);
+      const resp = await fetch(url, {
+        method: "PUT",
+        headers: apiHeaders({ "Content-Type": "application/json" }),
+        keepalive,
+        body: JSON.stringify({
+          reviewer_name: reviewer.name,
+          dx: row.dx,
+          differential1: row.differential1,
+          differential2: row.differential2,
+          comments: row.comments,
+        }),
+      });
+      if (!resp.ok) {
+        throw new Error(await apiErrorMessage(resp, `Save failed (${resp.status})`));
+      }
+      return resp.json();
+    }
+
+    function emptyReviews(reviewerId) {
+      return {
+        version: 4,
+        study_id: config?.study_id,
+        reviewer_id: reviewerId,
+        cases: {},
+      };
+    }
+
+    async function loadReviewsForReviewer(reviewerId) {
+      const server = await fetchReviewsFromServer(reviewerId);
+      return {
+        ...emptyReviews(reviewerId),
+        cases: server.cases || {},
+        synced_at: new Date().toISOString(),
+      };
+    }
+
+    function loadSession() {
+      try {
+        return JSON.parse(sessionStorage.getItem(SESSION_KEY) || "null");
+      } catch { return null; }
+    }
+
+    function saveSession(reviewerId, passcode) {
+      sessionStorage.setItem(SESSION_KEY, JSON.stringify({
+        reviewer_id: reviewerId,
+        study_id: config?.study_id,
+        passcode,
+        saved_at: new Date().toISOString(),
+      }));
+    }
+
+    function clearSession() {
+      sessionStorage.removeItem(SESSION_KEY);
+    }
+
+    function setGateError(message = "") {
+      if (!message) {
+        els.gateError.textContent = "";
+        els.gateError.classList.add("hidden");
+        return;
+      }
+      els.gateError.textContent = message;
+      els.gateError.classList.remove("hidden");
+    }
+
+    function setSaveStatus(text, saved = false) {
+      els.saveStatus.textContent = text;
+      els.saveStatus.classList.toggle("saved", saved);
+    }
+
+    function scheduleSave() {
+      if (suppressFormEvents || !reviewer) return;
+      setSaveStatus("Saving…", false);
+      clearTimeout(saveTimer);
+      saveTimer = setTimeout(flushCurrentCase, 250);
+    }
+
+    function currentFormRow() {
+      return {
+        dx: els.dxPrimary.value.trim(),
+        differential1: els.dxDiff1.value.trim(),
+        differential2: els.dxDiff2.value.trim(),
+        comments: els.comments.value.trim(),
+        updated_at: new Date().toISOString(),
+      };
+    }
+
+    async function flushCurrentCase({ keepalive = false } = {}) {
+      const c = cases[currentIndex];
+      if (!c || !reviewer || loadedCaseId !== c.id) return true;
+      const row = currentFormRow();
+
+      try {
+        const result = await saveReviewToServer(c.id, row, { keepalive });
+        if (result?.review?.updated_at) {
+          reviews.cases[c.id] = {
+            dx: result.review.dx,
+            differential1: result.review.differential1,
+            differential2: result.review.differential2,
+            comments: result.review.comments,
+            updated_at: result.review.updated_at,
+            created_at: result.review.created_at,
+          };
+        }
+        if (!keepalive) setSaveStatus("Saved", true);
+        return true;
+      } catch (err) {
+        console.warn("Save failed:", err);
+        if (!keepalive) setSaveStatus("Save failed — check connection", false);
+        return false;
+      } finally {
+        if (!keepalive) {
+          updateProgress();
+          refreshCaseSelectOptions();
+          updateCaseStatusChip(c.id);
+        }
+      }
+    }
+
+    function flushOnExit() {
+      flushCurrentCase({ keepalive: true }).catch(() => {});
+    }
+
+    function isReviewed(caseId) {
+      const r = reviews?.cases?.[caseId];
+      return Boolean(r?.dx?.trim()) && Boolean(r?.updated_at);
+    }
+
+    function progressStats() {
+      const total = cases.length;
+      const done = cases.filter((c) => isReviewed(c.id)).length;
+      const pct = total ? Math.round((done / total) * 100) : 0;
+      return { done, total, remaining: total - done, pct };
+    }
+
+    function updateProgress() {
+      const { done, total, remaining, pct } = progressStats();
+      els.progressFill.style.width = `${pct}%`;
+      els.progressPill.textContent = `${done} / ${total} diagnosed`;
+      els.progressPill.classList.toggle("complete", total > 0 && done === total);
+      if (total === 0) {
+        els.progressWrap.title = "No cases assigned";
+      } else if (remaining === 0) {
+        els.progressWrap.title = "All assigned cases have a saved primary diagnosis";
+      } else if (remaining === 1) {
+        els.progressWrap.title = "1 case still needs a saved primary diagnosis";
+      } else {
+        els.progressWrap.title = `${remaining} cases still need a saved primary diagnosis`;
+      }
+    }
+
+    function updateCaseStatusChip(caseId) {
+      if (!caseId || cases[currentIndex]?.id !== caseId) return;
+      const chip = els.headerCaseMeta.querySelector(".header-meta-item.done, .header-meta-item.pending");
+      if (!chip) return;
+      const reviewed = isReviewed(caseId);
+      chip.className = `header-meta-item ${reviewed ? "done" : "pending"}`;
+      chip.textContent = reviewed ? "Diagnosed ✓" : "Not diagnosed";
+    }
+
+    function refreshCaseSelectOptions() {
+      const selected = cases[currentIndex]?.id;
+      els.caseSelect.innerHTML = "";
+      cases.forEach((c, idx) => {
+        const opt = document.createElement("option");
+        opt.value = String(idx);
+        opt.textContent = `${c.seminar_number}/${c.case_number} — ${c.organ || "—"}${isReviewed(c.id) ? " ✓" : ""}`;
+        els.caseSelect.appendChild(opt);
+      });
+      if (selected) {
+        const idx = cases.findIndex((c) => c.id === selected);
+        if (idx >= 0) els.caseSelect.value = String(idx);
+      }
+    }
+
+    function setTextBlock(el, text, wrapEl) {
+      const value = (text || "").trim();
+      el.textContent = value;
+      el.classList.toggle("empty", !value);
+      if (wrapEl) wrapEl.classList.toggle("hidden", !value);
+      return Boolean(value);
+    }
+
+    function escapeHtml(str) {
+      return String(str)
+        .replaceAll("&", "&amp;").replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;").replaceAll('"', "&quot;");
+    }
+
+    function loadFormForCase(caseId) {
+      suppressFormEvents = true;
+      const r = reviews.cases[caseId] || {};
+      els.dxPrimary.value = r.dx || "";
+      els.dxDiff1.value = r.differential1 || "";
+      els.dxDiff2.value = r.differential2 || "";
+      els.comments.value = r.comments || "";
+      suppressFormEvents = false;
+      loadedCaseId = caseId;
+      setSaveStatus(r.updated_at ? "Loaded from server" : "Ready", Boolean(r.dx));
+    }
+
+    function renderCasePanel(c) {
+      renderHeaderCaseMeta(c);
+      renderCaseChart(c);
+      loadFormForCase(c.id);
+    }
+
+    function updateHud() {
+      if (!viewer || !cases[currentIndex]) return;
+      const c = cases[currentIndex];
+      const mag = (c.native_magnification || DEFAULT_NATIVE_MAG)
+        * viewer.viewport.viewportToImageZoom(viewer.viewport.getZoom(true));
+      els.magLabel.textContent = `${mag.toFixed(1)}×`;
+    }
+
+    function scheduleHudUpdate() {
+      if (hudFrame) cancelAnimationFrame(hudFrame);
+      hudFrame = requestAnimationFrame(updateHud);
+    }
+
+    function initViewer(dziUrl) {
+      clearAiHighlight();
+      if (viewer) { viewer.destroy(); viewer = null; }
+      viewer = OpenSeadragon({
+        id: "viewer",
+        prefixUrl: "https://cdn.jsdelivr.net/npm/openseadragon@5.0/build/openseadragon/images/",
+        tileSources: dziUrl,
+        showNavigationControl: false,
+        showNavigator: true,
+        navigatorPosition: "TOP_RIGHT",
+        navigatorSizeRatio: 0.14,
+        animationTime: 0.14,
+        springStiffness: 11,
+        zoomPerScroll: 1.5,
+        blendTime: 0.12,
+        alwaysBlend: true,
+        immediateRender: false,
+        imageLoaderLimit: 16,
+        maxZoomPixelRatio: 3.5,
+        minZoomImageRatio: 0.65,
+        gestureSettingsMouse: { scrollToZoom: true, clickToZoom: false, dblClickToZoom: true, flickEnabled: true },
+      });
+      viewer.addHandler("open", () => {
+        els.loading.classList.remove("visible");
+        scheduleHudUpdate();
+        const target = pendingZoomTileId || activeTileId;
+        if (target) applyZoomToTile(target);
+        pendingZoomTileId = null;
+      });
+      viewer.addHandler("open-failed", () => els.loading.classList.remove("visible"));
+      viewer.addHandler("animation", scheduleHudUpdate);
+      viewer.addHandler("pan", scheduleHudUpdate);
+      viewer.addHandler("zoom", scheduleHudUpdate);
+      viewer.addHandler("canvas-click", handleViewerCanvasClick);
+    }
+
+    async function refreshAiPanel(caseId) {
+      setAiPanelVisible(false);
+      clearAiHighlight();
+      pendingZoomTileId = null;
+      try {
+        if (!aiByCase.size) await loadAiIndex();
+        const bundle = await loadAiCase(caseId);
+        renderAiPanel(bundle);
+      } catch (err) {
+        console.warn("AI load failed:", err);
+        renderAiPanel(null);
+      }
+    }
+
+    async function showCase(index, pushState = true) {
+      if (!cases.length) return;
+      await flushCurrentCase();
+      clearAiHighlight();
+      currentIndex = Math.max(0, Math.min(index, cases.length - 1));
+      const c = cases[currentIndex];
+      els.prevBtn.disabled = currentIndex === 0;
+      els.nextBtn.disabled = currentIndex === cases.length - 1;
+      els.caseSelect.value = String(currentIndex);
+      refreshCaseSelectOptions();
+      renderCasePanel(c);
+      await refreshAiPanel(c.id);
+      if (pushState && reviewer) {
+        const url = new URL(window.location.href);
+        url.searchParams.set("reviewer", reviewer.id);
+        url.searchParams.set("case", c.id);
+        history.replaceState({}, "", url);
+      }
+      els.loading.classList.add("visible");
+      initViewer(slideUrl(c.dzi_url));
+    }
+
+    function buildCaseListForReviewer(reviewerId) {
+      const ids = assignments.assignments[reviewerId] || [];
+      cases = ids.map((id) => allCasesById.get(id)).filter(Boolean);
+    }
+
+    function reviewerFromUrl() {
+      const id = new URLSearchParams(window.location.search).get("reviewer");
+      if (!id || !assignments?.assignments?.[id]) return null;
+      return id;
+    }
+
+    function reviewerDisplayName(reviewerId) {
+      const rev = assignments?.reviewers?.find((r) => r.id === reviewerId);
+      return rev?.name || reviewerId;
+    }
+
+    async function startReviewer(reviewerId, passcode) {
+      if (reviewerId !== lockedReviewerId) {
+        setGateError("This link is locked to a different reviewer profile.");
+        showGate();
+        return;
+      }
+      const rev = assignments.reviewers.find((r) => r.id === reviewerId);
+      if (!rev) return;
+      const code = (passcode ?? "").trim();
+      if (config.require_passcode !== false && !code) {
+        setGateError("Please enter your password.");
+        showGate();
+        return;
+      }
+      reviewer = rev;
+      reviewerPasscode = code;
+      loadedCaseId = null;
+      setGateError("");
+      els.gateStart.disabled = true;
+      setSaveStatus("Loading…", false);
+      try {
+        reviews = await loadReviewsForReviewer(reviewer.id);
+      } catch (err) {
+        const isNetwork = /NetworkError|Failed to fetch|fetch resource/i.test(err.message || "");
+        if (config.local_exploration && isNetwork) {
+          reviews = emptyReviews(reviewer.id);
+          setSaveStatus("Local API offline — run ./serve.sh", false);
+        } else {
+          reviewer = null;
+          reviewerPasscode = "";
+          loadedCaseId = null;
+          clearSession();
+          if (err.message.includes("Wrong password")) {
+            setGateError(err.message);
+            showGate();
+          } else {
+            alert(`Could not load your saved responses: ${err.message}\n\nFor local exploration, run: cd rosai-pathologist-review-slideseek && ./serve.sh`);
+            showGate();
+          }
+          return;
+        }
+      } finally {
+        els.gateStart.disabled = false;
+      }
+      reviews.reviewer_id = reviewer.id;
+      reviews.reviewer_name = rev.name;
+      saveSession(reviewer.id, reviewerPasscode);
+      buildCaseListForReviewer(reviewer.id);
+
+      els.reviewerChip.textContent = rev.name;
+      els.gate.classList.add("hidden");
+      els.app.hidden = false;
+      els.caseSelect.disabled = false;
+      refreshCaseSelectOptions();
+      updateProgress();
+      setSaveStatus("Ready", true);
+
+      const params = new URLSearchParams(window.location.search);
+      const requestedCase = params.get("case");
+      let startIdx = cases.findIndex((c) => c.id === requestedCase);
+      if (startIdx < 0) startIdx = 0;
+      showCase(startIdx, true);
+    }
+
+    function showGate() {
+      els.app.hidden = true;
+      els.gate.classList.remove("hidden");
+      els.gateCaseCount.textContent = assignments.cases_per_reviewer || 50;
+      els.gateReviewerName.textContent = reviewerDisplayName(lockedReviewerId);
+      els.gatePasscode.value = "";
+      els.gatePasscode.focus();
+    }
+
+    async function exportResponses() {
+      if (!reviewer) return;
+      setSaveStatus("Preparing download…", false);
+      try {
+        const saved = await flushCurrentCase();
+        if (!saved) throw new Error("Could not save the current case");
+        const server = await fetchReviewsFromServer(reviewer.id);
+        const payload = {
+          study_id: config.study_id,
+          reviewer_id: reviewer.id,
+          reviewer_name: reviewer.name,
+          exported_at: new Date().toISOString(),
+          assigned_case_ids: cases.map((c) => c.id),
+          cases: server.cases || {},
+        };
+        reviews.cases = payload.cases;
+        updateProgress();
+        refreshCaseSelectOptions();
+        const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" });
+        const a = document.createElement("a");
+        a.href = URL.createObjectURL(blob);
+        a.download = `rosai-review_${reviewer.id}_${new Date().toISOString().slice(0, 10)}.json`;
+        a.click();
+        URL.revokeObjectURL(a.href);
+        setSaveStatus("Downloaded", true);
+      } catch (err) {
+        alert(`Download failed: ${err.message}`);
+        setSaveStatus("Download failed", false);
+      }
+    }
+
+    async function fetchJson(url) {
+      const resp = await fetch(resolveUrl(url));
+      if (!resp.ok) throw new Error(`${url} → HTTP ${resp.status}`);
+      return resp.json();
+    }
+
+    async function bootstrap() {
+      try {
+        config = await fetchJson(`config.json?v=${Date.now()}`);
+        assignments = await fetchJson(config.assignments_url || "assignments.json");
+        manifest = await fetchJson(config.manifest_url || "manifest.json");
+        try {
+          const n = await loadAiIndex();
+          console.info(`SlideSeek AI index loaded (${n} cases)`);
+        } catch (err) {
+          console.warn("SlideSeek AI index unavailable:", err);
+          aiByCase = new Map();
+        }
+      } catch (err) {
+        document.body.innerHTML = `<div style="padding:2rem;font-family:sans-serif;color:#b91c1c;">Failed to load study data: ${escapeHtml(err.message)}</div>`;
+        return;
+      }
+
+      if (!(config.api_base_url || "").trim()) {
+        document.body.innerHTML = `<div style="padding:2rem;font-family:sans-serif;color:#b91c1c;">Review API not configured (missing api_base_url in config.json).</div>`;
+        return;
+      }
+      allCasesById = new Map(
+        (manifest.slides || []).filter((s) => s.ready !== false).map((s) => [s.id, s])
+      );
+
+      lockedReviewerId = reviewerFromUrl();
+      if (!lockedReviewerId) {
+        document.body.innerHTML = `<div style="padding:2rem;font-family:sans-serif;max-width:520px;line-height:1.55;color:#1a2332;">
+          <h2 style="margin-top:0;">Personal review link required</h2>
+          <p>Open the private link you were sent (it includes <code>?reviewer=reviewer_X</code> in the URL). The generic study homepage cannot be used to sign in.</p>
+        </div>`;
+        return;
+      }
+
+      const session = loadSession();
+      const sessionPasscode =
+        session?.study_id === config.study_id && session?.reviewer_id === lockedReviewerId
+          ? session.passcode
+          : null;
+
+      if (config.require_passcode === false) {
+        startReviewer(lockedReviewerId, "local");
+      } else if (sessionPasscode) {
+        startReviewer(lockedReviewerId, sessionPasscode);
+      } else {
+        showGate();
+      }
+    }
+
+    els.gateStart.addEventListener("click", () => startReviewer(lockedReviewerId, els.gatePasscode.value));
+    els.gatePasscode.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") startReviewer(lockedReviewerId, els.gatePasscode.value);
+    });
+    els.caseSelect.addEventListener("change", () => showCase(Number(els.caseSelect.value)));
+    els.prevBtn.addEventListener("click", () => showCase(currentIndex - 1));
+    els.nextBtn.addEventListener("click", () => showCase(currentIndex + 1));
+    els.exportBtn.addEventListener("click", () => exportResponses());
+    els.caseChartTab.addEventListener("click", toggleCaseChart);
+    els.chartDrawerClose.addEventListener("click", closeCaseChart);
+    document.getElementById("zoom-in").addEventListener("click", () => viewer?.viewport.zoomBy(1.65, null, true));
+    document.getElementById("zoom-out").addEventListener("click", () => viewer?.viewport.zoomBy(0.61, null, true));
+    document.getElementById("home-btn").addEventListener("click", () => viewer?.viewport.goHome(true));
+    formFields.forEach((el) => {
+      el.addEventListener("input", scheduleSave);
+      el.addEventListener("change", scheduleSave);
+    });
+    window.addEventListener("beforeunload", flushOnExit);
+    window.addEventListener("pagehide", flushOnExit);
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && isCaseChartOpen()) {
+        e.preventDefault();
+        closeCaseChart();
+        return;
+      }
+      if (e.target.matches("input, textarea, select")) {
+        if (e.altKey && e.key === "ArrowLeft") { e.preventDefault(); showCase(currentIndex - 1); }
+        if (e.altKey && e.key === "ArrowRight") { e.preventDefault(); showCase(currentIndex + 1); }
+        return;
+      }
+      if (e.key === "c" || e.key === "C") {
+        e.preventDefault();
+        toggleCaseChart();
+        return;
+      }
+      if (e.key === "ArrowLeft") showCase(currentIndex - 1);
+      if (e.key === "ArrowRight") showCase(currentIndex + 1);
+    });
+
+    bootstrap();
+  </script>
+</body>
+</html>

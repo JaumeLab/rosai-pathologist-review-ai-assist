@@ -1,0 +1,1550 @@
+{
+  "case_id": "sem554_case12",
+  "source": "slideseek-ai-assist",
+  "model": "gpt-5.4",
+  "generated_at": "2026-05-22T09:29:57.750925+00:00",
+  "organ": "Lung-Mediastinum",
+  "primary_dx": "Low-Grade Mucoepidermoid Carcinoma Of Bronchus With Prominent Cystic/Mucinous Component",
+  "differential_dx": [
+    "Mucous Gland Adenoma",
+    "Bronchogenic Cyst With Secondary Glandular Proliferation"
+  ],
+  "microscopic_findings": [
+    {
+      "text": "Nests and cords show an admixture of **mucous cells** and **intermediate/squamoid cells**, establishing biphenotypic differentiation.",
+      "roi_ids": [
+        "slide_A_x30208_y14848_mag20",
+        "slide_A_x29184_y29696_mag20"
+      ]
+    },
+    {
+      "text": "Tumor contains variably dilated **mucin-filled glands/cysts** embedded within dense **fibrous stroma**.",
+      "roi_ids": [
+        "slide_A_x32768_y28672_mag10",
+        "slide_A_x34816_y30720_mag10"
+      ]
+    },
+    {
+      "text": "Adjacent cystic spaces are lined by **ciliated pseudostratified epithelium** with goblet cells, supporting an…",
+      "roi_ids": [
+        "slide_A_x26112_y20480_mag20",
+        "slide_A_x25600_y20480_mag10"
+      ]
+    },
+    {
+      "text": "The epithelial component is cytologically bland with no convincing **high-grade atypia** or brisk **mitotic activity**.",
+      "roi_ids": [
+        "slide_A_x29696_y14848_mag20",
+        "slide_A_x29696_y15360_mag10"
+      ]
+    }
+  ],
+  "interpretation": "The lesion is best classified as **low-grade mucoepidermoid carcinoma of bronchus** because it shows the defining combination of **mucinous glandular spaces** and **intermediate/squamoid nests** in a bronchial-centered fibrous stroma. Its bland cytology and prominent cystic change support a **low-grade** salivary gland-type carcinoma. Pure **mucous gland adenoma** is disfavored by the definite squamoid/intermediate cell component, and a **bronchogenic cyst** with reactive proliferation does not explain the true biphasic epithelial differentiation.",
+  "num_rois": 94,
+  "tiles": [
+    {
+      "roi_id": "slide_A_x24576_y16384_mag1",
+      "tile_id": "slide_A_x24576_y16384_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 24576,
+      "y": 16384,
+      "level0": {
+        "x": 24576,
+        "y": 16384,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a well-circumscribed lesion with a prominent cystic component containing eosinophilic material and a solid component with a dense fibrous stroma and chronic inflammation. The lesion appears to arise from the bronchial wall.\n\nThe most likely diagnosis is mucous gland adenoma. This benign tumor arises from bronchial submucosal glands and is characterized by cystic and solid areas with mucous cells and a fibrous stroma. The clinical presentation of a mass in the lung/mediastinum and the gross description of a tan-yellow glistening mass are also consistent.\n\nDifferential diagnoses include mucoepidermoid carcinoma, which would show a mixture of mucous, intermediate, and epidermoid cells, and adenoid cystic carcinoma, which typically has a cribriform pattern and perineural invasion.",
+      "rationale": "Whole-section overview to locate endobronchial mass and general architecture"
+    },
+    {
+      "roi_id": "slide_A_x24576_y16384_mag2",
+      "tile_id": "slide_A_x24576_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 24576,
+      "y": 16384,
+      "level0": {
+        "x": 24576,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a large cystic structure with eosinophilic material and a thickened wall, surrounded by dense fibrous stroma containing smaller cystic spaces and chronic inflammation. The cyst is lined by flattened to cuboidal epithelium.\n\nThe most likely diagnosis is mucous gland adenoma. This benign tumor is characterized by cystic and glandular structures lined by mucous-secreting epithelium, often with a fibrous stroma and associated inflammation. The presence of a large cystic component and smaller cystic spaces within a fibrous background is consistent with this diagnosis.\n\nDifferential diagnoses include mucoepidermoid carcinoma, which would show a mixture of mucous, intermediate, and epidermoid cells, and adenoid cystic carcinoma, which typically exhibits cribriform or tubular patterns with hyaline stromal material.",
+      "rationale": "Low-power survey of central portion to localize tumor and bronchial structures"
+    },
+    {
+      "roi_id": "slide_A_x12288_y8192_mag2",
+      "tile_id": "slide_A_x12288_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 12288,
+      "y": 8192,
+      "level0": {
+        "x": 12288,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a dense cellular infiltrate with prominent lymphoid aggregates and a large vessel with thickened walls. The surrounding lung parenchyma exhibits consolidation and architectural distortion.\n\nThe most likely diagnosis is a lymphoid interstitial pneumonia (LIP) or a low-grade lymphoproliferative disorder such as extranodal marginal zone lymphoma (MALT lymphoma) of the lung.\n\nDifferential diagnoses include other causes of lymphoid hyperplasia in the lung, such as reactive lymphoid hyperplasia secondary to infection or inflammation, or other low-grade lymphomas.",
+      "rationale": "Survey left-upper portion for tumor nodules/necrosis"
+    },
+    {
+      "roi_id": "slide_A_x24576_y20480_mag2",
+      "tile_id": "slide_A_x24576_y20480_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 24576,
+      "y": 20480,
+      "level0": {
+        "x": 24576,
+        "y": 20480,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows multiple cystic spaces lined by flattened to cuboidal epithelium, some containing eosinophilic material, within a dense fibrous stroma. Smaller glandular structures are also present.\n\nThe most likely diagnosis is mucous gland adenoma. This benign tumor is characterized by cystic and glandular structures lined by mucin-producing epithelium within a fibrous stroma, consistent with the observed morphology.\n\nDifferential diagnoses include mucinous adenocarcinoma, which would show more complex architecture, cellular atypia, and potentially invasive growth, and mucoepidermoid carcinoma, which would contain a mixture of mucous, intermediate, and epidermoid cells.",
+      "rationale": "Central area shows concentric whorled structure on thumbnail—likely bronchus; confirm and map wall/glands."
+    },
+    {
+      "roi_id": "slide_A_x8192_y8192_mag1",
+      "tile_id": "slide_A_x8192_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 8192,
+      "y": 8192,
+      "level0": {
+        "x": 8192,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a well-circumscribed lesion with a central cystic space containing mucin, surrounded by a cellular proliferation of columnar cells and a prominent lymphoid stroma. The lesion appears to arise from a bronchus.\n\nThe most likely diagnosis is mucinous adenocarcinoma of the lung, specifically a bronchioloalveolar carcinoma (BAC) pattern, given the mucinous component and bronchial origin.\n\nDifferential diagnoses include metastatic mucinous adenocarcinoma (e.g., from colon or pancreas) and mucinous cystadenoma. The presence of a prominent lymphoid stroma and the specific bronchial origin favor a primary lung neoplasm.",
+      "rationale": "Survey upper-left portion for mass vs lung parenchyma/bronchus"
+    },
+    {
+      "roi_id": "slide_A_x36864_y8192_mag2",
+      "tile_id": "slide_A_x36864_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 36864,
+      "y": 8192,
+      "level0": {
+        "x": 36864,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a dense cellular infiltrate with a prominent lymphoid component and areas of fibrosis, adjacent to dense fibrous tissue. The infiltrate appears to be centered around airways.\n\nThe most likely diagnosis is Lymphoid Interstitial Pneumonia (LIP). This is supported by the dense lymphoid infiltrate and fibrosis, which are characteristic features of LIP. The clinical presentation of fever, night sweats, and cough, along with the radiographic findings of a mass effect, are also consistent with this diagnosis.\n\nDifferential diagnoses to consider include MALT lymphoma and other low-grade lymphomas, which can also present with dense lymphoid infiltrates in the lung. However, the presence of a prominent lymphoid component and fibrosis, along with the clinical context, favors LIP.",
+      "rationale": "Survey right-upper portion for bronchial lumen component"
+    },
+    {
+      "roi_id": "slide_A_x32768_y24576_mag2",
+      "tile_id": "slide_A_x32768_y24576_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 32768,
+      "y": 24576,
+      "level0": {
+        "x": 32768,
+        "y": 24576,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a lesion with a prominent cystic component and solid areas composed of glandular structures within a fibrous stroma. The cysts are lined by flattened to cuboidal epithelium, and the stroma contains chronic inflammation.\n\nThe most likely diagnosis is mucous gland adenoma. This benign tumor arises from bronchial submucosal glands and is characterized by cystic and glandular structures within a fibrous stroma, often with associated inflammation. The clinical presentation of a mass in the lung/mediastinum is consistent with this diagnosis.\n\nDifferential diagnoses include mucoepidermoid carcinoma, which would show a mixture of mucous, intermediate, and epidermoid cells, and adenoid cystic carcinoma, which typically has a cribriform pattern and perineural invasion.",
+      "rationale": "Right-central nodular areas near presumed bronchus—look for submucosal tumor."
+    },
+    {
+      "roi_id": "slide_A_x32768_y8192_mag1",
+      "tile_id": "slide_A_x32768_y8192_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 32768,
+      "y": 8192,
+      "level0": {
+        "x": 32768,
+        "y": 8192,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a transition from dense fibrous tissue to a cellular proliferation with a prominent lymphoid infiltrate and areas of necrosis. The cellular component is arranged in nests and cords within a fibrous stroma.\n\nThe most likely diagnosis is a low-grade mucoepidermoid carcinoma. This diagnosis is supported by the presence of a cellular proliferation with a prominent lymphoid infiltrate and areas of necrosis, arising in the lung and associated with a bronchus. The arrangement of cells in nests and cords within a fibrous stroma is also consistent with this entity.\n\nDifferential diagnoses to consider include metastatic carcinoma, particularly from a salivary gland primary, and other primary lung neoplasms with a prominent lymphoid component, such as lymphoepithelioma-like carcinoma. Immunohistochemical studies would be helpful to confirm the diagnosis and rule out other possibilities.",
+      "rationale": "Survey upper-right portion for border/adjacent lung"
+    },
+    {
+      "roi_id": "slide_A_x16384_y28672_mag2",
+      "tile_id": "slide_A_x16384_y28672_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 16384,
+      "y": 28672,
+      "level0": {
+        "x": 16384,
+        "y": 28672,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a neoplasm with a mixed pattern of cystic spaces and solid areas composed of cells with clear to vacuolated cytoplasm. The stroma is fibrous and hyalinized.\n\nThe most likely diagnosis is a mucoepidermoid carcinoma, given the mixed cystic and solid architecture and the presence of cells with clear/vacuolated cytoplasm.\n\nDifferential diagnoses include adenoid cystic carcinoma, which typically shows cribriform and tubular patterns with hyaline globules, and metastatic clear cell carcinoma, which would lack the cystic component and specific cell types seen here.",
+      "rationale": "Inferior lobe of tissue with multiple pale nodules—potential peribronchial glands/tumor extensions."
+    },
+    {
+      "roi_id": "slide_A_x32768_y28672_mag2",
+      "tile_id": "slide_A_x32768_y28672_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 32768,
+      "y": 28672,
+      "level0": {
+        "x": 32768,
+        "y": 28672,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a proliferation of variably sized cystic and glandular structures embedded in a fibrous stroma, with some areas of solid growth. The epithelial lining is predominantly cuboidal to columnar, with some areas showing mucinous differentiation.\n\nThe most likely diagnosis is mucous gland adenoma. This benign tumor arises from bronchial submucosal glands and is characterized by cystic and glandular spaces lined by mucinous epithelium, often with a fibrous stroma. The solid areas may represent more cellular foci within the adenoma.\n\nDifferential diagnoses include low-grade mucoepidermoid carcinoma, which would show a mixture of mucous, intermediate, and epidermoid cells, and adenoid cystic carcinoma, which typically has a cribriform pattern and perineural invasion.",
+      "rationale": "Survey right-lower portion for interface with lung parenchyma/atelectasis"
+    },
+    {
+      "roi_id": "slide_A_x32768_y24576_mag1",
+      "tile_id": "slide_A_x32768_y24576_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 32768,
+      "y": 24576,
+      "level0": {
+        "x": 32768,
+        "y": 24576,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a lesion with a mixture of cystic and solid areas, featuring cysts of varying sizes and solid nests of cells within a fibrous stroma. The cysts are lined by flattened to cuboidal epithelium, and the solid areas contain cells with eosinophilic cytoplasm and round nuclei.\n\nThe most likely diagnosis is a mucous gland adenoma. This benign tumor arises from bronchial submucosal glands and is characterized by cystic and solid components with mucous cells and fibrous stroma.\n\nDifferential diagnoses include mucoepidermoid carcinoma, which would show a mixture of mucous, intermediate, and epidermoid cells, and adenoid cystic carcinoma, which typically has cribriform architecture and perineural invasion.",
+      "rationale": "Survey lower-right portion for additional nodules/airway structures"
+    },
+    {
+      "roi_id": "slide_A_x16384_y24576_mag1",
+      "tile_id": "slide_A_x16384_y24576_mag1",
+      "mag": "low",
+      "magnification": 1.25,
+      "x": 16384,
+      "y": 24576,
+      "level0": {
+        "x": 16384,
+        "y": 24576,
+        "width": 16384,
+        "height": 16384
+      },
+      "description": "The image shows a well-circumscribed lesion with a mixture of cystic spaces and solid areas composed of glandular and squamous elements within a fibrous stroma. The lesion is associated with a large airway.\n\nThe most likely diagnosis is a mucous gland adenoma. Differential diagnoses include mucoepidermoid carcinoma, which typically shows more cellular atypia and infiltrative growth, and a bronchial cyst, which is usually lined by respiratory epithelium and lacks the complex glandular and squamous components.",
+      "rationale": "Survey lower-left portion for tumor edge/atelectatic lung"
+    },
+    {
+      "roi_id": "slide_A_x24576_y20480_mag5",
+      "tile_id": "slide_A_x24576_y20480_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 24576,
+      "y": 20480,
+      "level0": {
+        "x": 24576,
+        "y": 20480,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cystic structure lined by pseudostratified columnar epithelium with goblet cells and containing eosinophilic material. The wall is composed of fibrous tissue with chronic inflammation.\n\nThe most likely diagnosis is a mucous gland adenoma. Differential diagnoses include a bronchogenic cyst, which typically has a thicker fibromuscular wall and lacks the prominent mucous glands seen here.",
+      "rationale": "Interrogate presumed bronchial wall/submucosal gland tumor interface; look for mucosal involvement."
+    },
+    {
+      "roi_id": "slide_A_x24576_y16384_mag10",
+      "tile_id": "slide_A_x24576_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 24576,
+      "y": 16384,
+      "level0": {
+        "x": 24576,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a large area of amorphous, eosinophilic material with scattered inflammatory cells and clear spaces, adjacent to a thickened wall with chronic inflammation and fibrosis.\n\nThe most likely diagnosis is a mucous plug or mucus impaction within a bronchus, potentially associated with bronchiectasis or chronic bronchitis.\n\nDifferential diagnoses include a fungal ball (mycetoma) or a foreign body reaction, which would typically show fungal hyphae or foreign material, respectively, often with a more prominent inflammatory response.",
+      "rationale": "Assess architecture of cystic/glandular lesion at medium power"
+    },
+    {
+      "roi_id": "slide_A_x25600_y20480_mag10",
+      "tile_id": "slide_A_x25600_y20480_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 25600,
+      "y": 20480,
+      "level0": {
+        "x": 25600,
+        "y": 20480,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cystic structure lined by pseudostratified columnar epithelium with goblet cells and a wall composed of fibrous tissue with chronic inflammation. The lumen contains amorphous eosinophilic material.\n\nThe most likely diagnosis is a mucous gland adenoma. This benign tumor arises from bronchial glands and is characterized by cystic spaces lined by respiratory-type epithelium and a fibrous stroma. The presence of goblet cells and the cystic nature are consistent with this diagnosis.\n\nDifferential diagnoses include a bronchogenic cyst, which is typically lined by respiratory epithelium and may contain cartilage, and a mucoepidermoid carcinoma, which would show a mixture of mucous, intermediate, and epidermoid cells.",
+      "rationale": "Higher power of same area to assess gland lining cytology and presence/absence of intermediate/squamoid cells."
+    },
+    {
+      "roi_id": "slide_A_x32768_y28672_mag10",
+      "tile_id": "slide_A_x32768_y28672_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 32768,
+      "y": 28672,
+      "level0": {
+        "x": 32768,
+        "y": 28672,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of glandular structures embedded in a dense fibrous stroma. The glands are lined by columnar cells with apical mucin and basally oriented nuclei, and some contain luminal mucin.\n\nThe most likely diagnosis is mucinous adenocarcinoma of the lung. The presence of glandular structures with mucin production and the clinical presentation of a mass in the lung are consistent with this diagnosis. Differential diagnoses include metastatic mucinous adenocarcinoma from another primary site (e.g., gastrointestinal tract) and benign mucinous lesions such as mucous gland adenoma or mucinous cystadenoma, which would typically lack the infiltrative growth pattern and cytologic atypia seen in adenocarcinoma.",
+      "rationale": "Sample more solid-appearing areas within glandular proliferation"
+    },
+    {
+      "roi_id": "slide_A_x20480_y16384_mag2",
+      "tile_id": "slide_A_x20480_y16384_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 20480,
+      "y": 16384,
+      "level0": {
+        "x": 20480,
+        "y": 16384,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a neoplasm with a mixed solid and cystic pattern, featuring nests and cords of cells with eosinophilic cytoplasm and round nuclei within a fibrous stroma, along with cystic spaces containing eosinophilic material.\n\nThe most likely diagnosis is mucoepidermoid carcinoma. This diagnosis is supported by the presence of both solid and cystic components, the mixed cell population including cells with eosinophilic cytoplasm, and the cystic spaces containing eosinophilic material.\n\nDifferential diagnoses include adenoid cystic carcinoma, which typically shows cribriform and tubular patterns with hyaline globules, and metastatic adenocarcinoma, which would lack the characteristic mixed cell population and cystic spaces seen here.",
+      "rationale": "Assess overall circumscription and relationship to bronchial wall; cystic vs solid components"
+    },
+    {
+      "roi_id": "slide_A_x36864_y8192_mag10",
+      "tile_id": "slide_A_x36864_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 36864,
+      "y": 8192,
+      "level0": {
+        "x": 36864,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows thickened alveolar septa with a mixed inflammatory infiltrate and numerous foamy macrophages filling alveolar spaces. There is also a prominent lymphoid aggregate.\n\nThe most likely diagnosis is Desquamative Interstitial Pneumonia (DIP).\n\nDifferential diagnoses include Respiratory Bronchiolitis-Associated Interstitial Lung Disease (RB-ILD), which typically shows more prominent peribronchiolar inflammation and less diffuse alveolar involvement, and Lymphoid Interstitial Pneumonia (LIP), which is characterized by diffuse interstitial lymphoid infiltrates and often associated with autoimmune diseases.",
+      "rationale": "Clarify nature of lymphoid-rich area; rule out tumor vs inflammation"
+    },
+    {
+      "roi_id": "slide_A_x16384_y28672_mag5",
+      "tile_id": "slide_A_x16384_y28672_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 16384,
+      "y": 28672,
+      "level0": {
+        "x": 16384,
+        "y": 28672,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a proliferation of glandular structures with variable size and shape, including cystic spaces, embedded in a dense fibrous stroma. The glands are lined by cuboidal to low columnar cells with eosinophilic cytoplasm and basally oriented nuclei.\n\nThe most likely diagnosis is mucous gland adenoma. This benign tumor arises from bronchial glands and is characterized by a proliferation of glandular structures, often with cystic dilation, within a fibrous stroma. The bland cytology of the lining cells supports a benign process.\n\nDifferential diagnoses include low-grade mucoepidermoid carcinoma, which would show a mixture of mucous, intermediate, and epidermoid cells, and adenoid cystic carcinoma, which typically exhibits cribriform architecture and perineural invasion.",
+      "rationale": "Area with clear/vacuolated cells; evaluate for mucoepidermoid components and invasion."
+    },
+    {
+      "roi_id": "slide_A_x32768_y8192_mag2",
+      "tile_id": "slide_A_x32768_y8192_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 32768,
+      "y": 8192,
+      "level0": {
+        "x": 32768,
+        "y": 8192,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a dense cellular infiltrate with a prominent lymphoid component and scattered larger cells, adjacent to dense fibrous tissue. The interface between the cellular infiltrate and the fibrous tissue is irregular.\n\nThe most likely diagnosis is a lymphoproliferative disorder, such as lymphoma, given the dense lymphoid infiltrate and the presence of scattered larger cells. A reactive lymphoid process could also be considered, although the cellularity and pattern are more suggestive of a neoplastic process.\n\nDifferential diagnoses include other inflammatory or neoplastic processes that can present as a mass in the lung, such as granulomatous inflammation or metastatic carcinoma. However, the prominent lymphoid component and scattered larger cells are less typical for these entities.",
+      "rationale": "Evaluate upper-right lesion area for edge features, any necrosis, invasion"
+    },
+    {
+      "roi_id": "slide_A_x16384_y28672_mag10",
+      "tile_id": "slide_A_x16384_y28672_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 16384,
+      "y": 28672,
+      "level0": {
+        "x": 16384,
+        "y": 28672,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a neoplasm with a prominent cribriform pattern and nests of cells with clear to vacuolated cytoplasm within a fibrous stroma. The cribriform spaces contain eosinophilic material.\n\nThe most likely diagnosis is adenoid cystic carcinoma.\n\nDifferential diagnoses include mucoepidermoid carcinoma, which typically shows a mixture of mucous, intermediate, and epidermoid cells, and adenocarcinoma, which usually forms glandular structures and lacks the characteristic cribriform pattern and hyaline material seen here.",
+      "rationale": "Detail of solid component to look for epidermoid/intermediate cells, mitoses, atypia."
+    },
+    {
+      "roi_id": "slide_A_x12288_y8192_mag10",
+      "tile_id": "slide_A_x12288_y8192_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 12288,
+      "y": 8192,
+      "level0": {
+        "x": 12288,
+        "y": 8192,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a transition from dense fibrous tissue to lung parenchyma with alveolar spaces filled by inflammatory cells, including lymphocytes and macrophages, and proteinaceous material. There is also a prominent lymphoid aggregate.\n\nThe morphologic features are consistent with organizing pneumonia, characterized by intra-alveolar organization of inflammatory cells and exudate. The presence of a dense fibrous component suggests a chronic process. The clinical presentation of a mass-like lesion in the lung, particularly in a young patient, raises the possibility of a lymphoproliferative disorder such as MALT lymphoma, which can present with an inflammatory background and fibrosis. Other considerations include inflammatory pseudotumor or a reactive lymphoid hyperplasia.",
+      "rationale": "Evaluate lymphoid aggregates for reactive vs neoplastic; look for granulomas"
+    },
+    {
+      "roi_id": "slide_A_x16384_y24576_mag2",
+      "tile_id": "slide_A_x16384_y24576_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 16384,
+      "y": 24576,
+      "level0": {
+        "x": 16384,
+        "y": 24576,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a large cystic space lined by flattened to cuboidal epithelium, surrounded by dense fibrous stroma containing smaller cystic and glandular structures. The stroma is cellular with scattered inflammatory cells.\n\nThe most likely diagnosis is a mucous gland adenoma. This benign tumor arises from bronchial submucosal glands and is characterized by cystic and glandular structures within a fibrous stroma, often protruding into the bronchial lumen.\n\nDifferential diagnoses include a low-grade mucoepidermoid carcinoma, which would show a mixture of mucous, intermediate, and epidermoid cells, and a bronchial cyst, which is typically lined by respiratory epithelium and lacks the glandular component.",
+      "rationale": "Evaluate lower-left lesion portion; look for cartilage/hamartomatous elements or inflammation"
+    },
+    {
+      "roi_id": "slide_A_x26624_y24576_mag5",
+      "tile_id": "slide_A_x26624_y24576_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 26624,
+      "y": 24576,
+      "level0": {
+        "x": 26624,
+        "y": 24576,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cystic structure lined by pseudostratified columnar epithelium with goblet cells, containing eosinophilic material. The wall is composed of dense fibrous tissue with chronic inflammation and hemorrhage.\n\nThe most likely diagnosis is a mucous gland adenoma. This benign tumor arises from bronchial glands and is characterized by cystic spaces lined by respiratory-type epithelium and a fibrous stroma. The presence of goblet cells and the cystic nature are consistent with this diagnosis.\n\nDifferential diagnoses include a bronchial cyst, which typically lacks the prominent glandular component, and a low-grade mucoepidermoid carcinoma, which would show a mixture of mucous, intermediate, and epidermoid cells, often with more cellular atypia and infiltrative growth.",
+      "rationale": "Near central whorled structure on thumbnail (possible bronchus/cartilage); search for perineural invasion and cartilage involvement."
+    },
+    {
+      "roi_id": "slide_A_x28672_y24576_mag2",
+      "tile_id": "slide_A_x28672_y24576_mag2",
+      "mag": "low",
+      "magnification": 2.5,
+      "x": 28672,
+      "y": 24576,
+      "level0": {
+        "x": 28672,
+        "y": 24576,
+        "width": 8192,
+        "height": 8192
+      },
+      "description": "The image shows a lesion with cystic spaces and papillary projections lined by mucinous epithelium, along with a prominent lymphoid stroma. The cystic spaces contain eosinophilic material.\n\nThe most likely diagnosis is mucous gland adenoma. This benign tumor is characterized by cystic and papillary structures lined by mucinous epithelium and a prominent lymphoid stroma, consistent with the features observed in the image.\n\nDifferential diagnoses include mucinous adenocarcinoma, which would typically show more significant cytologic atypia and infiltrative growth, and mucoepidermoid carcinoma, which would contain a mixture of mucous, intermediate, and epidermoid cells.",
+      "rationale": "Evaluate lower-right lesion portion for glandular/cystic architecture and interface with lung"
+    },
+    {
+      "roi_id": "slide_A_x33792_y26112_mag20",
+      "tile_id": "slide_A_x33792_y26112_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 33792,
+      "y": 26112,
+      "level0": {
+        "x": 33792,
+        "y": 26112,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense inflammatory infiltrate composed of lymphocytes, plasma cells, and histiocytes within a fibrous stroma, with prominent congested blood vessels. The surface is irregular and lacks epithelial lining.\n\nThe most likely diagnosis is a granulomatous inflammatory process, such as a granuloma or inflammatory pseudotumor.\n\nDifferential diagnoses include inflammatory myofibroblastic tumor, which typically shows a more prominent spindle cell component, and infectious granulomas (e.g., fungal, mycobacterial), which would require special stains for identification.",
+      "rationale": "High power cytology of glandular/mucinous tumor area"
+    },
+    {
+      "roi_id": "slide_A_x31232_y30720_mag20",
+      "tile_id": "slide_A_x31232_y30720_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 31232,
+      "y": 30720,
+      "level0": {
+        "x": 31232,
+        "y": 30720,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of spindle cells in a myxoid stroma with a prominent inflammatory infiltrate. The spindle cells have elongated nuclei and eosinophilic cytoplasm, arranged in fascicles and haphazardly.\n\nThe most likely diagnosis is Inflammatory Myofibroblastic Tumor (IMT).\n\nDifferential diagnoses include:\n- Solitary Fibrous Tumor (SFT): Typically shows a more patternless architecture with prominent branching vessels and lacks the significant inflammatory infiltrate seen here.\n- Nodular Fasciitis: Usually more cellular with a myxoid stroma and a prominent inflammatory infiltrate, but often has a more rapid growth history and may show more mitotic activity.",
+      "rationale": "High power in more solid stromal area to assess atypia/mitoses/necrosis"
+    },
+    {
+      "roi_id": "slide_A_x12288_y6144_mag10",
+      "tile_id": "slide_A_x12288_y6144_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 12288,
+      "y": 6144,
+      "level0": {
+        "x": 12288,
+        "y": 6144,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a large vessel with a thickened wall and a prominent perivascular inflammatory infiltrate composed of lymphocytes and plasma cells. Adjacent lung parenchyma exhibits alveolar spaces filled with inflammatory cells and proteinaceous material.\n\nThe morphologic features are consistent with a reactive process, such as organizing pneumonia or a granulomatous inflammation, in the lung parenchyma. The perivascular inflammation may be related to the underlying process or a separate reactive change. Given the clinical history of fever, night sweats, and cough, and the presence of a mass effect, an infectious etiology should be considered. The differential diagnosis includes infectious granulomatous diseases (e.g., tuberculosis, fungal infection) and organizing pneumonia. Further evaluation with special stains for microorganisms and clinical correlation is necessary to establish a definitive diagnosis.",
+      "rationale": "Upper-left bronchial wall/gland-rich area on map (ROI 22 vicinity); look for submucosal salivary-type tumor and perineural invasion."
+    },
+    {
+      "roi_id": "slide_A_x22528_y18432_mag5",
+      "tile_id": "slide_A_x22528_y18432_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 22528,
+      "y": 18432,
+      "level0": {
+        "x": 22528,
+        "y": 18432,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cystic structure lined by respiratory epithelium with surrounding fibrosis and chronic inflammation. Adjacent lung parenchyma exhibits dilated airways and alveolar spaces containing eosinophilic material.\n\nThe most likely diagnosis is a mucous gland adenoma. This benign tumor arises from bronchial submucosal glands and is characterized by cystic and glandular structures lined by respiratory epithelium, often with associated inflammation and fibrosis. The presence of dilated airways and alveolar spaces filled with eosinophilic material in the adjacent lung parenchyma is consistent with the clinical presentation of a mass effect and consolidation.\n\nDifferential diagnoses include mucous gland hyperplasia, which typically lacks the well-circumscribed nodular architecture of an adenoma, and low-grade mucoepidermoid carcinoma, which would show a mixture of mucous, intermediate, and epidermoid cells, often with more infiltrative growth.",
+      "rationale": "Tumor center solid+cystic area to define dominant architecture at low power"
+    },
+    {
+      "roi_id": "slide_A_x25600_y17920_mag20",
+      "tile_id": "slide_A_x25600_y17920_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 25600,
+      "y": 17920,
+      "level0": {
+        "x": 25600,
+        "y": 17920,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a transition from dense, acellular, eosinophilic material with a fibrillar pattern to a cellular area with spindle cells and a mixed inflammatory infiltrate. The interface between these areas is irregular.\n\nThe most likely diagnosis is Pulmonary Hamartoma.\n\nDifferential diagnoses include:\n- Pulmonary Adenofibroma: Typically shows a biphasic pattern of glandular and fibrous components, which is not evident here.\n- Solitary Fibrous Tumor: Usually composed of spindle cells in a patternless pattern with prominent collagen and often shows hemangiopericytoma-like vessels, which are not seen here.\n- Inflammatory Myofibroblastic Tumor: Characterized by a proliferation of myofibroblastic spindle cells mixed with a prominent inflammatory infiltrate, often with plasma cells, which is not the predominant feature in this image.",
+      "rationale": "High power in bronchial lumen eosinophilic material to exclude fungi/organisms"
+    },
+    {
+      "roi_id": "slide_A_x11776_y6144_mag20",
+      "tile_id": "slide_A_x11776_y6144_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 11776,
+      "y": 6144,
+      "level0": {
+        "x": 11776,
+        "y": 6144,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a thickened vessel wall with a prominent wavy internal elastic lamina and surrounding dense fibrous tissue. There is also a mild perivascular inflammatory infiltrate.\n\nThe most likely diagnosis for this lung-mediastinum tissue is a benign fibrous lesion, such as a fibrous hamartoma or a solitary fibrous tumor.\n\nDifferential diagnoses include inflammatory myofibroblastic tumor, which would show more prominent spindle cells and a mixed inflammatory infiltrate, and a low-grade sarcoma, which would exhibit increased cellularity, atypia, and mitotic activity.",
+      "rationale": "High power for cytology (basaloid vs neuroendocrine) and perineural invasion."
+    },
+    {
+      "roi_id": "slide_A_x13312_y8192_mag20",
+      "tile_id": "slide_A_x13312_y8192_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 13312,
+      "y": 8192,
+      "level0": {
+        "x": 13312,
+        "y": 8192,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense lymphoid infiltrate with scattered large cells and numerous macrophages containing brown pigment. There is also a transition to fibrous tissue.\n\nThe most likely diagnosis is Lymphoid Interstitial Pneumonia (LIP).\n\nDifferential diagnoses include:\n- MALT lymphoma: typically shows a more monotonous lymphoid infiltrate and may have lymphoepithelial lesions.\n- Sarcoidosis: characterized by non-caseating granulomas, which are not seen in this image.",
+      "rationale": "High power in lymphoid aggregate/inflammation to look for granulomas or tumor"
+    },
+    {
+      "roi_id": "slide_A_x26624_y20480_mag5",
+      "tile_id": "slide_A_x26624_y20480_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 26624,
+      "y": 20480,
+      "level0": {
+        "x": 26624,
+        "y": 20480,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cystic structure lined by pseudostratified columnar epithelium with goblet cells, surrounded by dense fibrous stroma with chronic inflammation. The lumen contains eosinophilic material and red blood cells.\n\nThe most likely diagnosis is mucous gland adenoma. This benign tumor arises from bronchial glands and is characterized by cystic spaces lined by respiratory-type epithelium and a fibrous stroma. The presence of goblet cells and the cystic nature are consistent with this diagnosis.\n\nDifferential diagnoses include mucous gland adenocarcinoma, which would show infiltrative growth and cytologic atypia, and a bronchial cyst, which is typically lined by respiratory epithelium but lacks the prominent fibrous stroma and glandular proliferation seen here.",
+      "rationale": "Tumor-airway/luminal interface region with possible bronchial wall involvement"
+    },
+    {
+      "roi_id": "slide_A_x36864_y9216_mag10",
+      "tile_id": "slide_A_x36864_y9216_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 36864,
+      "y": 9216,
+      "level0": {
+        "x": 36864,
+        "y": 9216,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense lymphoid infiltrate with a prominent lymphoid follicle and thickened alveolar septa. There is also a large airway with thickened walls and luminal contents.\n\nThe most likely diagnosis is MALT lymphoma of the lung.\n\nDifferential diagnoses include reactive lymphoid hyperplasia and other low-grade lymphomas. Reactive lymphoid hyperplasia would typically lack the prominent lymphoid follicle and the nodular extension into the airway lumen. Other low-grade lymphomas would require immunohistochemical studies for definitive classification.",
+      "rationale": "Upper-right area (ROIs 18-20 vicinity); assess for cartilage/bronchus and infiltrative growth."
+    },
+    {
+      "roi_id": "slide_A_x32768_y8192_mag5",
+      "tile_id": "slide_A_x32768_y8192_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 32768,
+      "y": 8192,
+      "level0": {
+        "x": 32768,
+        "y": 8192,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a dense lymphoid infiltrate with prominent lymphoid follicles and interfollicular areas, along with thickened alveolar septa and scattered inflammatory cells. The infiltrate is centered around airways and extends into the surrounding parenchyma.\n\nThe most likely diagnosis is MALT lymphoma of the lung. The presence of a dense lymphoid infiltrate with follicular structures and interfollicular areas, centered around airways, is characteristic of this entity. The clinical presentation of a mass effect and the gross description of a tan-yellow mass extending from the bronchus further support this diagnosis.\n\nDifferential diagnoses include reactive lymphoid hyperplasia and other low-grade lymphomas. Reactive lymphoid hyperplasia would typically show more prominent germinal centers and a more polymorphous cellular infiltrate. Other low-grade lymphomas, such as follicular lymphoma, would show a different architectural pattern and immunophenotype.",
+      "rationale": "Upper-right area with dense lymphoid stroma/irregular interface to assess if true lymph node vs peritumoral inflammation"
+    },
+    {
+      "roi_id": "slide_A_x36352_y9216_mag20",
+      "tile_id": "slide_A_x36352_y9216_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 36352,
+      "y": 9216,
+      "level0": {
+        "x": 36352,
+        "y": 9216,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense lymphoid infiltrate with a prominent lymphoid follicle and scattered larger cells. The surrounding lung parenchyma exhibits thickened alveolar septa and interstitial inflammation.\n\nThe most likely diagnosis is MALT lymphoma. The presence of a dense lymphoid infiltrate with lymphoid follicles and scattered larger cells in the lung is characteristic of this entity. The clinical presentation of a mass effect and the gross description of a solid mass arising from the bronchus further support this diagnosis.\n\nDifferential diagnoses include reactive lymphoid hyperplasia and other low-grade lymphomas. Reactive lymphoid hyperplasia would typically show well-formed germinal centers and a mixed inflammatory background without significant atypia. Other low-grade lymphomas, such as follicular lymphoma, would show a different architectural pattern and immunophenotype.",
+      "rationale": "Look for cribriform/tubular adenoid cystic features and perineural invasion."
+    },
+    {
+      "roi_id": "slide_A_x30720_y27648_mag10",
+      "tile_id": "slide_A_x30720_y27648_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 30720,
+      "y": 27648,
+      "level0": {
+        "x": 30720,
+        "y": 27648,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cystic structure lined by pseudostratified columnar epithelium with goblet cells, surrounded by a dense lymphoid infiltrate and fibrous stroma. The lumen contains amorphous material and inflammatory cells.\n\nThe most likely diagnosis is a lymphoepithelial cyst. This diagnosis is supported by the presence of a cystic structure lined by respiratory-type epithelium and surrounded by a prominent lymphoid infiltrate. The clinical presentation of a mass in the mediastinum with associated symptoms is also consistent with this entity.\n\nDifferential diagnoses to consider include a bronchogenic cyst, which typically lacks the prominent lymphoid infiltrate, and a thymic cyst, which would be located in the anterior mediastinum and show thymic tissue.",
+      "rationale": "Target area adjacent to prior spindle/myxoid focus to better characterize spindle cell lesion vs glands"
+    },
+    {
+      "roi_id": "slide_A_x14336_y24576_mag5",
+      "tile_id": "slide_A_x14336_y24576_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 14336,
+      "y": 24576,
+      "level0": {
+        "x": 14336,
+        "y": 24576,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a large, well-circumscribed mass with a smooth surface and a lobulated appearance, composed of dense fibrous tissue with scattered inflammatory cells and entrapped epithelial structures.\n\nThe most likely diagnosis is a pulmonary hamartoma. Differential diagnoses include a fibrous tumor or a well-differentiated carcinoma, which would typically show more cellular atypia and lack the characteristic entrapped epithelial elements seen here.",
+      "rationale": "Large cystic space region to assess lining and papillary infoldings"
+    },
+    {
+      "roi_id": "slide_A_x26112_y20480_mag20",
+      "tile_id": "slide_A_x26112_y20480_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 26112,
+      "y": 20480,
+      "level0": {
+        "x": 26112,
+        "y": 20480,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cystic structure lined by pseudostratified columnar epithelium with cilia and goblet cells, surrounded by fibrous stroma with chronic inflammation. The cyst wall contains smooth muscle bundles.\n\nThe most likely diagnosis is a bronchogenic cyst. This diagnosis is supported by the presence of a cystic structure lined by respiratory-type epithelium and containing smooth muscle in the wall, consistent with a developmental cyst arising from the tracheobronchial tree.\n\nDifferential diagnoses include a bronchial cyst, which is typically lined by squamous epithelium, and a peribronchial cyst, which lacks respiratory epithelium and smooth muscle.",
+      "rationale": "Central bronchus-lining cystic space previously seen; check mucosal involvement and basal cell proliferation."
+    },
+    {
+      "roi_id": "slide_A_x34816_y30720_mag10",
+      "tile_id": "slide_A_x34816_y30720_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 34816,
+      "y": 30720,
+      "level0": {
+        "x": 34816,
+        "y": 30720,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of glandular structures with variable size and shape, some dilated and containing eosinophilic material, embedded in a fibrous stroma with chronic inflammation. The glands are lined by cuboidal to columnar epithelium.\n\nThe most likely diagnosis is mucous gland adenoma. This benign tumor arises from bronchial glands and is characterized by a proliferation of mucous glands with variable architecture and a fibrous stroma. The presence of dilated glands containing eosinophilic material is a key feature.\n\nDifferential diagnoses include low-grade mucoepidermoid carcinoma, which would show a mixture of mucous, intermediate, and epidermoid cells, and adenoid cystic carcinoma, which typically has a cribriform pattern and perineural invasion.",
+      "rationale": "Sample peripheral lesion for epithelial component; look for cartilage/hamartoma features"
+    },
+    {
+      "roi_id": "slide_A_x36864_y24576_mag5",
+      "tile_id": "slide_A_x36864_y24576_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 36864,
+      "y": 24576,
+      "level0": {
+        "x": 36864,
+        "y": 24576,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a large area of hemorrhage and fibrin with scattered inflammatory cells and cellular debris. The underlying tissue is not clearly visible at this magnification.\n\nThe most likely diagnosis for this lung-mediastinum lesion is a pulmonary hamartoma. Pulmonary hamartomas are benign mesenchymal tumors composed of cartilage, fat, and connective tissue, often presenting as a well-circumscribed mass. The gross description of a tan-yellow glistening mass with nodular extension is consistent with a hamartoma.\n\nDifferential diagnoses include a pulmonary infarct, which can present as a hemorrhagic mass, and a granuloma, which can also show central necrosis and inflammation. However, the gross description and clinical history are more suggestive of a hamartoma.",
+      "rationale": "Peripheral edge with adjacent lung to assess circumscription vs infiltration"
+    },
+    {
+      "roi_id": "slide_A_x20480_y21504_mag10",
+      "tile_id": "slide_A_x20480_y21504_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 20480,
+      "y": 21504,
+      "level0": {
+        "x": 20480,
+        "y": 21504,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cystic structure lined by pseudostratified columnar epithelium with goblet cells, surrounded by dense fibrous stroma with chronic inflammation. Smaller glandular structures are also present within the stroma.\n\nThe most likely diagnosis is mucous gland adenoma. This benign tumor arises from bronchial glands and is characterized by cystic and glandular structures lined by respiratory-type epithelium within a fibrous stroma.\n\nDifferential diagnoses include mucous gland hyperplasia, which typically lacks the well-circumscribed nodular architecture, and low-grade mucoepidermoid carcinoma, which would show a mixture of mucous, intermediate, and epidermoid cells.",
+      "rationale": "Look for classic tumor nests/glands away from inflammation"
+    },
+    {
+      "roi_id": "slide_A_x27136_y24064_mag20",
+      "tile_id": "slide_A_x27136_y24064_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 27136,
+      "y": 24064,
+      "level0": {
+        "x": 27136,
+        "y": 24064,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cystic structure lined by flattened to cuboidal epithelium with a thickened wall containing fibrous tissue and chronic inflammation. The lumen contains amorphous eosinophilic material and red blood cells.\n\nThe most likely diagnosis is a bronchogenic cyst. Differential diagnoses include a peribronchial lymph node or a cystic neoplasm, which can be distinguished by the specific epithelial lining and wall composition.",
+      "rationale": "High power check for true granulomas/organisms in inflamed stroma"
+    },
+    {
+      "roi_id": "slide_A_x40960_y26624_mag5",
+      "tile_id": "slide_A_x40960_y26624_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 40960,
+      "y": 26624,
+      "level0": {
+        "x": 40960,
+        "y": 26624,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a fragment of lung tissue with a thickened wall and a lumen containing amorphous material and cellular debris. The wall is composed of dense fibrous tissue with scattered inflammatory cells.\n\nThe most likely diagnosis is a bronchial cyst. The presence of a cystic structure lined by respiratory epithelium (not clearly visible at this magnification) and containing mucus and debris, along with a fibrous wall, is characteristic. Differential diagnoses include a bronchogenic cyst or a mucous retention cyst. A bronchogenic cyst typically has a more complex lining with cartilage, smooth muscle, and glands, while a mucous retention cyst is usually lined by flattened epithelium.",
+      "rationale": "Further evaluate hemorrhagic/fibrinous area at periphery; look for necrosis vs procedural artifact and adjacent tumor edge"
+    },
+    {
+      "roi_id": "slide_A_x20480_y25600_mag10",
+      "tile_id": "slide_A_x20480_y25600_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 20480,
+      "y": 25600,
+      "level0": {
+        "x": 20480,
+        "y": 25600,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense fibroinflammatory process with prominent fibrosis, chronic inflammation, and scattered multinucleated giant cells. There is also a large cystic structure lined by epithelium.\n\nThe most likely diagnosis is a fibroinflammatory process, such as an inflammatory pseudotumor or a reactive fibroinflammatory lesion.\n\nDifferential diagnoses include:\n- Inflammatory myofibroblastic tumor: characterized by spindle cells in a myxoid to collagenous stroma with inflammatory cells, often with ALK rearrangement.\n- Sclerosing mediastinitis: characterized by dense fibrosis and chronic inflammation, often associated with fungal or mycobacterial infection.\n- Granulomatous inflammation: characterized by aggregates of epithelioid histiocytes and multinucleated giant cells, often with caseating necrosis.",
+      "rationale": "Unexplored central-inferior peribronchial region near green contours; look for bronchial glands/tumor in wall."
+    },
+    {
+      "roi_id": "slide_A_x20480_y25600_mag20",
+      "tile_id": "slide_A_x20480_y25600_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20480,
+      "y": 25600,
+      "level0": {
+        "x": 20480,
+        "y": 25600,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of spindle cells arranged in fascicles within a dense collagenous stroma, accompanied by a prominent inflammatory infiltrate rich in plasma cells.",
+      "rationale": "High power to assess salivary-type (ACC/MEC) vs carcinoid and look for perineural invasion."
+    },
+    {
+      "roi_id": "slide_A_x12288_y6144_mag5",
+      "tile_id": "slide_A_x12288_y6144_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 12288,
+      "y": 6144,
+      "level0": {
+        "x": 12288,
+        "y": 6144,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a large vessel with marked wall thickening and luminal narrowing, surrounded by dense fibrous tissue and chronic inflammation. Adjacent lung parenchyma exhibits consolidation and inflammation.\n\nThe most likely diagnosis is Pulmonary Hamartoma. The presence of a well-circumscribed mass with a prominent fibrous component and associated inflammation is characteristic. The clinical presentation of a large mass in the lung with a bronchial origin is also consistent.\n\nDifferential diagnoses include Inflammatory Myofibroblastic Tumor, which can also present as a mass with fibrosis and inflammation, and Solitary Fibrous Tumor, which typically shows a patternless architecture and prominent vasculature.",
+      "rationale": "Upper-left region to confirm if tumor vs lymphoid aggregate vs bronchus-associated lymphoid tissue"
+    },
+    {
+      "roi_id": "slide_A_x28672_y26624_mag10",
+      "tile_id": "slide_A_x28672_y26624_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 28672,
+      "y": 26624,
+      "level0": {
+        "x": 28672,
+        "y": 26624,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a papillary structure lined by pseudostratified columnar epithelium with goblet cells and a fibrovascular core containing a dense inflammatory infiltrate. The surrounding stroma is fibrotic with chronic inflammation.\n\nThe most likely diagnosis is a mucous gland adenoma. This benign tumor arises from bronchial glands and is characterized by papillary or tubular structures lined by respiratory-type epithelium with goblet cells, often with a fibrovascular core and associated inflammation.\n\nDifferential diagnoses include:\n- Inflammatory polyp: Typically lacks the organized glandular or papillary architecture and is more purely inflammatory.\n- Low-grade mucoepidermoid carcinoma: Would show a mixture of mucous, intermediate, and epidermoid cells, often with cystic spaces, and may have a more infiltrative growth pattern.",
+      "rationale": "Right-central area near lumenal protrusion; evaluate submucosal tumor beneath intact mucosa."
+    },
+    {
+      "roi_id": "slide_A_x30720_y14336_mag5",
+      "tile_id": "slide_A_x30720_y14336_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 30720,
+      "y": 14336,
+      "level0": {
+        "x": 30720,
+        "y": 14336,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a transition from dense fibrous tissue to a cellular proliferation forming nests and cords with cystic spaces containing eosinophilic material, set within a fibrous stroma with inflammation.\n\nThe most likely diagnosis is mucoepidermoid carcinoma.\n\nDifferential diagnoses include adenoid cystic carcinoma, which typically shows cribriform architecture and hyaline globules, and metastatic adenocarcinoma, which would lack the characteristic cystic spaces and mixed cell population.",
+      "rationale": "Mid-upper band of dense fibrous tissue—assess for bronchial cartilage, peribronchial fibrosis, invasive front"
+    },
+    {
+      "roi_id": "slide_A_x35328_y30720_mag20",
+      "tile_id": "slide_A_x35328_y30720_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 35328,
+      "y": 30720,
+      "level0": {
+        "x": 35328,
+        "y": 30720,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cystic structure lined by pseudostratified columnar epithelium with goblet cells and a fibrous wall containing chronic inflammation. The lumen contains amorphous material and cellular debris.\n\nThe most likely diagnosis is a mucous gland adenoma. This benign tumor arises from bronchial glands and is characterized by cystic spaces lined by respiratory-type epithelium with goblet cells, often with a fibrous stroma and chronic inflammation.\n\nDifferential diagnoses include a bronchial cyst, which typically has a smooth muscle wall and lacks the prominent glandular component, and a low-grade mucoepidermoid carcinoma, which would show a mixture of mucous, intermediate, and epidermoid cells, often with infiltrative growth.",
+      "rationale": "High power of glandular proliferation in ROI area to assess cytology/atypia and look for squamoid/intermediate cells"
+    },
+    {
+      "roi_id": "slide_A_x28672_y26624_mag20",
+      "tile_id": "slide_A_x28672_y26624_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 28672,
+      "y": 26624,
+      "level0": {
+        "x": 28672,
+        "y": 26624,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a transition from pseudostratified columnar epithelium to stratified squamous epithelium with prominent mucous cells. The underlying stroma contains a dense inflammatory infiltrate.\n\nThe most likely diagnosis is mucous gland adenoma. This benign tumor is characterized by the presence of mucous cells and a transition from normal bronchial epithelium, often with associated inflammation.\n\nDifferential diagnoses include mucoepidermoid carcinoma, which would show a mixture of mucous, intermediate, and epidermoid cells, and adenoid cystic carcinoma, which typically exhibits cribriform or tubular patterns with basaloid cells.",
+      "rationale": "Check for basaloid cribriform/tubular architecture and hyaline globules; perineural invasion."
+    },
+    {
+      "roi_id": "slide_A_x34816_y30720_mag20",
+      "tile_id": "slide_A_x34816_y30720_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 34816,
+      "y": 30720,
+      "level0": {
+        "x": 34816,
+        "y": 30720,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of mucinous glands embedded in a fibrous stroma with a prominent inflammatory infiltrate. The glands are lined by cuboidal to columnar cells with basally oriented nuclei and abundant apical mucin.\n\nThe most likely diagnosis is mucous gland adenoma. This benign tumor is characterized by the proliferation of mucinous glands within a fibrous stroma, often with associated inflammation. The presence of abundant apical mucin and basally oriented nuclei in the glandular cells supports this diagnosis.\n\nDifferential diagnoses include mucinous adenocarcinoma, which would show more significant cytologic atypia, infiltrative growth, and potentially invasion into surrounding tissues. Another consideration is a mucoepidermoid carcinoma, which would contain a mixture of mucous, intermediate, and epidermoid cells, often with cystic spaces.",
+      "rationale": "High power directly from mucous gland adenoma-suspect region"
+    },
+    {
+      "roi_id": "slide_A_x26624_y12288_mag5",
+      "tile_id": "slide_A_x26624_y12288_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 26624,
+      "y": 12288,
+      "level0": {
+        "x": 26624,
+        "y": 12288,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows dense, hyalinized collagen bundles with a swirling pattern and a prominent lymphocytic infiltrate. The collagen bundles are thick and eosinophilic, with scattered fibroblasts and inflammatory cells.\n\nThe most likely diagnosis is Pulmonary Hyalinizing Granuloma. This diagnosis is supported by the presence of dense, hyalinized collagen bundles with a swirling pattern and a prominent lymphocytic infiltrate. The clinical presentation of a mass in the lung with a history of fever, night sweats, and cough is also consistent with this diagnosis.\n\nDifferential diagnoses to consider include organizing pneumonia and fibrosing mediastinitis. Organizing pneumonia typically shows fibroblastic plugs within alveolar spaces, while fibrosing mediastinitis involves dense fibrosis in the mediastinum. The specific histologic features of dense, hyalinized collagen bundles with a swirling pattern and a prominent lymphocytic infiltrate are more characteristic of Pulmonary Hyalinizing Granuloma.",
+      "rationale": "Upper central more solid nests/cords area to assess for salivary-gland type architecture (cribriform etc)"
+    },
+    {
+      "roi_id": "slide_A_x25600_y30720_mag10",
+      "tile_id": "slide_A_x25600_y30720_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 25600,
+      "y": 30720,
+      "level0": {
+        "x": 25600,
+        "y": 30720,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cystic structure lined by pseudostratified columnar epithelium with goblet cells, surrounded by a dense lymphoid infiltrate and fibrous stroma. The lumen contains eosinophilic material.\n\nThe most likely diagnosis is a mucous gland adenoma. This benign tumor arises from bronchial glands and is characterized by cystic spaces lined by respiratory-type epithelium, often with goblet cells, and a prominent lymphoid stroma. The clinical presentation of a mass in the lung with associated symptoms is consistent with this diagnosis.\n\nDifferential diagnoses include a bronchial cyst, which typically lacks the prominent lymphoid stroma and may have a different epithelial lining, and a low-grade mucoepidermoid carcinoma, which would show a mixture of mucous, intermediate, and epidermoid cells, often with more cellular atypia and infiltrative growth.",
+      "rationale": "Lower-central region with multiple round spaces (possible glands/cartilage); search for tumor around bronchus."
+    },
+    {
+      "roi_id": "slide_A_x30720_y30720_mag10",
+      "tile_id": "slide_A_x30720_y30720_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 30720,
+      "y": 30720,
+      "level0": {
+        "x": 30720,
+        "y": 30720,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of mucinous glands and cysts within a fibrous stroma, with some glands exhibiting a cribriform pattern. The glands are lined by columnar to cuboidal cells with basally oriented nuclei and abundant apical mucin.\n\nThe most likely diagnosis is mucous gland adenoma. This benign tumor is characterized by the proliferation of mucinous glands and cysts within a fibrous stroma, as seen in the image. The cribriform pattern and the presence of columnar to cuboidal cells with basally oriented nuclei and abundant apical mucin are also consistent with this diagnosis.\n\nDifferential diagnoses include mucinous adenocarcinoma and mucoepidermoid carcinoma. Mucinous adenocarcinoma would typically show more significant cytologic atypia, infiltrative growth, and potentially invasion into surrounding tissues. Mucoepidermoid carcinoma would contain a mixture of mucous, intermediate, and epidermoid cells, which are not seen in this image.",
+      "rationale": "Back to spindle-cell focus at 10x to see if true neoplasm vs reactive stroma around glands/cyst"
+    },
+    {
+      "roi_id": "slide_A_x27136_y16896_mag20",
+      "tile_id": "slide_A_x27136_y16896_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 27136,
+      "y": 16896,
+      "level0": {
+        "x": 27136,
+        "y": 16896,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cystic structure lined by pseudostratified columnar epithelium with cilia and goblet cells, surrounded by fibrous stroma with inflammation and hemorrhage. The lumen contains amorphous material and red blood cells.\n\nThe most likely diagnosis is a bronchogenic cyst. This is supported by the presence of a cystic structure lined by respiratory-type epithelium and arising from the bronchus, as suggested by the clinical and gross findings. Differential diagnoses include a mucous gland adenoma, which would typically show more prominent mucous glands and less cystic change, and a cystic squamous cell carcinoma, which would show atypical squamous epithelium and invasion.",
+      "rationale": "Search for neuroendocrine/salivary-type patterns away from mucus impaction; check any solid epithelial nests"
+    },
+    {
+      "roi_id": "slide_A_x16384_y26624_mag10",
+      "tile_id": "slide_A_x16384_y26624_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 16384,
+      "y": 26624,
+      "level0": {
+        "x": 16384,
+        "y": 26624,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cystic structure lined by pseudostratified columnar epithelium with goblet cells and a fibrovascular wall containing chronic inflammation and glandular structures. The lumen contains amorphous material and cellular debris.\n\nThe most likely diagnosis is a mucous gland adenoma. This benign tumor arises from bronchial submucosal glands and is characterized by cystic and glandular structures lined by respiratory-type epithelium, often with goblet cells, and a fibrovascular stroma. The clinical presentation of a mass in the lung with associated symptoms is consistent with this diagnosis.\n\nDifferential diagnoses include mucoepidermoid carcinoma, which would show a mixture of mucous, intermediate, and epidermoid cells, and adenoid cystic carcinoma, which typically exhibits cribriform or tubular patterns with hyaline stromal material.",
+      "rationale": "Left-central area not yet sampled; look for bronchial wall with glands/cartilage and adjacent tumor."
+    },
+    {
+      "roi_id": "slide_A_x16384_y26624_mag20",
+      "tile_id": "slide_A_x16384_y26624_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 16384,
+      "y": 26624,
+      "level0": {
+        "x": 16384,
+        "y": 26624,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cystic structure lined by pseudostratified columnar epithelium with cilia and goblet cells, supported by a fibrovascular stroma with chronic inflammation. The cyst wall is composed of dense fibrous tissue.\n\nThe most likely diagnosis is a bronchogenic cyst. Differential diagnoses include a mucous gland adenoma, which would show a more prominent glandular component, and a cystic teratoma, which would contain elements from multiple germ layers.",
+      "rationale": "High power for tumor type and perineural invasion."
+    },
+    {
+      "roi_id": "slide_A_x33792_y30720_mag20",
+      "tile_id": "slide_A_x33792_y30720_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 33792,
+      "y": 30720,
+      "level0": {
+        "x": 33792,
+        "y": 30720,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of glandular structures embedded in a fibrous stroma, with some glands containing eosinophilic material. The epithelial cells lining the glands are cuboidal to columnar with bland nuclei.\n\nThe most likely diagnosis is mucous gland adenoma. This benign tumor is characterized by a proliferation of mucous glands within a fibrous stroma, often arising from bronchial glands. The bland cytology and lack of significant atypia or mitotic activity support a benign process.\n\nDifferential diagnoses include low-grade mucoepidermoid carcinoma, which would show a mixture of mucous, intermediate, and epidermoid cells, and adenoid cystic carcinoma, which typically exhibits cribriform architecture and perineural invasion.",
+      "rationale": "Additional high-power within gland-rich area to assess for intermediate/squamoid cells and mitoses"
+    },
+    {
+      "roi_id": "slide_A_x33792_y20480_mag10",
+      "tile_id": "slide_A_x33792_y20480_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 33792,
+      "y": 20480,
+      "level0": {
+        "x": 33792,
+        "y": 20480,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows dilated glandular structures embedded in a dense fibrous stroma with a prominent chronic inflammatory infiltrate. The glands are lined by cuboidal to low columnar epithelium and contain eosinophilic material.\n\nThe most likely diagnosis is mucous gland adenoma. This benign tumor arises from bronchial submucosal glands and is characterized by dilated glands within a fibrous stroma, often with inflammation. The clinical presentation of a mass in the lung/mediastinum is consistent with this diagnosis.\n\nDifferential diagnoses include mucous gland hyperplasia, which typically lacks the well-circumscribed nodular architecture and prominent stromal fibrosis seen here, and low-grade mucoepidermoid carcinoma, which would show a mixture of mucous, intermediate, and epidermoid cells, often with cystic spaces and a more infiltrative growth pattern.",
+      "rationale": "Right-central upper area between prior ROIs; search for cribriform/tubular salivary-type tumor in bronchial wall."
+    },
+    {
+      "roi_id": "slide_A_x29696_y29696_mag20",
+      "tile_id": "slide_A_x29696_y29696_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 29696,
+      "y": 29696,
+      "level0": {
+        "x": 29696,
+        "y": 29696,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a biphasic neoplasm with glandular structures lined by mucinous cells and squamous cells, embedded in a cellular stroma with inflammation. The glands contain eosinophilic material.\n\nThe most likely diagnosis is mucoepidermoid carcinoma.\n\nDifferential diagnoses include adenocarcinoma, which would lack the squamous component, and squamous cell carcinoma, which would lack the glandular component.",
+      "rationale": "High-power of more cellular stromal area to confirm spindle cells vs fibrosis and check mitotic activity"
+    },
+    {
+      "roi_id": "slide_A_x33280_y20480_mag20",
+      "tile_id": "slide_A_x33280_y20480_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 33280,
+      "y": 20480,
+      "level0": {
+        "x": 33280,
+        "y": 20480,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense fibrous stroma with a prominent inflammatory infiltrate composed of lymphocytes, plasma cells, and scattered eosinophils. There are also areas of amorphous eosinophilic material and small vessels with thickened walls.\n\nThe most likely diagnosis is an inflammatory myofibroblastic tumor. This diagnosis is supported by the presence of a spindle cell proliferation within a fibrous stroma, accompanied by a mixed inflammatory infiltrate rich in plasma cells and eosinophils. The amorphous eosinophilic material may represent hyalinized collagen or myxoid change.\n\nDifferential diagnoses include inflammatory pseudotumor and solitary fibrous tumor. Inflammatory pseudotumor can have a similar appearance but typically lacks the prominent spindle cell component. Solitary fibrous tumor is characterized by a more uniform spindle cell proliferation with a patternless architecture and prominent branching vessels, often lacking the dense inflammatory infiltrate seen here.",
+      "rationale": "Assess cytology, basement membrane material, perineural invasion."
+    },
+    {
+      "roi_id": "slide_A_x38912_y28672_mag10",
+      "tile_id": "slide_A_x38912_y28672_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 38912,
+      "y": 28672,
+      "level0": {
+        "x": 38912,
+        "y": 28672,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a thickened wall with dense fibrosis and a prominent chronic inflammatory infiltrate. The lumen contains amorphous material and cellular debris.\n\nThe most likely diagnosis is a bronchogenic cyst. Differential diagnoses include inflammatory pseudotumor and organizing pneumonia.",
+      "rationale": "Far right-inferior edge; ensure no overlooked bronchial mucosa involvement or invasive front."
+    },
+    {
+      "roi_id": "slide_A_x20480_y21504_mag20",
+      "tile_id": "slide_A_x20480_y21504_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 20480,
+      "y": 21504,
+      "level0": {
+        "x": 20480,
+        "y": 21504,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense fibrous stroma with scattered spindle cells and a mixed inflammatory infiltrate, adjacent to a cystic structure lined by flattened to cuboidal epithelium. The stroma is cellular and contains numerous small vessels.\n\nThe most likely diagnosis is a pulmonary hamartoma. The presence of a dense fibrous stroma with scattered spindle cells and a mixed inflammatory infiltrate, along with a cystic component, is characteristic of this benign mesenchymal tumor of the lung. The clinical presentation of a mass in the upper lobe with a history of fever and night sweats, and the gross description of a lobulated mass arising from the bronchus, further support this diagnosis.\n\nDifferential diagnoses to consider include inflammatory myofibroblastic tumor and solitary fibrous tumor. Inflammatory myofibroblastic tumor typically shows a more prominent inflammatory component and may have a more myxoid stroma. Solitary fibrous tumor is characterized by a patternless architecture with prominent branching vessels and often lacks the cystic component seen here.",
+      "rationale": "High-power of cyst lining/adjacent glands to assess cytologic blandness and presence/absence of invasion"
+    },
+    {
+      "roi_id": "slide_A_x11776_y7168_mag20",
+      "tile_id": "slide_A_x11776_y7168_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 11776,
+      "y": 7168,
+      "level0": {
+        "x": 11776,
+        "y": 7168,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows dense, hyalinized collagen bundles with scattered spindle cells and a prominent inflammatory infiltrate composed of lymphocytes and plasma cells. The inflammatory infiltrate is particularly dense in the lower portion of the field.\n\nThe morphologic features are consistent with a fibroinflammatory process. Given the clinical context of a mass in the lung-mediastinum, a primary consideration is IgG4-related disease, which can present as a fibroinflammatory mass in this location. Other possibilities include inflammatory myofibroblastic tumor or a reactive fibroinflammatory process. To confirm the diagnosis, immunohistochemistry for IgG4 and IgG would be necessary to assess the number of IgG4-positive plasma cells and the IgG4/IgG ratio.",
+      "rationale": "High-power in inflammatory/lymphoid-rich region to look for granulomas/organisms"
+    },
+    {
+      "roi_id": "slide_A_x14336_y16384_mag5",
+      "tile_id": "slide_A_x14336_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 14336,
+      "y": 16384,
+      "level0": {
+        "x": 14336,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords with prominent cystic spaces containing eosinophilic material. The cells have round to oval nuclei and moderate cytoplasm, with a fibrous stroma.\n\nThe most likely diagnosis is mucous gland adenoma. This benign tumor arises from bronchial glands and is characterized by a proliferation of mucous cells forming cystic spaces and nests, often with a fibrous stroma.\n\nDifferential diagnoses include mucoepidermoid carcinoma, which would show a mixture of mucous, intermediate, and epidermoid cells, and adenoid cystic carcinoma, which typically has a cribriform pattern and perineural invasion.",
+      "rationale": "Unexplored left-central bronchus-like slit within main mass; search for submucosal glands/tumor nests."
+    },
+    {
+      "roi_id": "slide_A_x29696_y29696_mag10",
+      "tile_id": "slide_A_x29696_y29696_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 29696,
+      "y": 29696,
+      "level0": {
+        "x": 29696,
+        "y": 29696,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows dilated glandular structures lined by mucinous epithelium, surrounded by a dense fibrous stroma with chronic inflammation. The lumens contain abundant eosinophilic material.\n\nThe most likely diagnosis is mucous gland adenoma. This benign tumor is characterized by dilated mucinous glands within a fibrous stroma, consistent with the observed morphology. Differential diagnoses include mucinous adenocarcinoma, which would show cytologic atypia and infiltrative growth, and mucoepidermoid carcinoma, which would contain squamous and intermediate cells in addition to mucinous cells.",
+      "rationale": "Context for ROI that suggested mucoepidermoid carcinoma; determine if true epithelial nests with squamoid cells or tangential/reactive change"
+    },
+    {
+      "roi_id": "slide_A_x15360_y17408_mag10",
+      "tile_id": "slide_A_x15360_y17408_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 15360,
+      "y": 17408,
+      "level0": {
+        "x": 15360,
+        "y": 17408,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a cellular proliferation arranged in nests and cords within a fibrous stroma. The cells have abundant clear to vacuolated cytoplasm and round to oval nuclei. Some nests contain central eosinophilic material.\n\nThe most likely diagnosis is a clear cell tumor of the lung, such as a clear cell carcinoma or a metastatic clear cell tumor. Differential diagnoses include metastatic renal cell carcinoma, which can have clear cell morphology, and other clear cell neoplasms.",
+      "rationale": "Evaluate architecture for salivary-type tumor (tubular/cribriform) vs reactive cyst."
+    },
+    {
+      "roi_id": "slide_A_x29184_y29696_mag20",
+      "tile_id": "slide_A_x29184_y29696_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 29184,
+      "y": 29696,
+      "level0": {
+        "x": 29184,
+        "y": 29696,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a biphasic neoplasm with glandular structures and squamous nests embedded in a fibrous stroma with inflammation. The glandular component exhibits mucinous differentiation.\n\nThe most likely diagnosis is mucoepidermoid carcinoma.\n\nDifferential diagnoses include adenocarcinoma with squamous metaplasia and squamous cell carcinoma with glandular differentiation. The presence of both mucinous glands and squamous nests is characteristic of mucoepidermoid carcinoma.",
+      "rationale": "Re-sample same area for confirmation of squamoid/intermediate cells and assess atypia/mitoses"
+    },
+    {
+      "roi_id": "slide_A_x20480_y16384_mag5",
+      "tile_id": "slide_A_x20480_y16384_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 20480,
+      "y": 16384,
+      "level0": {
+        "x": 20480,
+        "y": 16384,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a proliferation of variably sized glandular structures embedded in a dense fibrous stroma, with some glands containing eosinophilic material. The stroma is cellular with a prominent inflammatory infiltrate.\n\nThe most likely diagnosis is mucous gland adenoma. This benign tumor arises from bronchial glands and is characterized by the proliferation of mucous glands within a fibrous stroma, often with associated inflammation. The presence of eosinophilic material within the glands is consistent with mucin production.\n\nDifferential diagnoses include low-grade mucoepidermoid carcinoma, which would show a mixture of mucous, intermediate, and epidermoid cells, and adenoid cystic carcinoma, which typically exhibits cribriform architecture and perineural invasion.",
+      "rationale": "Central thick fibrous band area may contain bronchial cartilage/nerve; look for perineural invasion."
+    },
+    {
+      "roi_id": "slide_A_x41984_y11776_mag20",
+      "tile_id": "slide_A_x41984_y11776_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 41984,
+      "y": 11776,
+      "level0": {
+        "x": 41984,
+        "y": 11776,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of bland spindle cells arranged in fascicles, with interspersed mature adipocytes and entrapped benign glandular structures. The stroma is collagenous with scattered chronic inflammatory cells.\n\nThe most likely diagnosis is a benign spindle cell neoplasm with entrapped elements, such as a lipomatous hamartoma.\n\nDifferential diagnoses include solitary fibrous tumor, which typically lacks the prominent adipose tissue and entrapped glands, and inflammatory myofibroblastic tumor, which would show more prominent inflammation and often ALK positivity.",
+      "rationale": "Explore new peripheral area on map less sampled; look for neuroendocrine tumor nests, adenoid cystic, etc."
+    },
+    {
+      "roi_id": "slide_A_x9216_y24064_mag20",
+      "tile_id": "slide_A_x9216_y24064_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 9216,
+      "y": 24064,
+      "level0": {
+        "x": 9216,
+        "y": 24064,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a polypoid lesion lined by pseudostratified columnar epithelium with cilia and goblet cells, and a stroma with a mixed inflammatory infiltrate and fibrosis. The lesion appears to arise from the bronchial wall.\n\nThe most likely diagnosis is a bronchial polyp.\n\nDifferential diagnoses include inflammatory polyp and hamartoma. An inflammatory polyp would show more prominent inflammation and less organized stroma, while a hamartoma would typically contain cartilage, fat, and smooth muscle.",
+      "rationale": "Explore left-lower region less sampled; look for cartilage/fat (hamartoma) or granulomas/organisms"
+    },
+    {
+      "roi_id": "slide_A_x21504_y16384_mag10",
+      "tile_id": "slide_A_x21504_y16384_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 21504,
+      "y": 16384,
+      "level0": {
+        "x": 21504,
+        "y": 16384,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a proliferation of glandular structures within a dense fibrous stroma, accompanied by a prominent chronic inflammatory infiltrate. The glands are lined by cuboidal to columnar epithelium and contain eosinophilic material.\n\nThe most likely diagnosis is mucous gland adenoma. This benign tumor arises from bronchial submucosal glands and is characterized by a proliferation of glandular structures in a fibrous stroma, often with associated inflammation. The presence of eosinophilic material within the glands is consistent with mucin production.\n\nDifferential diagnoses include low-grade mucoepidermoid carcinoma, which would show a mixture of mucous, intermediate, and epidermoid cells, and adenoid cystic carcinoma, which typically exhibits cribriform or tubular patterns with hyaline material.",
+      "rationale": "Higher power to identify nerves and tumor infiltration."
+    },
+    {
+      "roi_id": "slide_A_x28672_y14336_mag5",
+      "tile_id": "slide_A_x28672_y14336_mag5",
+      "mag": "medium",
+      "magnification": 5.0,
+      "x": 28672,
+      "y": 14336,
+      "level0": {
+        "x": 28672,
+        "y": 14336,
+        "width": 4096,
+        "height": 4096
+      },
+      "description": "The image shows a transition from dense fibrous tissue to a neoplasm composed of nests and cords of cells with eosinophilic cytoplasm and round nuclei, embedded in a fibrous stroma with cystic spaces. The neoplasm appears to arise from a bronchus.\n\nThe most likely diagnosis is a low-grade mucoepidermoid carcinoma of the lung.\n\nDifferential diagnoses include adenoid cystic carcinoma, which typically shows cribriform architecture and perineural invasion, and squamous cell carcinoma, which would show keratinization and intercellular bridges.",
+      "rationale": "Upper-right central area away from prior lymphoma-like ROI; check for actual tumor in bronchial wall."
+    },
+    {
+      "roi_id": "slide_A_x29696_y15360_mag10",
+      "tile_id": "slide_A_x29696_y15360_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 29696,
+      "y": 15360,
+      "level0": {
+        "x": 29696,
+        "y": 15360,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a neoplasm with a mixed growth pattern including solid nests and cystic spaces containing eosinophilic material, set within a dense fibrous stroma. The tumor cells have round to oval nuclei and moderate cytoplasm, with some areas showing clear cell change.\n\nThe most likely diagnosis is mucoepidermoid carcinoma. This diagnosis is supported by the presence of cystic spaces containing mucin, solid nests of intermediate cells, and a fibrous stroma. The clinical presentation of a large mass in the lung of a young adult is also consistent with this entity.\n\nDifferential diagnoses include adenoid cystic carcinoma, which typically shows cribriform and tubular patterns with hyaline globules, and squamous cell carcinoma, which would show keratinization and intercellular bridges.",
+      "rationale": "Follow-up of ROI at 5x suggesting low-grade MEC/bronchus-associated tumor; characterize cell types."
+    },
+    {
+      "roi_id": "slide_A_x30208_y14848_mag20",
+      "tile_id": "slide_A_x30208_y14848_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 30208,
+      "y": 14848,
+      "level0": {
+        "x": 30208,
+        "y": 14848,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows nests and cords of epithelial cells with intermediate and mucous cell types embedded in a fibrous stroma. There is also a prominent inflammatory infiltrate.\n\nThe most likely diagnosis is mucoepidermoid carcinoma.\n\nDifferential diagnoses include adenoid cystic carcinoma, which typically shows cribriform architecture and hyaline globules, and squamous cell carcinoma, which lacks mucous cells.",
+      "rationale": "High power for mucous/intermediate/squamoid cells, atypia, mitoses."
+    },
+    {
+      "roi_id": "slide_A_x30720_y13312_mag10",
+      "tile_id": "slide_A_x30720_y13312_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 30720,
+      "y": 13312,
+      "level0": {
+        "x": 30720,
+        "y": 13312,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows dense fibrous tissue with a prominent chronic inflammatory infiltrate composed of lymphocytes and plasma cells. Scattered multinucleated giant cells are also present within the fibrous stroma.\n\nThe most likely diagnosis is a pulmonary hamartoma, specifically a chondroid hamartoma, given the presence of fibrous tissue and chronic inflammation. The clinical presentation of a mass in the lung and the gross description of a tan-yellow glistening mass are consistent with this diagnosis.\n\nDifferential diagnoses include inflammatory myofibroblastic tumor and fibromatosis, which can also present as fibrous masses with inflammation. However, the presence of chondroid matrix (not visible in this specific image but mentioned in the gross description) would strongly favor a chondroid hamartoma.",
+      "rationale": "Adjacent area in same region to look for perineural invasion in bronchial wall."
+    },
+    {
+      "roi_id": "slide_A_x31232_y13312_mag20",
+      "tile_id": "slide_A_x31232_y13312_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 31232,
+      "y": 13312,
+      "level0": {
+        "x": 31232,
+        "y": 13312,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense inflammatory infiltrate composed of lymphocytes, plasma cells, and histiocytes, with scattered multinucleated giant cells, within a background of fibrous tissue and thickened collagen bundles.\n\nThe most likely diagnosis is a granulomatous inflammatory process, such as a granuloma or inflammatory pseudotumor.\n\nDifferential diagnoses include infectious granulomas (e.g., tuberculosis, fungal infection) and non-infectious granulomatous diseases (e.g., sarcoidosis, foreign body reaction).",
+      "rationale": "Search for nerves with basaloid/tumor cuffing."
+    },
+    {
+      "roi_id": "slide_A_x16384_y28672_mag20",
+      "tile_id": "slide_A_x16384_y28672_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 16384,
+      "y": 28672,
+      "level0": {
+        "x": 16384,
+        "y": 28672,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a neoplasm with a cribriform pattern, featuring nests of cells with clear to vacuolated cytoplasm and small nuclei, separated by fibrous stroma. Lumens contain eosinophilic material.\n\nThe most likely diagnosis is mucoepidermoid carcinoma.\n\nDifferential diagnoses include adenoid cystic carcinoma, which typically shows more uniform basaloid cells and hyaline globules, and clear cell carcinoma, which lacks the cribriform pattern and mucin production.",
+      "rationale": "Cribriform/clear cell focus previously; confirm adenoid cystic pattern and check for perineural invasion."
+    },
+    {
+      "roi_id": "slide_A_x30208_y14336_mag20",
+      "tile_id": "slide_A_x30208_y14336_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 30208,
+      "y": 14336,
+      "level0": {
+        "x": 30208,
+        "y": 14336,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a biphasic neoplasm with epithelial structures forming glands and nests, and a prominent stromal component with myxoid change and spindle cells. The epithelial cells have eosinophilic cytoplasm and round to oval nuclei.\n\nThe most likely diagnosis is mucoepidermoid carcinoma. This tumor is characterized by a mixture of mucous, intermediate, and epidermoid cells, often with cystic spaces and a variable stromal component. The presence of both epithelial and stromal elements in this image is consistent with this diagnosis.\n\nDifferential diagnoses include adenoid cystic carcinoma, which typically shows cribriform or tubular patterns with hyaline stroma, and squamous cell carcinoma, which would show more overt squamous differentiation and keratinization.",
+      "rationale": "Re-sample tumor-rich area for definitive bronchial wall invasion/perineural invasion (prior 20x showed MEC-like nests)."
+    },
+    {
+      "roi_id": "slide_A_x29184_y15872_mag20",
+      "tile_id": "slide_A_x29184_y15872_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 29184,
+      "y": 15872,
+      "level0": {
+        "x": 29184,
+        "y": 15872,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a biphasic neoplasm with glandular structures containing eosinophilic material and solid nests of cells with eosinophilic cytoplasm, set within a fibrous stroma. A prominent lymphocytic infiltrate is also present.\n\nThe most likely diagnosis is mucoepidermoid carcinoma.\n\nDifferential diagnoses include adenoid cystic carcinoma, which typically shows cribriform architecture and lacks the squamous component, and squamous cell carcinoma, which would show keratinization and intercellular bridges.",
+      "rationale": "Adjacent to same focus; look for bronchial glands/cartilage and nerves."
+    },
+    {
+      "roi_id": "slide_A_x28160_y13312_mag20",
+      "tile_id": "slide_A_x28160_y13312_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 28160,
+      "y": 13312,
+      "level0": {
+        "x": 28160,
+        "y": 13312,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows dense fibrous tissue with a prominent chronic inflammatory infiltrate composed of lymphocytes and plasma cells. Scattered multinucleated giant cells are also present within the fibrous stroma.\n\nThe most likely diagnosis is a fibroinflammatory process, such as an inflammatory pseudotumor or a reactive fibroinflammatory lesion.\n\nDifferential diagnoses include:\n- Inflammatory myofibroblastic tumor: This would typically show a more prominent myofibroblastic proliferation and may have ALK rearrangement.\n- Sclerosing mediastinitis: This is a fibroinflammatory process that can involve the mediastinum and lung, but typically shows more extensive fibrosis and may be associated with fungal or mycobacterial infection.",
+      "rationale": "Search within fibrous stroma for perineural invasion; nerves often near bronchus."
+    },
+    {
+      "roi_id": "slide_A_x27136_y14848_mag20",
+      "tile_id": "slide_A_x27136_y14848_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 27136,
+      "y": 14848,
+      "level0": {
+        "x": 27136,
+        "y": 14848,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cystic structure lined by pseudostratified columnar epithelium with apical cilia and basally oriented nuclei. The lumen contains amorphous material and red blood cells, and the wall is composed of dense fibrous tissue with scattered inflammatory cells.\n\nThe most likely diagnosis is a bronchogenic cyst. This diagnosis is supported by the location in the lung-mediastinum, the cystic nature, and the lining of pseudostratified columnar epithelium with cilia, which is characteristic of respiratory epithelium. The clinical presentation of a mass effect and the gross description of a smooth nodule arising from the bronchus further support this diagnosis.\n\nDifferential diagnoses to consider include a congenital cystic adenomatoid malformation (CCAM), which typically presents as a multilocular cystic lesion with a different epithelial lining, and a mucous gland adenoma, which is a benign neoplasm of submucosal glands and would not typically present as a large cystic mass.",
+      "rationale": "Edge between tumor nests and presumed bronchial wall to document mucosal involvement."
+    },
+    {
+      "roi_id": "slide_A_x15872_y28672_mag20",
+      "tile_id": "slide_A_x15872_y28672_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 15872,
+      "y": 28672,
+      "level0": {
+        "x": 15872,
+        "y": 28672,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation with clear to vacuolated cytoplasm arranged in nests and cords, along with cystic spaces containing eosinophilic material and a prominent stromal component.\n\nThe most likely diagnosis is mucoepidermoid carcinoma. Differential diagnoses include adenoid cystic carcinoma, which typically shows cribriform architecture and hyaline globules, and clear cell carcinoma, which lacks the cystic and mucinous components.",
+      "rationale": "Cribriform focus: distinguish ACC vs MEC; look for true hyaline globules and dual cell layer."
+    },
+    {
+      "roi_id": "slide_A_x43008_y15360_mag10",
+      "tile_id": "slide_A_x43008_y15360_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 43008,
+      "y": 15360,
+      "level0": {
+        "x": 43008,
+        "y": 15360,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a biphasic neoplasm with epithelial structures forming glands and nests, and a prominent stromal component that is myxoid and chondroid. The epithelial cells are cuboidal to columnar with bland nuclei.\n\nThe most likely diagnosis is a mixed tumor (pleomorphic adenoma) of the lung.\n\nDifferential diagnoses include adenoid cystic carcinoma, which typically shows cribriform architecture and perineural invasion, and mucoepidermoid carcinoma, which contains mucous, intermediate, and epidermoid cells.",
+      "rationale": "Far right edge relatively under-sampled; look for bronchial wall/tumor front and nerves."
+    },
+    {
+      "roi_id": "slide_A_x43008_y14848_mag20",
+      "tile_id": "slide_A_x43008_y14848_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 43008,
+      "y": 14848,
+      "level0": {
+        "x": 43008,
+        "y": 14848,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense inflammatory infiltrate with numerous multinucleated giant cells and a background of fibrosis. There is also a prominent blood vessel with thickened walls.\n\nThe most likely diagnosis is Granulomatous inflammation, likely due to an infectious etiology such as tuberculosis or fungal infection.\n\nDifferential diagnoses include sarcoidosis, which typically shows non-caseating granulomas, and foreign body reaction, which would require identification of foreign material.",
+      "rationale": "High power to confirm tumor type and assess perineural/vascular invasion."
+    },
+    {
+      "roi_id": "slide_A_x9216_y12288_mag10",
+      "tile_id": "slide_A_x9216_y12288_mag10",
+      "mag": "medium",
+      "magnification": 10.0,
+      "x": 9216,
+      "y": 12288,
+      "level0": {
+        "x": 9216,
+        "y": 12288,
+        "width": 2048,
+        "height": 2048
+      },
+      "description": "The image shows a dense lymphoid aggregate with a germinal center and surrounding alveolar spaces filled with proteinaceous material and inflammatory cells. The alveolar septa are thickened and congested.\n\nThe most likely diagnosis is Mucous Gland Adenoma. This is supported by the presence of a well-circumscribed mass arising from the bronchus, composed of mucous glands, and the clinical presentation of a mass effect in the lung.\n\nDifferential diagnoses include:\n- Mucoepidermoid carcinoma: This would show a mixture of mucous, intermediate, and epidermoid cells, often with cystic spaces, and may have a more infiltrative growth pattern.\n- Adenocarcinoma: This would typically show glandular structures with cytologic atypia and invasive growth, often with desmoplastic stroma.",
+      "rationale": "Far left edge under-sampled; search for bronchus with cartilage and submucosal glands involved by tumor."
+    },
+    {
+      "roi_id": "slide_A_x9216_y11776_mag20",
+      "tile_id": "slide_A_x9216_y11776_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 9216,
+      "y": 11776,
+      "level0": {
+        "x": 9216,
+        "y": 11776,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cellular proliferation of large cells with abundant eosinophilic cytoplasm and vesicular nuclei, arranged in nests and cords, with associated hemorrhage and inflammation. The cells have a bland appearance.\n\nThe most likely diagnosis is a benign epithelial tumor of the lung, such as a bronchial adenoma (e.g., ciliated muconodular papillary tumor or papillary cystadenoma).\n\nDifferential diagnoses include metastatic renal cell carcinoma, which can have clear or eosinophilic cytoplasm and a nested pattern, and metastatic hepatocellular carcinoma, which can have eosinophilic cytoplasm and a trabecular pattern.",
+      "rationale": "High power for perineural invasion / basaloid cribriform vs MEC."
+    },
+    {
+      "roi_id": "slide_A_x25600_y23552_mag20",
+      "tile_id": "slide_A_x25600_y23552_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 25600,
+      "y": 23552,
+      "level0": {
+        "x": 25600,
+        "y": 23552,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cystic structure lined by pseudostratified columnar epithelium with cilia and goblet cells, surrounded by a thick fibrous wall. The lumen contains amorphous eosinophilic material.\n\nThe most likely diagnosis is a bronchogenic cyst. This is supported by the location in the lung/mediastinum, the cystic nature, and the lining of respiratory-type epithelium. Differential diagnoses include a congenital pulmonary airway malformation (CPAM), which typically shows more complex architecture and less prominent fibrous wall, and a foregut cyst, which may have a different epithelial lining.",
+      "rationale": "Central bronchial lumen region; specifically look for nerve bundles in bronchial wall."
+    },
+    {
+      "roi_id": "slide_A_x29696_y14848_mag20",
+      "tile_id": "slide_A_x29696_y14848_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 29696,
+      "y": 14848,
+      "level0": {
+        "x": 29696,
+        "y": 14848,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a neoplasm with a mixed pattern of glandular and squamous differentiation within a fibrous stroma. The glandular component forms lumens containing eosinophilic material, while the squamous component consists of nests of cells with eosinophilic cytoplasm and vesicular nuclei.\n\nThe most likely diagnosis is mucoepidermoid carcinoma. This diagnosis is supported by the presence of both glandular and squamous differentiation in a lung/mediastinum mass. The differential diagnosis includes adenosquamous carcinoma, which also shows both glandular and squamous components, but typically lacks the characteristic mucin-filled lumens seen in mucoepidermoid carcinoma.",
+      "rationale": "Focus on reported mucoepidermoid-like nests/cords with mucous+intermediate cells to assess true squamous/intermediate component and invasion."
+    },
+    {
+      "roi_id": "slide_A_x28672_y29696_mag20",
+      "tile_id": "slide_A_x28672_y29696_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 28672,
+      "y": 29696,
+      "level0": {
+        "x": 28672,
+        "y": 29696,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a dense fibroinflammatory process with a prominent lymphoplasmacytic infiltrate and scattered multinucleated giant cells. There is also a proliferation of spindle cells within a collagenous stroma.\n\nThe most likely diagnosis is inflammatory pseudotumor (inflammatory myofibroblastic tumor).\n\nDifferential diagnoses include:\n- Granulomatous inflammation (e.g., tuberculosis, fungal infection): Look for well-formed granulomas with caseation or fungal elements.\n- Sarcomatoid carcinoma: Look for atypical spindle cells with increased mitotic activity and necrosis.",
+      "rationale": "Evaluate area with possible squamoid/intermediate component vs metaplasia/entrapped epithelium."
+    },
+    {
+      "roi_id": "slide_A_x26624_y20480_mag20",
+      "tile_id": "slide_A_x26624_y20480_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 26624,
+      "y": 20480,
+      "level0": {
+        "x": 26624,
+        "y": 20480,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a cystic structure lined by pseudostratified columnar epithelium with cilia and goblet cells, surrounded by dense fibrous tissue with chronic inflammation. The stroma contains spindle cells and collagen bundles.\n\nThe most likely diagnosis is a bronchogenic cyst. This diagnosis is supported by the presence of a cystic structure lined by respiratory-type epithelium and surrounded by fibrous tissue, consistent with the clinical presentation of a mass in the lung/mediastinum.\n\nDifferential diagnoses include a congenital cystic adenomatoid malformation (CCAM), which typically shows a more complex architecture with branching cysts and immature alveolar-like spaces, and a pulmonary hamartoma, which is characterized by a mixture of cartilage, fat, and fibrous tissue.",
+      "rationale": "Assess cystic spaces lined by respiratory epithelium and adjacent glands for benign mucous gland adenoma/bronchogenic cyst features."
+    },
+    {
+      "roi_id": "slide_A_x41472_y11776_mag20",
+      "tile_id": "slide_A_x41472_y11776_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 41472,
+      "y": 11776,
+      "level0": {
+        "x": 41472,
+        "y": 11776,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a proliferation of bland epithelial cells forming tubular and acinar structures within a fibrous stroma, accompanied by a mixed inflammatory infiltrate and hemorrhage.\n\nThe most likely diagnosis is mucous gland adenoma.\n\nDifferential diagnoses include low-grade mucoepidermoid carcinoma, which would show a mixture of mucous, intermediate, and epidermoid cells, and adenoid cystic carcinoma, which typically exhibits cribriform or tubular patterns with hyaline stromal material.",
+      "rationale": "Check reported hamartoma-like focus with adipose/spindle cells and entrapped glands—exclude pulmonary hamartoma/IMT components."
+    },
+    {
+      "roi_id": "slide_A_x28160_y26624_mag20",
+      "tile_id": "slide_A_x28160_y26624_mag20",
+      "mag": "high",
+      "magnification": 20.0,
+      "x": 28160,
+      "y": 26624,
+      "level0": {
+        "x": 28160,
+        "y": 26624,
+        "width": 1024,
+        "height": 1024
+      },
+      "description": "The image shows a papillary structure lined by pseudostratified columnar epithelium with goblet cells and a fibrovascular core containing a dense mixed inflammatory infiltrate. The surrounding stroma is fibrotic with chronic inflammation.\n\nThe most likely diagnosis is a mucous gland adenoma. This benign tumor arises from bronchial glands and is characterized by papillary or tubular structures lined by respiratory-type epithelium with goblet cells, often with a prominent inflammatory infiltrate in the stroma.\n\nDifferential diagnoses include:\n- Inflammatory polyp: Typically lacks the well-formed papillary architecture and organized glandular structures seen in mucous gland adenoma.\n- Low-grade mucoepidermoid carcinoma: Would show a mixture of mucous, intermediate, and epidermoid cells, often with cystic spaces, and may have a more infiltrative growth pattern.",
+      "rationale": "Examine papillary mucosa-associated inflamed area with squamous metaplasia to distinguish reactive change."
+    }
+  ]
+}
