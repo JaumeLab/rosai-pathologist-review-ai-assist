@@ -30,6 +30,7 @@ class ReviewStore(ABC):
         differential1: str,
         differential2: str,
         comments: str,
+        ai_helpfulness_score: int | None = None,
     ) -> dict[str, Any]: ...
 
     @abstractmethod
@@ -93,6 +94,13 @@ class SQLiteReviewStore(ReviewStore):
                     ON review_events(study_id, recorded_at);
                 """
             )
+            self._ensure_columns(conn)
+
+    def _ensure_columns(self, conn: sqlite3.Connection) -> None:
+        for table in ("reviews", "review_events"):
+            cols = {row[1] for row in conn.execute(f"PRAGMA table_info({table})").fetchall()}
+            if "ai_helpfulness_score" not in cols:
+                conn.execute(f"ALTER TABLE {table} ADD COLUMN ai_helpfulness_score INTEGER")
 
     def upsert_review(
         self,
@@ -105,6 +113,7 @@ class SQLiteReviewStore(ReviewStore):
         differential1: str,
         differential2: str,
         comments: str,
+        ai_helpfulness_score: int | None = None,
     ) -> dict[str, Any]:
         now = _now_iso()
         with self._conn() as conn:
@@ -121,14 +130,15 @@ class SQLiteReviewStore(ReviewStore):
                 INSERT INTO reviews (
                     study_id, reviewer_id, reviewer_name, case_id,
                     dx, differential1, differential2, comments,
-                    created_at, updated_at
-                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                    ai_helpfulness_score, created_at, updated_at
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                 ON CONFLICT(study_id, reviewer_id, case_id) DO UPDATE SET
                     reviewer_name = excluded.reviewer_name,
                     dx = excluded.dx,
                     differential1 = excluded.differential1,
                     differential2 = excluded.differential2,
                     comments = excluded.comments,
+                    ai_helpfulness_score = excluded.ai_helpfulness_score,
                     updated_at = excluded.updated_at
                 """,
                 (
@@ -140,6 +150,7 @@ class SQLiteReviewStore(ReviewStore):
                     differential1,
                     differential2,
                     comments,
+                    ai_helpfulness_score,
                     created_at,
                     now,
                 ),
@@ -148,8 +159,9 @@ class SQLiteReviewStore(ReviewStore):
                 """
                 INSERT INTO review_events (
                     study_id, reviewer_id, reviewer_name, case_id,
-                    dx, differential1, differential2, comments, recorded_at
-                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+                    dx, differential1, differential2, comments,
+                    ai_helpfulness_score, recorded_at
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                 """,
                 (
                     study_id,
@@ -160,6 +172,7 @@ class SQLiteReviewStore(ReviewStore):
                     differential1,
                     differential2,
                     comments,
+                    ai_helpfulness_score,
                     now,
                 ),
             )
@@ -172,6 +185,7 @@ class SQLiteReviewStore(ReviewStore):
             "differential1": differential1,
             "differential2": differential2,
             "comments": comments,
+            "ai_helpfulness_score": ai_helpfulness_score,
             "created_at": created_at,
             "updated_at": now,
         }
@@ -222,6 +236,7 @@ class FirestoreReviewStore(ReviewStore):
         differential1: str,
         differential2: str,
         comments: str,
+        ai_helpfulness_score: int | None = None,
     ) -> dict[str, Any]:
         now = _now_iso()
         doc_id = self._doc_id(study_id, reviewer_id, case_id)
@@ -240,6 +255,7 @@ class FirestoreReviewStore(ReviewStore):
             "differential1": differential1,
             "differential2": differential2,
             "comments": comments,
+            "ai_helpfulness_score": ai_helpfulness_score,
             "created_at": created_at,
             "updated_at": now,
         }

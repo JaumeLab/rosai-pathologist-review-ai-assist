@@ -112,6 +112,7 @@ class ReviewPayload(BaseModel):
     differential1: str = Field(default="", max_length=2000)
     differential2: str = Field(default="", max_length=2000)
     comments: str = Field(default="", max_length=8000)
+    ai_helpfulness_score: int | None = Field(default=None, ge=1, le=5)
 
 
 @app.get("/health")
@@ -143,6 +144,7 @@ def list_reviewer_reviews(
             "differential1": row.get("differential1", ""),
             "differential2": row.get("differential2", ""),
             "comments": row.get("comments", ""),
+            "ai_helpfulness_score": row.get("ai_helpfulness_score"),
             "updated_at": row.get("updated_at"),
             "created_at": row.get("created_at"),
         }
@@ -169,6 +171,19 @@ def upsert_review(
     rev = validate_reviewer(reviewer_id)
     require_passcode(reviewer_id, x_reviewer_passcode)
     validate_case_for_reviewer(reviewer_id, case_id)
+    has_content = any(
+        (
+            payload.dx.strip(),
+            payload.differential1.strip(),
+            payload.differential2.strip(),
+            payload.comments.strip(),
+        )
+    )
+    if has_content and payload.ai_helpfulness_score is None:
+        raise HTTPException(
+            status_code=422,
+            detail="AI assist helpfulness score (1–5) is required.",
+        )
     saved = get_store().upsert_review(
         study_id=study_id,
         reviewer_id=reviewer_id,
@@ -178,6 +193,7 @@ def upsert_review(
         differential1=payload.differential1.strip(),
         differential2=payload.differential2.strip(),
         comments=payload.comments.strip(),
+        ai_helpfulness_score=payload.ai_helpfulness_score,
     )
     return {"ok": True, "review": saved}
 

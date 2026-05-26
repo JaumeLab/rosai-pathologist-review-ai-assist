@@ -37,6 +37,7 @@ def main() -> int:
             "differential1",
             "differential2",
             "comments",
+            "ai_helpfulness_score",
             "created_at",
             "updated_at",
         ]

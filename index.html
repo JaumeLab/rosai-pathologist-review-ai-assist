@@ -248,22 +248,18 @@
       margin: 0 0 10px; font-size: 0.76rem; letter-spacing: 0.06em;
       text-transform: uppercase; color: var(--text); font-weight: 700;
     }
-    .dx-compare { display: flex; flex-direction: column; gap: 6px; margin-bottom: 10px; }
+    .dx-compare { display: flex; flex-direction: column; gap: 10px; margin-bottom: 10px; }
     .dx-compare-row {
-      display: grid; grid-template-columns: 4.8rem 1fr 1fr;
-      gap: 8px; align-items: start;
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 10px; align-items: start;
     }
-    .dx-compare--no-ai .dx-compare-row { grid-template-columns: 4.8rem 1fr; }
-    .dx-compare--no-ai .dx-compare-ai-col,
+    .dx-compare--no-ai .dx-compare-row { grid-template-columns: 1fr; }
     .dx-compare--no-ai .dx-compare-ai { display: none; }
-    .dx-compare-header span:not(:first-child) {
-      font-size: 0.7rem; font-weight: 700; text-transform: uppercase;
-      letter-spacing: 0.04em; color: var(--muted);
+    .dx-compare-cell label {
+      display: block; margin-bottom: 5px; font-size: 0.7rem; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted);
     }
-    .dx-compare-label {
-      font-size: 0.82rem; font-weight: 600; color: var(--muted); padding-top: 9px;
-    }
-    .dx-compare-yours input { padding: 8px 10px; font-size: 0.84rem; }
+    .dx-compare-cell input { padding: 8px 10px; font-size: 0.84rem; width: 100%; box-sizing: border-box; }
     .ai-dx-readout {
       display: block; padding: 8px 10px; font-size: 0.82rem; line-height: 1.4;
       color: var(--text); background: var(--surface-muted);
@@ -271,13 +267,32 @@
     }
     .ai-dx-readout.empty { color: var(--muted); font-style: italic; }
     .assessment-sticky textarea { min-height: 52px; }
-    .assessment-sticky .form-group { margin-bottom: 0; }
+    .assessment-sticky .form-group { margin-bottom: 10px; }
+    .assessment-sticky .form-group:last-child { margin-bottom: 0; }
     .assessment-sticky .form-group label { font-size: 0.82rem; margin-bottom: 5px; }
+    .helpfulness-row { display: flex; gap: 6px; }
+    .helpfulness-btn {
+      flex: 1; min-width: 0; padding: 8px 0; border: 1px solid var(--border);
+      border-radius: 10px; background: var(--surface-muted); color: var(--text);
+      font-size: 0.84rem; font-weight: 600; cursor: pointer;
+    }
+    .helpfulness-btn:hover { border-color: var(--accent); }
+    .helpfulness-btn.selected {
+      background: var(--accent); border-color: var(--accent); color: #fff;
+    }
+    .form-group.invalid .helpfulness-row {
+      outline: 1px solid var(--danger, #b91c1c); border-radius: 10px; padding: 2px;
+    }
+    .field-error {
+      margin: 6px 0 0; font-size: 0.8rem; line-height: 1.35; color: var(--danger, #b91c1c);
+    }
+    .field-error.hidden { display: none; }
     .save-status { font-size: 0.8rem; color: var(--muted); min-width: 72px; text-align: right; }
     .save-status.saved { color: var(--success); }
+    .save-status.error { color: var(--danger, #b91c1c); }
     .main {
       display: grid;
-      grid-template-columns: minmax(0, 1.55fr) minmax(360px, 460px);
+      grid-template-columns: minmax(0, 1.45fr) minmax(400px, 520px);
       min-height: 0;
     }
     .viewer-pane { position: relative; background: var(--viewer-bg); border-right: 1px solid var(--border); min-width: 0; }
@@ -449,35 +464,33 @@
         <section class="assessment-sticky" id="assessment-section">
           <h2 class="section-heading">Your assessment</h2>
           <div class="dx-compare dx-compare--no-ai" id="dx-compare">
-            <div class="dx-compare-row dx-compare-header">
-              <span></span>
-              <span>Yours</span>
-              <span class="dx-compare-ai-col">AI assist</span>
-            </div>
             <div class="dx-compare-row">
-              <span class="dx-compare-label">Primary</span>
-              <div class="dx-compare-yours">
+              <div class="dx-compare-cell">
+                <label for="dx-primary">Your primary</label>
                 <input type="text" id="dx-primary" placeholder="Enter your diagnosis…" autocomplete="off" />
               </div>
-              <div class="dx-compare-ai">
+              <div class="dx-compare-cell dx-compare-ai">
+                <label>AI primary</label>
                 <span class="ai-dx-readout empty" id="ai-dx-primary">—</span>
               </div>
             </div>
             <div class="dx-compare-row">
-              <span class="dx-compare-label">Diff 1</span>
-              <div class="dx-compare-yours">
+              <div class="dx-compare-cell">
+                <label for="dx-diff1">Your diff 1</label>
                 <input type="text" id="dx-diff1" placeholder="Optional" autocomplete="off" />
               </div>
-              <div class="dx-compare-ai">
+              <div class="dx-compare-cell dx-compare-ai">
+                <label>AI diff 1</label>
                 <span class="ai-dx-readout empty" id="ai-dx-diff1">—</span>
               </div>
             </div>
             <div class="dx-compare-row">
-              <span class="dx-compare-label">Diff 2</span>
-              <div class="dx-compare-yours">
+              <div class="dx-compare-cell">
+                <label for="dx-diff2">Your diff 2</label>
                 <input type="text" id="dx-diff2" placeholder="Optional" autocomplete="off" />
               </div>
-              <div class="dx-compare-ai">
+              <div class="dx-compare-cell dx-compare-ai">
+                <label>AI diff 2</label>
                 <span class="ai-dx-readout empty" id="ai-dx-diff2">—</span>
               </div>
             </div>
@@ -485,6 +498,11 @@
           <div class="form-group">
             <label for="comments">Comments</label>
             <textarea id="comments" placeholder="Notes, reasoning, caveats…"></textarea>
+          </div>
+          <div class="form-group" id="ai-helpfulness-group">
+            <label>AI assist helpfulness <span style="font-weight:400;color:var(--muted)">(required · 1 = not helpful · 5 = very helpful)</span></label>
+            <div class="helpfulness-row" id="ai-helpfulness-row"></div>
+            <p id="ai-helpfulness-error" class="field-error hidden" role="alert"></p>
           </div>
         </section>
       </aside>
@@ -530,6 +548,9 @@
       dxDiff1: document.getElementById("dx-diff1"),
       dxDiff2: document.getElementById("dx-diff2"),
       comments: document.getElementById("comments"),
+      aiHelpfulnessRow: document.getElementById("ai-helpfulness-row"),
+      aiHelpfulnessGroup: document.getElementById("ai-helpfulness-group"),
+      aiHelpfulnessError: document.getElementById("ai-helpfulness-error"),
       magLabel: document.getElementById("mag-label"),
       loading: document.getElementById("loading"),
       exportBtn: document.getElementById("export-btn"),
@@ -553,6 +574,68 @@
     let loadedCaseId = null;
     let reviewerPasscode = "";
     let lockedReviewerId = null;
+    let aiHelpfulnessScore = null;
+
+    function initAiHelpfulness() {
+      if (!els.aiHelpfulnessRow || els.aiHelpfulnessRow.dataset.ready) return;
+      els.aiHelpfulnessRow.dataset.ready = "1";
+      els.aiHelpfulnessRow.innerHTML = "";
+      for (let score = 1; score <= 5; score += 1) {
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "helpfulness-btn";
+        btn.dataset.score = String(score);
+        btn.title = `${score} / 5`;
+        btn.textContent = String(score);
+        btn.addEventListener("click", () => {
+          setAiHelpfulnessScore(score);
+          scheduleSave();
+        });
+        els.aiHelpfulnessRow.appendChild(btn);
+      }
+    }
+
+    function hasAiHelpfulnessScore() {
+      return aiHelpfulnessScore >= 1 && aiHelpfulnessScore <= 5;
+    }
+
+    function caseHasAssessmentContent(row) {
+      return Boolean(
+        row.dx?.trim() ||
+        row.differential1?.trim() ||
+        row.differential2?.trim() ||
+        row.comments?.trim()
+      );
+    }
+
+    function getReviewValidationError(row) {
+      if (!caseHasAssessmentContent(row)) return "";
+      if (hasAiHelpfulnessScore()) return "";
+      return "Select an AI assist helpfulness score (1–5) before continuing.";
+    }
+
+    function showAiHelpfulnessError(message = "") {
+      if (!message) {
+        els.aiHelpfulnessError?.classList.add("hidden");
+        if (els.aiHelpfulnessError) els.aiHelpfulnessError.textContent = "";
+        els.aiHelpfulnessGroup?.classList.remove("invalid");
+        return;
+      }
+      if (els.aiHelpfulnessError) {
+        els.aiHelpfulnessError.textContent = message;
+        els.aiHelpfulnessError.classList.remove("hidden");
+      }
+      els.aiHelpfulnessGroup?.classList.add("invalid");
+      els.aiHelpfulnessError?.scrollIntoView({ block: "nearest", behavior: "smooth" });
+    }
+
+    function setAiHelpfulnessScore(score) {
+      aiHelpfulnessScore = score >= 1 && score <= 5 ? score : null;
+      els.aiHelpfulnessRow?.querySelectorAll(".helpfulness-btn").forEach((btn) => {
+        btn.classList.toggle("selected", Number(btn.dataset.score) === aiHelpfulnessScore);
+      });
+      if (hasAiHelpfulnessScore()) showAiHelpfulnessError("");
+    }
     let aiIndex = null;
     let aiByCase = new Map();
     let aiBundleCache = new Map();
@@ -1000,6 +1083,7 @@
           differential1: row.differential1,
           differential2: row.differential2,
           comments: row.comments,
+          ai_helpfulness_score: row.ai_helpfulness_score,
         }),
       });
       if (!resp.ok) {
@@ -1055,9 +1139,10 @@
       els.gateError.classList.remove("hidden");
     }
 
-    function setSaveStatus(text, saved = false) {
+    function setSaveStatus(text, saved = false, isError = false) {
       els.saveStatus.textContent = text;
-      els.saveStatus.classList.toggle("saved", saved);
+      els.saveStatus.classList.toggle("saved", saved && !isError);
+      els.saveStatus.classList.toggle("error", isError);
     }
 
     function scheduleSave() {
@@ -1073,6 +1158,7 @@
         differential1: els.dxDiff1.value.trim(),
         differential2: els.dxDiff2.value.trim(),
         comments: els.comments.value.trim(),
+        ai_helpfulness_score: aiHelpfulnessScore,
         updated_at: new Date().toISOString(),
       };
     }
@@ -1081,6 +1167,13 @@
       const c = cases[currentIndex];
       if (!c || !reviewer || loadedCaseId !== c.id) return true;
       const row = currentFormRow();
+      const validationError = getReviewValidationError(row);
+      if (validationError) {
+        showAiHelpfulnessError(validationError);
+        if (!keepalive) setSaveStatus(validationError, false, true);
+        return false;
+      }
+      showAiHelpfulnessError("");
 
       try {
         const result = await saveReviewToServer(c.id, row, { keepalive });
@@ -1090,6 +1183,7 @@
             differential1: result.review.differential1,
             differential2: result.review.differential2,
             comments: result.review.comments,
+            ai_helpfulness_score: result.review.ai_helpfulness_score ?? null,
             updated_at: result.review.updated_at,
             created_at: result.review.created_at,
           };
@@ -1098,7 +1192,8 @@
         return true;
       } catch (err) {
         console.warn("Save failed:", err);
-        if (!keepalive) setSaveStatus("Save failed — check connection", false);
+        const message = err?.message || "Save failed — check connection";
+        if (!keepalive) setSaveStatus(message, false, true);
         return false;
       } finally {
         if (!keepalive) {
@@ -1115,7 +1210,8 @@
 
     function isReviewed(caseId) {
       const r = reviews?.cases?.[caseId];
-      return Boolean(r?.dx?.trim()) && Boolean(r?.updated_at);
+      const score = r?.ai_helpfulness_score;
+      return Boolean(r?.dx?.trim()) && score >= 1 && score <= 5 && Boolean(r?.updated_at);
     }
 
     function progressStats() {
@@ -1186,6 +1282,8 @@
       els.dxDiff1.value = r.differential1 || "";
       els.dxDiff2.value = r.differential2 || "";
       els.comments.value = r.comments || "";
+      setAiHelpfulnessScore(r.ai_helpfulness_score ?? null);
+      showAiHelpfulnessError("");
       suppressFormEvents = false;
       loadedCaseId = caseId;
       setSaveStatus(r.updated_at ? "Loaded from server" : "Ready", Boolean(r.dx));
@@ -1262,7 +1360,8 @@
 
     async function showCase(index, pushState = true) {
       if (!cases.length) return;
-      await flushCurrentCase();
+      const saved = await flushCurrentCase();
+      if (!saved) return;
       clearAiHighlight();
       currentIndex = Math.max(0, Math.min(index, cases.length - 1));
       const c = cases[currentIndex];
@@ -1334,7 +1433,7 @@
             setGateError(err.message);
             showGate();
           } else {
-            alert(`Could not load your saved responses: ${err.message}\n\nFor local exploration, run: cd rosai-pathologist-review-slideseek && ./serve.sh`);
+            alert(`Could not load your saved responses: ${err.message}\n\nFor local exploration, run: ./serve.sh`);
             showGate();
           }
           return;
@@ -1498,6 +1597,7 @@
       if (e.key === "ArrowRight") showCase(currentIndex + 1);
     });
 
+    initAiHelpfulness();
     bootstrap();
   </script>
 </body>

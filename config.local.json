@@ -1,0 +1,13 @@
+{
+  "study_id": "rosai-ai-assist-correct-v1",
+  "storage_version": 4,
+  "slides_base_url": "https://storage.googleapis.com/rosai-100/czi/",
+  "manifest_url": "https://storage.googleapis.com/rosai-100/czi/manifest.json",
+  "assignments_url": "assignments.json",
+  "ai_index_url": "ai-assist/index.json",
+  "ai_base_url": "ai-assist/",
+  "ai_source": "slideseek-ai-assist",
+  "api_base_url": "http://127.0.0.1:8781",
+  "local_exploration": true,
+  "require_passcode": false
+}
