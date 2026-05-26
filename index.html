@@ -143,18 +143,6 @@
     }
     .roi-link:hover { background: #bfdbfe; }
     .roi-link.active { background: #f59e0b; color: #1a1207; }
-    .roi-tooltip {
-      position: fixed; z-index: 1000;
-      max-width: min(360px, calc(100vw - 24px));
-      max-height: min(260px, calc(100vh - 24px));
-      overflow: auto;
-      padding: 10px 12px;
-      border-radius: 10px;
-      background: #1a2332; color: #f4f6f9;
-      font-size: 0.78rem; line-height: 1.45;
-      box-shadow: 0 8px 28px rgba(0, 0, 0, 0.28);
-      pointer-events: none; white-space: pre-wrap;
-    }
     .ai-empty { font-size: 0.84rem; color: var(--muted); font-style: italic; padding: 8px 0; }
     .ai-roi-highlight {
       border: 3px solid #f59e0b;
@@ -259,11 +247,15 @@
       display: block; margin-bottom: 5px; font-size: 0.7rem; font-weight: 700;
       text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted);
     }
-    .dx-compare-cell input { padding: 8px 10px; font-size: 0.84rem; width: 100%; box-sizing: border-box; }
+    .dx-compare-cell textarea.dx-input {
+      padding: 8px 10px; font-size: 0.84rem; width: 100%; box-sizing: border-box;
+      min-height: 52px; resize: none; line-height: 1.45; overflow: hidden;
+    }
     .ai-dx-readout {
       display: block; padding: 8px 10px; font-size: 0.82rem; line-height: 1.4;
       color: var(--text); background: var(--surface-muted);
       border: 1px solid var(--border); border-radius: 10px; min-height: 36px;
+      white-space: pre-wrap;
     }
     .ai-dx-readout.empty { color: var(--muted); font-style: italic; }
     .assessment-sticky textarea { min-height: 52px; }
@@ -467,7 +459,7 @@
             <div class="dx-compare-row">
               <div class="dx-compare-cell">
                 <label for="dx-primary">Your primary</label>
-                <input type="text" id="dx-primary" placeholder="Enter your diagnosis…" autocomplete="off" />
+                <textarea id="dx-primary" class="dx-input" rows="2" placeholder="Enter your diagnosis…" autocomplete="off"></textarea>
               </div>
               <div class="dx-compare-cell dx-compare-ai">
                 <label>AI primary</label>
@@ -477,7 +469,7 @@
             <div class="dx-compare-row">
               <div class="dx-compare-cell">
                 <label for="dx-diff1">Your diff 1</label>
-                <input type="text" id="dx-diff1" placeholder="Optional" autocomplete="off" />
+                <textarea id="dx-diff1" class="dx-input" rows="2" placeholder="Optional" autocomplete="off"></textarea>
               </div>
               <div class="dx-compare-cell dx-compare-ai">
                 <label>AI diff 1</label>
@@ -487,7 +479,7 @@
             <div class="dx-compare-row">
               <div class="dx-compare-cell">
                 <label for="dx-diff2">Your diff 2</label>
-                <input type="text" id="dx-diff2" placeholder="Optional" autocomplete="off" />
+                <textarea id="dx-diff2" class="dx-input" rows="2" placeholder="Optional" autocomplete="off"></textarea>
               </div>
               <div class="dx-compare-cell dx-compare-ai">
                 <label>AI diff 2</label>
@@ -558,6 +550,17 @@
       aiPanel: document.getElementById("ai-panel"),
     };
     const formFields = [els.dxPrimary, els.dxDiff1, els.dxDiff2, els.comments];
+    const dxFields = [els.dxPrimary, els.dxDiff1, els.dxDiff2];
+
+    function autoResizeDxField(el) {
+      if (!el) return;
+      el.style.height = "auto";
+      el.style.height = `${Math.max(el.scrollHeight, 52)}px`;
+    }
+
+    function autoResizeDxFields() {
+      dxFields.forEach(autoResizeDxField);
+    }
 
     let config = null;
     let assignments = null;
@@ -645,7 +648,6 @@
     let aiOverlayEl = null;
     let roiById = new Map();
     let pendingZoomTileId = null;
-    let roiTooltipEl = null;
 
     function resolveUrl(relativeOrAbsolute) {
       if (!relativeOrAbsolute) return "";
@@ -783,41 +785,8 @@
       return { primary, diffs, findings, interpretation };
     }
 
-    function roiCaptionText(roiId) {
-      return String(roiById.get(roiId)?.description || "").trim();
-    }
-
-    function hideRoiTooltip() {
-      if (roiTooltipEl) {
-        roiTooltipEl.remove();
-        roiTooltipEl = null;
-      }
-    }
-
-    function showRoiTooltip(anchor, text) {
-      hideRoiTooltip();
-      if (!text) return;
-      roiTooltipEl = document.createElement("div");
-      roiTooltipEl.className = "roi-tooltip";
-      roiTooltipEl.textContent = text;
-      document.body.appendChild(roiTooltipEl);
-      const anchorRect = anchor.getBoundingClientRect();
-      const tipRect = roiTooltipEl.getBoundingClientRect();
-      let left = anchorRect.left;
-      let top = anchorRect.bottom + 8;
-      if (left + tipRect.width > window.innerWidth - 12) {
-        left = Math.max(12, window.innerWidth - tipRect.width - 12);
-      }
-      if (top + tipRect.height > window.innerHeight - 12) {
-        top = Math.max(12, anchorRect.top - tipRect.height - 8);
-      }
-      roiTooltipEl.style.left = `${left}px`;
-      roiTooltipEl.style.top = `${top}px`;
-    }
-
-    function roiLinkHtml(roiId, { withCaption = false } = {}) {
-      const cls = withCaption ? "roi-link roi-link-caption" : "roi-link";
-      return `<button type="button" class="${cls}" data-tile-id="${escapeHtml(roiId)}">${escapeHtml(shortRoiLabel(roiId))}</button>`;
+    function roiLinkHtml(roiId) {
+      return `<button type="button" class="roi-link" data-tile-id="${escapeHtml(roiId)}">${escapeHtml(shortRoiLabel(roiId))}</button>`;
     }
 
     function formatAssistText(text) {
@@ -843,7 +812,7 @@
 
     function formatRoiParens(rois) {
       if (!rois.length) return "";
-      const links = rois.map((roiId) => roiLinkHtml(roiId, { withCaption: true })).join("; ");
+      const links = rois.map((roiId) => roiLinkHtml(roiId)).join("; ");
       return `<span class="ai-finding-rois"> (${links})</span>`;
     }
 
@@ -929,26 +898,14 @@
       container.querySelectorAll(".roi-link").forEach((btn) => {
         btn.addEventListener("click", (event) => {
           event.preventDefault();
-          hideRoiTooltip();
           zoomToTile(btn.dataset.tileId);
         });
-      });
-      container.querySelectorAll(".roi-link-caption").forEach((btn) => {
-        btn.addEventListener("mouseenter", () => {
-          showRoiTooltip(btn, roiCaptionText(btn.dataset.tileId));
-        });
-        btn.addEventListener("mouseleave", hideRoiTooltip);
-        btn.addEventListener("focus", () => {
-          showRoiTooltip(btn, roiCaptionText(btn.dataset.tileId));
-        });
-        btn.addEventListener("blur", hideRoiTooltip);
       });
     }
 
     function clearAiHighlight() {
       activeTileId = null;
       activeRoiLevel0 = null;
-      hideRoiTooltip();
       document.querySelectorAll(".roi-link.active").forEach((el) => el.classList.remove("active"));
       if (viewer && aiOverlayEl) {
         viewer.removeOverlay(aiOverlayEl);
@@ -1285,6 +1242,7 @@
       setAiHelpfulnessScore(r.ai_helpfulness_score ?? null);
       showAiHelpfulnessError("");
       suppressFormEvents = false;
+      autoResizeDxFields();
       loadedCaseId = caseId;
       setSaveStatus(r.updated_at ? "Loaded from server" : "Ready", Boolean(r.dx));
     }
@@ -1572,7 +1530,10 @@
     document.getElementById("zoom-out").addEventListener("click", () => viewer?.viewport.zoomBy(0.61, null, true));
     document.getElementById("home-btn").addEventListener("click", () => viewer?.viewport.goHome(true));
     formFields.forEach((el) => {
-      el.addEventListener("input", scheduleSave);
+      el.addEventListener("input", () => {
+        if (dxFields.includes(el)) autoResizeDxField(el);
+        scheduleSave();
+      });
       el.addEventListener("change", scheduleSave);
     });
     window.addEventListener("beforeunload", flushOnExit);
@@ -1588,6 +1549,7 @@
         if (e.altKey && e.key === "ArrowRight") { e.preventDefault(); showCase(currentIndex + 1); }
         return;
       }
+      if (e.ctrlKey || e.metaKey || e.altKey) return;
       if (e.key === "c" || e.key === "C") {
         e.preventDefault();
         toggleCaseChart();
